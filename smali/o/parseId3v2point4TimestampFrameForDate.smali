@@ -1,0 +1,527 @@
+.class public interface abstract Lo/parseId3v2point4TimestampFrameForDate;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010$\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\u0008f\u0018\u00002\u00020\u0001JQ\u0010\t\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0014\u0008\u0001\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u0004H\'\u00a2\u0006\u0004\u0008\t\u0010\nJQ\u0010\u000b\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0014\u0008\u0001\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u0004H\'\u00a2\u0006\u0004\u0008\u000b\u0010\nJE\u0010\t\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0008\u0008\u0001\u0010\u0006\u001a\u00020\u0002H\'\u00a2\u0006\u0004\u0008\t\u0010\u000cJE\u0010\t\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0008\u0008\u0001\u0010\u0006\u001a\u00020\rH\'\u00a2\u0006\u0004\u0008\t\u0010\u000eJ;\u0010\u000f\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u0004H\'\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J[\u0010\u000f\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0014\u0008\u0001\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0008\u0008\u0001\u0010\u0011\u001a\u00020\u0002H\'\u00a2\u0006\u0004\u0008\u000f\u0010\u0012J[\u0010\u0013\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0014\u0008\u0001\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0008\u0008\u0001\u0010\u0011\u001a\u00020\rH\'\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J;\u0010\u000b\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u0004H\'\u00a2\u0006\u0004\u0008\u000b\u0010\u0010J[\u0010\u0015\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0014\u0008\u0001\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0008\u0008\u0001\u0010\u0011\u001a\u00020\u0002H\'\u00a2\u0006\u0004\u0008\u0015\u0010\u0012J[\u0010\t\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0014\u0008\u0001\u0010\u0006\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u00042\u0008\u0008\u0001\u0010\u0011\u001a\u00020\rH\'\u00a2\u0006\u0004\u0008\t\u0010\u0014J;\u0010\u0013\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u0004H\'\u00a2\u0006\u0004\u0008\u0013\u0010\u0010J%\u0010\u000b\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00160\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u0002H\'\u00a2\u0006\u0004\u0008\u000b\u0010\u0017J;\u0010\t\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u00080\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u00022\u0014\u0008\u0001\u0010\u0005\u001a\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00020\u0004H\'\u00a2\u0006\u0004\u0008\t\u0010\u0010J\u001f\u0010\u000f\u001a\u0008\u0012\u0004\u0012\u00020\u00180\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u0002H\'\u00a2\u0006\u0004\u0008\u000f\u0010\u0017\u00c0\u0006\u0003"
+    }
+    d2 = {
+        "Lo/parseId3v2point4TimestampFrameForDate;",
+        "",
+        "",
+        "p0",
+        "",
+        "p1",
+        "p2",
+        "Lo/getIconUrls;",
+        "Lo/getUseCache;",
+        "e",
+        "(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Lo/getIconUrls;",
+        "a",
+        "(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Lo/getIconUrls;",
+        "Lokhttp3/RequestBody;",
+        "(Ljava/lang/String;Ljava/util/Map;Lokhttp3/RequestBody;)Lo/getIconUrls;",
+        "b",
+        "(Ljava/lang/String;Ljava/util/Map;)Lo/getIconUrls;",
+        "p3",
+        "(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;)Lo/getIconUrls;",
+        "d",
+        "(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lokhttp3/RequestBody;)Lo/getIconUrls;",
+        "c",
+        "Ljava/lang/Void;",
+        "(Ljava/lang/String;)Lo/getIconUrls;",
+        "Lo/NezhaExtendLibsManagergetExtendLib32;"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/Void;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/ResourceInitData;
+    .end annotation
+.end method
+
+.method public abstract a(Ljava/lang/String;Ljava/util/Map;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/getSt;
+    .end annotation
+.end method
+
+.method public abstract a(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Map;
+        .annotation runtime Lo/ResourceDownloadErrorData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/RenderCreateData;
+    .end annotation
+
+    .annotation runtime Lo/SubPackageDownloadErrorData;
+    .end annotation
+.end method
+
+.method public abstract b(Ljava/lang/String;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/NezhaExtendLibsManagergetExtendLib32;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/getCheckArea;
+    .end annotation
+
+    .annotation runtime Lo/getProcessMonitorInfo;
+    .end annotation
+.end method
+
+.method public abstract b(Ljava/lang/String;Ljava/util/Map;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/WidgetMonitor;
+    .end annotation
+.end method
+
+.method public abstract b(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Map;
+        .annotation runtime Lo/getBlankThreshold;
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lo/setSt;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/WidgetMonitor;
+    .end annotation
+.end method
+
+.method public abstract c(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/lang/String;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Map;
+        .annotation runtime Lo/getBlankThreshold;
+        .end annotation
+    .end param
+    .param p4    # Ljava/lang/String;
+        .annotation runtime Lo/setSt;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/SDKDownloadErrorData;
+        d = "DELETE"
+        e = true
+    .end annotation
+.end method
+
+.method public abstract d(Ljava/lang/String;Ljava/util/Map;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/ResourceInitData;
+    .end annotation
+
+    .annotation runtime Lo/getTwIndex;
+    .end annotation
+.end method
+
+.method public abstract d(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lokhttp3/RequestBody;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Map;
+        .annotation runtime Lo/getBlankThreshold;
+        .end annotation
+    .end param
+    .param p4    # Lokhttp3/RequestBody;
+        .annotation runtime Lo/setSt;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Lokhttp3/RequestBody;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/WidgetMonitor;
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/String;Ljava/util/Map;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/getRetryFailed;
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation runtime Lo/setSt;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/SubPackageDownloadData;
+        a = {
+            "Content-Type:application/json"
+        }
+    .end annotation
+
+    .annotation runtime Lo/SubPackageDownloadErrorData;
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Map;
+        .annotation runtime Lo/getBlankThreshold;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/getProcessMonitorInfo;
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lokhttp3/RequestBody;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Ljava/util/Map;
+        .annotation runtime Lo/getBlankThreshold;
+        .end annotation
+    .end param
+    .param p4    # Lokhttp3/RequestBody;
+        .annotation runtime Lo/setSt;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Lokhttp3/RequestBody;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/SDKDownloadErrorData;
+        d = "DELETE"
+        e = true
+    .end annotation
+.end method
+
+.method public abstract e(Ljava/lang/String;Ljava/util/Map;Lokhttp3/RequestBody;)Lo/getIconUrls;
+    .param p1    # Ljava/lang/String;
+        .annotation runtime Lo/WorkerInjectStartData;
+        .end annotation
+    .end param
+    .param p2    # Ljava/util/Map;
+        .annotation runtime Lo/SDKDownloadData;
+        .end annotation
+    .end param
+    .param p3    # Lokhttp3/RequestBody;
+        .annotation runtime Lo/setSt;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;",
+            "Lokhttp3/RequestBody;",
+            ")",
+            "Lo/getIconUrls<",
+            "Lo/getUseCache<",
+            "Ljava/lang/String;",
+            ">;>;"
+        }
+    .end annotation
+
+    .annotation runtime Lo/SubPackageDownloadErrorData;
+    .end annotation
+.end method

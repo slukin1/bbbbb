@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427545" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431121" ="wrap_content" ="wrap_content" ="9.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131629262" />
+    <TextView ="@color/2131099778" android:id="@id/2131443454" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/earn_select_auto_compound_plan" 2130969937="2131438103" 2130969940="@id/2131431121" style="@style/2132149450" />
+    <com.binance.earn.widgets.CompoundAutoSwitchView android:id="@id/2131430222" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443454" 2130971379="@string/earn_basic_plan_checkbox_tip_v2" 2130971381="@string/earn_take_basic_auto_compound_plan" />
+    <com.binance.earn.widgets.CompoundAutoSwitchView android:id="@id/2131430221" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430222" 2130971379="@string/earn_advanced_plan_checkbox_tip_v2" 2130971381="@string/earn_take_advanced_auto_compound_plan" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428858" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="1.0" ="13.0dip" 2130969911="2131438103" 2130969918="@id/2131428831" 2130969937="2131438103" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428831" ="0.0dip" ="wrap_content" android:text="@string/earn_next_step" ="1.0" ="8.0dip" ="13.0dip" 2130969911="@id/2131428858" 2130969917="2131438103" 2130969936="@id/2131428858" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

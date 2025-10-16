@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/tvTitle" ="16.0dip" ="16.0dip" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/spotlight_coin_name" ="1" 2130968700="@dimen/2131167704" 2130968701="@dimen/2131167698" 2130968705="2131449068" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="center_horizontal" android:id="@id/2131447950" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" ="0.0dip" android:text="@string/spotlight_coin_description" ="4" 2130968700="@dimen/2131167694" 2130968701="@dimen/2131167692" 2130968705="2131449068" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149355" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131438095" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447950" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439658" ="wrap_content" ="wrap_content" ="30.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

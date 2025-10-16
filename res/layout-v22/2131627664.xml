@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232656" ="15.0dip" ="15.0dip" ="30.0dip" ="fill_parent" ="wrap_content" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437170" ="20.0dip" ="20.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237053" />
+    <TextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131437173" ="wrap_content" ="0.0dip" android:text="@string/confirm_send_dialog_network_fee" ="8.0dip" 2130969911="@id/2131437170" 2130969936="@id/2131437170" 2130969941="@id/2131437170" style="@style/2132149450" />
+    <include android:id="@id/2131437172" ="fill_parent" ="62.0dip" ="20.0dip" 2130969940="@id/2131437173" layout="@layout/2131627665" />
+    <include android:id="@id/2131437169" ="fill_parent" ="62.0dip" ="20.0dip" 2130969940="@id/2131437172" layout="@layout/2131627665" />
+    <include android:id="@id/2131437171" ="fill_parent" ="62.0dip" ="20.0dip" 2130969940="@id/2131437169" layout="@layout/2131627665" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" ="42.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="24.0dip" ="5.0dip" ="12.0dip" ="5.0dip" ="@dimen/2131166260" />
+        <com.binance.base.widget.LineChartPnlView android:id="@id/2131435872" ="fill_parent" ="218.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" />
+        <TextView ="@color/2131099778" android:id="@id/2131444264" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" style="@style/2132149394" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

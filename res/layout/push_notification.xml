@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/push_root_view" ="8.0dip" ="2.0dip" ="8.0dip" ="4.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/push_notification_bg" ="fill_parent" ="fill_parent" ="centerCrop" />
+    <RelativeLayout android:id="@id/push_notification_style_default" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/push_notification_layout_lefttop" ="wrap_content" ="wrap_content" ="@id/push_notification_big_icon" ="true" ="true">
+            <ImageView android:id="@id/push_notification_small_icon" ="18.0dip" ="18.0dip" ="6.0dip" ="centerInside" />
+            <TextView ="12.0sp" ="@android:color/black" android:id="@id/push_notification_title" ="wrap_content" ="wrap_content" ="4.0dip" ="200.0dip" ="1" ="24" />
+            <TextView ="20.0sp" ="@android:color/black" android:id="@id/push_notification_dot" ="wrap_content" ="wrap_content" ="4.0dip" android:text="· " />
+            <TextView ="12.0sp" ="@android:color/black" android:id="@id/push_notification_date" ="wrap_content" ="wrap_content" ="1" />
+        </LinearLayout>
+        <ImageView android:id="@id/push_notification_big_icon" ="48.0dip" ="48.0dip" ="8.0dip" ="centerInside" ="true" ="true" />
+        <TextView ="13.0sp" ="@android:color/black" android:id="@id/push_notification_sub_title" ="gone" ="fill_parent" ="wrap_content" ="6.0dip" ="1.0dip" ="4.0dip" ="1" ="@id/push_notification_big_icon" ="@id/push_notification_layout_lefttop" />
+        <TextView ="13.0sp" ="@android:color/black" ="end" android:id="@id/push_notification_content" ="fill_parent" ="wrap_content" ="6.0dip" ="1.0dip" ="4.0dip" ="2" ="@id/push_notification_big_icon" ="@id/push_notification_sub_title" />
+        <TextView ="13.0sp" ="@android:color/black" ="end" android:id="@id/push_notification_content_one_line" ="gone" ="fill_parent" ="wrap_content" ="6.0dip" ="1.0dip" ="4.0dip" ="1" ="@id/push_notification_big_icon" ="@id/push_notification_sub_title" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/push_notification_style_1" ="gone" ="fill_parent" ="wrap_content">
+        <ImageView android:id="@id/push_notification_style_1_big_icon" ="50.0dip" ="50.0dip" ="centerInside" ="true" ="true" />
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="6.0dip" ="@id/push_notification_style_1_big_icon" ="true">
+            <RelativeLayout ="fill_parent" ="wrap_content">
+                <TextView ="12.0sp" android:id="@id/push_notification_style_1_date" ="wrap_content" ="wrap_content" ="true" />
+                <TextView ="12.0sp" ="bold" android:id="@id/push_notification_style_1_title" ="fill_parent" ="wrap_content" ="8.0dip" ="1" ="@id/push_notification_style_1_date" ="true" />
+            </RelativeLayout>
+            <TextView ="13.0sp" ="@android:color/black" ="end" android:id="@id/push_notification_style_1_content" ="wrap_content" ="wrap_content" ="1.0dip" ="4.0dip" ="2" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

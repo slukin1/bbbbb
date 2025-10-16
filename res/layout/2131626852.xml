@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437789" ="fill_parent" ="wrap_content" 2130970863="@null" />
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="32.0dip" ="34.0dip">
+        <ImageView android:id="@id/2131431787" ="@drawable/2131235546" ="24.0dip" ="24.0dip" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431789" ="wrap_content" ="fill_parent" ="false" ="12.0dip" style="@style/2132149419" />
+        <Space ="0.0dip" ="wrap_content" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end|center" android:id="@id/2131431780" ="200.0dip" ="fill_parent" ="1" ="false" 2130968700="@dimen/2131167704" 2130968701="@dimen/2131167690" 2130968704="1.0sp" 2130968705="2131449068" style="@style/2132149419" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/fiat_history_bank_details" ="false" style="@style/2132149446" />
+    <View ="@color/2131101275" ="fill_parent" ="0.5dip" ="6.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip" ="22.0dip">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131429434" ="0.0dip" ="wrap_content" 2130969921="0.5" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/ocbs_payment_clabe" ="1" 2130969918="@id/2131429434" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427443" ="2.0dip" ="2.0dip" ="18.0dip" ="22.0dip" ="8.0dip" 2130969911="@id/2131427444" 2130969917="2131438103" 2130969936="@id/2131427444" 2130969941="@id/2131427444" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131427444" ="0.0dip" ="wrap_content" android:text="--" ="100" 2130969918="@id/2131427443" 2130969937="@id/2131429434" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131428279" ="0.0dip" ="wrap_content" ="12.0dip" android:text="--" 2130969918="@id/2131428278" 2130969936="@id/2131429434" 2130969940="@id/2131427444" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428278" ="2.0dip" ="2.0dip" ="18.0dip" ="22.0dip" ="8.0dip" 2130969911="@id/2131428279" 2130969917="2131438103" 2130969936="@id/2131428279" 2130969941="@id/2131428279" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/fiat_history_bank_details_bank_name" ="1" 2130969918="@id/2131429434" 2130969937="2131438103" 2130969941="@id/2131428279" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131428445" ="0.0dip" ="wrap_content" ="12.0dip" android:text="--" 2130969918="@id/2131428444" 2130969936="@id/2131429434" 2130969940="@id/2131428279" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428444" ="2.0dip" ="2.0dip" ="18.0dip" ="22.0dip" ="8.0dip" 2130969911="@id/2131428445" 2130969917="2131438103" 2130969936="@id/2131428445" 2130969941="@id/2131428445" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/ocbs_beneficiary" ="1" 2130969918="@id/2131429434" 2130969937="2131438103" 2130969941="@id/2131428445" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.switchpro.CubeLayout android:id="@id/2131430628" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131438432" ="@color/2131099676" ="fill_parent" ="1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.major.android.uikit.search.KitSearchBar android:id="@id/2131449019" ="fill_parent" ="wrap_content" ="12.0dip" ="3.0dip" ="3.0dip" 2130968735="@color/2131103064" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+        <FrameLayout android:id="@id/2131438938" ="fill_parent" ="fill_parent" />
+    </LinearLayout>
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131427897" ="fill_parent" ="fill_parent" ="centerCrop" 2130970039="false" 2130970050="false" />
+</com.binance.base.switchpro.CubeLayout>

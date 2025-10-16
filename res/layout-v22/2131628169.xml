@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" ="@id/2131440845" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="start" android:id="@id/title" ="16.0dip" ="0.0dip" ="wrap_content" ="16.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131428508" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" 2130969947="500.0dip" style="?2130971282" />
+        <TextView android:id="@id/2131428508" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" 2130969912="@id/2131439214" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" 2130969947="500.0dip" style="?2130971299" />
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439214" ="vertical" ="0.0dip" ="0.0dip" ="8.0dip" ="24.0dip" ="24.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130969912="@id/2131430967" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428508" 2130969947="500.0dip" 2130971059="2" />
+        <TextView android:id="@id/2131430967" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" 2130969912="@id/2131440845" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439214" 2130969947="500.0dip" style="?2130971299" />
+        <Button android:id="@id/2131440845" ="0.0dip" ="wrap_content" 2130969911="@id/2131428570" 2130969917="@id/2131439242" 2130969937="@id/2131435813" 2130969940="@id/2131430967" 2130969947="500.0dip" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131435813" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131167682" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131439242" ="wrap_content" ="wrap_content" 2130969920="@dimen/2131167682" />
+        <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131428570" ="wrap_content" ="wrap_content" 2130969920="24.0dip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

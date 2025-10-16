@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436634" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="wrap_content">
+        <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441071" ="8.0dip" ="8.0dip" ="false" ="fill_parent" ="38.0dip" />
+        <View ="bottom" android:id="@id/2131449216" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131439815" ="fill_parent" ="0.0dip" ="1.0" />
+</LinearLayout>

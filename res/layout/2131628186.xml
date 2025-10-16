@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440026" ="#aa000000" ="gone" ="fill_parent" ="fill_parent" ="0.0" ="no" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131428579" ="fill_parent" ="wrap_content" ="1.0dip" 2130968769="true" 2130968771="0.0dip" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <LinearLayout ="vertical" android:id="@id/2131435935" ="@drawable/2131235802" ="true" ="true" ="fill_parent" ="wrap_content" ="no">
+                <com.google.android.material.appbar.MaterialToolbar android:id="@id/2131441678" ="fill_parent" ="wrap_content" ="?2130968589" 2130968851="@null" 2130969141="0.0dip" app:2130970193="@menu/2131755012" 2130970295="@drawable/2131235871" 2130970296="?2130969063">
+                    <TextView android:id="@id/2131441391" ="wrap_content" ="wrap_content" ="1.0" ="yes" style="?2130971282" />
+                    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131439838" ="fill_parent" ="wrap_content" 2130968810="0.0dip" 2130968811="0.0dip" 2130969365="2131430072" 2130969420="false" 2130969579="false">
+                        <com.google.android.material.textfield.TextInputEditText android:id="@id/2131439837" ="@android:color/transparent" ="fill_parent" ="wrap_content" android:hint="@string/pi2_search_bar" ="yes" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </com.google.android.material.appbar.MaterialToolbar>
+                <View android:id="@id/2131435936" ="@android:color/darker_gray" ="fill_parent" ="1.0dip" ="no" 2130969912="@id/2131439092" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439092" ="fill_parent" ="wrap_content" ="yes" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969947="500.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/2131439341" ="invisible" ="none" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436359" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" ="fill_parent" ="579.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434918" ="0.0dip" ="0.0dip" ="fitXY" 2130969916="375:347" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <LinearLayout ="center" ="fill_parent" ="fill_parent">
+                <LinearLayout ="center_horizontal" ="vertical" ="@drawable/2131235613" ="30.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="15.0dip" ="15.0dip">
+                    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="#ffeaecef" ="bottom|center" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/payment_receive_scan_to_pay" ="@font/2131296265" />
+                    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131440046" ="200.0dip" ="200.0dip" ="20.0dip" />
+                    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="20.0dip">
+                        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="#ffeaecef" android:id="@id/2131444644" ="wrap_content" ="wrap_content" android:text="--" ="@font/2131296265" />
+                        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="#ff848e9c" android:id="@id/2131444645" ="wrap_content" ="wrap_content" ="@font/2131296265" ="3.0dip" />
+                    </LinearLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" android:id="@id/2131436357" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" ="40.0dip" ="@dimen/2131166184">
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434840" ="gone" ="30.0dip" ="30.0dip" ="5.0dip" 2130969911="2131438103" 2130969918="@id/2131444639" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+                        <androidx.appcompat.widget.AppCompatTextView ="#ffeaecef" ="end" ="center" android:id="@id/2131444639" ="visible" ="wrap_content" ="wrap_content" ="2" ="5.0dip" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969928="2131438085" 2130969936="@id/2131434840" 2130969941="2131438103" style="@style/2132149459" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout ="center" ="horizontal" android:id="@id/2131436460" ="fill_parent" ="88.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434159" ="56.0dip" ="56.0dip" ="50.0dip" />
+            <LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content" ="14.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="#ffffffff" ="fill_parent" ="wrap_content" android:text="@string/payment_pay_anywhere" ="true" />
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="#ff848e9c" ="fill_parent" ="wrap_content" ="6.0dip" android:text="@string/payment_download_the_binance_app" ="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

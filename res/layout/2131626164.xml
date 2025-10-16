@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131436506" ="fill_parent" ="wrap_content" ="2.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131447900" ="wrap_content" ="wrap_content" ="1" ="true" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131446136" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ffff693d" android:id="@id/2131446136" ="wrap_content" ="wrap_content" ="true" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131447900" 2130969941="2131438103" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

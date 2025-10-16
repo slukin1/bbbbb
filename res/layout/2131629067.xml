@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="#1afcd535" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434282" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/futures_trade_on_eu" ="4.0dip" 2130969911="@id/2131434282" 2130969918="@id/ivArrow" 2130969936="@id/2131434282" 2130969941="@id/2131434282" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="16.0dip" ="16.0dip" ="@color/2131099738" 2130969911="@id/2131434282" 2130969917="2131438103" 2130969941="@id/2131434282" 2130971077="@drawable/2131237055" />
+</androidx.constraintlayout.widget.ConstraintLayout>

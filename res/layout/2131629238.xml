@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="8.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_tooltip_send_photo" ="@font/2131296274" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434152" ="42.0dip" ="42.0dip" ="4.0dip" ="fitXY" 2130971077="@drawable/2131234314" />
+</LinearLayout>

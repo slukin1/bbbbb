@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="250.0dip" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.fiat.base.widget.MaxHeightNestedScrollView ="fill_parent" ="wrap_content" ="true" 2130970140="294.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="false" ="locale" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969962="0.0dip" style="@style/2132149425" />
+            <androidx.appcompat.widget.AppCompatTextView ="true" ="outsideInset" ="14.0sp" ="@color/2131099764" ="start" ="center_horizontal" android:id="@id/2131442581" ="vertical" ="0.0dip" ="wrap_content" ="20.0dip" ="5.0dip" ="false" ="@font/2131296266" ="locale" ="gravity" 2130969917="2131438103" 2130969923="2131450408" 2130969937="2131438103" 2130969940="@id/tvTitle" 2130969999="22.0sp" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436204" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131442581">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443057" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_expiry_in" ="false" style="@style/2132149355" />
+                <com.binance.base.widget.CountDownView ="center" android:id="@id/2131449151" ="wrap_content" ="wrap_content" ="8.0dip" 2130969054="@color/2131099764" 2130969055=" : " 2130969232="" 2130969275="@drawable/2131236004" 2130969276="@color/2131099764" 2130969592="" 2130970213="" 2130970769="" style="@style/2132149454" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439614" ="fill_parent" ="wrap_content" ="20.0dip" ="never" ="false" 2130969940="@id/2131436204" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.binance.fiat.base.widget.MaxHeightNestedScrollView>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="vertical" android:id="@id/2131436178" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969940="@id/2131439614">
+        <com.major.android.uikit2.button.KitButton ="end" ="center" android:id="@id/2131428836" ="fill_parent" ="wrap_content" android:text="@string/ocbs_string_use" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

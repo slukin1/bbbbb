@@ -1,0 +1,38 @@
+.class public final synthetic Lo/NestmsetName;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic a:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingCreateRoomInfoPo;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingCreateRoomInfoPo;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/NestmsetName;->a:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingCreateRoomInfoPo;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/NestmsetName;->a:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingCreateRoomInfoPo;
+
+    invoke-static {v0}, Lcom/finance/copytrading/feature/portfolio/ui/dialog/CopyTradingCreateChatRoomDialog$subscribeLiveData$1$2;->d(Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingCreateRoomInfoPo;)Lkotlin/Unit;
+
+    move-result-object v0
+
+    return-object v0
+.end method

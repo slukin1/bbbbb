@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="1" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099671" ="end" android:id="@id/2131447950" ="wrap_content" ="wrap_content" ="2" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="8.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099764" />
+</androidx.appcompat.widget.LinearLayoutCompat>

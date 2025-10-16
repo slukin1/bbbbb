@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/alpha_trade_transactions" style="@style/2132149425" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448181" ="80.0dip" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448171" ="0.0dip" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969918="@id/2131448132" 2130969928="2131440523" 2130969929="1.0" 2130969936="@id/2131448181" 2130969941="2131438103" 2130969947="@dimen/2131166157" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131448132" ="100.0dip" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439719" ="fill_parent" ="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

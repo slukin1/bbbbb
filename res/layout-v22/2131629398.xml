@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441689" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/deposit_layout" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/verify_content" 2130969941="@id/verify_content" 2130969962="@dimen/2131166188">
+        <View android:id="@id/2131449625" ="@color/2131099778" ="1.0dip" ="12.0dip" ="2.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.binance.c2c.api.common.DashUnderlineTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131446929" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" ="10.0dip" 2130969222="@color/2131099764" 2130969223="@dimen/2131166155" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivVerified" ="gone" ="16.0dip" ="16.0dip" 2130969911="@id/verify_content" 2130969937="@id/tv_nick" 2130969941="@id/verify_content" />
+    <com.binance.c2c.api.common.DashUnderlineTextView ="12.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/verify_content" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="@font/2131296274" ="4.0dip" 2130969223="@dimen/2131166199" 2130969936="@id/ivVerified" 2130969940="@id/2131428393" 2130969961="@dimen/2131166153" 2130969962="@dimen/2131166286" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428417" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="verify_content,ivVerified,deposit_layout" />
+    <LinearLayout ="horizontal" android:id="@id/2131449311" ="wrap_content" ="wrap_content" ="10.0dip" ="12.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131428417">
+        <TextView ="10.0sp" ="@color/2131099764" android:id="@id/2131431342" ="wrap_content" ="wrap_content" android:text="@string/_email" ="5.0dip" ="@font/2131296274" />
+        <TextView ="10.0sp" ="@color/2131099764" android:id="@id/2131440164" ="wrap_content" ="wrap_content" android:text="@string/wallet_sms" ="5.0dip" ="@font/2131296274" ="21.0dip" 2130969936="@id/2131431342" 2130969940="@id/tv_nick_simple" />
+        <TextView ="10.0sp" ="@color/2131099764" android:id="@id/2131433061" ="wrap_content" ="wrap_content" android:text="@string/merchant_auth_identity" ="5.0dip" ="@font/2131296274" ="21.0dip" />
+        <TextView ="10.0sp" ="@color/2131099764" android:id="@id/2131427684" ="wrap_content" ="wrap_content" android:text="@string/address" ="5.0dip" ="@font/2131296274" ="21.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131440688" ="@drawable/2131232574" ="10.0dip" ="10.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166156" 2130969937="2131438103" 2130969940="@id/2131449311">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131440684" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166170">
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131440681" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296274" ="5.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434310" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237146" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131427688" ="fill_parent" ="20.0dip" ="10.0dip">
+                <TextView ="12.0sp" ="@color/2131099851" ="center_vertical" android:id="@id/2131440692" ="wrap_content" ="wrap_content" android:text="@string/c2c_cash_trade_open_now" ="5.0dip" ="@font/2131296274" ="5.0dip" />
+                <TextView ="12.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131440696" ="wrap_content" ="wrap_content" ="true" ="5.0dip" ="@font/2131296274" ="5.0dip" 2130969306="@drawable/2131237050" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131440694" ="gone" ="fill_parent" ="wrap_content" ="21.0dip" ="8.0dip" ="21.0dip" ="@dimen/2131166202" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131440682" ="12.0dip" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166170">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237610" />
+            <TextView ="12.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131440683" ="fill_parent" ="wrap_content" ="5.0dip" ="@font/2131296273" ="5.0dip" 2130969306="@drawable/2131237055" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+    <RelativeLayout ="center" android:id="@id/rl_avatar" ="@drawable/2131232389" ="64.0dip" ="64.0dip" ="11.0dip" ="@color/2131099675" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="32.0sp" ="@color/2131099685" ="center" android:id="@id/tv_nick_simple" ="@drawable/2131232389" ="56.0dip" ="56.0dip" ="@font/2131296274" ="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/imv_pro_logo" ="@drawable/2131232389" ="10.0dip" ="56.0dip" ="56.0dip" ="@color/2131099764" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437749" ="@drawable/2131232574" ="6.0dip" ="30.0dip" ="30.0dip" ="30.0dip" ="@color/2131099764" ="16.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237717" />
+    <View android:id="@id/2131449643" ="@drawable/2131235922" ="gone" ="7.0dip" ="7.0dip" ="8.0dip" ="9.0dip" 2130969917="@id/2131437749" 2130969941="@id/2131437749" />
+    <LinearLayout ="center" android:id="@id/2131437045" ="@drawable/2131236007" ="10.0dip" ="5.0dip" ="10.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="30.0dip" ="16.0dip" ="#fffcd535" ="@dimen/2131166156" ="@dimen/2131166260" 2130969918="@id/2131437749" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434550" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238279" 2130971375="@color/2131099789" />
+        <TextView ="14.0sp" ="@color/2131099789" android:id="@id/2131446543" ="wrap_content" ="wrap_content" android:text="@string/c2c_follow_btn_follow" ="@font/2131296273" ="3.0dip" />
+    </LinearLayout>
+    <TextView ="20.0sp" ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tv_nick" ="wrap_content" ="wrap_content" ="10.0dip" ="240.0dip" ="1" ="@font/2131296273" ="15.0dip" 2130969937="2131438103" 2130969940="@id/rl_avatar" />
+    <FrameLayout android:id="@id/2131441134" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="@id/tv_nick" 2130969927="0.0" 2130969936="@id/tv_nick" 2130969941="@id/tv_nick">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434203" ="gone" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131234166" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436386" ="wrap_content" ="16.0dip" 2130969911="@id/tv_nick" 2130969936="@id/tv_nick" 2130969941="@id/tv_nick" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_edit" ="gone" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="@id/tv_nick" 2130969936="@id/2131441134" 2130969941="@id/tv_nick" 2130971077="@drawable/2131237285" 2130971375="@color/2131099764" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/ll_trades_info" ="wrap_content" ="16.0dip" ="2.0dip" 2130969937="@id/tv_nick" 2130969940="@id/tv_nick">
+        <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131447187" ="gone" ="wrap_content" ="wrap_content" ="false" ="4.0dip" ="@font/2131296274" 2130969311="@drawable/2131235920" />
+        <TextView ="10.0sp" ="@color/2131099764" ="center" android:id="@id/2131448362" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="false" ="@font/2131296274" ="5.0dip" ="@color/2131099800" ="@dimen/2131166260" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436437" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="16.0dip" ="4.0dip" ="@color/2131099804" ="@dimen/2131166247">
+            <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="@drawable/2131236923" ="@color/2131099778" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_badges_admin" ="2.0dip" style="@style/2132149394" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView ="@color/2131099787" android:id="@id/tv_binance_partner" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="wrap_content" ="16.0dip" ="12.0dip" android:text="@string/c2c_pro_merchant_text" ="#13f0b90b" ="@dimen/2131166260" 2130969937="@id/tv_nick" 2130969940="@id/ll_trades_info" style="@style/2132149394" />
+    <TextView ="@color/2131099764" android:id="@id/tv_chat_id" ="wrap_content" ="16.0dip" ="12.0dip" android:text="@string/c2c_chat_id" ="false" ="8.0dip" 2130969936="@id/tv_binance_partner" 2130969940="@id/ll_trades_info" 2130969961="@dimen/2131166153" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_chat_id" ="16.0dip" ="16.0dip" ="@drawable/2131237055" ="@color/2131099738" ="4.0dip" 2130969911="@id/tv_chat_id" 2130969936="@id/tv_chat_id" 2130969941="@id/tv_chat_id" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432636" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_chat_id,iv_chat_id" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428394" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_binance_partner,tv_chat_id" />
+    <TextView ="@color/2131099764" android:id="@id/tv_pro_description" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" ="120" ="15.0dip" 2130969917="2131438103" 2130969937="@id/tv_nick" 2130969940="@id/2131428394" style="@style/2132149395" />
+    <Space android:id="@id/space_pro_desc_margin" ="gone" ="0.0dip" ="14.0dip" 2130969917="2131438103" 2130969937="@id/tv_nick" 2130969940="@id/tv_pro_description" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428393" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="rl_avatar, space_pro_desc_margin,ll_trades_info" />
+</androidx.constraintlayout.widget.ConstraintLayout>

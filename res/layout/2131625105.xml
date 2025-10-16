@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="@drawable/savings_guide_bg" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131438095" ="10.0dip" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="9.0dip" style="@style/2132149446" />
+        <ImageView android:id="@id/2131433897" ="170.0dip" ="170.0dip" ="23.0dip" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131430856" ="fill_parent" ="wrap_content" ="16.0dip" ="18.0dip" ="16.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131430857" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="13.5dip" ="18.0dip" ="13.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438095">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131440124" ="0.0dip" ="wrap_content" android:text="@string/ms_market_skip" ="1.0" ="false" ="8.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131437536" ="0.0dip" ="wrap_content" android:text="@string/_next" ="1.0" ="false" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

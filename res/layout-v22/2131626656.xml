@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434261" ="48.0dip" ="48.0dip" ="21.0dip" 2130969911="@id/tvApr" 2130969937="2131438103" 2130969941="@id/2131442768" />
+    <TextView ="@color/2131099764" android:id="@id/2131442768" ="wrap_content" ="wrap_content" ="10.0dip" ="12.0dip" 2130969936="@id/2131434261" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099787" ="end" android:id="@id/2131444889" ="@drawable/2131232811" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="1" ="4.0dip" ="@dimen/2131166247" 2130969911="@id/2131442768" 2130969936="@id/2131442768" 2130969941="@id/2131442768" style="@style/2132149394" />
+    <TextView ="@color/2131099778" android:id="@id/tvApr" ="wrap_content" ="wrap_content" ="2.0dip" ="12.0dip" 2130969936="@id/2131434261" 2130969940="@id/2131442768" style="@style/2132149350" />
+    <TextView ="@color/2131099726" android:id="@id/2131444766" ="wrap_content" ="wrap_content" android:text="@string/earn_warm_up" ="25.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <com.binance.base.widget.CountDownView ="center" android:id="@id/2131449383" ="0.0dip" ="wrap_content" ="15.0dip" 2130969055=" : " 2130969232="@string/day" 2130969275="@drawable/2131236004" 2130969592="@string/earn_h" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130970213="@string/earn_m" 2130970769="@string/earn_s" />
+</androidx.constraintlayout.widget.ConstraintLayout>

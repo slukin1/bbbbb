@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624294" />
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131449019" ="fill_parent" ="wrap_content" ="15.0dip" ="6.0dip" 2130968735="@android:color/transparent" 2130968908="true" 2130968909="@string/_cancel" 2130969627="@string/_search" 2130970759="@string/futures_history_symbol_search_input_hint" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" ="fill_parent" ="fill_parent" />
+</LinearLayout>

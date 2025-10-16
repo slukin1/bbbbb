@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430014" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131447017" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/margin_min_price_movement" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447016" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131447017" style="@style/2132149350" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131447472" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/spot_trading_rule_price_multiplier" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131447016" 2130971382="@string/margin_price_multiplier_tips" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447471" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131447472" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

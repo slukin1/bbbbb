@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433920" ="16.0dip" ="16.0dip" ="@drawable/2131237055" 2130969911="@id/2131433681" 2130969917="2131438103" 2130969941="@id/2131433681" />
+    <ImageView android:id="@id/2131433681" ="24.0dip" ="24.0dip" 2130969918="@id/2131433920" 2130969941="2131438103" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131444846" ="wrap_content" ="wrap_content" android:text="@string/earn_supply_amount" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444844" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131444846" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131443370" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/interest_rate" 2130969905="true" 2130969918="@id/2131443369" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131444844" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443369" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131443370" 2130969917="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131442974" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/earn_estimate_interest_amount" 2130969905="true" 2130969918="@id/2131442973" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131443370" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442973" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131442974" 2130969917="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131443037" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/earn_est_expiration_date" 2130969905="true" 2130969918="@id/2131443036" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131442974" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443036" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131443037" 2130969917="2131438103" style="@style/2132149350" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443037" />
+</androidx.constraintlayout.widget.ConstraintLayout>

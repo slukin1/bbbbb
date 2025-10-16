@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="80.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434371" ="fill_parent" ="fill_parent" ="fitXY" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" android:id="@id/2131447320" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="10.0dip" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130968705="2131449068" 2130969912="@id/2131431878" 2130969917="2131438103" 2130969936="@id/2131447321" 2130969940="@id/2131447319" 2130969961="@dimen/2131166156" style="@style/2132149454" />
+    <TextView ="#ffffffff" android:id="@id/2131447319" ="@drawable/2131235590" ="2.0dip" ="1.0dip" ="2.0dip" ="1.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_promotion_new_user_benefits" 2130969917="@id/2131434371" 2130969941="@id/2131434371" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="#ffa17400" ="center" android:id="@id/2131447321" ="55.0dip" ="0.0dip" ="2" ="5.0dip" ="@font/2131296267" 2130968700="@dimen/2131167696" 2130968701="@dimen/2131167718" 2130968705="2131449068" 2130969911="@id/2131434371" 2130969937="2131438103" 2130969941="@id/2131434371" />
+    <FrameLayout android:id="@id/2131431878" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/2131447320">
+        <com.binance.dev.pay.home.promotion.PaymentHomeCountDownView ="start" ="horizontal" android:id="@id/2131438212" ="wrap_content" ="16.0dip" 2130970470="true" />
+        <TextView ="10.0sp" ="#ff202630" ="center" ="end" android:id="@id/2131429062" ="@drawable/2131235565" ="10.0dip" ="0.0dip" ="10.0dip" ="0.0dip" ="wrap_content" ="16.0dip" ="60.0dip" android:text="@string/payment_home_send_now" ="false" ="@font/2131296265" ="15.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

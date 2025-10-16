@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131435977" ="false" ="false" ="false" ="fill_parent" ="485.0dip" 2130969941="2131438103" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099685" ="16.0dip" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435977">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="horizontal" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433423" ="8.0dip" ="3.0dip" 2130971077="@drawable/2131234764" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433424" ="8.0dip" ="3.0dip" ="5.0dip" 2130971077="@drawable/2131234763" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.major.android.uikit.button.KitButton android:id="@id/2131441006" ="fill_parent" ="48.0dip" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/ms_lite_switch_to_pro" 2130969173="24.0" 2130969940="@id/2131435977" 2130971472="2131429147" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

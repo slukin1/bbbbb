@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" ="fill_parent" ="44.0dip" layout="@layout/2131624284" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="0.0dip" ="15.0dip" 2130969912="@id/2131428768" 2130969940="@id/2131441601">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <com.finance.strategy.framework.widgets.StrategySymbolHeaderView android:id="@id/2131441027" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969974="2131439795|@null" />
+                <LinearLayout ="horizontal" android:id="@id/2131436411" ="@drawable/2131236705" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="12.0dip" ="#14f0b90b" ="@dimen/2131166184" 2130969974="2131439795|@null">
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448399" ="fill_parent" ="wrap_content" android:text="@string/strategy_grid_detail_trigger_drops_hint" ="5.0dip" style="@style/2132149361" />
+                </LinearLayout>
+                <LinearLayout ="horizontal" android:id="@id/2131436230" ="@drawable/2131236705" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="12.0dip" ="@color/2131099744" ="@dimen/2131166184" 2130969974="2131439795|@null">
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443040" ="fill_parent" ="wrap_content" android:text="@string/futures_grid_running_detail_expiration_reason" ="5.0dip" style="@style/2132149361" />
+                </LinearLayout>
+                <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441167" ="fill_parent" ="38.0dip" style="@style/2132148650" />
+                <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449925" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" style="@style/2132148650" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428764" ="gone" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/_edit" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131428768" 2130969928="2131440523" 2130969937="2131438103" style="@style/2132148673" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428768" ="gone" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/futures_grid_running_detail_end" ="10.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428764" style="@style/2132148673" />
+</androidx.constraintlayout.widget.ConstraintLayout>

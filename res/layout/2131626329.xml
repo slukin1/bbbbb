@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="12.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131436234" ="wrap_content" ="wrap_content" ="16.0dip">
+        <ImageView android:id="@id/2131433953" ="@drawable/2131235270" ="8.0dip" ="true" ="true" ="39.0dip" ="39.0dip" ="@drawable/2131238202" ="点赞" ="12.0dip" />
+        <ImageView android:id="@id/2131433815" ="@drawable/2131235270" ="8.0dip" ="true" ="true" ="39.0dip" ="39.0dip" ="@drawable/2131238199" ="踩" />
+    </LinearLayout>
+</LinearLayout>

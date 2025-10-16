@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438419" ="fill_parent" ="wrap_content" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438411" ="fill_parent" ="wrap_content" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438420" ="fill_parent" ="wrap_content" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438412" ="fill_parent" ="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

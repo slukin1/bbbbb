@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440021" ="fill_parent" ="fill_parent" 2130970808="false" 2130970809="1.0" 2130970819="0.0" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449175" ="fill_parent" ="fill_parent" ="fitXY" 2130971077="@drawable/2131234940" />
+    <FrameLayout android:id="@id/2131432303" ="gone" ="fill_parent" ="fill_parent" />
+</com.facebook.shimmer.ShimmerFrameLayout>

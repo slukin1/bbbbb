@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435695" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099778" android:id="@id/2131448243" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/voptions_trade_place_order_total_cost" 2130969260="2131437732" 2130969274="@string/voptions_trade_place_order_total_cost" 2130969937="2131438103" 2130969941="2131438103" 2130971382="@string/voptions_trade_place_order_total_cost_tips" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131448244" ="0.0dip" ="wrap_content" ="1" ="10.0dip" 2130969911="@id/2131448243" 2130969917="2131438103" 2130969936="@id/2131448243" 2130969941="@id/2131448243" style="@style/2132149384" />
+    <TextView ="#ffffffff" ="center" android:id="@id/2131428930" ="#ff2ebd85" ="0.0dip" ="40.0dip" ="8.0dip" android:text="@string/future_buy_optimized" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448243" style="@style/2132149374" />
+</androidx.constraintlayout.widget.ConstraintLayout>

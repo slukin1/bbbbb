@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131436283" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="#1af0b90b">
+        <LinearLayout ="horizontal" android:id="@id/2131436251" ="wrap_content" ="16.0dip" ="4.0dip" ="4.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131443739" ="fill_parent" ="wrap_content" android:text="@string/earn_megadrop_rewards_detail_notice" style="@style/2132149384" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131443740" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/earn_megadrop_rewards_detail_visit" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149394" />
+</LinearLayout>

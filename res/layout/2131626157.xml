@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438594" ="#b0000000" ="30.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431847" ="4.0dip" ="4.0dip" ="visible" ="fill_parent" ="wrap_content" ="120.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <FrameLayout android:id="@id/2131440687" ="@drawable/2131236038" ="fill_parent" ="wrap_content" ="8.0dip" ="8.0dip" ="@color/2131099685">
+            <include android:id="@id/2131440686" ="fill_parent" ="wrap_content" layout="@layout/2131626396" />
+        </FrameLayout>
+        <com.binance.c2c.view.FiatNewGuideCreateView android:id="@id/2131430543" ="@drawable/2131235987" ="240.0dip" ="wrap_content" ="12.0dip" ="@color/2131099685" 2130969550="@string/c2c_mob_finish" 2130969551="@string/c2c_coach_post_ad_store_content" 2130969555="@string/c2c_coach_post_ad_store_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440687" 2130970858="false" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

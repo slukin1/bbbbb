@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/alpha_trading_trade_rate" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <com.finance.kit.framework.widget.progress.CircularSolidProgressBar android:id="@id/2131438259" ="2.0dip" ="16.0dip" ="16.0dip" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131445790" ="0.0dip" ="wrap_content" ="18.0dip" android:text="@string/alpha_trading_trade_basic_rate" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131445791" ="0.0dip" ="wrap_content" 2130969911="@id/2131445790" 2130969917="2131438103" 2130969941="@id/2131445790" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131447100" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/alpha_trading_trade_est_network_fee" 2130969937="2131438103" 2130969940="@id/2131445790" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447101" ="0.0dip" ="wrap_content" 2130969911="@id/2131447100" 2130969917="2131438103" 2130969941="@id/2131447100" style="@style/2132149355" />
+    <com.binance.base.widget.TipsTextView ="@color/2131099778" ="start" android:id="@id/2131448369" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/alpha_trading_order_history_trading_fee" 2130969937="2131438103" 2130969940="@id/2131447100" 2130970562="2131449083" 2130971380="1" 2130971382="@string/alpha_trading_order_history_trading_fee_tips" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131448370" ="0.0dip" ="wrap_content" 2130969911="@id/2131448369" 2130969917="2131438103" 2130969941="@id/2131448369" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447563" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/alpha_trading_trade_rate_tip" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131448369" style="@style/2132149361" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429058" ="fill_parent" ="wrap_content" ="23.0dip" android:text="@string/OK" 2130969940="@id/2131447563" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

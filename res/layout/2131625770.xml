@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="vertical" android:id="@id/2131430495" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/2131427998" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131429929" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null|@null">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433355" ="fill_parent" ="100.0dip" ="centerCrop" ="true" 2130969974="2131439795|@null" />
+            <LinearLayout ="vertical" android:id="@id/2131436420" ="15.0dip" ="fill_parent" ="wrap_content" ="70.0dip" 2130969974="2131439795|@null">
+                <include android:id="@id/2131433391" layout="@layout/2131629398" />
+            </LinearLayout>
+            <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" ="30.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969902="2131438344" 2130969937="2131438103" 2130969941="2131438103">
+                <RelativeLayout ="fill_parent" ="44.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428231" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" ="@string/back" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+                    <TextView ="18.0sp" ="bold" ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="gone" ="wrap_content" ="fill_parent" ="true" ="@font/2131296274" ="ltr" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437050" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" ="true" ="true" 2130971077="@drawable/2131238029" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439088" ="16.0dip" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

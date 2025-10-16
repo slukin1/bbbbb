@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438594" ="#b0000000" ="30.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441181" ="4.0dip" ="4.0dip" ="visible" ="fill_parent" ="wrap_content" ="120.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131441179" ="@drawable/2131236038" ="8.0dip" ="10.0dip" ="8.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="8.0dip" ="@color/2131099685">
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448037" ="wrap_content" ="wrap_content" android:text="@string/c2c_ad_post_p3_label_terms" ="@font/2131296273" />
+            <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131437411" ="fill_parent" ="136.0dip" ="5.0dip" 2130970274="@color/2131099778" 2130970275="true" 2130970276="@string/c2c_ad_post_p3_terms_input_placeholder" 2130970278="1000" 2130970280="136" 2130970282="false" 2130970283="true" 2130970285="false" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.binance.c2c.view.FiatNewGuideCreateView android:id="@id/2131441180" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="25.0dip" ="12.0dip" ="25.0dip" ="@color/2131099685" 2130969550="@string/_next" 2130969551="@string/c2c_mod_guide_you_can_specify_your_trad_terms_here_content" 2130969554="1" 2130969556="2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441179" 2130970858="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430227" ="4.0dip" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" ="80.0dip" ="60.0dip" 2130969911="2131438103" 2130969937="2131438103">
+        <com.binance.c2c.view.FiatNewGuideCreateView android:id="@id/2131430226" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="25.0dip" ="12.0dip" ="25.0dip" ="@color/2131099685" 2130969550="@string/c2c_mob_finish" 2130969551="@string/c2c_mod_guide_you_can_specify_your_trad_terms_here_content" 2130969554="2" 2130969556="2" 2130969937="2131438103" 2130969941="2131438103" 2130970854="true" 2130970858="false" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131430225" ="@drawable/2131236038" ="8.0dip" ="10.0dip" ="8.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="12.0sp" ="8.0dip" ="@color/2131099685" 2130969940="@id/2131430226">
+            <include android:id="@id/2131430553" ="fill_parent" ="wrap_content" layout="@layout/2131626383" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

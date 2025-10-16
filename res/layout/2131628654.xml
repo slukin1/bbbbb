@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430273" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="wrap_content" ="14.0dip">
+        <TextView ="@color/2131102397" ="start" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/strategy_bots_list_edit_dialog_title" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <ImageView ="end|center" android:id="@id/ivClose" ="20.0dip" ="20.0dip" ="centerCrop" ="@null" ="15.0dip" 2130971077="@drawable/2131237100" />
+    </FrameLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131442909" ="wrap_content" ="wrap_content" ="23.0dip" android:text="@string/strategy_bots_list_edit_dialog_hint" ="15.0dip" style="@style/2132149450" />
+    <FrameLayout ="false" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton ="bottom" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="15.0dip" android:text="@string/confirm" style="@style/2132148692" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" ="false" ="fill_parent" ="wrap_content" ="9.0dip" ="70.0dip" />
+    </FrameLayout>
+</LinearLayout>

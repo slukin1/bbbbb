@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="fill_parent" ="135.0dip" 2130968912="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="wrap_content" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434363" ="fill_parent" ="fill_parent" ="fitXY" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434362" ="6.0dip" ="gone" ="24.0dip" ="24.0dip" ="true" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

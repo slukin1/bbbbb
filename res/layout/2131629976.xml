@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="wrap_content" ="360.0dip" ="206.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238484" />
+    <TextView ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_withdrawal_risk_dialog_title" ="false" ="locale" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center_horizontal" ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" ="8.0dip" ="260.0dip" ="198.0dip" android:text="@string/wallet_withdrawal_risk_dialog_withdraw_face_content" ="9" ="5.0dip" ="false" ="@font/2131296274" ="locale" ="gravity" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="end" ="center" android:id="@id/2131448914" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/verify_now" 2130969173="4" />
+    <TextView ="@color/2131099787" android:id="@id/tv_cancel" ="5.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="6.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" style="@style/2132149377" />
+</LinearLayout>

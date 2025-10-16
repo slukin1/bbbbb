@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437500" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131099751" ="gone" ="fill_parent" ="1.0dip" 2130969941="2131438103" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437334" ="wrap_content" ="39.0dip" android:text="@string/dwallet_connect_approve_network" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437336" ="wrap_content" ="39.0dip" ="5.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437333" ="15.0dip" ="15.0dip" ="5.0dip" 2130969911="@id/2131437336" 2130969918="@id/2131437336" 2130969941="@id/2131437336" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437358" ="wrap_content" ="38.0dip" android:text="@string/confirm_send_dialog_network_fee" 2130969937="2131438103" 2130969940="@id/2131437336" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437328" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="38.0dip" ="8.0dip" 2130969917="2131438103" 2130969940="@id/2131437336">
+        <LinearLayout ="end|center" ="vertical" android:id="@id/2131437359" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437337" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end|center" android:id="@id/2131437332" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center" ="horizontal" android:id="@id/2131437335" ="@drawable/2131235148" ="gone" ="60.0dip" ="20.0dip" ="6.0dip" 2130969918="@id/2131437359" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437330" ="15.0dip" ="15.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437331" ="15.0dip" ="15.0dip" ="5.0dip" ="5.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437329" ="15.0dip" ="15.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

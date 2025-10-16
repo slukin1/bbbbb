@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="vertical" android:id="@id/2131450157" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout ="fill_parent" ="wrap_content" 2130969974="2131439795" 2130971174="@android:color/transparent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435508" ="fill_parent" ="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435507" ="@drawable/2131236736" ="13.0dip" ="13.0dip" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969941="2131438103">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438983" ="24.0dip" ="24.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131438982" ="wrap_content" ="wrap_content" ="24.0dip" ="12.0dip" 2130969936="@id/2131438983" 2130969941="2131438103" style="@style/2132149446" />
+                    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131438984" ="wrap_content" ="wrap_content" ="18.0dip" 2130969911="2131438103" 2130969937="@id/2131438982" 2130969940="@id/2131438982" 2130969961="5.0dip" style="@style/2132149454" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438981" ="24.0dip" ="24.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238737" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432905" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvHistoryTitle,ivDeleteHistory,historyFlexBoxLayout" 2130969940="@id/2131435507" />
+                <TextView ="@color/2131099764" android:id="@id/tvHistoryTitle" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/_history" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131435507" style="@style/2132149446" />
+                <ImageView android:id="@id/ivDeleteHistory" ="gone" ="20.0dip" ="20.0dip" ="4.0dip" ="@null" ="15.0dip" 2130969911="@id/tvHistoryTitle" 2130969917="2131438103" 2130969941="@id/tvHistoryTitle" 2130971077="@drawable/2131237186" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/historyFlexBoxLayout" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" 2130968639="0" 2130969467="0" 2130969468="2131450408" 2130969937="2131438103" 2130969940="@id/tvHistoryTitle" 2130970841="2131437069" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <TextView ="@color/2131099764" android:id="@id/2131435932" ="20.0dip" ="fill_parent" ="wrap_content" android:text="@string/currency_list" ="15.0dip" 2130969937="2131438103" style="@style/2132149446" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="0.0dip" ="12.0dip" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131438676" ="25.0dip" ="25.0dip" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131439035" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+        <com.binance.hydrogen.widgets.sidebar.BubbleScroller ="end" android:id="@id/2131429131" ="10.0dip" ="invisible" ="16.0dip" ="0.0dip" 2130968837="@color/2131099787" 2130968838="@dimen/2131167690" 2130968840="@color/2131099787" 2130968841="@dimen/2131167696" 2130969911="2131438103" 2130969917="2131438103" 2130969941="@id/2131439035" />
+        <TextView ="32.0sp" ="center" ="end" android:id="@id/2131443523" ="@drawable/2131234435" ="invisible" ="54.0dip" ="45.0dip" ="0.0dip" ="24.0dip" 2130969912="@id/2131429131" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

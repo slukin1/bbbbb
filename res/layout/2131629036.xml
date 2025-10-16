@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131449056" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432385" ="fill_parent" ="fill_parent" />
+    <com.major.android.uikit2.button.KitButton ="bottom" android:id="@id/2131428745" ="fill_parent" ="40.0dip" ="5.0dip" android:text="@string/um_grid_trade_create" style="@style/2132148692" />
+    <com.finance.futures.common.framework.widget.CoolingOffPeriodWrapTextView ="bottom" ="@drawable/2131233866" ="fill_parent" ="40.0dip" ="5.0dip" ="1001" />
+    <include ="top" android:id="@id/2131435417" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="5.0dip" ="55.0dip" layout="@layout/2131628765" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="true" ="true" ="beforeDescendants" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/alpha_trade_quick_amount" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <com.finance.w3w.feature.limit.trade.ui.widget.W3QuickAmountEditText android:id="@id/2131431536" ="0.0dip" ="32.0dip" ="8.0dip" 2130969918="@id/2131431538" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="@drawable/2131237285" ="4.0dip" 2130969911="@id/2131431536" 2130969917="@id/2131431536" 2130969941="@id/2131431536" 2130971375="@color/2131099738" />
+    <com.finance.w3w.feature.limit.trade.ui.widget.W3QuickAmountEditText android:id="@id/2131431538" ="0.0dip" ="32.0dip" ="8.0dip" ="8.0dip" 2130969918="@id/2131431539" 2130969936="@id/2131431536" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="@drawable/2131237285" ="4.0dip" 2130969911="@id/2131431538" 2130969917="@id/2131431538" 2130969941="@id/2131431538" 2130971375="@color/2131099738" />
+    <com.finance.w3w.feature.limit.trade.ui.widget.W3QuickAmountEditText android:id="@id/2131431539" ="0.0dip" ="32.0dip" ="8.0dip" ="8.0dip" 2130969918="@id/2131431537" 2130969936="@id/2131431538" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="@drawable/2131237285" ="4.0dip" 2130969911="@id/2131431539" 2130969917="@id/2131431539" 2130969941="@id/2131431539" 2130971375="@color/2131099738" />
+    <com.finance.w3w.feature.limit.trade.ui.widget.W3QuickAmountEditText android:id="@id/2131431537" ="0.0dip" ="32.0dip" ="8.0dip" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131431539" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="@drawable/2131237285" ="4.0dip" 2130969911="@id/2131431537" 2130969917="@id/2131431537" 2130969941="@id/2131431537" 2130971375="@color/2131099738" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="23.0dip" ="15.0dip" android:text="@string/_save" 2130969911="2131438103" 2130969940="@id/2131431536" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

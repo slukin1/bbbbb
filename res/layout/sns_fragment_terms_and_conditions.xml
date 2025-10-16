@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sumsub.sns.core.widget.SNSBackgroundConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/sns_guideline_start" ="wrap_content" ="wrap_content" 2130969919="@dimen/sns_margin_medium" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/sns_guideline_end" ="wrap_content" ="wrap_content" 2130969920="@dimen/sns_margin_medium" />
+    <androidx.core.widget.NestedScrollView android:id="@id/sns_content" ="none" ="false" ="0.0dip" ="0.0dip" ="@dimen/sns_margin_medium" 2130969912="@id/sns_powered" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969940="@id/sns_toolbar">
+        <com.sumsub.sns.core.widget.SNSTextView android:id="@id/sns_text" ="fill_parent" ="fill_parent" />
+    </androidx.core.widget.NestedScrollView>
+    <androidx.core.widget.NestedScrollView android:id="@id/sns_web_content" ="none" ="false" ="0.0dip" ="0.0dip" ="@dimen/sns_margin_medium" 2130969912="@id/sns_powered" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969940="@id/sns_toolbar">
+        <WebView android:id="@id/sns_webview" ="fill_parent" ="fill_parent" />
+    </androidx.core.widget.NestedScrollView>
+    <com.sumsub.sns.core.widget.SNSToolbarView android:id="@id/sns_toolbar" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+    <include ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" 2130969911="2131438103" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" layout="@layout/sns_layout_powered" />
+</com.sumsub.sns.core.widget.SNSBackgroundConstraintLayout>

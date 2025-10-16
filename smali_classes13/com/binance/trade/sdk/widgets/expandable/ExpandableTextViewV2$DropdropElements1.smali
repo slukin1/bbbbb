@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/binance/trade/sdk/widgets/expandable/ExpandableTextViewV2$DropdropElements1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/binance/trade/sdk/widgets/expandable/ExpandableTextViewV2;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DropdropElements1"
+.end annotation
+
+
+# virtual methods
+.method public abstract c(IZ)V
+.end method

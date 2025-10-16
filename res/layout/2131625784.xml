@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232784" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099685" ="center" android:id="@id/tv_step_one" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="1" ="@font/2131296273" ="@color/2131099764" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/view_step_line" ="@color/2131099726" ="2.0dip" ="0.0dip" ="-1.0dip" ="-1.0dip" 2130969912="@id/tv_step_two" 2130969917="@id/tv_step_one" 2130969937="@id/tv_step_one" 2130969940="@id/tv_step_one" />
+    <TextView ="14.0sp" ="@color/2131099675" ="center" android:id="@id/tv_step_two" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="2" ="@font/2131296273" ="@color/2131099726" 2130969937="2131438103" 2130969941="@id/2131446100" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428405" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="tv_step_one,tv_step_two,view_step_line" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445866" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_buy_usdt_step_convert" ="@font/2131296273" ="8.0dip" 2130969936="@id/2131428405" 2130969941="2131438103" />
+    <LinearLayout ="vertical" android:id="@id/2131436466" ="@drawable/2131236040" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="@id/2131445866" 2130969940="@id/2131445866">
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429633" ="fill_parent" ="wrap_content" 2130969001="@string/c2c_mod_you_will_spend" 2130969005="@dimen/2131167692" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429625" ="fill_parent" ="wrap_content" ="8.0dip" 2130968999="true" 2130969001="@string/c2c_mod_usdt_price" 2130969005="@dimen/2131167692" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429624" ="fill_parent" ="wrap_content" ="8.0dip" 2130968999="true" 2130969001="@string/c2c_epxress_estimate_fee" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429626" ="fill_parent" ="wrap_content" ="8.0dip" 2130969001="@string/earn_dual_you_will_receive" 2130969011="@dimen/2131167694" 2130969012="@font/2131296273" />
+    </LinearLayout>
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446100" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/c2c_mod_convert_usdt_to_coin" ="@font/2131296273" ="8.0dip" 2130969937="@id/2131428405" 2130969940="@id/2131436466" />
+    <LinearLayout ="vertical" android:id="@id/2131436498" ="@drawable/2131236040" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="8.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131428405" 2130969940="@id/2131446100">
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+            <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429629" ="0.0dip" ="wrap_content" ="1.0" 2130968999="true" 2130969001="@string/c2c_mod_express_coin_price" />
+            <com.binance.c2c.api.view.CircleProgressView android:id="@id/2131430580" ="16.0dip" ="16.0dip" 2130969195="0" 2130969198="@dimen/2131166199" />
+        </LinearLayout>
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429631" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130968999="true" 2130969001="@string/c2c_slippage" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429627" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130968999="true" 2130969001="@string/c2c_od_min_receive" 2130969011="@dimen/2131167694" 2130969012="@font/2131296273" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429628" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130968999="true" 2130969001="@string/c2c_est_network_fee" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429632" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130968999="true" 2130969001="@string/c2c_trading_fee" />
+        <com.binance.c2c.api.common.TitleValuePairView android:id="@id/2131429630" ="fill_parent" ="wrap_content" ="8.0dip" 2130969001="@string/earn_dual_you_will_receive" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434514" ="gone" ="20.0dip" ="20.0dip" ="8.0dip" 2130971077="@drawable/2131237050" 2130971375="@color/2131099738" />
+    </LinearLayout>
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131435217" ="wrap_content" ="wrap_content" ="12.0dip" android:text="*" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131436498" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131448085" ="0.0dip" ="wrap_content" android:text="@string/c2c_convert_confirm_price_tips" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131435217" 2130969941="@id/2131435217" />
+    <TextView ="12.0sp" ="@color/2131099863" android:id="@id/2131447616" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" android:text="@string/c2c_mod_express_dialog_price_expired_refresh" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448085" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428989" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="1.0" 2130969918="@id/2131428988" 2130969937="2131438103" 2130969940="@id/2131447616" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="middle" android:id="@id/2131428988" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/c2c_mod_express_next_number" ="true" ="1.0" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131428989" 2130969940="@id/2131447616" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="fill_parent" ="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131435812" ="@color/2131099751" ="0.5dip" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout ="vertical" android:id="@id/2131432112" ="0.0dip" ="0.0dip" ="1.0" 2130969911="2131438103" 2130969918="@id/2131439241" 2130969936="@id/2131435812" 2130969941="2131438103">
+        <View android:id="@id/2131432115" ="fill_parent" ="fill_parent" style="@style/2132148650" />
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131438675" ="26.0dip" ="26.0dip" 2130970039="true" 2130970050="true" />
+        <include layout="@layout/2131627529" />
+    </FrameLayout>
+    <View android:id="@id/2131439241" ="@color/2131099751" ="0.5dip" ="fill_parent" 2130969918="@id/2131431379" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131431379" ="67.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+        <com.finance.marketdetail.feature.skyline.view.KlineOptionViewVertical ="vertical" android:id="@id/2131435100" ="5.0dip" ="fill_parent" ="fill_parent" ="10.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        <include android:id="@id/2131435095" ="invisible" ="fill_parent" ="fill_parent" layout="@layout/2131627460" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435631" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="center" android:id="@id/2131447982" ="8.0dip" ="8.0dip" ="gone" ="wrap_content" ="0.0dip" android:text="@string/market_future_option_tab" ="false" ="8.0dip" ="@dimen/2131166286" 2130969911="@id/2131447981" 2130969936="@id/2131447981" 2130969941="@id/2131447981" style="@style/2132149742" />
+    <TextView ="center" android:id="@id/2131447981" ="8.0dip" ="8.0dip" ="wrap_content" ="0.0dip" android:text="@string/c360_coin_m" ="false" ="8.0dip" ="@dimen/2131166286" 2130969911="@id/2131447979" 2130969936="@id/2131447979" 2130969941="@id/2131447979" style="@style/2132149742" />
+    <TextView ="center" ="center" android:id="@id/2131447979" ="8.0dip" ="8.0dip" ="wrap_content" ="24.0dip" ="12.0dip" android:text="@string/c360_usdt_m" ="false" ="@dimen/2131166286" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149743" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434795" ="gone" ="20.0dip" ="20.0dip" 2130969911="@id/2131447979" 2130969917="2131438103" 2130969941="@id/2131447979" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433920" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238405" />
+    <TextView ="@color/2131099764" ="marquee" android:id="@id/2131448850" ="fill_parent" ="wrap_content" ="15.0dip" 2130969940="@id/2131433920" 2130969962="@dimen/2131166153" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131448848" ="fill_parent" ="wrap_content" ="15.0dip" ="2.0dip" 2130969912="@id/2131428732" 2130969940="@id/2131448850" style="@style/2132149350" />
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131428990" ="gone" ="0.0dip" ="wrap_content" ="18.0dip" android:text="@string/cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428732" style="@style/2132149446" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428991" ="gone" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428732" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/OK" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448848" 2130969962="@dimen/2131166184" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

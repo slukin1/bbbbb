@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435826" ="1.5dip" ="10.5dip" ="fitXY" ="3.0dip" 2130971077="@drawable/2131233997" />
+    <View ="1.5dip" ="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435828" ="1.5dip" ="10.5dip" ="fitXY" 2130971077="@drawable/2131233997" />
+    <View ="1.5dip" ="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435827" ="1.5dip" ="10.5dip" ="fitXY" 2130971077="@drawable/2131233997" />
+    <View ="1.5dip" ="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435825" ="1.5dip" ="10.5dip" ="fitXY" ="3.0dip" 2130971077="@drawable/2131233997" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131427806" ="fill_parent" ="wrap_content" 2130969654="@null" 2130969655="@string/c2c_mob_palceorder_buy_inputhint_amount" 2130970775="2131439230" 2130970845="false" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131446371" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" style="@style/2132149384" />
+</LinearLayout>

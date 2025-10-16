@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="bold" ="@color/2131099764" ="start" android:id="@id/2131441558" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/home_add_funds" ="@dimen/2131166184" ="@dimen/2131166170" 2130969941="2131438103" style="@style/2132149425" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131427810" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/launcher_you_need" style="@style/2132149351" />
+        <TextView ="@color/2131099764" android:id="@id/2131427823" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149420" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="wrap_content" ="never" />
+</LinearLayout>

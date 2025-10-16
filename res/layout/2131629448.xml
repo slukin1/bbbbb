@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449682" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_account_number_title" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/fiat_history_bank_details_account_number" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tv_account_number" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/tv_account_number_title" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432493" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_account_number_title,tv_account_number" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432557" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvMobileMoneyTitle,ivMobileProvider,tvMobileMoney" />
+    <TextView ="@color/2131099764" android:id="@id/tvMobileMoneyTitle" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/fiat_inswitch_africa_mobile_money_provider" 2130969937="2131438103" 2130969940="@id/tv_account_number_title" style="@style/2132149350" />
+    <ImageView android:id="@id/ivMobileProvider" ="20.0dip" ="20.0dip" ="fitCenter" ="@null" ="8.0dip" 2130969911="@id/tvMobileMoneyTitle" 2130969918="@id/tvMobileMoney" 2130969941="@id/tvMobileMoneyTitle" />
+    <TextView ="@color/2131099764" android:id="@id/tvMobileMoney" ="wrap_content" ="wrap_content" 2130969911="@id/tvMobileMoneyTitle" 2130969917="2131438103" 2130969941="@id/tvMobileMoneyTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

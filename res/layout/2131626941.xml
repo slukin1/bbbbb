@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131434088" ="56.0dip" ="56.0dip" ="16.0dip" ="true" ="15.0dip" ="true" 2130970795="@style/2132148627" />
+    <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131436245" ="fill_parent" ="wrap_content" ="@id/2131434088" ="@id/2131434088" ="15.0dip" ="@id/2131434088">
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444183" ="wrap_content" ="wrap_content" style="@style/2132149425" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433879" ="4.0dip" ="gone" ="24.0dip" ="24.0dip" ="8.0dip" 2130971077="@drawable/2131234710" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433878" ="4.0dip" ="gone" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131234709" />
+        </LinearLayout>
+        <HorizontalScrollView android:id="@id/2131439801" ="none" ="fill_parent" ="wrap_content" ="4.0dip">
+            <LinearLayout ="horizontal" ="wrap_content" ="fill_parent">
+                <TextView ="#ff2ebd85" ="center_vertical" android:id="@id/2131441946" ="@drawable/2131236733" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_top_20_team_leaders" ="false" ="5.0dip" ="#1a2ebd85" 2130969312="@color/2131100100" 2130970849="false" style="@style/2132149394" />
+                <TextView ="#ff2ebd85" ="center_vertical" android:id="@id/2131441954" ="@drawable/2131236733" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_top_30_team_leaders" ="false" ="5.0dip" ="#1a2ebd85" 2130969312="@color/2131100100" 2130970849="false" style="@style/2132149394" />
+                <TextView ="#ff2ebd85" ="center_vertical" android:id="@id/2131443227" ="@drawable/2131236733" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_top_20_futures_grid_traders" ="false" ="#1a2ebd85" 2130969312="@color/2131100100" 2130970849="false" style="@style/2132149394" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099778" ="end" android:id="@id/2131444182" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/leaderboard_follow_desc_default" ="@id/2131436245" ="15.0dip" ="15.0dip" ="true" 2130969378="@color/2131099787" 2130969379="@string/leaderboard_less" 2130969385="@color/2131099787" 2130969386="@string/leaderboard_more" 2130969391="3" 2130969394="true" 2130969396="true" 2130969398="true" 2130969399="false" 2130969400="false" 2130969401="true" 2130969941="2131438103" 2130969999="@dimen/2131166204" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435368" ="@drawable/2131236710" ="4.0dip" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@id/2131444182" ="true" ="#1af0b90b" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433841" ="40.0dip" ="28.0dip" ="8.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234705" />
+        <TextView ="@color/2131099764" android:id="@id/2131443060" ="0.0dip" ="wrap_content" android:text="@string/leaderboard_be_a_bnct_trader" ="4.0dip" ="8.0dip" 2130969911="@id/2131433841" 2130969918="@id/ivArrow" 2130969936="@id/2131433841" 2130969941="@id/2131433841" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="12.0dip" ="12.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236866" 2130971375="@color/2131102397" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View ="fill_parent" ="24.0dip" ="@id/2131435368" />
+</RelativeLayout>

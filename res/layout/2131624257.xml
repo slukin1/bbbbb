@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236765" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/add_fund" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131430660" ="wrap_content" ="26.0dip" ="15.0dip" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_iv" ="16.0dip" ="16.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131430661" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149356" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_drop_down" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="wrap_content" 2130969912="@id/2131436682" 2130969940="@id/tv_title" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131436682" ="10.0dip" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439035">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_view_more" ="wrap_content" ="wrap_content" android:text="@string/view_more" style="@style/2132149374" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_arrow" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237050" 2130971375="@color/2131099778" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

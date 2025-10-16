@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" style="@style/2132148541"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.tabs.TabItem ="wrap_content" ="wrap_content" android:text="@string/_cex" />
+    <com.google.android.material.tabs.TabItem ="wrap_content" ="wrap_content" android:text="@string/asset_switch_pair_tag_defi" />
+</com.google.android.material.tabs.TabLayout>

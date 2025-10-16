@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434228" ="96.0dip" ="96.0dip" ="16.0dip" ="@drawable/2131238393" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_activate_one_click_earn" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434228" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_activate_one_click_earn_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149355" />
+    <LinearLayout ="horizontal" android:id="@id/2131436391" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442581">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149394" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_auto_subscribe_notice_tips" ="4.0dip" style="@style/2132149394" />
+    </LinearLayout>
+    <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131440002" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436391" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131444762" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_confirm_activate_now" 2130969756="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvAgreeSpotTrading" 2130969962="@dimen/2131166231" style="@style/2132148692" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/cbAgreeSpotTrading" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="@id/2131444762" 2130969941="@id/tvAgreeSpotTrading" />
+    <TextView ="@color/2131099764" android:id="@id/tvAgreeSpotTrading" ="0.0dip" ="wrap_content" android:text="@string/earn_enable_for_spot_trading_term" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/cbAgreeSpotTrading" 2130969940="@id/2131440002" 2130969962="@dimen/2131166209" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432594" ="gone" ="wrap_content" ="wrap_content" 2130969125="cbAgreeSpotTrading,tvAgreeSpotTrading" />
+</androidx.constraintlayout.widget.ConstraintLayout>

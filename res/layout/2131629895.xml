@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131433511" ="fill_parent" ="38.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/alpha_instant" style="@style/2132149355" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131443355" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433934" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237055" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435847" ="fill_parent" ="38.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/alpha_limit" style="@style/2132149355" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131443542" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433955" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237055" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428837" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/ms_index_got_it" style="@style/2132148692" />
+</LinearLayout>

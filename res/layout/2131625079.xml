@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/earn_loan_collateral_source_amp_return2" style="@style/2132149425" />
+    <TextView ="16.0sp" ="bold" ="@color/2131099764" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_loan_flexible_rate_title" style="@style/2132149350" />
+    <TextView ="14.0sp" ="@color/2131099764" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="6.0dip" android:text="@string/collateral_flexible_source" style="@style/2132149350" />
+    <TextView ="14.0sp" ="@color/2131099764" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="6.0dip" android:text="@string/earn_loan_flexible_rate_dialog_content_2" style="@style/2132149350" />
+</LinearLayout>

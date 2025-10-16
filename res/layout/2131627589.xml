@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="#ff555555" ="true" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="wrap_content" ="wrap_content">
+        <ImageView ="center" ="wrap_content" ="wrap_content" ="@drawable/2131235078" ="@string/mb_capture_camera_permission_required" />
+        <TextView ="20.0sp" ="#80ffffff" ="center" ="center" android:id="@id/2131429231" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/mb_capture_camera_permission_required" ="30.0dip" ="sans-serif-light" />
+        <Button ="center" android:id="@id/2131429232" ="wrap_content" ="wrap_content" android:text="@string/mb_capture_enable_camera" />
+    </LinearLayout>
+</FrameLayout>

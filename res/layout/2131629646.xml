@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436684" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131432250" ="fill_parent" ="48.0dip" ="100.0">
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewName" ="14.0dip" ="14.0dip" ="wrap_content" ="fill_parent" ="16.0dip" 2130969937="2131438103" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewStrikePrice" ="14.0dip" ="14.0dip" ="wrap_content" ="fill_parent" ="16.0dip" 2130969937="2131438103" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131431850" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="textViewName,textViewStrikePrice" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102975" ="center" android:id="@id/2131441283" ="wrap_content" ="fill_parent" android:text="/" ="4.0dip" 2130969936="@id/2131431850" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/2131441326" ="14.0dip" ="14.0dip" ="wrap_content" ="fill_parent" ="4.0dip" 2130969936="@id/2131441283" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewVol" ="14.0dip" ="14.0dip" ="wrap_content" ="fill_parent" ="4.0dip" 2130969936="@id/2131441283" />
+        <com.major.android.uikit2.button.KitSortButton ="12.0sp" ="center_vertical" android:id="@id/textViewLastPrice" ="14.0dip" ="14.0dip" ="wrap_content" ="fill_parent" ="4.0dip" ="4.0dip" 2130969918="@id/2131441276" 2130969927="0.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102975" ="center" android:id="@id/2131441276" ="wrap_content" ="fill_parent" android:text="/" ="4.0dip" 2130969918="@id/textViewDayChange" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewDayChange" ="14.0dip" ="14.0dip" ="wrap_content" ="fill_parent" ="4.0dip" ="16.0dip" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.finance.framework.widget.recyclerview.RefreshableEmptyStateRecyclerView android:id="@id/2131431368" ="fill_parent" ="fill_parent" />
+</LinearLayout>

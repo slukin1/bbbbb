@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130970808="false" 2130970809="1.0" 2130970819="0.0" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131430273" ="invisible" ="fill_parent" ="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="@color/2131099685" ="fill_parent" ="fill_parent" ="never" />
+</com.facebook.shimmer.ShimmerFrameLayout>

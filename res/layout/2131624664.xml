@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430273" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428865" ="15.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/2131444317" ="0.0dip" ="wrap_content" android:text="@string/content_follow_sort_recommend" ="1.0" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434109" ="gone" ="20.0dip" ="20.0dip" ="@color/2131099764" 2130971077="@drawable/2131233047" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428813" ="15.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/2131443495" ="0.0dip" ="wrap_content" android:text="@string/content_follow_sort_latest" ="1.0" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433948" ="gone" ="20.0dip" ="20.0dip" ="@color/2131099764" 2130971077="@drawable/2131233047" />
+    </LinearLayout>
+</LinearLayout>

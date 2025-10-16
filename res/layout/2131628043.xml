@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235576" ="24.0dip" ="278.0dip" ="wrap_content" ="278.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="20.0dip" ="20.0dip" ="10.0dip" ="10.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434740" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" ="24.0dip" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969947="230.0dip" 2130971077="@drawable/2131235717" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff202630" ="center" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/payment_promotion_on_binance_pay" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434740" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff707a8a" ="center" android:id="@id/2131446058" ="0.0dip" ="wrap_content" ="14.0dip" ="8.0dip" ="14.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131429040" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" ="24.0dip" ="24.0dip" android:text="@string/payment_promotion_go_to" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446058" 2130970889="2131437069" />
+</androidx.constraintlayout.widget.ConstraintLayout>

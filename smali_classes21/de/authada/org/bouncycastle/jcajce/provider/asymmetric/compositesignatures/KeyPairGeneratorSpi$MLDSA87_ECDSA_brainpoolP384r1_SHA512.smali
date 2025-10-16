@@ -1,0 +1,26 @@
+.class public final Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/KeyPairGeneratorSpi$MLDSA87_ECDSA_brainpoolP384r1_SHA512;
+.super Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/KeyPairGeneratorSpi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/KeyPairGeneratorSpi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "MLDSA87_ECDSA_brainpoolP384r1_SHA512"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 65354
+    sget-object v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/CompositeSignaturesConstants$CompositeName;->MLDSA87_ECDSA_brainpoolP384r1_SHA512:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/CompositeSignaturesConstants$CompositeName;
+
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/KeyPairGeneratorSpi;-><init>(Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/compositesignatures/CompositeSignaturesConstants$CompositeName;)V
+
+    return-void
+.end method

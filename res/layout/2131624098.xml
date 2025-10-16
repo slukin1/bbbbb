@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441594" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="center" android:id="@id/2131444117" ="wrap_content" ="fill_parent" ="@font/2131296275" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131433648" ="15.0dip" ="15.0dip" ="wrap_content" ="fill_parent" ="@null" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.binance.c2c.orderdetail.widget.step.AppealStepsView android:id="@id/2131438592" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441594" />
+    <com.binance.c2c.orderdetail.widget.step.AppealStepsDescView android:id="@id/2131438591" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="@id/2131438592" 2130969937="@id/2131438592" 2130969940="@id/2131438592" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236765" ="20.0dip" ="fill_parent" ="0.0dip" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131438591">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449653" ="fill_parent" ="fill_parent" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

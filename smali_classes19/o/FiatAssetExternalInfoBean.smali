@@ -1,0 +1,59 @@
+.class public final Lo/FiatAssetExternalInfoBean;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field private static a:Lcom/cardinalcommerce/a/getPaResStatus;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/cardinalcommerce/a/getPaResStatus;
+
+    invoke-direct {v0}, Lcom/cardinalcommerce/a/getPaResStatus;-><init>()V
+
+    sput-object v0, Lo/FiatAssetExternalInfoBean;->a:Lcom/cardinalcommerce/a/getPaResStatus;
+
+    new-instance v0, Lcom/cardinalcommerce/a/setEnabledDiscover;
+
+    invoke-direct {v0}, Lcom/cardinalcommerce/a/setEnabledDiscover;-><init>()V
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static c(Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;)Lcom/cardinalcommerce/a/getPaResStatus;
+    .locals 1
+
+    .line 1000
+    iget-object v0, p0, Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;->e:Ljava/util/Vector;
+
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->size()I
+
+    move-result v0
+
+    if-gtz v0, :cond_0
+
+    .line 0
+    sget-object p0, Lo/FiatAssetExternalInfoBean;->a:Lcom/cardinalcommerce/a/getPaResStatus;
+
+    return-object p0
+
+    :cond_0
+    new-instance v0, Lcom/cardinalcommerce/a/getPaResStatus;
+
+    invoke-direct {v0, p0}, Lcom/cardinalcommerce/a/getPaResStatus;-><init>(Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;)V
+
+    return-object v0
+.end method

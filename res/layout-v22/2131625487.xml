@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448916" ="15.0dip" ="15.0dip" ="false" ="fill_parent" ="48.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.KitNestedHorizontalScrollRecyclerView ="horizontal" android:id="@id/2131439644" ="false" ="0.0dip" ="wrap_content" ="20.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969918="@id/2131434538" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="0.0dip" 2130969911="@id/2131439644" 2130969917="@id/2131439644" 2130969941="@id/2131439644" 2130971077="@drawable/2131233816" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434538" ="gone" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="@id/2131439644" 2130969917="2131438103" 2130969936="@id/2131439644" 2130969941="@id/2131439644" 2130971077="@drawable/2131237353" 2130971375="@color/2131099738" />
+    <View android:id="@id/2131449264" ="@drawable/2131233825" ="gone" ="8.0dip" ="8.0dip" ="1.0dip" ="@null" 2130969917="@id/2131434538" 2130969941="@id/2131434538" />
+</androidx.constraintlayout.widget.ConstraintLayout>

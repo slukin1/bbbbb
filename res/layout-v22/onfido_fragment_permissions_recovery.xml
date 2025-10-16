@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="?2130970361" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView android:id="@id/2131439803" ="8.0dip" ="fill_parent" ="wrap_content" ="@id/2131440015" ="true" style="@style/2132148929">
+        <LinearLayout ="vertical" android:id="@id/2131430863" ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167206" ="@dimen/2131167206">
+            <TextView android:id="@id/title" ="@dimen/2131167446" ="@dimen/2131167445" ="true" style="@style/2132148962" />
+            <TextView android:id="@id/2131438999" ="wrap_content" ="wrap_content" ="40.0dip" style="@style/2132148953" />
+            <com.onfido.android.sdk.capture.ui.BulletStepView android:id="@id/2131438997" ="fill_parent" ="wrap_content" ="@dimen/2131167444" />
+            <com.onfido.android.sdk.capture.ui.BulletStepView android:id="@id/2131438998" ="fill_parent" ="wrap_content" ="16.0dip" ="@dimen/2131167444" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <include layout="@layout/onfido_watermark_layout" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131440015" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" ="@id/2131450333" ="@dimen/2131167223" 2130970348="@string/onfido_permission_recovery_button_primary" />
+</RelativeLayout>

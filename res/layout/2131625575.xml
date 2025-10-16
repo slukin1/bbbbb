@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="fill_parent" 2130971098="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.NestedCoordinatorLayout ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <include android:id="@id/2131449561" ="fill_parent" ="wrap_content" 2130969974="2131439795" layout="@layout/2131629273" />
+            <include android:id="@id/2131449574" ="fill_parent" ="wrap_content" 2130969902="2131438344" layout="@layout/2131629297" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" />
+        </com.binance.widget.viewpager2.NestedScrollableHost>
+    </com.binance.widget.NestedCoordinatorLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

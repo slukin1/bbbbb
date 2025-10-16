@@ -1,0 +1,75 @@
+.class public Lde/authada/org/bouncycastle/crypto/params/IESParameters;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lde/authada/org/bouncycastle/crypto/CipherParameters;
+
+
+# instance fields
+.field private derivation:[B
+
+.field private encoding:[B
+
+.field private macKeySize:I
+
+
+# direct methods
+.method public constructor <init>([B[BI)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/util/Arrays;->clone([B)[B
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/crypto/params/IESParameters;->derivation:[B
+
+    invoke-static {p2}, Lde/authada/org/bouncycastle/util/Arrays;->clone([B)[B
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/crypto/params/IESParameters;->encoding:[B
+
+    iput p3, p0, Lde/authada/org/bouncycastle/crypto/params/IESParameters;->macKeySize:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getDerivationV()[B
+    .locals 1
+
+    .line 65353
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/params/IESParameters;->derivation:[B
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/util/Arrays;->clone([B)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getEncodingV()[B
+    .locals 1
+
+    .line 65352
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/params/IESParameters;->encoding:[B
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/util/Arrays;->clone([B)[B
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getMacKeySize()I
+    .locals 1
+
+    .line 65351
+    iget v0, p0, Lde/authada/org/bouncycastle/crypto/params/IESParameters;->macKeySize:I
+
+    return v0
+.end method

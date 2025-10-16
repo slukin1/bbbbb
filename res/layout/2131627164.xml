@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439482" ="@color/2131099685" ="visible" ="true" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432189" ="fill_parent" ="wrap_content" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449652" ="true" ="fill_parent" ="0.0dip" ="1.0" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432187" ="fill_parent" ="56.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

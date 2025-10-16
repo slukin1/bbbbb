@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" ="295.0dip" ="0.95" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/2131448997" ="@drawable/2131238532" ="5.0dip" ="5.0dip" ="none" ="none" ="0.0dip" ="wrap_content" ="30.0dip" ="10.0dip" ="10.0dip" 2130969905="true" 2130969912="@id/2131431954" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432023" 2130969947="295.0dip">
+        <LinearLayout ="center_vertical" ="center_vertical" ="horizontal" android:id="@id/2131448996" ="wrap_content" ="fill_parent" />
+    </HorizontalScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432023" ="gone" ="0.0dip" ="6.0dip" ="-1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131434951" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238536" />
+        <ImageView android:id="@id/2131434950" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238536" />
+        <ImageView android:id="@id/2131434954" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238536" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431954" ="gone" ="0.0dip" ="6.0dip" ="-1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448997">
+        <ImageView android:id="@id/2131434502" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238535" />
+        <ImageView android:id="@id/2131434501" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238535" />
+        <ImageView android:id="@id/2131434505" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238535" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

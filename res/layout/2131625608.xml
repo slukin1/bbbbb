@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441385" ="wrap_content" ="wrap_content" ="16.0dip" 2130969912="@id/2131427952" 2130969917="@id/2131427952" 2130969937="@id/2131427952" 2130971077="@drawable/2131234381" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131427952" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/hybrid_internal_please_check_your_net_work" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429168" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/hybrid_internal_refresh" 2130969917="@id/2131427952" 2130969937="@id/2131427952" 2130969940="@id/2131427952" style="@style/2132148694" />
+</androidx.constraintlayout.widget.ConstraintLayout>

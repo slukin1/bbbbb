@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/savings_guide_bg" ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivClose" ="14.0dip" ="44.0dip" ="44.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <ImageView android:id="@id/2131433897" ="96.0dip" ="96.0dip" ="50.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234388" />
+    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/title" ="fill_parent" ="wrap_content" ="24.0dip" ="25.0dip" ="24.0dip" android:text="@string/earn_loan_confirm_terms_tip" ="8.0dip" 2130969940="@id/2131433897" style="@style/2132149446" />
+    <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429510" ="wrap_content" ="wrap_content" ="18.0dip" 2130969937="@id/title" 2130969940="@id/title" />
+    <TextView ="@color/2131099764" android:id="@id/2131442459" ="0.0dip" ="wrap_content" android:text="@string/earn_loan_confirm_terms_check1_text" ="6.0dip" ="13.0dip" ="24.0dip" 2130969917="2131438103" 2130969936="@id/2131429510" 2130969941="@id/2131429510" style="@style/2132149350" />
+    <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429511" ="wrap_content" ="wrap_content" ="18.0dip" 2130969937="@id/title" 2130969940="@id/2131442459" />
+    <TextView ="@color/2131099764" android:id="@id/2131442460" ="0.0dip" ="wrap_content" android:text="@string/earn_loan_confirm_terms_check2_text" ="6.0dip" ="13.0dip" ="24.0dip" 2130969917="2131438103" 2130969936="@id/2131429511" 2130969941="@id/2131429511" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="15.0dip" ="25.0dip" ="15.0dip" android:text="@string/confirm" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442460" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

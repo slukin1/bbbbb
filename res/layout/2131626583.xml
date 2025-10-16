@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441501" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="gone" ="fill_parent" ="35.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="1.0dip" 2130969937="2131438103" 2130969940="@id/tabLayout" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131435855" 2130969962="@dimen/2131166153">
+        <RelativeLayout android:id="@id/animal_layout_1" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView ="14.0sp" ="@color/2131099685" ="center" android:id="@id/2131437961" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="1" ="@font/2131296273" ="@color/2131099764" />
+            <View android:id="@id/2131437953" ="@color/2131099726" ="1.5dip" ="180.0dip" ="@id/2131437961" ="@id/2131437965" ="10.0sp" />
+            <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131437965" ="16.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="@id/2131437961">
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131441482" ="fill_parent" ="wrap_content" android:text="@string/c2c_seller_step1_title" ="@font/2131296273" />
+                <TextView ="12.0sp" ="#ff848e9c" android:id="@id/2131437975" ="fill_parent" ="wrap_content" ="12.0dip" ="4.0dip" android:text="@string/c2c_pay_seller_desc1" ="@font/2131296274" />
+                <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131437974" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_gift_card_seller_tips" ="@font/2131296274" />
+                <FrameLayout android:id="@id/2131441782" ="@drawable/2131232591" ="15.0dip" ="4.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="8.0dip" />
+                <FrameLayout android:id="@id/2131437921" ="fill_parent" ="wrap_content" ="8.0dip">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430175" ="visible" ="fill_parent" ="wrap_content">
+                        <TextView ="12.0sp" ="@color/2131099778" ="end" android:id="@id/2131443970" ="0.0dip" ="wrap_content" android:text="@string/c2c_pay_seller_desc2" ="@font/2131296274" ="5.0dip" 2130969918="@id/2131434050" 2130969937="2131438103" 2130969941="2131438103" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434050" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969941="@id/2131443970" 2130971077="@drawable/2131237050" 2130971375="@color/2131099738" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="horizontal" android:id="@id/2131431648" ="gone" ="fill_parent" ="wrap_content">
+                        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443971" ="0.0dip" ="wrap_content" android:text="@string/c2c_pay_seller_desc2" ="1.0" ="@font/2131296274" />
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237057" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/animal_layout_2" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/animal_layout_1">
+            <TextView ="14.0sp" ="@color/2131099685" ="center" android:id="@id/2131437962" ="@drawable/2131232428" ="2.0dip" ="20.0dip" ="22.0dip" android:text="2" ="@font/2131296273" ="@color/2131099764" />
+            <LinearLayout ="center_horizontal" ="vertical" ="16.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="@id/2131437962">
+                <com.binance.c2c.api.common.UnderlineTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131441483" ="fill_parent" ="wrap_content" android:text="@string/c2c_seller_step2_title" ="@font/2131296273" />
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.constraintlayout.widget.Group android:id="@id/2131438221" ="fill_parent" ="wrap_content" 2130969125="animal_layout_1, animal_layout_2" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441493" ="16.0dip" ="16.0dip" ="40.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434221" ="16.0dip" ="16.0dip" ="1.0dip" 2130969937="2131438103" 2130969941="@id/2131441465" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131441465" ="0.0dip" ="wrap_content" android:text="@string/c2c_pay_seller_desc1" ="@font/2131296274" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131434221" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434222" ="16.0dip" ="16.0dip" ="1.0dip" 2130969937="2131438103" 2130969941="@id/2131441466" 2130971077="@drawable/2131237072" 2130971375="@color/2131102753" />
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131441466" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/c2c_buyer_payment_page_first_warning" ="@font/2131296274" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131434222" 2130969940="@id/2131441465" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434223" ="16.0dip" ="16.0dip" ="1.0dip" 2130969937="2131438103" 2130969941="@id/2131441467" 2130971077="@drawable/2131236818" 2130971375="@color/2131103205" />
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131441467" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/c2c_pay_seller_desc2" ="@font/2131296274" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131434223" 2130969940="@id/2131441466" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436350" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131449447" ="gone" ="fill_parent" ="4.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439593" ="fill_parent" ="wrap_content" />
+    <View android:id="@id/2131449446" ="gone" ="fill_parent" ="4.0dip" />
+</LinearLayout>

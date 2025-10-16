@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="0.0dip" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434913" ="4.0dip" ="24.0dip" ="24.0dip" 2130969911="@id/tv_title" 2130969936="@id/tv_title" 2130969941="@id/tv_title" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+    <TextView ="@color/2131099778" android:id="@id/2131447941" ="0.0dip" ="wrap_content" ="5.0dip" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149374" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440049" ="5.0dip" ="invisible" ="26.0dip" ="26.0dip" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title" 2130971077="@drawable/2131238029" 2130971375="@color/2131099785" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131448076" ="@drawable/2131236699" ="wrap_content" ="22.0dip" ="10.0dip" ="8.0dip" ="4.0dip" 2130969937="@id/tv_title" 2130969940="@id/2131447941" style="@style/2132149454" />
+    <com.finance.futures.common.feature.bigdata.ui.view.chartholder.DoubleAreaChartHolderViewV2 android:id="@id/2131430705" ="fill_parent" ="wrap_content" ="14.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448076" />
+</androidx.constraintlayout.widget.ConstraintLayout>

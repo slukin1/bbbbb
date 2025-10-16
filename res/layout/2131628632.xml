@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430582" ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="108.0dip" style="@style/2132148636" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131440715" ="wrap_content" ="wrap_content" ="4.0dip" android:text="*" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131440716" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131440715" 2130969941="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428745" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/um_grid_trade_create" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440716" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

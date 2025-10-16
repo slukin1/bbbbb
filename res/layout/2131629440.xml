@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232574" ="fill_parent" ="wrap_content" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="24.0sp" ="@color/2131099764" android:id="@id/2131448056" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296267" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="24.0sp" ="@color/2131099764" android:id="@id/2131448053" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296267" 2130969937="@id/2131445728" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131448054" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_30d_transactions" ="@font/2131296274" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131448053" />
+    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_30d_completion_rate" ="@font/2131296274" 2130969937="@id/2131448053" 2130969940="@id/2131448056" />
+    <TextView ="24.0sp" ="@color/2131099764" android:id="@id/2131445734" ="wrap_content" ="wrap_content" ="16.0dip" ="@font/2131296267" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131448054" />
+    <TextView ="24.0sp" ="@color/2131099764" android:id="@id/2131445728" ="wrap_content" ="wrap_content" ="16.0dip" ="@font/2131296267" ="100.0dip" 2130969917="2131438103" 2130969940="@id/2131448054" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445741" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_avg_release_time" ="@font/2131296274" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131445734" />
+    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_avg_pay_time" ="@font/2131296274" 2130969937="@id/2131445728" 2130969940="@id/2131445728" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131436806" ="5.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445741">
+        <TextView ="12.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_reviews_home_more" ="@font/2131296274" ="4.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434688" ="16.0dip" ="16.0dip" ="fitCenter" ="@color/2131099738" ="@string/ms_index_more" 2130971077="@drawable/2131237055" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

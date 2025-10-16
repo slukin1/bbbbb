@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/strategy_bot_preview" style="@style/2132149463" />
+    <View android:id="@id/2131449288" ="@color/2131099751" ="fill_parent" ="0.5dip" ="8.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439568" ="7.0dip" ="7.0dip" ="false" ="fill_parent" ="30.0dip" 2130969918="@id/divider" 2130969937="2131438103" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <FrameLayout android:id="@id/2131440783" ="gone" ="fill_parent" ="158.0dip" />
+</LinearLayout>

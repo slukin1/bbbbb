@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430435" ="fill_parent" ="wrap_content">
+        <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" ="@id/2131440573" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131435813" ="wrap_content" ="wrap_content" ="no" 2130969919="@dimen/2131167682" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131439242" ="wrap_content" ="wrap_content" ="no" 2130969920="@dimen/2131167682" />
+        <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131428570" ="wrap_content" ="wrap_content" ="no" 2130969920="24.0dip" />
+        <Button android:id="@id/2131440573" ="0.0dip" ="wrap_content" 2130969911="@id/2131428570" 2130969917="@id/2131439242" 2130969937="@id/2131435813" 2130969940="@id/2131441394" 2130969947="500.0dip" />
+        <ImageView android:id="@id/2131433149" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" ="fitStart" ="no" ="24.0dip" ="24.0dip" 2130969912="@id/2131441396" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" />
+        <TextView android:id="@id/2131441395" ="16.0dip" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" 2130969912="@id/2131433518" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441396" 2130969947="500.0dip" style="?2130971299" />
+        <TextView android:id="@id/2131441396" ="16.0dip" ="0.0dip" ="wrap_content" ="yes" ="24.0dip" ="24.0dip" ="@id/2131441395" 2130969912="@id/2131441395" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433149" 2130969947="500.0dip" style="?2130971282" />
+        <TextView ="center" android:id="@id/2131441394" ="16.0dip" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" 2130969912="@id/2131440573" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433518" 2130969942="1.0" 2130969943="2131438085" 2130969947="500.0dip" style="?2130971273" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437470" ="0.0dip" ="0.0dip" 2130969912="@id/2131441394" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441395" />
+        <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131433518" ="0.0dip" ="0.0dip" ="16.0dip" ="24.0dip" ="24.0dip" 2130969916="1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441395" 2130969949="?2130970507" 2130970039="true" 2130970045="true" 2130970050="true" 2130970052="@raw/2132017242" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

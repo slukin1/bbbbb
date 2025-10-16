@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131436345" ="fill_parent" ="45.0dip" android:hint="@string/_search" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/ms_search_input_hint" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439844" ="fill_parent" ="wrap_content" ="12.0dip">
+        <TextView ="@color/2131099764" android:id="@id/tv_history_label" ="wrap_content" ="wrap_content" android:text="@string/search_history" ="14.0dip" 2130969918="@id/2131434428" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434428" ="20.0dip" ="20.0dip" ="14.0dip" 2130969917="2131438103" 2130969936="@id/tv_history_label" 2130969941="2131438103" 2130971077="@drawable/2131237186" 2130971375="@color/2131099785" />
+        <LinearLayout ="start" ="horizontal" android:id="@id/2131436551" ="0.0dip" ="wrap_content" ="12.0dip" ="14.0dip" ="14.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_history_label" />
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432044" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969468="2131450408" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_history_label" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="24.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131445997" ="0.0dip" ="wrap_content" android:text="@string/coin_list" ="1.0" ="14.0dip" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131430662" ="wrap_content" ="wrap_content" android:text="@string/format_current" ="14.0dip" ="15.0dip" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/2131440378" ="gone" ="20.0dip" ="20.0dip" ="false" ="15.0dip" 2130968849="@drawable/2131238113" 2130968863="@color/2131099785" 2130969917="2131438103" 2130969941="2131438103" />
+    </LinearLayout>
+    <RelativeLayout ="fill_parent" ="fill_parent" ="5.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" ="@id/2131429131" />
+        <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="32.0dip" ="16.0dip" ="fill_parent" ="true" 2130968837="@color/2131100298" 2130968838="@dimen/2131167690" 2130968840="@color/2131103031" 2130968841="@dimen/2131167696" />
+        <TextView ="32.0sp" ="center" android:id="@id/2131443523" ="@drawable/2131234435" ="gone" ="54.0dip" ="45.0dip" ="0.0dip" ="8.0dip" 2130969918="@id/2131429131" 2130969941="@id/2131429131" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_data" ="20.0dip" ="true" 2130969314="@drawable/2131238419" style="@style/2132149446" />
+    </RelativeLayout>
+</LinearLayout>

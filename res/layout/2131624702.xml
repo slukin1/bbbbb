@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233200" ="1.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="12.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" android:id="@id/2131435564" ="visible" ="fill_parent" ="0.0dip" 2130969916="h,16:9" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428682" ="48.0dip" ="48.0dip" ="@color/2131100365" 2130971077="@drawable/2131238015" 2130971180="@null" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/content_video_upload_video" style="@style/2132149371" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131449097" ="wrap_content" ="wrap_content" ="30.0dip" ="4.0dip" ="30.0dip" ="center" style="@style/2132149395" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131449098" ="wrap_content" ="wrap_content" ="30.0dip" ="30.0dip" android:text="@string/content_upload_video_pc_tip" ="center" style="@style/2132149395" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131449473" ="wrap_content" ="wrap_content" ="30.0dip" ="4.0dip" ="30.0dip" android:text="@string/content_upload_video_tutorial" ="center" style="@style/2132149395" />
+    </LinearLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/2131435520" ="visible" ="fill_parent" ="0.0dip" 2130969916="h,16:9" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428879" ="48.0dip" ="48.0dip" ="@color/2131100365" 2130971077="@drawable/2131237935" 2130971180="@null" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/content_video_reload_video" style="@style/2132149371" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="wrap_content" ="wrap_content" ="32.0dip" ="4.0dip" ="32.0dip" android:text="@string/content_network_poor_retry" style="@style/2132149394" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@id/2131435498" ="false" ="fill_parent" ="0.0dip" ="0.0dip" 2130968912="@dimen/2131166170" 2130969916="h,16:9" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433078" ="fill_parent" ="fill_parent" ="centerCrop" 2130971180="@null" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449337" ="fill_parent" ="fill_parent" 2130971180="@null" />
+        <View android:id="@id/2131449415" ="@drawable/2131235989" ="fill_parent" ="fill_parent" ="0.4" ="#ff0b0e11" />
+        <FrameLayout ="end" android:id="@id/2131428752" ="6.0dip" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView ="center" ="@drawable/2131232989" ="3.0dip" ="18.0dip" ="18.0dip" ="#ffffffff" 2130971077="@drawable/2131237100" 2130971180="@null" />
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131438458" ="40.0dip" ="40.0dip" ="#ffffffff" 2130971077="@drawable/2131237086" 2130971180="@null" />
+        <View ="bottom" android:id="@id/2131431128" ="@drawable/2131233033" ="fill_parent" ="40.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099776" ="start|bottom|center" android:id="@id/2131445348" ="wrap_content" ="wrap_content" ="10.0dip" android:text="00:00" ="10.0dip" style="@style/2132149382" />
+        <LinearLayout ="center_vertical" ="end|bottom|center" ="horizontal" android:id="@id/2131428744" ="@drawable/2131236007" ="8.0dip" ="6.0dip" ="8.0dip" ="6.0dip" ="wrap_content" ="wrap_content" ="6.0dip" ="6.0dip" ="#ffeaecef">
+            <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131427659" ="gone" ="16.0dip" ="16.0dip" 2130970039="true" 2130970050="true" 2130970052="@raw/2132017281" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427660" ="12.0dip" ="12.0dip" ="@color/2131099789" 2130971077="@drawable/2131236984" 2130971180="@null" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" android:id="@id/2131427661" ="wrap_content" ="wrap_content" android:text="@string/content_video_upload_video_add_cover" ="2.0dip" style="@style/2132149394" />
+        </LinearLayout>
+        <LinearLayout ="center" ="center" ="vertical" android:id="@id/2131435565" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099776" android:id="@id/2131449103" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132148866" />
+            <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/2131449102" ="82.0dip" ="4.0dip" ="10.0dip" ="100" ="50" 2130969638="@color/2131099829" 2130971440="#50ffffff" 2130971443="@dimen/2131166200" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

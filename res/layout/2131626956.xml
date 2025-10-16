@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131435750" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" />
+    <TextView ="14.0sp" ="@color/2131099778" ="center" android:id="@id/2131435749" ="gone" ="wrap_content" ="wrap_content" ="60.0dip" android:text="@string/margin_no_positions" ="24.0dip" ="@font/2131296266" 2130969314="@drawable/2131233810" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

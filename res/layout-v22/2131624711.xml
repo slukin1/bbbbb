@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/image" ="0.0dip" ="0.0dip" ="centerCrop" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971180="@null" />
+    <androidx.cardview.widget.CardView ="0.0dip" ="0.0dip" 2130968911="#64000000" 2130968912="4.0dip" 2130968914="0.0dip" 2130969142="0.0dip" 2130969911="@id/2131428255" 2130969917="@id/2131428255" 2130969937="@id/2131428254" 2130969941="@id/2131428255" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428257" ="0.0dip" ="0.0dip" 2130969911="@id/2131428254" 2130969917="@id/2131428254" 2130969937="@id/2131428258" 2130969941="@id/2131428254" />
+    <Space android:id="@id/2131428258" ="5.0dip" ="1.0dip" 2130969911="@id/2131428254" 2130969918="@id/icon_badge" 2130969937="2131438103" 2130969941="@id/2131428254" />
+    <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/icon_badge" ="gone" ="16.0dip" ="16.0dip" 2130969911="@id/2131428254" 2130969918="@id/icon_badge_right" 2130969936="@id/2131428258" 2130969941="@id/2131428254" 2130970039="true" 2130970050="true" 2130970052="@raw/2132017152" />
+    <Space android:id="@id/icon_badge_right" ="3.0dip" ="1.0dip" 2130969911="@id/2131428254" 2130969918="@id/2131428254" 2130969936="@id/icon_badge" 2130969941="@id/2131428254" />
+    <TextView ="bold" ="#fff9fbfc" android:id="@id/2131428254" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="" ="2.0dip" 2130969936="@id/icon_badge_right" 2130969941="2131438103" style="@style/2132149394" />
+    <TextView ="#fff9fbfc" android:id="@id/2131428255" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="" ="5.0dip" ="2.0dip" 2130969936="@id/2131428254" 2130969941="2131438103" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131439147" ="wrap_content" ="wrap_content" 2130969125="icon_reminder_badge_left,icon_reminder_badge,reminder_count_badge" />
+    <Space android:id="@id/icon_reminder_badge_left" ="4.0dip" ="0.0dip" 2130969911="@id/reminder_count_badge" 2130969918="@id/icon_reminder_badge" 2130969941="@id/reminder_count_badge" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_reminder_badge" ="12.0dip" ="12.0dip" ="2.0dip" 2130969911="@id/reminder_count_badge" 2130969918="@id/reminder_count_badge" 2130969941="@id/reminder_count_badge" 2130971077="@drawable/2131237717" 2130971375="@color/2131101189" />
+    <TextView ="#fff9fbfc" android:id="@id/reminder_count_badge" ="wrap_content" ="wrap_content" ="4.0dip" android:text="" ="6.0dip" ="2.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/icon_play" ="gone" ="68.0dip" ="68.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130970803="@style/2132150259" 2130971077="@drawable/2131233135" 2130971180="@null" />
+</androidx.constraintlayout.widget.ConstraintLayout>

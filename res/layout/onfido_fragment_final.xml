@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="fill_parent" ="@id/2131450333" ="true" style="@style/2132148929">
+        <LinearLayout ="center" ="vertical" ="fill_parent" ="fill_parent" ="@id/2131441799" ="20.0dip" ="20.0dip">
+            <com.onfido.android.sdk.capture.ui.widget.CircularImageView ="center_horizontal" android:id="@id/2131449329" ="wrap_content" ="wrap_content" 2130970351="@drawable/onfido_ic_thick" />
+            <TextView ="center" ="center_horizontal" android:id="@id/title" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/onfido_outro_title" style="@style/2132148962" />
+            <TextView ="center" ="center_horizontal" android:id="@id/2131440847" ="wrap_content" ="wrap_content" ="@dimen/2131167340" android:text="@string/onfido_outro_body" style="@style/2132148936" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131440840" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" ="@id/2131450333" 2130970348="@string/onfido_outro_button_primary" />
+    <include layout="@layout/onfido_watermark_layout" />
+</RelativeLayout>

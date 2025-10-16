@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131447596" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ms_recommend" ="ltr" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431236" ="@drawable/2131236038" ="fill_parent" ="80.0dip" ="15.0dip" ="8.0dip" ="15.0dip">
+        <LinearLayout ="center_vertical" ="vertical" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView ="@color/2131099764" android:id="@id/2131450134" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_earn_entry" 2130969912="@id/2131450133" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <TextView ="@color/2131099787" android:id="@id/2131450133" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/funds_detail_convert_now_title" style="@style/2132149450" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450132" ="48.0dip" ="48.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238393" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131431235" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450124" ="@drawable/2131236038" ="10.0dip" ="0.0dip" ="96.0dip" 2130969918="@id/2131450128" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131450127" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/wallet_balance_earn_entry" ="3" ="10.0dip" ="8.0dip" 2130969918="@id/2131450125" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" android:id="@id/2131450126" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/payment_crypto_box_earn_now" ="3" ="10.0dip" ="8.0dip" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450125" ="36.0dip" ="36.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131238393" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450128" ="@drawable/2131236038" ="10.0dip" ="0.0dip" ="96.0dip" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131450124" 2130969941="@id/2131450124">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131450131" ="0.0dip" ="wrap_content" ="12.0dip" ="3" ="10.0dip" ="8.0dip" 2130969918="@id/2131450129" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" android:id="@id/2131450130" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/payment_convert_now" ="3" ="10.0dip" ="8.0dip" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450129" ="36.0dip" ="36.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131238383" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

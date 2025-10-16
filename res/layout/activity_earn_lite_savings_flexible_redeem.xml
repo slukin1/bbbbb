@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/activity_earn_lite_savings_flexible_redeem" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/headerBar" ="fill_parent" ="@dimen/2131165972" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView ="start" android:id="@id/2131441619" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="wrap_content" ="fill_parent" ="true" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView ="fill_parent" ="0.0dip" ="true" 2130969912="@id/2131429648" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/headerBar">
+        <androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/2131439103" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_redemption_amount" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <com.major.android.uikit.textview.KitAutoSizeAmountWithAssetView android:id="@id/2131435443" ="fill_parent" ="wrap_content" ="70.0dip" 2130968942="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439103" 2130970142="15" 2130970143="180.0dip" 2130970148="36.0sp" 2130970204="12.0sp" />
+            <TextView ="@color/2131099863" ="center_horizontal" android:id="@id/2131445163" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969940="@id/2131435443" style="@style/2132149384" />
+            <TextView ="@color/2131099778" ="center" android:id="@id/2131431704" ="0.0dip" ="wrap_content" ="41.5dip" ="24.0dip" ="41.5dip" android:text="@string/fast_redemption_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445163" style="@style/2132149384" />
+            <com.major.android.uikit.notification.KitNotification android:id="@id/2131437749" ="gone" ="fill_parent" ="0.0dip" ="15.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431704" 2130970325="@drawable/2131238480" 2130970329="@string/earn_redeem_insufficient_warning" 2130970863="@null" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429648" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" 2130969912="@id/2131442573" 2130969942="1.0" />
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131442573" ="fill_parent" ="48.0dip" ="20.0dip" ="20.0dip" android:text="@string/redeem" ="15.0dip" ="15.0dip" 2130969173="24.0" 2130969911="2131438103" 2130970889="1" />
+        <com.binance.base.widget.IconTipsTextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131442543" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_collateralized_amount_desc" ="15.0dip" 2130969912="@id/2131443708" 2130969937="2131438103" 2130970840="false" 2130971382="@string/earn_collateralized_amount_usage_tip" 2130971383="2131429431" style="@style/2132149350" />
+        <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131442230" ="visible" ="wrap_content" ="wrap_content" android:text="@string/earn_available_redemption_desc" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442543" style="@style/2132149350" />
+        <TextView ="@color/2131099787" android:id="@id/2131443708" ="wrap_content" ="wrap_content" android:text="@string/max" ="15.0dip" 2130969911="@id/2131442230" 2130969912="@id/2131435038" 2130969917="2131438103" style="@style/2132149374" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

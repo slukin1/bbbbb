@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429682" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvMarginMode" ="gone" ="wrap_content" ="wrap_content" android:text="@string/symbol_margin_mode" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvCross" ="@drawable/2131233737" ="gone" ="0.0dip" ="40.0dip" ="10.0dip" android:text="@string/_cross" ="10.0dip" 2130969918="@id/tvIsolated" 2130969937="2131438103" 2130969940="@id/tvMarginMode" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvIsolated" ="@drawable/2131233737" ="0.0dip" ="40.0dip" android:text="@string/_isolated" 2130969917="2131438103" 2130969936="@id/tvCross" 2130969941="@id/tvCross" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432554" ="gone" ="0.0dip" ="0.0dip" 2130969125="tvCross, tvIsolated" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444766" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/status" 2130969912="@id/tvExpired" 2130969937="2131438103" 2130969940="@id/tvCross" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvExpired" ="@drawable/2131233737" ="0.0dip" ="40.0dip" ="10.0dip" android:text="@string/rc_expired" ="1.0" ="10.0dip" 2130969918="@id/tvCancel" 2130969937="2131438103" 2130969940="@id/2131444766" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvCancel" ="@drawable/2131233737" ="0.0dip" ="40.0dip" android:text="@string/canceled" ="1.0" 2130969917="2131438103" 2130969936="@id/tvExpired" 2130969941="@id/tvExpired" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432597" ="0.0dip" ="0.0dip" 2130969125="tvExpired, tvCancel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

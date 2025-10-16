@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="fill_parent" ="37.0dip" ="37.0dip">
+        <FrameLayout android:id="@id/2131435461" ="0.0dip" ="fill_parent" ="1.0">
+            <com.major.android.uikit.litebtmbar.LiteBtmBarMarketBtn ="center" android:id="@id/2131428826" ="34.0dip" ="34.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131435552" ="0.0dip" ="fill_parent" ="1.0">
+            <com.major.android.uikit.litebtmbar.LiteBtmTradeBtn ="center" android:id="@id/2131428930" ="54.0dip" ="54.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131435571" ="0.0dip" ="fill_parent" ="1.0">
+            <com.major.android.uikit.litebtmbar.LiteBtmBarWalletBtn ="center" android:id="@id/2131428948" ="34.0dip" ="34.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

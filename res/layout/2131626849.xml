@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="436.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitLoadingButton ="end" ="center" android:id="@id/2131440070" ="0.0dip" ="48.0dip" ="16.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969173="4.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <androidx.core.widget.NestedScrollView ="@null" ="0.0dip" ="0.0dip" ="12.0dip" ="true" 2130969912="@id/2131440070" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131440072" ="0.0dip" ="wrap_content" ="28.0dip" android:text="@string/eternal_internal_user_info_title" ="false" ="20.0dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+            <TextView ="@color/2131099778" android:id="@id/2131440071" ="0.0dip" ="wrap_content" ="12.0dip" ="22.0dip" android:text="@string/eternal_internal_user_info_tip" ="false" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440072" style="@style/2132149350" />
+            <FrameLayout android:id="@id/2131440075" ="@drawable/2131236009" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="12.0dip" ="8.0dip" ="24.0dip" ="15.0dip" ="15.0dip" ="@color/2131099800" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440071">
+                <LinearLayout ="vertical" android:id="@id/2131440076" ="fill_parent" ="fill_parent" />
+            </FrameLayout>
+            <LinearLayout ="horizontal" android:id="@id/2131429537" ="0.0dip" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440075">
+                <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="20.0dip" ="20.0dip" ="false" />
+                <TextView ="@color/2131099764" android:id="@id/2131441943" ="0.0dip" ="wrap_content" android:text="@string/agree_to_share_info_to_bifinity" ="false" ="1.0" ="1.2" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131429513" 2130969941="2131438103" style="@style/2132149384" />
+            </LinearLayout>
+            <TextView ="@color/2131099785" android:id="@id/2131438655" ="0.0dip" ="wrap_content" ="12.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429537" style="@style/2132149394" />
+            <View android:id="@id/2131436974" ="gone" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/tvValue" ="wrap_content" ="wrap_content" ="10.0dip" 2130969912="@id/2131444820" 2130969918="@id/2131433927" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131444820" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/tvValue" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433927" ="gone" ="20.0dip" ="20.0dip" ="centerInside" 2130969911="@id/tvValue" 2130969917="2131438103" 2130969941="@id/tvValue" 2130971077="@drawable/2131237146" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

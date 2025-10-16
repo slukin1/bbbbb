@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="15.0dip" ="6.0dip" ="15.0dip" ="6.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166269" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" android:id="@id/2131450383" ="@drawable/2131232591" ="fill_parent" ="wrap_content" ="ltr">
+        <LinearLayout ="horizontal" ="20.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="15.0dip">
+            <View android:id="@id/2131438224" ="@drawable/2131232420" ="4.0dip" ="12.0dip" ="6.0dip" />
+            <TextView ="16.0sp" ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131438230" ="wrap_content" ="wrap_content" ="2" ="@font/2131296273" ="8.0dip" />
+            <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131447076" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_add_payment_update_required" ="@font/2131296274" ="4.0dip" ="@color/2131099744" ="@dimen/2131166260" />
+            <View ="0.0dip" ="1.0dip" ="1.0" />
+            <TextView ="12.0sp" ="#ff848e9c" android:id="@id/2131438241" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_mobile_payment_add_payment_disabled" ="@font/2131296274" ="16.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131438174" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" 2130971077="@drawable/2131237055" />
+            <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131438185" ="gone" ="wrap_content" ="20.0dip" ="4.0dip" ="16.0dip" 2130971077="@drawable/2131237100" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" android:id="@id/2131428426" ="0.0dip" ="wrap_content" ="1.0" ="0.0dip" ="16.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView ="bottom" android:id="@id/2131438231" ="36.0dip" ="20.0dip" ="16.0dip" 2130971077="@drawable/2131237283" 2130971375="@color/2131099764" />
+        </LinearLayout>
+        <View android:id="@id/2131438246" ="@color/2131100461" ="invisible" ="fill_parent" ="1.0dip" ="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

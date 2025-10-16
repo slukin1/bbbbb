@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@drawable/2131238595" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131432819" ="16.0dip" android:text="@string/uq_face_dialog_face_not_match" ="true" style="@style/2132150325" />
+    <RelativeLayout android:id="@id/2131435494" ="wrap_content" ="wrap_content" ="24.0dip" ="@id/2131432819" ="true">
+        <LinearLayout ="vertical" android:id="@id/2131435915" ="wrap_content" ="wrap_content" ="true">
+            <ImageView ="center" android:id="@id/2131438286" ="71.0dip" ="wrap_content" ="@drawable/2131238621" />
+            <TextView ="#ff00d102" ="center_horizontal" android:id="@id/2131435741" ="wrap_content" ="wrap_content" android:text="@string/uq_face_perfect" ="8.0dip" ="8.0dip" style="@style/2132150324" />
+        </LinearLayout>
+        <TextView ="start" android:id="@id/2131432867" ="wrap_content" ="wrap_content" android:text="@string/uq_face_hints" ="true" ="1.4" ="16.0dip" ="@id/2131435915" style="@style/2132150324" />
+    </RelativeLayout>
+    <ScrollView ="fill_parent" ="0.0dip" ="@dimen/2131165249" ="@id/btnTryAgain" ="@id/2131435494">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+            <ImageView android:id="@id/2131441592" ="71.0dip" ="wrap_content" ="@drawable/2131238613" ="12.0dip" 2130969918="@id/2131432755" 2130969927="0.5" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="#ffc80028" ="center" android:id="@id/2131431702" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/uq_face_too_far" ="12.0dip" 2130969918="@id/2131432755" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/2131441592" style="@style/2132150324" />
+            <ImageView android:id="@id/2131441593" ="71.0dip" ="wrap_content" ="16.0dip" ="@drawable/2131238624" 2130969917="@id/2131431702" 2130969937="@id/2131431702" 2130969940="@id/2131431702" />
+            <TextView ="#ffc80028" ="center" android:id="@id/2131435824" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/uq_face_too_light" ="12.0dip" 2130969918="@id/2131432755" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/2131441593" style="@style/2132150324" />
+            <ImageView android:id="@id/2131441590" ="71.0dip" ="wrap_content" ="@drawable/2131238622" ="12.0dip" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/2131432755" 2130969941="2131438103" />
+            <TextView ="#ffc80028" ="center" android:id="@id/2131430102" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/uq_face_too_close" ="12.0dip" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/2131432755" 2130969940="@id/2131441590" style="@style/2132150324" />
+            <ImageView android:id="@id/2131441591" ="71.0dip" ="wrap_content" ="16.0dip" ="@drawable/2131238623" 2130969917="@id/2131430102" 2130969937="@id/2131430102" 2130969940="@id/2131430102" />
+            <TextView ="#ffc80028" ="center" android:id="@id/2131430722" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/uq_face_too_dark" ="12.0dip" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/2131432755" 2130969940="@id/2131441591" style="@style/2132150324" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button android:id="@id/btnTryAgain" android:text="@string/uq_face_try_again" ="true" ="true" ="false" ="20.0dip" ="20.0dip" style="@style/2132150317" />
+</RelativeLayout>

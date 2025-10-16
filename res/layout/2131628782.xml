@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 ="horizontal" android:id="@id/2131449438" ="fill_parent" ="wrap_content" />
+    <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131433417" ="false" ="wrap_content" ="wrap_content" ="6.0dip" 2130968672="@color/2131099764" 2130968673="@dimen/2131166286" 2130968674="@dimen/2131166286" 2130968676="@color/2131099785" 2130968677="@dimen/2131166260" 2130968678="@dimen/2131166260" 2130968679="@dimen/2131166260" 2130968680="1" 2130969942="1.0" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131427572" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip">
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131444971" ="wrap_content" ="wrap_content" ="124.0dip" android:text="@string/lending_redemption_confirmed" ="12.0dip" 2130969314="@drawable/2131238405" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131447942" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149419" />
+        <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131431240" ="fill_parent" ="wrap_content" ="12.0dip" 2130969714="2" />
+    </LinearLayout>
+    <View android:id="@id/2131429277" ="@drawable/2131232712" ="gone" ="fill_parent" ="123.0dip" ="15.0dip" ="15.0dip" ="16.0dip" ="@id/2131445351" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442611" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/earn_busd_non_support" ="@id/2131429277" ="35.0dip" ="@id/2131433776" style="@style/2132149428" />
+    <TextView ="14.0sp" ="@color/2131099787" ="center_vertical" android:id="@id/2131442605" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/spot_funds_covert_to_fdusd" ="@id/2131442611" ="35.0dip" ="@id/2131433776" style="@style/2132149371" />
+    <ImageView android:id="@id/2131433776" ="gone" ="80.0dip" ="80.0dip" ="20.0dip" ="20.0dip" ="@id/2131429277" ="20.0dip" ="20.0dip" ="@id/2131429277" 2130971077="@drawable/2131238386" />
+    <com.major.android.uikit.button.KitButton ="true" ="center" android:id="@id/2131445351" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="16.0dip" android:text="@string/earn_view_balance" ="true" 2130968700="@dimen/2131167696" 2130968705="2131449068" 2130969173="30.0" 2130970889="1" 2130971472="2" style="@style/2132149371" />
+</RelativeLayout>

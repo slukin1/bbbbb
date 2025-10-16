@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.trade.sdk.orderbook.layout.MarginOrderBookLayout android:id="@id/2131440468" ="fill_parent" ="wrap_content" 2130968777="Margin" 2130969937="2131438103" 2130969941="2131438103" 2130970438="1" 2130971563="5" />
+    <FrameLayout android:id="@id/2131437891" ="fill_parent" ="fill_parent">
+        <ViewStub android:id="@id/2131437890" ="@layout/2131627251" ="@id/2131437890" ="fill_parent" ="fill_parent" />
+        <ViewStub android:id="@id/2131435554" ="@layout/2131627263" ="@id/2131435554" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+    <ViewStub android:id="@id/2131435476" ="@layout/2131628843" ="@id/2131435476" ="fill_parent" ="fill_parent" />
+</FrameLayout>

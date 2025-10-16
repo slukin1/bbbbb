@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="155.0dip" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/tv_title" ="wrap_content" ="wrap_content" 2130969999="@dimen/2131166188" style="@style/2132149390" />
+    <TextView ="@color/2131102397" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149390" />
+</LinearLayout>

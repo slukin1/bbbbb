@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView ="fill_parent" ="?2130970016"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center_vertical" ="true" ="0.0dip" ="wrap_content" ="?2130970018" ="?2130970019" ="1.0">
+        <TextView ="?2130971293" ="marquee" android:id="@id/title" ="horizontal" ="true" ="fill_parent" ="wrap_content" ="true" ="true" ="true" />
+        <TextView ="?android:textAppearanceSmall" android:id="@id/2131440085" ="true" ="wrap_content" ="wrap_content" ="true" ="@id/title" ="true" />
+    </RelativeLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

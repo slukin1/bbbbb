@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true">
+        <shape ="rectangle">
+            <solid ="@color/2131099744" />
+            <stroke ="1.5dip" ="@color/2131102774" />
+            <corners ="6.0dip" />
+            <padding ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" />
+        </shape>
+    </item>
+    <item ="true">
+        <shape ="rectangle">
+            <solid ="@color/2131099744" />
+            <stroke ="1.5dip" ="@color/2131102774" />
+            <corners ="6.0dip" />
+            <padding ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape ="rectangle">
+            <solid ="@color/2131099744" />
+            <corners ="6.0dip" />
+            <padding ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232628" ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437277" ="fill_parent" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131437276" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_title" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437265" ="gone" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center_vertical" android:id="@id/2131437275" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="54.0dip" android:text="@string/mpc_wallet_backup_method_select_tip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437277" style="@style/2132149350" />
+    <include android:id="@id/2131437268" ="fill_parent" ="56.0dip" 2130969937="2131438103" 2130969940="@id/2131437275" layout="@layout/2131627701" />
+    <include android:id="@id/2131437270" ="fill_parent" ="56.0dip" 2130969937="2131438103" 2130969940="@id/2131437268" layout="@layout/2131627701" />
+    <include android:id="@id/2131437271" ="fill_parent" ="56.0dip" 2130969937="2131438103" 2130969940="@id/2131437270" layout="@layout/2131627701" />
+</androidx.constraintlayout.widget.ConstraintLayout>

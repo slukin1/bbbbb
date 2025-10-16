@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.CentralableFlowLayout android:id="@id/2131432027" ="5.0dip" ="fill_parent" ="wrap_content" />
+    <View android:id="@id/2131449216" ="@color/2131100852" ="fill_parent" ="0.5dip" ="5.0dip" 2130969940="@id/2131432027" />
+</merge>

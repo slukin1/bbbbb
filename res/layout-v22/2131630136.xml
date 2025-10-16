@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131235989" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="200.0dip" ="@color/2131099685" ="@dimen/2131166156" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099764" ="center" android:id="@id/2131432854" ="5.0dip" ="5.0dip" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="@drawable/2131236633" android:text="@string/wallet_funds_hide_small_asset" ="@dimen/2131166260" ="@dimen/2131166260" style="@style/2132149350" />
+    <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099764" ="center" android:id="@id/2131432851" ="5.0dip" ="5.0dip" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="5.0dip" ="@drawable/2131236633" android:text="@string/wallet_funds_hide_pnl" ="@dimen/2131166260" ="@dimen/2131166260" style="@style/2132149350" />
+    <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099764" ="center" android:id="@id/2131432852" ="5.0dip" ="5.0dip" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="5.0dip" ="@drawable/2131236633" android:text="@string/wallet_hide_shortcut" ="@dimen/2131166260" ="@dimen/2131166260" style="@style/2132149350" />
+    <LinearLayout ="center_vertical" android:id="@id/2131430531" ="5.0dip" ="5.0dip" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="@dimen/2131166260">
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131238026" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_cost_preference" ="5.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" android:id="@id/2131436876" ="5.0dip" ="5.0dip" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="@dimen/2131166260">
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237285" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_manage_account" ="5.0dip" style="@style/2132149350" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

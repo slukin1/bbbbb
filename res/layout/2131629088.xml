@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131429745" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <com.finance.kit.framework.widget.KitNestedHorizontalScrollRecyclerView ="horizontal" android:id="@id/2131439560" ="false" ="fill_parent" ="wrap_content" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436329" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444375" ="wrap_content" ="wrap_content" android:text="@string/twap_running_refresh_hint" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434114" ="16.0dip" ="16.0dip" ="2.0dip" 2130969911="@id/2131444375" 2130971077="@drawable/2131237911" 2130971375="@color/2131099738" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432172" ="fill_parent" ="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

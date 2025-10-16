@@ -1,0 +1,25 @@
+.class public final Lcn/jiguang/privates/R;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcn/jiguang/privates/R$drawable;,
+        Lcn/jiguang/privates/R$id;,
+        Lcn/jiguang/privates/R$layout;,
+        Lcn/jiguang/privates/R$string;,
+        Lcn/jiguang/privates/R$style;
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

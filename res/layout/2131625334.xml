@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236024" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433199" ="15.0dip" ="50.0dip" ="50.0dip" ="@color/2131099764" ="@string/close" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="50.0dip" android:text="@string/ocbs_string_transaction_fees_with_upcase" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131442329" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_company_fees" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131442330" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/tvTitle" style="@style/2132149446" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/contentDivider" ="@color/2131099751" ="0.0dip" ="1.0dip" ="16.0dip" 2130968943="true" 2130969292="@null" 2130969917="@id/2131442330" 2130969937="@id/2131442329" 2130969940="@id/2131442329" />
+    <TextView ="@color/2131099764" android:id="@id/2131442027" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ocbs_string_additional_fees_with_upcase" ="15.0dip" 2130969937="2131438103" 2130969940="@id/contentDivider" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="start" android:id="@id/2131442026" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/ocbs_string_additional_fees_desc" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442027" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428837" ="fill_parent" ="48.0dip" ="20.0dip" android:text="@string/earn_tip_ok" ="15.0dip" ="15.0dip" 2130969915="@dimen/2131166247" 2130969940="@id/2131442026" />
+    <androidx.constraintlayout.widget.Placeholder ="fill_parent" ="16.0dip" 2130969940="@id/2131428837" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <TextView ="15.0dip" android:text="@string/help_support" style="@style/2132148553" />
+    <ScrollView ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <LinearLayout android:id="@id/2131436231" style="@style/2132148224">
+                <TextView android:text="@string/help_center" ="0.0dip" style="@style/2132148761" />
+                <ImageView ="wrap_content" ="wrap_content" ="@null" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131436233" style="@style/2132148224">
+                <TextView android:text="@string/feedback" ="0.0dip" style="@style/2132148761" />
+                <ImageView ="wrap_content" ="wrap_content" ="@null" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131436694" style="@style/2132148224">
+                <TextView android:text="@string/usercenter_request_features" ="0.0dip" style="@style/2132148761" />
+                <ImageView ="wrap_content" ="wrap_content" ="@null" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131439308" style="@style/2132148224">
+                <TextView android:text="@string/network_test_title" ="0.0dip" style="@style/2132148761" />
+                <ImageView ="wrap_content" ="wrap_content" ="@null" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </LinearLayout>
+            <View ="@color/2131099685" ="fill_parent" ="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

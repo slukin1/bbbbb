@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/2131446821" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/string_limit" style="@style/2132149377" />
+        <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="1.0dip" ="10.0dip" ="5.0dip" ="5.0dip" />
+        <include android:id="@id/2131435620" ="0.0dip" ="48.0dip" ="1.0" layout="@layout/2131625487" />
+    </LinearLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130971098="false">
+        <FrameLayout ="fill_parent" ="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" style="@style/2132148635" />
+            <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131431361" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/alpha_trading_no_history_found" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

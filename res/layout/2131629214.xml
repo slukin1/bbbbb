@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131435050" ="0.0dip" ="wrap_content" 2130969818="false" 2130969820="@string/c2c_mob_ad_post_p1_label_pricetype" 2130969834="1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.c2c.advertisement.view.PriceAdjustmentView android:id="@id/2131438120" ="0.0dip" ="wrap_content" ="28.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435050" 2130969962="0.0dip" />
+    <com.binance.c2c.api.common.DashUnderlineTextView ="12.0sp" ="@color/2131099778" android:id="@id/tv_price_formula" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/c2c_post_ad_pricing_formula" ="@font/2131296274" 2130969223="@dimen/2131166199" 2130969937="2131438103" 2130969940="@id/2131438120" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/tv_price_formula_value" ="wrap_content" ="wrap_content" ="@font/2131296274" ="8.0dip" 2130969911="@id/tv_price_formula" 2130969936="@id/tv_price_formula" 2130969941="@id/tv_price_formula" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448652" ="wrap_content" ="wrap_content" ="23.0dip" android:text="@string/c2c_mob_ad_post_p1_label_price" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/tv_price_formula" />
+    <com.binance.c2c.api.view.AutoSplitTextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131448655" ="wrap_content" ="wrap_content" ="1" ="@font/2131296273" ="8.0dip" 2130969911="@id/2131448652" 2130969936="@id/2131448652" 2130969941="@id/2131448652" />
+    <com.binance.c2c.api.common.DashUnderlineTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446822" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/c2c_post_ad_lowest_price" ="@font/2131296274" 2130969223="@dimen/2131166199" 2130969937="2131438103" 2130969940="@id/2131448652" />
+    <com.binance.c2c.api.view.AutoSplitTextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131446823" ="wrap_content" ="wrap_content" ="1" ="@font/2131296273" ="8.0dip" 2130969911="@id/2131446822" 2130969936="@id/2131446822" 2130969941="@id/2131446822" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432679" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_price_formula,tv_price_formula_value" />
+</merge>

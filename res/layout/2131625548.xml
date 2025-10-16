@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436512" ="@drawable/2131233831" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131432116" ="gone" ="fill_parent" ="52.0dip" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip">
+        <RelativeLayout android:id="@id/2131441630" ="fill_parent" ="fill_parent">
+            <ImageView ="start" android:id="@id/2131441619" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="true" ="@null" ="12.0dip" ="12.0dip" ="true" 2130971077="@drawable/2131236863" />
+            <TextView ="@dimen/2131165975" ="@color/2131100256" ="end" ="center" android:id="@id/2131432117" ="fill_parent" ="fill_parent" ="true" ="true" ="@font/2131296275" ="10.0dip" ="@id/toolbar_title_right_icon" ="@id/2131441619" />
+            <ImageView android:id="@id/toolbar_title_right_icon" ="@drawable/2131233829" ="24.0dip" ="24.0dip" ="centerInside" ="true" ="@null" ="10.0dip" ="true" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/2131450340" ="fill_parent" ="fill_parent">
+        <ImageView ="center" ="end" android:id="@id/2131434548" ="@drawable/2131233832" ="8.0dip" ="32.0dip" ="32.0dip" ="12.0dip" ="centerInside" ="@null" ="12.0dip" />
+    </FrameLayout>
+</LinearLayout>

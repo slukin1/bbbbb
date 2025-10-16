@@ -1,0 +1,500 @@
+.class public final Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;
+.super Lcom/finance/futures/common/feature/tpsl/ui/dialog/FutureBasePositionTPSLConfirmationDialog;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements1;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0006\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u001a2\u00020\u0001:\u0001\u001aB\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u0017\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\t\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0003J\u0011\u0010\u0007\u001a\u0004\u0018\u00010\nH\u0017\u00a2\u0006\u0004\u0008\u0007\u0010\u000bJ\u0011\u0010\r\u001a\u0004\u0018\u00010\u000cH\u0017\u00a2\u0006\u0004\u0008\r\u0010\u000eR\u001b\u0010\u0014\u001a\u00020\u000f8CX\u0083\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u0011\u001a\u0004\u0008\u0012\u0010\u0013R\u001b\u0010\u0019\u001a\u00020\u00158CX\u0083\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\u0011\u001a\u0004\u0008\u0017\u0010\u0018"
+    }
+    d2 = {
+        "Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;",
+        "Lcom/finance/futures/common/feature/tpsl/ui/dialog/FutureBasePositionTPSLConfirmationDialog;",
+        "<init>",
+        "()V",
+        "",
+        "p0",
+        "",
+        "c",
+        "(Z)V",
+        "i",
+        "Lcom/binance/data/beans/FutureMarketPair;",
+        "()Lcom/binance/data/beans/FutureMarketPair;",
+        "",
+        "j",
+        "()Ljava/lang/Double;",
+        "Lo/startScreencast;",
+        "cmData$delegate",
+        "Lkotlin/Lazy;",
+        "getCmData",
+        "()Lo/startScreencast;",
+        "cmData",
+        "Lo/SortSubSelector;",
+        "orderConfirmationViewModel$delegate",
+        "getOrderConfirmationViewModel",
+        "()Lo/SortSubSelector;",
+        "orderConfirmationViewModel",
+        "DropdropElements1"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final DropdropElements1:Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements1;
+
+
+# instance fields
+.field private final cmData$delegate:Lkotlin/Lazy;
+
+.field private final orderConfirmationViewModel$delegate:Lkotlin/Lazy;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 65354
+    new-instance v0, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements1;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements1;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    sput-object v0, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->DropdropElements1:Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements1;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 6
+
+    .line 25
+    invoke-direct {p0}, Lcom/finance/futures/common/feature/tpsl/ui/dialog/FutureBasePositionTPSLConfirmationDialog;-><init>()V
+
+    .line 27
+    new-instance v0, Lo/clearAccountType;
+
+    invoke-direct {v0, p0}, Lo/clearAccountType;-><init>(Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;)V
+
+    invoke-static {v0}, Lkotlin/LazyKt;->lazy(Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->cmData$delegate:Lkotlin/Lazy;
+
+    .line 28
+    move-object v0, p0
+
+    check-cast v0, Landroidx/fragment/app/Fragment;
+
+    .line 74
+    new-instance v1, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DemoFundsParentComponent;
+
+    invoke-direct {v1, v0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DemoFundsParentComponent;-><init>(Landroidx/fragment/app/Fragment;)V
+
+    check-cast v1, Lkotlin/jvm/functions/Function0;
+
+    .line 86
+    sget-object v2, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v3, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements2;
+
+    invoke-direct {v3, v1}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements2;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v2, v3}, Lkotlin/LazyKt;->e(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v1
+
+    .line 87
+    const-class v2, Lo/SortSubSelector;
+
+    invoke-static {v2}, Lo/WalletRestoreActivityoldBindProcess22;->a(Ljava/lang/Class;)Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements4;
+
+    invoke-direct {v3, v1}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements4;-><init>(Lkotlin/Lazy;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    new-instance v4, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements3;
+
+    const/4 v5, 0x0
+
+    invoke-direct {v4, v5, v1}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$DropdropElements3;-><init>(Lkotlin/jvm/functions/Function0;Lkotlin/Lazy;)V
+
+    check-cast v4, Lkotlin/jvm/functions/Function0;
+
+    new-instance v5, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$JsonLogicException;
+
+    invoke-direct {v5, v0, v1}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog$JsonLogicException;-><init>(Landroidx/fragment/app/Fragment;Lkotlin/Lazy;)V
+
+    check-cast v5, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v0, v2, v3, v4, v5}, Lo/layoutdefault;->b(Landroidx/fragment/app/Fragment;Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    .line 28
+    iput-object v0, p0, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->orderConfirmationViewModel$delegate:Lkotlin/Lazy;
+
+    return-void
+.end method
+
+.method public static synthetic d(Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;Landroid/view/View;)V
+    .locals 3
+
+    .line 1039
+    sget-object v0, Lcom/finance/futures/common/feature/trade/ui/dialog/FuturePriceProtectDescDialogFragment;->DemoFundsParentComponent:Lcom/finance/futures/common/feature/trade/ui/dialog/FuturePriceProtectDescDialogFragment$DemoFundsParentComponent;
+
+    const v0, 0x7f153050
+
+    .line 1040
+    invoke-static {v0}, Lo/JResponse;->j(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 1041
+    sget-object v1, Lcom/binance/base/tools/DomainUtil;->a:Lcom/binance/base/tools/DomainUtil;
+
+    invoke-static {}, Lcom/binance/base/tools/DomainUtil;->a()Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "/{lang}/futures/trading-rules/quarterly"
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 1042
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object p0
+
+    invoke-static {p0, v0, v1}, Lcom/finance/futures/common/feature/trade/ui/dialog/FuturePriceProtectDescDialogFragment$DemoFundsParentComponent;->c(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 1044
+    invoke-static {p1}, Lcom/sensorsdata/analytics/android/autotrack/aop/SensorsDataAutoTrackHelper;->trackViewOnClick(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public static synthetic d(Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;Landroid/widget/CompoundButton;Z)V
+    .locals 2
+
+    .line 2047
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/binance/base/activity/BaseActivity;
+
+    .line 2048
+    check-cast v0, Lo/MarginExchangeCoresubscribeLifecycleObserverinlinedtransform1;
+
+    invoke-direct {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getCmData()Lo/startScreencast;
+
+    move-result-object p0
+
+    invoke-interface {p0}, Lo/startScreencast;->H()Lo/FeedUIComponentKtbindFeedBottomSheetbubblePeekHeightFlow4;
+
+    move-result-object p0
+
+    .line 3035
+    new-instance v1, Lo/FeedUIComponentKtbindFeedBottomSheetlambda50inlinedfilter221;
+
+    invoke-direct {v1}, Lo/FeedUIComponentKtbindFeedBottomSheetlambda50inlinedfilter221;-><init>()V
+
+    .line 3032
+    invoke-static {v0, p0, p2, v1}, Lo/FeedUIComponentKtbindFeedBottomSheetextraPeekHeightFlow2;->a(Lo/MarginExchangeCoresubscribeLifecycleObserverinlinedtransform1;Lo/FeedUIComponentKtbindFeedBottomSheetbubblePeekHeightFlow4;ZLkotlin/jvm/functions/Function1;)V
+
+    .line 2049
+    invoke-static {p1}, Lcom/sensorsdata/analytics/android/autotrack/aop/SensorsDataAutoTrackHelper;->trackViewOnClick(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public static synthetic e(Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;)Lo/startScreencast;
+    .locals 0
+
+    .line 4027
+    check-cast p0, Landroidx/lifecycle/LifecycleOwner;
+
+    invoke-static {p0}, Lo/setInterestBytes;->c(Landroidx/lifecycle/LifecycleOwner;)Lcom/finance/arch/ui/constant/FinanceBizEnum;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lo/NestmclearCnt24;->a(Lcom/finance/arch/ui/constant/FinanceBizEnum;)Lo/startScreencast;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private final getCmData()Lo/startScreencast;
+    .locals 1
+
+    .line 27
+    iget-object v0, p0, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->cmData$delegate:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/startScreencast;
+
+    return-object v0
+.end method
+
+.method private final getOrderConfirmationViewModel()Lo/SortSubSelector;
+    .locals 1
+
+    .line 28
+    iget-object v0, p0, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->orderConfirmationViewModel$delegate:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/SortSubSelector;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final c()Lcom/binance/data/beans/FutureMarketPair;
+    .locals 2
+
+    .line 54
+    invoke-virtual {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getConfirmBean()Lcom/finance/futures/common/feature/position/data/po/FuturesPositionTPSLConfirmBean;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/finance/futures/common/feature/position/data/po/FuturesPositionTPSLConfirmBean;->getSymbol()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_1
+
+    :cond_0
+    const-string v0, ""
+
+    .line 55
+    :cond_1
+    invoke-direct {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getCmData()Lo/startScreencast;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lo/startScreencast;->g()Lo/getGridInitialValueBytes;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lo/getGridInitialValueBytes;->e()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/finance/commonbusiness/feature/future/data/po/FuturesMarketPairBO;
+
+    if-eqz v1, :cond_2
+
+    invoke-virtual {v1, v0}, Lcom/finance/commonbusiness/feature/future/data/po/FuturesMarketPairBO;->findBySymbol(Ljava/lang/String;)Lcom/binance/data/beans/FutureMarketPair;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final c(Z)V
+    .locals 7
+
+    .line 31
+    invoke-direct {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getOrderConfirmationViewModel()Lo/SortSubSelector;
+
+    move-result-object v0
+
+    move-object v1, v0
+
+    check-cast v1, Lo/DumpappHttpSocketLikeHandler;
+
+    sget-object v0, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$OrderType;->STOP_MARKET:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$OrderType;
+
+    invoke-virtual {v0}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$OrderType;->getValue()Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x4
+
+    const/4 v6, 0x0
+
+    move v3, p1
+
+    invoke-static/range {v1 .. v6}, Lo/DumpappHttpSocketLikeHandler;->b(Lo/DumpappHttpSocketLikeHandler;Ljava/lang/String;ZZILjava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final i()V
+    .locals 3
+
+    .line 35
+    invoke-virtual {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getBinding()Lo/PinchEvent;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    .line 36
+    iget-object v1, v0, Lo/PinchEvent;->d:Lcom/major/android/uikit2/selection/KitSwitch;
+
+    invoke-direct {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getCmData()Lo/startScreencast;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lo/startScreencast;->H()Lo/FeedUIComponentKtbindFeedBottomSheetbubblePeekHeightFlow4;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lo/hasPotentialApr;->e()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Boolean;
+
+    if-eqz v2, :cond_0
+
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v2, 0x0
+
+    :goto_0
+    invoke-virtual {v1, v2}, Landroid/widget/CompoundButton;->setChecked(Z)V
+
+    .line 38
+    iget-object v1, v0, Lo/PinchEvent;->c:Landroid/widget/ImageView;
+
+    new-instance v2, Lo/NestmsetWalletName;
+
+    invoke-direct {v2, p0}, Lo/NestmsetWalletName;-><init>(Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;)V
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 46
+    iget-object v0, v0, Lo/PinchEvent;->d:Lcom/major/android/uikit2/selection/KitSwitch;
+
+    new-instance v1, Lo/NestmsetWalletIconBytes;
+
+    invoke-direct {v1, p0}, Lo/NestmsetWalletIconBytes;-><init>(Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;)V
+
+    invoke-virtual {v0, v1}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+
+    :cond_1
+    return-void
+.end method
+
+.method public final j()Ljava/lang/Double;
+    .locals 2
+
+    .line 59
+    invoke-virtual {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getConfirmBean()Lcom/finance/futures/common/feature/position/data/po/FuturesPositionTPSLConfirmBean;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/finance/futures/common/feature/position/data/po/FuturesPositionTPSLConfirmBean;->getSymbol()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_1
+
+    :cond_0
+    const-string v0, ""
+
+    .line 60
+    :cond_1
+    invoke-direct {p0}, Lcom/finance/delivery/feature/tpsl/CmPositionTPSLConfirmationDialog;->getCmData()Lo/startScreencast;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lo/startScreencast;->g()Lo/getGridInitialValueBytes;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lo/getGridInitialValueBytes;->e()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/finance/commonbusiness/feature/future/data/po/FuturesMarketPairBO;
+
+    if-eqz v1, :cond_2
+
+    invoke-virtual {v1, v0}, Lcom/finance/commonbusiness/feature/future/data/po/FuturesMarketPairBO;->findBySymbol(Ljava/lang/String;)Lcom/binance/data/beans/FutureMarketPair;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v0}, Lcom/binance/data/beans/FutureMarketPair;->getExchangeInfo()Lcom/binance/data/beans/Symbol;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    invoke-virtual {v0}, Lcom/binance/data/beans/Symbol;->getTriggerProtect()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    invoke-static {v0}, Lo/fillText;->d(Ljava/lang/String;)Ljava/lang/Double;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    return-object v0
+.end method

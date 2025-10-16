@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624283" />
+    <TextView ="@color/2131099764" android:id="@id/2131430963" ="wrap_content" ="wrap_content" ="16.0dip" ="6.0dip" ="16.0dip" android:text="@string/ms_accounts_manage_account" style="@style/2132149416" />
+    <ViewFlipper android:id="@id/2131440110" ="fill_parent" ="fill_parent">
+        <include layout="@layout/2131627159" />
+        <include layout="@layout/2131625343" />
+        <include layout="@layout/2131624995" />
+    </ViewFlipper>
+</LinearLayout>

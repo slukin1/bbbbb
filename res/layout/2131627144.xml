@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131443611" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099851" android:id="@id/2131436764" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_low_risk" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443611" style="@style/2132149361" />
+    <TextView ="@color/2131099778" android:id="@id/2131443342" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131436764" 2130969917="2131438103" 2130969940="@id/2131443611" style="@style/2132149384" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" 2130969940="@id/2131443342" />
+    <TextView ="@color/2131099764" android:id="@id/2131443648" ="wrap_content" ="wrap_content" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149450" />
+    <TextView ="@color/2131099787" android:id="@id/2131436880" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_medium_risk" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443648" style="@style/2132149361" />
+    <TextView ="@color/2131099778" android:id="@id/2131443649" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131436880" 2130969917="2131438103" 2130969940="@id/2131443648" style="@style/2132149384" />
+    <View android:id="@id/divider2" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" 2130969940="@id/2131436880" />
+    <TextView ="@color/2131099764" android:id="@id/2131443285" ="wrap_content" ="wrap_content" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/divider2" style="@style/2132149450" />
+    <TextView ="@color/2131099863" android:id="@id/2131432864" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_high_risk" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443285" style="@style/2132149361" />
+    <TextView ="@color/2131099778" android:id="@id/2131443286" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131432864" 2130969917="2131438103" 2130969940="@id/2131443285" style="@style/2132149384" />
+    <View android:id="@id/divider3" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" 2130969940="@id/2131443286" />
+</androidx.constraintlayout.widget.ConstraintLayout>

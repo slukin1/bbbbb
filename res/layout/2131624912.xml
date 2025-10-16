@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" ="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_portfolio" layout="@layout/2131624937" />
+</FrameLayout>

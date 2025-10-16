@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450168" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131450299" ="0.0dip" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131450217" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969940="@id/2131450299">
+        <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131450218" ="24.0dip" ="24.0dip" ="@drawable/2131236863" ="@color/2131099764" ="15.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131450220" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_verify" style="@style/2132149425" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450098" ="fill_parent" ="wrap_content" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131450217">
+        <com.mpc.wallet.widget.uikit.KitInputPassword android:id="@id/2131450101" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969660="@string/mpc_wallet_backup_enter_recovery_password" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="14.0sp" ="bold" ="@color/2131099787" android:id="@id/2131448596" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="25.0dip" android:text="@string/mpc_wallet_backup_forget_password" ="@dimen/2131166184" 2130969912="@id/2131450315" 2130969937="2131438103" style="@style/2132149350" />
+    <TextView ="14.0sp" ="bold" ="@color/2131099787" android:id="@id/2131448584" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="25.0dip" android:text="@string/mpc_wallet_forget_password_title" ="@dimen/2131166184" 2130969912="@id/2131450315" 2130969937="2131438103" style="@style/2132149350" />
+    <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131450315" ="fill_parent" ="48.0dip" ="15.0dip" ="10.0dip" android:text="@string/mpc_wallet_continue" ="15.0dip" ="15.0dip" 2130969173="8.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@dimen/2131166269" ="0.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131428187" ="wrap_content" ="wrap_content" ="@dimen/2131166269" 2130969918="@id/2131428188" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624531" />
+        <Space android:id="@id/2131428188" ="0.0dip" ="0.0dip" 2130969911="@id/2131428187" 2130969918="@id/2131437027" 2130969936="@id/2131428187" 2130969941="@id/2131428187" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131428508" ="0.0dip" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166153" ="@dimen/2131166184" ="2" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428187" style="@style/2132149463" />
+        <include android:id="@id/2131437027" ="wrap_content" ="wrap_content" ="@dimen/2131166184" 2130969911="@id/2131428187" 2130969917="2131438103" 2130969941="@id/2131428187" layout="@layout/2131624722" />
+        <include android:id="@id/2131441898" ="0.0dip" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131428508" layout="@layout/2131624781" />
+        <androidx.cardview.widget.CardView android:id="@id/2131428133" ="0.5dip" ="0.0dip" ="0.0dip" ="@dimen/2131166184" ="@dimen/2131166153" ="@dimen/2131166184" 2130968911="@android:color/transparent" 2130968912="10.0dip" 2130968914="0.0dip" 2130969916="1.77" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441898">
+            <include android:id="@id/2131436130" ="fill_parent" ="fill_parent" layout="@layout/2131624711" />
+        </androidx.cardview.widget.CardView>
+        <include android:id="@id/2131435844" ="0.0dip" ="wrap_content" ="7.0dip" ="@dimen/2131166156" ="@dimen/2131166156" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428133" layout="@layout/2131624626" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131439148" ="gone" ="wrap_content" ="wrap_content" 2130969125="icon_reminder_button,text_reminder_button" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_reminder_button" ="true" ="true" ="20.0dip" ="20.0dip" ="fitCenter" ="@string/content_add_reminder" ="4.0dip" 2130969911="@id/text_reminder_button" 2130969918="@id/text_reminder_button" 2130969941="@id/text_reminder_button" 2130971077="@drawable/2131237717" 2130971375="@color/2131099787" />
+        <TextView ="@color/2131099787" android:id="@id/text_reminder_button" ="5.0dip" ="5.0dip" ="true" ="true" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/content_add_reminder" ="@dimen/2131166184" 2130969917="2131438103" 2130969940="@id/2131428133" style="@style/2132149377" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131439146" ="gone" ="wrap_content" ="wrap_content" 2130969125="icon_reminder_added_button,text_reminder_added_button" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_reminder_added_button" ="true" ="true" ="20.0dip" ="20.0dip" ="fitCenter" ="@string/added" ="4.0dip" 2130969911="@id/text_reminder_added_button" 2130969918="@id/text_reminder_added_button" 2130969941="@id/text_reminder_added_button" 2130971077="@drawable/2131237037" 2130971375="@color/2131099785" />
+        <TextView ="@color/2131099785" android:id="@id/text_reminder_added_button" ="5.0dip" ="5.0dip" ="true" ="true" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/content_reminder_added" ="@dimen/2131166184" 2130969917="2131438103" 2130969940="@id/2131428133" style="@style/2132149377" />
+        <com.major.android.uikit.tooltip.KitToolTip android:id="@id/2131441638" ="gone" ="wrap_content" ="wrap_content" ="35.0dip" ="15.0dip" 2130969911="@id/2131435844" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="@dimen/2131166011" ="@dimen/2131166269" ="@dimen/2131166153" 2130969911="2131438103" 2130969940="@id/2131430397" />
+</LinearLayout>

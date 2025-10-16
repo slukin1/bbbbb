@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131437443" ="?2130970781" ="12.0dip" ="48.0dip" ="48.0dip" ="@string/pi2_back_button_description" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" 2130971077="@drawable/2131235869" />
+    <ImageView android:id="@id/2131437444" ="?2130970781" ="12.0dip" ="48.0dip" ="48.0dip" ="@string/pi2_close_button_description" 2130969911="2131438103" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" 2130971077="@drawable/2131235871" />
+</merge>

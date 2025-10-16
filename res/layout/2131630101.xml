@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_horizontal" ="96.0dip" ="96.0dip" ="30.0dip" 2130971077="@drawable/2131238396" />
+    <TextView ="@color/2131099764" ="center" ="center_horizontal" android:id="@id/2131442840" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/wallet_deposit_get_network_failed_title" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131442839" ="295.0dip" ="wrap_content" ="10.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131442578" ="gone" ="wrap_content" ="wrap_content" android:text="@string/wallet_contact_customer_service" style="@style/2132149450" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131431427" ="@drawable/2131232391" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131443001" ="wrap_content" ="wrap_content" android:text="@string/estimated_recovery_time" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131443000" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131444832" ="wrap_content" ="wrap_content" android:text="@string/wallet_subscribe_reminders" ="5.0dip" 2130969311="@drawable/2131238211" 2130969312="@color/2131099765" style="@style/2132149374" />
+    </LinearLayout>
+</LinearLayout>

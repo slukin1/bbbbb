@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="2.0dip" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView ="wrap_content" ="wrap_content" 2130968912="@dimen/2131166156" 2130968914="@dimen/2131166199" 2130968916="@dimen/2131166199" 2130968917="true" 2130968919="true">
+        <androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099675" ="12.0dip" ="10.0dip" ="12.0dip" ="10.0dip" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iconImageView" ="12.0dip" ="12.0dip" ="4.0dip" 2130969911="@id/2131433592" 2130969937="2131438103" 2130969941="@id/2131433592" 2130971077="@drawable/2131235293" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131433592" ="1.0dip" ="wrap_content" ="wrap_content" ="false" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/iconImageView" 2130969941="2131438103" style="@style/2132149350" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

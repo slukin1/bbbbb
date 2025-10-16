@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131429446" ="true" ="wrap_content" ="wrap_content" ="true" ="true" ="no">
+        <TextView ="24.0sp" ="center" android:id="@id/2131437152" ="45.0dip" ="45.0dip" ="8.0dip" ="no" ="@dimen/2131167325" style="@style/2132148964" />
+        <com.onfido.android.sdk.capture.ui.camera.liveness.turn.LivenessProgressArrow android:id="@id/2131428044" ="69.0dip" ="23.0dip" ="@dimen/2131167323" ="@dimen/2131167323" ="no" ="@dimen/2131167323" />
+        <TextView ="24.0sp" ="center" android:id="@id/2131437153" ="45.0dip" ="45.0dip" android:text="@string/onfido_video_capture_header_challenge_turn_forward" ="8.0dip" ="no" ="@dimen/2131167325" style="@style/2132148964" />
+        <com.onfido.android.sdk.capture.validation.OnfidoCaptureValidationBubble android:id="@id/livenessErrorsBubble" ="gone" ="false" ="wrap_content" ="wrap_content" ="@dimen/2131167206" ="5.0dip" ="@dimen/2131167206" ="@dimen/2131167206" 2130970433="true" />
+    </LinearLayout>
+</RelativeLayout>

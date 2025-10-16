@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131435383" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="54.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_checking_account" ="false" ="1.0" style="@style/2132149446" />
+        <ImageView android:id="@id/2131429586" ="gone" ="wrap_content" ="wrap_content" ="@drawable/2131236614" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131435523" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="54.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_saving_account" ="false" ="1.0" style="@style/2132149446" />
+        <ImageView android:id="@id/2131439750" ="gone" ="wrap_content" ="wrap_content" ="@drawable/2131236614" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

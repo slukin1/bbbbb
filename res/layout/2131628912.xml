@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" ="@drawable/2131236671" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitRadioButton android:id="@id/uikit_dropdown_item_rb" ="gone" ="false" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/uikit_dropdown_item_cb" ="false" ="wrap_content" ="wrap_content" ="false" 2130969758="true" 2130969759="2131437069" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" ="10.0dip" 2130968759="2131431371" 2130969125="uikit_dropdown_item_rb,uikit_dropdown_item_cb" />
+    <ImageView android:id="@id/2131448921" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="2131438103" 2130969936="@id/2131428303" 2130969941="2131438103" />
+    <TextView ="14.0sp" ="@color/2131099778" ="end" ="start|center" android:id="@id/2131448924" ="0.0dip" ="fill_parent" ="1" ="false" ="locale" ="viewStart" ="5.0dip" ="5.0dip" 2130969911="2131438103" 2130969918="@id/2131448922" 2130969927="0.0" 2130969936="@id/2131448921" 2130969941="2131438103" 2130969946="2131450408" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448922" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="@drawable/2131236624" ="-1.0" ="5.0dip" 2130969911="2131438103" 2130969918="@id/2131448925" 2130969941="2131438103" 2130969958="0.0dip" 2130971375="@color/2131099785" />
+    <TextView ="@color/2131099789" ="end|center" ="center_vertical" android:id="@id/2131448925" ="@drawable/2131236672" ="wrap_content" ="15.0dip" ="1" ="false" ="locale" ="viewStart" ="4.0dip" ="4.0dip" 2130969911="2131438103" 2130969918="@id/2131448920" 2130969941="2131438103" style="@style/2132149397" />
+    <ImageView android:id="@id/2131448920" ="gone" ="16.0dip" ="16.0dip" ="@drawable/2131236614" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

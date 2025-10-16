@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_staking_second_confirmation_title" ="@dimen/2131166184" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <RelativeLayout android:id="@id/2131439410" ="fill_parent" ="wrap_content" ="15.0dip" ="17.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/title">
+        <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430235" ="wrap_content" ="wrap_content" ="3.0dip" />
+        <TextView ="@color/2131102397" android:id="@id/2131442885" ="true" ="true" ="wrap_content" ="wrap_content" android:text="@string/earn_simple_locked_second_confirm_notice1" ="true" ="8.0dip" ="@id/2131430235" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131439411" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131439410">
+        <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430236" ="wrap_content" ="wrap_content" ="3.0dip" />
+        <TextView ="@color/2131102397" android:id="@id/2131442886" ="true" ="true" ="wrap_content" ="wrap_content" android:text="@string/earn_simple_second_confirmation_notice2" ="true" ="8.0dip" ="@id/2131430236" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131439412" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131439411">
+        <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430237" ="wrap_content" ="wrap_content" ="3.0dip" />
+        <TextView ="@color/2131102397" android:id="@id/2131442887" ="true" ="true" ="wrap_content" ="wrap_content" android:text="@string/earn_simple_second_confirmation_notice3" ="true" ="8.0dip" ="@id/2131430237" style="@style/2132149350" />
+    </RelativeLayout>
+    <View android:id="@id/2131449355" ="@color/2131099751" ="fill_parent" ="1.0px" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131439412" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428732" ="wrap_content" ="wrap_content" android:text="@string/confirm" ="20.0dip" 2130969917="@id/2131439412" 2130969941="@id/2131441217" style="@style/2132148692" />
+    <TextView ="@color/2131099764" android:id="@id/2131441217" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_simple_lite_accept_terms" ="2.0sp" ="15.0dip" ="15.0dip" 2130969905="true" 2130969918="@id/2131428732" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131449355" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

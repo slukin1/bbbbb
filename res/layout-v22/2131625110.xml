@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430900" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="12.0dip" ="12.0dip" android:text="@string/earn_choose_vouchers" ="15.0dip" ="@dimen/2131166170" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439035" ="fill_parent" ="wrap_content" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969904="true" 2130969912="@id/2131428831" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428831" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="20.0dip" android:text="@string/_next" ="@dimen/2131166184" 2130969911="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

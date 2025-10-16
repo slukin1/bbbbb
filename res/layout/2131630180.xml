@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" android:id="@id/2131435589" ="@drawable/2131235987" ="15.0dip" ="wrap_content" ="wrap_content" ="@color/2131099685" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447906" ="wrap_content" ="wrap_content" ="false" 2130969911="@id/2131447110" 2130969937="2131438103" 2130969941="@id/2131447110" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447912" ="fill_parent" ="wrap_content" ="0.5dip" android:text="/3" ="false" 2130969911="@id/2131447906" 2130969936="@id/2131447906" style="@style/2132149451" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="fill_parent" ="wrap_content" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131448085" ="fill_parent" ="wrap_content" ="4.0dip" ="false" ="1.3" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149350" />
+        <TextView ="@color/2131099787" ="center_vertical" android:id="@id/2131447046" ="gone" ="fill_parent" ="wrap_content" android:text="@string/wallet_step_guider_view_faq" 2130969937="2131438103" 2130969940="@id/2131448085" style="@style/2132149374" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131447110" ="15.0dip" ="15.0dip" ="true" ="true" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/_next" 2130969917="2131438103" 2130969940="@id/2131447046" style="@style/2132148699" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

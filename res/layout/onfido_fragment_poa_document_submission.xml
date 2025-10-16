@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.proofOfAddress.PoaZoomClass android:id="@id/poaDocumentImageLarge" ="fill_parent" ="fill_parent" 2130969912="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView android:id="@id/poaDocumentZoomIndications" ="@drawable/onfido_poa_ic_enlarge_rectangle" ="5.0dip" ="wrap_content" ="wrap_content" ="52.0dip" android:text="@string/onfido_poa_capture_enlarge_move" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148935" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/poaCloseButton" ="@drawable/onfido_poa_ic_enlarge_rectangle" ="10.0dip" ="true" ="true" ="wrap_content" ="wrap_content" ="52.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <ImageView android:id="@id/2131438529" ="wrap_content" ="wrap_content" ="@drawable/onfido_poa_collapse" 2130969911="2131438103" 2130969918="@id/2131438549" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView android:id="@id/2131438549" ="wrap_content" ="wrap_content" android:text="@string/onfido_poa_capture_enlarge_close" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131438529" style="@style/2132148935" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/2131438545" ="gone" ="fill_parent" ="fill_parent" 2130969125="poaDocumentImageLarge, poaDocumentZoomIndications, poaCloseButton" />
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView android:id="@id/2131438554" ="visible" ="fill_parent" ="fill_parent" ="true" 2130969912="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="@dimen/2131167206" ="@dimen/2131167206">
+            <ImageView android:id="@id/2131438535" ="169.0dip" ="246.0dip" ="32.0dip" 2130969912="@id/2131438537" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438541" ="@drawable/onfido_poa_ic_enlarge_rectangle" ="5.0dip" ="5.0dip" ="0.0dip" ="wrap_content" ="10.0dip" ="5.0dip" ="5.0dip" 2130969911="@id/2131438535" 2130969917="@id/2131438535" 2130969937="@id/2131438535">
+                <ImageView android:id="@id/2131438542" ="wrap_content" ="wrap_content" ="@drawable/onfido_ic_enlarge" 2130969911="2131438103" 2130969918="@id/2131438543" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView android:id="@id/2131438543" ="wrap_content" ="wrap_content" android:text="@string/onfido_poa_capture_enlarge" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131438542" style="@style/2132148935" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="bold" ="center" android:id="@id/2131438537" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/onfido_doc_confirmation_body" ="center" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438535" style="@style/2132148953" />
+            <LinearLayout ="vertical" android:id="@id/2131438522" ="fill_parent" ="wrap_content" ="true" 2130969911="2131438103">
+                <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131438550" 2130970348="@string/onfido_poa_capture_confirm" style="@style/2132148904" />
+                <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131438547" ="8.0dip" 2130970348="@string/onfido_poa_capture_choose_another" 2130970350="@null" style="@style/2132148904" />
+                <com.onfido.android.sdk.capture.ui.widget.WatermarkView android:id="@id/2131438553" ="8.0dip" ="@dimen/2131167501" style="@style/2132148972" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131449331" ="gone" ="fill_parent" ="fill_parent" ="@dimen/2131167284" ="@dimen/2131167284" ="@id/2131431844" ="@dimen/2131167494">
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content">
+            <com.onfido.android.sdk.capture.ui.widget.CircularImageView android:id="@id/2131449329" ="wrap_content" ="wrap_content" ="true" 2130970351="@drawable/onfido_ic_video_21" />
+            <TextView ="center" android:id="@id/2131449330" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/onfido_video_confirmation_body" ="@id/2131449329" ="true" style="@style/2132148937" />
+        </RelativeLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449332" ="fill_parent" ="wrap_content" ="50.0dip" ="24.0dip" ="50.0dip" ="24.0dip" ="@id/2131431844" ="@dimen/2131167496">
+        <com.onfido.android.sdk.capture.ui.camera.liveness.video_view.VideoPlayerView android:id="@id/2131449336" ="@drawable/onfido_video_view_frame" ="wrap_content" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" />
+        <FrameLayout android:id="@id/2131429451" ="@drawable/onfido_liveness_challenges_review_background" ="false" ="0.0dip" ="wrap_content" ="8.0dip" ="@id/2131449336" 2130969911="@id/2131449336" 2130969917="@id/2131449336" 2130969937="@id/2131449336" />
+        <RelativeLayout ="0.0dip" ="wrap_content" 2130969917="@id/2131449336" 2130969937="@id/2131449336" 2130969941="@id/2131449336">
+            <com.onfido.android.sdk.capture.audio.VolumeWarningView android:id="@id/2131449761" ="0.0dip" ="0.0dip" ="8.0dip" ="8.0dip" ="8.0dip" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131431844" ="6.0dip" ="@id/2131439859" ="false" 2130970348="@string/onfido_video_confirmation_button_primary" style="@style/2132148903" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131439859" 2130970348="@string/onfido_video_confirmation_button_secondary" 2130970350="@null" style="@style/2132148903" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441594" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" ="@dimen/2131166184" ="@dimen/2131166170" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" android:text="@string/c2c_group_setting_set_admin_select_members" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131435088" ="fill_parent" ="wrap_content" ="2.0dip" 2130968908="true" 2130969851="2" 2130970759="@string/c2c_chat_search_by_nickname_or_id" />
+    <FrameLayout ="fill_parent" ="0.0dip" ="16.0dip" ="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437016" ="80.0dip" ="false" ="fill_parent" ="fill_parent" />
+        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131431360" ="gone" ="fill_parent" ="fill_parent" ="122.0dip">
+            <ImageView ="96.0dip" ="96.0dip" ="@drawable/2131238419" ="0.3" 2130971375="@color/2131099778" />
+            <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/no_records_found" ="@font/2131296266" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout ="false" ="center" ="horizontal" android:id="@id/2131428732" ="@drawable/2131236009" ="fill_parent" ="48.0dip" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="0.5" ="@color/2131099879" ="@dimen/2131166184" ="@dimen/2131166170">
+        <TextView ="16.0sp" ="@color/2131099789" ="wrap_content" ="wrap_content" android:text="Confirm" ="@font/2131296275" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="bottom" ="horizontal" android:id="@id/2131441348" ="gone" ="wrap_content" ="wrap_content">
+        <LinearLayout ="vertical" android:id="@id/2131430550" ="@drawable/2131232584" ="12.0dip" ="wrap_content" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="40.0dip" ="3.0dip" ="@font/2131296274" />
+            <LinearLayout ="vertical" android:id="@id/2131441896" ="wrap_content" ="wrap_content">
+                <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="6.0dip" ="6.0dip" />
+                <FrameLayout ="wrap_content" ="wrap_content">
+                    <LinearLayout ="vertical" android:id="@id/2131441895" ="fill_parent" ="wrap_content">
+                        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445246" ="wrap_content" ="wrap_content" ="3.0dip" ="true" ="@font/2131296274" />
+                        <TextView ="10.0sp" ="@color/2131099778" ="end" android:id="@id/2131445247" ="wrap_content" ="wrap_content" ="6.0dip" ="true" ="@font/2131296274" />
+                    </LinearLayout>
+                    <com.airbnb.lottie.LottieAnimationView ="center" android:id="@id/2131436706" ="gone" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434258" ="gone" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/2131446058" 2130969936="@id/2131446058" 2130971077="@drawable/2131238248" />
+    </LinearLayout>
+    <com.binance.c2c.chat.widget.layout.MyRelativeLayout ="horizontal" android:id="@id/2131433133" ="gone" ="wrap_content" ="wrap_content" 2130971175="@color/2131100264">
+        <RelativeLayout android:id="@id/2131433131" ="wrap_content" ="wrap_content">
+            <com.binance.c2c.chat.widget.ChatMSGImageView android:id="@id/2131434604" ="150.0dip" ="150.0dip" ="centerCrop" 2130970152="150.0dip" 2130970156="150.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/2131449344" ="200.0dip" ="150.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="96.0dip" ="96.0dip" ="true" 2130971077="@drawable/2131234189" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449342" ="200.0dip" ="150.0dip" ="centerCrop" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434960" ="gone" ="40.0dip" ="40.0dip" ="centerCrop" ="true" 2130971077="@drawable/2131234191" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434961" ="fill_parent" ="50.0dip" ="true" 2130971077="@drawable/2131232486" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" android:id="@id/2131448554" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="5.0dip" ="true" style="@style/2132149384" />
+        </RelativeLayout>
+    </com.binance.c2c.chat.widget.layout.MyRelativeLayout>
+    <LinearLayout ="vertical" android:id="@id/2131440033" ="gone" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131429293" layout="@layout/2131624381" />
+        <TextView ="10.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131444637" ="fill_parent" ="wrap_content" ="2.0dip" android:text="@string/c2c_chat_sys_ad_card_desc" ="@font/2131296274" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131440067" ="gone" ="fill_parent" ="wrap_content">
+        <FrameLayout android:id="@id/2131440066" ="@drawable/2131232591" ="16.0dip" ="4.0dip" ="16.0dip" ="4.0dip" ="fill_parent" ="wrap_content" />
+    </LinearLayout>
+    <include android:id="@id/2131449308" ="gone" layout="@layout/2131624384" />
+    <ProgressBar android:id="@id/2131429506" ="gone" ="15.0dip" ="15.0dip" ="false" ="@anim/2130772012" ="8.0dip" />
+</LinearLayout>

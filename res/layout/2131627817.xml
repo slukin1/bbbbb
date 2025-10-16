@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="64.0dip" ="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131102138" android:id="@id/2131437686" ="wrap_content" ="wrap_content" android:text="@string/nezha_subscription_messages_title" ="true" ="3.0sp" ="@font/2131296266" ="0.5dip" />
+    <com.major.android.uikit.selection.KitSwitch android:id="@id/2131437685" ="wrap_content" ="wrap_content" ="true" ="20.0dip" ="true" />
+</RelativeLayout>

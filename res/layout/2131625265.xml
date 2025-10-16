@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" android:id="@id/2131430931" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="@drawable/2131236021" ="16.0dip" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432780" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131166184" />
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432785" ="wrap_content" ="wrap_content" 2130969920="@dimen/2131166184" />
+            <TextView ="@color/2131099764" android:id="@id/tvDesc" ="wrap_content" ="wrap_content" android:text="@string/fiatpayment_verification_desc" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCardIcon" ="24.0dip" ="24.0dip" ="12.0dip" ="fitCenter" 2130969936="@id/2131432780" 2130969940="@id/tvDesc" />
+            <TextView ="@color/2131099764" android:id="@id/tvCardNumber" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/ivCardIcon" 2130969936="@id/ivCardIcon" 2130969941="@id/ivCardIcon" style="@style/2132149350" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/etFirstName" ="0.0dip" ="wrap_content" ="24.0dip" android:hint="@string/ocbs_string_enter_first_name" ="6.0dip" 2130969817="1" 2130969818="false" 2130969820="@string/first_name" 2130969917="@id/2131432755" 2130969936="@id/2131432780" 2130969940="@id/ivCardIcon" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/etLastName" ="0.0dip" ="wrap_content" android:hint="@string/ocbs_string_enter_last_name" 2130969817="1" 2130969818="false" 2130969820="@string/last_name" 2130969917="@id/2131432785" 2130969937="@id/2131432755" 2130969941="@id/etFirstName" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/cvvInput" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" android:hint="@string/ocbs_string_enter_cvv" 2130969815="false" 2130969817="1" 2130969818="false" 2130969820="@string/ocbs_bind_card_input_cvv" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/etFirstName" 2130969962="@dimen/2131166188" />
+            <TextView ="@color/2131099778" ="start|center" android:id="@id/tvExpiryDate" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/fiatpayment_expiry_date" ="false" ="locale" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/cvvInput" 2130969962="@dimen/2131166188" style="@style/2132149450" />
+            <com.binance.paymentsdk.common.widgets.card.FiatPaymentBankCardExpiryDatePicker android:id="@id/expiryDateInput" ="false" ="true" ="beforeDescendants" ="0.0dip" ="48.0dip" ="5.0dip" ="10.0dip" ="10.0dip" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/tvExpiryDate" style="@style/2132149446" />
+            <TextView ="@color/2131099778" ="start|center" android:id="@id/tvState" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/ocbs_pay_with_card_state" ="false" ="locale" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/expiryDateInput" 2130969962="@dimen/2131166188" style="@style/2132149450" />
+            <TextView ="@color/2131099738" ="start|center" android:id="@id/stateSelect" ="@drawable/2131232549" ="false" ="true" ="beforeDescendants" ="0.0dip" ="48.0dip" ="5.0dip" android:text="@string/fiatpayment_select_state_desc" ="10.0dip" ="10.0dip" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/tvState" style="@style/2132149446" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/cpfInput" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" android:hint="@string/ocbs_string_enter_cpf_hint" 2130969655="@string/fiatpayment_enter_cpf_hint" 2130969817="1" 2130969818="false" 2130969820="@string/fiat_history_cpf" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/stateSelect" 2130969962="@dimen/2131166188" />
+            <com.binance.paymentsdk.bindcard.FiatPaymentBillingInfoView android:id="@id/2131435366" ="gone" ="0.0dip" ="wrap_content" ="32.0dip" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/cpfInput" />
+            <com.major.android.uikit.button.KitButton ="false" android:id="@id/2131428732" ="0.0dip" ="48.0dip" ="24.0dip" android:text="@string/confirm" 2130969173="4" 2130969918="@id/2131432785" 2130969936="@id/2131432780" 2130969940="@id/2131435366" 2130969962="@dimen/2131166209" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432559" ="gone" ="wrap_content" ="wrap_content" 2130969125="etFirstName, etLastName" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432508" ="gone" ="wrap_content" ="wrap_content" 2130969125="ivCardIcon, tvCardNumber" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432529" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvExpiryDate, expiryDateInput" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432596" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvState, stateSelect" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

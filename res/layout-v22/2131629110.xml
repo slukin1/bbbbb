@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="6.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131445395" ="wrap_content" ="wrap_content" ="16.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <com.finance.kit.framework.widget.calendar.grocer.NestedScrollableHost2 android:id="@id/2131449898" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131445395">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="44.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" />
+    </com.finance.kit.framework.widget.calendar.grocer.NestedScrollableHost2>
+    <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131428037" ="false" ="wrap_content" ="wrap_content" ="8.0dip" 2130968672="@color/2131099764" 2130968673="@dimen/2131166225" 2130968674="@dimen/2131166286" 2130968676="@color/2131099751" 2130968677="@dimen/2131166225" 2130968678="@dimen/2131166286" 2130968679="@dimen/2131166260" 2130968680="2131440527" 2130969917="@id/2131449898" 2130969937="@id/2131449898" 2130969940="@id/2131449898" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.SteadyNestedScrollView android:id="@id/2131439803" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436292" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvDirection" ="wrap_content" ="wrap_content" android:text="@string/from" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443864" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434027" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131237003" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <com.finance.framework.widget.edit.FinanceInputEditAmount android:id="@id/2131433465" ="fill_parent" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131436292" />
+            <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443716" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/strategy_max_addable" 2130969274="@string/strategy_transfer_max_removable" 2130969348="true" 2130969937="2131438103" 2130969940="@id/2131433465" 2130970840="true" 2130970849="true" 2130971380="2131428553" 2130971382="@string/strategy_transfer_removable_tip" 2130971383="2131440560" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443717" ="2.0dip" 2130969917="2131438103" 2130969941="@id/2131443716" style="@style/2132149392" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131442958" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131443716" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445179" ="28.0dip" 2130969937="2131438103" 2130969940="@id/2131442958" style="@style/2132149453" />
+            <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131445115" ="8.0dip" android:text="@string/strategy_total_occupied_margin" 2130969274="@string/strategy_total_occupied_margin" 2130969937="2131438103" 2130969940="@id/2131445179" 2130970840="true" 2130971382="@string/strategy_total_occupied_margin_tips" 2130971383="2131440560" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445116" 2130969917="2131438103" 2130969941="@id/2131445115" style="@style/2132149353" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443645" ="4.0dip" android:text="@string/strategy_margin_balance_after_increase" 2130969937="2131438103" 2130969940="@id/2131445115" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443646" 2130969917="2131438103" 2130969941="@id/2131443645" style="@style/2132149353" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443666" ="4.0dip" android:text="@string/strategy_futures_margin_ratio_change_label" 2130969937="2131438103" 2130969940="@id/2131443645" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443665" ="false" ="4.0dip" 2130969918="@id/ivArrow" 2130969941="@id/2131443666" style="@style/2132149353" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="12.0dip" ="12.0dip" ="@color/2131099764" ="4.0dip" 2130969911="@id/2131443667" 2130969918="@id/2131443667" 2130969941="@id/2131443667" 2130971077="@drawable/2131236866" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443667" ="false" 2130969917="2131438103" 2130969941="@id/2131443666" style="@style/2132149353" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429740" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131443667">
+                <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131444484" android:text="@string/strategy_running_risk_ratio_change_title" 2130969937="2131438103" 2130969941="2131438103" 2130970849="true" style="@style/2132149354" />
+                <com.finance.strategy.framework.widgets.BotRiskRatioView ="center_vertical" android:id="@id/2131428608" ="wrap_content" ="22.0dip" ="4.0dip" 2130969918="@id/2131434128" 2130969941="@id/2131444484" 2130970675="@style/2132149350" 2130970834="false" 2130970839="false" 2130970855="false" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434128" ="12.0dip" ="12.0dip" ="@color/2131099764" ="4.0dip" 2130969911="@id/2131428607" 2130969918="@id/2131428607" 2130969941="@id/2131428607" 2130971077="@drawable/2131236866" />
+                <com.finance.strategy.framework.widgets.BotRiskRatioView ="center_vertical" android:id="@id/2131428607" ="wrap_content" ="22.0dip" 2130969917="2131438103" 2130969941="@id/2131444484" 2130970675="@style/2132149350" 2130970834="false" 2130970839="false" 2130970855="false" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.binance.widget.SteadyNestedScrollView>
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="54.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="10.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/strategy_asterisk" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442358" ="fill_parent" ="wrap_content" android:text="@string/strategy_adjust_margin_tips" ="4.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/confirm" 2130969756="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442056" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

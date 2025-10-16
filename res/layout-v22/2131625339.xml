@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" ="wrap_content" ="50.0dip" android:text="@string/ocbs_string_activate_account" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView ="@null" ="fill_parent" ="0.0dip" ="true" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431271" ="fill_parent" ="wrap_content" ="12.0dip" android:hint="@string/ocbs_string_company_name_hint" ="true" ="250" 2130969817="1" 2130969818="false" 2130969820="@string/ocbs_string_company_name_title_with_english" 2130969941="2131438103" 2130970845="false" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435467" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131431271">
+                <TextView ="@color/2131099778" android:id="@id/2131444398" ="wrap_content" ="16.0dip" android:text="*" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131442557" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_string_uqpay_company_name_desc" ="4.0dip" 2130969936="@id/2131444398" 2130969941="@id/2131444398" style="@style/2132149361" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435344" ="gone" ="fill_parent" ="wrap_content" 2130969940="@id/2131435467">
+                <View android:id="@id/2131449416" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969941="2131438103" />
+                <TextView ="@color/2131099764" android:id="@id/2131441987" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/ocbs_string_uqpay_account_detail_desc" ="3.0dip" 2130969940="@id/2131449416" style="@style/2132149355" />
+                <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131441988" ="wrap_content" ="wrap_content" ="16.0dip" ="26.0dip" android:text="@string/ocbs_string_account_details" 2130969937="2131438103" 2130969940="@id/2131441987" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433641" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131441988" 2130969936="@id/2131441988" 2130969941="@id/2131441988" 2130971077="@drawable/2131237057" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439043" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="false" 2130969940="@id/2131441988" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit.button.KitButton ="false" android:id="@id/2131428732" ="fill_parent" ="48.0dip" ="24.0dip" android:text="@string/confirm" 2130969940="@id/2131442645" />
+    <View ="@color/2131099685" ="fill_parent" ="24.0dip" />
+</LinearLayout>

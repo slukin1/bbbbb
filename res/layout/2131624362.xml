@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bandroid.camera.CameraPreview android:id="@id/2131429239" ="gone" ="fill_parent" ="fill_parent" />
+    <LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent">
+        <View android:id="@id/2131432284" ="#ff000000" ="fill_parent" ="50.0dip" />
+        <View android:id="@id/2131432828" ="#b3000000" ="fill_parent" ="72.0dip" />
+        <LinearLayout ="fill_parent" ="wrap_content">
+            <View android:id="@id/2131435808" ="#b3000000" ="0.0dip" ="fill_parent" ="1.0" />
+            <ImageView android:id="@id/2131432861" ="270.0dip" ="340.0dip" ="fitXY" 2130971077="@drawable/2131232881" />
+            <View ="#b3000000" ="0.0dip" ="fill_parent" ="1.0" />
+        </LinearLayout>
+        <View ="#b3000000" ="fill_parent" ="0.0dip" ="0.8" />
+        <TextView ="center_horizontal" android:id="@id/2131429242" ="#b3000000" ="30.0dip" ="30.0dip" ="fill_parent" ="wrap_content" style="@style/2132149425" />
+        <View ="#b3000000" ="fill_parent" ="0.0dip" ="1.0" />
+        <FrameLayout ="#b3000000" ="40.0dip" ="fill_parent" ="wrap_content">
+            <ImageButton ="center" android:id="@id/2131429243" ="@drawable/2131232883" ="92.0dip" ="92.0dip" ="fitCenter" />
+        </FrameLayout>
+        <View android:id="@id/2131432283" ="#ff000000" ="fill_parent" ="50.0dip" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429233" ="?2130968587" ="wrap_content" ="@dimen/2131165972" ="5.0dip" ="centerInside" ="true" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131103185" />
+</RelativeLayout>

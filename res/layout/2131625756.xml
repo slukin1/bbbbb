@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131238780" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131445454" ="0.0dip" ="8.0dip" android:text="@string/withdrawal_detail" ="1" ="24.0dip" ="1.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149427" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449727" ="20.0dip" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445454">
+        <include android:id="@id/2131435738" layout="@layout/2131626934" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131447632" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131449727" />
+    <com.major.android.uikit2.button.KitButton ="16.0sp" android:id="@id/2131428735" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/oauth_continue" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447632" />
+</androidx.constraintlayout.widget.ConstraintLayout>

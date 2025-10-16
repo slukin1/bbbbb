@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/futures_orders_history_more" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439666" ="fill_parent" ="wrap_content" ="12.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="4" />
+</androidx.appcompat.widget.LinearLayoutCompat>

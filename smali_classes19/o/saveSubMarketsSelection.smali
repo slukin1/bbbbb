@@ -1,0 +1,531 @@
+.class public final Lo/saveSubMarketsSelection;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/getJSON_KEY_ALGcredentials_play_services_auth_release;
+
+
+# instance fields
+.field public final a:Lcom/finance/voptions/feature/account/ui/view/VOptionsAccountOpenGuideLayout;
+
+.field public final b:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field public final c:Landroid/widget/FrameLayout;
+
+.field public final d:Landroid/widget/FrameLayout;
+
+.field public final e:Lo/r8lambdadw1PQ6a_IbcUrmp_baC0YsAnG4;
+
+.field public final f:Landroid/widget/TextView;
+
+.field public final g:Lcom/major/android/uikit2/tabs/KitTabLayout;
+
+.field public final h:Landroid/view/View;
+
+.field public final i:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+.field public final j:Landroid/widget/TextView;
+
+.field public final k:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field public final l:Landroid/widget/TextView;
+
+.field public final m:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field public final n:Lcom/finance/kit/framework/widget/KitTradeMoreButton;
+
+.field public final o:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field public final p:Landroidx/viewpager2/widget/ViewPager2;
+
+.field public final q:Landroid/widget/TextView;
+
+.field private r:Landroid/view/View;
+
+.field private s:Landroidx/constraintlayout/widget/Barrier;
+
+.field public final t:Landroidx/appcompat/widget/AppCompatImageView;
+
+.field private w:Landroid/view/View;
+
+.field private y:Landroid/widget/FrameLayout;
+
+
+# direct methods
+.method private constructor <init>(Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/finance/voptions/feature/account/ui/view/VOptionsAccountOpenGuideLayout;Landroid/widget/FrameLayout;Landroidx/constraintlayout/widget/Barrier;Landroid/widget/FrameLayout;Landroid/view/View;Landroid/widget/FrameLayout;Landroidx/appcompat/widget/AppCompatImageView;Lo/r8lambdadw1PQ6a_IbcUrmp_baC0YsAnG4;Lcom/major/android/uikit2/tabs/KitTabLayout;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/view/View;Landroid/view/View;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/appcompat/widget/AppCompatImageView;Lcom/finance/kit/framework/widget/KitTradeMoreButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/viewpager2/widget/ViewPager2;)V
+    .locals 2
+
+    move-object v0, p0
+
+    .line 105
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    move-object v1, p1
+
+    .line 106
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->i:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    move-object v1, p2
+
+    .line 107
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->a:Lcom/finance/voptions/feature/account/ui/view/VOptionsAccountOpenGuideLayout;
+
+    move-object v1, p3
+
+    .line 108
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->d:Landroid/widget/FrameLayout;
+
+    move-object v1, p4
+
+    .line 109
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->s:Landroidx/constraintlayout/widget/Barrier;
+
+    move-object v1, p5
+
+    .line 110
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->c:Landroid/widget/FrameLayout;
+
+    move-object v1, p6
+
+    .line 111
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->r:Landroid/view/View;
+
+    move-object v1, p7
+
+    .line 112
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->y:Landroid/widget/FrameLayout;
+
+    move-object v1, p8
+
+    .line 113
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->b:Landroidx/appcompat/widget/AppCompatImageView;
+
+    move-object v1, p9
+
+    .line 114
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->e:Lo/r8lambdadw1PQ6a_IbcUrmp_baC0YsAnG4;
+
+    move-object v1, p10
+
+    .line 115
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->g:Lcom/major/android/uikit2/tabs/KitTabLayout;
+
+    move-object v1, p11
+
+    .line 116
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->f:Landroid/widget/TextView;
+
+    move-object v1, p12
+
+    .line 117
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->j:Landroid/widget/TextView;
+
+    move-object v1, p13
+
+    .line 118
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->w:Landroid/view/View;
+
+    move-object/from16 v1, p14
+
+    .line 119
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->h:Landroid/view/View;
+
+    move-object/from16 v1, p15
+
+    .line 120
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->o:Landroidx/appcompat/widget/AppCompatImageView;
+
+    move-object/from16 v1, p16
+
+    .line 121
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->k:Landroidx/appcompat/widget/AppCompatImageView;
+
+    move-object/from16 v1, p17
+
+    .line 122
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->m:Landroidx/appcompat/widget/AppCompatImageView;
+
+    move-object/from16 v1, p18
+
+    .line 123
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->n:Lcom/finance/kit/framework/widget/KitTradeMoreButton;
+
+    move-object/from16 v1, p19
+
+    .line 124
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->l:Landroid/widget/TextView;
+
+    move-object/from16 v1, p20
+
+    .line 125
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->q:Landroid/widget/TextView;
+
+    move-object/from16 v1, p21
+
+    .line 126
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->t:Landroidx/appcompat/widget/AppCompatImageView;
+
+    move-object/from16 v1, p22
+
+    .line 127
+    iput-object v1, v0, Lo/saveSubMarketsSelection;->p:Landroidx/viewpager2/widget/ViewPager2;
+
+    return-void
+.end method
+
+.method public static bind(Landroid/view/View;)Lo/saveSubMarketsSelection;
+    .locals 26
+
+    move-object/from16 v0, p0
+
+    const v1, 0x7f0b0084
+
+    .line 158
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v5, v2
+
+    check-cast v5, Lcom/finance/voptions/feature/account/ui/view/VOptionsAccountOpenGuideLayout;
+
+    if-eqz v5, :cond_0
+
+    const v1, 0x7f0b0249
+
+    .line 164
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v6, v2
+
+    check-cast v6, Landroid/widget/FrameLayout;
+
+    if-eqz v6, :cond_0
+
+    const v1, 0x7f0b03bf
+
+    .line 170
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v7, v2
+
+    check-cast v7, Landroidx/constraintlayout/widget/Barrier;
+
+    if-eqz v7, :cond_0
+
+    const v1, 0x7f0b0b8d
+
+    .line 176
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v8, v2
+
+    check-cast v8, Landroid/widget/FrameLayout;
+
+    if-eqz v8, :cond_0
+
+    const v1, 0x7f0b0e5b
+
+    .line 182
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v9
+
+    if-eqz v9, :cond_0
+
+    const v1, 0x7f0b11de
+
+    .line 188
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v10, v2
+
+    check-cast v10, Landroid/widget/FrameLayout;
+
+    if-eqz v10, :cond_0
+
+    const v1, 0x7f0b16fd
+
+    .line 194
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v11, v2
+
+    check-cast v11, Landroidx/appcompat/widget/AppCompatImageView;
+
+    if-eqz v11, :cond_0
+
+    const v1, 0x7f0b20d4
+
+    .line 200
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    .line 204
+    invoke-static {v2}, Lo/r8lambdadw1PQ6a_IbcUrmp_baC0YsAnG4;->bind(Landroid/view/View;)Lo/r8lambdadw1PQ6a_IbcUrmp_baC0YsAnG4;
+
+    move-result-object v12
+
+    const v1, 0x7f0b35a5
+
+    .line 207
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v13, v2
+
+    check-cast v13, Lcom/major/android/uikit2/tabs/KitTabLayout;
+
+    if-eqz v13, :cond_0
+
+    const v1, 0x7f0b3f93
+
+    .line 213
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v14, v2
+
+    check-cast v14, Landroid/widget/TextView;
+
+    if-eqz v14, :cond_0
+
+    const v1, 0x7f0b537c
+
+    .line 219
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v15, v2
+
+    check-cast v15, Landroid/widget/TextView;
+
+    if-eqz v15, :cond_0
+
+    const v1, 0x7f0b55c5
+
+    .line 225
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v16
+
+    if-eqz v16, :cond_0
+
+    const v1, 0x7f0b5643
+
+    .line 231
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v17
+
+    if-eqz v17, :cond_0
+
+    const v1, 0x7f0b57cc
+
+    .line 237
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v18, v2
+
+    check-cast v18, Landroidx/appcompat/widget/AppCompatImageView;
+
+    if-eqz v18, :cond_0
+
+    const v1, 0x7f0b57cd
+
+    .line 243
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v19, v2
+
+    check-cast v19, Landroidx/appcompat/widget/AppCompatImageView;
+
+    if-eqz v19, :cond_0
+
+    const v1, 0x7f0b57f5
+
+    .line 249
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v20, v2
+
+    check-cast v20, Landroidx/appcompat/widget/AppCompatImageView;
+
+    if-eqz v20, :cond_0
+
+    const v1, 0x7f0b5805
+
+    .line 255
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v21, v2
+
+    check-cast v21, Lcom/finance/kit/framework/widget/KitTradeMoreButton;
+
+    if-eqz v21, :cond_0
+
+    const v1, 0x7f0b5806
+
+    .line 261
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v22, v2
+
+    check-cast v22, Landroid/widget/TextView;
+
+    if-eqz v22, :cond_0
+
+    const v1, 0x7f0b5807
+
+    .line 267
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v23, v2
+
+    check-cast v23, Landroid/widget/TextView;
+
+    if-eqz v23, :cond_0
+
+    const v1, 0x7f0b580f
+
+    .line 273
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v24, v2
+
+    check-cast v24, Landroidx/appcompat/widget/AppCompatImageView;
+
+    if-eqz v24, :cond_0
+
+    const v1, 0x7f0b5833
+
+    .line 279
+    invoke-static {v0, v1}, Lo/convertToPlayAuthPasskeyJsonRequest;->e(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object/from16 v25, v2
+
+    check-cast v25, Landroidx/viewpager2/widget/ViewPager2;
+
+    if-eqz v25, :cond_0
+
+    .line 284
+    new-instance v1, Lo/saveSubMarketsSelection;
+
+    move-object v3, v1
+
+    move-object v4, v0
+
+    check-cast v4, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    invoke-direct/range {v3 .. v25}, Lo/saveSubMarketsSelection;-><init>(Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/finance/voptions/feature/account/ui/view/VOptionsAccountOpenGuideLayout;Landroid/widget/FrameLayout;Landroidx/constraintlayout/widget/Barrier;Landroid/widget/FrameLayout;Landroid/view/View;Landroid/widget/FrameLayout;Landroidx/appcompat/widget/AppCompatImageView;Lo/r8lambdadw1PQ6a_IbcUrmp_baC0YsAnG4;Lcom/major/android/uikit2/tabs/KitTabLayout;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/view/View;Landroid/view/View;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/appcompat/widget/AppCompatImageView;Lcom/finance/kit/framework/widget/KitTradeMoreButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroidx/appcompat/widget/AppCompatImageView;Landroidx/viewpager2/widget/ViewPager2;)V
+
+    return-object v1
+
+    .line 291
+    :cond_0
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 292
+    new-instance v1, Ljava/lang/NullPointerException;
+
+    const-string v2, "Missing required view with ID: "
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;)Lo/saveSubMarketsSelection;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    .line 138
+    invoke-static {p0, v0, v1}, Lo/saveSubMarketsSelection;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lo/saveSubMarketsSelection;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lo/saveSubMarketsSelection;
+    .locals 2
+
+    const v0, 0x7f0e1650
+
+    const/4 v1, 0x0
+
+    .line 144
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p0
+
+    if-eqz p2, :cond_0
+
+    .line 146
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    .line 148
+    :cond_0
+    invoke-static {p0}, Lo/saveSubMarketsSelection;->bind(Landroid/view/View;)Lo/saveSubMarketsSelection;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic getRoot()Landroid/view/View;
+    .locals 1
+
+    .line 1133
+    iget-object v0, p0, Lo/saveSubMarketsSelection;->i:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    return-object v0
+.end method

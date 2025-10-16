@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/futures_open_account_customize_leverage" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <EditText ="@color/2131099764" ="#99828a98" ="center" android:id="@id/edit_amount" ="@drawable/2131233756" ="0.0dip" ="40.0dip" ="22.0dip" ="1" ="numberSigned" ="center" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" 2130969958="@dimen/2131166209" 2130969961="@dimen/2131166209" style="@style/2132149446" />
+    <com.binance.hydrogen.widgets.button.LongClickImageButton android:id="@id/2131429052" ="#00000000" ="20.0dip" ="12.0dip" ="centerInside" ="@null" ="8.0dip" ="0.0dip" 2130969911="@id/edit_amount" 2130969937="@id/edit_amount" 2130969941="@id/edit_amount" 2130971077="@drawable/2131237666" />
+    <com.binance.hydrogen.widgets.button.LongClickImageButton android:id="@id/2131428963" ="#00000000" ="20.0dip" ="12.0dip" ="centerInside" ="@null" ="0.0dip" ="8.0dip" 2130969911="@id/edit_amount" 2130969917="@id/edit_amount" 2130969941="@id/edit_amount" 2130971077="@drawable/2131237811" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/2131439879" ="24.0dip" ="0.0dip" ="wrap_content" 2130969693="true" 2130969702="@string/leverage_unit" 2130969703="5" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/edit_amount" />
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="40.0dip" ="31.0dip" android:text="@string/confirm" 2130969173="8" 2130969940="@id/2131439879" 2130969962="40.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

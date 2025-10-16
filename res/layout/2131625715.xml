@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450316" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mpc.wallet.widget.uikit.ViewPagerNestedScrollableHost android:id="@id/2131450321" ="fill_parent" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <FrameLayout android:id="@id/2131450317" ="fill_parent" ="fill_parent" />
+    </com.mpc.wallet.widget.uikit.ViewPagerNestedScrollableHost>
+    <FrameLayout android:id="@id/2131450212" ="gone" ="62.0dip" ="62.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView ="@drawable/2131234487" ="62.0dip" ="62.0dip" />
+        <com.nezha.android.view.NezhaLottieAnimationView ="center" android:id="@id/2131450211" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/2131448931" ="gone" ="fill_parent" ="fill_parent">
+        <ImageView android:id="@id/2131448930" ="invisible" ="96.0dip" ="96.0dip" ="100.0dip" ="true" 2130971077="@drawable/ic_notification" />
+        <LinearLayout ="horizontal" android:id="@id/2131448926" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="@id/2131448927" ="true">
+            <ImageView ="center_vertical" android:id="@id/2131448928" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238490" />
+            <TextView ="16.0sp" ="bold" ="@color/2131099881" android:id="@id/2131448929" ="wrap_content" ="wrap_content" android:text="Refresh" ="locale" ="9.0dip" />
+        </LinearLayout>
+        <TextView ="14.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131448927" ="fill_parent" ="wrap_content" ="20.0dip" ="@id/2131448930" ="true" ="@font/2131296266" ="locale" ="30.0dip" ="30.0dip" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

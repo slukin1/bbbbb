@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="4.0dip" ="5.0dip" ="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/lineView" ="@color/2131099778" ="1.0dip" ="0.0dip" ="8.0dip" 2130969911="@id/2131442896" 2130969937="2131438103" 2130969941="@id/2131444217" />
+    <View android:id="@id/2131438777" ="@color/2131099778" ="6.0dip" ="1.0dip" ="12.0dip" 2130969911="@id/2131444217" 2130969936="@id/lineView" 2130969941="@id/2131444217" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131444217" ="5.0dip" ="12.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166260" 2130969936="@id/2131438777" 2130969941="2131438103">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tvQuantity" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_order_detail_buy_actual_amount" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <View android:id="@id/2131444218" ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/tvQuantity" 2130969937="@id/tvQuantity" 2130969940="@id/tvQuantity" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvQuantityValue" ="12.0dip" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969911="@id/2131444217" 2130969917="2131438103" 2130969941="@id/2131444217" />
+    <View android:id="@id/feeLabelLine" ="@color/2131099778" ="6.0dip" ="1.0dip" ="8.0dip" 2130969911="@id/tvFeeLabel" 2130969936="@id/lineView" 2130969941="@id/tvFeeLabel" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/tvFeeLabel" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166260" ="@dimen/2131166199" 2130969936="@id/feeLabelLine" 2130969940="@id/2131444217">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/tvFee" ="wrap_content" ="wrap_content" android:text="@string/fee" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <View android:id="@id/2131443073" ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/tvFee" 2130969937="@id/tvFee" 2130969940="@id/tvFee" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvFeeValue" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969911="@id/tvFeeLabel" 2130969917="2131438103" 2130969941="@id/tvFeeLabel" />
+    <View android:id="@id/2131431238" ="@color/2131099778" ="6.0dip" ="1.0dip" ="10.0dip" 2130969911="@id/2131442896" 2130969936="@id/lineView" 2130969941="@id/2131442896" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131442896" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166260" ="@dimen/2131166199" 2130969936="@id/2131431238" 2130969940="@id/tvFeeLabel">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/tvEarn" ="wrap_content" ="wrap_content" android:text="@string/c2c_earn_dialog_title" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <View android:id="@id/2131442897" ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/tvEarn" 2130969937="@id/tvEarn" 2130969940="@id/tvEarn" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442901" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969911="@id/2131442896" 2130969917="2131438103" 2130969941="@id/2131442896" />
+</androidx.constraintlayout.widget.ConstraintLayout>

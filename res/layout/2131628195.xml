@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/2131438836" ="false" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="center_vertical" android:id="@id/2131438839" ="0.0dip" ="wrap_content" 2130969907="@id/2131438836" 2130969917="2131438103" 2130969936="@id/2131438836" />
+    <TextView android:id="@id/2131438838" ="gone" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="@id/2131438839" 2130969940="@id/2131438839" />
+</androidx.constraintlayout.widget.ConstraintLayout>

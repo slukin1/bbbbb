@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099726" android:id="@id/2131448179" ="0.0dip" ="wrap_content" ="7.0dip" 2130969918="@id/2131448132" 2130969929="1.2" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099726" ="end" android:id="@id/2131448132" ="0.0dip" ="wrap_content" android:text="@string/_amount" 2130969918="@id/2131448171" 2130969929="0.9" 2130969936="@id/2131448179" 2130969941="@id/2131448179" style="@style/2132149384" />
+    <TextView ="@color/2131099726" ="end" android:id="@id/2131448171" ="0.0dip" ="wrap_content" android:text="@string/_price" 2130969917="2131438103" 2130969929="0.9" 2130969936="@id/2131448132" 2130969941="@id/2131448179" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439697" ="fill_parent" ="wrap_content" ="7.0dip" ="23.0dip" 2130969904="true" 2130969912="@id/divider" 2130969940="@id/2131448179" />
+    <View android:id="@id/divider" ="@color/2131101039" ="fill_parent" ="0.5dip" ="18.0dip" 2130969912="@id/2131429831" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429831" ="fill_parent" ="wrap_content" ="18.0dip" 2130969912="@id/2131442568">
+        <TextView ="@color/2131099778" android:id="@id/2131446130" ="wrap_content" ="wrap_content" android:text="@string/cost" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131446133" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131446130" style="@style/2132149450" />
+        <TextView ="@color/2131099863" android:id="@id/tv_error_tips" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/futures_scaledorder_order_preview_error_tip" 2130969937="2131438103" 2130969940="@id/2131446130" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131442568" ="fill_parent" ="40.0dip" android:text="@string/confirm" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

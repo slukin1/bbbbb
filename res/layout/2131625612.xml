@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131431584" ="@color/2131099751" ="visible" ="fill_parent" ="1.0dip" />
+    <com.binance.c2c.orderdetail.evaluation.FiatEvaluationView2 android:id="@id/2131431583" ="fill_parent" ="wrap_content" ="24.0dip" />
+</LinearLayout>

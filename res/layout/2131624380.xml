@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.chat.widget.layout.MyFrameLayout android:id="@id/2131437375" ="gone" ="wrap_content" ="0.0dip" 2130969911="@id/2131437368" 2130969917="2131438103" 2130969941="@id/2131437368" 2130971175="@color/2131100264">
+        <ProgressBar ="center_vertical" android:id="@id/2131429506" ="gone" ="15.0dip" ="15.0dip" ="false" ="@anim/2130772012" />
+        <RelativeLayout ="vertical" ="wrap_content" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429507" ="gone" ="16.0dip" ="16.0dip" ="true" ="true" 2130971077="@drawable/2131237095" 2130971375="@color/2131099730" />
+        </RelativeLayout>
+    </com.binance.c2c.chat.widget.layout.MyFrameLayout>
+    <LinearLayout ="end|center" ="horizontal" android:id="@id/2131437368" ="wrap_content" ="wrap_content" ="5.0dip" 2130969918="@id/2131437375" 2130969941="2131438103" 2130969958="@dimen/2131166153">
+        <LinearLayout ="vertical" android:id="@id/2131441348" ="gone" ="350.0dip" ="wrap_content" ="16.0dip" ="0.0dip">
+            <LinearLayout ="bottom" ="end" android:id="@id/2131446070" ="@drawable/2131232583" ="12.0dip" ="wrap_content" ="wrap_content">
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="20.0dip" ="3.0dip" ="true" ="@font/2131296274" ="0.0dip" ="12.0dip" />
+            </LinearLayout>
+            <com.major.android.uikit2.notification.KitNotification ="end" android:id="@id/2131428478" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969840="@string/c2c_mob_chat_block_msg" 2130969843="1" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131440033" ="gone" ="fill_parent" ="wrap_content">
+            <include android:id="@id/2131429293" layout="@layout/2131624381" />
+            <TextView ="10.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131444637" ="fill_parent" ="wrap_content" ="2.0dip" android:text="@string/c2c_chat_sys_ad_card_desc" ="@font/2131296274" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131440067" ="gone" ="fill_parent" ="wrap_content">
+            <FrameLayout android:id="@id/2131440066" ="@drawable/2131232591" ="16.0dip" ="4.0dip" ="16.0dip" ="4.0dip" ="fill_parent" ="wrap_content" />
+        </LinearLayout>
+        <com.binance.c2c.chat.widget.layout.MyRelativeLayout ="horizontal" android:id="@id/2131433133" ="gone" ="wrap_content" ="wrap_content" 2130971175="@color/2131100264">
+            <RelativeLayout android:id="@id/2131433131" ="wrap_content" ="wrap_content" ="@id/2131437374">
+                <com.binance.c2c.chat.widget.ChatMSGImageView android:id="@id/2131434604" ="150.0dip" ="150.0dip" ="centerCrop" 2130970152="150.0dip" 2130970156="150.0dip" />
+                <View android:id="@id/2131449631" ="@drawable/2131232748" ="150.0dip" ="150.0dip" />
+                <com.binance.c2c.chat.widget.CircleProgressBar android:id="@id/2131429620" ="gone" ="32.0dip" ="32.0dip" ="true" 2130968724="#00000000" 2130969527="#aaffffff" 2130969678="false" 2130970147="100.0" 2130970529="2131438335" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131449344" ="@drawable/2131232485" ="200.0dip" ="150.0dip" ="@id/2131437374">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449342" ="200.0dip" ="150.0dip" ="centerCrop" ="true" />
+                <View android:id="@id/2131449345" ="@drawable/2131232439" ="fill_parent" ="fill_parent" ="0.5" ="@color/2131100528" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434960" ="gone" ="40.0dip" ="40.0dip" ="centerCrop" ="true" 2130971077="@drawable/2131234191" />
+                <androidx.appcompat.widget.AppCompatTextView ="12.0dip" ="@color/2131099788" ="center" android:id="@id/2131448555" ="#00000000" ="wrap_content" ="wrap_content" ="120.0dip" android:text="@string/c2c_chat_video_upload_failed" ="5.0dip" ="true" ="@font/2131296274" 2130969314="@drawable/2131234158" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434961" ="fill_parent" ="50.0dip" ="true" 2130971077="@drawable/2131232486" />
+                <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" android:id="@id/2131448554" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="@font/2131296274" ="5.0dip" ="true" style="@style/2132149384" />
+                <com.binance.c2c.chat.widget.CircleProgressBar android:id="@id/2131449340" ="gone" ="32.0dip" ="32.0dip" ="true" 2130968724="#00000000" 2130969527="#aaffffff" 2130969678="false" 2130970147="100.0" 2130970529="2131438335" />
+            </RelativeLayout>
+        </com.binance.c2c.chat.widget.layout.MyRelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

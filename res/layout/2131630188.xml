@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/choose_wallet" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439618" ="fill_parent" ="fill_parent" ="22.0dip" />
+</LinearLayout>

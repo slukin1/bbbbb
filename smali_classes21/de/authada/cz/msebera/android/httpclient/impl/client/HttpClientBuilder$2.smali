@@ -1,0 +1,56 @@
+.class Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder$2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Closeable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder;->build()Lde/authada/cz/msebera/android/httpclient/impl/client/CloseableHttpClient;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder;
+
+.field final synthetic val$cm:Lde/authada/cz/msebera/android/httpclient/conn/HttpClientConnectionManager;
+
+
+# direct methods
+.method constructor <init>(Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder;Lde/authada/cz/msebera/android/httpclient/conn/HttpClientConnectionManager;)V
+    .locals 0
+
+    .line 1240
+    iput-object p1, p0, Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder$2;->this$0:Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder;
+
+    iput-object p2, p0, Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder$2;->val$cm:Lde/authada/cz/msebera/android/httpclient/conn/HttpClientConnectionManager;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public close()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1244
+    iget-object v0, p0, Lde/authada/cz/msebera/android/httpclient/impl/client/HttpClientBuilder$2;->val$cm:Lde/authada/cz/msebera/android/httpclient/conn/HttpClientConnectionManager;
+
+    invoke-interface {v0}, Lde/authada/cz/msebera/android/httpclient/conn/HttpClientConnectionManager;->shutdown()V
+
+    return-void
+.end method

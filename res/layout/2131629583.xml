@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969331="0.0dip" layout="@layout/2131624284" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439677" ="fill_parent" ="wrap_content" />
+</LinearLayout>

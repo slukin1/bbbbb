@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232656" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mpc.wallet.widget.uikit.KitRoundImageView android:id="@id/2131431162" ="36.0dip" ="36.0dip" ="20.0dip" ="fitXY" ="14.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131431164" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/2131431162" 2130969936="@id/2131431162" 2130969941="@id/2131431162" style="@style/2132149450" />
+    <TextView ="#ff2ebd85" android:id="@id/2131448547" ="@drawable/2131232654" ="gone" ="wrap_content" ="wrap_content" android:text="@string/dwallet_common_transaction_verified" ="5.0dip" ="5.0dip" ="8.0dip" 2130969911="@id/2131431164" 2130969936="@id/2131431164" 2130969941="@id/2131431164" style="@style/2132149454" />
+    <TextView ="@color/2131099764" android:id="@id/2131431165" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/dwallet_import_token_title" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969927="0.928" 2130969937="@id/2131431162" 2130969940="@id/2131431162" style="@style/2132149419" />
+    <TextView ="@color/2131099778" android:id="@id/2131431161" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/dwallet_import_token_subtip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131431162" 2130969940="@id/2131431165" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433347" ="@drawable/2131232651" ="5.0dip" ="5.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131431161">
+        <TextView ="@color/2131099778" ="start|center" android:id="@id/2131431163" ="wrap_content" ="38.0dip" android:text="@string/dwallet_import_token_asset_name" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end|center" android:id="@id/2131431132" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" ="start|center" android:id="@id/2131431137" ="wrap_content" ="38.0dip" android:text="@string/dwallet_import_token_asset_balance" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131431163" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end|center" android:id="@id/2131431133" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131431132" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="visible" ="fill_parent" ="wrap_content" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131433347">
+        <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131439114" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/dwallet_cancel" ="15.0dip" ="7.5dip" 2130969173="4" 2130969911="2131438103" 2130969918="@id/2131430249" 2130969937="2131438103" 2130969941="2131438103" 2130971472="2" />
+        <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131430249" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/dwllet_import_nav_confirm" ="7.5dip" ="15.0dip" 2130969173="4" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131439114" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

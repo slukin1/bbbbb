@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText ="@color/2131102398" ="#99828a98" ="end" ="center" android:id="@id/2131431455" ="@drawable/2131233560" ="40.0dip" ="40.0dip" ="fill_parent" ="fill_parent" ="1" ="numberDecimal" ="actionDone" ="center" 2130969918="2131438103" 2130969936="2131438103" 2130969941="@id/2131432957" style="@style/2132149446" />
+    <com.binance.hydrogen.widgets.button.LongClickImageButton ="start|center" android:id="@id/2131432957" ="12.0dip" style="@style/2132149197" />
+    <com.binance.hydrogen.widgets.button.LongClickImageButton ="end|center" android:id="@id/2131432956" ="12.0dip" style="@style/2132148226" />
+</merge>

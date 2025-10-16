@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232933" ="12.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099779" android:id="@id/2131446238" ="wrap_content" ="wrap_content" android:text="You have a new message" ="@font/2131296279" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446237" ="wrap_content" ="wrap_content" ="15.0dip" android:text="You have a new message" ="@font/2131296279" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131446238" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429019" ="48.0dip" ="24.0dip" android:text="@string/jarvis_deeplink_card_btn" 2130969911="2131438103" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

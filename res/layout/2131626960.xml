@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131436605" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" ="8.0dip" 2130969912="@id/2131428553" 2130969941="2131438103" layout="@layout/2131626984" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428553" ="15.0dip" ="fill_parent" ="wrap_content" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior" style="@style/2132148637">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434506" ="6.0dip" ="6.0dip" ="40.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232852" />
+        <TextView ="@color/2131099764" android:id="@id/tv_title" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_share_dialog_title" 2130969937="2131438103" 2130969940="@id/2131434506" style="@style/2132149446" />
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131450434" ="wrap_content" ="24.0dip" ="4.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969912="@id/2131432951" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/tv_title" />
+        <HorizontalScrollView ="horizontal" android:id="@id/2131432951" ="false" ="wrap_content" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450434">
+            <RadioGroup ="horizontal" android:id="@id/2131439229" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103">
+                <com.major.android.uikit2.selection.KitRadioButton ="@color/2131099764" ="center" android:id="@id/2131435148" ="wrap_content" ="wrap_content" ="true" android:text="@string/leaderboard_all_roi" ="5.0dip" ="8.0dip" style="@style/2132149350" />
+                <com.major.android.uikit2.selection.KitRadioButton ="@color/2131099764" ="center" android:id="@id/2131435147" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_all_pnl" ="5.0dip" ="8.0dip" ="8.0dip" style="@style/2132149350" />
+                <com.major.android.uikit2.selection.KitRadioButton ="@color/2131099764" ="center" android:id="@id/2131435152" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_daily_roi" ="5.0dip" ="8.0dip" ="8.0dip" style="@style/2132149350" />
+                <com.major.android.uikit2.selection.KitRadioButton ="@color/2131099764" ="center" android:id="@id/2131435151" ="wrap_content" ="wrap_content" android:text="@string/margin_pnl_daily_pnl_title" ="5.0dip" ="8.0dip" ="8.0dip" style="@style/2132149350" />
+            </RadioGroup>
+        </HorizontalScrollView>
+        <TextView ="@color/2131099778" android:id="@id/tv_tips" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/leaderboard_share_tips" ="15.0dip" ="15.0dip" 2130969940="@id/2131432951" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitButton ="@color/2131099751" ="@color/2131099764" android:id="@id/2131429023" ="0.0dip" ="40.0dip" ="15.0dip" ="15.0dip" android:text="@string/download" ="15.0dip" 2130969173="8" 2130969911="2131438103" 2130969918="@id/2131429101" 2130969937="2131438103" 2130969940="@id/tv_tips" 2130971472="2" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429101" ="0.0dip" ="40.0dip" android:text="@string/share" ="15.0dip" ="15.0dip" 2130969173="8" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131429023" 2130969940="@id/tv_tips" 2130971472="2131429147" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

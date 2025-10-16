@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428240" ="10.0dip" ="40.0dip" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234075" 2130971375="@color/2131099764" />
+    <TextView ="bold" ="@color/2131099764" ="center" android:id="@id/2131441558" ="fill_parent" ="44.0dip" android:text="@string/deposit_detail" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432845" ="10.0dip" ="40.0dip" ="45.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131440157" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441558" 2130971098="false" 2130971105="true">
+        <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content">
+            <LinearLayout ="fill_parent" ="fill_parent">
+                <include android:id="@id/2131432819" layout="@layout/2131629941" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

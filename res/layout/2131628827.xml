@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="44.0dip">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432767" ="0.0dip" ="0.0dip" 2130969921="0.15" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432771" ="0.0dip" ="0.0dip" 2130969921="0.85" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewGoBack" ="24.0dip" ="24.0dip" ="#ff707a8a" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+        <androidx.constraintlayout.helper.widget.Layer android:id="@id/2131435329" ="8.0dip" ="0.0dip" ="0.0dip" 2130969125="imageViewGoBack" />
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="bold" ="@color/2131100365" ="center" android:id="@id/2131441319" ="0.0dip" ="0.0dip" ="@font/2131296267" 2130969911="2131438103" 2130969918="@id/2131432771" 2130969937="@id/2131432767" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432173" ="fill_parent" ="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

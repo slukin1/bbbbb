@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="@style/2132149589" android:id="@id/2131436533" ="@android:color/transparent" ="fill_parent" ="?android:actionBarSize" 2130969331="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430102" ="@null" ="24.0dip" ="24.0dip" ="fitCenter" ="true" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971428="@string/back" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437749" ="gone" ="24.0dip" ="24.0dip" ="fitCenter" ="true" ="16.0dip" 2130969911="@id/2131430102" 2130969917="2131438103" 2130969941="@id/2131430102" 2130971077="@drawable/2131237717" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437780" ="@drawable/2131233038" ="gone" ="8.0dip" ="8.0dip" 2130969917="@id/2131437749" 2130969941="@id/2131437749" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440014" ="gone" ="24.0dip" ="24.0dip" ="fitCenter" ="true" ="16.0dip" 2130969911="@id/2131430102" 2130969918="@id/2131437749" 2130969941="@id/2131430102" 2130971077="@drawable/2131238024" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131431759" ="fill_parent" ="0.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" 2130969911="2131438103" 2130969940="@id/2131436533" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@style/2132149541" android:id="@id/2131435625" ="false" ="false" ="fill_parent" ="fill_parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/2131429030" ="invisible" ="wrap_content" ="wrap_content" ="32.0dip" ="16.0dip" ="@color/2131099879" 2130968789="0.0dip" 2130969331="@dimen/2131166012" 2130969446="@dimen/2131166266" 2130969911="2131438103" 2130969917="2131438103" 2130970141="@dimen/2131166220" 2130971077="@drawable/2131237811" 2130971375="@color/2131099789" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131437627" ="110.0dip" ="gone" ="fill_parent" ="fill_parent" ="75.0dip" 2130969336="@null" 2130969342="true" 2130969343="@drawable/2131238395" 2130969344="@drawable/2131238490" 2130969346="@string/ms_network_link_failed" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

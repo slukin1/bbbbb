@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText ="@color/2131099764" ="@color/2131099762" ="center" android:id="@id/2131431455" ="@drawable/2131238453" ="fill_parent" ="fill_parent" ="1" ="numberDecimal" ="@drawable/2131238456" ="locale" ="40.0dip" ="40.0dip" 2130969918="2131438103" 2130969936="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <com.major.android.uikit.common.KitLongClickImageButton android:id="@id/2131432957" ="@drawable/2131238459" ="40.0dip" ="40.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit.common.KitLongClickImageButton android:id="@id/2131432956" ="@drawable/2131238452" ="40.0dip" ="40.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

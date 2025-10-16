@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236026" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432672" ="visible" ="wrap_content" ="wrap_content" 2130969125="v_no_network, iv_no_network, tv_no_network_tips,refresh_layout" />
+    <View android:id="@id/v_no_network" ="0.0dip" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969942="1.0" />
+    <ImageView android:id="@id/iv_no_network" ="96.0dip" ="96.0dip" ="100.0dip" 2130969912="@id/tv_no_network_tips" 2130969917="@id/v_no_network" 2130969937="@id/v_no_network" 2130969941="@id/v_no_network" 2130969942="0.2" 2130969943="2131438085" 2130971077="@drawable/2131238395" />
+    <TextView ="14.0sp" ="#ff848e9c" ="center" android:id="@id/tv_no_network_tips" ="false" ="0.0dip" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/lite_ms_funds_asset_connect_error" ="75.0dip" ="75.0dip" 2130969917="@id/v_no_network" 2130969937="@id/v_no_network" 2130969940="@id/iv_no_network" />
+    <LinearLayout android:id="@id/refresh_layout" ="wrap_content" ="wrap_content" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_no_network_tips">
+        <ImageView android:id="@id/iv_refresh" ="false" ="24.0dip" ="24.0dip" ="-90.0" ="3.0dip" 2130971077="@drawable/2131237936" />
+        <TextView ="16.0sp" ="#ffd89f00" android:id="@id/tv_refresh" ="false" ="wrap_content" ="wrap_content" android:text="@string/fetch_again" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

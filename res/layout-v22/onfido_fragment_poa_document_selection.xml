@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <TextView ="start" android:id="@id/2131438539" ="0.0dip" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167276" ="@dimen/2131167206" android:text="@string/onfido_poa_type_selection_title_uk" ="@dimen/2131167206" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148962" />
+        <TextView android:id="@id/2131438538" ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167274" ="@dimen/2131167206" android:text="@string/onfido_doc_select_subtitle_poa" ="@dimen/2131167206" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438539" style="@style/2132148953" />
+        <View android:id="@id/2131438548" ="33.0dip" 2130969912="@id/2131438532" 2130969937="2131438103" 2130969940="@id/2131438538" style="@style/2132148928" />
+        <LinearLayout ="vertical" android:id="@id/2131438532" ="fill_parent" ="wrap_content" 2130969937="@id/2131438539" 2130969940="@id/2131438548">
+            <com.onfido.android.sdk.capture.document.selection.DocumentSelectionButton android:id="@id/2131438518" ="fill_parent" ="wrap_content" 2130970415="@string/onfido_doc_select_extra_estatements_ok" 2130970425="@drawable/onfido_poa_bank" 2130970434="@string/onfido_doc_select_button_bank_statement" 2130970435="true" />
+            <View android:id="@id/2131438519" style="@style/2132148928" />
+            <com.onfido.android.sdk.capture.document.selection.DocumentSelectionButton android:id="@id/2131438551" ="fill_parent" ="wrap_content" 2130970415="@string/onfido_doc_select_button_bill_detail" 2130970425="@drawable/onfido_poa_utility_bill" 2130970434="@string/onfido_doc_select_button_bill" 2130970435="true" />
+            <View android:id="@id/2131438552" style="@style/2132148928" />
+            <com.onfido.android.sdk.capture.document.selection.DocumentSelectionButton android:id="@id/2131438530" ="fill_parent" ="wrap_content" 2130970425="@drawable/onfido_poa_general_letter" 2130970434="@string/onfido_doc_select_button_tax_letter" 2130970435="true" />
+            <View android:id="@id/2131438531" style="@style/2132148928" />
+            <com.onfido.android.sdk.capture.document.selection.DocumentSelectionButton android:id="@id/2131438520" ="fill_parent" ="wrap_content" 2130970415="@string/onfido_doc_select_button_benefits_letter_detail" 2130970425="@drawable/onfido_poa_general_letter" 2130970434="@string/onfido_doc_select_button_benefits_letter" 2130970435="true" />
+            <View android:id="@id/2131438521" style="@style/2132148928" />
+            <com.onfido.android.sdk.capture.document.selection.DocumentSelectionButton android:id="@id/2131438516" ="fill_parent" ="wrap_content" 2130970415="@string/onfido_doc_select_button_address_card_detail" 2130970425="@drawable/onfido_poa_address_card" 2130970434="@string/onfido_doc_select_button_address_card" 2130970435="true" />
+            <View android:id="@id/2131438517" style="@style/2132148928" />
+        </LinearLayout>
+        <com.onfido.android.sdk.capture.ui.widget.WatermarkView android:id="@id/2131438553" ="8.0dip" ="@dimen/2131167501" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131438532" 2130969942="1.0" style="@style/2132148972" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>

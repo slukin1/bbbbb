@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="gone" ="false" ="wrap_content" ="wrap_content" 2130968911="@color/2131100694" 2130968912="@dimen/2131166247" 2130968914="@dimen/2131166153"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166225">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" ="false" ="12.0dip" ="12.0dip" ="fitCenter" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236970" />
+        <TextView ="#ff2ebd85" android:id="@id/2131430862" ="false" ="wrap_content" ="wrap_content" ="false" ="16.0sp" ="0.0" ="2.0dip" 2130969911="@id/icon" 2130969936="@id/icon" 2130969941="@id/icon" style="@style/2132149397" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

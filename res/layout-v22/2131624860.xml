@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="center_horizontal" ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="380.0dip" ="@dimen/2131166184" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131442657" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_create_chat_room_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" android:id="@id/2131435054" ="@drawable/2131236738" ="12.0dip" ="12.0dip" ="0.0dip" ="40.0dip" ="5.0dip" ="1" ="text" ="actionDone" ="@color/2131099744" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442657" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131442656" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/copy_trading_create_chat_room_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435054" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442654" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_create_chat_room_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442656" 2130969999="@dimen/2131167698" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/confirm" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442654" 2130969942="1.0" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

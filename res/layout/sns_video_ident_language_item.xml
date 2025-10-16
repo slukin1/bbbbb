@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_item_title" ="0.0dip" ="wrap_content" ="0.6" />
+    <com.sumsub.sns.core.widget.SNSBodyTextView ="end" android:id="@id/sns_status" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_time" ="0.0dip" ="wrap_content" ="0.3" ="@dimen/sns_margin_tiny" />
+</LinearLayout>

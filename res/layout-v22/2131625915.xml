@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.KitStepBarView android:id="@id/2131440634" ="0.0dip" ="4.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971178="2131438675" />
+    <TextView ="@color/2131099726" android:id="@id/2131447906" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" ="23.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440634" style="@style/2132149450" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="0.0dip" ="526.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447906" />
+</com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout>

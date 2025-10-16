@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <TextView ="@color/2131099764" android:id="@id/2131448098" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/finance_trade_layout_switch_tips1" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149346" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tv_tips2" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/finance_trade_layout_switch_tips2" 2130969917="@id/2131448098" 2130969937="@id/2131448098" 2130969940="@id/2131448098" style="@style/2132149384" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131435650" ="10.0dip" ="19.0dip" ="10.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="33.0dip" ="10.0dip" 2130969918="@id/2131435590" 2130969928="2131440523" 2130969937="2131438103" 2130969940="@id/tv_tips2">
+        <ImageView ="wrap_content" ="wrap_content" ="@drawable/2131233678" ="@null" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_place_order_layout_left" style="@style/2132149346" />
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429396" ="false" ="20.0dip" ="20.0dip" ="7.0dip" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131435590" ="10.0dip" ="19.0dip" ="10.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="33.0dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_tips2">
+        <ImageView ="wrap_content" ="wrap_content" ="@drawable/2131233677" ="@null" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/trade_horizontal" style="@style/2132149346" />
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429374" ="false" ="20.0dip" ="20.0dip" ="7.0dip" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131435684" ="10.0dip" ="19.0dip" ="10.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="33.0dip" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131435590" 2130969940="@id/tv_tips2">
+        <ImageView ="wrap_content" ="wrap_content" ="@drawable/2131233679" ="@null" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_place_order_layout_right" style="@style/2132149346" />
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429411" ="false" ="20.0dip" ="20.0dip" ="7.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

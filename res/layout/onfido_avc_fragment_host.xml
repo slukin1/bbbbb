@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432173" ="fill_parent" ="fill_parent" />
+    <RelativeLayout android:id="@id/2131428193" ="gone" ="fill_parent" ="fill_parent">
+        <include layout="@layout/onfido_progress_layout" />
+        <include layout="@layout/onfido_watermark_layout" />
+    </RelativeLayout>
+</FrameLayout>

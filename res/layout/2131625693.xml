@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.NestedCoordinatorLayout android:id="@id/2131429659" ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131436862" ="true" ="fill_parent" ="wrap_content" 2130969149="@color/2131103064" 2130969974="2131439795|@null" 2130971387="false">
+                <include android:id="@id/2131438473" ="fill_parent" ="wrap_content" layout="@layout/2131625694" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <include android:id="@id/2131438474" 2130969902="2131438344" layout="@layout/2131626902" />
+            <LinearLayout ="fill_parent" ="38.0dip" ="false" ="15.0dip" 2130969902="2131438344">
+                <com.binance.widget.tablayout.XTabLayout android:id="@id/2131450420" ="0.0dip" ="fill_parent" ="1.0" ="6.0dip" 2130969902="2131438344" />
+                <include android:id="@id/2131438470" 2130969902="2131438344" layout="@layout/2131626901" />
+            </LinearLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438303" ="fill_parent" ="fill_parent" />
+        </LinearLayout>
+    </com.binance.widget.NestedCoordinatorLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436226" ="gone" ="fill_parent" ="fill_parent">
+        <TextView ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" ="72.0dip" android:text="@string/margin_connection_error" ="10.0dip" 2130969314="@drawable/2131232921" style="@style/2132149384" />
+        <TextView ="@color/2131099787" ="center_horizontal" android:id="@id/2131444373" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/copy_trading_refresh" style="@style/2132149454" />
+    </LinearLayout>
+</FrameLayout>

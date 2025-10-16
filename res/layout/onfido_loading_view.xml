@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="center" ="horizontal" android:id="@id/2131429622" ="wrap_content" ="wrap_content" ="true">
+        <include ="13.0dip" ="13.0dip" ="5.0dip" layout="@layout/onfido_loading_view_circle_container" />
+        <include ="13.0dip" ="13.0dip" ="5.0dip" layout="@layout/onfido_loading_view_circle_container" />
+        <include ="13.0dip" ="13.0dip" layout="@layout/onfido_loading_view_circle_container" />
+    </LinearLayout>
+    <TextView android:id="@id/content" ="16.0dip" style="@style/2132148932" />
+</LinearLayout>

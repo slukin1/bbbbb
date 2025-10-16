@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" 2130970753="true" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439661" ="fill_parent" ="wrap_content" ="20.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView ="14.0sp" ="@color/2131100620" android:id="@id/2131433839" ="wrap_content" ="wrap_content" ="80.0dip" android:text="@string/no_records_found" ="10.0dip" ="true" 2130969314="@drawable/2131233810" />
+</RelativeLayout>

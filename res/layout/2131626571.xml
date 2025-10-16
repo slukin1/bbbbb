@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435487" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131444047" ="wrap_content" ="wrap_content" ="16.0dip" ="186.0dip" ="22.0dip" ="1" ="false" ="20.0dip" 2130968700="@dimen/2131167694" 2130968701="1.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969905="true" 2130969918="@id/2131444042" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131444042" ="#00ffffff" ="wrap_content" ="wrap_content" ="ltr" ="20.0dip" 2130969911="@id/2131444047" 2130969917="2131438103" 2130969941="@id/2131444047" style="@style/2132149450" />
+    <ImageView android:id="@id/2131433260" ="gone" ="32.0dip" ="32.0dip" ="@drawable/2131234568" ="@null" 2130969917="2131438103" 2130969941="2131438103" />
+    <com.binance.ocbs.widgets.OcbsPaymentPromotionTagView android:id="@id/2131441109" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" 2130969905="true" 2130969917="@id/2131444042" 2130969927="0.0" 2130969940="@id/2131444042" />
+    <com.binance.ocbs.sdk.widgets.PromotionSystemWidget android:id="@id/promotionSystemWidget" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" 2130969905="true" 2130969917="@id/2131444042" 2130969927="0.0" 2130969940="@id/2131444042" />
+    <com.binance.ocbs.sdk.widgets.icons.IconsLayout android:id="@id/2131438160" ="gone" ="wrap_content" ="16.0dip" ="8.0dip" 2130969937="@id/2131444047" 2130969940="@id/2131444047" />
+    <ImageView android:id="@id/2131433275" ="gone" ="wrap_content" ="16.0dip" ="8.0dip" ="fitCenter" ="true" ="@null" 2130969905="true" 2130969936="@id/2131438160" 2130969940="@id/2131444047" />
+    <TextView ="@color/2131099778" android:id="@id/2131444566" ="wrap_content" ="wrap_content" ="8.0dip" ="4.0dip" 2130969936="@id/2131433275" 2130969940="@id/2131444047" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tvPaymentDesc" ="gone" ="0.0dip" ="wrap_content" ="8.0dip" ="20.0dip" 2130969917="2131438103" 2130969937="@id/2131444047" 2130969940="@id/2131444566" style="@style/2132149384" />
+    <View android:id="@id/2131449387" ="@drawable/2131236009" ="true" ="gone" ="true" ="fill_parent" ="0.0dip" ="0.5" ="@color/2131099800" 2130969911="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099787" android:id="@id/2131442008" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="18.0dip" 2130969937="@id/2131444047" 2130969940="@id/tvPaymentDesc" 2130969962="@dimen/2131166286" style="@style/2132149377" />
+    <View android:id="@id/2131449386" ="@drawable/2131236009" ="true" ="gone" ="true" ="fill_parent" ="0.0dip" ="0.5" ="@color/2131099800" 2130969911="2131438103" 2130969941="2131438103" />
+    <com.binance.ocbs.sdk.widgets.icons.IconsLayout android:id="@id/iconsGroup" ="wrap_content" ="16.0dip" ="8.0dip" 2130969911="@id/2131442008" 2130969936="@id/2131442008" 2130969941="@id/2131442008" />
+    <Space ="fill_parent" ="16.0dip" 2130969940="@id/tvPaymentDesc" />
+    <Space ="fill_parent" ="16.0dip" 2130969940="@id/2131442008" />
+</androidx.constraintlayout.widget.ConstraintLayout>

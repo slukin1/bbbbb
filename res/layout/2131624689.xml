@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131430273" ="@color/2131099685" ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131441617" ="fill_parent" ="44.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131441619" ="12.0dip" ="wrap_content" ="fill_parent" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" ="center" ="center" android:id="@id/2131444003" ="wrap_content" ="wrap_content" android:text="@string/content_video" ="1" style="@style/2132149425" />
+            <com.major.android.uikit2.button.KitButton ="end|center" android:id="@id/2131428863" ="wrap_content" ="32.0dip" android:text="@string/content_publish" ="6.0dip" ="16.0dip" style="@style/2132149450" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="0.0dip" ="1.0">
+            <com.binance.content.internal.editor.view.PostEditorScrollView android:id="@id/2131439809" ="invisible" ="fill_parent" ="0.0dip" ="true" 2130969912="@id/2131428523" 2130969941="2131438103">
+                <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                    <include android:id="@id/2131435564" layout="@layout/2131624702" />
+                    <com.binance.content.internal.editor.view.PostEditorText ="insideInset" ="@color/2131099764" ="@color/2131099762" ="start" android:id="@id/2131431447" ="@null" ="10.0dip" ="8.0dip" ="vertical" ="fill_parent" ="wrap_content" android:hint="@string/content_enter_post_hintv2" ="always" ="@drawable/2131238456" ="locale" ="viewStart" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441617" style="@style/2132149346" />
+                    <include android:id="@id/2131435496" ="gone" layout="@layout/2131624493" />
+                    <androidx.appcompat.widget.AppCompatTextView ="#ffe33b54" android:id="@id/2131444601" ="8.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" style="@style/2132149350" />
+                </LinearLayout>
+            </com.binance.content.internal.editor.view.PostEditorScrollView>
+            <FrameLayout android:id="@id/2131428523" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103">
+                <LinearLayout ="center_vertical" ="bottom" ="vertical" android:id="@id/2131428560" ="fill_parent" ="wrap_content">
+                    <View ="@color/2131100461" ="fill_parent" ="1.0px" />
+                    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="7.0dip" ="15.0dip">
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428802" ="8.0dip" ="11.0dip" ="8.0dip" ="11.0dip" ="38.0dip" ="44.0dip" ="@color/2131100365" 2130971077="@drawable/2131237331" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428797" ="7.0dip" ="10.0dip" ="7.0dip" ="10.0dip" ="38.0dip" ="44.0dip" ="@color/2131100365" 2130971077="@drawable/2131237793" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428795" ="7.0dip" ="10.0dip" ="7.0dip" ="10.0dip" ="38.0dip" ="44.0dip" ="@color/2131100365" 2130971077="@drawable/2131237588" />
+                        <View ="0.0dip" ="0.0dip" ="1.0" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" android:id="@id/2131443521" ="wrap_content" ="wrap_content" android:text="0" style="@style/2132149350" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" android:id="@id/2131443718" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+                    </LinearLayout>
+                </LinearLayout>
+                <include android:id="@id/2131435548" ="gone" layout="@layout/2131624501" />
+                <include android:id="@id/2131435388" ="gone" layout="@layout/2131624485" />
+                <include android:id="@id/2131435463" ="gone" layout="@layout/2131624488" />
+            </FrameLayout>
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131449095" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131430417" ="fill_parent" ="fill_parent" ="44.0dip" />
+</FrameLayout>

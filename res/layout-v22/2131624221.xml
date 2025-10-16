@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131427599" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/headerBar" ="fill_parent" ="@dimen/2131165972" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432756" ="wrap_content" ="wrap_content" 2130969921="0.2" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.8" />
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="?2130968587" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435537" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166199" 2130969911="2131438103" 2130969917="@id/2131432760" 2130969937="@id/2131432756" 2130969941="2131438103">
+            <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="wrap_content" ="fill_parent" android:text="@string/recurring_buy_title" 2130969937="2131438103" style="@style/2132149425" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="4.0dip" 2130969911="2131438103" 2130969936="@id/tvTitle" 2130969941="2131438103" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433245" ="20.0dip" ="20.0dip" ="centerInside" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237679" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView ="fill_parent" ="0.0dip" ="true" 2130969911="2131438103" 2130969940="@id/headerBar">
+        <FrameLayout android:id="@id/2131435389" ="fill_parent" ="wrap_content" />
+    </ScrollView>
+    <com.binance.ocbs.widgets.OcbsPromotionFlowView android:id="@id/2131438698" ="gone" ="fill_parent" ="wrap_content" ="48.0dip" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

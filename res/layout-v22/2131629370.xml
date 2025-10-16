@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131430569" ="@color/2131099676" ="fill_parent" ="0.0dip" 2130969911="@id/2131430983" 2130969941="@id/2131437909" />
+    <include android:id="@id/2131437909" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131626634" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430983" ="@drawable/2131233290" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166156" ="@dimen/2131166170" 2130969940="@id/2131437909">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442843" ="wrap_content" ="wrap_content" android:text="@string/c2c_restrictions_dispute_amount" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442844" ="wrap_content" ="wrap_content" ="@font/2131296274" ="10.0dip" 2130969936="@id/2131442843" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442846" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_restrictions_frozen_reason" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131442843" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442847" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" 2130969937="@id/2131442843" 2130969940="@id/2131442846" />
+        <TextView ="14.0sp" ="@color/2131099787" android:id="@id/2131442848" ="8.0dip" ="0.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_restrictions_refund" ="@font/2131296273" ="10.0dip" ="0.0dip" 2130969917="2131438103" 2130969940="@id/2131442847" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131430983" />
+</androidx.constraintlayout.widget.ConstraintLayout>

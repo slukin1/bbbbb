@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431496" ="0.0dip" ="wrap_content" 2130969817="0" 2130969818="false" 2130969819="@string/ocbs_string_utr_tip" 2130969820="@string/ocbs_string_utr" 2130969821="true" 2130969822="@color/2131099764" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

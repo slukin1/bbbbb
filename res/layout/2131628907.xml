@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429980" ="wrap_content" ="48.0dip" ="5.0dip" 2130969940="@id/2131448549">
+        <EditText ="@color/2131099764" ="center" android:id="@id/2131431556" ="@drawable/2131236620" ="45.0dip" ="fill_parent" ="1" ="1" ="1" ="number" ="@drawable/2131238456" ="locale" ="center" ="15.0dip" 2130969918="@id/2131431557" 2130969928="2131440524" 2130969937="2131438103" style="@style/2132149446" />
+        <EditText ="@color/2131099764" ="center" android:id="@id/2131431557" ="@drawable/2131236620" ="45.0dip" ="fill_parent" ="1" ="1" ="1" ="number" ="@drawable/2131238456" ="locale" ="center" ="15.0dip" 2130969918="@id/2131431558" 2130969936="@id/2131431556" style="@style/2132149446" />
+        <EditText ="@color/2131099764" ="center" android:id="@id/2131431558" ="@drawable/2131236620" ="45.0dip" ="fill_parent" ="1" ="1" ="1" ="number" ="@drawable/2131238456" ="locale" ="center" ="15.0dip" 2130969918="@id/2131431559" 2130969936="@id/2131431557" style="@style/2132149446" />
+        <EditText ="@color/2131099764" ="center" android:id="@id/2131431559" ="@drawable/2131236620" ="45.0dip" ="fill_parent" ="1" ="1" ="1" ="number" ="@drawable/2131238456" ="locale" ="center" ="15.0dip" 2130969918="@id/2131431560" 2130969936="@id/2131431558" style="@style/2132149446" />
+        <EditText ="@color/2131099764" ="center" android:id="@id/2131431560" ="@drawable/2131236620" ="45.0dip" ="fill_parent" ="1" ="1" ="1" ="number" ="@drawable/2131238456" ="locale" ="center" ="15.0dip" 2130969918="@id/2131431561" 2130969936="@id/2131431559" style="@style/2132149446" />
+        <EditText ="@color/2131099764" ="center" android:id="@id/2131431561" ="@drawable/2131236620" ="45.0dip" ="fill_parent" ="1" ="1" ="1" ="number" ="@drawable/2131238456" ="locale" ="center" 2130969917="2131438103" 2130969936="@id/2131431560" style="@style/2132149446" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

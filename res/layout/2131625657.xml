@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="fill_parent" ="wrap_content" 2130969331="0.0dip" style="@style/2132148650">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430841" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432694" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_history_label, img_clear, v_history_line, fl_history_container" />
+            <TextView ="@color/2131099764" android:id="@id/tv_history_label" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/search_history" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_clear" ="20.0dip" ="20.0dip" ="centerInside" ="15.0dip" 2130969911="@id/tv_history_label" 2130969917="2131438103" 2130969941="@id/tv_history_label" 2130971077="@drawable/2131237186" 2130971375="@color/2131099785" />
+            <View android:id="@id/v_history_line" ="@color/2131099751" ="fill_parent" ="0.0dip" ="15.0dip" ="10.0dip" ="15.0dip" 2130969917="@id/tv_history_label" 2130969937="@id/tv_history_label" 2130969940="@id/tv_history_label" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/fl_history_container" ="fill_parent" ="wrap_content" ="12.0dip" ="4.0dip" ="12.0dip" ="16.0dip" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/v_history_line" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441079" ="wrap_content" ="@dimen/2131166073" ="6.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" 2130969911="2131438103" 2130969940="@id/tabLayout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

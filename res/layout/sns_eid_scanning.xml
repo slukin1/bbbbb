@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSH1TextView ="center" android:id="@id/sns_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium_small" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_title" />
+    <com.sumsub.sns.core.widget.SNSMrtdInstructionView android:id="@id/sns_instructions" ="0.0dip" ="@dimen/sns_eid_image_size" ="@dimen/sns_margin_large" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_subtitle" />
+    <com.sumsub.sns.core.widget.SNSSubtitle1TextView ="center" android:id="@id/sns_status" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_instructions" />
+    <com.sumsub.sns.core.widget.SNSDotsProgressView android:id="@id/sns_reading_progress" ="gone" ="0.0dip" ="@dimen/sns_margin_small_tiny" ="@dimen/sns_margin_huge" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_huge" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_status" />
+    <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_button" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</merge>

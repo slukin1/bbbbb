@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131233021" ="fill_parent" ="176.0dip" ="9.0dip" ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="17.0sp" ="@color/2131102397" ="center_horizontal" android:id="@id/2131428715" ="17.0dip" ="15.5dip" ="fill_parent" ="wrap_content" android:text="@string/ms_risk_take_photo" />
+    <TextView ="17.0sp" ="@color/2131102397" ="center_horizontal" android:id="@id/2131428781" ="17.0dip" ="15.5dip" ="fill_parent" ="wrap_content" android:text="@string/ms_risk_take_upload" />
+    <View ="@color/2131100461" ="fill_parent" ="8.0dip" />
+    <TextView ="17.0sp" ="@color/2131102000" ="center_horizontal" android:id="@id/2131428716" ="17.5dip" ="17.0dip" ="fill_parent" ="wrap_content" android:text="@string/dialog_adjust_leverage_action_cancel" />
+</LinearLayout>

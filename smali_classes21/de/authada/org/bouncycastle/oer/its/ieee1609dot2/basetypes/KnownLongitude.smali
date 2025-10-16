@@ -1,0 +1,66 @@
+.class public Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;
+.super Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/Longitude;
+
+
+# direct methods
+.method public constructor <init>(J)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0, p1, p2}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/Longitude;-><init>(J)V
+
+    return-void
+.end method
+
+.method private constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1Integer;)V
+    .locals 0
+
+    .line 65353
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Integer;->getValue()Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;-><init>(Ljava/math/BigInteger;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/math/BigInteger;)V
+    .locals 0
+
+    .line 65352
+    invoke-direct {p0, p1}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/Longitude;-><init>(Ljava/math/BigInteger;)V
+
+    return-void
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;
+    .locals 1
+
+    .line 65351
+    instance-of v0, p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;
+
+    return-object p0
+
+    :cond_0
+    if-eqz p0, :cond_1
+
+    new-instance v0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Integer;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/KnownLongitude;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1Integer;)V
+
+    return-object v0
+
+    :cond_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method

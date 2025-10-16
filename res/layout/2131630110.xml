@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131439187" ="96.0dip" ="96.0dip" ="100.0dip" ="centerInside" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238414" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/2131439188" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/ms_deposit_user_restricted_kyc_tip_title" ="38.0dip" ="38.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439187" style="@style/2132149459" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/ms_deposit_user_restricted_kyc_tip_desc" ="38.0dip" ="38.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439188" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131428810" ="fill_parent" ="48.0dip" ="14.0dip" ="40.0dip" ="14.0dip" ="14.0dip" android:text="@string/verify_now" 2130969173="10.0" 2130969911="2131438103" 2130971472="2131429147" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

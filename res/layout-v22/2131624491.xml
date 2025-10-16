@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448990" ="#00000000" ="295.0dip" ="wrap_content" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131448994" ="#00000000" ="fill_parent" ="wrap_content" ="#00000000" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448992" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238543" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131448988" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/content_feed_editor_user_banned_title" ="false" ="locale" style="@style/2132149425" />
+        <TextView ="14.0sp" ="@color/2131099764" ="start" ="center_horizontal" android:id="@id/2131448993" ="vertical" ="wrap_content" ="wrap_content" ="8.0dip" ="260.0dip" ="198.0dip" android:text="@string/content_feed_editor_user_banned_content" ="9" ="5.0dip" ="false" ="@font/2131296266" ="locale" ="gravity" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" />
+        <LinearLayout ="center" ="vertical" android:id="@id/2131448987" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131448914" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/content_feed_editor_user_banned_pay_fine" ="2" ="@dimen/2131166170" style="@style/2132149371" />
+            <View ="0.0dip" ="10.0dip" />
+            <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131448913" ="fill_parent" ="wrap_content" android:text="@string/content_not_now" 2130969173="4" 2130971472="2131441186" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

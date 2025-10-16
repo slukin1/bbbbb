@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/futures_arbitrage_3day_revenue" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131448218" ="0.0dip" ="wrap_content" ="24.0dip" 2130969917="@id/tv_title" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131447414" ="0.0dip" ="wrap_content" ="14.0dip" android:text="@string/futures_arbitrage_position_size" 2130969917="@id/tv_title" 2130969937="@id/tv_title" 2130969940="@id/2131448218" style="@style/2132149350" />
+    <com.finance.framework.widget.edit.LongClickEditText android:id="@id/2131431532" ="0.0dip" ="40.0dip" ="4.0dip" 2130969917="@id/tv_title" 2130969937="@id/tv_title" 2130969940="@id/2131447414" />
+    <TextView ="@color/2131099778" android:id="@id/2131445824" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/futures_arbitrage_revenue_dialog_input_tips" 2130969917="@id/tv_title" 2130969937="@id/tv_title" 2130969940="@id/2131431532" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/btn_confirm" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/confirm" 2130969940="@id/2131445824" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

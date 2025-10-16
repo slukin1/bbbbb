@@ -1,0 +1,1533 @@
+.class public Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/security/interfaces/ECPrivateKey;
+.implements Lde/authada/org/bouncycastle/jce/interfaces/ECPrivateKey;
+.implements Lde/authada/org/bouncycastle/jce/interfaces/PKCS12BagAttributeCarrier;
+.implements Lde/authada/org/bouncycastle/jce/interfaces/ECPointEncoder;
+
+
+# static fields
+.field static final serialVersionUID:J = 0x648ee5f4b1b13042L
+
+
+# instance fields
+.field private algorithm:Ljava/lang/String;
+
+.field private transient attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+.field private transient d:Ljava/math/BigInteger;
+
+.field private transient ecSpec:Ljava/security/spec/ECParameterSpec;
+
+.field private transient publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+.field private withCompression:Z
+
+
+# direct methods
+.method protected constructor <init>()V
+    .locals 1
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    return-void
+.end method
+
+.method constructor <init>(Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65353
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {p0, p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->populateFromPrivKeyInfo(Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;)V
+    .locals 1
+
+    .line 65352
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    iget-object v0, p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    iget-object v0, p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    iget-boolean v0, p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->withCompression:Z
+
+    iput-boolean v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->withCompression:Z
+
+    iget-object v0, p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    iget-object p1, p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/jce/spec/ECPrivateKeySpec;)V
+    .locals 2
+
+    .line 65351
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jce/spec/ECPrivateKeySpec;->getD()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jce/spec/ECKeySpec;->getParams()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jce/spec/ECKeySpec;->getParams()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jce/spec/ECKeySpec;->getParams()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getSeed()[B
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jce/spec/ECKeySpec;->getParams()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object p1
+
+    invoke-static {v0, p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertSpec(Ljava/security/spec/EllipticCurve;Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;)Ljava/security/spec/ECParameterSpec;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;)V
+    .locals 1
+
+    .line 65350
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;->getD()Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PublicKey;Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;)V
+    .locals 2
+
+    .line 65349
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ECKeyParameters;->getParameters()Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;
+
+    move-result-object v0
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;->getD()Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    new-instance p1, Ljava/security/spec/ECParameterSpec;
+
+    if-nez p4, :cond_0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object p2
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getSeed()[B
+
+    move-result-object p4
+
+    invoke-static {p2, p4}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object p2
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object p4
+
+    invoke-static {p4}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object p4
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getN()Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getH()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    invoke-direct {p1, p2, p4, v1, v0}, Ljava/security/spec/ECParameterSpec;-><init>(Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;I)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {p4}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object p2
+
+    invoke-virtual {p4}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getSeed()[B
+
+    move-result-object v0
+
+    invoke-static {p2, v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object p2
+
+    invoke-virtual {p4}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object v0
+
+    invoke-virtual {p4}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getN()Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    invoke-virtual {p4}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getH()Ljava/math/BigInteger;
+
+    move-result-object p4
+
+    invoke-virtual {p4}, Ljava/lang/Number;->intValue()I
+
+    move-result p4
+
+    invoke-direct {p1, p2, v0, v1, p4}, Ljava/security/spec/ECParameterSpec;-><init>(Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;I)V
+
+    :goto_0
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    invoke-direct {p0, p3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getPublicKeyDetails(Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PublicKey;)Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PublicKey;Ljava/security/spec/ECParameterSpec;)V
+    .locals 2
+
+    .line 65348
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ECKeyParameters;->getParameters()Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;
+
+    move-result-object v0
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;->getD()Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    if-nez p4, :cond_0
+
+    new-instance p1, Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object p2
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getSeed()[B
+
+    move-result-object p4
+
+    invoke-static {p2, p4}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object p2
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object p4
+
+    invoke-static {p4}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object p4
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getN()Ljava/math/BigInteger;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getH()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    invoke-direct {p1, p2, p4, v1, v0}, Ljava/security/spec/ECParameterSpec;-><init>(Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;I)V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    goto :goto_0
+
+    :cond_0
+    iput-object p4, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    :goto_0
+    invoke-direct {p0, p3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getPublicKeyDetails(Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PublicKey;)Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/security/interfaces/ECPrivateKey;)V
+    .locals 1
+
+    .line 65347
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-interface {p1}, Ljava/security/interfaces/ECPrivateKey;->getS()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    invoke-interface {p1}, Ljava/security/interfaces/ECPrivateKey;->getAlgorithm()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    invoke-interface {p1}, Ljava/security/interfaces/ECPrivateKey;->getParams()Ljava/security/spec/ECParameterSpec;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/security/spec/ECPrivateKeySpec;)V
+    .locals 1
+
+    .line 65346
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const-string v0, "DSTU4145"
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {p1}, Ljava/security/spec/ECPrivateKeySpec;->getS()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    invoke-virtual {p1}, Ljava/security/spec/ECPrivateKeySpec;->getParams()Ljava/security/spec/ECParameterSpec;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    return-void
+.end method
+
+.method private getPublicKeyDetails(Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PublicKey;)Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+    .locals 0
+
+    .line 65345
+    :try_start_0
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PublicKey;->getEncoded()[B
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->fromByteArray([B)Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/x509/SubjectPublicKeyInfo;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/SubjectPublicKeyInfo;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/x509/SubjectPublicKeyInfo;->getPublicKeyData()Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p1
+
+    :catch_0
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method private populateFromPrivKeyInfo(Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;)V
+    .locals 13
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65344
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;->getPrivateKeyAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getParameters()Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;->isNamedCurve()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;->getParameters()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/ECUtil;->getNamedCurveByOid(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145NamedCurves;->getByOID(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v2
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getSeed()[B
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object v6
+
+    new-instance v2, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;->getId()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object v7
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getN()Ljava/math/BigInteger;
+
+    move-result-object v8
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getH()Ljava/math/BigInteger;
+
+    move-result-object v9
+
+    move-object v4, v2
+
+    invoke-direct/range {v4 .. v9}, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;-><init>(Ljava/lang/String;Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v2
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getSeed()[B
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object v6
+
+    new-instance v2, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/ECUtil;->getCurveName(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object v7
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getN()Ljava/math/BigInteger;
+
+    move-result-object v8
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getH()Ljava/math/BigInteger;
+
+    move-result-object v9
+
+    move-object v4, v2
+
+    invoke-direct/range {v4 .. v9}, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;-><init>(Ljava/lang/String;Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+
+    :goto_0
+    iput-object v2, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    goto/16 :goto_3
+
+    :cond_1
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;->isImplicitlyCA()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    const/4 v0, 0x0
+
+    :goto_1
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    goto/16 :goto_3
+
+    :cond_2
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;->getParameters()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v2
+
+    instance-of v2, v2, Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    if-eqz v2, :cond_3
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;->getParameters()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v2
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getSeed()[B
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object v2
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v3
+
+    invoke-static {v3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object v3
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getN()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;->getH()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    invoke-direct {v1, v2, v3, v4, v0}, Ljava/security/spec/ECParameterSpec;-><init>(Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;I)V
+
+    iput-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    goto/16 :goto_3
+
+    :cond_3
+    invoke-static {v1}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145Params;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ua/DSTU4145Params;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145Params;->isNamedCurve()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145Params;->getNamedCurve()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145NamedCurves;->getByOID(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;
+
+    move-result-object v1
+
+    new-instance v9, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveParameterSpec;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;->getId()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v4
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v5
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getN()Ljava/math/BigInteger;
+
+    move-result-object v6
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getH()Ljava/math/BigInteger;
+
+    move-result-object v7
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getSeed()[B
+
+    move-result-object v8
+
+    move-object v2, v9
+
+    invoke-direct/range {v2 .. v8}, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveParameterSpec;-><init>(Ljava/lang/String;Lde/authada/org/bouncycastle/math/ec/ECCurve;Lde/authada/org/bouncycastle/math/ec/ECPoint;Ljava/math/BigInteger;Ljava/math/BigInteger;[B)V
+
+    goto :goto_2
+
+    :cond_4
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145Params;->getECBinary()Lde/authada/org/bouncycastle/asn1/ua/DSTU4145ECBinary;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145ECBinary;->getB()[B
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;->getPrivateKeyAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getAlgorithm()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v2
+
+    sget-object v3, Lde/authada/org/bouncycastle/asn1/ua/UAObjectIdentifiers;->dstu4145le:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {v2, v3}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->equals(Lde/authada/org/bouncycastle/asn1/ASN1Primitive;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_5
+
+    invoke-direct {p0, v1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->reverseBytes([B)V
+
+    :cond_5
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145ECBinary;->getField()Lde/authada/org/bouncycastle/asn1/ua/DSTU4145BinaryField;
+
+    move-result-object v2
+
+    new-instance v12, Lde/authada/org/bouncycastle/math/ec/ECCurve$F2m;
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145BinaryField;->getM()I
+
+    move-result v4
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145BinaryField;->getK1()I
+
+    move-result v5
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145BinaryField;->getK2()I
+
+    move-result v6
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145BinaryField;->getK3()I
+
+    move-result v7
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145ECBinary;->getA()Ljava/math/BigInteger;
+
+    move-result-object v8
+
+    new-instance v9, Ljava/math/BigInteger;
+
+    const/4 v2, 0x1
+
+    invoke-direct {v9, v2, v1}, Ljava/math/BigInteger;-><init>(I[B)V
+
+    const/4 v10, 0x0
+
+    const/4 v11, 0x0
+
+    move-object v3, v12
+
+    invoke-direct/range {v3 .. v11}, Lde/authada/org/bouncycastle/math/ec/ECCurve$F2m;-><init>(IIIILjava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;Ljava/math/BigInteger;)V
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145ECBinary;->getG()[B
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;->getPrivateKeyAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getAlgorithm()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v2
+
+    sget-object v3, Lde/authada/org/bouncycastle/asn1/ua/UAObjectIdentifiers;->dstu4145le:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {v2, v3}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->equals(Lde/authada/org/bouncycastle/asn1/ASN1Primitive;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_6
+
+    invoke-direct {p0, v1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->reverseBytes([B)V
+
+    :cond_6
+    new-instance v9, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    invoke-static {v12, v1}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145PointEncoder;->decodePoint(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ua/DSTU4145ECBinary;->getN()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    invoke-direct {v9, v12, v1, v0}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;-><init>(Lde/authada/org/bouncycastle/math/ec/ECCurve;Lde/authada/org/bouncycastle/math/ec/ECPoint;Ljava/math/BigInteger;)V
+
+    :goto_2
+    new-instance v0, Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v9}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v1
+
+    invoke-virtual {v9}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getSeed()[B
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Lde/authada/org/bouncycastle/math/ec/ECCurve;[B)Ljava/security/spec/EllipticCurve;
+
+    move-result-object v1
+
+    invoke-virtual {v9}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getG()Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECPoint;)Ljava/security/spec/ECPoint;
+
+    move-result-object v2
+
+    invoke-virtual {v9}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getN()Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    invoke-virtual {v9}, Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;->getH()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Ljava/lang/Number;->intValue()I
+
+    move-result v4
+
+    invoke-direct {v0, v1, v2, v3, v4}, Ljava/security/spec/ECParameterSpec;-><init>(Ljava/security/spec/EllipticCurve;Ljava/security/spec/ECPoint;Ljava/math/BigInteger;I)V
+
+    goto/16 :goto_1
+
+    :goto_3
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;->parsePrivateKey()Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object p1
+
+    instance-of v0, p1, Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    if-eqz v0, :cond_7
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Integer;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Integer;->getValue()Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    return-void
+
+    :cond_7
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;->getKey()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;->getPublicKey()Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    return-void
+.end method
+
+.method private readObject(Ljava/io/ObjectInputStream;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/lang/ClassNotFoundException;
+        }
+    .end annotation
+
+    .line 65343
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->defaultReadObject()V
+
+    invoke-virtual {p1}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, [B
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->fromByteArray([B)Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->populateFromPrivKeyInfo(Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;)V
+
+    new-instance p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-direct {p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    return-void
+.end method
+
+.method private reverseBytes([B)V
+    .locals 3
+
+    const/4 v0, 0x0
+
+    .line 65342
+    :goto_0
+    array-length v1, p1
+
+    div-int/lit8 v1, v1, 0x2
+
+    if-ge v0, v1, :cond_0
+
+    aget-byte v1, p1, v0
+
+    array-length v2, p1
+
+    add-int/lit8 v2, v2, -0x1
+
+    sub-int/2addr v2, v0
+
+    aget-byte v2, p1, v2
+
+    aput-byte v2, p1, v0
+
+    array-length v2, p1
+
+    add-int/lit8 v2, v2, -0x1
+
+    sub-int/2addr v2, v0
+
+    aput-byte v1, p1, v2
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method private writeObject(Ljava/io/ObjectOutputStream;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65341
+    invoke-virtual {p1}, Ljava/io/ObjectOutputStream;->defaultWriteObject()V
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getEncoded()[B
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method engineGetSpec()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+    .locals 1
+
+    .line 65340
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    if-eqz v0, :cond_0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertSpec(Ljava/security/spec/ECParameterSpec;)Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    sget-object v0, Lde/authada/org/bouncycastle/jce/provider/BouncyCastleProvider;->CONFIGURATION:Lde/authada/org/bouncycastle/jcajce/provider/config/ProviderConfiguration;
+
+    invoke-interface {v0}, Lde/authada/org/bouncycastle/jcajce/provider/config/ProviderConfiguration;->getEcImplicitlyCa()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    .line 65339
+    instance-of v0, p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    return v1
+
+    :cond_0
+    check-cast p1, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getD()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getD()Ljava/math/BigInteger;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->engineGetSpec()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->engineGetSpec()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_1
+    return v1
+.end method
+
+.method public getAlgorithm()Ljava/lang/String;
+    .locals 1
+
+    .line 65338
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getBagAttribute(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+    .locals 1
+
+    .line 65337
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {v0, p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;->getBagAttribute(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public getBagAttributeKeys()Ljava/util/Enumeration;
+    .locals 1
+
+    .line 65336
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;->getBagAttributeKeys()Ljava/util/Enumeration;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getD()Ljava/math/BigInteger;
+    .locals 1
+
+    .line 65335
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    return-object v0
+.end method
+
+.method public getEncoded()[B
+    .locals 10
+
+    .line 65334
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    instance-of v1, v0, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_1
+
+    check-cast v0, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/ECUtil;->getNamedCurveOid(Ljava/lang/String;)Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    check-cast v1, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/jce/spec/ECNamedCurveSpec;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;-><init>(Ljava/lang/String;)V
+
+    :cond_0
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;
+
+    invoke-direct {v1, v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)V
+
+    goto :goto_0
+
+    :cond_1
+    if-nez v0, :cond_2
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;
+
+    sget-object v1, Lde/authada/org/bouncycastle/asn1/DERNull;->INSTANCE:Lde/authada/org/bouncycastle/asn1/DERNull;
+
+    invoke-direct {v0, v1}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1Null;)V
+
+    sget-object v1, Lde/authada/org/bouncycastle/jce/provider/BouncyCastleProvider;->CONFIGURATION:Lde/authada/org/bouncycastle/jcajce/provider/config/ProviderConfiguration;
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getS()Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    invoke-static {v1, v2, v3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/ECUtil;->getOrderBitLength(Lde/authada/org/bouncycastle/jcajce/provider/config/ProviderConfiguration;Ljava/math/BigInteger;Ljava/math/BigInteger;)I
+
+    move-result v1
+
+    goto :goto_1
+
+    :cond_2
+    invoke-virtual {v0}, Ljava/security/spec/ECParameterSpec;->getCurve()Ljava/security/spec/EllipticCurve;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertCurve(Ljava/security/spec/EllipticCurve;)Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v4
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;
+
+    new-instance v5, Lde/authada/org/bouncycastle/asn1/x9/X9ECPoint;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getGenerator()Ljava/security/spec/ECPoint;
+
+    move-result-object v3
+
+    invoke-static {v4, v3}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertPoint(Lde/authada/org/bouncycastle/math/ec/ECCurve;Ljava/security/spec/ECPoint;)Lde/authada/org/bouncycastle/math/ec/ECPoint;
+
+    move-result-object v3
+
+    iget-boolean v6, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->withCompression:Z
+
+    invoke-direct {v5, v3, v6}, Lde/authada/org/bouncycastle/asn1/x9/X9ECPoint;-><init>(Lde/authada/org/bouncycastle/math/ec/ECPoint;Z)V
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getOrder()Ljava/math/BigInteger;
+
+    move-result-object v6
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getCofactor()I
+
+    move-result v3
+
+    int-to-long v7, v3
+
+    invoke-static {v7, v8}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
+
+    move-result-object v7
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getCurve()Ljava/security/spec/EllipticCurve;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/security/spec/EllipticCurve;->getSeed()[B
+
+    move-result-object v8
+
+    move-object v3, v0
+
+    invoke-direct/range {v3 .. v8}, Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;-><init>(Lde/authada/org/bouncycastle/math/ec/ECCurve;Lde/authada/org/bouncycastle/asn1/x9/X9ECPoint;Ljava/math/BigInteger;Ljava/math/BigInteger;[B)V
+
+    invoke-direct {v1, v0}, Lde/authada/org/bouncycastle/asn1/x9/X962Parameters;-><init>(Lde/authada/org/bouncycastle/asn1/x9/X9ECParameters;)V
+
+    :goto_0
+    sget-object v0, Lde/authada/org/bouncycastle/jce/provider/BouncyCastleProvider;->CONFIGURATION:Lde/authada/org/bouncycastle/jcajce/provider/config/ProviderConfiguration;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    invoke-virtual {v3}, Ljava/security/spec/ECParameterSpec;->getOrder()Ljava/math/BigInteger;
+
+    move-result-object v3
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getS()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-static {v0, v3, v4}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/ECUtil;->getOrderBitLength(Lde/authada/org/bouncycastle/jcajce/provider/config/ProviderConfiguration;Ljava/math/BigInteger;Ljava/math/BigInteger;)I
+
+    move-result v0
+
+    move-object v9, v1
+
+    move v1, v0
+
+    move-object v0, v9
+
+    :goto_1
+    iget-object v3, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    if-eqz v3, :cond_3
+
+    new-instance v3, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getS()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    iget-object v5, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->publicKey:Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    invoke-direct {v3, v1, v4, v5, v0}, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;-><init>(ILjava/math/BigInteger;Lde/authada/org/bouncycastle/asn1/ASN1BitString;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    goto :goto_2
+
+    :cond_3
+    new-instance v3, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getS()Ljava/math/BigInteger;
+
+    move-result-object v4
+
+    invoke-direct {v3, v1, v4, v0}, Lde/authada/org/bouncycastle/asn1/sec/ECPrivateKey;-><init>(ILjava/math/BigInteger;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    :goto_2
+    :try_start_0
+    iget-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    const-string v4, "DSTU4145"
+
+    invoke-virtual {v1, v4}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;
+
+    new-instance v4, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    sget-object v5, Lde/authada/org/bouncycastle/asn1/ua/UAObjectIdentifiers;->dstu4145be:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-direct {v4, v5, v0}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-virtual {v3}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-direct {v1, v4, v0}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;-><init>(Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    goto :goto_3
+
+    :cond_4
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    sget-object v4, Lde/authada/org/bouncycastle/asn1/x9/X9ObjectIdentifiers;->id_ecPublicKey:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-direct {v1, v4, v0}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;
+
+    invoke-virtual {v3}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v3
+
+    invoke-direct {v0, v1, v3}, Lde/authada/org/bouncycastle/asn1/pkcs/PrivateKeyInfo;-><init>(Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    move-object v1, v0
+
+    :goto_3
+    const-string v0, "DER"
+
+    invoke-virtual {v1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->getEncoded(Ljava/lang/String;)[B
+
+    move-result-object v0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    return-object v2
+.end method
+
+.method public getFormat()Ljava/lang/String;
+    .locals 1
+
+    .line 65333
+    const-string v0, "PKCS#8"
+
+    return-object v0
+.end method
+
+.method public getParameters()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+    .locals 1
+
+    .line 65332
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    return-object v0
+
+    :cond_0
+    invoke-static {v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/EC5Util;->convertSpec(Ljava/security/spec/ECParameterSpec;)Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getParams()Ljava/security/spec/ECParameterSpec;
+    .locals 1
+
+    .line 65331
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->ecSpec:Ljava/security/spec/ECParameterSpec;
+
+    return-object v0
+.end method
+
+.method public getS()Ljava/math/BigInteger;
+    .locals 1
+
+    .line 65330
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    .line 65329
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->getD()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->engineGetSpec()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    xor-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public setBagAttribute(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+    .locals 1
+
+    .line 65328
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->attrCarrier:Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;
+
+    invoke-virtual {v0, p1, p2}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/PKCS12BagAttributeCarrierImpl;->setBagAttribute(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    return-void
+.end method
+
+.method public setPointFormat(Ljava/lang/String;)V
+    .locals 1
+
+    .line 65327
+    const-string v0, "UNCOMPRESSED"
+
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result p1
+
+    xor-int/lit8 p1, p1, 0x1
+
+    iput-boolean p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->withCompression:Z
+
+    return-void
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    .line 65326
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->algorithm:Ljava/lang/String;
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->d:Ljava/math/BigInteger;
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/dstu/BCDSTU4145PrivateKey;->engineGetSpec()Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;
+
+    move-result-object v2
+
+    invoke-static {v0, v1, v2}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/util/ECUtil;->privateKeyToString(Ljava/lang/String;Ljava/math/BigInteger;Lde/authada/org/bouncycastle/jce/spec/ECParameterSpec;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

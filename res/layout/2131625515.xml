@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" android:id="@id/et_value" ="@null" ="invisible" ="fill_parent" ="wrap_content" ="1" ="false" ="numberDecimal" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="@color/2131099738" ="end" android:id="@id/2131448523" ="fill_parent" ="wrap_content" ="1" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/2131440808" ="fill_parent" ="wrap_content" />
+    <com.finance.commonbusiness.framework.share.layer.LayerView android:id="@id/2131435334" ="#00000000" ="fill_parent" ="fill_parent" />
+</FrameLayout>

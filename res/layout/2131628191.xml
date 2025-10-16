@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439496" ="fill_parent" ="fill_parent">
+        <com.withpersona.sdk2.inquiry.steps.ui.view.ShadowedNestedScrollView android:id="@id/2131437463" ="20.0dip" ="fill_parent" ="0.0dip" ="true" ="vertical" ="no" 2130969912="@id/2131432138" 2130969941="2131438103">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="fill_parent" ="wrap_content">
+                <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <FrameLayout android:id="@id/2131448886" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.withpersona.sdk2.inquiry.steps.ui.view.ShadowedNestedScrollView>
+        <FrameLayout android:id="@id/2131432138" ="fill_parent" ="wrap_content" 2130969911="2131438103" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131432145" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.core.widget.NestedScrollView android:id="@id/2131432148" ="@drawable/2131235824" ="true" ="true" ="fill_parent" ="wrap_content" ="no" 2130968769="false" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior">
+                <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131432144" ="8.0dip" ="fill_parent" ="wrap_content">
+                    <View android:id="@id/2131432146" ="@android:color/darker_gray" ="64.0dip" ="4.0dip" ="16.0dip" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.google.android.material.divider.MaterialDivider android:id="@id/2131432140" ="gone" ="fill_parent" ="1.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

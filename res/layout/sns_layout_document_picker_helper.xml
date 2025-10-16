@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131432847" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSBottomSheetView ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout ="true" ="true" ="fill_parent" ="fill_parent" ="@dimen/sns_margin_medium">
+            <com.sumsub.sns.core.widget.SNSBottomSheetHandleView ="center" android:id="@id/sns_divider" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@null" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/sns_bg_rounded_divider" />
+            <LinearLayout ="vertical" android:id="@id/sns_brief_details" ="@dimen/sns_margin_medium" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_divider">
+                <com.sumsub.sns.core.widget.SNSH2TextView ="center" android:id="@id/sns_helper_title" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" />
+                <FrameLayout android:id="@id/sns_helper_details_frame" ="fill_parent" ="wrap_content">
+                    <com.sumsub.sns.core.widget.SNSBodyTextView ="center" android:id="@id/sns_helper_brief" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_small" />
+                    <com.sumsub.sns.core.widget.SNSBodyTextView ="center" android:id="@id/sns_helper_details" ="invisible" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_small" />
+                </FrameLayout>
+            </LinearLayout>
+            <androidx.core.widget.NestedScrollView android:id="@id/sns_intro_content" ="fill_parent" ="fill_parent" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" 2130969911="2131438103" 2130969940="@id/sns_divider" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.sumsub.sns.core.widget.SNSBottomSheetView>
+</FrameLayout>

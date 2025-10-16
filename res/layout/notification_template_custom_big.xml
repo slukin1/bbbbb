@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131437770" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include ="64.0dip" ="64.0dip" layout="@layout/notification_template_icon_group" />
+    <LinearLayout ="top" ="vertical" ="fill_parent" ="wrap_content" ="64.0dip">
+        <LinearLayout ="horizontal" android:id="@id/2131437777" ="fill_parent" ="wrap_content" ="64.0dip">
+            <FrameLayout android:id="@id/2131437776" ="fill_parent" ="wrap_content" ="8.0dip" ="1.0" ="8.0dip" />
+            <FrameLayout android:id="@id/2131439247" ="4.0dip" ="wrap_content" ="wrap_content" ="8.0dip">
+                <ViewStub ="end|center|top" android:id="@id/2131441416" ="gone" ="@layout/notification_template_part_time" ="wrap_content" ="wrap_content" />
+                <ViewStub ="end|center|top" android:id="@id/2131429610" ="gone" ="@layout/notification_template_part_chronometer" ="wrap_content" ="wrap_content" />
+                <TextView ="@style/2132149252" ="end|bottom|center" android:id="@id/2131433438" ="wrap_content" ="wrap_content" ="20.0dip" ="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/2131427506" ="#29000000" ="gone" ="fill_parent" ="1.0dip" />
+        <LinearLayout ="horizontal" android:id="@id/2131427528" ="gone" ="fill_parent" ="wrap_content" ="-8.0dip" />
+    </LinearLayout>
+</FrameLayout>

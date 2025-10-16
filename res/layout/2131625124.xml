@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivClose" ="15.0dip" ="50.0dip" ="50.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="wrap_content" ="44.0dip" ="10.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" 2130969912="@id/2131444441" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tabLayout" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131437072" ="0.0dip" ="0.0dip" 2130969921="0.5" />
+    <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131444441" ="0.0dip" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/reset" ="15.0dip" ="6.0dip" 2130969911="2131438103" 2130969918="@id/2131437072" 2130969937="2131438103" 2130969940="@id/2131449438" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131442568" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/confirm" ="6.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131437072" 2130969941="@id/2131444441" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

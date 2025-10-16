@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232628" ="15.0dip" ="15.0dip" ="15.0dip" ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437251" ="gone" ="24.0dip" ="24.0dip" ="@color/2131099764" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437234" ="96.0dip" ="96.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437251" 2130971077="@drawable/2131234370" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437236" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/mpc_wallet_upgrade_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437234" style="@style/2132149423" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437235" ="wrap_content" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437236" style="@style/2132149350" />
+    <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131437233" ="0.0dip" ="48.0dip" ="30.0dip" android:text="@string/mpc_wallet_continue" 2130969173="24.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437235" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429674" ="15.0dip" ="15.0dip" ="false" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131433473" ="fill_parent" ="180.0dip" ="15.0dip" 2130969941="2131438103" 2130970274="@color/2131099778" 2130970276="@string/leaderboard_edit_info_hint" 2130970278="1000" 2130970282="false" 2130970283="true" 2130970284="false" 2130970285="false" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="15.0dip" android:text="@string/confirm" 2130969173="8" 2130969937="2131438103" 2130969940="@id/2131433473" 2130971472="2131429147" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

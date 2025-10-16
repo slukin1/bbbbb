@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131441680" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" ="true" ="fill_parent" ="fill_parent">
+        <View android:id="@id/2131427995" ="fill_parent" ="?android:actionBarSize" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <ImageView android:id="@id/2131428230" ="@null" ="24.0dip" ="24.0dip" ="@string/back" ="16.0dip" 2130969911="@id/2131427995" 2130969937="2131438103" 2130969941="@id/2131427995" 2130971077="@drawable/2131236863" 2130971428="@string/back" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131429440" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/title" ="wrap_content" ="wrap_content" ="fitCenter" ="true" ="@string/binance_app_name" 2130969911="@id/2131428230" 2130969917="@id/2131429440" 2130969937="@id/2131429440" 2130969941="@id/2131428230" 2130971077="@drawable/2131233094" 2130971428="@string/binance_app_name" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131441543" ="wrap_content" ="wrap_content" 2130969911="@id/2131428230" 2130969917="@id/2131429440" 2130969937="@id/2131429440" 2130969941="@id/2131428230" />
+        <com.major.android.uikit.search.KitSearchBar android:id="@id/2131439835" ="true" ="true" ="48.0dip" ="48.0dip" ="5.0dip" ="@string/content_search_transition_name" 2130968735="@android:color/transparent" 2130968908="true" 2130968909="@null" 2130969627="@null" 2130969911="@id/2131427995" 2130969918="@id/2131437063" 2130969927="1.0" 2130969936="@id/title" 2130969941="@id/2131427995" 2130970759="@null" />
+        <ImageView android:id="@id/2131437063" ="@null" ="24.0dip" ="24.0dip" ="fitCenter" ="true" ="@string/_notifications" ="16.0dip" 2130969911="@id/2131427995" 2130969917="2131438103" 2130969941="@id/2131427995" 2130971077="@drawable/2131237717" 2130971375="@color/2131099764" 2130971428="@string/_notifications" />
+        <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441071" ="6.0dip" ="6.0dip" ="10.0dip" ="false" ="0.0dip" ="44.0dip" ="horizontal" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439835" />
+        <View android:id="@id/2131441074" ="@color/2131099751" ="gone" ="fill_parent" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441071" />
+        <androidx.viewpager2.widget.ViewPager2 ="horizontal" android:id="@id/2131438095" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441074" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/2131446527" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/futures_pnlanalysis_history_profitandloss" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439805" ="15.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131446527">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/voptions_account_total_equity" style="@style/2132149450" />
+        <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_account_total_equity_tips" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/voptions_daily_pnl" style="@style/2132149450" />
+        <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_daily_pnl_tips" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/margin_pnl_cumulative_pnl_title" style="@style/2132149450" />
+        <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_cumulative_pnl_tips" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_pnlanalysis_history_cumulative_pnl_per" style="@style/2132149450" />
+        <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_cumulative_pnl_per_tips" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/margin_pnl_net_transfer" style="@style/2132149450" />
+        <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_net_transfer_tips" style="@style/2132149350" />
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/btn_confirm" ="fill_parent" ="40.0dip" ="32.0dip" android:text="@string/ok" ="1.0" 2130969173="8" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" 2130970889="3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset ="4.0dip" ="4.0dip" ="10.0dip" ="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item ="false">
+            <nine-patch ="@drawable/2131232348" ="?2130969063" ="?android:disabledAlpha" />
+        </item>
+        <item ="false" ="false">
+            <nine-patch ="@drawable/2131232348" ="?2130969063" />
+        </item>
+        <item>
+            <nine-patch ="@drawable/2131232347" ="?2130969061" />
+        </item>
+    </selector>
+</inset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="wrap_content" ="wrap_content" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="center" android:id="@id/2131431404" ="@dimen/2131167206" ="8.0dip" ="@dimen/2131167206" ="8.0dip" ="@dimen/2131167206" ="@dimen/2131167358" style="@style/2132148932" />
+    <FrameLayout android:id="@id/2131439140" ="114.0dip" ="40.0dip" ="@dimen/2131167206" ="@dimen/2131167206" ="10.0dip" ="@dimen/2131167206">
+        <View android:id="@id/2131439141" ="@drawable/onfido_loading_error_state_button" ="fill_parent" ="fill_parent" />
+        <View ="@drawable/onfido_loading_error_border" ="fill_parent" ="fill_parent" />
+        <LinearLayout ="center" ="horizontal" ="wrap_content" ="wrap_content">
+            <ImageView ="center_vertical" ="12.0dip" ="12.0dip" ="16.0dip" 2130971077="@drawable/onfido_reload" />
+            <TextView ="?2130970353" ="center_vertical" android:text="@string/onfido_video_intro_prompt_button_primary_reload_player" style="@style/2132148932" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

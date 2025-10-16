@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <ImageView android:id="@id/2131434220" ="96.0dip" ="96.0dip" ="84.0dip" ="@drawable/2131238405" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131444344" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/earn_redemption_successful" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434220" style="@style/2132149459" />
+    <TextView ="@color/2131099778" android:id="@id/2131438683" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_one_click_in_progress_tip" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444344" style="@style/2132149355" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="0.0dip" ="0.5dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438683" />
+    <TextView ="@color/2131099778" android:id="@id/2131442992" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/lending_redeem_succeed_tips2" 2130969937="2131438103" 2130969940="@id/2131444347" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131442991" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="@id/2131442992" 2130969917="2131438103" 2130969941="@id/2131442992" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444347" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/redemption_amount" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131444346" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/divider" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428788" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/earn_view_history" 2130969911="2131438103" 2130969918="@id/2131428787" 2130969937="2131438103" style="@style/2132148696" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428787" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/earn_go_to_earn_wallet" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428788" 2130969961="@dimen/2131166184" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

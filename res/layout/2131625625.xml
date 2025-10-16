@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="fill_parent">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439529" ="fill_parent" ="fill_parent" ="8.0dip" />
+            <LinearLayout ="vertical" android:id="@id/2131431363" ="gone" ="fill_parent" ="fill_parent">
+                <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="80.0dip" 2130971077="@drawable/2131238419" />
+                <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/c2c_mob_ad_manage_adlist_label_noads" ="@font/2131296274" />
+                <com.major.android.uikit2.button.KitButton ="center_horizontal" android:id="@id/2131447421" ="wrap_content" ="32.0dip" ="20.0dip" android:text="@string/c2c_mob_ad_manage_adlist_btn_post" ="32.0dip" ="32.0dip" 2130969173="4" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</FrameLayout>

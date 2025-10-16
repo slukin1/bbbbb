@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/2131431014" ="0.0dip" ="1.0dip" ="16.0dip" 2130969911="@id/2131444554" 2130969918="@id/2131434143" 2130969937="2131438103" 2130969941="@id/2131444554" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434143" ="16.0dip" ="16.0dip" 2130969911="@id/2131444554" 2130969918="@id/2131444554" 2130969936="@id/2131431014" 2130969941="@id/2131444554" 2130971077="@drawable/2131237997" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099738" android:id="@id/2131444554" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/alpha_trading_finance_security" ="4.0dip" 2130969918="@id/2131431015" 2130969936="@id/2131434143" 2130969941="2131438103" style="@style/2132149394" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/2131431015" ="0.0dip" ="1.0dip" ="16.0dip" 2130969911="@id/2131444554" 2130969917="2131438103" 2130969936="@id/2131444554" 2130969941="@id/2131444554" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433966" ="wrap_content" ="wrap_content" ="16.0dip" 2130969918="@id/2131433967" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131444554" 2130971077="@drawable/2131235052" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433967" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="24.0dip" ="@dimen/2131166188" 2130969918="@id/2131433965" 2130969936="@id/2131433966" 2130969940="@id/2131444554" 2130971077="@drawable/2131235053" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433965" ="wrap_content" ="wrap_content" ="16.0dip" 2130969918="@id/2131433964" 2130969936="@id/2131433967" 2130969940="@id/2131444554" 2130971077="@drawable/2131235051" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433964" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969936="@id/2131433965" 2130969940="@id/2131444554" 2130971077="@drawable/2131235050" />
+</androidx.constraintlayout.widget.ConstraintLayout>

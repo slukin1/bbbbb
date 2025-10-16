@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131432206" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131441055" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="wrap_content" ="28.0dip" ="12.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" />
+    </androidx.core.widget.NestedScrollView>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131439117" ="gone" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441055">
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439533" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131439123" ="gone" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441055">
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439597" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

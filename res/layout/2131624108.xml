@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440953" ="fill_parent" ="50.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234196" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_swap_page_title" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440919" ="96.0dip" ="96.0dip" ="88.0dip" 2130971077="@drawable/2131238405" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440920" ="wrap_content" ="wrap_content" ="10.0dip" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440910" ="wrap_content" ="wrap_content" ="10.0dip" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440907" ="wrap_content" ="wrap_content" ="10.0dip" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131440906" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/c2c_swap_detail_check_history_label" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232591" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="40.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440913" ="wrap_content" ="wrap_content" android:text="@string/c2c_swap_detail_from_label" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440914" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440913" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440922" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_swap_detail_to_label" 2130969937="2131438103" 2130969940="@id/2131440913" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440921" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440922" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440917" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_swap_detail_price_label" 2130969937="2131438103" 2130969940="@id/2131440922" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440918" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440917" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440911" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_swap_detail_fees_label" 2130969937="2131438103" 2130969940="@id/2131440917" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440912" ="wrap_content" ="wrap_content" android:text="0" 2130969917="2131438103" 2130969941="@id/2131440911" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440915" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_swap_detail_pay_from_label" 2130969937="2131438103" 2130969940="@id/2131440911" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440916" ="wrap_content" ="wrap_content" android:text="@string/c2c_swap_page_dialog_wallet_label" 2130969917="2131438103" 2130969941="@id/2131440915" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440908" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_swap_detail_date_label" 2130969937="2131438103" 2130969940="@id/2131440915" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440909" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440908" style="@style/2132149346" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

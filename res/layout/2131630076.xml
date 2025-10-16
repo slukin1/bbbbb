@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131439486" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitRadioButton android:id="@id/2131427535" ="false" ="wrap_content" ="wrap_content" ="true" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443537" ="wrap_content" ="wrap_content" android:text="500 USDT" ="true" ="ltr" ="11.0dip" ="@id/2131427535" style="@style/2132149355" />
+</RelativeLayout>

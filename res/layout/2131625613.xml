@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131432213" ="@drawable/2131236021" ="16.0dip" ="34.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/title" ="wrap_content" ="50.0dip" android:text="@string/_filter" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430102" ="15.0dip" ="50.0dip" ="50.0dip" 2130969911="@id/title" 2130969917="2131438103" 2130969941="@id/title" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" android:id="@id/2131440608" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/status" ="15.0dip" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149384" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131440618" ="visible" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" ="15.0dip" 2130969467="0" 2130969468="2131450408" 2130969940="@id/2131440608" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131439182" ="0.0dip" ="40.0dip" ="20.0dip" android:text="@string/reset" ="1.0" ="15.0dip" 2130969918="@id/2131429159" 2130969937="2131438103" 2130969940="@id/2131440618" 2130971472="2" style="@style/2132149371" />
+    <Space android:id="@id/2131429159" ="15.0dip" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131439182" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" ="15.0dip" 2130969911="@id/2131439182" 2130969917="@id/2131430102" 2130969936="@id/2131429159" 2130969941="@id/2131439182" style="@style/2132149371" />
+</androidx.constraintlayout.widget.ConstraintLayout>

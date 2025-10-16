@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="1" ="false" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="3.0dip" ="false" ="true" style="@style/2132149384" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/status" style="@style/2132149350" />
+        <TextView ="@color/2131099726" android:id="@id/2131444766" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131445104" ="wrap_content" ="wrap_content" android:text="@string/earn_total_investment" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131445106" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131445094" ="wrap_content" ="wrap_content" android:text="@string/earn_total_funding_fee" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131445096" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131444280" ="wrap_content" ="wrap_content" android:text="@string/earn_realized_pnl" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131444282" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_actions_title" style="@style/2132149350" />
+        <TextView ="@color/2131099787" android:id="@id/2131442823" ="wrap_content" ="wrap_content" android:text="@string/earn_details" ="true" style="@style/2132149450" />
+    </RelativeLayout>
+    <View ="@color/2131100565" ="fill_parent" ="0.5dip" ="10.0dip" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <TextView android:id="@id/title" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148921" />
+        <TextView android:id="@id/2131430862" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132148917" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131429248" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430862" style="@style/2132148920">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/2131429249" ="fill_parent" ="wrap_content" style="@style/2132148919" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:id="@id/2131437710" ="0.0dip" ="wrap_content" 2130969912="@id/2131430440" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429248" style="@style/2132148948" />
+        <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131430440" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969942="1.0" style="@style/2132148916" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

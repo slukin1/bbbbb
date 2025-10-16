@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="500.0dip" ="500.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434404" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131434434" 2130971077="@drawable/2131235688" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="20.0dip" ="20.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131100035" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434791" ="240.0dip" ="120.0dip" ="48.0dip" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434404" />
+    <LinearLayout ="vertical" android:id="@id/2131429299" ="@drawable/2131235567" ="15.0dip" ="29.0dip" ="15.0dip" ="29.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166223" 2130969940="@id/2131434791">
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/tv_title" ="fill_parent" ="wrap_content" android:text="@string/payment_payment_successful" style="@style/2132149350" />
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/tv_amount" ="fill_parent" ="wrap_content" ="4.0dip" style="@style/2132149446" />
+        <TextView ="16.0sp" ="#ff202630" ="center_horizontal" android:id="@id/2131445926" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/payment_live_campaign_claim_your_reward_now" style="@style/2132149454" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429060" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/spot_open" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131429296" ="@drawable/2131235567" ="15.0dip" ="29.0dip" ="15.0dip" ="29.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166223" 2130969940="@id/2131434791">
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/2131447603" ="fill_parent" ="wrap_content" android:text="@string/payment_mobile_topup_payment_success" style="@style/2132149350" />
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/2131447602" ="fill_parent" ="wrap_content" ="4.0dip" style="@style/2132149446" />
+        <TextView ="16.0sp" ="#ff202630" ="center_horizontal" android:id="@id/2131447675" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/payment_lucky_draw_sorry" style="@style/2132149454" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131429301" ="@drawable/2131235567" ="25.0dip" ="24.0dip" ="25.0dip" ="24.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166212" ="@dimen/2131166209" 2130969940="@id/2131434791">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="90.0dip" ="60.0dip" 2130971077="@drawable/2131235696" />
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/2131447676" ="fill_parent" ="wrap_content" style="@style/2132149446" />
+        <TextView ="#ff848e9c" ="center_horizontal" android:id="@id/2131446671" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/payment_live_campaign_you_can_redeem_your_voucher" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131429300" ="@drawable/2131235567" ="15.0dip" ="29.0dip" ="15.0dip" ="29.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166223" 2130969940="@id/2131434791">
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/2131447318" ="fill_parent" ="wrap_content" android:text="@string/payment_failed" style="@style/2132149350" />
+        <TextView ="16.0sp" ="#ff202630" ="center_horizontal" android:id="@id/2131448408" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/payment_please_try_again" style="@style/2132149454" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

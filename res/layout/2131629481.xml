@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.chat.widget.ChatMSGImageView android:id="@id/2131434604" ="fill_parent" ="fill_parent" ="centerCrop" 2130970152="150.0dip" 2130970156="150.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434745" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237505" 2130971375="@color/2131099738" />
+    <View ="center" android:id="@id/2131449631" ="@drawable/2131232748" ="fill_parent" ="fill_parent" />
+    <com.binance.c2c.chat.widget.CircleProgressBar ="center" android:id="@id/2131429620" ="gone" ="32.0dip" ="32.0dip" 2130968724="#00000000" 2130969527="#aaffffff" 2130969678="false" 2130970147="100.0" 2130970529="2131438335" />
+</FrameLayout>

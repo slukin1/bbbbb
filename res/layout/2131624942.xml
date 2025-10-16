@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436341" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433842" ="wrap_content" ="wrap_content" ="100.0dip" ="@drawable/2131238419" ="no" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView android:id="@id/2131442952" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/copy_trading_portfolio_setting_page_error" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433842" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428869" ="wrap_content" ="40.0dip" ="20.0dip" android:text="@string/copy_trading_refresh" ="5.0dip" ="@drawable/2131237935" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442952" 2130971472="2131441186" />
+</androidx.constraintlayout.widget.ConstraintLayout>

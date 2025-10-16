@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436627" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431924" ="fill_parent" ="44.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131442281" ="?2130968587" ="5.0dip" ="visible" ="30.0dip" ="30.0dip" ="centerInside" ="@null" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="end" ="center" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="true" 2130969911="2131438103" 2130969918="@id/tvType" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099764" android:id="@id/tvType" ="@drawable/2131235998" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" ="@color/2131099744" ="@dimen/2131166260" ="@dimen/2131166199" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/tvTitle" 2130969941="2131438103" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131442452" ="invisible" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233597" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131435069" ="fill_parent" ="fill_parent" style="@style/2132148650">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="40.0dip" ="false" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

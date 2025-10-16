@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/sns_label_container" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.sumsub.sns.core.widget.SNSSubtitle1TextView android:id="@id/sns_label" ="0.0dip" ="wrap_content" ="1.0" />
+        <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_label_icon" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_example" ="gone" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_label_container" />
+    <com.sumsub.sns.core.widget.SNSCheckGroup ="vertical" android:id="@id/sns_checkgroup" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_example" />
+    <com.sumsub.sns.core.widget.SNSTextView android:id="@id/sns_error" ="fill_parent" ="wrap_content" 2130969940="@id/sns_checkgroup" 2130971053="?2130969069" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131627587" />
+    <include android:id="@id/material_clock_period_toggle" ="52.0dip" ="96.0dip" ="12.0dip" layout="@layout/2131627577" />
+</LinearLayout>

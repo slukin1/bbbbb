@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="11.0dip" ="11.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446190" ="wrap_content" ="wrap_content" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="1" 2130969911="@id/2131446190" 2130969917="2131438103" 2130969941="@id/2131446190" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tv_type_tip" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/_Type" ="1" 2130969937="@id/2131446190" 2130969940="@id/2131446190" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_cost_type" ="wrap_content" ="wrap_content" ="1" 2130969911="@id/tv_type_tip" 2130969917="2131438103" 2130969941="@id/tv_type_tip" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tv_symbol_tip" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/symbol" ="1" 2130969937="@id/2131446190" 2130969940="@id/tv_type_tip" 2130969962="@dimen/2131166170" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="1" 2130969911="@id/tv_symbol_tip" 2130969917="2131438103" 2130969941="@id/tv_symbol_tip" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432693" ="visible" ="wrap_content" ="wrap_content" 2130969125="tv_symbol_tip,tvSymbol" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432698" ="visible" ="wrap_content" ="wrap_content" 2130969125="tv_type_tip,tv_cost_type" />
+    <TextView ="@color/2131099778" android:id="@id/2131445630" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/count" ="1" 2130969937="@id/2131446190" 2130969940="@id/tv_symbol_tip" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131448263" ="wrap_content" ="wrap_content" ="1" 2130969911="@id/2131445630" 2130969917="2131438103" 2130969941="@id/2131445630" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

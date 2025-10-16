@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <LinearLayout ="center" ="vertical" android:id="@id/2131432919" ="0.0dip" ="fill_parent" 2130969929="1.0" 2130969931="2131438103" 2130969934="@id/2131436909" 2130969941="2131438103">
+            <com.major.android.uikit.navigation.KitNavigationHomeBtn android:id="@id/2131432918" ="24.0dip" ="24.0dip" />
+            <TextView ="@color/2131102077" android:id="@id/2131432922" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+        </LinearLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131436909" ="0.0dip" ="fill_parent" 2130969929="1.0" 2130969932="@id/2131432919" 2130969934="@id/2131441775" 2130969941="2131438103">
+            <com.major.android.uikit.navigation.KitNavigationMarketBtn android:id="@id/2131436908" ="24.0dip" ="24.0dip" />
+            <TextView ="@color/2131102077" android:id="@id/2131436962" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+        </LinearLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131441775" ="0.0dip" ="fill_parent" 2130969929="1.0" 2130969932="@id/2131436909" 2130969934="@id/2131432396" 2130969941="2131438103">
+            <com.major.android.uikit.navigation.KitNavigationTradeBtn android:id="@id/2131441774" ="24.0dip" ="24.0dip" />
+            <TextView ="@color/2131102077" android:id="@id/2131441793" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+        </LinearLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131432396" ="0.0dip" ="fill_parent" 2130969929="1.0" 2130969932="@id/2131441775" 2130969934="@id/2131450167" 2130969941="2131438103">
+            <com.major.android.uikit.navigation.KitNavigationFuturesBtn android:id="@id/2131432394" ="24.0dip" ="24.0dip" />
+            <TextView ="@color/2131102077" android:id="@id/2131432403" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+        </LinearLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131450167" ="0.0dip" ="fill_parent" 2130969929="1.0" 2130969932="@id/2131432396" 2130969935="2131438103" 2130969941="2131438103">
+            <com.major.android.uikit.navigation.KitNavigationWalletBtn android:id="@id/2131450156" ="24.0dip" ="24.0dip" />
+            <TextView ="@color/2131102077" android:id="@id/2131450312" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

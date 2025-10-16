@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439482" ="visible" ="true" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432189" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449652" ="fill_parent" ="0.0dip" 2130969912="@id/2131432187" 2130969940="@id/2131432189" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432187" ="fill_parent" ="wrap_content" 2130969911="2131438103" />
+    <com.finance.marketdetail.framework.widget.view.DraggableFrameLayout android:id="@id/2131438789" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

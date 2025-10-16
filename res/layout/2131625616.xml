@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969940="@id/2131440610" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/2131437941" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_manage_adlist_nav" ="@font/2131296275" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="end|center" ="wrap_content" ="fill_parent" ="0.0dip" ="15.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434911" ="20.0dip" ="fill_parent" ="16.0dip" 2130971077="@drawable/2131237811" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433976" ="20.0dip" ="fill_parent" ="16.0dip" 2130971077="@drawable/2131237630" />
+            <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434912" ="20.0dip" ="fill_parent" ="centerInside" 2130971077="@drawable/2131237479" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.Toolbar>
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="wrap_content" ="38.0dip" ="7.0dip" ="7.0dip" 2130969937="2131438103" 2130969940="@id/2131441601" />
+    <View android:id="@id/view_line" ="@color/2131099751" ="fill_parent" ="0.5dip" ="-2.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/tabLayout" />
+    <LinearLayout ="horizontal" android:id="@id/llConditions" ="7.0dip" ="7.0dip" ="fill_parent" ="44.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/view_line">
+        <RelativeLayout ="center" android:id="@id/2131439287" ="8.0dip" ="8.0dip" ="wrap_content" ="fill_parent">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442672" ="wrap_content" ="wrap_content" android:text="@string/c2c_module_cryptos" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433796" ="3.0dip" ="16.0dip" ="16.0dip" ="@id/2131442672" ="@id/2131442672" ="4.0dip" ="@id/2131442672" 2130971077="@drawable/2131237003" />
+        </RelativeLayout>
+        <RelativeLayout ="center" android:id="@id/2131439297" ="8.0dip" ="8.0dip" ="wrap_content" ="fill_parent">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443087" ="wrap_content" ="wrap_content" android:text="@string/c2c_ad_list_filter_currency" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433865" ="3.0dip" ="16.0dip" ="16.0dip" ="@id/2131443087" ="@id/2131443087" ="4.0dip" ="@id/2131443087" 2130971077="@drawable/2131237003" />
+        </RelativeLayout>
+        <RelativeLayout ="center" android:id="@id/2131439360" ="8.0dip" ="8.0dip" ="wrap_content" ="fill_parent">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvTypes" ="wrap_content" ="wrap_content" android:text="@string/c2c_module_types" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivTypes" ="3.0dip" ="16.0dip" ="16.0dip" ="@id/tvTypes" ="@id/tvTypes" ="4.0dip" ="@id/tvTypes" 2130971077="@drawable/2131237003" />
+        </RelativeLayout>
+        <RelativeLayout ="center" android:id="@id/2131439344" ="8.0dip" ="8.0dip" ="wrap_content" ="fill_parent">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444766" ="wrap_content" ="wrap_content" android:text="@string/status" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434185" ="3.0dip" ="wrap_content" ="wrap_content" ="@id/2131444766" ="@id/2131444766" ="4.0dip" ="@id/2131444766" 2130971077="@drawable/2131237003" />
+        </RelativeLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/2131427641" ="fill_parent" ="wrap_content" 2130969125="view_line, llConditions" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427723" ="@drawable/2131235987" ="16.0dip" ="10.0dip" ="16.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@color/2131099800" 2130969937="2131438103" 2130969940="@id/llConditions" 2130969962="@dimen/2131166170">
+        <include android:id="@id/2131449470" ="gone" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131626925" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439068" ="6.0dip" ="visible" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427723" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131440883" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131439068" />
+</androidx.constraintlayout.widget.ConstraintLayout>

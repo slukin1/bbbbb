@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="#ff000000" ="center_horizontal" android:id="@id/2131439994" ="fill_parent" ="wrap_content" ="10.0dip" ="false" />
+    <TextView ="center_horizontal" ="#ff000000" ="fill_parent" ="0.5dip" ="10.0dip" ="false" />
+    <com.sensorsdata.analytics.android.sdk.visual.view.PairingCodeEditText ="40.0sp" ="#ff00c48e" ="center_horizontal" android:id="@id/2131439979" ="fill_parent" ="fill_parent" ="10.0dip" ="10.0dip" ="20.0dip" ="number" ="flagNoExtractUi" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+.class public final synthetic Lo/TokenUnlockFragmentspecialinlinedviewModelsdefault4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic b:Lo/setPortfolioName;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/setPortfolioName;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/TokenUnlockFragmentspecialinlinedviewModelsdefault4;->b:Lo/setPortfolioName;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/TokenUnlockFragmentspecialinlinedviewModelsdefault4;->b:Lo/setPortfolioName;
+
+    invoke-static {v0}, Lo/setPortfolioName;->j(Lo/setPortfolioName;)Lo/r8lambdaPBV7DCZzTD3zmqgjQci3pOMpPmk;
+
+    move-result-object v0
+
+    return-object v0
+.end method

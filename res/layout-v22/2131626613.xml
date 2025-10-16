@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="25.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="16.0sp" ="@color/2131099851" android:id="@id/2131444666" ="wrap_content" ="wrap_content" android:text="@string/trade_tabs1" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="@font/2131296273" ="4.0dip" 2130969911="@id/2131444666" 2130969936="@id/2131444666" 2130969941="@id/2131444666" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099917" ="end" ="center_vertical" android:id="@id/2131443969" ="@drawable/2131236004" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="1" ="4.0dip" ="@dimen/2131166260" 2130969911="@id/2131444666" 2130969917="2131438103" 2130969941="@id/2131444666" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445450" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_pass_order_history_withdraw_amount" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131444666" />
+    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131445448" ="wrap_content" ="wrap_content" ="@font/2131296273" ="ltr" ="4.0dip" 2130969911="@id/2131445450" 2130969917="2131438103" 2130969941="@id/2131445450" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442674" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/c2c_trade_quantity" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131445450" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442673" ="wrap_content" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969911="@id/2131442674" 2130969917="2131438103" 2130969941="@id/2131442674" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tvOrderNumberTitle" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/c2c_order_number" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131442674" />
+    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/tvOrderNumber" ="wrap_content" ="wrap_content" ="6.0dip" ="@font/2131296274" ="4.0dip" 2130969306="@drawable/2131237146" 2130969911="@id/tvOrderNumberTitle" 2130969917="2131438103" 2130969941="@id/tvOrderNumberTitle" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444958" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969917="2131438103" 2130969940="@id/tvOrderNumberTitle" />
+    <View android:id="@id/2131449367" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969911="2131438103" 2130969940="@id/2131444958" />
+</androidx.constraintlayout.widget.ConstraintLayout>

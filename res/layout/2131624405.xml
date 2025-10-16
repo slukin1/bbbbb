@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.futures.common.framework.widget.TrailingStopRateView android:id="@id/2131441825" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131436743" ="0.0dip" ="40.0dip" ="8.0dip" app:2130969577="@string/futures_portfolio_margin_order_trailing_stop_activate_price" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441825" 2130970134="5" 2130970739="3" 2130971325="0.1" 2130971511="0.001" 2130971514="@string/future_trade_mark" />
+</merge>

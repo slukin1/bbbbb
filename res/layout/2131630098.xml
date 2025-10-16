@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" android:id="@id/2131450223" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238378" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/wallet_pnl_average_price_modify_save_failed" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131446490" ="wrap_content" ="wrap_content" ="7.0dip" android:text="@string/fetch_again" style="@style/2132149454" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+.class public final Lo/WalletNetworkConfiggetBinanceChainIdByNetworkId1;
+.super Lo/WalletNetworkConfiggetBuildChainParamsnetworksDetailRet1;

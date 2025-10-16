@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441606" ="gone" ="fill_parent" ="44.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433698" ="5.0dip" ="30.0dip" ="30.0dip" ="centerInside" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/nezha_leader_board_entrance_title" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434087" ="2.0dip" ="24.0dip" ="24.0dip" ="13.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236783" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434153" ="2.0dip" ="24.0dip" ="24.0dip" ="14.0dip" 2130969911="2131438103" 2130969918="@id/2131434087" 2130969941="2131438103" 2130971077="@drawable/2131238024" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="fill_parent" ="fill_parent">
+        <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438750" ="fill_parent" ="wrap_content" ="16.0dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438748" ="fill_parent" ="wrap_content" ="24.0dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438753" ="fill_parent" ="wrap_content" ="40.0dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438751" ="fill_parent" ="wrap_content" ="40.0dip" />
+                <View android:id="@id/2131441661" ="fill_parent" ="0.5dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438752" ="gone" ="fill_parent" ="wrap_content" ="40.0dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438747" ="fill_parent" ="wrap_content" ="40.0dip" />
+            </LinearLayout>
+        </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

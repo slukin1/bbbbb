@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131433559" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.iproov.sdk.core.native.do android:id="@id/2131433567" ="@android:color/transparent" ="fill_parent" ="fill_parent" />
+    <com.iproov.sdk.core.m.if ="bottom|center" android:id="@id/2131433563" ="gone" ="wrap_content" ="wrap_content" ="@drawable/2131234449" ="fitXY" ="true" ="@string/iproov_accessibility_label_secured_by_iproov" />
+    <com.iproov.sdk.core.m.int android:id="@id/2131433561" ="visible" ="fill_parent" ="fill_parent" ="0.0dip" />
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131433570" ="fill_parent" ="wrap_content">
+            <LinearLayout ="horizontal" android:id="@id/2131433560" ="fill_parent" ="56.0dip">
+                <FrameLayout ="0.0dip" ="fill_parent" ="0.15">
+                    <ImageView ="center" android:id="@id/2131433558" ="8.0dip" ="fill_parent" ="fill_parent" ="@drawable/2131234124" ="true" ="@string/iproov_accessibility_label_close_button" />
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatTextView ="@dimen/2131166454" ="@android:color/white" ="end" ="center" android:id="@id/2131433569" ="0.0dip" ="fill_parent" ="2" ="0.8" />
+                <ImageView ="end|center" android:id="@id/2131433565" ="10.0dip" ="0.0dip" ="fill_parent" ="true" ="0.15" ="no" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <FrameLayout ="wrap_content" ="fill_parent">
+                <ImageView android:id="@id/2131433562" ="invisible" ="50.0dip" ="75.0dip" ="fitCenter" ="no" />
+                <androidx.appcompat.widget.AppCompatTextView ="bold" ="#ff555555" android:id="@id/2131433568" ="wrap_content" ="fill_parent" ="12.0dip" ="458.0dip" ="12.0dip" android:text="Loading…" ="no" 2130968700="18.0sp" 2130968701="10.0sp" 2130968704="2.0sp" 2130968705="2131449068" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.iproov.sdk.core.m.for android:id="@id/2131433564" ="gone" ="fill_parent" ="fill_parent" />
+    <androidx.appcompat.widget.AppCompatTextView ="@dimen/2131166453" ="#ffffffff" ="center_horizontal" android:id="@id/2131433566" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" ="center" />
+</FrameLayout>

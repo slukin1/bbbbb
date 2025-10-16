@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429742" ="@drawable/2131238453" ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.input.FocusAwareEditText ="@color/2131099764" ="@color/2131099762" ="end" ="center" android:id="@id/2131431455" ="@null" ="0.0dip" ="fill_parent" ="1" ="numberDecimal" ="@drawable/2131238456" ="locale" 2130969918="@id/2131432956" 2130969936="@id/2131432957" 2130969941="2131438103" style="@style/2132149346" />
+    <com.major.android.uikit.common.KitLongClickImageButton android:id="@id/2131432957" ="@null" ="40.0dip" ="40.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238459" />
+    <com.major.android.uikit.common.KitLongClickImageButton android:id="@id/2131432956" ="@null" ="40.0dip" ="40.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238452" />
+    <com.major.android.uikit.tooltip.KitToolTip android:id="@id/2131441736" ="2.0dip" ="gone" ="0.0dip" ="wrap_content" 2130969015="true" 2130969912="@id/2131431455" 2130969917="@id/2131431455" 2130969937="@id/2131431455" 2130970835="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

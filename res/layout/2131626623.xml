@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131100603" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="8.0dip">
+        <View android:id="@id/2131438224" ="@drawable/2131232420" ="3.0dip" ="14.0dip" />
+        <TextView ="16.0sp" ="@color/2131100638" ="end" android:id="@id/2131438187" ="0.0dip" ="wrap_content" ="3" ="1.0" ="@font/2131296273" ="24.0dip" />
+        <TextView ="10.0sp" ="@color/2131099787" android:id="@id/2131447597" ="@drawable/2131236004" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_mobile_payment_add_recommended" ="@font/2131296274" ="#13f0b90b" />
+    </LinearLayout>
+    <View ="@color/2131100920" ="fill_parent" ="1.0dip" ="45.0dip" ="18.0dip" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="30.0dip" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start|center" android:id="@id/2131443454" ="wrap_content" ="wrap_content" ="false" ="locale" ="viewStart" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="@color/2131099762" ="start" android:id="@id/2131442581" ="@drawable/2131238460" ="10.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="5.0dip" ="true" ="false" ="10.0dip" ="locale" ="viewStart" ="10.0dip" ="@dimen/2131166184" 2130969306="@drawable/2131237003" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131443454" 2130969942="0.0" style="@style/2132149446" />
+    <TextView ="12.0sp" ="#ffff4242" android:id="@id/tv_error_tips" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/c2c_mod_invaild_email_format" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131442581" />
+</androidx.constraintlayout.widget.ConstraintLayout>

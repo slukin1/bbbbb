@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450111" ="fill_parent" ="38.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_tip_dialog_withdraw_title" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131450113" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+        <ImageView android:id="@id/2131450112" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450107" ="fill_parent" ="38.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_tip_dialog_in_order_title" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131450109" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450108" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450104" ="gone" ="fill_parent" ="38.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_tip_dialog_convert_title" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131450106" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+        <ImageView android:id="@id/2131450105" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131450151" ="fill_parent" ="wrap_content" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131450152" ="fill_parent" ="40.0dip" ="26.0dip" android:text="@string/ms_index_got_it" ="4.0dip" style="@style/2132148692" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="271.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439087" ="@null" ="fill_parent" ="fill_parent" />
+        <ImageView android:id="@id/2131434510" ="@drawable/2131238774" ="gone" ="64.0dip" ="64.0dip" ="60.0dip" ="true" />
+        <TextView ="@color/2131099778" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" ="17.0dip" android:text="@string/dwallet_wallethub_walletconnect_empty_title" ="@id/2131434510" ="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

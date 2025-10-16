@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429966" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="28.0sp" ="@color/2131099764" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="15.0dip" ="52.0dip" ="15.0dip" android:text="@string/c2c_have_you_traded_p2p_before" ="@font/2131296267" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="vertical" android:id="@id/2131449638" ="@drawable/2131232574" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/c2c_have_you_traded_no" ="@font/2131296273" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="24.0dip" android:text="@string/c2c_have_you_traded_no_des" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131449600" ="@drawable/2131232574" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449638">
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/c2c_have_you_traded_yes" ="@font/2131296273" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="24.0dip" android:text="@string/c2c_have_you_traded_yes_des" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

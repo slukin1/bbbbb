@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131428260" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099787" ="center_horizontal" android:id="@id/2131446801" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_profile_badges_view_others" ="@font/2131296274" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433992" ="36.0dip" ="36.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233779" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="@dimen/2131166170">
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+            <TextView ="16.0sp" ="@color/2131099764" ="end" android:id="@id/tvNickName" ="0.0dip" ="wrap_content" ="true" ="1.0" ="@font/2131296273" />
+            <TextView ="12.0sp" ="@color/2131099778" ="end" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="true" ="@font/2131296266" />
+        </LinearLayout>
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="true" ="@font/2131296266" />
+    </LinearLayout>
+</LinearLayout>

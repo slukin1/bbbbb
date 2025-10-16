@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.recyclerview.MaxHeightRecyclerView android:id="@id/rvList" ="fill_parent" ="wrap_content" />
+    <View android:id="@id/divider" ="@color/2131099676" ="fill_parent" ="6.0dip" />
+    <TextView ="16.0sp" ="@color/2131099837" ="center" android:id="@id/2131430107" ="fill_parent" ="50.0dip" android:text="@string/_cancel" ="@font/2131296265" />
+</LinearLayout>

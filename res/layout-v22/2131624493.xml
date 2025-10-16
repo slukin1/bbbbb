@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438557" ="fill_parent" ="wrap_content" />
+    <FrameLayout ="center" android:id="@id/2131428684" ="@drawable/2131233016" ="fill_parent" ="48.0dip">
+        <LinearLayout ="center_vertical" ="center" ="horizontal" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166156">
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="1.0dip" ="@color/2131099764" 2130971077="@drawable/2131237088" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_poll_add_option" ="5.0dip" style="@style/2132149446" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428854" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131444094" ="wrap_content" ="wrap_content" android:text="@string/content_poll_duration" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" ="@color/2131099764" 2130971077="@drawable/2131237050" />
+        </LinearLayout>
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <LinearLayout ="horizontal" android:id="@id/2131428853" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131100443" ="wrap_content" ="wrap_content" android:text="@string/content_poll_delete_poll" style="@style/2132149450" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

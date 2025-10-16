@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446280" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/margin_repay_debt" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439526" ="0.0dip" ="wrap_content" ="22.0dip" 2130969904="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446280" />
+    <FrameLayout android:id="@id/2131449550" ="gone" ="0.0dip" ="28.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148650">
+        <ImageView ="center" ="20.0dip" ="20.0dip" ="@null" 2130971077="@drawable/2131236615" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

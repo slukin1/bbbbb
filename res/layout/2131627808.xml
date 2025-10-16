@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131437646" ="fill_parent" ="76.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131437641" ="36.0dip" ="36.0dip" ="3.0dip" ="centerInside" ="15.0dip" 2130969912="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970803="@style/2132150286" />
+    <LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="@id/2131437661" ="@id/2131437641" 2130969936="@id/2131437641" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131437643" ="wrap_content" ="wrap_content" ="1" ="10.0dip" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131437642" ="wrap_content" ="wrap_content" ="1" ="10.0dip" style="@style/2132149454" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131437661" ="30.0dip" ="30.0dip" ="@drawable/2131235352" ="15.0dip" ="true" />
+</RelativeLayout>

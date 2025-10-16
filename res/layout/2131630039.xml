@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131441611" ="wrap_content" ="@dimen/2131165972" ="centerInside" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <TextView ="@color/2131099764" android:id="@id/2131450258" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_average_price_setting" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131441611" style="@style/2132149419" />
+    <TextView ="@color/2131099764" android:id="@id/2131450254" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/wallet_pnl_average_price_modify_tips" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131450258" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131450257" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/wallet_pnl_average_price_modify_period" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131450254" style="@style/2132149450" />
+    <com.major.android.uikit.input.KitInputEditAmount android:id="@id/2131450255" ="fill_parent" ="wrap_content" ="5.0dip" ="15.0dip" ="15.0dip" 2130969653="@string/wallet_pnl_average_price_modify_error" 2130969655="0.00" 2130969937="2131438103" 2130969940="@id/2131450257" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131450253" ="164.0dip" ="wrap_content" ="12.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130971472="2" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131450256" ="164.0dip" ="wrap_content" ="12.0dip" android:text="@string/save" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

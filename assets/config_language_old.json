@@ -1,0 +1,219 @@
+{
+  "enable": 1,
+  "supportedLanguages": [
+    {
+      "key": "zh",
+      "value": "中文简体"
+    },
+    {
+      "key": "zh-TW",
+      "value": "中文繁體"
+    },
+    {
+      "key": "en",
+      "value": "English"
+    },
+    {
+      "key": "en-GB",
+      "value": "English (Britain)"
+    },
+    {
+      "key": "en-AE",
+      "value": "English (Dubai)",
+      "mapTo": "en"
+    },
+    {
+      "key": "en-IN",
+      "value": "English (India)",
+      "mapTo": "en"
+    },
+    {
+      "key": "en-AF",
+      "value": "English (Africa)",
+      "mapTo": "en"
+    },
+    {
+      "key": "en-KZ",
+      "value": "English (Kazakhstan)",
+      "mapTo": "en"
+    },
+    {
+      "key": "en-TR",
+      "value": "English (Türkiye)"
+    },
+    {
+      "key": "tr-TR",
+      "value": "Türkçe"
+    },
+    {
+      "key": "es-ES",
+      "value": "Español (España)"
+    },
+    {
+      "key": "es-LA",
+      "value": "Español (Latinoamérica)"
+    },
+    {
+      "key": "vi-VN",
+      "value": "Tiếng việt"
+    },
+    {
+      "key": "ru-RU",
+      "value": "Pусский"
+    },
+    {
+      "key": "ru-KZ",
+      "value": "Русский (Казахстан)",
+      "mapTo": "ru-RU"
+    },
+    {
+      "key": "pt-BR",
+      "value": "Português(Brasil)"
+    },
+    {
+      "key": "pt-PT",
+      "value": "Português"
+    },
+    {
+      "key": "pl-PL",
+      "value": "Polski"
+    },
+    {
+      "key": "uk-UA",
+      "value": "Українська"
+    },
+    {
+      "key": "fr-FR",
+      "value": "Français"
+    },
+    {
+      "key": "fr-AF",
+      "value": "Français (Afrique)",
+      "mapTo": "fr-FR"
+    },
+    {
+      "key": "in-ID",
+      "value": "Bahasa Indonesia"
+    },
+    {
+      "key": "ro-RO",
+      "value": "Română"
+    },
+    {
+      "key": "de-CH",
+      "value": "Deutsch (Schweiz)"
+    },
+    {
+      "key": "it-IT",
+      "value": "Italiano"
+    },
+    {
+      "key": "cs-CZ",
+      "value": "Čeština"
+    },
+    {
+      "key": "bg-BG",
+      "value": "български"
+    },
+    {
+      "key": "lv-LV",
+      "value": "latviešu valoda"
+    },
+    {
+      "key": "sv-SE",
+      "value": "svenska"
+    },
+    {
+      "key": "el-GR",
+      "value": "Ελληνικά"
+    },
+    {
+      "key": "sk",
+      "value": "Slovenčina"
+    },
+    {
+      "key": "sl-SI",
+      "value": "Slovenščina"
+    },
+    {
+      "key": "kk-KZ",
+      "value": "қазақ"
+    },
+    {
+      "key": "da-DK",
+      "value": "Dansk"
+    },
+    {
+      "key": "lo-LA",
+      "value": "ພາສາລາວ"
+    },
+    {
+      "key": "my-MM",
+      "value": "ြန်မာ"
+    },
+    {
+      "key": "si-LK",
+      "value": "සිංහල (ශ්‍රී ලංකාව)"
+    },
+    {
+      "key": "hu-HU",
+      "value": "Magyar (Magyarország)"
+    },
+    {
+      "key": "ja-JP",
+      "value": "日本語"
+    },
+    {
+      "key": "az-AZ",
+      "value": "Azərbaycan"
+    },
+    {
+      "key": "km-KH",
+      "value": "ភាសាខ្មែរ"
+    },
+    {
+      "key": "lt-LT",
+      "value": "Lietuvių kalba"
+    },
+    {
+      "key": "am-ET",
+      "value": "አማርኛ"
+    },
+    {
+      "key": "hr-HR",
+      "value": "Hrvatski"
+    },
+    {
+      "key": "bn-BD",
+      "value": "বাংলা"
+    },
+    {
+      "key": "es-AR",
+      "value": "Español (Argentina)"
+    },
+    {
+      "key": "uz-UZ",
+      "value": "Oʻzbekcha"
+    },
+    {
+      "key": "ky-KG",
+      "value": "Кыргыз"
+    }
+  ],
+  "rtlSupportedLanguages": [
+    {
+      "key": "ar-SA",
+      "value": "العربية"
+    },
+    {
+      "key": "ur-PK",
+      "value": "اردو"
+    },
+    {
+      "key": "ar-AE",
+      "value": "العربية (الإمارات)"
+    }
+  ],
+  "cnCDN": "https://static-file-1306379396.file.myqcloud.com/api/i18n/-/web/cms/sp/BINANCE_APP_80306b0de/${locale}/ns/app.xml",
+  "commonCDN": "https://bin.bnbstatic.com/api/i18n/-/web/cms/sp/BINANCE_APP_80306b0de/${locale}/ns/app.xml"
+}

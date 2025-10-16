@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432362" ="fill_parent" ="fill_parent" ="24.0dip" ="20.0dip" ="26.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.mikephil.charting.charts.PieChart android:id="@id/2131432361" ="134.0dip" ="134.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432363" ="0.0dip" ="130.0dip" ="30.0dip" 2130969911="@id/2131432361" 2130969917="2131438103" 2130969936="@id/2131432361" 2130969941="@id/2131432361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

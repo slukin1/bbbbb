@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233574" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441097" ="0.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099787" android:id="@id/2131447169" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/futures_tpsl_split_target_limit_tips" ="4.0dip" 2130969311="@drawable/ic_notification" 2130969917="@id/2131441097" 2130969937="@id/2131441097" 2130969940="@id/2131441097" style="@style/2132149377" />
+    <com.finance.futures.common.feature.position.branch.closeprofit.FuturesTpslPieChartView android:id="@id/2131438342" ="0.0dip" ="154.0dip" 2130969917="@id/2131441097" 2130969937="@id/2131441097" 2130969940="@id/2131447169" />
+    <TextView ="@color/2131099778" android:id="@id/tv_price_title" ="0.0dip" ="wrap_content" 2130969917="@id/2131432748" 2130969937="@id/2131441097" 2130969940="@id/2131438342" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432748" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView ="@color/2131099778" android:id="@id/2131448569" ="0.0dip" ="wrap_content" android:text="@string/volume_btc" ="10.0dip" 2130969907="@id/tv_price_title" 2130969917="@id/2131441097" 2130969937="@id/2131432748" style="@style/2132149384" />
+    <View android:id="@id/2131449709" ="@color/2131099751" ="0.0dip" ="1.0dip" ="8.0dip" 2130969917="@id/2131441097" 2130969937="@id/2131441097" 2130969940="@id/tv_price_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439711" ="none" ="0.0dip" ="wrap_content" 2130969917="@id/2131441097" 2130969937="@id/2131441097" 2130969940="@id/2131449709" />
+    <TextView ="@color/2131099778" android:id="@id/2131448252" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/futures_tpsl_split_target_total_est_pnl" 2130969911="2131438103" 2130969937="@id/2131441097" 2130969940="@id/2131439711" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" android:id="@id/2131448253" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="10.0dip" 2130969907="@id/2131448252" 2130969917="@id/2131441097" 2130969936="@id/2131448252" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

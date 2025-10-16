@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="center_horizontal" ="center_horizontal" ="vertical" android:id="@id/2131436605" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" 2130968911="@color/2131099685" 2130968912="@dimen/2131166247" 2130968914="@dimen/2131166153" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436604" ="@drawable/2131234704" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434477" ="180.0dip" ="180.0dip" ="16.0dip" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131448517" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" ="8.0dip" ="1" style="@style/2132149446" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/rank" style="@style/2132149384" />
+            <TextView ="@color/2131099881" android:id="@id/tv_rank" ="wrap_content" ="wrap_content" style="@style/2132149419" />
+            <TextView ="@color/2131099778" android:id="@id/2131447347" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/leaderboard_all_roi" style="@style/2132149384" />
+            <TextView ="@color/2131099851" android:id="@id/2131447346" ="wrap_content" ="wrap_content" style="@style/2132149419" />
+            <TextView ="@color/2131099778" android:id="@id/2131446210" ="wrap_content" ="wrap_content" ="16.0dip" ="12.0dip" style="@style/2132149384" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434557" ="wrap_content" ="wrap_content" ="22.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436604" 2130971077="@drawable/2131233999" />
+        <View android:id="@id/2131449536" ="@color/2131099764" ="1.0dip" ="12.0dip" ="8.0dip" 2130969911="@id/2131434557" 2130969936="@id/2131434557" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131434637" ="wrap_content" ="wrap_content" android:text="@string/nezha_leader_board_entrance_title" ="1" ="8.0dip" 2130969908="@id/2131434557" 2130969936="@id/2131449536" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448360" ="wrap_content" ="wrap_content" ="8.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="@id/2131434557" 2130969940="@id/2131434557" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434772" ="64.0dip" ="64.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131436604" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

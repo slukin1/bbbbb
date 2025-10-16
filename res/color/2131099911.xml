@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="?android:colorForeground" 2130968646="0.1" />
+    <item ="true" ="?2130969061" 2130968646="0.3" />
+    <item ="?android:colorForeground" 2130968646="0.3" />
+</selector>

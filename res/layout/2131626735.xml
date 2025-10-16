@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131441486" ="wrap_content" ="wrap_content" android:text="@string/launcher_exit_dialog_confirm" ="5.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+    <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099764" android:id="@id/2131440086" ="wrap_content" ="wrap_content" ="17.0dip" android:text="@string/launcher_do_not_ask_again" ="3.0dip" 2130969758="true" 2130969937="2131438103" 2130969940="@id/2131441486" style="@style/2132149350" />
+    <LinearLayout ="bottom" ="horizontal" ="@color/2131099685" ="true" ="true" ="fill_parent" ="wrap_content" ="17.0dip" 2130969940="@id/2131440086">
+        <com.major.android.uikit2.button.KitButton ="@color/2131099764" android:id="@id/2131429250" ="0.0dip" ="40.0dip" android:text="@string/No" ="1.0" ="false" 2130969173="8.0" 2130971472="2" style="@style/2132148697" />
+        <View ="10.0dip" ="1.0dip" />
+        <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/Yes" ="1.0" ="false" 2130969173="8.0" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

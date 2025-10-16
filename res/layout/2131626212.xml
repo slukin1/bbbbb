@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="12.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131438636" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/iconIv" 2130969936="@id/iconIv" 2130969941="@id/iconIv" style="@style/2132149463" />
+    <ImageView android:id="@id/2131428055" ="24.0dip" ="24.0dip" ="@drawable/2131237003" 2130969911="@id/2131438636" 2130969936="@id/2131438636" 2130969941="@id/2131438636" />
+    <TextView android:id="@id/2131438278" ="wrap_content" ="wrap_content" 2130969911="@id/2131428055" 2130969936="@id/2131428055" 2130969941="@id/2131428055" style="@style/2132149359" />
+    <ImageView android:id="@id/iconIv" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131431881" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131438278">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="start" ="start|center|top" android:id="@id/tvDate" ="wrap_content" ="wrap_content" ="96.0dip" android:text="@string/date" ="2" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="center_horizontal" ="center_horizontal" android:id="@id/2131442447" ="wrap_content" ="wrap_content" ="96.0dip" android:text="@string/widget_etf" ="2" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="end" ="end" ="wrap_content" ="wrap_content" ="96.0dip" android:text="@string/widget_etf_net_assets" ="2" style="@style/2132149384" />
+    </FrameLayout>
+    <FrameLayout ="fill_parent" ="wrap_content" 2130969940="@id/2131431881">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|bottom|center" android:id="@id/2131442446" ="wrap_content" ="wrap_content" ="1" style="@style/2132149367" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="center_horizontal" ="horizontal" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/2131442448" ="wrap_content" ="wrap_content" ="1" style="@style/2132149367" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433743" ="@drawable/2131235998" ="6.0dip" ="6.0dip" ="4.0dip" ="@color/2131099732" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131442449" ="wrap_content" ="wrap_content" ="1" style="@style/2132149367" />
+    </FrameLayout>
+    <com.github.mikephil.charting.charts.CombinedChart android:id="@id/chart_view" ="fill_parent" ="192.0dip" ="60.0dip" 2130969940="@id/iconIv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

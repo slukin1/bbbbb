@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432397" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" android:id="@id/2131447454" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/future_amend_order" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131447451" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/string_price" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131447454" style="@style/2132149450" />
+    <EditText ="@color/2131099764" ="#99828a98" android:id="@id/2131431534" ="@drawable/2131234057" ="0.0dip" ="48.0dip" ="4.0dip" ="1" ="numberDecimal" ="10.0dip" ="60.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447451" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131447452" ="wrap_content" ="wrap_content" ="true" ="10.0dip" ="true" 2130969911="@id/2131431534" 2130969917="@id/2131431534" 2130969941="@id/2131431534" style="@style/2132149446" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131447444" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431534" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

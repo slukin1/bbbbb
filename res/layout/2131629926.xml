@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="#ff848e9c" android:id="@id/2131427822" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/amount_total" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131427823" ="fill_parent" ="wrap_content" ="4.0dip" ="1" ="center" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427822" style="@style/2132149419" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131438648" ="fill_parent" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427823" style="@style/2132149350" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131438648" />
+    <TextView ="@color/2131099778" android:id="@id/2131437066" ="wrap_content" ="wrap_content" ="48.0dip" android:text="@string/wallet_transfer_send_mode" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131438648" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131437067" ="wrap_content" ="wrap_content" ="48.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131438648" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131441575" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/margin_to" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131437066" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131441576" ="wrap_content" ="wrap_content" ="16.0dip" ="185.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131437066" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131437438" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131441576" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131427821" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_internal_pay_recive_ammount" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131437438" style="@style/2132149350" />
+    <LinearLayout ="end" ="vertical" android:id="@id/2131427810" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131427821" 2130969917="2131438103" 2130969941="@id/2131427821">
+        <TextView ="@color/2131099764" android:id="@id/2131427824" ="wrap_content" ="wrap_content" ="185.0dip" 2130969941="@id/2131427821" style="@style/2132149350" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131429546" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/fee" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131427810" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131429541" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="@id/2131429546" 2130969917="2131438103" 2130969918="@id/2131429539" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131429539" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969918="@id/2131429540" 2130969941="@id/2131429546" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429540" ="@drawable/2131237075" ="gone" ="16.0dip" ="16.0dip" ="5.0dip" ="15.0dip" ="@color/2131099785" 2130969911="@id/2131429546" 2130969917="2131438103" 2130969941="@id/2131429546" />
+    <TextView ="@color/2131099778" android:id="@id/2131450307" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_transfer_result_send_from" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131429546" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131450312" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131450307" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131437742" ="wrap_content" ="wrap_content" android:text="@string/wallet_transfer_result_send_note" ="15.0dip" 2130969911="@id/2131437743" 2130969937="2131438103" 2130969941="@id/2131437743" 2130969942="0.527" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131437743" ="wrap_content" ="wrap_content" ="16.0dip" ="185.0dip" ="4" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131450307" style="@style/2132149350" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131432879" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" 2130969838="@drawable/2131237095" 2130969840="@string/wallet_transfer_warn_tip_message" 2130969843="1" 2130969940="@id/2131437743" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131441733" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131432879">
+        <TextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" android:text="* " ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" android:text="@string/wallet_newbie_guide_accept_terms" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099787" ="end" ="wrap_content" ="wrap_content" android:text="@string/wallet_newbie_guide_terms_of_use" ="1" ="2.0dip" style="@style/2132149377" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131429547" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" ="15.0dip" 2130968684="@null" 2130969917="2131438103" 2130969940="@id/2131429546" 2130970002="@null" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429545" ="fill_parent" ="48.0dip" ="15.0dip" ="24.0dip" ="15.0dip" ="16.0dip" android:text="@string/_next" 2130969911="2131438103" 2130969940="@id/2131441733" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

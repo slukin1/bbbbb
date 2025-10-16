@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232712" ="15.0dip" ="fill_parent" ="82.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433173" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvQuoteAsset" ="wrap_content" ="wrap_content" ="6.0dip" ="22.0dip" ="false" 2130969937="2131438103" 2130969940="@id/2131433173" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/tvBaseAsset" ="wrap_content" ="wrap_content" ="2.0dip" ="false" ="2.0dip" 2130969911="@id/tvQuoteAsset" 2130969936="@id/tvQuoteAsset" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

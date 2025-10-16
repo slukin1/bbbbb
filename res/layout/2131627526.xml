@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="none" ="fill_parent" ="fill_parent" ="true" ="never" style="@style/2132148650"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="false" ="blocksDescendants" ="fill_parent" ="wrap_content">
+        <include layout="@layout/2131627524" />
+        <include android:id="@id/2131435116" layout="@layout/2131627525" />
+        <View ="@color/2131099676" ="fill_parent" ="5.0dip" />
+        <include layout="@layout/2131627523" />
+    </LinearLayout>
+</ScrollView>

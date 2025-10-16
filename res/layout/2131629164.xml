@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448122" ="wrap_content" ="wrap_content" android:text="@string/umlite_trading_est_cost" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448116" ="0.0dip" ="wrap_content" ="22.0dip" android:text="@string/future_lite_est_cost_tips" ="1.2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448122" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131435017" ="0.0dip" ="wrap_content" ="23.0dip" android:text="@string/OK" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448116" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

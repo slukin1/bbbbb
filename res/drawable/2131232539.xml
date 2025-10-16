@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding ="1.0dip" ="0.5dip" ="0.5dip" ="1.0dip" />
+            <solid ="#10000000" />
+            <corners ="9.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding ="1.0dip" ="1.0dip" ="0.0dip" ="2.0dip" />
+            <solid ="#10000000" />
+            <corners ="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding ="2.0dip" ="2.0dip" ="2.0dip" ="2.0dip" />
+            <solid ="#20000000" />
+            <corners ="7.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding ="0.0dip" ="0.0dip" ="0.0dip" ="2.0dip" />
+            <solid ="#30000000" />
+            <corners ="6.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding ="0.0dip" ="0.0dip" ="0.0dip" ="2.0dip" />
+            <solid ="#40000000" />
+            <corners ="5.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding ="0.0dip" ="0.0dip" ="0.0dip" ="2.0dip" />
+            <solid ="#50000000" />
+            <corners ="4.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding ="0.20000005dip" ="0.0dip" ="0.20000005dip" ="1.0dip" />
+            <solid ="#60000000" />
+            <corners ="4.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid ="#ffffffff" />
+            <corners ="4.0dip" />
+        </shape>
+    </item>
+</layer-list>

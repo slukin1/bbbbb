@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166179">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_be_lead_edit_desc" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/tvType" ="@drawable/2131236697" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="@dimen/2131166260" 2130969911="@id/tv_title" 2130969936="@id/tv_title" 2130969941="@id/tv_title" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="center_horizontal" ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435641" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="@color/2131099744" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" ="start|center|top" android:id="@id/2131431514" ="@null" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="12.0dip" android:hint="@string/copy_trading_edit_user_info_introduction_hint" ="6" ="200" ="@dimen/2131166170" 2130969941="2131438103" style="@style/2132149446" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131448046" ="2.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="12.0dip" ="@dimen/2131166170" 2130969917="2131438103" 2130969940="@id/2131431514" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099863" android:id="@id/tv_error_tips" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/copy_trading_sensitive_detected" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131435641" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429088" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/_save" ="@dimen/2131166184" ="@dimen/2131166188" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

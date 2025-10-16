@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131233021" ="fill_parent" ="wrap_content" ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_multiple_lang_select_titleV3" ="16.0dip" style="@style/2132149350" />
+    <androidx.core.widget.NestedScrollView ="@color/2131099778" android:id="@id/2131439809" ="vertical" ="fill_parent" ="wrap_content" ="false">
+        <LinearLayout ="vertical" android:id="@id/2131435449" ="fill_parent" ="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <View ="@color/2131100461" ="fill_parent" ="8.0dip" />
+    <TextView ="16.0sp" ="@color/2131102000" ="center_horizontal" android:id="@id/2131428716" ="13.0dip" ="13.0dip" ="fill_parent" ="wrap_content" android:text="@string/dialog_adjust_leverage_action_cancel" />
+</LinearLayout>

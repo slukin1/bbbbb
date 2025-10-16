@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_symbol" ="0.0dip" ="wrap_content" ="10.0dip" ="false" ="15.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131446090" ="@drawable/2131235998" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="2.0dip" ="10.0dip" ="@color/2131099744" 2130969911="@id/tv_symbol" 2130969936="@id/tv_symbol" 2130969941="@id/tv_symbol" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="end|center" android:id="@id/2131446355" ="0.0dip" ="wrap_content" ="1" ="0.0dip" ="10.0dip" ="15.0dip" 2130969911="@id/tv_symbol" 2130969917="2131438103" 2130969941="@id/tv_symbol" style="@style/2132149384" />
+    <TextView ="start|center" android:id="@id/tv_side" ="0.0dip" ="wrap_content" ="10.0dip" 2130969918="@id/tv_order_state" 2130969937="@id/tv_symbol" 2130969940="@id/tv_symbol" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/tv_filled" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/filled_completely" 2130969905="true" 2130969912="@id/tv_filled_price" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_symbol" 2130969940="@id/tv_side" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428366" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_filled,tv_filled_amount" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428396" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_filled_price,tv_filled_price_value" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier_reduce_only" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_reduce_only_title,tv_reduce_only_value" />
+    <androidx.constraintlayout.widget.Group android:id="@id/layout_reduce_only" ="wrap_content" ="wrap_content" 2130969125="tv_reduce_only_title,tv_reduce_only_value" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/tv_filled_price" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/twap_history_avgprice" 2130969905="true" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_filled" 2130969940="@id/2131428366" 2130971382="@string/future_price_tip" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/tv_reduce_only_title" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/reduce_only" 2130969905="true" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_filled" 2130969940="@id/2131428396" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131435811" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_filled_amount" ="0.0dip" ="wrap_content" ="10.0dip" 2130969907="@id/tv_filled" 2130969917="@id/2131446355" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131436615" ="wrap_content" ="wrap_content" 2130969125="tv_filled_price_value" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_filled_price_value" ="0.0dip" ="wrap_content" ="2.0dip" ="10.0dip" 2130969917="@id/2131446355" 2130969940="@id/2131428366" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_reduce_only_value" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/futures_advance_tpsl_strategy_detail_reduce_only_true" ="10.0dip" 2130969917="@id/2131446355" 2130969940="@id/2131428396" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131447246" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/status" 2130969905="true" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_filled" 2130969940="@id/tv_reduce_only_title" style="@style/2132149350" />
+    <TextView ="center" android:id="@id/tv_order_state" ="wrap_content" ="20.0dip" ="10.0dip" 2130969905="true" 2130969917="@id/2131446355" 2130969927="1.0" 2130969936="@id/2131435811" 2130969941="@id/2131447246" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

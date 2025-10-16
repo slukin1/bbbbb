@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="true" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@drawable/2131238538" ="18.0dip" ="18.0dip" ="fill_parent" ="wrap_content" ="21.0dip" ="21.0dip" ="6.0dip" ="6.0dip">
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content">
+            <ImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237096" />
+            <TextView ="@color/2131099764" ="end" ="wrap_content" ="wrap_content" android:text="@string/risk_user_restricted_pop_title" ="2" ="5.0dip" style="@style/2132149446" />
+        </LinearLayout>
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131444964" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/risk_user_restricted_pop_tip_content" ="2" ="25.0dip" style="@style/2132149384" />
+        <FrameLayout ="horizontal" ="fill_parent" ="wrap_content" ="10.0dip" ="25.0dip">
+            <TextView ="@color/2131099787" ="start|center" android:id="@id/2131444259" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_term_read_more" ="1" style="@style/2132149377" />
+            <com.major.android.uikit.button.KitButton ="@color/2131099789" ="end|center" android:id="@id/2131429201" ="wrap_content" ="32.0dip" android:text="@string/earn_dual_quiz_start" ="1" 2130969173="4.0" 2130970889="3" style="@style/2132149450" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

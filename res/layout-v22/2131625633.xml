@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236022" ="fill_parent" ="0.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969940="@id/tvTitle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131433839" ="wrap_content" ="wrap_content" ="60.0dip" ="@null" 2130971077="@drawable/2131238419" />
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" android:text="@string/ocbs_entrance_status_empty" 2130969937="2131438103" 2130969940="@id/2131435529" style="@style/2132149450" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="10.0dip" ="fill_parent" ="82.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tvTitle" ="0.0dip" ="24.0dip" ="20.0dip" ="1" ="10.0dip" 2130969918="@id/ivLogo" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149447" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131444890" ="wrap_content" ="wrap_content" ="1.0dip" android:text="@string/market_discover_earn_feature_low_risk" ="1" ="30" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149386" />
+    <androidx.appcompat.widget.AppCompatTextView ="bold" ="center" android:id="@id/2131431075" ="16.0dip" ="wrap_content" android:text="∙" 2130969907="@id/2131444890" 2130969911="@id/2131444890" 2130969936="@id/2131444890" 2130969941="@id/2131444890" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" ="1.0dip" android:text="@string/market_discover_earn_feature_hassle_free" ="1" ="30" 2130969936="@id/2131431075" 2130969940="@id/tvTitle" style="@style/2132149386" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="60.0dip" ="60.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

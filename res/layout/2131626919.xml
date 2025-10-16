@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/2131439808" ="invisible" ="none" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="730.0dip" 2130969911="2131438103" 2130969941="2131438103">
+            <View ="#fffcd535" ="fill_parent" ="0.0dip" ="3.0" />
+            <View ="#ff181e25" ="fill_parent" ="0.0dip" ="1.0" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434376" ="wrap_content" ="wrap_content" ="41.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130971077="@drawable/2131234146" />
+        <TextView ="20.0sp" ="#ff202630" android:id="@id/2131447706" ="wrap_content" ="wrap_content" ="48.0dip" android:text="@string/c2c_order_detail_upi_scan_pay" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="vertical" android:id="@id/2131436820" ="@drawable/2131236738" ="24.0dip" ="fill_parent" ="0.0dip" ="48.0dip" ="40.0dip" ="15.0dip" ="15.0dip" 2130969912="@id/2131434376" 2130969940="@id/2131447706">
+            <TextView ="16.0sp" ="#ff202630" android:id="@id/2131446888" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/c2c_order_detail_upi_login_and_scan" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434097" ="201.0dip" ="201.0dip" ="48.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

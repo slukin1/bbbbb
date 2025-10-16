@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="?android:colorForeground" ="0.1" />
+    <item ="true" ="?2130969061" ="0.3" />
+    <item ="?android:colorForeground" ="0.3" />
+</selector>

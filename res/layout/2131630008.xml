@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout ="fill_parent" ="wrap_content" 2130969974="2131439795" 2130971174="@android:color/transparent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432580" ="gone" ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099764" android:id="@id/2131444546" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/search_history" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivDeleteHistory" ="20.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131444546" 2130971077="@drawable/2131237186" 2130971375="@color/2131099785" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432031" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="10.0dip" ="10.0dip" 2130968639="0" 2130969467="0" 2130969468="2131450408" 2130969937="2131438103" 2130969940="@id/ivDeleteHistory" 2130970841="2131437069" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="4.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/tv_title" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/coin_list" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/2131440378" ="gone" ="20.0dip" ="20.0dip" ="false" ="15.0dip" ="@color/2131099785" 2130968849="@drawable/2131238113" 2130969917="2131438103" 2130969941="@id/tv_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" 2130969941="2131438103" />
+        <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="gone" ="16.0dip" ="wrap_content" ="10.0dip" 2130968838="@dimen/2131166153" 2130968839="@color/2131099764" 2130968840="@color/2131099778" 2130968841="@dimen/2131167696" 2130969917="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" ="center_horizontal" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="60.0dip" android:text="@string/choose_coin_empty_to_withdraw" ="8.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

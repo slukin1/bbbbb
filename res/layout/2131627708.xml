@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131450217" ="fill_parent" ="44.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131450218" ="20.0dip" ="20.0dip" ="@drawable/2131236863" ="locale" ="15.0dip" ="true" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131450220" ="wrap_content" ="wrap_content" android:text="@string/mpcwallet_app_title" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end|center" android:id="@id/2131450219" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" style="@style/2132149425" />
+</FrameLayout>

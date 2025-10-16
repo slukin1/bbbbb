@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" android:id="@id/2131436798" ="@drawable/2131232784" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131430065" ="fill_parent" ="wrap_content" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/c2c_cashlink_post_fiat_trade_ad" style="@style/2132148692" />
+</LinearLayout>

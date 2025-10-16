@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441637" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="end" ="center" ="center_horizontal" android:id="@id/toolbar_title" ="wrap_content" ="fill_parent" android:text="@string/c2c_trades_with_user" ="true" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441778" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441637" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436807" ="@color/2131100520" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131441778">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="@color/2131099764" 2130971077="@drawable/2131237095" />
+        <TextView ="12.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131448351" ="fill_parent" ="wrap_content" android:text="@string/c2c_trades_with_tips" ="@font/2131296274" ="5.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131441779" ="fill_parent" ="0.0dip" 2130969912="@id/2131436823" 2130969937="2131438103" 2130969940="@id/2131436807" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131436823" ="@color/2131099685" ="16.0dip" ="40.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969940="@id/2131441779">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429114" ="fill_parent" ="wrap_content" android:text="@string/c2c_trade_again" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

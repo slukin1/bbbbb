@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip">
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="wrap_content" ="wrap_content" android:text="@string/dashboard_change_order" ="true" style="@style/2132149469" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/2131438938" ="fill_parent" ="fill_parent" />
+</LinearLayout>

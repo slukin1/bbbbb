@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center|top" ="vertical" android:id="@id/2131441671" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131441552" ="fill_parent" ="wrap_content" ="24.0dip">
+        <ImageView ="center_horizontal" android:id="@android:id/icon" ="wrap_content" ="wrap_content" ="true" ="24.0dip" ="24.0dip" />
+        <androidx.appcompat.widget.DialogTitle ="center" android:id="@id/alertTitle" ="fill_parent" ="wrap_content" style="?android:windowTitleStyle" />
+    </LinearLayout>
+    <android.widget.Space android:id="@id/2131441522" ="gone" ="fill_parent" ="8.0dip" />
+</LinearLayout>

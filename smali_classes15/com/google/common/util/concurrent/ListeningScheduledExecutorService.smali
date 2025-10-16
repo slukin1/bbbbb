@@ -1,0 +1,6 @@
+.class public interface abstract Lcom/google/common/util/concurrent/ListeningScheduledExecutorService;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/util/concurrent/ScheduledExecutorService;
+.implements Lcom/google/common/util/concurrent/ListeningExecutorService;

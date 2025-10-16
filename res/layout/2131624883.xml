@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="vertical" ="@null" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+        <com.google.android.material.appbar.CollapsingToolbarLayout ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+            <androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="fill_parent" ="fill_parent">
+                <include android:id="@id/layout_portfolio" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="8.0dip" 2130969912="@id/2131428383" 2130969941="2131438103" layout="@layout/2131624937" />
+                <include android:id="@id/layout_portfolio_closed" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="8.0dip" 2130969912="@id/2131428383" 2130969941="2131438103" layout="@layout/2131624938" />
+                <androidx.constraintlayout.widget.Barrier android:id="@id/2131428383" ="fill_parent" ="0.0dip" 2130968759="2131428521" 2130969125="layout_portfolio, layout_portfolio_closed" />
+                <com.major.android.uikit2.button.KitButton ="end" android:id="@id/btn_transfer" ="0.0dip" ="wrap_content" android:text="@string/copy_trading_adjust_balance" ="2" ="10.0dip" ="10.0dip" ="16.0dip" 2130969918="@id/btn_setting" 2130969937="2131438103" 2130969940="@id/2131428383" style="@style/2132148693" />
+                <com.major.android.uikit2.button.KitButton ="end" android:id="@id/btn_setting" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/_setting" ="2" 2130969918="@id/btn_stop_copying" 2130969936="@id/btn_transfer" 2130969940="@id/2131428383" style="@style/2132148698" />
+                <com.major.android.uikit2.button.KitButton ="end" android:id="@id/btn_stop_copying" ="0.0dip" ="wrap_content" android:text="@string/copy_trading_stop_copying" ="2" ="16.0dip" 2130969917="2131438103" 2130969936="@id/btn_setting" 2130969940="@id/2131428383" style="@style/2132148698" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432634" ="gone" ="0.0dip" ="0.0dip" 2130969125="btn_transfer, btn_stop_copying, btn_setting" />
+                <include android:id="@id/2131435579" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" 2130969911="2131438103" 2130969940="@id/btn_transfer" layout="@layout/2131624933" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="fill_parent" ="35.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" />
+        <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" 2130969940="@id/2131441079" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

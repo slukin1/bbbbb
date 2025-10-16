@@ -1,0 +1,219 @@
+.class public interface abstract Lcom/sumsub/sns/core/MobileSdk;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lcom/sumsub/sns/core/a;
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u009e\u0001\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010$\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\n\u0008g\u0018\u00002\u00020\u0001J\u0019\u0010\u0005\u001a\u0004\u0018\u00010\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\'\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0003\u001a\u00020\u0002H&\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u0016\u0010\r\u001a\u0004\u0018\u00010\n8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000b\u0010\u000cR\u0016\u0010\u0011\u001a\u0004\u0018\u00010\u000e8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0015\u001a\u0004\u0018\u00010\u00128\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0013\u0010\u0014R\u0016\u0010\u0019\u001a\u0004\u0018\u00010\u00168\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0017\u0010\u0018R\u0016\u0010\u001d\u001a\u0004\u0018\u00010\u001a8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001b\u0010\u001cR\u0016\u0010!\u001a\u0004\u0018\u00010\u001e8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001f\u0010 R\u0014\u0010%\u001a\u00020\"8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008#\u0010$R\u0016\u0010)\u001a\u0004\u0018\u00010&8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\'\u0010(R\u0014\u0010*\u001a\u00020\u00078\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008*\u0010+R\u0014\u0010/\u001a\u00020,8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008-\u0010.R\u0014\u00102\u001a\u00020\u00028\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u00080\u00101R\"\u00107\u001a\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u000204\u0018\u0001038\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u00085\u00106R\"\u00109\u001a\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u0002\u0018\u0001038\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u00088\u00106R\u0014\u0010=\u001a\u00020:8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008;\u0010<R\u0016\u0010A\u001a\u0004\u0018\u00010>8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008?\u0010@R$\u0010H\u001a\n\u0012\u0004\u0012\u00020C\u0018\u00010B8\'@\'X\u00a6\u000e\u00a2\u0006\u000c\u001a\u0004\u0008D\u0010E\"\u0004\u0008F\u0010GR\u0016\u0010L\u001a\u0004\u0018\u00010I8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008J\u0010KR\u0016\u0010P\u001a\u0004\u0018\u00010M8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008N\u0010OR\u0014\u0010R\u001a\u00020\u00028\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008Q\u00101R\u0014\u0010U\u001a\u00020\u000e8\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008S\u0010TR\u0014\u0010W\u001a\u00020\u00028\'X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008V\u00101"
+    }
+    d2 = {
+        "Lcom/sumsub/sns/core/MobileSdk;",
+        "",
+        "",
+        "p0",
+        "Lcom/sumsub/sns/core/SNSModule;",
+        "getPluggedModule",
+        "(Ljava/lang/String;)Lcom/sumsub/sns/core/SNSModule;",
+        "",
+        "isModuleAvailable",
+        "(Ljava/lang/String;)Z",
+        "Lcom/sumsub/sns/core/data/listener/SNSActionResultHandler;",
+        "getActionResultHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSActionResultHandler;",
+        "actionResultHandler",
+        "",
+        "getAutoCloseOnApproveTimeout",
+        "()Ljava/lang/Integer;",
+        "autoCloseOnApproveTimeout",
+        "Lcom/sumsub/sns/core/data/model/SNSInitConfig;",
+        "getConf",
+        "()Lcom/sumsub/sns/core/data/model/SNSInitConfig;",
+        "conf",
+        "Lcom/sumsub/sns/core/theme/SNSJsonCustomization;",
+        "getCustomization",
+        "()Lcom/sumsub/sns/core/theme/SNSJsonCustomization;",
+        "customization",
+        "Lcom/sumsub/sns/core/data/listener/SNSErrorHandler;",
+        "getErrorHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSErrorHandler;",
+        "errorHandler",
+        "Lcom/sumsub/sns/core/data/listener/SNSEventHandler;",
+        "getEventHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSEventHandler;",
+        "eventHandler",
+        "Lcom/sumsub/sns/core/data/listener/SNSIconHandler;",
+        "getIconHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSIconHandler;",
+        "iconHandler",
+        "Lcom/sumsub/sns/core/data/listener/SNSInstructionsViewHandler;",
+        "getInstructionsViewHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSInstructionsViewHandler;",
+        "instructionsViewHandler",
+        "isDebug",
+        "()Z",
+        "Ljava/util/Locale;",
+        "getLocale",
+        "()Ljava/util/Locale;",
+        "locale",
+        "getPackageName",
+        "()Ljava/lang/String;",
+        "packageName",
+        "",
+        "Lcom/sumsub/sns/core/data/model/SNSDocumentDefinition;",
+        "getPreferredDocumentsDefinitions",
+        "()Ljava/util/Map;",
+        "preferredDocumentsDefinitions",
+        "getSettings",
+        "settings",
+        "Lcom/sumsub/sns/core/data/model/SNSSDKState;",
+        "getState",
+        "()Lcom/sumsub/sns/core/data/model/SNSSDKState;",
+        "state",
+        "Lcom/sumsub/sns/core/data/listener/SNSStateChangedHandler;",
+        "getStateChangedHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSStateChangedHandler;",
+        "stateChangedHandler",
+        "",
+        "Lcom/sumsub/sns/core/data/model/SNSSupportItem;",
+        "getSupportItems",
+        "()Ljava/util/List;",
+        "setSupportItems",
+        "(Ljava/util/List;)V",
+        "supportItems",
+        "Lcom/sumsub/sns/core/data/listener/TokenExpirationHandler;",
+        "getTokenExpirationHandler",
+        "()Lcom/sumsub/sns/core/data/listener/TokenExpirationHandler;",
+        "tokenExpirationHandler",
+        "Lcom/sumsub/sns/core/data/listener/SNSUrlHandler;",
+        "getUrlHandler",
+        "()Lcom/sumsub/sns/core/data/listener/SNSUrlHandler;",
+        "urlHandler",
+        "getVersion",
+        "version",
+        "getVersionCode",
+        "()I",
+        "versionCode",
+        "getVersionName",
+        "versionName"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public abstract getActionResultHandler()Lcom/sumsub/sns/core/data/listener/SNSActionResultHandler;
+.end method
+
+.method public abstract getAutoCloseOnApproveTimeout()Ljava/lang/Integer;
+.end method
+
+.method public abstract getConf()Lcom/sumsub/sns/core/data/model/SNSInitConfig;
+.end method
+
+.method public abstract getCustomization()Lcom/sumsub/sns/core/theme/SNSJsonCustomization;
+.end method
+
+.method public abstract getErrorHandler()Lcom/sumsub/sns/core/data/listener/SNSErrorHandler;
+.end method
+
+.method public abstract getEventHandler()Lcom/sumsub/sns/core/data/listener/SNSEventHandler;
+.end method
+
+.method public abstract getIconHandler()Lcom/sumsub/sns/core/data/listener/SNSIconHandler;
+.end method
+
+.method public abstract getInstructionsViewHandler()Lcom/sumsub/sns/core/data/listener/SNSInstructionsViewHandler;
+.end method
+
+.method public abstract getLocale()Ljava/util/Locale;
+.end method
+
+.method public abstract getPackageName()Ljava/lang/String;
+.end method
+
+.method public abstract getPluggedModule(Ljava/lang/String;)Lcom/sumsub/sns/core/SNSModule;
+.end method
+
+.method public abstract getPreferredDocumentsDefinitions()Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Lcom/sumsub/sns/core/data/model/SNSDocumentDefinition;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getSettings()Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getState()Lcom/sumsub/sns/core/data/model/SNSSDKState;
+.end method
+
+.method public abstract getStateChangedHandler()Lcom/sumsub/sns/core/data/listener/SNSStateChangedHandler;
+.end method
+
+.method public abstract getSupportItems()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/sumsub/sns/core/data/model/SNSSupportItem;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getTokenExpirationHandler()Lcom/sumsub/sns/core/data/listener/TokenExpirationHandler;
+.end method
+
+.method public abstract getUrlHandler()Lcom/sumsub/sns/core/data/listener/SNSUrlHandler;
+.end method
+
+.method public abstract getVersion()Ljava/lang/String;
+.end method
+
+.method public abstract getVersionCode()I
+.end method
+
+.method public abstract getVersionName()Ljava/lang/String;
+.end method
+
+.method public abstract isDebug()Z
+.end method
+
+.method public abstract isModuleAvailable(Ljava/lang/String;)Z
+.end method
+
+.method public abstract setSupportItems(Ljava/util/List;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/sumsub/sns/core/data/model/SNSSupportItem;",
+            ">;)V"
+        }
+    .end annotation
+.end method

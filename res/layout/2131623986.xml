@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427456" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624283" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/livenessCheckNewUIContainer" ="visible" ="fill_parent" ="0.0dip" 2130969912="@id/2131431694" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131441601">
+        <TextView ="@color/2131099764" android:id="@id/2131431692" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/kyc_liveness_check" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+        <TextView ="@color/2131099837" android:id="@id/2131431687" ="fill_parent" ="wrap_content" ="16.0dip" ="24.0dip" ="16.0dip" android:text="@string/kyc_liveness_check_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431692" style="@style/2132149350" />
+        <ImageView android:id="@id/2131431691" ="180.0dip" ="180.0dip" ="78.0dip" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431687" />
+        <View android:id="@id/2131436974" ="fill_parent" ="0.0dip" 2130969912="@id/2131431693" 2130969937="2131438103" 2130969940="@id/2131431691" />
+        <LinearLayout ="vertical" android:id="@id/2131431693" ="24.0dip" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103">
+            <TextView ="@color/2131099837" android:id="@id/2131435196" ="fill_parent" ="wrap_content" android:text="@string/kyc_liveness_check_tip1" ="4.0dip" ="16.0dip" ="16.0dip" 2130969311="@drawable/2131237218" 2130969937="2131438103" 2130969940="@id/2131436974" style="@style/2132149350" />
+            <TextView ="@color/2131099837" android:id="@id/2131435197" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/kyc_liveness_check_tip2" ="4.0dip" ="16.0dip" ="16.0dip" 2130969311="@drawable/2131237218" 2130969937="2131438103" 2130969940="@id/2131435196" style="@style/2132149350" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131431694" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/ms_kyc_ver_begin" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content">
+            <include android:id="@id/2131430880" ="fill_parent" ="66.0dip" 2130969941="2131438103" layout="@layout/2131627474" />
+            <com.major.android.uikit2.divider.KitDivider android:id="@id/2131441686" ="fill_parent" ="0.5dip" 2130969940="@id/2131430880" />
+            <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131439925" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/ms_alert_price_rise_above_type" 2130969818="false" 2130969820="@string/ms_alert_type" 2130969834="1" 2130969940="@id/2131441686" />
+            <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131439929" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/market_alert_last_price" 2130969818="false" 2130969820="@string/market_alert_price_type" 2130969834="1" 2130969940="@id/2131439925" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433507" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:hint="0" 2130969817="1" 2130969818="false" 2130969820="@string/ms_alert_value" 2130969940="@id/2131439929" />
+            <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131439926" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/ms_alert_only_once" 2130969818="false" 2130969820="@string/ms_alert_frequency" 2130969834="1" 2130969940="@id/2131433507" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131437741" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="102.0dip" android:hint="@string/create_alert_note_placeholder" ="4" ="30" 2130969817="1" 2130969818="false" 2130969820="@string/create_alert_note_title" 2130969834="1" 2130969940="@id/2131439926" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="@color/2131099685" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131427668" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/create_alert" 2130969912="@id/2131428588" style="@style/2132148691" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

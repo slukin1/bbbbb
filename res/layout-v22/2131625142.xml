@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="24.0dip" ="24.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166209" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131235991" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434281" ="64.0dip" ="64.0dip" 2130971077="@drawable/2131236649" />
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="center_horizontal" android:id="@id/2131430942" ="fill_parent" ="wrap_content" ="16.0dip" ="@font/2131296275" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442581" ="vertical" ="fill_parent" ="wrap_content" ="8.0dip" ="12" ="1.2" ="false" ="@font/2131296274" ="gravity" />
+        <LinearLayout ="horizontal" android:id="@id/2131436796" ="wrap_content" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="1.0dip" ="false" />
+            <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131429534" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_unsend_not_show_again" ="@font/2131296266" ="8.0dip" />
+        </LinearLayout>
+        <LinearLayout ="end" ="horizontal" android:id="@id/2131430891" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131432935" ="0.0dip" ="wrap_content" android:text="@string/_cancel" ="1.0" style="@style/2132148697" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131432936" ="0.0dip" ="wrap_content" android:text="@string/_confirm" ="1.0" ="12.0dip" style="@style/2132148692" />
+        </LinearLayout>
+        <LinearLayout ="end" ="vertical" android:id="@id/2131430892" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131449324" ="fill_parent" ="wrap_content" android:text="@string/_confirm" style="@style/2132148692" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131449323" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/_cancel" style="@style/2132148697" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

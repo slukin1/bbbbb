@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432402" ="fill_parent" ="wrap_content" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/2131429908" ="@layout/2131626049" ="@id/2131429908" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131429910" ="@layout/2131626050" ="@id/2131429910" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131430013" ="@layout/2131626052" ="@id/2131430013" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131429863" ="@layout/2131626048" ="@id/2131429863" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131430012" ="@layout/2131626051" ="@id/2131430012" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131429830" ="@layout/2131626047" ="@id/2131429830" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

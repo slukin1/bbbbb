@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@drawable/2131232535" ="48.0dip" ="48.0dip" ="6.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434537" ="fill_parent" ="fill_parent" ="2.0dip" ="fitCenter" />
+    <ImageView ="center" android:id="@id/2131434747" ="gone" ="32.0dip" ="32.0dip" />
+</FrameLayout>

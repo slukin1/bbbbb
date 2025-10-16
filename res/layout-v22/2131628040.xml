@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235577" ="fill_parent" ="732.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton ="end" android:id="@id/2131428996" ="?2130970780" ="20.0dip" ="20.0dip" ="14.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/payment_share_more_feedback" ="@dimen/2131166184" style="@style/2132149423" />
+    <LinearLayout ="vertical" android:id="@id/2131429825" ="@drawable/2131235562" ="10.0dip" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166156">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="top" android:id="@id/2131431329" ="@null" ="fill_parent" ="wrap_content" ="15.0dip" ="91.0dip" android:hint="@string/payment_enter_here" ="200" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131446071" ="wrap_content" ="wrap_content" android:text="0/200" style="@style/2132149350" />
+    </LinearLayout>
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/btn_confirm" ="fill_parent" ="48.0dip" ="15.0dip" ="30.0dip" ="15.0dip" ="16.0dip" android:text="@string/_Submit" ="@dimen/2131166184" />
+</LinearLayout>

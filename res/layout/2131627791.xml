@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" android:id="@id/2131437597" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432183" ="fill_parent" ="fill_parent" ="49.0dip" />
+    <com.nezha.android.render.view.NezhaTabBar android:id="@id/2131437544" ="@color/2131099676" ="fill_parent" ="49.0dip" ="true" />
+</RelativeLayout>

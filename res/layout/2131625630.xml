@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131102397" ="center_vertical" android:id="@id/2131442304" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/fiat_landing_page_lattest_offers" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131428281" ="false" ="fill_parent" ="0.0dip" ="12.0dip" 2130969916="H,375:115" 2130969940="@id/2131442304" />
+    <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131428282" ="wrap_content" ="wrap_content" ="8.0dip" ="16.0dip" 2130968672="@color/2131102397" 2130968673="@dimen/2131166286" 2130968674="@dimen/2131166286" 2130968676="@color/2131099725" 2130968677="@dimen/2131166269" 2130968678="@dimen/2131166269" 2130968679="@dimen/2131166247" 2130968680="1" 2130969911="@id/2131428281" 2130969917="@id/2131428281" />
+</androidx.constraintlayout.widget.ConstraintLayout>

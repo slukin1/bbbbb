@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131439256" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" 2130969843="1" 2130969941="2131438103" />
+    <TextView ="@color/2131099778" android:id="@id/2131445083" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131439256" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131445080" ="wrap_content" ="wrap_content" 2130969937="@id/2131445083" 2130969940="@id/2131445083" style="@style/2132149446" />
+    <TextView ="@color/2131099863" android:id="@id/tvDebtCoinDelisted" ="@drawable/2131232514" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/to_be_delisted" 2130969937="@id/2131445080" 2130969940="@id/2131445080" style="@style/2132149394" />
+    <TextView android:id="@id/tvDebtCoinDelistedIcon" ="wrap_content" ="wrap_content" ="4.0dip" android:text="*" 2130969937="@id/2131445080" 2130969940="@id/tvDebtCoinDelisted" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tvDebtCoinDelistedTip" ="wrap_content" ="wrap_content" ="4.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/tvDebtCoinDelistedIcon" 2130969941="@id/tvDebtCoinDelistedIcon" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432519" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvDebtCoinDelisted, tvDebtCoinDelistedIcon, tvDebtCoinDelistedTip" />
+    <ImageView android:id="@id/ivArrow" ="16.0dip" ="16.0dip" 2130969911="@id/2131445083" 2130969917="2131438103" 2130969941="@id/2131445083" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433769" ="24.0dip" ="24.0dip" 2130969911="@id/ivArrow" 2130969918="@id/ivArrow" 2130969941="@id/ivArrow" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433803" ="24.0dip" ="24.0dip" ="16.0dip" 2130969911="@id/ivArrow" 2130969918="@id/ivArrow" 2130969941="@id/ivArrow" />
+    <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131442531" ="0.0dip" ="wrap_content" ="12.0dip" ="77.0dip" 2130969274="@string/earn_loan_ongoing_tip_title" 2130969917="2131438103" 2130969937="@id/2131445080" 2130969940="@id/tvDebtCoinDelistedTip" 2130970840="true" 2130971382="@string/earn_loan_flexible_ongoing_tip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131442527" ="wrap_content" ="wrap_content" 2130969937="@id/2131442531" 2130969940="@id/2131442531" style="@style/2132149446" />
+    <TextView ="@color/2131099863" android:id="@id/tvCollateralCoinDelisted" ="@drawable/2131232514" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/to_be_delisted" 2130969937="@id/2131442527" 2130969940="@id/2131442527" style="@style/2132149394" />
+    <TextView android:id="@id/tvCollateralCoinDelistedIcon" ="wrap_content" ="wrap_content" ="4.0dip" android:text="*" 2130969937="@id/2131445080" 2130969940="@id/tvCollateralCoinDelisted" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tvCollateralCoinDelistedTip" ="wrap_content" ="wrap_content" ="4.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/tvCollateralCoinDelistedIcon" 2130969941="@id/tvCollateralCoinDelistedIcon" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432512" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvCollateralCoinDelisted, tvCollateralCoinDelistedIcon, tvCollateralCoinDelistedTip" />
+    <TextView ="@color/2131099778" android:id="@id/2131443453" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/earn_loan_ltv" 2130969937="2131438103" 2130969940="@id/tvCollateralCoinDelistedTip" style="@style/2132149350" />
+    <TextView android:id="@id/2131443452" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131443453" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131444254" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/loan_net_annually_interest_rate" 2130969937="2131438103" 2130969940="@id/2131443453" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvRate" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131444254" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131443566" ="wrap_content" ="wrap_content" ="6.0dip" 2130969905="true" 2130969918="@id/2131443565" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131444254" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443565" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969941="@id/2131443566" style="@style/2132149350" />
+    <include android:id="@id/2131437881" ="fill_parent" ="wrap_content" ="18.0dip" 2130969940="@id/2131443566" layout="@layout/2131626895" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="15.0dip" 2130969940="@id/2131437881" />
+</androidx.constraintlayout.widget.ConstraintLayout>

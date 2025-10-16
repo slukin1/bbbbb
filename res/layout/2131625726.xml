@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427584" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView ="fill_parent" ="fill_parent" ="true">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="true">
+            <com.major.android.uikit.textview.KitAutoSizeAmountWithAssetView android:id="@id/2131435443" ="wrap_content" ="wrap_content" 2130968942="false" 2130969912="@id/2131435491" 2130969918="@id/2131436575" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" 2130970142="15" 2130970143="180.0dip" 2130970148="62.0sp" 2130970204="20.0sp" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436575" ="15.0dip" ="wrap_content" ="wrap_content" ="10.0dip" ="8.0dip" 2130969911="@id/2131435443" 2130969917="2131438103" 2130969936="@id/2131435443">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433221" ="gone" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="@color/2131099764" android:id="@id/2131446917" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131435352" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435443">
+                <TextView ="@color/2131099778" ="center" android:id="@id/2131445631" ="wrap_content" ="wrap_content" ="false" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433158" ="gone" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237082" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435451" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435352">
+                <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443442" ="wrap_content" ="wrap_content" ="18.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+                <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" 2130969911="2131438103" 2130969936="@id/2131443442" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099764" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" ="center" android:id="@id/2131442561" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" 2130969940="@id/2131435451" style="@style/2132149359" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435491" ="fill_parent" ="44.0dip" ="15.0dip" ="15.0dip" ="20.0dip" 2130969912="@id/2131435460">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433259" ="24.0dip" ="24.0dip" ="fitCenter" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <ImageView android:id="@id/2131433166" ="invisible" ="20.0dip" ="20.0dip" ="@drawable/2131237055" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+                <TextView ="@color/2131099764" android:id="@id/2131444047" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_pay_with" ="12.0dip" 2130969936="@id/2131433259" 2130969941="2131438103" style="@style/2132149384" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131444040" ="wrap_content" ="wrap_content" ="1" 2130969911="2131438103" 2130969937="@id/2131444047" 2130969947="@dimen/2131166217" style="@style/2132149450" />
+                <com.binance.ocbs.sdk.widgets.PromotionSystemWidget android:id="@id/promotionSystemWidget" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" 2130969905="true" 2130969911="@id/2131444040" 2130969918="@id/2131438161" 2130969927="0.0" 2130969936="@id/2131444040" 2130969941="@id/2131444040" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438161" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="2131438103" 2130969918="@id/2131433166" 2130969941="2131438103" 2130969947="@dimen/2131166180">
+                    <TextView ="@color/2131099764" ="end" android:id="@id/2131444024" ="wrap_content" ="wrap_content" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+                    <TextView ="@color/2131099726" android:id="@id/2131444023" ="gone" ="wrap_content" ="wrap_content" android:text="@string/unavailable" 2130969917="2131438103" 2130969940="@id/2131444024" style="@style/2132149384" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435460" ="fill_parent" ="48.0dip" ="48.0dip" ="8.0dip" ="16.0dip" ="16.0dip" 2130969912="@id/2131435450">
+                <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131446078" ="gone" ="fill_parent" ="wrap_content" 2130969941="2131438103" 2130970889="1" 2130971472="2" />
+                <com.major.android.uikit2.button.KitSelectButton ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131442391" ="gone" ="fill_parent" ="48.0dip" ="@font/2131296267" 2130969941="2131438103" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435450" ="fill_parent" ="wrap_content" 2130969912="@id/2131449403" 2130969957="@dimen/2131166200" />
+            <com.binance.ocbs.widgets.OcbsJPEntityTipView android:id="@id/2131449403" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="20.0dip" 2130969911="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

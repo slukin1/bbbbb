@@ -1,0 +1,368 @@
+.class final Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lo/WCWalletManagerExternalSyntheticLambda13;",
+        "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0000\n\u0002\u0010\u0002\n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u0001*\u00020\u0002H\n"
+    }
+    d2 = {
+        "<anonymous>",
+        "",
+        "Lkotlinx/coroutines/CoroutineScope;"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $allCoinList:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/binance/data/beans/Coin;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field label:I
+
+.field final synthetic this$0:Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;
+
+
+# direct methods
+.method constructor <init>(Ljava/util/List;Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "+",
+            "Lcom/binance/data/beans/Coin;",
+            ">;",
+            "Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "-",
+            "Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 65354
+    iput-object p1, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->$allCoinList:Ljava/util/List;
+
+    iput-object p2, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->this$0:Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "*>;)",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 65353
+    new-instance p1, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;
+
+    iget-object v0, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->$allCoinList:Ljava/util/List;
+
+    iget-object v1, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->this$0:Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;
+
+    invoke-direct {p1, v0, v1, p2}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;-><init>(Ljava/util/List;Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    check-cast p1, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    return-object p1
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 0
+    check-cast p1, Lo/WCWalletManagerExternalSyntheticLambda13;
+
+    check-cast p2, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    .line 1000
+    invoke-virtual {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;->create(Ljava/lang/Object;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;
+
+    sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p1, p2}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    .line 2057
+    sget-object v0, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    .line 277
+    iget v1, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->label:I
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x0
+
+    if-eqz v1, :cond_1
+
+    if-ne v1, v2, :cond_0
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    .line 278
+    invoke-static {}, Lo/WCWalletManagerExternalSyntheticLambda19;->a()Lo/suspendEvents;
+
+    move-result-object p1
+
+    check-cast p1, Lkotlin/coroutines/CoroutineContext;
+
+    new-instance v1, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1$bnbCoin$1;
+
+    iget-object v4, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->$allCoinList:Ljava/util/List;
+
+    iget-object v5, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->this$0:Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;
+
+    invoke-direct {v1, v4, v5, v3}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1$bnbCoin$1;-><init>(Ljava/util/List;Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    check-cast v1, Lkotlin/jvm/functions/Function2;
+
+    move-object v4, p0
+
+    check-cast v4, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    iput v2, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->label:I
+
+    .line 3001
+    invoke-static {p1, v1, v4}, Lo/subscribeWalletConnectEventsdefault;->d(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_2
+
+    return-object v0
+
+    .line 277
+    :cond_2
+    :goto_0
+    check-cast p1, Lcom/binance/data/beans/Coin;
+
+    if-eqz p1, :cond_8
+
+    .line 282
+    iget-object v0, p0, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment$displayCoinInfo$1;->this$0:Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;
+
+    .line 283
+    invoke-static {v0}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;->j(Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;)Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_3
+
+    iget-object v1, v1, Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;->a:Landroid/widget/ImageView;
+
+    if-eqz v1, :cond_3
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 284
+    :cond_3
+    invoke-static {v0}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;->j(Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;)Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_5
+
+    iget-object v1, v1, Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;->a:Landroid/widget/ImageView;
+
+    if-eqz v1, :cond_5
+
+    invoke-virtual {p1}, Lcom/binance/data/beans/Coin;->getFullLogoUrl()Ljava/lang/String;
+
+    move-result-object v2
+
+    if-nez v2, :cond_4
+
+    const-string v2, ""
+
+    :cond_4
+    const/4 v4, 0x2
+
+    invoke-static {v1, v2, v3, v4}, Lo/PromotionGameActiveInfoCreator;->d(Landroid/widget/ImageView;Ljava/lang/String;Lcom/binance/imageloader/ImageLoaderOptions;I)V
+
+    .line 286
+    :cond_5
+    invoke-virtual {p1}, Lcom/binance/data/beans/Coin;->getAssetCode()Ljava/lang/String;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/CharSequence;
+
+    if-eqz v1, :cond_8
+
+    invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
+
+    move-result v1
+
+    if-eqz v1, :cond_8
+
+    .line 287
+    invoke-static {v0}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;->f(Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p1}, Lcom/binance/data/beans/Coin;->getAssetCode()Ljava/lang/String;
+
+    move-result-object v2
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "[displayCoinInfo] coin --- tvCoin = "
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Lo/MarginExchangeCoresubscribeAccountAssetslambda13inlinedmap121;->a(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 288
+    invoke-static {v0}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;->j(Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;)Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_6
+
+    iget-object v1, v1, Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;->h:Landroid/widget/TextView;
+
+    if-eqz v1, :cond_6
+
+    invoke-virtual {p1}, Lcom/binance/data/beans/Coin;->getAssetCode()Ljava/lang/String;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/CharSequence;
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 289
+    :cond_6
+    invoke-static {v0}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;->j(Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;)Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_7
+
+    iget-object v1, v1, Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;->j:Landroid/widget/TextView;
+
+    if-eqz v1, :cond_7
+
+    invoke-virtual {p1}, Lcom/binance/data/beans/Coin;->getAssetName()Ljava/lang/String;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/CharSequence;
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 290
+    :cond_7
+    invoke-static {v0}, Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;->j(Lcom/finance/um/feature/funds/transfer/PortfolioMarginTransferFragment;)Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_8
+
+    iget-object v0, v0, Lo/FuturesMarkPriceRepositoryImplfetchMarkPrice211;->c:Lcom/major/android/uikit/input/KitInputText;
+
+    if-eqz v0, :cond_8
+
+    invoke-virtual {p1}, Lcom/binance/data/beans/Coin;->getAssetCode()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Lcom/major/android/uikit/input/KitInputText;->setRightUnit(Ljava/lang/String;)V
+
+    .line 293
+    :cond_8
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="vertical" android:id="@id/2131436788" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429728" ="@drawable/2131235587" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="124.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433971" ="80.0dip" ="80.0dip" ="centerCrop" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235764" />
+        <TextView ="#ff202630" android:id="@id/2131443626" ="gone" ="0.0dip" ="wrap_content" android:text="@string/payment_lucky_draw_sorry" ="1.2" 2130969911="2131438103" 2130969918="@id/2131433971" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432472" ="visible" ="wrap_content" ="wrap_content" 2130969125="tvLuckyDrawPrizeTitle, tvLuckyDraPrize, tvGotoResultPage" />
+        <TextView ="#ff202630" android:id="@id/tvLuckyDrawPrizeTitle" ="0.0dip" ="wrap_content" android:text="@string/payment_congratulations_you_got" ="1.2" 2130969912="@id/tvLuckyDraPrize" 2130969918="@id/2131433971" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ff202630" ="center_vertical" android:id="@id/tvLuckyDraPrize" ="0.0dip" ="wrap_content" ="1" 2130968705="2131449068" 2130969912="@id/tvGotoResultPage" 2130969918="@id/2131433971" 2130969937="2131438103" 2130969940="@id/tvLuckyDrawPrizeTitle" style="@style/2132149419" />
+        <TextView ="#ffd89f00" android:id="@id/tvGotoResultPage" ="wrap_content" ="wrap_content" android:text="@string/payment_promotion_go_to_gift_center" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/tvLuckyDraPrize" style="@style/2132149374" />
+        <TextView ="#ff202630" ="end" android:id="@id/tvBannerTitleV17" ="0.0dip" ="wrap_content" android:text="@string/payment_send_crypto_to_luckydraw" ="3" ="1.2" 2130969912="@id/btnStartLuckydraw" 2130969918="@id/2131433971" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131440524" style="@style/2132149450" />
+        <com.major.android.uikit.button.KitButton android:id="@id/btnStartLuckydraw" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/lite_home_growth_reward" ="5.0dip" 2130969937="2131438103" 2130969940="@id/tvBannerTitleV17" 2130970889="3" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432617" ="visible" ="wrap_content" ="wrap_content" 2130969125="tvBannerTitleV17, btnStartLuckydraw" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivClose" ="wrap_content" ="wrap_content" ="@drawable/2131237100" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099764" />
+    <ImageView android:id="@id/icon" ="120.0dip" ="120.0dip" ="72.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/ivClose" 2130971077="@drawable/2131233324" />
+    <TextView ="@color/2131099764" android:id="@id/2131441232" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/future_demo_trading" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/icon" style="@style/2132149419" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131442581" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/dt_start_demo_trading_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441232" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131428913" ="fill_parent" ="48.0dip" android:text="@string/dt_start_demo_trading" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131235563" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429793" ="@drawable/2131235558" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434317" ="gone" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237039" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/_all" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429928" ="@drawable/2131235558" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434729" ="gone" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237039" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/payment_paid" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429959" ="@drawable/2131235558" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434779" ="gone" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237039" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/ocbs_received" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429801" ="@drawable/2131235558" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434345" ="gone" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237039" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/payment_history_pre_auth" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

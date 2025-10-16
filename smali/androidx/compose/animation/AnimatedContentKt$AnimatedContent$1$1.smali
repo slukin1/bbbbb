@@ -1,0 +1,141 @@
+.class public final Landroidx/compose/animation/AnimatedContentKt$AnimatedContent$1$1;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/setThumbTextPadding;->c(Ljava/lang/Object;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function1;Lo/convertFromExifTime;Ljava/lang/String;Lkotlin/jvm/functions/Function1;Lo/Web3DeeplinkInterceptor;Lo/defaultgetSupportedResolutions;II)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lo/setTrackTintList<",
+        "TS;>;",
+        "Lo/TintTypedArray;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final c:Landroidx/compose/animation/AnimatedContentKt$AnimatedContent$1$1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Landroidx/compose/animation/AnimatedContentKt$AnimatedContent$1$1;
+
+    invoke-direct {v0}, Landroidx/compose/animation/AnimatedContentKt$AnimatedContent$1$1;-><init>()V
+
+    sput-object v0, Landroidx/compose/animation/AnimatedContentKt$AnimatedContent$1$1;->c:Landroidx/compose/animation/AnimatedContentKt$AnimatedContent$1$1;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    .line 65353
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 9
+
+    .line 132
+    check-cast p1, Lo/setTrackTintList;
+
+    const/16 p1, 0xdc
+
+    const/16 v0, 0x5a
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x4
+
+    .line 1133
+    invoke-static {p1, v0, v1, v2}, Lo/getNavigationIcon;->c(IILo/setCollapseIcon;I)Lo/CamcorderProfileResolutionQuirk;
+
+    move-result-object v3
+
+    check-cast v3, Lo/setContentInsetsRelative;
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x2
+
+    invoke-static {v3, v4, v5}, Lo/ensureContentInsets;->d(Lo/setContentInsetsRelative;FI)Lo/ensureMenuView;
+
+    move-result-object v3
+
+    .line 1134
+    invoke-static {p1, v0, v1, v2}, Lo/getNavigationIcon;->c(IILo/setCollapseIcon;I)Lo/CamcorderProfileResolutionQuirk;
+
+    move-result-object p1
+
+    check-cast p1, Lo/setContentInsetsRelative;
+
+    const v6, 0x3f6b851f    # 0.92f
+
+    const-wide/16 v7, 0x0
+
+    invoke-static {p1, v6, v7, v8, v2}, Lo/ensureContentInsets;->e(Lo/setContentInsetsRelative;FJI)Lo/ensureMenuView;
+
+    move-result-object p1
+
+    .line 1133
+    invoke-virtual {v3, p1}, Lo/ensureMenuView;->a(Lo/ensureMenuView;)Lo/ensureMenuView;
+
+    move-result-object p1
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x6
+
+    .line 1135
+    invoke-static {v0, v2, v1, v3}, Lo/getNavigationIcon;->c(IILo/setCollapseIcon;I)Lo/CamcorderProfileResolutionQuirk;
+
+    move-result-object v0
+
+    check-cast v0, Lo/setContentInsetsRelative;
+
+    invoke-static {v0, v4, v5}, Lo/ensureContentInsets;->e(Lo/setContentInsetsRelative;FI)Lo/getHorizontalMargins;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lo/setThumbTextPadding;->b(Lo/ensureMenuView;Lo/getHorizontalMargins;)Lo/TintTypedArray;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="12.0dip" ="4.0dip" ="12.0dip" ="16.0dip" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/content_has_crypto_box_tip_alreadyv3" ="1.0" style="@style/2132149450" />
+        <TextView ="@color/2131100443" android:id="@id/2131428756" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_deletev3" ="12.0dip" ="0.0dip" ="@dimen/2131166156" style="@style/2132149450" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233017" ="12.0dip" ="fill_parent" ="wrap_content">
+        <LinearLayout ="horizontal" android:id="@id/title" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237031" 2130971180="@null" />
+            <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/content_cryptobox_quiz_namev3" ="1.0" ="8.0dip" style="@style/2132149450" />
+        </LinearLayout>
+        <TextView ="@color/2131099778" android:id="@id/2131441964" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/pos_total_amount" 2130969918="@id/tvAmount" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" android:text="100 BNB" 2130969917="2131438103" 2130969936="@id/2131441964" 2130969941="@id/2131441964" style="@style/2132149454" />
+        <TextView ="@color/2131099778" android:id="@id/2131443793" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_title_giftnumber" 2130969918="@id/2131443888" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131441964" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131443888" ="wrap_content" ="wrap_content" android:text="100" 2130969917="2131438103" 2130969936="@id/2131443793" 2130969941="@id/2131443793" style="@style/2132149454" />
+        <TextView ="@color/2131099778" android:id="@id/2131442398" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_info_claimtype" 2130969918="@id/2131442481" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131443793" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131442481" ="wrap_content" ="wrap_content" android:text="Split bonus" 2130969917="2131438103" 2130969936="@id/2131442398" 2130969941="@id/2131442398" style="@style/2132149454" />
+        <TextView ="@color/2131099778" android:id="@id/2131444210" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_info_question" 2130969918="@id/2131444222" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131442398" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131444222" ="wrap_content" ="wrap_content" ="175.0dip" android:text="So the question is how many cool NFTs we......" ="2" 2130969917="2131438103" 2130969936="@id/2131444210" 2130969941="@id/2131444210" style="@style/2132149454" />
+        <TextView ="@color/2131099778" android:id="@id/2131444513" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_info_answer" 2130969918="@id/2131444753" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131444222" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131444753" ="wrap_content" ="wrap_content" ="175.0dip" android:text="So the question is how many cool NFTs we......" ="2" 2130969917="2131438103" 2130969936="@id/2131444513" 2130969941="@id/2131444513" style="@style/2132149454" />
+        <TextView ="@color/2131099778" android:id="@id/2131441972" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_info_prompt" 2130969918="@id/2131442149" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131444753" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131442149" ="wrap_content" ="wrap_content" ="175.0dip" android:text="So the question is how many cool NFTs we......" ="2" 2130969917="2131438103" 2130969936="@id/2131441972" 2130969941="@id/2131441972" style="@style/2132149454" />
+        <TextView ="@color/2131099778" android:id="@id/2131442881" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_info_expired" 2130969918="@id/2131443048" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131442149" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131443048" ="wrap_content" ="wrap_content" android:text="Split bonus" 2130969917="2131438103" 2130969936="@id/2131442881" 2130969941="@id/2131442881" style="@style/2132149454" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

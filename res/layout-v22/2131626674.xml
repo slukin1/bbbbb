@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131436180" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="#1af6465d" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/market_coin_circulation_supply_caution_tip" ="1.0" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436404" ="@drawable/2131236009" ="8.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@color/2131099800" 2130969940="@id/2131436180">
+        <LinearLayout ="fill_parent" ="wrap_content" ="4.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131443727" ="wrap_content" ="wrap_content" android:text="@string/market_coin_max_supply" ="1" style="@style/2132149355" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131443728" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+        </LinearLayout>
+        <LinearLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/2131445138" ="wrap_content" ="wrap_content" android:text="@string/market_coin_circulation_supply_total" ="1" style="@style/2132149355" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131445139" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+        </LinearLayout>
+        <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0dip" ="4.0dip" ="4.0dip" ="@dimen/2131166247" />
+        <LinearLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/2131444193" ="wrap_content" ="wrap_content" android:text="@string/market_coin_project_burn" ="1" style="@style/2132149355" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131444194" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Placeholder android:id="@id/placeholder" ="fill_parent" ="4.0dip" 2130969940="@id/2131436404" />
+    <LinearLayout android:id="@id/2131436147" ="@drawable/2131236009" ="8.0dip" ="fill_parent" ="wrap_content" ="@color/2131099800" 2130969940="@id/placeholder">
+        <TextView ="@color/2131099778" android:id="@id/2131442018" ="wrap_content" ="wrap_content" android:text="@string/market_coin_actual_burn" ="1" style="@style/2132149355" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442019" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433073" ="32.0dip" ="32.0dip" 2130969911="@id/placeholder" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/placeholder" 2130971077="@drawable/2131235061" style="@style/2132149384" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131436147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/earn_cumulative_total_rewards" style="@style/2132149425" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/2131444836" ="0.0dip" ="wrap_content" android:text="@string/earn_cumulative_total_rewards" ="1.0" ="15.0dip" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/tvTotalRewards" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436326" ="fill_parent" ="wrap_content" ="12.0dip">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/earn_real_time_apr_rewards" ="1.0" ="15.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131444272" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149361" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436390" ="fill_parent" ="wrap_content" ="10.0dip">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/earn_est_market_bonus_tier_apr_rewards" ="1.0" ="15.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131444936" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149361" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428837" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_tip_ok" style="@style/2132148692" />
+</LinearLayout>

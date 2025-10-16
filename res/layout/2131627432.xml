@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" android:id="@id/2131450459" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131450465" ="gone" ="fill_parent" ="24.0dip" ="20.0dip" ="15.0dip" ="15.0dip" ="15.0dip" />
+    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131437700" ="fill_parent" ="fill_parent" ="5.0dip">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131450469" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+    <include ="center" android:id="@id/2131440578" ="gone" ="wrap_content" ="wrap_content" layout="@layout/2131627475" />
+</FrameLayout>

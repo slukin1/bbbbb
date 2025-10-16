@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="vertical" ="fill_parent" ="fill_parent" ="24.0dip" ="24.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131441102" ="wrap_content" ="wrap_content" layout="@layout/2131628024" />
+        <include android:id="@id/2131438188" ="fill_parent" ="wrap_content" ="20.0dip" layout="@layout/2131628020" />
+        <include android:id="@id/2131438183" ="gone" ="fill_parent" ="fill_parent" ="20.0dip" layout="@layout/2131628018" />
+        <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/payment_crypto_box_rules" ="locale" style="@style/2132149450" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438237" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/payment_crypto_box_rule_note" ="locale" ="15.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/payment_crypto_rule_terms" ="locale" ="15.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099787" android:id="@id/2131438208" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/view_more" ="15.0dip" style="@style/2132149377" />
+        <Space ="fill_parent" ="20.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

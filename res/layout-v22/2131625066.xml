@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439486" ="@drawable/2131236765" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/titleTv" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_action_sheet_cancellation_request" ="@font/2131296275" ="@dimen/2131166184" ="@dimen/2131166179" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430107" ="14.0dip" ="wrap_content" ="wrap_content" 2130969911="@id/titleTv" 2130969917="2131438103" 2130969941="@id/titleTv" 2130971077="@drawable/2131237100" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/contentLayout" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/titleTv">
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131430338" ="wrap_content" ="wrap_content" android:text="@string/c2c_action_sheet_buyer_requested_title" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131438947" ="@drawable/2131235987" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296273" ="@color/2131099800" ="@dimen/2131166184" ="@dimen/2131166170" 2130969940="@id/2131430338" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131430074" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_action_sheet_click_accept" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131438947" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131430537" ="fill_parent" ="wrap_content" ="12.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131430074" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@dimen/2131166184" ="@dimen/2131166188" 2130969940="@id/contentLayout">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428871" ="0.0dip" ="wrap_content" android:text="@string/c2c_order_detail_btn_reject" 2130969918="@id/2131440397" 2130969937="2131438103" style="@style/2132148697" />
+        <androidx.legacy.widget.Space android:id="@id/2131440397" ="8.0dip" ="wrap_content" 2130969911="@id/2131428871" 2130969918="@id/2131428673" 2130969936="@id/2131428871" 2130969941="@id/2131428871" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428673" ="0.0dip" ="wrap_content" android:text="@string/wallet_transfer_accept" 2130969917="2131438103" 2130969936="@id/2131440397" style="@style/2132148692" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/2131435858" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131433606" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131444171" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProductList" ="fill_parent" ="wrap_content" ="24.0dip" />
+</LinearLayout>

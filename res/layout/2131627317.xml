@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236713" ="15.0dip" ="15.0dip" ="fill_parent" ="60.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237766" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="15.0dip" 2130969912="@id/tvDesc" 2130969936="@id/image" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/tvDesc" ="0.0dip" ="wrap_content" ="2" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/image" 2130969940="@id/tvTitle" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

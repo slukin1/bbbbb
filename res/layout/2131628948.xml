@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131439887" ="wrap_content" ="wrap_content" ="20.0dip" ="20.0dip" ="22.0dip" 2130969911="2131438103" 2130969918="@id/2131430811" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131429542" ="20.0dip" ="20.0dip" ="1.0" ="8.0dip" 2130971077="@drawable/2131238537" />
+        <TextView ="@color/2131099764" android:id="@id/2131439888" ="wrap_content" ="wrap_content" android:text="Select All" ="1.0" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131430811" ="wrap_content" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+        <ImageView ="center" android:id="@id/2131440554" ="16.0dip" ="16.0dip" ="1.0" ="8.0dip" 2130971077="@drawable/2131238553" />
+        <TextView ="@color/2131099787" android:id="@id/2131430814" ="wrap_content" ="wrap_content" android:text="Delete" ="1.0" style="@style/2132149450" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

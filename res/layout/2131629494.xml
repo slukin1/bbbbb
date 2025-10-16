@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.marketdetail.feature.tradehistory.DetailTradeItemRootLayout ="fill_parent" ="wrap_content" ="3.0dip" ="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.marketdetail.framework.widget.view.SimpleTextView ="@color/2131099764" ="start" android:id="@id/2131441416" ="wrap_content" ="wrap_content" ="true" ="true" 2130969911="@id/price" 2130969937="2131438103" 2130969941="@id/price" style="@style/2132149384" />
+    <com.finance.marketdetail.framework.widget.view.SimpleTextView ="#ff2ebd85" ="start" android:id="@id/price" ="wrap_content" ="wrap_content" 2130969911="@id/price" 2130969918="@id/2131438775" 2130969937="@id/2131432755" 2130969941="@id/price" style="@style/2132149384" />
+    <com.finance.marketdetail.framework.widget.view.SimpleTextView ="@color/2131099764" ="end" android:id="@id/2131438775" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+</com.finance.marketdetail.feature.tradehistory.DetailTradeItemRootLayout>

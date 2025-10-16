@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/tv_price" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <com.finance.kit.framework.widget.TradeMoreButton android:id="@id/2131433245" ="gone" ="wrap_content" ="wrap_content" ="@null" ="15.0dip" 2130969911="@id/tv_price" 2130969917="2131438103" 2130969941="@id/tv_price" 2130971077="@drawable/2131237679" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/tv_contract" ="0.0dip" ="wrap_content" ="5.0dip" ="1" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_price" style="@style/2132149461" />
+    <ImageView android:id="@id/2131434949" ="72.0dip" ="72.0dip" ="52.0dip" ="centerInside" 2130969912="@id/slider" 2130969918="@id/2131434499" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/tv_contract" 2130971077="@drawable/2131238671" />
+    <ImageView android:id="@id/2131434499" ="72.0dip" ="72.0dip" ="centerInside" ="60.0dip" 2130969911="@id/2131434949" 2130969917="2131438103" 2130969936="@id/2131434949" 2130969941="@id/2131434949" 2130971077="@drawable/2131238671" />
+    <TextView ="center" android:id="@id/txtProgress" ="4.0dip" ="4.0dip" ="wrap_content" ="20.0dip" ="2.0dip" ="1" 2130969912="@id/slider" 2130969917="@id/slider" 2130969927="0.0" 2130969937="@id/slider" style="@style/2132149384" />
+    <com.finance.voptions.feature.discover.ui.widget.VOptionsDiscoverSlider android:id="@id/slider" ="fill_parent" ="wrap_content" ="15.0dip" ="72.0dip" ="15.0dip" 2130969681="@layout/2131629618" 2130969682="false" 2130969685="%" 2130969686="0.0" 2130969687="-100.0" 2130969688="0.0" 2130969690="false" 2130969703="5" 2130969940="@id/2131434949" />
+    <com.finance.voptions.feature.trade.widget.VOptionsLongClickEditText android:id="@id/etv_et_price" ="visible" ="fill_parent" ="40.0dip" ="15.0dip" ="15.0dip" ="15.0dip" app:2130969577="@string/voptions_discover_price_input_hint" 2130969940="@id/slider" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432687" ="gone" ="0.0dip" ="0.0dip" 2130969125="txtProgress, slider, etv_et_price" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441081" ="fill_parent" ="38.0dip" ="20.0dip" 2130969940="@id/etv_et_price" 2130969962="@dimen/2131166273" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439649" ="false" ="fill_parent" ="24.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="0.0dip" ="30.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969940="@id/2131441081" />
+    <View ="end" android:id="@id/2131449671" ="@drawable/2131238653" ="30.0dip" ="0.0dip" 2130969911="@id/2131439649" 2130969917="@id/2131439649" 2130969941="@id/2131439649" />
+</androidx.constraintlayout.widget.ConstraintLayout>

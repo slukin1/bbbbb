@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131429665" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624930" />
+    <include android:id="@id/2131429644" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429665" layout="@layout/2131624930" />
+    <include android:id="@id/2131429729" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429644" layout="@layout/2131624930" />
+    <include android:id="@id/2131429662" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429729" layout="@layout/2131624930" />
+    <include android:id="@id/2131429675" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429662" layout="@layout/2131624930" />
+    <include android:id="@id/2131429711" ="gone" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429675" layout="@layout/2131624930" />
+    <include android:id="@id/2131429778" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429711" layout="@layout/2131624930" />
+    <include android:id="@id/2131429767" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429778" layout="@layout/2131624930" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131431036" ="fill_parent" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429767" />
+    <include android:id="@id/2131429714" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431036" layout="@layout/2131624930" />
+    <include android:id="@id/2131429709" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429714" layout="@layout/2131624930" />
+    <include android:id="@id/2131429719" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429709" layout="@layout/2131624930" />
+    <include android:id="@id/2131429769" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429719" layout="@layout/2131624930" />
+    <include android:id="@id/2131429760" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429769" layout="@layout/2131624930" />
+    <include android:id="@id/2131429718" ="0.0dip" ="wrap_content" ="8.0dip" 2130969912="@id/divider" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429760" layout="@layout/2131624930" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131429718" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/checkBoxLockPeriod" ="wrap_content" ="wrap_content" 2130969835="2131429513" 2130969911="@id/tvLockUpPeriodTip" 2130969918="@id/tvLockUpPeriodTip" 2130969937="2131438103" 2130969941="@id/tvLockUpPeriodTip" />
+    <TextView ="@color/2131099764" android:id="@id/tvLockUpPeriodTip" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/copy_trading_lock_up_period_confirm_dialog_tip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/checkBoxLockPeriod" 2130969940="@id/divider" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432552" ="gone" ="0.0dip" ="0.0dip" 2130969125="tvLockUpPeriodTip, checkBoxLockPeriod, divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

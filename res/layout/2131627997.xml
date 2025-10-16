@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131433395" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131628114" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430002" ="fill_parent" ="@dimen/2131165972" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131434697" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434582" ="6.0dip" ="wrap_content" ="wrap_content" ="6.0dip" 2130969911="2131438103" 2130969918="@id/2131447765" 2130969941="2131438103" 2130971077="@drawable/2131237479" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131447765" ="@drawable/2131235791" ="8.0dip" ="1.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_payment_send" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/title" ="fill_parent" ="40.0dip" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/payment_receive" 2130969940="@id/2131430002" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131441554" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/payment_receive_tip" 2130969940="@id/title" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441554">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429825" ="visible" ="fill_parent" ="fill_parent" ="15.0dip" ="20.0dip" ="15.0dip" 2130969941="2131438103">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429956" ="@drawable/2131235768" ="30.0dip" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center" android:id="@id/2131447707" ="wrap_content" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" android:text="@string/payment_receive_others_scan_to_pay" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434773" ="200.0dip" ="200.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447707" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436448" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434773">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428106" ="visible" ="30.0dip" ="30.0dip" ="5.0dip" 2130969911="2131438103" 2130969918="@id/tv_amount" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+                    <androidx.appcompat.widget.AppCompatTextView ="20.0sp" ="@color/2131099764" ="end" ="center" ="center_horizontal" android:id="@id/tv_amount" ="visible" ="wrap_content" ="wrap_content" ="2" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428106" 2130969941="2131438103" style="@style/2132149459" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView ="@color/2131099787" ="center" android:id="@id/2131447775" ="wrap_content" ="22.0dip" ="24.0dip" android:text="@string/payment_receive_set_currency_amount" ="1.0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436448" style="@style/2132149450" />
+                <LinearLayout ="center_vertical" ="center_horizontal" ="horizontal" ="fill_parent" ="22.0dip" ="22.0dip" ="16.0dip" ="22.0dip" ="2.0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447775">
+                    <TextView ="@color/2131099787" ="center" android:id="@id/2131447704" ="0.0dip" ="fill_parent" android:text="@string/ms_save_qr_code" ="1.0" style="@style/2132149450" />
+                    <View ="@color/2131099751" ="2.0dip" ="10.0dip" ="10.0dip" ="10.0dip" />
+                    <TextView ="@color/2131099787" ="center" android:id="@id/2131447782" ="0.0dip" ="fill_parent" android:text="@string/payment_receive_share_qr_code" ="1.0" style="@style/2132149450" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439694" ="@drawable/2131235768" ="fill_parent" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429956" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429962" ="gone" ="fill_parent" ="fill_parent" ="15.0dip" ="20.0dip" ="15.0dip" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446377" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/payment_failed_check_net_settings" ="36.0dip" ="@font/2131296265" 2130969314="@drawable/2131235704" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099881" android:id="@id/tv_refresh" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/c2c_mob_exads_refresh" ="5.0dip" ="@font/2131296265" 2130969307="@drawable/2131235725" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446377" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

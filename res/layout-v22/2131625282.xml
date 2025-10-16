@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236025" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" ="center_horizontal" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_sheet_reminder_title" ="@font/2131296267" ="@dimen/2131166179" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="16.0dip">
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131444401" ="fill_parent" ="wrap_content" ="@font/2131296274" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131444402" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296274" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428896" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_sheet_button_reminder_send" style="@style/2132148692" />
+</LinearLayout>

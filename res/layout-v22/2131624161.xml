@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <LinearLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/ms_label_coin" ="0.8" 2130969911="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" ="0.0dip" ="wrap_content" ="6.0dip" ="6.0dip" android:text="@string/available" ="1.0" ="6.0dip" 2130969911="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" ="0.0dip" ="wrap_content" android:text="@string/margin_convert_approx_value" ="1.0" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439545" ="fill_parent" ="0.0dip" ="1.0" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0px" />
+    <LinearLayout ="center_vertical" android:id="@id/2131439883" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429515" ="wrap_content" ="wrap_content" 2130969758="true" />
+        <TextView ="@color/2131099764" android:id="@id/2131442072" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/ms_selecte_all" ="8.0dip" style="@style/2132149446" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131444575" ="0.0dip" ="wrap_content" android:text="@string/margin_convert_selectedAsset" ="1.0" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="wrap_content" ="wrap_content">
+        <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="2.0dip" android:text="*" ="15.0dip" style="@style/2132149384" />
+        <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/margin_convert_delisted_tips" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0px" ="16.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="8.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131443206" ="wrap_content" ="wrap_content" android:text="@string/margin_convert_you_will_get" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131445077" ="wrap_content" ="wrap_content" android:text="0.00" 2130969937="2131438103" 2130969940="@id/2131443206" style="@style/2132149459" />
+        <TextView ="@color/2131099764" android:id="@id/2131442334" ="wrap_content" ="wrap_content" android:text="BNB" ="4.0dip" 2130969907="@id/2131445077" 2130969936="@id/2131445077" style="@style/2132149446" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131442603" ="wrap_content" ="wrap_content" ="130.0dip" android:text="@string/margin_convert_convertText" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148692" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

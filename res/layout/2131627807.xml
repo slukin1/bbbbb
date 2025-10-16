@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235260" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nezha.android.render.view.NavigationBar android:id="@id/2131437634" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437645" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

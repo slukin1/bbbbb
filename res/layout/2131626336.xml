@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="8.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="@drawable/2131232944" ="wrap_content" ="wrap_content" ="1.0dip">
+        <LinearLayout ="vertical" ="8.0dip" ="wrap_content" ="wrap_content">
+            <TextView ="12.0sp" ="#ff1976d2" ="center" android:id="@id/2131444881" ="wrap_content" ="wrap_content" />
+            <TextView ="10.0sp" ="#ff999999" ="center" android:id="@id/2131444963" ="wrap_content" ="wrap_content" ="2.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

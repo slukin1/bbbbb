@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438423" ="fill_parent" ="wrap_content" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="gone" ="fill_parent" ="fill_parent" 2130971105="false">
+        <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438405" ="fill_parent" ="wrap_content" ="350.0dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438413" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438399" ="fill_parent" ="wrap_content" ="16.0dip" />
+            </LinearLayout>
+        </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

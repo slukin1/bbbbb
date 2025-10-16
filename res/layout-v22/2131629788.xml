@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="11.0dip" ="12.0dip" ="11.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166164" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/ivToken" ="22.0dip" ="22.0dip" 2130969616="4" 2130969911="@id/2131445044" 2130969937="2131438103" 2130969941="@id/2131445044" />
+    <TextView ="@color/2131099764" android:id="@id/2131445044" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/ivToken" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" 2130969911="@id/2131434219" 2130969918="@id/2131434219" 2130969941="@id/2131434219" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434219" ="wrap_content" ="18.0dip" 2130969911="@id/2131434219" 2130969917="2131438103" 2130969941="@id/tvTime" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+    <TextView ="@color/2131099851" android:id="@id/2131445263" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="2131438103" 2130969940="@id/2131445044" style="@style/2132149361" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/tvPriceTitle" ="wrap_content" ="24.0dip" ="8.0dip" android:text="@string/string_price" 2130969918="@id/tvPrice" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131445263" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvPrice" ="wrap_content" ="24.0dip" ="8.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/tvPriceTitle" 2130969941="@id/tvPriceTitle" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428340" ="fill_parent" ="0.0dip" 2130968759="2131428521" 2130969125="tvPriceTitle, tvPrice" />
+    <TextView ="@color/2131099778" android:id="@id/tvAmountTitle" ="wrap_content" ="24.0dip" android:text="@string/_amount" 2130969918="@id/tvAmount" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131428340" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvAmount" ="wrap_content" ="24.0dip" ="8.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/tvAmountTitle" 2130969941="@id/tvAmountTitle" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428310" ="fill_parent" ="0.0dip" 2130968759="2131428521" 2130969125="tvAmountTitle, tvAmount" />
+    <TextView ="@color/2131099778" android:id="@id/2131444775" ="wrap_content" ="24.0dip" android:text="@string/strategy_common_status" 2130969918="@id/2131444766" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131428310" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099851" ="center" android:id="@id/2131444766" ="wrap_content" ="24.0dip" ="8.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/2131444775" 2130969941="@id/2131444775" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvTitleReverseOrder" ="wrap_content" ="24.0dip" android:text="@string/alpha_trade_oto_title_reverse_order" 2130969918="@id/tvViewReverseOrder" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131444775" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" ="center" android:id="@id/tvViewReverseOrder" ="wrap_content" ="24.0dip" android:text="@string/spot_tpsl_view" ="true" 2130969905="true" 2130969917="2131438103" 2130969936="@id/tvTitleReverseOrder" 2130969941="@id/tvTitleReverseOrder" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432410" ="wrap_content" ="wrap_content" 2130969125="tvTitleReverseOrder,tvViewReverseOrder" />
+</androidx.constraintlayout.widget.ConstraintLayout>

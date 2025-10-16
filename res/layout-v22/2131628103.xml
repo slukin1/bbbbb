@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="45.0dip" ="24.0dip" ="45.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166254"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="70.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131447765" ="fill_parent" ="wrap_content" android:text="@string/wallet_payment_send" ="2" ="4.0dip" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="end|center|top" android:id="@id/2131428594" ="@drawable/2131235564" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/payment_home_bonus" ="@dimen/2131166247" style="@style/2132149394" />
+    </FrameLayout>
+    <Space ="0.0dip" ="0.0dip" ="1.0" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131447582" ="70.0dip" ="wrap_content" android:text="@string/payment_receive" ="2" ="4.0dip" style="@style/2132149454" />
+    <Space ="0.0dip" ="0.0dip" ="1.0" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131447705" ="70.0dip" ="wrap_content" android:text="@string/scan_to_pay" ="4.0dip" style="@style/2132149454" />
+</LinearLayout>

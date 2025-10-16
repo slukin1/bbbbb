@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="false" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="false" ="15.0dip" 2130969911="@id/2131442185" 2130969917="2131438103" 2130969941="@id/2131442185" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/string_amount" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442185" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvAmountValue" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/tvAmount" 2130969917="2131438103" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445223" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/_Type" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvAmount" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445224" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131445223" 2130969917="2131438103" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/symbol" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131445223" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvSymbolValue" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/tvSymbol" 2130969917="2131438103" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432605" ="wrap_content" ="wrap_content" 2130969125="tvSymbol, tvSymbolValue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+.class public Lde/authada/org/bouncycastle/pqc/math/ntru/parameters/NTRUHRSS1373;
+.super Lde/authada/org/bouncycastle/pqc/math/ntru/parameters/NTRUHRSSParameterSet;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 6
+
+    const/16 v1, 0x55d
+
+    const/16 v2, 0xe
+
+    const/16 v3, 0x20
+
+    const/16 v4, 0x20
+
+    const/16 v5, 0x20
+
+    move-object v0, p0
+
+    .line 65354
+    invoke-direct/range {v0 .. v5}, Lde/authada/org/bouncycastle/pqc/math/ntru/parameters/NTRUHRSSParameterSet;-><init>(IIIII)V
+
+    return-void
+.end method

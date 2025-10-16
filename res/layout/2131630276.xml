@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099803" 2130970892="131.0dip" 2130970893="@dimen/2131166170" 2130970894="@id/2131441690" 2130970897="keleton_home_widget_common_8x4_light.svg" 2130970898="147.0dip" 2130970899="keleton_home_widget_common_8x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.WidgetTopNavBar android:id="@id/2131441690" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.eaas.home.components.dynamic.trendingcat.BubbleContainerView android:id="@id/2131429136" ="fill_parent" ="0.0dip" ="12.0dip" 2130969916="319:119" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441690" />
+</com.components.skeleton.SkeletonViewGroup>

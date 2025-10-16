@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131437595" ="?2130970307" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nezha.android.view.StatusBarPlaceHolderView android:id="@id/2131437682" ="0.0dip" ="0.0dip" />
+    <com.nezha.android.render.view.NavigationBar android:id="@id/2131437633" ="fill_parent" ="wrap_content" />
+    <TextView ="@color/2131102138" android:id="@id/2131437648" ="wrap_content" ="wrap_content" ="15.0dip" ="6.0dip" android:text="@string/nezha_settings" ="@font/2131296267" style="@style/2132149416" />
+    <TextView ="@color/2131099778" android:id="@id/2131437649" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" android:text="" style="@style/2132149350" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437680" ="vertical" ="fill_parent" ="fill_parent" ="5.0dip" />
+</LinearLayout>

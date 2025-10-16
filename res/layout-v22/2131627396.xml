@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431508" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:hint="@string/market_enter_group_name" ="1" ="true" ="20" ="@dimen/2131166184" 2130969806="true" 2130969817="1" 2130969818="false" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429088" ="fill_parent" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" ="15.0dip" android:text="@string/_save" ="@dimen/2131166184" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

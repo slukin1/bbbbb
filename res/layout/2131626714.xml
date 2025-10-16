@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131435307" ="fill_parent" ="wrap_content" 2130968735="@android:color/transparent" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969941="2131438103" />
+    <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131435306" ="gone" ="fill_parent" ="0.0dip" ="4.0dip" 2130969347="@string/no_records_found" 2130969911="2131438103" 2130969940="@id/2131435307" />
+</androidx.constraintlayout.widget.ConstraintLayout>

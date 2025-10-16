@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436668" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <include layout="@layout/2131624284" />
+        <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131449019" ="fill_parent" ="wrap_content" ="3.0dip" ="4.0dip" ="3.0dip" 2130968735="@android:color/transparent" 2130968908="true" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969851="2131440542" 2130969937="2131438103" 2130969940="@id/2131441601" 2130970759="@string/home_search" />
+        <ViewStub android:id="@id/2131437850" ="@layout/2131630211" ="fill_parent" ="wrap_content" 2130969940="@id/2131449019" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include android:id="@id/2131433400" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131436668" layout="@layout/2131630008" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="0.0dip" 2130969940="@id/2131436668" 2130970808="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434842" ="fill_parent" ="wrap_content" 2130971375="@color/2131099744" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

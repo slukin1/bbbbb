@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099804" ="@dimen/2131166188" ="@dimen/2131166170">
+        <TextView ="14.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131439131" ="wrap_content" ="wrap_content" ="@font/2131296281" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131438966" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/c2c_refund_receiving_amount" ="5.0dip" ="@font/2131296281" 2130969306="@drawable/2131237075" 2130969937="@id/2131439131" 2130969940="@id/2131439131" />
+        <TextView ="14.0sp" ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/2131447587" ="wrap_content" ="wrap_content" ="@font/2131296281" 2130969911="@id/2131438966" 2130969917="2131438103" 2130969941="@id/2131438966" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131430612" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/amount" ="5.0dip" ="@font/2131296274" 2130969306="@drawable/2131237075" 2130969937="@id/2131438966" 2130969940="@id/2131438966" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/2131446165" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296281" 2130969306="@drawable/2131237146" 2130969911="@id/2131430612" 2130969917="2131438103" 2130969941="@id/2131430612" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

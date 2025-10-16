@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439486" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" android:id="@id/2131431087" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" />
+    <RelativeLayout android:id="@id/2131433421" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" android:text="@string/market_detail_indicator_dialog_title" ="true" ="true" style="@style/2132149425" />
+    </RelativeLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131436867" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/market_detail_indicator_dialog_main_title" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131436868" ="fill_parent" ="wrap_content" ="10.0dip" />
+    <TextView ="@color/2131099778" android:id="@id/2131440824" ="fill_parent" ="wrap_content" ="22.0dip" android:text="@string/market_detail_indicator_dialog_sub_title" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131440826" ="fill_parent" ="wrap_content" ="10.0dip" />
+    <LinearLayout ="vertical" android:id="@id/2131436651" ="gone" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131441820" ="wrap_content" ="wrap_content" ="22.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_settings_sub_indicators_trading_data" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441821" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099726" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131440829" ="fill_parent" ="wrap_content" ="10.0dip" />
+    </LinearLayout>
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131433419" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" />
+    <LinearLayout ="horizontal" android:id="@id/2131433420" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/kline_setting_index_setting" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+</LinearLayout>

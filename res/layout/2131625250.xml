@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444613" ="fill_parent" ="50.0dip" android:text="@string/ocbs_string_set_reminder" ="15.0dip" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/tvSetRemindDesc" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="3.0dip" 2130969940="@id/2131444613" style="@style/2132149355" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429529" ="24.0dip" ="24.0dip" ="true" ="19.0dip" 2130969759="2" 2130969911="@id/2131442591" 2130969937="2131438103" 2130969941="@id/2131442591" />
+    <TextView ="@color/2131099764" android:id="@id/2131442591" ="0.0dip" ="wrap_content" ="24.0dip" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131429529" 2130969940="@id/tvSetRemindDesc" style="@style/2132149450" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429528" ="24.0dip" ="24.0dip" ="true" 2130969759="2" 2130969911="@id/2131442590" 2130969937="@id/2131429529" 2130969941="@id/2131442590" />
+    <TextView ="@color/2131099764" android:id="@id/2131442590" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/ocbs_string_app_notification" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131429529" 2130969940="@id/2131442591" style="@style/2132149450" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428872" ="fill_parent" ="wrap_content" ="15.0dip" ="31.0dip" ="15.0dip" android:text="@string/ocbs_string_remind_me" 2130969940="@id/2131442590" style="@style/2132148692" />
+    <Space ="fill_parent" ="16.0dip" 2130969940="@id/2131428872" />
+</androidx.constraintlayout.widget.ConstraintLayout>

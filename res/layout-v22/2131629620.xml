@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="40.0dip" ="15.0dip" ="40.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131443732" ="wrap_content" ="wrap_content" android:text="@string/voptions_bigdata_mp_options_maxpainprice" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433217" ="2.0dip" ="24.0dip" ="24.0dip" 2130969911="@id/2131443732" 2130969917="2131438103" 2130969941="@id/2131443732" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443724" ="@drawable/2131236699" ="wrap_content" ="wrap_content" ="10.0dip" ="8.0dip" ="4.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969937="@id/2131443732" 2130969940="@id/2131443732" style="@style/2132149454" />
+    <com.finance.voptions.feature.bigdata.ui.component.maxpain.VOptionsMaxPainChartView android:id="@id/2131430705" ="fill_parent" ="213.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443724" />
+</androidx.constraintlayout.widget.ConstraintLayout>

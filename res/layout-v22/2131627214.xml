@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/2131439803" ="none" ="0.0dip" ="fill_parent" ="13.0dip" 2130969911="2131438103" 2130969918="@id/2131428303" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131431827" ="wrap_content" ="fill_parent" />
+    </HorizontalScrollView>
+    <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" ="@color/2131100905" 2130969911="2131438103" 2130969917="@id/2131439803" 2130969941="2131438103" 2130971077="@drawable/2131233484" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131440560" 2130969125="imgFilter, btnCancelAll" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgFilter" ="visible" ="20.0dip" ="20.0dip" ="@color/2131099738" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237353" />
+    <View android:id="@id/2131433223" ="@drawable/2131234831" ="gone" ="8.0dip" ="8.0dip" 2130969917="@id/imgFilter" 2130969941="@id/imgFilter" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnCancelAll" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_cancel_all" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148700" />
+</androidx.constraintlayout.widget.ConstraintLayout>

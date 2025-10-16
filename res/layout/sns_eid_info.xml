@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sns_image" ="@dimen/sns_eid_image_size" ="@dimen/sns_eid_image_size" ="@dimen/sns_margin_medium" ="@null" 2130969912="@id/sns_title" 2130969917="2131438103" 2130969937="2131438103" 2130969943="2131438085" />
+    <com.sumsub.sns.core.widget.SNSH1TextView ="center" android:id="@id/sns_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969912="@id/sns_subtitle" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/sns_guideline_center" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/sns_guideline_center" ="1.0dip" ="1.0dip" 2130969921="0.5" />
+    <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_continue" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</merge>

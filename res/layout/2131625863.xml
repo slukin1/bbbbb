@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="14.0dip" ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429762" ="@drawable/2131235987" ="8.0dip" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="12.0dip" ="8.0dip" ="@color/2131099744" 2130969937="2131438103" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433633" ="16.0dip" ="16.0dip" ="4.0dip" ="@drawable/2131237095" ="@color/2131099738" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/futures_tpsl_trigger_price_liq_tips" ="4.0dip" 2130969918="@id/2131433758" 2130969936="@id/2131433633" 2130969941="@id/2131433633" style="@style/2132149440" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433758" ="4.0dip" ="24.0dip" ="24.0dip" ="@drawable/2131237100" ="@color/2131099738" 2130969917="2131438103" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout ="vertical" android:id="@id/2131431968" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131429762">
+                <include android:id="@id/2131433446" ="fill_parent" ="wrap_content" layout="@layout/2131626079" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432738" ="wrap_content" ="wrap_content" 2130969921="0.4" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131435707" ="visible" ="wrap_content" ="wrap_content" 2130969125="et_tp_trigger_price" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/tv_tp_trigger_title" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_grid_take_profit" ="1" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431968" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131445151" ="wrap_content" ="wrap_content" android:text="@string/future_trade_mark" ="2.0dip" ="15.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969907="@id/tv_tp_trigger_title" 2130969917="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099787" ="center" android:id="@id/tv_tp_order_cancel" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/_cancel" ="16.0dip" ="16.0dip" 2130969907="@id/tv_tp_trigger_title" 2130969918="@id/2131445151" style="@style/2132149377" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131428412" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="et_tp_trigger_price" />
+            <TextView ="@color/2131099778" android:id="@id/tv_tp_tips" ="0.0dip" ="wrap_content" ="8.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_tp_error_tip" style="@style/2132149384" />
+            <EditText ="@color/2131099764" ="@color/2131099738" android:id="@id/et_tp_trigger_price" ="@drawable/2131234058" ="0.0dip" ="40.0dip" ="4.0dip" android:hint="@string/futures_grid_trigger_price" ="1" ="numberDecimal" ="12.0dip" ="65.0dip" ="8.0dip" 2130969918="@id/2131431487" 2130969937="@id/tv_tp_trigger_title" 2130969940="@id/tv_tp_trigger_title" style="@style/2132149450" />
+            <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431487" ="0.0dip" ="wrap_content" ="15.0dip" 2130969569="true" app:2130969577="@string/futures_tpsl_offset" 2130969917="2131438103" 2130969941="@id/et_tp_trigger_price" 2130969949="0.434" 2130971514="@string/future_trade_mark" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131441737" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130968760="@dimen/2131166188" 2130969125="et_tp_trigger_price,tv_tp_trigger_title,tv_tp_tips,tv_tp_order_cancel" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_tp_error_tip" ="gone" ="0.0dip" ="wrap_content" ="5.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428412" style="@style/2132149384" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/tv_sl_trigger_title" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_stop_loss" ="1" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131441737" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444687" ="wrap_content" ="wrap_content" android:text="@string/future_trade_mark" ="2.0dip" ="15.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969907="@id/tv_sl_trigger_title" 2130969917="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099787" ="center" android:id="@id/tv_sl_order_cancel" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/_cancel" ="15.0dip" ="16.0dip" 2130969907="@id/tv_sl_trigger_title" 2130969918="@id/2131444687" style="@style/2132149377" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131428403" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="et_sl_trigger_price" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_sl_error_tip" ="gone" ="0.0dip" ="wrap_content" ="5.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428403" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/tv_sl_tips" ="0.0dip" ="wrap_content" ="8.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_sl_error_tip" style="@style/2132149384" />
+            <EditText ="@color/2131099764" ="@color/2131099738" android:id="@id/et_sl_trigger_price" ="@drawable/2131234058" ="0.0dip" ="40.0dip" ="4.0dip" android:hint="@string/futures_grid_trigger_price" ="1" ="numberDecimal" ="12.0dip" ="65.0dip" ="8.0dip" 2130969918="@id/2131431476" 2130969937="@id/tv_tp_trigger_title" 2130969940="@id/tv_sl_trigger_title" style="@style/2132149450" />
+            <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431476" ="0.0dip" ="wrap_content" ="15.0dip" 2130969569="true" app:2130969577="@string/futures_tpsl_offset" 2130969917="2131438103" 2130969941="@id/et_sl_trigger_price" 2130969949="0.434" 2130971514="@string/future_trade_mark" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131440131" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_sl_trigger_title,tv_sl_tips,tv_sl_order_cancel,et_sl_trigger_price" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435708" ="24.0dip" ="20.0dip" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" 2130969937="2131438103" 2130969940="@id/tv_sl_tips">
+                <ImageView ="center_vertical" android:id="@id/2131434902" ="16.0dip" ="16.0dip" ="centerInside" ="@null" 2130971077="@drawable/2131237091" />
+                <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tv_tips" ="wrap_content" ="wrap_content" android:text="@string/futures_position_tpsl_tips_title" ="1" ="false" ="2.0dip" style="@style/2132149361" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131446034" ="fill_parent" ="wrap_content" ="14.0dip" ="15.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" style="@style/2132148692" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131430273" ="@drawable/2131236713" ="15.0dip" ="32.0dip" ="15.0dip" ="32.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131448850" ="fill_parent" ="wrap_content" android:text="@string/leaderboard_open_account_options_title" style="@style/2132149463" />
+        <TextView ="@color/2131099778" android:id="@id/2131448710" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/leaderboard_open_account_options_content" style="@style/2132149350" />
+        <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428838" ="fill_parent" ="48.0dip" ="15.0dip" android:text="@string/leaderboard_open_account" 2130969173="10.0" 2130971472="2131429147" style="@style/2132149446" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

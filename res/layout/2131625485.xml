@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099762" ="center" android:id="@id/2131431250" ="@drawable/2131236710" ="7.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="1" ="true" ="false" ="number" ="@drawable/2131238456" ="locale" ="center" 2130969918="@id/2131446304" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446304" ="wrap_content" ="wrap_content" ="2.0dip" ="2.0dip" android:text="-" 2130969911="@id/2131431250" 2130969918="@id/2131431251" 2130969936="@id/2131431250" 2130969941="@id/2131431250" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099762" ="center" android:id="@id/2131431251" ="@drawable/2131236710" ="7.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="1" ="true" ="false" ="number" ="@drawable/2131238456" ="locale" ="center" 2130969917="2131438103" 2130969936="@id/2131446304" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <com.finance.kit.framework.widget.filter.slider.FinanceKitRangeSliderView android:id="@id/2131438853" ="fill_parent" ="18.0dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431250" />
+</merge>

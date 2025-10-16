@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="8.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131438958" ="wrap_content" ="wrap_content" ="11.0dip" android:text="You will get" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131438957" ="0.0dip" ="wrap_content" android:text="1,123,456,123" ="8.0dip" ="4.0dip" 2130969911="@id/2131438958" 2130969918="@id/2131438959" 2130969936="@id/2131438958" 2130969941="@id/2131438958" style="@style/2132149423" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131438959" ="0.0dip" ="wrap_content" android:text="BNB" 2130969911="@id/2131438958" 2130969917="2131438103" 2130969941="@id/2131438958" style="@style/2132149454" />
+    <com.major.android.uikit.button.KitButton ="16.0sp" ="center" android:id="@id/2131438654" ="12.0dip" ="true" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" android:text="Primary Button" ="@font/2131296282" 2130969173="4" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438957" 2130969942="0.0" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="wrap_content" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView ="center_horizontal" android:id="@id/2131436761" ="24.0dip" ="24.0dip" ="8.0dip" ="5.0dip" />
+    <TextView ="10.0sp" ="center_horizontal" android:id="@id/title" ="wrap_content" ="wrap_content" ="1" ="false" ="@font/2131296271" />
+</LinearLayout>

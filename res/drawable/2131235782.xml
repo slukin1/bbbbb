@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="378.0dip" android:width="300.0dip" android:viewportWidth="300.0" android:viewportHeight="378.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/2131231528" android:pathData="M0,0h300v378h-300z" />
+    <group>
+        <clip-path android:pathData="M0,0h300v378h-300z" />
+        <path android:fillColor="#ff000000" android:pathData="M-32.004,-11.259a181.365,148.299 0,1 0,362.73 0a181.365,148.299 0,1 0,-362.73 0z" android:fillAlpha="0.01" />
+        <path android:fillColor="#00000000" android:pathData="M-32.004,-11.259a181.365,148.299 0,1 0,362.73 0a181.365,148.299 0,1 0,-362.73 0z" android:strokeColor="#ffeb566e" android:strokeWidth="1.0" />
+        <path android:fillColor="@drawable/2131231529" android:pathData="M-52.831,-32.567a201.855,178.787 0,1 0,403.71 0a201.855,178.787 0,1 0,-403.71 0z" />
+        <path android:fillColor="@drawable/2131231530" android:pathData="M306.242,79.547C267.55,117.659 211.448,141.627 149.025,141.627C89.07,141.627 34.945,119.517 -3.522,84C33.492,121.932 88.21,145.935 149.257,145.935C212.66,145.935 269.235,120.044 306.242,79.547Z" android:strokeAlpha="0.4" android:fillAlpha="0.4" android:fillType="evenOdd" />
+        <group>
+            <clip-path android:pathData="M306.242,79.547C267.55,117.659 211.448,141.627 149.025,141.627C89.07,141.627 34.945,119.517 -3.522,84C33.492,121.932 88.21,145.935 149.257,145.935C212.66,145.935 269.235,120.044 306.242,79.547Z" android:fillType="evenOdd" />
+        </group>
+    </group>
+    <path android:fillColor="@drawable/2131231531" android:pathData="M151.302,133m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    <path android:fillColor="#fff0b90b" android:pathData="M137.328,133L131.664,138.664L126,133L131.664,127.336L137.328,133ZM151,119.289L160.688,128.977L166.352,123.312L156.664,113.664L151,108L145.375,113.664L135.688,123.312L141.352,128.977L151,119.289ZM170.336,127.375L164.711,133L170.375,138.664L176,133L170.336,127.375ZM151,146.711L141.312,137.023L135.688,142.688L145.375,152.375L151,158L156.664,152.336L166.352,142.648L160.688,137.023L151,146.711ZM151,138.625L156.664,133L151,127.336L145.375,133L151,138.625Z" />
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438340" ="8.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="5.0dip" ="2.0dip" ="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131429455" ="16.0dip" ="4.0dip" ="@drawable/2131236741" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131429456" ="wrap_content" ="wrap_content" ="2.0dip" ="1" ="true" ="ltr" 2130969937="@id/2131429455" 2130969940="@id/2131429455" style="@style/2132149397" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/percentage" ="wrap_content" ="wrap_content" ="1" ="2.0dip" 2130969911="@id/2131429456" 2130969936="@id/2131429456" 2130969941="@id/2131429456" style="@style/2132149397" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131428262" ="wrap_content" ="wrap_content" ="1" 2130969937="@id/2131429456" 2130969940="@id/2131429456" style="@style/2132149394" />
+</androidx.constraintlayout.widget.ConstraintLayout>

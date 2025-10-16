@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/earn_sol_landing_what_is_bnsol" style="@style/2132149423" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/earn_sol_landing_unlocks_liquidity" style="@style/2132149355" />
+    <TextView ="@color/2131099787" android:id="@id/2131428816" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_sol_landing_learn_more" ="@dimen/2131166199" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131443639" ="wrap_content" ="wrap_content" ="40.0dip" style="@style/2132149423" />
+    <LinearLayout ="vertical" android:id="@id/2131436419" ="fill_parent" ="wrap_content" />
+    <TextView ="@color/2131099764" android:id="@id/2131444990" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/earn_bnsol_stake_pool_program" style="@style/2132149423" />
+    <include android:id="@id/2131449580" ="wrap_content" ="wrap_content" ="8.0dip" layout="@layout/2131629309" />
+    <TextView ="@color/2131099764" android:id="@id/2131444992" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/earn_sol_landing_audit_report" style="@style/2132149423" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429643" ="fill_parent" ="wrap_content" ="8.0dip">
+        <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432071" ="wrap_content" ="wrap_content" 2130969488="2131440560" 2130969489="0.0" 2130969490="@dimen/2131166286" 2130969491="2131438085" 2130969500="@dimen/2131166286" 2130969502="2131429442" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

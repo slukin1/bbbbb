@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="fill_parent" ="40.0dip" ="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131449469" ="0.0dip" ="40.0dip" ="1.0" ="15.0dip" />
+    <FrameLayout android:id="@id/2131431893" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="5.0dip">
+        <ImageView ="center" android:id="@id/2131433827" ="20.0dip" ="20.0dip" ="@drawable/2131237155" ="@null" 2130971375="@color/2131099764" />
+        <View ="end|center|top" android:id="@id/2131449405" ="@drawable/2131233357" ="6.0dip" ="6.0dip" />
+    </FrameLayout>
+</LinearLayout>

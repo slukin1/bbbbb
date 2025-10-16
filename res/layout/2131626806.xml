@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131438855" ="fill_parent" ="18.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tabLayout" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/2131448878" ="0.0dip" ="18.0dip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131447466" 2130969929="1.3" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099778" android:id="@id/2131448881" ="visible" ="wrap_content" ="18.0dip" android:text="@string/cash_account" ="4.0dip" ="locale" 2130969911="2131438103" 2130969918="@id/2131447466" 2130969929="1.3" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <ImageView android:id="@id/2131433428" ="18.0dip" ="18.0dip" 2130971077="@drawable/2131237003" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" ="end|center" android:id="@id/2131447466" ="false" ="0.0dip" ="18.0dip" android:text="@string/last_price" ="1" ="locale" ="12.0dip" ="113.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969929="1.2" 2130969936="@id/2131448878" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099785" ="end" ="end|center" android:id="@id/2131447345" ="98.0dip" ="wrap_content" android:text="@string/ms_chage_list_label" ="1" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131448878" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131448568" ="invisible" ="98.0dip" ="18.0dip" android:text="@string/launcher_vol_usd" ="locale" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

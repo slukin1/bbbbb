@@ -1,0 +1,38 @@
+.class public final synthetic Lo/setWalletType;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic d:Lcom/binance/dev/pay/c2c/fragment/SearchPayeeFragment2;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/binance/dev/pay/c2c/fragment/SearchPayeeFragment2;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/setWalletType;->d:Lcom/binance/dev/pay/c2c/fragment/SearchPayeeFragment2;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/setWalletType;->d:Lcom/binance/dev/pay/c2c/fragment/SearchPayeeFragment2;
+
+    invoke-static {v0}, Lcom/binance/dev/pay/c2c/fragment/SearchPayeeFragment2;->a(Lcom/binance/dev/pay/c2c/fragment/SearchPayeeFragment2;)Lkotlin/Unit;
+
+    move-result-object v0
+
+    return-object v0
+.end method

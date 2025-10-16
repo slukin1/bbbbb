@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="14.0dip" ="15.0dip" ="fill_parent" ="wrap_content" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/futures_open_order_chase_confirm_title" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445897" ="0.0dip" ="wrap_content" ="15.0dip" ="22.0dip" ="15.0dip" android:text="@string/futures_open_order_chase_confirm_desc" ="1.2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149355" />
+    <View android:id="@id/2131449204" ="@color/2131099751" ="0.0dip" ="0.5dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445897" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445898" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/futures_open_order_chase_confirm_tips" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131429375" 2130969940="@id/2131449204" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429375" ="wrap_content" ="wrap_content" ="15.0dip" 2130969835="2131429513" 2130969911="@id/2131445898" 2130969937="2131438103" 2130969941="@id/2131445898" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131445896" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445898" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="9.0dip" ="9.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="0.0dip" ="wrap_content" ="120.0" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvRanking" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="0.0dip" ="wrap_content" ="1" ="24.0dip" 2130969912="@id/2131442815" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442815" ="@drawable/2131236697" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="1" 2130969911="2131438103" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol" style="@style/2132149394" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="end" ="end" ="center_vertical" android:id="@id/2131444507" ="0.0dip" ="wrap_content" ="1" ="70.0" ="8.0dip" style="@style/2132149450" />
+    <TextView ="@color/2131099764" ="end" ="end" ="center_vertical" android:id="@id/2131445130" ="0.0dip" ="wrap_content" ="1" ="160.0" ="8.0dip" ="15.0dip" style="@style/2132149450" />
+</LinearLayout>

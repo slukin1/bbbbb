@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429776" ="fill_parent" ="40.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/cbHideOtherPairs" ="16.0dip" ="16.0dip" ="15.0dip" 2130969835="2131429513" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/tvHideOtherPair" ="wrap_content" ="wrap_content" ="5.0dip" ="5.0dip" android:text="@string/alert_hide_other_pairs" ="true" 2130969911="2131438103" 2130969936="@id/cbHideOtherPairs" 2130969941="2131438103" style="@style/2132149384" />
+        <ImageView android:id="@id/2131434112" ="16.0dip" ="16.0dip" ="@null" ="2.0dip" ="16.0dip" 2130969911="@id/cbHideOtherPairs" 2130969917="2131438103" 2130969936="@id/2131444373" 2130969941="@id/cbHideOtherPairs" 2130971077="@drawable/2131237911" 2130971375="@color/2131099738" />
+        <TextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131444373" ="wrap_content" ="wrap_content" ="1" ="8.0dip" 2130969905="true" 2130969911="@id/tvHideOtherPair" 2130969918="@id/2131434112" 2130969927="1.0" 2130969928="2131438085" 2130969936="@id/tvHideOtherPair" 2130969941="@id/tvHideOtherPair" style="@style/2132149384" />
+        <View android:id="@id/2131435682" ="0.0dip" ="0.0dip" 2130969911="@id/2131444373" 2130969917="@id/2131434112" 2130969937="@id/2131444373" 2130969941="@id/2131444373" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/2131449390" ="@color/2131099751" ="0.0dip" ="0.5dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429776" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439610" ="fill_parent" ="0.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449390" />
+    <include android:id="@id/2131435416" ="gone" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131629130" />
+    <include android:id="@id/2131435473" ="gone" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131629131" />
+</androidx.constraintlayout.widget.ConstraintLayout>

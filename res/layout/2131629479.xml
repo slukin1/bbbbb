@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@color/2131099804" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434658" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237095" 2130971375="@color/2131099738" />
+    <TextView ="12.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131436715" ="0.0dip" ="wrap_content" android:text="@string/c2c_notify_paid_tips" ="@font/2131296281" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131434658" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

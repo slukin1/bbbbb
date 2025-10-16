@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434282" ="96.0dip" ="96.0dip" ="16.0dip" ="@drawable/2131238406" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131444149" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/options_bbo_price_slippage_alert_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434282" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131444148" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/options_bbo_price_slippage_alert_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444149" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131102398" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="16.0dip" ="12.0dip" android:text="@string/confirm" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444148" 2130969965="@dimen/2131166188" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

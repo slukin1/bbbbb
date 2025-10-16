@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="270.0" android:toDegrees="270.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape ="ring" ="2.5" ="true" ="2.0dip">
+        <gradient ="?2130971004" ="?2130971004" ="false" ="0.0" ="sweep" />
+    </shape>
+</rotate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view ="center" android:id="@id/2131427543" ="wrap_content" ="fill_parent" class="androidx.appcompat.widget.ActivityChooserView$InnerLayout" style="?2130968625"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="center" android:id="@id/2131431649" ="?2130968587" ="12.0dip" ="2.0dip" ="12.0dip" ="2.0dip" ="true" ="true" ="wrap_content" ="fill_parent">
+        <ImageView ="center" android:id="@id/image" ="32.0dip" ="32.0dip" ="fitCenter" ="true" />
+    </FrameLayout>
+    <FrameLayout ="center" android:id="@id/2131430805" ="?2130968587" ="12.0dip" ="2.0dip" ="12.0dip" ="2.0dip" ="true" ="true" ="wrap_content" ="fill_parent">
+        <ImageView ="center" android:id="@id/image" ="32.0dip" ="32.0dip" ="fitCenter" ="true" />
+    </FrameLayout>
+</view>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" 2130971098="false" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.NestedCoordinatorLayout android:id="@id/2131430496" ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131449762" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131625974" />
+                <include android:id="@id/2131449781" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" layout="@layout/2131629577" />
+                <View ="fill_parent" ="1.0dip" ="23.0dip" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <com.binance.widget.tablayout.XTabLayout android:id="@id/2131449792" ="fill_parent" ="@dimen/2131166073" 2130969902="2131438344" 2130970220="2131439812" style="@style/2132148650" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449794" ="fill_parent" ="fill_parent" style="@style/2132148650" />
+        </com.binance.widget.viewpager2.NestedScrollableHost>
+    </com.binance.widget.NestedCoordinatorLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

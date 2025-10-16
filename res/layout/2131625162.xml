@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430904" ="@drawable/2131236008" ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="22.0dip" ="22.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433298" ="60.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235414" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131448850" ="wrap_content" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433298" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131448724" ="wrap_content" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448850" style="@style/2132149350" />
+    <TextView ="@color/2131099787" android:id="@id/2131448833" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/ocbs_see_our_suggested_banks" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448724" style="@style/2132149450" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428927" ="0.0dip" ="40.0dip" ="16.0dip" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448833" 2130969962="16.0dip" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428707" ="0.0dip" ="40.0dip" ="10.0dip" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428927" 2130971472="2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

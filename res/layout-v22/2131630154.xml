@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="44.0dip" ="@dimen/2131166184"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428078" ="16.0dip" ="16.0dip" />
+    <TextView ="@color/2131099764" android:id="@id/2131428072" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131428087" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131428067" ="0.0dip" ="wrap_content" ="1.0" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099787" android:id="@id/2131441760" ="wrap_content" ="wrap_content" android:text="@string/ms_trade_now" style="@style/2132149377" />
+</androidx.appcompat.widget.LinearLayoutCompat>

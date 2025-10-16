@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" ="fill_parent" ="52.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvDesc" ="0.0dip" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <RelativeLayout android:id="@id/2131435121" ="@drawable/kline_bg_set_other" ="110.0dip" ="30.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+        <androidx.cardview.widget.CardView android:id="@id/2131435124" ="12.0dip" ="12.0dip" ="true" ="11.0dip" ="true" 2130968911="#ff8b68c4" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439927" ="16.0dip" ="16.0dip" ="true" ="8.0dip" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

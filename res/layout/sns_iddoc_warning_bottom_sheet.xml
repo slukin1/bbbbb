@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sumsub.sns.core.widget.SNSBottomSheetView ="bottom" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="true" ="true" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium">
+        <com.sumsub.sns.core.widget.SNSBottomSheetHandleView android:id="@id/sns_divider" ="wrap_content" ="wrap_content" ="@null" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/sns_bg_rounded_divider" />
+        <com.sumsub.sns.core.widget.SNSSubtitle1TextView ="center" android:id="@id/sns_warning_title" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_small" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_small" ="gravity" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_divider" />
+        <ImageView android:id="@id/sns_warning_icon" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@null" ="@dimen/sns_margin_medium" 2130969937="2131438103" 2130969940="@id/sns_divider" 2130971077="@drawable/sns_ic_warning_triangle" 2130971375="?2130971002" />
+        <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_warning_message" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_small" ="@dimen/sns_margin_medium" 2130969917="2131438103" 2130969936="@id/sns_warning_icon" 2130969940="@id/sns_divider" />
+        <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_warning_primary_button" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_large" ="@dimen/sns_margin_medium_small" ="@dimen/sns_margin_medium_small" 2130969912="@id/sns_warning_secondary_button" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_warning_message" 2130969957="@dimen/sns_margin_small" />
+        <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_warning_secondary_button" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_margin_medium_small" ="@dimen/sns_margin_medium_small" 2130969912="@id/sns_powered" 2130969917="2131438103" 2130969937="2131438103" />
+        <include ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" layout="@layout/sns_layout_powered" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.sumsub.sns.core.widget.SNSBottomSheetView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448893" ="295.0dip" ="wrap_content" ="396.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131448899" ="@color/2131099685" ="fill_parent" ="wrap_content" ="5.0dip" ="@color/2131099685" 2130968912="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131448897" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" ="24.0dip" ="24.0dip">
+            <LinearLayout ="vertical" android:id="@id/2131448890" ="wrap_content" ="wrap_content">
+                <TextView ="20.0sp" ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/2131448895" ="wrap_content" ="wrap_content" ="24.0dip" ="@font/2131296267" />
+                <TextView ="14.0sp" ="@color/2131099764" ="center_horizontal" ="left" android:id="@id/2131448896" ="5.0dip" ="vertical" ="wrap_content" ="wrap_content" ="16.0dip" ="256.0dip" ="7" ="5.0dip" ="true" ="@font/2131296266" ="locale" ="gravity" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" />
+                <androidx.recyclerview.widget.RecyclerView ="center" android:id="@id/2131448898" ="24.0dip" ="gone" ="vertical" ="wrap_content" ="256.0dip" />
+            </LinearLayout>
+            <RelativeLayout ="center_horizontal" ="vertical" android:id="@id/2131448891" ="fill_parent" ="wrap_content" ="16.0dip" ="24.0dip">
+                <com.mpc.wallet.widget.uikit.KitButton ="end" ="center_horizontal" android:id="@id/2131448912" ="fill_parent" ="wrap_content" android:text="Ok" 2130969173="4" />
+                <com.mpc.wallet.widget.uikit.KitButton ="center_horizontal" android:id="@id/2131448913" ="fill_parent" ="wrap_content" ="10.0dip" android:text="Cancel" ="@id/2131448912" 2130969173="4" 2130971472="2131441186" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

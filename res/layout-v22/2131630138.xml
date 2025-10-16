@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131432903" ="fill_parent" ="50.0dip" android:text="@string/_history" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432899" ="16.0dip" ="16.0dip" ="none" ="fill_parent" ="fill_parent" ="@dimen/2131166188" />
+</LinearLayout>

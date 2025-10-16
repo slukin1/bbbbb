@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432961" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="44.0dip" ="@dimen/2131166184" ="@dimen/2131166170" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131100365" ="end" ="center" android:id="@id/2131443273" ="fill_parent" ="wrap_content" ="1" ="@font/2131296275" ="16.0dip" 2130969911="@id/2131432961" 2130969936="@id/2131432961" 2130969941="@id/2131432961" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439033" ="fill_parent" ="0.0dip" ="16.0dip" 2130969912="@id/2131442558" 2130969940="@id/2131443273" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442558" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_anti_scam_completed_hint" ="8.0dip" ="@font/2131296274" ="32.0dip" 2130969911="2131438103" 2130969912="@id/2131428630" 2130969937="2131438103" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428630" ="fill_parent" ="wrap_content" ="32.0dip" android:text="@string/c2c_mob_important_notice_goto_pexpay" 2130969911="2131438103" style="@style/2132148697" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/2131428631" ="gone" ="fill_parent" ="wrap_content" ="32.0dip" 2130969911="2131438103" 2130970039="true" 2130970043="@color/2131100035" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131445584" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/_all" ="@font/2131296273" ="15.0dip" ="@dimen/2131166170" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434318" ="gone" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/2131445584" 2130969917="2131438103" 2130969941="@id/2131445584" 2130971077="@drawable/2131237039" 2130971375="@color/2131099764" />
+    <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131445694" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/c2c_alert_payment_method_popular" ="@font/2131296273" ="15.0dip" ="@dimen/2131166247" 2130969937="2131438103" 2130969940="@id/2131445584" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131445694" />
+    <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131445586" ="4.0dip" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/c2c_order_detail_all_payment_method" ="@font/2131296273" ="15.0dip" 2130969937="2131438103" 2130969940="@id/recycler_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/withpersona/sdk2/inquiry/internal/TransitionWorker$DropdropElements1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/withpersona/sdk2/inquiry/internal/TransitionWorker;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DropdropElements1"
+.end annotation
+
+
+# virtual methods
+.method public abstract c(Ljava/lang/String;Ljava/lang/String;Lcom/withpersona/sdk2/inquiry/shared/inquiry_session/InquirySessionConfig;Lcom/withpersona/sdk2/inquiry/internal/TransitionWorker$TransitionData;)Lcom/withpersona/sdk2/inquiry/internal/TransitionWorker;
+.end method

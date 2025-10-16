@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/sns_phone_container" ="0.0dip" ="0.0dip" 2130969125="sns_phone,sns_icon" />
+    <ImageView android:id="@id/sns_document" ="wrap_content" ="wrap_content" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/sns_phone" ="wrap_content" ="wrap_content" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.735" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.77" />
+    <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_icon" ="wrap_content" ="wrap_content" ="@null" 2130969911="@id/sns_phone" 2130969917="@id/sns_phone" 2130969937="@id/sns_phone" 2130969941="@id/sns_phone" 2130969942="0.2" />
+</merge>

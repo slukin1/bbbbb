@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="vertical" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+        <Toolbar ="fill_parent" ="44.0dip" ="0.0dip" 2130969974="2131439795">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441619" ="?2130968587" ="12.0dip" ="12.0dip" ="12.0dip" ="12.0dip" ="visible" ="44.0dip" ="44.0dip" ="6.0dip" ="@dimen/2131166170" ="@dimen/2131166170" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/toolbar_title" ="wrap_content" ="44.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149427" />
+        </Toolbar>
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131438858" ="gone" ="fill_parent" ="wrap_content" 2130969940="@id/2131441619" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131439806" ="fill_parent" ="fill_parent" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131438859" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

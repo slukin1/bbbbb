@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440467" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/2131429735" ="@layout/2131628596" ="@id/2131429735" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131439417" ="@layout/2131625448" ="@id/2131439417" ="0.0dip" ="45.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429735" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439672" ="gone" ="0.0dip" ="0.0dip" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439417" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/margin_no_open_orders" ="4.0dip" 2130969314="@drawable/2131233601" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439417" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_copy_trading_tips" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/futures_let_top_traders" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_empty" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_copy_trading" ="@drawable/2131236717" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="wrap_content" ="28.0dip" ="8.0dip" android:text="@string/copy_trading" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_copy_trading_tips" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432640" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_copy_trading_tips,tv_copy_trading" />
+    <include android:id="@id/2131431353" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439417" layout="@layout/2131628595" />
+</androidx.constraintlayout.widget.ConstraintLayout>

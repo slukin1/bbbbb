@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131440611" ="fill_parent" ="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include ="64.0dip" ="64.0dip" layout="@layout/notification_template_icon_group" />
+    <include ="48.0dip" ="48.0dip" ="2.0dip" ="2.0dip" ="true" ="true" layout="@layout/notification_media_cancel_action" />
+    <include ="fill_vertical" ="fill_parent" ="wrap_content" ="64.0dip" ="@id/2131429254" ="64.0dip" ="@id/2131429254" layout="@layout/notification_template_lines_media" />
+    <LinearLayout ="horizontal" android:id="@id/2131437009" ="fill_parent" ="48.0dip" ="12.0dip" ="12.0dip" ="true" ="ltr" />
+    <ImageView android:id="@id/2131427506" ="?android:dividerHorizontal" ="fill_parent" ="1.0dip" ="@id/2131437009" />
+</RelativeLayout>

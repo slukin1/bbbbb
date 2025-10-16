@@ -1,0 +1,357 @@
+.class public Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;
+.super Lde/authada/org/bouncycastle/crypto/StreamBlockCipher;
+
+
+# instance fields
+.field private IV:[B
+
+.field private final blockSize:I
+
+.field private byteCount:I
+
+.field private final cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+.field private ofbOutV:[B
+
+.field private ofbV:[B
+
+
+# direct methods
+.method public constructor <init>(Lde/authada/org/bouncycastle/crypto/BlockCipher;I)V
+    .locals 2
+
+    .line 65354
+    invoke-direct {p0, p1}, Lde/authada/org/bouncycastle/crypto/StreamBlockCipher;-><init>(Lde/authada/org/bouncycastle/crypto/BlockCipher;)V
+
+    invoke-interface {p1}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->getBlockSize()I
+
+    move-result v0
+
+    shl-int/lit8 v0, v0, 0x3
+
+    if-gt p2, v0, :cond_0
+
+    const/16 v0, 0x8
+
+    if-lt p2, v0, :cond_0
+
+    rem-int/lit8 v1, p2, 0x8
+
+    if-nez v1, :cond_0
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    div-int/2addr p2, v0
+
+    iput p2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    invoke-interface {p1}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->getBlockSize()I
+
+    move-result p2
+
+    new-array p2, p2, [B
+
+    iput-object p2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->IV:[B
+
+    invoke-interface {p1}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->getBlockSize()I
+
+    move-result p2
+
+    new-array p2, p2, [B
+
+    iput-object p2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbV:[B
+
+    invoke-interface {p1}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->getBlockSize()I
+
+    move-result p1
+
+    new-array p1, p1, [B
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbOutV:[B
+
+    return-void
+
+    :cond_0
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "0FB"
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p2, " not supported"
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p2, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p2
+.end method
+
+
+# virtual methods
+.method public calculateByte(B)B
+    .locals 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lde/authada/org/bouncycastle/crypto/DataLengthException;,
+            Ljava/lang/IllegalStateException;
+        }
+    .end annotation
+
+    .line 65353
+    iget v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->byteCount:I
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbV:[B
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbOutV:[B
+
+    invoke-interface {v0, v2, v1, v3, v1}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->processBlock([BI[BI)I
+
+    :cond_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbOutV:[B
+
+    iget v2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->byteCount:I
+
+    add-int/lit8 v3, v2, 0x1
+
+    iput v3, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->byteCount:I
+
+    aget-byte v0, v0, v2
+
+    xor-int/2addr p1, v0
+
+    int-to-byte p1, p1
+
+    iget v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    if-ne v3, v0, :cond_1
+
+    iput v1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->byteCount:I
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbV:[B
+
+    array-length v3, v2
+
+    sub-int/2addr v3, v0
+
+    invoke-static {v2, v0, v2, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbOutV:[B
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbV:[B
+
+    array-length v3, v2
+
+    iget v4, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    sub-int/2addr v3, v4
+
+    invoke-static {v0, v1, v2, v3, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    :cond_1
+    return p1
+.end method
+
+.method public getAlgorithmName()Ljava/lang/String;
+    .locals 2
+
+    .line 65352
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    invoke-interface {v1}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->getAlgorithmName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "/OFB"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget v1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    shl-int/lit8 v1, v1, 0x3
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getBlockSize()I
+    .locals 1
+
+    .line 65351
+    iget v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    return v0
+.end method
+
+.method public init(ZLde/authada/org/bouncycastle/crypto/CipherParameters;)V
+    .locals 5
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/IllegalArgumentException;
+        }
+    .end annotation
+
+    .line 65350
+    instance-of p1, p2, Lde/authada/org/bouncycastle/crypto/params/ParametersWithIV;
+
+    if-eqz p1, :cond_2
+
+    check-cast p2, Lde/authada/org/bouncycastle/crypto/params/ParametersWithIV;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ParametersWithIV;->getIV()[B
+
+    move-result-object p1
+
+    array-length v0, p1
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->IV:[B
+
+    array-length v2, v1
+
+    const/4 v3, 0x0
+
+    if-ge v0, v2, :cond_0
+
+    array-length v0, v1
+
+    array-length v2, p1
+
+    sub-int/2addr v0, v2
+
+    array-length v2, p1
+
+    invoke-static {p1, v3, v1, v0, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    const/4 v0, 0x0
+
+    :goto_0
+    iget-object v1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->IV:[B
+
+    array-length v2, v1
+
+    array-length v4, p1
+
+    sub-int/2addr v2, v4
+
+    if-ge v0, v2, :cond_1
+
+    aput-byte v3, v1, v0
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    array-length v0, v1
+
+    invoke-static {p1, v3, v1, v3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    :cond_1
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->reset()V
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ParametersWithIV;->getParameters()Lde/authada/org/bouncycastle/crypto/CipherParameters;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_3
+
+    iget-object p1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    invoke-virtual {p2}, Lde/authada/org/bouncycastle/crypto/params/ParametersWithIV;->getParameters()Lde/authada/org/bouncycastle/crypto/CipherParameters;
+
+    move-result-object p2
+
+    goto :goto_1
+
+    :cond_2
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->reset()V
+
+    if-eqz p2, :cond_3
+
+    iget-object p1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    :goto_1
+    const/4 v0, 0x1
+
+    invoke-interface {p1, v0, p2}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->init(ZLde/authada/org/bouncycastle/crypto/CipherParameters;)V
+
+    :cond_3
+    return-void
+.end method
+
+.method public processBlock([BI[BI)I
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lde/authada/org/bouncycastle/crypto/DataLengthException;,
+            Ljava/lang/IllegalStateException;
+        }
+    .end annotation
+
+    .line 65349
+    iget v3, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move v2, p2
+
+    move-object v4, p3
+
+    move v5, p4
+
+    invoke-virtual/range {v0 .. v5}, Lde/authada/org/bouncycastle/crypto/StreamBlockCipher;->processBytes([BII[BI)I
+
+    iget p1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->blockSize:I
+
+    return p1
+.end method
+
+.method public reset()V
+    .locals 4
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->IV:[B
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->ofbV:[B
+
+    array-length v2, v0
+
+    const/4 v3, 0x0
+
+    invoke-static {v0, v3, v1, v3, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    iput v3, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->byteCount:I
+
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/modes/OFBBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    invoke-interface {v0}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->reset()V
+
+    return-void
+.end method

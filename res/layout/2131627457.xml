@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429561" ="gone" ="wrap_content" ="wrap_content" ="9.0dip" 2130969757="@dimen/2131166156" 2130969758="true" 2130969759="2131437069" 2130969911="@id/2131439490" 2130969937="2131438103" 2130969941="@id/2131439490" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439490" ="@drawable/2131236038" ="12.0dip" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969936="@id/2131429561" 2130969941="2131438103" 2130969961="@dimen/2131166184">
+        <ImageView android:id="@id/2131449299" ="16.0dip" ="16.0dip" 2130969911="@id/2131430860" 2130969937="2131438103" 2130969941="@id/2131430860" />
+        <TextView ="@color/2131099764" android:id="@id/2131430860" ="wrap_content" ="wrap_content" ="6.0dip" 2130969936="@id/2131449299" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099787" android:id="@id/2131432269" ="@drawable/2131234947" ="1.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="5.0dip" ="5.0dip" 2130969937="@id/2131430860" 2130969940="@id/2131430860" style="@style/2132149394" />
+        <TextView ="@color/2131099778" android:id="@id/2131438649" ="@drawable/2131235998" ="1.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="5.0dip" ="4.0dip" ="@color/2131099744" 2130969911="@id/2131432269" 2130969936="@id/2131432269" 2130969941="@id/2131432269" style="@style/2132149394" />
+        <TextView ="@color/2131099778" android:id="@id/2131432803" ="gone" ="wrap_content" ="wrap_content" android:text="@string/ms_alert_today_has_alert" ="4.0dip" 2130969911="@id/2131432269" 2130969936="@id/2131438649" 2130969941="@id/2131432269" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447143" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="@id/2131432269" 2130969940="@id/2131432269" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Space android:id="@id/2131428582" ="fill_parent" ="8.0dip" 2130969940="@id/2131439490" />
+</androidx.constraintlayout.widget.ConstraintLayout>

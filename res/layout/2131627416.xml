@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130970808="true" 2130970809="0.5" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131427758" ="invisible" ="fill_parent" ="fill_parent" 2130969347="@string/no_records_found" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440448" ="fill_parent" ="fill_parent" ="fitStart" 2130971077="@drawable/2131234946" />
+</com.facebook.shimmer.ShimmerFrameLayout>

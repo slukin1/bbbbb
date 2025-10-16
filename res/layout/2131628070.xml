@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235593" ="fill_parent" ="620.0dip" ="620.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131446582" ="wrap_content" ="50.0dip" android:text="@string/payment_checkout_payment_currency_order" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131446583" ="15.0dip" ="15.0dip" ="33.0dip" ="43.0dip" ="5.0dip" ="15.0dip" 2130969911="@id/2131446582" 2130969936="@id/2131446582" 2130969941="@id/2131446582" 2130971077="@drawable/2131237075" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131446581" ="15.0dip" ="50.0dip" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131446582">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" ="end" ="start" android:id="@id/tv_currencies" ="80.0dip" ="wrap_content" ="10.0dip" android:text="@string/payment_currencies" ="1" ="15.0dip" 2130969905="true" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" ="end" ="start" android:id="@id/2131445776" ="160.0dip" ="wrap_content" ="10.0dip" android:text="@string/wallet_crypto_allocation_chart_balance" ="1" ="10.0dip" 2130969905="true" 2130969936="@id/tv_currencies" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" android:id="@id/tv_top" ="0.0dip" ="wrap_content" android:text="@string/top" ="63.0dip" 2130969917="2131438103" 2130969941="@id/tv_currencies" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" android:id="@id/tv_drag" ="0.0dip" ="wrap_content" android:text="@string/payment_drag" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tv_currencies" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" android:id="@id/tv_select" ="gone" ="0.0dip" ="wrap_content" android:text="@string/c2c_module_select" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tv_currencies" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432648" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_select" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432677" ="visible" ="wrap_content" ="wrap_content" 2130969125="tv_drag, tv_top" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_order" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/tv_currencies" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

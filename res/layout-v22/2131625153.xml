@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427727" ="@drawable/2131232784" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131427725" ="fill_parent" ="0.0dip" ="1.0" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428764" ="0.0dip" ="wrap_content" android:text="@string/c2c_ad_preview" ="1.0" style="@style/2132148697" />
+        <androidx.legacy.widget.Space ="12.0dip" ="fill_parent" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428857" ="0.0dip" ="wrap_content" android:text="@string/c2c_mob_ad_post_p3_btn_post" ="1.0" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131435522" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <TextView ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" ="38.0dip" android:text="@string/ocbs_send_money_you_send" style="@style/2132149350" />
+    <LinearLayout ="center_horizontal" ="horizontal" ="wrap_content" ="wrap_content" ="5.0dip" ="ltr">
+        <TextView ="@color/2131099764" android:id="@id/2131427816" ="wrap_content" ="wrap_content" style="@style/2132148853" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131430162" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149446" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="center" ="center_horizontal" android:id="@id/2131440580" ="wrap_content" ="wrap_content" ="5.0dip" ="16.0dip" ="false" ="7.0dip" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131431405" ="@drawable/2131236004" ="12.0dip" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="#14707a8a" style="@style/2132149384" />
+    <LinearLayout ="vertical" android:id="@id/2131428508" ="@color/2131099800" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+        <FrameLayout android:id="@id/price" style="@style/2132148613">
+            <TextView android:text="@string/string_price" style="@style/2132148614" />
+            <TextView android:id="@id/2131438636" style="@style/2132148615" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131431720" style="@style/2132148613">
+            <TextView android:text="@string/fee" style="@style/2132148614" />
+            <TextView android:id="@id/2131431733" style="@style/2132148615" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131438972" style="@style/2132148613">
+            <TextView android:text="@string/ocbs_send_money_recipient_gets" style="@style/2132148614" />
+            <TextView android:id="@id/2131431781" style="@style/2132148615" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131430767" style="@style/2132148613">
+            <TextView android:text="@string/date" style="@style/2132148614" />
+            <TextView android:id="@id/2131430780" style="@style/2132148615" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131441833" style="@style/2132148613">
+            <TextView android:text="@string/ocbs_order_detail_transaction_id" style="@style/2132148614" />
+            <TextView android:id="@id/2131441834" style="@style/2132148615" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131449449" ="15.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/ocbs_send_money_view_receipt" ="false" ="8.0dip" ="@drawable/2131233333" style="@style/2132149374" />
+</LinearLayout>

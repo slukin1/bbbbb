@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434278" ="24.0dip" ="24.0dip" ="fitXY" 2130969911="@id/2131445409" 2130969937="2131438103" 2130969941="@id/2131445409" />
+    <TextView ="@color/2131099764" android:id="@id/2131445409" ="wrap_content" ="wrap_content" ="12.0dip" 2130969936="@id/2131434278" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131445411" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="@id/2131445409" 2130969940="@id/2131445409" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450303" ="gone" ="24.0dip" ="24.0dip" 2130969911="@id/2131445409" 2130969917="2131438103" 2130969941="@id/2131445409" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131445410" ="wrap_content" ="36.0dip" ="16.0dip" ="100.0dip" 2130969173="8.0" 2130969937="@id/2131445409" 2130969940="@id/2131445411" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

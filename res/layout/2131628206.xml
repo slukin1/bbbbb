@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/first" ="0.0dip" ="wrap_content" 2130969918="@id/second" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" 2130969947="500.0dip" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText ="center" android:id="@id/2131431856" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="1" ="number" ="actionNext" ="4.0dip" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/second" ="0.0dip" ="wrap_content" 2130969918="@id/third" 2130969929="1.0" 2130969936="@id/first" 2130969941="@id/first" 2130969947="500.0dip" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText ="center" android:id="@id/2131439868" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="1" ="number" ="actionNext" ="8.0dip" ="4.0dip" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/third" ="0.0dip" ="wrap_content" 2130969918="@id/2131432170" 2130969929="1.0" 2130969936="@id/second" 2130969941="@id/first" 2130969947="500.0dip" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText ="center" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="1" ="number" ="actionNext" ="8.0dip" ="4.0dip" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131432170" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/third" 2130969941="@id/first" 2130969947="500.0dip" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText ="center" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="1" ="number" ="actionNext" ="8.0dip" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

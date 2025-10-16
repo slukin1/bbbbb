@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_tops_chatrooms" ="1" style="@style/2132149463" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439633" ="fill_parent" ="wrap_content" ="15.0dip" />
+</LinearLayout>

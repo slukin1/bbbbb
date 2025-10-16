@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131443444" ="fill_parent" ="wrap_content" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="16.0dip" 2130969912="@id/2131428808" 2130969923="2131450408" 2130969940="@id/2131443444">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435194" ="fill_parent" ="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="vertical" android:id="@id/2131428808" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428807" ="fill_parent" ="wrap_content" android:text="@string/c2c_sheet_request_verification_btn_continue" style="@style/2132148692" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428809" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/c2c_sheet_request_verification_btn_filter_out" ="@font/2131296275" style="@style/2132148704" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

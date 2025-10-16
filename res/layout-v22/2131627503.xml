@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130971089="false" 2130971098="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131429820" ="fill_parent" ="fill_parent" ="never">
+        <FrameLayout ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435601" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="20.0dip" ="20.0dip" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131443168" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/placeholder" ="1" ="false" ="4.0dip" ="12.0dip" 2130969911="@id/ivLogo" 2130969918="@id/2131434271" 2130969936="@id/ivLogo" 2130969941="@id/ivLogo" style="@style/2132149463" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434271" ="@drawable/2131236716" ="60.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/ivLogo" 2130969917="2131438103" 2130969941="@id/ivLogo" 2130971077="@drawable/2131234963" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441492" ="wrap_content" ="wrap_content" ="24.0dip" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443168" style="@style/2132149384" />
+                <FrameLayout android:id="@id/2131432001" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131441492" 2130969941="@id/2131441492">
+                    <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099778" android:id="@id/2131450322" ="fill_parent" ="wrap_content" 2130969382="@color/2131099787" 2130969395="false" 2130969396="false" 2130969397="false" 2130969398="false" 2130969399="false" 2130969400="false" 2130969999="@dimen/2131166188" style="@style/2132149390" />
+                </FrameLayout>
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131444240" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/rank" 2130969937="@id/ivLogo" 2130969940="@id/2131432001" style="@style/2132149350" />
+                <TextView ="@color/2131099764" android:id="@id/2131444243" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="15.0dip" 2130969911="@id/2131444240" 2130969917="2131438103" 2130969941="@id/2131444240" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443679" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/market_cap" 2130969937="@id/ivLogo" 2130969940="@id/2131444240" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443682" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131443679" 2130969917="2131438103" 2130969936="@id/2131443679" 2130969941="@id/2131443679" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443680" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131443679" 2130969940="@id/2131443682" style="@style/2132149384" />
+                <LinearLayout ="horizontal" android:id="@id/2131431714" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443680">
+                    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" ="end" ="start" android:id="@id/2131443686" ="0.0dip" ="wrap_content" android:text="@string/market_detail_fully_diluted_market_cap" ="1" ="1.0" style="@style/2132149350" />
+                    <TextView ="@color/2131099764" ="end" android:id="@id/2131443688" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" ="6.0dip" style="@style/2132149450" />
+                </LinearLayout>
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443687" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="1" ="6.0dip" ="15.0dip" 2130969917="2131438103" 2130969927="1.0" 2130969940="@id/2131431714" 2130969946="2131450408" style="@style/2132149384" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443684" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/lite_kline_intro_market_dominance" 2130969937="@id/ivLogo" 2130969940="@id/2131443687" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443685" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131443684" 2130969917="2131438103" 2130969936="@id/2131443684" 2130969941="@id/2131443684" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131445382" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/market_token_volume" 2130969937="@id/ivLogo" 2130969940="@id/2131443684" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131445384" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131445382" 2130969917="2131438103" 2130969936="@id/2131445382" 2130969941="@id/2131445382" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131445383" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131445382" 2130969940="@id/2131445384" style="@style/2132149384" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131445370" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/market_token_vol_market_cap" 2130969937="@id/ivLogo" 2130969940="@id/2131445383" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131445371" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131445370" 2130969917="2131438103" 2130969936="@id/2131445370" 2130969941="@id/2131445370" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131442474" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/circulation_supply" 2130969937="@id/ivLogo" 2130969940="@id/2131445370" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433192" ="gone" ="16.0dip" ="16.0dip" 2130969911="@id/2131442476" 2130969918="@id/2131442476" 2130969941="@id/2131442476" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131442476" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="4.0dip" ="15.0dip" 2130969911="@id/2131442474" 2130969917="2131438103" 2130969941="@id/2131442474" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443726" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/max_supply" 2130969937="@id/ivLogo" 2130969940="@id/2131442474" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443728" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131443726" 2130969917="2131438103" 2130969936="@id/2131443726" 2130969941="@id/2131443726" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131445137" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/total_supply" 2130969937="@id/ivLogo" 2130969940="@id/2131443726" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131445139" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="4.0dip" ="6.0dip" ="15.0dip" 2130969905="true" 2130969911="@id/2131445137" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131445137" 2130969941="@id/2131445137" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131442563" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/market_detail_concentration" 2130969937="@id/ivLogo" 2130969940="@id/2131445137" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131442564" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131442563" 2130969917="2131438103" 2130969936="@id/2131442563" 2130969941="@id/2131442563" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443402" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/issue_date" 2130969937="@id/ivLogo" 2130969940="@id/2131442563" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443403" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131443402" 2130969917="2131438103" 2130969936="@id/2131443402" 2130969941="@id/2131443402" style="@style/2132149450" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443404" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/issue_price" 2130969937="@id/ivLogo" 2130969940="@id/2131443402" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443406" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/2131443404" 2130969917="2131438103" 2130969936="@id/2131443404" 2130969941="@id/2131443404" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443405" ="0.0dip" ="wrap_content" android:text="@string/placeholder" 2130969917="@id/2131443406" 2130969937="@id/2131443406" 2130969940="@id/2131443406" style="@style/2132149384" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/ttv_all_time_high" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/lite_kline_intro_all_time_high" 2130969937="@id/ivLogo" 2130969940="@id/2131443405" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/tv_all_time_high_value" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/ttv_all_time_high" 2130969917="2131438103" 2130969936="@id/ttv_all_time_high" 2130969941="@id/ttv_all_time_high" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/tv_all_time_high_estimate_value" ="0.0dip" ="wrap_content" android:text="@string/placeholder" 2130969917="@id/tv_all_time_high_value" 2130969937="@id/tv_all_time_high_value" 2130969940="@id/tv_all_time_high_value" style="@style/2132149384" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/tv_all_time_high_time" ="0.0dip" ="wrap_content" 2130969917="@id/tv_all_time_high_value" 2130969937="@id/tv_all_time_high_value" 2130969940="@id/tv_all_time_high_estimate_value" style="@style/2132149384" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432626" ="wrap_content" ="wrap_content" 2130969125="tv_all_time_high_time,tv_all_time_high_value,tv_all_time_high_estimate_value,ttv_all_time_high" />
+                <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/ttv_all_time_low" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/lite_kline_intro_all_time_low" 2130969937="@id/ivLogo" 2130969940="@id/tv_all_time_high_time" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/tv_all_time_low_value" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="6.0dip" ="15.0dip" 2130969911="@id/ttv_all_time_low" 2130969917="2131438103" 2130969936="@id/ttv_all_time_low" 2130969941="@id/ttv_all_time_low" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/tv_all_time_low_estimate_value" ="0.0dip" ="wrap_content" android:text="@string/placeholder" 2130969917="@id/tv_all_time_low_value" 2130969937="@id/tv_all_time_low_value" 2130969940="@id/tv_all_time_low_value" style="@style/2132149384" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/tv_all_time_low_time" ="0.0dip" ="wrap_content" 2130969917="@id/tv_all_time_low_value" 2130969937="@id/tv_all_time_low_value" 2130969940="@id/tv_all_time_low_estimate_value" style="@style/2132149384" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432627" ="wrap_content" ="wrap_content" 2130969125="tv_all_time_low_time,tv_all_time_low_value,tv_all_time_low_estimate_value,ttv_all_time_low" />
+                <TextView ="@color/2131099764" android:id="@id/2131445984" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/market_detail_coin_info_links" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tv_all_time_low_time" style="@style/2132149463" />
+                <LinearLayout android:id="@id/2131436426" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131445984">
+                    <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/lite_kline_intro_official_website" ="1.0" style="@style/2132149355" />
+                    <TextView ="@color/2131099764" android:id="@id/2131443896" ="wrap_content" ="wrap_content" android:text="@string/market_coin_official_website" style="@style/2132149450" />
+                </LinearLayout>
+                <TextView ="@color/2131099764" android:id="@id/2131445433" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/lite_kline_intro_whitepaper" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131436426" style="@style/2132149450" />
+                <LinearLayout android:id="@id/2131436173" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131445433">
+                    <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/market_coin_info_blockexplorer" ="1.0" style="@style/2132149355" />
+                    <TextView ="@color/2131099764" android:id="@id/2131442333" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/2131436330" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131436173">
+                    <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/market_coin_info_report" ="1.0" style="@style/2132149355" />
+                    <TextView ="@color/2131099764" android:id="@id/2131444439" ="wrap_content" ="wrap_content" android:text="@string/market_coin_research" style="@style/2132149450" />
+                </LinearLayout>
+                <TextView ="@color/2131099764" android:id="@id/2131443107" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/market_coin_financial" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131436330" style="@style/2132149450" />
+                <TextView ="@color/2131099764" android:id="@id/2131444699" ="gone" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/market_coin_info_social" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443107" style="@style/2132149463" />
+                <LinearLayout ="center_vertical" android:id="@id/2131436361" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131444699">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433280" ="24.0dip" ="24.0dip" />
+                    <TextView ="@color/2131099764" android:id="@id/2131444700" ="0.0dip" ="wrap_content" ="1.0" ="4.0dip" style="@style/2132149450" />
+                    <TextView ="@color/2131099778" android:id="@id/2131444698" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+                </LinearLayout>
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131444697" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="2" ="15.0dip" 2130969940="@id/2131436361" style="@style/2132149355" />
+                <LinearLayout ="center_vertical" android:id="@id/llGithubInfo" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131444697">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433225" ="@drawable/2131236698" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131233780" />
+                    <TextView ="@color/2131099764" android:id="@id/2131443211" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149450" />
+                    <TextView ="@color/2131099778" ="end" android:id="@id/2131443207" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149384" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/llGithubRepo" ="fill_parent" ="wrap_content" ="15.0dip" ="7.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/llGithubInfo">
+                    <TextView ="@color/2131099764" android:id="@id/2131443208" ="@drawable/2131236697" ="4.0dip" ="1.0dip" ="4.0dip" ="1.0dip" ="wrap_content" ="wrap_content" android:text="@string/market_coin_info_github_public" ="4.0dip" ="1.0dip" style="@style/2132149384" />
+                    <TextView ="@color/2131099764" ="end" android:id="@id/2131443210" ="wrap_content" ="wrap_content" ="1" ="4.0dip" style="@style/2132149355" />
+                </LinearLayout>
+                <TextView ="@color/2131099764" ="end" android:id="@id/tvGithubRepoDesc" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="3" ="15.0dip" 2130969940="@id/llGithubRepo" style="@style/2132149355" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432537" ="gone" ="wrap_content" ="wrap_content" 2130969125="llGithubInfo,llGithubRepo,tvGithubRepoDesc" />
+                <LinearLayout ="center" ="horizontal" android:id="@id/2131443384" ="fill_parent" ="wrap_content" ="15.0dip" ="40.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvGithubRepoDesc">
+                    <TextView ="@color/2131099764" android:id="@id/2131443383" ="wrap_content" ="wrap_content" android:text="@string/introduction" style="@style/2132149463" />
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" ="@drawable/2131237146" ="4.0dip" 2130971375="@color/2131099738" />
+                    <View ="0.0dip" ="wrap_content" ="1.0" />
+                    <TextView ="@color/2131099764" android:id="@id/2131443517" ="gone" ="wrap_content" ="wrap_content" android:text="@string/ms_learn_more" style="@style/2132149450" />
+                </LinearLayout>
+                <com.finance.framework.widget.expandable.ExpandableTextViewV3 android:id="@id/2131443385" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969392="10" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443384" />
+                <LinearLayout ="center_vertical" android:id="@id/2131436233" ="@drawable/2131236713" ="12.0dip" ="12.0dip" ="fill_parent" ="42.0dip" ="15.0dip" ="40.0dip" ="15.0dip" ="20.0dip" ="15.0dip" ="12.0dip" 2130969911="2131438103" 2130969940="@id/2131443385">
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099738" />
+                    <TextView ="wrap_content" ="wrap_content" android:text="@string/market_coin_info_problem" ="4.0dip" style="@style/2132149384" />
+                    <TextView ="@color/2131099787" android:id="@id/2131443084" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_submit_feedback" ="4.0dip" style="@style/2132149384" />
+                    <View ="0.0dip" ="wrap_content" ="1.0" />
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131435622" ="gone" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView ="96.0dip" ="96.0dip" ="100.0dip" 2130971077="@drawable/2131233601" />
+                <TextView ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/payment_no_data_found" style="@style/2132149450" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

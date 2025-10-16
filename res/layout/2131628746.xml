@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTime" ="0.0dip" 2130969918="@id/2131444666" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149453" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444666" ="5.0dip" ="5.0dip" ="wrap_content" ="18.0dip" android:text="@string/strategy_grid_orders_limit_buy" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429725" ="fill_parent" ="wrap_content" ="5.0dip" 2130969937="2131438103" 2130969940="@id/tvTime">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442380" android:text="@string/futures_grid_avg_price" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149458" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442381" 2130969917="2131438103" 2130969941="@id/2131442380" style="@style/2132149457" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442383" ="5.0dip" android:text="@string/spot_grid_executed" 2130969937="2131438103" 2130969940="@id/2131442380" style="@style/2132149458" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442384" 2130969917="2131438103" 2130969941="@id/2131442383" style="@style/2132149457" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442396" ="5.0dip" android:text="@string/spot_grid_total" 2130969937="2131438103" 2130969940="@id/2131442383" style="@style/2132149458" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442397" 2130969917="2131438103" 2130969941="@id/2131442396" style="@style/2132149457" />
+        <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131442385" ="5.0dip" android:text="@string/fee" 2130969937="2131438103" 2130969940="@id/2131442396" 2130970849="false" style="@style/2132149458" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442386" 2130969917="2131438103" 2130969941="@id/2131442385" style="@style/2132149457" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131429725" />
+</androidx.constraintlayout.widget.ConstraintLayout>

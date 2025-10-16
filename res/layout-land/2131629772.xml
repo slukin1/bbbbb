@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="400.0dip" ="fill_parent" style="@style/2132148644" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar ="center_vertical" android:id="@id/searchBar" ="fill_parent" ="wrap_content" ="15.0dip" 2130968908="true" 2130968909="@string/cancel" 2130968910="@drawable/2131237072" 2130969013="false" 2130969941="2131438103" 2130970759="@string/alpha_search_token_or_address" 2130971628="true" />
+    <com.finance.kit.framework.widget.KitNestedHorizontalScrollRecyclerView ="horizontal" android:id="@id/2131439579" ="15.0dip" ="15.0dip" ="false" ="0.0dip" ="28.0dip" ="8.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/searchBar" />
+    <include android:id="@id/2131449226" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439579" layout="@layout/2131629844" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439604" ="false" ="fill_parent" ="0.0dip" ="4.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969940="@id/2131449226" 2130969962="@dimen/2131166204" />
+    <com.finance.kit.framework.widget.KitEmptyViewLayout android:id="@id/2131431362" ="wrap_content" ="wrap_content" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449226" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131431950" ="gone" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/searchBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

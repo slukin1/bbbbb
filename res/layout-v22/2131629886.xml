@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <LinearLayout ="vertical" android:id="@id/2131436493" ="16.0dip" ="fill_parent" ="fill_parent">
+        <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/ms_withdraw_feedback_dialog_reason_title" style="@style/2132149450" />
+        <com.binance.hydrogen.widgets.layout.FlowLayout android:id="@id/2131438950" ="fill_parent" ="wrap_content" ="16.0dip" />
+        <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="9.0dip" android:text="@string/ms_withdraw_feedback_dialog_other_reason_title" style="@style/2132149450" />
+        <EditText ="16.0sp" ="top" android:id="@id/2131427914" ="12.0dip" ="12.0dip" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="5.0dip" ="16.0dip" ="72.0dip" android:hint="@string/ms_withdraw_feedback_dialog_optional_hint_text" ="1000" ="@dimen/2131166170" ="@dimen/2131166170" style="@style/2132150265" />
+        <Space android:id="@id/2131430679" ="fill_parent" ="0.0dip" ="16.0dip" ="10.0dip" ="1.0" />
+        <com.major.android.uikit.button.KitButton ="false" ="center" android:id="@id/confirm_btn" ="fill_parent" ="50.0dip" ="10.0dip" android:text="@string/ok" ="@id/2131430679" ="false" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970808="false" 2130970809="0.5">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131431885" ="gone" ="fill_parent" ="fill_parent">
+            <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441054" ="fill_parent" ="28.0dip" ="7.0dip" ="5.0dip" ="7.0dip" />
+            <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="fill_parent">
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449892" ="fill_parent" ="fill_parent" />
+            </com.binance.widget.viewpager2.NestedScrollableHost>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440122" ="@color/2131099685" ="fill_parent" ="fill_parent" ="15.0dip" ="20.0dip" ="15.0dip" ="fitXY" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

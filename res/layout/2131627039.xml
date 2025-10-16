@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432348" ="fill_parent" ="152.0dip" ="5.0dip" 2130969941="2131438103">
+        <com.fairy.lite.biz.funds.chart.LiteFundsLineChart android:id="@id/2131432340" ="fill_parent" ="fill_parent" 2130969940="@id/2131432370" />
+        <TextView ="@color/2131099778" ="center_horizontal" ="center" android:id="@id/2131432350" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" 2130969314="@drawable/2131238431" style="@style/2132149394" />
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436703" ="visible" ="40.0dip" ="40.0dip" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+    <TextView ="@color/2131099785" android:id="@id/funds_chart_date_one" ="wrap_content" ="wrap_content" ="8.0dip" ="15.0dip" 2130969928="2131440524" 2130969931="2131438103" 2130969934="@id/funds_chart_date_two" 2130969940="@id/2131432348" style="@style/2132149384" />
+    <TextView ="@color/2131099785" android:id="@id/funds_chart_date_two" ="wrap_content" ="wrap_content" 2130969928="2131440524" 2130969932="@id/funds_chart_date_one" 2130969934="@id/funds_chart_date_three" 2130969941="@id/funds_chart_date_one" style="@style/2132149386" />
+    <TextView ="@color/2131099785" android:id="@id/funds_chart_date_three" ="wrap_content" ="wrap_content" 2130969928="2131440524" 2130969932="@id/funds_chart_date_two" 2130969934="@id/funds_chart_date_four" 2130969941="@id/funds_chart_date_one" style="@style/2132149386" />
+    <TextView ="@color/2131099785" android:id="@id/funds_chart_date_four" ="wrap_content" ="wrap_content" ="14.0dip" 2130969928="2131440524" 2130969932="@id/funds_chart_date_three" 2130969935="2131438103" 2130969941="@id/funds_chart_date_one" style="@style/2132149386" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432342" ="invisible" ="wrap_content" ="wrap_content" 2130969125="funds_chart_date_one,funds_chart_date_two,funds_chart_date_three,funds_chart_date_four" />
+    <TextView ="@color/2131099764" android:id="@id/funds_chart_week" ="15.0dip" ="15.0dip" ="1.0dip" ="wrap_content" ="24.0dip" ="8.0dip" android:text="@string/wallet_overview_chart_week" 2130969918="@id/funds_chart_month" 2130969928="2131440523" 2130969937="2131438103" 2130969940="@id/2131432348" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/funds_chart_month" ="15.0dip" ="15.0dip" ="1.0dip" ="wrap_content" ="24.0dip" android:text="@string/wallet_overview_chart_month" 2130969918="@id/funds_chart_half_year" 2130969936="@id/funds_chart_week" 2130969941="@id/funds_chart_week" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/funds_chart_half_year" ="15.0dip" ="15.0dip" ="1.0dip" ="wrap_content" ="24.0dip" android:text="@string/lite_half_year" 2130969918="@id/funds_chart_year" 2130969936="@id/funds_chart_month" 2130969941="@id/funds_chart_week" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/funds_chart_year" ="15.0dip" ="15.0dip" ="1.0dip" ="wrap_content" ="24.0dip" android:text="@string/lite_all_year" 2130969917="2131438103" 2130969936="@id/funds_chart_half_year" 2130969941="@id/funds_chart_week" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432346" ="visible" ="wrap_content" ="wrap_content" 2130969125="funds_chart_week,funds_chart_month,funds_chart_half_year,funds_chart_year" />
+</androidx.constraintlayout.widget.ConstraintLayout>

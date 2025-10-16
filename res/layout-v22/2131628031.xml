@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@drawable/2131235573" ="15.0dip" ="15.0dip" ="fill_parent" ="500.0dip" ="500.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="15.0dip" ="15.0dip" ="20.0dip" ="50.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434802" ="15.0dip" ="15.0dip" ="20.0dip" ="50.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235636" />
+    <TextView ="@color/2131102397" ="center" android:id="@id/tv_title" ="0.0dip" ="0.0dip" android:text="@string/payment_live_campaign_rules" 2130969911="@id/2131434355" 2130969918="@id/2131434802" 2130969936="@id/2131434355" 2130969941="@id/2131434355" style="@style/2132149425" />
+    <com.bard.android.webview.BardWebView android:id="@id/2131450342" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/tv_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

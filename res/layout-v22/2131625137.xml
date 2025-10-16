@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236025" ="15.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" ="center_horizontal" android:id="@id/titleTv" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_feedback_reply_sheet_title" ="@font/2131296273" ="@dimen/2131166179" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430107" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166170" 2130969911="@id/titleTv" 2130969917="2131438103" 2130969941="@id/titleTv" 2130971077="@drawable/2131237100" />
+    <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131437409" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/titleTv" 2130970274="@color/2131099764" 2130970276="@string/c2c_feedback_reply_sheet_hint" 2130970278="500" 2130970280="200" 2130970282="false" 2130970283="true" 2130970284="false" 2130970285="false" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131439166" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131437409">
+        <View ="@drawable/2131235925" ="4.0dip" ="4.0dip" ="8.0dip" ="@color/2131099778" />
+        <TextView ="14.0sp" ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/c2c_feedback_reply_sheet_tips1" ="1.1" ="@font/2131296274" ="8.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131439167" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439166">
+        <View ="@drawable/2131235925" ="4.0dip" ="4.0dip" ="8.0dip" ="@color/2131099778" />
+        <TextView ="14.0sp" ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/c2c_feedback_reply_sheet_tips2" ="1.1" ="@font/2131296274" ="8.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428817" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_feedback_reply_sheet_leave" 2130969940="@id/2131439167" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

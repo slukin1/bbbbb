@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427923" ="@drawable/2131234887" ="0.5dip" ="48.0dip" ="48.0dip" ="99.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441316" ="wrap_content" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427923" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441253" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/spot_countdown_to_open_sublable" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441316" style="@style/2132149350" />
+    <LinearLayout ="center" ="vertical" android:id="@id/llHour" ="@drawable/2131234898" ="2.0dip" ="6.0dip" ="66.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewHour" ="wrap_content" ="wrap_content" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_count_down_hours" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/llMins" ="@drawable/2131234898" ="2.0dip" ="6.0dip" ="66.0dip" ="wrap_content" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewMinute" ="wrap_content" ="wrap_content" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_count_down_mins" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/llSecs" ="@drawable/2131234898" ="2.0dip" ="6.0dip" ="66.0dip" ="wrap_content" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewSecond" ="wrap_content" ="wrap_content" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_count_down_secs" style="@style/2132149384" />
+    </LinearLayout>
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432068" ="wrap_content" ="wrap_content" ="16.0dip" 2130969125="llHour,llMins,llSecs" 2130969490="16.0dip" 2130969491="2131440524" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441253" />
+</merge>

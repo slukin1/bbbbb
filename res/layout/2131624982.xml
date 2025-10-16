@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439482" ="visible" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441601" ="fill_parent" ="44.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="?2130968587" ="15.0dip" ="15.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441046" ="@drawable/2131236007" ="2.0dip" ="200.0dip" ="32.0dip" ="@color/2131099744" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449910" ="fill_parent" ="0.0dip" ="1.0" />
+    <include android:id="@id/2131428519" ="fill_parent" ="wrap_content" layout="@layout/2131624983" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sns_file_item" ="fill_parent" ="fill_parent">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/sns_image" ="@dimen/sns_icon_size_normal_large" ="@dimen/sns_icon_size_normal_large" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" ="centerCrop" ="@null" ="@dimen/sns_margin_small" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_start_icon" ="@dimen/sns_icon_size_normal" ="@dimen/sns_icon_size_normal" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" ="@drawable/sns_ic_attachment" ="center" 2130969911="2131438103" 2130969918="@id/sns_text" 2130969928="2131438085" 2130969936="@id/sns_image" 2130969941="2131438103" />
+        <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_text" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" 2130969911="2131438103" 2130969918="@id/sns_end_container" 2130969936="@id/sns_start_icon" 2130969941="2131438103" />
+        <FrameLayout android:id="@id/sns_end_container" ="@color/sns_transparent" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_end_icon" ="@drawable/sns_bg_image_button" ="gone" ="@dimen/sns_icon_size_normal" ="@dimen/sns_icon_size_normal" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" ="center" />
+            <com.sumsub.sns.core.widget.SNSProgressBarView android:id="@id/sns_progress_bar" ="gone" ="@dimen/sns_progress_bar_size_small" ="@dimen/sns_progress_bar_size_small" style="?android:progressBarStyle" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.sumsub.sns.core.widget.SNSTextView android:id="@id/sns_file_error" ="@dimen/sns_margin_small" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" 2130969940="@id/sns_file_item" 2130971053="?2130969069" />
+</merge>

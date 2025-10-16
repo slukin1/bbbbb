@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430934" ="@drawable/2131236021" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131433312" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" ="14.0dip" ="@null" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    </FrameLayout>
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/recurring_buy_confirm_change" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tv_amount_title" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/recurring_buy_amount" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149350" />
+    <LinearLayout ="center" android:id="@id/2131436448" ="fill_parent" ="wrap_content" ="5.0dip" 2130969940="@id/tv_amount_title">
+        <TextView ="@color/2131099764" android:id="@id/tv_amount" ="wrap_content" ="wrap_content" 2130969918="@id/2131445655" 2130969937="2131438103" 2130969940="@id/tv_amount_title" style="@style/2132149419" />
+        <TextView ="@color/2131099764" android:id="@id/2131445655" ="wrap_content" ="wrap_content" ="6.0dip" 2130969911="@id/tv_amount" style="@style/2132149450" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131447649" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/recurring_buy_repeat_on" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436448" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447648" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131447649" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447111" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/recurring_buy_next_payment_date" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131447649" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447112" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131447111" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131445900" ="fill_parent" ="wrap_content" ="25.0dip" android:text="@string/recurring_buy_check_detail" ="15.0dip" ="15.0dip" 2130969940="@id/2131447111" style="@style/2132149384" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428496" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969173="4" 2130969940="@id/2131445900" />
+</androidx.constraintlayout.widget.ConstraintLayout>

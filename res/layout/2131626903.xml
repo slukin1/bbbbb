@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132149361" />
+    <TextView ="@color/2131099778" android:id="@id/tvPercent" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131445312" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132149361" />
+</LinearLayout>

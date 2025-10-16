@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429774" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/ivToken" ="34.0dip" ="34.0dip" 2130969616="2" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445048" ="0.0dip" ="wrap_content" ="10.0dip" ="10.0dip" 2130969912="@id/2131445045" 2130969918="@id/2131434218" 2130969936="@id/ivToken" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131445045" ="0.0dip" ="wrap_content" ="2.0dip" ="1" 2130969911="2131438103" 2130969917="@id/2131445048" 2130969937="@id/2131445048" 2130969940="@id/2131445048" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434218" ="gone" ="24.0dip" ="24.0dip" ="fitCenter" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237037" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

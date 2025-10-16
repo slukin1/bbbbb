@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="@drawable/2131235989" ="10.0dip" ="10.0dip" ="fill_parent" ="64.0dip" ="@color/2131099712" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445784" ="wrap_content" ="wrap_content" ="false" ="ltr" 2130969912="@id/2131445887" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447547" ="wrap_content" ="wrap_content" ="false" ="ltr" ="2.0dip" 2130969911="@id/2131445784" 2130969936="@id/2131445784" 2130969941="@id/2131445784" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445887" ="wrap_content" ="wrap_content" ="3.0dip" 2130969911="2131438103" 2130969937="@id/2131445784" 2130969940="@id/2131445784" style="@style/2132149397" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429379" ="false" ="20.0dip" ="20.0dip" 2130969758="true" 2130969759="2131437069" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

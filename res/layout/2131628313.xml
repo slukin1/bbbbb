@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="vertical" android:id="@id/2131431955" ="fill_parent" ="fill_parent">
+        <TextView ="14.0sp" ="bold" ="#ff848e9c" ="center_horizontal" ="center_horizontal" android:id="@id/tvEmpty" ="visible" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238419" />
+    </FrameLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436492" ="fill_parent" ="fill_parent">
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441073" ="fill_parent" ="wrap_content" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131430437" ="fill_parent" ="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

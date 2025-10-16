@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText ="@color/2131099764" ="@color/2131099738" android:id="@id/edit_text" ="@drawable/2131233711" ="0.0dip" ="40.0dip" ="4.0dip" ="1" ="numberDecimal" ="10.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448476" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/edit_text" 2130969918="@id/2131446962" 2130969941="@id/edit_text" 2130969958="@dimen/2131166170" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131446962" ="gone" ="wrap_content" ="0.0dip" android:text="@string/finance_slide_view_max" ="12.0dip" 2130969911="@id/edit_text" 2130969917="@id/edit_text" 2130969941="@id/edit_text" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_tips" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/edit_text" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_error_tips" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_tips" style="@style/2132149384" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/slider" ="18.0dip" ="10.0dip" ="0.0dip" ="wrap_content" ="0.0dip" 2130969686="100.0" 2130969687="0.0" 2130969703="5" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_error_tips" />
+</merge>

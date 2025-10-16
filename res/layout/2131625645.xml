@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438582" ="fill_parent" ="0.0dip" 2130969912="@id/2131428572" 2130969937="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="vertical" android:id="@id/2131428572" ="@color/2131100528" ="fill_parent" ="wrap_content" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+        <com.binance.c2c.advertisement.view.AdShowFeeView android:id="@id/2131449683" ="fill_parent" ="wrap_content" />
+        <LinearLayout ="horizontal" android:id="@id/2131429312" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="8.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429313" ="18.0dip" ="18.0dip" ="2.0dip" />
+            <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" ="fill_parent" ="wrap_content" android:text="@string/c2c_cash_post_agree_tips" ="@font/2131296274" ="8.0dip" />
+        </LinearLayout>
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131448002" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_mod_enhance_safety_security_your_assets" ="@font/2131296274" ="16.0dip" ="16.0dip" />
+        <LinearLayout ="horizontal" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131438620" ="gone" ="0.0dip" ="wrap_content" android:text="@string/c2c_mob_ad_post_p2_btn_previous" ="1.0" ="8.0dip" style="@style/2132148697" />
+            <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131437537" ="0.0dip" ="wrap_content" android:text="@string/_next" ="1.0" style="@style/2132148692" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

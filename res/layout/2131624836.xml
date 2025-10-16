@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435641" ="@drawable/2131236698" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="start|center|top" android:id="@id/2131431514" ="@null" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" ="10.0dip" ="4" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131448046" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969940="@id/2131431514" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099863" android:id="@id/tv_error_tips" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/copy_trading_introduction_edit_error" 2130969937="2131438103" 2130969940="@id/2131435641" style="@style/2132149384" />
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/_confirm" 2130969940="@id/tv_error_tips" />
+</androidx.constraintlayout.widget.ConstraintLayout>

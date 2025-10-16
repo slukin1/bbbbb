@@ -1,0 +1,38 @@
+.class public final synthetic Lo/TradingPositionVOCreator;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lcom/binance/content/data/FeedVideoVO;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/binance/content/data/FeedVideoVO;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/TradingPositionVOCreator;->a:Lcom/binance/content/data/FeedVideoVO;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/TradingPositionVOCreator;->a:Lcom/binance/content/data/FeedVideoVO;
+
+    invoke-static {v0}, Lcom/binance/content/internal/video/content/viewmodel/VideoDetailViewModel$tryGetVideoDetailFromNetwork$1;->d(Lcom/binance/content/data/FeedVideoVO;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

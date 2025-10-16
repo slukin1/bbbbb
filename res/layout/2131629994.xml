@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131428118" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131428109" ="fill_parent" ="280.0dip" layout="@layout/2131629900" />
+    <include android:id="@id/2131430644" ="fill_parent" ="290.0dip" layout="@layout/2131629932" />
+    <include android:id="@id/2131430714" ="fill_parent" ="wrap_content" layout="@layout/2131629934" />
+    <include android:id="@id/2131438511" ="fill_parent" ="280.0dip" layout="@layout/2131630152" />
+    <include android:id="@id/2131428094" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" layout="@layout/2131629898" />
+    <include android:id="@id/2131438497" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" layout="@layout/2131630151" />
+    <include android:id="@id/2131431661" ="fill_parent" ="wrap_content" layout="@layout/2131630157" />
+</LinearLayout>

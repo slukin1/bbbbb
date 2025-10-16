@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.KitMaxHeightLinearLayout ="vertical" android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" 2130970192="0" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/_filter" 2130969940="@id/2131435619" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439818" ="fill_parent" ="0.0dip" ="1.0" 2130969912="@id/btn_reset" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448000" ="0.0dip" ="wrap_content" android:text="@string/strategy_symbol_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447742" ="@drawable/2131236700" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/_all" ="10.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448000" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@drawable/2131237003" ="10.0dip" 2130969911="@id/2131447742" 2130969917="@id/2131447742" 2130969941="@id/2131447742" 2130971375="@color/2131099738" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitFlexBoxChoiceView android:id="@id/2131431713" ="fill_parent" ="wrap_content" ="20.0dip" 2130969437="false" 2130969438="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447742" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitFlexBoxChoiceView android:id="@id/2131431712" ="fill_parent" ="wrap_content" ="20.0dip" 2130969437="false" 2130969438="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431713" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitFlexBoxChoiceView android:id="@id/2131431709" ="fill_parent" ="wrap_content" ="20.0dip" 2130969437="false" 2130969438="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431712" />
+            <LinearLayout ="center_vertical" android:id="@id/2131435723" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/2131431709">
+                <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429427" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132148665" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTrailing" ="wrap_content" ="wrap_content" android:text="@string/strategy_trailing" ="4.0dip" style="@style/2132149355" />
+            </LinearLayout>
+            <include android:id="@id/2131435605" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131435723" layout="@layout/2131628764" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="horizontal" ="15.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_reset" ="fill_parent" ="wrap_content" android:text="@string/reset" ="1.0" 2130969911="2131438103" 2130969918="@id/btn_confirm" 2130969937="2131438103" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" android:text="@string/confirm" ="1.0" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/btn_reset" style="@style/2132148692" />
+    </LinearLayout>
+</com.finance.kit.framework.widget.KitMaxHeightLinearLayout>

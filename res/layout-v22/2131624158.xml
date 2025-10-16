@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131435062" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969838="@drawable/2131236624" 2130969940="@id/2131441601" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432570" ="wrap_content" ="wrap_content" 2130969125="tvPrincipalAmountTitle,tvPrincipalAmount,tvEarnedInterestTitle,tvEarnedInterestAmount" />
+    <TextView ="@color/2131099778" android:id="@id/tvEstRewardLabel" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_est_total_reward" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444346" style="@style/2132149350" />
+    <TextView android:id="@id/tvEstReward" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/tvEstRewardLabel" 2130969917="2131438103" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432524" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvEstRewardLabel,tvEstReward" />
+    <TextView ="@color/2131099764" android:id="@id/2131444347" ="0.0dip" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/redemption_amount" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435062" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvPrincipalAmountTitle" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_principal_amount" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131444346" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvPrincipalAmount" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/tvPrincipalAmountTitle" 2130969917="2131438103" 2130969941="@id/tvPrincipalAmountTitle" style="@style/2132149355" />
+    <TextView ="@color/2131099778" android:id="@id/tvEarnedInterestTitle" ="wrap_content" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/earn_earned_interest" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/tvPrincipalAmount" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvEarnedInterestAmount" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/tvEarnedInterestTitle" 2130969917="2131438103" 2130969941="@id/tvEarnedInterestTitle" style="@style/2132149355" />
+    <TextView ="@color/2131099764" android:id="@id/2131444346" ="0.0dip" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444347" style="@style/2132149419" />
+    <View android:id="@id/2131449148" ="0.0dip" ="48.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/divider2" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvEarnedInterestAmount,tvEstReward" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider2" ="fill_parent" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131428303" />
+    <TextView ="@color/2131099778" android:id="@id/2131443003" ="wrap_content" ="wrap_content" android:text="@string/lending_redeem_succeed_tips2" ="12.0dip" 2130969911="@id/2131449148" 2130969928="2131440523" 2130969937="@id/2131449148" 2130969941="@id/2131449148" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443002" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="@id/2131443003" 2130969917="@id/2131449148" 2130969941="@id/2131443003" style="@style/2132149463" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148691" />
+    <com.major.android.uikit2.divider.KitDivider ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" 2130969912="@id/2131428732" />
+</androidx.constraintlayout.widget.ConstraintLayout>

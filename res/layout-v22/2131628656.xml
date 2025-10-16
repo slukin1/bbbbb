@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439479" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131444976" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/futures_order_market_type_price_deviate_tips" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131444976" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443966" ="wrap_content" ="wrap_content" 2130969911="@id/tvSymbol" 2130969917="2131438103" 2130969941="@id/tvSymbol" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/_price" 2130969937="2131438103" 2130969940="@id/tvSymbol" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvPriceValue" ="wrap_content" ="wrap_content" 2130969911="@id/tvPrice" 2130969917="2131438103" 2130969941="@id/tvPrice" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/_amount" 2130969937="2131438103" 2130969940="@id/tvPrice" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvAmountValue" ="wrap_content" ="wrap_content" 2130969911="@id/tvAmount" 2130969917="2131438103" 2130969941="@id/tvAmount" style="@style/2132149450" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428716" ="0.0dip" ="wrap_content" ="25.0dip" android:text="@string/_cancel" 2130969173="4" 2130969918="@id/2131428732" 2130969937="2131438103" 2130969940="@id/tvAmount" 2130970889="2131437069" 2130971472="2" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="25.0dip" android:text="@string/_confirm" ="15.0dip" 2130969173="4" 2130969917="2131438103" 2130969936="@id/2131428716" 2130969940="@id/tvAmount" 2130970889="2131437069" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

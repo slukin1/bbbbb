@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233017" ="fill_parent" ="wrap_content" ="16.0dip" ="12.0dip" ="16.0dip" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131434440" ="20.0dip" ="20.0dip" ="18.0dip" ="centerCrop" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233007" 2130971180="@null" />
+    <TextView ="@color/2131102398" android:id="@id/2131445989" ="wrap_content" ="wrap_content" ="17.0dip" ="8.0dip" 2130969936="@id/2131434440" 2130969941="2131438103" style="@style/2132149346" />
+    <TextView ="@color/2131102769" android:id="@id/2131445977" ="wrap_content" ="wrap_content" ="20.0dip" ="4.0dip" 2130969936="@id/2131445989" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131102769" android:id="@id/2131448585" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/convert_funding_wallet_name" 2130969937="@id/2131434440" 2130969940="@id/2131434440" style="@style/2132149384" />
+    <TextView ="@color/2131102398" android:id="@id/2131448586" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969941="@id/2131448585" style="@style/2132149350" />
+    <TextView ="@color/2131102769" android:id="@id/2131448587" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969940="@id/2131448586" style="@style/2132149384" />
+    <TextView android:id="@id/2131448591" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_cryptobox_spot_wallet" ="12.0dip" 2130969937="@id/2131434440" 2130969940="@id/2131448587" style="@style/2132149384" />
+    <TextView ="@color/2131102398" android:id="@id/2131448592" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969941="@id/2131448591" style="@style/2132149350" />
+    <TextView ="@color/2131102769" ="end" android:id="@id/2131448593" ="20.0dip" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969940="@id/2131448592" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

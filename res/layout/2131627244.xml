@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" android:id="@id/indicator_container" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/2131440827" ="none" ="0.0dip" ="fill_parent" ="1.0" ="never">
+        <LinearLayout ="horizontal" android:id="@id/2131440825" ="8.0dip" ="8.0dip" ="wrap_content" ="fill_parent">
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131443633" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_sma" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131442917" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_ema" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131442336" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_boll" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131444523" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="SAR" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131442268" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="AVL" style="@style/2132149377" />
+            <View ="@color/2131099751" ="0.5dip" ="fill_parent" ="7.0dip" ="10.0dip" ="7.0dip" ="10.0dip" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/tvVol" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_vol" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131443634" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_macd" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131444503" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_rsi" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131443429" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="@string/kv_kdj" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131443891" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="OBV" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131445463" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="WR" style="@style/2132149377" />
+            <TextView ="@color/2131102990" ="center" android:id="@id/2131444787" ="7.0dip" ="7.0dip" ="wrap_content" ="fill_parent" android:text="StochRSI" style="@style/2132149377" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <androidx.appcompat.widget.AppCompatImageView ="end" ="20.0dip" ="fill_parent" ="@color/2131100905" ="-20.0dip" 2130971077="@drawable/2131233484" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131433083" ="?2130970780" ="4.0dip" ="24.0dip" ="24.0dip" ="centerInside" ="10.0dip" ="11.0dip" 2130971077="@drawable/2131237514" />
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131448294" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/twap_coin_total_size" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131448295" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131446515" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/twap_detail_fill_left" 2130969937="2131438103" 2130969940="@id/2131448294" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131446516" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131448295" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tv_avg_price_title" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/twap_history_avgprice" 2130969937="2131438103" 2130969940="@id/2131446515" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131445730" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131446516" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131448338" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/twap_detail_totalamt" 2130969937="2131438103" 2130969940="@id/tv_avg_price_title" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131448339" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131445730" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131446773" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/ms_market_filter_last_price" 2130969937="2131438103" 2130969940="@id/2131448338" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131446774" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131448339" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tv_reduce_only_title" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/reduce_only" 2130969937="2131438103" 2130969940="@id/2131446773" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tv_reduce_only_value" ="wrap_content" ="wrap_content" ="18.0dip" 2130969917="2131438103" 2130969940="@id/2131446774" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131446779" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/twap_lasting" 2130969937="2131438103" 2130969940="@id/tv_reduce_only_title" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131446780" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/tv_reduce_only_value" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131448297" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/twap_total_time" 2130969937="2131438103" 2130969940="@id/2131446779" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131448298" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131446780" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131448065" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/futures_grid_running_time" 2130969937="2131438103" 2130969940="@id/2131448297" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131448066" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131448298" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447930" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/spot_grid_strategy_number" 2130969937="2131438103" 2130969940="@id/2131448065" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447931" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969940="@id/2131448066" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

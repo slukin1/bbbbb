@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout android:id="@id/2131439418" ="fill_parent" ="fill_parent" xmlns:ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" android:id="@id/tv_empty" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/margin_no_open_orders" ="10.0dip" 2130969314="@drawable/2131233809" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131439672" style="@style/2132149384" />
+    <ViewStub android:id="@id/2131432850" ="@layout/2131625448" ="@id/2131432850" ="fill_parent" ="45.0dip" ="@id/2131435624" 2130968629="1002" />
+    <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131439672" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432850" />
+    <ViewStub android:id="@id/2131429856" ="@layout/2131625925" ="@id/2131429856" ="fill_parent" ="wrap_content" ="@id/2131432850" 2130968629="1002" />
+    <com.finance.futures.common.framework.widget.FutureNewUserOOPView android:id="@id/2131449133" ="fill_parent" ="wrap_content" 2130968629="1002" 2130969941="2131438103" />
+</com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout>

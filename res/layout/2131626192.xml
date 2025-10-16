@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="15.0dip" ="16.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131441475" ="fill_parent" ="wrap_content" android:text="@string/lite_ms_market_welcome" 2130969941="2131438103" style="@style/2132149451" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/titleTv" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/home_register_reward_tip" ="3" 2130969918="@id/2131436761" 2130969937="2131438103" 2130969940="@id/2131441475" style="@style/2132149420" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131436729" ="wrap_content" ="36.0dip" ="8.0dip" ="165.0dip" 2130969937="2131438103" 2130969940="@id/titleTv" />
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436761" ="82.0dip" ="82.0dip" 2130969911="@id/2131436729" 2130969917="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

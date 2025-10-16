@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="@color/2131099685" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="wrap_content" ="12.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131430454" ="wrap_content" ="wrap_content" android:text="@string/_you_will_get" ="true" style="@style/2132149350" />
+        <RelativeLayout android:id="@id/2131430457" ="wrap_content" ="wrap_content" ="4.0dip" ="@id/2131430454" ="true">
+            <TextView ="@color/2131099764" android:id="@id/2131430472" ="wrap_content" ="wrap_content" style="@style/2132149419" />
+            <TextView ="@color/2131099764" android:id="@id/2131430465" ="wrap_content" ="wrap_content" ="@id/2131430472" ="4.0dip" ="@id/2131430472" style="@style/2132149419" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441712" ="wrap_content" ="wrap_content" ="@id/2131430472" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <View android:id="@id/2131431032" ="24.0dip" ="@id/2131430457" style="@style/2132148664" />
+    </RelativeLayout>
+    <RelativeLayout ="vertical" ="fill_parent" ="wrap_content" ="24.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131430473" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/approx_bnb_value" ="15.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131430471" ="wrap_content" ="wrap_content" ="8.0dip" ="15.0dip" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131430452" ="wrap_content" ="wrap_content" ="@id/2131430471" ="15.0dip" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131430479" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/fee" ="@id/2131430452" ="15.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131430480" ="wrap_content" ="wrap_content" ="16.0dip" ="@id/2131430452" ="15.0dip" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131430455" ="wrap_content" ="wrap_content" ="8.0dip" ="@id/2131430480" ="15.0dip" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131442568" ="fill_parent" ="48.0dip" ="24.0dip" ="16.0dip" android:text="@string/confirm" ="false" ="15.0dip" ="15.0dip" style="@style/2132148691" />
+</LinearLayout>

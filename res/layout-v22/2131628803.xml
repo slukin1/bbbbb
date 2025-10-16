@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="false" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441068" ="@drawable/2131236710" ="2.0dip" ="2.0dip" ="2.0dip" ="2.0dip" ="fill_parent" ="wrap_content" ="2.0dip" ="2.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.finance.commonbusiness.framework.widget.KitTwoHintEditText android:id="@id/2131431473" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441068" 2130971150="@string/futures_grid_stop_loss" />
+    <com.finance.commonbusiness.framework.widget.KitTwoHintEditText android:id="@id/2131431485" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431473" 2130971150="@string/futures_grid_take_profit" />
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131440129" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" 2130968684="@null" 2130969912="@id/2131431473" 2130969917="@id/2131431473" 2130969937="@id/2131431473" 2130970002="@null" />
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131440130" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" 2130968684="@null" 2130969912="@id/2131431485" 2130969917="@id/2131431485" 2130969937="@id/2131431485" 2130970002="@null" />
+</merge>

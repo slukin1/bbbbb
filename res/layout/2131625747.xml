@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="vertical" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="4.0dip">
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131444032" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_filter_payment_method" ="@font/2131296274" />
+        <androidx.legacy.widget.Space ="0.0dip" ="wrap_content" ="1.0" />
+        <View android:id="@id/2131438155" ="#ff0ecb81" ="2.0dip" ="6.0dip" />
+        <TextView ="12.0sp" ="@color/2131099764" ="end|center" ="center_vertical" android:id="@id/2131438168" ="wrap_content" ="wrap_content" ="@font/2131296274" ="ltr" ="4.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433952" ="gone" ="12.0dip" ="12.0dip" ="4.0dip" 2130971077="@drawable/2131237319" 2130971375="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131439110" ="gone" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="0.0dip" ="wrap_content" ="1.0">
+            <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131439111" ="wrap_content" ="wrap_content" android:text="@string/c2c_buyer_ref_msg" ="@font/2131296266" 2130969937="2131438103" 2130969941="2131438103" />
+            <View ="@drawable/2131233287" ="0.0dip" ="2.0dip" ="1.0dip" 2130969917="@id/2131439111" 2130969937="@id/2131439111" 2130969940="@id/2131439111" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.legacy.widget.Space ="8.0dip" ="1.0px" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131439109" ="0.0dip" ="wrap_content" ="6.0dip" ="1.0" ="@font/2131296274" 2130969306="@drawable/2131237146" 2130969312="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

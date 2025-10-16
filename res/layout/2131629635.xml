@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131449850" ="0.0dip" ="24.0dip" ="11.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131449848" ="wrap_content" ="18.0dip" ="8.0dip" 2130969918="@id/2131432766" 2130969937="@id/2131432766" 2130969940="@id/2131449850" style="@style/2132149454" />
+    <LinearLayout ="horizontal" android:id="@id/2131436318" ="fill_parent" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131449848">
+        <LinearLayout ="end" ="0.0dip" ="wrap_content" ="1.0">
+            <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="#ff848e9c" ="end" android:id="@id/2131449879" ="0.0dip" ="wrap_content" ="1.0" 2130969274="@string/voptions_ticker_est_exercis_price" 2130970840="true" 2130971382="@string/voptions_ticker_est_exercis_price_tips" style="@style/2132149397" />
+            <TextView ="#ff848e9c" android:id="@id/2131449880" ="wrap_content" ="wrap_content" style="@style/2132149397" />
+        </LinearLayout>
+        <TextView ="#ff848e9c" ="start" android:id="@id/2131449881" ="0.0dip" ="wrap_content" ="1.0" ="7.0dip" ="7.0dip" ="15.0dip" 2130969911="@id/2131449879" 2130969917="2131438103" 2130969941="@id/2131449879" style="@style/2132149397" />
+    </LinearLayout>
+    <com.finance.framework.widget.scroll.CustomizeScrollView android:id="@id/2131449857" ="0.0dip" ="18.0dip" 2130969917="2131438103" 2130969936="@id/2131449868" 2130969941="@id/2131449868">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449854" ="true" ="wrap_content" ="fill_parent" />
+        </RelativeLayout>
+    </com.finance.framework.widget.scroll.CustomizeScrollView>
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131449846" ="wrap_content" ="18.0dip" android:text="@string/voptions_market_list_call" ="15.0dip" 2130969911="@id/2131449848" 2130969937="2131438103" 2130969941="@id/2131449848" style="@style/2132149454" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" ="center" android:id="@id/2131449868" ="68.0dip" ="18.0dip" ="4.0dip" android:text="@string/voptions_market_list_strike" 2130969918="@id/2131432766" 2130969937="@id/2131432766" 2130969940="@id/2131436318" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131449865" ="wrap_content" ="18.0dip" android:text="@string/voptions_market_list_put" ="15.0dip" 2130969911="@id/2131449848" 2130969917="2131438103" 2130969941="@id/2131449848" style="@style/2132149454" />
+    <View android:id="@id/2131449371" ="245.0dip" ="18.0dip" 2130969911="@id/2131449868" 2130969936="@id/2131449868" 2130969941="@id/2131449868" />
+    <com.finance.framework.widget.scroll.CustomizeScrollView android:id="@id/2131449856" ="0.0dip" ="18.0dip" 2130969918="@id/2131449868" 2130969937="2131438103" 2130969941="@id/2131449868">
+        <RelativeLayout ="end" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449853" ="true" ="wrap_content" ="fill_parent" />
+        </RelativeLayout>
+    </com.finance.framework.widget.scroll.CustomizeScrollView>
+    <View android:id="@id/2131449416" ="@color/2131099751" ="0.0dip" ="0.5dip" ="9.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449868" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131449872" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449416" 2130971098="false" 2130971100="true">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449844" ="none" ="fill_parent" ="fill_parent" 2130969347="@string/no_records_found" />
+            <TextView ="12.0sp" ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/2131449837" ="gone" ="160.0dip" ="wrap_content" ="160.0dip" android:text="@string/no_records_found" ="18.0dip" ="@font/2131296265" 2130969314="@drawable/2131238419" style="@style/2132149350" />
+            <include android:id="@id/2131435639" ="wrap_content" ="wrap_content" layout="@layout/2131629653" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432766" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429965" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_pair" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" ="false" 2130969905="true" 2130969918="@id/tv_contract_type" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="end" ="start" android:id="@id/2131446772" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_pair" style="@style/2132149454" />
+    <TextView android:id="@id/tv_contract_type" ="2.0dip" 2130969911="@id/tv_pair" 2130969918="@id/2131434332" 2130969936="@id/tv_pair" 2130969941="@id/tv_pair" style="@style/2132148661" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434332" ="20.0dip" ="20.0dip" ="@null" ="4.0dip" 2130969911="@id/tv_pair" 2130969918="@id/2131443668" 2130969936="@id/tv_contract_type" 2130969941="@id/tv_pair" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+    <com.finance.kit.framework.widget.ClickArea android:id="@id/2131430076" ="0.0dip" ="0.0dip" 2130969911="@id/tv_pair" 2130969917="@id/2131434332" 2130969937="@id/tv_pair" 2130969941="@id/tv_pair" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131443668" ="8.0dip" ="8.0dip" ="wrap_content" ="24.0dip" android:text="@string/_cross" ="1" ="@null" ="4.0dip" 2130969918="@id/2131435652" 2130969941="2131438103" style="@style/2132149095" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131435652" ="8.0dip" ="8.0dip" ="wrap_content" ="24.0dip" ="4.0dip" 2130969918="@id/tvMultiMargin" 2130969941="2131438103" 2130969958="@dimen/2131166153" style="@style/2132149095">
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvLeverage" ="wrap_content" ="fill_parent" android:text="20x" ="1" ="@null" 2130969911="2131438103" 2130969918="@id/2131434643" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <ImageView android:id="@id/2131434643" ="gone" ="12.0dip" ="12.0dip" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/tvLeverage" 2130969941="2131438103" 2130971077="@drawable/2131234300" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvMultiMargin" ="gone" ="36.0dip" ="24.0dip" android:text="@string/futures_single_margin_entry" ="1" ="@null" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149095" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446812" ="fill_parent" ="wrap_content" android:text="@string/futures_default_leverage_margin_mode" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" ="14.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131446245" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/futures_enable_default_leverage" ="1" 2130969918="@id/2131446244" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131446244" ="wrap_content" ="wrap_content" 2130969911="@id/2131446245" 2130969917="2131438103" 2130969941="@id/2131446245" />
+            <include android:id="@id/2131429843" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446245" layout="@layout/2131629124" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236662" ="12.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="@color/2131099744" 2130969940="@id/2131429843" 2130969962="@dimen/2131166231">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434495" ="@drawable/2131238561" ="3.0dip" ="3.0dip" ="8.0dip" ="@color/2131099778" 2130969937="2131438103" 2130969941="@id/2131448106" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448106" ="0.0dip" ="wrap_content" android:text="@string/futures_default_setting_hint1" ="1.1" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434495" 2130969941="2131438103" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434496" ="@drawable/2131238561" ="3.0dip" ="3.0dip" ="8.0dip" ="@color/2131099778" 2130969937="2131438103" 2130969941="@id/2131448107" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448107" ="0.0dip" ="wrap_content" android:text="@string/futures_default_setting_hint2" ="1.1" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434496" 2130969940="@id/2131448106" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434497" ="@drawable/2131238561" ="3.0dip" ="3.0dip" ="8.0dip" ="@color/2131099778" 2130969937="2131438103" 2130969941="@id/2131448108" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448108" ="0.0dip" ="wrap_content" android:text="@string/futures_default_setting_hint3" ="1.1" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434497" 2130969940="@id/2131448107" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434498" ="@drawable/2131238561" ="3.0dip" ="3.0dip" ="8.0dip" ="@color/2131099778" 2130969937="2131438103" 2130969941="@id/2131448112" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448112" ="0.0dip" ="wrap_content" android:text="@string/futures_default_setting_hint4" ="1.1" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434498" 2130969940="@id/2131448108" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131446239" ="fill_parent" ="wrap_content" ="23.0dip" android:text="@string/confirm" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

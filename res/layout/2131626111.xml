@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430003" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131439734" ="@drawable/2131232555" ="4.0dip" ="10.0dip" ="15.0dip" 2130969911="@id/2131441031" 2130969937="2131438103" 2130969941="@id/2131441031" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432738" ="wrap_content" ="wrap_content" 2130969921="0.42" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432740" ="wrap_content" ="wrap_content" 2130969921="0.71" />
+    <TextView ="@color/2131099764" android:id="@id/2131441031" ="0.0dip" ="wrap_content" ="16.0dip" ="4.0dip" 2130969936="@id/2131439734" 2130969941="2131438103" style="@style/2132149454" />
+    <TextView ="@color/2131099764" android:id="@id/2131447996" ="@drawable/2131236697" ="wrap_content" ="wrap_content" ="3.0dip" ="3.0dip" ="4.0dip" 2130969911="@id/2131441031" 2130969936="@id/2131441031" 2130969941="@id/2131441031" style="@style/2132149394" />
+    <com.finance.kit.framework.widget.ClickArea android:id="@id/2131449700" ="0.0dip" ="0.0dip" 2130969911="@id/2131441031" 2130969917="@id/2131447996" 2130969937="@id/2131439734" 2130969941="@id/2131441031" />
+    <TextView ="@color/2131099764" android:id="@id/2131440120" ="0.0dip" ="wrap_content" ="2.0dip" 2130969917="@id/2131432738" 2130969937="@id/2131439734" 2130969940="@id/2131441031" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131431391" ="0.0dip" ="wrap_content" ="16.0dip" ="8.0dip" 2130969918="@id/2131432740" 2130969936="@id/2131432738" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131436957" ="0.0dip" ="wrap_content" ="4.0dip" ="8.0dip" 2130969918="@id/2131432740" 2130969936="@id/2131432738" 2130969940="@id/2131431391" style="@style/2132149384" />
+    <LinearLayout ="end|center" ="horizontal" android:id="@id/2131435923" ="0.0dip" ="wrap_content" ="16.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131432740" 2130969941="2131438103">
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131435924" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131435925" ="2.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="5.0dip" 2130971382="@string/futures_liquidation_price_tips" style="@style/2132149454" />
+        <ImageView ="center_vertical" android:id="@id/2131439129" ="gone" ="wrap_content" ="wrap_content" ="@null" ="2.0dip" 2130971077="@drawable/2131233990" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449082" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131432740" 2130969940="@id/2131435923" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

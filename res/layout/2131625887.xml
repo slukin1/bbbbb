@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131449249" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969940="@id/2131441079" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449912" ="fill_parent" ="wrap_content" 2130969940="@id/2131449249" />
+</androidx.constraintlayout.widget.ConstraintLayout>

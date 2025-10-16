@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="fill_parent" ="22.0dip" ="3.0dip" android:text="@string/two_fa_pls_enter_new_email" ="1" style="@style/2132149450" />
+    <com.binance.widget.RuleEditText ="end" android:id="@id/2131431346" ="@drawable/2131236572" ="fill_parent" ="50.0dip" ="5.0dip" android:hint="@string/chat_email_address" ="1" ="textEmailAddress" ="@drawable/2131236035" ="10.0dip" ="0.0dip" style="@style/2132149721" />
+    <TextView ="@color/2131099778" android:id="@id/2131431343" ="fill_parent" ="22.0dip" ="24.0dip" android:text="@string/two_fa_send_new_email_code_hint" ="1" style="@style/2132149450" />
+    <LinearLayout ="@drawable/2131236572" ="fill_parent" ="50.0dip" ="5.0dip">
+        <com.binance.widget.RuleEditText ="end" android:id="@id/2131430134" ="@null" ="0.0dip" ="50.0dip" android:hint="@string/ms_2fa_email_verification_code_hint" ="1" ="1.0" ="number" ="@drawable/2131236035" ="10.0dip" ="0.0dip" style="@style/2132149721" />
+        <TextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131439970" ="wrap_content" ="48.0dip" ="12.0dip" android:text="@string/ms_2fa_send_code" ="10.0dip" ="10.0dip" style="@style/2132149371" />
+    </LinearLayout>
+    <TextView ="@color/2131099863" android:id="@id/2131431345" ="gone" ="fill_parent" ="18.0dip" />
+    <TextView ="@color/2131099787" ="@color/2131099787" ="end" android:id="@id/2131432870" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/two_fa_email_code_not_receive_tips" 2130969937="2131438103" 2130969940="@id/2131431345" style="@style/2132149454" />
+</LinearLayout>

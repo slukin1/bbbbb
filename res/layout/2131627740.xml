@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="end" ="horizontal" android:id="@id/2131430788" ="8.0dip" ="fill_parent" ="52.0dip" ="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button ="center_vertical" android:id="@id/2131429257" ="wrap_content" ="wrap_content" android:text="@string/mtrl_picker_cancel" style="?2130968845" />
+    <Button ="center_vertical" android:id="@id/2131430241" ="wrap_content" ="wrap_content" ="64.0dip" android:text="@string/mtrl_picker_confirm" style="?2130968847" />
+</LinearLayout>

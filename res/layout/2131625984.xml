@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434185" ="48.0dip" ="48.0dip" ="12.0dip" ="@drawable/2131238405" ="@null" 2130969917="2131438103" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099851" ="end" ="end" android:id="@id/2131446514" ="wrap_content" ="wrap_content" ="4.0dip" ="1" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434185" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429659" ="15.0dip" ="20.0dip" ="false" ="fill_parent" ="wrap_content" ="11.0dip" ="11.0dip" 2130969940="@id/2131446514">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436298" ="@drawable/2131233525" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView android:text="@string/trade_order_number" style="@style/2132148976" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end|center" android:id="@id/2131443947" ="0.0dip" ="wrap_content" ="false" ="5.0dip" ="1.0" ="15.0dip" 2130969306="@drawable/2131237146" 2130969312="@color/2131099764" style="@style/2132149350" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_type_title" ="8.0dip" android:text="@string/_Type" 2130969937="2131438103" 2130969940="@id/2131436298" style="@style/2132148976" />
+        <TextView android:id="@id/2131448438" 2130969907="@id/tv_type_title" 2130969917="2131438103" 2130969941="@id/tv_type_title" style="@style/2132148977" />
+        <TextView android:id="@id/2131446519" ="8.0dip" android:text="@string/filled_amount" 2130969937="2131438103" 2130969940="@id/tv_type_title" style="@style/2132148976" />
+        <TextView android:id="@id/2131446524" ="4.0dip" 2130969907="@id/2131446519" 2130969918="@id/2131445634" style="@style/2132148977" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445634" 2130969907="@id/2131446519" 2130969917="2131438103" style="@style/2132148977" />
+        <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/tv_avg_price_title" ="8.0dip" android:text="@string/avg_price" 2130969263="@string/i_understand" 2130969274="@string/string_price" 2130969937="2131438103" 2130969940="@id/2131446519" 2130971382="@string/future_price_tip" style="@style/2132148976" />
+        <TextView android:id="@id/2131445730" ="4.0dip" 2130969907="@id/tv_avg_price_title" 2130969918="@id/tv_price_value" 2130969941="@id/tv_avg_price_title" style="@style/2132148977" />
+        <TextView ="14.0sp" android:id="@id/tv_price_value" 2130969907="@id/tv_avg_price_title" 2130969917="2131438103" 2130969941="@id/tv_avg_price_title" style="@style/2132148977" />
+        <TextView android:id="@id/tv_market_slippage_title" ="8.0dip" android:text="@string/futures_slippage_market_slippage" 2130969937="2131438103" 2130969940="@id/tv_avg_price_title" style="@style/2132148976" />
+        <TextView android:id="@id/tv_market_slippage_value" android:text="@string/Yes" 2130969907="@id/tv_market_slippage_title" 2130969917="2131438103" 2130969941="@id/tv_conditions_title" style="@style/2132148977" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432667" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_market_slippage_title,tv_market_slippage_value" />
+        <TextView android:id="@id/tv_conditions_title" ="8.0dip" android:text="@string/conditions" 2130969937="2131438103" 2130969940="@id/tv_market_slippage_title" style="@style/2132148976" />
+        <TextView android:id="@id/2131446033" 2130969907="@id/tv_conditions_title" 2130969917="2131438103" 2130969941="@id/tv_conditions_title" style="@style/2132148977" />
+        <TextView android:id="@id/tv_callback_rate_title" ="8.0dip" android:text="@string/future_callback_rate" 2130969937="2131438103" 2130969940="@id/tv_conditions_title" style="@style/2132148976" />
+        <TextView android:id="@id/tv_callback_rate_value" 2130969907="@id/tv_callback_rate_title" 2130969917="2131438103" 2130969941="@id/tv_callback_rate_title" style="@style/2132148977" />
+        <TextView android:id="@id/tv_reduce_only_title" ="8.0dip" android:text="@string/reduce_only" 2130969937="2131438103" 2130969940="@id/tv_callback_rate_title" style="@style/2132148976" />
+        <TextView android:id="@id/tv_reduce_only_value" android:text="@string/futures_advance_tpsl_strategy_detail_reduce_only_true" 2130969907="@id/tv_reduce_only_title" 2130969917="2131438103" 2130969941="@id/tv_reduce_only_title" style="@style/2132148977" />
+        <androidx.constraintlayout.widget.Group android:id="@id/layout_reduce_only" ="wrap_content" ="wrap_content" 2130969125="tv_reduce_only_title,tv_reduce_only_value" />
+        <TextView android:id="@id/tv_price_match_title" ="10.0dip" android:text="@string/future_bbo_price_match" 2130969937="2131438103" 2130969940="@id/tv_reduce_only_title" style="@style/2132148976" />
+        <TextView android:id="@id/tv_price_match_value" 2130969907="@id/tv_price_match_title" 2130969917="2131438103" 2130969941="@id/tv_price_match_title" style="@style/2132148977" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131435678" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_price_match_title,tv_price_match_value" />
+        <TextView android:id="@id/tv_post_only_title" ="8.0dip" android:text="@string/post_only" 2130969937="2131438103" 2130969940="@id/tv_price_match_title" style="@style/2132148976" />
+        <TextView android:id="@id/tv_post_only_value" android:text="@string/futures_advance_tpsl_strategy_detail_reduce_only_true" 2130969907="@id/tv_post_only_title" 2130969917="2131438103" style="@style/2132148977" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131435675" ="wrap_content" ="wrap_content" 2130969125="tv_post_only_title,tv_post_only_value" />
+        <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/tv_liquidation_price_title" ="8.0dip" android:text="@string/futures_grid_running_liq_price" 2130969263="@string/i_understand" 2130969937="2131438103" 2130969940="@id/tv_post_only_title" 2130971382="@string/future_liquidation_price_tip" style="@style/2132148976" />
+        <TextView android:id="@id/tv_liquidation_price_value" 2130969907="@id/tv_liquidation_price_title" 2130969917="2131438103" 2130969941="@id/tv_liquidation_price_title" style="@style/2132148977" />
+        <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" ="10.0dip" 2130969912="@id/2131429858" 2130969940="@id/tv_liquidation_price_title" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429858" ="fill_parent" ="wrap_content" ="10.0dip" 2130969937="2131438103" 2130969940="@id/divider">
+            <TextView android:id="@id/tv_fee_title" android:text="@string/fee" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148976" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436532" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" />
+            <TextView android:id="@id/2131448508" ="gone" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148977" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:id="@id/2131447570" ="8.0dip" android:text="@string/options_realized_pnl" 2130969937="2131438103" 2130969940="@id/2131429858" style="@style/2132148976" />
+        <TextView android:id="@id/2131447571" 2130969907="@id/2131447570" 2130969917="2131438103" style="@style/2132148977" />
+        <TextView android:id="@id/2131446160" ="8.0dip" android:text="@string/futures_grid_running_time" 2130969937="2131438103" 2130969940="@id/2131447570" style="@style/2132148976" />
+        <com.binance.widget.UnicodeWrapTextView android:id="@id/2131446161" 2130969907="@id/2131446160" 2130969917="2131438103" style="@style/2132148977" />
+        <TextView android:id="@id/2131448502" ="8.0dip" android:text="@string/margin_order_time_updated" 2130969937="2131438103" 2130969940="@id/2131446160" style="@style/2132148976" />
+        <com.binance.widget.UnicodeWrapTextView android:id="@id/2131448503" 2130969907="@id/2131448502" 2130969917="2131438103" style="@style/2132148977" />
+        <TextView android:id="@id/tv_expiration_title" ="gone" ="8.0dip" android:text="@string/futures_trade_limit_gtd_expiration_title" 2130969937="2131438103" 2130969940="@id/2131448502" style="@style/2132148976" />
+        <com.binance.widget.UnicodeWrapTextView android:id="@id/tv_expiration_value" ="gone" 2130969907="@id/tv_expiration_title" 2130969917="2131438103" style="@style/2132148977" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" android:id="@id/tv_trade_detail" ="@color/2131099685" ="20.0dip" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/trade_detail" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131429659" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tv_empty" ="30.0dip" ="30.0dip" ="fill_parent" ="fill_parent" android:text="@string/no_data" ="10.0dip" 2130969314="@drawable/2131233810" 2130969937="2131438103" 2130969940="@id/tv_trade_detail" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131431352" ="wrap_content" ="wrap_content" 2130969125="tv_empty,tv_trade_detail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

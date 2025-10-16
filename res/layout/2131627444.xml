@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="start" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/_name" ="1" ="15.0dip" style="@style/2132149384" />
+    <com.plutus.market.activities.zone.tab.cap.SoftRadioButton ="@color/2131099778" ="end" android:id="@id/2131445910" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/ms_market_zones_top_gainer" ="1" ="1.0dip" ="15.0dip" style="@style/2132149384" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" ="21.0dip" 2130971098="false" 2130971100="true">
+        <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131431365" ="none" ="fill_parent" ="fill_parent" ="never" 2130969347="@string/no_data" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/2131447356" ="fill_parent" ="wrap_content" ="2" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099881" android:id="@id/2131447595" ="@drawable/2131234093" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/ms_recommend" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_tips" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/widget_recurring_top_up" style="@style/2132149454" />
+    <View ="0.0dip" ="0.0dip" ="1.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429806" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099851" android:id="@id/tv_percent" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099671" android:id="@id/2131447693" ="wrap_content" ="wrap_content" android:text="@string/content_roi" 2130969937="@id/tv_percent" 2130969940="@id/tv_percent" style="@style/2132149361" />
+        <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439664" ="wrap_content" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

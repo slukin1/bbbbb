@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448990" ="#00000000" ="250.0dip" ="wrap_content" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448992" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233058" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131448988" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/content_editor_kyc_pre_check_title" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448992" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/2131448993" ="vertical" ="wrap_content" ="wrap_content" ="8.0dip" ="250.0dip" ="198.0dip" ="9" ="5.0dip" ="false" ="locale" ="gravity" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448988" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="end" ="center" android:id="@id/2131448914" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/content_editor_kyc_pre_check_getauthentication" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448993" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131448913" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/voptions_landing_guide_not_now" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448914" 2130971472="2131441186" />
+</androidx.constraintlayout.widget.ConstraintLayout>

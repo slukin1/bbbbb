@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip" 2130969941="2131438103" 2130969974="2131439795" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436614" ="fill_parent" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131428429" ="wrap_content" ="wrap_content" android:text="1" ="15.0dip" style="@style/2132149386" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131428427" ="wrap_content" ="wrap_content" ="3.0dip" ="2.0dip" style="@style/2132149386" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431394" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149386" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/price" ="wrap_content" ="wrap_content" android:text="--" style="@style/2132149386" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131438808" ="wrap_content" ="wrap_content" android:text="--" ="3.0dip" style="@style/2132149386" />
+        <TextView ="center_vertical" android:id="@id/2131438267" ="wrap_content" ="wrap_content" ="ltr" ="5.0dip" ="15.0dip" style="@style/2132149386" />
+        <Space ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436480" ="wrap_content" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434413" ="20.0dip" ="20.0dip" ="centerInside" ="2.0dip" ="14.0dip" 2130971077="@drawable/2131237057" 2130971375="@color/2131099785" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout ="vertical" android:id="@id/2131436568" ="fill_parent" ="wrap_content" 2130969940="@id/2131436614" 2130969974="2131439795">
+        <FrameLayout android:id="@id/2131430310" ="fill_parent" ="198.0dip" ="15.0dip">
+            <com.binance.convert.v2.page.limit.chart.ChartView android:id="@id/2131429461" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" />
+            <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436703" ="40.0dip" ="40.0dip" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+            <FrameLayout ="vertical" android:id="@id/2131429462" ="gone" ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131429464" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/lite_ms_funds_asset_connect_error" style="@style/2132149384" />
+                <View android:id="@id/2131429463" ="fill_parent" ="150.0dip" ="24.0dip" />
+            </FrameLayout>
+        </FrameLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" android:id="@id/2131433530" ="@color/2131100528" ="fill_parent" ="24.0dip" ="8.0dip" ="41.0dip" ="41.0dip">
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+            <RadioGroup ="horizontal" android:id="@id/2131433529" ="wrap_content" ="24.0dip">
+                <RadioButton android:id="@id/2131433531" android:text="@string/convert_limit_chart_interval_1h" style="@style/2132148557" />
+                <Space ="28.0dip" ="0.0dip" />
+                <RadioButton android:id="@id/2131433534" android:text="@string/time_1w" style="@style/2132148557" />
+                <Space ="28.0dip" ="0.0dip" />
+                <RadioButton android:id="@id/2131433533" android:text="@string/_1_month" style="@style/2132148557" />
+            </RadioGroup>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434414" ="20.0dip" ="20.0dip" ="28.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <RadioGroup ="horizontal" android:id="@id/2131439916" ="@color/2131100528" ="gone" ="fill_parent" ="24.0dip" ="15.0dip" ="15.0dip" ="8.0dip">
+            <RadioButton android:id="@id/2131439920" ="wrap_content" android:text="00:00" style="@style/2132148558" />
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+            <RadioButton android:id="@id/2131439921" android:text="00:00" style="@style/2132148558" />
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+            <RadioButton android:id="@id/2131439922" android:text="00:00" style="@style/2132148558" />
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+            <RadioButton android:id="@id/2131439923" android:text="00:00" style="@style/2132148558" />
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+            <RadioButton android:id="@id/2131439924" android:text="00:00" style="@style/2132148558" />
+        </RadioGroup>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

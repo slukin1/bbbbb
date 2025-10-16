@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="wrap_content" ="48.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428178" ="0.5dip" ="40.0dip" ="40.0dip" ="@dimen/2131166000" ="@dimen/2131166000" ="centerCrop" ="@string/account" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970803="@style/2132150258" 2130971180="@color/2131100684" 2130971181="@dimen/2131165998" />
+    <TextView ="@color/2131099764" ="end" ="start" android:id="@id/2131437428" ="wrap_content" ="wrap_content" ="1" ="10.0dip" 2130969905="true" 2130969918="@id/2131431073" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131428178" 2130969941="@id/2131428178" style="@style/2132149450" />
+    <include android:id="@id/2131435361" ="12.0dip" ="12.0dip" 2130969911="@id/2131428178" 2130969917="@id/2131428178" layout="@layout/2131624459" />
+    <include android:id="@id/2131437007" ="wrap_content" ="wrap_content" ="2.0dip" 2130969911="@id/2131437428" 2130969918="@id/2131431073" 2130969936="@id/2131437428" 2130969941="@id/2131437428" layout="@layout/2131624721" />
+    <View android:id="@id/2131431073" ="8.0dip" ="8.0dip" 2130969911="@id/2131437428" 2130969917="2131438103" 2130969936="@id/2131437007" 2130969941="@id/2131437428" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131441416" ="wrap_content" ="16.0dip" ="2.0dip" ="1" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131428178" 2130969940="@id/2131437428" style="@style/2132149386" />
+    <include android:id="@id/2131429142" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="@id/2131441416" 2130969936="@id/2131441416" 2130969941="@id/2131441416" layout="@layout/2131624460" />
+    <TextView ="#ff2ebd85" android:id="@id/2131429143" ="gone" ="false" ="wrap_content" ="wrap_content" ="false" ="6.0dip" 2130969911="@id/2131441416" 2130969936="@id/2131441416" 2130969941="@id/2131441416" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

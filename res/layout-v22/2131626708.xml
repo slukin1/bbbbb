@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427542" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <TextView ="@color/2131099764" android:id="@id/title" ="fill_parent" ="wrap_content" ="6.0dip" android:text="@string/currency" ="locale" ="15.0dip" ="15.0dip" 2130969974="2131439795" style="@style/2132149416" />
+            <TextView ="#ff848e9c" android:id="@id/2131430855" ="wrap_content" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="20.0dip" android:text="@string/usercenter_setting_set_up_currency_unit" ="locale" ="@dimen/2131166184" 2130969974="2131439795" style="@style/2132149384" />
+            <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131431469" ="fill_parent" ="wrap_content" 2130968908="true" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130970759="@string/_search" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439546" ="gone" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440122" ="fill_parent" ="480.0dip" ="fitXY" 2130971375="@color/2131099744" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="gone" ="16.0dip" ="fill_parent" ="60.0dip" ="36.0dip" 2130968838="@dimen/2131166153" 2130968839="@color/2131099764" 2130968840="@color/2131099778" 2130968841="@dimen/2131167696" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="2131438103" />
+            <ImageView android:id="@id/2131434026" ="gone" ="132.0dip" ="94.0dip" ="100.0dip" ="@null" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238419" />
+            <TextView ="15.0sp" ="@color/2131102368" android:id="@id/2131443862" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/coin_search_empty_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434026" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

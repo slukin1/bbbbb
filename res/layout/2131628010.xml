@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429966" ="@color/2131099676" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447121" ="wrap_content" ="wrap_content" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447290" ="wrap_content" ="wrap_content" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447121" style="@style/2132149384" />
+    <FrameLayout android:id="@id/2131429587" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969926="0.7" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

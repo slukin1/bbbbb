@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441270" ="wrap_content" ="0.0dip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/textViewSecond" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132150274" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/textViewSecond" ="wrap_content" ="0.0dip" 2130969911="2131438103" 2130969918="@id/2131441317" 2130969936="@id/2131441270" 2130969941="2131438103" style="@style/2132150274" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441317" ="wrap_content" ="0.0dip" 2130969911="2131438103" 2130969918="@id/2131441271" 2130969936="@id/textViewSecond" 2130969941="2131438103" style="@style/2132150274" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441271" ="wrap_content" ="0.0dip" 2130969911="2131438103" 2130969918="@id/2131441266" 2130969936="@id/2131441317" 2130969941="2131438103" style="@style/2132150274" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441266" ="wrap_content" ="0.0dip" 2130969911="2131438103" 2130969918="@id/2131441281" 2130969936="@id/2131441271" 2130969941="2131438103" style="@style/2132150274" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441281" ="wrap_content" ="0.0dip" android:text="@string/ms_index_more" ="20.0dip" 2130969312="@color/2131099738" 2130969911="2131438103" 2130969918="@id/2131433417" 2130969936="@id/2131441266" 2130969941="2131438103" style="@style/2132150274" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433417" ="16.0dip" ="16.0dip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131429468" 2130969941="2131438103" 2130971077="@drawable/2131237514" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131429468" ="16.0dip" ="16.0dip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131433118" 2130969941="2131438103" 2130971077="@drawable/2131237539" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433118" ="?android:selectableItemBackgroundBorderless" ="true" ="16.0dip" ="16.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237684" 2130971375="@color/2131099738" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099803" ="@dimen/2131166188" ="@dimen/2131166170" 2130970894="@id/tv_title" 2130970897="keleton_home_widget_common_8x2_light.svg" 2130970899="keleton_home_widget_common_8x2_night.svg" 2130970901="@id/tv_title" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="1" 2130969918="@id/2131440648" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <com.prometheus.account.activities.account.dynamic.onboarding.StepIndicatorView android:id="@id/2131440648" ="wrap_content" ="wrap_content" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title" />
+    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131437469" ="0.0dip" ="39.0dip" ="10.0dip" 2130969912="@id/indicator_container" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449258" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+    <LinearLayout ="horizontal" android:id="@id/indicator_container" ="false" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437469" />
+</com.components.skeleton.SkeletonViewGroup>

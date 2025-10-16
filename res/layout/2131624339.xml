@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433245" ="20.0dip" ="20.0dip" ="centerInside" ="@color/2131099738" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237679" />
+    <View android:id="@id/2131449185" ="@drawable/2131233825" ="gone" ="8.0dip" ="8.0dip" ="20.0dip" ="@null" 2130969911="@id/2131433245" 2130969917="@id/2131433245" 2130969936="@id/2131433245" 2130969941="@id/2131433245" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429966" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434377" ="96.0dip" ="96.0dip" ="84.0dip" ="centerInside" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" 2130971077="@drawable/2131235641" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131445808" ="0.0dip" ="wrap_content" ="34.0dip" android:text="@string/payment_enable_biometrics_pay" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434377" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131445807" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/payment_enable_biometrics_pay_tips" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445808" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428959" ="fill_parent" ="wrap_content" ="15.0dip" ="45.0dip" ="15.0dip" android:text="@string/payment_activate_now" 2130969940="@id/2131445807" 2130970889="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

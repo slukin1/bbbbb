@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131437983" ="@drawable/2131235578" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432964" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131236839" 2130971375="@color/2131099765" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/vfNotice" ="fill_parent" ="20.0dip" ="4.0dip" />
+</LinearLayout>

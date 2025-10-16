@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131436341" ="fill_parent" ="wrap_content" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131427731" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131442047" ="0.0dip" ="wrap_content" android:text="@string/copy_trading_advanced_settings" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433652" ="20.0dip" ="20.0dip" ="@drawable/2131237050" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429640" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427731">
+        <include android:id="@id/2131436280" ="fill_parent" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624941" />
+        <TextView android:id="@id/tvMarginModeTips" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/copy_trading_margin_mode_tip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436280" style="@style/2132149384" />
+        <RadioGroup ="horizontal" android:id="@id/llFixedType" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436280">
+            <com.major.android.uikit2.selection.KitRadioButton ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131435145" ="wrap_content" ="wrap_content" ="true" android:text="@string/_cross" ="0.8" ="0.8" ="5.0dip" ="0.0dip" style="@style/2132149384" />
+            <com.major.android.uikit2.selection.KitRadioButton ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131435146" ="wrap_content" ="wrap_content" android:text="@string/_isolated" ="0.8" ="0.8" ="5.0dip" ="0.0dip" ="16.0dip" style="@style/2132149384" />
+        </RadioGroup>
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428332" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="llFixedType,tvMarginModeTips" />
+        <include android:id="@id/2131436270" ="fill_parent" ="wrap_content" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428332" layout="@layout/2131624941" />
+        <TextView android:id="@id/tvLeverageTips" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/copy_trading_leverage_tip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436270" style="@style/2132149384" />
+        <com.finance.copytrading.framework.widget.CopyTradingLeverageInput android:id="@id/ctlLeverageSetting" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436270" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428326" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="ctlLeverageSetting,tvLeverageTips" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429719" ="fill_parent" ="wrap_content" ="12.0dip" 2130969940="@id/2131428326">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131443725" ="wrap_content" ="wrap_content" android:text="@string/ct_setting_slippage" ="2" 2130969905="true" 2130969918="@id/2131433988" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433988" ="16.0dip" ="16.0dip" ="3.0dip" ="4.0dip" ="20.0dip" 2130969918="@id/2131435032" 2130969936="@id/2131443725" 2130969941="@id/2131443725" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+            <com.finance.kit.framework.widget.dropdown.KitDropDown android:id="@id/2131435032" ="wrap_content" ="wrap_content" 2130968689="@color/2131099738" 2130969322="@style/2132149450" 2130969917="2131438103" 2130969941="2131438103" />
+            <com.major.android.uikit2.slider.KitSlider android:id="@id/2131435163" ="gone" ="fill_parent" ="wrap_content" ="11.0dip" 2130969686="3.0" 2130969687="0.1" 2130969688="0.5" 2130969690="true" 2130969693="true" 2130969699="@array/2130903044" 2130969703="7" 2130969940="@id/2131443725" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131432567" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131429719">
+            <TextView ="@color/2131099764" android:id="@id/2131444108" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_position_risk" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434082" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+        </LinearLayout>
+        <com.finance.framework.widget.edit.FinanceInputEditAmount ="@color/2131099778" android:id="@id/kieaTakeProfit" ="0.0dip" ="wrap_content" ="10.0dip" ="4.0dip" 2130969660="@string/copy_trading_take_profit" 2130969918="@id/2131432755" 2130969937="2131438103" 2130969940="@id/2131432567" style="@style/2132149450" />
+        <com.finance.framework.widget.edit.FinanceInputEditAmount ="@color/2131099778" android:id="@id/kieaStopLoss" ="0.0dip" ="wrap_content" ="4.0dip" 2130969660="@string/copy_trading_stop_loss" 2130969917="2131438103" 2130969936="@id/2131432755" 2130969941="@id/kieaTakeProfit" style="@style/2132149450" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428357" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="kieaTakeProfit,kieaStopLoss" />
+        <com.finance.framework.widget.edit.FinanceInputEditAmount ="@color/2131099778" android:id="@id/2131435044" ="0.0dip" ="wrap_content" ="10.0dip" 2130969660="@string/copy_trading_max_position_per_symbol" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428357" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

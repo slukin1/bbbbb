@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content">
+        <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131435093" ="wrap_content" ="wrap_content" ="5.0dip" 2130968684="@null" 2130969911="@id/2131440872" 2130969918="@id/2131440872" 2130969941="@id/2131440872" 2130970002="@null" 2130970835="true" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131440872" ="@drawable/2131236043" ="gone" ="40.0dip" ="40.0dip" ="@color/2131099879" 2130969911="2131438103" 2130969917="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" 2130971077="@drawable/2131238149" 2130971375="@color/2131099844" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

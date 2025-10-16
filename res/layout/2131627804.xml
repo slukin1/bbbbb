@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" android:id="@id/2131437635" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131437598" ="fill_parent" ="fill_parent" />
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131428498" ="gone" ="wrap_content" ="wrap_content" ="90.0dip" 2130969336="@null" 2130969342="false" 2130969343="@drawable/2131235326" 2130969344="@drawable/2131238490" 2130969346="" />
+</FrameLayout>

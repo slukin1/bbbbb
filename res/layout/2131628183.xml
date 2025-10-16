@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="start" android:id="@id/title" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" style="?2130971282" />
+            <TextView android:id="@id/2131428508" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="?2130971299" />
+            <androidx.cardview.widget.CardView android:id="@id/2131433138" ="0.0dip" ="wrap_content" ="24.0dip" ="48.0dip" ="24.0dip" 2130968911="@color/2131102308" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428508">
+                <ImageView android:id="@id/2131433135" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="centerCrop" ="true" ="@string/pi2_governmentid_image_preview" />
+                <LinearLayout ="fill_parent" ="wrap_content">
+                    <ImageView ="center_vertical" android:id="@id/2131431810" ="gone" ="48.0dip" ="48.0dip" ="16.0dip" ="16.0dip" ="no" ="24.0dip" 2130971077="@drawable/2131235842" 2130971375="@color/2131101069" />
+                    <TextView ="center_vertical" android:id="@id/2131431812" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" style="?2130971300" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <com.withpersona.sdk2.inquiry.shared.ui.ButtonWithLoadingIndicator android:id="@id/2131449120" ="0.0dip" ="wrap_content" ="48.0dip" 2130969603="@null" 2130969917="@id/2131433138" 2130969937="@id/2131433138" 2130969940="@id/2131433138" />
+            <Button android:id="@id/2131429607" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" 2130969911="2131438103" 2130969917="@id/2131433138" 2130969937="@id/2131433138" 2130969940="@id/2131449120" 2130969942="0.0" style="?2130970094" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

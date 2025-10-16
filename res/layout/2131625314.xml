@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="34.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_more_info" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149428" />
+    <TextView ="@color/2131099778" android:id="@id/2131436765" ="0.0dip" ="wrap_content" ="14.0dip" ="24.0dip" ="14.0dip" android:text="@string/earn_other_low_risk_products" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149384" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436324" ="0.0dip" ="wrap_content" ="10.0dip" 2130969937="@id/2131436765" 2130969940="@id/2131436765" 2130969949="0.23">
+        <ImageView android:id="@id/2131434099" ="12.0dip" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131237981" 2130971375="@color/2131099764" />
+        <com.finance.framework.widget.text.AutoSizeTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_rwusd" ="2" 2130968697="12.0sp" 2130968698="10.0sp" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/llEthStaking" ="0.0dip" ="wrap_content" ="10.0dip" 2130969936="@id/2131436324" 2130969940="@id/2131436765" 2130969949="0.23">
+        <ImageView android:id="@id/2131433845" ="12.0dip" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131237298" 2130971375="@color/2131099764" />
+        <com.finance.framework.widget.text.AutoSizeTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_eth_staking" ="2" 2130968697="12.0sp" 2130968698="10.0sp" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/llSolStaking" ="0.0dip" ="wrap_content" ="10.0dip" 2130969936="@id/llEthStaking" 2130969940="@id/2131436765" 2130969949="0.23">
+        <ImageView android:id="@id/2131434175" ="12.0dip" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131238109" 2130971375="@color/2131099764" />
+        <com.finance.framework.widget.text.AutoSizeTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_sol_staking" ="2" 2130968697="12.0sp" 2130968698="10.0sp" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/llSoftStaking" ="0.0dip" ="wrap_content" ="10.0dip" 2130969936="@id/llSolStaking" 2130969940="@id/2131436765" 2130969949="0.23">
+        <ImageView android:id="@id/2131434173" ="12.0dip" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131238107" 2130971375="@color/2131099764" />
+        <com.finance.framework.widget.text.AutoSizeTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_soft_staking" ="2" 2130968697="12.0sp" 2130968698="10.0sp" style="@style/2132149384" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="llEthStaking,llSolStaking,llSoftStaking" />
+    <TextView ="@color/2131099778" android:id="@id/2131443995" ="0.0dip" ="wrap_content" ="14.0dip" ="24.0dip" ="14.0dip" android:text="@string/others" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428303" 2130969962="@dimen/2131166200" style="@style/2132149384" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436246" ="0.0dip" ="wrap_content" ="10.0dip" 2130969928="2131440524" 2130969937="@id/2131443995" 2130969940="@id/2131443995" 2130969949="0.23">
+        <ImageView android:id="@id/ivHistory" ="12.0dip" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131237479" 2130971375="@color/2131099764" />
+        <com.finance.framework.widget.text.AutoSizeTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/_history" ="2" 2130968697="12.0sp" 2130968698="10.0sp" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436179" ="0.0dip" ="wrap_content" ="10.0dip" 2130969936="@id/2131436246" 2130969940="@id/2131443995" 2130969949="0.23">
+        <ImageView android:id="@id/2131433720" ="12.0dip" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131236979" 2130971375="@color/2131099764" />
+        <com.finance.framework.widget.text.AutoSizeTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_calculator" ="2" 2130968697="12.0sp" 2130968698="10.0sp" style="@style/2132149384" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

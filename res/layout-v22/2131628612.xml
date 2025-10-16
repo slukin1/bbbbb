@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432360" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivLogo" ="20.0dip" ="20.0dip" ="fitXY" ="@null" 2130969911="@id/2131442498" 2130969937="2131438103" 2130969941="@id/2131442498" 2130971077="@drawable/2131232951" />
+    <TextView ="@color/2131099764" android:id="@id/2131442498" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/ivLogo" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tvName" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/2131442498" 2130969936="@id/2131442498" 2130969941="@id/2131442498" style="@style/2132149384" />
+    <TextView ="@color/2131099863" android:id="@id/preDelistTv" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/strategy_wallet_be_delisted" ="4.0dip" ="#1af6465d" ="@dimen/2131166260" 2130969911="@id/2131442498" 2130969936="@id/tvName" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131442612" ="gone" ="wrap_content" ="wrap_content" android:text="@string/spot_holdings_convert_usdc" ="4.0dip" 2130969911="@id/2131442498" 2130969918="@id/2131433779" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434157" ="4.0dip" ="gone" ="24.0dip" ="24.0dip" ="2.0dip" 2130969911="@id/2131442498" 2130969917="2131438103" 2130969941="@id/2131442498" 2130971077="@drawable/2131238029" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433779" ="gone" ="16.0dip" ="16.0dip" 2130969911="@id/2131442612" 2130969917="2131438103" 2130969941="@id/2131442612" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <TextView ="@color/2131099778" android:id="@id/2131445661" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/spot_holdings_daily_pnl" 2130969937="2131438103" 2130969940="@id/tvName" style="@style/2132149384" />
+    <TextView ="#ff0ecb81" android:id="@id/tv_asset_daily_pnl_value" ="0.0dip" ="wrap_content" 2130969918="@id/tv_asset_daily_pnl_percent_value" 2130969937="@id/2131445661" 2130969940="@id/2131445661" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131445662" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/spot_holdings_pnl_percent" 2130969917="2131438103" 2130969940="@id/tvName" style="@style/2132149384" />
+    <TextView ="#ff0ecb81" ="end" android:id="@id/tv_asset_daily_pnl_percent_value" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969936="@id/tv_asset_daily_pnl_value" 2130969940="@id/2131445662" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="0.0dip" ="0.0dip" 2130968759="2131428521" 2130969125="tv_asset_daily_pnl_value, tv_asset_daily_pnl_percent_value" />
+    <LinearLayout ="vertical" android:id="@id/llBalance" ="0.0dip" ="wrap_content" ="8.0dip" 2130969918="@id/llAvgCost" 2130969937="2131438103" 2130969940="@id/2131428303">
+        <TextView ="@color/2131099778" android:id="@id/2131442290" ="fill_parent" ="wrap_content" android:text="@string/spot_holdings_balance" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131442285" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131442287" ="gone" ="fill_parent" ="wrap_content" ="1.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/llAvgCost" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" ="@dimen/2131166286" 2130969918="@id/llLastPrice" 2130969936="@id/llBalance" 2130969941="@id/llBalance">
+        <TextView ="@color/2131099778" android:id="@id/2131442263" ="fill_parent" ="wrap_content" android:text="@string/spot_holdings_avg_cost" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131442262" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/llLastPrice" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969936="@id/llAvgCost" 2130969941="@id/llBalance">
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131443488" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131443485" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428313" ="fill_parent" ="0.0dip" 2130968759="2131428521" 2130969125="llBalance, llAvgCost, llLastPrice" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429651" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" 2130969940="@id/2131428313">
+        <com.major.android.uikit2.button.KitButton ="12.0sp" android:id="@id/2131428929" ="0.0dip" ="wrap_content" android:text="@string/spot_tp_sl" 2130969918="@id/2131428711" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148699" />
+        <com.major.android.uikit2.button.KitButton ="12.0sp" android:id="@id/2131428711" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/spot_holdings_buy_sell" ="@dimen/2131166286" 2130969918="@id/2131428681" 2130969936="@id/2131428929" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132148699" />
+        <com.major.android.uikit2.button.KitButton ="12.0sp" android:id="@id/2131428681" ="0.0dip" ="wrap_content" android:text="@string/spot_holdings_add_funds" 2130969917="2131438103" 2130969936="@id/2131428711" 2130969941="2131438103" style="@style/2132148699" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="12.0dip" 2130969940="@id/2131429651" />
+</androidx.constraintlayout.widget.ConstraintLayout>

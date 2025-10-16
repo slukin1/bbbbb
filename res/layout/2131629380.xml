@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="horizontal" android:id="@id/2131449349" ="8.0dip" ="40.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_payment_method_minimize" ="@font/2131296274" />
+    <ImageView ="wrap_content" ="18.0dip" ="2.0dip" 2130971077="@drawable/2131237057" />
+</LinearLayout>

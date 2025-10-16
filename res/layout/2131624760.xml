@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="@drawable/2131233017" ="10.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="center_vertical" ="vertical" android:id="@id/2131435709" ="0.0dip" ="wrap_content" ="1.0">
+        <LinearLayout ="center_vertical" ="start|center" ="horizontal" ="wrap_content" ="wrap_content">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428178" ="20.0dip" ="20.0dip" 2130971180="@null" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131437428" ="0.0dip" ="wrap_content" ="true" ="1.0" ="4.0dip" style="@style/2132149450" />
+            <include android:id="@id/2131435361" ="wrap_content" ="wrap_content" ="2.0dip" layout="@layout/2131624459" />
+        </LinearLayout>
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131440847" ="wrap_content" ="wrap_content" ="4.0dip" ="3" ="2.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131435396" ="gone" ="90.0dip" ="90.0dip" ="8.0dip">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433078" ="gone" ="90.0dip" ="90.0dip" ="centerCrop" 2130970795="@style/2132150262" 2130971180="@null" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434073" ="gone" ="32.0dip" ="32.0dip" 2130971077="@drawable/2131233241" 2130971180="@null" />
+    </FrameLayout>
+</LinearLayout>

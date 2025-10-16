@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="30.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="marquee" ="center_vertical" android:id="@id/2131446280" ="0.0dip" ="50.0dip" android:text="@string/futures_position_displaymode" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131435587" ="@drawable/2131233529" ="0.0dip" ="102.0dip" ="6.25dip" ="15.0dip" ="6.25dip" ="6.25dip" 2130969918="@id/2131435617" 2130969937="2131438103" 2130969940="@id/2131446280">
+        <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="0.0dip" ="7.0dip" ="8.0dip" ="7.0dip" ="1.0" ="@dimen/2131166277" 2130971077="@drawable/2131233986" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/futures_position_displaymode_brief" ="@dimen/2131166286" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/2131435617" ="@drawable/2131233529" ="0.0dip" ="0.0dip" ="6.25dip" ="6.25dip" ="6.25dip" 2130969911="@id/2131435587" 2130969917="2131438103" 2130969936="@id/2131435587" 2130969941="@id/2131435587">
+        <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="0.0dip" ="7.0dip" ="8.0dip" ="7.0dip" ="1.0" ="@dimen/2131166277" 2130971077="@drawable/2131233987" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/futures_position_displaymode_detail" ="@dimen/2131166286" style="@style/2132149350" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

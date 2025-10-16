@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="8.0dip" ="6.0dip" ="8.0dip" ="6.0dip" ="fill_parent" ="70.0dip" ="@dimen/2131166286" ="@dimen/2131166269" 2130970893="@dimen/2131166170" 2130970894="@id/2131447067" 2130970897="keleton_home_widget_common_2x2_light.svg" 2130970899="keleton_home_widget_common_2x2_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="gone" ="20.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099673" ="end" ="center" android:id="@id/2131447067" ="wrap_content" ="wrap_content" ="1.0dip" ="1" ="false" ="4.0dip" 2130968700="@dimen/2131167694" 2130968701="@dimen/2131167690" 2130968704="2.0sp" 2130968705="2131449068" 2130969905="true" 2130969918="@id/2131448005" 2130969927="0.0" 2130969928="2131438085" 2130969929="1.0" 2130969936="@id/iv_logo" 2130969941="2131438103" 2130969961="0.0dip" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/2131448005" ="@drawable/2131236001" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="false" ="4.0dip" ="@color/2131099804" ="@dimen/2131166247" 2130969911="@id/2131447067" 2130969917="2131438103" 2130969927="0.0" 2130969929="0.0" 2130969936="@id/2131447067" 2130969941="@id/2131447067" style="@style/2132149401" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436614" ="wrap_content" ="wrap_content" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131447067">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_price" ="wrap_content" ="wrap_content" ="false" style="@style/2132149450" />
+        <com.eaas.home.view.B8PercentageView android:id="@id/2131444055" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434624" ="51.5dip" ="34.0dip" ="fitXY" 2130969911="@id/2131436614" 2130969917="2131438103" 2130969941="@id/2131436614" />
+</com.components.skeleton.SkeletonViewGroup>

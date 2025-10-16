@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" 2130971098="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131431895" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/ivFilter" ="20.0dip" ="20.0dip" ="12.0dip" ="no" ="15.0dip" 2130971077="@drawable/2131238026" 2130971375="@color/2131099738" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439569" ="fill_parent" ="0.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131431895" />
+        <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131431354" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_records_found" 2130969940="@id/2131431895" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="horizontal" ="fill_parent" ="220.0dip" ="inherit" ="16.0dip" ="16.0dip">
+        <com.contrarywind.view.WheelView android:id="@id/2131439937" ="0.0dip" ="fill_parent" ="2.0" />
+        <com.contrarywind.view.WheelView android:id="@id/2131439936" ="0.0dip" ="fill_parent" ="1.0" />
+        <com.contrarywind.view.WheelView android:id="@id/2131439938" ="0.0dip" ="fill_parent" ="1.0" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="15.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton ="@color/2131099764" android:id="@id/2131429250" ="0.0dip" ="40.0dip" android:text="@string/cancel" ="1.0" 2130971472="2" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton ="#ff202630" android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" ="12.0dip" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

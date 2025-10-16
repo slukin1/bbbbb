@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131444506" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/strategy_loss_protection_rules_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444505" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/strategy_loss_protection_rules_desc" ="1.2" 2130969937="2131438103" 2130969940="@id/2131444506" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428692" ="fill_parent" ="40.0dip" ="15.0dip" android:text="@string/strategy_claim_agree" 2130969937="2131438103" 2130969940="@id/2131444505" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="fill_parent" ="40.0dip" ="10.0dip" android:text="@string/_cancel" 2130969937="2131438103" 2130969940="@id/2131428692" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

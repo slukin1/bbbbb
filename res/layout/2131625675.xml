@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" ="fill_parent" ="wrap_content" layout="@layout/2131629184" />
+    <RelativeLayout ="fill_parent" ="0.0dip" ="4.0dip" ="20.0dip" ="1.0">
+        <FrameLayout ="fill_parent" ="fill_parent" ="4.0dip" ="4.0dip" ="16.0dip" ="16.0dip">
+            <ScrollView ="center_vertical" ="fill_parent" ="fill_parent" ="true">
+                <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131430273" ="fill_parent" ="wrap_content">
+                    <TextView android:id="@id/title" ="fill_parent" ="16.0dip" ="16.0dip" android:text="" style="@style/2132150335" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </RelativeLayout>
+    <Button android:id="@id/2131428918" ="40.0dip" android:text="@string/uq_lookup_button_title_submit" ="false" style="@style/2132150323" />
+</LinearLayout>

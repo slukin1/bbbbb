@@ -1,0 +1,38 @@
+.class public final synthetic Lo/OcbsUQPayTraderV2doPreCheckForSell2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic d:Lo/OcbsTransfiMobileMoneyTraderV2processSellTrade1;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/OcbsTransfiMobileMoneyTraderV2processSellTrade1;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/OcbsUQPayTraderV2doPreCheckForSell2;->d:Lo/OcbsTransfiMobileMoneyTraderV2processSellTrade1;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/OcbsUQPayTraderV2doPreCheckForSell2;->d:Lo/OcbsTransfiMobileMoneyTraderV2processSellTrade1;
+
+    invoke-static {v0}, Lo/OcbsTransfiMobileMoneyTraderV2processSellTrade1;->c(Lo/OcbsTransfiMobileMoneyTraderV2processSellTrade1;)Lo/CountrySelectActivity;
+
+    move-result-object v0
+
+    return-object v0
+.end method

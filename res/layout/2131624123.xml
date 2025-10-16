@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441594" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" android:text="@string/c2c_group_setting_set_admin" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout ="vertical" ="@drawable/2131235987" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@color/2131099744">
+        <TextView ="14.0sp" ="@color/2131099764" ="fill_parent" ="wrap_content" android:text="@string/c2c_group_setting_set_admin_desc1" ="@font/2131296265" />
+        <TextView ="14.0sp" ="@color/2131099764" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_group_setting_set_admin_desc2" ="@font/2131296266" />
+    </LinearLayout>
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442043" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@font/2131296265" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131427721" ="fill_parent" ="0.0dip" ="1.0" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131428677" ="@drawable/2131236009" ="gone" ="fill_parent" ="48.0dip" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="@color/2131099879">
+        <ImageView ="20.0dip" ="20.0dip" ="@drawable/2131237088" 2130971375="@color/2131099789" />
+        <TextView ="16.0sp" ="@color/2131099789" ="wrap_content" ="wrap_content" android:text="@string/c2c_group_setting_set_admin_add_admins" ="@font/2131296275" ="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

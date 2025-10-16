@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232390" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433298" ="64.0dip" ="64.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238440" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvHeader" ="wrap_content" ="wrap_content" ="16.0dip" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433298" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131442587" ="gone" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvHeader" style="@style/2132149452" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131442581" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442587" 2130969962="@dimen/2131166286" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435372" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip" 2130969912="@id/2131442360" 2130969940="@id/2131442581" 2130969957="0.0dip">
+        <com.major.android.uikit2.button.KitButton ="end" ="center" android:id="@id/2131428837" ="fill_parent" ="40.0dip" android:text="@string/ms_index_got_it" 2130969173="4" 2130969912="@id/2131428716" 2130969941="2131438103" 2130969957="@dimen/2131166156" />
+        <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428716" ="fill_parent" ="40.0dip" ="10.0dip" android:text="@string/fiat_kyc_modify_amount" ="@id/2131428837" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428837" 2130969962="0.0dip" 2130971472="2131441186" style="@style/2132148697" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:id="@id/2131442360" ="gone" ="wrap_content" ="wrap_content" android:text="@string/fiat_kyc_learn_more_in" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

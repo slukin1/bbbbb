@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235986" ="fill_parent" ="wrap_content" 2130969911="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434904" ="0.0dip" ="200.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448125" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/c2c_title_trade_with_p2p" ="@font/2131296267" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434904" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446060" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/c2c_description_for_trade_with_p2p" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448125" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448126" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/c2c_express_trade_security_payment" ="@font/2131296267" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446060" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446061" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/c2c_description_for_security_payment" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448126" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131447899" ="0.0dip" ="40.0dip" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" android:text="@string/c2c_new_user_start_p2p_trading" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446061" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

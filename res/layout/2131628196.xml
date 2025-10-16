@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="false" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131441454" ="#80000000" ="gone" ="fill_parent" ="fill_parent" ="no" 2130969911="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131428579" ="fill_parent" ="wrap_content" ="yes" ="1.0dip" ="?2130969104" 2130968769="true" 2130968771="0.0dip" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior" 2130970795="?2130970801">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428580" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="yes">
+            <TextView ="?2130971300" android:id="@id/title" ="0.0dip" ="wrap_content" 2130969912="@id/message" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969947="500.0dip" />
+            <TextView ="?2130971299" android:id="@id/message" ="0.0dip" ="wrap_content" android:text="@string/pi2_modal_subtitle" 2130969912="@id/2131432100" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" 2130969947="500.0dip" />
+            <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432100" ="0.0dip" ="wrap_content" ="16.0dip" 2130969125="negative_button,positive_button" 2130969490="12.0dip" 2130969491="2131440523" 2130969500="12.0dip" 2130969501="2131440523" 2130969502="2131427761" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/message" />
+            <Button android:id="@id/negative_button" ="0.0dip" ="wrap_content" ="16.0dip" ="24.0dip" style="?2130970094" />
+            <Button android:id="@id/positive_button" ="0.0dip" ="wrap_content" ="24.0dip" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

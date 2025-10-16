@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131100528" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624283" />
+    <FrameLayout ="vertical" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <TextView ="12.0sp" ="@color/2131100365" ="center_vertical" ="@color/2131100492" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_order_completed_appeal_detail_tips" ="1.2" ="@font/2131296274" />
+            <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131428022" ="fill_parent" ="fill_parent" />
+            </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131431363" ="@color/2131100528" ="gone" ="fill_parent" ="fill_parent">
+            <ImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="80.0dip" 2130971077="@drawable/2131238473" />
+            <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/you_have_no_order_history" ="@font/2131296274" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

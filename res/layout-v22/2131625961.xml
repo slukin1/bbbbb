@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="10.0dip" ="10.0dip" ="false" ="fill_parent" ="fill_parent" ="10.0dip" ="@dimen/2131166156" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="130.0dip" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131429433" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+        <androidx.appcompat.widget.AppCompatTextView ="center_horizontal" android:id="@id/2131443851" ="@color/2131099675" ="30.0dip" ="gone" ="0.0dip" ="fill_parent" android:text="@string/strategy_running_detail_no_buy_orders" ="12.0dip" 2130969918="@id/2131429433" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="center_horizontal" android:id="@id/2131443863" ="@color/2131099675" ="30.0dip" ="gone" ="0.0dip" ="fill_parent" android:text="@string/strategy_running_detail_no_sell_orders" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131429433" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

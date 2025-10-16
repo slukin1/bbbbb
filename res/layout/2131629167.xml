@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131438576" layout="@layout/2131629173" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/close_btn" ="@drawable/2131236007" ="0.0dip" ="32.0dip" ="10.0dip" android:text="@string/futures_preference_position_button_setting_market_close" ="15.0dip" ="3.0dip" 2130969918="@id/2131441006" 2130969937="2131438103" 2130969940="@id/2131438576" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131441006" ="@drawable/2131236007" ="0.0dip" ="32.0dip" ="10.0dip" android:text="@string/futures_switch_position_switch_title" ="3.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/close_btn" 2130969940="@id/2131438576" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

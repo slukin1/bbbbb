@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" android:id="@id/2131430093" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131427728" ="fill_parent" ="fill_parent">
+        <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441086" ="wrap_content" ="24.0dip" ="16.0dip" ="16.0dip" ="16.0dip" ="16.0dip" />
+        <com.binance.widget.ScrollableViewPager android:id="@id/2131449929" ="fill_parent" ="fill_parent" />
+    </LinearLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/2131431363" ="fill_parent" ="300.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/c2c_userprofile_no_ads" />
+    </LinearLayout>
+</FrameLayout>

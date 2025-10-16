@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429634" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131447160" ="0.0dip" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103" 2130969949="0.34202" />
+    <TextView android:id="@id/2131447163" ="0.0dip" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" 2130969949="0.34202" />
+    <TextView android:id="@id/2131447166" ="0.0dip" ="fill_parent" 2130969917="2131438103" 2130969941="2131438103" 2130969949="0.34202" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429915" ="0.0dip" ="32.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130969949="0.34202">
+        <TextView ="center" android:id="@id/2131447161" ="20.0dip" ="20.0dip" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148863" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="start|center" android:id="@id/2131447162" ="0.0dip" ="wrap_content" ="8.0dip" ="16.0dip" ="false" ="locale" ="viewStart" ="15.0dip" ="15.0dip" 2130969917="@id/2131429915" 2130969937="@id/2131429915" 2130969940="@id/2131429915" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429916" ="0.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969949="0.34202">
+        <TextView ="center" android:id="@id/2131447164" ="20.0dip" ="20.0dip" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148863" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="start|center" android:id="@id/2131447165" ="0.0dip" ="wrap_content" ="8.0dip" ="16.0dip" ="false" ="locale" ="viewStart" ="15.0dip" ="15.0dip" 2130969917="@id/2131429916" 2130969937="@id/2131429916" 2130969940="@id/2131429916" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429917" ="0.0dip" ="32.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130969949="0.34202">
+        <TextView ="center" android:id="@id/2131447167" ="20.0dip" ="20.0dip" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148863" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="start|center" android:id="@id/2131447168" ="0.0dip" ="wrap_content" ="8.0dip" ="16.0dip" ="false" ="locale" ="viewStart" ="15.0dip" ="15.0dip" 2130969917="@id/2131429917" 2130969937="@id/2131429917" 2130969940="@id/2131429917" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

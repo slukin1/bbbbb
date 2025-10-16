@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="wrap_content" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429954" ="@drawable/2131236038" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="60.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <FrameLayout android:id="@id/2131432026" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437241" ="32.0dip" ="32.0dip" 2130971077="@drawable/2131237146" />
+        </FrameLayout>
+        <LinearLayout ="center_vertical" ="vertical" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969936="@id/2131432026" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437242" ="wrap_content" ="wrap_content" ="10.0dip" style="@style/2132149463" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437296" ="visible" ="wrap_content" ="wrap_content" ="0.0dip" ="10.0dip" ="15.0dip" 2130969905="true" 2130969937="@id/2131437242" 2130969940="@id/2131437242" 2130969942="0.45" style="@style/2132149450" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437238" ="@drawable/2131235171" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/added" ="2.0dip" ="@color/2131099744" 2130969917="@id/2131429954" 2130969941="@id/2131429954" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.TipsTextView ="@color/2131099764" android:id="@id/2131445330" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/earn_dashboard_total_asset" ="15.0dip" 2130969348="false" 2130969937="2131438103" 2130969941="2131438103" 2130971380="2131428553" style="@style/2132149350" />
+    <com.binance.earn.widgets.FundsEyeView android:id="@id/2131433885" ="5.0dip" ="26.0dip" ="26.0dip" 2130969911="@id/2131445330" 2130969936="@id/2131445330" 2130969941="@id/2131445330" />
+    <TextView ="@color/2131099764" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/placeholder" ="15.0dip" 2130969905="true" 2130969918="@id/2131442205" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131445330" style="@style/2132149419" />
+    <TextView ="@color/2131099764" android:id="@id/2131442205" ="wrap_content" ="wrap_content" ="2.0dip" 2130969907="@id/tvTotalAmount" 2130969917="2131438103" 2130969936="@id/tvTotalAmount" style="@style/2132149374" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099778" android:id="@id/2131443004" ="wrap_content" ="wrap_content" ="4.0dip" android:text="≈ $--" 2130969937="@id/tvTotalAmount" 2130969940="@id/tvTotalAmount" style="@style/2132149350" />
+    <com.binance.base.widget.TipsTextView android:id="@id/tvTodayPnlLabel" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_today_pnl" ="15.0dip" 2130969274="@string/earn_today_pnl" 2130969937="2131438103" 2130969940="@id/2131443004" 2130971380="2131428553" 2130971382="@string/earn_today_pnl_tips" style="@style/2132149394" />
+    <TextView android:id="@id/tvTodayPnl" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/tvTodayPnlLabel" 2130969940="@id/tvTodayPnlLabel" style="@style/2132149463" />
+    <TextView android:id="@id/tvTodayEstValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/tvTodayPnlLabel" 2130969940="@id/tvTodayPnl" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432770" ="wrap_content" ="wrap_content" 2130969921="0.33" />
+    <TextView android:id="@id/tv7DPnlLabel" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_7_d_pnl" ="15.0dip" 2130969937="@id/2131432770" 2130969940="@id/2131443004" style="@style/2132149394" />
+    <TextView android:id="@id/tv7DPnl" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/tv7DPnlLabel" 2130969940="@id/tv7DPnlLabel" style="@style/2132149463" />
+    <TextView android:id="@id/tv7DEstValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/tv7DPnlLabel" 2130969940="@id/tv7DPnl" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432765" ="wrap_content" ="wrap_content" 2130969921="0.66" />
+    <TextView android:id="@id/tv30DPnlLabel" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_30_d_pnl" ="15.0dip" 2130969937="@id/2131432765" 2130969940="@id/2131443004" style="@style/2132149394" />
+    <TextView android:id="@id/tv30DPnl" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/tv30DPnlLabel" 2130969940="@id/tv30DPnlLabel" style="@style/2132149463" />
+    <TextView android:id="@id/tv30DEstValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/tv30DPnlLabel" 2130969940="@id/tv30DPnl" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432565" ="wrap_content" ="wrap_content" 2130969125="tvTodayPnlLabel,tvTodayEstValue,tvTodayPnl,tv7DEstValue,tv7DPnl,tv7DPnlLabel,tv30DEstValue,tv30DPnl,tv30DPnlLabel" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0px" ="15.0dip" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTodayEstValue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

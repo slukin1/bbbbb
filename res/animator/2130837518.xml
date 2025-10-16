@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" ="true">
+        <objectAnimator android:interpolator="?2130970249" android:duration="?2130970239" android:valueTo="1.0dip" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?2130970236" />
+    </item>
+    <item ="true" 2130971165="true">
+        <objectAnimator android:interpolator="?2130970249" android:duration="?2130970239" android:valueTo="6.0dip" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?2130970236" />
+    </item>
+    <item ="true">
+        <objectAnimator android:interpolator="?2130970249" android:duration="?2130970233" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0.0dip" android:valueType="floatType" android:propertyName="translationZ" />
+    </item>
+</selector>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/tv_type_title" ="visible" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" android:text="@string/_Type" ="@font/2131296274" ="@dimen/2131166184" ="@dimen/2131166286" 2130969937="2131438103" 2130969941="2131438103" />
+            <RelativeLayout ="center_vertical" android:id="@id/2131435726" ="@drawable/2131235987" ="0.0dip" ="40.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@color/2131099744" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_type_title">
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/tv_type" ="wrap_content" ="wrap_content" ="@font/2131296273" ="10.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="@color/2131099738" ="10.0dip" ="true" 2130971077="@drawable/2131237003" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446189" ="visible" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/currency" ="@font/2131296274" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131435726" />
+            <RelativeLayout ="center_vertical" android:id="@id/2131435613" ="@drawable/2131235987" ="0.0dip" ="40.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@color/2131099744" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446189">
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131446183" ="wrap_content" ="wrap_content" ="@font/2131296273" ="10.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="@color/2131099738" ="10.0dip" ="true" 2130971077="@drawable/2131237003" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445997" ="visible" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/coins" ="@font/2131296274" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131435613" />
+            <RelativeLayout ="center_vertical" android:id="@id/2131435599" ="@drawable/2131235987" ="0.0dip" ="40.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@color/2131099744" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445997">
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131445996" ="wrap_content" ="wrap_content" ="@font/2131296273" ="10.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="@color/2131099738" ="10.0dip" ="true" 2130971077="@drawable/2131237003" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446231" ="visible" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/date" ="@font/2131296274" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131435599" />
+            <LinearLayout ="horizontal" android:id="@id/radio_group" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446231">
+                <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131438843" ="@drawable/2131232574" ="0.0dip" ="36.0dip" ="10.0dip" ="true" android:text="@string/c2c_mod_custom_date_order_history" ="1.0" ="@font/2131296274" ="15.0dip" />
+                <TextView ="@color/2131099778" ="center" android:id="@id/2131438848" ="@drawable/2131232574" ="0.0dip" ="36.0dip" ="10.0dip" android:text="@string/c2c_mod_month_date_order_history" ="1.0" ="@font/2131296274" ="10.0dip" />
+                <TextView ="@color/2131099778" ="center" android:id="@id/2131438850" ="@drawable/2131232574" ="0.0dip" ="36.0dip" ="10.0dip" android:text="@string/c2c_mod_quarter_date_order_history" ="1.0" ="@font/2131296274" ="10.0dip" ="15.0dip" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/tv_custom_tip" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_sheet_order_filter_tips" ="@font/2131296274" ="15.0dip" ="@dimen/2131166286" 2130969937="2131438103" 2130969940="@id/radio_group" />
+            <FrameLayout android:id="@id/2131430342" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_custom_tip" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="20.0dip" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/tv_custom_tip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_reset" ="0.0dip" ="40.0dip" android:text="@string/reset" ="1.0" ="15.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" ="12.0dip" ="15.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428580" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="yes" ="@dimen/2131167682" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131432869" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/pi2_modal_title" 2130969912="@id/2131432868" 2130969917="@id/2131432100" 2130969937="@id/2131432100" 2130969941="2131438103" 2130969947="500.0dip" style="?2130971282" />
+    <TextView android:id="@id/2131432868" ="0.0dip" ="wrap_content" android:text="@string/pi2_modal_subtitle" 2130969912="@id/2131432100" 2130969917="@id/2131432100" 2130969937="@id/2131432100" 2130969940="@id/2131432869" 2130969947="500.0dip" style="?2130971299" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432100" ="0.0dip" ="wrap_content" ="16.0dip" 2130969125="retry_button,close_button" 2130969490="12.0dip" 2130969491="2131440523" 2130969500="12.0dip" 2130969501="2131440523" 2130969502="2131427761" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432868" />
+    <Button android:id="@id/close_button" ="0.0dip" ="wrap_content" android:text="@string/pi2_modal_primary_action" ="24.0dip" />
+    <Button android:id="@id/retry_button" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/pi2_modal_secondary_action" ="24.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

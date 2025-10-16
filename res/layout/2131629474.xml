@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131436685" ="@drawable/2131236004" ="wrap_content" ="18.0dip" ="6.0dip" ="6.0dip" ="#19f0b90b" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434597" ="14.0dip" ="14.0dip" ="fitCenter" ="@null" 2130971077="@drawable/2131237940" 2130971375="@color/2131099787" />
+        <TextView ="@color/2131099787" ="end" ="center_vertical" android:id="@id/2131448638" ="wrap_content" ="wrap_content" android:text="Voucher" ="1" ="false" ="2.0dip" style="@style/2132149454" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="16.0dip" ="16.0dip" ="fitCenter" 2130969911="2131438103" 2130969936="@id/2131436685" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.switchpro.CubeLayout android:id="@id/2131430628" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130970808="false" 2130970809="0.5">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431980" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent">
+            <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131438432" ="@color/2131099676" ="fill_parent" ="1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131429712" ="fill_parent" ="0.0dip" 2130969912="@id/2131435586" 2130969940="@id/2131441601">
+                <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427921" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153" 2130969901="com.fairy.lite.widgets.FixAppBarLayoutBehavior">
+                    <androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="fill_parent" ="wrap_content" 2130969974="2131439795">
+                        <TextView ="@color/2131099764" android:id="@id/2131441558" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                        <TextView ="@color/2131099778" android:id="@id/2131440111" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/2131441558" 2130969936="@id/2131441558" 2130969941="@id/2131441558" style="@style/2132149446" />
+                        <TextView ="@color/2131099764" android:id="@id/price" ="wrap_content" ="40.0dip" ="3.0dip" android:text="0.00" ="false" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131441558" style="@style/2132149414" />
+                        <ImageView ="center_vertical" android:id="@id/2131438630" ="?2130968587" ="6.0dip" ="32.0dip" ="32.0dip" ="2.0dip" ="@null" 2130969911="@id/price" 2130969936="@id/price" 2130969941="@id/price" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+                        <TextView ="@color/2131099764" android:id="@id/2131438267" ="wrap_content" ="wrap_content" android:text="+0.00%" ="ltr" 2130969937="@id/price" 2130969940="@id/price" style="@style/2132149463" />
+                        <com.fairy.lite.biz.marketdetail.price.ChartView android:id="@id/2131429461" ="fill_parent" ="288.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131438267" />
+                        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436703" ="40.0dip" ="40.0dip" 2130969911="@id/2131429461" 2130969917="@id/2131429461" 2130969937="@id/2131429461" 2130969941="@id/2131429461" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+                        <View android:id="@id/chatErrorLine" ="fill_parent" ="140.0dip" ="15.0dip" ="30.0dip" ="15.0dip" ="@dimen/2131166184" 2130969912="@id/chatErrorText" 2130969941="@id/2131429461" 2130969943="2131438085" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" android:id="@id/chatErrorText" ="fill_parent" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" android:text="@string/lite_ms_funds_asset_connect_error" ="@dimen/2131166184" 2130969911="@id/2131429461" 2130969940="@id/chatErrorLine" style="@style/2132149384" />
+                        <androidx.constraintlayout.widget.Group android:id="@id/2131429462" ="gone" ="wrap_content" ="wrap_content" 2130969125="chatErrorLine,chatErrorText" />
+                        <RadioGroup ="horizontal" android:id="@id/2131433529" ="@color/2131100528" ="fill_parent" ="24.0dip" ="10.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131429461">
+                            <RadioButton android:id="@id/2131433532" android:text="@string/lite_ms_market_detail_chart_interval_h" style="@style/2132148771" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131433531" android:text="@string/lite_ms_market_detail_chart_interval_d" style="@style/2132148771" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131433534" android:text="@string/_1_week" style="@style/2132148771" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131433533" android:text="@string/_1_month" style="@style/2132148771" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131433535" android:text="@string/lite_ms_market_detail_chart_interval_y" style="@style/2132148771" />
+                        </RadioGroup>
+                        <RadioGroup ="horizontal" android:id="@id/2131439916" ="@color/2131100528" ="gone" ="fill_parent" ="24.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131429461">
+                            <RadioButton android:id="@id/2131439920" android:text="00:00" style="@style/2132148772" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131439921" android:text="00:00" style="@style/2132148772" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131439922" android:text="00:00" style="@style/2132148772" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131439923" android:text="00:00" style="@style/2132148772" />
+                            <Space ="0.0dip" ="0.0dip" ="1.0" />
+                            <RadioButton android:id="@id/2131439924" android:text="00:00" style="@style/2132148772" />
+                        </RadioGroup>
+                        <ViewStub android:id="@id/2131449466" ="@layout/2131627078" ="fill_parent" ="wrap_content" ="15.0dip" ="54.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131429461" />
+                        <ViewStub android:id="@id/2131449465" ="@layout/2131627076" ="fill_parent" ="wrap_content" ="54.0dip" 2130969940="@id/2131429461" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tabLayout" ="wrap_content" ="wrap_content" ="15.0dip" ="18.0dip" ="15.0dip" ="8.0dip" android:text="@string/lite_ms_market_detail_about" ="@dimen/2131166184" style="@style/2132149446" />
+                </com.google.android.material.appbar.AppBarLayout>
+                <androidx.fragment.app.FragmentContainerView android:id="@id/2131432183" ="gone" ="fill_parent" ="fill_parent" ="never" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <include android:id="@id/2131435586" ="fill_parent" ="wrap_content" 2130969911="2131438103" layout="@layout/2131627077" />
+            <androidx.constraintlayout.motion.widget.MotionLayout android:id="@id/2131441601" ="fill_parent" ="52.0dip" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip" 2130969893="@xml/2132344851" 2130969940="@id/2131438432">
+                <ImageView ="start" android:id="@id/2131441619" ="?2130968587" ="12.0dip" ="visible" ="44.0dip" ="44.0dip" ="centerInside" ="@null" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+                <TextView ="@color/2131099778" ="center" android:id="@id/2131441516" ="fill_parent" ="wrap_content" 2130969941="2131438103" style="@style/2132149454" />
+                <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131438622" ="0.0dip" ="wrap_content" android:text="0.00" ="2.0dip" 2130969918="@id/2131432737" 2130969936="@id/2131441619" 2130969940="@id/2131441516" style="@style/2132149361" />
+                <TextView ="@color/2131099778" ="start" android:id="@id/2131438271" ="0.0dip" ="wrap_content" android:text="+0.00%" ="2.0dip" 2130969907="@id/2131438622" 2130969918="@id/2131436755" 2130969936="@id/2131432737" 2130969941="@id/2131438622" style="@style/2132149384" />
+                <ImageView android:id="@id/2131427752" ="?2130968587" ="2.0dip" ="24.0dip" ="24.0dip" ="10.0dip" 2130969911="@id/2131436755" 2130969918="@id/2131436755" 2130969941="@id/2131436755" 2130971077="@drawable/2131237717" 2130971375="@color/2131099764" />
+                <com.binance.base.widget.BNCLottieAnimationView ="center" ="end" android:id="@id/2131436755" ="?2130968587" ="2.0dip" ="24.0dip" ="24.0dip" ="centerCrop" ="@null" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130970050="false" />
+            </androidx.constraintlayout.motion.widget.MotionLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440122" ="@color/2131099685" ="fill_parent" ="fill_parent" ="fitXY" 2130971077="@drawable/2131234768" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131427897" ="fill_parent" ="fill_parent" ="centerCrop" 2130970039="false" 2130970050="false" />
+</com.binance.base.switchpro.CubeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131448968" ="visible" ="wrap_content" ="wrap_content" ="true" 2130971077="@drawable/2131236655" />
+    <TextView ="@color/2131099764" android:id="@id/2131449039" ="gone" ="wrap_content" ="wrap_content" android:text="ToolBarTitle" ="true" ="true" style="@style/2132149425" />
+    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="true" ="15.0dip">
+        <ImageView android:id="@id/2131448970" ="gone" ="24.0dip" ="24.0dip" ="10.0dip" 2130971077="@drawable/2131238472" />
+        <ImageView android:id="@id/2131448971" ="gone" ="24.0dip" ="24.0dip" ="10.0dip" 2130971077="@drawable/2131238472" />
+        <ImageView android:id="@id/2131448972" ="gone" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131238472" />
+    </LinearLayout>
+</RelativeLayout>

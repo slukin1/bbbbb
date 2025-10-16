@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="center" ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="center" android:id="@id/title" ="@dimen/2131167206" ="4.0dip" ="@dimen/2131167206" android:text="@string/onfido_doc_select_section_input_country_not_found" style="@style/2132148941" />
+    </LinearLayout>
+</FrameLayout>

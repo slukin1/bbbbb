@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center" ="@drawable/2131236670" ="24.0dip" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433927" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233606" />
+    <TextView ="@color/2131099764" android:id="@id/2131445417" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/spot_trade_busd_unset_tip_message" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433927" style="@style/2132149350" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436790" ="wrap_content" ="wrap_content" ="18.0dip" 2130969937="2131438103" 2130969940="@id/2131445417">
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429513" ="24.0dip" ="24.0dip" ="false" />
+        <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131442463" ="wrap_content" ="wrap_content" android:text="@string/spot_trade_busd_unset_hidden_tip" ="10.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131445254" ="fill_parent" ="40.0dip" ="18.0dip" android:text="@string/spot_trade_busd_unset_try_fdusd" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436790" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131442596" ="fill_parent" ="40.0dip" ="10.0dip" android:text="@string/spot_trade_busd_unset_use_busd" 2130969917="2131438103" 2130969936="2131438103" 2130969940="@id/2131445254" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

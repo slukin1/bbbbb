@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439500" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" ="center" android:id="@id/tv_title" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/options_upgrade_risk_dialog_title" ="@dimen/2131166184" ="@dimen/2131166188" 2130969941="2131438103" style="@style/2132149425" />
+    <ScrollView ="vertical" android:id="@id/2131439804" ="none" ="fill_parent" ="0.0dip" ="1.0" ="true" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <TextView ="@color/2131099778" android:id="@id/2131448371" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" style="@style/2132149384" />
+    </ScrollView>
+    <View android:id="@id/view_divider2" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436438" ="fill_parent" ="wrap_content" ="16.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131429561" ="24.0dip" ="24.0dip" ="false" ="18.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/tv_agreement" ="wrap_content" ="wrap_content" ="15.0dip" style="@style/2132149361" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" ="15.0dip" ="@dimen/2131166188" style="@style/2132148692" />
+</LinearLayout>

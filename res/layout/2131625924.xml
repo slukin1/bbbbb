@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236662" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434513" ="60.0dip" ="60.0dip" ="centerInside" 2130971077="@drawable/2131233967" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131446758" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/futures_exam_dialog_tip_before_trading_understand_risk" ="1.3" style="@style/2132149450" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428493" ="fill_parent" ="40.0dip" ="24.0dip" android:text="@string/futures_tutorial_confirm" 2130969173="4" />
+</LinearLayout>

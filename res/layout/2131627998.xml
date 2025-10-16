@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436627" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/payment_currency" ="@font/2131296265" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436157" ="@drawable/2131235767" ="fill_parent" ="50.0dip" ="5.0dip" ="?2130970780" ="10.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449146" ="30.0dip" ="30.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442195" ="0.0dip" ="wrap_content" ="1.0" ="@font/2131296265" ="10.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView ="30.0dip" ="30.0dip" 2130971077="@drawable/2131237055" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.major.android.uikit.input.KitInputText android:id="@id/2131433456" ="fill_parent" ="wrap_content" ="24.0dip" 2130969654="@null" 2130969655="@string/c2c_mob_palceorder_buy_inputhint_amount" 2130969660="@string/payment_amount_optional" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatTextView ="center" ="end" android:id="@id/2131446184" ="wrap_content" ="wrap_content" ="4.0dip" 2130969311="@drawable/2131237139" 2130969917="2131438103" 2130969941="@id/2131433456" style="@style/2132149454" />
+            <View android:id="@id/2131431126" ="0.0dip" ="0.0dip" 2130969911="@id/2131446184" 2130969917="@id/2131446184" 2130969937="@id/2131446184" 2130969941="@id/2131446184" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_payment_note" ="@font/2131296265" />
+        <androidx.appcompat.widget.AppCompatEditText ="16.0sp" ="@color/2131099764" ="@color/2131099762" ="center_vertical" android:id="@id/2131431434" ="@drawable/2131235767" ="10.0dip" ="10.0dip" ="fill_parent" ="50.0dip" ="5.0dip" android:hint="@string/payment_set_amount_note_placeholder" ="true" ="30" />
+        <View ="wrap_content" ="0.0dip" ="1.0" />
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428732" ="fill_parent" ="48.0dip" ="46.0dip" android:text="@string/confirm" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+.class public final synthetic Lo/getForceLiquidationStartTime;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic c:Lcom/binance/margin/history/activities/SearchCoinActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/binance/margin/history/activities/SearchCoinActivity;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/getForceLiquidationStartTime;->c:Lcom/binance/margin/history/activities/SearchCoinActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/getForceLiquidationStartTime;->c:Lcom/binance/margin/history/activities/SearchCoinActivity;
+
+    check-cast p1, Landroid/widget/TextView;
+
+    invoke-static {v0, p1}, Lcom/binance/margin/history/activities/SearchCoinActivity;->d(Lcom/binance/margin/history/activities/SearchCoinActivity;Landroid/widget/TextView;)Lkotlin/Unit;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429918" ="@drawable/2131233529" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <ImageView android:id="@id/2131434721" ="wrap_content" ="wrap_content" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233988" />
+        <TextView ="@color/2131099764" android:id="@id/2131447735" ="0.0dip" ="wrap_content" android:text="@string/future_position_setting_one" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131434721" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/future_mode_setting_one_way" 2130969911="2131438103" 2130969917="@id/2131447735" 2130969937="@id/2131447735" 2130969940="@id/2131447735" 2130969942="0.0" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429871" ="@drawable/2131233529" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <ImageView android:id="@id/2131434577" ="wrap_content" ="wrap_content" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233989" />
+        <TextView ="@color/2131099764" android:id="@id/2131447744" ="0.0dip" ="wrap_content" android:text="@string/future_position_setting_two" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131434577" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/future_mode_setting_hedge" 2130969911="2131438103" 2130969917="@id/2131447744" 2130969937="@id/2131447744" 2130969940="@id/2131447744" 2130969942="0.0" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131440013" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/future_position_setting_tips" ="1.2" ="15.0dip" ="15.0dip" style="@style/2132149384" />
+</LinearLayout>

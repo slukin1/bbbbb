@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#00000000" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="locale" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131436024" ="invisible" ="fill_parent" ="fill_parent" 2130970795="@style/2132150276" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432638" ="0.0dip" ="0.0dip" 2130969125="lite_banner_title,lite_banner_content,end_image_barrier,lite_banner_img,lite_banner_lottie" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/lite_banner_title" ="0.0dip" ="wrap_content" ="1" ="15.0dip" 2130969912="@id/lite_banner_content" 2130969918="@id/end_image_barrier" 2130969927="0.5" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149386" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/lite_banner_content" ="0.0dip" ="wrap_content" ="3.0dip" ="2" ="15.0dip" 2130969911="2131438103" 2130969918="@id/end_image_barrier" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/lite_banner_title" style="@style/2132149447" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/end_image_barrier" ="0.0dip" ="0.0dip" 2130968759="2131440560" 2130969125="lite_banner_lottie, lite_banner_img" />
+    <ImageView android:id="@id/lite_banner_img" ="invisible" ="64.0dip" ="64.0dip" ="centerInside" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/lite_banner_lottie" ="invisible" ="64.0dip" ="64.0dip" ="fitCenter" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130970039="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

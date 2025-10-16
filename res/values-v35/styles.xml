@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132148532" parent="@style/2132148530">
+        <item name="android:windowBackground">@color/2131102384</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="2132148832" parent="@style/2132148833" />
+</resources>

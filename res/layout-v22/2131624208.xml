@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131437902" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" ="@dimen/2131166184" ="@dimen/2131166170" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/2131437941" ="wrap_content" ="wrap_content" ="@font/2131296275" />
+        <RelativeLayout ="end" ="wrap_content" ="wrap_content" ="0.0dip" ="15.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="center" ="horizontal" android:id="@id/2131429490" ="gone" ="wrap_content" ="wrap_content" ="true" ="true">
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131429504" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296273" ="0.0dip" ="2.0dip" ="16.0dip" 2130969918="@id/2131442155" 2130969937="2131438103" 2130969941="2131438103" />
+                <View android:id="@id/2131429491" ="@drawable/2131232389" ="8.0dip" ="8.0dip" ="@color/2131099881" 2130969936="@id/2131429504" 2130969941="@id/2131429504" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442155" ="wrap_content" ="wrap_content" android:text="@string/c2c_appeal_progress" ="4.0dip" ="@font/2131296273" ="0.0dip" ="10.0dip" ="2.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+                <View android:id="@id/2131428003" ="@drawable/2131232389" ="8.0dip" ="8.0dip" ="@color/2131099881" 2130969917="@id/2131442155" 2130969941="@id/2131442155" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.binance.c2c.api.common.DashUnderlineTextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131442415" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_cancel_order" ="@font/2131296274" ="18.0dip" ="true" 2130969222="@color/2131099764" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="0.0dip" 2130969912="@id/bottomLayout" 2130969940="@id/2131437902">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437901" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <include android:id="@id/bottomLayout" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" layout="@layout/2131624278" />
+    <com.binance.c2c.orderdetail.widget.TutorialVideoFloatView android:id="@id/2131441792" ="visible" ="wrap_content" ="wrap_content" ="90.0dip" ="true" ="true" 2130969911="2131438103" 2130969917="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

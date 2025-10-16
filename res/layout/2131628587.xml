@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427636" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427637" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427636" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427477" ="@drawable/2131233531" ="gone" ="fill_parent" ="88.0dip" ="8.0dip" ="centerInside" ="@color/2131099676" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427637" />
+    <View android:id="@id/2131449228" ="@drawable/2131233531" ="fill_parent" ="0.0dip" ="8.0dip" ="#1a2ebd85" 2130969911="@id/2131427631" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427477" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427474" ="20.0dip" ="20.0dip" ="4.0dip" ="4.0dip" 2130969937="@id/2131449228" 2130969941="@id/2131449228" 2130971077="@drawable/2131236451" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131427631" ="4.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131427474" 2130969941="@id/2131427474" style="@style/2132149350" />
+    <View android:id="@id/2131449267" ="@drawable/2131233531" ="fill_parent" ="0.0dip" ="4.0dip" ="#1af6465d" 2130969911="@id/2131427638" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449228" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427478" ="20.0dip" ="20.0dip" ="4.0dip" ="4.0dip" 2130969937="@id/2131449267" 2130969941="@id/2131449267" 2130971077="@drawable/2131236451" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131427638" ="4.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131427478" 2130969941="@id/2131427478" style="@style/2132149350" />
+    <Space ="fill_parent" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427638" />
+</merge>

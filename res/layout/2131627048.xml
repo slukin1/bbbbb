@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="bold" ="#ff848e9c" ="center_horizontal" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="65.0dip" android:text="@string/no_records_found" ="20.0dip" ="true" 2130969314="@drawable/2131238419" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439848" ="fill_parent" ="fill_parent" />
+</FrameLayout>

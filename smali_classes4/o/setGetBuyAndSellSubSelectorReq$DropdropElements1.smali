@@ -1,0 +1,469 @@
+.class public final Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo/setGetBuyAndSellSubSelectorReq;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "DropdropElements1"
+.end annotation
+
+
+# instance fields
+.field private final a:Ljava/lang/String;
+
+.field private final b:Ljava/lang/String;
+
+.field private final c:Ljava/lang/String;
+
+.field private final d:Ljava/lang/String;
+
+.field private final e:Z
+
+.field private final g:Ljava/lang/String;
+
+.field private final h:Z
+
+.field private final i:Z
+
+.field private final j:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(ZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    .locals 0
+
+    .line 28
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 29
+    iput-boolean p1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->h:Z
+
+    const/4 p1, 0x1
+
+    .line 30
+    iput-boolean p1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->i:Z
+
+    .line 31
+    iput-object p3, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->d:Ljava/lang/String;
+
+    .line 32
+    iput-object p4, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->a:Ljava/lang/String;
+
+    .line 33
+    iput-object p5, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->j:Ljava/lang/String;
+
+    .line 34
+    iput-object p6, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->c:Ljava/lang/String;
+
+    .line 35
+    iput-object p7, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->b:Ljava/lang/String;
+
+    .line 36
+    iput-object p8, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->g:Ljava/lang/String;
+
+    .line 37
+    iput-boolean p9, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->e:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final d()Lorg/json/JSONObject;
+    .locals 3
+
+    .line 40
+    new-instance v0, Lorg/json/JSONObject;
+
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+
+    .line 41
+    const-string v1, "result"
+
+    const-string v2, "failure"
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 42
+    const-string v1, "selfSigned"
+
+    iget-boolean v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->h:Z
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
+
+    .line 43
+    const-string v1, "trusted"
+
+    iget-boolean v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->i:Z
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
+
+    .line 44
+    const-string v1, "host"
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->d:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 45
+    const-string v1, "issuer"
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->a:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 46
+    const-string v1, "subject"
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->j:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 47
+    const-string v1, "commonName"
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->c:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 48
+    const-string v1, "san"
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->b:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 49
+    const-string v1, "spki"
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->g:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 50
+    const-string v1, "rejection"
+
+    iget-boolean v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->e:Z
+
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
+
+    return-object v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    .line 65354
+    :cond_0
+    instance-of v1, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;
+
+    iget-boolean v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->h:Z
+
+    iget-boolean v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->h:Z
+
+    if-eq v1, v3, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-boolean v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->i:Z
+
+    iget-boolean v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->i:Z
+
+    if-eq v1, v3, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->d:Ljava/lang/String;
+
+    iget-object v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->d:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->a:Ljava/lang/String;
+
+    iget-object v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->a:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->j:Ljava/lang/String;
+
+    iget-object v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->j:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_6
+
+    return v2
+
+    :cond_6
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->c:Ljava/lang/String;
+
+    iget-object v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->c:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_7
+
+    return v2
+
+    :cond_7
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->b:Ljava/lang/String;
+
+    iget-object v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->b:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_8
+
+    return v2
+
+    :cond_8
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->g:Ljava/lang/String;
+
+    iget-object v3, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->g:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_9
+
+    return v2
+
+    :cond_9
+    iget-boolean v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->e:Z
+
+    iget-boolean p1, p1, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->e:Z
+
+    if-eq v1, p1, :cond_a
+
+    return v2
+
+    :cond_a
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 2
+
+    .line 65353
+    iget-boolean v0, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->h:Z
+
+    invoke-static {v0}, Lorg/web3j/tx/Contract$$ExternalSyntheticBackport0;->m(Z)I
+
+    move-result v0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-boolean v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->i:Z
+
+    invoke-static {v1}, Lorg/web3j/tx/Contract$$ExternalSyntheticBackport0;->m(Z)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->d:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->a:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->j:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->c:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->b:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->g:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-boolean v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->e:Z
+
+    invoke-static {v1}, Lorg/web3j/tx/Contract$$ExternalSyntheticBackport0;->m(Z)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 11
+
+    .line 65352
+    iget-boolean v0, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->h:Z
+
+    iget-boolean v1, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->i:Z
+
+    iget-object v2, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->d:Ljava/lang/String;
+
+    iget-object v3, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->a:Ljava/lang/String;
+
+    iget-object v4, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->j:Ljava/lang/String;
+
+    iget-object v5, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->c:Ljava/lang/String;
+
+    iget-object v6, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->b:Ljava/lang/String;
+
+    iget-object v7, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->g:Ljava/lang/String;
+
+    iget-boolean v8, p0, Lo/setGetBuyAndSellSubSelectorReq$DropdropElements1;->e:Z
+
+    new-instance v9, Ljava/lang/StringBuilder;
+
+    const-string v10, "PinningData(selfSigned="
+
+    invoke-direct {v9, v10}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", trusted="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ", host="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", issuer="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", subject="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", commonName="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", san="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", spki="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", rejection="
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9, v8}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    const-string v0, ")"
+
+    invoke-virtual {v9, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v9}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131433132" ="#40000000" ="invisible" ="fill_parent" ="fill_parent" />
+    <View android:id="@id/2131432877" ="#a0000000" ="invisible" ="fill_parent" ="fill_parent" />
+    <View android:id="@id/2131428476" ="#ff000000" ="invisible" ="fill_parent" ="fill_parent" />
+    <com.withpersona.sdk2.inquiry.selfie.view.Pi2ProgressArcView android:id="@id/2131438685" ="fill_parent" ="fill_parent" 2130970520="0.45" 2130970523="0.0" 2130970525="90.0" 2130970526="?2130969099" 2130970527="12.0dip" />
+    <com.withpersona.sdk2.inquiry.selfie.view.Pi2CircleMaskView android:id="@id/2131429619" ="fill_parent" ="fill_parent" 2130970517="0.45" 2130970521="@color/2131100242" />
+    <ImageView android:id="@id/2131432872" ="gone" ="0.0dip" ="0.0dip" ="centerInside" 2130969911="2131438103" 2130969916="1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969949="0.8" />
+    <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131432871" ="gone" ="0.0dip" ="0.0dip" ="fitCenter" 2130969911="2131438103" 2130969916="1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969949="0.9" />
+</merge>

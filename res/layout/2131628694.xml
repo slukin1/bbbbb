@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439479" ="vertical" ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443264" ="wrap_content" ="wrap_content" ="false" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442804" ="wrap_content" ="wrap_content" ="5.0dip" 2130969999="22.0sp" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443265" ="wrap_content" ="wrap_content" ="20.0dip" ="false" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442805" ="wrap_content" ="wrap_content" ="5.0dip" 2130969999="22.0sp" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443266" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="false" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442807" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969999="22.0sp" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443267" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442809" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969999="22.0sp" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443268" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442810" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969999="22.0sp" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443269" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442811" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969999="22.0sp" style="@style/2132149350" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

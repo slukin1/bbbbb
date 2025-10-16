@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="24.0dip" ="298.0dip" ="wrap_content" ="412.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="bold" ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ms_setup_2fa_title" style="@style/2132149425" />
+    <TextView ="12.0sp" ="@color/2131099764" ="center" ="center" android:id="@id/2131441475" ="fill_parent" ="wrap_content" ="22.0dip" ="16.0dip" ="22.0dip" android:text="@string/ms_setup_2fa_hint" ="22.0dip" 2130969999="@dimen/2131166188" />
+    <LinearLayout ="center_horizontal" ="horizontal" ="fill_parent" ="145.0dip" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="@dimen/2131166209" ="@dimen/2131166188">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131435339" ="0.0dip" ="fill_parent" ="1.0">
+            <ImageView android:id="@id/icon1Iv" ="60.0dip" ="60.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="@color/2131099778" ="end" ="center_horizontal" android:id="@id/2131441516" ="fill_parent" ="32.0dip" ="5.0dip" 2130969940="@id/icon1Iv" style="@style/2132149384" />
+            <TextView ="@color/2131099787" ="center_horizontal" android:id="@id/2131438996" ="3.0dip" ="invisible" ="wrap_content" ="wrap_content" ="5.0dip" ="3.0dip" ="5.0dip" android:text="@string/lite_earn_recommend" ="false" ="@dimen/2131166260" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441516" style="@style/2132149397" />
+            <ImageView android:id="@id/2131439913" ="23.0dip" ="23.0dip" ="@drawable/2131236571" 2130969917="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <Space android:id="@id/divider" ="16.0dip" ="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131435340" ="0.0dip" ="fill_parent" ="1.0">
+            <ImageView android:id="@id/icon2Iv" ="60.0dip" ="60.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="@color/2131099778" ="end" ="center_horizontal" android:id="@id/2131441518" ="fill_parent" ="32.0dip" ="5.0dip" 2130969940="@id/icon2Iv" style="@style/2132149384" />
+            <ImageView android:id="@id/2131439914" ="invisible" ="23.0dip" ="23.0dip" ="@drawable/2131236571" 2130969917="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131437539" ="fill_parent" ="40.0dip" ="24.0dip" ="24.0dip" android:text="@string/_next" ="@dimen/2131166209" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131429256" ="#00000000" ="fill_parent" ="40.0dip" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="@dimen/2131166209" 2130971472="2131441186" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="center_vertical" ="40.0dip" ="40.0dip" ="4.0dip">
+        <shape ="oval">
+            <solid ="@android:color/white" />
+        </shape>
+    </item>
+    <item ="15.0dip" ="1.0dip">
+        <bitmap ="center|left" ="@drawable/2131234078" />
+    </item>
+</layer-list>

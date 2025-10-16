@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButtonToggleGroup ="vertical" android:id="@id/material_clock_period_toggle" ="gone" ="52.0dip" ="96.0dip" ="@string/material_clock_toggle_content_description" 2130968954="@id/2131436986" 2130970790="true" 2130970888="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:id="@id/2131436986" ="wrap_content" android:text="@string/material_timepicker_am" ="8.0dip" style="?2130970092" />
+    <com.google.android.material.button.MaterialButton android:id="@id/2131436987" ="wrap_content" android:text="@string/material_timepicker_pm" ="8.0dip" style="?2130970092" />
+</com.google.android.material.button.MaterialButtonToggleGroup>

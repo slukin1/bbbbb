@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131439476" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131428249" ="fill_parent" ="wrap_content" ="0.0" />
+    <FrameLayout android:id="@id/2131430979" ="fill_parent" ="fill_parent" ="ltr">
+        <FrameLayout android:id="@id/2131441875" ="fill_parent" ="fill_parent" ="ltr">
+            <ImageView android:id="@id/2131441876" ="fill_parent" ="fill_parent" ="ltr" />
+        </FrameLayout>
+        <com.stfalcon.imageviewer.common.pager.MultiTouchViewPager android:id="@id/2131433147" ="gone" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131436341" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.copytrading.framework.widget.CopyTradingLeverageInputNum android:id="@id/2131443528" ="0.0dip" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/2131435162" ="fill_parent" ="wrap_content" ="30.0dip" 2130969685="X" 2130969686="10.0" 2130969687="1.0" 2130969690="false" 2130969692="true" 2130969693="true" 2130969699="@array/2130903043" 2130969702="X" 2130969703="10" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443528" />
+</merge>

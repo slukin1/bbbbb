@@ -1,0 +1,32 @@
+.class public final synthetic Lo/getHintSuffix;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    const v0, 0x7f153212
+
+    .line 2114
+    invoke-static {v0}, Lo/JResponse;->j(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="4.0dip" ="10.0dip" ="4.0dip" ="fill_parent" ="44.0dip" ="@dimen/2131166156" ="@dimen/2131166247" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433662" ="?2130968587" ="5.0dip" ="30.0dip" ="30.0dip" ="@drawable/2131236863" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099764" />
+    <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/2131433664" ="34.0dip" ="34.0dip" ="11.0dip" 2130969616="2" 2130969911="2131438103" 2130969936="@id/2131433662" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442116" ="wrap_content" ="wrap_content" ="false" ="8.0dip" 2130969912="@id/2131442117" 2130969936="@id/2131433664" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442117" ="wrap_content" ="wrap_content" ="false" 2130969911="2131438103" 2130969937="@id/2131442116" 2130969940="@id/2131442116" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442118" ="wrap_content" ="16.0dip" ="false" 2130969911="@id/2131442117" 2130969937="@id/2131442116" 2130969941="@id/2131442117" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099771" android:id="@id/2131442119" ="wrap_content" ="14.0dip" ="false" ="5.0dip" 2130969911="@id/2131442118" 2130969936="@id/2131442118" 2130969941="@id/2131442118" style="@style/2132149454" />
+    <com.finance.kit.framework.widget.lottie.KitLottieAnimationView ="center" android:id="@id/2131433140" ="12.0dip" ="44.0dip" ="44.0dip" ="@color/2131099725" ="3.0dip" 2130969911="2131438103" 2130969918="@id/2131440056" 2130969941="2131438103" 2130970039="false" 2130970050="false" 2130971077="@drawable/2131238144" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440056" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131427757" 2130969941="2131438103" 2130971077="@drawable/2131238029" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427757" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237717" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

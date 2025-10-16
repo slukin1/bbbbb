@@ -1,0 +1,139 @@
+.class public final Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/onfido/dagger/internal/Factory;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/onfido/dagger/internal/Factory<",
+        "Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final jsonParserProvider:Lcom/onfido/javax/inject/Provider;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/onfido/javax/inject/Provider<",
+            "Lo/getAndroidOOMMem;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final resourcesProvider:Lcom/onfido/javax/inject/Provider;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/onfido/javax/inject/Provider<",
+            "Landroid/content/res/Resources;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/onfido/javax/inject/Provider;Lcom/onfido/javax/inject/Provider;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/onfido/javax/inject/Provider<",
+            "Lo/getAndroidOOMMem;",
+            ">;",
+            "Lcom/onfido/javax/inject/Provider<",
+            "Landroid/content/res/Resources;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;->jsonParserProvider:Lcom/onfido/javax/inject/Provider;
+
+    iput-object p2, p0, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;->resourcesProvider:Lcom/onfido/javax/inject/Provider;
+
+    return-void
+.end method
+
+.method public static create(Lcom/onfido/javax/inject/Provider;Lcom/onfido/javax/inject/Provider;)Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/onfido/javax/inject/Provider<",
+            "Lo/getAndroidOOMMem;",
+            ">;",
+            "Lcom/onfido/javax/inject/Provider<",
+            "Landroid/content/res/Resources;",
+            ">;)",
+            "Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;"
+        }
+    .end annotation
+
+    .line 65353
+    new-instance v0, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;
+
+    invoke-direct {v0, p0, p1}, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;-><init>(Lcom/onfido/javax/inject/Provider;Lcom/onfido/javax/inject/Provider;)V
+
+    return-object v0
+.end method
+
+.method public static newInstance(Lo/getAndroidOOMMem;Landroid/content/res/Resources;)Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;
+    .locals 1
+
+    .line 65352
+    new-instance v0, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;
+
+    invoke-direct {v0, p0, p1}, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;-><init>(Lo/getAndroidOOMMem;Landroid/content/res/Resources;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final get()Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;->jsonParserProvider:Lcom/onfido/javax/inject/Provider;
+
+    invoke-interface {v0}, Lcom/onfido/javax/inject/Provider;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/getAndroidOOMMem;
+
+    iget-object v1, p0, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;->resourcesProvider:Lcom/onfido/javax/inject/Provider;
+
+    invoke-interface {v1}, Lcom/onfido/javax/inject/Provider;->get()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/content/res/Resources;
+
+    invoke-static {v0, v1}, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;->newInstance(Lo/getAndroidOOMMem;Landroid/content/res/Resources;)Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper_Factory;->get()Lcom/onfido/android/sdk/capture/component/active/video/capture/data/repository/mapper/ThrowableToErrorMessageMapper;
+
+    move-result-object v0
+
+    return-object v0
+.end method

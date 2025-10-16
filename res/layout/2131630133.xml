@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236038" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131446667" ="@drawable/2131236019" ="gone" ="27.0dip" ="16.0dip" ="1.0dip" android:text="Hot" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+    <TextView ="@color/2131099764" android:id="@id/2131447270" ="wrap_content" ="wrap_content" ="12.0dip" ="10.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131447275" ="wrap_content" ="wrap_content" 2130969937="@id/2131447270" 2130969940="@id/2131447270" style="@style/2132149394" />
+    <TextView ="@color/2131099764" android:id="@id/2131447273" ="wrap_content" ="wrap_content" 2130968700="16.0sp" 2130968701="10.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969937="@id/2131447275" 2130969940="@id/2131447275" style="@style/2132149446" />
+    <TextView android:id="@id/2131447267" ="12.0dip" ="wrap_content" ="wrap_content" 2130969937="@id/2131447275" 2130969940="@id/2131447273" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

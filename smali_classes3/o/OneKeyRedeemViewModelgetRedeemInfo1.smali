@@ -1,0 +1,57 @@
+.class public final synthetic Lo/OneKeyRedeemViewModelgetRedeemInfo1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lo/SafeCloseImageReaderProxyExternalSyntheticLambda1;
+
+.field public final synthetic e:Lo/WCWalletManagerExternalSyntheticLambda13;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/WCWalletManagerExternalSyntheticLambda13;Lo/SafeCloseImageReaderProxyExternalSyntheticLambda1;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/OneKeyRedeemViewModelgetRedeemInfo1;->e:Lo/WCWalletManagerExternalSyntheticLambda13;
+
+    iput-object p2, p0, Lo/OneKeyRedeemViewModelgetRedeemInfo1;->a:Lo/SafeCloseImageReaderProxyExternalSyntheticLambda1;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 4
+
+    .line 0
+    iget-object v0, p0, Lo/OneKeyRedeemViewModelgetRedeemInfo1;->e:Lo/WCWalletManagerExternalSyntheticLambda13;
+
+    iget-object v1, p0, Lo/OneKeyRedeemViewModelgetRedeemInfo1;->a:Lo/SafeCloseImageReaderProxyExternalSyntheticLambda1;
+
+    .line 2248
+    new-instance v2, Lcom/binance/margin/trade/instruction/TradeInstructionDialogKt$TradeInstruction$1$5$1$3$1$1;
+
+    const/4 v3, 0x0
+
+    invoke-direct {v2, v1, v3}, Lcom/binance/margin/trade/instruction/TradeInstructionDialogKt$TradeInstruction$1$5$1$3$1$1;-><init>(Lo/SafeCloseImageReaderProxyExternalSyntheticLambda1;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    check-cast v2, Lkotlin/jvm/functions/Function2;
+
+    const/4 v1, 0x3
+
+    .line 3001
+    invoke-static {v0, v3, v3, v2, v1}, Lo/subscribeWalletConnectEventsdefault;->e(Lo/WCWalletManagerExternalSyntheticLambda13;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;I)Lkotlinx/coroutines/Job;
+
+    .line 2251
+    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object v0
+.end method

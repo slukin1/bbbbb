@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429742" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.dropdown.KitDropDown ="center_vertical" android:id="@id/2131431891" ="0.0dip" ="44.0dip" ="15.0dip" 2130969918="@id/2131431898" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.finance.kit.framework.widget.dropdown.KitDropDown ="center_vertical" android:id="@id/2131431898" ="0.0dip" ="44.0dip" ="5.0dip" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/2131431891" 2130969941="@id/2131431891" />
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131431891" />
+    <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131429353" ="24.0dip" ="24.0dip" ="true" 2130969911="@id/2131444660" 2130969937="@id/2131431891" 2130969941="@id/2131444660" />
+    <TextView ="@color/2131099764" android:id="@id/2131444660" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_only_show_sharing_positions" ="@dimen/2131166286" 2130969936="@id/2131429353" 2130969940="@id/2131431891" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445172" ="wrap_content" ="16.0dip" ="2.0dip" android:text="@string/leaderboard_item_trader" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444660" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969921="0.64" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444562" ="wrap_content" ="16.0dip" 2130969936="@id/2131432755" 2130969941="@id/2131445172" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443131" ="wrap_content" ="16.0dip" android:text="@string/c2c_follow_btn_follow" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131445172" style="@style/2132149384" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131435069" ="fill_parent" ="0.0dip" ="8.0dip" 2130969911="2131438103" 2130969940="@id/2131445172" 2130971098="false">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" 2130969912="@id/2131431013" 2130969940="@id/2131445172" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131435057" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969342="true" 2130969343="@drawable/2131238395" 2130969345="@string/fetch_again" 2130969346="@string/ms_network_link_failed" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

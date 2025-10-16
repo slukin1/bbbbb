@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235596" ="24.0dip" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131433813" ="20.0dip" ="20.0dip" ="12.0dip" ="10.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="230.0dip" ="wrap_content" ="true" 2130971077="@drawable/2131235737" />
+    <TextView ="@color/2131102397" ="center" ="center" android:id="@id/2131444642" ="fill_parent" ="wrap_content" ="24.0dip" ="10.0dip" ="24.0dip" ="@dimen/2131166209" style="@style/2132149446" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/payment_promotion_continue_to_send" ="@dimen/2131166209" />
+    <TextView ="@color/2131099787" ="center" ="center" android:id="@id/2131445362" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/payment_promotion_view_energy" style="@style/2132149377" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center" ="@drawable/2131235991" ="24.0dip" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" ="3.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969924="360.0dip" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429849" ="fill_parent" ="wrap_content">
+            <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="@font/2131296267" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446058" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969940="@id/tv_title" />
+            <View android:id="@id/input_container" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="16.0dip" ="@color/2131099744" 2130969940="@id/2131446058" />
+            <TextView ="14.0sp" ="@color/2131099738" android:id="@id/2131445895" ="wrap_content" ="wrap_content" android:text="0/20" ="@font/2131296274" ="10.0dip" 2130969911="@id/input_container" 2130969917="@id/input_container" 2130969941="@id/input_container" />
+            <EditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" android:id="@id/2131431525" ="#00000000" ="15.0dip" ="true" ="true" ="0.0dip" ="fill_parent" android:hint="@string/c2c_nickname_update_dialog_hint" ="20" ="true" ="textVisiblePassword|textNoSuggestions" ="@drawable/2131236035" ="@font/2131296274" 2130969911="@id/input_container" 2130969918="@id/2131445895" 2130969937="@id/input_container" 2130969941="@id/input_container" style="@style/2132149372" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/tv_tips" ="visible" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_nickname_update_error_english" ="@font/2131296274" 2130969940="@id/input_container" />
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="24.0dip" ="24.0dip" ="14.0dip" 2130969937="2131438103" 2130969940="@id/tv_tips" />
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131446049" ="visible" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/c2c_set_nickname_check_box_description" ="@font/2131296274" 2130969917="2131438103" 2130969936="@id/2131429513" 2130969940="@id/tv_tips" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428989" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="6.0dip" 2130969911="2131438103" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130969940="@id/2131446049" style="@style/2132148697" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="6.0dip" 2130969917="2131438103" 2130969936="@id/2131428989" 2130969941="@id/2131428989" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="0.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131433402" ="wrap_content" ="wrap_content" ="@dimen/2131166277" 2130969918="@id/2131433452" 2130969937="2131438103" 2130969940="@id/2131441679" 2130969942="0.0" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433452" ="0.0dip" ="wrap_content" ="-15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131433402" 2130969940="@id/2131441679" 2130969942="0.0" 2130969961="@dimen/2131166038">
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131428184" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131428508" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428184" />
+            <include android:id="@id/2131441898" ="0.0dip" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" ="@dimen/2131166034" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131428508" layout="@layout/2131624781" />
+            <androidx.cardview.widget.CardView android:id="@id/2131428133" ="0.5dip" ="0.0dip" ="0.0dip" ="@dimen/2131166184" ="@dimen/2131166184" ="@dimen/2131166034" 2130968911="@android:color/transparent" 2130968912="12.0dip" 2130968914="0.0dip" 2130969916="1.77" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441898">
+                <com.binance.content.internal.video.content.player.ContentExoVideoView android:id="@id/2131449343" ="fill_parent" ="fill_parent" />
+                <com.binance.content.internal.video.content.controller.ContentCardVideoController android:id="@id/2131449333" ="fill_parent" ="fill_parent" />
+            </androidx.cardview.widget.CardView>
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131440806" ="0.0dip" ="0.0dip" ="centerCrop" 2130969911="@id/2131428133" 2130969917="@id/2131428133" 2130969937="@id/2131428133" 2130969941="@id/2131428133" 2130971077="@null" 2130971180="@null" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131432942" ="0.0dip" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" ="@dimen/2131166034" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428133" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131430977" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432942" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131427745" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430977" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131430196" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427745" />
+            <include android:id="@id/2131435844" ="0.0dip" ="wrap_content" ="4.0dip" ="@dimen/2131166156" ="@dimen/2131166156" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430196" layout="@layout/2131624626" />
+            <include android:id="@id/2131439168" ="0.0dip" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" ="@dimen/2131166044" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430196" layout="@layout/2131624625" />
+            <com.major.android.uikit.tooltip.KitToolTip android:id="@id/2131441638" ="gone" ="wrap_content" ="wrap_content" ="35.0dip" ="15.0dip" 2130969911="@id/2131435844" 2130969937="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131441679" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131441688" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="@dimen/2131166011" ="@dimen/2131166269" ="@dimen/2131166153" 2130969911="2131438103" 2130969940="@id/2131430397" />
+</LinearLayout>

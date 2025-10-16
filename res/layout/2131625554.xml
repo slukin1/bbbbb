@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131232783" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131435088" ="fill_parent" ="44.0dip" 2130970759="@string/c2c_filter_payment_method_search" 2130970764="@drawable/2131237994" />
+    <RelativeLayout android:id="@id/2131439398" ="gone" ="fill_parent" ="620.0dip">
+        <LinearLayout ="vertical" android:id="@id/2131436581" ="fill_parent" ="wrap_content">
+            <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131447137" ="wrap_content" ="20.0dip" ="24.0dip" android:text="@string/c2c_common_search_result" ="@font/2131296274" ="16.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131447136" ="96.0dip" ="96.0dip" ="80.0dip" 2130971077="@drawable/2131238419" />
+            <TextView ="16.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/tv_no_result" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/c2c_filter_payment_no_result" ="true" ="@font/2131296274" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439054" ="fill_parent" ="620.0dip" />
+    </RelativeLayout>
+    <com.binance.c2c.indexablerecyclerview.IndexableLayout android:id="@id/2131433412" ="fill_parent" ="500.0dip" 2130969634="@color/2131103205" 2130969635="@color/2131099778" 2130969636="@dimen/2131167690" 2130969637="@dimen/2131166225" />
+</LinearLayout>

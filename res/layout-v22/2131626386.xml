@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_online_status" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+    <RadioGroup android:id="@id/2131439228" ="wrap_content" ="wrap_content" ="16.0dip" ="@id/2131438920" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <com.major.android.uikit2.selection.KitRadioButton ="14.0sp" ="@color/2131100642" ="center_vertical" android:id="@id/2131438920" ="fill_parent" ="22.0dip" android:text="@string/c2c_mob_ad_post_p3_label_online" ="@font/2131296266" ="8.0dip" />
+        <com.major.android.uikit2.selection.KitRadioButton ="14.0sp" ="@color/2131100642" ="center_vertical" android:id="@id/2131438919" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_mob_ad_manage_adlist_tag_offline" ="@font/2131296266" ="8.0dip" />
+        <com.major.android.uikit2.selection.KitRadioButton ="14.0sp" ="@color/2131100642" ="center_vertical" android:id="@id/2131438921" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_post_ad_private" ="4.0dip" ="@font/2131296266" ="8.0dip" />
+    </RadioGroup>
+    <View android:id="@id/2131434766" ="@drawable/2131233287" ="0.0dip" ="1.0dip" ="25.0dip" ="@color/2131099764" 2130969917="@id/2131439228" 2130969937="@id/2131439228" 2130969940="@id/2131439228" />
+</androidx.constraintlayout.widget.ConstraintLayout>

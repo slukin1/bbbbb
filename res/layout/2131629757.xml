@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131448137" ="wrap_content" ="wrap_content" android:text="@string/bid" ="15.0dip" 2130969911="@id/2131448134" 2130969937="2131438103" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432750" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView ="@color/2131099778" android:id="@id/2131448134" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/ask" ="3.0dip" 2130969936="@id/2131432750" 2130969941="2131438103" style="@style/2132149384" />
+    <com.finance.framework.widget.orderbook.OrderBookView android:id="@id/orderBookView_bid" ="0.0dip" ="wrap_content" ="7.0dip" ="8.0dip" ="3.0dip" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969357="true" 2130969638="@color/2131099765" 2130969664="true" 2130969665="true" 2130969673="false" 2130969674="false" 2130969917="@id/2131432750" 2130969937="2131438103" 2130969940="@id/2131448134" 2130970437="@dimen/2131166202" />
+    <com.finance.framework.widget.orderbook.OrderBookView android:id="@id/orderBookView_ask" ="0.0dip" ="0.0dip" ="3.0dip" ="8.0dip" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969357="true" 2130969638="@color/2131099765" 2130969664="false" 2130969665="true" 2130969673="true" 2130969674="true" 2130969911="@id/orderBookView_bid" 2130969917="2131438103" 2130969937="@id/2131432750" 2130969941="@id/orderBookView_bid" 2130970437="@dimen/2131166202" />
+</merge>

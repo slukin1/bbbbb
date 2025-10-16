@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131449469" ="false" ="0.0dip" ="40.0dip" ="8.0dip" 2130969902="2131438344" 2130969911="2131438103" 2130969918="@id/2131428347" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.base.widget.IconTipsTextView ="@color/2131099764" android:id="@id/2131441476" ="@drawable/2131232569" ="8.0dip" ="4.0dip" ="8.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" ="16.0dip" ="10.0dip" ="@dimen/2131166286" ="@dimen/2131166247" 2130969905="true" 2130969911="2131438103" 2130969918="@id/ivSearch" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" 2130971380="2131430667" 2130971382="@string/earn_sort_products_include_tip" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428347" ="wrap_content" ="wrap_content" 2130968759="2131440560" 2130969125="ivSearch, searchBar" />
+    <ImageView android:id="@id/ivSearch" ="10.0dip" ="40.0dip" ="40.0dip" ="10.0dip" 2130969911="@id/ivFilter" 2130969918="@id/ivFilter" 2130969941="@id/ivFilter" 2130971077="@drawable/2131237994" 2130971375="@color/2131099738" />
+    <LinearLayout ="center" ="center_vertical" ="horizontal" android:id="@id/searchBar" ="@drawable/2131238491" ="gone" ="wrap_content" ="24.0dip" 2130969911="@id/ivFilter" 2130969918="@id/ivFilter" 2130969941="@id/ivFilter">
+        <ImageView android:id="@id/2131434139" ="16.0dip" ="16.0dip" ="10.0dip" ="5.0dip" 2130971077="@drawable/2131237994" />
+        <TextView ="@color/2131099764" ="end" ="start" android:id="@id/2131439823" ="wrap_content" ="wrap_content" ="70.0dip" ="50.0dip" ="1" style="@style/2132149384" />
+        <ImageView android:id="@id/2131434427" ="wrap_content" ="fill_parent" ="10.0dip" 2130971077="@drawable/2131238455" />
+    </LinearLayout>
+    <ImageView android:id="@id/ivFilter" ="10.0dip" ="40.0dip" ="40.0dip" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238024" 2130971375="@color/2131099738" />
+    <View android:id="@id/2131449157" ="4.0dip" ="4.0dip" ="9.0dip" ="14.0dip" 2130969917="2131438103" 2130969941="@id/ivFilter" />
+</androidx.constraintlayout.widget.ConstraintLayout>

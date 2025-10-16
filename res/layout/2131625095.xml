@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131449502" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440412" ="fill_parent" ="70.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236024" ="fill_parent" ="fill_parent">
+        <com.major.android.uikit.search.KitSearchBar android:id="@id/2131431321" ="fill_parent" ="wrap_content" ="22.0dip" 2130968735="@color/2131099875" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+        <TextView ="@color/2131099778" android:id="@id/2131430662" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/deposit_string_fiat_list" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431321" style="@style/2132149450" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="0.0dip" ="0.0dip" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430662" />
+        <androidx.appcompat.widget.AppCompatTextView ="15.0sp" ="@color/2131103030" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="108.0dip" android:text="@string/no_records_found" ="true" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131439035" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/2131436800" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434776" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131236627" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="5.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" ="center_vertical" android:id="@id/2131446066" ="visible" ="fill_parent" ="wrap_content" ="@font/2131296274" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131432728" ="4.0dip" ="4.0dip" ="gone" ="fill_parent" ="wrap_content">
+                <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="*" ="@font/2131296274" />
+                <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444290" ="wrap_content" ="wrap_content" ="@font/2131296266" ="4.0dip" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+    <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131437410" ="gone" ="fill_parent" ="195.0dip" ="8.0dip" ="16.0dip" ="16.0dip" 2130969940="@id/2131436800" 2130970274="@color/2131099778" 2130970276="@string/c2c_mod_reasons_displayed_cancel_order" 2130970278="160" 2130970280="195" 2130970282="false" 2130970283="true" 2130970285="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

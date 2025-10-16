@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428221" ="0.0dip" ="wrap_content" ="1.0" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428223" ="0.0dip" ="wrap_content" ="10.0dip" ="1.0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428221" style="@style/2132148697" />
+</merge>

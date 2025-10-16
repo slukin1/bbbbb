@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="@drawable/2131232432" ="15.0dip" ="15.0dip" ="fill_parent" ="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433687" ="@drawable/2131234964" ="20.0dip" ="20.0dip" ="fitXY" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970795="@style/2132148631" />
+    <com.finance.kit.framework.widget.imageview.FinanceBorderedRoundImageView android:id="@id/2131433870" ="gone" ="12.0dip" ="12.0dip" 2130968786="@color/2131099685" 2130968789="0.5dip" 2130969911="@id/2131433687" 2130969917="@id/2131433687" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442191" ="0.0dip" ="wrap_content" ="28.0dip" 2130969911="2131438103" 2130969918="@id/tvPrice" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvPrice" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969918="@id/tvChangeRate" 2130969929="1.0" 2130969936="@id/2131442191" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/tvChangeRate" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/tvPrice" 2130969941="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

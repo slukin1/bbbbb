@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439479" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443292" ="wrap_content" ="wrap_content" android:text="@string/strategy_historical_profits" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444236" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/leaderboard_statistics_type_roi" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443292" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444237" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444236" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvPNLTitle" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/leaderboard_statistics_type_pnl" ="15.0dip" 2130969907="@id/2131444236" 2130969917="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvPNLValue" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969940="@id/tvPNLTitle" style="@style/2132149446" />
+    <com.finance.framework.widget.chart.trendline.FinanceTrendLineChartView android:id="@id/2131441907" ="0.0dip" ="130.0dip" ="8.0dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444237" />
+</androidx.constraintlayout.widget.ConstraintLayout>

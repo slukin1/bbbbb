@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131449498" ="@drawable/2131233756" ="0.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.finance.kit.framework.widget.edittext.MultiFocusListenerEditText ="@color/2131099764" ="center" android:id="@id/edit_text" ="@null" ="0.0dip" ="32.0dip" ="1" ="numberDecimal" ="center" ="10.0dip" ="16.0dip" 2130969905="true" 2130969918="@id/2131431060" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <View android:id="@id/2131431060" ="@color/2131099751" ="1.0dip" ="0.0dip" ="6.0dip" ="6.0dip" ="12.0dip" ="@dimen/2131166269" 2130969911="@id/edit_text" 2130969918="@id/2131448476" 2130969941="@id/edit_text" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131448476" ="32.0dip" ="0.0dip" ="1" ="false" ="4.0dip" 2130969911="@id/edit_text" 2130969918="@id/2131434946" 2130969941="@id/edit_text" 2130969958="@dimen/2131166170" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434946" ="gone" ="14.0dip" ="14.0dip" ="-2.0dip" ="12.0dip" 2130969911="@id/edit_text" 2130969917="2131438103" 2130969941="@id/edit_text" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    <View android:id="@id/2131449723" ="gone" ="0.0dip" ="0.0dip" 2130969911="@id/2131448476" 2130969917="2131438103" 2130969937="@id/2131448476" 2130969941="@id/2131448476" />
+    <TextView ="@color/2131099778" ="end" ="center" android:id="@id/tv_desc" ="gone" ="0.0dip" ="16.0dip" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446373" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447060" ="gone" ="0.0dip" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" 2130969999="@dimen/2131166194" style="@style/2132149384" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="@color/2131099685" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131444822" ="wrap_content" ="wrap_content" ="19.0dip" android:text="@string/earn_redemption_amount" style="@style/2132149346" />
+    <RelativeLayout ="wrap_content" ="wrap_content" ="10.0dip">
+        <TextView ="32.0sp" ="@color/2131099764" android:id="@id/2131429181" ="wrap_content" ="wrap_content" />
+        <TextView ="20.0sp" ="@color/2131099764" android:id="@id/2131429172" ="wrap_content" ="wrap_content" android:text="BNB" ="@id/2131429181" ="4.0dip" ="@id/2131429181" />
+    </RelativeLayout>
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="20.0dip">
+        <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131440002" ="fill_parent" ="wrap_content" />
+        <com.major.android.uikit.button.KitButton ="false" ="center" android:id="@id/2131442568" ="fill_parent" ="48.0dip" ="8.0dip" ="24.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969173="24.0" 2130969911="2131438103" 2130970889="1" style="@style/2132149371" />
+    </LinearLayout>
+</LinearLayout>

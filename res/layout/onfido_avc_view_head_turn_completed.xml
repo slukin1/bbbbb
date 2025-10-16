@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.HeadTurnCompletedOvalView android:id="@id/2131432813" ="fill_parent" ="fill_parent" />
+    <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.HeadTurnCompletedTickIconView android:id="@id/2131432814" ="fill_parent" ="fill_parent" />
+    <TextView ="center_horizontal" android:id="@id/2131433516" ="fill_parent" ="wrap_content" android:text="@string/onfido_avc_face_capture_title_completed" ="80.0dip" ="80.0dip" style="@style/2132148874" />
+    <com.onfido.android.sdk.capture.ui.widget.WatermarkView ="bottom|center" android:id="@id/2131450331" ="8.0dip" ="@dimen/2131167501" style="@style/2132148972" />
+</FrameLayout>

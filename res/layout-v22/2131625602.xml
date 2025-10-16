@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432210" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="start" android:id="@id/2131441619" ="?2130968587" ="12.0dip" ="gone" ="44.0dip" ="44.0dip" ="centerInside" ="@null" ="3.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvTitle" ="wrap_content" ="44.0dip" ="1" ="false" 2130969905="true" 2130969918="@id/2131433722" 2130969927="0.5" 2130969936="@id/2131441619" 2130969941="2131438103" 2130969961="@dimen/2131166184" style="@style/2132149423" />
+    <ImageView android:id="@id/2131433722" ="40.0dip" ="0.0dip" ="@null" ="5.0dip" ="15.0dip" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238206" 2130971375="@color/2131099764" />
+    <ImageView android:id="@id/2131434054" ="24.0dip" ="24.0dip" ="24.0dip" 2130969917="@id/2131432764" 2130969937="2131438103" 2130969940="@id/tvTitle" 2130971077="@drawable/2131237194" 2130971375="@color/2131099764" />
+    <TextView ="#ff0ecb81" android:id="@id/2131437988" ="wrap_content" ="wrap_content" ="4.0dip" 2130969905="true" 2130969917="@id/2131432764" 2130969937="2131438103" 2130969940="@id/2131434054" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131441209" ="wrap_content" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" android:text="@string/earn_earn_to_other_wallets" ="15.0dip" 2130969905="true" 2130969917="@id/2131432764" 2130969937="2131438103" 2130969940="@id/2131437988" style="@style/2132149384" />
+    <ImageView android:id="@id/2131433931" ="24.0dip" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="@id/2131432764" 2130969940="@id/tvTitle" 2130971077="@drawable/2131238357" 2130971375="@color/2131099764" />
+    <TextView ="#fff6465d" android:id="@id/2131433435" ="wrap_content" ="wrap_content" ="4.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="@id/2131432764" 2130969940="@id/2131433931" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131433437" ="wrap_content" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" android:text="@string/earn_other_wallets_to_earn" ="15.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="@id/2131432764" 2130969940="@id/2131433435" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432764" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView android:id="@id/2131442691" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441209" style="@style/2132149384" />
+    <View android:id="@id/2131429294" ="@color/2131099751" ="fill_parent" ="1.0px" ="12.0dip" 2130969940="@id/2131442691" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvHolding" ="wrap_content" ="wrap_content" ="8.0dip" ="true" android:text="@string/earn_all_holdings" ="false" ="15.0dip" 2130969937="2131438103" 2130969941="@id/2131429294" style="@style/2132149450" />
+    <ImageView android:id="@id/ivHolding" ="16.0dip" ="16.0dip" ="@drawable/2131237003" ="5.0dip" 2130969911="@id/tvHolding" 2130969936="@id/tvHolding" 2130969941="@id/tvHolding" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvTypes" ="wrap_content" ="wrap_content" ="true" android:text="@string/earn_all_types" ="false" ="@id/tvHolding" ="@id/tvHolding" ="15.0dip" ="@id/tvHolding" 2130969936="@id/ivHolding" 2130969941="@id/tvHolding" style="@style/2132149450" />
+    <ImageView android:id="@id/ivTypes" ="16.0dip" ="16.0dip" ="@drawable/2131237003" ="5.0dip" 2130969911="@id/tvHolding" 2130969936="@id/tvTypes" 2130969941="@id/tvHolding" 2130971375="@color/2131099764" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432540" ="wrap_content" ="wrap_content" 2130969125="tvHolding,ivHolding" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432616" ="wrap_content" ="wrap_content" 2130969125="tvTypes,ivTypes" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131439116" ="0.0dip" ="0.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvHolding">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

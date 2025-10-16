@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427549" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969331="0.0dip" layout="@layout/2131624284" />
+    <TextView ="@color/2131099764" android:id="@id/2131438453" ="0.0dip" ="wrap_content" ="15.0dip" ="41.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131438452" ="0.0dip" ="wrap_content" ="15.0dip" ="2.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438453" style="@style/2132149384" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131438452" />
+    <include android:id="@id/dualPlanItemFirst" ="visible" ="fill_parent" ="wrap_content" 2130969940="@id/divider" layout="@layout/2131629256" />
+    <include android:id="@id/2131431120" ="fill_parent" ="wrap_content" 2130969940="@id/2131428303" layout="@layout/2131629256" />
+    <include android:id="@id/dualPlanItemBasicReached" ="gone" ="fill_parent" ="wrap_content" 2130969940="@id/divider" layout="@layout/2131629257" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="dualPlanItemFirst,dualPlanItemBasicReached" />
+    <TextView ="@color/2131099778" android:id="@id/2131443871" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="40.0dip" android:text="@string/earn_auto_compound_actions_note" ="15.0dip" 2130969912="@id/2131428655" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428655" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="50.0dip" android:text="@string/earn_auto_compound_change_to_advanced" ="@dimen/2131166184" 2130969911="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

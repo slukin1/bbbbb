@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131449523" ="5.0dip" ="12.0dip" ="5.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166260"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131449649" ="fill_parent" ="135.0dip" />
+    <com.binance.c2c.view.FiatIndicatorView ="center" android:id="@id/2131433434" ="wrap_content" ="3.0dip" ="12.0dip" />
+</LinearLayout>

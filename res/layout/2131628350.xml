@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="@drawable/2131234718" ="16.0dip" ="10.0dip" ="16.0dip" ="10.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099726" android:id="@id/2131429377" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" ="12.0dip" 2130969759="2131437069" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="26.0dip" ="26.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="ltr" ="8.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131445784" ="wrap_content" ="wrap_content" ="false" ="ltr" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/2131447547" ="wrap_content" ="wrap_content" ="1.0dip" ="false" ="ltr" ="4.0dip" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099671" android:id="@id/2131446769" ="@drawable/2131235944" ="3.0dip" ="3.0dip" ="visible" ="wrap_content" ="wrap_content" ="1.0dip" ="false" ="4.0dip" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099671" android:id="@id/2131446651" ="@drawable/2131235944" ="3.0dip" ="3.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" ="false" ="4.0dip" style="@style/2132149394" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="end" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/tv_price" ="wrap_content" ="wrap_content" ="false" 2130969918="@id/2131440543" 2130969941="2131438103" 2130969958="@dimen/2131166184" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_percent" ="wrap_content" ="wrap_content" ="false" ="ltr" 2130969911="2131438103" 2130969917="@id/price" 2130969940="@id/price" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.binance.base.sensor.view.BaseExposureLayout>

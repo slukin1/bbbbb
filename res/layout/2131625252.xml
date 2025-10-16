@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131448850" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/ocbs_string_recommended_bank_list" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131448724" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="12.0dip" android:text="@string/ocbs_string_recommended_bank_list_desc" style="@style/2132149355" />
+    <androidx.recyclerview.widget.RecyclerView ="6.0dip" ="true" ="outsideInset" android:id="@id/2131439088" ="vertical" ="false" ="fill_parent" ="0.0dip" ="1.0" ="false" ="16.0dip" ="0.0dip" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428837" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/OK" style="@style/2132148692" />
+</LinearLayout>

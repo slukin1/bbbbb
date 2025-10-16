@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="60.0dip">
+        <LinearLayout ="center" ="vertical" android:id="@id/2131438713" ="150.0dip" ="wrap_content" ="true">
+            <TextView ="12.0sp" ="#ff666666" android:id="@id/2131438714" ="wrap_content" ="wrap_content" />
+            <TextView ="10.0sp" ="#ff999999" android:id="@id/2131438712" ="wrap_content" ="wrap_content" ="2.0dip" />
+        </LinearLayout>
+        <FrameLayout ="wrap_content" ="wrap_content" ="10.0dip" ="@id/2131438713" ="true">
+            <ImageView ="center" android:id="@id/2131438711" ="wrap_content" ="wrap_content" />
+            <ProgressBar ="center" android:id="@id/2131438715" ="wrap_content" ="wrap_content" style="@android:style/Widget.ProgressBar.Small" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

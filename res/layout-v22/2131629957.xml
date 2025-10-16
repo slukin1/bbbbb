@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/searchBar" ="fill_parent" ="wrap_content" 2130968908="false" 2130968909="@string/_cancel" 2130969851="2131440542" 2130970759="@string/alpha_search_token_or_address" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" />
+</androidx.appcompat.widget.LinearLayoutCompat>

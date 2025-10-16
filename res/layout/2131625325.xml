@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/c2c_od_sheet_extend_time_title" ="1.0" ="@font/2131296275" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/ivClose" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443061" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@font/2131296274" />
+    <TextView ="14.0sp" ="@color/2131099778" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" android:text="@string/c2c_od_sheet_extend_time_subtitle" ="@font/2131296273" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131431666" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="12.0dip" />
+    <LinearLayout ="horizontal" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428834" ="0.0dip" ="wrap_content" android:text="@string/c2c_appeal_is_cance_appeal_no" ="1.0" style="@style/2132148697" />
+        <androidx.legacy.widget.Space ="12.0dip" ="1.0dip" />
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428774" ="0.0dip" ="wrap_content" android:text="@string/c2c_od_sheet_extend_time_btn_extend" ="1.0" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

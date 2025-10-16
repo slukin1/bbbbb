@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="fill_parent" ="40.0dip" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" ="1.0" />
+    </LinearLayout>
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131436710" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent" 2130969336="@null" 2130969342="true" 2130969343="@drawable/2131238395" 2130969344="@drawable/2131238490" 2130969346="@string/ms_network_link_failed" />
+    <FrameLayout ="center" android:id="@id/2131438676" ="gone" ="63.0dip" ="63.0dip">
+        <ImageView ="63.0dip" ="63.0dip" 2130971077="@drawable/2131234487" />
+        <com.binance.base.widget.BNCLottieAnimationView ="center" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+</FrameLayout>

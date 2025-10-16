@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView ="center" android:id="@id/2131429612" ="gone" ="38.0dip" ="38.0dip" ="6.0dip" />
+    <androidx.compose.ui.platform.ComposeView ="center" android:id="@id/2131429613" ="gone" ="38.0dip" ="38.0dip" ="6.0dip" />
+    <androidx.compose.ui.platform.ComposeView ="center" android:id="@id/2131429614" ="gone" ="38.0dip" ="38.0dip" ="6.0dip" />
+    <com.google.android.material.imageview.ShapeableImageView ="center" android:id="@id/2131434351" ="0.5dip" ="36.0dip" ="36.0dip" ="7.0dip" ="centerCrop" ="@string/account" 2130970803="@style/2132150258" 2130971180="@color/2131100684" 2130971181="@dimen/2131165998" />
+    <androidx.appcompat.widget.AppCompatImageView ="bottom|center" android:id="@id/2131436132" ="gone" ="wrap_content" ="wrap_content" ="liveTag" 2130971077="@drawable/2131233026" />
+</FrameLayout>

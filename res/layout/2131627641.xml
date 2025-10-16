@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131232648" ="fill_parent" ="wrap_content" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="end" android:id="@id/2131430102" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" ="10.0dip" 2130971077="@drawable/2131237100" />
+    <ImageView ="center" android:id="@id/2131434972" ="visible" ="wrap_content" ="wrap_content" ="32.0dip" ="centerInside" ="true" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131238406" />
+    <TextView ="20.0sp" ="@color/2131099764" ="center" android:id="@id/2131446380" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_escape_copy_tip" ="@id/2131434972" ="true" style="@style/2132149425" />
+    <TextView ="14.0sp" ="center" android:id="@id/2131446381" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/mpc_wallet_backup_escape_creating" style="@style/2132149350" />
+    <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="@id/2131446381">
+        <LinearLayout ="horizontal" android:id="@id/2131436500" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429380" ="false" ="false" ="wrap_content" ="wrap_content" ="false" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_escape_saved_key" ="5.0dip" style="@style/2132149350" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" android:id="@id/2131436501" ="fill_parent" ="wrap_content" ="20.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429381" ="false" ="false" ="wrap_content" ="wrap_content" ="false" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_escape_understand" ="5.0dip" style="@style/2132149350" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.mpc.wallet.widget.uikit.KitButton ="false" ="center_horizontal" android:id="@id/btn_confirm" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_escape_confirm" 2130969173="80.0" 2130971472="2131429147" />
+</LinearLayout>

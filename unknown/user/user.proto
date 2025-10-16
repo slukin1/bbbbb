@@ -1,0 +1,390 @@
+syntax = "proto3";
+import "sdk_ws/ws.proto";
+option go_package = "./user;user";
+option java_package = "com.moon.im.core.model.proto.user";
+package user;
+
+// message CommonResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+// message DeleteUsersReq{
+//   repeated string  deleteUserIDList = 2;
+//   string opUserID = 3;
+//   string operationID = 4;
+// }
+
+// message DeleteUsersResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+//   repeated string data = 4;
+// }
+
+
+// message GetAllUserIDReq{
+//   string opUserID = 1;
+//   string operationID = 2;
+// }
+// message GetAllUserIDResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+//   repeated string data = 4;
+// }
+
+
+// message AccountCheckReq{
+//   repeated string checkUserIDList = 1;
+//   string opUserID = 2;
+//   string operationID = 3;
+
+// }
+// message AccountCheckResp{
+//   CommonResp  commonResp = 1;
+//   message SingleUserStatus {
+//     string userID = 1;
+//     string accountStatus = 2;
+//   }
+//   repeated SingleUserStatus ResultList = 2;
+// }
+
+
+message GetUserInfoReq{
+  repeated string userIDList = 1;
+  string opUserID = 2;
+  string operationID = 3;
+}
+message GetUserInfoResp{
+  string  code = 1;
+  string  message = 2;
+  bool    success = 3;
+  repeated server_api_params.UserInfo data = 4;
+}
+
+message GetUsersInfoReq {
+  string operationID = 1;
+  repeated string userIDList = 2;
+}
+
+message GetUsersInfoResp {
+  string  code = 1;
+  string  message = 2;
+  bool    success = 3;
+  repeated server_api_params.PublicUserInfo data = 4;
+}
+
+// message UpdateUserInfoReq{
+//   server_api_params.UserInfo UserInfo = 1;
+//   string opUserID = 2;
+//   string  operationID = 3;
+// }
+// message UpdateUserInfoResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+// message SetGlobalRecvMessageOptReq{
+//   string userID = 1;
+//   string  operationID = 2;
+//   int32 globalRecvMsgOpt = 3;
+// }
+// message SetGlobalRecvMessageOptResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+message Conversation{
+  string ownerUserID = 1;
+  string conversationID = 2;
+  int32 recvMsgOpt = 3;
+  int32 conversationType = 4;
+  string userID = 5;
+  string groupID = 6;
+  int32 unreadCount = 7;
+  int64 draftTextTime = 8;
+  bool isPinned = 9;
+  string attachedInfo = 10;
+  bool isPrivateChat = 11;
+  int32 groupAtType = 12;
+  bool isNotInGroup = 13;
+  string ex = 14;
+}
+
+// message SetConversationReq{
+//   Conversation Conversation = 1;
+//   int32 notificationType = 2;
+//   string operationID = 3;
+// }
+
+// message SetConversationResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+// message SetRecvMsgOptReq {
+//   string ownerUserID = 1;
+//   string conversationID = 2;
+//   int32 RecvMsgOpt = 3;
+//   int32 notificationType = 4;
+//   string operationID = 5;
+// }
+
+// message SetRecvMsgOptResp {
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+message GetConversationReq{
+  string conversationID = 1;
+  string ownerUserID = 2;
+  string operationID = 3;
+}
+
+message GetConversationResp{
+  string  code = 1;
+  string  message = 2;
+  bool    success = 3;
+  Conversation data = 4;
+}
+
+message GetConversationsReq{
+  string ownerUserID = 1;
+  repeated string conversationIDs = 2;
+  string operationID = 3;
+}
+
+message GetConversationsResp{
+  string  code = 1;
+  string  message = 2;
+  bool    success = 3;
+  repeated Conversation data = 4;
+}
+
+message GetAllConversationsReq{
+  string ownerUserID = 1;
+  string operationID = 2;
+}
+
+message GetAllConversationsResp{
+  string  code = 1;
+  string  message = 2;
+  bool    success = 3;
+  repeated Conversation data = 4;
+}
+
+// message BatchSetConversationsReq{
+//   repeated Conversation Conversations = 1;
+//   string ownerUserID = 2;
+//   int32 notificationType = 3;
+//   string operationID = 4;
+// }
+
+// message BatchSetConversationsResp{
+//   repeated string success = 2;
+//   repeated string failed = 3;
+// }
+
+// message ResignUserReq{
+//   string UserId = 1;
+//   string operationID = 2;
+// }
+
+// message ResignUserResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+// message GetUserByIdReq{
+//   string UserId = 1;
+//   string operationID = 2;
+// }
+
+message User{
+  string ProfilePhoto = 1;
+  string Nickname = 2;
+  string UserId = 3;
+  string CreateTime = 4;
+  bool IsBlock = 5;
+}
+
+// message GetUserByIdResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+//   User data = 4;
+// }
+
+// message GetUsersByNameReq {
+//   string UserName = 1;
+//   server_api_params.RequestPagination Pagination = 2;
+//   string operationID = 3;
+// }
+
+// message GetUsersByNameResp {
+//   repeated User users = 1;
+//   server_api_params.ResponsePagination Pagination = 2;
+//   int32 UserNums = 3;
+// }
+
+// message AlterUserReq{
+//   string UserId = 1;
+//   string operationID = 2;
+//   int64 PhoneNumber = 3;
+//   string Nickname = 4;
+//   string Email = 5;
+//   string OpUserId = 6;
+// }
+
+// message AlterUserResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+// message GetUsersReq {
+//   string operationID = 1;
+//   server_api_params.RequestPagination Pagination = 2;
+//   string UserName = 3;
+// }
+
+// message GetUsersResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+//   repeated User data = 4;
+//   server_api_params.ResponsePagination pagination = 5;
+//   int32 userNums = 6;
+// }
+
+// message AddUserReq{
+//   string operationID = 1;
+//   string PhoneNumber = 2;
+//   string UserId = 3;
+//   string name = 4;
+//   string OpUserId = 5;
+// }
+
+// message AddUserResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+
+// message BlockUserReq{
+//   string UserId = 1;
+//   string EndDisableTime = 2;
+//   string operationID = 3;
+//   string OpUserId = 4;
+// }
+
+// message BlockUserResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+// message UnBlockUserReq{
+//   string UserId = 1;
+//   string operationID = 2;
+//   string OpUserId = 3;
+// }
+
+// message UnBlockUserResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+// message GetBlockUsersReq{
+//   server_api_params.RequestPagination Pagination = 1;
+//   string operationID = 2;
+//   int32 BlockUserNum = 3;
+// }
+
+// message BlockUser {
+//   User User = 1;
+//   string BeginDisableTime = 2;
+//   string EndDisableTime = 3;
+// }
+
+// message GetBlockUsersResp{
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+//   repeated BlockUser data = 4;
+//   server_api_params.ResponsePagination Pagination = 5;
+//   int32 UserNums = 6;
+// }
+
+// message GetBlockUserByIdReq {
+//   string User_id = 1;
+//   string operationID = 2;
+// }
+
+// message GetBlockUserByIdResp {
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+//   BlockUser data = 4;
+// }
+
+// message DeleteUserReq {
+//   string User_id = 1;
+//   string operationID = 2;
+//   string OpUserId = 3;
+// }
+
+// message DeleteUserResp {
+//   string  code = 1;
+//   string  message = 2;
+//   bool    success = 3;
+// }
+
+message GetSelfUserInfoReq {
+  string operationID = 1;
+  string userID = 2;
+}
+message GetSelfUserInfoResp {
+  string  code = 1;
+  string  message = 2;
+  bool    success = 3;
+  server_api_params.UserInfo data = 4;
+}
+
+
+
+service user {
+  rpc GetUserInfo(GetUserInfoReq) returns(GetUserInfoResp);
+  // rpc UpdateUserInfo(UpdateUserInfoReq) returns(UpdateUserInfoResp);
+  // rpc SetGlobalRecvMessageOpt(SetGlobalRecvMessageOptReq) returns(SetGlobalRecvMessageOptResp);
+  // rpc DeleteUsers(DeleteUsersReq)returns(DeleteUsersResp);
+  // rpc GetAllUserID(GetAllUserIDReq)returns(GetAllUserIDResp);
+
+  // rpc AccountCheck(AccountCheckReq)returns(AccountCheckResp);
+  rpc GetConversation(GetConversationReq)returns(GetConversationResp);
+  rpc GetAllConversations(GetAllConversationsReq)returns(GetAllConversationsResp);
+  rpc GetConversations(GetConversationsReq)returns(GetConversationsResp);
+  // rpc BatchSetConversations(BatchSetConversationsReq)returns(BatchSetConversationsResp);
+  // rpc SetConversation(SetConversationReq)returns(SetConversationResp);
+  // rpc SetRecvMsgOpt(SetRecvMsgOptReq)returns(SetRecvMsgOptResp);
+
+  // rpc GetUserById(GetUserByIdReq) returns (GetUserByIdResp);
+  // rpc GetUsersByName(GetUsersByNameReq) returns (GetUsersByNameResp);
+  // rpc ResignUser(ResignUserReq) returns (ResignUserResp);
+  // rpc AlterUser(AlterUserReq) returns (AlterUserResp);
+  // rpc GetUsers(GetUsersReq) returns (GetUsersResp);
+  // rpc AddUser(AddUserReq) returns (AddUserResp);
+  // rpc BlockUser(BlockUserReq) returns (BlockUserResp);
+  // rpc UnBlockUser(UnBlockUserReq) returns (UnBlockUserResp);
+  // rpc GetBlockUsers(GetBlockUsersReq) returns (GetBlockUsersResp);
+  // rpc GetBlockUserById(GetBlockUserByIdReq) returns (GetBlockUserByIdResp);
+  // rpc DeleteUser(DeleteUserReq) returns (DeleteUserResp);
+}

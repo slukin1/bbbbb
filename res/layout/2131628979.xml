@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="horizontal" android:id="@id/2131431392" ="@drawable/2131238498" ="fill_parent" ="64.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_vertical" ="center_vertical" android:id="@id/2131448947" ="24.0dip" ="24.0dip" ="true" 2130969911="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238542" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="1.0" ="true" ="22.0dip" ="@id/2131448947">
+        <TextView ="@color/2131099764" ="end" ="center_vertical" ="center_vertical" android:id="@id/2131448949" ="0.0dip" ="wrap_content" ="2" ="false" ="1.0" ="2.0dip" ="@font/2131296281" ="locale" ="gravity" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131448947" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" ="end" ="center_vertical" ="center_vertical" android:id="@id/2131448950" ="gone" ="0.0dip" ="wrap_content" ="2" ="false" ="0.5" ="@font/2131296270" ="locale" ="viewEnd" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131448947" 2130969941="2131438103" />
+    </LinearLayout>
+    <ImageView ="end" ="center_vertical" android:id="@id/2131448948" ="24.0dip" ="24.0dip" ="true" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238544" />
+</RelativeLayout>

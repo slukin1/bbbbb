@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131437118" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="0.0dip" ="fill_parent" ="1.0">
+        <com.google.android.material.button.MaterialButton ="start|center" ="start" android:id="@id/2131437119" ="wrap_content" ="48.0dip" ="0.0dip" ="0.0dip" 2130969601="@drawable/2131235076" 2130969603="@null" 2130969608="4.0dip" style="?2130970110" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton ="center" android:id="@id/2131437121" ="48.0dip" ="48.0dip" ="0.0dip" ="0.0dip" ="@string/mtrl_picker_a11y_prev_month" 2130969601="@drawable/2131235074" style="?2130970107" />
+    <com.google.android.material.button.MaterialButton ="center" android:id="@id/2131437120" ="48.0dip" ="48.0dip" ="0.0dip" ="0.0dip" ="@string/mtrl_picker_a11y_next_month" 2130969601="@drawable/2131235073" style="?2130970107" />
+</LinearLayout>

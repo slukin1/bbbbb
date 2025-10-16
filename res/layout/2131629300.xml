@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="0.0dip" ="40.0dip" 2130969918="@id/ivFilter" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView ="center" android:id="@id/ivFilter" ="12.0dip" ="40.0dip" ="40.0dip" ="@drawable/2131237353" 2130969917="2131438103" 2130969936="@id/tabLayout" 2130969941="2131438103" 2130971375="@color/2131099764" />
+    <View ="@color/2131099751" ="fill_parent" ="1.0px" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tabLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

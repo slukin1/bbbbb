@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433614" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" ="11.0dip" 2130969911="@id/2131430686" 2130969937="2131438103" 2130969941="@id/2131430686" />
+    <androidx.cardview.widget.CardView android:id="@id/2131430686" ="wrap_content" ="wrap_content" 2130968911="@color/2131099675" 2130968912="@dimen/2131166164" 2130968914="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434197" ="20.0dip" ="20.0dip" ="1.0dip" />
+    </androidx.cardview.widget.CardView>
+    <TextView ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/2131433920" 2130969936="@id/2131433920" 2130969941="@id/2131433920" style="@style/2132149446" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444174" ="@drawable/2131236009" ="5.0dip" ="5.0dip" ="wrap_content" ="16.0dip" ="5.0dip" ="@color/2131099744" 2130969911="@id/2131433920" 2130969936="@id/2131442185" 2130969941="@id/2131433920" style="@style/2132149394" />
+    <FrameLayout android:id="@id/2131435310" ="fill_parent" ="26.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131433920">
+        <TextView ="@color/2131099778" ="start|center" android:id="@id/2131442138" ="wrap_content" ="wrap_content" android:text="@string/ms_withdraw_amount" 2130969937="2131438103" 2130969940="@id/2131433920" style="@style/2132149384" />
+        <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end|center" android:id="@id/tvAmountValue" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131442138" style="@style/2132149350" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131435312" ="fill_parent" ="26.0dip" 2130969929="1.0" 2130969936="@id/2131435310" 2130969940="@id/2131435310">
+        <com.binance.base.widget.WalletTipsTextView ="@color/2131099778" ="start|center" android:id="@id/2131442176" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_target_price" 2130969917="2131438103" 2130969941="@id/2131442138" 2130970849="false" style="@style/2132149384" />
+        <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end|center" android:id="@id/2131442178" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969940="@id/2131442176" style="@style/2132149350" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131435318" ="fill_parent" ="26.0dip" 2130969929="1.0" 2130969940="@id/2131435312">
+        <TextView ="@color/2131099778" ="start|center" android:id="@id/2131443362" ="wrap_content" ="wrap_content" android:text="@string/earn_est_apr" 2130969937="@id/2131443375" 2130969941="@id/2131442138" style="@style/2132149384" />
+        <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end|center" android:id="@id/2131443375" ="wrap_content" ="wrap_content" 2130969937="@id/2131432760" 2130969940="@id/2131443362" style="@style/2132149350" />
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131435313" ="fill_parent" ="26.0dip" 2130969929="1.0" 2130969940="@id/2131435318">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_settlement_date" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442181" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView ="@color/2131099787" android:id="@id/2131445367" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/lite_earn_holdings_visit_pro" 2130969937="2131438103" 2130969940="@id/2131435313" style="@style/2132149377" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.33333334" />
+</androidx.constraintlayout.widget.ConstraintLayout>

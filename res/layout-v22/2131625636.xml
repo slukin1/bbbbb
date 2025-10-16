@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.ocbs.landing.FiatLandingHotCoins ="15.0dip" ="15.0dip" ="false" ="false" ="fill_parent" ="wrap_content" ="32.0dip" ="@dimen/2131166184" 2130969940="@id/2131435466" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131102397" ="end" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ocbs_landing_page_hot_cryptos" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439565" ="false" ="false" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+</com.binance.ocbs.landing.FiatLandingHotCoins>

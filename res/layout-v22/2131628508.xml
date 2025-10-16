@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/futures_advance_tpsl_dialog_title" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441142" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/spot_take_profit" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" ="4.0dip">
+        <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431484" ="0.0dip" ="40.0dip" 2130969569="true" app:2130969577="@string/format_limit_coin" 2130969918="@id/2131431486" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431486" ="0.0dip" ="wrap_content" ="8.0dip" 2130969569="true" app:2130969577="@string/trade_tpsl_advanced_settings_offset_roi_hint" 2130969917="2131438103" 2130969936="@id/2131431484" 2130969941="2131438103" 2130969949="0.455" 2130971514="@string/sign_percent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440667" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/spot_stop_loss" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" ="4.0dip">
+        <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431475" ="0.0dip" ="40.0dip" 2130969569="true" app:2130969577="@string/trade_tpsl_trigger_placeholder" 2130969918="@id/2131431474" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431474" ="0.0dip" ="wrap_content" ="8.0dip" 2130969569="true" app:2130969577="@string/trade_tpsl_advanced_settings_offset_roi_hint" 2130969917="2131438103" 2130969936="@id/2131431475" 2130969941="2131438103" 2130969949="0.455" 2130971514="@string/sign_percent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="8.0dip">
+        <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131431472" ="0.0dip" ="40.0dip" 2130969569="true" app:2130969577="@string/format_limit_coin" 2130969918="@id/tvSlType" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099738" ="center" android:id="@id/2131444514" ="@drawable/2131236009" ="true" ="gone" ="true" ="0.0dip" ="40.0dip" android:text="@string/spot_format_oco_sl_market" ="@color/2131099744" 2130969911="@id/2131431472" 2130969917="@id/2131431472" 2130969937="@id/2131431472" 2130969941="@id/2131431472" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131100222" ="center" android:id="@id/tvSlType" ="@drawable/2131232849" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="0.0dip" ="40.0dip" ="60.0dip" android:text="@string/_market" ="8.0dip" ="@dimen/2131166286" ="@dimen/2131166225" 2130969911="@id/2131431472" 2130969917="2131438103" 2130969936="@id/2131431472" 2130969949="0.455" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/_confirm" style="@style/2132148692" />
+</LinearLayout>

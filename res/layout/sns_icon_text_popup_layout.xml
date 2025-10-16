@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="center" ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_icon" ="50.0dip" ="50.0dip" ="@dimen/sns_margin_small" />
+    <com.sumsub.sns.core.widget.SNSProgressBarView android:id="@id/sns_progress" ="gone" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="true" style="?android:progressBarStyle" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="marquee" ="center" android:id="@id/sns_text" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_margin_tiny" ="@dimen/sns_margin_small" ="@dimen/sns_margin_tiny" ="2" ="gravity" 2130971053="#ffffffff" />
+</LinearLayout>

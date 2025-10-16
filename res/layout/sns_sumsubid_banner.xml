@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="@dimen/sns_margin_small_tiny" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/sns_sumsubid_banner_checkbox" ="@null" ="0.0dip" ="0.0dip" ="@null" ="?android:listChoiceIndicatorMultiple" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/sns_sumsubid_banner_icon" ="@dimen/sns_icon_size_small" ="@dimen/sns_icon_size_small" ="no" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle1TextView android:id="@id/sns_sumsubid_banner_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_icon_size_normal" 2130969917="2131438103" 2130969936="@id/sns_sumsubid_banner_icon" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSBodyTextView android:id="@id/sns_sumsubid_banner_subtitle" ="0.0dip" ="wrap_content" 2130969917="@id/sns_sumsubid_banner_title" 2130969937="@id/sns_sumsubid_banner_title" 2130969940="@id/sns_sumsubid_banner_title" />
+</merge>

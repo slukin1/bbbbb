@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131438103" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148640" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_type" ="0.0dip" ="wrap_content" android:text="@string/futures_trade_limit_tif_gtc" ="1.0" style="@style/2132149371" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434424" ="gone" ="20.0dip" ="20.0dip" ="5.0dip" 2130971077="@drawable/2131237037" 2130971375="@color/2131099764" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <LinearLayout ="horizontal" ="fill_parent" ="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439653" ="0.0dip" ="fill_parent" ="8.0dip" ="1.0" />
+        <View ="@color/2131099751" ="0.5dip" ="fill_parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439699" ="0.0dip" ="fill_parent" ="8.0dip" ="2.0" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

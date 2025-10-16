@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131438679" ="@drawable/2131235995" ="8.0dip" ="8.0dip" ="45.0" ="@color/2131099764" 2130969911="@id/2131438676" 2130969918="@id/2131438676" 2130969941="@id/2131438676" />
+    <View android:id="@id/2131438680" ="@color/2131099751" ="8.0dip" ="8.0dip" ="45.0" ="1.0px" 2130969911="@id/2131438676" 2130969936="@id/2131438676" 2130969941="@id/2131438676" />
+    <ProgressBar android:id="@id/2131438676" ="fill_parent" ="2.0dip" ="26.0dip" ="9.0dip" ="26.0dip" ="50" ="@drawable/2131232974" ="@dimen/2131166216" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView ="@color/2131099764" android:id="@id/2131430837" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/deposit" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131438676" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131430836" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="@id/2131430837" 2130969940="@id/2131430837" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131428043" ="wrap_content" ="wrap_content" android:text="@string/wallet_est_arrival" ="15.0dip" 2130969911="@id/2131430837" 2130969917="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131428042" ="wrap_content" ="wrap_content" 2130969911="@id/2131430836" 2130969917="@id/2131428043" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

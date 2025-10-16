@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131437178" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/mpc_wallet_private_import_duplicated" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <com.binance.widget.recyclerview.MaxHeightRecyclerView android:id="@id/2131439683" ="fill_parent" ="wrap_content" ="22.0dip" ="300.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437178" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/2131437177" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_private_import_duplicated_tips" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439683" style="@style/2132149350" />
+    <com.mpc.wallet.widget.uikit.KitButton ="true" ="@color/2131099789" android:id="@id/2131437180" ="0.0dip" ="48.0dip" ="25.0dip" android:text="@string/confirm" ="1.0" ="15.0dip" ="15.0dip" 2130969173="8.0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437177" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

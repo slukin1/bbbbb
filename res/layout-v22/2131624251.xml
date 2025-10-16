@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444819" ="fill_parent" ="wrap_content" android:text="@string/c2c_mob_trading_req_tip1" ="@font/2131296274" ="16.0dip" ="16.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131449618" ="@drawable/2131232574" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="@id/2131444819" ="@dimen/2131166184" ="@dimen/2131166200">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434629" ="20.0dip" ="20.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237503" 2130971375="@color/2131099764" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131448760" ="wrap_content" ="wrap_content" android:text="@string/c2c_trade_requirements_verify_identify" ="@font/2131296274" ="4.0dip" ="@id/2131434629" 2130969936="@id/2131434629" 2130969941="2131438103" />
+        <LinearLayout ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428805" ="@drawable/2131236007" ="gone" ="wrap_content" ="24.0dip" ="4.0dip" android:text="@string/c2c_trade_requirements_verify" />
+            <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099851" android:id="@id/2131443446" ="gone" ="wrap_content" ="wrap_content" android:text="@string/verification_completed" ="@font/2131296274" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131449689" ="@drawable/2131232574" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="@id/2131449618" ="@dimen/2131166184" ="@dimen/2131166200">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434850" ="20.0dip" ="20.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236885" 2130971375="@color/2131099764" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131448822" ="wrap_content" ="wrap_content" android:text="@string/c2c_trade_requirements_sms_verification" ="@font/2131296274" ="4.0dip" ="@id/2131434850" 2130969936="@id/2131434850" 2130969941="2131438103" />
+        <LinearLayout ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428905" ="@drawable/2131236007" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_trade_requirements_enable" />
+            <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099851" android:id="@id/2131444694" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_enabled" ="@font/2131296274" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:id="@id/2131449508" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="24.0dip" ="true" ="@dimen/2131166188">
+        <com.major.android.uikit2.button.KitButton ="16.0sp" ="center" android:id="@id/2131429079" ="gone" ="0.0dip" ="40.0dip" android:text="@string/c2c_mob_exads_refresh" ="1.0" ="@font/2131296273" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton ="16.0sp" ="center" android:id="@id/2131429009" ="visible" ="0.0dip" ="40.0dip" android:text="@string/c2c_dialog_location_check_continue" ="1.0" ="@font/2131296273" />
+    </LinearLayout>
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/tv_tips" ="fill_parent" ="wrap_content" ="28.0dip" android:text="@string/c2c_mob_trading_req_win_country" ="@id/2131449508" ="@font/2131296274" ="25.0dip" ="16.0dip" />
+    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="*" ="@id/2131449508" ="@id/tv_tips" ="@font/2131296274" ="16.0dip" />
+</RelativeLayout>

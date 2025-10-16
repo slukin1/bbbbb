@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="2.0dip" ="8.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131435856" ="6.0dip" ="fill_parent" ="wrap_content" ="0.0dip" ="0.0dip">
+        <TextView ="@style/2132149260" ="marquee" android:id="@id/title" ="horizontal" ="fill_parent" ="wrap_content" ="true" ="1.0" />
+        <DateTimeView ="@style/2132149258" ="center" android:id="@id/2131441416" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" ="true" ="0.0" ="8.0dip" />
+        <Chronometer ="@style/2132149258" ="center" android:id="@id/2131429610" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" ="true" ="0.0" ="8.0dip" />
+    </LinearLayout>
+    <TextView ="@style/2132149255" ="marquee" android:id="@id/2131441188" ="gone" ="horizontal" ="fill_parent" ="wrap_content" ="0.0dip" ="-2.0dip" ="-2.0dip" ="true" ="0.0dip" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435860" ="fill_parent" ="wrap_content" ="0.0dip" ="0.0dip">
+        <TextView ="@style/2132149256" ="marquee" ="center" android:id="@id/2131441186" ="horizontal" ="0.0dip" ="wrap_content" ="true" ="1.0" />
+        <TextView ="@style/2132149253" ="center" ="center" android:id="@id/2131433438" ="8.0dip" ="wrap_content" ="wrap_content" ="true" ="0.0" ="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

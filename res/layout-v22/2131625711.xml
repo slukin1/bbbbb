@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450168" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131431221" ="0.0dip" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <include android:id="@id/2131431168" ="fill_parent" ="44.0dip" 2130969940="@id/2131431221" layout="@layout/2131627708" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/2131450189" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/mpc_device_change_title" ="15.0dip" ="15.0dip" 2130969940="@id/2131431168" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131450188" ="fill_parent" ="wrap_content" ="5.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131450189" style="@style/2132149350" />
+    <LinearLayout ="vertical" android:id="@id/2131450203" ="@drawable/2131232624" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450188">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131450204" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437278" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/dwallet_device_change_wallet_balance_title" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437283" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437185" ="@drawable/2131232647" ="fill_parent" ="0.0dip" ="20.0dip" ="20.0dip" ="108.0dip" ="15.0dip" ="15.0dip" 2130969912="@id/2131437302" 2130969940="@id/2131450203" />
+    <com.mpc.wallet.widget.uikit.KitNotification ="@color/2131099764" ="start|center" android:id="@id/2131450277" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="42.0dip" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131437185" 2130970325="@drawable/2131235136" 2130970329="@string/mpc_wallet_restore_no_key_share_notification" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131450311" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/mpcwallet_entrance_guide_text" ="15.0dip" ="15.0dip" 2130969912="@id/2131450192" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149374" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437302" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="25.0dip" ="15.0dip" 2130969912="@id/2131450192" 2130969937="2131438103" style="@style/2132149350" />
+    <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131450192" ="fill_parent" ="48.0dip" ="10.0dip" android:text="@string/mpc_device_change_title" ="15.0dip" ="15.0dip" 2130969173="8.0" 2130969912="@id/2131450190" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099881" android:id="@id/2131450190" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/mpc_create_new_defi_wallet" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

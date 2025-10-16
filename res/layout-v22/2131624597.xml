@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@dimen/2131166184" ="@dimen/2131166184" ="fill_parent" ="wrap_content" ="@dimen/2131166034" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/title" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/content_featured_kols" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131427480" ="gone" ="wrap_content" ="wrap_content" ="11.0dip" android:text="@string/view_more" 2130969918="@id/2131427507" 2130969941="2131438103" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427507" ="gone" ="18.0dip" ="18.0dip" ="true" ="@color/2131099778" 2130969911="@id/2131427480" 2130969917="2131438103" 2130969941="@id/2131427480" 2130971077="@drawable/2131237055" />
+        <include android:id="@id/2131433577" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/title" layout="@layout/2131624653" />
+        <include android:id="@id/2131433579" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433577" layout="@layout/2131624653" />
+        <include android:id="@id/2131433580" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433579" layout="@layout/2131624653" />
+        <include android:id="@id/2131433581" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433580" layout="@layout/2131624653" />
+        <include android:id="@id/2131433582" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433581" layout="@layout/2131624653" />
+        <include android:id="@id/2131433583" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433582" layout="@layout/2131624653" />
+        <include android:id="@id/2131433584" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433583" layout="@layout/2131624653" />
+        <include android:id="@id/2131433585" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433584" layout="@layout/2131624653" />
+        <include android:id="@id/2131433586" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433585" layout="@layout/2131624653" />
+        <include android:id="@id/2131433578" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131433586" layout="@layout/2131624653" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

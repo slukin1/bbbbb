@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131441501" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450442" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131435226" ="wrap_content" ="wrap_content" android:text="@string/c2c_order_detail_you_pay" ="@font/2131296273" 2130969911="@id/2131430514" 2130969937="2131438103" 2130969941="@id/2131430514" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131430514" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103">
+            <TextView ="18.0sp" ="@color/2131099764" android:id="@id/2131445475" ="wrap_content" ="wrap_content" ="@font/2131296273" ="4.0dip" />
+            <TextView ="22.0sp" ="@color/2131099764" android:id="@id/2131445474" ="wrap_content" ="wrap_content" ="@font/2131296275" ="8.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433780" ="16.0dip" ="16.0dip" ="1.0dip" 2130971077="@drawable/2131237146" />
+        </LinearLayout>
+        <View android:id="@id/2131428542" ="@color/2131099751" ="fill_parent" ="0.5dip" ="8.0dip" 2130969940="@id/2131430514" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236040" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170">
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131435208" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_safe_payment_from" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131442439" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_safe_payment_change" ="@font/2131296273" ="16.0dip" ="0.0dip" ="4.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="vertical" android:id="@id/2131429137" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="@id/2131435208" 2130969940="@id/2131435208">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131429196" ="fill_parent" ="wrap_content" ="12.0dip" />
+            <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131429194" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166170">
+                <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="12.0dip" />
+                <TextView ="14.0sp" ="@color/2131099778" ="center_horizontal" ="fill_parent" ="wrap_content" android:text="@string/c2c_od_have_not_add_safe_payment" ="@font/2131296274" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131428683" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_od_safe_payment_add_now" style="@style/2132148701" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236040" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="@dimen/2131166184" ="@dimen/2131166170">
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131435224" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_od_safe_payment_to" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131442440" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_safe_payment_change" ="@font/2131296273" ="16.0dip" ="0.0dip" ="4.0dip" 2130969917="2131438103" 2130969941="@id/2131435224" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439964" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="@id/2131435224" 2130969940="@id/2131435224" />
+        <TextView ="12.0sp" ="@color/2131099787" ="center_horizontal" android:id="@id/2131445350" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_order_detail_view_all" ="@font/2131296273" 2130969940="@id/2131439964" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/spot_trade_current_pair" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131433278" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131238026" 2130971375="@color/2131099738" />
+</FrameLayout>

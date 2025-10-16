@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/_name" ="1.0" style="@style/2132149384" />
+    <FrameLayout ="0.0dip" ="wrap_content" ="1.0" ="8.0dip">
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131443485" ="wrap_content" ="wrap_content" android:text="@string/last_price" style="@style/2132149384" />
+    </FrameLayout>
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131442441" ="0.0dip" ="wrap_content" android:text="@string/markets_price_24h_changed_title" ="1.0" ="8.0dip" style="@style/2132149384" />
+</androidx.appcompat.widget.LinearLayoutCompat>

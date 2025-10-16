@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131449731" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131442553" ="wrap_content" ="wrap_content" ="1" ="false" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="3.0dip" ="false" ="true" style="@style/2132149384" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131443454" ="wrap_content" ="wrap_content" android:text="@string/earn_nft_name" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443845" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivToken" ="20.0dip" ="20.0dip" ="5.0dip" ="@id/2131443845" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" android:id="@id/2131439318" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/pos_locked_period" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131444065" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" android:id="@id/2131439359" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/_Type" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvType" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View ="@color/2131100565" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.dialogs.sheets.HorizontalPageIndicator ="horizontal" android:id="@id/2131432949" ="0.0dip" ="4.0dip" ="8.0dip" ="8.0dip" ="14.0dip" 2130969596="4" 2130969597="1" 2130969911="2131438103" 2130969918="@id/ivClose" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969927="1.0" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

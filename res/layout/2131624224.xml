@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="wrap_content" ="10.0dip">
+        <com.major.android.uikit2.search.KitSearchBar ="14.0sp" ="@color/2131100635" ="@color/2131100973" ="center_vertical" android:id="@id/2131431280" ="fill_parent" ="32.0dip" ="12.0dip" ="true" 2130968735="@color/2131099685" 2130968908="false" 2130968909="@string/_cancel" 2130970759="@string/c2c_order_history_search_search_order_number" 2130971628="true" />
+        <ImageView android:id="@id/2131434611" ="12.0dip" ="12.0dip" ="10.0dip" ="@id/2131431280" ="15.0dip" 2130971077="@drawable/2131237075" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446687" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_order_history_search_search_limit" ="@id/2131431280" ="@font/2131296274" ="5.0dip" ="@id/2131434611" />
+        <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131447191" ="@drawable/2131235987" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="20.0dip" ="16.0dip" android:text="@string/c2c_order_history_search_only_show_last_six_month" ="@id/2131446687" ="@font/2131296274" ="@color/2131099745" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131437715" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" ="16.0dip">
+        <TextView ="14.0sp" ="bold" ="@color/2131100635" android:id="@id/2131444450" ="wrap_content" ="wrap_content" android:text="@string/search_history" ="@font/2131296274" />
+        <ImageView android:id="@id/2131433913" ="14.0dip" ="wrap_content" ="wrap_content" ="14.0dip" ="0.0dip" ="true" 2130971077="@drawable/2131237186" />
+        <com.binance.c2c.view.FiatFlowLayout android:id="@id/2131432085" ="fill_parent" ="wrap_content" ="14.0dip" ="@id/2131444450" />
+    </RelativeLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131431363" ="gone" ="fill_parent" ="wrap_content" ="80.0dip" ="30.0dip" ="30.0dip">
+        <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131446353" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/c2c_order_history_search_format_invalid" ="@font/2131296274" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439195" ="gone" ="fill_parent" ="fill_parent" ="6.0dip" />
+</LinearLayout>

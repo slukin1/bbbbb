@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233074" ="8.0dip" ="160.0dip" ="66.0dip" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131430146" ="16.0dip" ="16.0dip" ="centerCrop" 2130969911="@id/2131430153" 2130969937="2131438103" 2130969941="@id/2131430153" 2130970795="@style/2132150259" />
+    <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131430153" ="0.0dip" ="wrap_content" ="1" ="4.0dip" ="4.0dip" 2130969918="@id/2131430182" 2130969936="@id/2131430146" 2130969941="2131438103" style="@style/2132149451" />
+    <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131430182" ="20.0dip" ="20.0dip" 2130969911="@id/2131430153" 2130969917="2131438103" 2130969941="@id/2131430153" 2130971077="@drawable/2131238144" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/price" ="75.0dip" ="24.0dip" ="1" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149351" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131100620" ="end" ="end|center" android:id="@id/2131438625" ="0.0dip" ="1" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/price" style="@style/2132149356" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442433" ="0.0dip" ="wrap_content" 2130969918="@id/2131432406" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" 2130969946="2131450408" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432406" ="wrap_content" ="wrap_content" 2130969921="0.33" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433811" ="16.0dip" ="16.0dip" ="4.0dip" 2130969918="@id/2131442801" 2130969927="1.0" 2130969928="2131438085" 2130969936="@id/2131432406" 2130969941="@id/2131442801" />
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" ="end" android:id="@id/2131442801" ="0.0dip" ="wrap_content" ="4.0dip" 2130969274="@string/market_detail_tips" 2130969918="@id/2131432407" 2130969927="1.0" 2130969936="@id/2131433811" 2130969941="2131438103" 2130969946="2131450408" 2130970849="false" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432407" ="wrap_content" ="wrap_content" 2130969921="0.66" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434285" ="16.0dip" ="16.0dip" ="4.0dip" 2130969918="@id/2131445460" 2130969927="1.0" 2130969928="2131438085" 2130969936="@id/2131432407" 2130969941="@id/2131445460" />
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" ="end" android:id="@id/2131445460" ="0.0dip" ="wrap_content" ="4.0dip" 2130969274="@string/market_detail_tips" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131434285" 2130969941="2131438103" 2130969946="2131450408" 2130970849="false" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,300 @@
+.class public Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;
+.super Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;
+
+# interfaces
+.implements Lde/authada/org/bouncycastle/crypto/Xof;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/16 v0, 0x80
+
+    .line 65354
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;-><init>(I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(I)V
+    .locals 1
+
+    .line 65353
+    invoke-static {p1}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->checkBitLength(I)I
+
+    move-result p1
+
+    sget-object v0, Lde/authada/org/bouncycastle/crypto/CryptoServicePurpose;->ANY:Lde/authada/org/bouncycastle/crypto/CryptoServicePurpose;
+
+    invoke-direct {p0, p1, v0}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;-><init>(ILde/authada/org/bouncycastle/crypto/CryptoServicePurpose;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(ILde/authada/org/bouncycastle/crypto/CryptoServicePurpose;)V
+    .locals 0
+
+    .line 65352
+    invoke-static {p1}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->checkBitLength(I)I
+
+    move-result p1
+
+    invoke-direct {p0, p1, p2}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;-><init>(ILde/authada/org/bouncycastle/crypto/CryptoServicePurpose;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/crypto/CryptoServicePurpose;)V
+    .locals 1
+
+    const/16 v0, 0x80
+
+    .line 65351
+    invoke-direct {p0, v0, p1}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;-><init>(ILde/authada/org/bouncycastle/crypto/CryptoServicePurpose;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;)V
+    .locals 0
+
+    .line 65350
+    invoke-direct {p0, p1}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;-><init>(Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;)V
+
+    return-void
+.end method
+
+.method private static checkBitLength(I)I
+    .locals 2
+
+    const/16 v0, 0x80
+
+    if-eq p0, v0, :cond_1
+
+    const/16 v0, 0x100
+
+    if-ne p0, v0, :cond_0
+
+    goto :goto_0
+
+    .line 65349
+    :cond_0
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "\'bitStrength\' "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string p0, " not supported for SHAKE"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    :goto_0
+    return p0
+.end method
+
+
+# virtual methods
+.method protected cryptoServiceProperties()Lde/authada/org/bouncycastle/crypto/CryptoServiceProperties;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->purpose:Lde/authada/org/bouncycastle/crypto/CryptoServicePurpose;
+
+    invoke-static {p0, v0}, Lde/authada/org/bouncycastle/crypto/digests/Utils;->getDefaultProperties(Lde/authada/org/bouncycastle/crypto/Digest;Lde/authada/org/bouncycastle/crypto/CryptoServicePurpose;)Lde/authada/org/bouncycastle/crypto/CryptoServiceProperties;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public doFinal([BI)I
+    .locals 1
+
+    .line 65347
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->getDigestSize()I
+
+    move-result v0
+
+    invoke-virtual {p0, p1, p2, v0}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->doFinal([BII)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method protected doFinal([BIBI)I
+    .locals 6
+
+    .line 65346
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->getDigestSize()I
+
+    move-result v3
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move v2, p2
+
+    move v4, p3
+
+    move v5, p4
+
+    invoke-virtual/range {v0 .. v5}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->doFinal([BIIBI)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public doFinal([BII)I
+    .locals 0
+
+    .line 65345
+    invoke-virtual {p0, p1, p2, p3}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->doOutput([BII)I
+
+    move-result p1
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->reset()V
+
+    return p1
+.end method
+
+.method protected doFinal([BIIBI)I
+    .locals 2
+
+    if-ltz p5, :cond_2
+
+    const/4 v0, 0x7
+
+    if-gt p5, v0, :cond_2
+
+    const/4 v0, 0x1
+
+    shl-int v1, v0, p5
+
+    sub-int/2addr v1, v0
+
+    and-int/2addr p4, v1
+
+    const/16 v0, 0xf
+
+    shl-int/2addr v0, p5
+
+    or-int/2addr p4, v0
+
+    add-int/lit8 v0, p5, 0x4
+
+    const/16 v1, 0x8
+
+    if-lt v0, v1, :cond_0
+
+    int-to-byte v0, p4
+
+    .line 65344
+    invoke-virtual {p0, v0}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->absorb(B)V
+
+    add-int/lit8 v0, p5, -0x4
+
+    ushr-int/lit8 p4, p4, 0x8
+
+    :cond_0
+    if-lez v0, :cond_1
+
+    invoke-virtual {p0, p4, v0}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->absorbBits(II)V
+
+    :cond_1
+    int-to-long p4, p3
+
+    const/4 v0, 0x3
+
+    shl-long/2addr p4, v0
+
+    invoke-virtual {p0, p1, p2, p4, p5}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->squeeze([BIJ)V
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->reset()V
+
+    return p3
+
+    :cond_2
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p2, "\'partialBits\' must be in the range [0,7]"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public doOutput([BII)I
+    .locals 3
+
+    .line 65343
+    iget-boolean v0, p0, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->squeezing:Z
+
+    if-nez v0, :cond_0
+
+    const/16 v0, 0xf
+
+    const/4 v1, 0x4
+
+    invoke-virtual {p0, v0, v1}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->absorbBits(II)V
+
+    :cond_0
+    int-to-long v0, p3
+
+    const/4 v2, 0x3
+
+    shl-long/2addr v0, v2
+
+    invoke-virtual {p0, p1, p2, v0, v1}, Lde/authada/org/bouncycastle/crypto/digests/SHAKEDigest;->squeeze([BIJ)V
+
+    return p3
+.end method
+
+.method public getAlgorithmName()Ljava/lang/String;
+    .locals 2
+
+    .line 65342
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "SHAKE"
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v1, p0, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->fixedOutputLength:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getDigestSize()I
+    .locals 1
+
+    .line 65341
+    iget v0, p0, Lde/authada/org/bouncycastle/crypto/digests/KeccakDigest;->fixedOutputLength:I
+
+    div-int/lit8 v0, v0, 0x4
+
+    return v0
+.end method

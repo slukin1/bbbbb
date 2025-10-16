@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="20.0dip" ="20.0dip" style="@style/2132148643">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434455" ="64.0dip" ="64.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238406" />
+        <TextView ="@color/2131099764" android:id="@id/2131446096" ="24.0dip" ="24.0dip" ="wrap_content" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434455" style="@style/2132149350" />
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131435026" ="20.0dip" ="20.0dip" ="16.0dip" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131446096" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/spot_hide_pop_for_7day" ="5.0dip" 2130969911="@id/2131435026" 2130969936="@id/2131435026" 2130969941="@id/2131435026" style="@style/2132149384" />
+        <TextView ="@color/2131099789" ="center" android:id="@id/2131448409" ="@drawable/2131232839" ="0.0dip" ="40.0dip" ="24.0dip" ="30.0dip" ="24.0dip" android:text="@string/spot_try_convert" 2130969917="2131438103" 2130969929="1.0" 2130969937="2131438103" 2130969940="@id/2131435026" style="@style/2132149446" />
+        <TextView ="@color/2131099787" ="center" android:id="@id/2131446095" ="32.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="18.0dip" ="24.0dip" android:text="@string/_cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448409" style="@style/2132149371" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

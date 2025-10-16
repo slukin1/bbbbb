@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view ="bottom" ="fill_parent" ="wrap_content" class="com.google.android.material.snackbar.SnackbarContentLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="start|center" android:id="@id/2131440169" ="wrap_content" ="wrap_content" ="1.0" style="?2130970908" />
+    <Button ="end|center" android:id="@id/2131440168" ="gone" ="wrap_content" ="wrap_content" ="48.0dip" style="?2130970906" />
+</view>

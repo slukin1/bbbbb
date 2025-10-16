@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" android:id="@id/2131430786" ="wrap_content" ="wrap_content" ="@id/2131437111" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131437111" 2130969941="2131438103" 2130969947="@dimen/2131165996" />
+    <TextView ="13.0sp" ="?2130969064" android:id="@id/2131431414" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131437111" 2130969940="@id/2131437111" 2130969947="@dimen/2131165996" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131437111" ="0.0dip" ="wrap_content" 2130969412="@style/2132149002" 2130969912="@id/2131431414" 2130969918="@id/2131430793" 2130969929="5.0" 2130969937="2131438103" 2130969940="@id/2131430786" style="?2130971063">
+        <AutoCompleteTextView ="end" android:id="@id/2131437116" ="true" ="false" ="true" ="false" ="fill_parent" ="wrap_content" ="1" ="true" ="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131430793" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" 2130969408="@null" 2130969412="@style/2132149002" 2130969911="@id/2131437111" 2130969918="@id/2131450437" 2130969929="3.0" 2130969936="@id/2131437111" 2130969941="@id/2131437111" 2130969942="1.0" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/2131430794" ="false" ="fill_parent" ="wrap_content" ="1" ="2" ="number" ="actionNext" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131450437" ="0.0dip" ="wrap_content" 2130969408="@null" 2130969412="@style/2132149002" 2130969911="@id/2131437111" 2130969917="2131438103" 2130969929="3.0" 2130969936="@id/2131430793" 2130969941="@id/2131437111" 2130969942="1.0" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/2131450438" ="false" ="fill_parent" ="wrap_content" ="1" ="4" ="number" ="actionNext" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

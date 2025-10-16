@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131440532" ="20.0dip" ="20.0dip" ="20.0dip" ="@id/2131440533" ="true" ="@android:string/untitled" ="20.0dip" ="@id/2131440533" />
+    <ImageView android:id="@id/2131440534" ="20.0dip" ="20.0dip" ="20.0dip" ="@id/2131440533" ="true" ="@android:string/untitled" ="20.0dip" ="@id/2131440533" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131440533" ="wrap_content" ="wrap_content" ="true">
+        <TextView ="15.0sp" ="#ff666666" android:id="@id/2131440535" ="wrap_content" ="wrap_content" android:text="@string/srl_header_pulling" ="1" />
+        <TextView ="12.0sp" ="#ff7c7c7c" android:id="@id/2131440536" ="wrap_content" ="wrap_content" android:text="@string/srl_header_update" ="1" />
+    </LinearLayout>
+</merge>

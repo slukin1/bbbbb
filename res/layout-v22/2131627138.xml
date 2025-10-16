@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234718" ="9.0dip" ="9.0dip" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" ="@dimen/2131166294">
+        <ImageView android:id="@id/icon" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="vertical" android:id="@id/2131433445" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969936="@id/icon" 2130969941="2131438103">
+            <TextView ="@color/2131099764" android:id="@id/2131428419" ="wrap_content" ="wrap_content" ="2" ="ltr" style="@style/2132149372" />
+            <TextView ="@color/2131099778" android:id="@id/2131428072" ="wrap_content" ="wrap_content" ="2" ="ltr" style="@style/2132149386" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131436827" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <TextView ="#ff2ebd85" ="end" android:id="@id/2131428035" ="wrap_content" ="fill_parent" ="1" ="ltr" ="3.0dip" style="@style/2132149372" />
+            <TextView ="@color/2131099778" ="end" ="end" ="end" android:id="@id/2131428033" ="visible" ="wrap_content" ="wrap_content" android:text="@string/earn_apr" ="1" ="12" ="ltr" style="@style/2132149386" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

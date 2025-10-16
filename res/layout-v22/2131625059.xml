@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434861" ="96.0dip" ="96.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="20.0sp" ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296267" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434861" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296266" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429055" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446058" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131436474" ="0.0dip" ="40.0dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429055">
+        <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="@drawable/2131237162" ="4.0dip" 2130971375="@color/2131099787" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="wrap_content" ="wrap_content" android:text="@string/c2c_customer_service" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_locked_asset_dialog_amount" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="4.0dip" ="ltr" style="@style/2132149419" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131436722" ="@drawable/2131236038" ="fill_parent" ="wrap_content" ="24.0dip" ="12.0dip" ="false" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131430241" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/ok" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

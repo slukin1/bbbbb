@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="?android:windowBackground" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.validation.OnfidoCaptureValidationBubble android:id="@id/captureValidationBubble" ="gone" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@dimen/2131167480" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970426="@null" 2130970433="@bool/2131034123" />
+    <TextView ="bold" ="center" android:id="@id/headerText" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/onfido_selfie_confirmation_body" ="@dimen/2131167480" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148941" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131438611" ="fill_parent" ="wrap_content" 2130968759="2131428521" 2130969125="captureValidationBubble,headerText" />
+    <ImageView android:id="@id/2131438609" ="0.0dip" ="0.0dip" ="32.0dip" ="24.0dip" ="32.0dip" ="32.0dip" ="fitCenter" ="@string/onfido_selfie_confirmation_image_accessibility" ="@dimen/2131167482" 2130969912="@id/2131438610" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438611" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131438610" ="fill_parent" ="wrap_content" 2130968759="2131441647" 2130969125="uploadPhotoButton,forceRetakePhotoButton" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/uploadPhotoButton" ="6.0dip" 2130969912="@id/2131439197" 2130969917="2131438103" 2130969937="2131438103" 2130970348="@string/onfido_selfie_confirmation_button_primary" style="@style/2132148903" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131439197" ="8.0dip" 2130969912="@id/2131450333" 2130969917="2131438103" 2130969937="2131438103" 2130970348="@string/onfido_selfie_confirmation_button_secondary" 2130970350="@null" style="@style/2132148903" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/forceRetakePhotoButton" ="gone" ="8.0dip" 2130969912="@id/2131450333" 2130969917="2131438103" 2130969937="2131438103" 2130970348="@string/onfido_selfie_confirmation_button_secondary" 2130970350="@null" style="@style/2132148903" />
+    <FrameLayout android:id="@id/2131450333" ="fill_parent" ="wrap_content" ="@dimen/2131167501" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.onfido.android.sdk.capture.ui.widget.WatermarkView android:id="@id/2131450331" style="@style/2132148972" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

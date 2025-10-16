@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131625507" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441096" ="fill_parent" ="38.0dip" />
+    <View android:id="@id/2131449536" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449922" ="fill_parent" ="0.0dip" ="1.0" />
+</LinearLayout>

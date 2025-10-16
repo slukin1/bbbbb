@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131431594" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="center_vertical" ="horizontal" ="fill_parent" ="50.0dip" ="true">
+        <com.major.android.uikit2.tabs.KitTabLayout ="center_vertical" android:id="@id/2131435189" ="fill_parent" ="wrap_content" ="55.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434538" ="15.0dip" ="50.0dip" ="50.0dip" 2130971077="@drawable/2131237353" 2130971375="@color/2131099764" />
+        <com.major.android.uikit2.divider.KitDivider ="bottom" android:id="@id/2131435855" ="gone" ="fill_parent" ="0.5dip" ="6.0dip" />
+    </FrameLayout>
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131440886" ="fill_parent" ="0.0dip" ="1.0" />
+</androidx.appcompat.widget.LinearLayoutCompat>

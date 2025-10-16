@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099685" ="center" android:id="@id/2131444777" ="@drawable/2131232428" ="20.0dip" ="20.0dip" ="@font/2131296273" ="@color/2131099764" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/lineView" ="@color/2131099764" ="1.0dip" ="0.0dip" 2130969911="@id/2131440397" 2130969917="@id/2131444777" 2130969937="@id/2131444777" 2130969940="@id/2131444777" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" android:text="@string/c2c_seller_step1_title" ="1.2" ="@font/2131296273" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131444777" 2130969941="2131438103" 2130969961="@dimen/2131166153" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444977" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/c2c_seller_step1_title" ="1.2" ="@font/2131296274" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131444777" 2130969940="@id/tvTitle" 2130969961="@dimen/2131166153" 2130969962="@dimen/2131166153" />
+    <FrameLayout android:id="@id/2131437064" ="@drawable/2131232477" ="16.0dip" ="4.0dip" ="16.0dip" ="4.0dip" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131444777" 2130969940="@id/2131444977" 2130969961="@dimen/2131166153" />
+    <LinearLayout ="horizontal" android:id="@id/2131444979" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131444777" 2130969940="@id/2131437064" 2130969961="@dimen/2131166153">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444978" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_seller_step1_title" ="4.0dip" ="1.2" ="@font/2131296274" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429147" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/c2c_od_dialog_go_to_chat" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131444777" 2130969940="@id/2131444979" 2130969961="@dimen/2131166153" style="@style/2132148693" />
+    <androidx.legacy.widget.Space android:id="@id/2131440397" ="0.0dip" ="24.0dip" 2130969917="@id/2131429147" 2130969937="@id/2131429147" 2130969940="@id/2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

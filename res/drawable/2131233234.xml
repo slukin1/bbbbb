@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="75.0dip" android:width="150.0dip" android:viewportWidth="150.0" android:viewportHeight="75.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h150v75h-150z" />
+        <group>
+            <clip-path android:pathData="M0,0h150v75h-150z" />
+            <path android:fillColor="@drawable/2131230990" android:pathData="M0,75C0,55.11 7.9,36.03 21.97,21.97C36.03,7.9 55.11,0 75,0C94.89,-0 113.97,7.9 128.03,21.97C142.1,36.03 150,55.11 150,75H139.5C139.5,57.89 132.7,41.49 120.61,29.39C108.51,17.3 92.11,10.5 75,10.5C57.89,10.5 41.49,17.3 29.39,29.39C17.3,41.49 10.5,57.89 10.5,75H0Z" />
+            <path android:fillColor="#00000000" android:pathData="M18,74H22" android:strokeColor="#ffeaecef" android:strokeWidth="2.0" android:strokeLineCap="square" />
+            <path android:fillColor="#00000000" android:pathData="M75,16L75,20" android:strokeColor="#ffeaecef" android:strokeWidth="2.0" android:strokeLineCap="square" />
+            <path android:fillColor="#00000000" android:pathData="M30,35L32.83,37.83" android:strokeColor="#ffeaecef" android:strokeWidth="2.0" android:strokeLineCap="square" />
+            <path android:fillColor="#00000000" android:pathData="M120,35L116.72,37.29" android:strokeColor="#ffeaecef" android:strokeWidth="2.0" android:strokeLineCap="square" />
+            <path android:fillColor="#00000000" android:pathData="M127,74H131" android:strokeColor="#ffeaecef" android:strokeWidth="2.0" android:strokeLineCap="square" />
+        </group>
+    </group>
+</vector>

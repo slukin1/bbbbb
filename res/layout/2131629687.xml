@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131100091" ="end" android:id="@id/tvCancel" ="@drawable/2131236709" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/_cancel" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    <TextView ="@color/2131099764" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="#ff2ebd85" ="end" android:id="@id/tvTradeSide" ="wrap_content" ="wrap_content" android:text="@string/trade_tabs1" ="2" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tvDate" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="4.0dip" 2130969911="@id/tvTradeSide" 2130969936="@id/tvTradeSide" 2130969941="@id/tvTradeSide" style="@style/2132149384" />
+    <androidx.constraintlayout.helper.widget.Layer android:id="@id/2131435332" ="10.0dip" ="0.0dip" ="0.0dip" ="15.0dip" ="10.0dip" 2130969125="tvTradeSide,tvSymbol" />
+    <com.finance.kit.framework.widget.progress.LinePercentProgressView android:id="@id/cpProgress" ="5.0dip" ="5.0dip" ="visible" ="wrap_content" ="wrap_content" ="3.0dip" 2130969911="@id/tvCancel" 2130969918="@id/tvCancel" 2130969941="@id/tvCancel" />
+    <TextView ="@color/2131099778" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="12.0dip" ="60.0dip" android:text="@string/ms_withdraw_amount" ="2" 2130969937="@id/tvSymbol" 2130969940="@id/tvTradeSide" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443022" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="10.0dip" 2130969918="@id/2131443978" 2130969941="@id/tvAmount" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443978" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="@id/tvAmount" 2130969917="2131438103" 2130969941="@id/tvAmount" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" ="2.0dip" ="60.0dip" android:text="@string/string_price" ="2" 2130969937="@id/tvSymbol" 2130969940="@id/tvAmount" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvPriceValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="@id/tvPrice" 2130969917="2131438103" 2130969941="@id/tvPrice" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvFee" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/fee" ="2" 2130969937="@id/tvSymbol" 2130969940="@id/tvPrice" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvFeeValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="@id/tvFee" 2130969917="2131438103" 2130969941="@id/tvFee" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvReduceOnly" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/reduce_only" 2130969937="@id/tvSymbol" 2130969940="@id/tvFee" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131444359" ="gone" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="@id/tvReduceOnly" 2130969917="2131438103" 2130969941="@id/tvReduceOnly" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444937" ="wrap_content" ="wrap_content" android:text="@string/voptions_trade_tif_time_in_force" 2130969937="@id/tvSymbol" 2130969940="@id/tvReduceOnly" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131444938" ="wrap_content" ="wrap_content" android:text="@string/voptions_trade_tif_gtc" ="10.0dip" 2130969911="@id/2131444937" 2130969917="2131438103" 2130969941="@id/2131444937" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444766" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/status" ="2" 2130969937="@id/tvSymbol" 2130969940="@id/2131444937" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvStatusValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="@id/2131444766" 2130969917="2131438103" 2130969941="@id/2131444766" style="@style/2132149350" />
+    <View android:id="@id/2131449631" ="@color/2131099751" ="0.0dip" ="0.5dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444766" />
+</androidx.constraintlayout.widget.ConstraintLayout>

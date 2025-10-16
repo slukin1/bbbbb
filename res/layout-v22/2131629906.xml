@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_desc" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" android:text="@string/wallet_avg_cost_tip_desc" ="@dimen/2131166184" ="@dimen/2131166156" style="@style/2132149350" />
+    <LinearLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="22.0dip" ="@dimen/2131166184">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131435083" ="0.0dip" ="40.0dip" android:text="@string/wallet_avg_cost_tip_revise" ="1.0" 2130971472="2" style="@style/2132148697" />
+        <View ="12.0dip" ="40.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131435082" ="0.0dip" ="40.0dip" android:text="@string/OK" ="1.0" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

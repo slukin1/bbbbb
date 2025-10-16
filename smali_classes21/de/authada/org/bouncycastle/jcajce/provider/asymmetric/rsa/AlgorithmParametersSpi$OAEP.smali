@@ -1,0 +1,428 @@
+.class public Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;
+.super Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "OAEP"
+.end annotation
+
+
+# instance fields
+.field currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected engineGetEncoded()[B
+    .locals 7
+
+    .line 65353
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    invoke-virtual {v1}, Ljavax/crypto/spec/OAEPParameterSpec;->getDigestAlgorithm()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lde/authada/org/bouncycastle/jcajce/provider/util/DigestFactory;->getOID(Ljava/lang/String;)Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v1
+
+    sget-object v2, Lde/authada/org/bouncycastle/asn1/DERNull;->INSTANCE:Lde/authada/org/bouncycastle/asn1/DERNull;
+
+    invoke-direct {v0, v1, v2}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    invoke-virtual {v1}, Ljavax/crypto/spec/OAEPParameterSpec;->getMGFParameters()Ljava/security/spec/AlgorithmParameterSpec;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/security/spec/MGF1ParameterSpec;
+
+    new-instance v2, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    sget-object v3, Lde/authada/org/bouncycastle/asn1/pkcs/PKCSObjectIdentifiers;->id_mgf1:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    new-instance v4, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    invoke-virtual {v1}, Ljava/security/spec/MGF1ParameterSpec;->getDigestAlgorithm()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lde/authada/org/bouncycastle/jcajce/provider/util/DigestFactory;->getOID(Ljava/lang/String;)Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v1
+
+    sget-object v5, Lde/authada/org/bouncycastle/asn1/DERNull;->INSTANCE:Lde/authada/org/bouncycastle/asn1/DERNull;
+
+    invoke-direct {v4, v1, v5}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-direct {v2, v3, v4}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    invoke-virtual {v1}, Ljavax/crypto/spec/OAEPParameterSpec;->getPSource()Ljavax/crypto/spec/PSource;
+
+    move-result-object v1
+
+    check-cast v1, Ljavax/crypto/spec/PSource$PSpecified;
+
+    new-instance v3, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;
+
+    new-instance v4, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    sget-object v5, Lde/authada/org/bouncycastle/asn1/pkcs/PKCSObjectIdentifiers;->id_pSpecified:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    new-instance v6, Lde/authada/org/bouncycastle/asn1/DEROctetString;
+
+    invoke-virtual {v1}, Ljavax/crypto/spec/PSource$PSpecified;->getValue()[B
+
+    move-result-object v1
+
+    invoke-direct {v6, v1}, Lde/authada/org/bouncycastle/asn1/DEROctetString;-><init>([B)V
+
+    invoke-direct {v4, v5, v6}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-direct {v3, v0, v2, v4}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;-><init>(Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;)V
+
+    :try_start_0
+    const-string v0, "DER"
+
+    invoke-virtual {v3, v0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->getEncoded(Ljava/lang/String;)[B
+
+    move-result-object v0
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    const-string v1, "Error encoding OAEPParameters"
+
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method protected engineGetEncoded(Ljava/lang/String;)[B
+    .locals 1
+
+    .line 65352
+    invoke-virtual {p0, p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->isASN1FormatString(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, "X.509"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :cond_0
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->engineGetEncoded()[B
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method protected engineInit(Ljava/security/spec/AlgorithmParameterSpec;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/spec/InvalidParameterSpecException;
+        }
+    .end annotation
+
+    .line 65351
+    instance-of v0, p1, Ljavax/crypto/spec/OAEPParameterSpec;
+
+    if-eqz v0, :cond_0
+
+    check-cast p1, Ljavax/crypto/spec/OAEPParameterSpec;
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    return-void
+
+    :cond_0
+    new-instance p1, Ljava/security/spec/InvalidParameterSpecException;
+
+    const-string v0, "OAEPParameterSpec required to initialise an OAEP algorithm parameters object"
+
+    invoke-direct {p1, v0}, Ljava/security/spec/InvalidParameterSpecException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected engineInit([B)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65350
+    const-string v0, "Not a valid OAEP Parameter encoding."
+
+    :try_start_0
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;->getMaskGenAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getAlgorithm()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v1
+
+    sget-object v2, Lde/authada/org/bouncycastle/asn1/pkcs/PKCSObjectIdentifiers;->id_mgf1:Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    invoke-virtual {v1, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->equals(Lde/authada/org/bouncycastle/asn1/ASN1Primitive;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    new-instance v1, Ljavax/crypto/spec/OAEPParameterSpec;
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;->getHashAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getAlgorithm()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lde/authada/org/bouncycastle/jcajce/util/MessageDigestUtils;->getDigestName(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Ljava/lang/String;
+
+    move-result-object v2
+
+    sget-object v3, Ljavax/crypto/spec/OAEPParameterSpec;->DEFAULT:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    invoke-virtual {v3}, Ljavax/crypto/spec/OAEPParameterSpec;->getMGFAlgorithm()Ljava/lang/String;
+
+    move-result-object v3
+
+    new-instance v4, Ljava/security/spec/MGF1ParameterSpec;
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;->getMaskGenAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getParameters()Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v5
+
+    invoke-static {v5}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getAlgorithm()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object v5
+
+    invoke-static {v5}, Lde/authada/org/bouncycastle/jcajce/util/MessageDigestUtils;->getDigestName(Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;)Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-direct {v4, v5}, Ljava/security/spec/MGF1ParameterSpec;-><init>(Ljava/lang/String;)V
+
+    new-instance v5, Ljavax/crypto/spec/PSource$PSpecified;
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;->getPSourceAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getParameters()Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/ASN1OctetString;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1OctetString;->getOctets()[B
+
+    move-result-object p1
+
+    invoke-direct {v5, p1}, Ljavax/crypto/spec/PSource$PSpecified;-><init>([B)V
+
+    invoke-direct {v1, v2, v3, v4, v5}, Ljavax/crypto/spec/OAEPParameterSpec;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/security/spec/AlgorithmParameterSpec;Ljavax/crypto/spec/PSource;)V
+
+    iput-object v1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    return-void
+
+    :cond_0
+    new-instance v1, Ljava/io/IOException;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "unknown mask generation function: "
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/pkcs/RSAESOAEPparams;->getMaskGenAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getAlgorithm()Lde/authada/org/bouncycastle/asn1/ASN1ObjectIdentifier;
+
+    move-result-object p1
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {v1, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+    :try_end_0
+    .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    new-instance p1, Ljava/io/IOException;
+
+    invoke-direct {p1, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :catch_1
+    new-instance p1, Ljava/io/IOException;
+
+    invoke-direct {p1, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected engineInit([BLjava/lang/String;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65349
+    const-string v0, "X.509"
+
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const-string v0, "ASN.1"
+
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "Unknown parameter format "
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p2, Ljava/io/IOException;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    throw p2
+
+    :cond_1
+    :goto_0
+    invoke-virtual {p0, p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->engineInit([B)V
+
+    return-void
+.end method
+
+.method protected engineToString()Ljava/lang/String;
+    .locals 1
+
+    .line 65348
+    const-string v0, "OAEP Parameters"
+
+    return-object v0
+.end method
+
+.method protected localEngineGetParameterSpec(Ljava/lang/Class;)Ljava/security/spec/AlgorithmParameterSpec;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/spec/InvalidParameterSpecException;
+        }
+    .end annotation
+
+    .line 65347
+    const-class v0, Ljavax/crypto/spec/OAEPParameterSpec;
+
+    if-eq p1, v0, :cond_1
+
+    const-class v0, Ljava/security/spec/AlgorithmParameterSpec;
+
+    if-ne p1, v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/security/spec/InvalidParameterSpecException;
+
+    const-string v0, "unknown parameter spec passed to OAEP parameters object."
+
+    invoke-direct {p1, v0}, Ljava/security/spec/InvalidParameterSpecException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    :goto_0
+    iget-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/rsa/AlgorithmParametersSpi$OAEP;->currentSpec:Ljavax/crypto/spec/OAEPParameterSpec;
+
+    return-object p1
+.end method

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131437672" ="@drawable/2131235260" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131437681" ="@drawable/2131235263" ="40.0dip" ="4.0dip" ="6.0dip" ="true" />
+    <LinearLayout ="center_vertical" android:id="@id/2131437677" ="fill_parent" ="wrap_content" ="6.0dip" ="@id/2131437681">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" android:id="@id/2131437670" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+            <com.major.android.uikit.image.KitRoundImageView android:id="@id/2131437676" ="24.0dip" ="24.0dip" ="27.0dip" ="7.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131437678" ="wrap_content" ="wrap_content" ="true" ="5.0dip" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131437676" 2130969941="2131438103" style="@style/2132149445" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="center|left" android:id="@id/2131437673" ="gone" ="0.0dip" ="wrap_content" ="true" ="5.0dip" ="8.0dip" 2130969911="@id/2131437676" 2130969936="@id/2131437676" 2130969941="@id/2131437676" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="left" android:id="@id/2131437674" ="0.0dip" ="wrap_content" 2130969937="@id/2131437678" 2130969940="@id/2131437678" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.nezha.android.view.NezhaFirstPartyLabel ="center_vertical" android:id="@id/2131437588" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="5.0dip" 2130969911="2131438103" 2130969918="@id/2131437677" 2130969936="@id/2131437677" 2130969941="2131438103" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437675" ="24.0dip" ="24.0dip" ="26.0dip" ="@id/2131437681" ="15.0dip" ="true" 2130971077="@drawable/2131235353" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131437671" ="fill_parent" ="wrap_content" ="12.0dip" ="@id/2131437677" ="15.0dip" ="15.0dip" />
+</RelativeLayout>

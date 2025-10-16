@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_type" ="wrap_content" ="24.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149447" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436609" ="4.0dip" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_type">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_recurring_plan_name" style="@style/2132149351" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447357" ="fill_parent" ="wrap_content" ="8.0dip" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436598" ="0.0dip" ="30.0dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436609">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_pay_from_label" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447288" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436445" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436598">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_recurring_amount_once_label" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445622" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436443" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436445">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_recurring_amount_label" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_amount" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436625" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436443">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_receive" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447582" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436673" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436625">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_transaction_fees_label" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448386" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436623" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436673">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_result_success_rate" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447561" ="wrap_content" ="wrap_content" ="3.0dip" style="@style/2132149351" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430487" ="16.0dip" ="16.0dip" 2130969911="@id/tvPriceTitle" 2130969917="@id/tvFromAmount" 2130969941="@id/tvPriceTitle" 2130971077="@drawable/2131237139" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436541" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436623">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_recurring_frequency_label" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446559" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436670" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436541">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/convert_history_trading_date" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446220" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436646" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436670">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/status" style="@style/2132149351" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447900" ="wrap_content" ="wrap_content" style="@style/2132149351" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="none" ="0.0dip" ="wrap_content" ="never" 2130969911="2131438103" 2130969917="2131438103" 2130969923="2131450408" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444003" ="0.0dip" ="wrap_content" ="8.0dip" ="34.0dip" ="false" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgClock" ="16.0dip" ="16.0dip" ="7.0dip" ="@drawable/2131238208" 2130969937="@id/2131444003" 2130969940="@id/2131444003" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvPayWith" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_pay_within" ="false" ="4.0dip" 2130969911="@id/imgClock" 2130969936="@id/imgClock" 2130969940="@id/2131444003" 2130969941="@id/imgClock" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="22.0dip" android:text="--" ="false" ="4.0dip" 2130969911="@id/tvPayWith" 2130969936="@id/tvPayWith" 2130969941="@id/tvPayWith" style="@style/2132149374" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131428327" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="imgClock,tvPayWith,tvTime" />
+            <View android:id="@id/2131430678" ="@color/2131099751" ="0.0dip" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428327" />
+            <FrameLayout android:id="@id/2131431908" ="0.0dip" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430678" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

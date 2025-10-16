@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131429130" ="@drawable/onfido_capture_validation_bubble_background" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131429129" ="@drawable/onfido_circle_validation_error" ="8.0dip" ="30.0dip" ="30.0dip" ="14.0dip" ="14.0dip" ="8.0dip">
+        <ImageView ="center" android:id="@id/2131450324" ="12.0dip" ="12.0dip" />
+    </FrameLayout>
+    <LinearLayout ="center_vertical" ="vertical" ="wrap_content" ="wrap_content" ="8.0dip">
+        <TextView android:id="@id/2131429134" ="wrap_content" ="wrap_content" ="500" style="@style/2132148954" />
+        <TextView android:id="@id/2131429132" ="wrap_content" ="wrap_content" style="@style/2132148957" />
+    </LinearLayout>
+</LinearLayout>

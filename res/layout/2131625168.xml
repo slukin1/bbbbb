@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/2131430907" ="wrap_content" ="wrap_content" 2130968911="@color/2131099939" 2130968912="8.0dip" 2130968914="2.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131102989" ="center" android:id="@id/2131427959" ="0.0dip" ="24.0dip" ="20.0dip" ="25.0dip" ="20.0dip" android:text="@string/high_risk_alert_dialog_title" ="@font/2131296273" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.core.widget.NestedScrollView ="insideInset" android:id="@id/2131437465" ="vertical" ="250.0dip" ="304.0dip" ="20.0dip" ="20.0dip" ="20.0dip" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427959">
+            <include android:id="@id/2131433390" layout="@layout/2131626878" />
+        </androidx.core.widget.NestedScrollView>
+        <View ="@color/2131099940" ="0.0dip" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437465" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433091" ="16.0dip" ="16.0dip" ="20.0dip" 2130969911="@id/2131441234" 2130969937="2131438103" 2130969941="@id/2131441234" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131102989" android:id="@id/2131441234" ="0.0dip" ="wrap_content" ="22.0dip" ="@font/2131296274" ="8.0dip" ="20.0dip" 2130969917="2131438103" 2130969936="@id/2131433091" 2130969940="@id/2131437465" />
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131102986" ="center" android:id="@id/2131441252" ="@drawable/2131232563" ="0.0dip" ="40.0dip" ="20.0dip" ="22.0dip" ="20.0dip" ="24.0dip" android:text="@string/confirm" ="@font/2131296275" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441234" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

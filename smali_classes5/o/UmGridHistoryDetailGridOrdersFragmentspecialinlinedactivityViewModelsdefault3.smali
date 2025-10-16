@@ -1,0 +1,5 @@
+.class public interface abstract Lo/UmGridHistoryDetailGridOrdersFragmentspecialinlinedactivityViewModelsdefault3;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lo/UmGridDetailHistoryFragmentspecialinlinedactivityViewModelsdefault1$DropdropElements1;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="16.0sp" android:id="@id/2131435204" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" 2130969912="@id/2131440103" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" 2130969947="@dimen/2131165996" />
+    <com.google.android.material.card.MaterialCardView android:id="@id/2131440103" ="0.0dip" ="160.0dip" 2130968911="#fff2f4f5" 2130968912="12.0dip" 2130968914="0.0dip" 2130969912="@id/2131431414" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435204" 2130971180="#ffd8d9df" 2130971181="2.0dip" />
+    <TextView android:id="@id/2131427678" ="wrap_content" ="wrap_content" 2130969911="@id/2131440103" 2130969917="@id/2131440103" 2130969937="@id/2131440103" 2130969941="@id/2131440103" />
+    <ImageView android:id="@id/2131431303" ="16.0dip" ="wrap_content" ="wrap_content" ="@drawable/2131235823" ="Edit signature" ="yes" ="16.0dip" 2130969917="@id/2131440103" 2130969941="@id/2131440103" />
+    <ImageView android:id="@id/2131440106" ="0.0dip" ="0.0dip" ="Preview of signature" ="yes" 2130969911="@id/2131440103" 2130969917="@id/2131440103" 2130969937="@id/2131440103" 2130969940="@id/2131431303" 2130969949="0.75" />
+    <TextView ="13.0sp" ="?2130969064" android:id="@id/2131431414" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131440103" 2130969947="@dimen/2131165996" />
+</androidx.constraintlayout.widget.ConstraintLayout>

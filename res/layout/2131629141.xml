@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_um_trade_component_header" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="start" android:id="@id/2131429870" ="fill_parent" ="wrap_content">
+        <View android:id="@id/2131449144" ="0.0dip" ="0.0dip" 2130969911="@id/2131435652" 2130969917="@id/2131435652" 2130969937="@id/tvCross" 2130969941="@id/2131435652" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvCross" ="0.0dip" ="25.0dip" android:text="@string/_cross" ="1" ="@null" 2130969911="2131438103" 2130969918="@id/2131435652" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" style="@style/2132149095" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131435652" ="0.0dip" ="0.0dip" ="5.0dip" ="5.0dip" 2130969911="@id/tvCross" 2130969918="@id/tvMultiMargin" 2130969929="1.0" 2130969936="@id/tvCross" 2130969941="@id/tvCross" 2130969958="@dimen/2131166153" style="@style/2132149095">
+            <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvLeverage" ="wrap_content" ="fill_parent" android:text="20x" ="1" ="@null" 2130969911="2131438103" 2130969918="@id/2131434643" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <ImageView android:id="@id/2131434643" ="gone" ="12.0dip" ="12.0dip" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/tvLeverage" 2130969941="2131438103" 2130971077="@drawable/2131234300" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvMultiMargin" ="36.0dip" ="25.0dip" android:text="@string/futures_single_margin_entry" ="1" ="@null" 2130969911="@id/tvCross" 2130969917="2131438103" 2130969941="@id/tvCross" style="@style/2132149095" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

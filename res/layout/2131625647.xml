@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" ="@drawable/2131232786" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434903" ="fill_parent" ="200.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" android:text="@string/c2c_express_trade_security_payment" ="@font/2131296267" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="12.0dip" android:text="@string/c2c_new_user_security_payment_des" ="@font/2131296274" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" android:text="@string/ok" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427586" ="@color/2131099685" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/2131439796" ="none" ="0.0dip" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/title" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="34.0dip" android:text="@string/ocbs_string_waiting_for_payment" ="false" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433258" ="gone" ="16.0dip" ="16.0dip" 2130969911="@id/2131444020" 2130969937="@id/title" 2130969941="@id/2131444020" 2130971077="@drawable/2131238208" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444020" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" ="22.0dip" ="4.0dip" 2130969936="@id/2131433258" 2130969940="@id/title" style="@style/2132149361" />
+            <View android:id="@id/2131430680" ="@color/2131099751" ="0.0dip" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444020" />
+            <TextView ="@color/2131099764" android:id="@id/2131441455" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/ocbs_string_use_account_to_transfer_desc" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430680" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435356" ="gone" ="fill_parent" ="42.0dip" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131441455">
+                <ImageView android:id="@id/2131433173" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="@color/2131099764" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131433173" 2130969941="2131438103" style="@style/2132149429" />
+                <TextView ="@color/2131099764" android:id="@id/2131442189" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149429" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.binance.ocbs.sdk.widgets.OcbsTransferChannelOrderDetailInfoView android:id="@id/layoutPaymentDetailForChannel" ="@drawable/2131236538" ="16.0dip" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435356" 2130969962="@dimen/2131166188" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

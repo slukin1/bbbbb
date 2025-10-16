@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="50.0dip" android:text="@string/ocbs_string_authorize_payment" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgLogo" ="96.0dip" ="96.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" 2130971077="@drawable/2131234519" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131435445" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvInstruction,layoutInstructionInfo" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/tvInstruction" ="fill_parent" ="wrap_content" ="24.0dip" ="3.0dip" 2130969940="@id/imgLogo" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutInstructionInfo" ="@drawable/2131232712" ="20.0dip" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/tvInstruction">
+        <TextView ="@color/2131099778" android:id="@id/2131445119" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_total_payable" ="3.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tvTotalValue" ="wrap_content" ="wrap_content" ="3.0dip" 2130969911="@id/2131445119" 2130969917="2131438103" 2130969941="@id/2131445119" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131444047" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_mobile_money" ="3.0dip" 2130969937="2131438103" 2130969940="@id/2131445119" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131444049" ="wrap_content" ="wrap_content" ="3.0dip" 2130969911="@id/2131444047" 2130969917="2131438103" 2130969941="@id/2131444047" style="@style/2132149450" />
+        <ImageView android:id="@id/2131433259" ="20.0dip" ="20.0dip" ="8.0dip" 2130969911="@id/2131444047" 2130969918="@id/2131444049" 2130969941="@id/2131444047" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435472" ="gone" ="0.0dip" ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/imgLogo">
+        <View ="@color/2131099764" ="1.5dip" ="0.0dip" ="2.0dip" ="2.0dip" 2130969911="@id/2131439865" 2130969917="@id/2131431851" 2130969937="@id/2131431851" 2130969941="@id/2131431851" />
+        <ImageView android:id="@id/2131431851" ="20.0dip" ="20.0dip" ="@drawable/2131236470" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131443856" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_receive_prompt_tip" ="false" ="38.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+        <ImageView android:id="@id/2131433251" ="20.0dip" ="20.0dip" ="4.0dip" 2130969937="@id/2131443856" 2130969940="@id/2131443856" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131443855" ="wrap_content" ="wrap_content" ="false" ="8.0dip" 2130969911="@id/2131433251" 2130969936="@id/2131433251" 2130969941="@id/2131433251" style="@style/2132149450" />
+        <ImageView android:id="@id/2131439865" ="20.0dip" ="20.0dip" ="29.0dip" ="@drawable/2131236471" 2130969937="2131438103" 2130969940="@id/2131433251" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131443854" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/ocbs_string_authorize_the_payment" ="false" ="38.0dip" 2130969937="2131438103" 2130969940="@id/2131433251" style="@style/2132149355" />
+        <TextView ="@color/2131099764" android:id="@id/2131443857" ="wrap_content" ="wrap_content" ="4.0dip" ="3.0dip" 2130969937="@id/2131443854" 2130969940="@id/2131443854" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428633" ="wrap_content" ="wrap_content" 2130968759="2131441647" 2130969125="btnAuthorized,btnTryAgain,btnViewOrderHistory" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433272" ="16.0dip" ="16.0dip" ="11.0dip" ="@color/2131099764" 2130969912="@id/2131428633" 2130969937="2131438103" 2130971077="@drawable/2131238208" />
+    <TextView ="@color/2131099764" android:id="@id/2131444400" ="0.0dip" ="wrap_content" ="3.0dip" ="4.0dip" 2130969911="@id/2131433272" 2130969936="@id/2131433272" 2130969941="@id/2131433272" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnAuthorized" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/ocbs_onafirq_I_have_authed" 2130969911="2131438103" style="@style/2132148694" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnTryAgain" ="gone" ="fill_parent" ="48.0dip" ="10.0dip" android:text="@string/ms_kyc_try_again" 2130969912="@id/btnViewOrderHistory" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnViewOrderHistory" ="gone" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/ocbs_string_view_order_history" 2130969911="2131438103" style="@style/2132148694" />
+</androidx.constraintlayout.widget.ConstraintLayout>

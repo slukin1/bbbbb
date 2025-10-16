@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131430234" ="wrap_content" ="wrap_content" ="3.0dip" ="true" 2130969937="2131438103" 2130969941="@id/2131431233" />
+    <TextView ="@color/2131099764" android:id="@id/2131431233" ="0.0dip" ="wrap_content" ="true" ="4.0sp" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131430234" 2130969940="@id/2131443886" style="@style/2132149350" />
+    <com.major.android.uikit.notification.KitNotification android:id="@id/2131431116" ="gone" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970325="@drawable/2131238480" 2130970329="@string/earn_redeem_earlier_tips" 2130970863="@null" />
+    <ImageView android:id="@id/2131434032" ="gone" ="16.0dip" ="16.0dip" ="6.0dip" ="@null" ="true" 2130969917="@id/2131430234" 2130969941="@id/2131443886" 2130971077="@drawable/2131236817" 2130971375="@color/2131099738" />
+    <TextView ="@color/2131099778" android:id="@id/2131443886" ="8.0dip" ="gone" ="0.0dip" ="wrap_content" ="true" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434032" 2130969941="2131438103" style="@style/2132149394" />
+</androidx.constraintlayout.widget.ConstraintLayout>

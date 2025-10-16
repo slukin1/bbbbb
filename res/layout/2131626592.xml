@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131440414" ="@drawable/2131235987" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="0.0dip" ="@color/2131099800" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="0.0dip" ="wrap_content" ="1.0" ="ltr">
+        <TextView ="20.0sp" ="@color/2131102397" ="center_horizontal" android:id="@id/2131437936" ="wrap_content" ="wrap_content" ="@font/2131296266" />
+        <TextView ="20.0sp" ="@color/2131102397" ="center_horizontal" android:id="@id/2131437933" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296266" 2130969306="@drawable/2131237146" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131429490" ="@drawable/2131232482" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip">
+        <RelativeLayout ="wrap_content" ="wrap_content">
+            <ImageView android:id="@id/2131439376" ="wrap_content" ="wrap_content" ="true" 2130971077="@drawable/2131237030" />
+            <com.binance.c2c.chat.widget.RemindTextView ="8.0sp" ="#ffffffff" android:id="@id/2131449077" ="gone" ="wrap_content" ="wrap_content" ="true" ="10.0dip" 2130968724="@color/2131100155" />
+        </RelativeLayout>
+        <TextView ="14.0sp" ="@color/2131102397" android:id="@id/2131429504" ="wrap_content" ="wrap_content" android:text="@string/c2c_order_processing_chat_with_seller_label" ="@font/2131296265" ="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

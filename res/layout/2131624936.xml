@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435656" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.copytrading.feature.discover.ui.CopyTradingDiscoverMaskView android:id="@id/2131436976" ="fill_parent" ="fill_parent" 2130969337="10.0dip" 2130970078="24.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434873" ="wrap_content" ="wrap_content" 2130969912="@id/2131434902" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" 2130971077="@drawable/2131233276" />
+    <TextView ="@color/2131099776" android:id="@id/2131434902" ="200.0dip" ="wrap_content" ="15.0dip" android:text="@string/copy_trading_swipe_to_mock_copy" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434873" 2130971077="@drawable/2131233276" style="@style/2132149463" />
+</androidx.constraintlayout.widget.ConstraintLayout>

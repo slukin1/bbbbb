@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/title" ="fill_parent" ="wrap_content" android:text="Basic Info" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/content" ="vertical" ="fill_parent" ="0.0dip" ="1.0" style="@style/2132149346" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131438292" ="fill_parent" ="40.0dip" ="14.0dip" android:text="App Permission" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131440006" ="fill_parent" ="40.0dip" ="14.0dip" android:text="Domain Settings" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131430102" ="fill_parent" ="wrap_content" ="14.0dip" android:text="@string/nezha_close" style="@style/2132149371" />
+</LinearLayout>

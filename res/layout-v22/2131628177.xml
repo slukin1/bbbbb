@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440026" ="#aa000000" ="gone" ="fill_parent" ="fill_parent" ="0.0" ="no" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131428579" ="true" ="true" ="fill_parent" ="wrap_content" ="no" ="1.0dip" 2130968769="true" 2130968771="0.0dip" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <LinearLayout ="vertical" android:id="@id/2131428580" ="@drawable/2131235802" ="24.0dip" ="fill_parent" ="wrap_content">
+                <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430342" ="fill_parent" ="wrap_content">
+                        <TextView android:id="@id/title" ="0.0dip" ="wrap_content" ="16.0dip" 2130969912="@id/2131438702" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" />
+                        <TextView android:id="@id/2131438702" ="0.0dip" ="wrap_content" ="16.0dip" 2130969912="@id/2131433070" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" />
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433070" ="wrap_content" ="wrap_content" ="16.0dip" 2130969912="@id/2131441486" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438702">
+                            <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131433069" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <TextView android:id="@id/2131441486" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433070" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.core.widget.NestedScrollView>
+                <Button android:id="@id/2131429271" ="fill_parent" ="wrap_content" />
+                <Space android:id="@id/2131428571" ="wrap_content" ="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

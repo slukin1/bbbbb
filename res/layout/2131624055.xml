@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center_vertical" android:id="@id/2131449601" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="20.0dip" ="20.0dip" ="15.0dip" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="true" ="@font/2131296267" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/2131431950" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

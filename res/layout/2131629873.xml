@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099744" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="44.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="12.0dip" ="44.0dip" ="0.0dip" ="centerInside" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="wrap_content" ="fill_parent" android:text="@string/wallet_assets_report_title" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView ="@color/2131099764" ="center_vertical" android:id="@id/2131447781" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238029" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="2.0dip" ="fill_parent" ="32.0dip" ="16.0dip" ="20.0dip" ="20.0dip" />
+    <com.insurance.wallet.activities.report.ReportNestedScrollView android:id="@id/2131440541" ="fill_parent" ="0.0dip" ="6.0dip" ="true" ="1.0">
+        <LinearLayout ="vertical" ="20.0dip" ="20.0dip" ="fill_parent" ="fill_parent">
+            <androidx.fragment.app.FragmentContainerView android:id="@id/2131428127" ="fill_parent" ="wrap_content" />
+            <androidx.fragment.app.FragmentContainerView android:id="@id/2131441754" ="fill_parent" ="wrap_content" ="20.0dip" />
+            <androidx.fragment.app.FragmentContainerView android:id="@id/2131430598" ="fill_parent" ="wrap_content" ="20.0dip" />
+            <androidx.fragment.app.FragmentContainerView android:id="@id/2131428128" ="fill_parent" ="wrap_content" ="20.0dip" />
+            <androidx.fragment.app.FragmentContainerView android:id="@id/2131427840" ="fill_parent" ="wrap_content" ="20.0dip" />
+        </LinearLayout>
+    </com.insurance.wallet.activities.report.ReportNestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

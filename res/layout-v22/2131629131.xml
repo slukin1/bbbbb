@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="30.0dip" ="24.0dip" ="30.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166226" ="@dimen/2131166209" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="48.0dip" ="48.0dip" 2130971077="@drawable/2131238419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/ct_twap_no_orders" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" ="18.0dip" ="12.0dip" ="18.0dip" android:text="@string/ct_twap_empty_content" ="@dimen/2131166194" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131446157" ="@drawable/2131236717" ="16.0dip" ="5.0dip" ="16.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/ct_twap_create_orders" ="@dimen/2131166188" ="@dimen/2131166260" style="@style/2132149384" />
+</LinearLayout>

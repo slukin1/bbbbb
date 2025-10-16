@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#00000000" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131427683" ="wrap_content" ="wrap_content" android:text="@string/content_add_hyperlink_editor_link_hint" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <FrameLayout ="center_vertical" android:id="@id/2131431979" ="@drawable/2131233013" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427683">
+        <androidx.appcompat.widget.AppCompatEditText ="insideInset" ="@color/2131099764" ="@color/2131099762" ="start" android:id="@id/2131431453" ="@null" ="8.0dip" ="vertical" ="fill_parent" ="wrap_content" android:hint="@string/content_add_hyperlink_editor_link_hint" ="4" ="false" ="always" ="@drawable/2131238456" ="locale" ="viewStart" style="@style/2132149350" />
+    </FrameLayout>
+    <TextView ="#ffe33b54" android:id="@id/2131431400" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431979" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131441203" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/content_add_hyperlink_editor_name_hint" 2130969937="2131438103" 2130969940="@id/2131431400" style="@style/2132149450" />
+    <FrameLayout ="center_vertical" ="horizontal" android:id="@id/2131431988" ="@drawable/2131233013" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441203">
+        <androidx.appcompat.widget.AppCompatEditText ="insideInset" ="@color/2131099764" ="@color/2131099762" ="start" android:id="@id/2131431454" ="@null" ="8.0dip" ="vertical" ="fill_parent" ="wrap_content" android:hint="@string/content_add_hyperlink_editor_name_hint" ="4" ="false" ="always" ="@drawable/2131238456" ="locale" ="viewStart" style="@style/2132149350" />
+    </FrameLayout>
+    <TextView ="#ffe33b54" android:id="@id/2131431401" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431988" style="@style/2132149384" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431401">
+        <com.major.android.uikit2.button.KitButton ="@color/2131099764" android:id="@id/2131429250" ="0.0dip" ="40.0dip" android:text="@string/cancel" ="1.0" 2130971472="2" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton ="#ff202630" android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" ="12.0dip" style="@style/2132148692" />
+    </LinearLayout>
+    <ImageView ="center_horizontal" android:id="@id/2131434950" ="gone" ="13.0dip" ="6.0dip" ="fitXY" 2130969917="@id/2131434220" 2130969937="@id/2131434220" 2130969940="@id/2131434220" 2130971077="@drawable/2131238536" />
+    <LinearLayout ="vertical" android:id="@id/2131435543" ="gone" ="wrap_content" ="wrap_content" ="-20.0dip" 2130969937="@id/2131434220" 2130969940="@id/2131434950">
+        <FrameLayout android:id="@id/2131441644" ="@drawable/2131238532" ="wrap_content" ="fill_parent" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099788" ="start|center" android:id="@id/2131448085" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_only_support_link" ="false" ="locale" ="viewStart" ="10.0dip" ="10.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434220" ="20.0dip" ="20.0dip" ="@drawable/2131237075" ="#ffb7bdc6" ="4.0dip" 2130969911="@id/2131427683" 2130969936="@id/2131427683" 2130969941="@id/2131427683" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440026" ="#aa000000" ="gone" ="fill_parent" ="fill_parent" ="0.0" ="no" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <FrameLayout ="vertical" android:id="@id/2131428579" ="true" ="true" ="fill_parent" ="wrap_content" ="no" ="1.0dip" 2130968769="true" 2130968771="0.0dip" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440107" ="@drawable/2131235802" ="fill_parent" ="wrap_content">
+                <TextView android:id="@id/2131440105" ="0.0dip" ="wrap_content" ="1.0" ="yes" 2130969912="@id/2131440104" 2130969918="@id/2131430114" 2130969937="2131438103" 2130969941="2131438103" style="?2130971300" />
+                <ImageView ="center" android:id="@id/2131430114" ="?2130970781" ="12.0dip" ="wrap_content" ="48.0dip" ="@drawable/2131235871" ="@string/pi2_back_button_description" ="yes" ="@id/2131440102" 2130969911="@id/2131440105" 2130969917="2131438103" 2130969936="@id/2131440105" 2130969941="@id/2131440105" />
+                <TextView android:id="@id/2131440104" ="0.0dip" ="wrap_content" ="yes" 2130969912="@id/2131440102" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440105" style="?2130971299" />
+                <com.withpersona.sdk2.inquiry.steps.ui.view.SignatureView android:id="@id/2131440102" ="0.0dip" ="160.0dip" 2130968912="12.0dip" 2130968914="0.0dip" 2130969912="@id/2131432100" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440104" 2130971180="#ffd8d9df" 2130971181="2.0dip" />
+                <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432100" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" 2130969125="clear_button,save_button" 2130969490="12.0dip" 2130969491="2131440523" 2130969500="12.0dip" 2130969501="2131440523" 2130969502="2131427761" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440102" />
+                <Button android:id="@id/clear_button" ="0.0dip" ="wrap_content" android:text="Clear" style="?2130970094" />
+                <Button android:id="@id/save_button" ="0.0dip" ="wrap_content" android:text="Save" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

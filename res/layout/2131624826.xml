@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131233278" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/copy_trading_try_copy_mocked_tips" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429009" ="fill_parent" ="wrap_content" ="25.0dip" android:text="@string/copy_trading_mock_continue" style="@style/2132148692" />
+</LinearLayout>

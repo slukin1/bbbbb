@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="@drawable/2131233197" ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166170" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131435360" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.binance.content.internal.view.ContentAvatarView ="center_horizontal" android:id="@id/2131428178" ="visible" ="36.0dip" ="36.0dip" />
+        <include ="end|bottom|center" android:id="@id/2131435361" ="12.0dip" ="12.0dip" layout="@layout/2131624459" />
+    </FrameLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131437706" ="wrap_content" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131435360" 2130969941="@id/2131435360" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131449138" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131437706" 2130969940="@id/2131437706" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131432129" ="wrap_content" ="wrap_content" android:text="@string/content_following" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

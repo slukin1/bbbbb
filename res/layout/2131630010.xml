@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="vertical" ="true" ="true" ="fill_parent" ="wrap_content" ="true" 2130968911="@color/2131099685" 2130968912="@dimen/2131166209" 2130968914="0.0dip" 2130969142="@dimen/2131166209" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131441755" ="fill_parent" ="wrap_content" 2130969941="2131438103" layout="@layout/2131630161" />
+        <com.binance.base.sensor.view.BaseExposureLayout android:id="@id/fyChart" ="fill_parent" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/2131441755">
+            <com.github.mikephil.charting.charts.PieChart android:id="@id/2131430611" ="fill_parent" ="120.0dip" ="120.0dip" />
+        </com.binance.base.sensor.view.BaseExposureLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/fyChart" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131430606" ="wrap_content" ="wrap_content" 2130969125="recycler_view,fyChart" />
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441046" ="@drawable/2131236007" ="2.0dip" ="240.0dip" ="32.0dip" ="32.0dip" ="@color/2131099744" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/recycler_view" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449905" ="fill_parent" ="wrap_content" ="15.0dip" ="1.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441046" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

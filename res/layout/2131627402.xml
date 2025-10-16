@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/2131440878" ="fill_parent" ="wrap_content" ="9.0dip" ="9.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131430263" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444199" ="6.0dip" ="3.0dip" ="6.0dip" ="3.0dip" ="wrap_content" ="24.0dip" android:text="@string/earn_guaranteed" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149375" />
+            <View android:id="@id/2131433417" ="@color/2131099881" ="15.0dip" ="3.0dip" 2130969911="2131438103" 2130969917="@id/2131444199" 2130969937="@id/2131444199" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443290" ="6.0dip" ="3.0dip" ="6.0dip" ="3.0dip" ="wrap_content" ="24.0dip" android:text="@string/earn_high_yield" ="2.0dip" ="15.0dip" 2130969936="@id/2131444199" 2130969941="2131438103" style="@style/2132149375" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvLoan" ="6.0dip" ="3.0dip" ="6.0dip" ="3.0dip" ="wrap_content" ="24.0dip" android:text="@string/earn_loan" ="2.0dip" ="15.0dip" 2130969936="@id/2131443290" 2130969941="2131438103" style="@style/2132149375" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/market_discover_earn_coin" ="1" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131440878" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131444477" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/market_discover_earn_apr" ="1" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131440878" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

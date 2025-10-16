@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip">
+        <com.major.android.uikit.tabs.KitTabLayout android:id="@id/tabLayout" ="wrap_content" ="24.0dip" ="true" />
+        <TextView ="true" ="center" android:id="@id/2131441430" ="true" ="true" ="wrap_content" ="fill_parent" android:text="@string/time" ="3.0dip" ="true" ="true" 2130969306="@drawable/2131235783" style="@style/2132149384" />
+    </RelativeLayout>
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131428209" ="fill_parent" ="wrap_content" />
+</LinearLayout>

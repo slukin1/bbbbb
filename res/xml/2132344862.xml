@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition app:2130969123="@id/2131431371" app:2130969124="@id/2131440560">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/2131430118" app:2130971436="2131428521" />
+    </Transition>
+    <ConstraintSet android:id="@id/2131440560">
+        <Constraint android:id="@id/2131431874" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:2130969940="@id/2131436344" />
+        <Constraint android:id="@id/2131430116" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431874" />
+        <Constraint android:id="@id/2131430118" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131430116" app:2130969962="20.0dip" />
+        <Constraint android:id="@id/2131430621" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:2130969911="2131438103" app:2130969917="2131438103" app:2130969937="2131438103" app:2130969940="@id/2131430118" />
+        <Constraint android:id="@id/2131436344" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969937="2131438103" app:2130969941="2131438103" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131431371">
+        <Constraint android:id="@id/2131431874" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:2130969912="@id/2131430116" />
+        <Constraint android:id="@id/2131430116" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969912="@id/2131430118" />
+        <Constraint android:id="@id/2131430118" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131436344" />
+        <Constraint android:id="@id/2131430621" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:2130969911="2131438103" app:2130969917="2131438103" app:2130969937="2131438103" app:2130969940="@id/2131430118" />
+        <Constraint android:id="@id/2131436344" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969937="2131438103" app:2130969941="2131438103" />
+    </ConstraintSet>
+</MotionScene>

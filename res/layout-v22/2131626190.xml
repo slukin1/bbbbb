@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131428291" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131429285" ="fill_parent" ="64.0dip" ="ltr" 2130968911="@color/2131099875" 2130968912="@dimen/2131166286" 2130968914="@dimen/2131166153" 2130969917="2131438103" 2130969937="2131438103">
+        <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449914" ="fill_parent" ="fill_parent" ="ltr" />
+        </com.binance.widget.viewpager2.NestedScrollableHost>
+        <androidx.compose.ui.platform.ComposeView ="end|bottom|center" android:id="@id/2131433417" ="wrap_content" ="3.0dip" ="8.0dip" ="10.0dip" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

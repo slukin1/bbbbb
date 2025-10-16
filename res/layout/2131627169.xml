@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="64.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434634" ="gone" ="32.0dip" ="32.0dip" ="centerCrop" ="true" ="5.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446785" ="wrap_content" ="wrap_content" ="true" ="true" ="@id/2131434634" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434632" ="6.0dip" ="gone" ="28.0dip" ="28.0dip" ="centerInside" ="true" ="@id/2131446785" 2130971077="@drawable/2131237075" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131441169" ="wrap_content" ="wrap_content" ="true" ="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434633" ="wrap_content" ="wrap_content" ="centerCrop" ="true" ="true" 2130971077="@drawable/2131237055" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131446786" ="wrap_content" ="wrap_content" ="true" ="0.0dip" ="15.0dip" ="@id/2131434633" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="10.0dip" ="#ffffffff" ="center" android:id="@id/2131446787" ="@drawable/2131235929" ="gone" ="16.0dip" ="16.0dip" ="true" ="8.0dip" ="@id/2131434633" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434635" ="gone" ="wrap_content" ="32.0dip" ="fitCenter" ="true" ="true" ="15.0dip" ="@id/2131434633" />
+</merge>

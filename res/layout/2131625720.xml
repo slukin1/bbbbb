@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449523" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_vertical" android:id="@id/2131439809" ="vertical" ="fill_parent" ="0.0dip" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449698" ="8.0dip" ="wrap_content" ="wrap_content" ="20.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434342" ="20.0dip" ="20.0dip" 2130969911="@id/2131445667" 2130969937="2131438103" 2130969941="@id/2131445667" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434406" ="gone" ="8.0dip" ="8.0dip" 2130969911="@id/2131434342" 2130969917="@id/2131434342" />
+                <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131445667" ="wrap_content" ="wrap_content" ="@font/2131296273" ="5.0dip" 2130969936="@id/2131434342" 2130969941="2131438103" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434341" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="@id/2131445667" 2130969936="@id/2131445667" 2130969941="@id/2131445667" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131449612" ="fill_parent" ="wrap_content" ="24.0dip" ="20.0dip" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131449698">
+                <com.binance.c2c.view.AutoResizeEditText ="false" ="72.0sp" ="@color/2131099764" ="@color/2131099726" android:id="@id/2131431292" ="@null" ="wrap_content" ="wrap_content" ="250.0dip" android:hint="0" ="1" ="13" ="numberDecimal" ="@drawable/2131235984" ="@font/2131296274" 2130968889="72" 2130968890="12" />
+                <androidx.appcompat.widget.AppCompatTextView ="20.0sp" ="@color/2131099764" android:id="@id/2131448345" ="wrap_content" ="wrap_content" ="30.0dip" ="@font/2131296274" ="8.0dip" 2130969911="@id/2131431292" 2130969936="@id/2131431292" 2130969941="@id/2131431292" />
+                <TextView ="16.0sp" ="@color/2131099787" ="center_vertical" android:id="@id/2131446705" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_all" ="@font/2131296274" ="8.0dip" 2130969911="@id/2131448345" 2130969917="@id/2131448345" 2130969941="@id/2131448345" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131449699" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131449612">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434879" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237141" 2130971375="@color/2131099764" />
+                <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446364" ="wrap_content" ="wrap_content" ="@font/2131296274" ="locale" ="4.0dip" 2130969936="@id/2131434879" 2130969940="@id/2131449612" />
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447608" ="wrap_content" ="wrap_content" ="@font/2131296274" ="ltr" ="10.0dip" 2130969911="@id/2131446364" 2130969936="@id/2131446364" 2130969941="@id/2131446364" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="24.0dip" ="4.0dip" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131449699">
+                <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445776" ="visible" ="wrap_content" ="wrap_content" android:text="@string/balance" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+                <View android:id="@id/2131435881" ="@drawable/2131233287" ="0.0dip" ="2.0dip" 2130969917="@id/2131445776" 2130969937="@id/2131445776" 2130969940="@id/2131445776" />
+                <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445778" ="wrap_content" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969911="@id/2131445776" 2130969936="@id/2131445776" 2130969941="@id/2131445776" />
+                <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434517" ="gone" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131445776" 2130969936="@id/2131445778" 2130969941="@id/2131445776" 2130971077="@drawable/2131237088" 2130971375="@color/2131099764" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131449617" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+            <com.binance.c2c.trade.view.AutoPlaceAmountView android:id="@id/2131449365" ="@color/2131099685" ="16.0dip" ="14.0dip" ="16.0dip" ="14.0dip" ="fill_parent" ="wrap_content" 2130969912="@id/2131449617" 2130969917="2131438103" 2130969937="2131438103" />
+            <com.major.android.uikit2.button.KitButton ="16.0sp" ="@color/2131099776" ="center" android:id="@id/2131429064" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="20.0dip" android:text="@string/c2c_select_payment_method" ="false" ="@font/2131296274" 2130969912="@id/2131449365" 2130969917="2131438103" 2130969937="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_switch_mode_to" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_desc" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/copy_trading_switch_mode_desc" 2130969937="2131438103" 2130969940="@id/tv_title" 2130969999="@dimen/2131166204" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_current_margin" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_current_margin" ="8.0dip" 2130969918="@id/tv_current_margin_value" 2130969937="2131438103" 2130969940="@id/tv_desc" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_current_margin_value" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_current_margin" 2130969917="2131438103" 2130969941="@id/tv_current_margin" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447032" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/copy_trading_fixed_minimum" ="8.0dip" 2130969918="@id/2131447034" 2130969937="2131438103" 2130969940="@id/tv_current_margin" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447034" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_current_margin" 2130969917="2131438103" 2130969941="@id/2131447032" style="@style/2132149450" />
+    <LinearLayout android:id="@id/2131435708" ="@drawable/2131235989" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="#1af6465d" 2130969940="@id/2131447032">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="@color/2131099764" 2130971077="@drawable/2131237075" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_tips" ="fill_parent" ="wrap_content" android:text="@string/copy_trading_switch_tips" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/copy_trading_proceed" 2130969940="@id/2131435708" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" ="true" ="fill_parent" ="fill_parent" ="true" ="no" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/contentLayout" ="?2130970363" ="fill_parent" ="fill_parent" ="noHideDescendants">
+        <com.onfido.android.sdk.capture.ui.camera.view.CameraSourcePreview android:id="@id/2131429227" ="gone" ="fill_parent" ="fill_parent" />
+        <androidx.camera.view.PreviewView android:id="@id/2131429228" ="gone" ="fill_parent" ="fill_parent" 2130970741="2131431816" />
+        <com.onfido.android.sdk.capture.ui.ZoomImageView android:id="@id/2131430255" ="invisible" ="fill_parent" ="fill_parent" ="centerCrop" ="true" />
+        <com.onfido.android.sdk.capture.detector.rectangle.RectDetectorFrame android:id="@id/2131437846" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103" />
+    </FrameLayout>
+    <com.onfido.android.sdk.capture.ui.camera.liveness.LivenessOverlayView android:id="@id/livenessOverlayView" ="gone" ="fill_parent" ="wrap_content" />
+    <com.onfido.android.sdk.capture.ui.camera.OverlayTextView android:id="@id/2131438045" ="invisible" ="fill_parent" ="wrap_content" ="8.0dip" />
+    <include android:id="@id/2131449338" ="gone" layout="@layout/onfido_view_video_recording_indicator" />
+    <com.onfido.android.sdk.capture.ui.camera.ConfirmationStepButtons android:id="@id/2131430254" ="invisible" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@id/2131450333" ="true" />
+    <FrameLayout android:id="@id/2131450333" ="fill_parent" ="wrap_content" ="@dimen/2131167501" ="true">
+        <com.onfido.android.sdk.capture.ui.widget.WatermarkView android:id="@id/2131450331" ="8.0dip" style="@style/2132148972" />
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432172" ="fill_parent" ="fill_parent" ="@id/2131441601" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="wrap_content" ="?2130968589" 2130969138="@dimen/2131167489" 2130969141="@dimen/2131167489" />
+</RelativeLayout>

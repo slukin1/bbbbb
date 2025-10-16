@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="fill_parent" ="40.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969911="@id/2131441601" 2130969940="@id/tvTitle" />
+    <View ="@color/2131101275" ="fill_parent" ="1.0px" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969940="@id/tabLayout" />
+</androidx.appcompat.widget.LinearLayoutCompat>

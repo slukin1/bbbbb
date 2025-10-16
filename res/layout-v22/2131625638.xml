@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="32.0dip" ="@dimen/2131166184" 2130969940="@id/2131439538" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131102397" ="center_vertical" android:id="@id/2131443784" ="16.0dip" ="invisible" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/fiat_landing_page_more_services" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131428866" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131443784" 2130969949="0.33">
+        <ImageView ="24.0dip" ="24.0dip" ="@null" 2130971077="@drawable/2131237899" 2130971375="@color/2131102397" />
+        <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/recurring_buy_title" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131428894" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" 2130969936="@id/2131428866" 2130969940="@id/2131443784" 2130969949="0.33">
+        <ImageView ="24.0dip" ="24.0dip" ="@null" 2130971077="@drawable/2131238006" 2130971375="@color/2131102397" />
+        <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/ocbs_trade_sell_crypto" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131428949" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" 2130969936="@id/2131428894" 2130969940="@id/2131443784" 2130969949="0.33">
+        <ImageView ="24.0dip" ="24.0dip" ="@null" 2130971077="@drawable/2131238357" 2130971375="@color/2131102397" />
+        <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/withdraw" style="@style/2132149384" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

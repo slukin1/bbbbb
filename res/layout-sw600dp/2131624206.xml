@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@style/2132148547" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131441601" ="fill_parent" ="wrap_content" layout="@layout/2131624377" />
+        <ScrollView ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" ="@dimen/2131166476" ="fill_parent" ="wrap_content" ="8.0dip" ="@dimen/2131166476" ="@dimen/2131166476">
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131624372" />
+                <include android:id="@id/2131441377" ="fill_parent" ="wrap_content" layout="@layout/2131628812" />
+                <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip" ="false">
+                    <LinearLayout ="0.0dip" ="fill_parent" ="@integer/2131492878" />
+                    <LinearLayout ="vertical" ="true" ="true" ="0.0dip" ="fill_parent" ="3">
+                        <com.cardinalcommerce.a.setBottom ="@style/2132150293" android:id="@id/2131440841" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/continueText" ="false" />
+                    </LinearLayout>
+                    <LinearLayout ="0.0dip" ="fill_parent" ="@integer/2131492878" />
+                </LinearLayout>
+                <include ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131624371" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <ProgressBar android:id="@id/2131438251" ="gone" ="wrap_content" ="wrap_content" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+.class public interface abstract Lo/MarginTradeSymbolFragmentinitViewslambda16inlinedviewModelsdefault1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lo/MarginTradeSymbolFragmentinitViewslambda16inlinedviewModelsdefault5;

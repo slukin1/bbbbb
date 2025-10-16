@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131232589" ="12.0dip" ="12.0dip" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442581" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428713" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_gc_card_faq_q_cs_btn" style="@style/2132148693" />
+</LinearLayout>

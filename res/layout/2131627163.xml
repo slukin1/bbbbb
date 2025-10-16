@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131430416" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131435010" ="fill_parent" ="52.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.helper.widget.Layer android:id="@id/2131435333" ="wrap_content" ="wrap_content" 2130969125="imgSymbol,tvSymbol" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgSymbol" ="24.0dip" ="24.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237177" />
+        <TextView ="@color/2131099764" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="false" ="4.0dip" 2130969911="2131438103" 2130969936="@id/imgSymbol" 2130969941="2131438103" style="@style/2132149425" />
+        <TextView android:id="@id/tvPrice" ="wrap_content" ="wrap_content" ="16.0dip" 2130969912="@id/2131444133" 2130969936="@id/tvSymbol" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149463" />
+        <TextView ="@color/2131099764" android:id="@id/2131444133" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="@id/tvPrice" 2130969940="@id/tvPrice" style="@style/2132149382" />
+        <TextView android:id="@id/2131442437" ="wrap_content" ="wrap_content" ="4.0dip" 2130969907="@id/2131444133" 2130969936="@id/2131444133" style="@style/2132149382" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvHighStr" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_high" ="150.0dip" 2130969912="@id/tvHigh" 2130969936="@id/tvSymbol" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149390" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvHigh" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="2131438103" 2130969937="@id/tvHighStr" 2130969940="@id/tvHighStr" style="@style/2132149390" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131443283" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="tvHighStr,tvHigh" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvLowStr" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_low" ="12.0dip" 2130969912="@id/tvLow" 2130969936="@id/2131443283" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149390" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvLow" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="2131438103" 2130969937="@id/tvLowStr" 2130969940="@id/tvLowStr" style="@style/2132149390" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131443609" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="tvLowStr,tvLow" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvVolStr" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_vol_base" ="12.0dip" 2130969912="@id/tvVol" 2130969936="@id/2131443609" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149390" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvVol" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="2131438103" 2130969937="@id/tvVolStr" 2130969940="@id/tvVolStr" style="@style/2132149390" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131445369" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="tvVolStr,tvVol" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvVolSubStr" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_vol_base" ="12.0dip" 2130969912="@id/tvVolSub" 2130969936="@id/2131445369" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149390" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvVolSub" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969911="2131438103" 2130969937="@id/tvVolSubStr" 2130969940="@id/tvVolSubStr" style="@style/2132149390" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131445376" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="tvVolSubStr,tvVolSub" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433853" ="20.0dip" ="20.0dip" ="26.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099785" />
+        <include android:id="@id/2131435409" ="invisible" ="300.0dip" ="40.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131627275" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131435264" ="10.0dip" ="0.0dip" ="0.0dip" ="5.0dip" ="1.0" 2130969911="2131438103" 2130969918="@id/2131437889" 2130969937="2131438103" 2130969940="@id/2131435007" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131441815" ="gone" ="40.0dip" ="0.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131435007">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434415" ="20.0dip" ="20.0dip" ="@color/2131099778" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434610" ="20.0dip" ="20.0dip" ="30.0dip" 2130971077="@drawable/2131237514" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434562" ="gone" ="wrap_content" ="wrap_content" ="30.0dip" 2130971077="@drawable/2131238206" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434410" ="20.0dip" ="20.0dip" ="30.0dip" ="false" 2130971077="@drawable/2131238024" />
+    </LinearLayout>
+    <com.binance.margin.marketdetail.features.spot.landdetail.MarginLandMarketOrderBookLayout android:id="@id/2131437889" ="gone" ="120.0dip" ="0.0dip" ="12.0dip" ="10.0dip" ="15.0dip" 2130968777="MARGIN" 2130969911="2131438103" 2130969918="@id/2131441815" 2130969936="@id/2131435264" 2130969941="@id/2131435264" 2130971563="7" />
+    <com.binance.margin.marketdetail.kline.KLineTypeControllerView android:id="@id/2131435007" ="0.0dip" ="15.0dip" ="3.0dip" ="10.0dip" 2130969917="@id/2131437889" 2130969937="2131438103" 2130969940="@id/2131435010" 2130969978="1" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131433545" ="@color/2131099685" ="gone" ="fill_parent" ="0.0dip" android:text="@string/horizontal_market_token_unavailable_tip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435010" style="@style/2132149355" />
+</androidx.constraintlayout.widget.ConstraintLayout>

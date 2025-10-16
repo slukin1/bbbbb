@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428261" ="gone" ="12.0dip" ="12.0dip" ="@string/account" 2130971077="@drawable/2131233130" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428259" ="gone" ="12.0dip" ="12.0dip" ="@string/account" 2130971077="@drawable/2131233100" />
+</FrameLayout>

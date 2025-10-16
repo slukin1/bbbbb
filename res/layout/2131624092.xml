@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="15.0dip" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <TextView ="12.0sp" ="@color/2131099764" ="center_horizontal" android:id="@id/2131436702" ="fill_parent" ="wrap_content" android:text="@string/c2c_cash_third_scan_loading" ="@font/2131296274" 2130969911="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131438927" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/c2c_mob_exads_refresh" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436702" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

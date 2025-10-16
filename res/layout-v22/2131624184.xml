@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430895" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <ProgressBar ="center_horizontal" android:id="@id/2131441170" ="96.0dip" ="96.0dip" ="30.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434597" ="96.0dip" ="96.0dip" ="30.0dip" 2130971077="@drawable/2131232975" />
+    <androidx.appcompat.widget.AppCompatTextView ="20.0sp" ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="15.0dip" ="28.0dip" ="15.0dip" android:text="@string/net_recover_no_network" ="@font/2131296265" ="@dimen/2131166184" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/2131445908" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/net_recover_checking" ="@font/2131296266" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446058" ="invisible" ="fill_parent" ="0.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="1.0" ="@font/2131296266" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton ="16.0dip" ="@color/2131099789" android:id="@id/2131428635" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="10.0dip" android:text="@string/OK" ="@dimen/2131166184" style="@style/2132148691" />
+</LinearLayout>

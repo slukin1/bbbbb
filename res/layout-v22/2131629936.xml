@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432360" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <ImageView android:id="@id/2131436732" ="20.0dip" ="20.0dip" ="2.0dip" ="fitXY" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <TextView ="bold" ="@color/2131099764" ="center" android:id="@id/2131442498" ="wrap_content" ="24.0dip" ="false" ="10.0dip" 2130969936="@id/2131436732" 2130969941="2131438103" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131430136" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="false" ="4.0dip" ="#1af6465d" ="@dimen/2131166260" 2130969911="@id/2131442498" 2130969936="@id/2131442498" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131430137" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="false" ="4.0dip" ="#1af6465d" ="@dimen/2131166260" 2130969911="@id/2131442498" 2130969936="@id/2131430136" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <TextView ="@color/2131099778" android:id="@id/tvName" ="wrap_content" ="wrap_content" ="1.0dip" ="false" ="2.0dip" 2130969937="@id/2131442498" 2130969940="@id/2131442498" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="end|bottom|center" android:id="@id/tvFunds" ="0.0dip" ="24.0dip" ="1" ="false" 2130969912="@id/2131448523" 2130969917="2131438103" 2130969936="@id/2131432737" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131448523" ="gone" ="0.0dip" ="0.0dip" ="1.0dip" ="ltr" ="viewEnd" 2130969911="2131438103" 2130969917="@id/tvFunds" 2130969936="@id/2131432737" 2130969940="@id/tvFunds" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

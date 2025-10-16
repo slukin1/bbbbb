@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" android:id="@id/2131429686" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131430334" ="12.0dip" ="6.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236653" />
+    <ImageView android:id="@id/2131430335" ="visible" ="12.0dip" ="6.0dip" 2130969937="2131438103" 2130969940="@id/2131430320" 2130971077="@drawable/2131236652" />
+    <RelativeLayout ="vertical" android:id="@id/2131430320" ="@drawable/2131236742" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="240.0dip" ="wrap_content" ="178.0dip" ="@color/2131099685" 2130969940="@id/2131430334">
+        <TextView ="@color/2131099764" android:id="@id/2131430333" ="210.0dip" ="wrap_content" android:text="@string/card_payment_wallet" style="@style/2132149371" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131430332" ="210.0dip" ="wrap_content" ="10.0dip" ="300.0dip" ="180.0dip" android:text="@string/lite_quick_guide_tip" ="@id/2131430333" ="1.1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="14.0dip" ="@color/2131099764" ="center_vertical" android:id="@id/2131430330" ="wrap_content" ="wrap_content" ="6.0dip" ="@id/2131430332" ="1.3" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149459" />
+        <TextView ="@color/2131103031" ="center_vertical" android:id="@id/2131430331" ="wrap_content" ="wrap_content" ="10.0dip" ="@id/2131430332" ="1.3" ="@id/2131430330" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+        <com.major.android.uikit.button.KitButton ="@color/2131102397" ="center_vertical" ="end" android:id="@id/2131430329" ="true" ="true" ="wrap_content" ="wrap_content" ="48.0dip" android:text="@string/ms_market_skip" ="false" ="@id/2131430332" ="12.0dip" ="@id/2131430328" ="#00000000" 2130969173="2" 2130970889="3" 2130971205="true" style="@style/2132149450" />
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center_vertical" ="end" android:id="@id/2131430328" ="true" ="true" ="wrap_content" ="24.0dip" ="4.0dip" ="48.0dip" android:text="@string/_next" ="false" ="@id/2131430332" ="true" 2130969173="2" 2130969917="2131438103" 2130970889="3" 2130971205="true" style="@style/2132149450" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

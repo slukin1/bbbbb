@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131437972" ="fill_parent" ="wrap_content" android:text="@string/c2c_place_order_advertiser_terms" ="@font/2131296274" />
+    <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131437970" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296274" />
+    <TextView ="14.0sp" ="@color/2131099787" android:id="@id/2131437971" ="fill_parent" ="wrap_content" ="2.0dip" android:text="@string/c2c_term_read_more" ="@font/2131296274" />
+</LinearLayout>

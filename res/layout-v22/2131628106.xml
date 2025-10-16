@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="10.0dip" ="10.0dip" ="invisible" ="0.0dip" ="wrap_content" ="1.0" ="@dimen/2131166156"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433920" ="24.0dip" ="24.0dip" ="centerCrop" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="4.0dip" ="6.0dip" ="4.0dip" ="2" ="@dimen/2131166247" style="@style/2132149384" />
+</LinearLayout>

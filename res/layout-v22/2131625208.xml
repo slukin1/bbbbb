@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444964" ="wrap_content" ="wrap_content" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131437818" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/OK" style="@style/2132148692" />
+</LinearLayout>

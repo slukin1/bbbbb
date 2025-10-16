@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/2131442271" ="fill_parent" ="40.0dip" android:text="@string/future_bbo_option_opponent_one" ="true" ="16.0dip" 2130968700="14.0sp" 2130968701="12.0sp" 2130968705="2131449068" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433697" ="14.0dip" ="14.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+</merge>

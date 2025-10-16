@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234718" ="9.0dip" ="9.0dip" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip">
+        <ImageView android:id="@id/icon" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="vertical" android:id="@id/2131436117" ="wrap_content" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969936="@id/icon" 2130969941="2131438103">
+            <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content">
+                <TextView ="@color/2131099764" android:id="@id/2131428419" ="wrap_content" ="wrap_content" ="2" ="ltr" style="@style/2132149372" />
+                <TextView ="@color/2131099787" ="end" ="center" android:id="@id/2131440815" ="@drawable/2131235998" ="2.0dip" ="1.0dip" ="2.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="1" ="6" ="ltr" ="6.0dip" ="@color/2131099879" style="@style/2132149397" />
+                <TextView ="@color/2131099778" android:id="@id/2131428129" ="@color/2131100477" ="1.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="2.0dip" ="2.0dip" ="6.0dip" style="@style/2132149454" />
+            </LinearLayout>
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131440814" ="gone" ="wrap_content" ="wrap_content" ="1" ="12" ="ltr" style="@style/2132149386" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131436827" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <TextView ="#ff00c087" ="end" android:id="@id/2131428035" ="wrap_content" ="wrap_content" ="2" ="ltr" ="12.0dip" style="@style/2132149446" />
+            <LinearLayout ="end" ="horizontal" android:id="@id/2131436826" ="wrap_content" ="wrap_content">
+                <TextView ="@color/2131099778" ="end" ="center" android:id="@id/2131428033" ="visible" ="wrap_content" ="wrap_content" ="1" ="12" ="ltr" ="12.0dip" style="@style/2132149386" />
+                <ImageView ="center" android:id="@id/2131428034" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131237075" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

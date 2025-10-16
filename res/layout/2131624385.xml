@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="5.0dip" ="5.0dip" ="false" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="end" ="vertical" android:id="@id/2131430498" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131441638" ="gone" ="100.0dip" ="wrap_content" ="10.0dip" 2130968684="@null" 2130969912="@id/2131428535" 2130969917="@id/2131428535" 2130970002="@null" 2130970835="false" 2130971423="@color/2131099675" 2130971424="2.0dip" 2130971429="@color/2131099764" 2130971430="14.0sp" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428535" ="64.0dip" ="64.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131430498" 2130969942="1.0" 2130971077="@drawable/2131234523" />
+</androidx.constraintlayout.widget.ConstraintLayout>

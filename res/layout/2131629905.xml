@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/icon" ="?2130968587" ="visible" ="64.0dip" ="64.0dip" ="fitXY" ="@null" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236655" />
+    <TextView ="@color/2131099764" android:id="@id/2131441486" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_avg_cost_edit_confirm_tip" 2130969937="2131438103" 2130969940="@id/icon" style="@style/2132149355" />
+    <LinearLayout ="bottom" ="horizontal" ="@color/2131099685" ="true" ="true" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131441486">
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" android:id="@id/2131429250" ="0.0dip" ="40.0dip" android:text="@string/cancel" ="1.0" ="false" 2130969173="8.0" 2130971472="2" style="@style/2132149371" />
+        <View ="12.0dip" ="1.0dip" />
+        <com.major.android.uikit.button.KitButton ="@color/2131099764" android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" ="false" 2130969173="8.0" style="@style/2132149371" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

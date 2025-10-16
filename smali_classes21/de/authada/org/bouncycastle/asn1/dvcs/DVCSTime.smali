@@ -1,0 +1,198 @@
+.class public Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+.super Lde/authada/org/bouncycastle/asn1/ASN1Object;
+
+# interfaces
+.implements Lde/authada/org/bouncycastle/asn1/ASN1Choice;
+
+
+# instance fields
+.field private final genTime:Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+.field private final timeStampToken:Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+
+# direct methods
+.method public constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->genTime:Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->timeStampToken:Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;)V
+    .locals 1
+
+    .line 65353
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->genTime:Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->timeStampToken:Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/Date;)V
+    .locals 1
+
+    .line 65352
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    invoke-direct {v0, p1}, Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;-><init>(Ljava/util/Date;)V
+
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;)V
+
+    return-void
+.end method
+
+.method public static getInstance(Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;Z)Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+    .locals 0
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0x80
+
+    .line 65351
+    invoke-static {p0, p1}, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;->getInstance(Ljava/lang/Object;I)Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;->getExplicitBaseObject()Lde/authada/org/bouncycastle/asn1/ASN1Object;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "choice item must be explicitly tagged"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+    .locals 1
+
+    .line 65350
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+
+    return-object p0
+
+    :cond_0
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    if-eqz v0, :cond_1
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;)V
+
+    return-object v0
+
+    :cond_1
+    if-eqz p0, :cond_2
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;-><init>(Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;)V
+
+    return-object v0
+
+    :cond_2
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getGenTime()Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+    .locals 1
+
+    .line 65349
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->genTime:Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    return-object v0
+.end method
+
+.method public getTimeStampToken()Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->timeStampToken:Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+    return-object v0
+.end method
+
+.method public toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 1
+
+    .line 65347
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->genTime:Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->timeStampToken:Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    .line 65346
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->genTime:Lde/authada/org/bouncycastle/asn1/ASN1GeneralizedTime;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/dvcs/DVCSTime;->timeStampToken:Lde/authada/org/bouncycastle/asn1/cms/ContentInfo;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

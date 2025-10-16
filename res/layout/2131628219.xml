@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/2131433475" ="0.0dip" ="wrap_content" style="?2130971323"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputEditText android:id="@id/edit_text" ="false" ="fill_parent" ="wrap_content" ="1" ="numberDecimal|numberSigned" ="actionNext" />
+</com.google.android.material.textfield.TextInputLayout>

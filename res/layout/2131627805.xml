@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430897" ="@drawable/2131235260" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.image.KitRoundImageView android:id="@id/2131434490" ="24.0dip" ="24.0dip" ="20.0dip" ="7.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131446279" ="wrap_content" ="wrap_content" ="true" ="5.0dip" ="15.0dip" 2130969911="@id/2131434490" 2130969936="@id/2131434490" 2130969941="@id/2131434490" style="@style/2132149459" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131430941" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/nezha_notification_dialog_title" ="true" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131434490" style="@style/2132149445" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439712" ="fill_parent" ="wrap_content" ="4.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430941" />
+    <LinearLayout ="horizontal" android:id="@id/2131436464" ="fill_parent" ="wrap_content" ="34.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439712">
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429080" ="0.0dip" ="wrap_content" android:text="@string/nezha_authorization_refuse" ="1.0" 2130971472="2" />
+        <Space ="9.0dip" ="wrap_content" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428974" ="0.0dip" ="wrap_content" android:text="@string/nezha_authorization_allow" ="1.0" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436442" ="wrap_content" ="wrap_content" ="21.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436464">
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429371" ="18.0dip" ="18.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="wrap_content" ="wrap_content" android:text="@string/nezha_notification_always_allow" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131434490" style="@style/2132149350" />
+    </LinearLayout>
+    <Space ="fill_parent" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436442" />
+</androidx.constraintlayout.widget.ConstraintLayout>

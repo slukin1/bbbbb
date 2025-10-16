@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131430422" ="fill_parent" ="0.0dip" 2130969912="@id/2131432138" 2130969940="@id/2131437449">
+        <FrameLayout android:id="@id/2131430342" ="24.0dip" ="fill_parent" ="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/2131432138" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

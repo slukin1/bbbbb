@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449523" ="@drawable/2131232787" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="15.0dip" ="@font/2131296267" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446292" ="0.0dip" ="wrap_content" ="14.0dip" android:text="@string/c2c_addtional_kyc_term_description" ="@font/2131296274" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="30.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.major.android.uikit2.selection.KitCheckBox ="false" android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="10.0dip" ="false" ="20.0dip" 2130969758="true" 2130969912="@id/btn_confirm" 2130969937="2131438103" />
+    <TextView ="14.0sp" ="@color/2131099726" android:id="@id/2131446620" ="0.0dip" ="wrap_content" android:text="@string/c2c_addtional_kyc_term_agree" ="@font/2131296274" ="4.0dip" 2130969911="@id/2131429513" 2130969936="@id/2131429513" 2130969941="@id/2131429513" />
+    <com.bard.android.webview.BardWebView android:id="@id/2131450342" ="0.0dip" ="0.0dip" ="20.0dip" ="20.0dip" 2130969912="@id/2131446620" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446292" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end|bottom|center" ="vertical" android:id="@id/2131429089" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="145.0dip" ="15.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236861" 2130971375="@color/2131099685" />
+</androidx.constraintlayout.widget.ConstraintLayout>

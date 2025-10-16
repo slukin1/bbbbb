@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="16.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" android:text="@string/ocbs_string_tip_user_fill_cpf" style="@style/2132149350" />
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131430574" ="fill_parent" ="wrap_content" ="24.0dip" ="number" 2130969816="false" 2130969817="1" 2130969821="false" />
+    <com.major.android.uikit2.button.KitButton ="false" ="center" android:id="@id/2131428533" ="fill_parent" ="48.0dip" ="32.0dip" android:text="@string/_confirm" style="@style/2132148691" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236025" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_action_sheet_select_target_language" ="@font/2131296275" />
+    <com.major.android.uikit2.search.KitSearchBar ="14.0sp" ="@color/2131100635" ="@color/2131100973" ="center_vertical" android:id="@id/2131431280" ="fill_parent" ="32.0dip" ="6.0dip" ="true" 2130968909="@string/cancel" 2130970759="@string/_search" 2130971628="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435267" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="250.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131431280" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="vertical" android:id="@id/2131431363" ="60.0dip" ="40.0dip" ="gone" ="fill_parent" ="250.0dip" 2130969937="2131438103" 2130969940="@id/2131431280">
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433839" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238419" />
+        <TextView ="@color/2131100975" ="center_horizontal" android:id="@id/2131446353" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/convert_search_no_records_tip" ="@font/2131296274" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

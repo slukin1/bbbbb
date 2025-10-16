@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/2131430875" ="0.0dip" ="0.0dip" ="true" 2130969912="@id/2131428707" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <FrameLayout android:id="@id/2131430879" ="fill_parent" ="wrap_content" />
+    </ScrollView>
+    <View android:id="@id/2131449176" ="gone" ="0.0dip" ="0.0dip" 2130969912="@id/2131428707" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitLoadingButton android:id="@id/2131428707" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430875" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="12.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" ="true" ="1.0">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+            <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437789" ="fill_parent" ="wrap_content" 2130969837="100" 2130969840="@string/ocbs_string_tip_ted_fill_cpf" 2130969843="0" />
+            <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131428280" ="fill_parent" ="wrap_content" ="24.0dip" 2130969818="false" 2130969834="1" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131427737" ="fill_parent" ="wrap_content" ="24.0dip" ="4" ="number" 2130969806="true" 2130969807="2131431371" 2130969816="false" 2130969817="1" 2130969818="false" 2130969821="false" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131428274" ="fill_parent" ="wrap_content" ="24.0dip" ="number" 2130969816="false" 2130969817="1" 2130969818="false" 2130969821="false" />
+            <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131428275" ="fill_parent" ="wrap_content" ="24.0dip" 2130969818="false" 2130969834="1" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/cpfInput" ="fill_parent" ="wrap_content" ="24.0dip" ="number" 2130969816="false" 2130969817="1" 2130969818="false" 2130969821="false" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="24.0dip" ="20.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429334" ="24.0dip" ="24.0dip" 2130969758="true" 2130969759="2" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442632" ="0.0dip" ="wrap_content" ="1.0" ="4.0dip" style="@style/2132149355" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton ="false" ="center" android:id="@id/2131428533" ="fill_parent" ="48.0dip" ="12.0dip" android:text="@string/_confirm" style="@style/2132148691" />
+</androidx.appcompat.widget.LinearLayoutCompat>

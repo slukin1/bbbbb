@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="40.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131446550" ="wrap_content" ="fill_parent" ="true" ="@font/2131296274" />
+    <ImageView android:id="@id/2131434601" ="wrap_content" ="fill_parent" ="@id/2131446550" 2130971077="@drawable/2131237055" />
+</RelativeLayout>

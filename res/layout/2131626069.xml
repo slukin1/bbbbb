@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131446216" ="wrap_content" ="wrap_content" android:text="@string/futures_pnlanalysis_history_daily_pnl" ="1" ="15.0dip" ="5.0dip" 2130969905="true" 2130969911="@id/2131441092" 2130969918="@id/2131441092" 2130969927="0.0" 2130969937="2131438103" 2130969941="@id/2131441092" style="@style/2132149446" />
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441092" ="@drawable/2131236699" ="2.0dip" ="84.0dip" ="28.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <FrameLayout ="fill_parent" ="wrap_content" 2130969940="@id/2131446216">
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438356" ="fill_parent" ="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

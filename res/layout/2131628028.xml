@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="500.0dip" ="500.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434895" ="32.0dip" ="32.0dip" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235747" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="32.0dip" ="32.0dip" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235655" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434404" ="wrap_content" ="wrap_content" 2130969911="@id/2131434895" 2130969918="@id/2131434434" 2130969936="@id/2131434895" 2130969941="@id/2131434895" 2130971077="@drawable/2131235688" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434446" ="160.0dip" ="80.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434404" 2130971077="@drawable/2131235695" />
+    <TextView ="#ff202630" ="center_horizontal" android:id="@id/2131447770" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/payment_live_campaign_send_to_earn" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434446" style="@style/2132149423" />
+    <TextView ="#ff202630" ="center_horizontal" android:id="@id/tv_title" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447770" style="@style/2132149423" />
+    <TextView ="12.0sp" ="#ff202630" android:id="@id/2131447279" ="@drawable/2131235592" ="4.0dip" ="2.0dip" ="4.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149461" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235567" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" 2130969940="@id/2131447279">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434561" ="24.0dip" ="24.0dip" ="8.0dip" 2130969918="@id/2131446670" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235684" />
+        <TextView ="#ff202630" ="center_vertical" android:id="@id/2131446670" ="wrap_content" ="0.0dip" android:text="@string/payment_live_campaign_how_to_participate" 2130969911="@id/2131434561" 2130969917="2131438103" 2130969936="@id/2131434561" 2130969941="@id/2131434561" style="@style/2132149446" />
+        <TextView ="#ff202630" ="center_horizontal" android:id="@id/tv_desc" ="fill_parent" ="wrap_content" ="12.0dip" 2130969940="@id/2131446670" style="@style/2132149350" />
+        <com.major.android.uikit.button.KitButton ="#ff202630" ="center" android:id="@id/2131429099" ="#fffcd535" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/payment_live_campaign_send_now" 2130969940="@id/tv_desc" 2130970889="1" 2130971472="2131429147" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

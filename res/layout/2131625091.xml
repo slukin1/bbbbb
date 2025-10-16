@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="50.0dip" android:text="@string/earn_current_est_apr" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131445009" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_est_market_apr" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <TextView ="#ff2ebd85" android:id="@id/2131444264" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" 2130969911="@id/2131445009" 2130969917="2131438103" 2130969941="@id/2131445009" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131445000" ="15.0dip" ="15.0dip" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_bonus_tiered_apr" 2130969937="@id/tv_title" 2130969940="@id/2131445009" style="@style/2132149450" />
+    <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131441448" ="#00000000" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="20.0dip" 2130969940="@id/2131445000" />
+    <TextView ="@color/2131099764" android:id="@id/2131443498" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_launchpool_apr" 2130969937="@id/tv_title" 2130969940="@id/2131441448" style="@style/2132149450" />
+    <TextView ="#ff2ebd85" android:id="@id/2131443497" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131443498" 2130969917="2131438103" 2130969941="@id/2131443498" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131428030" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/earn_bnbvault_current_est_apr_pop_content1" 2130969917="2131438103" 2130969937="@id/2131443498" 2130969940="@id/2131443497" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131428031" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/earn_bnb_vault_apr_pop_note" 2130969917="2131438103" 2130969937="@id/2131443498" 2130969940="@id/2131428030" style="@style/2132149394" />
+    <FrameLayout android:id="@id/iconContainer" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="@id/2131443497" 2130969918="@id/2131443497" 2130969941="@id/2131443497" />
+</androidx.constraintlayout.widget.ConstraintLayout>

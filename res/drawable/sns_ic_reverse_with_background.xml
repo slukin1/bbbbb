@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape ="oval">
+            <solid ="@color/sns_cameraBackground" />
+            <size ="40.0dip" ="40.0dip" />
+        </shape>
+    </item>
+    <item android:id="@id/icon" ="@drawable/sns_ic_reverse_v" />
+</layer-list>

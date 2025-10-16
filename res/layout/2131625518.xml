@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/2131435023" ="@drawable/2131233719" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131441933" 2130969937="2131438103" 2130969941="@id/2131441933" />
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/2131441933" ="wrap_content" ="wrap_content" android:text="@string/margin_trade_activation_price" ="5.0dip" 2130969274="@string/margin_trade_activation_price" 2130969936="@id/2131435023" 2130969941="2131438103" 2130971382="@string/margin_trade_activation_price_desc" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.edittext.KitEditText android:id="@id/edt_active_price" ="8.0dip" 2130969780="@string/format_act_price_coin" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441933" style="@style/2132148633" />
+    <com.finance.framework.widget.LongClickButton android:id="@id/lcb_sub_active_price" 2130969911="@id/edt_active_price" 2130969937="@id/edt_active_price" 2130969941="@id/edt_active_price" style="@style/2132149198" />
+    <com.finance.framework.widget.LongClickButton android:id="@id/lcb_add_active_price" 2130969917="@id/edt_active_price" 2130969941="@id/edt_active_price" style="@style/2132148227" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432623" ="gone" ="wrap_content" ="wrap_content" 2130969125="edt_active_price,lcb_sub_active_price,lcb_add_active_price" />
+    <TextView android:id="@id/2131445519" ="gone" ="-2.0dip" 2130969912="@id/edt_active_price" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148634" />
+</merge>

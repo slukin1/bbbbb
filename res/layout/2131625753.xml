@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236009" ="fill_parent" ="wrap_content" ="@color/2131099800" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="12.0dip">
+        <TextView android:id="@id/2131441794" ="gone" style="@style/2132149196" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131437927" ="wrap_content" ="wrap_content" ="@font/2131296275" ="8.0dip" ="4.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428106" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131234586" />
+        <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131429321" ="@drawable/2131232438" ="2.0dip" ="1.0dip" ="2.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_action_sheet_cash_trade" ="@font/2131296273" ="10.0dip" />
+        <Space ="0.0dip" ="wrap_content" ="1.0" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131437918" ="wrap_content" ="wrap_content" ="2" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437948" ="15.0dip" ="24.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131444047" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_order_detail_buy_amount_fee" ="2" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433868" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131444047" 2130969936="@id/2131444047" 2130969941="@id/2131444047" 2130971077="@drawable/2131237075" />
+        <TextView ="20.0sp" ="bold" ="@color/2131099764" android:id="@id/2131444048" ="6.0dip" ="6.0dip" ="wrap_content" ="wrap_content" ="@font/2131296274" ="ltr" ="8.0dip" 2130969911="@id/2131444047" 2130969917="2131438103" 2130969941="@id/2131444047" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/price" ="134.0dip" ="wrap_content" ="24.0dip" android:text="@string/c2c_mob_buyorder_price" ="2" ="@font/2131296274" 2130969937="@id/2131444047" 2130969940="@id/2131444047" />
+        <TextView ="13.0sp" ="@color/2131099764" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969907="@id/price" 2130969917="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131427806" ="134.0dip" ="wrap_content" ="24.0dip" android:text="@string/amount" ="2" ="@font/2131296274" 2130969937="@id/price" 2130969940="@id/price" />
+        <TextView ="13.0sp" ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969907="@id/2131427806" 2130969917="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434726" ="8.0dip" ="8.0dip" ="visible" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131427806" 2130971077="@drawable/2131237050" />
+        <FrameLayout android:id="@id/fee_container" ="fill_parent" ="wrap_content" 2130969937="@id/2131427806" 2130969940="@id/2131427806" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/order_number" ="134.0dip" ="wrap_content" ="20.0dip" android:text="@string/c2c_mob_buyorder_number" ="2" ="@font/2131296274" 2130969937="@id/fee_container" 2130969940="@id/fee_container" />
+        <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/tvOrderNum" ="6.0dip" ="wrap_content" ="wrap_content" ="2" ="6.0dip" ="@font/2131296274" ="6.0dip" 2130969306="@drawable/2131237146" 2130969907="@id/order_number" 2130969917="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/nickNameTitle" ="gone" ="134.0dip" ="wrap_content" ="20.0dip" android:text="@string/c2c_buyer_nick_name" ="1" ="@font/2131296274" 2130969937="@id/order_number" 2130969940="@id/order_number" />
+        <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/nickNameTv" ="6.0dip" ="gone" ="wrap_content" ="wrap_content" ="1" ="8.0dip" ="@font/2131296274" ="6.0dip" 2130969306="@drawable/2131237055" 2130969907="@id/nickNameTitle" 2130969917="2131438103" />
+        <androidx.constraintlayout.widget.Group android:id="@id/nickNameLayout" ="fill_parent" ="wrap_content" 2130969125="nickNameTitle, nickNameTv" />
+        <androidx.constraintlayout.widget.Group android:id="@id/third_order" ="fill_parent" ="wrap_content" 2130969125="order_number, tvOrderNum" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131437957" ="gone" ="fill_parent" ="wrap_content" 2130969125="fee_container, nickNameLayout, third_order" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

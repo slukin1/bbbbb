@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="@color/2131099685" ="false" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="0.0dip" ="16.0dip" 2130969911="2131438103" 2130969941="2131438103" 2130971098="false" 2130971100="true">
+        <com.binance.content.view.NestedChildRecyclerView android:id="@id/2131435940" ="fill_parent" ="fill_parent" ="never" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton ="@style/2132149541" android:id="@id/2131428244" ="gone" ="wrap_content" ="wrap_content" ="28.0dip" ="28.0dip" ="@color/2131099783" 2130968789="0.0dip" 2130969331="@dimen/2131166012" 2130969446="@dimen/2131166248" 2130969911="2131438103" 2130969917="2131438103" 2130970141="20.0dip" 2130971077="@drawable/2131236869" 2130971375="@color/2131099764" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430976" ="invisible" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <Button android:id="@id/2131439118" ="gone" ="wrap_content" ="wrap_content" android:text="Refresh" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131431750" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />/> </androidx.constraintlayout.widget.ConstraintLayout>

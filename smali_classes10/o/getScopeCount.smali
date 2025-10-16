@@ -1,0 +1,38 @@
+.class public final synthetic Lo/getScopeCount;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic c:Lcom/finance/copytrading/feature/portfolio/ui/setting/CopyTradingSwitchModeComponent;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/finance/copytrading/feature/portfolio/ui/setting/CopyTradingSwitchModeComponent;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/getScopeCount;->c:Lcom/finance/copytrading/feature/portfolio/ui/setting/CopyTradingSwitchModeComponent;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/getScopeCount;->c:Lcom/finance/copytrading/feature/portfolio/ui/setting/CopyTradingSwitchModeComponent;
+
+    invoke-static {v0}, Lcom/finance/copytrading/feature/portfolio/ui/setting/CopyTradingSwitchModeComponent;->b(Lcom/finance/copytrading/feature/portfolio/ui/setting/CopyTradingSwitchModeComponent;)Lkotlin/Unit;
+
+    move-result-object v0
+
+    return-object v0
+.end method

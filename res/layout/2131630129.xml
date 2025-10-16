@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" android:id="@id/2131450240" ="15.0dip" ="15.0dip" ="fill_parent" ="175.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="horizontal" ="fill_parent" ="wrap_content">
+        <com.github.mikephil.charting.charts.PieChart android:id="@id/2131450239" ="120.0dip" ="120.0dip" ="20.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131450241" ="0.0dip" ="wrap_content" ="1.0" ="30.0dip" ="10.0dip" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="16.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131450242" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131450243" ="0.0dip" ="wrap_content" android:text="@string/wallet_overview_pie_tips" ="2" ="1.0" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+</LinearLayout>

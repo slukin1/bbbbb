@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="fill_parent" ="0.0dip" ="1.0">
+        <ImageView android:id="@id/icon" ="wrap_content" ="wrap_content" ="@drawable/onfido_ic_error_red" />
+        <TextView ="center" android:id="@id/title" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/onfido_nfc_scan_error_device_title" ="5.0sp" ="@dimen/2131167480" ="true" style="@style/2132148962" />
+        <TextView ="?2130970372" ="center" android:id="@id/2131440847" ="wrap_content" ="wrap_content" ="16.0dip" ="8.0dip" ="16.0dip" android:text="@string/onfido_nfc_scan_error_device_subtitle" ="false" ="5.0sp" ="@dimen/2131167480" style="@style/2132148937" />
+    </LinearLayout>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131428771" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@dimen/2131167480" 2130969912="@id/2131437844" 2130970348="@string/onfido_nfc_scan_error_device_primary_button" />
+    <include android:id="@id/2131437844" ="wrap_content" ="wrap_content" ="16.0dip" layout="@layout/onfido_watermark_layout" />
+</LinearLayout>

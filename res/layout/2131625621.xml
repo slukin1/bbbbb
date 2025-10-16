@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" ="@drawable/2131232786" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="fill_parent" ="50.0dip" android:text="@string/c2c_express_trade_requirements_terms" ="@font/2131296267" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439085" ="gone" ="wrap_content" ="fill_parent" 2130969918="@id/2131434419" 2130969937="2131438103" 2130969940="@id/2131445571" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="end" ="center_vertical" android:id="@id/2131445523" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296274" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099764" ="center" android:id="@id/2131428981" ="fill_parent" ="40.0dip" ="12.0dip" ="24.0dip" android:text="@string/back" ="@font/2131296273" style="@style/2132148697" />
+</LinearLayout>

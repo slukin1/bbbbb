@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Layer ="@drawable/2131235991" ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" ="0.0dip" ="0.0dip" ="@color/2131099943" ="12.0dip" ="8.0dip" 2130969125="editTextInput,appCompatImageView3" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/appCompatImageView3" ="20.0dip" ="20.0dip" ="22.0dip" ="25.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237994" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/editTextInput" ="@null" ="0.0dip" ="wrap_content" ="16.0dip" ="32.0dip" 2130969911="@id/appCompatImageView3" 2130969918="@id/2131427963" 2130969936="@id/appCompatImageView3" 2130969941="@id/appCompatImageView3" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131100443" android:id="@id/2131427963" ="wrap_content" ="wrap_content" android:text="@string/_cancel" ="@font/2131296265" ="16.0dip" 2130969911="@id/appCompatImageView3" 2130969917="2131438103" 2130969941="@id/appCompatImageView3" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/2131427954" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/margin_pair_list" ="15.0dip" 2130969937="2131438103" 2130969940="@id/appCompatImageView3" style="@style/2132149446" />
+    <View android:id="@id/2131449359" ="@color/2131100461" ="0.0dip" ="0.5dip" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131427954" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="0.0dip" ="0.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449359" />
+    <TextView ="14.0sp" ="@color/2131100620" ="center_horizontal" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="108.0dip" android:text="@string/no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/appCompatImageView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

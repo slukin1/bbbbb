@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166200" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131445670" ="wrap_content" ="wrap_content" android:text="@string/futures_pnlanalysis_asset_summary" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <com.finance.kit.framework.widget.chart.FinanceLegendPieChart android:id="@id/2131429461" ="fill_parent" ="wrap_content" ="16.0dip" 2130969538="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445670" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout ="@color/2131099785" ="center" ="center" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" ="10.0dip" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_data" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445670" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

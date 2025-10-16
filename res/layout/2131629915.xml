@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430127" ="10.0dip" ="fill_parent" ="wrap_content" ="16.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131445593" ="wrap_content" ="wrap_content" android:text="@string/trading" ="ltr" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440484" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131440477" ="false" ="false" ="false" ="fill_parent" ="96.0dip" />
+    <com.binance.widget.indicator.IndexPageIndicator ="center" android:id="@id/2131440478" ="false" ="wrap_content" ="wrap_content" ="8.0dip" 2130968672="@color/2131099764" 2130968673="@dimen/2131166225" 2130968674="@dimen/2131166286" 2130968676="@color/2131099725" 2130968677="@dimen/2131166225" 2130968678="@dimen/2131166286" 2130968679="@dimen/2131166260" 2130968680="2131440527" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/alpha_trading_tips" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149423" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="14.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131447924" ="fill_parent" ="wrap_content" android:text="@string/alpha_trading_trade_priority_mode_slippage" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131447925" ="fill_parent" ="wrap_content" android:text="@string/alpha_trading_trade_priority_mode_slippage_tip" ="4.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131445952" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/alpha_trading_trade_est_network_fee" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131445954" ="fill_parent" ="wrap_content" android:text="@string/alpha_trading_trade_est_network_fee_desc" ="4.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429058" ="fill_parent" ="40.0dip" ="23.0dip" android:text="@string/OK" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</LinearLayout>

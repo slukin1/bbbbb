@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="fill_parent" ="@dimen/2131165972">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441602" ="?2130968587" ="visible" ="44.0dip" ="fill_parent" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131441610" ="0.0dip" ="fill_parent" ="1.0" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441608" ="12.0dip" ="12.0dip" ="44.0dip" ="fill_parent" ="@drawable/2131237479" 2130971375="@color/2131099764" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="none" ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip">
+                <include android:id="@id/2131429749" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" layout="@layout/2131630070" />
+                <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="15.0dip" ="fill_parent" ="96.0dip" ="24.0dip" ="@color/2131099744">
+                    <TextView ="@color/2131099778" android:id="@id/2131441870" ="wrap_content" ="wrap_content" android:text="@string/from" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                    <TextView ="@color/2131099778" android:id="@id/2131441874" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/to" 2130969937="@id/2131441870" 2130969940="@id/2131441870" style="@style/2132149450" />
+                    <TextView ="@color/2131099764" android:id="@id/2131439383" ="wrap_content" ="wrap_content" android:text="@string/margin_wallet" ="12.0dip" 2130969936="@id/2131441870" 2130969941="@id/2131441870" style="@style/2132149446" />
+                    <TextView ="@color/2131099764" android:id="@id/2131439409" ="wrap_content" ="wrap_content" android:text="@string/margin_wallet" ="12.0dip" 2130969936="@id/2131441870" 2130969941="@id/2131441874" style="@style/2132149446" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/_coin" style="@style/2132149450" />
+                <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436183" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="4.0dip" ="@color/2131099744">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="20.0dip" ="20.0dip" ="fitXY" />
+                    <TextView ="@color/2131099764" android:id="@id/tvCoin" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149446" />
+                    <TextView ="@color/2131099778" android:id="@id/tvName" ="0.0dip" ="wrap_content" ="1.0" ="2.0dip" style="@style/2132149384" />
+                    <ImageView android:id="@id/2131441864" ="20.0dip" ="20.0dip" ="centerInside" ="@null" 2130971077="@drawable/2131237055" />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout ="gone" ="fill_parent" ="wrap_content" ="5.0dip">
+                    <com.binance.widget.BaseLineTextInputLayout android:id="@id/2131427818" ="fill_parent" ="wrap_content" 2130969412="@style/2132150266" 2130969579="false" 2130969937="2131438103" 2130969941="2131438103">
+                        <com.google.android.material.textfield.TextInputEditText ="@color/2131100164" android:id="@id/2131431313" ="fill_parent" ="wrap_content" ="1" ="numberDecimal" />
+                    </com.binance.widget.BaseLineTextInputLayout>
+                    <TextView ="15.0sp" ="@color/2131099765" android:id="@id/2131443708" ="10.0dip" ="wrap_content" ="wrap_content" android:text="@string/max" 2130969907="@id/2131427818" 2130969917="2131438103" />
+                    <TextView ="14.0sp" ="#ff828a98" android:id="@id/tvCoinName" ="wrap_content" ="wrap_content" 2130969907="@id/2131427818" 2130969918="@id/2131443708" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.major.android.uikit.input.KitInputText android:id="@id/2131441861" ="fill_parent" ="wrap_content" ="24.0dip" ="numberDecimal" 2130969660="@string/ms_withdraw_amount" 2130970672="@string/max" 2130970845="false" 2130970861="true" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131431794" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" style="@style/2132149384" />
+                <LinearLayout android:id="@id/2131436164" ="fill_parent" ="wrap_content" ="4.0dip">
+                    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/available" style="@style/2132149384" />
+                    <TextView ="@color/2131099778" android:id="@id/2131442249" ="wrap_content" ="wrap_content" ="ltr" ="2.0dip" style="@style/2132149384" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/2131441872" ="fill_parent" ="wrap_content" ="4.0dip">
+                    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/ms_transfer_third_wallet_limit_tips" style="@style/2132149384" />
+                    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445314" ="wrap_content" ="fill_parent" ="5.0dip" style="@style/2132149384" />
+                    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="/" ="5.0dip" ="5.0dip" style="@style/2132149384" />
+                    <TextView ="@color/2131099778" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+                    <TextView ="@color/2131099778" ="center" android:id="@id/tvQuoteAsset" ="wrap_content" ="fill_parent" ="5.0dip" style="@style/2132149384" />
+                </LinearLayout>
+                <TextView ="@color/2131099863" android:id="@id/2131431408" ="fill_parent" ="wrap_content" ="4.0dip" style="@style/2132149384" />
+                <TextView ="@color/2131099778" android:id="@id/2131445230" ="gone" ="fill_parent" ="wrap_content" ="30.0dip" style="@style/2132149350" />
+                <View android:id="@id/2131441873" ="fill_parent" ="0.0dip" ="1.0" />
+                <LinearLayout ="@drawable/2131236004" ="fill_parent" ="wrap_content" ="#14f0b90b">
+                    <ImageView android:id="@id/2131434257" ="gone" ="13.0dip" ="13.0dip" ="8.0dip" ="15.0dip" 2130971077="@drawable/2131237096" />
+                    <TextView ="@color/2131100443" android:id="@id/2131445242" ="5.0dip" ="5.0dip" ="gone" ="fill_parent" ="wrap_content" ="2.0dip" ="5.0dip" ="15.0dip" style="@style/2132149384" />
+                </LinearLayout>
+                <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131428936" ="@drawable/2131232839" ="fill_parent" ="48.0dip" ="16.0dip" ="12.0dip" android:text="@string/_transfer" ="false" 2130969173="10.0" style="@style/2132149446" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

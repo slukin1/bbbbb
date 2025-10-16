@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="vertical" ="@color/2131099685" ="30.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131441753" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+    <FrameLayout ="120.0dip" ="120.0dip" ="12.0dip">
+        <RelativeLayout android:id="@id/2131430417" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449109" ="fill_parent" ="fill_parent" ="fitCenter" />
+            <ImageView android:id="@id/2131449107" ="wrap_content" ="wrap_content" ="true" ="true" 2130971077="@drawable/2131237073" />
+        </RelativeLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131449110" ="@drawable/2131232548" ="fill_parent" ="fill_parent">
+            <ImageView ="wrap_content" ="wrap_content" ="fitCenter" 2130971077="@drawable/2131237065" />
+            <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/c2c_mobile_payment_add_payment_upload" ="@font/2131296274" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/2131449112" ="@color/2131099676" ="gone" ="fill_parent" ="fill_parent" ="0.8">
+            <TextView ="@color/2131099778" android:id="@id/2131447662" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434790" ="16.0dip" ="16.0dip" ="true" ="@id/2131447662" 2130971077="@drawable/2131237910" 2130971375="@color/2131099764" />
+            <ImageView android:id="@id/2131439196" ="wrap_content" ="wrap_content" ="true" ="true" 2130971077="@drawable/2131237073" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView ="14.0sp" ="#fff0b90b" android:id="@id/2131438926" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_mobile_payment_add_details_reupload" ="@font/2131296274" />
+</LinearLayout>

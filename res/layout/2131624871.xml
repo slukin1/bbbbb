@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_verify_invitation" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/tv_desc" ="wrap_content" ="wrap_content" ="36.0dip" android:text="@string/copy_trading_verify_invitation_desc" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149350" />
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431515" ="0.0dip" ="wrap_content" ="16.0dip" 2130969820="@string/copy_trading_invitation_code" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" ="40.0dip" android:text="@string/_confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431515" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

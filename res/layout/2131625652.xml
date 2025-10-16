@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432216" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131442194" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/earn_asset" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.34" />
+    <TextView ="@color/2131099778" android:id="@id/tvAprLabel" ="wrap_content" ="wrap_content" android:text="@string/earn_apr" 2130969936="@id/2131432755" 2130969941="@id/2131442194" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="visible" ="false" ="0.0dip" ="0.0dip" ="3.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442194" />
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="64.0dip" android:text="@string/earn_no_records_found" ="8.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131439035" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

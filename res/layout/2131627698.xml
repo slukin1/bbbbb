@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232628" ="15.0dip" ="15.0dip" ="15.0dip" ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437251" ="gone" ="24.0dip" ="24.0dip" ="@color/2131099764" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437258" ="80.0dip" ="80.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437251" 2130971077="@drawable/2131238406" />
+    <androidx.appcompat.widget.AppCompatTextView ="20.0sp" ="@color/2131099764" android:id="@id/2131437262" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/mpc_wallet_never_backup_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437258" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437259" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/mpc_wallet_never_backup_subtitle" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437262" style="@style/2132149350" />
+    <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131437257" ="0.0dip" ="48.0dip" ="30.0dip" android:text="@string/mpc_wallet_backup_again" 2130969173="8.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437259" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131450306" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131627708" />
+    <RelativeLayout android:id="@id/2131439421" ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131450306">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434967" ="48.0dip" ="48.0dip" />
+        <TextView ="20.0sp" ="bold" ="@color/2131099764" android:id="@id/2131434975" ="wrap_content" ="wrap_content" ="12.0dip" ="@id/2131434967" style="@style/2132149384" />
+        <TextView ="bold" ="@color/2131099764" android:id="@id/2131434976" ="@drawable/2131232391" ="4.0dip" ="2.0dip" ="4.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="MPC" ="@id/2131434975" ="15.0dip" ="@id/2131434975" ="@color/2131101182" style="@style/2132149384" />
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131434966" ="wrap_content" ="wrap_content" ="15.0dip" ="@id/2131434975" style="@style/2132149384" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131439423" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131439421">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434970" ="@drawable/2131237285" ="20.0dip" ="20.0dip" ="8.0dip" ="true" ="@color/2131099764" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448582" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/mpc_wallet_customize" ="10.0dip" ="@id/2131434970" style="@style/2132149459" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="10.0dip" ="true" 2130971077="@drawable/2131237055" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439422" ="15.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131439423">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434968" ="20.0dip" ="23.0dip" ="@drawable/2131237997" ="@color/2131099764" ="true" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448577" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_management" ="10.0dip" 2130969911="@id/2131434968" 2130969936="@id/2131434968" 2130969941="@id/2131434968" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434969" ="gone" ="16.0dip" ="16.0dip" ="4.0dip" ="#fff6465d" ="2.0dip" 2130969936="@id/2131448577" 2130969941="@id/2131448577" 2130971077="@drawable/2131237095" />
+        <TextView ="@color/2131099778" android:id="@id/2131448575" ="gone" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_management_detail" 2130969905="true" 2130969918="@id/2131448576" 2130969927="0.0" 2130969937="@id/2131434968" 2130969940="@id/2131448577" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434330" ="20.0dip" ="20.0dip" 2130969911="@id/2131434968" 2130969917="2131438103" 2130969941="@id/2131434968" 2130971077="@drawable/2131237055" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131448576" ="@color/2131099863" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="3.0dip" ="10.0dip" 2130969905="true" 2130969918="@id/2131434330" 2130969927="1.0" 2130969936="@id/2131434969" 2130969941="@id/2131448577" style="@style/2132149454" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:id="@id/2131439424" ="15.0dip" ="visible" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131439422">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434973" ="@drawable/2131237308" ="20.0dip" ="20.0dip" ="8.0dip" ="true" ="@color/2131099764" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448583" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/mpc_wallet_escape_title" ="10.0dip" ="@id/2131434973" style="@style/2132149459" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="10.0dip" ="true" 2130971077="@drawable/2131237055" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131439425" ="15.0dip" ="visible" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131439424">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434977" ="@drawable/2131237226" ="20.0dip" ="20.0dip" ="8.0dip" ="true" ="@color/2131099764" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448597" ="wrap_content" ="wrap_content" ="8.0dip" android:text="View Seed Phrase" ="10.0dip" ="@id/2131434977" style="@style/2132149459" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="10.0dip" ="true" 2130971077="@drawable/2131237055" />
+    </RelativeLayout>
+    <View ="@color/2131100854" ="fill_parent" ="0.5dip" 2130969937="2131438103" 2130969940="@id/2131439421" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434971" ="@drawable/2131237186" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="true" ="@color/2131099863" 2130969937="2131438103" 2130969941="@id/2131448590" />
+    <TextView ="16.0sp" ="@color/2131099863" android:id="@id/2131448590" ="gone" ="wrap_content" ="wrap_content" ="35.0dip" android:text="@string/mpc_wallet_remove_wallet" ="15.0dip" 2130969936="@id/2131434971" 2130969940="@id/2131439425" style="@style/2132149374" />
+</androidx.constraintlayout.widget.ConstraintLayout>

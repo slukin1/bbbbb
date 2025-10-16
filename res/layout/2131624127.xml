@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@style/2132148547" ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131441601" ="fill_parent" ="wrap_content" layout="@layout/2131624377" />
+        <WebView android:id="@id/2131450348" ="fill_parent" ="fill_parent" />
+    </LinearLayout>
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <ProgressBar android:id="@id/2131438251" ="gone" ="wrap_content" ="wrap_content" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

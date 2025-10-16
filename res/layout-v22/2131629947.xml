@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="@style/2132149490" ="vertical" ="@drawable/2131238713" ="fill_parent" ="wrap_content" ="24.0dip" ="10.0dip" ="24.0dip" ="10.0dip" ="@dimen/2131166209" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" android:id="@id/2131427707" ="15.0dip" ="30.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+        <TextView ="#ff202630" ="center" android:id="@id/2131427708" ="fill_parent" ="wrap_content" android:text="@string/wallet_deposit_share_info" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434311" ="180.0dip" ="180.0dip" ="24.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout ="horizontal" android:id="@id/2131437504" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="@dimen/2131166184">
+        <TextView ="#ff848e9c" android:id="@id/2131437507" ="wrap_content" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_network_title" style="@style/2132149350" />
+        <TextView ="#ff202630" ="end" android:id="@id/2131437501" ="0.0dip" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_network_placeholder" ="1.0" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131437502" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="#ff848e9c" android:id="@id/2131427711" ="0.0dip" ="wrap_content" android:text="@string/ms_lite_wallet_address" ="1.0" style="@style/2132149350" />
+        <TextView ="#ff202630" ="end" android:id="@id/2131427710" ="200.0dip" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_network_placeholder" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131437505" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="#ff848e9c" android:id="@id/2131437019" ="wrap_content" ="wrap_content" android:text="@string/ms_lite_wallet_address" style="@style/2132149350" />
+        <TextView ="#ff202630" ="end" android:id="@id/2131437018" ="0.0dip" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_network_placeholder" ="1.0" style="@style/2132149450" />
+    </LinearLayout>
+    <TextView ="#ff848e9c" android:id="@id/bottomTips" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="4.0dip" ="@dimen/2131166184" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="90.0dip" ="wrap_content" ="24.0dip" ="24.0dip" ="@dimen/2131166209" 2130971077="@drawable/2131234589" />
+</LinearLayout>

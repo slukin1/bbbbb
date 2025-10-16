@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131448358" ="0.0dip" ="10.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149451" />
+    <TextView ="14.0sp" ="@color/2131099778" ="start|center" android:id="@id/tv_side" ="0.0dip" ="1.5dip" android:text="@string/futures_order_side" ="10.0dip" 2130969918="@id/2131447805" 2130969937="@id/2131448358" 2130969940="@id/2131448358" style="@style/2132149351" />
+    <TextView ="14.0sp" ="end" ="end|center" android:id="@id/2131447805" ="wrap_content" ="1" 2130969911="@id/tv_side" 2130969917="2131438103" 2130969941="@id/tv_side" style="@style/2132149351" />
+    <TextView ="14.0sp" ="@color/2131099778" ="start|center" android:id="@id/tv_avgprice" ="wrap_content" ="1.5dip" android:text="@string/twap_detail_avgprice" 2130969905="true" 2130969912="@id/tv_executed" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/2131448358" 2130969940="@id/tv_side" style="@style/2132149351" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428366" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_avgprice,tv_avgprice_value" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428396" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_executed,tv_executed_value" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier_reduce_only" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_total,tv_total_value" />
+    <androidx.constraintlayout.widget.Group android:id="@id/layout_reduce_only" ="wrap_content" ="wrap_content" 2130969125="tv_total,tv_total_value" />
+    <TextView ="14.0sp" ="@color/2131099778" ="start|center" android:id="@id/tv_executed" ="wrap_content" ="1.5dip" android:text="@string/spot_grid_executed" 2130969905="true" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_avgprice" 2130969940="@id/2131428366" 2130971382="@string/future_price_tip" style="@style/2132149351" />
+    <TextView ="14.0sp" ="@color/2131099778" ="start|center" android:id="@id/tv_total" ="wrap_content" ="1.5dip" android:text="@string/spot_grid_total" 2130969905="true" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_avgprice" 2130969940="@id/2131428396" style="@style/2132149351" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131435811" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView ="14.0sp" ="@color/2131099764" ="end|center" android:id="@id/tv_avgprice_value" ="0.0dip" ="10.0dip" 2130969907="@id/tv_avgprice" 2130969917="@id/2131447805" style="@style/2132149351" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131436615" ="wrap_content" ="wrap_content" 2130969125="tv_executed_value" />
+    <TextView ="14.0sp" ="@color/2131099764" ="end|center" android:id="@id/tv_executed_value" ="0.0dip" ="7.0dip" ="10.0dip" 2130969917="@id/2131447805" 2130969940="@id/2131428366" style="@style/2132149351" />
+    <TextView ="14.0sp" ="@color/2131099764" ="end|center" android:id="@id/tv_total_value" ="0.0dip" ="7.0dip" android:text="@string/futures_advance_tpsl_strategy_detail_reduce_only_true" ="10.0dip" 2130969917="@id/2131447805" 2130969940="@id/2131428396" style="@style/2132149351" />
+    <TextView ="14.0sp" ="@color/2131099778" ="start|center" android:id="@id/2131446556" ="wrap_content" ="1.5dip" android:text="@string/fee" 2130969917="@id/2131435811" 2130969927="0.0" 2130969937="@id/tv_avgprice" 2130969940="@id/barrier_reduce_only" style="@style/2132149351" />
+    <TextView ="14.0sp" ="@color/2131099764" ="end|center" android:id="@id/2131446558" ="0.0dip" ="1.5dip" android:text="@string/futures_advance_tpsl_strategy_detail_reduce_only_true" ="10.0dip" 2130969917="@id/2131447805" 2130969940="@id/barrier_reduce_only" style="@style/2132149351" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446262" ="fill_parent" ="wrap_content" android:text="@string/voptions_easy_introduction_desc_top" 2130969941="2131438103" style="@style/2132149350" />
+        <ImageView ="center_horizontal" android:id="@id/2131434604" ="@drawable/2131235987" ="fill_parent" ="0.0dip" ="15.0dip" ="@null" ="@color/2131099744" 2130969916="H, 345:160" 2130969940="@id/2131446262" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446259" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/voptions_easy_introduction_desc_bottom" 2130969940="@id/2131434604" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

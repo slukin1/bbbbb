@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439500" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131441023" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <TextView ="@color/2131099764" android:id="@id/title" ="0.0dip" ="wrap_content" android:text="@string/future_taker_buy_and_sell_volume" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441023" style="@style/2132149463" />
+    <TextView ="@color/2131099778" android:id="@id/2131441776" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.chart.FinanceBarChart android:id="@id/2131430691" ="0.0dip" ="170.0dip" ="38.0dip" 2130969912="@id/lv_legend" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441776" />
+    <com.finance.futures.common.feature.bigdata.ui.widget.FutureBigDataLegendView android:id="@id/lv_legend" ="0.0dip" ="25.0dip" ="14.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/2131430691" 2130969940="@id/2131430691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

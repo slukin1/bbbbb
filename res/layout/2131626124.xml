@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.edittext.KitTextView ="@color/2131099764" ="@color/2131099762" android:id="@id/2131445140" ="@drawable/2131233756" ="fill_parent" ="40.0dip" 2130969780="@string/twap_total_time_hint" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131101046" ="center" android:id="@id/2131444948" ="@drawable/2131233906" ="0.0dip" ="25.0dip" ="4.0dip" android:text="@string/twap_duration_time_picker_hour_one" ="false" 2130969918="@id/2131444950" 2130969937="2131438103" 2130969940="@id/2131445140" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131101046" ="center" android:id="@id/2131444950" ="@drawable/2131233906" ="0.0dip" ="25.0dip" android:text="@string/twap_duration_time_picker_hour_six" ="false" ="5.0dip" 2130969907="@id/2131444948" 2130969918="@id/2131444954" 2130969936="@id/2131444948" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131101046" ="center" android:id="@id/2131444954" ="@drawable/2131233906" ="0.0dip" ="25.0dip" android:text="@string/twap_duration_time_picker_hour_twelve" ="false" ="5.0dip" 2130969907="@id/2131444948" 2130969918="@id/2131444955" 2130969936="@id/2131444950" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131101046" ="center" android:id="@id/2131444955" ="@drawable/2131233906" ="0.0dip" ="25.0dip" android:text="@string/twap_duration_time_picker_hour_twenty_four" ="false" ="5.0dip" 2130969907="@id/2131444948" 2130969917="2131438103" 2130969936="@id/2131444954" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

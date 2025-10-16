@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" android:id="@id/2131441023" ="wrap_content" ="wrap_content" android:text="@string/dashboard_change_order_section" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.7" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/top" ="32.0dip" 2130969911="2131438103" 2130969918="@id/2131440374" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131440374" ="wrap_content" ="wrap_content" android:text="@string/dashboard_change_order_Sort" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" />
+        <TextView ="14.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131433839" ="wrap_content" ="wrap_content" android:text="@string/no_records_found" ="26.0dip" ="true" 2130969314="@drawable/2131238419" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131428586" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428878" ="0.0dip" ="wrap_content" android:text="@string/reset" ="1.0" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428761" ="0.0dip" ="wrap_content" android:text="@string/ms_index_done" ="1.0" ="10.0dip" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

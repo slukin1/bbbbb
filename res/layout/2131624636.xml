@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449676" ="@color/2131099685" ="false" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099785" android:id="@id/2131438299" ="@color/2131099685" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="true" ="gone" ="true" ="fill_parent" ="32.0dip" android:text="@string/content_pgc_disclaimer" ="1" ="3.0sp" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+    <com.binance.content.view.ViewPagerNestedScrollableHost android:id="@id/2131449744" ="visible" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969931="2131438103" 2130969940="@id/2131438299">
+        <FrameLayout android:id="@id/2131430398" ="fill_parent" ="fill_parent" />
+    </com.binance.content.view.ViewPagerNestedScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

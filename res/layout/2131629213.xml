@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131435048" ="visible" ="0.0dip" ="wrap_content" ="10.0dip" 2130969818="false" 2130969820="@string/c2c_mob_ad_post_p1_label_asset" 2130969834="1" 2130969918="@id/2131435049" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131435049" ="0.0dip" ="wrap_content" 2130969818="false" 2130969820="@string/c2c_mob_ad_post_p1_label_fiat" 2130969834="1" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/2131435048" 2130969941="2131438103" />
+</merge>

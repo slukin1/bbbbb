@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131448203" ="wrap_content" ="wrap_content" android:text="@string/wallet_funds_today_pnl" 2130969263="@string/i_understand" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <ImageView android:id="@id/2131434556" ="4.0dip" ="24.0dip" ="24.0dip" 2130969911="@id/2131448203" 2130969936="@id/2131448203" 2130969941="@id/2131448203" 2130971077="@drawable/2131237313" 2130971375="@color/2131099785" />
+    <ImageView android:id="@id/2131434839" ="gone" ="wrap_content" ="wrap_content" ="@null" 2130969917="2131438103" 2130969941="@id/2131448203" 2130971077="@drawable/2131233983" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="bottom" android:id="@id/2131448204" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="false" 2130969937="2131438103" 2130969940="@id/2131448203" style="@style/2132149414" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131448205" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/placeholder" ="false" 2130969911="@id/2131448204" 2130969936="@id/2131448204" style="@style/2132149350" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445497" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/wallet_pnl_7_day_pnl_label" 2130969918="@id/2131432732" 2130969937="2131438103" 2130969940="@id/2131448205" style="@style/2132149386" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131445498" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/placeholder" 2130969918="@id/2131432732" 2130969937="2131438103" 2130969940="@id/2131445497" style="@style/2132149446" />
+    <com.binance.widget.UnicodeWrapTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445499" ="0.0dip" ="wrap_content" android:text="@string/placeholder" 2130969918="@id/2131432732" 2130969937="2131438103" 2130969940="@id/2131445498" style="@style/2132149386" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445489" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/wallet_pnl_30_day_pnl_label" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131432732" 2130969940="@id/2131448205" style="@style/2132149386" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131445490" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/placeholder" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131432732" 2130969940="@id/2131445489" style="@style/2132149446" />
+    <com.binance.widget.UnicodeWrapTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445491" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131432732" 2130969940="@id/2131445490" style="@style/2132149386" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432732" ="0.0dip" ="0.0dip" 2130969921="0.5" />
+    <TextView ="@color/2131099785" android:id="@id/2131448501" ="wrap_content" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131445499" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

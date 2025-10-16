@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131099751" ="fill_parent" ="1.0px" />
+    <TextView ="@color/2131099764" android:id="@id/title" ="16.0dip" ="8.0dip" ="16.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/content_academy_trending_article" ="@dimen/2131166188" ="@dimen/2131166286" style="@style/2132149425" />
+</LinearLayout>

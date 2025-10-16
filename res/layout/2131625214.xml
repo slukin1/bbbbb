@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131430921" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="3.0dip" 2130969941="2131438103" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435515" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131442581">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="3.0dip" ="4.0dip" 2130969759="2" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" android:id="@id/2131444093" ="0.0dip" ="wrap_content" ="3.0dip" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131429513" 2130969941="2131438103" style="@style/2132149355" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitLoadingButton android:id="@id/2131428624" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/ms_activate_button_text" 2130969940="@id/2131435515" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

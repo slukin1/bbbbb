@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar ="@color/2131099685" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" ="centerInside" ="@null" ="@dimen/2131166184" ="@dimen/2131166170" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <TextView ="24.0sp" ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/c2c_problem_help_page_title" ="@font/2131296267" ="15.0dip" />
+            <TextView ="12.0sp" ="@color/2131099917" android:id="@id/2131437934" ="wrap_content" ="wrap_content" ="8.0dip" ="16.0dip" ="@font/2131296274" ="15.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432846" ="fill_parent" ="fill_parent" ="28.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout ="vertical" ="@color/2131099685" ="16.0dip" ="fill_parent" ="wrap_content" ="14.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428005" ="fill_parent" ="wrap_content" android:text="@string/c2c_appeal" 2130969927="0.5" 2130969928="2131440523" style="@style/2132148697" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout ="vertical" android:id="@id/2131436511" ="fill_parent" ="wrap_content" ="80.0dip" 2130969911="2131438103" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431947" ="fill_parent" ="16.0dip" 2130969912="@id/2131431948" 2130969941="2131438103">
+        <com.binance.base.component.PlaceholderView ="center" android:id="@id/2131430210" ="fill_parent" ="16.0dip" 2130969912="@id/2131430211" 2130969941="2131438103" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131431948" ="fill_parent" ="50.0dip" 2130969912="@id/2131430209" 2130969940="@id/2131431947">
+        <com.binance.base.component.PlaceholderView ="center_vertical" android:id="@id/2131430211" ="fill_parent" ="wrap_content" 2130969912="@id/2131430209" 2130969940="@id/2131430210" />
+    </FrameLayout>
+    <com.binance.base.component.PlaceholderView android:id="@id/2131430209" ="fill_parent" ="wrap_content" 2130969904="true" 2130969911="2131438103" 2130969940="@id/2131431948" />
+</com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout>

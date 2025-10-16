@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439479" ="@drawable/2131232784" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131234900" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" />
+    <FrameLayout ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/tv_indicator_title" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_style" style="@style/2132149425" />
+        <ImageView ="end" android:id="@id/2131434434" ="15.0dip" ="50.0dip" ="50.0dip" 2130971077="@drawable/2131237100" />
+    </FrameLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131429478" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="end" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/market_detail_chart_style" ="2" ="1.0" style="@style/2132149450" />
+        <com.major.android.uikit.tabs.KitTabLayout ="center_vertical" android:id="@id/2131429264" ="@drawable/2131236743" ="2.0dip" ="152.0dip" ="32.0dip" ="@color/2131099676" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131429141" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="end" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/market_detail_bullish_candle_stick" ="2" ="1.0" style="@style/2132149450" />
+        <FrameLayout ="center_vertical" android:id="@id/2131429146" ="@drawable/2131236698" ="2.0dip" ="2.0dip" ="92.0dip" ="28.0dip" ="15.0dip" ="15.0dip">
+            <ImageView ="start|center" android:id="@id/2131434385" ="@drawable/2131234916" ="4.0dip" ="44.0dip" ="24.0dip" 2130971077="@drawable/2131234905" />
+            <ImageView ="end|center" android:id="@id/2131434386" ="@drawable/2131234916" ="4.0dip" ="44.0dip" ="24.0dip" 2130971077="@drawable/2131234908" />
+        </FrameLayout>
+        <FrameLayout ="center_vertical" android:id="@id/2131429144" ="@drawable/2131236698" ="32.0dip" ="32.0dip">
+            <androidx.cardview.widget.CardView ="center" android:id="@id/2131429145" ="16.0dip" ="16.0dip" 2130968911="#ff2ebd85" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131428437" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="end" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/market_detail_bearish_candle_stick" ="2" ="1.0" style="@style/2132149450" />
+        <FrameLayout ="center_vertical" android:id="@id/2131428440" ="@drawable/2131236698" ="2.0dip" ="2.0dip" ="92.0dip" ="28.0dip" ="15.0dip" ="15.0dip">
+            <ImageView ="start|center" android:id="@id/2131434368" ="@drawable/2131234916" ="4.0dip" ="44.0dip" ="24.0dip" 2130971077="@drawable/2131234905" />
+            <ImageView ="end|center" android:id="@id/2131434369" ="@drawable/2131234916" ="4.0dip" ="44.0dip" ="24.0dip" 2130971077="@drawable/2131234908" />
+        </FrameLayout>
+        <FrameLayout ="center_vertical" android:id="@id/2131428438" ="@drawable/2131236698" ="32.0dip" ="32.0dip">
+            <androidx.cardview.widget.CardView ="center" android:id="@id/2131428439" ="16.0dip" ="16.0dip" 2130968911="#ff2ebd85" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131435886" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/multiple_chart_line_color" style="@style/2132149450" />
+        <FrameLayout ="end|center" android:id="@id/2131435887" ="@drawable/2131232496" ="32.0dip" ="32.0dip">
+            <androidx.cardview.widget.CardView ="center" android:id="@id/2131435885" ="16.0dip" ="16.0dip" 2130968911="@color/2131099765" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131435893" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/market_detail_line_width" style="@style/2132149450" />
+        <FrameLayout ="end|center" android:id="@id/2131435894" ="@drawable/2131236698" ="32.0dip" ="32.0dip">
+            <androidx.cardview.widget.CardView ="center" android:id="@id/2131435892" ="16.0dip" ="16.0dip" 2130968911="@color/2131099765" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_background" style="@style/2132149450" />
+        <FrameLayout ="end|center" android:id="@id/2131428252" ="@drawable/2131236698" ="32.0dip" ="32.0dip">
+            <androidx.cardview.widget.CardView ="center" android:id="@id/2131428253" ="16.0dip" ="16.0dip" 2130968911="@color/2131099685" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_grid_line" style="@style/2132149450" />
+        <FrameLayout ="end|center" android:id="@id/2131432487" ="@drawable/2131236698" ="32.0dip" ="32.0dip">
+            <androidx.cardview.widget.CardView ="center" android:id="@id/2131432488" ="16.0dip" ="16.0dip" 2130968911="@color/2131099751" 2130968912="@dimen/2131166155" 2130968914="0.0dip" 2130968916="0.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428568" ="15.0dip" ="15.0dip" ="fill_parent" ="70.0dip" ="116.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/reset_all_btn" ="0.0dip" ="40.0dip" android:text="@string/reset" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/confirm_btn" ="0.0dip" ="40.0dip" android:text="@string/confirm" 2130969173="4" 2130970889="2131437069" 2130971472="2131429147" style="@style/2132148692" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432067" ="fill_parent" ="wrap_content" 2130969125="reset_all_btn,confirm_btn" 2130969490="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131430831" ="15.0dip" ="15.0dip" layout="@layout/2131630122" />
+    <include android:id="@id/2131430770" ="gone" layout="@layout/2131630121" />
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131438010" ="fill_parent" ="fill_parent" />
+</LinearLayout>

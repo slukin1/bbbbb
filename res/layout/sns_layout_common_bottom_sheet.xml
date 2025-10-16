@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSBottomSheetView ="vertical" android:id="@id/sns_bottom_sheet" ="@dimen/sns_margin_small" ="true" ="true" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" 2130969901="@string/bottom_sheet_behavior">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sns_content" ="fill_parent" ="fill_parent" />
+    </com.sumsub.sns.core.widget.SNSBottomSheetView>
+</merge>

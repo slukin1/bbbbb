@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131450197" ="@drawable/2131232661" ="gone" ="fill_parent" ="1.0dip" ="15.0dip" ="15.0dip" ="20.0dip" />
+    <TextView ="@color/2131099778" ="start" android:id="@id/2131450198" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_wallet_connect" style="@style/2132149350" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_select_product" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <ImageView android:id="@id/ivClose" ="15.0dip" ="15.0dip" ="35.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131442075" ="@drawable/2131232746" ="12.0dip" ="7.0dip" ="12.0dip" ="7.0dip" ="true" ="true" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_all_holdings" ="@dimen/2131166170" ="@dimen/2131166277" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149350" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439554" ="fill_parent" ="320.0dip" ="24.0dip" 2130969912="@id/2131444441" 2130969937="2131438103" 2130969940="@id/2131442075" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131437072" ="0.0dip" ="0.0dip" 2130969921="0.5" />
+    <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131444441" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/reset" ="6.0dip" 2130969918="@id/2131437072" 2130969937="2131438103" 2130969940="@id/2131439554" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131442568" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/confirm" ="6.0dip" 2130969917="2131438103" 2130969936="@id/2131437072" 2130969940="@id/2131439554" style="@style/2132148692" />
+    <ProgressBar ="center" android:id="@id/2131438676" ="gone" ="35.0dip" ="35.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

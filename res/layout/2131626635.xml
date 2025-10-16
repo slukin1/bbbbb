@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="true" ="true" ="fill_parent" ="64.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="start" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+        <TextView ="normal" ="@color/2131099764" ="start" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="start" android:id="@id/2131444836" ="gone" ="fill_parent" ="wrap_content" ="2.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="0.0dip" ="12.0dip">
+        <TextView ="@color/2131099778" ="center" android:id="@id/tvRightText" ="gone" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131440982" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" 2130971356="@color/2131102146" 2130971451="@color/2131102147" />
+        <ImageView android:id="@id/ivArrow" ="gone" ="20.0dip" ="20.0dip" ="centerInside" ="@string/nezha_profile_arrow_description" ="8.0dip" 2130971077="@drawable/2131235289" 2130971375="@color/2131099778" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:cube_ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="2.0dip" ="2.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/_name" ="1" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <com.plutus.market.activities.zone.tab.cap.SoftRadioButton ="@color/2131099778" android:id="@id/tv_price" ="wrap_content" ="wrap_content" android:text="@string/last_price" ="1" 2130969936="@id/2131432755" 2130969941="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/2131429590" ="wrap_content" ="wrap_content" android:text="@string/slash" ="2.0dip" 2130969936="@id/tv_price" 2130969941="@id/2131445910" style="@style/2132149384" />
+            <com.plutus.market.activities.zone.tab.cap.SoftRadioButton ="@color/2131099778" android:id="@id/2131445910" ="wrap_content" ="wrap_content" ="1" ="2.0dip" 2130969936="@id/2131429590" 2130969941="2131438103" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" 2130971098="false" 2130971100="true">
+        <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131431365" ="none" ="fill_parent" ="fill_parent" ="never" 2130969347="@string/no_data" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

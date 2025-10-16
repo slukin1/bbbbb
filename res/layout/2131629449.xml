@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" android:id="@id/2131430092" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.api.common.DashUnderlineTextView ="14.0sp" ="@color/2131099778" android:id="@id/tv_fee_title" ="wrap_content" ="wrap_content" ="4.0dip" 2130969223="@dimen/2131166199" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tv_fee_value" ="wrap_content" ="wrap_content" ="@font/2131296273" ="10.0dip" 2130969911="2131438103" 2130969936="@id/tv_fee_title" 2130969941="2131438103" />
+</merge>

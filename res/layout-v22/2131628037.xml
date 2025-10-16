@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235563" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/2131428996" ="?2130970780" ="20.0dip" ="20.0dip" ="14.0dip" ="14.0dip" 2130969935="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/2131429020" ="?2130970780" ="gone" ="20.0dip" ="20.0dip" ="14.0dip" ="14.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235671" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="14.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429825" ="@drawable/2131235562" ="10.0dip" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166156" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="top" android:id="@id/2131431329" ="@null" ="fill_parent" ="wrap_content" ="10.0dip" ="132.0dip" ="80.0dip" ="50" ="4.0dip" 2130969912="@id/2131446071" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446071" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="15.0dip" ="26.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429825" />
+</androidx.constraintlayout.widget.ConstraintLayout>

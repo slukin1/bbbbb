@@ -1,0 +1,36 @@
+.class public final synthetic Lo/r8lambdaWXiNVeXFM7RTh57Z9Tr5jBbN9l4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field private synthetic d:Lcom/major/android/uikit/litebtmbar/KitLiteBottomBar;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/major/android/uikit/litebtmbar/KitLiteBottomBar;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/r8lambdaWXiNVeXFM7RTh57Z9Tr5jBbN9l4;->d:Lcom/major/android/uikit/litebtmbar/KitLiteBottomBar;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/r8lambdaWXiNVeXFM7RTh57Z9Tr5jBbN9l4;->d:Lcom/major/android/uikit/litebtmbar/KitLiteBottomBar;
+
+    invoke-static {v0, p1}, Lcom/major/android/uikit/litebtmbar/KitLiteBottomBar;->d(Lcom/major/android/uikit/litebtmbar/KitLiteBottomBar;Landroid/view/View;)V
+
+    return-void
+.end method

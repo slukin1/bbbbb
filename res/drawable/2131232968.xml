@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="3.0dip" ="3.0dip" ="3.0dip" ="3.0dip">
+        <shape ="rectangle">
+            <solid ="#ffebebeb" />
+            <corners ="2.0dip" />
+            <padding ="50.0dip" ="8.0dip" ="11.0dip" ="7.0dip" />
+        </shape>
+    </item>
+    <item ="-36.0dip">
+        <bitmap ="center|left" ="@drawable/2131234077" />
+    </item>
+</layer-list>

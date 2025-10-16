@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="top" ="horizontal" android:id="@id/2131436492" ="@drawable/2131234718" ="16.0dip" ="8.0dip" ="16.0dip" ="8.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166188" ="@dimen/2131166286">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="2.0dip" ="26.0dip" ="26.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="8.0dip">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="2" ="false" ="ltr" style="@style/2132149446" />
+                <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/rv_tags" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099671" ="end" android:id="@id/2131447950" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" ="1" ="false" ="ltr" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.binance.base.sensor.view.BaseExposureLayout>

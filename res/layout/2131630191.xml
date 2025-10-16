@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="12.0dip" ="fill_parent" ="66.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="#ff2ebd85" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="6.0dip" 2130969911="@id/2131442185" 2130969917="2131438103" 2130969941="@id/2131442185" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" ="end" android:id="@id/2131443875" ="140.0dip" ="wrap_content" ="31" ="true" ="2.0dip" 2130969917="2131438103" 2130969940="@id/tvAmount" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131442185" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

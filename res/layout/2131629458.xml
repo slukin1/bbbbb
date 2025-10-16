@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131442737" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_daily_est_rewards" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971382="@string/earn_the_current_amount_is" style="@style/2132149355" />
+    <TextView ="@color/2131099764" android:id="@id/2131442736" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="15.0dip" 2130969312="@color/2131099738" 2130969907="@id/2131442737" 2130969917="2131438103" style="@style/2132149450" />
+    <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131441425" ="fill_parent" ="wrap_content" ="3.0dip" ="6.0dip" ="3.0dip" 2130969714="2" 2130969940="@id/2131442737" />
+</androidx.constraintlayout.widget.ConstraintLayout>

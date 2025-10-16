@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427453" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131438432" ="0.0dip" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131427461" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969931="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="horizontal" android:id="@id/2131427457" ="fill_parent" ="44.0dip" 2130969931="2131438103" 2130969940="@id/2131438432">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131427451" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="8.0dip" ="8.0dip" ="7.0dip" 2130971077="@drawable/2131236863" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

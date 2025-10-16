@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131435391" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" android:text="@string/content_share_chat_room" ="@dimen/2131166184" ="@dimen/2131166179" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/content_share_chat_room_subtitle" ="@dimen/2131166184" style="@style/2132149355" />
+        <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" />
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/content_auto_share_chat_room" ="1.0" style="@style/2132149450" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131428937" ="32.0dip" ="wrap_content" />
+        </LinearLayout>
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" android:text="@string/content_auto_share_chat_room_subtitle" ="@dimen/2131166184" style="@style/2132149384" />
+        <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="16.0dip" />
+        <com.major.android.uikit2.button.KitButton ="#ff202630" android:id="@id/2131430229" ="fill_parent" ="40.0dip" ="15.0dip" ="27.0dip" ="15.0dip" ="12.0dip" android:text="@string/confirm" ="@dimen/2131166184" style="@style/2132148692" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131435519" ="gone" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="96.0dip" ="96.0dip" ="12.0dip" 2130971077="@drawable/2131238405" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/content_share_successful" style="@style/2132149425" />
+        <TextView ="@color/2131099778" ="center" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/content_share_successful_subtitle" ="@dimen/2131166184" style="@style/2132149350" />
+        <com.major.android.uikit2.button.KitButton ="#ff202630" android:id="@id/2131437818" ="fill_parent" ="40.0dip" ="15.0dip" ="27.0dip" ="15.0dip" ="12.0dip" android:text="@string/ok" ="@dimen/2131166184" style="@style/2132148692" />
+    </LinearLayout>
+</FrameLayout>

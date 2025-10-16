@@ -1,0 +1,44 @@
+.class public final synthetic Lo/clearOperationID;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic a:Lo/GetUsersInfoReq;
+
+.field private synthetic e:Lo/setInputListener$DropdropElements1;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/setInputListener$DropdropElements1;Lo/GetUsersInfoReq;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/clearOperationID;->e:Lo/setInputListener$DropdropElements1;
+
+    iput-object p2, p0, Lo/clearOperationID;->a:Lo/GetUsersInfoReq;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, Lo/clearOperationID;->e:Lo/setInputListener$DropdropElements1;
+
+    iget-object v1, p0, Lo/clearOperationID;->a:Lo/GetUsersInfoReq;
+
+    invoke-static {v0, v1}, Lo/GetUsersInfoReq;->a(Lo/setInputListener$DropdropElements1;Lo/GetUsersInfoReq;)Lkotlin/Unit;
+
+    move-result-object v0
+
+    return-object v0
+.end method

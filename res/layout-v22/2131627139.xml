@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234718" ="9.0dip" ="9.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <FrameLayout android:id="@id/2131431965" ="@drawable/2131235929" ="8.0dip" ="36.0dip" ="36.0dip" ="@color/2131099800" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <ImageView android:id="@id/2131434594" ="20.0dip" ="20.0dip" />
+        </FrameLayout>
+        <LinearLayout ="vertical" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969936="@id/2131431965" 2130969941="2131438103">
+            <LinearLayout ="horizontal" ="wrap_content" ="wrap_content">
+                <TextView ="@color/2131099764" android:id="@id/2131428419" ="wrap_content" ="wrap_content" ="2" ="ltr" ="12.0dip" style="@style/2132149372" />
+                <TextView ="@color/2131099789" ="end" ="center" ="center" android:id="@id/2131448681" ="@drawable/2131236009" ="6.0dip" ="6.0dip" ="wrap_content" ="16.0dip" ="1" ="6" ="false" ="ltr" ="4.0dip" ="@color/2131099879" ="@dimen/2131166269" style="@style/2132149397" />
+            </LinearLayout>
+            <TextView ="#ff848e9c" ="end" android:id="@id/2131440814" ="gone" ="wrap_content" ="wrap_content" ="1" ="12" ="ltr" ="12.0dip" style="@style/2132149386" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131450004" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <com.binance.widget.SteadyNestedScrollView android:id="@id/2131439803" ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip">
+            <TextView ="10.0dip" android:text="@string/_transfer" ="0.0dip" ="0.0dip" style="@style/2132148553" />
+            <include android:id="@id/2131449970" ="fill_parent" ="wrap_content" ="20.0dip" layout="@layout/2131629146" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436183" ="@drawable/2131238761" ="fill_parent" ="50.0dip" ="20.0dip">
+                <ImageView android:id="@id/2131433687" ="20.0dip" ="20.0dip" ="fitXY" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="@color/2131099764" android:id="@id/tvCoin" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969936="@id/2131433687" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099778" android:id="@id/2131445666" ="wrap_content" ="wrap_content" ="3.0dip" 2130969911="2131438103" 2130969936="@id/tvCoin" 2130969941="2131438103" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131447971" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149384" />
+            <com.major.android.uikit.input.KitInputText android:id="@id/2131433468" ="fill_parent" ="wrap_content" ="20.0dip" ="numberDecimal" 2130969660="@string/ms_withdraw_amount" 2130970672="@string/max" 2130970845="false" 2130970861="true" />
+            <LinearLayout ="horizontal" android:id="@id/2131436165" ="fill_parent" ="wrap_content" ="5.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p2_label_available" ="ltr" ="0.0dip" ="5.0dip" style="@style/2132149384" />
+                <ImageView android:id="@id/2131434899" ="wrap_content" ="wrap_content" ="@drawable/2131234247" />
+                <TextView ="@color/2131099764" ="start" android:id="@id/2131442249" ="0.0dip" ="wrap_content" ="1.0" ="ltr" style="@style/2132149384" />
+            </LinearLayout>
+            <LinearLayout ="horizontal" android:id="@id/2131436255" ="gone" ="fill_parent" ="wrap_content" ="5.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/in_order" ="ltr" style="@style/2132149384" />
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/twap_duration_time_picker_colon" ="ltr" ="0.0dip" ="5.0dip" style="@style/2132149384" />
+                <TextView ="@color/2131099764" ="start" android:id="@id/2131443327" ="0.0dip" ="wrap_content" ="1.0" ="ltr" style="@style/2132149384" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131429730" ="fill_parent" ="0.0dip" ="20.0dip" ="1.0">
+                <View android:id="@id/2131431028" ="@color/2131099751" ="fill_parent" ="0.5dip" ="2.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+                <ImageView android:id="@id/2131434081" ="16.0dip" ="16.0dip" ="20.0dip" ="@drawable/2131234247" 2130969937="2131438103" 2130969940="@id/2131431028" />
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/futures_portfolio_margin_bnb_transfer_hint" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131434081" 2130969941="@id/2131434081" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.major.android.uikit.button.KitButton ="@dimen/2131165951" ="@color/2131099789" ="center" android:id="@id/2131428936" ="@drawable/2131232839" ="fill_parent" ="48.0dip" ="20.0dip" ="16.0dip" android:text="@string/wallet_confirm_transfer" ="false" 2130969173="4" style="@style/2132149446" />
+        </LinearLayout>
+    </com.binance.widget.SteadyNestedScrollView>
+</LinearLayout>

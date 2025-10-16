@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="gone" ="45.0dip" ="20.0dip" ="@color/2131099764" ="15.0dip" ="0.0dip" 2130971077="@drawable/2131236863" />
+        <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131449019" ="fill_parent" ="wrap_content" 2130968735="@android:color/transparent" 2130968908="true" 2130969013="false" 2130969627="@string/_search" 2130970759="@string/ms_search_input_hint">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end|center" android:id="@id/2131429090" ="10.0dip" ="5.0dip" ="10.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_search" ="15.0dip" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131429091" ="10.0dip" ="5.0dip" ="10.0dip" ="5.0dip" ="gone" ="40.0dip" ="wrap_content" ="@color/2131099738" ="15.0dip" 2130971077="@drawable/2131237994" />
+            <com.major.android.uikit2.button.KitButton ="end|center" android:id="@id/2131429092" ="8.0dip" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_search" ="25.0dip" style="@style/2132148706" />
+        </com.major.android.uikit2.search.KitSearchBar>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <FrameLayout android:id="@id/2131438938" ="@color/2131099685" ="fill_parent" ="fill_parent" />
+</LinearLayout>

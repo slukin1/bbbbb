@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436492" ="fill_parent" ="fill_parent" ="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.datepicker.wheelview.view.KitWheelView ="center_vertical" android:id="@id/2131450363" ="0.0dip" ="fill_parent" ="0.45" ="10.0dip" />
+    <com.major.android.uikit.datepicker.wheelview.view.KitWheelView ="center_vertical" android:id="@id/2131450362" ="0.0dip" ="fill_parent" ="0.1" />
+    <com.major.android.uikit.datepicker.wheelview.view.KitWheelView ="center_vertical" android:id="@id/2131450359" ="0.0dip" ="fill_parent" ="0.45" ="10.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

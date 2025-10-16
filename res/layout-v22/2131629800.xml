@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099800" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131436566" ="0.0dip" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969918="@id/2131431070" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131446951" ="@drawable/2131236717" ="2.0dip" ="2.0dip" ="0.0dip" ="wrap_content" android:text="@string/alpha_limit_trade_keyboard_market" ="1" ="1.0" ="@dimen/2131166199" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_first" ="@drawable/2131236717" ="2.0dip" ="2.0dip" ="invisible" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip" ="@dimen/2131166199" 2130969911="2131438103" 2130969936="@id/2131446951" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_second" ="@drawable/2131236717" ="2.0dip" ="2.0dip" ="invisible" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip" ="@dimen/2131166199" 2130969911="2131438103" 2130969936="@id/tv_first" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_third" ="@drawable/2131236717" ="2.0dip" ="2.0dip" ="invisible" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip" ="@dimen/2131166199" 2130969911="2131438103" 2130969936="@id/tv_second" 2130969941="2131438103" style="@style/2132149450" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431070" ="wrap_content" ="40.0dip" android:text="@string/ms_index_done" ="10.0dip" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+</androidx.constraintlayout.widget.ConstraintLayout>

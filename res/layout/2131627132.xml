@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099800" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" ="wrap_content" ="wrap_content" ="19.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234336" />
+    <TextView ="@drawable/2131235970" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/standard_redemption" ="8.0dip" 2130969936="@id/icon" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099863" android:id="@id/2131443541" ="gone" ="0.0dip" ="wrap_content" android:text="@string/earn_fast_redemption_limit" ="8.0dip" ="11.0dip" ="true" 2130969907="@id/tvTitle" 2130969917="2131438103" 2130969936="@id/tvTitle" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131442778" ="17.0dip" ="0.0dip" ="wrap_content" ="12.0dip" ="15.0dip" android:text="@string/earn_the_redeemed_quantity" ="7.0dip" 2130969917="2131438103" 2130969918="@id/2131439886" 2130969937="@id/tvTitle" 2130969940="@id/tvTitle" style="@style/2132149350" />
+    <CheckBox android:id="@id/2131439886" ="20.0dip" ="20.0dip" ="17.0dip" 2130968849="@drawable/2131235967" 2130969911="2131438103" 2130969935="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

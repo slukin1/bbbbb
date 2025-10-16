@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131440078" ="fill_parent" ="400.0dip" />
+    <View ="@color/2131100476" ="fill_parent" ="5.0dip" />
+    <TextView ="#ff828a98" ="center" android:id="@id/2131440077" ="?android:selectableItemBackground" ="fill_parent" ="48.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" style="@style/2132149371" />
+</LinearLayout>

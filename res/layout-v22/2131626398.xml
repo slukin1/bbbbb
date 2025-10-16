@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439436" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448037" ="wrap_content" ="wrap_content" android:text="@string/c2c_ad_post_p3_label_terms" ="@font/2131296273" />
+    <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131437411" ="fill_parent" ="136.0dip" ="5.0dip" 2130970274="@color/2131099748" 2130970275="true" 2130970276="@string/c2c_ad_post_p3_terms_input_placeholder" 2130970278="1000" 2130970280="136" 2130970282="false" 2130970283="true" 2130970285="false" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447651" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/c2c_mob_ad_post_p3_label_autoreply" ="@font/2131296273" />
+    <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131437405" ="fill_parent" ="136.0dip" ="5.0dip" 2130970274="@color/2131099748" 2130970275="true" 2130970276="@string/c2c_mob_ad_post_p3_placeholder_autoreply" 2130970278="1000" 2130970280="136" 2130970282="false" 2130970283="true" 2130970285="false" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="6.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131449577" ="gone" ="fill_parent" ="wrap_content" ="14.0dip" layout="@layout/2131629304" />
+    <include android:id="@id/2131449578" ="gone" ="fill_parent" ="wrap_content" layout="@layout/2131629284" />
+    <TextView ="@color/2131099764" android:id="@id/2131444323" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/lite_earn_recommend" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130969974="2131439795" style="@style/2132149446" />
+</LinearLayout>

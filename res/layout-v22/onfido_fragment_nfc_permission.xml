@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView android:id="@id/2131439803" ="fill_parent" ="wrap_content" ="@id/2131450333" ="true">
+        <LinearLayout ="vertical" android:id="@id/2131430863" ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167206" ="@dimen/2131167206">
+            <TextView android:id="@id/title" ="@dimen/2131167428" android:text="@string/onfido_nfc_permission_title" ="5.0sp" ="true" style="@style/2132148962" />
+            <TextView android:id="@id/2131440847" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/onfido_nfc_permission_subtitle" ="false" style="@style/2132148936" />
+            <RelativeLayout android:id="@id/2131440654" ="fill_parent" ="wrap_content" ="@dimen/2131167425" ="@dimen/2131167425" ="@dimen/2131167386">
+                <com.onfido.android.sdk.capture.ui.widget.CircularImageView ="center" android:id="@id/2131440633" ="@dimen/2131167503" ="@dimen/2131167503" ="@dimen/2131167504" 2130970351="@drawable/onfido_ic_setting_blue" />
+                <TextView ="end" android:id="@id/2131440639" android:text="@string/onfido_nfc_permission_list_item_nfc" ="false" ="true" ="8.0dip" ="@id/2131440633" style="@style/2132148937" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <include layout="@layout/onfido_watermark_layout" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131438653" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" ="@id/2131450333" ="@dimen/2131167223" 2130970348="@string/onfido_nfc_permission_button_primary" />
+</RelativeLayout>

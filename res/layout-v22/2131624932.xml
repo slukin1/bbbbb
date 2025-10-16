@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131431363" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="48.0dip" ="48.0dip" 2130971077="@drawable/2131238419" />
+    <TextView ="@color/2131099764" android:id="@id/tv_empty" ="@drawable/2131236709" ="10.0dip" ="5.0dip" ="10.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_view_portfolios" ="@dimen/2131166156" ="@dimen/2131166260" style="@style/2132149450" />
+</LinearLayout>

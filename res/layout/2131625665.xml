@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432224" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131449355" ="0.0dip" ="0.0dip" 2130969912="@id/2131432786" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148650" />
+    <androidx.appcompat.widget.AppCompatTextView ="17.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/kline_setting_interval_setting_interval" ="@font/2131296275" 2130969912="@id/2131432786" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433096" ="?2130968587" ="5.0dip" ="30.0dip" ="30.0dip" ="centerInside" ="10.0dip" 2130969912="@id/2131432786" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432786" ="0.0dip" ="0.0dip" 2130969919="44.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441235" ="0.0dip" ="wrap_content" ="8.0dip" ="12.0dip" ="12.0dip" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969940="@id/2131449355" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441236" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/market_intervals_adjuest_tips" ="12.0dip" ="12.0dip" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969940="@id/2131441235" style="@style/2132149454" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439040" ="0.0dip" ="wrap_content" ="18.0dip" ="12.0dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441236" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131441297" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/reset" ="12.0dip" 2130969173="4" 2130969911="2131438103" 2130969918="@id/2131441303" 2130969937="2131438103" 2130970889="2131437069" 2130971472="2" style="@style/2132148694" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131441303" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/save" ="12.0dip" ="12.0dip" 2130969173="4" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131441297" 2130970889="2131437069" 2130971472="2131429147" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

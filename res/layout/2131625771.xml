@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236025" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/c2c_sheet_filter_amount" ="1.0" ="@font/2131296275" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.input.KitInputEditAmount android:id="@id/2131431512" ="fill_parent" ="wrap_content" ="12.0dip" ="15.0dip" ="15.0dip" 2130969655="@string/fiat_filter_target_money" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <com.binance.c2c.trade.view.AutoPlaceAmountView android:id="@id/2131449444" ="visible" ="fill_parent" ="wrap_content" ="-15.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431512" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_reset" ="0.0dip" ="wrap_content" ="16.0dip" ="20.0dip" android:text="@string/reset" ="15.0dip" ="4.0dip" 2130969911="2131438103" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130969940="@id/2131449444" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/confirm" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/btn_reset" 2130969940="@id/2131449444" />
+</androidx.constraintlayout.widget.ConstraintLayout>

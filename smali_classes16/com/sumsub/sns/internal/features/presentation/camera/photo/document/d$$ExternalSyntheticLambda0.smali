@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d$$ExternalSyntheticLambda0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d$$ExternalSyntheticLambda0;->f$0:Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d$$ExternalSyntheticLambda0;->f$0:Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d;
+
+    invoke-static {v0}, Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d;->p(Lcom/sumsub/sns/internal/features/presentation/camera/photo/document/d;)V
+
+    return-void
+.end method

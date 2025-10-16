@@ -1,0 +1,86 @@
+.class final Lde/authada/org/bouncycastle/jcajce/provider/drbg/DRBG$4;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/security/PrivilegedAction;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lde/authada/org/bouncycastle/jcajce/provider/drbg/DRBG;->createInitialEntropySource()Lde/authada/org/bouncycastle/crypto/prng/EntropySourceProvider;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/security/PrivilegedAction<",
+        "Ljava/security/SecureRandom;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic run()Ljava/lang/Object;
+    .locals 1
+
+    .line 65353
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/jcajce/provider/drbg/DRBG$4;->run()Ljava/security/SecureRandom;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final run()Ljava/security/SecureRandom;
+    .locals 3
+
+    .line 65352
+    :try_start_0
+    const-class v0, Ljava/security/SecureRandom;
+
+    const-string v1, "getInstanceStrong"
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v2, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/security/SecureRandom;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    new-instance v0, Lde/authada/org/bouncycastle/jcajce/provider/drbg/DRBG$CoreSecureRandom;
+
+    invoke-static {}, Lde/authada/org/bouncycastle/jcajce/provider/drbg/DRBG;->access$300()[Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lde/authada/org/bouncycastle/jcajce/provider/drbg/DRBG$CoreSecureRandom;-><init>([Ljava/lang/Object;)V
+
+    return-object v0
+.end method

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131445555" ="fill_parent" ="wrap_content" android:text="@string/dialog_adjust_leverage_title" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131445556" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/futures_preference_position_button_setting_adjust_leverage_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131447924" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/futures_preference_position_button_setting_stop_profit" style="@style/2132149425" />
+            <TextView ="12.0sp" ="@color/2131099764" ="end" android:id="@id/2131447925" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/futures_preference_position_button_setting_stop_profit_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131445952" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/futures_preference_position_button_setting_close_position" style="@style/2132149425" />
+            <TextView ="12.0sp" ="@color/2131099764" ="end" android:id="@id/2131445954" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/futures_preference_position_button_setting_close_position_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131446952" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/futures_preference_position_button_setting_market_close" style="@style/2132149425" />
+            <TextView ="12.0sp" ="@color/2131099764" ="end" android:id="@id/2131446953" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/futures_preference_position_button_setting_market_close_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131447669" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/futures_preference_position_button_setting_reverse" style="@style/2132149425" />
+            <TextView ="12.0sp" ="@color/2131099764" ="end" android:id="@id/2131447672" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/futures_preference_position_button_setting_reverse_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131447415" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/futures_switch_position_position_switch_title" style="@style/2132149425" />
+            <TextView ="12.0sp" ="@color/2131099764" ="end" android:id="@id/2131447416" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/futures_switch_position_switch_content" style="@style/2132149350" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429058" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/OK" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</LinearLayout>

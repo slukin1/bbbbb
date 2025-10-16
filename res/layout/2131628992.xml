@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" ="?2130968589" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970295="@null">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <TextView ="@android:style/TextAppearance.Material.Title" ="18.0sp" ="bold" ="@color/2131099764" android:id="@id/2131448973" ="wrap_content" ="wrap_content" ="false" ="true" ="@font/2131296281" ="15.0dip" />
+            <include android:id="@id/2131448969" layout="@layout/2131628987" />
+        </RelativeLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+</androidx.constraintlayout.widget.ConstraintLayout>

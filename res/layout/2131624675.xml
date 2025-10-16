@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131432183" ="@color/2131100687" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131441677" ="fill_parent" ="wrap_content" />
+    <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131435538" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="48.0dip" ="26.0dip" ="26.0dip" />
+    </FrameLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131428562" ="fill_parent" ="wrap_content" />
+</LinearLayout>

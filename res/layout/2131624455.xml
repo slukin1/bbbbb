@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.smartrefresh.KitSmartRefreshLayout android:id="@id/2131440160" ="fill_parent" ="fill_parent" 2130971089="false" 2130971098="false" 2130971105="false" 2130971106="true">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449648" ="#ff0b0e11" ="fill_parent" ="fill_parent" />
+    </com.major.android.uikit.smartrefresh.KitSmartRefreshLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441679" ="#ff0b0e11" ="16.0dip" ="8.0dip" ="16.0dip" ="8.0dip" ="gone" ="fill_parent" ="200.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428230" ="10.0dip" ="44.0dip" ="44.0dip" ="#ffffffff" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131437628" ="#ff0b0e11" ="gone" ="fill_parent" ="0.0dip" 2130969336="@null" 2130969342="true" 2130969343="@drawable/2131233083" 2130969344="@drawable/2131237936" 2130969345="@string/nezha_refresh" 2130969346="@string/ms_network_link_failed" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131441679" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131439798" ="fill_parent" ="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

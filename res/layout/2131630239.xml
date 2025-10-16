@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" android:id="@id/2131440644" ="0.0dip" ="wrap_content" android:text="@string/c2c_appeal_submitted" ="1.0" ="@font/2131296274" />
+    <TextView ="12.0sp" ="center" android:id="@id/2131440645" ="0.0dip" ="wrap_content" android:text="@string/c2c_negotiate_with_counterparty" ="1.0" ="@font/2131296274" />
+    <TextView ="12.0sp" ="end" android:id="@id/2131440646" ="0.0dip" ="wrap_content" android:text="@string/c2c_cs_review" ="1.0" ="@font/2131296274" />
+</LinearLayout>

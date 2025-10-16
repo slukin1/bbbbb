@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="64.0dip" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="wrap_content">
+        <com.binance.content.internal.view.ContentAvatarView ="center_horizontal" android:id="@id/2131428178" ="visible" ="wrap_content" ="wrap_content" />
+        <FrameLayout android:id="@id/2131437124" ="gone" ="wrap_content" ="wrap_content" ="7.0dip">
+            <com.google.android.material.imageview.ShapeableImageView ="@color/2131099744" ="48.0dip" ="48.0dip" 2130970795="@style/2132150259" />
+            <com.google.android.material.imageview.ShapeableImageView ="center" android:id="@id/2131437126" ="20.0dip" ="20.0dip" ="@color/2131099764" 2130970795="@style/2132150259" 2130971077="@drawable/2131237679" />
+        </FrameLayout>
+        <include ="end|bottom|center" android:id="@id/2131435361" ="12.0dip" ="12.0dip" ="4.0dip" ="13.0dip" layout="@layout/2131624459" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131437428" ="fill_parent" ="wrap_content" ="1" style="@style/2132149384" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131102384" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="70.0dip" ="70.0dip" ="10.0dip" ="10.0dip" 2130969912="@id/tv_desc" 2130969917="2131438103" 2130969923="2131450408" 2130969937="2131438103" 2130969940="@id/tv_title" 2130969946="2131450408" 2130971077="@drawable/2131234667" />
+    <TextView ="25.0sp" ="@color/2131102397" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="16.0dip" ="10.0dip" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="#ff848e9c" ="center" android:id="@id/tv_desc" ="0.0dip" ="wrap_content" ="20.0dip" ="20.0dip" 2130969912="@id/2131428227" 2130969917="2131438103" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/tv_title" 2130969943="2131438085" />
+    <com.major.android.uikit.button.KitLoadingButton android:id="@id/2131428227" ="wrap_content" ="wrap_content" ="32.0dip" android:text="Download" ="true" 2130969173="48.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" 2130970889="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

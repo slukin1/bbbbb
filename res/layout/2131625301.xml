@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" ="24.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" 2130971077="@drawable/2131238406" />
+        <TextView ="14.0sp" ="@color/2131099764" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_may_not_receive_ad_card_tips" ="@font/2131296274" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436796" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox ="center" ="top" android:id="@id/2131429513" ="24.0dip" ="24.0dip" ="false" />
+            <TextView ="12.0sp" ="@color/2131100635" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_do_not_show" ="@font/2131296274" ="4.0dip" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="0.0dip" ="fill_parent" android:text="@string/cancel" ="1.0" style="@style/2132148697" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131444598" ="0.0dip" ="wrap_content" android:text="@string/c2c_dialog_ad_card_send" ="1.0" ="12.0dip" style="@style/2132148692" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429966" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="0.0dip" ="0.0dip" 2130969912="@id/2131449507" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437790" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" 2130969837="3" 2130969840="@string/c2c_private_ad_t1_withdrawal_limit" 2130969843="1" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448434" ="wrap_content" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/c2c_post_ad_step1" style="@style/2132149445" />
+            <com.binance.c2c.advertisement.view.AdTradeTypeView android:id="@id/2131428143" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" />
+            <com.binance.c2c.advertisement.view.AdAssetFiatView android:id="@id/2131428103" ="fill_parent" ="wrap_content" ="15.0dip" ="28.0dip" ="15.0dip" />
+            <com.binance.c2c.advertisement.view.AdPriceInputView android:id="@id/price" ="fill_parent" ="wrap_content" ="15.0dip" ="28.0dip" ="15.0dip" />
+            <View ="@drawable/2131232830" ="fill_parent" ="1.0dip" ="15.0dip" ="32.0dip" ="15.0dip" ="32.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445621" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_private_ad_set_amount_method" style="@style/2132149445" />
+            <com.binance.c2c.advertisement.view.AdPostQuantityView android:id="@id/2131438776" ="fill_parent" ="wrap_content" ="24.0dip" />
+            <com.binance.c2c.advertisement.view.AdPostOrderRangeView android:id="@id/2131437951" ="fill_parent" ="wrap_content" ="24.0dip" />
+            <View ="@drawable/2131232830" ="fill_parent" ="1.0dip" ="15.0dip" ="24.0dip" ="15.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447000" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_private_ad_set_method" style="@style/2132149445" />
+            <com.binance.c2c.advertisement.view.AdsSafePaymentView android:id="@id/2131439733" ="fill_parent" ="wrap_content" ="24.0dip" />
+            <com.binance.c2c.advertisement.view.AdsPaymentAddView android:id="@id/2131427674" ="fill_parent" ="wrap_content" ="28.0dip" />
+            <com.binance.c2c.advertisement.view.AdsPaymentTimeView android:id="@id/2131438145" ="fill_parent" ="wrap_content" ="15.0dip" ="28.0dip" ="15.0dip" />
+            <View ="@drawable/2131232830" ="fill_parent" ="1.0dip" ="15.0dip" ="32.0dip" ="15.0dip" ="32.0dip" />
+            <com.binance.c2c.advertisement.view.AdsStatusView ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="24.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@id/2131449507" ="@drawable/2131232830" ="0.0dip" ="1.0dip" 2130969912="@id/2131449683" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.binance.c2c.advertisement.view.AdShowFeeView android:id="@id/2131449683" ="0.0dip" ="wrap_content" 2130969912="@id/2131429070" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429070" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="16.0dip" android:text="@string/preview" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

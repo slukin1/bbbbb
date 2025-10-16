@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131432225" ="@color/2131099685" ="fill_parent" ="fill_parent" ="center" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <HorizontalScrollView android:id="@id/2131432950" ="none" ="false" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" 2130969918="@id/ivFilter" 2130969937="2131438103" 2130969941="2131438103">
+            <RadioGroup ="horizontal" android:id="@id/2131439220" ="wrap_content" ="wrap_content">
+                <RadioButton ="center" android:id="@id/2131438886" ="wrap_content" ="wrap_content" ="true" android:text="@string/earn_flexible" style="@style/2132148774" />
+                <RadioButton ="center" android:id="@id/2131438883" ="wrap_content" ="wrap_content" android:text="@string/earn_fixed" ="15.0dip" style="@style/2132148774" />
+                <RadioButton ="center" android:id="@id/2131438899" ="wrap_content" ="wrap_content" android:text="@string/earn_loan_vip_loan" ="15.0dip" style="@style/2132148774" />
+                <RadioButton ="center" android:id="@id/2131438885" ="wrap_content" ="wrap_content" android:text="@string/earn_flexible_legacy" ="15.0dip" style="@style/2132148774" />
+                <RadioButton ="center" android:id="@id/2131438896" ="wrap_content" ="wrap_content" android:text="@string/earn_loan_stable" ="15.0dip" style="@style/2132148774" />
+            </RadioGroup>
+        </HorizontalScrollView>
+        <View android:id="@id/viewMask" ="@drawable/2131232561" ="18.0dip" ="0.0dip" 2130969911="@id/2131432950" 2130969917="@id/2131432950" 2130969941="@id/2131432950" />
+        <ImageView android:id="@id/ivFilter" ="2.0dip" ="24.0dip" ="24.0dip" ="@drawable/2131237353" ="13.0dip" 2130969911="@id/2131432950" 2130969917="2131438103" 2130969941="@id/2131432950" />
+        <TextView android:id="@id/tvSubscriptionTipStar" ="wrap_content" ="wrap_content" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969941="@id/tvSubscriptionTip" />
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/tvSubscriptionTip" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/earn_loan_subscription_history_tip" ="4.0dip" ="15.0dip" 2130969905="true" 2130969912="@id/2131428303" 2130969917="2131438103" 2130969936="@id/tvSubscriptionTipStar" 2130969940="@id/viewMask" 2130969962="@dimen/2131166184" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432602" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvSubscriptionTipStar,tvSubscriptionTip" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="viewMask,tvSubscriptionTip" />
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131431866" ="gone" ="wrap_content" ="28.0dip" ="12.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131428303" />
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="0.0dip" ="6.0dip" 2130969911="2131438103" 2130969940="@id/2131431866">
+            <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439572" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131100620" ="center" android:id="@id/textViewEmpty" ="gone" ="wrap_content" ="wrap_content" android:text="@string/no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131431937" ="@null" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center" ="@drawable/2131235991" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166148" ="@dimen/2131166148" ="@color/2131099685">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434915" ="120.0dip" ="120.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="20.0dip" ="20.0dip" ="22.0dip" ="16.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/com_app_upgrade_dialog_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434915" style="@style/2132149429" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131448552" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="@id/tv_title" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149350" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="center" ="vertical" ="@null" ="8.0dip" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448552">
+            <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" ="250.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/tv_tips" ="vertical" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" style="@style/2132149350" />
+            </androidx.core.widget.NestedScrollView>
+            <ProgressBar android:id="@id/2131438254" ="gone" ="fill_parent" ="6.0dip" ="24.0dip" ="16.0dip" ="24.0dip" ="100" ="0" ="@drawable/2131232425" ="6.0dip" style="@style/2132149833" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428983" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/com_download_in_background" style="@style/2132148704" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428961" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/ms_app_update_update" ="1.0" ="false" style="@style/2132148692" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

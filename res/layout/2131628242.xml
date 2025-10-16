@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton ="center_vertical" android:id="@id/2131438433" ="?2130970781" ="12.0dip" ="wrap_content" ="wrap_content" ="@drawable/2131235885" ="@string/places_cancel" ="20.0dip" />
+    <EditText ="20.0sp" ="@color/2131102567" ="@color/2131102561" android:id="@id/2131438444" ="@android:color/transparent" ="0.0dip" ="fill_parent" android:hint="@string/places_autocomplete_search_hint" ="1" ="1" ="true" ="1.0" ="textNoSuggestions" ="actionSearch|flagNoExtractUi" ="@null" />
+    <ImageButton ="center_vertical" android:id="@id/2131438434" ="?2130970781" ="12.0dip" ="wrap_content" ="wrap_content" ="@drawable/2131235886" ="@string/places_autocomplete_clear_button" />
+</merge>

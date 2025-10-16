@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="bottom" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434358" ="0.0dip" ="240.0dip" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235408" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="13.0dip" ="wrap_content" ="wrap_content" 2130969917="@id/2131434358" 2130969941="@id/2131434358" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="32.0dip" ="32.0dip" ="32.0dip" 2130969911="@id/2131434358">
+        <TextView ="#ffeaecef" ="end" ="wrap_content" ="wrap_content" android:text="@string/earn_meet" ="1" ="false" style="@style/2132148850" />
+        <TextView ="#ffeaecef" ="end" ="wrap_content" ="wrap_content" android:text="@string/launcher_switch_version" ="1" ="false" style="@style/2132148850" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099685" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434358">
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content" ="32.0dip" ="32.0dip" ="32.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="@color/2131099881" 2130971077="@drawable/2131237037" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="wrap_content" ="wrap_content" android:text="@string/ocbs_lite_switch_pro_item1" ="5.0dip" style="@style/2132149346" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content" ="32.0dip" ="8.0dip" ="32.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="@color/2131099881" 2130971077="@drawable/2131237037" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="wrap_content" ="wrap_content" android:text="@string/ocbs_lite_switch_pro_item2" ="5.0dip" style="@style/2132149346" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429009" ="fill_parent" ="wrap_content" ="15.0dip" ="120.0dip" ="15.0dip" ="16.0dip" android:text="@string/ms_lite_switch_to_pro" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

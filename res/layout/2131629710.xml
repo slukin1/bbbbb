@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="fill_parent" ="wrap_content" 2130968629="1002" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432067" ="0.0dip" ="wrap_content" 2130969125="groupHidePairs, group_hide_other_underlying" 2130969489="0.0" 2130969491="2131438085" 2130969496="2" 2130969500="@dimen/2131166247" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/groupHidePairs" ="wrap_content" ="wrap_content" 2130969937="2131438103">
+        <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/switchHidePairs" ="16.0dip" ="16.0dip" ="15.0dip" 2130969835="2131429513" />
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/tvHideOtherPair" ="wrap_content" ="wrap_content" android:text="@string/voptions_position_hide_other_symbols" ="5.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/group_hide_other_underlying" ="wrap_content" ="wrap_content" 2130969936="@id/groupHidePairs" 2130969941="2131438103">
+        <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429394" ="16.0dip" ="16.0dip" ="15.0dip" 2130969835="2131429513" 2130969911="@id/2131446631" 2130969937="2131438103" 2130969941="@id/2131446631" />
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/2131446631" ="wrap_content" ="wrap_content" android:text="@string/voptions_position_hide_other_underlying" ="5.0dip" ="15.0dip" 2130969936="@id/2131429394" 2130969940="@id/tvHideOtherPair" style="@style/2132149350" />
+    </LinearLayout>
+    <View ="@color/2131099751" ="0.0dip" ="0.5dip" ="10.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432067" />
+</androidx.constraintlayout.widget.ConstraintLayout>

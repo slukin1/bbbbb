@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131427670" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="10.0dip" ="6.0dip" android:text="@string/ms_market_add_btn" ="@dimen/2131166156" style="@style/2132149451" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436582" ="fill_parent" ="wrap_content">
+        <TextView ="#ffeaecef" android:id="@id/asset_allocation_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_asset_allocation_label" 2130969937="2131438103" style="@style/2132149350" />
+        <com.github.mikephil.charting.charts.PieChart ="center" android:id="@id/asset_allocation_pie_chart" ="@null" ="120.0dip" ="120.0dip" ="10.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="center" android:id="@id/2131428100" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/margin_no_data_found" 2130969940="@id/asset_allocation_pie_chart" style="@style/2132149207" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/asset_allocation_breakdown" ="fill_parent" ="wrap_content" ="5.0dip" ="14.0dip" ="5.0dip" ="28.0dip" ="@dimen/2131166260" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include android:id="@id/2131431415" ="gone" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131630149" />
+    <include android:id="@id/2131438693" ="gone" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131630150" />
+</FrameLayout>

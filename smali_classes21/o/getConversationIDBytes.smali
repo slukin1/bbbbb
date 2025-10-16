@@ -1,0 +1,90 @@
+.class public final Lo/getConversationIDBytes;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R\u001a\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00068\u0002X\u0083\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010\u0008R\u001a\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00020\n8\u0007X\u0087\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000b\u0010\u000c"
+    }
+    d2 = {
+        "Lo/getConversationIDBytes;",
+        "",
+        "",
+        "p0",
+        "<init>",
+        "(Z)V",
+        "Lo/WCDelegateonSessionUpdateResponse1;",
+        "a",
+        "Lo/WCDelegateonSessionUpdateResponse1;",
+        "d",
+        "Lkotlinx/coroutines/flow/Flow;",
+        "e",
+        "Lkotlinx/coroutines/flow/Flow;"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final a:Lo/WCDelegateonSessionUpdateResponse1;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lo/WCDelegateonSessionUpdateResponse1<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final e:Lkotlinx/coroutines/flow/Flow;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlinx/coroutines/flow/Flow<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Z)V
+    .locals 1
+
+    .line 10
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 13
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lo/BlockchainInfoSui;->e(Ljava/lang/Object;)Lo/WCDelegateonSessionUpdateResponse1;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lo/getConversationIDBytes;->a:Lo/WCDelegateonSessionUpdateResponse1;
+
+    .line 15
+    check-cast p1, Lkotlinx/coroutines/flow/Flow;
+
+    const/4 v0, 0x1
+
+    .line 1001
+    invoke-static {p1, v0}, Lo/onSessionSettleResponse;->d(Lkotlinx/coroutines/flow/Flow;I)Lkotlinx/coroutines/flow/Flow;
+
+    move-result-object p1
+
+    .line 15
+    iput-object p1, p0, Lo/getConversationIDBytes;->e:Lkotlinx/coroutines/flow/Flow;
+
+    return-void
+.end method

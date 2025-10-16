@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar ="14.0sp" ="@color/2131100635" ="@color/2131100973" ="center_vertical" android:id="@id/2131437015" ="false" ="false" ="false" ="fill_parent" ="32.0dip" ="12.0dip" ="12.0dip" ="true" 2130968908="true" 2130968909="@string/cancel" 2130969013="false" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/c2c_gc_sheet_members_search_hint" 2130971628="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437016" ="fill_parent" ="wrap_content" ="16.0dip" ="250.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131431280" />
+</androidx.appcompat.widget.LinearLayoutCompat>

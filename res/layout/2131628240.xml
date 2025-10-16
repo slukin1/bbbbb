@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView ="fill_parent" ="wrap_content" ="8.0dip">
+        <LinearLayout ="vertical" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="locale" ="locale" ="4.0dip" ="4.0dip">
+            <LinearLayout ="horizontal" android:id="@id/2131438445" ="fill_parent" ="wrap_content">
+                <include layout="@layout/2131628242" />
+            </LinearLayout>
+            <View android:id="@id/2131438446" ="#1f000000" ="fill_parent" ="1.0dip" ="2.0dip" ="1.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438437" ="@android:color/white" ="fill_parent" ="0.0dip" ="@android:color/white" ="1.0" ="68.0dip" />
+            <include layout="@layout/2131628238" />
+            <include layout="@layout/2131628241" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

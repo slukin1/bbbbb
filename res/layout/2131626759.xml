@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center_horizontal" ="vertical" ="fill_parent" ="80.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="80.0dip">
+        <Space ="wrap_content" ="0.0dip" ="1.0" />
+        <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436703" ="gone" ="36.0dip" ="36.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130970039="false" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131430219" ="gone" ="fill_parent" ="34.0dip" 2130969911="2131438103" />
+    </LinearLayout>
+</FrameLayout>

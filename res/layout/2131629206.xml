@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131429240" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/2131428702" ="?2130970781" ="48.0dip" ="48.0dip" ="8.0dip" ="@drawable/2131238587" ="@null" 2130971375="@color/2131103118" />
+    <TextView ="@android:color/white" ="center" android:id="@id/title" ="wrap_content" ="48.0dip" ="8.0dip" android:text="@string/uq_scan_review" ="true" style="@style/2132150349" />
+    <ImageView android:id="@id/2131439778" ="fill_parent" ="wrap_content" ="centerInside" ="true" ="20.0dip" ="20.0dip" />
+    <LinearLayout ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" ="@id/2131439778" ="true">
+        <TextView ="16.0sp" ="#ff37465b" android:id="@id/2131437062" ="@drawable/2131238596" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/uq_scan_text_visible" ="@font/2131296286" />
+        <ImageView android:id="@id/2131428047" ="24.0dip" ="15.0dip" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131431677" ="fill_parent" ="wrap_content" ="@id/2131439778" ="20.0dip" ="20.0dip">
+        <ImageView android:id="@id/2131428051" ="24.0dip" ="15.0dip" ="56.0dip" ="56.0dip" />
+        <TextView ="16.0sp" ="#ff37465b" android:id="@id/2131437057" ="@drawable/2131238596" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/uq_scan_face_visible" ="@font/2131296286" />
+    </LinearLayout>
+    <RelativeLayout ="horizontal" ="fill_parent" ="wrap_content" ="40.0dip" ="true" ="16.0dip" ="16.0dip">
+        <Button ="@android:color/white" android:id="@id/2131428875" ="wrap_content" android:text="@string/uq_scan_rescan" ="true" ="@android:color/white" style="@style/2132150348" />
+        <Button ="@android:color/white" android:id="@id/2131428735" ="wrap_content" android:text="@string/uq_scan_continue" ="true" style="@style/2132150347" />
+    </RelativeLayout>
+</RelativeLayout>

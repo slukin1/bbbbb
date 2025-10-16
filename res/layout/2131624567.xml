@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433577" ="10.0dip" ="10.0dip" ="0.0dip" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433440" ="2.0dip" ="16.0dip" ="16.0dip" ="@drawable/2131237075" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099738" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/title" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" android:text="@string/content_data_fact_open_interest" ="1" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131428048" 2130969928="2131438085" 2130969936="@id/2131433440" 2130969941="2131438103" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428048" ="16.0dip" ="16.0dip" ="@drawable/2131237003" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/title" 2130969941="2131438103" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131433579" ="fill_parent" ="wrap_content" ="10.0dip" ="4.0dip" ="10.0dip" android:text="@string/content_data_fact_perptual" ="1" 2130969937="2131438103" 2130969940="@id/2131433577" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/price" ="fill_parent" ="wrap_content" ="10.0dip" ="4.0dip" ="10.0dip" ="1" 2130969937="2131438103" 2130969940="@id/2131433579" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433580" ="wrap_content" ="wrap_content" ="10.0dip" ="4.0dip" ="10.0dip" 2130969937="2131438103" 2130969940="@id/price">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131438627" ="wrap_content" ="wrap_content" android:text="@string/content_data_fact_24h_change" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438624" ="12.0dip" ="12.0dip" ="4.0dip" 2130969911="2131438103" 2130969936="@id/2131438627" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131438625" ="wrap_content" ="wrap_content" ="1" 2130969911="2131438103" 2130969936="@id/2131438624" 2130969941="2131438103" style="@style/2132149397" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView ="fill_parent" ="0.0dip" ="1.0dip" 2130968911="@color/2131099685" 2130968912="@dimen/2131166170" 2130968914="@dimen/2131166153" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131433580">
+        <com.github.mikephil.charting.charts.LineChart android:id="@id/2131435863" ="fill_parent" ="fill_parent" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

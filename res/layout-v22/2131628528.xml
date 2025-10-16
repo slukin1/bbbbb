@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440486" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131447449" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/future_amend_order" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131447448" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/string_price" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131447449" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447442" ="@drawable/2131236697" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/future_amended" ="4.0dip" ="@dimen/2131166225" 2130969911="@id/2131447448" 2130969936="@id/2131447448" 2130969941="@id/2131447448" style="@style/2132149394" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131447447" ="0.0dip" ="wrap_content" ="ltr" ="15.0dip" 2130969911="@id/2131447448" 2130969917="2131438103" 2130969941="@id/2131447448" 2130969942="0.0" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447446" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/ms_withdraw_amount" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131447448" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131445615" ="@drawable/2131236697" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/future_amended" ="4.0dip" ="@dimen/2131166225" 2130969911="@id/2131447446" 2130969936="@id/2131447446" 2130969941="@id/2131447446" style="@style/2132149394" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131447445" ="0.0dip" ="wrap_content" ="15.0dip" 2130969911="@id/2131447446" 2130969917="2131438103" 2130969941="@id/2131447446" style="@style/2132149350" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131438135" ="fill_parent" ="wrap_content" ="8.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131447446">
+        <TextView ="@color/2131099778" android:id="@id/2131443519" ="wrap_content" ="wrap_content" android:text="@string/spot_pay_from" ="8.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131102397" ="end" android:id="@id/2131444474" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout ="horizontal" android:id="@id/2131436198" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131438135">
+        <TextView ="@color/2131099863" android:id="@id/2131442589" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149384" />
+        <TextView ="@color/2131099863" android:id="@id/2131442588" ="fill_parent" ="wrap_content" android:text="@string/spot_double_confirm_mica_tip" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <View android:id="@id/2131449216" ="@color/2131099751" ="wrap_content" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436198" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429409" ="wrap_content" ="wrap_content" ="16.0dip" ="15.0dip" 2130969759="2131437069" 2130969937="2131438103" 2130969940="@id/2131449216" />
+    <TextView ="@color/2131099764" android:id="@id/2131445609" ="0.0dip" ="wrap_content" android:text="@string/spot_amendment_confirmation_checkbox_tip" ="false" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131429409" 2130969941="@id/2131429409" style="@style/2132149384" />
+    <TextView ="#ffffffff" ="center" android:id="@id/2131447444" ="9.0dip" ="9.0dip" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/confirm_sell" ="1.0" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445609" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

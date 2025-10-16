@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#b3000000" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/2131437556" ="0.0dip" ="wrap_content" ="24.0dip" 2130969904="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235258" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit.image.KitRoundImageView android:id="@id/2131437553" ="24.0dip" ="24.0dip" ="20.0dip" ="fitXY" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235262" />
+            <TextView ="@color/2131102138" ="left" android:id="@id/2131437554" ="0.0dip" ="wrap_content" ="5.0dip" ="20.0dip" 2130969911="@id/2131437553" 2130969918="@id/2131437550" 2130969936="@id/2131437553" 2130969941="@id/2131437553" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437550" ="6.0dip" ="32.0dip" ="32.0dip" ="15.0dip" ="fitXY" ="8.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235255" />
+            <TextView ="@color/2131102138" android:id="@id/2131437557" ="0.0dip" ="wrap_content" ="21.0dip" android:text="@string/nezha_authorization_obtain" ="15.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131437553" 2130969940="@id/2131437554" style="@style/2132149459" />
+            <TextView ="@color/2131102149" android:id="@id/2131437548" ="0.0dip" ="wrap_content" ="10.0dip" android:text="" 2130969917="@id/2131437557" 2130969937="@id/2131437557" 2130969940="@id/2131437557" />
+            <Button ="16.0sp" ="@color/2131102138" android:id="@id/2131437555" ="@drawable/2131235253" ="0.0dip" ="wrap_content" ="40.0dip" ="30.0dip" android:text="@string/nezha_authorization_refuse" ="@font/2131296265" ="15.0dip" ="4.0dip" 2130969911="2131438103" 2130969918="@id/2131437546" 2130969937="2131438103" 2130969940="@id/2131437548" 2130969942="0.0" style="?android:borderlessButtonStyle" />
+            <Button ="16.0sp" ="@color/2131099789" android:id="@id/2131437546" ="@drawable/2131235254" ="0.0dip" ="wrap_content" ="40.0dip" ="30.0dip" android:text="@string/nezha_authorization_allow" ="@font/2131296265" ="5.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131437555" 2130969940="@id/2131437548" 2130969942="0.0" style="?android:borderlessButtonStyle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/2131437551" ="gone" ="0.0dip" ="wrap_content" ="24.0dip" 2130969904="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235258" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437547" ="8.0dip" ="34.0dip" ="30.0dip" ="10.0dip" ="8.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235252" />
+            <TextView ="@color/2131102138" ="center" android:id="@id/2131437552" ="0.0dip" ="wrap_content" ="14.0dip" android:text="Authorization instructions" ="13.0dip" ="21.0dip" 2130969917="2131438103" 2130969936="@id/2131437547" 2130969941="2131438103" style="@style/2132149446" />
+            <TextView ="@color/2131102149" ="center" android:id="@id/2131437549" ="0.0dip" ="wrap_content" ="22.0dip" ="25.0dip" android:text="@string/nezha_authorization_instructions_content" ="1.5" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437552" style="@style/2132149350" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

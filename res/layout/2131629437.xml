@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="120.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.mikephil.charting.charts.PieChart android:id="@id/pieChart" ="120.0dip" ="120.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439584" ="0.0dip" ="wrap_content" ="40.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/pieChart" 2130969941="2131438103" />
+</merge>

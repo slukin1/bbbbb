@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="fill_parent" ="wrap_content" />
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131449649" ="fill_parent" ="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

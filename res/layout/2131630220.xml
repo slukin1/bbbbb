@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTotalTitle" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444391" ="wrap_content" ="wrap_content" ="12.0dip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444387" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442592" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/wallet_withdrawal_share_limit" style="@style/2132149350" />
+</androidx.appcompat.widget.LinearLayoutCompat>

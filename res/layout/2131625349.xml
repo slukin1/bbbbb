@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvHeader" ="14.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/event_select_account_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439617" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969937="2131438103" 2130969940="@id/tvHeader" />
+</androidx.constraintlayout.widget.ConstraintLayout>

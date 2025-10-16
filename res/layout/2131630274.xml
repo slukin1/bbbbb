@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="vertical" ="@color/2131099685" ="30.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="#14707a8a">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434227" ="16.0dip" ="16.0dip" ="3.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444987" ="wrap_content" ="wrap_content" android:text="@string/c2c_payment_method_special_tip_title" ="@font/2131296273" ="7.0dip" ="@id/2131434227" />
+        <TextView ="12.0dip" ="#ff848e9c" ="#fff0b90b" ="all" android:id="@id/2131444981" ="fill_parent" ="wrap_content" ="7.0dip" ="@id/2131444987" ="@font/2131296274" ="7.0dip" ="@id/2131434227" />
+    </RelativeLayout>
+</LinearLayout>

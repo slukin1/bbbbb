@@ -1,0 +1,122 @@
+.class public final Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lkotlinx/coroutines/flow/Flow<",
+        "+",
+        "Lkotlin/Triple<",
+        "+",
+        "Landroidx/recyclerview/widget/RecyclerView;",
+        "+",
+        "Ljava/lang/Integer;",
+        "+",
+        "Ljava/lang/Integer;",
+        ">;>;",
+        "Lkotlinx/coroutines/flow/Flow<",
+        "+",
+        "Lkotlin/Triple<",
+        "+",
+        "Landroidx/recyclerview/widget/RecyclerView;",
+        "+",
+        "Ljava/lang/Integer;",
+        "+",
+        "Ljava/lang/Integer;",
+        ">;>;>;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final e:Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;
+
+    invoke-direct {v0}, Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;-><init>()V
+
+    sput-object v0, Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;->e:Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final d(Lkotlinx/coroutines/flow/Flow;)Lkotlinx/coroutines/flow/Flow;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlinx/coroutines/flow/Flow<",
+            "+",
+            "Lkotlin/Triple<",
+            "+",
+            "Landroidx/recyclerview/widget/RecyclerView;",
+            "Ljava/lang/Integer;",
+            "Ljava/lang/Integer;",
+            ">;>;)",
+            "Lkotlinx/coroutines/flow/Flow<",
+            "Lkotlin/Triple<",
+            "Landroidx/recyclerview/widget/RecyclerView;",
+            "Ljava/lang/Integer;",
+            "Ljava/lang/Integer;",
+            ">;>;"
+        }
+    .end annotation
+
+    return-object p1
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 2246
+    check-cast p1, Lkotlinx/coroutines/flow/Flow;
+
+    invoke-virtual {p0, p1}, Lcom/binance/content/internal/feedlist/CommonFeedView$initView$3$DropdropElements3;->d(Lkotlinx/coroutines/flow/Flow;)Lkotlinx/coroutines/flow/Flow;
+
+    move-result-object p1
+
+    return-object p1
+.end method

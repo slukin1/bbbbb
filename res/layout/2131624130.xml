@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131436871" ="15.0dip" ="15.0dip" ="fill_parent" ="26.0dip" android:text="@string/market_detail_settings_main_indicators" style="@style/2132149450" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436854" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131436855" ="wrap_content" ="wrap_content" android:text="MA" 2130969912="@id/2131436852" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131436852" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_ma_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131436853" 2130969937="2131438103" 2130969940="@id/2131436855" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436853" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431340" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131431341" ="wrap_content" ="wrap_content" android:text="EMA" 2130969912="@id/2131431338" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131431338" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_ema_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131431339" 2130969937="2131438103" 2130969940="@id/2131431341" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431339" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428514" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131428515" ="wrap_content" ="wrap_content" android:text="BOLL" 2130969912="@id/2131428512" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131428512" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_boll_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131428513" 2130969937="2131438103" 2130969940="@id/2131428515" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428513" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439738" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131439739" ="wrap_content" ="wrap_content" android:text="SAR" 2130969912="@id/2131439736" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131439736" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_sar_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131439737" 2130969937="2131438103" 2130969940="@id/2131439739" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439737" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428206" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131428207" ="wrap_content" ="wrap_content" android:text="AVL" 2130969912="@id/2131428204" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131428204" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_avl_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131428205" 2130969937="2131438103" 2130969940="@id/2131428207" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428205" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" />
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131440837" ="15.0dip" ="15.0dip" ="fill_parent" ="26.0dip" android:text="@string/market_detail_settings_sub_indicators" style="@style/2132149450" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449756" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131449757" ="wrap_content" ="wrap_content" android:text="VOL" 2130969912="@id/2131449751" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131449751" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_vol_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131449752" 2130969937="2131438103" 2130969940="@id/2131449757" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449752" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436858" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131436859" ="wrap_content" ="wrap_content" android:text="MACD" 2130969912="@id/2131436856" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131436856" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_macd_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131436857" 2130969937="2131438103" 2130969940="@id/2131436859" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436857" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439522" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131439523" ="wrap_content" ="wrap_content" android:text="RSI" 2130969912="@id/2131439520" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131439520" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_rsi_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131439521" 2130969937="2131438103" 2130969940="@id/2131439523" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439521" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435035" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131435036" ="wrap_content" ="wrap_content" android:text="KDJ" 2130969912="@id/2131435033" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131435033" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_kdj_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131435034" 2130969937="2131438103" 2130969940="@id/2131435036" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435034" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437805" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131437806" ="wrap_content" ="wrap_content" android:text="OBV" 2130969912="@id/2131437803" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131437803" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_obv_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131437804" 2130969937="2131438103" 2130969940="@id/2131437806" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437804" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450406" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131450407" ="wrap_content" ="wrap_content" android:text="WR" 2130969912="@id/2131450404" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131450404" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_wr_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131450405" 2130969937="2131438103" 2130969940="@id/2131450407" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450405" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440661" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131440660" ="wrap_content" ="wrap_content" android:text="StochRSI" 2130969912="@id/2131440658" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131440658" ="0.0dip" ="wrap_content" android:text="@string/chart_indicator_stochRSI_full_name" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131440659" 2130969937="2131438103" 2130969940="@id/2131440660" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440659" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" />
+        <LinearLayout ="vertical" android:id="@id/2131440828" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131440835" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content">
+                <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131440838" ="wrap_content" ="26.0dip" android:text="@string/market_detail_settings_sub_indicators_trading_data" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131440836" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437816" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131437817" ="wrap_content" ="wrap_content" android:text="O.I." 2130969912="@id/2131437814" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131437814" ="0.0dip" ="wrap_content" android:text="@string/market_detail_indicator_oi_edit_dialog_title" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131437815" 2130969937="2131438103" 2130969940="@id/2131437817" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437815" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436781" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131436774" ="wrap_content" ="wrap_content" android:text="L.S Acco." 2130969912="@id/2131436772" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131436772" ="0.0dip" ="wrap_content" android:text="@string/market_detail_indicator_lsacco_edit_dialog_title" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131436773" 2130969937="2131438103" 2130969940="@id/2131436774" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436773" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436782" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131436777" ="wrap_content" ="wrap_content" android:text="L.S Posit." 2130969912="@id/2131436775" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131436775" ="0.0dip" ="wrap_content" android:text="@string/market_detail_indicator_lsposit_edit_dialog_title" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131436776" 2130969937="2131438103" 2130969940="@id/2131436777" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436776" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436783" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131436780" ="wrap_content" ="wrap_content" android:text="L.S Ratio" 2130969912="@id/2131436778" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131436778" ="0.0dip" ="wrap_content" android:text="@string/market_detail_indicator_lsratio_edit_dialog_title" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131436779" 2130969937="2131438103" 2130969940="@id/2131436780" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436779" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428620" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131428613" ="wrap_content" ="wrap_content" android:text="B.S Vol." 2130969912="@id/2131428611" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131428611" ="0.0dip" ="wrap_content" android:text="@string/market_detail_indicator_bsvol_edit_dialog_title" ="2" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131428612" 2130969937="2131438103" 2130969940="@id/2131428613" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428612" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428435" ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip">
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="Basis" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237054" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@android:color/black" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131433453" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429245" ="fill_parent" ="fill_parent">
+            <FrameLayout android:id="@id/preview_container" ="0.0dip" ="0.0dip" ="no" 2130969911="@id/2131438613" 2130969916="h,1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131438617">
+                <androidx.camera.view.PreviewView android:id="@id/2131438618" ="gone" ="fill_parent" ="fill_parent" ="true" ="no" />
+                <com.withpersona.sdk2.camera.camera2.Camera2PreviewView android:id="@id/2131429221" ="gone" ="fill_parent" ="fill_parent" ="true" ="no" />
+            </FrameLayout>
+            <View android:id="@id/2131438616" ="@android:color/black" ="0.0dip" ="0.0dip" ="0.0" 2130969911="@id/overlay" 2130969917="@id/overlay" 2130969937="@id/overlay" 2130969941="@id/overlay" />
+            <ProgressBar android:id="@id/2131438686" ="wrap_content" ="wrap_content" ="0.0" ="@android:color/darker_gray" 2130969911="@id/overlay" 2130969917="@id/overlay" 2130969937="@id/overlay" 2130969941="@id/overlay" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/2131439782" ="0.0dip" ="0.0dip" ="fitXY" ="no" 2130969911="@id/2131438047" 2130969917="@id/2131438047" 2130969937="@id/2131438047" 2130969941="@id/2131438047" 2130970039="true" 2130970045="true" 2130970050="true" />
+            <com.withpersona.sdk2.inquiry.governmentid.view.SpotlightView android:id="@id/2131440521" ="#ff000000" ="0.0dip" ="0.0dip" ="no" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970524="8.0dip" 2130970528="@id/overlay" />
+            <View android:id="@id/overlay" ="@drawable/2131235863" ="0.0dip" ="0.0dip" ="24.0dip" ="24.0dip" ="no" 2130969911="@id/2131438048" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131438047" />
+            <com.withpersona.sdk2.inquiry.governmentid.view.ScanningView android:id="@id/scanning_view" ="0.0dip" ="0.0dip" ="no" 2130969911="@id/2131438048" 2130969917="@id/overlay" 2130969937="@id/overlay" 2130969941="@id/2131438047" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131438617" ="0.0dip" ="0.0dip" 2130968759="2131441647" 2130969125="overlay,scanning_view" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131438613" ="0.0dip" ="0.0dip" 2130968759="2131428521" 2130969125="overlay,scanning_view" />
+            <TextView ="#ffffffff" android:id="@id/title" ="0.0dip" ="wrap_content" ="2" ="24.0dip" ="24.0dip" ="polite" 2130968701="2.0sp" 2130968705="2131449068" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" style="?2130971282" />
+            <Space android:id="@id/2131441691" ="0.0dip" ="0.0dip" 2130969912="@id/2131438047" 2130969940="@id/title" 2130969944="2.0" />
+            <ImageView android:id="@id/2131438047" ="8.0dip" ="0.0dip" ="wrap_content" ="fitCenter" ="true" ="no" 2130969904="true" 2130969912="@id/2131438048" 2130969917="@id/overlay" 2130969937="@id/overlay" 2130969940="@id/2131441691" 2130969943="2131438085" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="start" android:id="@id/2131438048" ="@drawable/2131235864" ="0.0dip" ="80.0dip" 2130969912="@id/2131430972" 2130969917="@id/overlay" 2130969937="@id/overlay" 2130969940="@id/2131438047" 2130969943="2131438085" 2130969947="500.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438050" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="no" ="24.0dip" 2130969911="2131438103" 2130969918="@id/2131438051" 2130969937="2131438103" 2130969941="2131438103">
+                    <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131438049" ="wrap_content" ="wrap_content" ="Overlay Image" ="no" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970045="true" 2130970050="false" 2130970052="@raw/2132017245" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView ="center_vertical" android:id="@id/2131438051" ="16.0dip" ="16.0dip" ="0.0dip" ="0.0dip" ="12.0dip" ="24.0dip" ="polite" 2130968701="1.0sp" 2130968705="2131449068" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131438050" 2130969941="2131438103" style="?2130971300" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970515="@drawable/2131235808" 2130970516="@drawable/2131235807" />
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131430972" ="wrap_content" ="wrap_content" ="12.0dip" ="24.0dip" ="24.0dip" 2130969905="true" 2130969912="@id/2131429274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438048" 2130969942="0.0" 2130969947="500.0dip">
+                <TextView ="#ffffffff" ="center_vertical" android:id="@id/2131430967" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" style="?2130971273" />
+            </LinearLayout>
+            <TextView ="#ffffffff" ="center" android:id="@id/2131429274" ="?2130970780" ="16.0dip" ="wrap_content" ="wrap_content" ="false" ="8.0dip" 2130969311="@drawable/2131235850" 2130969312="#ffffffff" 2130969912="@id/2131429272" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430972" style="?2130971273" />
+            <Space android:id="@id/2131429272" ="0.0dip" ="0.0dip" 2130969912="@id/2131429271" 2130969940="@id/2131429274" 2130969944="1.0" />
+            <Button android:id="@id/2131429271" ="@drawable/2131235811" ="64.0dip" ="64.0dip" ="16.0dip" ="@string/pi2_camera_button_description" 2130968733="@null" 2130969912="@id/2131428583" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429272" />
+            <Space android:id="@id/2131428583" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131429271" 2130969944="1.0" />
+            <ToggleButton android:id="@id/2131432029" ="@android:color/transparent" ="2.0dip" ="48.0dip" ="48.0dip" ="@drawable/2131235814" android:textOn="" android:textOff="" ="@string/pi2_governmentid_flash_toggle" 2130969911="@id/2131429271" 2130969917="2131438103" 2130969936="@id/2131429271" 2130969941="@id/2131429271" />
+            <TextView ="#ffffffff" android:id="@id/2131432867" ="@drawable/2131235839" ="16.0dip" ="wrap_content" ="wrap_content" 2130969911="@id/2131438047" 2130969917="@id/2131438048" 2130969937="@id/2131438048" 2130969941="@id/2131438047" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ProgressBar ="center" android:id="@id/2131429238" ="gone" ="wrap_content" ="wrap_content" ="@android:color/darker_gray" />
+    </FrameLayout>
+</FrameLayout>

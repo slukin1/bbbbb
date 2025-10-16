@@ -1,0 +1,14 @@
+.class public final Lo/getExtraInterestRate;
+.super Lo/getLotSize;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 12
+    invoke-direct {p0, p1}, Lo/getLotSize;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

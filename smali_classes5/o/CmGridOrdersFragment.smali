@@ -1,0 +1,70 @@
+.class public final synthetic Lo/CmGridOrdersFragment;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/CmTabFuturesGridWorkingFragmentspecialinlinedactivityViewModelsdefault5$DropdropElements3;
+
+
+# instance fields
+.field private synthetic e:Lo/CmGridDetailRunningFragmentspecialinlinedactivityViewModelsdefault5;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/CmGridDetailRunningFragmentspecialinlinedactivityViewModelsdefault5;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/CmGridOrdersFragment;->e:Lo/CmGridDetailRunningFragmentspecialinlinedactivityViewModelsdefault5;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()Ljava/lang/Object;
+    .locals 5
+
+    .line 0
+    iget-object v0, p0, Lo/CmGridOrdersFragment;->e:Lo/CmGridDetailRunningFragmentspecialinlinedactivityViewModelsdefault5;
+
+    .line 1056
+    iget-object v1, v0, Lo/CmGridDetailRunningFragmentspecialinlinedactivityViewModelsdefault5;->b:Lo/CmGridOrdersFragmentspecialinlinedviewModelsdefault1;
+
+    invoke-interface {v1}, Lo/CmGridOrdersFragmentspecialinlinedviewModelsdefault1;->d()Ljava/lang/Iterable;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lo/CmGridHistoryListFragment;
+
+    .line 1057
+    iget-object v3, v0, Lo/CmGridDetailRunningFragmentspecialinlinedactivityViewModelsdefault5;->d:Lo/getGridOrdersViewModel;
+
+    const/4 v4, 0x1
+
+    invoke-interface {v3, v2, v4}, Lo/getGridOrdersViewModel;->b(Lo/CmGridHistoryListFragment;I)V
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return-object v0
+.end method

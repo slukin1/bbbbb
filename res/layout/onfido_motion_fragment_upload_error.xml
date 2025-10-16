@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="0.0dip" ="1.0" style="@style/2132148929">
+        <LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content">
+            <ImageView ="center" android:id="@id/2131437138" ="48.0dip" ="48.0dip" ="16.0dip" ="no" style="@style/2132148909" />
+            <TextView ="center" ="fill_parent" ="wrap_content" ="32.0dip" ="32.0dip" ="8.0dip" android:text="@string/onfido_avc_connection_error_title" style="@style/2132148963" />
+            <TextView ="center" ="fill_parent" ="wrap_content" ="32.0dip" ="32.0dip" android:text="@string/onfido_avc_connection_error_subtitle" style="@style/2132148955" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131439204" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="8.0dip" ="@dimen/2131167223" ="8.0dip" 2130970348="@string/onfido_avc_connection_error_button_primary_retry_upload" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131439186" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" 2130970348="@string/onfido_avc_connection_error_button_secondary_restart_recording" 2130970350="@null" />
+    <include layout="@layout/onfido_watermark_layout" />
+</LinearLayout>

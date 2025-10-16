@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/alpha_market_trades_history" ="@dimen/2131166184" style="@style/2132149463" />
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441045" ="15.0dip" ="7.0dip" ="15.0dip" ="7.0dip" ="visible" ="fill_parent" ="38.0dip" ="4.0dip" ="@dimen/2131166184" ="@dimen/2131166277" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131437946" ="fill_parent" ="0.0dip" ="1.0" />
+</androidx.appcompat.widget.LinearLayoutCompat>

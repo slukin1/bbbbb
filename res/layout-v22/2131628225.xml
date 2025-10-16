@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="?2130970780" ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131167682" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@id/2131429561" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="bold" android:id="@id/2131435204" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="8.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131429561" 2130969941="2131438103" style="?2130971299" />
+</androidx.constraintlayout.widget.ConstraintLayout>

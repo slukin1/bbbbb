@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131449041" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431977" ="wrap_content" ="0.0dip" 2130969911="@id/2131449043" 2130969918="@id/2131449043" 2130969937="2131438103" 2130969941="@id/2131449043">
+        <ImageView android:id="@id/2131434640" ="visible" ="wrap_content" ="wrap_content" ="fitXY" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236599" 2130971375="@color/2131099790" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432000" ="wrap_content" ="0.0dip" 2130969911="@id/2131449043" 2130969917="2131438103" 2130969936="@id/2131449043" 2130969941="@id/2131449043">
+        <ImageView android:id="@id/2131434794" ="visible" ="wrap_content" ="wrap_content" ="fitXY" ="-1.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236599" 2130971375="@color/2131099790" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432023" ="gone" ="0.0dip" ="4.0dip" 2130969917="@id/2131449043" 2130969937="@id/2131449043" 2130969941="2131438103">
+        <ImageView android:id="@id/2131434951" ="gone" ="8.0dip" ="4.0dip" ="fitXY" ="-1.0" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236598" 2130971375="@color/2131099790" />
+        <ImageView android:id="@id/2131434950" ="gone" ="8.0dip" ="4.0dip" ="fitXY" ="-1.0" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236598" 2130971375="@color/2131099790" />
+        <ImageView android:id="@id/2131434954" ="gone" ="8.0dip" ="4.0dip" ="fitXY" ="-1.0" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236598" 2130971375="@color/2131099790" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431954" ="gone" ="0.0dip" ="4.0dip" 2130969917="@id/2131449043" 2130969937="@id/2131449043" 2130969940="@id/2131449043">
+        <ImageView android:id="@id/2131434502" ="gone" ="8.0dip" ="4.0dip" ="fitXY" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236598" 2130971375="@color/2131099790" />
+        <ImageView android:id="@id/2131434501" ="gone" ="8.0dip" ="4.0dip" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236598" 2130971375="@color/2131099790" />
+        <ImageView android:id="@id/2131434505" ="gone" ="8.0dip" ="4.0dip" ="fitXY" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236598" 2130971375="@color/2131099790" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449043" ="@drawable/2131236646" ="0.0dip" ="wrap_content" 2130969918="@id/2131432000" 2130969936="@id/2131431977" 2130969940="@id/2131432023" 2130969946="2131450408" 2130969947="320.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099788" ="@color/2131099787" ="start|center" android:id="@id/2131448085" ="6.0dip" ="6.0dip" ="0.0dip" ="wrap_content" ="false" ="@font/2131296274" ="locale" ="viewStart" ="10.0dip" 2130969911="2131438103" 2130969918="@id/2131449040" 2130969937="2131438103" 2130969941="2131438103" 2130969946="2131450408" 2130969960="10.0dip" />
+        <ImageView android:id="@id/2131449040" ="6.0dip" ="6.0dip" ="0.0dip" ="wrap_content" ="10.0dip" ="10.0dip" 2130969917="2131438103" 2130969923="2131450408" 2130969941="2131438103" 2130969946="2131450408" 2130971077="@drawable/2131236647" 2130971375="@color/2131099788" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

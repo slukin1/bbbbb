@@ -1,0 +1,739 @@
+.class public Lcom/eclipsesource/v8/utils/V8Executor;
+.super Ljava/lang/Thread;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/eclipsesource/v8/utils/V8Executor$ExecutorTermination;
+    }
+.end annotation
+
+
+# instance fields
+.field private exception:Ljava/lang/Exception;
+
+.field private volatile forceTerminating:Z
+
+.field private longRunning:Z
+
+.field private messageHandler:Ljava/lang/String;
+
+.field private messageQueue:Ljava/util/LinkedList;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/LinkedList<",
+            "[",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private result:Ljava/lang/String;
+
+.field private runtime:Lcom/eclipsesource/v8/V8;
+
+.field private final script:Ljava/lang/String;
+
+.field private volatile shuttingDown:Z
+
+.field private volatile terminated:Z
+
+
+# direct methods
+.method static bridge synthetic -$$Nest$fgetforceTerminating(Lcom/eclipsesource/v8/utils/V8Executor;)Z
+    .locals 0
+
+    .line 65354
+    iget-boolean p0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+
+    return p0
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    .line 69
+    invoke-direct {p0, p1, v0, v1}, Lcom/eclipsesource/v8/utils/V8Executor;-><init>(Ljava/lang/String;ZLjava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;ZLjava/lang/String;)V
+    .locals 1
+
+    .line 57
+    invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
+
+    const/4 v0, 0x0
+
+    .line 39
+    iput-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->terminated:Z
+
+    .line 40
+    iput-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->shuttingDown:Z
+
+    .line 41
+    iput-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+
+    const/4 v0, 0x0
+
+    .line 42
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->exception:Ljava/lang/Exception;
+
+    .line 43
+    new-instance v0, Ljava/util/LinkedList;
+
+    invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
+
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageQueue:Ljava/util/LinkedList;
+
+    .line 58
+    iput-object p1, p0, Lcom/eclipsesource/v8/utils/V8Executor;->script:Ljava/lang/String;
+
+    .line 59
+    iput-boolean p2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->longRunning:Z
+
+    .line 60
+    iput-object p3, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageHandler:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public forceTermination()V
+    .locals 1
+
+    .line 202
+    monitor-enter p0
+
+    const/4 v0, 0x1
+
+    .line 203
+    :try_start_0
+    iput-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+
+    .line 204
+    iput-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->shuttingDown:Z
+
+    .line 205
+    iget-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    if-eqz v0, :cond_0
+
+    .line 206
+    invoke-virtual {v0}, Lcom/eclipsesource/v8/V8;->terminateExecution()V
+
+    .line 208
+    :cond_0
+    invoke-virtual {p0}, Ljava/lang/Object;->notify()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 209
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method public getException()Ljava/lang/Exception;
+    .locals 1
+
+    .line 184
+    iget-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->exception:Ljava/lang/Exception;
+
+    return-object v0
+.end method
+
+.method public getResult()Ljava/lang/String;
+    .locals 1
+
+    .line 92
+    iget-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->result:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public hasException()Z
+    .locals 1
+
+    .line 174
+    iget-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->exception:Ljava/lang/Exception;
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public hasTerminated()Z
+    .locals 1
+
+    .line 193
+    iget-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->terminated:Z
+
+    return v0
+.end method
+
+.method public isShuttingDown()Z
+    .locals 1
+
+    .line 232
+    iget-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->shuttingDown:Z
+
+    return v0
+.end method
+
+.method public isTerminating()Z
+    .locals 1
+
+    .line 242
+    iget-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+
+    return v0
+.end method
+
+.method public varargs postMessage([Ljava/lang/String;)V
+    .locals 1
+
+    .line 102
+    monitor-enter p0
+
+    .line 103
+    :try_start_0
+    iget-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageQueue:Ljava/util/LinkedList;
+
+    invoke-virtual {v0, p1}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
+
+    .line 104
+    invoke-virtual {p0}, Ljava/lang/Object;->notify()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 105
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit p0
+
+    throw p1
+.end method
+
+.method public run()V
+    .locals 8
+
+    .line 114
+    monitor-enter p0
+
+    .line 115
+    :try_start_0
+    invoke-static {}, Lcom/eclipsesource/v8/V8;->createV8Runtime()Lcom/eclipsesource/v8/V8;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    .line 116
+    new-instance v1, Lcom/eclipsesource/v8/utils/V8Executor$ExecutorTermination;
+
+    invoke-direct {v1, p0}, Lcom/eclipsesource/v8/utils/V8Executor$ExecutorTermination;-><init>(Lcom/eclipsesource/v8/utils/V8Executor;)V
+
+    const-string v2, "__j2v8__checkThreadTerminate"
+
+    invoke-virtual {v0, v1, v2}, Lcom/eclipsesource/v8/V8Object;->registerJavaMethod(Lcom/eclipsesource/v8/JavaVoidCallback;Ljava/lang/String;)Lcom/eclipsesource/v8/V8Object;
+
+    .line 117
+    iget-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {p0, v0}, Lcom/eclipsesource/v8/utils/V8Executor;->setup(Lcom/eclipsesource/v8/V8;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_7
+
+    .line 118
+    monitor-exit p0
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    .line 120
+    :try_start_1
+    iget-boolean v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+
+    if-nez v2, :cond_1
+
+    .line 121
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    const-string v4, "__j2v8__checkThreadTerminate();\n"
+
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v4, p0, Lcom/eclipsesource/v8/utils/V8Executor;->script:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {p0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v5, -0x1
+
+    invoke-virtual {v2, v3, v4, v5}, Lcom/eclipsesource/v8/V8;->executeScript(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    .line 123
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    iput-object v3, p0, Lcom/eclipsesource/v8/utils/V8Executor;->result:Ljava/lang/String;
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_4
+
+    .line 125
+    :cond_0
+    instance-of v3, v2, Lcom/eclipsesource/v8/Releasable;
+
+    if-eqz v3, :cond_1
+
+    .line 126
+    :try_start_2
+    check-cast v2, Lcom/eclipsesource/v8/Releasable;
+
+    invoke-interface {v2}, Lcom/eclipsesource/v8/Releasable;->release()V
+
+    .line 129
+    :cond_1
+    :goto_0
+    iget-boolean v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+
+    if-nez v2, :cond_8
+
+    iget-boolean v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->longRunning:Z
+
+    if-eqz v2, :cond_8
+
+    .line 130
+    monitor-enter p0
+    :try_end_2
+    .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
+    .catchall {:try_start_2 .. :try_end_2} :catchall_4
+
+    .line 131
+    :try_start_3
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageQueue:Ljava/util/LinkedList;
+
+    invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    iget-boolean v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->shuttingDown:Z
+
+    if-nez v2, :cond_2
+
+    .line 132
+    invoke-virtual {p0}, Ljava/lang/Object;->wait()V
+
+    .line 134
+    :cond_2
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageQueue:Ljava/util/LinkedList;
+
+    invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    iget-boolean v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->shuttingDown:Z
+
+    if-nez v2, :cond_4
+
+    :cond_3
+    iget-boolean v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->forceTerminating:Z
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_2
+
+    if-eqz v2, :cond_6
+
+    .line 135
+    :cond_4
+    monitor-exit p0
+
+    .line 157
+    monitor-enter p0
+
+    .line 158
+    :try_start_4
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8;->getLocker()Lcom/eclipsesource/v8/V8Locker;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8Locker;->hasLock()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_5
+
+    .line 159
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 160
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    .line 162
+    :cond_5
+    iput-boolean v1, p0, Lcom/eclipsesource/v8/utils/V8Executor;->terminated:Z
+    :try_end_4
+    .catchall {:try_start_4 .. :try_end_4} :catchall_0
+
+    .line 163
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+
+    .line 137
+    :cond_6
+    monitor-exit p0
+
+    .line 138
+    :try_start_5
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageQueue:Ljava/util/LinkedList;
+
+    invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result v2
+
+    if-nez v2, :cond_1
+
+    .line 139
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageQueue:Ljava/util/LinkedList;
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v2, v3}, Ljava/util/AbstractList;->remove(I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, [Ljava/lang/String;
+
+    .line 140
+    new-instance v4, Lcom/eclipsesource/v8/V8Array;
+
+    iget-object v5, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-direct {v4, v5}, Lcom/eclipsesource/v8/V8Array;-><init>(Lcom/eclipsesource/v8/V8;)V
+
+    .line 141
+    new-instance v5, Lcom/eclipsesource/v8/V8Array;
+
+    iget-object v6, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-direct {v5, v6}, Lcom/eclipsesource/v8/V8Array;-><init>(Lcom/eclipsesource/v8/V8;)V
+    :try_end_5
+    .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_0
+    .catchall {:try_start_5 .. :try_end_5} :catchall_4
+
+    .line 143
+    :try_start_6
+    array-length v6, v2
+
+    :goto_1
+    if-ge v3, v6, :cond_7
+
+    aget-object v7, v2, v3
+
+    .line 144
+    invoke-virtual {v5, v7}, Lcom/eclipsesource/v8/V8Array;->push(Ljava/lang/String;)Lcom/eclipsesource/v8/V8Array;
+
+    add-int/lit8 v3, v3, 0x1
+
+    goto :goto_1
+
+    .line 146
+    :cond_7
+    invoke-virtual {v4, v5}, Lcom/eclipsesource/v8/V8Array;->push(Lcom/eclipsesource/v8/V8Value;)Lcom/eclipsesource/v8/V8Array;
+
+    .line 147
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    iget-object v3, p0, Lcom/eclipsesource/v8/utils/V8Executor;->messageHandler:Ljava/lang/String;
+
+    invoke-virtual {v2, v3, v4}, Lcom/eclipsesource/v8/V8Object;->executeVoidFunction(Ljava/lang/String;Lcom/eclipsesource/v8/V8Array;)V
+    :try_end_6
+    .catchall {:try_start_6 .. :try_end_6} :catchall_1
+
+    .line 149
+    :try_start_7
+    invoke-virtual {v5}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 150
+    invoke-virtual {v4}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    goto :goto_0
+
+    :catchall_1
+    move-exception v2
+
+    .line 149
+    invoke-virtual {v5}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 150
+    invoke-virtual {v4}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 151
+    throw v2
+    :try_end_7
+    .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_0
+    .catchall {:try_start_7 .. :try_end_7} :catchall_4
+
+    :catchall_2
+    move-exception v2
+
+    .line 137
+    monitor-exit p0
+
+    :try_start_8
+    throw v2
+    :try_end_8
+    .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_0
+    .catchall {:try_start_8 .. :try_end_8} :catchall_4
+
+    .line 157
+    :cond_8
+    monitor-enter p0
+
+    .line 158
+    :try_start_9
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8;->getLocker()Lcom/eclipsesource/v8/V8Locker;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8Locker;->hasLock()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_9
+
+    .line 159
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 160
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    .line 162
+    :cond_9
+    iput-boolean v1, p0, Lcom/eclipsesource/v8/utils/V8Executor;->terminated:Z
+    :try_end_9
+    .catchall {:try_start_9 .. :try_end_9} :catchall_3
+
+    .line 163
+    monitor-exit p0
+
+    return-void
+
+    :catchall_3
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+
+    :catchall_4
+    move-exception v2
+
+    goto :goto_2
+
+    :catch_0
+    move-exception v2
+
+    .line 155
+    :try_start_a
+    iput-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->exception:Ljava/lang/Exception;
+    :try_end_a
+    .catchall {:try_start_a .. :try_end_a} :catchall_4
+
+    .line 157
+    monitor-enter p0
+
+    .line 158
+    :try_start_b
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8;->getLocker()Lcom/eclipsesource/v8/V8Locker;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8Locker;->hasLock()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_a
+
+    .line 159
+    iget-object v2, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v2}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 160
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    .line 162
+    :cond_a
+    iput-boolean v1, p0, Lcom/eclipsesource/v8/utils/V8Executor;->terminated:Z
+    :try_end_b
+    .catchall {:try_start_b .. :try_end_b} :catchall_5
+
+    .line 163
+    monitor-exit p0
+
+    return-void
+
+    :catchall_5
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+
+    .line 157
+    :goto_2
+    monitor-enter p0
+
+    .line 158
+    :try_start_c
+    iget-object v3, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v3}, Lcom/eclipsesource/v8/V8;->getLocker()Lcom/eclipsesource/v8/V8Locker;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/eclipsesource/v8/V8Locker;->hasLock()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_b
+
+    .line 159
+    iget-object v3, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    invoke-virtual {v3}, Lcom/eclipsesource/v8/V8Value;->close()V
+
+    .line 160
+    iput-object v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->runtime:Lcom/eclipsesource/v8/V8;
+
+    .line 162
+    :cond_b
+    iput-boolean v1, p0, Lcom/eclipsesource/v8/utils/V8Executor;->terminated:Z
+    :try_end_c
+    .catchall {:try_start_c .. :try_end_c} :catchall_6
+
+    .line 163
+    monitor-exit p0
+
+    .line 164
+    throw v2
+
+    :catchall_6
+    move-exception v0
+
+    .line 163
+    monitor-exit p0
+
+    throw v0
+
+    :catchall_7
+    move-exception v0
+
+    .line 118
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method protected setup(Lcom/eclipsesource/v8/V8;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public shutdown()V
+    .locals 1
+
+    .line 219
+    monitor-enter p0
+
+    const/4 v0, 0x1
+
+    .line 220
+    :try_start_0
+    iput-boolean v0, p0, Lcom/eclipsesource/v8/utils/V8Executor;->shuttingDown:Z
+
+    .line 221
+    invoke-virtual {p0}, Ljava/lang/Object;->notify()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 222
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method

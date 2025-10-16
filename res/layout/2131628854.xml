@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvCoin" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149449" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTime" 2130969911="@id/tvCoin" 2130969917="2131438103" 2130969941="@id/tvCoin" style="@style/2132149393" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvAmountTitle" ="15.0dip" android:text="@string/string_amount" 2130969937="2131438103" 2130969940="@id/tvCoin" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvAmountValue" 2130969911="@id/tvAmountTitle" 2130969917="2131438103" 2130969941="@id/tvAmountTitle" style="@style/2132149357" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442002" ="4.0dip" android:text="@string/strategy_trading_bots_order_to_account" 2130969937="2131438103" 2130969940="@id/tvAmountTitle" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442003" 2130969911="@id/2131442002" 2130969917="2131438103" 2130969941="@id/2131442002" style="@style/2132149357" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444452" ="4.0dip" android:text="@string/_Type" 2130969937="2131438103" 2130969940="@id/2131442002" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444453" 2130969911="@id/2131444452" 2130969917="2131438103" 2130969941="@id/2131444452" style="@style/2132149357" />
+</androidx.constraintlayout.widget.ConstraintLayout>

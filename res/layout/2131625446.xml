@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429668" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="7.0dip" ="7.0dip">
+        <TextView ="14.0sp" ="#ff828a98" android:id="@id/2131430777" ="wrap_content" ="wrap_content" android:text="@string/date_start_" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="center" ="horizontal" android:id="@id/2131436211" ="@drawable/2131232817" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="9.0dip" 2130969918="@id/2131430773" 2130969936="@id/2131430777" 2130969941="2131438103">
+            <ImageView ="wrap_content" ="wrap_content" ="@null" ="8.0dip" 2130971077="@drawable/2131233593" />
+            <TextView ="13.0sp" ="@color/2131102398" android:id="@id/2131442760" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+        <View android:id="@id/2131430773" ="#ff828a98" ="8.0dip" ="1.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="#ff828a98" android:id="@id/2131430769" ="wrap_content" ="wrap_content" android:text="@string/date_end_" ="9.0dip" 2130969911="2131438103" 2130969936="@id/2131430773" 2130969941="2131438103" />
+        <LinearLayout ="center" ="horizontal" android:id="@id/2131436210" ="@drawable/2131232817" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131430769" 2130969941="2131438103">
+            <ImageView ="wrap_content" ="wrap_content" ="@null" ="8.0dip" 2130971077="@drawable/2131233593" />
+            <TextView ="13.0sp" ="@color/2131102398" android:id="@id/2131442757" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

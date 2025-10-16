@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/savings_guide_bg" ="34.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivClose" ="15.0dip" ="50.0dip" ="50.0dip" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="@id/tvTitle" 2130971077="@drawable/2131237100" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/earn_loan_token_risk_warming" 2130969937="@id/tvDesc" 2130969941="2131438103" style="@style/2132149428" />
+    <TextView ="@color/2131099764" android:id="@id/tvDesc" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

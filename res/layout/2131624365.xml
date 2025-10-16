@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235992" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131445687" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/lending_autosubscribe" ="false" ="6.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <ImageView android:id="@id/2131434227" ="wrap_content" ="wrap_content" ="@null" ="8.0dip" 2130969911="@id/2131445687" 2130969936="@id/2131445687" 2130969941="@id/2131445687" 2130971077="@drawable/2131234247" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439758" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131445687" 2130969917="2131438103" 2130969936="@id/2131430855" 2130969941="@id/2131445687" />
+    <TextView ="@color/2131099778" android:id="@id/2131430855" ="0.0dip" ="wrap_content" ="8.0dip" ="15.0dip" android:text="@string/lending_enjoy_day" ="15.0dip" 2130969905="true" 2130969918="@id/2131439758" 2130969927="0.0" 2130969937="@id/2131445687" 2130969940="@id/2131445687" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131442222" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_selected_plan" 2130969937="@id/2131445687" 2130969940="@id/2131430855" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444078" ="@drawable/2131236738" ="12.0dip" ="12.0dip" ="gone" ="0.0dip" ="48.0dip" ="5.0dip" ="15.0dip" ="@color/2131099744" 2130969312="@color/2131099785" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/2131445687" 2130969940="@id/2131442222" style="@style/2132149346" />
+</androidx.constraintlayout.widget.ConstraintLayout>

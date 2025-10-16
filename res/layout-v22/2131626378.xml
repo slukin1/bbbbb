@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="vertical" android:id="@id/2131439436" ="@color/2131099685" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166156"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.advertisement.view.AdPostQuantityView android:id="@id/2131427645" ="fill_parent" ="wrap_content" />
+    <com.binance.c2c.advertisement.view.AdPostOrderRangeView android:id="@id/2131427644" ="fill_parent" ="wrap_content" ="28.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

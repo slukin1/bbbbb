@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435107" ="fill_parent" ="30.0dip">
+        <View android:id="@id/2131449288" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969941="2131438103" />
+        <View android:id="@id/2131449252" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969911="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434330" ="43.0dip" ="fill_parent" ="@null" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130971077="@drawable/2131237006" 2130971375="@color/2131099738" />
+        <View android:id="@id/divider" ="@color/2131099751" ="gone" ="0.5dip" ="18.0dip" 2130969911="2131438103" 2130969918="@id/2131434330" 2130969941="2131438103" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439660" ="7.0dip" ="7.0dip" ="false" ="0.0dip" ="fill_parent" ="@dimen/2131166277" 2130969918="@id/divider" 2130969937="2131438103" />
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/tv_symbol" ="15.0dip" ="15.0dip" ="0.0dip" ="fill_parent" ="@dimen/2131166184" 2130969918="@id/divider" 2130969937="2131438103" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131435128" ="gone" ="fill_parent" ="200.0dip" />
+    <View android:id="@id/2131449201" ="@color/2131099751" ="invisible" ="fill_parent" ="0.5dip" />
+</LinearLayout>

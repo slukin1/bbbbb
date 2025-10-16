@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428702" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131436849" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView ="end|bottom|center" android:id="@id/2131428235" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="50.0dip" ="@string/top" ="15.0dip" ="@color/2131099764" 2130971077="@drawable/2131236869" 2130971375="@color/2131099675" />
+</FrameLayout>

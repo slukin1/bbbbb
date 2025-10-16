@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429660" ="fill_parent" ="wrap_content" ="24.0dip" ="10.0dip" ="24.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434838" ="fill_parent" ="0.0dip" ="centerCrop" 2130969912="@id/2131431877" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433695" ="@drawable/2131235996" ="42.0dip" ="42.0dip" ="20.0dip" ="28.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234676" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ffeaecef" android:id="@id/tvHeader" ="0.0dip" ="wrap_content" ="20.0dip" ="12.0dip" ="20.0dip" android:text="@string/convert_recurring_detail_share_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433695" style="@style/2132149444" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/2131442581" ="wrap_content" ="wrap_content" ="20.0dip" ="7.0dip" ="20.0dip" 2130969937="2131438103" 2130969940="@id/tvHeader" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ffeaecef" android:id="@id/2131444236" ="wrap_content" ="wrap_content" ="20.0dip" ="35.0dip" ="20.0dip" android:text="@string/convert_recurring_detail_share_roi" 2130969937="2131438103" 2130969940="@id/2131442581" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="42.0sp" ="#ffeaecef" android:id="@id/2131444237" ="wrap_content" ="wrap_content" ="20.0dip" ="20.0dip" ="@font/2131296282" 2130969937="2131438103" 2130969940="@id/2131444236" />
+    <FrameLayout android:id="@id/2131431877" ="@drawable/2131232448" ="fill_parent" ="80.0dip" ="116.0dip" ="#ff000000" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444237">
+        <View ="#ff333b47" ="fill_parent" ="0.5dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="120.0dip" ="wrap_content" ="20.0dip" ="22.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234146" />
+        <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099787" ="wrap_content" ="wrap_content" ="47.0dip" android:text="www.binance.com" ="@font/2131296281" ="52.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434772" ="60.0dip" ="60.0dip" ="16.0dip" ="16.0dip" ="24.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

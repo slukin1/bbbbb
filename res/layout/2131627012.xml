@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131441758" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="91.0dip">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131441757" ="false" ="false" ="false" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+    <androidx.appcompat.widget.LinearLayoutCompat ="bottom|center" ="horizontal" android:id="@id/2131436253" ="wrap_content" ="wrap_content" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433423" ="8.0dip" ="3.0dip" 2130971077="@drawable/2131234764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433424" ="8.0dip" ="3.0dip" ="5.0dip" 2130971077="@drawable/2131234763" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

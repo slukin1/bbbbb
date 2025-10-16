@@ -1,0 +1,41 @@
+.class public final synthetic Lo/TrendingTopicWidgetKtDataFactTrendingTopicWidget41;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic e:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function0;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/TrendingTopicWidgetKtDataFactTrendingTopicWidget41;->e:Lkotlin/jvm/functions/Function0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, Lo/TrendingTopicWidgetKtDataFactTrendingTopicWidget41;->e:Lkotlin/jvm/functions/Function0;
+
+    .line 3022
+    new-instance v1, Lo/TradeWidgetsKtTradePairsWidget11$DropdropElements2;
+
+    invoke-direct {v1, v0}, Lo/TradeWidgetsKtTradePairsWidget11$DropdropElements2;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v1, Landroidx/lifecycle/ViewModelProvider$Factory;
+
+    return-object v1
+.end method

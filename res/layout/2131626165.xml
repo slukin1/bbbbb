@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" 2130968911="@color/2131099800" 2130968912="@dimen/2131166170" 2130968914="@dimen/2131166260">
+        <androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="12.0dip" ="12.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iconIv" ="20.0dip" ="20.0dip" ="@drawable/2131237434" 2130969135="gift" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" android:id="@id/titleTv" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" 2130969918="@id/2131430107" 2130969936="@id/iconIv" 2130969941="2131438103" style="@style/2132149451" />
+            <TextView ="@color/2131099787" android:id="@id/2131427485" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="@id/titleTv" 2130969940="@id/titleTv" style="@style/2132149451" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430107" ="16.0dip" ="16.0dip" ="@drawable/2131237100" 2130969917="2131438103" 2130969941="2131438103" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,690 @@
+.class final Lo/SpotGridWorkingFragment;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static final a:[Ljava/lang/String;
+
+.field private static final d:[Ljava/lang/String;
+
+.field private static final e:[Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    .line 60
+    const-string v0, "Camera:MicroVideo"
+
+    const-string v1, "GCamera:MicroVideo"
+
+    const-string v2, "Camera:MotionPhoto"
+
+    const-string v3, "GCamera:MotionPhoto"
+
+    filled-new-array {v2, v3, v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lo/SpotGridWorkingFragment;->e:[Ljava/lang/String;
+
+    .line 67
+    const-string v0, "Camera:MicroVideoPresentationTimestampUs"
+
+    const-string v1, "GCamera:MicroVideoPresentationTimestampUs"
+
+    const-string v2, "Camera:MotionPhotoPresentationTimestampUs"
+
+    const-string v3, "GCamera:MotionPhotoPresentationTimestampUs"
+
+    filled-new-array {v2, v3, v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lo/SpotGridWorkingFragment;->d:[Ljava/lang/String;
+
+    .line 74
+    const-string v0, "Camera:MicroVideoOffset"
+
+    const-string v1, "GCamera:MicroVideoOffset"
+
+    filled-new-array {v0, v1}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lo/SpotGridWorkingFragment;->a:[Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private static a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/collect/ImmutableList;
+    .locals 13
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/xmlpull/v1/XmlPullParser;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/google/common/collect/ImmutableList<",
+            "Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lorg/xmlpull/v1/XmlPullParserException;,
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 163
+    invoke-static {}, Lcom/google/common/collect/ImmutableList;->i()Lcom/google/common/collect/ImmutableList$DropdropElements3;
+
+    move-result-object v0
+
+    .line 164
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, ":Item"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 165
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, ":Directory"
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 167
+    :cond_0
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->next()I
+
+    .line 17070
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v2
+
+    const/4 v3, 0x2
+
+    if-ne v2, v3, :cond_4
+
+    .line 16059
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    .line 169
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v3, ":Mime"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 170
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v4, ":Semantic"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 171
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v4, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v5, ":Length"
+
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v4
+
+    .line 172
+    new-instance v5, Ljava/lang/StringBuilder;
+
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v5, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v6, ":Padding"
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v5}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    .line 173
+    invoke-static {p0, v2}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v7
+
+    .line 174
+    invoke-static {p0, v3}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v8
+
+    .line 175
+    invoke-static {p0, v4}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 176
+    invoke-static {p0, v5}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    if-eqz v7, :cond_3
+
+    if-eqz v8, :cond_3
+
+    const-wide/16 v4, 0x0
+
+    if-eqz v2, :cond_1
+
+    .line 185
+    invoke-static {v2}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    move-result-wide v9
+
+    goto :goto_0
+
+    :cond_1
+    move-wide v9, v4
+
+    :goto_0
+    if-eqz v3, :cond_2
+
+    .line 186
+    invoke-static {v3}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    move-result-wide v2
+
+    move-wide v11, v2
+
+    goto :goto_1
+
+    :cond_2
+    move-wide v11, v4
+
+    :goto_1
+    new-instance v2, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;
+
+    move-object v6, v2
+
+    invoke-direct/range {v6 .. v12}, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;-><init>(Ljava/lang/String;Ljava/lang/String;JJ)V
+
+    .line 181
+    invoke-virtual {v0, v2}, Lcom/google/common/collect/ImmutableList$DropdropElements3;->d(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList$DropdropElements3;
+
+    goto :goto_2
+
+    .line 179
+    :cond_3
+    invoke-static {}, Lcom/google/common/collect/ImmutableList;->h()Lcom/google/common/collect/ImmutableList;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 19047
+    :cond_4
+    :goto_2
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v2
+
+    const/4 v3, 0x3
+
+    if-ne v2, v3, :cond_0
+
+    .line 18036
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v2, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const/4 p0, 0x1
+
+    .line 20847
+    iput-boolean p0, v0, Lcom/google/common/collect/ImmutableCollection$DropdropElements4;->a:Z
+
+    .line 20848
+    iget-object p0, v0, Lcom/google/common/collect/ImmutableCollection$DropdropElements4;->b:[Ljava/lang/Object;
+
+    iget p1, v0, Lcom/google/common/collect/ImmutableCollection$DropdropElements4;->d:I
+
+    invoke-static {p0, p1}, Lcom/google/common/collect/ImmutableList;->d([Ljava/lang/Object;I)Lcom/google/common/collect/ImmutableList;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static e(Ljava/lang/String;)Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2;
+    .locals 18
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    .line 1083
+    :try_start_0
+    invoke-static {}, Lorg/xmlpull/v1/XmlPullParserFactory;->newInstance()Lorg/xmlpull/v1/XmlPullParserFactory;
+
+    move-result-object v1
+
+    .line 1084
+    invoke-virtual {v1}, Lorg/xmlpull/v1/XmlPullParserFactory;->newPullParser()Lorg/xmlpull/v1/XmlPullParser;
+
+    move-result-object v1
+
+    .line 1085
+    new-instance v2, Ljava/io/StringReader;
+
+    move-object/from16 v3, p0
+
+    invoke-direct {v2, v3}, Ljava/io/StringReader;-><init>(Ljava/lang/String;)V
+
+    invoke-interface {v1, v2}, Lorg/xmlpull/v1/XmlPullParser;->setInput(Ljava/io/Reader;)V
+
+    .line 1086
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
+
+    .line 1087
+    const-string v2, "x:xmpmeta"
+
+    .line 3070
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v3
+
+    const/4 v4, 0x2
+
+    if-ne v3, v4, :cond_b
+
+    .line 2059
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_b
+
+    .line 1092
+    invoke-static {}, Lcom/google/common/collect/ImmutableList;->h()Lcom/google/common/collect/ImmutableList;
+
+    move-result-object v2
+
+    const-wide v7, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 1094
+    :cond_0
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
+
+    .line 1095
+    const-string v3, "rdf:Description"
+
+    .line 5070
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v9
+
+    if-ne v9, v4, :cond_6
+
+    .line 4059
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v9
+
+    invoke-virtual {v9, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_6
+
+    .line 6117
+    sget-object v2, Lo/SpotGridWorkingFragment;->e:[Ljava/lang/String;
+
+    array-length v3, v2
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    :goto_0
+    if-ge v8, v3, :cond_a
+
+    aget-object v9, v2, v8
+
+    .line 6118
+    invoke-static {v1, v9}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v9
+
+    if-eqz v9, :cond_5
+
+    .line 6120
+    invoke-static {v9}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v2
+
+    const/4 v3, 0x1
+
+    if-ne v2, v3, :cond_a
+
+    .line 7128
+    sget-object v2, Lo/SpotGridWorkingFragment;->d:[Ljava/lang/String;
+
+    array-length v3, v2
+
+    const/4 v8, 0x0
+
+    :goto_1
+    if-ge v8, v3, :cond_2
+
+    aget-object v9, v2, v8
+
+    .line 7129
+    invoke-static {v1, v9}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v9
+
+    if-eqz v9, :cond_1
+
+    .line 7131
+    invoke-static {v9}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    move-result-wide v2
+
+    const-wide/16 v8, -0x1
+
+    cmp-long v10, v2, v8
+
+    if-eqz v10, :cond_2
+
+    goto :goto_2
+
+    :cond_1
+    add-int/lit8 v8, v8, 0x1
+
+    goto :goto_1
+
+    :cond_2
+    const-wide v2, -0x7fffffffffffffffL    # -4.9E-324
+
+    .line 8142
+    :goto_2
+    sget-object v8, Lo/SpotGridWorkingFragment;->a:[Ljava/lang/String;
+
+    array-length v9, v8
+
+    :goto_3
+    if-ge v7, v9, :cond_4
+
+    aget-object v10, v8, v7
+
+    .line 8143
+    invoke-static {v1, v10}, Lo/UmGridTradeFragmentwatchMarketData11;->b(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v10
+
+    if-eqz v10, :cond_3
+
+    .line 8145
+    invoke-static {v10}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+
+    move-result-wide v14
+
+    .line 8146
+    new-instance v12, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;
+
+    const-string v8, "image/jpeg"
+
+    const-string v9, "Primary"
+
+    const-wide/16 v10, 0x0
+
+    const-wide/16 v16, 0x0
+
+    move-object v7, v12
+
+    move-object v5, v12
+
+    move-wide/from16 v12, v16
+
+    invoke-direct/range {v7 .. v13}, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;-><init>(Ljava/lang/String;Ljava/lang/String;JJ)V
+
+    new-instance v6, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;
+
+    const-string v12, "video/mp4"
+
+    const-string v13, "MotionPhoto"
+
+    const-wide/16 v16, 0x0
+
+    move-object v11, v6
+
+    invoke-direct/range {v11 .. v17}, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2$DropdropElements4;-><init>(Ljava/lang/String;Ljava/lang/String;JJ)V
+
+    invoke-static {v5, v6}, Lcom/google/common/collect/ImmutableList;->d(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
+
+    move-result-object v5
+
+    goto :goto_4
+
+    :cond_3
+    add-int/lit8 v7, v7, 0x1
+
+    goto :goto_3
+
+    .line 8156
+    :cond_4
+    invoke-static {}, Lcom/google/common/collect/ImmutableList;->h()Lcom/google/common/collect/ImmutableList;
+
+    move-result-object v5
+
+    :goto_4
+    move-wide v7, v2
+
+    move-object v2, v5
+
+    goto :goto_5
+
+    :cond_5
+    add-int/lit8 v8, v8, 0x1
+
+    goto :goto_0
+
+    .line 1103
+    :cond_6
+    const-string v3, "Container:Directory"
+
+    .line 10070
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v5
+
+    if-ne v5, v4, :cond_7
+
+    .line 9059
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_7
+
+    .line 1104
+    const-string v2, "Container"
+
+    const-string v3, "Item"
+
+    invoke-static {v1, v2, v3}, Lo/SpotGridWorkingFragment;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/collect/ImmutableList;
+
+    move-result-object v2
+
+    goto :goto_5
+
+    .line 1105
+    :cond_7
+    const-string v3, "GContainer:Directory"
+
+    .line 12070
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v5
+
+    if-ne v5, v4, :cond_8
+
+    .line 11059
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_8
+
+    .line 1106
+    const-string v2, "GContainer"
+
+    const-string v3, "GContainerItem"
+
+    invoke-static {v1, v2, v3}, Lo/SpotGridWorkingFragment;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/collect/ImmutableList;
+
+    move-result-object v2
+
+    .line 1108
+    :cond_8
+    :goto_5
+    const-string v3, "x:xmpmeta"
+
+    .line 14047
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
+
+    move-result v5
+
+    const/4 v6, 0x3
+
+    if-ne v5, v6, :cond_0
+
+    .line 13036
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    .line 1109
+    invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_9
+
+    goto :goto_6
+
+    .line 1113
+    :cond_9
+    new-instance v1, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2;
+
+    invoke-direct {v1, v7, v8, v2}, Lo/SpotGridRunningPnlFragmentspecialinlinedviewModelsdefault2;-><init>(JLjava/util/List;)V
+
+    move-object v0, v1
+
+    :cond_a
+    :goto_6
+    return-object v0
+
+    .line 1088
+    :cond_b
+    const-string v1, "Couldn\'t find xmp metadata"
+
+    invoke-static {v1, v0}, Lcom/google/android/exoplayer2/ParserException;->a(Ljava/lang/String;Ljava/lang/Throwable;)Lcom/google/android/exoplayer2/ParserException;
+
+    move-result-object v1
+
+    throw v1
+    :try_end_0
+    .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Lcom/google/android/exoplayer2/ParserException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/lang/NumberFormatException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 15222
+    :catch_0
+    sget-object v1, Lo/UmGridAddInvestmentViewModelobserveMarkPrice11;->a:Ljava/lang/Object;
+
+    monitor-enter v1
+
+    .line 15226
+    monitor-exit v1
+
+    return-object v0
+.end method

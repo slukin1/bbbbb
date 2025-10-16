@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624285" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="fill_parent" ="40.0dip" ="24.0dip" ="5.0dip" ="24.0dip" ="20.0dip" android:text="@string/payment_crypto_box" style="@style/2132149416" />
+    <include android:id="@id/content" layout="@layout/2131628021" />
+</LinearLayout>

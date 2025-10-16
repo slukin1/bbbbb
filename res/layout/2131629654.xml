@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131449771" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131449773" ="wrap_content" ="wrap_content" ="6.0dip" 2130969911="2131438103" 2130969936="@id/2131449771" 2130969941="2131438103" style="@style/2132149346" />
+    <ImageView android:id="@id/2131449772" ="24.0dip" ="24.0dip" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237680" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

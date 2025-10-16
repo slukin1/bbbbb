@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131448061" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/futures_trade_tif_time_in_force" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149451" />
+    <include android:id="@id/2131436544" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448061" layout="@layout/2131629058" />
+    <include android:id="@id/2131436564" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436544" layout="@layout/2131629058" />
+    <include android:id="@id/2131436540" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436564" layout="@layout/2131629058" />
+    <include android:id="@id/2131436545" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436540" layout="@layout/2131629058" />
+    <View android:id="@id/2131449248" ="@color/2131099751" ="wrap_content" ="0.5dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436545" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_cancel" ="0.0dip" ="50.0dip" android:text="@string/_cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449248" style="@style/2132149371" />
+</androidx.constraintlayout.widget.ConstraintLayout>

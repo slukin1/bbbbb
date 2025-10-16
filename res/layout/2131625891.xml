@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_desc" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" android:text="@string/future_position_tab_layout_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439709" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

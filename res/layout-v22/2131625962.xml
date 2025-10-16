@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444860" ="fill_parent" ="66.0dip" android:text="@string/strategy_tpsl_stop_trigger_dialog_title" style="@style/2132149425" />
+    <include android:id="@id/2131430028" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131625963" />
+    <include android:id="@id/2131430027" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131625963" />
+    <include android:id="@id/2131430029" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131625963" />
+</LinearLayout>

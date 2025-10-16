@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" android:id="@id/2131439209" ="8.0dip" ="fill_parent" ="wrap_content" ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="center" android:id="@id/2131439212" ="@string/onfido_tag_main_content_title" ="wrap_content" ="wrap_content" style="@style/2132148935" />
+    <ImageView android:id="@id/2131439208" ="40.0dip" ="10.0dip" ="8.0dip" />
+</LinearLayout>

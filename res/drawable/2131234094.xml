@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape ="rectangle">
+            <solid ="#14f0b90b" />
+            <corners ="3.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape ="rectangle">
+            <stroke ="0.5dip" ="#33f0b90b" />
+            <corners ="3.0dip" />
+        </shape>
+    </item>
+</layer-list>

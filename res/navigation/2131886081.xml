@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/2131436869" 2130971149="@id/2131438158" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment ="HomeFragment" ="com.binance.c2c.trade.payment_detail.ui.PaymentDetailFragment" android:id="@id/2131438158">
+        <action android:id="@id/2131437147" 2130969252="@id/2131431779" 2130969374="@anim/2130772146" 2130969414="@anim/2130772148" 2130970560="@anim/2130772145" 2130970561="@anim/2130772149" />
+        <action android:id="@id/2131437151" 2130969252="@id/2131441491" />
+    </fragment>
+    <activity ="com.binance.c2c.main.FiatMainActivity" android:id="@id/2131431779" />
+    <dialog ="com.binance.c2c.trade.payment_detail.ui.PaymentDetailsTipsFragment" android:id="@id/2131441491" />
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131436040" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131436007" ="fill_parent" ="fill_parent" ="fitXY" />
+    <LinearLayout ="vertical" android:id="@id/2131430417" ="fill_parent" ="fill_parent">
+        <View android:id="@id/2131440610" ="fill_parent" ="0.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436093" ="fill_parent" ="44.0dip">
+            <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131435941" ="26.0dip" ="26.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <ImageView android:id="@id/2131434948" ="gone" ="8.0dip" ="8.0dip" ="@drawable/2131235929" ="-4.0dip" 2130969917="@id/2131435941" 2130969941="@id/2131435941" />
+            <ImageView android:id="@id/2131436052" ="?2130968587" ="20.0dip" ="20.0dip" ="centerInside" ="@color/2131099764" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131436051" 2130969941="2131438103" 2130971077="@drawable/2131237994" />
+            <ImageView android:id="@id/2131436051" ="?2130968587" ="20.0dip" ="20.0dip" ="centerInside" ="@color/2131099764" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131438126" 2130969941="2131438103" 2130971077="@drawable/2131237864" />
+            <ImageView android:id="@id/2131438126" ="?2130968587" ="gone" ="20.0dip" ="20.0dip" ="centerInside" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237785" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@id/2131436037" layout="@layout/2131627084" />
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton ="end|bottom|center" android:id="@id/2131436023" ="@drawable/2131232488" ="40.0dip" ="40.0dip" ="20.0dip" ="@color/2131099764" ="@string/back" ="10.0dip" 2130968733="@color/2131099751" 2130969446="@dimen/2131166248" 2130970141="@dimen/2131166200" 2130971077="@drawable/2131236869" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="center" ="vertical" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="@drawable/2131232598" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="240.0dip" ="16.0dip" ="16.0dip">
+        <ProgressBar ="24.0dip" ="24.0dip" ="@drawable/2131234804" />
+        <TextView ="14.0sp" ="#ffcccccc" android:id="@id/2131447052" ="wrap_content" ="wrap_content" ="2" ="1.2" ="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430119" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.plutus.market.widgets.ExpandableTextView ="@color/2131099778" ="start" android:id="@id/2131430269" ="0.0dip" ="wrap_content" ="locale" ="viewStart" 2130969042="@string/market_zonedetail_consult_less" 2130969043="@color/2131099765" 2130969417="@string/market_zonedetail_consult_more" 2130969418="@color/2131099765" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969999="@dimen/2131166191" 2130970145="2" 2130970836="true" 2130971627="true" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430031" ="@drawable/2131235989" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="@color/2131099712" ="@dimen/2131166184" 2130969940="@id/2131430119">
+        <LinearLayout ="vertical" android:id="@id/2131440466" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="10.0dip" ="15.0dip">
+                <TextView ="@color/2131099778" android:id="@id/2131440462" ="wrap_content" ="wrap_content" android:text="@string/market_zonedetail_consult_trading_volume" style="@style/2132149377" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434964" ="gone" ="16.0dip" ="16.0dip" ="1.0dip" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099778" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView ="@color/2131102397" android:id="@id/2131441816" ="wrap_content" ="wrap_content" android:text="--" ="ltr" style="@style/2132149371" />
+            <TextView ="#ff2ebd85" android:id="@id/2131441817" ="wrap_content" ="wrap_content" ="10.0dip" android:text="--" ="ltr" style="@style/2132149377" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="fill_parent" 2130969921="0.5" />
+        <LinearLayout ="vertical" android:id="@id/2131427380" ="wrap_content" ="wrap_content" ="8.0dip" 2130969936="@id/2131432755" 2130969941="2131438103">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="10.0dip" ="15.0dip" ="15.0dip">
+                <TextView ="@color/2131099778" android:id="@id/2131440464" ="wrap_content" ="wrap_content" android:text="@string/market_zonedetail_consult_market_cap" style="@style/2132149377" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434396" ="gone" ="16.0dip" ="16.0dip" ="1.0dip" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099778" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView ="@color/2131102397" android:id="@id/2131436895" ="wrap_content" ="wrap_content" android:text="--" ="ltr" ="viewStart" ="15.0dip" style="@style/2132149371" />
+            <TextView ="#ff2ebd85" android:id="@id/2131436893" ="wrap_content" ="wrap_content" ="10.0dip" android:text="--" ="ltr" ="viewStart" ="15.0dip" style="@style/2132149377" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131429508" ="false" ="fill_parent" ="fill_parent" ="false" ="no" />
+    <LinearLayout ="bottom" ="vertical" android:id="@id/2131428580" ="@color/2131099685" ="90.0dip" ="fill_parent" ="wrap_content" 2130969901="com.binance.chat.view.DraggableBottomSheetBehavior">
+        <View ="center_horizontal" android:id="@id/2131431099" ="@android:color/darker_gray" ="40.0dip" ="4.0dip" ="8.0dip" />
+        <com.binance.chat.view.ChatJarvisHeader android:id="@id/2131429502" ="fill_parent" ="wrap_content" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="bottom" android:id="@id/2131428569" ="#00000000" ="fill_parent" ="wrap_content">
+        <com.binance.chat.view.welcome.WelcomeView android:id="@id/2131450353" ="gone" ="fill_parent" ="0.0dip" ="50.0dip" 2130969912="@id/2131429489" 2130969937="2131438103" 2130969941="2131438103" 2130969944="1.0" />
+        <com.binance.chat.view.ChatInputView ="bottom" android:id="@id/2131429489" ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969911="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131434997" ="#00000000" ="gone" ="fill_parent" ="fill_parent" 2130969901="com.binance.chat.view.DraggableBottomSheetBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

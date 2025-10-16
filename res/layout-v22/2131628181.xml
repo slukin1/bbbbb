@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@android:color/black" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131429241" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429245" ="fill_parent" ="fill_parent" ="true">
+            <CheckBox android:id="@id/2131427909" ="gone" ="0.0dip" ="0.0dip" />
+            <ImageView android:id="@id/2131439213" ="0.0dip" ="0.0dip" ="centerCrop" ="@string/pi2_governmentid_review_content_description" 2130969912="@id/2131432100" 2130969916="1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" />
+            <com.withpersona.sdk2.inquiry.governmentid.view.SpotlightView android:id="@id/2131440521" ="#ff000000" ="0.0dip" ="0.0dip" ="no" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970524="8.0dip" 2130970528="@id/overlay" />
+            <View android:id="@id/overlay" ="0.0dip" ="0.0dip" ="no" 2130969911="@id/2131438048" 2130969917="@id/2131438048" 2130969937="@id/2131438048" 2130969941="@id/2131438047" />
+            <TextView ="#ffffffff" android:id="@id/title" ="0.0dip" ="wrap_content" ="2" ="24.0dip" ="24.0dip" ="polite" 2130968701="2.0sp" 2130968705="2131449068" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" style="?2130971282" />
+            <ImageView ="center" android:id="@id/2131438047" ="8.0dip" ="invisible" ="0.0dip" ="wrap_content" ="no" 2130969912="@id/2131438048" 2130969917="@id/2131438048" 2130969937="@id/2131438048" 2130969941="@id/2131439213" 2130969943="2131438085" 2130971077="@drawable/2131235826" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="start" android:id="@id/2131438048" ="@drawable/2131235864" ="0.0dip" ="80.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131430973" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438047" 2130969943="2131438085" 2130969947="500.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438050" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="no" ="24.0dip" 2130969911="2131438103" 2130969918="@id/2131438051" 2130969937="2131438103" 2130969941="2131438103">
+                    <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131438049" ="wrap_content" ="wrap_content" ="Overlay Image" ="no" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970045="true" 2130970050="false" 2130970052="@raw/2132017245" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView ="center_vertical" android:id="@id/2131438051" ="16.0dip" ="16.0dip" ="0.0dip" ="0.0dip" ="12.0dip" ="24.0dip" ="polite" 2130968701="1.0sp" 2130968705="2131449068" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131438050" 2130969941="2131438103" style="?2130971300" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" ="@id/accept_button" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970515="@drawable/2131235808" 2130970516="@drawable/2131235807" />
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131430973" ="fill_parent" ="wrap_content" ="12.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131432100" 2130969940="@id/overlay" 2130969942="0.0" 2130969947="500.0dip">
+                <ImageView android:id="@id/2131430971" ="16.0dip" ="16.0dip" ="no" 2130971077="@drawable/2131235855" />
+                <TextView ="#ffffffff" ="center_vertical" android:id="@id/2131430967" ="wrap_content" ="wrap_content" ="8.0dip" style="?2130971273" />
+            </LinearLayout>
+            <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432100" ="0.0dip" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" ="24.0dip" ="24.0dip" 2130969125="retry_button,accept_button" 2130969490="12.0dip" 2130969491="2131440523" 2130969500="12.0dip" 2130969501="2131440523" 2130969502="2131427761" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+            <Button android:id="@id/retry_button" ="0.0dip" ="wrap_content" style="?2130970487" />
+            <Button android:id="@id/accept_button" ="0.0dip" ="wrap_content" style="?2130970486" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <View android:id="@id/2131432028" ="#ffffffff" ="false" ="false" ="fill_parent" ="fill_parent" ="0.0" ="no" ="2.0dip" />
+    <FrameLayout android:id="@id/2131438660" ="invisible" ="fill_parent" ="fill_parent">
+        <com.withpersona.sdk2.inquiry.governmentid.view.SpotlightView android:id="@id/2131440522" ="#ff000000" ="fill_parent" ="fill_parent" ="0.5" ="no" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970524="100.0dip" 2130970528="@id/2131438686" />
+        <ProgressBar ="center" android:id="@id/2131438686" ="8.0dip" ="wrap_content" ="wrap_content" ="@android:color/darker_gray" 2130969911="@id/overlay" 2130969917="@id/overlay" 2130969937="@id/overlay" 2130969941="@id/overlay" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup android:id="@id/2131430273" ="@drawable/2131235989" ="12.0dip" ="12.0dip" ="fill_parent" ="164.0dip" ="@color/2131099803" 2130970893="@dimen/2131166170" 2130970894="@id/2131431925" 2130970897="keleton_home_widget_common_4x4_light.svg" 2130970899="keleton_home_widget_common_4x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131431925" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="start|center" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" android:text="@string/widget_trending_discuss_title" ="1" ="false" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099779" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="0.0dip" ="16.0dip" ="50.0dip" 2130969912="@id/2131433417" 2130969937="2131438103" 2130969940="@id/2131431925" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131433417" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</com.components.skeleton.SkeletonViewGroup>

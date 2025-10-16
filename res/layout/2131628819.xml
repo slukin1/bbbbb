@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.4" />
+    <TextView ="@color/2131099788" android:id="@id/tvPrice" ="fill_parent" ="wrap_content" android:text="@string/_price" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099788" android:id="@id/tvPriceValue" ="wrap_content" ="wrap_content" 2130969911="@id/tvPrice" 2130969917="2131438103" 2130969941="@id/tvPrice" style="@style/2132149384" />
+    <TextView ="@color/2131099788" android:id="@id/2131444717" ="wrap_content" ="wrap_content" android:text="@string/ocbs_spend" 2130969937="2131438103" 2130969940="@id/tvPrice" style="@style/2132149384" />
+    <TextView ="@color/2131099788" android:id="@id/2131444718" ="wrap_content" ="wrap_content" 2130969911="@id/2131444717" 2130969917="2131438103" 2130969941="@id/2131444717" style="@style/2132149384" />
+    <TextView ="@color/2131099788" android:id="@id/tvFee" ="wrap_content" ="wrap_content" android:text="@string/fee" 2130969937="2131438103" 2130969940="@id/2131444717" style="@style/2132149384" />
+    <TextView ="@color/2131099788" ="end" android:id="@id/tvFeeValue" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="@id/2131432755" 2130969941="@id/tvFee" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131431723" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvFee,tvFeeValue" />
+    <TextView ="@color/2131099788" android:id="@id/tvNetworkFeeTitle" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_network_fee" 2130969937="2131438103" 2130969940="@id/2131431723" style="@style/2132149384" />
+    <TextView ="@color/2131099788" ="end" android:id="@id/tvNetworkFeeValue" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="@id/2131432755" 2130969941="@id/tvNetworkFeeTitle" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131437484" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvNetworkFeeTitle,tvNetworkFeeValue" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131437483" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvNetworkFeeTitle,tvNetworkFeeValue" />
+    <TextView ="@color/2131099788" android:id="@id/2131444293" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_receive" 2130969937="2131438103" 2130969940="@id/2131437484" style="@style/2132149384" />
+    <TextView ="@color/2131099788" android:id="@id/tvReceiveValue" ="wrap_content" ="wrap_content" 2130969911="@id/2131444293" 2130969917="2131438103" 2130969941="@id/2131444293" style="@style/2132149384" />
+    <View android:id="@id/divider" ="@color/2131099799" ="gone" ="fill_parent" ="0.5dip" ="8.0dip" 2130969940="@id/2131444293" />
+    <TextView ="@color/2131099778" android:id="@id/2131443871" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/ocbs_estimated_price_tip" ="2.0dip" 2130969940="@id/divider" style="@style/2132149384" />
+</merge>

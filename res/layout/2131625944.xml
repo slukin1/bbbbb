@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432898" ="fill_parent" ="fill_parent" xmlns:ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435620" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" layout="@layout/2131625487" />
+    <TextView ="@color/2131099778" android:id="@id/2131448075" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131435620" style="@style/2132149384" />
+    <LinearLayout ="horizontal" android:id="@id/2131442301" ="12.0dip" ="12.0dip" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448075">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="@drawable/2131237095" android:text="*" 2130971375="@color/2131099764" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442302" ="fill_parent" ="wrap_content" android:text="@string/futures_history_position_tip" ="false" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438717" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442301" 2130971098="false" 2130971099="false">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439656" ="fill_parent" ="fill_parent" ="2000" ="true" style="@style/2132148635" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442301" style="@style/2132149450" />
+    <include android:id="@id/2131435416" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442301" layout="@layout/2131626009" />
+</androidx.constraintlayout.widget.ConstraintLayout>

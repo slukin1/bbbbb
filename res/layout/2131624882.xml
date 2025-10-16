@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.FirstNestedScrollView ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436341" ="4.0dip" ="12.0dip" ="false" ="fill_parent" ="wrap_content">
+        <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/tv_total_realized_pnl_title" ="wrap_content" ="wrap_content" ="15.0dip" 2130969274="@string/copy_trading_total_realized_pnl_without_unit" 2130969937="2131438103" 2130969941="2131438103" 2130971382="@string/ct_mycopy_total_realized_pnl_desc" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_eye" ="20.0dip" ="20.0dip" ="4.0dip" 2130969911="@id/tv_total_realized_pnl_title" 2130969936="@id/tv_total_realized_pnl_title" 2130969941="@id/tv_total_realized_pnl_title" 2130971077="@drawable/2131235977" 2130971375="@color/2131099785" />
+        <TextView ="@color/2131099764" android:id="@id/tv_total_realized_pnl" ="wrap_content" ="wrap_content" ="4.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tv_total_realized_pnl_title" style="@style/2132149414" />
+        <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/tv_net_profit_title" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" 2130969274="@string/copy_trading_net_profit_tip_title" 2130969937="2131438103" 2130969940="@id/tv_total_realized_pnl" 2130970840="true" 2130971382="@string/copy_trading_net_profit_tip_desc" 2130971383="2131440560" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tv_net_profit" ="0.0dip" ="wrap_content" ="5.0dip" 2130969911="@id/tv_net_profit_title" 2130969936="@id/tv_net_profit_title" 2130969941="@id/tv_net_profit_title" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445680" ="wrap_content" ="wrap_content" ="16.0dip" android:text="*" 2130969937="@id/tv_net_profit_title" 2130969940="@id/tv_net_profit_title" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435683" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131445680" 2130969941="@id/2131445680">
+            <com.binance.base.widget.ExpandableTextView ="@color/2131099778" android:id="@id/2131447634" ="0.0dip" ="wrap_content" android:text="@string/copy_trading_closed_reminder" 2130969918="@id/2131434788" 2130969937="2131438103" 2130969941="2131438103" 2130969999="@dimen/2131166194" 2130970145="1" 2130970836="false" 2130971627="true" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434788" ="2.0dip" ="visible" ="20.0dip" ="20.0dip" ="4.0dip" ="15.0dip" 2130969911="@id/2131447634" 2130969917="2131438103" 2130969936="@id/2131447634" 2130971077="@drawable/2131237050" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131435683" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432604" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_net_profit,tv_net_profit_title,tv_total_realized_pnl,tv_total_realized_pnl_title,iv_eye,divider" />
+        <com.finance.framework.widget.recyclerview.MaxHeightRecyclerView android:id="@id/2131439634" ="fill_parent" ="wrap_content" ="16.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969940="@id/divider" />
+        <include android:id="@id/2131435622" ="wrap_content" ="wrap_content" ="56.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider" layout="@layout/2131624932" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.widget.FirstNestedScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" ="vertical" ="fill_parent" ="wrap_content" ="16.0dip" ="260.0dip" ="198.0dip" android:text="@string/wallet_deposit_contract_dialog_tips" ="9" ="false" ="5.0dip" ="false" style="@style/2132149350" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131446082" ="fill_parent" ="wrap_content" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center_vertical" android:id="@id/2131446081" ="0.0dip" ="wrap_content" ="260.0dip" ="true" ="1.0" 2130969937="2131438103" 2130969940="@id/2131446058" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237146" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="@font/2131296273" ="10.0dip" 2130969936="@id/ivLogo" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/contentLayout" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="@id/tvTitle" 2130969940="@id/tvTitle">
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="@font/2131296274" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="gone" ="fill_parent" ="wrap_content" />
+    </FrameLayout>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="24.0dip" 2130969937="2131438103" 2130969940="@id/contentLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

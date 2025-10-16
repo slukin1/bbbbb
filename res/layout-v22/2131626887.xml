@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" 2130968911="@color/2131100492" 2130968912="3.0dip" 2130968914="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.helper.widget.Flow ="vertical" ="0.0dip" ="0.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="10.0dip" 2130969125="linearLayoutCompatTime,linearLayoutCompatOpen,linearLayoutCompatHigh,linearLayoutCompatLow,linearLayoutCompatClose,linearLayoutCompatChg,linearLayoutCompatAmpl,linearLayoutCompatVol,linearLayoutCompatTxn,linearLayoutCompatBuyAndSell" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatOpen" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_open_" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441286" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatHigh" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_high" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441272" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatChg" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_chg" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441247" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatClose" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_close" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441248" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatLow" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_low" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441278" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatAmpl" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441372" android:text="@string/kline_ampl" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441238" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatVol" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_vol" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/textViewVol" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatTxn" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_txn" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441325" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatTime" ="0.0dip" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441373" android:text="@string/time" style="@style/2132148733" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441318" style="@style/2132148734" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/linearLayoutCompatBuyAndSell" ="gone" ="0.0dip" ="wrap_content" ="2.0">
+            <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="end" android:id="@id/text_view_buy" ="0.0dip" ="wrap_content" ="1.0" />
+            <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="end" ="end" android:id="@id/textViewSell" ="0.0dip" ="wrap_content" ="1.0" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

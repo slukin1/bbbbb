@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131429235" ="@android:color/black" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.camera.view.PreviewView android:id="@id/2131438612" ="fill_parent" ="fill_parent" ="ltr" />
+    <ImageView android:id="@id/2131428247" ="gone" ="fill_parent" ="fill_parent" ="centerCrop" ="0.7" />
+    <include android:id="@id/2131429244" layout="@layout/2131629207" />
+    <include android:id="@id/2131429240" ="gone" layout="@layout/2131629206" />
+</RelativeLayout>

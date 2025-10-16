@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427450" ="@color/2131099685" ="invisible" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624283" />
+    <TextView ="14.0sp" ="@color/2131102767" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/phone_number" ="15.0dip" ="15.0dip" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436307" ="@drawable/2131234593" ="fill_parent" ="45.0dip" ="15.0dip" ="12.0dip" ="15.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="16.0sp" ="@color/2131102398" ="center" android:id="@id/2131444124" ="10.0dip" ="10.0dip" ="wrap_content" ="fill_parent" ="84.0dip" ="10.0dip" ="10.0dip" />
+        <View ="@color/2131102766" ="0.5dip" ="17.0dip" />
+        <TextView ="16.0sp" ="@color/2131102398" ="center_vertical" android:id="@id/2131444068" ="#00000000" ="10.0dip" ="10.0dip" ="0.0dip" ="fill_parent" ="1.0" ="10.0dip" ="10.0dip" />
+    </LinearLayout>
+    <TextView ="14.0sp" ="@color/2131103031" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/unbind_mobile_notice" ="15.0dip" ="15.0dip" />
+    <Button ="@dimen/2131166448" ="#ff202630" android:id="@id/2131428918" ="@drawable/2131233348" ="fill_parent" ="@dimen/2131166446" ="@dimen/2131166447" ="24.0dip" ="@dimen/2131166447" ="@dimen/2131166447" android:text="@string/_Submit" ="false" ="@dimen/2131166447" ="@dimen/2131166447" />
+</LinearLayout>

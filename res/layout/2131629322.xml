@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427568" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131100856" ="center" android:id="@id/2131443337" ="20.0dip" ="20.0dip" ="false" 2130969911="@id/tvTitle" 2130969937="2131438103" 2130969941="@id/tvTitle" style="@style/2132149377" />
+    <View android:id="@id/2131449417" ="@color/2131099764" ="1.5dip" ="0.0dip" ="-2.0dip" 2130969904="true" 2130969912="@id/2131443337" 2130969917="@id/2131443337" 2130969937="@id/2131443337" 2130969941="2131438103" />
+    <View android:id="@id/2131449418" ="@color/2131099764" ="1.5dip" ="20.0dip" ="-1.0dip" 2130969904="true" 2130969917="@id/2131443337" 2130969937="@id/2131443337" 2130969940="@id/2131443337" />
+    <View android:id="@id/2131449419" ="@color/2131099751" ="1.5dip" ="0.0dip" 2130969904="true" 2130969911="@id/2131440397" 2130969917="@id/2131443337" 2130969937="@id/2131443337" 2130969940="@id/2131449418" />
+    <com.binance.base.widget.IconTipsTextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="5.0dip" ="10.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131443337" 2130969941="2131438103" 2130971380="2131428553" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131444836" ="wrap_content" ="wrap_content" ="10.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131443337" 2130969940="@id/tvTitle" style="@style/2132149384" />
+    <FrameLayout android:id="@id/2131431890" ="fill_parent" ="wrap_content" ="10.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/2131443337" 2130969940="@id/2131444836" />
+    <Space android:id="@id/2131440397" ="24.0dip" ="24.0dip" ="10.0dip" 2130969936="@id/2131443337" 2130969940="@id/2131431890" />
+</androidx.constraintlayout.widget.ConstraintLayout>

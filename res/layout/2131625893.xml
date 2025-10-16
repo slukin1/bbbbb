@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131444860" ="15.0dip" ="10.0dip" ="15.0dip" ="2.0dip" ="0.0dip" ="wrap_content" android:text="@string/future_position_profit_mode_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149450" />
+    <include android:id="@id/2131436416" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444860" layout="@layout/2131625894" />
+    <include android:id="@id/2131436323" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436416" layout="@layout/2131625894" />
+    <View android:id="@id/2131449616" ="@color/2131099751" ="wrap_content" ="0.5dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436323" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_cancel" ="0.0dip" ="56.0dip" android:text="@string/_cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449616" style="@style/2132149371" />
+</androidx.constraintlayout.widget.ConstraintLayout>

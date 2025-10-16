@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="15.0dip" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="@dimen/2131166184" 2130971077="@drawable/2131237053" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/c2c_appeal_provide_more_info" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="fill_parent" ="@id/2131428542" ="@id/2131441601">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436402" ="fill_parent" ="wrap_content" ="16.0dip">
+                <TextView ="12.0sp" ="@color/2131099778" android:id="@id/tvStar" ="wrap_content" ="wrap_content" android:text="*" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445418" ="0.0dip" ="wrap_content" android:text="@string/c2c_appeal_warn_sensitive_info" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/tvStar" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442818" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_appeal_description_manadatory" ="@font/2131296273" />
+            <RelativeLayout android:id="@id/2131439292" ="@drawable/2131232663" ="fill_parent" ="125.0dip" ="8.0dip">
+                <TextView ="12.0sp" ="@color/2131099785" android:id="@id/2131443348" ="wrap_content" ="wrap_content" ="8.0dip" android:text="0/800" ="true" ="8.0dip" ="true" />
+                <EditText ="14.0sp" ="@color/2131100908" ="@color/2131100907" ="start|center|top" android:id="@id/2131431272" ="@null" ="8.0dip" ="fill_parent" ="fill_parent" android:hint="@string/c2c_appeal_provide_detail" ="500" ="@id/2131443348" ="@font/2131296274" />
+            </RelativeLayout>
+            <TextView ="12.0sp" ="#fff23051" android:id="@id/2131442817" ="gone" ="fill_parent" ="wrap_content" android:text="@string/c2c_appeal_consult_instructions" />
+            <LinearLayout ="vertical" android:id="@id/2131439960" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+                <TextView ="14.0sp" ="@color/2131099764" ="fill_parent" ="wrap_content" android:text="@string/c2c_mod_common_descriptions_order" ="@font/2131296273" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131428019" ="fill_parent" ="wrap_content" ="10.0dip" />
+                <LinearLayout ="center" ="horizontal" android:id="@id/2131437133" ="fill_parent" ="wrap_content">
+                    <TextView ="12.0sp" ="@color/2131099787" ="center" android:id="@id/2131429053" ="13.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/ms_index_more" ="@font/2131296273" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432971" ="16.0dip" ="16.0dip" ="3.0dip" 2130971077="@drawable/2131237050" 2130971375="@color/2131099787" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445308" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_appeal_upload_proof" ="@font/2131296274" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445307" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_appeal_upload_files" ="@font/2131296274" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449099" ="fill_parent" ="wrap_content" ="8.0dip" />
+            <TextView ="12.0sp" ="#fff23051" android:id="@id/2131445305" ="invisible" ="fill_parent" ="wrap_content" android:text="@string/c2c_appeal_add_proofs" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@id/2131428542" ="@color/2131099751" ="fill_parent" ="0.5dip" ="@id/2131442156" />
+    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131442156" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@id/2131444116" ="@font/2131296274" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton ="true" android:id="@id/2131444116" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/_Submit" ="true" ="@dimen/2131166184" style="@style/2132148692" />
+</RelativeLayout>

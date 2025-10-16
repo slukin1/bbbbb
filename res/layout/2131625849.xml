@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439500" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" style="@style/2132148639"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" android:id="@id/2131441560" ="wrap_content" ="wrap_content" android:text="@string/futures_clear_negative_balance" ="true" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131439232" ="@drawable/2131237100" ="20.0dip" ="20.0dip" ="true" />
+    </RelativeLayout>
+    <TextView ="@color/2131099764" android:id="@id/tv_tips" ="wrap_content" ="wrap_content" android:text="@string/futures_clear_negative_balance_tips" style="@style/2132149350" />
+    <LinearLayout ="vertical" android:id="@id/2131435708" ="fill_parent" ="wrap_content" ="22.0dip" />
+    <View ="@color/2131100851" ="fill_parent" ="0.5dip" ="15.0dip" />
+    <TextView ="@color/2131099778" ="true" android:id="@id/2131448112" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_clear_negative_balance_tips_4" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="@color/2131099789" android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="20.0dip" ="25.0dip" android:text="@string/confirm" style="@style/2132149371" />
+</LinearLayout>

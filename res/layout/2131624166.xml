@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624283" />
+    <LinearLayout ="center_vertical" ="horizontal" ="26.0dip" ="0.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="#ff848e9c" ="wrap_content" ="wrap_content" android:text="@string/margin_convert_received_number" style="@style/2132149346" />
+        <TextView ="@color/2131102397" ="end" ="end" android:id="@id/tvTotalAmount" ="0.0dip" ="wrap_content" ="1" ="true" ="1.0" ="4.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="#ff848e9c" ="wrap_content" ="wrap_content" android:text="@string/fee" style="@style/2132149346" />
+        <TextView ="@color/2131102397" ="end" ="end" android:id="@id/tvFee" ="0.0dip" ="wrap_content" ="1" ="true" ="1.0" ="4.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="0.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="14.0sp" ="#ff848e9c" ="wrap_content" ="wrap_content" android:text="@string/time" style="@style/2132149346" />
+        <TextView ="@color/2131102397" ="end" ="end" android:id="@id/tvDate" ="0.0dip" ="wrap_content" ="1" ="true" ="1.0" ="4.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <View ="@color/2131100461" ="fill_parent" ="0.5dip" ="20.0dip" ="20.0dip" ="15.0dip" ="15.0dip" />
+    <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" android:text="@string/margin_convert_details" ="15.0dip" style="@style/2132149459" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099785" ="wrap_content" ="wrap_content" android:text="@string/ms_label_coin" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099785" ="wrap_content" ="wrap_content" android:text="@string/wallet_crypto_allocation_chart_balance" 2130969911="2131438103" 2130969936="@id/2131432758" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099785" ="wrap_content" ="wrap_content" android:text="@string/margin_convert_converted_bnb" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432758" ="wrap_content" ="wrap_content" 2130969921="0.267" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" />
+</LinearLayout>

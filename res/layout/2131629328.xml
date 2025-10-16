@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="56.0dip" ="fill_parent" ="436.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="96.0dip" ="96.0dip" ="@null" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="wrap_content" ="20.0dip" ="10.0dip" ="10.0dip" 2130969940="@id/2131434597" style="@style/2132149425" />
+    <TextView ="#ff848e9c" android:id="@id/2131446058" ="fill_parent" ="wrap_content" ="16.0dip" ="20.0dip" ="20.0dip" 2130969940="@id/tv_title" style="@style/2132149350" />
+    <TextView ="#ff848e9c" ="center" android:id="@id/2131444964" ="fill_parent" ="wrap_content" ="20.0dip" ="20.0dip" 2130969940="@id/2131446058" style="@style/2132149374" />
+    <TextView ="@color/2131099787" android:id="@id/2131439860" ="8.0dip" ="24.0dip" ="gone" ="wrap_content" ="wrap_content" ="false" ="8.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149446" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131428636" ="fill_parent" ="48.0dip" ="8.0dip" ="15.0dip" ="15.0dip" 2130969912="@id/2131439860" 2130969957="@dimen/2131166188" />
+</androidx.constraintlayout.widget.ConstraintLayout>

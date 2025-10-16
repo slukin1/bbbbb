@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" android:text="@string/confirmations" ="viewStart" ="@dimen/2131166156" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149423" />
+    <TextView ="@color/2131099764" android:id="@id/2131430855" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" ="10.0dip" android:text="@string/wallet_deposit_history_detail_confirm_tip" ="1.2" ="@dimen/2131166156" 2130969940="@id/title" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="@color/2131099789" android:id="@id/2131429058" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/ok" ="true" 2130969173="4" 2130969940="@id/2131430855" 2130970889="1" style="@style/2132149371" />
+</androidx.constraintlayout.widget.ConstraintLayout>

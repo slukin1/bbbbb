@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="436.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvHeader" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/eternal_rebind_switch_account" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvHeader" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131442500" ="fill_parent" ="wrap_content" ="24.0dip" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442581" style="@style/2132149450" />
+    <LinearLayout android:id="@id/2131433475" ="@drawable/2131238460" ="fill_parent" ="50.0dip" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442500">
+        <com.binance.widget.RuleEditText ="@color/2131099764" ="@color/2131099762" ="end" ="start|center" android:id="@id/2131433454" ="@null" ="0.0dip" ="50.0dip" android:hint="@string/eternal_rebind_verification_hint" ="1" ="1" ="1.0" ="number" ="@drawable/2131236035" ="10.0dip" ="0.0dip" 2130968705="2131449068" style="@style/2132149346" />
+        <TextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131439966" ="wrap_content" ="48.0dip" ="12.0dip" android:text="@string/ms_2fa_send_code" ="10.0dip" ="10.0dip" style="@style/2132149371" />
+    </LinearLayout>
+    <TextView ="@color/2131099863" android:id="@id/2131442499" ="fill_parent" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433475" />
+    <com.major.android.uikit.button.KitLoadingButton ="end" ="center" android:id="@id/2131430229" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/confirm" 2130969173="4.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

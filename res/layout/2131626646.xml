@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439436" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131429560" ="false" ="24.0dip" ="24.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131448007" ="0.0dip" ="wrap_content" ="15.0dip" ="@font/2131296266" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131429560" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131448006" ="0.0dip" ="wrap_content" ="15.0dip" ="@font/2131296266" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131429560" 2130969940="@id/2131448007" />
+</androidx.constraintlayout.widget.ConstraintLayout>

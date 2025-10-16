@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131232783" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/margin_chart_type_title" ="15.0dip" style="@style/2132149446" />
+        <ImageView ="end|center" android:id="@id/ivClose" ="wrap_content" ="wrap_content" ="12.0dip" 2130971077="@drawable/2131237100" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439540" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

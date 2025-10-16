@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131437902" ="fill_parent" ="50.0dip" ="0.0dip" ="15.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView ="start" android:id="@id/2131428702" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131234196" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/2131437941" ="wrap_content" ="wrap_content" ="@font/2131296275" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" ="end" ="horizontal" android:id="@id/2131429490" ="wrap_content" ="wrap_content" ="true">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131429504" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296273" ="0.0dip" ="2.0dip" ="16.0dip" 2130969918="@id/2131442155" 2130969937="2131438103" 2130969941="2131438103" />
+            <View android:id="@id/2131429491" ="@drawable/2131232389" ="8.0dip" ="8.0dip" ="@color/2131099881" 2130969936="@id/2131429504" 2130969941="@id/2131429504" />
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442155" ="wrap_content" ="wrap_content" android:text="@string/c2c_appeal_progress" ="4.0dip" ="@font/2131296273" ="0.0dip" ="10.0dip" ="2.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+            <View android:id="@id/2131428003" ="@drawable/2131232389" ="8.0dip" ="8.0dip" ="@color/2131099881" 2130969917="@id/2131442155" 2130969941="@id/2131442155" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="0.0dip" 2130969912="@id/2131428007" 2130969940="@id/2131437902">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437901" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.binance.c2c.orderdetail.widget.AppealSheetButtonView android:id="@id/2131428007" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" />
+    <ScrollView ="vertical" ="@color/2131099676" ="gone" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.cardview.widget.CardView ="fill_parent" ="wrap_content" 2130968911="@color/2131099685" 2130968914="@dimen/2131166269" 2130969143="@dimen/2131166188" 2130969145="@dimen/2131166188" 2130969146="@dimen/2131166247" 2130969148="@dimen/2131166188">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                    <TextView ="24.0sp" ="@color/2131100634" android:id="@id/2131444766" ="wrap_content" ="wrap_content" ="4.0dip" ="250.0dip" android:text="@string/appeal" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+                    <TextView ="20.0sp" ="@color/2131099765" android:id="@id/2131444962" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" ="8.0dip" 2130969907="@id/2131444766" 2130969936="@id/2131444766" />
+                    <TextView ="12.0sp" ="@color/2131099917" ="start" android:id="@id/2131444964" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/order_in_appeal_please_wait" ="@font/2131296274" 2130969917="2131438103" 2130969937="@id/2131444766" 2130969940="@id/2131444766" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <FrameLayout android:id="@id/2131441501" ="@color/2131100528" ="16.0dip" ="fill_parent" ="wrap_content" />
+            <View ="@color/2131099676" ="fill_parent" ="8.0dip" />
+            <com.binance.c2c.orderdetail.widget.AppealProcessEntryView android:id="@id/2131428017" ="fill_parent" ="wrap_content" />
+            <View ="@color/2131099676" ="fill_parent" ="8.0dip" />
+            <FrameLayout android:id="@id/2131428012" ="@color/2131100528" ="fill_parent" ="wrap_content" ="16.0dip" />
+            <View ="@color/2131099676" ="fill_parent" ="8.0dip" />
+            <FrameLayout android:id="@id/2131441782" ="@color/2131099685" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" />
+            <View ="@color/2131099676" ="fill_parent" ="8.0dip" />
+            <TextView ="14.0sp" ="@color/2131100634" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_mob_new_user_confirmpay_tips_title" ="@font/2131296274" ="14.0dip" />
+            <TextView ="14.0sp" ="#ff76808e" android:id="@id/2131439142" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="24.0dip" android:text="@string/c2c_mob_appeal_tips_process" ="6.0dip" ="@font/2131296274" ="16.0dip" ="16.0dip" />
+            <androidx.legacy.widget.Space ="1.0dip" ="0.0dip" ="1.0" />
+            <LinearLayout ="horizontal" ="gone" ="fill_parent" ="wrap_content" ="14.0dip">
+                <TextView ="14.0sp" ="@color/2131100634" ="center" android:id="@id/2131442413" ="@drawable/2131235905" ="12.0dip" ="12.0dip" ="0.0dip" ="wrap_content" android:text="@string/c2c_mob_appeal_cancel" ="1.0" ="@font/2131296274" />
+                <View android:id="@id/2131428536" ="11.0dip" ="1.0dip" />
+                <TextView ="14.0sp" ="@color/2131100634" ="center" android:id="@id/2131442579" ="@drawable/2131235905" ="12.0dip" ="12.0dip" ="0.0dip" ="wrap_content" android:text="@string/c2c_mob_appeal_support" ="1.0" ="@font/2131296274" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.futures.common.feature.fundingfee.ui.segment.chart.FutureFundingFeePieChart android:id="@id/chart_viewV2" ="0.0dip" ="200.0dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/lv_legend" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/chart_viewV2" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131435591" ="gone" ="wrap_content" ="wrap_content" 2130969125="chart_view,lv_legend" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" android:text="@string/no_data" ="10.0dip" 2130969314="@drawable/2131233810" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+</merge>

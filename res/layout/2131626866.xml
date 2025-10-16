@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131626865" />
+    <TextView ="@color/2131099785" ="center_vertical" android:id="@id/2131442758" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" style="@style/2132149394" />
+</LinearLayout>

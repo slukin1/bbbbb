@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131445186" ="wrap_content" ="wrap_content" android:text="@string/trading_rule" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131443723" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/events_max_open_order" 2130969937="2131438103" 2130969940="@id/2131445186" style="@style/2132149446" />
+    <View android:id="@id/2131449353" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" 2130969940="@id/2131443723" />
+    <TextView ="@color/2131099764" android:id="@id/2131443722" ="wrap_content" ="wrap_content" android:text="--" 2130969911="@id/2131443723" 2130969917="2131438103" 2130969941="@id/2131443723" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131443938" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/order_amount" 2130969937="2131438103" 2130969940="@id/2131449353" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131443014" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/symbol" 2130969918="@id/2131432756" 2130969937="2131438103" 2130969940="@id/2131443938" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131441208" ="0.0dip" ="wrap_content" android:text="@string/events_trading_rules_min" ="15.0dip" 2130969918="@id/2131432760" 2130969936="@id/2131443014" 2130969941="@id/2131443014" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" ="0.0dip" ="wrap_content" android:text="@string/events_trading_rules_max" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131432760" 2130969941="@id/2131443014" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432756" ="wrap_content" ="wrap_content" 2130969921="0.33" />
+    <View android:id="@id/2131449355" ="@color/2131099751" ="fill_parent" ="0.5dip" ="8.0dip" 2130969940="@id/2131443014" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.66" />
+    <com.finance.framework.widget.recyclerview.RefreshableEmptyStateRecyclerView android:id="@id/2131439647" ="24.0dip" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131443014" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="true" ="true" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441377" ="fill_parent" ="wrap_content" layout="@layout/2131628812" />
+    <com.cardinalcommerce.a.setAnimationMatrix ="@style/2132150246" ="16.0sp" ="center" ="center" android:id="@id/2131429449" ="wrap_content" ="wrap_content" ="20.0dip" ="10.0dip" android:hint="@string/challInfoText" />
+    <com.cardinalcommerce.a.setLeft ="24.0sp" android:id="@id/2131430133" ="6.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="10.0dip" ="8.0dip" ="5.0dip" ="1" ="false" ="45" ="1.05" ="textFilter|textPostalAddress|textWebEmailAddress|textWebPassword" ="center" ="no" />
+    <com.cardinalcommerce.a.setBottom ="@style/2132150293" android:id="@id/2131440841" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/verify" ="false" ="8.0dip" ="8.0dip" />
+    <com.cardinalcommerce.a.setBottom ="@style/2132150292" android:id="@id/2131439179" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="10.0dip" ="8.0dip" ="5.0dip" android:text="@string/resend_code" ="1.0" ="false" style="@style/2132149788" />
+</LinearLayout>

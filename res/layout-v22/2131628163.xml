@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="start" android:id="@id/title" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="?2130971282" />
+    <TextView android:id="@id/2131428508" ="0.0dip" ="wrap_content" ="16.0dip" 2130969912="@id/2131441353" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" 2130969962="0.0dip" style="?2130971299" />
+    <Space android:id="@id/2131441353" ="wrap_content" ="16.0dip" 2130969912="@id/2131429162" 2130969937="2131438103" 2130969940="@id/2131428508" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131429162" ="wrap_content" ="wrap_content" 2130968759="2131441647" 2130969125="positive_button,negative_button" />
+    <Button android:id="@id/positive_button" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" />
+    <Button android:id="@id/negative_button" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969918="@id/positive_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

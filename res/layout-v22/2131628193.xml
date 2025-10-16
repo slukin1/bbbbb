@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#ff000000" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" ="@id/2131429147" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970515="@drawable/2131235808" 2130970516="@drawable/2131235807" />
+    <TextView ="#ffffffff" android:id="@id/title" ="0.0dip" ="wrap_content" ="2" ="24.0dip" ="24.0dip" ="polite" 2130968701="2.0sp" 2130968705="2131449068" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" style="?2130971282" />
+    <TextView ="20.0sp" ="#ffffffff" ="bottom|center" android:id="@id/2131432874" ="0.0dip" ="wrap_content" ="2" ="2" ="24.0dip" ="24.0dip" ="polite" 2130969912="@id/preview_container" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" 2130969942="0.0" 2130969943="2131438085" style="?2130971282" />
+    <FrameLayout android:id="@id/preview_container" ="0.0dip" ="0.0dip" ="@dimen/2131167571" ="@dimen/2131167575" ="@dimen/2131167571" ="no" ="@dimen/2131167571" 2130969904="true" 2130969912="@id/2131429147" 2130969916="h,1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432874">
+        <androidx.camera.view.PreviewView android:id="@id/2131438619" ="gone" ="fill_parent" ="fill_parent" ="true" ="no" />
+        <com.withpersona.sdk2.camera.camera2.Camera2PreviewView android:id="@id/2131429221" ="gone" ="fill_parent" ="fill_parent" ="true" ="no" />
+    </FrameLayout>
+    <View android:id="@id/2131429236" ="#ff000000" ="0.0dip" ="0.0dip" 2130969911="@id/preview_container" 2130969917="@id/preview_container" 2130969937="@id/preview_container" 2130969941="@id/preview_container" />
+    <ProgressBar android:id="@id/2131433450" ="gone" ="wrap_content" ="wrap_content" ="@android:color/darker_gray" 2130969911="@id/preview_container" 2130969917="@id/preview_container" 2130969937="@id/preview_container" 2130969941="@id/preview_container" />
+    <com.withpersona.sdk2.inquiry.selfie.view.OldSelfieOverlayView android:id="@id/2131439943" ="0.0dip" ="0.0dip" ="no" 2130969911="@id/preview_container" 2130969917="@id/preview_container" 2130969937="@id/preview_container" 2130969941="@id/preview_container" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131438614" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="preview_container" />
+    <Button android:id="@id/2131429147" ="@drawable/2131235805" ="64.0dip" ="64.0dip" ="@dimen/2131167575" ="@dimen/2131167575" ="@string/pi2_camera_button_description" ="yes" ="24.0dip" ="24.0dip" ="@dimen/2131167575" 2130968733="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438614" 2130969943="2131440523" />
+    <TextView ="48.0sp" ="bold" ="@android:color/white" ="center" android:id="@id/2131430540" ="gone" ="0.0dip" ="0.0dip" ="yes" ="assertive" 2130969911="@id/2131439943" 2130969917="@id/2131439943" 2130969937="@id/2131439943" 2130969941="@id/2131439943" />
+</androidx.constraintlayout.widget.ConstraintLayout>

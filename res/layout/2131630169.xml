@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131440860" ="@drawable/2131238752" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440861" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131440862">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" ="20.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238734" />
+            <TextView ="@color/2131099764" android:id="@id/2131440818" ="0.0dip" ="wrap_content" ="2" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/icon" 2130969941="2131438103" style="@style/2132149394" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440859" ="@drawable/2131238751" ="15.0dip" ="15.0dip" ="fill_parent" ="84.0dip" ="1.0dip" 2130969940="@id/2131440861">
+            <TextView ="@color/2131099764" android:id="@id/2131429456" ="wrap_content" ="wrap_content" 2130969912="@id/2131429458" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131429458" ="200.0dip" ="wrap_content" ="2" 2130969912="@id/2131429460" 2130969937="@id/2131429456" 2130969940="@id/2131429456" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131429460" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="@id/2131429458" 2130969940="@id/2131429458" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView ="visible" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099764" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

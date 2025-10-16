@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131427594" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434040" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/tvTitle" 2130969937="2131438103" 2130969941="@id/tvTitle" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="wrap_content" ="44.0dip" android:text="@string/earn_one_click_earn_setting" 2130969918="@id/2131434041" 2130969936="@id/2131434040" 2130969941="2131438103" style="@style/2132149425" />
+    <ImageView ="center" android:id="@id/2131434041" ="visible" ="20.0dip" ="20.0dip" ="@null" ="15.0dip" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="@id/tvTitle" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/searchBar" ="fill_parent" ="wrap_content" ="12.0dip" 2130968908="true" 2130969940="@id/tvTitle" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="wrap_content" ="40.0dip" ="12.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/searchBar" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="1.0px" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449439" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

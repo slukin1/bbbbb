@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+        <RelativeLayout ="fill_parent" ="wrap_content" ="17.0dip" ="14.0dip">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433920" ="32.0dip" ="32.0dip" style="@style/2132148577" />
+            <TextView ="20.0sp" ="@color/2131099764" android:id="@id/2131444195" ="wrap_content" ="wrap_content" ="true" ="8.0dip" ="@id/2131433920" style="@style/2132149419" />
+        </RelativeLayout>
+        <TextView ="@color/2131099778" android:id="@id/2131441929" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_supply_amount" style="@style/2132149350" />
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="4.0dip">
+            <TextView ="@color/2131099764" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" style="@style/2132149423" />
+            <TextView ="@color/2131099764" android:id="@id/2131445064" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149446" />
+        </LinearLayout>
+        <View ="@color/2131099751" ="fill_parent" ="1.0px" ="16.0dip" />
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="16.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131441917" ="0.0dip" ="wrap_content" android:text="@string/earn_holding_interest_rate" ="@id/2131441916" ="true" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131441916" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" 2130969348="false" 2130970864="true" 2130971382="@string/earn_too_low_savings_interest" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="12.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131442975" ="0.0dip" ="wrap_content" android:text="@string/earn_estimated_interests" ="@id/2131442972" ="true" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131442972" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="12.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131442877" ="0.0dip" ="wrap_content" android:text="@string/duration" ="@id/tvDuration" ="true" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvDuration" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="12.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131443962" ="0.0dip" ="wrap_content" android:text="@string/earn_order_placing_time" ="@id/2131443961" ="true" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443961" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="12.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131443953" ="0.0dip" ="wrap_content" android:text="@string/earn_order_matched_time" ="@id/2131443952" ="true" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443952" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="12.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131442968" ="0.0dip" ="wrap_content" android:text="@string/earn_est_expiration_time" ="@id/2131442967" ="true" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131442967" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

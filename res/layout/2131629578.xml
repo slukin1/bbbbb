@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437864" ="@color/2131099675" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131449713" ="@color/2131099751" ="0.0dip" ="1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131447193" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/options_account_guidance_title" ="16.0dip" ="8.0dip" 2130969918="@id/2131434434" 2130969937="2131438103" 2130969940="@id/2131449713" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="16.0dip" ="16.0dip" ="12.0dip" ="13.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131447192" ="0.0dip" ="wrap_content" android:text="@string/options_account_guidance_content" 2130969917="@id/2131447193" 2130969937="@id/2131447193" 2130969940="@id/2131447193" style="@style/2132149361" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429061" ="0.0dip" ="40.0dip" ="16.0dip" ="8.0dip" ="16.0dip" ="15.0dip" android:text="@string/options_activate_account_title" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447192" 2130969962="@dimen/2131166184" />
+    <View ="@color/2131099751" ="0.0dip" ="1.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#14f0b90b" ="fill_parent" ="75.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_warning" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232948" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131446253" ="0.0dip" ="wrap_content" android:text="@string/wallet_transfer_no_spot_asset_tips" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/iv_warning" 2130969941="@id/iv_warning" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131446252" ="wrap_content" ="wrap_content" android:text="@string/wallet_transfer_go_deposit" 2130969937="@id/2131446253" 2130969940="@id/2131446253" style="@style/2132149377" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131433627" ="?2130970780" ="15.0dip" ="15.0dip" ="fill_parent" ="60.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430152" ="24.0dip" ="24.0dip" ="fitXY" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start" android:id="@id/2131428083" ="wrap_content" ="wrap_content" ="1" ="viewStart" ="12.0dip" 2130969905="true" 2130969912="@id/2131428072" 2130969918="@id/2131428129" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131430152" 2130969941="2131438103" 2130969958="8.0dip" style="@style/2132149447" />
+        <TextView ="@color/2131099778" android:id="@id/2131428129" ="@color/2131100477" ="1.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" ="2.0dip" ="8.0dip" 2130969911="@id/2131428083" 2130969918="@id/2131430142" 2130969936="@id/2131428083" 2130969941="@id/2131428083" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131428072" ="0.0dip" ="wrap_content" ="2.0dip" ="110.0dip" ="1" 2130969918="@id/2131436115" 2130969937="@id/2131428083" 2130969940="@id/2131428083" style="@style/2132149386" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131430142" ="wrap_content" ="wrap_content" ="ltr" 2130969912="@id/2131430156" 2130969917="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149447" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131430156" ="0.0dip" ="wrap_content" ="2.0dip" ="1" ="8.0dip" 2130968700="@dimen/2131167696" 2130968701="@dimen/2131167692" 2130968705="2131449068" 2130969911="2131438103" 2130969917="@id/2131430142" 2130969937="@id/2131436115" 2130969940="@id/2131430142" 2130969943="2131438085" style="@style/2132149386" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131436115" ="0.0dip" ="0.0dip" 2130969921="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

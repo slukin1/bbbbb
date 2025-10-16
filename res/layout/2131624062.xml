@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439825" ="16.0dip" ="8.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428702" ="35.0dip" ="20.0dip" ="15.0dip" ="0.0dip" 2130969911="@id/2131431280" 2130969941="@id/2131431280" 2130971077="@drawable/2131236863" />
+        <com.major.android.uikit.search.KitSearchBar ="14.0sp" ="@color/2131100635" ="@color/2131100973" ="center_vertical" android:id="@id/2131431280" ="0.0dip" ="32.0dip" ="true" 2130968908="false" 2130968909="@string/_search" 2130969917="2131438103" 2130969936="@id/2131428702" 2130969941="2131438103" 2130970759="@string/c2c_cash_search_hint" 2130971628="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131439825">
+        <LinearLayout ="center" ="vertical" android:id="@id/2131431363" ="100.0dip" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433839" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238419" />
+            <TextView ="@color/2131100975" ="center_horizontal" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/c2c_cash_trade_no_search_result_try_again" ="@font/2131296274" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439194" ="fill_parent" ="fill_parent" ="6.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

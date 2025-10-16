@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443391" ="fill_parent" ="wrap_content" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/contentLayout" ="wrap_content" ="wrap_content" ="4.0dip" ="42.0dip" 2130969937="@id/2131443391" 2130969940="@id/2131443391">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433687" ="34.0dip" ="34.0dip" 2130971077="@drawable/2131232951" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" ="@dimen/2131166286">
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/tvCoinName" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+            <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131442523" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content">
+            <TextView ="20.0sp" ="@color/2131099764" android:id="@id/2131444060" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131435205" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_convert_hottest_banner_apr" ="@font/2131296273" ="4.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428841" ="wrap_content" ="wrap_content" 2130969911="@id/contentLayout" 2130969917="2131438103" 2130969941="@id/contentLayout" style="@style/2132148693" />
+</androidx.constraintlayout.widget.ConstraintLayout>

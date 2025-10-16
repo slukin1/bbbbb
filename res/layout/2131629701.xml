@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236705" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="#10f0b90b" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_warning" ="12.0dip" ="12.0dip" ="@color/2131099764" 2130969911="@id/2131448505" 2130969937="2131438103" 2130969941="@id/2131448505" 2130971077="@drawable/2131237095" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448505" ="0.0dip" ="wrap_content" android:text="@string/options_upgrade_banner_main_content" ="6.0dip" ="4.0dip" 2130969918="@id/2131445947" 2130969936="@id/iv_warning" 2130969941="2131438103" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448506" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/options_upgrade_market_banner_subTitle" ="4.0dip" 2130969918="@id/2131445947" 2130969937="@id/2131448505" 2130969940="@id/2131448505" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131445947" ="16.0dip" ="16.0dip" ="@color/2131099738" 2130969917="2131438103" 2130969941="@id/2131448505" 2130971077="@drawable/2131237100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

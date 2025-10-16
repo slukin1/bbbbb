@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448990" ="#00000000" ="false" ="false" ="fill_parent" ="wrap_content" ="0.0dip" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131429285" ="@color/2131099685" ="false" ="fill_parent" ="wrap_content" ="10.0dip" ="@color/2131099685" 2130968912="@dimen/2131167793" 2130968914="5.0dip" 2130969143="24.0dip" 2130969148="24.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448989" ="8.0dip" ="gone" ="20.0dip" ="28.0dip" ="fitXY" ="24.0dip" ="5.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237101" 2130971375="@color/2131099764" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448992" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448989" 2130971077="@drawable/2131236649" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131448988" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" ="false" ="locale" ="24.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448992" 2130969962="0.0dip" style="@style/2132149425" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131448991" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448988" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="true" ="outsideInset" ="14.0sp" ="@color/2131099764" ="start" ="center_horizontal" android:id="@id/2131448993" ="19.0dip" ="19.0dip" ="vertical" ="0.0dip" ="0.0dip" ="5.0dip" ="8.0dip" ="5.0dip" ="298.0dip" ="198.0dip" ="9" ="5.0dip" ="false" ="@font/2131296281" ="locale" ="gravity" ="5.0dip" ="19.0dip" 2130969912="@id/2131448987" 2130969917="2131438103" 2130969923="2131450408" 2130969937="2131438103" 2130969940="@id/2131448991" 2130969946="2131440523" 2130969999="22.0sp" />
+            <RelativeLayout ="center" ="vertical" android:id="@id/2131448987" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969940="@id/2131448993">
+                <com.major.android.uikit2.button.KitButton ="end" ="center" android:id="@id/2131448914" ="fill_parent" ="wrap_content" android:text="Ok" style="@style/2132148692" />
+                <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131448913" ="fill_parent" ="wrap_content" ="10.0dip" android:text="Cancel" ="@id/2131448914" style="@style/2132148697" />
+                <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131448915" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="24.0dip" android:text="Cancel" ="@id/2131448914" style="@style/2132148704" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

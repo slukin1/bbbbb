@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start|center" android:id="@id/2131433500" ="fill_parent" ="wrap_content" ="false" ="locale" ="viewStart" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start|center" android:id="@id/2131433501" ="gone" ="wrap_content" ="wrap_content" ="false" ="locale" ="viewStart" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433499" ="@drawable/2131232635" ="fill_parent" ="50.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131433500">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="start|center" android:id="@id/2131433495" ="@null" ="0.0dip" ="fill_parent" ="1" ="textPassword" ="actionDone" ="@drawable/2131232634" ="locale" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131433496" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433496" ="true" ="gone" ="true" ="20.0dip" ="20.0dip" ="@drawable/2131235129" ="fitXY" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131433498" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433498" ="true" ="true" ="20.0dip" ="20.0dip" ="@drawable/2131235131" ="fitXY" ="true" ="15.0dip" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="start|center" android:id="@id/2131433497" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="16.0dip" ="locale" ="viewStart" 2130969937="2131438103" 2130969940="@id/2131433499" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

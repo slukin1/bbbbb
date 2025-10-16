@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433627" ="@drawable/2131233843" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431705" ="20.0dip" ="20.0dip" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233783" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="1" ="8.0dip" 2130969905="true" 2130969936="@id/2131431705" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132149446" />
+    <LinearLayout ="center_vertical" ="horizontal" ="0.0dip" ="wrap_content" ="4.0dip" 2130969911="@id/tvSymbol" 2130969918="@id/tvPrice" 2130969936="@id/tvSymbol" 2130969941="@id/tvSymbol">
+        <TextView ="@color/2131099764" ="center" android:id="@id/tvContract" ="@drawable/2131235998" ="6.0dip" ="6.0dip" ="wrap_content" ="wrap_content" ="1" ="4.0dip" ="@color/2131099800" ="@dimen/2131166269" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" android:id="@id/2131442284" ="@drawable/2131235998" ="6.0dip" ="6.0dip" ="gone" ="wrap_content" ="wrap_content" ="1" ="4.0dip" ="@color/2131099931" ="@dimen/2131166269" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131448008" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/futures_market_list_tag_new" ="1" ="4.0dip" ="#10f0b90b" ="@dimen/2131166247" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434889" ="gone" ="wrap_content" ="15.0dip" ="fitXY" ="4.0dip" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="end" android:id="@id/tvPrice" ="0.0dip" ="wrap_content" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131445382" ="0.0dip" ="wrap_content" ="1" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131443179" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol" style="@style/2132149384" />
+    <TextView ="#ff00c087" ="end" ="end" android:id="@id/2131443179" ="0.0dip" ="wrap_content" ="1" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131445382" 2130969940="@id/tvPrice" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

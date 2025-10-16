@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429966" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/payment_change_payment_password" ="15.0dip" ="15.0dip" 2130969931="2131438103" 2130969940="@id/2131441601" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/2131450244" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/payment_your_current_pin" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <com.major.android.uikit.input.KitVerifyCode android:id="@id/2131450245" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969568="true" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131450244" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131450194" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/payment_forgot_pay_pin" ="@font/2131296266" ="@dimen/2131167866" ="@dimen/2131166170" 2130969937="2131438103" 2130969940="@id/2131450245" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131442837" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_setting_disable_pay_pin" ="@font/2131296266" ="@dimen/2131167866" ="@dimen/2131166170" 2130969937="2131438103" 2130969940="@id/2131450194" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatImageButton ="false" ="center" ="end" android:id="@id/2131450222" ="?2130970780" ="48.0dip" ="48.0dip" ="24.0dip" ="15.0dip" 2130969911="2131438103" 2130969912="@id/2131435038" 2130969917="2131438103" />
+    <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

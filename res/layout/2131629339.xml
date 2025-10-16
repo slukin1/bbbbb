@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" ="fill_parent" ="wrap_content" ="ltr" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436795" ="15.0dip" ="15.0dip" ="visible" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436468" ="fill_parent" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445865" ="wrap_content" ="wrap_content" android:text="@string/c2c_share_inventory_target_quantity" ="@font/2131296273" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434389" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" android:id="@id/2131441728" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="5.0dip">
+            <EditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131441727" ="@null" ="0.0dip" ="fill_parent" android:hint="@string/c2c_share_inventory_enter_target_quanlity" ="6.0" ="numberDecimal" ="actionDone" ="@font/2131296273" ="12.0dip" />
+            <TextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131445858" ="0.0dip" ="fill_parent" ="1.0" ="@font/2131296273" ="10.0dip" ="12.0dip" />
+        </LinearLayout>
+        <TextView ="12.0sp" ="#fff23051" android:id="@id/2131446375" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/c2c_mob_post_ad_please_enter_total_amount_fee" ="@font/2131296274" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content" ="5.0dip">
+            <TextView ="12.0sp" ="@color/2131099778" ="end|center" android:id="@id/2131445863" ="wrap_content" ="wrap_content" android:text="≈ -" ="@font/2131296274" />
+            <TextView ="12.0sp" ="@color/2131099778" ="end|center" android:id="@id/2131445856" ="wrap_content" ="wrap_content" ="@font/2131296274" ="4.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436822" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="ltr">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436638" ="fill_parent" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447762" ="wrap_content" ="wrap_content" android:text="@string/c2c_share_inventory_target_quantity" ="@font/2131296273" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434830" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" android:id="@id/2131439963" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="5.0dip">
+            <EditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131431543" ="@null" ="0.0dip" ="fill_parent" android:hint="@string/c2c_share_inventory_enter_target_quanlity" ="6.0" ="numberDecimal" ="actionDone" ="@font/2131296273" ="12.0dip" ="0.0dip" />
+            <TextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131447751" ="wrap_content" ="fill_parent" android:text="--" ="@font/2131296273" />
+            <TextView ="16.0sp" ="@color/2131099787" ="center" android:id="@id/2131447748" ="12.0dip" ="12.0dip" ="wrap_content" ="fill_parent" android:text="@string/_all" ="@font/2131296273" />
+        </LinearLayout>
+        <TextView ="12.0sp" ="#fff23051" android:id="@id/2131439961" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/c2c_mob_post_ad_please_enter_total_amount_fee" ="@font/2131296274" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+            <TextView ="12.0sp" ="@color/2131099778" ="end" ="end|center" android:id="@id/2131447755" ="wrap_content" ="fill_parent" ="1" ="@font/2131296274" ="ltr" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131447749" ="wrap_content" ="wrap_content" ="1" ="@font/2131296274" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+            <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p2_label_available" ="@font/2131296274" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131447750" ="wrap_content" ="wrap_content" ="@font/2131296274" ="ltr" ="4.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434306" ="16.0dip" ="16.0dip" ="8.0dip" 2130971077="@drawable/2131237089" 2130971375="@color/2131099764" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

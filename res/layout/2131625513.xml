@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131431823" ="fill_parent" ="40.0dip" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="end" ="center" android:id="@id/2131446635" ="fill_parent" ="wrap_content" ="1" ="false" 2130969912="@id/2131441360" 2130969941="2131438103" 2130969943="2131438085" />
+    <TextView ="@style/2132149374" ="@color/2131099764" ="end" ="center" android:id="@id/2131441360" ="@null" ="gone" ="fill_parent" ="wrap_content" ="1" ="false" ="center" 2130969911="2131438103" 2130969940="@id/2131446635" />
+</merge>

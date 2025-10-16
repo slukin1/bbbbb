@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/strategy_confirm_modification" style="@style/2132149425" />
+    <com.finance.framework.widget.scroll.MaxHeightScrollView android:id="@id/2131440876" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443772" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/strategy_confirm_modification_sub_title" style="@style/2132149355" />
+            <include android:id="@id/2131435486" ="fill_parent" ="wrap_content" ="16.0dip" layout="@layout/2131629100" />
+            <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="16.0dip" ="16.0dip" ="8.0dip" ="@color/2131099738" 2130971077="@drawable/2131236861" />
+            <include android:id="@id/2131435485" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131629100" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445421" ="wrap_content" ="wrap_content" android:text="@string/strategy_asterisk" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445422" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149384" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.finance.framework.widget.scroll.MaxHeightScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/_confirm" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

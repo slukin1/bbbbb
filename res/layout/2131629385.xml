@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131100082" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_logo" ="8.0dip" ="fill_parent" ="wrap_content" ="fitStart" ="8.0dip" 2130971077="@drawable/2131234589" />
+    <ImageView android:id="@id/2131434801" ="@drawable/2131234699" ="fill_parent" ="wrap_content" ="centerCrop" />
+    <include android:id="@id/2131436724" ="fill_parent" ="80.0dip" layout="@layout/2131629389" />
+</LinearLayout>

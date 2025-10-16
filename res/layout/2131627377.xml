@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="vertical" ="fill_parent" ="23.0dip" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131444976" ="wrap_content" ="wrap_content" android:text="@string/crypto" ="15.0dip" 2130970849="true" style="@style/2132149450" />
+</androidx.appcompat.widget.LinearLayoutCompat>

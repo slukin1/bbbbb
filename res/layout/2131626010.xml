@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/funding_rate" ="16.0dip" ="16.0dip" style="@style/2132149459" />
+    <com.finance.futures.common.feature.bigdata.ui.arbitrage.detail.ui.view.FundingRateChartView android:id="@id/2131429474" ="fill_parent" ="212.0dip" ="16.0dip" ="16.0dip" ="16.0dip" />
+</LinearLayout>

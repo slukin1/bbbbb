@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131430700" ="#00000000" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" android:id="@id/2131429130" ="#00000000" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429173" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233213" 2130971375="@color/2131099732" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439948" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233213" />
+            <TextView ="#ffffffff" ="end" android:id="@id/2131429133" ="gone" ="wrap_content" ="14.0dip" android:text="@string/content_share_order_sell_simple" ="1" 2130969917="@id/2131439948" 2130969937="@id/2131439948" 2130969941="@id/2131439948" style="@style/2132149395" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" android:id="@id/2131438555" ="gone" ="wrap_content" ="wrap_content" 2130969917="@id/2131429130" 2130969937="@id/2131429130" 2130969940="@id/2131429130">
+            <View android:id="@id/2131428248" ="@drawable/2131236000" ="visible" ="6.0dip" ="6.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <View android:id="@id/2131428551" ="gone" ="4.0dip" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430912" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441607" ="?2130968587" ="visible" ="50.0dip" ="44.0dip" ="centerInside" ="@color/2131099764" ="@null" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="44.0dip" android:text="@string/ocbs_string_add_new_card" 2130969941="2131438103" style="@style/2132149425" />
+    <ScrollView ="fill_parent" ="0.0dip" ="16.0dip" ="true" 2130969912="@id/2131428732" 2130969940="@id/tvTitle">
+        <androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131442422" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/ocbs_string_card_information" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/nameFieldsContainer" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442422">
+                <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433472" ="0.0dip" ="wrap_content" android:hint="@string/first_name" ="textPersonName|textCapWords" 2130969817="2" 2130969818="false" 2130969821="false" 2130969918="@id/2131433474" 2130969928="2131440523" 2130969937="2131438103" 2130969941="2131438103" />
+                <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433474" ="gone" ="0.0dip" ="wrap_content" android:hint="@string/last_name" ="textPersonName|textCapWords" ="4.0dip" 2130969817="2" 2130969818="false" 2130969821="false" 2130969917="2131438103" 2130969936="@id/2131433472" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131437429" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="nameFieldsContainer" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429281" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437429">
+                <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433458" ="0.0dip" ="wrap_content" android:hint="1234 1234 1234 1234" ="yes" 2130969815="false" 2130969817="2" 2130969818="false" 2130969821="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439537" ="wrap_content" ="wrap_content" ="22.0dip" ="10.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969918="@id/2131428835" 2130969941="2131438103" 2130969958="@dimen/2131166156" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428835" ="?2130970781" ="gone" ="20.0dip" ="20.0dip" ="22.0dip" ="12.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236984" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435420" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429281">
+                <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131433471" ="0.0dip" ="wrap_content" android:hint="@string/expiry_date" 2130969818="false" 2130969834="1" 2130969918="@id/2131433462" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" 2130969958="0.0dip" />
+                <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433462" ="0.0dip" ="wrap_content" android:hint="@string/ocbs_string_cvv_cvc" ="yes" ="4.0dip" 2130969817="2" 2130969818="false" 2130969821="false" 2130969917="2131438103" 2130969936="@id/2131433471" 2130969941="2131438103" 2130969961="0.0dip" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.binance.widget.BottomDashLineTextView ="@color/2131099778" android:id="@id/2131444324" ="?2130970781" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_recommended_banks" 2130969937="2131438103" 2130969940="@id/2131435420" style="@style/2132149355" />
+            <TextView ="@color/2131099764" android:id="@id/2131442326" ="0.0dip" ="wrap_content" ="36.0dip" android:text="@string/ocbs_string_billing_address" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444324" style="@style/2132149446" />
+            <FrameLayout android:id="@id/2131428466" ="@drawable/2131236694" ="12.0dip" ="16.0dip" ="12.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442326">
+                <TextView ="@color/2131099764" android:id="@id/2131442325" ="fill_parent" ="wrap_content" ="false" ="24.0dip" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433835" ="?2130970781" ="20.0dip" ="20.0dip" ="@drawable/2131237285" 2130971375="@color/2131099738" />
+            </FrameLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427686" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428466">
+                <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433455" ="fill_parent" ="wrap_content" android:hint="@string/address" ="textPostalAddress" 2130969817="2" 2130969818="false" 2130969821="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435384" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433455">
+                    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433459" ="0.0dip" ="wrap_content" android:hint="@string/city" ="text" ="4.0dip" 2130969817="2" 2130969818="false" 2130969821="false" 2130969918="@id/2131433478" 2130969928="2131440523" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" />
+                    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433478" ="0.0dip" ="wrap_content" android:hint="@string/postal_code" ="textPostalAddress" 2130969817="2" 2130969818="false" 2130969821="false" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/2131433459" 2130969941="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131439935" ="fill_parent" ="wrap_content" android:hint="@string/ocbs_string_country" 2130969818="false" 2130969834="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435384" />
+                <com.major.android.uikit2.selection.KitCheckBox ="14.0sp" ="@color/2131099778" android:id="@id/2131429333" ="fill_parent" ="wrap_content" ="12.0dip" ="true" android:text="@string/ocbs_string_autofill_verification_address" ="@font/2131296281" ="8.0dip" ="8.0dip" 2130969759="2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439935" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969756="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

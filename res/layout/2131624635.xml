@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="@color/2131099685" ="false" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="2131438103" 2130971098="false" 2130971100="true">
+        <com.binance.content.view.RecycleViewListenNestedScrollableHost android:id="@id/2131439045" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" ="never" 2130969917="2131438103" 2130969937="2131438103" />
+        </com.binance.content.view.RecycleViewListenNestedScrollableHost>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131439119" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131431750" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@style/2132149541" ="false" ="false" ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131428237" ="@color/2131099675" ="fill_parent" ="0.0dip" ="0.0" 2130969911="2131438103" 2130969940="@id/2131431753" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/2131431752" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="@color/2131099879" 2130968789="0.0dip" 2130969331="@dimen/2131166012" 2130969446="@dimen/2131166248" 2130969912="@id/2131431755" 2130969917="2131438103" 2130970141="18.0dip" 2130970803="@style/2132150254" 2130971077="@drawable/2131237811" 2130971375="@color/2131099789" />
+        <Space android:id="@id/2131431755" ="gone" ="1.0dip" ="18.0dip" 2130969912="@id/2131431754" 2130969917="@id/2131431754" 2130969937="@id/2131431754" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/2131431754" ="invisible" ="wrap_content" ="wrap_content" ="50.0dip" ="18.0dip" ="@color/2131099744" 2130968789="0.0dip" 2130969331="@dimen/2131166012" 2130969446="@dimen/2131166248" 2130969911="2131438103" 2130969917="2131438103" 2130970141="20.0dip" 2130970673="@color/2131099875" 2130970803="@style/2132150253" 2130971077="@drawable/2131236869" 2130971375="@color/2131099764" />
+        <FrameLayout android:id="@id/2131435563" ="invisible" ="0.0dip" ="48.0dip" ="18.0dip" ="10.0dip" ="15.0dip" 2130969911="@id/2131431753" 2130969917="@id/2131431753" 2130969927="1.0" 2130969937="2131438103">
+            <TextView ="@color/2131099764" ="end" ="center" ="end|center" android:id="@id/2131449080" ="@drawable/2131233206" ="wrap_content" ="fill_parent" ="true" ="15.0dip" ="53.0dip" style="@style/2132149454" />
+        </FrameLayout>
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131431753" ="invisible" ="fill_parent" ="0.0dip" ="4.0dip" 2130969912="@id/2131431754" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

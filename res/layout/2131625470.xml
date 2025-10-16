@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.edittext.FinanceAutoResizeEditText ="end|center" android:id="@id/editAmount" ="0.0dip" ="invisible" ="fill_parent" ="fill_parent" ="false" ="numberDecimal" ="textEnd" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" ="end" ="end|center" android:id="@id/2131441190" ="0.0dip" ="fill_parent" android:text="0.00" ="1" ="false" ="textEnd" 2130969911="@id/editAmount" 2130969917="@id/editAmount" 2130969937="@id/editAmount" 2130969941="@id/editAmount" style="@style/2132149419" />
+</merge>

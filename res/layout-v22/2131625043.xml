@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236025" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131441525" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_sheet_select_verification_title" ="12.0dip" ="@font/2131296275" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_post_ad_sheet_select_verification_tips" ="@font/2131296274" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437065" ="fill_parent" ="0.0dip" ="1.0" 2130969912="@id/2131433397" 2130969940="@id/2131441525" />
+    <View android:id="@id/2131449533" ="@color/2131099751" ="wrap_content" ="0.5dip" ="12.0dip" ="12.0dip" ="@dimen/2131166170" />
+    <include android:id="@id/2131433397" ="fill_parent" ="wrap_content" ="15.0dip" layout="@layout/2131629463" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131428814" ="15.0dip" ="12.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="72.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit2.button.KitButton ="14.0sp" android:id="@id/2131428877" ="0.0dip" ="wrap_content" android:text="@string/reset" ="1.0" ="@font/2131296273" style="@style/2132148697" />
+        <Space ="12.0dip" ="1.0dip" />
+        <com.major.android.uikit2.button.KitButton ="14.0sp" android:id="@id/2131428697" ="0.0dip" ="wrap_content" android:text="@string/c2c_chat_sheet_btn_apply" ="1.0" ="@font/2131296273" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

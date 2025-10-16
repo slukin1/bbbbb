@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/2131435711" ="@layout/2131625507" ="@id/2131435711" ="fill_parent" ="44.0dip" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432172" ="gone" ="fill_parent" ="fill_parent" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438746" ="gone" ="fill_parent" ="fill_parent" />
+</LinearLayout>

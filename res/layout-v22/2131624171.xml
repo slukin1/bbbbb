@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431924" ="fill_parent" ="@dimen/2131165972">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131442281" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433206" ="gone" ="20.0dip" ="20.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130971077="@drawable/2131237162" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439676" ="fill_parent" ="wrap_content" />
+    <View android:id="@id/2131449149" ="@color/2131099685" ="fill_parent" ="0.0dip" ="1.0" />
+</LinearLayout>

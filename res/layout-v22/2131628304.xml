@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131446679" ="20.0dip" ="wrap_content" ="false" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/2131445784" ="wrap_content" ="wrap_content" ="1" ="false" ="2.0dip" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447547" ="wrap_content" ="wrap_content" ="false" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099671" android:id="@id/2131448005" ="@drawable/2131235944" ="4.0dip" ="1.0dip" ="4.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="0.5dip" ="false" ="4.0dip" ="@dimen/2131166247" ="@dimen/2131166155" style="@style/2132149394" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="end" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/tv_price" ="wrap_content" ="wrap_content" ="false" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099851" android:id="@id/tv_percent" ="wrap_content" ="wrap_content" ="false" style="@style/2132149361" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

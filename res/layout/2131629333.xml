@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="15.0dip" ="10.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436797" ="wrap_content" ="wrap_content">
+        <TextView ="16.0sp" ="#fff23051" android:id="@id/2131446506" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131446496" ="wrap_content" ="wrap_content" ="@font/2131296273" ="4.0dip" ="4.0dip" />
+        <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131446492" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p4_label_with" ="@font/2131296273" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131446499" ="wrap_content" ="wrap_content" ="@font/2131296273" ="4.0dip" ="4.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433710" ="gone" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131234150" />
+    </LinearLayout>
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445565" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/c2c_mob_ad_post_p4_label_adnumber" ="@id/2131436797" ="@font/2131296274" />
+    <CheckedTextView ="12.0sp" ="center_vertical" android:id="@id/2131447984" ="5.0dip" ="1.0dip" ="5.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="@id/2131436797" ="@id/2131436797" ="@font/2131296273" ="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433910" ="gone" ="20.0dip" ="20.0dip" ="5.0dip" ="@id/2131447984" 2130971077="@drawable/2131237311" />
+    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131445566" ="wrap_content" ="wrap_content" ="4.0dip" ="6.0dip" ="@id/2131445565" ="@font/2131296274" ="@id/2131445565" />
+</RelativeLayout>

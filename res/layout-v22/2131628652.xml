@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" ="wrap_content" ="50.0dip" android:text="@string/strategy_investment_amount" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="fill_parent" ="0.0dip" ="8.0dip" ="18.0dip" ="1.0">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <include android:id="@id/2131436830" ="fill_parent" ="wrap_content" layout="@layout/2131628717" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236476" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="@dimen/2131166188">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429847" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166170">
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445360" ="fill_parent" android:text="@string/strategy_grid_detail_tab_details" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149453" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="20.0dip" ="20.0dip" 2130969911="@id/2131445360" 2130969917="2131438103" 2130969941="@id/2131445360" 2130971077="@drawable/2131237050" 2130971375="@color/2131099764" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.finance.strategy.framework.widgets.copy.GridBasicParametersView android:id="@id/2131428434" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@id/2131435417" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="5.0dip" ="15.0dip" ="@dimen/2131166260" 2130969912="@id/2131428745" 2130969937="2131438103" layout="@layout/2131628765" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428745" ="fill_parent" ="40.0dip" android:text="@string/um_grid_trade_create" 2130969756="true" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+    <com.finance.strategy.framework.widgets.KeyboardShadowView android:id="@id/2131449414" ="fill_parent" ="0.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

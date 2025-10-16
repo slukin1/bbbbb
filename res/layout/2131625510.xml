@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131431823" ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="end" ="center" android:id="@id/2131446635" ="fill_parent" ="wrap_content" ="1" ="false" 2130969912="@id/2131431884" 2130969941="2131438103" 2130969943="2131438085" />
+    <FrameLayout android:id="@id/2131431884" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969940="@id/2131446635">
+        <com.finance.kit.framework.widget.edittext.MultiFocusListenerEditText ="14.0dip" ="@color/2131099764" ="@color/2131099738" ="end" ="center" android:id="@id/2131431283" ="@null" ="gone" ="fill_parent" ="18.0dip" ="1" ="false" ="numberDecimal" ="actionDone" ="@font/2131296265" ="center" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131442910" ="@color/2131099744" ="gone" ="fill_parent" ="18.0dip" ="1" ="false" ="center" style="@style/2132149374" />
+    </FrameLayout>
+</merge>

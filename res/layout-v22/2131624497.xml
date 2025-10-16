@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="@drawable/2131233200" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170">
+        <FrameLayout android:id="@id/2131441812" ="@drawable/2131235998" ="14.0dip" ="wrap_content" ="@color/2131099863" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView ="@color/2131099776" ="center" android:id="@id/2131441813" ="wrap_content" ="wrap_content" ="1.0px" style="@style/2132149394" />
+        </FrameLayout>
+        <TextView ="@color/2131099764" android:id="@id/2131428083" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/2131441812" 2130969936="@id/2131441812" 2130969941="@id/2131441812" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/2131438298" ="@drawable/2131233035" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_perp" ="4.0dip" ="@dimen/2131166247" 2130969911="@id/2131428083" 2130969936="@id/2131428083" 2130969941="@id/2131428083" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131435822" ="@drawable/2131233035" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="--" ="4.0dip" ="@dimen/2131166247" 2130969911="@id/2131438298" 2130969936="@id/2131438298" 2130969941="@id/2131438298" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131430109" ="gone" ="wrap_content" ="wrap_content" android:text="@string/content_share_trading_closed" ="4.0dip" 2130969911="@id/2131441812" 2130969917="2131438103" 2130969941="@id/2131441812" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131441800" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/content_share_trading_unrealized_pnl" 2130969937="2131438103" 2130969940="@id/2131428083" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131441801" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/2131441800" 2130969941="@id/2131441800" style="@style/2132149384" />
+        <TextView ="@color/2131099751" android:id="@id/2131441806" ="wrap_content" ="wrap_content" android:text="|" ="4.0dip" 2130969936="@id/2131441801" 2130969941="@id/2131441800" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131441808" ="wrap_content" ="wrap_content" android:text="@string/content_share_trading_price" ="4.0dip" 2130969936="@id/2131441806" 2130969941="@id/2131441800" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131441809" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/2131441808" 2130969941="@id/2131441800" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131441805" ="gone" ="wrap_content" ="wrap_content" android:text="09-10 09:00" ="4.0dip" 2130969917="2131438103" 2130969941="@id/2131441800" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430217" ="fill_parent" ="wrap_content" ="8.0dip" />
+    <TextView ="@color/2131099778" android:id="@id/2131444964" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/content_futures_card_tip" style="@style/2132149384" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435350" ="fill_parent" ="wrap_content" ="20.0dip">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_show_pnl_value" style="@style/2132149350" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131428901" ="32.0dip" ="wrap_content" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton ="#ff202630" android:id="@id/2131428676" ="fill_parent" ="40.0dip" ="20.0dip" ="12.0dip" android:text="@string/content_confirm_add" style="@style/2132148692" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439479" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131429784" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131628771" />
+    <include android:id="@id/2131435620" ="fill_parent" ="wrap_content" 2130969940="@id/2131429784" layout="@layout/2131625487" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432172" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131435620" />
+</androidx.constraintlayout.widget.ConstraintLayout>

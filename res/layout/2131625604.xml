@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="10.0dip" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131435317" layout="@layout/2131629312" />
+        <include android:id="@id/2131435309" layout="@layout/2131629312" />
+        <include android:id="@id/2131435324" layout="@layout/2131629312" />
+        <include android:id="@id/2131435319" layout="@layout/2131629312" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

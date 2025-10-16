@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="?2130968589" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSImageButton android:id="@id/sns_button_close" ="@dimen/sns_image_button_padding" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSImageButton android:id="@id/sns_button_option" ="@dimen/sns_image_button_padding" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</merge>

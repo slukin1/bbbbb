@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131431084" ="gone" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="center" ="vertical" ="@drawable/2131235998" ="120.0dip" ="120.0dip" ="#ff848e9c">
+        <TextView ="14.0sp" ="#ffffffff" ="center" android:id="@id/2131444191" ="@drawable/2131234665" ="60.0dip" ="60.0dip" />
+        <TextView ="14.0sp" ="#ffffffff" ="center" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/loading" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

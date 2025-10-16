@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="8.0dip" ="16.0dip" ="8.0dip" ="@color/2131099712">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429109" ="wrap_content" ="wrap_content" android:text="@string/market_search_subscribe" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148701" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="28.0dip" ="28.0dip" 2130969911="@id/2131429109" 2130969937="2131438103" 2130969941="@id/2131429109" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131445971" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/iv_logo" 2130969936="@id/iv_logo" 2130969941="@id/iv_logo" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131448005" ="@drawable/2131235945" ="3.0dip" ="3.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="1.0dip" ="4.0dip" 2130969911="@id/2131445971" 2130969936="@id/2131445971" 2130969941="@id/2131445971" 2130969961="@dimen/2131166286" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131446221" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/market_search_start_at" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131446220" ="wrap_content" ="wrap_content" 2130969911="@id/2131446221" 2130969917="2131438103" 2130969941="@id/2131446221" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131447947" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/market_search_subscribe_count" 2130969937="@id/iv_logo" 2130969940="@id/2131446221" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131447946" ="wrap_content" ="wrap_content" 2130969911="@id/2131447947" 2130969917="2131438103" 2130969941="@id/2131447947" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

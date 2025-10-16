@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/2131436458" ="12.0dip" ="wrap_content" ="fill_parent" ="true">
+        <ImageView ="center_vertical" android:id="@id/2131433316" ="16.0dip" ="16.0dip" />
+    </LinearLayout>
+    <TextView ="16.0sp" ="@drawable/2131233464" ="center_vertical" android:id="@id/2131445783" ="2.0dip" ="wrap_content" ="fill_parent" android:text="@string/back" ="@id/2131436458" ="true" />
+    <TextView ="18.0sp" ="@android:color/black" android:id="@id/2131448551" ="gone" ="wrap_content" ="wrap_content" ="true" />
+    <TextView ="#ffe3e3e3" ="fill_parent" ="1.0dip" ="true" />
+</RelativeLayout>

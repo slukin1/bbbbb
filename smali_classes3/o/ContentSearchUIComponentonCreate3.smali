@@ -1,0 +1,65 @@
+.class public final synthetic Lo/ContentSearchUIComponentonCreate3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic b:Ljava/lang/Long;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Long;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/ContentSearchUIComponentonCreate3;->b:Ljava/lang/Long;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    .line 0
+    iget-object v0, p0, Lo/ContentSearchUIComponentonCreate3;->b:Ljava/lang/Long;
+
+    move-object v1, p1
+
+    check-cast v1, Lcom/moon/analysis/EventBuilder;
+
+    if-eqz v0, :cond_0
+
+    .line 8205
+    const-string v2, "df_4"
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v3
+
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v3
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x4
+
+    const/4 v6, 0x0
+
+    invoke-static/range {v1 .. v6}, Lcom/moon/analysis/EventBuilder$DefaultImpls;->e$default(Lcom/moon/analysis/EventBuilder;Ljava/lang/String;Ljava/lang/Object;ZILjava/lang/Object;)Lcom/moon/analysis/EventBuilder;
+
+    .line 8206
+    :cond_0
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method

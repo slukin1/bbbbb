@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="center_vertical" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center_vertical" android:id="@id/2131436675" ="@drawable/2131236007" ="wrap_content" ="wrap_content" ="@color/2131099744">
+        <TextView ="@color/2131099764" ="center" android:id="@id/tv_type" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_type_arrow" ="16.0dip" ="16.0dip" ="centerInside" ="true" ="@null" ="2.0dip" ="8.0dip" ="@id/tv_type" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" android:id="@id/2131436513" ="@drawable/2131236007" ="wrap_content" ="wrap_content" ="5.0dip" ="@id/2131436675" ="@color/2131099744">
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/tv_direction" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/trade_tabs1" ="8.0dip" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_direction_arrow" ="16.0dip" ="16.0dip" ="centerInside" ="true" ="@null" ="2.0dip" ="8.0dip" ="@id/tv_direction" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+    <com.major.android.uikit2.button.KitButton ="center_vertical" android:id="@id/2131445871" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/_cancel_all" ="15.0dip" ="true" ="@dimen/2131166286" ="3.0dip" style="@style/2132148700" />
+</RelativeLayout>

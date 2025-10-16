@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131437093" ="fill_parent" ="wrap_content" ="3.0dip" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <LinearLayout android:id="@id/2131430417" ="@drawable/2131236572" ="fill_parent" ="50.0dip" ="5.0dip" 2130969940="@id/2131437093">
+        <com.binance.widget.RuleEditText ="end" android:id="@id/2131440166" ="@null" ="0.0dip" ="50.0dip" android:hint="@string/ms_2fa_mobile_verification_code_hint" ="1" ="1.0" ="number" ="@drawable/2131236035" ="10.0dip" ="0.0dip" style="@style/2132149721" />
+        <TextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131439970" ="wrap_content" ="48.0dip" ="12.0dip" ="10.0dip" ="10.0dip" style="@style/2132149371" />
+    </LinearLayout>
+    <TextView ="@color/2131099863" android:id="@id/2131440165" ="gone" ="fill_parent" ="wrap_content" 2130969940="@id/2131430417" />
+    <TextView ="@color/2131099787" ="@color/2131099787" android:id="@id/2131449749" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/voice_verification" 2130969937="2131438103" 2130969940="@id/2131440165" style="@style/2132149454" />
+    <TextView ="@color/2131099787" ="@color/2131099787" android:id="@id/2131432870" ="gone" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/two_fa_sms_not_receive_tips" ="true" 2130969917="2131438103" 2130969937="@id/2131449749" 2130969940="@id/2131449749" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

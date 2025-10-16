@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436665" ="@drawable/2131236007" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" ="@color/2131099744" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/dwallet_import_token_asset_name" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434392" ="5.0dip" ="30.0dip" ="30.0dip" ="10.0dip" 2130969911="@id/2131436665" 2130969917="2131438103" 2130969941="@id/2131436665" 2130971077="@drawable/2131237353" 2130971375="@color/2131099738" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="0.0dip" ="12.0dip" 2130969911="2131438103" 2130969940="@id/2131436665" 2130971089="false" 2130971098="false" 2130971105="true">
+        <FrameLayout ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.emptylayout.KitEmptyLayout ="center_horizontal" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_records_found" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439720" ="fill_parent" ="fill_parent" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

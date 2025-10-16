@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@style/2132149355" ="@color/2131103105" ="end" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" ="1" ="true" ="1.0" />
+    <TextView ="@color/2131103105" ="end" android:id="@id/2131442816" ="wrap_content" ="wrap_content" ="1" ="true" style="@style/2132149450" />
+</LinearLayout>

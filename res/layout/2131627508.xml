@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429885" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip">
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131435114" ="0.0dip" ="wrap_content" 2130969125="v_guidance,v_indicators,v_drawing,v_style,v_date,v_more" 2130969490="@dimen/2131166156" 2130969496="3" 2130969500="@dimen/2131166286" 2130969502="2131427761" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/v_guidance" ="@drawable/2131236717" ="6.0dip" ="7.0dip" ="6.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+            <Space ="4.0dip" ="wrap_content" />
+            <TextView ="@color/2131099764" ="end" ="fill_parent" ="wrap_content" android:text="@string/strategy_tutorial" ="2" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/v_indicators" ="@drawable/2131236717" ="6.0dip" ="7.0dip" ="6.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237514" 2130971375="@color/2131099764" />
+            <Space ="4.0dip" ="wrap_content" />
+            <TextView ="@color/2131099764" ="end" ="fill_parent" ="wrap_content" android:text="@string/marketdetail_indicators" ="2" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/v_drawing" ="@drawable/2131236717" ="6.0dip" ="7.0dip" ="6.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237244" 2130971375="@color/2131099764" />
+            <Space ="4.0dip" ="wrap_content" />
+            <TextView ="@color/2131099764" ="end" ="fill_parent" ="wrap_content" android:text="@string/marketdetail_drawing" ="2" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/v_style" ="@drawable/2131236717" ="6.0dip" ="7.0dip" ="6.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238195" 2130971375="@color/2131099764" />
+            <Space ="4.0dip" ="wrap_content" />
+            <TextView ="@color/2131099764" ="end" ="fill_parent" ="wrap_content" android:text="@string/margin_kline_style" ="2" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/v_date" ="@drawable/2131236717" ="6.0dip" ="7.0dip" ="6.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238206" 2130971375="@color/2131099764" />
+            <Space ="4.0dip" ="wrap_content" />
+            <TextView ="@color/2131099764" ="end" ="fill_parent" ="wrap_content" android:text="@string/date" ="2" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/v_more" ="@drawable/2131236717" ="6.0dip" ="7.0dip" ="6.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="30.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238026" 2130971375="@color/2131099764" />
+            <Space ="4.0dip" ="wrap_content" />
+            <TextView ="@color/2131099764" ="end" ="fill_parent" ="wrap_content" android:text="@string/ms_index_more" ="2" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436591" ="wrap_content" ="30.0dip" ="15.0dip" ="20.0dip" ="15.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_internal_order_display" ="false" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437942" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip">
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131435117" ="0.0dip" ="wrap_content" 2130969125="v_open_order,v_order_history,v_cost_price,averageLayout,sellAverageLayout,v_position,v_break_even_price,v_liquidation_price,kline_adjustment,kline_quick_order" 2130969490="@dimen/2131166156" 2130969496="2" 2130969500="@dimen/2131166156" 2130969502="2131427761" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_open_order" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/open_orders" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_order_history" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/order_history" ="1" ="10.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_cost_price" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/chart_settings_cost_price_title" ="1" ="10.0dip" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/averageLayout" ="@drawable/2131233737" ="0.0dip" ="30.0dip">
+            <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131449194" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_buy_price_title" ="1" 2130969911="2131438103" 2130969918="@id/2131428168" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <View android:id="@id/2131428168" ="@color/2131099751" ="1.0dip" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131428167" 2130969936="@id/2131449194" 2130969941="2131438103" />
+            <TextView ="@color/2131099764" android:id="@id/2131428167" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131431113" 2130969936="@id/2131428168" 2130969941="2131438103" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431113" ="16.0dip" ="16.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428167" 2130969941="2131438103" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sellAverageLayout" ="@drawable/2131233737" ="0.0dip" ="30.0dip">
+            <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131449270" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_sell_price_title" ="1" 2130969911="2131438103" 2130969918="@id/2131439945" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <View android:id="@id/2131439945" ="@color/2131099751" ="1.0dip" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131439944" 2130969936="@id/2131449270" 2130969941="2131438103" />
+            <TextView ="@color/2131099764" android:id="@id/2131439944" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131439951" 2130969936="@id/2131439945" 2130969941="2131438103" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439951" ="16.0dip" ="16.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131439944" 2130969941="2131438103" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_position" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/position" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_break_even_price" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/futures_break_even_price" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_liquidation_price" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/future_liquidation_price" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/kline_adjustment" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_kline_adjustment" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/kline_quick_order" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_quick_order" ="1" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436477" ="wrap_content" ="30.0dip" ="15.0dip" ="20.0dip" ="15.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_internal_chart_display" ="false" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429473" ="16.0dip" ="16.0dip" ="2.0dip" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="20.0dip">
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131435109" ="0.0dip" ="wrap_content" 2130969125="v_count_down,v_bid_ask_price,v_percentage_view,v_logarithmic_view,v_inverted_view,v_alert_view,v_full_data" 2130969490="@dimen/2131166156" 2130969496="2" 2130969500="@dimen/2131166156" 2130969502="2131427761" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_count_down" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/futures_arbitrage_next_funding_rate_countdown" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_bid_ask_price" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_bid_ask_price" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_percentage_view" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_percentage_view" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_logarithmic_view" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/chart_logarithmic_view_title" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_inverted_view" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_inverted_view" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_alert_view" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_price_alert" ="1" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/v_full_data" ="@drawable/2131233737" ="10.0dip" ="10.0dip" ="0.0dip" ="30.0dip" android:text="@string/market_detail_full_data" ="1" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

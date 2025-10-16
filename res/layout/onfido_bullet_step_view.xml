@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="true" ="false" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131441672" ="2.0dip" ="16.0dip" ="11.0dip" />
+    <RelativeLayout android:id="@id/2131440636" ="@drawable/onfido_circle_24" ="wrap_content" ="wrap_content" ="@id/2131441672">
+        <TextView ="12.0sp" ="?2130970389" ="center" ="center" android:id="@id/2131440635" ="wrap_content" ="wrap_content" ="false" ="true" ="8.0dip" ="8.0dip" />
+        <ImageView ="center" android:id="@id/2131440633" ="16.0sp" ="16.0sp" ="4.0dip" ="true" />
+    </RelativeLayout>
+    <View android:id="@id/2131428552" ="2.0dip" ="0.0dip" ="@id/2131440636" ="@id/2131440639" ="11.0dip" />
+    <TextView ="end" android:id="@id/2131440639" ="false" ="@id/2131441672" ="8.0dip" ="16.0dip" ="@id/2131440636" style="@style/2132148937" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131627729" />
+    <View ="?2130969080" ="fill_parent" ="1.0dip" />
+    <include layout="@layout/2131627734" />
+</LinearLayout>

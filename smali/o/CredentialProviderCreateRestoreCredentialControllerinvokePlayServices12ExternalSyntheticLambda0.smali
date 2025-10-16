@@ -1,0 +1,8 @@
+.class public interface abstract Lo/CredentialProviderCreateRestoreCredentialControllerinvokePlayServices12ExternalSyntheticLambda0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract c(Lo/CredentialProviderCreateRestoreCredentialControllerinvokePlayServices11;)Lo/CredentialProviderCreateRestoreCredentialControllerinvokePlayServices11;
+.end method

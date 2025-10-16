@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="@color/2131099685" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" android:id="@id/2131436407" ="48.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131236989" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/dashboard_bot_kline" style="@style/2132149394" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="center" android:id="@id/2131428710" ="@drawable/2131236744" ="0.0dip" ="36.0dip" android:text="@string/trade_tabs1" ="1.0" ="true" ="10.0dip" ="#ff2ebd85" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="center" android:id="@id/2131428893" ="@drawable/2131236744" ="0.0dip" ="36.0dip" android:text="@string/trade_tabs2" ="1.0" ="true" ="10.0dip" ="#ffe0294a" style="@style/2132149446" />
+</androidx.appcompat.widget.LinearLayoutCompat>

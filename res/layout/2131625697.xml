@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131432229" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131450423" ="fill_parent" ="wrap_content" ="12.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" />
+    <FrameLayout android:id="@id/2131431896" ="fill_parent" ="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" 2130969941="2131438103" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" ="end|center" android:id="@id/2131443461" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/future_funds_maintaince_balance" 2130969937="2131438103" 2130969941="2131438103" 2130971382="@string/strategy_futures_margin_balance_cross_tips" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445334" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="@id/2131443461" 2130969940="@id/2131443461" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433645" ="16.0dip" ="16.0dip" ="centerInside" ="@color/2131099881" ="5.0dip" 2130969911="@id/2131445334" 2130969936="@id/2131445334" 2130969941="@id/2131445334" 2130971077="@drawable/2131237088" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443459" ="wrap_content" ="wrap_content" android:text="@string/margin_pm_maintenance_margin" 2130969917="2131438103" 2130969941="@id/2131443461" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445332" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969940="@id/2131443459" style="@style/2132149450" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436340" ="wrap_content" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131445334">
+        <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131444485" android:text="@string/strategy_running_risk_ratio_title" 2130970849="true" style="@style/2132149393" />
+        <com.finance.strategy.framework.widgets.BotRiskRatioView ="center_vertical" android:id="@id/2131428606" ="wrap_content" ="22.0dip" ="4.0dip" 2130970675="@style/2132149450" 2130970834="false" 2130970855="false" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131441475" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_convert_feature" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149386" />
+    <TextView ="@color/2131099764" android:id="@id/titleTv" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_convert_feature" 2130969937="2131438103" 2130969940="@id/2131441475" style="@style/2132149447" />
+    <TextView ="@color/2131099787" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/funds_detail_convert_now_title" 2130969937="@id/titleTv" 2130969940="@id/titleTv" 2130971472="2131441186" style="@style/2132149375" />
+    <ImageView android:id="@id/iconIv" ="48.0dip" ="48.0dip" ="@drawable/2131238383" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

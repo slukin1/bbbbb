@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438099" ="fill_parent" ="350.0dip" ="centerCrop" ="true" ="@string/app_name" 2130969902="2131438099" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434657" ="@drawable/2131237935" ="gone" ="24.0dip" ="24.0dip" ="12.0dip" ="@color/2131099764" ="@id/2131441601" ="16.0dip" ="true" />
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130971078="@android:color/transparent" 2130971103="false" 2130971121="@android:color/transparent">
+        <com.binance.content.internal.topics.EmptyClassicsHeader android:id="@id/2131432819" ="fill_parent" ="100.0dip" 2130971078="@android:color/transparent" 2130971097="false" 2130971121="@android:color/transparent" />
+        <com.binance.content.internal.topics.recyclerview.NestedParentRecyclerView android:id="@id/2131439715" ="fill_parent" ="fill_parent" />
+        <com.scwang.smart.refresh.footer.ClassicsFooter ="fill_parent" ="wrap_content" 2130971079="0" 2130971108="0" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    <RelativeLayout android:id="@id/2131441601" ="fill_parent" ="70.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="#00000000" ="24.0dip" ="24.0dip" ="12.0dip" ="@color/2131099764" ="@id/2131441601" ="16.0dip" ="true" 2130971077="@drawable/2131236863" />
+    <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436759" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent" 2130970039="true" 2130970047="ranking_skeleton_light.json" 2130970050="true" />
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131437628" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent" ="@id/2131441601" 2130969336="@null" 2130969342="true" 2130969343="@drawable/2131238395" 2130969344="@drawable/2131238490" 2130969346="@string/ms_network_link_failed" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430217" ="fill_parent" ="fill_parent" />
+</RelativeLayout>

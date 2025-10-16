@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131437902" ="@color/2131100587" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip">
+        <ImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" ="@dimen/2131166184" ="@dimen/2131166170" 2130971077="@drawable/2131236863" />
+        <RelativeLayout ="end" ="wrap_content" ="wrap_content" ="0.0dip" ="15.0dip">
+            <ImageView android:id="@id/2131434066" ="15.0dip" ="invisible" ="50.0dip" ="50.0dip" ="true" ="@null" 2130971077="@drawable/2131237803" />
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131429490" ="wrap_content" ="wrap_content" ="true">
+                <RelativeLayout ="wrap_content" ="wrap_content">
+                    <ImageView android:id="@id/2131439376" ="wrap_content" ="wrap_content" ="6.0dip" ="true" ="6.0dip" 2130971077="@drawable/2131237030" />
+                    <com.binance.c2c.chat.widget.RemindTextView ="8.0sp" ="#ffffffff" android:id="@id/2131449077" ="gone" ="wrap_content" ="wrap_content" ="true" ="10.0dip" 2130968724="@color/2131100155" />
+                </RelativeLayout>
+                <TextView ="14.0sp" ="@color/2131100129" android:id="@id/2131429504" ="3.0dip" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/2131430874" ="fill_parent" ="fill_parent" />
+</LinearLayout>

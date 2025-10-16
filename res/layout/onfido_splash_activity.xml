@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" android:id="@id/2131436707" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131440446" layout="@layout/onfido_progress_layout" />
+    <include layout="@layout/onfido_watermark_layout" />
+</RelativeLayout>

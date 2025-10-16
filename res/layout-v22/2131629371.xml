@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center" ="horizontal" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444519" ="wrap_content" ="wrap_content" android:text="*" ="@font/2131296274" ="ltr" 2130969937="2131438103" 2130969941="@id/2131444521" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444521" ="0.0dip" ="wrap_content" android:text="@string/c2c_od_releasing_buyer_safe_payment_tips" ="@font/2131296274" ="ltr" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131444519" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

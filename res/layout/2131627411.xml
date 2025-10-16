@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="@null" ="none" ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="@null" ="fill_parent" ="wrap_content">
+            <TextView android:id="@id/2131440007" ="12.0dip" android:text="@string/_setting" style="@style/2132148553" />
+            <RelativeLayout ="center_vertical" android:id="@id/2131427688" ="fill_parent" ="64.0dip" ="?2130970780">
+                <TextView android:text="@string/market_dynamic_floating_window_setting_switch_label" style="@style/2132148805" />
+                <com.major.android.uikit.selection.KitSwitch android:id="@id/2131436946" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <TextView ="wrap_content" android:text="@string/market_dynamic_floating_window_setting_transparency" style="@style/2132148805" />
+            <com.major.android.uikit2.slider.KitSlider android:id="@id/2131427388" ="22.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969685="%" 2130969686="100.0" 2130969687="0.0" 2130969688="75.0" 2130969693="true" 2130969702="%" 2130969703="6" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" />
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131436914" ="fill_parent" ="64.0dip" ="?2130970780">
+                <TextView android:text="@string/market_dynamic_floating_window_setting_display_number" style="@style/2132148805" />
+                <TextView ="center_vertical" android:id="@id/2131436913" 2130969306="@drawable/2131237055" style="@style/2132148806" />
+            </RelativeLayout>
+            <View android:id="@id/divider" style="@style/2132148664" />
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131436944" ="fill_parent" ="64.0dip">
+                <TextView android:text="@string/market_dynamic_floating_window_setting_selection" style="@style/2132148805" />
+                <TextView ="@color/2131099787" android:id="@id/2131435298" ="wrap_content" ="wrap_content" android:text="@string/_add" ="true" ="15.0dip" ="true" style="@style/2132149346" />
+            </RelativeLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip">
+                <TextView ="@color/2131099762" android:id="@id/2131441023" ="wrap_content" ="wrap_content" android:text="@string/pair_symbol" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+                <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.7" />
+                <TextView ="@color/2131099762" ="wrap_content" ="wrap_content" android:text="@string/top" ="36.0dip" 2130969911="2131438103" 2130969918="@id/2131440374" 2130969941="2131438103" style="@style/2132149384" />
+                <TextView ="@color/2131099762" android:id="@id/2131440374" ="wrap_content" ="wrap_content" android:text="@string/sort" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131436945" ="fill_parent" ="fill_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

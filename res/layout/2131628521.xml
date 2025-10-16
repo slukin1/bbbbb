@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444927" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430579" ="@drawable/2131236447" ="15.0dip" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444927">
+        <TextView ="@color/2131099764" android:id="@id/tvCancelAllTip" ="0.0dip" ="wrap_content" android:text="@string/spot_grid_help_sell" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/tv_help_buy_tip_completion" ="0.0dip" ="wrap_content" ="6.0dip" 2130969917="2131438103" 2130969937="@id/tvCancelAllTip" 2130969940="@id/tvCancelAllTip" style="@style/2132149384" />
+        <TextView ="@color/2131099863" android:id="@id/2131446624" ="gone" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/strategy_spot_end_cps_greater_max_qty_tips" 2130969917="2131438103" 2130969937="@id/tv_help_buy_tip_completion" 2130969940="@id/tv_help_buy_tip_completion" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430530" ="@drawable/2131236447" ="15.0dip" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430579">
+        <TextView ="@color/2131099764" android:id="@id/tvSellAllTip" ="0.0dip" ="wrap_content" android:text="@string/spot_grid_handle_myself" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/tv_handle_myself_tip_completion" ="0.0dip" ="wrap_content" ="6.0dip" 2130969917="2131438103" 2130969937="@id/tvSellAllTip" 2130969940="@id/tvSellAllTip" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131446625" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430530" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131442411" ="0.0dip" ="wrap_content" android:text="@string/spot_grid_terminal_bottom_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446625" 2130969962="@dimen/2131166184" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

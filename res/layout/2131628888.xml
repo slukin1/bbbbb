@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="gone" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131441370" style="@style/2132150313" />
+    <com.moon.imagecropper.view.widget.HorizontalProgressWheelView android:id="@id/2131439505" ="fill_parent" ="fill_parent" ="@id/2131450415" ="@id/2131450414" ="@id/2131441370" ="@id/2131450415" ="@id/2131450414" />
+    <FrameLayout android:id="@id/2131450414" ="?2130970780" ="true" style="@style/2132150315">
+        <ImageView 2130971077="@drawable/2131236583" style="@style/2132150310" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131450415" ="?2130970780" ="true" ="true" ="true" style="@style/2132150315">
+        <ImageView ="@drawable/2131236577" ="@color/2131103086" style="@style/2132150310" />
+    </FrameLayout>
+</RelativeLayout>

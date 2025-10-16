@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441606" ="fill_parent" ="45.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441619" ="44.0dip" ="fill_parent" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439244" ="gone" ="20.0dip" ="20.0dip" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236847" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131441610" ="gone" ="wrap_content" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131435069" ="fill_parent" ="0.0dip" ="15.0dip" 2130969912="@id/2131436839" 2130969940="@id/2131441606" 2130971098="false" 2130971100="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437403" ="@color/2131099685" ="none" ="fill_parent" ="fill_parent" ="never" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436839" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103">
+        <LinearLayout ="horizontal" android:id="@id/2131439384" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="0.8" ="15.0dip" ="15.0dip" ="@dimen/2131166170">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427667" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427666" ="fill_parent" ="wrap_content" android:text="@string/wallet_deposit_add_address_limit_number" ="4.0dip" ="@id/2131427667" style="@style/2132149384" />
+        </LinearLayout>
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428964" ="fill_parent" ="48.0dip" android:text="@string/wallet_deposit_add_address" ="15.0dip" ="15.0dip" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

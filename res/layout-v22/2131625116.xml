@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="14.0dip" ="14.0dip" android:text="@string/earn_ltv_adjust_explanation" ="15.0dip" ="@dimen/2131166179" style="@style/2132149423" />
+    <ScrollView ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131443340" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/margin_loan_initial_ltv" ="15.0dip" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/earn_initial_ltv_des" ="@dimen/2131166184" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443648" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/controllers_collaterals_detail_margin_ltv" ="15.0dip" style="@style/2132149446" />
+            <TextView ="@color/2131099764" android:id="@id/2131443650" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/earn_margin_ltv_des" ="@dimen/2131166184" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443562" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/controllers_collaterals_detail_liq_ltv" ="15.0dip" style="@style/2132149446" />
+            <TextView ="@color/2131099764" android:id="@id/2131443563" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/earn_liquidation_ltv_details" ="@dimen/2131166184" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_collateral_value" ="15.0dip" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/earn_total_value_of_collateral" ="@dimen/2131166184" style="@style/2132149350" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428837" ="fill_parent" ="wrap_content" ="15.0dip" ="31.0dip" ="15.0dip" ="20.0dip" android:text="@string/OK" ="@dimen/2131166184" style="@style/2132148692" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

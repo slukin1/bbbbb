@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="#1af0b90b" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238216" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" ="center_vertical" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="false" ="2.0dip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="bold" ="@color/2131099787" ="end" ="center_vertical" ="center_vertical" android:id="@id/2131448561" ="wrap_content" ="wrap_content" android:text="@string/wallet_step_guider_entrance_view_guide" ="1" ="false" ="2.0dip" style="@style/2132149377" />
+    <Space ="0.0dip" ="0.0dip" ="1.0" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434434" ="8.0dip" ="8.0dip" ="16.0dip" ="32.0dip" ="@dimen/2131166286" 2130971077="@drawable/2131237100" />
+</androidx.appcompat.widget.LinearLayoutCompat>

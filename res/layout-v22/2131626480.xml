@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432729" ="wrap_content" ="wrap_content" 2130969921="0.45" />
+    <TextView ="@color/2131099778" ="start" android:id="@id/2131435037" ="0.0dip" ="wrap_content" 2130969918="@id/2131432729" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/value" ="0.0dip" ="wrap_content" ="4.0dip" 2130969918="@id/flCopy" 2130969936="@id/2131432729" 2130969941="2131438103" style="@style/2132149450" />
+    <FrameLayout android:id="@id/flCopy" ="@drawable/2131236004" ="20.0dip" ="20.0dip" 2130969917="2131438103" 2130969941="@id/value">
+        <androidx.appcompat.widget.AppCompatImageView ="center" ="16.0dip" ="16.0dip" ="centerInside" ="@color/2131099764" ="@null" 2130969911="@id/2131444819" 2130969917="2131438103" 2130969941="@id/2131444819" 2130971077="@drawable/2131237146" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428561" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="flCopy,value" />
+    <TextView ="@color/2131099787" android:id="@id/2131441473" ="@drawable/2131236004" ="6.0dip" ="1.0dip" ="6.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" ="#19f0b90b" ="@dimen/2131166269" ="@dimen/2131166155" 2130969917="@id/value" 2130969940="@id/2131428561" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

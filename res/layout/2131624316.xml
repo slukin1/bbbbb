@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233736" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="fill_parent" ="wrap_content" 2130969915="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131436193" ="0.0dip" ="66.0dip" ="15.0dip" 2130969918="@id/2131433968" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131443604" ="fill_parent" ="wrap_content" ="44.0dip" ="2" ="1.2" style="@style/2132149450" />
+        <com.finance.commonbusiness.framework.widget.banner.CountdownView ="@color/2131099764" ="center_vertical" android:id="@id/2131430684" ="fill_parent" ="20.0dip" ="2.0dip" ="false" style="@style/2132149382" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433968" ="64.0dip" ="64.0dip" ="centerCrop" 2130969911="@id/2131436193" 2130969917="2131438103" 2130969941="@id/2131436193" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" android:id="@id/2131443605" ="0.0dip" ="wrap_content" ="1" ="15.0dip" 2130969918="@id/2131443606" 2130969937="2131438103" 2130969941="@id/2131443606" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131443606" ="wrap_content" ="wrap_content" ="9.0dip" ="1" 2130969917="2131438103" 2130969940="@id/2131433968" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

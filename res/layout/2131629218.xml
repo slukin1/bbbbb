@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_online_status" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.selection.KitRadioButton ="false" ="14.0sp" ="@color/2131100642" ="center_vertical" android:id="@id/2131438921" ="wrap_content" ="wrap_content" ="16.0dip" ="true" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <com.binance.c2c.api.common.DashUnderlineTextView ="14.0sp" ="@color/2131099764" android:id="@id/tv_price" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_private" ="@font/2131296274" ="8.0dip" 2130969223="@dimen/2131166199" 2130969911="@id/2131438921" 2130969936="@id/2131438921" 2130969941="@id/2131438921" />
+</merge>

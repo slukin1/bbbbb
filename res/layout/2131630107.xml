@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/2131435669" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435643" ="@drawable/2131236038" ="12.0dip" ="0.0dip" ="wrap_content" ="1.0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433326" ="20.0dip" ="20.0dip" 2130969937="@id/2131435643" 2130969941="@id/2131435643" />
+        <TextView ="@color/2131099764" android:id="@id/2131446806" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/2131433326" 2130969936="@id/2131433326" 2130969941="@id/2131433326" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131446807" ="0.0dip" ="wrap_content" ="1" ="true" ="2.0dip" 2130969907="@id/2131446806" 2130969917="@id/2131435643" 2130969936="@id/2131446806" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131446805" ="0.0dip" ="wrap_content" 2130969917="@id/2131435643" 2130969937="@id/2131446806" 2130969940="@id/2131433326" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435644" ="@drawable/2131236038" ="12.0dip" ="0.0dip" ="wrap_content" ="1.0" ="11.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433334" ="20.0dip" ="20.0dip" 2130969937="@id/2131435644" 2130969941="@id/2131435644" />
+        <TextView ="@color/2131099764" android:id="@id/2131447681" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/2131433334" 2130969936="@id/2131433334" 2130969941="@id/2131433334" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131447682" ="0.0dip" ="wrap_content" ="1" ="true" ="2.0dip" 2130969907="@id/2131447681" 2130969917="@id/2131435644" 2130969936="@id/2131447681" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131447680" ="0.0dip" ="wrap_content" 2130969917="@id/2131435644" 2130969937="@id/2131447681" 2130969940="@id/2131433334" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

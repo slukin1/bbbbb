@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131436333" ="@color/2131099957" ="fill_parent" ="48.0dip" ="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="16.0sp" ="@color/2131100944" android:id="@id/2131444022" ="wrap_content" ="wrap_content" android:text="Alipay" ="true" ="@font/2131296274" />
+    <TextView ="@color/2131099787" android:id="@id/2131447595" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_mobile_payment_add_recommended" ="true" ="@font/2131296274" ="15.0dip" ="true" ="#1af0b90b" />
+    <View android:id="@id/2131449536" ="@color/2131100926" ="fill_parent" ="1.0dip" ="true" />
+</RelativeLayout>

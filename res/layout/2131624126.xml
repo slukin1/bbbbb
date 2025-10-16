@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441594" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" android:text="@string/c2c_gc_settings" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout android:id="@id/2131435633" ="15.0dip" ="11.0dip" ="15.0dip" ="11.0dip" ="fill_parent" ="wrap_content">
+        <FrameLayout android:id="@id/2131428185" ="@drawable/2131235996" ="40.0dip" ="40.0dip" ="true">
+            <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433696" ="gone" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131238319" 2130971375="@color/2131099739" />
+            <TextView ="24.0sp" ="#ffffffff" ="center" ="center" android:id="@id/2131442248" ="wrap_content" ="wrap_content" ="@font/2131296267" />
+        </FrameLayout>
+        <LinearLayout ="vertical" android:id="@id/2131439235" ="fill_parent" ="wrap_content" ="true" ="12.0dip" ="@id/2131428185">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                <TextView ="18.0sp" ="@color/2131099764" ="end" ="start" android:id="@id/2131443247" ="wrap_content" ="wrap_content" ="true" ="@font/2131296265" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131434890" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+                <com.major.android.uikit2.tags.KitTag android:id="@id/2131434890" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_tag_official" ="4.0dip" 2130969862="2" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131443247" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446992" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" ="@font/2131296266" />
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView ="none" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <LinearLayout android:id="@id/2131437017" style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_settings_members" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131440003" ="gone" style="@style/2132149188">
+                <TextView android:text="@string/c2c_group_setting_set_admin" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131432571" ="gone" style="@style/2132149188">
+                <TextView android:text="@string/c2c_chat_group_qr_code" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131432603" ="gone" style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_settings_subscription_revenues" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131432558" ="gone" style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_settings_my_subscription" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131429488" style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_settings_search_history" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_settings_disturb" style="@style/2132149189" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435159" ="wrap_content" ="wrap_content" 2130969844="1" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131428482" style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_settings_blocklist_manage" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131436875" style="@style/2132149188">
+                <TextView android:text="@string/c2c_gc_setting_manage_guideline" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131435800" style="@style/2132149188">
+                <TextView ="@color/2131099863" android:text="@string/c2c_gc_settings_leave_group" style="@style/2132149189" />
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

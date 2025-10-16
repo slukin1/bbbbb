@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232782" ="9.0dip" ="wrap_content" ="wrap_content" ="0.95" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432074" ="wrap_content" ="wrap_content" 2130969125="cardView3,cardView4,cardView5,cardView6,cardView7,cardView8" 2130969490="6.0dip" 2130969496="3" 2130969500="6.0dip" 2130969502="2131427761" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.finance.marketdetail.feature.chartsetting.view.KlineColorView android:id="@id/cardView8" ="1.0dip" ="22.0dip" ="22.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.KlineColorView android:id="@id/cardView4" ="1.0dip" ="22.0dip" ="22.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.KlineColorView android:id="@id/cardView5" ="1.0dip" ="22.0dip" ="22.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.KlineColorView android:id="@id/cardView6" ="1.0dip" ="22.0dip" ="22.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.KlineColorView android:id="@id/cardView3" ="1.0dip" ="22.0dip" ="22.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.KlineColorView android:id="@id/cardView7" ="1.0dip" ="22.0dip" ="22.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

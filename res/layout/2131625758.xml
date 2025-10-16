@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432961" ="15.0dip" ="15.0dip" ="50.0dip" ="44.0dip" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131100365" android:id="@id/2131445429" ="fill_parent" ="wrap_content" ="30.0dip" android:text="@string/c2c_mob_welcome_to_p2p_onboard" ="@font/2131296275" ="16.0dip" ="16.0dip" 2130969940="@id/2131432961" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131100365" android:id="@id/2131444226" ="fill_parent" ="wrap_content" ="40.0dip" android:text="@string/c2c_anti_scam_quiz_video_hint" ="@font/2131296274" ="16.0dip" ="16.0dip" 2130969940="@id/2131445429" />
+    <ProgressBar android:id="@id/2131438676" ="wrap_content" ="wrap_content" 2130969911="@id/2131433085" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131433085" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433085" ="fill_parent" ="300.0dip" ="24.0dip" ="fitXY" ="16.0dip" ="16.0dip" 2130969940="@id/2131444226" />
+    <RelativeLayout ="#b2000000" ="wrap_content" ="24.0dip" ="8.0dip" ="ltr" ="8.0dip" ="16.0dip" 2130969911="@id/2131433085" 2130969917="@id/2131433085">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434272" ="20.0dip" ="20.0dip" ="2.0dip" ="2.0dip" ="4.0dip" ="4.0dip" 2130971077="@drawable/2131237086" 2130971375="@color/2131103185" />
+        <TextView ="14.0sp" ="bold" ="#ffffffff" android:id="@id/2131445349" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="4.0dip" ="@id/2131434272" />
+    </RelativeLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428632" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/c2c_anti_scam_take_quiz" 2130969911="2131438103" style="@style/2132148693" />
+</androidx.constraintlayout.widget.ConstraintLayout>

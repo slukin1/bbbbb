@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429561" ="wrap_content" ="wrap_content" ="7.0dip" 2130969757="@dimen/2131166286" 2130969758="true" 2130969911="@id/2131428448" 2130969937="2131438103" 2130969941="@id/2131428448" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvMinimumWarn,tvEqualTo" 2130969917="2131438103" />
+    <androidx.constraintlayout.widget.Placeholder android:id="@id/placeholder" ="wrap_content" ="12.0dip" 2130969940="@id/2131428303" />
+    <View android:id="@id/2131428448" ="@drawable/2131232599" ="0.0dip" ="0.0dip" ="15.0dip" 2130969911="@id/placeholder" 2130969917="2131438103" 2130969936="@id/2131429561" 2130969941="2131438103" 2130969961="@dimen/2131166184" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433764" ="16.0dip" ="16.0dip" ="12.0dip" ="16.0dip" 2130969937="@id/2131428448" 2130969941="2131438103" 2130971077="@drawable/2131232951" style="@style/2132148577" />
+    <TextView ="@color/2131099764" android:id="@id/tvCoinName" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/2131433764" 2130969936="@id/2131433764" 2130969941="@id/2131433764" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131442230" ="0.0dip" ="wrap_content" ="2.0dip" ="1" ="8.0dip" 2130969918="@id/divider" 2130969937="@id/2131433764" 2130969940="@id/tvCoinName" style="@style/2132149384" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="0.5dip" ="0.0dip" 2130969911="@id/2131442230" 2130969917="@id/2131428448" 2130969937="@id/2131428448" 2130969941="@id/tvCoinName" />
+    <EditText ="@color/2131099764" ="@color/2131099738" android:id="@id/2131442935" ="@null" ="0.0dip" ="wrap_content" android:hint="@string/earn_enter_amount" ="numberDecimal" ="12.0dip" ="8.0dip" 2130969907="@id/tvCoinName" 2130969918="@id/2131443708" 2130969936="@id/divider" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/tvEqualTo" ="wrap_content" ="wrap_content" 2130969911="@id/2131442230" 2130969937="@id/2131442935" 2130969941="@id/2131442230" style="@style/2132149384" />
+    <TextView ="@color/2131099863" android:id="@id/tvMinimumWarn" ="gone" ="0.0dip" ="wrap_content" ="2.0dip" 2130969917="@id/2131428448" 2130969937="@id/2131442935" 2130969940="@id/tvEqualTo" style="@style/2132149384" />
+    <TextView ="@color/2131099787" android:id="@id/2131443708" ="wrap_content" ="wrap_content" android:text="@string/max" ="true" ="16.0dip" 2130969917="@id/2131428448" 2130969941="@id/2131442935" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

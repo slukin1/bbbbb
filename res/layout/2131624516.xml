@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429811" ="gone" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131441558" ="wrap_content" ="wrap_content" android:text="@string/content_feed_center_edit_banner_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/2131449914" ="fill_parent" ="120.0dip" ="32.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.zhpan.indicator.IndicatorView android:id="@id/2131433434" ="12.0dip" ="wrap_content" ="14.0dip" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449914" 2130971582="2131437732" 2130971583="@color/2131102397" 2130971584="#ffcaced3" 2130971586="2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

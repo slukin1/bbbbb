@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131429609" ="wrap_content" ="wrap_content" android:text="@string/_Type" ="1" ="locale" style="@style/2132149450" />
+    <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441046" ="fill_parent" ="24.0dip" ="11.0dip" />
+    <TextView ="@color/2131099778" android:id="@id/2131429608" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_bsc_check_platform" ="1" ="locale" style="@style/2132149450" />
+    <RelativeLayout android:id="@id/2131438456" ="fill_parent" ="50.0dip" ="5.0dip">
+        <TextView ="start|center" android:id="@id/2131431311" ="@drawable/2131232394" ="fill_parent" ="fill_parent" android:hint="@string/wallet_withdrawal_addresses_select_address_platform" ="1" ="true" ="10.0dip" ="45.0dip" style="@style/2132149346" />
+        <ImageView android:id="@id/2131434124" ="true" ="true" ="8.0dip" ="13.0dip" ="fitXY" ="true" ="15.0dip" ="true" 2130971077="@drawable/2131237055" />
+    </RelativeLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131438455" ="invisible" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_bsc_check_platform" ="1" ="locale" style="@style/2132149450" />
+    <RelativeLayout android:id="@id/2131438454" ="invisible" ="fill_parent" ="50.0dip" ="5.0dip">
+        <com.binance.widget.RuleEditText android:id="@id/2131431320" ="fill_parent" ="fill_parent" android:hint="@string/wallet_withdrawal_addresses_select_address_platform" ="1" ="true" ="30" ="text" ="actionDone" ="@drawable/2131232372" ="10.0dip" ="10.0dip" 2130969016="true" 2130970735="@null" style="@style/2132150265" />
+    </RelativeLayout>
+    <com.major.android.uikit.button.KitButton ="false" ="center" ="bottom" android:id="@id/2131442568" ="fill_parent" ="50.0dip" ="24.0dip" android:text="@string/confirm" 2130969173="4.0" style="@style/2132149446" />
+</LinearLayout>

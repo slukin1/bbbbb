@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvAdd" ="@drawable/2131232599" ="7.0dip" ="7.0dip" ="0.0dip" ="wrap_content" android:text="@string/earn_add_collateral" ="15.0dip" 2130969918="@id/2131444403" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149450" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131444403" ="@drawable/2131232599" ="7.0dip" ="7.0dip" ="0.0dip" ="wrap_content" android:text="@string/earn_remove_collateral" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/tvAdd" 2130969940="@id/2131441601" style="@style/2132149450" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" 2130969940="@id/tvAdd" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429351" ="wrap_content" ="wrap_content" ="7.0dip" android:text="@string/earn_select_all" 2130969757="@dimen/2131166286" 2130969758="true" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149450" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439602" ="gone" ="fill_parent" ="0.0dip" ="12.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969912="@id/divider2" 2130969940="@id/2131429351" />
+    <TextView ="center" android:id="@id/2131443852" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/earn_no_collateral_found" ="8.0dip" 2130969314="@drawable/2131238473" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149350" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439603" ="gone" ="fill_parent" ="0.0dip" ="12.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969912="@id/divider2" 2130969940="@id/2131429351" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider2" ="fill_parent" ="0.5dip" ="12.0dip" 2130969912="@id/2131442547" />
+    <com.binance.base.widget.UnderLineTipsTextView android:id="@id/2131442707" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_current_ltv" ="15.0dip" 2130969912="@id/2131442542" 2130969937="2131438103" style="@style/2132149350" />
+    <LinearLayout ="horizontal" ="4.0dip" ="4.0dip" ="0.0dip" ="wrap_content" 2130969911="@id/2131442707" 2130969917="@id/2131442544" 2130969936="@id/2131442707" 2130969941="@id/2131442707">
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131443979" ="0.0dip" ="wrap_content" ="4.0dip" ="1.0" style="@style/2132149450" />
+        <ImageView ="center_vertical" ="12.0dip" ="12.0dip" ="4.0dip" 2130971077="@drawable/2131236866" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131443823" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <com.binance.base.widget.UnderLineTipsTextView android:id="@id/2131442547" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_collateral_value" ="15.0dip" 2130969912="@id/2131442707" 2130969937="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131442544" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131442547" 2130969917="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099863" android:id="@id/2131442542" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" 2130969912="@id/2131428831" 2130969917="@id/2131442544" 2130969937="@id/2131442707" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428831" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="20.0dip" android:text="@string/_next" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232400" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433883" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="17.0dip" 2130969911="@id/2131443160" 2130969937="2131438103" 2130969941="@id/2131443160" 2130971077="@drawable/2131237637" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131443160" ="wrap_content" ="wrap_content" ="100.0dip" ="50.0dip" android:text="@string/from" ="2" ="15.0dip" 2130969911="@id/2131443165" 2130969936="@id/2131433883" 2130969941="@id/2131443165" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131443165" ="0.0dip" ="wrap_content" android:text="@string/futures_portfolio_margin_transfer_wallet_cross_margin_pm" ="1" ="12.0dip" 2130969918="@id/2131433852" 2130969936="@id/2131443160" 2130969941="2131438103" style="@style/2132149374" />
+    <ImageView ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="@id/2131433883" 2130969937="@id/2131433883" 2130969941="2131438103" 2130971077="@drawable/2131236861" 2130971375="@color/2131099725" />
+    <ImageView android:id="@id/2131433852" ="wrap_content" ="0.0dip" ="centerInside" ="@null" ="10.0dip" ="17.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237141" 2130971375="@color/2131099765" />
+    <ImageView android:id="@id/2131434235" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="17.0dip" 2130969911="@id/2131445024" 2130969937="2131438103" 2130969941="@id/2131445024" 2130971077="@drawable/2131237416" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131445024" ="wrap_content" ="wrap_content" ="100.0dip" ="50.0dip" android:text="@string/earn_to" ="2" ="15.0dip" 2130969911="@id/2131445029" 2130969936="@id/2131434235" 2130969941="@id/2131445029" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131445029" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/futures_portfolio_margin_transfer_wallet_um_pm" ="1" ="12.0dip" 2130969918="@id/2131433852" 2130969936="@id/2131445024" 2130969940="@id/2131443165" style="@style/2132149374" />
+</androidx.constraintlayout.widget.ConstraintLayout>

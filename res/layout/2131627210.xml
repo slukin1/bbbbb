@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/2131432231" ="none" ="fill_parent" ="fill_parent" ="true" ="never" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131449634" layout="@layout/2131627331" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131443115" ="0.0dip" ="wrap_content" android:text="@string/margin_five_day_large_inflow_title" ="false" ="1.0" style="@style/2132149463" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434160" ="gone" ="20.0dip" ="20.0dip" 2130969911="@id/2131443115" 2130969917="2131438103" 2130969941="@id/2131443115" 2130971077="@drawable/2131238029" 2130971375="@color/2131099785" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131435271" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131443116" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/margin_five_day_large_inflow_text" ="15.0dip" style="@style/2132149377" />
+            <RelativeLayout ="fill_parent" ="180.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131428298" ="gone" ="96.0dip" ="96.0dip" android:text="@string/margin_no_data_found" ="10.0dip" ="true" ="true" 2130969314="@drawable/2131233685" style="@style/2132149384" />
+                <com.finance.kit.framework.widget.chart.FinanceBarChart android:id="@id/2131428299" ="fill_parent" ="fill_parent" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="12.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131443575" ="0.0dip" ="wrap_content" android:text="@string/margin_deatail_money_inflow" ="1.0" style="@style/2132149463" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434162" ="gone" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="@id/2131443575" 2130969917="2131438103" 2130969941="@id/2131443575" 2130971077="@drawable/2131238029" 2130971375="@color/2131099785" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout ="center" android:id="@id/2131435866" ="fill_parent" ="170.0dip" ="20.0dip" ="15.0dip" ="3.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center" android:id="@id/2131435864" ="gone" ="96.0dip" ="96.0dip" android:text="@string/margin_no_data_found" ="false" ="10.0dip" ="true" 2130969314="@drawable/2131233685" style="@style/2132149384" />
+            <com.finance.kit.framework.widget.chart.FinanceLineChart android:id="@id/2131435865" ="fill_parent" ="fill_parent" ="12.0dip" ="5.0dip" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131444083" ="wrap_content" ="wrap_content" ="24.0dip" ="12.0dip" android:text="@string/market_concentration_chart_tip_title" ="15.0dip" ="30.0dip" 2130969905="true" 2130969918="@id/2131444635" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434072" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131444083" 2130969936="@id/2131444083" 2130969941="@id/2131444083" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131444635" ="gone" ="16.0dip" ="16.0dip" ="5.0dip" ="15.0dip" 2130969911="@id/2131444083" 2130969917="2131438103" 2130969941="@id/2131444083" 2130971077="@drawable/2131238029" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441100" ="wrap_content" ="wrap_content" ="10.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" />
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout ="center" android:id="@id/2131435871" ="fill_parent" ="170.0dip" ="30.0dip" ="center">
+            <com.major.android.uikit2.emptylayout.KitEmptyLayout ="center" android:id="@id/2131431357" ="gone" ="fill_parent" ="wrap_content" ="true" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_data" />
+            <com.finance.kit.framework.widget.chart.FinanceLineChart android:id="@id/2131435870" ="fill_parent" ="fill_parent" ="12.0dip" ="15.0dip" ="3.0dip" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

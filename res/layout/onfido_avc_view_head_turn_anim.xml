@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center" ="@drawable/onfido_ic_avc_head_turn_anim_background" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.OnfidoAnimWebView ="center" android:id="@id/2131427898" ="none" ="96.0dip" ="120.0dip" ="24.0dip" />
+</FrameLayout>

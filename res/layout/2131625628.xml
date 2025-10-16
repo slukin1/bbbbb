@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.ocbs.widgets.RoundedCornerLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131428281" ="@color/2131099685" ="false" ="fill_parent" ="0.0dip" 2130969916="H,345:69" 2130969941="2131438103" />
+    <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131428282" ="wrap_content" ="wrap_content" ="5.0dip" 2130968672="@color/2131102397" 2130968673="@dimen/2131166225" 2130968674="@dimen/2131166286" 2130968676="@color/2131099751" 2130968677="@dimen/2131166225" 2130968678="@dimen/2131166286" 2130968679="@dimen/2131166260" 2130968680="2131440527" 2130969911="@id/2131428281" 2130969917="2131438103" 2130969937="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433199" ="8.0dip" ="gone" ="32.0dip" ="32.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+</com.binance.ocbs.widgets.RoundedCornerLayout>

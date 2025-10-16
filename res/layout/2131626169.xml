@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvHeader" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="1" 2130969918="@id/2131445057" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131445057" ="gone" ="wrap_content" ="24.0dip" ="1" ="@drawable/2131237003" ="10.0dip" ="7.0dip" 2130969312="@color/2131099764" 2130969911="@id/tvHeader" 2130969917="2131438103" 2130969941="@id/tvHeader" style="@style/2132149455" />
+</androidx.constraintlayout.widget.ConstraintLayout>

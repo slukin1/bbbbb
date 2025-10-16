@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/switchHidePairs" ="16.0dip" ="16.0dip" ="15.0dip" 2130969835="2131429513" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvHideOtherPair" ="wrap_content" ="fill_parent" android:text="@string/alert_hide_other_pairs" ="true" ="5.0dip" 2130969936="@id/switchHidePairs" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/groupHidePairs" ="wrap_content" ="wrap_content" 2130969125="tvHideOtherPair, switchHidePairs" />
+    <TextView ="@color/2131100091" ="end" android:id="@id/2131429252" ="@drawable/2131236709" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/_cancel_all" ="true" ="15.0dip" ="true" ="@dimen/2131166286" ="@dimen/2131166225" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    <View android:id="@id/2131449505" ="@color/2131099751" ="0.0dip" ="0.5dip" ="14.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

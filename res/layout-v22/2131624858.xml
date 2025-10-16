@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/copy_trading_create_invitation" ="@dimen/2131166170" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/tvDesc" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/copy_trading_create_invitation_desc" 2130969940="@id/tvTitle" style="@style/2132149361" />
+    <TextView android:id="@id/2131443396" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/copy_trading_invitations" 2130969918="@id/2131443395" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/tvDesc" style="@style/2132149450" />
+    <TextView android:id="@id/2131443395" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131443396" 2130969940="@id/tvDesc" style="@style/2132149450" />
+    <com.finance.commonbusiness.framework.widget.TwoHintsEditText android:id="@id/2131431286" ="fill_parent" ="40.0dip" ="4.0dip" 2130969360="@string/max" 2130969940="@id/2131443396" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969940="@id/2131431286" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

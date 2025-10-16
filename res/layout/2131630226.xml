@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="fill_parent" ="wrap_content" android:text="@string/wallet_withdrawal_address_confirmation_content" style="@style/2132149346" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439082" ="fill_parent" ="0.0dip" ="5.0dip" ="1.0" 2130969912="@id/tv_agreement" 2130969940="@id/2131447940" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429554" ="20.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="@id/tv_agreement" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_agreement" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/wallet_withdrawal_confirm_agreement" ="5.0dip" 2130969912="@id/2131428989" 2130969917="2131438103" 2130969936="@id/2131429554" style="@style/2132149384" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428989" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="8.0dip" 2130969911="2131438103" 2130969918="@id/btn_submit" 2130969937="2131438103" 2130970889="1" 2130971472="2" />
+        <com.major.android.uikit.button.KitButton android:id="@id/btn_submit" ="0.0dip" ="wrap_content" android:text="@string/_Submit" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131428989" 2130969941="@id/2131428989" 2130970889="1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131439500" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="@drawable/2131235990" ="wrap_content" ="wrap_content" ="10.0dip" ="5.0dip" ="@color/2131099879">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427402" ="@drawable/2131232666" ="visible" ="26.0dip" ="26.0dip" ="6.0dip" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131438785" ="visible" ="0.0dip" ="wrap_content">
+            <TextView ="12.0sp" ="@color/2131099789" ="marquee" android:id="@id/2131438784" ="0.0dip" ="wrap_content" android:text="@string/c2c_satisfaction_survey" ="true" ="1.0" ="marquee_forever" ="@font/2131296274" ="10.0dip" />
+            <TextView ="12.0sp" ="@color/2131099789" ="center_vertical" ="wrap_content" ="wrap_content" android:text="@string/c2c_satisfaction_survey_go" ="true" ="@font/2131296265" ="30.0dip" ="15.0dip" 2130969306="@drawable/2131237055" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

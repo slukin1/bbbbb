@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427541" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" ="0.0dip" ="@dimen/2131165972" 2130969912="@id/2131450349" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" layout="@layout/2131626845" />
+    <FrameLayout android:id="@id/2131450349" ="#ff3e4b56" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131441601" />
+    <FrameLayout android:id="@id/2131431417" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131441601" />
+    <FrameLayout android:id="@id/2131432025" ="gone" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

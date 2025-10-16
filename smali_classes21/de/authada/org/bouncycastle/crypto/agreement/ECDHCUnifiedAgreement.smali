@@ -1,0 +1,134 @@
+.class public Lde/authada/org/bouncycastle/crypto/agreement/ECDHCUnifiedAgreement;
+.super Ljava/lang/Object;
+
+
+# instance fields
+.field private privParams:Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public calculateAgreement(Lde/authada/org/bouncycastle/crypto/CipherParameters;)[B
+    .locals 4
+
+    .line 65353
+    check-cast p1, Lde/authada/org/bouncycastle/crypto/params/ECDHUPublicParameters;
+
+    new-instance v0, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;-><init>()V
+
+    new-instance v1, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;
+
+    invoke-direct {v1}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;-><init>()V
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCUnifiedAgreement;->privParams:Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;->getStaticPrivateKey()Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;->init(Lde/authada/org/bouncycastle/crypto/CipherParameters;)V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/crypto/params/ECDHUPublicParameters;->getStaticPublicKey()Lde/authada/org/bouncycastle/crypto/params/ECPublicKeyParameters;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;->calculateAgreement(Lde/authada/org/bouncycastle/crypto/CipherParameters;)Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCUnifiedAgreement;->privParams:Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;
+
+    invoke-virtual {v2}, Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;->getEphemeralPrivateKey()Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;->init(Lde/authada/org/bouncycastle/crypto/CipherParameters;)V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/crypto/params/ECDHUPublicParameters;->getEphemeralPublicKey()Lde/authada/org/bouncycastle/crypto/params/ECPublicKeyParameters;
+
+    move-result-object p1
+
+    invoke-virtual {v1, p1}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCBasicAgreement;->calculateAgreement(Lde/authada/org/bouncycastle/crypto/CipherParameters;)Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCUnifiedAgreement;->getFieldSize()I
+
+    move-result v1
+
+    shl-int/lit8 v2, v1, 0x1
+
+    new-array v2, v2, [B
+
+    const/4 v3, 0x0
+
+    invoke-static {p1, v2, v3, v1}, Lde/authada/org/bouncycastle/util/BigIntegers;->asUnsignedByteArray(Ljava/math/BigInteger;[BII)V
+
+    invoke-static {v0, v2, v1, v1}, Lde/authada/org/bouncycastle/util/BigIntegers;->asUnsignedByteArray(Ljava/math/BigInteger;[BII)V
+
+    return-object v2
+.end method
+
+.method public getFieldSize()I
+    .locals 1
+
+    .line 65352
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCUnifiedAgreement;->privParams:Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;->getStaticPrivateKey()Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECKeyParameters;->getParameters()Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/params/ECDomainParameters;->getCurve()Lde/authada/org/bouncycastle/math/ec/ECCurve;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/ECCurve;->getFieldSize()I
+
+    move-result v0
+
+    add-int/lit8 v0, v0, 0x7
+
+    div-int/lit8 v0, v0, 0x8
+
+    return v0
+.end method
+
+.method public init(Lde/authada/org/bouncycastle/crypto/CipherParameters;)V
+    .locals 1
+
+    .line 65351
+    check-cast p1, Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/crypto/agreement/ECDHCUnifiedAgreement;->privParams:Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;
+
+    const-string v0, "ECCDHU"
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/crypto/params/ECDHUPrivateParameters;->getStaticPrivateKey()Lde/authada/org/bouncycastle/crypto/params/ECPrivateKeyParameters;
+
+    move-result-object p1
+
+    invoke-static {v0, p1}, Lde/authada/org/bouncycastle/crypto/agreement/Utils;->getDefaultProperties(Ljava/lang/String;Lde/authada/org/bouncycastle/crypto/params/ECKeyParameters;)Lde/authada/org/bouncycastle/crypto/CryptoServiceProperties;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/crypto/CryptoServicesRegistrar;->checkConstraints(Lde/authada/org/bouncycastle/crypto/CryptoServiceProperties;)V
+
+    return-void
+.end method

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131450413" ="fill_parent" ="64.0dip" ="0.0dip" ="true">
+        <ImageView ="@drawable/2131236594" ="fill_parent" ="fill_parent" />
+        <LinearLayout ="center" ="horizontal" android:id="@id/2131435581" ="fill_parent" ="fill_parent" />
+        <include android:id="@id/2131435685" layout="@layout/2131628888" />
+        <include android:id="@id/2131435692" layout="@layout/2131628889" />
+    </FrameLayout>
+    <ImageView android:id="@id/2131430449" ="fill_parent" ="8.0dip" ="@drawable/2131236590" ="@id/2131450413" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131450416" ="@color/2131103086" ="fill_parent" ="72.0dip" ="false" ="@id/2131430449">
+        <LinearLayout android:id="@id/2131440581" style="@style/2132150314">
+            <ImageView ="center" ="vertical" android:id="@id/2131433144" 2130971077="@drawable/2131236576" style="@style/2132150310" />
+            <TextView android:id="@id/2131441366" android:text="@string/ucrop_crop" style="@style/2132150312" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/2131440595" style="@style/2132150314">
+            <ImageView android:id="@id/2131433145" 2130971077="@drawable/2131236588" style="@style/2132150310" />
+            <TextView android:id="@id/2131441370" android:text="@string/ucrop_rotate" style="@style/2132150312" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/2131440596" style="@style/2132150314">
+            <ImageView android:id="@id/2131433146" 2130971077="@drawable/2131236589" style="@style/2132150310" />
+            <TextView android:id="@id/2131441371" android:text="@string/ucrop_scale" style="@style/2132150312" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

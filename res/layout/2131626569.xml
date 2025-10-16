@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435487" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435490" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131433275" ="24.0dip" ="24.0dip" ="fitCenter" ="@null" 2130969911="@id/2131444047" 2130969937="2131438103" 2130969941="@id/2131444047" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131444047" ="wrap_content" ="wrap_content" ="22.0dip" ="1" ="false" ="8.0dip" 2130969905="true" 2130969918="@id/2131444044" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131433275" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131444044" ="@drawable/2131232715" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="1" ="1.0" ="8.0dip" ="@color/2131099744" 2130969905="false" 2130969911="@id/2131444047" 2130969918="@id/tvPriceValue" 2130969936="@id/2131444047" 2130969941="@id/2131444047" style="@style/2132149394" />
+        <TextView ="@color/2131099764" ="end" ="end|center" android:id="@id/tvPriceValue" ="0.0dip" ="wrap_content" ="22.0dip" ="1" 2130969911="@id/2131444047" 2130969917="2131438103" 2130969941="@id/2131444047" style="@style/2132149361" />
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131444566" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" ="16.0dip" 2130969937="@id/2131444047" 2130969940="@id/2131444047" style="@style/2132149384" />
+        <TextView ="@color/2131099787" android:id="@id/2131442008" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" 2130969911="@id/2131444566" 2130969936="@id/2131444566" 2130969941="@id/2131444566" 2130969961="0.0dip" style="@style/2132149377" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099851" ="end" ="center" android:id="@id/2131444025" ="@drawable/2131236011" ="8.0dip" ="1.0dip" ="8.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="120.0dip" ="true" ="#1a2ebd85" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+    <com.binance.ocbs.sdk.widgets.PromotionSystemInRevampWidget android:id="@id/promotionSystemWidget" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" ="8.0dip" ="1.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+    <Space ="fill_parent" ="16.0dip" 2130969940="@id/tvPaymentDesc" />
+    <View android:id="@id/2131449387" ="@drawable/2131232784" ="true" ="gone" ="fill_parent" ="0.0dip" ="15.0dip" ="0.8" ="@color/2131099685" 2130969911="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099778" android:id="@id/tvPaymentDesc" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="@id/2131435490" 2130969940="@id/2131435490" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

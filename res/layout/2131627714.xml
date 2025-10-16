@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232657" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131431192" ="@drawable/2131235168" ="20.0dip" ="20.0dip" ="15.0dip" ="fitXY" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131431193" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/dwallet_common_transaction_confirm_title" ="7.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131431194" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431193">
+        <include android:id="@id/2131439969" ="fill_parent" ="wrap_content" layout="@layout/2131627676" />
+        <include android:id="@id/2131439968" ="fill_parent" ="wrap_content" ="20.0dip" layout="@layout/2131627674" />
+    </LinearLayout>
+    <com.mpc.wallet.widget.uikit.KitNotification ="@color/2131099863" ="start|center" android:id="@id/2131431198" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" ="42.0dip" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431194" 2130970325="@drawable/2131235181" 2130970329="@string/confirm_dialog_sign_error_tip" style="@style/2132149377" />
+    <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131430252" ="fill_parent" ="48.0dip" ="24.0dip" ="16.0dip" android:text="@string/confirm_dialog_sign_confirm" ="15.0dip" ="15.0dip" 2130969173="4" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131431198" />
+</androidx.constraintlayout.widget.ConstraintLayout>

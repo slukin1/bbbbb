@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout android:id="@id/2131438986" ="4.0dip" ="fill_parent" ="wrap_content" 2130969893="@xml/2132344848" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="bold" ="@color/2131099764" android:id="@id/2131438992" ="wrap_content" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149448" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438989" ="15.0dip" ="15.0dip" ="fill_parent" ="232.0dip" ="never" ="@dimen/2131166184" 2130969940="@id/2131438992" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1,0 +1,40 @@
+.class public Lde/authada/org/bouncycastle/pqc/crypto/newhope/NHPrivateKeyParameters;
+.super Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+
+
+# instance fields
+.field final secData:[S
+
+
+# direct methods
+.method public constructor <init>([S)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    .line 65354
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;-><init>(Z)V
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/util/Arrays;->clone([S)[S
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/pqc/crypto/newhope/NHPrivateKeyParameters;->secData:[S
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getSecData()[S
+    .locals 1
+
+    .line 65353
+    iget-object v0, p0, Lde/authada/org/bouncycastle/pqc/crypto/newhope/NHPrivateKeyParameters;->secData:[S
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/util/Arrays;->clone([S)[S
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/longclickEtExchangeLimit" ="gone" ="0.0dip" ="40.0dip" app:2130969577="@string/format_price_coin" 2130969918="@id/2131446825" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429888" ="@drawable/2131234065" ="visible" ="0.0dip" ="0.0dip" ="8.0dip" ="6.0dip" 2130969911="@id/longclickEtExchangeLimit" 2130969917="@id/longclickEtExchangeLimit" 2130969937="@id/longclickEtExchangeLimit" 2130969941="@id/longclickEtExchangeLimit">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" ="center" android:id="@id/2131446826" ="0.0dip" ="0.0dip" android:text="@string/future_bbo_option_opponent_one" ="1" ="3.0dip" 2130969911="2131438103" 2130969918="@id/2131434648" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434648" ="1.0dip" ="16.0dip" ="16.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131446825" ="@drawable/2131234065" ="59.0dip" ="0.0dip" android:text="@string/future_limit_bbo_title" ="2" ="5.0dip" 2130969911="@id/longclickEtExchangeLimit" 2130969917="2131438103" 2130969936="@id/longclickEtExchangeLimit" 2130969941="@id/longclickEtExchangeLimit" style="@style/2132149454" />
+</merge>

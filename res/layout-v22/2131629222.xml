@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436302" ="@drawable/2131232430" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="12.0dip" ="12.0dip" ="12.0dip" android:text="@string/earn_loan_total_debt_amount_usd" ="@dimen/2131166170" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="12.0dip" ="2.0dip" ="12.0dip" ="12.0dip" ="@dimen/2131166170" style="@style/2132149446" />
+</LinearLayout>

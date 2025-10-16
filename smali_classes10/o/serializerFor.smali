@@ -1,0 +1,40 @@
+.class public final synthetic Lo/serializerFor;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field private synthetic b:Lcom/finance/spot/feature/order/exporthistory/HistoryExportDialogFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/finance/spot/feature/order/exporthistory/HistoryExportDialogFragment;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/serializerFor;->b:Lcom/finance/spot/feature/order/exporthistory/HistoryExportDialogFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/serializerFor;->b:Lcom/finance/spot/feature/order/exporthistory/HistoryExportDialogFragment;
+
+    check-cast p1, Landroidx/appcompat/widget/AppCompatImageView;
+
+    invoke-static {v0, p1}, Lcom/finance/spot/feature/order/exporthistory/HistoryExportDialogFragment;->c(Lcom/finance/spot/feature/order/exporthistory/HistoryExportDialogFragment;Landroidx/appcompat/widget/AppCompatImageView;)Lkotlin/Unit;
+
+    move-result-object p1
+
+    return-object p1
+.end method

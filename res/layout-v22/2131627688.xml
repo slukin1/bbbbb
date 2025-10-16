@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131439368" ="@drawable/2131232390" ="true" ="true" ="fill_parent" ="148.0dip" ="locale" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="horizontal" android:id="@id/2131436441" ="@drawable/2131232390" ="16.0dip" ="16.0dip" ="16.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099779" ="end" android:id="@id/2131445603" ="wrap_content" ="wrap_content" android:text="@string/web3_widget_alpha_events" ="1" ="true" ="@id/2131450218" ="true" style="@style/2132149450" />
+        <ImageView ="start|center" android:id="@id/2131450218" ="16.0dip" ="16.0dip" ="3.0dip" ="@drawable/2131235127" ="15.0dip" ="true" ="true" 2130971375="@color/2131099779" />
+    </RelativeLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436440" ="@drawable/2131232390" ="16.0dip" ="16.0dip" ="invisible" ="wrap_content" ="wrap_content" ="@id/2131436441" ="16.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131445605" ="wrap_content" ="wrap_content" style="@style/2132149463" />
+        <TextView ="@color/2131099779" android:id="@id/2131445606" ="wrap_content" ="wrap_content" ="6.0dip" style="@style/2132149361" />
+    </LinearLayout>
+    <TextView android:id="@id/2131437244" ="@color/2131099752" ="invisible" ="fill_parent" ="0.5dip" ="16.0dip" ="13.0dip" ="16.0dip" ="@id/2131436440" ="@dimen/2131166188" 2130969937="2131438103" />
+    <RelativeLayout ="horizontal" android:id="@id/2131436439" ="@drawable/2131232390" ="16.0dip" ="15.0dip" ="16.0dip" ="invisible" ="fill_parent" ="wrap_content" ="@id/2131437244" ="16.0dip" 2130969937="2131438103">
+        <TextView ="@color/2131099786" ="center" android:id="@id/2131445595" ="gone" ="fill_parent" ="50.0dip" android:text="@string/web3_widget_alpha_events_no" ="true" style="@style/2132149454" />
+        <ImageView ="start|center" android:id="@id/2131434319" ="24.0dip" ="24.0dip" ="3.0dip" ="@drawable/2131232951" 2130971375="@color/2131099779" />
+        <ImageView android:id="@id/2131434320" ="@drawable/2131235106" ="1.0dip" ="gone" ="12.0dip" ="12.0dip" ="16.0dip" ="@drawable/2131233320" ="centerCrop" ="@id/2131434319" />
+        <TextView ="@color/2131099764" android:id="@id/2131445598" ="wrap_content" ="wrap_content" ="8.0dip" ="@id/2131434319" style="@style/2132149454" />
+        <TextView ="@color/2131099779" android:id="@id/2131445596" ="wrap_content" ="wrap_content" ="2.0dip" ="@id/2131445598" ="@id/2131445598" style="@style/2132149361" />
+        <TextView ="@color/2131099764" android:id="@id/2131445599" ="wrap_content" ="wrap_content" ="@id/2131445598" ="true" style="@style/2132149454" />
+        <TextView ="@color/2131099779" android:id="@id/2131445597" ="wrap_content" ="wrap_content" ="2.0dip" ="@id/2131445599" ="@id/2131445599" style="@style/2132149361" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131427792" ="16.0dip" ="16.0dip" ="gone" ="fill_parent" ="160.0dip" ="@dimen/2131166188">
+        <TextView ="@color/2131099779" ="end" ="center_vertical" android:id="@id/2131446372" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/web3_widget_alpha_events" ="1" ="true" ="true" style="@style/2132149450" />
+        <TextView android:id="@id/2131437161" ="@color/2131099752" ="fill_parent" ="1.0dip" ="@id/2131446372" 2130969937="2131438103" />
+        <TextView ="@color/2131099786" ="center" android:id="@id/2131445604" ="fill_parent" ="120.0dip" ="@id/2131437161" ="true" style="@style/2132149454" />
+    </RelativeLayout>
+</RelativeLayout>

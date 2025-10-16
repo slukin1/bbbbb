@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131431608" ="#98000000" ="0.0dip" ="0.0dip" />
+    <FrameLayout ="bottom" android:id="@id/2131431601" ="#b0000000" ="fill_parent" ="60.0dip" ="10.0dip" ="ltr">
+        <LinearLayout ="start|center" android:id="@id/2131431643" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="ltr" ="10.0dip" ="10.0dip">
+            <TextView android:id="@id/2131431628" style="@style/2132148609" />
+            <TextView style="@style/2132148610" />
+            <TextView android:id="@id/2131431609" style="@style/2132148608" />
+        </LinearLayout>
+        <LinearLayout ="end|center" android:id="@id/2131431600" ="wrap_content" ="wrap_content" ="ltr">
+            <ImageButton android:id="@id/2131431645" style="@style/2132148599" />
+            <ImageButton android:id="@id/2131431637" style="@style/2132148598" />
+            <ImageButton android:id="@id/2131431632" style="@style/2132148596" />
+            <ImageButton android:id="@id/2131431640" style="@style/2132148591" />
+            <ImageButton android:id="@id/2131431635" style="@style/2132148597" />
+            <ImageButton android:id="@id/2131431615" style="@style/2132148592" />
+            <ImageButton android:id="@id/2131431622" style="@style/2132148594" />
+        </LinearLayout>
+        <HorizontalScrollView ="end|center" android:id="@id/2131431612" ="invisible" ="wrap_content" ="wrap_content">
+            <LinearLayout android:id="@id/2131431611" ="wrap_content" ="wrap_content" ="ltr">
+                <ImageButton android:id="@id/2131431621" style="@style/2132148593" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <View ="bottom" android:id="@id/2131431631" ="fill_parent" ="48.0dip" ="52.0dip" />
+    <LinearLayout ="center_vertical" ="end|bottom|center" ="horizontal" android:id="@id/2131431618" ="wrap_content" ="wrap_content" ="4.0dip" ="ltr">
+        <ImageButton android:id="@id/2131431619" style="@style/2132148592" />
+    </LinearLayout>
+    <LinearLayout ="center" ="center" android:id="@id/2131431603" ="@android:color/transparent" ="24.0dip" ="false" ="wrap_content" ="wrap_content" ="ltr">
+        <ImageButton android:id="@id/2131431629" style="@style/2132148604" />
+        <include layout="@layout/2131625376" />
+        <ImageButton android:id="@id/2131431626" style="@style/2132148603" />
+        <include layout="@layout/2131625375" />
+        <ImageButton android:id="@id/2131431620" style="@style/2132148602" />
+    </LinearLayout>
+</merge>

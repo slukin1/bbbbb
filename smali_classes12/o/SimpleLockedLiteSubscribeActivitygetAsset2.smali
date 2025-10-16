@@ -1,0 +1,791 @@
+.class public final Lo/SimpleLockedLiteSubscribeActivitygetAsset2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000J\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0007\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J!\u0010\n\u001a\u00020\t*\u00020\u00062\u000c\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u0007H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u001b\u0010\u000c\u001a\u00020\t*\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u0008H\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u0017\u0010\n\u001a\u00020\u000f2\u0006\u0010\u0003\u001a\u00020\u000eH\u0002\u00a2\u0006\u0004\u0008\n\u0010\u0010R\u0014\u0010\u000c\u001a\u00020\u00028\u0002X\u0083\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0012R\u0014\u0010\u0016\u001a\u00020\u00138\u0002X\u0083\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0015R\u0014\u0010\u0011\u001a\u00020\u00178\u0002X\u0083\u0004\u00a2\u0006\u0006\n\u0004\u0008\n\u0010\u0018R\u0015\u0010\u0014\u001a\u00020\u00198CX\u0083\u0084\u0002\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\u001aR\u0018\u0010\n\u001a\u0004\u0018\u00010\u001b8\u0002@\u0002X\u0083\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u001c"
+    }
+    d2 = {
+        "Lo/SimpleLockedLiteSubscribeActivitygetAsset2;",
+        "",
+        "Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;",
+        "p0",
+        "<init>",
+        "(Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;)V",
+        "Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;",
+        "",
+        "Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;",
+        "",
+        "d",
+        "(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V",
+        "e",
+        "(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;)V",
+        "",
+        "",
+        "(F)Ljava/lang/String;",
+        "a",
+        "Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;",
+        "Landroid/content/Context;",
+        "c",
+        "Landroid/content/Context;",
+        "b",
+        "Landroidx/fragment/app/FragmentManager;",
+        "Landroidx/fragment/app/FragmentManager;",
+        "Lo/SimpleLockedLiteSecondConfirmDialog;",
+        "Lkotlin/Lazy;",
+        "Lkotlinx/coroutines/Job;",
+        "Lkotlinx/coroutines/Job;"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final a:Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;
+
+.field private b:Lkotlinx/coroutines/Job;
+
+.field final c:Landroid/content/Context;
+
+.field final d:Landroidx/fragment/app/FragmentManager;
+
+.field private final e:Lkotlin/Lazy;
+
+
+# direct methods
+.method public constructor <init>(Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;)V
+    .locals 4
+
+    .line 26
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->a:Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;
+
+    .line 28
+    invoke-virtual {p1}, Lo/b;->bv_()Landroidx/fragment/app/Fragment;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    const-string v1, "Required value was null."
+
+    if-eqz v0, :cond_2
+
+    iput-object v0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->c:Landroid/content/Context;
+
+    .line 29
+    invoke-virtual {p1}, Lo/b;->bw_()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    iput-object v0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->d:Landroidx/fragment/app/FragmentManager;
+
+    .line 30
+    check-cast p1, Lo/j;
+
+    new-instance v0, Lo/SimpleLockedLiteSubscribeActivityhandleEstApr3;
+
+    invoke-direct {v0, p0}, Lo/SimpleLockedLiteSubscribeActivityhandleEstApr3;-><init>(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;)V
+
+    .line 130
+    sget-object v1, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v2, Lo/SimpleLockedLiteSubscribeActivitygetAsset2$DropdropElements1;
+
+    invoke-direct {v2, v0}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2$DropdropElements1;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v2, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v1, v2}, Lkotlin/LazyKt;->e(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v1
+
+    .line 131
+    const-class v2, Lo/SimpleLockedLiteSecondConfirmDialog;
+
+    invoke-static {v2}, Lo/WalletRestoreActivityoldBindProcess22;->a(Ljava/lang/Class;)Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;
+
+    move-result-object v2
+
+    new-instance v3, Lo/SimpleLockedLiteSubscribeActivitygetAsset2$DemoFundsParentComponent;
+
+    invoke-direct {v3, v0}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2$DemoFundsParentComponent;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    new-instance v0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2$DropdropElements4;
+
+    invoke-direct {v0, p1, v1}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2$DropdropElements4;-><init>(Lo/j;Lkotlin/Lazy;)V
+
+    check-cast v0, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {p1, v2, v3, v0}, Lo/name;->d(Lo/j;Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object p1
+
+    .line 30
+    iput-object p1, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->e:Lkotlin/Lazy;
+
+    return-void
+
+    .line 29
+    :cond_1
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 28
+    :cond_2
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public static synthetic a(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;F)Ljava/lang/String;
+    .locals 0
+
+    .line 11044
+    invoke-direct {p0, p1}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->d(F)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic a(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;)Lo/getShowLayoutBounds;
+    .locals 1
+
+    .line 7032
+    iget-object p0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->a:Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;
+
+    invoke-virtual {p0}, Lo/b;->bv_()Landroidx/fragment/app/Fragment;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_0
+
+    check-cast p0, Lo/getShowLayoutBounds;
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string v0, "Required value was null."
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static synthetic b(Ljava/util/List;Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Lcom/github/mikephil/charting/data/Entry;Lo/ClaimedSuccessDialogobserverLiveData3;)Lkotlin/Unit;
+    .locals 6
+
+    .line 1076
+    move-object p4, p0
+
+    check-cast p4, Ljava/lang/Iterable;
+
+    invoke-interface {p4}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p4
+
+    :cond_0
+    invoke-interface {p4}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {p4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v2, v0
+
+    check-cast v2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;
+
+    if-eqz p3, :cond_1
+
+    invoke-virtual {p3}, Lcom/github/mikephil/charting/data/Entry;->getX()F
+
+    move-result v3
+
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v3
+
+    goto :goto_0
+
+    :cond_1
+    move-object v3, v1
+
+    .line 2003
+    :goto_0
+    iget-wide v4, v2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;->a:J
+
+    long-to-float v2, v4
+
+    if-eqz v3, :cond_0
+
+    .line 3194
+    invoke-virtual {v3}, Ljava/lang/Number;->floatValue()F
+
+    move-result v3
+
+    cmpl-float v2, v3, v2
+
+    if-nez v2, :cond_0
+
+    goto :goto_1
+
+    :cond_2
+    move-object v0, v1
+
+    .line 1076
+    :goto_1
+    check-cast v0, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;
+
+    if-eqz v0, :cond_4
+
+    .line 1077
+    invoke-direct {p1, p2, v0}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->e(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;)V
+
+    .line 4087
+    iget-object p3, p1, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->b:Lkotlinx/coroutines/Job;
+
+    if-eqz p3, :cond_3
+
+    const/4 p4, 0x1
+
+    invoke-static {p3, v1, p4, v1}, Lkotlinx/coroutines/Job$DefaultImpls;->cancel$default(Lkotlinx/coroutines/Job;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+
+    .line 4088
+    :cond_3
+    iget-object p3, p1, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->a:Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;
+
+    check-cast p3, Landroidx/lifecycle/LifecycleOwner;
+
+    .line 5045
+    invoke-interface {p3}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+
+    move-result-object p3
+
+    invoke-static {p3}, Lo/LayoutNodecalculateSemanticsConfiguration1;->b(Landroidx/lifecycle/Lifecycle;)Lo/ComposeUiNodeCompanionVirtualConstructor1;
+
+    move-result-object p3
+
+    .line 4088
+    check-cast p3, Lo/WCWalletManagerExternalSyntheticLambda13;
+
+    new-instance p4, Lcom/binance/margin/pnldetail/MarginTotalProfitBinding$scheduleReset$1;
+
+    invoke-direct {p4, p1, p2, p0, v1}, Lcom/binance/margin/pnldetail/MarginTotalProfitBinding$scheduleReset$1;-><init>(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    check-cast p4, Lkotlin/jvm/functions/Function2;
+
+    const/4 p0, 0x3
+
+    .line 6001
+    invoke-static {p3, v1, v1, p4, p0}, Lo/subscribeWalletConnectEventsdefault;->e(Lo/WCWalletManagerExternalSyntheticLambda13;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;I)Lkotlinx/coroutines/Job;
+
+    move-result-object p0
+
+    .line 4088
+    iput-object p0, p1, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->b:Lkotlinx/coroutines/Job;
+
+    .line 1080
+    :cond_4
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public static synthetic b(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)Lkotlin/Unit;
+    .locals 0
+
+    .line 10081
+    invoke-direct {p0, p1, p2}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->d(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V
+
+    .line 10082
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public static final synthetic c(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;)Landroid/content/Context;
+    .locals 0
+
+    .line 26
+    iget-object p0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->c:Landroid/content/Context;
+
+    return-object p0
+.end method
+
+.method public static synthetic c(F)Ljava/lang/String;
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x3
+
+    .line 12042
+    invoke-static {p0, v0, v0, v1}, Lo/ETHLiteV2WrapActivityspecialinlinedviewModelsdefault2;->b(FLjava/lang/String;Ljava/util/concurrent/TimeUnit;I)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private final d(F)Ljava/lang/String;
+    .locals 5
+
+    .line 21030
+    iget-object v0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->e:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/SimpleLockedLiteSecondConfirmDialog;
+
+    .line 22018
+    iget-object v0, v0, Lo/SimpleLockedLiteSecondConfirmDialog;->c:Lo/WCDelegateonSessionUpdateResponse1;
+
+    .line 117
+    invoke-interface {v0}, Lo/WCDelegateonSessionUpdateResponse1;->c()Ljava/lang/Object;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/binance/margin/model/Benchmark;->BTC:Lcom/binance/margin/model/Benchmark;
+
+    const/4 v2, 0x2
+
+    if-ne v0, v1, :cond_0
+
+    const/16 v0, 0x8
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x2
+
+    .line 118
+    :goto_0
+    new-instance v1, Ljava/math/BigDecimal;
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(F)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-direct {v1, v3}, Ljava/math/BigDecimal;-><init>(Ljava/lang/String;)V
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    .line 119
+    invoke-static {v1, v0, v3, v4, v2}, Lo/SearchCrossActivity;->e(Ljava/math/BigDecimal;ILjava/math/RoundingMode;ZI)Lcom/binance/util/bean/AmountString;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 120
+    invoke-static {}, Lo/MarginAccountCrossPNLFragmentcalculateDebtAllocation2;->d()Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    const-string p1, "******"
+
+    return-object p1
+
+    :cond_1
+    float-to-double v1, p1
+
+    const-wide/16 v3, 0x0
+
+    cmpl-double p1, v1, v3
+
+    if-lez p1, :cond_2
+
+    const-string p1, "+"
+
+    invoke-static {v0, p1}, Lo/ETH2StakeActivitysetUpViews1;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_2
+    return-object v0
+.end method
+
+.method public static synthetic d(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lkotlin/Pair;)Lkotlin/Unit;
+    .locals 4
+
+    .line 0
+    invoke-virtual {p2}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/List;
+
+    invoke-virtual {p2}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, Lo/StrategyBotEntryItem;
+
+    .line 8066
+    iget-object v1, p0, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->a:Lcom/github/mikephil/charting/charts/LineChart;
+
+    check-cast p2, Lo/TradingBotsAddShortcutDialogspecialinlinedviewModelsdefault5;
+
+    invoke-virtual {v1, p2}, Lcom/github/mikephil/charting/charts/Chart;->setData(Lo/TradingBotsAddShortcutDialogspecialinlinedviewModelsdefault5;)V
+
+    .line 9074
+    invoke-direct {p1, p0, v0}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->d(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V
+
+    .line 9075
+    iget-object p2, p0, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->a:Lcom/github/mikephil/charting/charts/LineChart;
+
+    new-instance v1, Lo/PeriodSelectionDialogspecialinlinedactivityViewModelsdefault1;
+
+    new-instance v2, Lo/SimpleLockedLiteSubscribeActivitylendingBuyCoinHelper2;
+
+    invoke-direct {v2, v0, p1, p0}, Lo/SimpleLockedLiteSubscribeActivitylendingBuyCoinHelper2;-><init>(Ljava/util/List;Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;)V
+
+    new-instance v3, Lo/SimpleLockedLiteSubscribeActivityresetStakeType3;
+
+    invoke-direct {v3, p1, p0, v0}, Lo/SimpleLockedLiteSubscribeActivityresetStakeType3;-><init>(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V
+
+    invoke-direct {v1, v2, v3}, Lo/PeriodSelectionDialogspecialinlinedactivityViewModelsdefault1;-><init>(Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v1, Lo/SpotBotsMarketPlaceFragmentspecialinlinedviewModelsdefault3;
+
+    invoke-virtual {p2, v1}, Lcom/github/mikephil/charting/charts/Chart;->setOnChartValueSelectedListener(Lo/SpotBotsMarketPlaceFragmentspecialinlinedviewModelsdefault3;)V
+
+    .line 8068
+    iget-object p0, p0, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->a:Lcom/github/mikephil/charting/charts/LineChart;
+
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+
+    .line 8069
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public static final synthetic d(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;)Lo/SimpleLockedLiteSecondConfirmDialog;
+    .locals 0
+
+    .line 13030
+    iget-object p0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->e:Lkotlin/Lazy;
+
+    invoke-interface {p0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lo/SimpleLockedLiteSecondConfirmDialog;
+
+    return-object p0
+.end method
+
+.method private final d(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V
+    .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;",
+            "Ljava/util/List<",
+            "Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 95
+    check-cast p2, Ljava/lang/Iterable;
+
+    .line 135
+    invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p2
+
+    .line 136
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_0
+
+    move-object v0, v1
+
+    goto :goto_0
+
+    .line 137
+    :cond_0
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    .line 138
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_3
+
+    .line 139
+    move-object v2, v0
+
+    check-cast v2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;
+
+    .line 14003
+    iget-wide v2, v2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;->a:J
+
+    .line 141
+    :cond_1
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    .line 142
+    move-object v5, v4
+
+    check-cast v5, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;
+
+    .line 15003
+    iget-wide v5, v5, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;->a:J
+
+    cmp-long v7, v2, v5
+
+    if-gez v7, :cond_2
+
+    move-object v0, v4
+
+    move-wide v2, v5
+
+    .line 147
+    :cond_2
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v4
+
+    if-nez v4, :cond_1
+
+    .line 95
+    :cond_3
+    :goto_0
+    check-cast v0, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;
+
+    if-eqz v0, :cond_4
+
+    .line 96
+    invoke-direct {p0, p1, v0}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->e(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;)V
+
+    .line 97
+    iget-object p2, p1, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->a:Lcom/github/mikephil/charting/charts/LineChart;
+
+    invoke-virtual {p2}, Lcom/github/mikephil/charting/charts/Chart;->getOnTouchListener()Lcom/github/mikephil/charting/listener/ChartTouchListener;
+
+    move-result-object p2
+
+    invoke-virtual {p2, v1}, Lcom/github/mikephil/charting/listener/ChartTouchListener;->c(Lo/ClaimedSuccessDialogobserverLiveData3;)V
+
+    .line 98
+    iget-object p1, p1, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->a:Lcom/github/mikephil/charting/charts/LineChart;
+
+    invoke-virtual {p1, v1}, Lcom/github/mikephil/charting/charts/Chart;->b([Lo/ClaimedSuccessDialogobserverLiveData3;)V
+
+    :cond_4
+    return-void
+.end method
+
+.method public static final synthetic d(Lo/SimpleLockedLiteSubscribeActivitygetAsset2;Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V
+    .locals 0
+
+    .line 26
+    invoke-direct {p0, p1, p2}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->d(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Ljava/util/List;)V
+
+    return-void
+.end method
+
+.method private final e(Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;)V
+    .locals 6
+
+    .line 105
+    iget-object v0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->a:Lo/SimpleLockedLiteConfirmActivityspecialinlinedviewModelsdefault7;
+
+    invoke-virtual {v0}, Lo/b;->bv_()Landroidx/fragment/app/Fragment;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 107
+    iget-object v1, p1, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->d:Landroid/widget/TextView;
+
+    .line 16003
+    iget-wide v2, p2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;->a:J
+
+    long-to-float v2, v2
+
+    .line 107
+    const-string v3, "yyyy-MM-dd"
+
+    const/4 v4, 0x2
+
+    const/4 v5, 0x0
+
+    invoke-static {v2, v3, v5, v4}, Lo/ETHLiteV2WrapActivityspecialinlinedviewModelsdefault2;->b(FLjava/lang/String;Ljava/util/concurrent/TimeUnit;I)Ljava/lang/String;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/CharSequence;
+
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 108
+    iget-object v1, p1, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->e:Landroid/widget/TextView;
+
+    .line 17003
+    iget-wide v2, p2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;->b:D
+
+    .line 109
+    invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v2
+
+    sget-object v3, Lo/HttpUtilsb;->Companion:Lo/HttpUtilsb$Companion;
+
+    const/4 v4, 0x1
+
+    invoke-static {v3, v5, v4, v5}, Lo/HttpUtilsb$Companion;->a$default(Lo/HttpUtilsb$Companion;Landroid/app/Application;ILjava/lang/Object;)Lo/HttpUtilsb;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Landroidx/lifecycle/LiveData;->d()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lcom/binance/base/tools/AppStyle;
+
+    invoke-static {v2, v0, v3}, Lo/ETH2StakeActivitysetUpViews1;->a(Ljava/lang/Double;Landroid/content/Context;Lcom/binance/base/tools/AppStyle;)I
+
+    move-result v0
+
+    .line 108
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setTextColor(I)V
+
+    .line 18030
+    iget-object v0, p0, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->e:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/SimpleLockedLiteSecondConfirmDialog;
+
+    .line 19018
+    iget-object v0, v0, Lo/SimpleLockedLiteSecondConfirmDialog;->c:Lo/WCDelegateonSessionUpdateResponse1;
+
+    .line 111
+    invoke-interface {v0}, Lo/WCDelegateonSessionUpdateResponse1;->c()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/binance/margin/model/Benchmark;
+
+    invoke-virtual {v0}, Lcom/binance/margin/model/Benchmark;->getAsset()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 112
+    iget-object p1, p1, Lo/EarnDashboardV2FragmentspecialinlinedviewBindingFragment6;->e:Landroid/widget/TextView;
+
+    .line 20003
+    iget-wide v1, p2, Lo/SimpleLockedLiteSubscribeActivitysetUpViews1;->b:D
+
+    double-to-float p2, v1
+
+    .line 112
+    invoke-direct {p0, p2}, Lo/SimpleLockedLiteSubscribeActivitygetAsset2;->d(F)Ljava/lang/String;
+
+    move-result-object p2
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p2, " "
+
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    check-cast p2, Ljava/lang/CharSequence;
+
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    :cond_0
+    return-void
+.end method

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435619" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/_filter" 2130969940="@id/2131435619" style="@style/2132149425" />
+    <com.finance.framework.widget.scroll.MaxHeightScrollView android:id="@id/2131440881" ="fill_parent" ="wrap_content" 2130969940="@id/tv_title">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447700" ="wrap_content" ="wrap_content" android:text="@string/strategy_leader_board_runtime" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout ="horizontal" android:id="@id/2131432039" ="fill_parent" ="wrap_content" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969940="@id/2131447700" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447691" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/finance_position_roi" 2130969937="2131438103" 2130969940="@id/2131432039" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout ="horizontal" android:id="@id/2131432038" ="fill_parent" ="wrap_content" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969940="@id/2131447691" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_direction" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/finance_order_direction" 2130969937="2131438103" 2130969940="@id/2131432038" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout ="horizontal" android:id="@id/flex_direction" ="fill_parent" ="wrap_content" ="10.0dip" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969940="@id/tv_direction" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_leverage" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/futures_grid_order_leverage" 2130969937="2131438103" 2130969940="@id/flex_direction" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout ="horizontal" android:id="@id/flex_leverage" ="fill_parent" ="wrap_content" ="10.0dip" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969940="@id/tv_leverage" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444629" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/strategy_popular_card_seven_mdd" 2130969937="2131438103" 2130969940="@id/flex_leverage" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout ="horizontal" android:id="@id/2131432033" ="fill_parent" ="wrap_content" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969940="@id/2131444629" />
+            <LinearLayout ="center_vertical" android:id="@id/2131435723" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/2131432033">
+                <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429427" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132148665" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTrailing" ="wrap_content" ="wrap_content" android:text="@string/strategy_trailing" ="4.0dip" style="@style/2132149355" />
+            </LinearLayout>
+            <include android:id="@id/2131435605" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131435723" layout="@layout/2131628764" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432699" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_direction,flex_direction,tv_leverage,flex_leverage" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.finance.framework.widget.scroll.MaxHeightScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_reset" ="0.0dip" ="wrap_content" ="30.0dip" android:text="@string/reset" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130969940="@id/2131440881" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" android:text="@string/_confirm" ="15.0dip" 2130969917="2131438103" 2130969936="@id/btn_reset" 2130969941="@id/btn_reset" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

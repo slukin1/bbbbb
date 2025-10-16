@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="#1af0b90b" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433921" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148577" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433922" ="16.0dip" ="16.0dip" ="12.0dip" 2130969937="@id/2131433921" 2130969941="2131438103" style="@style/2132148577" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131433922" 2130969941="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

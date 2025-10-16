@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235987" ="24.0dip" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip">
+        <TextView ="18.0sp" ="@color/2131100365" ="center_horizontal" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/c2c_mob_order_detail_appeal_confirm_payment_recieved" ="@font/2131296275" />
+        <TextView ="14.0sp" ="@color/2131100365" android:id="@id/2131437973" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_mob_order_detail_appeal_account_confirm_money" ="@font/2131296274" />
+        <LinearLayout ="top" ="horizontal" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="3.0dip" />
+            <TextView ="12.0sp" ="@color/2131100348" android:id="@id/2131429533" ="fill_parent" ="wrap_content" android:text="@string/c2c_mob_order_detail_appeal_i_confirm_payment_successfully" ="@font/2131296273" ="10.0dip" />
+        </LinearLayout>
+        <CheckBox ="12.0sp" ="@color/2131100348" ="top" ="@drawable/2131232446" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="@null" android:text="@string/c2c_mob_order_detail_appeal_i_confirm_payment_successfully" ="8.0dip" ="@font/2131296274" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="0.0dip" ="fill_parent" android:text="@string/dialog_adjust_leverage_action_cancel" ="1.0" style="@style/2132148697" />
+        <Space ="8.0dip" ="fill_parent" />
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428732" ="0.0dip" ="fill_parent" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

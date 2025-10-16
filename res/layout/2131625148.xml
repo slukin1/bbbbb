@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131236001" ="fill_parent" ="wrap_content" ="30.0dip" ="30.0dip" ="#ffffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_horizontal" android:id="@id/2131433847" ="wrap_content" ="wrap_content" ="32.0dip" ="@drawable/2131234590" />
+    <TextView ="16.0sp" ="#ff242d3d" ="center" ="center_horizontal" android:id="@id/2131443092" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/have_not_pass_kyc" ="6.0dip" ="@font/2131296274" ="30.0dip" ="30.0dip" />
+    <TextView ="17.0sp" ="@color/2131099765" ="center" android:id="@id/2131443423" ="@drawable/2131235893" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/verify_now" ="@font/2131296274" ="30.0dip" ="30.0dip" />
+    <TextView ="17.0sp" ="#ff828a98" ="center_horizontal" android:id="@id/2131442782" ="10.0dip" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/delay_do_kyc" ="@font/2131296274" />
+    <View ="fill_parent" ="14.0dip" />
+</LinearLayout>

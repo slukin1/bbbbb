@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="marquee" ="center_vertical" android:id="@id/2131446280" ="0.0dip" ="50.0dip" ="15.0dip" ="15.0dip" android:text="@string/futures_mica_switch_credits_mode" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="fill_parent" ="wrap_content" 2130969904="true" 2130969912="@id/divider2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446280">
+        <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="8.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131448097" ="0.0dip" ="wrap_content" android:text="@string/futures_mica_switch_credits_mode_tips0" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+            <com.major.android.uikit2.divider.KitDivider android:id="@id/divider1" ="fill_parent" ="0.5dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448097" />
+            <TextView ="@color/2131099764" android:id="@id/2131448122" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/futures_mica_credits_mode" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider1" style="@style/2132149450" />
+            <ImageView android:id="@id/2131448099" ="9.0dip" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="@id/2131448098" 2130971077="@drawable/2131233793" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131448098" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/futures_mica_switch_credits_tips1" ="3.0dip" 2130969917="2131438103" 2130969936="@id/2131448099" 2130969940="@id/2131448122" style="@style/2132149361" />
+            <ImageView android:id="@id/tv_tips2_dot" ="9.0dip" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="@id/tv_tips2" 2130971077="@drawable/2131233793" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/tv_tips2" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/futures_mica_switch_credits_tips2" ="3.0dip" 2130969917="2131438103" 2130969936="@id/tv_tips2_dot" 2130969940="@id/2131448098" style="@style/2132149361" />
+            <ImageView android:id="@id/2131448103" ="9.0dip" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="@id/2131448102" 2130971077="@drawable/2131233793" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131448102" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/futures_mica_switch_credits_tips3" ="3.0dip" 2130969917="2131438103" 2130969936="@id/2131448103" 2130969940="@id/tv_tips2" style="@style/2132149361" />
+            <ImageView android:id="@id/2131448105" ="9.0dip" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="@id/2131448104" 2130971077="@drawable/2131233793" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131448104" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/futures_mica_switch_credits_tips4" ="3.0dip" 2130969917="2131438103" 2130969936="@id/2131448103" 2130969940="@id/2131448102" style="@style/2132149361" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider2" ="fill_parent" ="0.5dip" ="12.0dip" 2130969912="@id/2131445581" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429561" ="16.0dip" ="16.0dip" ="15.0dip" 2130969835="2131429513" 2130969937="2131438103" 2130969941="@id/2131445581" />
+    <TextView ="@color/2131099764" android:id="@id/2131445581" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/futures_mica_switch_credits_mode_terms_condition" ="false" ="4.0dip" ="0.0dip" ="15.0dip" 2130969912="@id/btn_confirm" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131429561" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

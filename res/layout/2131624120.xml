@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427565" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433698" ="gone" ="20.0dip" ="20.0dip" ="14.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center" ="center" android:id="@id/2131444971" ="wrap_content" ="wrap_content" ="124.0dip" android:text="@string/earn_defi_redemption_sub" ="12.0dip" 2130969314="@drawable/2131238405" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131444343" ="wrap_content" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444971" style="@style/2132149419" />
+    <TextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/2131444337" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444343" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444342" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_redemption_period" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444337" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131444341" ="wrap_content" ="wrap_content" ="15.0dip" ="true" 2130969907="@id/2131444342" 2130969917="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444296" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/_amount" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444342" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131444294" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="true" 2130969907="@id/2131444296" 2130969917="2131438103" style="@style/2132149350" />
+    <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131431240" ="#00000000" ="fill_parent" ="wrap_content" ="3.0dip" ="10.0dip" ="3.0dip" 2130969714="2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444296" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428702" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/back" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131428944" 2130969937="2131438103" 2130969958="@dimen/2131166184" style="@style/2132148696" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428944" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/earn_view_history" ="12.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428702" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

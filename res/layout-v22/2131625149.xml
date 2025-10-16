@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" android:id="@id/2131430205" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="vertical" ="fill_parent" ="0.0dip" 2130969912="@id/2131438861" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="center" ="vertical" android:id="@id/2131436801" ="10.0dip" ="fill_parent" ="wrap_content">
+            <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131434560" ="wrap_content" ="120.0dip" ="60.0dip" 2130970050="false" 2130970052="@raw/2132017218" />
+            <LinearLayout ="center" ="horizontal" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="24.0dip" ="ltr" ="@dimen/2131166184">
+                <TextView ="20.0sp" ="@color/2131099764" android:id="@id/2131437932" ="visible" ="wrap_content" ="wrap_content" ="@font/2131296275" ="8.0dip" />
+                <TextView ="28.0sp" ="@color/2131099764" android:id="@id/2131437929" ="wrap_content" ="wrap_content" ="@font/2131296275" />
+                <TextView ="20.0sp" ="@color/2131099764" android:id="@id/2131437930" ="visible" ="wrap_content" ="wrap_content" ="@font/2131296275" ="8.0dip" />
+            </LinearLayout>
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131430204" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131437931" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_order_completed_check_wallet" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148704" />
+            <FrameLayout android:id="@id/2131431582" ="fill_parent" ="wrap_content" ="32.0dip" />
+            <FrameLayout ="fill_parent" ="wrap_content" ="8.0dip">
+                <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131433553" ="@drawable/2131236040" ="8.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166286">
+                    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="fill_parent" ="wrap_content" />
+                    <com.binance.c2c.view.FiatIndicatorView ="center" android:id="@id/2131433434" ="15.0dip" ="15.0dip" ="wrap_content" ="3.0dip" ="8.0dip" ="@dimen/2131166184" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <LinearLayout ="vertical" android:id="@id/2131430458" ="gone" ="fill_parent" ="wrap_content" ="24.0dip">
+                    <TextView ="12.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/tvTitle" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_od_convert_hottest_coins" ="@font/2131296273" ="@dimen/2131166184" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432944" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@dimen/2131166184" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430107" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="54.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166184" ="@dimen/2131166156" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <LinearLayout ="vertical" android:id="@id/2131438861" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <TextView ="14.0sp" ="@color/2131099787" ="center_horizontal" android:id="@id/2131444249" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_od_rate_p2p_experience" ="@font/2131296273" ="@dimen/2131166184" ="@dimen/2131166156" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

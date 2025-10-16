@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131100365" ="center_vertical" android:id="@id/2131441274" ="0.0dip" ="fill_parent" ="1.0" style="@style/2132149450" />
+    <RelativeLayout ="wrap_content" ="fill_parent">
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131441000" ="false" ="wrap_content" ="wrap_content" ="true" />
+        <androidx.core.widget.ContentLoadingProgressBar android:id="@id/2131438676" ="18.0dip" ="18.0dip" ="true" style="@style/2132148798" />
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

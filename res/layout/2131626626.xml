@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="48.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/c2c_place_order_advertiser_requirements" ="@font/2131296275" ="15.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430552" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tv_nick" ="wrap_content" ="wrap_content" ="190.0dip" ="true" ="@font/2131296275" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436386" ="wrap_content" ="16.0dip" ="5.0dip" 2130969911="@id/tv_nick" 2130969936="@id/tv_nick" 2130969941="@id/tv_nick" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131443907" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" ="4.0dip" 2130969911="@id/tv_nick" 2130969918="@id/2131433999" 2130969941="@id/tv_nick" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433999" ="20.0dip" ="20.0dip" 2130969911="@id/tv_nick" 2130969917="2131438103" 2130969941="@id/tv_nick" 2130971077="@drawable/2131237055" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439085" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436585" ="@drawable/2131236036" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="14.0dip" ="14.0dip" ="1.0dip" ="@drawable/2131237075" />
+        <TextView ="@color/2131099764" android:id="@id/tv_notification" ="wrap_content" ="wrap_content" ="false" ="4.0dip" style="@style/2132149361" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445161" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="@font/2131296274" />
+</LinearLayout>

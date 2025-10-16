@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="20.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="start" android:id="@id/2131444969" ="wrap_content" ="wrap_content" android:text="@string/ms_alert_tips_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+    <TextView ="@color/2131099778" android:id="@id/2131444982" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/ocbs_receive_notifications_tip" 2130969937="2131438103" 2130969940="@id/2131444969" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444985" ="fill_parent" ="fill_parent" ="5.0dip" android:text="@string/ocbs_max_alerts_tip" 2130969937="2131438103" 2130969940="@id/2131444982" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131444986" ="fill_parent" ="fill_parent" ="5.0dip" android:text="@string/ocbs_alert_expiry_tip" 2130969937="2131438103" 2130969940="@id/2131444985" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

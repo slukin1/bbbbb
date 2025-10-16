@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" 2130971168="true" 2130971169="false">
+        <objectAnimator android:duration="150" android:valueTo="@dimen/2131166822" android:valueType="floatType" android:propertyName="elevation" />
+    </item>
+    <item ="true">
+        <objectAnimator android:duration="150" android:valueTo="@dimen/2131166824" android:valueType="floatType" android:propertyName="elevation" />
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="@dimen/2131166822" android:valueType="floatType" android:propertyName="elevation" />
+    </item>
+</selector>

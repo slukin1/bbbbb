@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433764" ="24.0dip" ="24.0dip" 2130969911="@id/2131443008" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131449147" ="@drawable/2131235998" ="12.0dip" ="12.0dip" ="@color/2131099685" 2130969911="@id/2131433764" 2130969917="@id/2131433764" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433750" ="10.0dip" ="10.0dip" 2130969911="@id/2131433764" 2130969917="@id/2131433764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvCoinName" ="wrap_content" ="wrap_content" ="1" ="false" ="8.0dip" 2130969918="@id/2131427775" 2130969936="@id/2131433764" 2130969941="2131438103" 2130969947="@dimen/2131166185" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131443008" ="wrap_content" ="wrap_content" ="1" ="false" ="8.0dip" 2130969918="@id/2131427776" 2130969936="@id/2131433764" 2130969940="@id/tvCoinName" 2130969947="@dimen/2131166185" style="@style/2132149361" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099764" android:id="@id/2131427786" ="64.0dip" ="28.0dip" ="3.0dip" ="3.0dip" ="false" ="@color/2131099804" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148699" />
+    <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131427775" ="0.0dip" ="wrap_content" ="1" ="false" ="6.0dip" ="20.0dip" 2130969918="@id/2131427786" 2130969936="@id/tvCoinName" 2130969941="2131438103" style="@style/2132149454" />
+    <TextView ="@color/2131099779" ="end" ="end" android:id="@id/2131427776" ="0.0dip" ="wrap_content" ="1" ="false" ="6.0dip" ="20.0dip" 2130969918="@id/2131427786" 2130969936="@id/2131443008" 2130969940="@id/2131427775" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

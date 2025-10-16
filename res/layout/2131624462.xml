@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="13.0dip" ="13.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131433576" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" ="gone" ="20.0dip" ="20.0dip" ="@color/2131099881" 2130971077="@drawable/2131237037" />
+    </LinearLayout>
+    <View ="@color/2131100461" ="fill_parent" ="1.0px" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131432181" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/2131436861" ="fill_parent" ="120.0dip" 2130969331="0.0dip" style="@style/2132148650">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131436862" ="fill_parent" ="fill_parent" 2130969046="2131429431" 2130969047="@style/2132148671" 2130969149="@color/2131103064" 2130969425="@dimen/2131166188" 2130969427="@style/2132148672" 2130969974="2131439795|@null" app:2130971384="@string/currency" 2130971387="true" style="@style/2132148650">
+            <androidx.appcompat.widget.Toolbar android:id="@id/2131436863" ="fill_parent" ="?2130968589" ="15.0dip" ="15.0dip" ="0.0dip" 2130969141="-80.0dip" 2130969331="0.0dip" 2130969902="2131438344" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" style="@style/2132148650">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="36.0dip" ="gone" ="0.0dip" ="wrap_content" ="6.0dip" ="12.0dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <View android:id="@id/2131429135" ="fill_parent" ="45.0dip" ="90.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="gone" ="16.0dip" ="wrap_content" ="85.0dip" ="60.0dip" 2130968837="@color/2131100298" 2130968838="@dimen/2131167690" 2130968840="@color/2131100298" 2130968841="@dimen/2131167696" 2130969911="@id/recycler_view" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="@id/2131429135" />
+        <ImageView android:id="@id/iv_no_result" ="132.0dip" ="94.0dip" ="60.0dip" ="@null" 2130969911="@id/tv_no_result" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131429135" 2130969942="0.0" 2130969943="2131440524" 2130971077="@drawable/2131238419" />
+        <TextView ="15.0sp" android:id="@id/tv_no_result" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/ms_no_results_found" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iv_no_result" 2130969942="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131431541" ="fill_parent" ="45.0dip" ="110.0dip" ="16.0dip" 2130968908="true" 2130968909="@string/_cancel" 2130969627="@string/_search" 2130970759="@string/_search" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

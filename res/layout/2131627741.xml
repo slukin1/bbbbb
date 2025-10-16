@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="@integer/2131492925" ="wrap_content" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131627743" />
+    <LinearLayout ="vertical" android:id="@id/2131437382" ="wrap_content" ="fill_parent">
+        <androidx.fragment.app.FragmentContainerView android:id="@id/2131437381" ="12.0dip" ="12.0dip" ="@dimen/2131167032" ="fill_parent" ="0.0dip" ="1.0" ="12.0dip" ="12.0dip" />
+        <include ="fill_parent" ="52.0dip" layout="@layout/2131627740" />
+    </LinearLayout>
+</LinearLayout>

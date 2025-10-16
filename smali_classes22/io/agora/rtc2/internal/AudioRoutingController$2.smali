@@ -1,0 +1,50 @@
+.class Lio/agora/rtc2/internal/AudioRoutingController$2;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/agora/rtc2/internal/AudioRoutingController;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lio/agora/rtc2/internal/AudioRoutingController;
+
+
+# direct methods
+.method constructor <init>(Lio/agora/rtc2/internal/AudioRoutingController;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lio/agora/rtc2/internal/AudioRoutingController$2;->this$0:Lio/agora/rtc2/internal/AudioRoutingController;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    .line 65353
+    :try_start_0
+    iget-object v0, p0, Lio/agora/rtc2/internal/AudioRoutingController$2;->this$0:Lio/agora/rtc2/internal/AudioRoutingController;
+
+    invoke-static {v0}, Lio/agora/rtc2/internal/AudioRoutingController;->access$100(Lio/agora/rtc2/internal/AudioRoutingController;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    return-void
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.futures.common.framework.widget.FutureZoneTypesTipsRootView ="vertical" ="@drawable/2131232557" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <ScrollView ="fill_parent" ="0.0dip" ="10.0dip" ="1.0">
+        <LinearLayout ="vertical" android:id="@id/2131436394" ="fill_parent" ="wrap_content" />
+    </ScrollView>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099933" ="center" android:id="@id/2131443898" ="fill_parent" ="40.0dip" ="22.0dip" android:text="@string/OK" style="@style/2132148692" />
+</com.finance.futures.common.framework.widget.FutureZoneTypesTipsRootView>

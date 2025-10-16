@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433764" ="24.0dip" ="24.0dip" 2130969911="@id/2131443008" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131449147" ="@drawable/2131235998" ="12.0dip" ="12.0dip" ="@color/2131099685" 2130969911="@id/2131433764" 2130969917="@id/2131433764" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433750" ="10.0dip" ="10.0dip" 2130969911="@id/2131433764" 2130969917="@id/2131433764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tvCoinName" ="fill_parent" ="wrap_content" ="1" ="false" ="8.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/2131433764" 2130969941="2131438103" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="center_vertical" android:id="@id/2131443008" ="fill_parent" ="wrap_content" ="1" ="false" ="8.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/2131433764" 2130969940="@id/tvCoinName" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

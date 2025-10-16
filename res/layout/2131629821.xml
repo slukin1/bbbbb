@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429920" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441079" ="0.0dip" ="24.0dip" ="8.0dip" ="15.0dip" ="5.0dip" 2130969918="@id/2131434902" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/2131434902" ="gone" ="16.0dip" ="16.0dip" ="@null" ="15.0dip" 2130969911="@id/2131441079" 2130969917="2131438103" 2130969941="@id/2131441079" 2130971077="@drawable/2131237075" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449650" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441079" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433135" ="0.5dip" ="fill_parent" ="fill_parent" ="centerCrop" ="@string/content_cover" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970795="@style/2132150261" 2130971180="@null" />
+    <ViewStub ="center" android:id="@id/2131449627" ="gone" ="@layout/2131624764" ="@id/2131449627" ="wrap_content" ="40.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970043="@color/2131099725" 2130970047="uikit_refresh_loading.json" 2130970050="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

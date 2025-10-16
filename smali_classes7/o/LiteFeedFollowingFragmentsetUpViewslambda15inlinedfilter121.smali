@@ -1,0 +1,56 @@
+.class public final synthetic Lo/LiteFeedFollowingFragmentsetUpViewslambda15inlinedfilter121;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lo/AspectRatioUtilCompareAspectRatiosByMappingAreaInFullFovAspectRatioSpace;
+
+.field public final synthetic c:Lkotlin/jvm/functions/Function1;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlin/jvm/functions/Function1;Lo/AspectRatioUtilCompareAspectRatiosByMappingAreaInFullFovAspectRatioSpace;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/LiteFeedFollowingFragmentsetUpViewslambda15inlinedfilter121;->c:Lkotlin/jvm/functions/Function1;
+
+    iput-object p2, p0, Lo/LiteFeedFollowingFragmentsetUpViewslambda15inlinedfilter121;->a:Lo/AspectRatioUtilCompareAspectRatiosByMappingAreaInFullFovAspectRatioSpace;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, Lo/LiteFeedFollowingFragmentsetUpViewslambda15inlinedfilter121;->c:Lkotlin/jvm/functions/Function1;
+
+    iget-object v1, p0, Lo/LiteFeedFollowingFragmentsetUpViewslambda15inlinedfilter121;->a:Lo/AspectRatioUtilCompareAspectRatiosByMappingAreaInFullFovAspectRatioSpace;
+
+    .line 2339
+    invoke-virtual {v1}, Lo/AspectRatioUtilCompareAspectRatiosByMappingAreaInFullFovAspectRatioSpace;->keySet()Ljava/util/Set;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/Iterable;
+
+    invoke-static {v1}, Lkotlin/collections/CollectionsKt;->toList(Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 2340
+    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object v0
+.end method

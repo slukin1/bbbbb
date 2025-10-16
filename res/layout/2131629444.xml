@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="fill_parent" ="wrap_content" ="150.0dip" ="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131435801" ="0.0dip" ="fill_parent" ="1.0" />
+    <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131439230" ="0.0dip" ="fill_parent" ="1.0" />
+</LinearLayout>

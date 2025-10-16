@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" ="true" style="@style/2132150325" />
+    <TextView android:id="@id/2131430862" ="fill_parent" ="wrap_content" ="16.0dip" ="@id/title" ="1.4" style="@style/2132150324" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="@id/2131430862">
+        <Button android:id="@id/2131428735" ="0.0dip" ="20.0dip" ="1.0" style="@style/2132150317" />
+        <Button android:id="@id/2131428716" ="gone" ="0.0dip" ="20.0dip" ="1.0" ="20.0dip" style="@style/2132150318" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441080" ="fill_parent" ="24.0dip" ="6.0dip">
+            <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="0.0dip" ="wrap_content" ="7.0dip" 2130969911="2131438103" 2130969918="@id/2131437025" 2130969937="2131438103" 2130969941="2131438103" 2130969958="0.0dip" />
+            <ImageView android:id="@id/2131428453" ="gone" ="15.0dip" ="fill_parent" ="@drawable/2131235043" 2130969918="@id/2131437025" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437025" ="gone" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237598" 2130971375="@color/2131099778" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@id/2131449690" ="visible" ="fill_parent" ="wrap_content" layout="@layout/2131627486" />
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="fill_parent" 2130971098="false" 2130971100="true">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439662" ="fill_parent" ="fill_parent" />
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

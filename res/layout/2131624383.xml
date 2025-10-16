@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441038" ="@drawable/2131235989" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@color/2131099804" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.api.common.UnderlineTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444876" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.c2c.api.common.UnderlineTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444874" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296281" 2130969937="@id/2131444876" 2130969940="@id/2131444876" />
+    <com.binance.c2c.api.common.UnderlineTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444873" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296279" 2130969937="@id/2131444876" 2130969940="@id/2131444874" />
+    <TextView ="14.0sp" ="@color/2131099787" android:id="@id/2131428924" ="wrap_content" ="wrap_content" ="8.0dip" ="4.0dip" ="@font/2131296271" 2130969937="@id/2131444876" 2130969940="@id/2131444873" />
+    <TextView ="10.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/tvTime" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296281" ="ltr" 2130969911="@id/2131428924" 2130969917="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

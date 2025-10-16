@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="350.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131439835" ="0.0dip" ="wrap_content" ="1.0" ="@string/content_search_transition_name" 2130968735="@android:color/transparent" 2130968908="true" 2130969627="@string/_search" 2130969974="2131439795|@null|@null" 2130970759="@string/_search" />
+        <TextView ="@color/2131099787" ="center_vertical" android:id="@id/tvCancel" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" android:text="@string/cancel" ="15.0dip" ="@dimen/2131166156" style="@style/2132149450" />
+    </LinearLayout>
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.binance.base.widget.BNCLottieAnimationView ="center_horizontal" android:id="@id/2131449627" ="gone" ="wrap_content" ="40.0dip" ="12.0dip" 2130970039="true" 2130970043="@color/2131099765" 2130970047="uikit_refresh_loading.json" 2130970050="true" />
+        <TextView ="@color/2131100414" ="center_horizontal" android:id="@id/tv_no_result" ="16.0dip" ="16.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_no_search_result" ="@dimen/2131166188" style="@style/2132149359" />
+    </FrameLayout>
+</LinearLayout>

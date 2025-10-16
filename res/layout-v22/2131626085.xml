@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236538" ="fill_parent" ="64.0dip" ="10.0dip" ="12.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="@drawable/2131233740" ="visible" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tv_pair" ="wrap_content" ="wrap_content" ="1" ="10" ="8.0dip" 2130968700="@dimen/2131166188" 2130968701="@dimen/2131166269" 2130968705="2131449068" 2130969905="true" 2130969911="@id/iv_logo" 2130969936="@id/iv_logo" 2130969941="@id/iv_logo" 2130969961="@dimen/2131166153" style="@style/2132149446" />
+        <TextView android:id="@id/tv_contract_type" ="4.0dip" ="8.0dip" 2130969911="@id/iv_logo" 2130969918="@id/2131436505" 2130969927="0.0" 2130969936="@id/tv_pair" 2130969941="@id/iv_logo" style="@style/2132148661" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436505" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131446058" ="wrap_content" ="wrap_content" android:text="@string/futures_pending_trading_open_title" style="@style/2132149394" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131446136" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131435018" ="gone" ="0.0dip" ="wrap_content" android:text="@string/futures_pending_trading_trade_title" ="@color/2131099879" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148700" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

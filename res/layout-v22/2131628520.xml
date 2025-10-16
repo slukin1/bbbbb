@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439474" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="none" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429659" ="15.0dip" ="15.0dip" ="15.0dip" ="false" ="false" ="fill_parent" ="wrap_content" ="15.0dip" style="@style/2132148639">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440459" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/spot_grid_price_range_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440460" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440459" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440457" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/last_price" 2130969937="2131438103" 2130969940="@id/2131440459" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440458" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440457" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/trailingUpLabel" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/strategy_trailing_up" 2130969937="2131438103" 2130969940="@id/2131440457" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/trailingUpValue" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/trailingUpLabel" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432615" ="wrap_content" ="wrap_content" 2130969125="trailingUpLabel, trailingUpValue" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131443240" ="wrap_content" ="0.0dip" ="20.0dip" android:text="@string/futures_grid_grid_trigger" ="false" 2130969937="2131438103" 2130969940="@id/trailingUpLabel" style="@style/2132149450" />
+            <com.major.android.uikit.tooltip.KitToolTip android:id="@id/2131441600" ="gone" ="wrap_content" ="wrap_content" 2130968684="@null" 2130969912="@id/2131431442" 2130969917="2131438103" 2130969937="2131438103" 2130970002="@null" />
+            <com.finance.commonbusiness.framework.widget.TwoHintsEditText android:id="@id/2131431442" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443240" 2130971150="@string/futures_grid_trigger_price" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/tvStopTrigger" ="wrap_content" ="0.0dip" ="16.0dip" android:text="@string/strategy_tpsl" ="false" 2130969937="2131438103" 2130969940="@id/2131431442" style="@style/2132149450" />
+            <com.finance.strategy.framework.widgets.tpsl.SpotGridTPSLWidget android:id="@id/2131441747" ="false" ="false" ="fill_parent" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/tvStopTrigger" />
+            <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131430578" ="wrap_content" ="wrap_content" ="true" 2130969835="2131429513" 2130969911="@id/2131442647" 2130969937="2131438103" 2130969941="@id/2131442647" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442647" ="wrap_content" ="0.0dip" ="16.0dip" android:text="@string/spot_grid_sell_checkBox" ="false" ="4.0dip" 2130969936="@id/2131430578" 2130969940="@id/2131441747" style="@style/2132149355" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="0.0dip" ="40.0dip" ="23.0dip" android:text="@string/_cancel" 2130969918="@id/2131428732" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131442647" style="@style/2132148697" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="15.0dip" 2130969911="@id/2131428716" 2130969917="2131438103" 2130969936="@id/2131428716" 2130969941="@id/2131428716" style="@style/2132148692" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.finance.strategy.framework.widgets.KeyboardShadowView android:id="@id/2131449414" ="fill_parent" ="0.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

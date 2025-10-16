@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439479" ="fill_parent" ="fill_parent" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_indicator_title" ="fill_parent" ="50.0dip" ="15.0dip" ="15.0dip" ="2" style="@style/2132149425" />
+    <com.finance.framework.widget.scroll.MaxHeightNestedScrollView android:id="@id/2131439809" ="vertical" ="fill_parent" ="wrap_content" ="154.0dip" ="false" ="never" 2130970160="360.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="false" ="fill_parent" ="wrap_content">
+            <FrameLayout android:id="@id/2131432832" ="fill_parent" ="wrap_content" />
+            <com.finance.marketdetail.feature.chartsetting.view.KlineEditIndicatorSingleLineView ="vertical" android:id="@id/2131435098" ="fill_parent" ="wrap_content" />
+            <View android:id="@id/2131435096" ="@color/2131099751" ="fill_parent" ="1.0px" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131435097" ="15.0dip" ="6.0dip" ="15.0dip" ="6.0dip" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/kline_set_indicator_title" ="1.0" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/kline_setting_line_width" ="1.0" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/kline_set_indicator_color_title" ="1.0" style="@style/2132149450" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+            <com.finance.marketdetail.feature.chartsetting.view.MacdModifyView android:id="@id/2131437090" ="gone" ="fill_parent" ="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.finance.framework.widget.scroll.MaxHeightNestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="70.0dip" ="10.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/reset_all_btn" ="0.0dip" ="40.0dip" android:text="@string/reset" 2130969173="4" 2130970889="2131437069" 2130971472="2" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/confirm_btn" ="0.0dip" ="40.0dip" android:text="@string/confirm" 2130969173="4" 2130970889="2131437069" 2130971472="2131429147" style="@style/2132148692" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432067" ="fill_parent" ="wrap_content" 2130969125="reset_all_btn,confirm_btn" 2130969490="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

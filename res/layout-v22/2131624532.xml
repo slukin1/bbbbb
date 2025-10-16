@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131428186" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.cardview.widget.CardView android:id="@id/2131427480" ="true" ="true" ="wrap_content" ="@dimen/2131166209" ="8.0dip" 2130968911="@color/2131100716" 2130968912="6.0dip" 2130968914="0.0dip" 2130969911="@id/2131428186" 2130969917="2131438103" 2130969936="@id/2131428186" 2130969941="@id/2131428186">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" android:id="@id/2131427512" ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131100718" ="end" ="center" ="center" android:id="@id/2131427497" ="8.0dip" ="8.0dip" ="wrap_content" ="fill_parent" android:text="@string/c2c_follow_btn_follow" ="1" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969947="110.0dip" 2130969948="60.0dip" style="@style/2132149454" />
+            <ViewStub ="center" android:id="@id/2131427487" ="gone" ="@layout/2131624718" ="@id/2131427487" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

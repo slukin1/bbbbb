@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433339" ="60.0dip" ="60.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238396" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131437726" ="fill_parent" ="wrap_content" ="15.0dip" 2130969940="@id/2131433339" style="@style/2132149377" />
+    <com.major.android.uikit.button.KitButton ="@color/2131099789" android:id="@id/2131437725" ="fill_parent" ="wrap_content" ="40.0dip" android:text="@string/wallet_overview_new_user_deposit_crypto" 2130969173="4" 2130969940="@id/2131437726" 2130970889="1" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

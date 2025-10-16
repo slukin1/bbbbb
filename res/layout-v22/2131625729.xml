@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439490" ="15.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432729" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131166270" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgLogo" ="96.0dip" ="96.0dip" ="centerInside" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432729" 2130971077="@drawable/2131234177" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131444773" ="wrap_content" ="wrap_content" ="12.0dip" ="28.0dip" android:text="@string/ocbs_string_confirm_new_quotation" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/imgLogo" style="@style/2132149425" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131442812" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_result_expired_desc" ="2.0dip" 2130969940="@id/2131444773" style="@style/2132149350" />
+    <com.binance.ocbs.sdk.widgets.OcbsResultNewQuotationView android:id="@id/viewNewQuotation" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/2131442812" />
+    <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131428822" ="0.0dip" ="48.0dip" ="40.0dip" android:text="@string/ocbs_string_accept_quote" 2130969173="2131437069" 2130969917="2131438103" 2130969936="@id/2131428818" 2130969940="@id/viewNewQuotation" style="@style/2132148691" />
+    <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131428818" ="0.0dip" ="48.0dip" android:text="@string/future_cancel_order" ="12.0dip" 2130969173="2131437069" 2130969911="@id/2131428822" 2130969918="@id/2131428822" 2130969937="2131438103" 2130969941="@id/2131428822" 2130971205="true" style="@style/2132148696" />
+</androidx.constraintlayout.widget.ConstraintLayout>

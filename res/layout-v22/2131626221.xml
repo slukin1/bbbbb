@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131428093" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/launcher_index_total_balance" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428076" ="8.0dip" ="8.0dip" ="32.0dip" ="32.0dip" ="4.0dip" ="12.0dip" ="@dimen/2131166286" 2130969911="@id/2131428093" 2130969936="@id/2131428093" 2130969941="@id/2131428093" 2130971077="@drawable/2131237050" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428062" ="wrap_content" ="wrap_content" ="9.0dip" ="120.0dip" ="100.0dip" android:text="@string/add_fund" ="2" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148701" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428073" ="fill_parent" ="wrap_content" ="0.0dip" 2130969940="@id/2131428093">
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131428065" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="vertical" ="wrap_content" ="62.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131428064" ="@drawable/2131236007" ="wrap_content" ="44.0dip" ="260.0dip" ="1" ="false" ="125.0dip" ="@color/2131099672" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149474" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/2131431794" ="@drawable/2131236007" ="wrap_content" ="16.0dip" ="300.0dip" ="120.0dip" ="1" ="false" ="10.0dip" ="@color/2131099672" style="@style/2132149361" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131428077" ="wrap_content" ="wrap_content" 2130969937="@id/2131428065" 2130969940="@id/2131428065" 2130970808="false" 2130970809="1.0" 2130970819="0.0" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131438475" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131428077">
+            <com.binance.widget.BottomDashLineTextView ="@color/2131099764" android:id="@id/2131428085" ="wrap_content" ="wrap_content" android:text="@string/wallet_funds_today_pnl" style="@style/2132149384" />
+            <TextView ="@color/2131099779" android:id="@id/2131428084" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/2131428085" 2130969941="@id/2131428085" style="@style/2132149384" />
+            <TextView ="@color/2131099779" android:id="@id/2131428086" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/2131428084" 2130969941="@id/2131428085" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440089" ="30.0dip" ="wrap_content" ="4.0dip" ="12.0dip" 2130969911="@id/2131428085" 2130969936="@id/2131428086" 2130969941="@id/2131428085" 2130971077="@drawable/2131237050" 2130971375="@color/2131099778" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428070" ="20.0dip" ="fill_parent" ="wrap_content" ="0.0dip" 2130969940="@id/2131438475">
+            <FrameLayout android:id="@id/2131428069" ="fill_parent" ="132.0dip" 2130969941="2131438103">
+                <com.eaas.home.components.dynamic.asset.LineChartInViewPager android:id="@id/2131428068" ="fill_parent" ="fill_parent" />
+                <LinearLayout ="center" ="center" ="vertical" android:id="@id/2131428071" ="gone" ="wrap_content" ="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" 2130971077="@drawable/2131238382" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/ms_network_link_failed" style="@style/2132149361" />
+                </LinearLayout>
+                <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436703" ="visible" ="40.0dip" ="40.0dip" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+            </FrameLayout>
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131441426" ="gone" ="fill_parent" ="26.0dip" ="15.0dip" 2130968639="2131429431" 2130969467="0" 2130969468="2131450408" 2130969751="3" 2130969940="@id/2131428069" 2130969979="true" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131441428" ="fill_parent" ="26.0dip" ="22.0dip" ="15.0dip" ="22.0dip" ="@dimen/2131166204" 2130968639="2131429431" 2130969467="0" 2130969468="2131450408" 2130969751="3" 2130969940="@id/2131428069" 2130969979="true" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

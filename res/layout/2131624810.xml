@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131431830" ="@drawable/2131236021" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/_filter" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131430791" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/date" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149384" />
+    <com.major.android.uikit2.datepicker.KitPeriodView android:id="@id/2131438291" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430791" 2130971414="@string/to" />
+    <TextView ="@color/2131099778" android:id="@id/2131430616" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/over_view_tab_crypto" 2130969937="2131438103" 2130969940="@id/2131438291" style="@style/2132149384" />
+    <FrameLayout android:id="@id/2131435611" ="@drawable/2131236009" ="fill_parent" ="40.0dip" ="10.0dip" ="@color/2131099744" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430616">
+        <TextView ="@color/2131099764" ="start|center" android:id="@id/2131430597" ="wrap_content" ="wrap_content" ="10.0dip" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433074" ="20.0dip" ="20.0dip" ="8.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131439182" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/reset" ="1.0" 2130969918="@id/2131429170" 2130969937="2131438103" 2130969940="@id/2131435611" 2130971472="2" style="@style/2132148697" />
+    <Space android:id="@id/2131429170" ="15.0dip" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131439182" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" 2130969911="@id/2131439182" 2130969917="2131438103" 2130969936="@id/2131429170" 2130969941="@id/2131439182" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

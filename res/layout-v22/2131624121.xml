@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439486" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_eth2_confirmation_title" ="4.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149450" />
+    <androidx.core.widget.NestedScrollView ="0.0dip" ="0.0dip" ="20.0dip" 2130969912="@id/2131428732" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" android:id="@id/2131436193" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" />
+            <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131440002" ="gone" ="fill_parent" ="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="12.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

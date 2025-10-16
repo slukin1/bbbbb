@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434597" ="64.0dip" ="64.0dip" ="16.0dip" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tv_title" ="fill_parent" ="50.0dip" ="1" style="@style/2132149425" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/tv_desc" ="fill_parent" ="wrap_content" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429058" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/OK" />
+</LinearLayout>

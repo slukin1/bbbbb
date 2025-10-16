@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center" android:id="@id/2131438443" ="192.0dip" ="120.0dip" ="48.0dip" 2130971077="@drawable/2131235887" />
+    <TextView ="@style/2132149015" ="center" android:id="@id/2131438436" ="wrap_content" ="wrap_content" ="38.0dip" ="false" />
+    <FrameLayout ="center" ="wrap_content" ="wrap_content">
+        <Button ="@style/2132149014" android:id="@id/2131438449" ="@null" ="20.0dip" ="30.0dip" ="wrap_content" ="wrap_content" android:text="@string/places_try_again" ="false" />
+        <ProgressBar android:id="@id/2131438450" ="3.0dip" ="24.0dip" ="24.0dip" ="20.0dip" ="30.0dip" ="true" ="#ff4184f3" ="src_atop" style="@style/2132149832" />
+    </FrameLayout>
+</merge>

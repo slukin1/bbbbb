@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="64.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/icon_iv" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970795="@style/2132150270" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start|center" android:id="@id/tv_symbol" ="0.0dip" ="wrap_content" ="1" ="false" ="locale" ="8.0dip" 2130968700="16.0sp" 2130968701="10.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969911="2131438103" 2130969918="@id/tv_price" 2130969929="1.5" 2130969936="@id/icon_iv" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/tv_price" ="0.0dip" ="wrap_content" ="locale" ="20.0dip" 2130969912="@id/2131446511" 2130969918="@id/tv_percent" 2130969929="1.2" 2130969936="@id/tv_symbol" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end|center" android:id="@id/2131446511" ="0.0dip" ="wrap_content" ="locale" ="20.0dip" 2130969911="2131438103" 2130969918="@id/tv_percent" 2130969929="1.2" 2130969936="@id/tv_symbol" 2130969940="@id/tv_price" style="@style/2132149384" />
+    <TextView ="#ffffffff" ="center" android:id="@id/tv_percent" ="@drawable/2131236687" ="78.0dip" ="28.0dip" ="2.0dip" ="2.0dip" ="15.0dip" 2130968700="@dimen/2131167694" 2130968701="@dimen/2131167690" 2130968704="2.0sp" 2130968705="2131449068" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

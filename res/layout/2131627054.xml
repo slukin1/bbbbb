@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="40.0dip" 2130969290="@dimen/2131166184" 2130970844="2131437069" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131450392" ="0.0dip" ="40.0dip" ="15.0dip" ="15.0dip" android:text="@string/take_out" ="false" ="1.0" 2130969940="@id/2131444376" 2130971472="2131429147" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/deposit_layout" ="0.0dip" ="40.0dip" android:text="@string/add_fund" ="false" ="1.0" ="15.0dip" 2130969941="@id/2131450392" 2130971472="2131429147" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

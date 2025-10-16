@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvCreateTime" ="0.0dip" ="wrap_content" ="8.0dip" 2130969918="@id/2131433812" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433812" ="16.0dip" ="16.0dip" 2130969911="@id/tvCreateTime" 2130969917="2131438103" 2130969941="@id/tvCreateTime" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    <View android:id="@id/2131449384" ="fill_parent" ="0.0dip" 2130969911="@id/tvCreateTime" 2130969941="@id/tvCreateTime" />
+    <TextView ="@color/2131099778" android:id="@id/2131442501" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/copy_trading_invitation_code" ="8.0dip" 2130969918="@id/2131442498" 2130969937="2131438103" 2130969940="@id/tvCreateTime" style="@style/2132149355" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131442498" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="@id/2131442501" 2130969918="@id/2131433759" 2130969936="@id/2131442501" 2130969941="@id/2131442501" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433759" ="16.0dip" ="16.0dip" 2130969911="@id/2131442501" 2130969917="2131438103" 2130969941="@id/2131442501" 2130971077="@drawable/2131237146" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" android:id="@id/2131443546" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/copy_trading_invitation_link" ="8.0dip" 2130969918="@id/2131443545" 2130969937="2131438103" 2130969940="@id/2131442501" style="@style/2132149355" />
+    <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131443545" ="0.0dip" ="wrap_content" ="1" ="8.0dip" 2130969911="@id/2131443546" 2130969918="@id/2131433958" 2130969936="@id/2131443546" 2130969941="@id/2131443546" style="@style/2132149374" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433958" ="16.0dip" ="16.0dip" 2130969911="@id/2131443546" 2130969917="2131438103" 2130969941="@id/2131443546" 2130971077="@drawable/2131237146" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" android:id="@id/2131445318" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/copy_trading_invitation_used_slash_total" ="8.0dip" 2130969918="@id/2131445317" 2130969937="2131438103" 2130969940="@id/2131443546" style="@style/2132149355" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131445317" ="0.0dip" ="wrap_content" 2130969911="@id/2131445318" 2130969917="2131438103" 2130969936="@id/2131445318" 2130969941="@id/2131445318" style="@style/2132149350" />
+    <TextView ="@color/2131099787" android:id="@id/2131442783" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/delete" 2130969917="2131438103" 2130969940="@id/2131445317" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

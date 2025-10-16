@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/alpha_trading_submit_feedback" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444489" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/alpha_trading_risk_type" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149450" />
+    <TextView ="@color/2131099764" ="@color/2131099738" android:id="@id/2131444488" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="0.0dip" ="wrap_content" ="4.0dip" android:hint="@string/alpha_trading_risk_type_hint" ="12.0dip" ="40.0dip" ="@color/2131099744" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444489" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434131" ="20.0dip" ="20.0dip" ="12.0dip" 2130969911="@id/2131444488" 2130969917="@id/2131444488" 2130969941="@id/2131444488" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442954" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/alpha_trading_error_reason" 2130969937="2131438103" 2130969940="@id/2131444488" style="@style/2132149450" />
+    <LinearLayout ="vertical" android:id="@id/2131436228" ="@drawable/2131238691" ="12.0dip" ="fill_parent" ="250.0dip" ="4.0dip" 2130969940="@id/2131442954">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" ="start|center|top" android:id="@id/2131431436" ="@null" ="fill_parent" ="196.0dip" android:hint="@string/alpha_trading_error_reason_hint" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442954" style="@style/2132149350" />
+        <TextView ="@color/2131099738" ="end" android:id="@id/2131442637" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149355" />
+    </LinearLayout>
+    <TextView ="@color/2131099863" android:id="@id/2131443721" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/alpha_trading_exceed_max_limit" 2130969940="@id/2131436228" />
+    <TextView ="@color/2131099778" android:id="@id/2131444467" ="wrap_content" ="wrap_content" ="16.0dip" android:text="*" 2130969937="2131438103" 2130969940="@id/2131443721" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131444466" ="0.0dip" ="wrap_content" android:text="@string/alpha_trading_error_reason_validate_tip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131444467" 2130969941="@id/2131444467" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428918" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/_Submit" 2130969911="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSToolbarView android:id="@id/sns_toolbar" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sns_fragment_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="fill_parent" ="fill_parent" ="?2130968589">
+        <com.sumsub.sns.core.widget.SNSH1TextView ="center" android:id="@id/sns_title" ="gone" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_toolbar" />
+        <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="gone" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_title" />
+        <ScrollView android:id="@id/sns_form_container" ="0.0dip" ="0.0dip" 2130969912="@id/sns_primary_button" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_subtitle" />
+        <com.sumsub.sns.core.widget.pincode.SNSPinView android:id="@id/sns_pin_code" ="gone" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_large" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_subtitle" />
+        <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_pin_error" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="number" 2130969917="@id/sns_pin_code" 2130969937="@id/sns_pin_code" 2130969940="@id/sns_pin_code" 2130971053="?2130969064" />
+        <com.sumsub.sns.core.widget.SNSLinkButton android:id="@id/sns_resend_verification_code" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_large" ="@dimen/sns_min_button_size" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_pin_error" />
+        <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/sns_guideline_center" ="1.0dip" ="1.0dip" 2130969921="0.5" />
+        <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_status_icon" ="@drawable/sns_bg_circle" ="gone" ="@dimen/sns_icon_size_large" ="@dimen/sns_icon_size_large" ="@dimen/sns_margin_medium" ="center" 2130969912="@id/sns_guideline_center" 2130969917="2131438103" 2130969937="2131438103" />
+        <com.sumsub.sns.core.widget.SNSH2TextView ="center" android:id="@id/sns_status_title" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" 2130969912="@id/sns_status_comment" 2130969940="@id/sns_status_icon" 2130969943="2131438085" />
+        <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_status_comment" ="gone" ="fill_parent" ="wrap_content" 2130969912="@id/sns_primary_button" 2130969940="@id/sns_status_title" 2130969943="2131438085" />
+        <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_primary_button" ="fill_parent" ="wrap_content" 2130969912="@id/sns_secondary_button" 2130969957="@dimen/sns_margin_medium" />
+        <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_secondary_button" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" 2130969912="@id/sns_powered" />
+        <include ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" layout="@layout/sns_layout_powered" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.sumsub.sns.core.widget.SNSErrorBottomSheetView android:id="@id/sns_error_bottom_sheet" ="fill_parent" ="fill_parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="bottom" android:id="@id/sns_web_view_bottom_sheet_container" ="false" ="false" ="fill_parent" ="fill_parent">
+        <com.sumsub.sns.core.widget.SNSBottomSheetView android:id="@id/sns_web_view_bottom_sheet" ="gone" ="fill_parent" ="fill_parent" 2130969901="@string/bottom_sheet_behavior">
+            <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+                <com.sumsub.sns.core.widget.SNSToolbarView android:id="@id/sns_bottomsheet_toolbar" ="fill_parent" ="wrap_content" />
+                <WebView android:id="@id/sns_webview" ="fill_parent" ="0.0dip" ="1.0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_subtitle" />
+            </LinearLayout>
+        </com.sumsub.sns.core.widget.SNSBottomSheetView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

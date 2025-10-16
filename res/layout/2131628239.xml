@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="locale" ="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131438445" ="?2130969089" ="fill_parent" ="wrap_content" ="?2130968589">
+        <include layout="@layout/2131628242" />
+    </LinearLayout>
+    <View ="@drawable/2131235874" ="fill_parent" ="4.0dip" />
+    <View android:id="@id/2131438446" ="0.0dip" ="0.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438437" ="fill_parent" ="0.0dip" ="@android:color/white" ="1.0" ="68.0dip" />
+    <include layout="@layout/2131628238" />
+    <include layout="@layout/2131628241" />
+</LinearLayout>

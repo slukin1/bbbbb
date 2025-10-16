@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="@drawable/2131233560" ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText ="@color/2131102398" ="#99828a98" ="end" ="center_vertical" android:id="@id/2131431433" ="@null" ="0.0dip" ="fill_parent" ="1" ="1.0" ="numberDecimal" ="actionDone" ="8.0dip" ="8.0dip" 2130969918="2131438103" style="@style/2132149371" />
+    <ImageView ="center_vertical" android:id="@id/ivClose" ="8.0dip" ="gone" ="36.0dip" ="36.0dip" ="@drawable/2131237072" 2130971375="@color/2131099726" />
+</LinearLayout>

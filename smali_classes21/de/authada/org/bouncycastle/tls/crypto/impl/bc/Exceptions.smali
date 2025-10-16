@@ -1,0 +1,24 @@
+.class Lde/authada/org/bouncycastle/tls/crypto/impl/bc/Exceptions;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static illegalArgumentException(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException;
+    .locals 1
+
+    .line 65353
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    invoke-direct {v0, p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return-object v0
+.end method

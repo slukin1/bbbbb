@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440081" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <include ="fill_parent" ="wrap_content" layout="@layout/2131624777" />
+        <include ="fill_parent" ="wrap_content" ="48.0dip" layout="@layout/2131624579" />
+        <include ="fill_parent" ="wrap_content" layout="@layout/2131624579" />
+        <include ="fill_parent" ="wrap_content" layout="@layout/2131624579" />
+        <include ="fill_parent" ="wrap_content" layout="@layout/2131624579" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

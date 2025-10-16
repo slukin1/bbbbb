@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236025" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/c2c_action_sheet_select_language" ="1.0" ="@font/2131296275" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/ivClose" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="15.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099739" />
+        <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099778" android:id="@id/2131443472" ="fill_parent" ="wrap_content" ="1.2" ="@font/2131296274" ="5.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/c2c_action_sheet_switch_translate_all" ="1.0" ="@font/2131296273" />
+        <com.major.android.uikit2.selection.KitSwitch ="end|center" android:id="@id/2131441894" ="wrap_content" ="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/c2c_action_sheet_switch_translate_to" ="1.0" ="@font/2131296273" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442781" ="wrap_content" ="wrap_content" android:text="@string/c2c_action_sheet_select_language" ="12.0dip" ="@font/2131296273" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

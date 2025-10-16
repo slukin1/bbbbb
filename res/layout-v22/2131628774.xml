@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="9.0dip" ="9.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="0.0dip" ="wrap_content" ="120.0">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvRanking" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="0.0dip" ="wrap_content" ="1" ="24.0dip" 2130969912="@id/2131442598" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442598" ="@drawable/2131236697" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="1" ="@dimen/2131166260" 2130969911="2131438103" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" ="center_vertical" android:id="@id/2131445381" ="0.0dip" ="wrap_content" ="1" ="70.0" ="8.0dip" style="@style/2132149450" />
+    <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="160.0" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" ="center_vertical" android:id="@id/tvLastPriceValue" ="fill_parent" ="wrap_content" ="1" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131441947" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+    </LinearLayout>
+</LinearLayout>

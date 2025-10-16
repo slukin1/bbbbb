@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="false" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131436285" ="fill_parent" ="wrap_content" ="20.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131437107" ="wrap_content" ="wrap_content" android:text="@string/margin_money_flow_analysis" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434007" ="2.0dip" ="20.0dip" ="20.0dip" ="@null" ="2.0dip" 2130969911="2131438103" 2130969936="@id/2131437107" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131444632" ="2.0dip" ="20.0dip" ="20.0dip" android:text="@string/share" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131238029" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RadioGroup ="horizontal" android:id="@id/2131439221" ="wrap_content" ="24.0dip" ="10.0dip" ="@drawable/2131233340" ="middle">
+        <RadioButton android:id="@id/2131443096" ="@drawable/2131232610" ="wrap_content" ="fill_parent" ="@null" android:text="@string/k_15min" ="8.0dip" ="8.0dip" style="@style/2132148829" />
+        <RadioButton android:id="@id/2131444934" ="@drawable/2131232610" ="wrap_content" ="fill_parent" ="@null" android:text="@string/k_30min" ="8.0dip" ="8.0dip" style="@style/2132148829" />
+        <RadioButton android:id="@id/2131443904" ="@drawable/2131232610" ="wrap_content" ="fill_parent" ="@null" android:text="@string/k_1h" ="8.0dip" ="8.0dip" style="@style/2132148829" />
+        <RadioButton android:id="@id/2131445256" ="@drawable/2131232610" ="wrap_content" ="fill_parent" ="@null" android:text="@string/k_2h" ="8.0dip" ="8.0dip" style="@style/2132148829" />
+        <RadioButton android:id="@id/2131443143" ="@drawable/2131232610" ="wrap_content" ="fill_parent" ="@null" android:text="@string/k_4h" ="8.0dip" ="8.0dip" style="@style/2132148829" />
+        <RadioButton android:id="@id/2131443903" ="@drawable/2131232610" ="wrap_content" ="fill_parent" ="@null" android:text="@string/lite_ms_market_detail_chart_interval_d" ="8.0dip" ="8.0dip" style="@style/2132148829" />
+    </RadioGroup>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131435600" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439221">
+        <RelativeLayout ="center" ="fill_parent" ="180.0dip" ="10.0dip" ="4.0dip" ="12.0dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439221">
+            <com.major.android.uikit2.emptylayout.KitEmptyLayout ="center" android:id="@id/2131438338" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_data" />
+            <com.github.mikephil.charting.charts.PieChart android:id="@id/2131438341" ="fill_parent" ="fill_parent" />
+        </RelativeLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428446" ="@drawable/2131236713" ="12.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131438341">
+            <LinearLayout ="vertical" android:id="@id/2131441526" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+                <TextView ="@color/2131099764" android:id="@id/2131443977" ="wrap_content" ="wrap_content" android:text="@string/market_detail_spot_money_flow_orders" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+                <TextView ="normal" ="@color/2131099764" android:id="@id/tvLargeOrders" ="12.0dip" ="100.0dip" android:text="@string/market_detail_spot_money_flow_large" 2130969937="2131438103" 2130969940="@id/2131443977" style="@style/2132148801" />
+                <TextView ="normal" ="@color/2131099764" android:id="@id/tvMediumOrders" ="12.0dip" ="100.0dip" android:text="@string/market_detail_spot_money_flow_medium" 2130969937="@id/tvLargeOrders" 2130969940="@id/tvLargeOrders" style="@style/2132148801" />
+                <TextView ="normal" ="@color/2131099764" android:id="@id/tvSmallOrders" ="12.0dip" ="100.0dip" android:text="@string/market_detail_spot_money_flow_small" 2130969937="@id/tvLargeOrders" 2130969940="@id/tvMediumOrders" style="@style/2132148801" />
+                <TextView ="normal" ="@color/2131099764" android:id="@id/tvTotal" ="8.0dip" android:text="@string/market_detail_spot_money_flow_total" 2130969911="2131438103" 2130969937="@id/tvLargeOrders" 2130969940="@id/tvSmallOrders" style="@style/2132148801" />
+            </LinearLayout>
+            <LinearLayout ="vertical" android:id="@id/2131429176" ="wrap_content" ="fill_parent" 2130969911="2131438103" 2130969918="@id/2131439956" 2130969936="@id/2131441526" 2130969941="2131438103">
+                <TextView ="13.0sp" ="@color/2131099764" ="start" android:id="@id/2131442395" ="wrap_content" ="wrap_content" ="2.0dip" ="2.0dip" 2130969918="@id/2131439947" 2130969941="2131438103" style="@style/2132149377" />
+                <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="12.0dip">
+                    <androidx.cardview.widget.CardView ="start" android:id="@id/2131435270" ="8.0dip" ="8.0dip" 2130968911="@color/2131099732" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130969911="@id/tvLargeOrders" 2130969937="@id/2131442395" 2130969941="@id/tvLargeOrders" />
+                    <TextView ="normal" ="start" android:id="@id/2131443473" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969918="@id/2131439947" 2130969936="@id/2131435270" 2130969941="@id/tvLargeOrders" style="@style/2132148802" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="12.0dip">
+                    <androidx.cardview.widget.CardView ="start" android:id="@id/2131437013" ="8.0dip" ="8.0dip" 2130968911="@color/2131099732" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130969911="@id/tvMediumOrders" 2130969937="@id/2131442395" 2130969941="@id/tvMediumOrders" />
+                    <TextView ="normal" android:id="@id/2131443735" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969918="@id/2131439947" 2130969936="@id/2131437013" 2130969941="@id/tvMediumOrders" style="@style/2132148802" />
+                </LinearLayout>
+                <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="12.0dip">
+                    <androidx.cardview.widget.CardView ="start" android:id="@id/2131440152" ="8.0dip" ="8.0dip" 2130968911="@color/2131099732" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130969911="@id/tvSmallOrders" 2130969937="@id/2131442395" 2130969941="@id/tvSmallOrders" />
+                    <TextView ="normal" android:id="@id/2131444690" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969918="@id/2131439947" 2130969936="@id/2131440152" 2130969941="@id/tvSmallOrders" style="@style/2132148802" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <TextView ="normal" ="end" android:id="@id/2131445078" ="wrap_content" ="12.0dip" ="@font/2131296274" ="12.0dip" 2130969918="@id/2131439947" 2130969936="@id/2131440152" 2130969941="@id/tvTotal" style="@style/2132148802" />
+            </LinearLayout>
+            <LinearLayout ="start" ="vertical" android:id="@id/2131439956" ="wrap_content" ="fill_parent" 2130969911="2131438103" 2130969918="@id/2131432090" 2130969936="@id/2131429176" 2130969941="2131438103">
+                <TextView ="13.0sp" ="@color/2131099764" ="start" android:id="@id/2131444595" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149377" />
+                <LinearLayout ="center_vertical" ="wrap_content" ="wrap_content" ="12.0dip">
+                    <androidx.cardview.widget.CardView ="start" android:id="@id/2131435272" ="8.0dip" ="8.0dip" 2130968911="@color/2131099732" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130969911="@id/tvLargeOrders" 2130969937="@id/2131444595" 2130969941="@id/tvLargeOrders" />
+                    <TextView ="normal" ="start" android:id="@id/2131443476" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969918="@id/2131433436" 2130969936="@id/2131435272" 2130969941="@id/2131443473" style="@style/2132148802" />
+                </LinearLayout>
+                <LinearLayout ="center_vertical" ="wrap_content" ="wrap_content" ="12.0dip">
+                    <androidx.cardview.widget.CardView ="start" android:id="@id/2131437014" ="8.0dip" ="8.0dip" 2130968911="@color/2131099732" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130969911="@id/2131443735" 2130969937="@id/2131444595" 2130969941="@id/2131443735" />
+                    <TextView ="normal" ="end" android:id="@id/2131443738" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969918="@id/2131433436" 2130969936="@id/2131437014" 2130969941="@id/2131443735" style="@style/2132148802" />
+                </LinearLayout>
+                <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="12.0dip">
+                    <androidx.cardview.widget.CardView ="start" android:id="@id/2131440153" ="8.0dip" ="8.0dip" 2130968911="@color/2131099732" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130969911="@id/2131444690" 2130969937="@id/2131444595" 2130969941="@id/2131444690" />
+                    <TextView ="normal" ="end" android:id="@id/2131444693" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969918="@id/2131433436" 2130969936="@id/2131440153" 2130969941="@id/2131444690" style="@style/2132148802" />
+                </LinearLayout>
+                <TextView ="normal" ="end" android:id="@id/2131445131" ="wrap_content" ="12.0dip" ="@font/2131296274" ="12.0dip" 2130969918="@id/2131433436" 2130969937="@id/2131443476" 2130969941="@id/2131445078" style="@style/2132148802" />
+            </LinearLayout>
+            <LinearLayout ="end" ="vertical" android:id="@id/2131432090" ="wrap_content" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+                <TextView ="13.0sp" ="@color/2131099764" ="end" android:id="@id/2131443338" ="wrap_content" ="wrap_content" android:text="@string/margin_inflow" 2130969917="2131438103" 2130969941="@id/2131444595" style="@style/2132149377" />
+                <TextView ="normal" ="end" android:id="@id/2131443474" ="wrap_content" ="12.0dip" ="@font/2131296274" 2130969917="2131438103" 2130969941="@id/2131443473" style="@style/2132148802" />
+                <TextView ="normal" ="end" android:id="@id/2131443736" ="wrap_content" ="12.0dip" ="@font/2131296274" 2130969917="2131438103" 2130969941="@id/2131443735" style="@style/2132148802" />
+                <TextView ="normal" ="end" android:id="@id/2131444691" ="wrap_content" ="12.0dip" ="@font/2131296274" 2130969917="2131438103" 2130969941="@id/2131444690" style="@style/2132148802" />
+                <TextView ="normal" ="end" android:id="@id/2131445099" ="wrap_content" ="12.0dip" ="@font/2131296274" 2130969917="2131438103" 2130969941="@id/2131445078" style="@style/2132148802" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

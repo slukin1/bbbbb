@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439500" ="@color/2131099685" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="start" android:id="@id/2131435216" ="wrap_content" ="wrap_content" android:text="@string/c2c_ad_post_safe_payment_title" ="6.0dip" ="@font/2131296273" 2130969306="@drawable/2131237075" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439732" ="wrap_content" ="wrap_content" 2130969911="@id/2131435216" 2130969917="2131438103" 2130969941="@id/2131435216" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444518" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/c2c_ad_post_safe_payment_desc" ="@font/2131296274" 2130969937="@id/2131435216" 2130969940="@id/2131435216" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="?2130970780" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" style="@style/2132148577" />
+        <LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="10.0dip">
+            <LinearLayout ="center_vertical" ="wrap_content" ="wrap_content">
+                <TextView ="@color/2131099764" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+                <TextView ="@color/2131099851" android:id="@id/2131444751" ="@drawable/2131234834" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/loan_staking_tag" ="false" ="2.0dip" ="5.0dip" ="@dimen/2131166260" ="2.0dip" 2130969311="@drawable/2131234232" style="@style/2132149454" />
+            </LinearLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131443168" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="end" ="vertical" android:id="@id/2131436337" ="gone" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/valueAmount" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/valueCash" ="wrap_content" ="wrap_content" ="ltr" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436221" ="gone" ="fill_parent" ="wrap_content" ="10.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131442902" ="wrap_content" ="wrap_content" android:text="@string/earn_earn_wallet" ="30.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131442903" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436365" ="gone" ="fill_parent" ="wrap_content" ="5.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131444742" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_spot_wallet" ="30.0dip" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131444743" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

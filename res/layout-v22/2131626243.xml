@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/push_view_root" ="@drawable/2131235989" ="fill_parent" ="60.0dip" ="5.0dip" ="15.0dip" ="@color/2131099763" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon_widget_push" ="42.0dip" ="42.0dip" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.binance.base.widget.BNCLottieAnimationView android:id="@id/icon_widget_push_lottie" ="gone" ="fill_parent" ="fill_parent" 2130970039="true" 2130970050="true" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/icon_widget_push_image" ="gone" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447529" ="wrap_content" ="wrap_content" ="1" ="16.0dip" 2130969905="true" 2130969918="@id/2131448008" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/icon_widget_push" 2130969941="@id/icon_widget_push" style="@style/2132149465" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131448008" ="@drawable/2131234096" ="5.0dip" ="1.0dip" ="5.0dip" ="1.0dip" ="wrap_content" ="wrap_content" android:text="@string/market_zone_new_tag" ="4.0dip" ="16.0dip" ="@dimen/2131166260" ="@dimen/2131166155" 2130969911="@id/2131447529" 2130969917="2131438103" 2130969936="@id/2131447529" 2130969941="@id/2131447529" style="@style/2132149397" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_view_more" ="wrap_content" ="wrap_content" android:text="@string/view_more" ="16.0dip" 2130969911="@id/icon_widget_push" 2130969936="@id/icon_widget_push" 2130969940="@id/2131447529" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_push_nav" ="12.0dip" ="12.0dip" ="@color/2131099764" ="2.0dip" 2130969911="@id/tv_view_more" 2130969936="@id/tv_view_more" 2130969941="@id/tv_view_more" 2130971077="@drawable/2131237055" />
+</androidx.constraintlayout.widget.ConstraintLayout>

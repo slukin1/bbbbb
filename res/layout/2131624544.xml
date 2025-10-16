@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233074" ="10.0dip" ="200.0dip" ="270.0dip" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="0.0dip" ="wrap_content" ="20.0dip" 2130969918="@id/2131441768" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/title" ="0.0dip" ="wrap_content" android:text="@string/content_fear_greed_index" 2130969927="0.0" 2130969928="2131438085" 2130969931="2131438103" 2130969934="@id/2131433440" 2130969941="2131438103" 2130969946="2131450408" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433440" ="12.0dip" ="12.0dip" ="1.0dip" ="@drawable/2131237076" ="2.0dip" 2130969932="@id/title" 2130969935="2131438103" 2130969941="@id/title" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131441768" ="wrap_content" ="wrap_content" android:text="@string/content_fear_greed_index_trade_now" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149455" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="170.0dip" ="0.0dip" ="25.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441768">
+        <com.binance.content.internal.view.PollGaugeView android:id="@id/2131432426" ="150.0dip" ="75.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131430766" ="150.0dip" ="wrap_content" ="25.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432426" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

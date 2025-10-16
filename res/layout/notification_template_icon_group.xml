@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/icon_group" ="64.0dip" ="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" ="fill_parent" ="fill_parent" ="12.0dip" ="12.0dip" ="centerInside" ="12.0dip" ="12.0dip" />
+    <ImageView ="end|bottom|center" android:id="@id/2131439243" ="gone" ="16.0dip" ="16.0dip" ="8.0dip" ="centerInside" ="8.0dip" />
+</FrameLayout>

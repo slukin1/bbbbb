@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131233074" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441520" ="fill_parent" ="wrap_content" ="10.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="0.0dip" ="16.0dip" android:text="@string/content_data_fact_futures_market" ="1" 2130969918="@id/2131428048" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428048" ="16.0dip" ="16.0dip" ="@drawable/2131237055" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971375="@color/2131099785" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131449440" ="fill_parent" ="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+</LinearLayout>

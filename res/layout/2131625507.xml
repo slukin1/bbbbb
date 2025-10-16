@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="10.0dip" 2130969138="10.0dip" 2130969139="10.0dip" 2130969140="10.0dip" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="?2130968587" ="5.0dip" ="visible" ="30.0dip" ="30.0dip" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <LinearLayout ="center" ="center_horizontal" ="horizontal" android:id="@id/2131441630" ="wrap_content" ="fill_parent">
+        <ProgressBar android:id="@id/toolbar_progress" ="gone" ="@dimen/2131165973" ="@dimen/2131165973" ="7.0dip" />
+        <ImageView android:id="@id/2131441633" ="gone" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="6.0dip" ="6.0dip" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="gone" ="wrap_content" ="wrap_content" ="true" style="@style/2132149425" />
+        <ImageView android:id="@id/toolbar_title_right_icon" ="gone" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="6.0dip" ="6.0dip" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@dimen/2131165974" ="@color/2131100260" ="center" ="end" android:id="@id/toolbar_right_text_view" ="gone" ="wrap_content" ="fill_parent" ="10.0dip" ="5.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end" android:id="@id/toolbar_right_icon" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" ="5.0dip" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end" android:id="@id/toolbar_second_right_icon" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" ="5.0dip" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end" android:id="@id/2131441627" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" 2130971375="@color/2131099764" />
+</androidx.appcompat.widget.Toolbar>

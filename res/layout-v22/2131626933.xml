@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448990" ="#00000000" ="false" ="false" ="fill_parent" ="wrap_content" ="0.0dip" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131429285" ="@color/2131099685" ="false" ="fill_parent" ="wrap_content" ="10.0dip" ="@color/2131099685" 2130968912="@dimen/2131167793" 2130968914="5.0dip" 2130969143="24.0dip" 2130969145="24.0dip" 2130969146="24.0dip" 2130969148="32.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448989" ="8.0dip" ="gone" ="20.0dip" ="28.0dip" ="fitXY" ="24.0dip" ="5.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237101" 2130971375="@color/2131099764" />
+            <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131448992" ="100.0dip" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448989" 2130970039="true" 2130970050="false" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131448988" ="wrap_content" ="wrap_content" ="24.0dip" ="12.0dip" ="24.0dip" android:text="@string/widget_feedback_alert_title" ="false" ="locale" ="center" ="24.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448992" 2130969962="0.0dip" style="@style/2132149429" />
+            <com.binance.lib.dynamiclayout.review.RatingStarView android:id="@id/2131438866" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="20.0dip" ="@dimen/2131166260" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448988" 2130971139="@dimen/2131166209" 2130971140="20.0dip" 2130971141="5" 2130971142="0" 2130971143="0.0" 2130971144="1" 2130971145="@drawable/2131238145" 2130971146="@drawable/2131238144" 2130971147="@dimen/2131166209" />
+            <com.binance.lib.dynamiclayout.review.InputReviewEditText android:id="@id/2131433505" ="@null" ="fill_parent" ="120.0dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438866" />
+            <RelativeLayout ="vertical" android:id="@id/2131448987" ="fill_parent" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969940="@id/2131433505">
+                <com.major.android.uikit2.button.KitButton ="end" ="center" android:id="@id/2131448914" ="fill_parent" ="wrap_content" android:text="@string/_Submit" style="@style/2132148692" />
+                <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131448913" ="fill_parent" ="wrap_content" ="10.0dip" ="24.0dip" android:text="@string/voptions_landing_guide_not_now" ="@id/2131448914" ="true" style="@style/2132148704" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

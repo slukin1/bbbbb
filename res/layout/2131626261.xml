@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@drawable/2131235989" ="4.0dip" ="6.0dip" ="4.0dip" ="6.0dip" ="fill_parent" ="152.0dip" ="@color/2131099803" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439662" ="fill_parent" ="140.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="2" />
+</FrameLayout>

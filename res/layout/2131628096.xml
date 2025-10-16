@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="10.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449914" ="fill_parent" ="0.0dip" 2130969916="H,4.3:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="10.0sp" ="#ffeaecef" android:id="@id/2131443337" ="@drawable/2131235591" ="6.0dip" ="4.0dip" ="6.0dip" ="4.0dip" ="wrap_content" ="wrap_content" 2130969911="@id/2131449914" 2130969917="@id/2131449914" />
+</androidx.constraintlayout.widget.ConstraintLayout>

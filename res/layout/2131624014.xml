@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131436860" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131428465" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131427458" ="fill_parent" ="44.0dip" 2130969931="2131438103" 2130969940="@id/2131428465">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428979" ="visible" ="44.0dip" ="44.0dip" ="@drawable/2131236863" ="fitCenter" ="@color/2131102138" ="12.0dip" ="12.0dip" ="7.0dip" 2130969931="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131428463" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131427458">
+        <WebView android:id="@id/2131428464" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

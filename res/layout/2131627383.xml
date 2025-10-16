@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="64.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433687" ="@drawable/2131234964" ="20.0dip" ="20.0dip" ="@drawable/2131232611" ="fitXY" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970795="@style/2132148631" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442191" ="wrap_content" ="wrap_content" ="false" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131433687" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443931" ="wrap_content" ="wrap_content" android:text="@string/market_new_listing_open_time" ="12.0dip" 2130969912="@id/tvOpenTime" 2130969917="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149390" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvOpenTime" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131443931" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

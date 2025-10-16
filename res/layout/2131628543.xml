@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440024" ="fill_parent" ="wrap_content" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438423" ="fill_parent" ="wrap_content" />
+        <ImageView android:id="@id/2131434857" ="12.0dip" ="fill_parent" ="44.0dip" ="fitCenter" ="@null" 2130971077="@drawable/2131236467" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440023" ="fill_parent" ="fill_parent" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="gone" ="fill_parent" ="fill_parent">
+            <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+                <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+                    <FrameLayout android:id="@id/2131441695" ="fill_parent" ="wrap_content" />
+                    <com.binance.base.component.PlaceholderView android:id="@id/2131438401" ="fill_parent" ="wrap_content" />
+                    <com.binance.base.component.PlaceholderView android:id="@id/2131438398" ="fill_parent" ="wrap_content" />
+                    <com.binance.base.component.PlaceholderView android:id="@id/2131438399" ="fill_parent" ="wrap_content" ="16.0dip" />
+                </LinearLayout>
+            </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <com.finance.kit.framework.widget.lottie.KitLottieAnimationView ="center" android:id="@id/2131438256" ="gone" ="25.0dip" ="25.0dip" 2130970039="false" 2130970050="false" />
+        <ImageView android:id="@id/2131434858" ="fill_parent" ="fill_parent" ="fitXY" ="@null" 2130971077="@drawable/2131236466" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

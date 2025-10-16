@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435695" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/2131440397" ="fill_parent" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131446344" ="visible" ="wrap_content" ="wrap_content" android:text="@string/future_trade_estimated_liquidation_price" ="1" 2130969907="@id/2131446335" 2130969937="2131438103" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131446335" ="visible" ="0.0dip" ="wrap_content" ="1" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131446344" 2130969940="@id/2131440397" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/tv_max_title" ="visible" ="wrap_content" ="wrap_content" android:text="@string/max" ="1" 2130969907="@id/2131443711" 2130969937="2131438103" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131443711" ="visible" ="0.0dip" ="wrap_content" ="1" ="5.0dip" 2130969917="2131438103" 2130969936="@id/tv_max_title" 2130969940="@id/2131446344" style="@style/2132149384" />
+    <View android:id="@id/2131449240" ="0.0dip" ="0.0dip" 2130969911="@id/tv_cost_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/tv_cost_title" />
+    <com.finance.futures.common.framework.widget.FuturesBottomDialogTipsTextView ="@color/2131099778" android:id="@id/tv_cost_title" ="wrap_content" ="wrap_content" android:text="@string/cost" 2130968621="2004" 2130969263="@string/ok" 2130969274="@string/cost" 2130969937="2131438103" 2130969940="@id/tv_max_title" 2130970840="true" 2130971382="@string/tips_required" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131444435" ="0.0dip" ="wrap_content" ="1" ="5.0dip" 2130969907="@id/tv_cost_title" 2130969917="2131438103" 2130969936="@id/tv_cost_title" style="@style/2132149384" />
+    <TextView ="@color/2131101012" ="center" android:id="@id/2131428930" ="#ff00c087" ="0.0dip" ="@dimen/2131166240" ="8.0dip" android:text="@string/future_buy_optimized" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_cost_title" style="@style/2132149374" />
+    <com.finance.futures.common.framework.widget.FuturesEuCoolingOffPeriodWrapTextView ="@drawable/2131233866" ="0.0dip" ="0.0dip" 2130969911="@id/2131428930" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131428930" ="1001" />
+</androidx.constraintlayout.widget.ConstraintLayout>

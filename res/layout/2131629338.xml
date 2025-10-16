@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436799" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969941="2131438103">
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131437411" ="fill_parent" ="wrap_content" ="5.0dip" android:hint="@string/c2c_ad_post_p3_terms_input_placeholder" ="99" ="1000" 2130969806="true" 2130969815="false" 2130969817="1" 2130969818="false" 2130969820="@string/c2c_ad_post_p3_label_terms" />
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131437405" ="fill_parent" ="wrap_content" ="28.0dip" android:hint="@string/c2c_mob_ad_post_p3_placeholder_autoreply" ="99" ="1000" 2130969806="true" 2130969815="false" 2130969817="1" 2130969818="false" 2130969820="@string/c2c_mob_ad_post_p3_label_autoreply" />
+    </LinearLayout>
+    <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" 2130969912="@id/2131449663" 2130969940="@id/2131436799" />
+    <com.binance.c2c.advertisement.view.AdPostConditionView android:id="@id/2131449663" ="fill_parent" ="wrap_content" ="12.0dip" 2130969940="@id/2131435855" />
+    <com.binance.c2c.advertisement.view.FiatAdsAvailableCountryView android:id="@id/2131449495" ="fill_parent" ="wrap_content" ="4.0dip" 2130969940="@id/2131449663" />
+    <include android:id="@id/2131437851" ="gone" ="fill_parent" ="wrap_content" 2130969940="@id/2131449495" layout="@layout/2131626386" />
+</androidx.constraintlayout.widget.ConstraintLayout>

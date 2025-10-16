@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131448931" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131448930" ="96.0dip" ="96.0dip" ="100.0dip" ="true" 2130971077="@drawable/ic_notification" />
+    <LinearLayout ="horizontal" android:id="@id/2131448926" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="@id/2131448927" ="true">
+        <ImageView ="center_vertical" android:id="@id/2131448928" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238490" />
+        <TextView ="16.0sp" ="bold" ="@color/2131099881" android:id="@id/2131448929" ="wrap_content" ="wrap_content" android:text="Refresh" ="locale" ="9.0dip" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131448927" ="fill_parent" ="wrap_content" ="4.0dip" ="@id/2131448930" ="true" ="locale" ="40.0dip" ="40.0dip" 2130969999="16.0sp" style="@style/2132149450" />
+</RelativeLayout>

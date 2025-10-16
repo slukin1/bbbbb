@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" android:id="@id/2131427568" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439352" ="wrap_content" ="wrap_content">
+        <RelativeLayout ="8.0dip" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103">
+            <View android:id="@id/2131441663" ="1.5dip" ="8.0dip" ="true" />
+            <View android:id="@id/2131441664" ="@color/2131099851" ="1.5dip" ="8.0dip" ="@id/2131441663" ="true" />
+            <View android:id="@id/2131441665" ="1.5dip" ="8.0dip" ="@id/2131441664" ="true" />
+            <View android:id="@id/2131441666" ="@color/2131099851" ="1.5dip" ="8.0dip" ="@id/2131441665" ="true" />
+            <View android:id="@id/2131428542" ="@color/2131099881" ="invisible" ="1.5dip" ="24.0dip" ="@id/2131441666" ="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/2131433819" ="8.0dip" ="8.0dip" ="29.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234483" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439279" ="fill_parent" ="fill_parent" ="12.0dip" ="12.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131444766" ="0.0dip" ="wrap_content" ="6.0dip" ="4.0dip" 2130969904="true" 2130969905="true" 2130969918="@id/tvDate" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tvDate" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131444766" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="16.0dip" ="none" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="14.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/_filter" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131438022" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/from" style="@style/2132149384" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131441858" ="@drawable/2131236009" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="@color/2131099744">
+            <TextView ="@color/2131099764" android:id="@id/2131441857" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="1.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/margin_to" style="@style/2132149384" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131441860" ="@drawable/2131236009" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="@color/2131099744">
+            <TextView ="@color/2131099764" android:id="@id/2131441859" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="1.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/finance_order_dates" style="@style/2132149384" />
+        <com.major.android.uikit2.datepicker.KitPeriodView android:id="@id/2131441853" ="fill_parent" ="wrap_content" ="10.0dip" 2130971414="@string/to" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ms_label_coin" style="@style/2132149384" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131441856" ="@drawable/2131236009" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="@color/2131099744">
+            <TextView ="@color/2131099764" android:id="@id/2131441855" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="1.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="31.0dip">
+            <com.major.android.uikit2.button.KitButton ="@color/2131099744" ="@color/2131099764" android:id="@id/2131441854" ="0.0dip" ="40.0dip" android:text="@string/reset" ="1.0" style="@style/2132148692" />
+            <Space ="15.0dip" ="fill_parent" />
+            <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131441852" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

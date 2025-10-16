@@ -1,0 +1,821 @@
+.class public final Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;
+.super Lcom/finance/strategy/framework/base/fragment/BaseListFragment;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/MockIndexSettingActivity;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0018\u00002\u00020\u00012\u00020\u0002B\u0007\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0005H\u0014\u00a2\u0006\u0004\u0008\u0006\u0010\u0004J!\u0010\u000b\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\r\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\r\u0010\u0004J\u0017\u0010\u000f\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u000f\u0010\u0011\u001a\u00020\u000eH\u0017\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u001b\u0010\u0018\u001a\u00020\u00138CX\u0083\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017R\u001b\u0010\u001d\u001a\u00020\u00198WX\u0097\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u0015\u001a\u0004\u0008\u001b\u0010\u001cR\u001b\u0010\"\u001a\u00020\u001e8CX\u0083\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001f\u0010\u0015\u001a\u0004\u0008 \u0010!R\u0018\u0010$\u001a\u0004\u0018\u00010#8\u0002@\u0002X\u0083\u000e\u00a2\u0006\u0006\n\u0004\u0008$\u0010%"
+    }
+    d2 = {
+        "Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;",
+        "Lcom/finance/strategy/framework/base/fragment/BaseListFragment;",
+        "Lo/MockIndexSettingActivity;",
+        "<init>",
+        "()V",
+        "",
+        "subscribeLiveData",
+        "Landroid/view/View;",
+        "p0",
+        "Landroid/os/Bundle;",
+        "p1",
+        "setUpViews",
+        "(Landroid/view/View;Landroid/os/Bundle;)V",
+        "c",
+        "Lo/FinanceSelectionDialog;",
+        "a",
+        "(Lo/FinanceSelectionDialog;)V",
+        "b",
+        "()Lo/FinanceSelectionDialog;",
+        "Lo/wwvwvvwwwvwwwv;",
+        "marketViewModel$delegate",
+        "Lkotlin/Lazy;",
+        "getMarketViewModel",
+        "()Lo/wwvwvvwwwvwwwv;",
+        "marketViewModel",
+        "Lo/setTextWatcherEnable;",
+        "viewModel$delegate",
+        "getViewModel",
+        "()Lo/setTextWatcherEnable;",
+        "viewModel",
+        "Lo/getViewLongclickEdittextBinding;",
+        "filterViewModel$delegate",
+        "getFilterViewModel",
+        "()Lo/getViewLongclickEdittextBinding;",
+        "filterViewModel",
+        "Lo/RatingDialogVoCreator;",
+        "openOrderAdapter",
+        "Lo/RatingDialogVoCreator;"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final filterViewModel$delegate:Lkotlin/Lazy;
+
+.field private final marketViewModel$delegate:Lkotlin/Lazy;
+
+.field private openOrderAdapter:Lo/RatingDialogVoCreator;
+
+.field private final viewModel$delegate:Lkotlin/Lazy;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 7
+
+    .line 26
+    invoke-direct {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;-><init>()V
+
+    .line 28
+    move-object v0, p0
+
+    check-cast v0, Landroidx/fragment/app/Fragment;
+
+    .line 99
+    new-instance v1, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$1;
+
+    invoke-direct {v1, v0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$1;-><init>(Landroidx/fragment/app/Fragment;)V
+
+    check-cast v1, Lkotlin/jvm/functions/Function0;
+
+    .line 103
+    sget-object v2, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v3, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$2;
+
+    invoke-direct {v3, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$2;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v2, v3}, Lkotlin/LazyKt;->e(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v1
+
+    .line 104
+    const-class v2, Lo/wwvwvvwwwvwwwv;
+
+    invoke-static {v2}, Lo/WalletRestoreActivityoldBindProcess22;->a(Ljava/lang/Class;)Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$3;
+
+    invoke-direct {v3, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$3;-><init>(Lkotlin/Lazy;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    new-instance v4, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$4;
+
+    const/4 v5, 0x0
+
+    invoke-direct {v4, v5, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$4;-><init>(Lkotlin/jvm/functions/Function0;Lkotlin/Lazy;)V
+
+    check-cast v4, Lkotlin/jvm/functions/Function0;
+
+    new-instance v6, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$5;
+
+    invoke-direct {v6, v0, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$5;-><init>(Landroidx/fragment/app/Fragment;Lkotlin/Lazy;)V
+
+    check-cast v6, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v0, v2, v3, v4, v6}, Lo/layoutdefault;->b(Landroidx/fragment/app/Fragment;Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v1
+
+    .line 28
+    iput-object v1, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->marketViewModel$delegate:Lkotlin/Lazy;
+
+    .line 114
+    new-instance v1, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$6;
+
+    invoke-direct {v1, v0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$6;-><init>(Landroidx/fragment/app/Fragment;)V
+
+    check-cast v1, Lkotlin/jvm/functions/Function0;
+
+    .line 118
+    sget-object v2, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v3, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$7;
+
+    invoke-direct {v3, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$7;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v2, v3}, Lkotlin/LazyKt;->e(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v1
+
+    .line 119
+    const-class v2, Lo/setTextWatcherEnable;
+
+    invoke-static {v2}, Lo/WalletRestoreActivityoldBindProcess22;->a(Ljava/lang/Class;)Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$8;
+
+    invoke-direct {v3, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$8;-><init>(Lkotlin/Lazy;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    new-instance v4, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$9;
+
+    invoke-direct {v4, v5, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$9;-><init>(Lkotlin/jvm/functions/Function0;Lkotlin/Lazy;)V
+
+    check-cast v4, Lkotlin/jvm/functions/Function0;
+
+    new-instance v6, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$10;
+
+    invoke-direct {v6, v0, v1}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$viewModels$default$10;-><init>(Landroidx/fragment/app/Fragment;Lkotlin/Lazy;)V
+
+    check-cast v6, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v0, v2, v3, v4, v6}, Lo/layoutdefault;->b(Landroidx/fragment/app/Fragment;Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v1
+
+    .line 30
+    iput-object v1, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->viewModel$delegate:Lkotlin/Lazy;
+
+    .line 131
+    const-class v1, Lo/getViewLongclickEdittextBinding;
+
+    invoke-static {v1}, Lo/WalletRestoreActivityoldBindProcess22;->a(Ljava/lang/Class;)Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$activityViewModels$default$1;
+
+    invoke-direct {v2, v0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$activityViewModels$default$1;-><init>(Landroidx/fragment/app/Fragment;)V
+
+    check-cast v2, Lkotlin/jvm/functions/Function0;
+
+    new-instance v3, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$activityViewModels$default$2;
+
+    invoke-direct {v3, v5, v0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$activityViewModels$default$2;-><init>(Lkotlin/jvm/functions/Function0;Landroidx/fragment/app/Fragment;)V
+
+    check-cast v3, Lkotlin/jvm/functions/Function0;
+
+    new-instance v4, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$activityViewModels$default$3;
+
+    invoke-direct {v4, v0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$special$$inlined$activityViewModels$default$3;-><init>(Landroidx/fragment/app/Fragment;)V
+
+    check-cast v4, Lkotlin/jvm/functions/Function0;
+
+    invoke-static {v0, v1, v2, v3, v4}, Lo/layoutdefault;->b(Landroidx/fragment/app/Fragment;Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    .line 31
+    iput-object v0, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->filterViewModel$delegate:Lkotlin/Lazy;
+
+    return-void
+.end method
+
+.method public static synthetic a(Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;Ljava/util/List;)Lkotlin/Unit;
+    .locals 2
+
+    .line 4043
+    invoke-virtual {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->e()V
+
+    if-eqz p1, :cond_2
+
+    .line 5087
+    move-object v0, p1
+
+    check-cast v0, Ljava/util/Collection;
+
+    invoke-interface {v0}, Ljava/util/Collection;->isEmpty()Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    xor-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_2
+
+    .line 5088
+    invoke-virtual {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->getBinding()Lo/isLimitParamsValid;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, v0, Lo/isLimitParamsValid;->c:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz v0, :cond_0
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lo/JResponse;->i(Landroid/view/View;)V
+
+    .line 5089
+    :cond_0
+    invoke-virtual {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->getBinding()Lo/isLimitParamsValid;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    iget-object v0, v0, Lo/isLimitParamsValid;->e:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-eqz v0, :cond_1
+
+    check-cast v0, Landroid/view/View;
+
+    invoke-static {v0}, Lo/JResponse;->e(Landroid/view/View;)V
+
+    .line 5090
+    :cond_1
+    iget-object p0, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->openOrderAdapter:Lo/RatingDialogVoCreator;
+
+    if-eqz p0, :cond_4
+
+    invoke-virtual {p0, p1}, Lo/getSpotAssetViewModel;->e(Ljava/util/List;)V
+
+    goto :goto_0
+
+    .line 5092
+    :cond_2
+    invoke-virtual {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->getBinding()Lo/isLimitParamsValid;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_3
+
+    iget-object p1, p1, Lo/isLimitParamsValid;->c:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz p1, :cond_3
+
+    check-cast p1, Landroid/view/View;
+
+    invoke-static {p1}, Lo/JResponse;->e(Landroid/view/View;)V
+
+    .line 5093
+    :cond_3
+    invoke-virtual {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->getBinding()Lo/isLimitParamsValid;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_4
+
+    iget-object p0, p0, Lo/isLimitParamsValid;->e:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-eqz p0, :cond_4
+
+    check-cast p0, Landroid/view/View;
+
+    invoke-static {p0}, Lo/JResponse;->i(Landroid/view/View;)V
+
+    .line 4045
+    :cond_4
+    :goto_0
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public static synthetic d(Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;Lcom/binance/data/beans/MarketData;)Lkotlin/Unit;
+    .locals 0
+
+    .line 1038
+    invoke-virtual {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getViewModel()Lo/setTextWatcherEnable;
+
+    move-result-object p0
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Lcom/binance/data/beans/MarketData;->getPairs()Lcom/binance/data/beans/MarketPairList;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 2000
+    :goto_0
+    iget-object p0, p0, Lo/setTextWatcherEnable;->c:Lo/getTextTrimStrategy;
+
+    if-eqz p1, :cond_1
+
+    .line 3031
+    iget-object p0, p0, Lo/getTextTrimStrategy;->c:Lio/reactivex/subjects/PublishSubject;
+
+    invoke-virtual {p0, p1}, Lio/reactivex/subjects/PublishSubject;->onNext(Ljava/lang/Object;)V
+
+    .line 1039
+    :cond_1
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method private final getFilterViewModel()Lo/getViewLongclickEdittextBinding;
+    .locals 1
+
+    .line 31
+    iget-object v0, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->filterViewModel$delegate:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/getViewLongclickEdittextBinding;
+
+    return-object v0
+.end method
+
+.method private final getMarketViewModel()Lo/wwvwvvwwwvwwwv;
+    .locals 1
+
+    .line 28
+    iget-object v0, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->marketViewModel$delegate:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/wwvwvvwwwvwwwv;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a(Lo/FinanceSelectionDialog;)V
+    .locals 6
+
+    .line 64
+    invoke-direct {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getFilterViewModel()Lo/getViewLongclickEdittextBinding;
+
+    move-result-object v0
+
+    .line 6081
+    iget-object v0, v0, Lo/BeLeaderTraderViewModelfetchPortfolioDetail21;->j:Lo/MeasurePassDelegateremeasure12;
+
+    .line 64
+    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->d()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/getRatedVo;
+
+    if-nez v0, :cond_0
+
+    invoke-direct {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getFilterViewModel()Lo/getViewLongclickEdittextBinding;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lo/BeLeaderTraderViewModelfetchPortfolioDetail21;->j()V
+
+    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 65
+    :cond_0
+    invoke-direct {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getFilterViewModel()Lo/getViewLongclickEdittextBinding;
+
+    move-result-object v0
+
+    .line 7081
+    iget-object v0, v0, Lo/BeLeaderTraderViewModelfetchPortfolioDetail21;->j:Lo/MeasurePassDelegateremeasure12;
+
+    .line 66
+    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->d()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lo/getRatedVo;
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_2
+
+    .line 8047
+    iget-object v1, v1, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter;->b:Ljava/util/List;
+
+    if-eqz v1, :cond_2
+
+    .line 66
+    check-cast v1, Ljava/lang/Iterable;
+
+    .line 137
+    invoke-interface {v1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_2
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Lo/TradeBottomWithSubtitleListDialog;
+
+    .line 9014
+    iget-object v4, v3, Lo/TradeBottomWithSubtitleListDialog;->e:Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;
+
+    if-eqz v4, :cond_1
+
+    .line 67
+    invoke-virtual {v4}, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;->getValue()Ljava/lang/String;
+
+    move-result-object v4
+
+    goto :goto_1
+
+    :cond_1
+    move-object v4, v2
+
+    .line 10019
+    :goto_1
+    iget-object v5, p1, Lo/FinanceSelectionDialog;->e:Ljava/lang/String;
+
+    .line 67
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v4
+
+    .line 11016
+    iput-boolean v4, v3, Lo/TradeBottomWithSubtitleListDialog;->d:Z
+
+    goto :goto_0
+
+    .line 69
+    :cond_2
+    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->d()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lo/getRatedVo;
+
+    if-eqz v1, :cond_3
+
+    .line 12013
+    iget-object v3, p1, Lo/FinanceSelectionDialog;->j:Ljava/lang/String;
+
+    .line 13067
+    iput-object v3, v1, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter;->c:Ljava/lang/String;
+
+    .line 70
+    :cond_3
+    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->d()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lo/getRatedVo;
+
+    if-eqz v1, :cond_4
+
+    .line 14025
+    iget-object v3, p1, Lo/FinanceSelectionDialog;->f:Ljava/lang/String;
+
+    .line 15065
+    iput-object v3, v1, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter;->j:Ljava/lang/String;
+
+    .line 71
+    :cond_4
+    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->d()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/getRatedVo;
+
+    if-eqz v0, :cond_b
+
+    invoke-virtual {v0}, Lo/getRatedVo;->f()Lo/TradeBottomWithSubtitleListDialog;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_b
+
+    .line 16024
+    iget-object v1, p1, Lo/FinanceSelectionDialog;->i:Ljava/lang/String;
+
+    .line 71
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v3
+
+    const v4, -0x3e71291b
+
+    if-eq v3, v4, :cond_8
+
+    const v4, -0x2499ea6f
+
+    if-eq v3, v4, :cond_6
+
+    const v4, 0x704d9c63
+
+    if-eq v3, v4, :cond_5
+
+    goto :goto_2
+
+    :cond_5
+    const-string v3, "SPOT_GRID"
+
+    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_a
+
+    .line 72
+    sget-object v2, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;->OPEN_ORDER_SPOT_TRADE_TYPE_SPOT_GRID:Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;
+
+    goto :goto_2
+
+    .line 71
+    :cond_6
+    const-string v3, "REBALANCE_BOT"
+
+    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_7
+
+    goto :goto_2
+
+    .line 73
+    :cond_7
+    sget-object v2, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;->OPEN_ORDER_SPOT_TRADE_TYPE_REBALANCING_BOT:Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;
+
+    goto :goto_2
+
+    .line 71
+    :cond_8
+    const-string v3, "SPOT_DCA"
+
+    invoke-virtual {v1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_9
+
+    goto :goto_2
+
+    .line 74
+    :cond_9
+    sget-object v2, Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;->OPEN_ORDER_SPOT_TRADE_TYPE_SPOT_DCA:Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;
+
+    .line 17014
+    :cond_a
+    :goto_2
+    iput-object v2, v0, Lo/TradeBottomWithSubtitleListDialog;->e:Lcom/finance/strategy/feature/wallet/order/filter/AbsTradingBotsOrderFilter$TradingBotFilterEnum;
+
+    .line 78
+    :cond_b
+    invoke-virtual {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getViewModel()Lo/setTextWatcherEnable;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lo/setTextWatcherEnable;->a(Lo/FinanceSelectionDialog;)V
+
+    return-void
+.end method
+
+.method public final b()Lo/FinanceSelectionDialog;
+    .locals 1
+
+    .line 82
+    invoke-direct {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getFilterViewModel()Lo/getViewLongclickEdittextBinding;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lo/getWidgetsList;->g()Lo/FinanceSelectionDialog;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final c()V
+    .locals 2
+
+    .line 60
+    invoke-virtual {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getViewModel()Lo/setTextWatcherEnable;
+
+    move-result-object v0
+
+    invoke-direct {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getFilterViewModel()Lo/getViewLongclickEdittextBinding;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lo/getWidgetsList;->g()Lo/FinanceSelectionDialog;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Lo/setTextWatcherEnable;->a(Lo/FinanceSelectionDialog;)V
+
+    return-void
+.end method
+
+.method public final synthetic d()Lo/MarginExchangeCoresubscribeLifecycleObserver12;
+    .locals 1
+
+    .line 26
+    invoke-virtual {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getViewModel()Lo/setTextWatcherEnable;
+
+    move-result-object v0
+
+    check-cast v0, Lo/MarginExchangeCoresubscribeLifecycleObserver12;
+
+    return-object v0
+.end method
+
+.method public final getViewModel()Lo/setTextWatcherEnable;
+    .locals 1
+
+    .line 30
+    iget-object v0, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->viewModel$delegate:Lkotlin/Lazy;
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lo/setTextWatcherEnable;
+
+    return-object v0
+.end method
+
+.method public final setUpViews(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 1
+
+    .line 49
+    invoke-super {p0, p1, p2}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->setUpViews(Landroid/view/View;Landroid/os/Bundle;)V
+
+    .line 50
+    invoke-virtual {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->getBinding()Lo/isLimitParamsValid;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p1, Lo/isLimitParamsValid;->c:Landroidx/recyclerview/widget/RecyclerView;
+
+    if-eqz p1, :cond_0
+
+    .line 51
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object p2
+
+    new-instance v0, Lo/RatingDialogVoCreator;
+
+    invoke-direct {v0, p2}, Lo/RatingDialogVoCreator;-><init>(Landroid/content/Context;)V
+
+    const/4 p2, 0x0
+
+    .line 18019
+    iput-boolean p2, v0, Lo/loadIcon;->i:Z
+
+    .line 51
+    iput-object v0, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->openOrderAdapter:Lo/RatingDialogVoCreator;
+
+    .line 54
+    new-instance p2, Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-direct {p2, v0}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V
+
+    check-cast p2, Landroidx/recyclerview/widget/RecyclerView$IsolatedAddMarginComposeKtgetRiskRiskColor111;
+
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$IsolatedAddMarginComposeKtgetRiskRiskColor111;)V
+
+    .line 55
+    iget-object p2, p0, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->openOrderAdapter:Lo/RatingDialogVoCreator;
+
+    check-cast p2, Landroidx/recyclerview/widget/RecyclerView$Adapter;
+
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final subscribeLiveData()V
+    .locals 4
+
+    .line 36
+    invoke-super {p0}, Lcom/finance/strategy/framework/base/fragment/BaseListFragment;->subscribeLiveData()V
+
+    .line 37
+    invoke-direct {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getMarketViewModel()Lo/wwvwvvwwwvwwwv;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lo/wwvwvvwwwvwwwv;->getMarketData()Lo/wvwvvwvwwwwwvv;
+
+    move-result-object v0
+
+    move-object v1, p0
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v2, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$DropdropElements2;
+
+    new-instance v3, Lo/getLowRatedVo;
+
+    invoke-direct {v3, p0}, Lo/getLowRatedVo;-><init>(Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;)V
+
+    invoke-direct {v2, v3}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$DropdropElements2;-><init>(Lkotlin/jvm/functions/Function1;)V
+
+    check-cast v2, Lo/MeasurePassDelegatelayoutChildrenBlock12;
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->d(Landroidx/lifecycle/LifecycleOwner;Lo/MeasurePassDelegatelayoutChildrenBlock12;)V
+
+    .line 41
+    invoke-virtual {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getViewModel()Lo/setTextWatcherEnable;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lo/setTextWatcherEnable;->d()V
+
+    .line 42
+    invoke-virtual {p0}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;->getViewModel()Lo/setTextWatcherEnable;
+
+    move-result-object v0
+
+    .line 19027
+    iget-object v0, v0, Lo/setTextWatcherEnable;->a:Lo/MeasurePassDelegateremeasure12;
+
+    check-cast v0, Landroidx/lifecycle/LiveData;
+
+    .line 42
+    new-instance v2, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$DropdropElements2;
+
+    new-instance v3, Lo/setOnRateListener;
+
+    invoke-direct {v3, p0}, Lo/setOnRateListener;-><init>(Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment;)V
+
+    invoke-direct {v2, v3}, Lcom/finance/strategy/feature/wallet/order/openOrder/TradingBotsSpotOpenOrderFragment$DropdropElements2;-><init>(Lkotlin/jvm/functions/Function1;)V
+
+    check-cast v2, Lo/MeasurePassDelegatelayoutChildrenBlock12;
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->d(Landroidx/lifecycle/LifecycleOwner;Lo/MeasurePassDelegatelayoutChildrenBlock12;)V
+
+    return-void
+.end method

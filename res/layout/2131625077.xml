@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.card.KitCardView android:id="@id/2131435029" ="fill_parent" ="wrap_content" 2130969768="true" 2130969769="1">
+        <LinearLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center_vertical" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/c2c_group_type_standard" ="false" style="@style/2132149446" />
+            <TextView ="@color/2131099778" ="center_vertical" ="fill_parent" ="wrap_content" ="18.0dip" android:text="@string/c2c_group_type_standard_tip" style="@style/2132149361" />
+        </LinearLayout>
+    </com.major.android.uikit2.card.KitCardView>
+    <com.major.android.uikit2.card.KitCardView android:id="@id/2131435030" ="fill_parent" ="wrap_content" ="15.0dip" 2130969769="1">
+        <LinearLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center_vertical" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/c2c_group_type_subscription" ="false" style="@style/2132149446" />
+            <TextView ="@color/2131099778" ="center_vertical" ="fill_parent" ="wrap_content" ="18.0dip" android:text="@string/c2c_group_type_subscription_tip" style="@style/2132149361" />
+        </LinearLayout>
+    </com.major.android.uikit2.card.KitCardView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131430229" ="fill_parent" ="wrap_content" ="23.0dip" android:text="@string/c2c_dialog_location_check_continue" style="@style/2132148692" />
+</LinearLayout>

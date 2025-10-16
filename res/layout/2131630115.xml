@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442035" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/address" ="false" ="4.0dip" ="locale" ="viewStart" ="15.0dip" style="@style/2132149450" />
+    <LinearLayout ="horizontal" android:id="@id/2131436148" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="48.0dip" ="@color/2131099744">
+        <com.wallet.cheetah.widgets.EnabledEditText ="@color/2131099764" ="@color/2131099738" ="start|center|top" ="center_vertical" android:id="@id/2131431326" ="@null" ="12.0dip" ="11.0dip" ="12.0dip" ="13.0dip" ="horizontal" ="0.0dip" ="wrap_content" android:hint="@string/wallet_long_press_paste" ="1.0" ="locale" ="viewStart" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434163" ="5.0dip" ="13.0dip" ="5.0dip" ="13.0dip" ="30.0dip" ="46.0dip" ="@string/address" 2130971077="@drawable/2131236783" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434133" ="13.0dip" ="13.0dip" ="35.0dip" ="46.0dip" ="@string/show_qr_code" ="5.0dip" ="10.0dip" 2130971077="@drawable/2131237864" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="start" android:id="@id/2131442912" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="2.0dip" ="15.0dip" style="@style/2132149384" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131427715" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/confirm_address_again" 2130969837="2" 2130969838="@drawable/2131237095" 2130969843="0" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427716" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" style="@style/2132149361" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="bottom" ="@drawable/2131232784" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441660" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView ="18.0sp" ="@color/2131099764" android:id="@id/2131448148" ="wrap_content" ="wrap_content" ="@font/2131296275" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434401" ="96.0dip" ="96.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441660" 2130971077="@drawable/2131234431" />
+        <TextView ="14.0sp" ="@color/2131099778" ="center" android:id="@id/2131446069" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/c2c_provide_feedback_description" ="@font/2131296274" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131434401" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131446050" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/c2c_provide_feedback_confirm" ="@dimen/2131166184" ="@dimen/2131166188" 2130969911="2131438103" 2130969940="@id/2131446069" style="@style/2132148692" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/um_trade_place_order_page" ="fill_parent" ="wrap_content" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.edittext.ValueWithUnitEditText android:id="@id/longclickEtCount" ="0.0dip" ="wrap_content" app:2130969577="@string/finance_input_amount" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970739="3" 2130971511="0.001" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/seekbarAmount" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969686="100.0" 2130969687="0.0" 2130969703="5" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/longclickEtCount" 2130969962="@dimen/2131166286" />
+</androidx.constraintlayout.widget.ConstraintLayout>

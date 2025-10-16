@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131232574" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="32.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <TextView ="16.0sp" ="#ff00c087" android:id="@id/2131445171" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442185" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+        <TextView ="16.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p4_label_with" ="@font/2131296274" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131443087" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+    </LinearLayout>
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131433468" ="fill_parent" ="wrap_content" ="12.0dip" ="true" 2130969653="@string/ms_amountIs_empty" 2130969654="@null" 2130969655="@string/c2c_placeholder_enter_amount" 2130969660="@string/c2c_purchase_amount" 2130970845="false" 2130970861="true" />
+    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/c2c_select_payment_method" ="@font/2131296273" />
+    <RelativeLayout android:id="@id/2131438163" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="fill_parent" ="48.0dip" ="4.0dip" ="@color/2131099744">
+        <View android:id="@id/2131434061" ="@drawable/2131232474" ="4.0dip" ="10.0dip" ="true" />
+        <TextView ="16.0sp" ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131444033" ="fill_parent" ="fill_parent" ="1" ="true" ="@font/2131296273" ="4.0dip" ="@id/2131434061" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433733" ="wrap_content" ="wrap_content" ="true" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131439365" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131433059">
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435195" ="wrap_content" ="wrap_content" ="true" ="true" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443445" ="wrap_content" ="wrap_content" android:text="@string/c2c_homegae_filter_no_verify_required" ="5.0dip" ="true" ="@font/2131296274" ="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/2131439829" ="@drawable/2131236009" ="fill_parent" ="40.0dip" ="12.0dip">
+        <TextView ="16.0sp" ="@color/2131099726" ="center" android:id="@id/2131428889" ="fill_parent" ="fill_parent" android:text="@string/c2c_better_offer_search" ="@font/2131296273" />
+        <com.airbnb.lottie.LottieAnimationView ="center" android:id="@id/2131436706" ="gone" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+</LinearLayout>

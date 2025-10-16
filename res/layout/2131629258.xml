@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" android:id="@id/2131449553" ="fill_parent" ="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="0.0dip" ="wrap_content" ="1.6" ="15.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131444812" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+        <TextView ="@color/2131099787" android:id="@id/2131444060" ="@drawable/2131232569" ="2.0dip" ="1.0dip" ="2.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149394" />
+    </LinearLayout>
+    <com.binance.widget.UnicodeWrapTextView ="end" android:id="@id/tvApy" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149446" />
+    <LinearLayout ="end|center" ="horizontal" ="0.0dip" ="wrap_content" ="1.0" ="15.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131434198" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_history_title_subscribe" style="@style/2132148706" />
+    </LinearLayout>
+</LinearLayout>

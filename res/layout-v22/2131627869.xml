@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="10.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/fiat_trade" ="@dimen/2131166184" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131436049" ="true" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/ocbs_cashier_p2p_introduce_desc" ="@dimen/2131166184" style="@style/2132149355" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="20.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131438080" ="wrap_content" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" android:text="@string/fee" ="@dimen/2131166184" style="@style/2132149425" />
+    <LinearLayout ="horizontal" android:id="@id/2131438079" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/ocbs_lite_p2p_fee_desc" ="1" style="@style/2132149355" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131438082" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149446" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441195" ="wrap_content" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" android:text="@string/c2c_order_processing_fee_message" ="@dimen/2131166184" style="@style/2132149355" />
+</androidx.appcompat.widget.LinearLayoutCompat>

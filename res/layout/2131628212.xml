@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131432138" ="?2130970489" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131432801" ="?2130970490" ="fill_parent" ="0.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432139" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432142" ="wrap_content" ="wrap_content" 2130969920="@dimen/2131167682" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432137" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131167682" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

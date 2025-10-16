@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131443351" ="5.0dip" ="fill_parent" ="27.0dip" ="false" ="locale" ="viewStart" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <LinearLayout android:id="@id/2131448902" ="@drawable/2131238460" ="fill_parent" ="55.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443351">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448903" ="gone" ="wrap_content" ="fill_parent" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <View android:id="@id/2131448934" ="@color/2131099725" ="gone" ="1.0dip" ="16.0dip" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <ImageView android:id="@id/2131448932" ="20.0dip" ="20.0dip" ="12.0dip" 2130969911="2131438103" 2130969936="@id/2131448934" 2130969941="2131438103" />
+            <TextView ="center_vertical" android:id="@id/2131449044" ="wrap_content" ="26.0dip" ="false" ="5.0dip" 2130969911="2131438103" 2130969936="@id/2131448932" 2130969941="2131438103" style="@style/2132149446" />
+            <ImageView android:id="@id/2131432960" ="20.0dip" ="20.0dip" ="5.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131449044" 2130969941="2131438103" 2130971077="@drawable/2131237518" />
+            <View android:id="@id/2131448935" ="@color/2131099725" ="gone" ="1.0dip" ="16.0dip" 2130969911="2131438103" 2130969936="@id/2131432960" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429692" ="0.0dip" ="fill_parent" ="1.0" 2130969911="2131438103" 2130969918="@id/2131429701" 2130969936="@id/2131448903" 2130969941="2131438103">
+            <com.major.android.uikit.input.AccessibilityActionBlockingEditText ="@color/2131099764" ="@color/2131099762" ="start|center" android:id="@id/2131431447" ="@null" ="0.0dip" ="0.0dip" ="true" ="false" ="@drawable/2131238456" ="locale" ="viewStart" ="10.0dip" ="10.0dip" 2130969911="2131438103" 2130969918="@id/2131433933" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <ImageView android:id="@id/2131433933" ="2.0dip" ="gone" ="20.0dip" ="20.0dip" ="centerCrop" ="12.0dip" 2130969911="@id/2131431447" 2130969917="2131438103" 2130969941="@id/2131431447" 2130971077="@drawable/2131238454" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429701" ="wrap_content" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131429692" 2130969941="2131438103">
+            <TextView ="@color/2131099762" ="center_vertical" android:id="@id/2131449033" ="gone" ="wrap_content" ="26.0dip" ="false" ="10.0dip" 2130969911="2131438103" 2130969918="@id/2131449032" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <TextView ="@drawable/2131238457" ="center_vertical" android:id="@id/2131449032" ="gone" ="wrap_content" ="26.0dip" ="false" ="10.0dip" 2130969911="2131438103" 2130969918="@id/2131448933" 2130969936="@id/2131449033" 2130969941="2131438103" style="@style/2132149446" />
+            <ImageView android:id="@id/2131448933" ="gone" ="20.0dip" ="20.0dip" ="5.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131449032" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <TextView ="@color/2131099863" ="start|center" android:id="@id/2131443350" ="fill_parent" ="wrap_content" ="5.0dip" ="16.0dip" ="locale" ="viewStart" 2130969937="2131438103" 2130969940="@id/2131448902" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131448900" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="16.0dip" ="true" ="locale" ="viewStart" 2130969937="2131438103" 2130969940="@id/2131443350" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@drawable/2131236051" ="fill_parent" ="80.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434773" ="48.0dip" ="48.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236056" />
+    <TextView ="12.0sp" ="@color/2131100164" android:id="@id/2131448340" ="0.0dip" ="wrap_content" android:text="@string/join_binance_now" ="2" ="8.0dip" 2130969912="@id/2131448085" 2130969918="@id/2131447609" 2130969936="@id/2131434773" 2130969941="@id/2131434773" />
+    <TextView ="12.0sp" ="#80828a98" android:id="@id/2131448085" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/download_binance_app" ="8.0dip" 2130969911="@id/2131434773" 2130969918="@id/2131447611" 2130969936="@id/2131434773" 2130969940="@id/2131448340" />
+    <TextView ="12.0sp" ="@color/2131100164" android:id="@id/2131447609" ="wrap_content" ="wrap_content" android:text="@string/referral_program" ="24.0dip" 2130969917="2131438103" 2130969941="@id/2131434773" />
+    <TextView ="20.0sp" ="@color/2131100164" android:id="@id/2131447611" ="wrap_content" ="wrap_content" ="4.0dip" ="24.0dip" 2130969911="@id/2131434773" 2130969917="2131438103" 2130969940="@id/2131447609" />
+</androidx.constraintlayout.widget.ConstraintLayout>

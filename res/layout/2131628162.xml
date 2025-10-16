@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428579" ="fill_parent" ="wrap_content" ="1.0dip" 2130968769="true" 2130968771="0.0dip" 2130969901="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <androidx.core.widget.NestedScrollView android:id="@id/2131430422" ="?2130969104" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103">
+            <FrameLayout android:id="@id/2131430342" ="24.0dip" ="fill_parent" ="wrap_content">
+                <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                    <TextSwitcher android:id="@id/2131441544" ="fill_parent" ="wrap_content">
+                        <TextView ="center" ="center" android:id="@id/2131441515" ="fill_parent" ="wrap_content" style="?2130971282" />
+                        <TextView ="center" ="center" android:id="@id/2131441517" ="fill_parent" ="wrap_content" style="?2130971282" />
+                    </TextSwitcher>
+                    <FrameLayout ="center" ="wrap_content" ="wrap_content" ="16.0dip">
+                        <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView ="center" android:id="@id/2131438703" ="wrap_content" ="wrap_content" 2130970039="true" 2130970045="true" 2130970050="true" />
+                        <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView ="center" android:id="@id/2131440855" ="wrap_content" ="wrap_content" 2130970039="true" 2130970045="true" 2130970050="false" />
+                    </FrameLayout>
+                    <com.withpersona.sdk2.inquiry.shared.ui.ButtonWithLoadingIndicator android:id="@id/2131429257" ="fill_parent" ="wrap_content" ="16.0dip" style="?2130970094" />
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

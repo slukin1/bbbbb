@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432360" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="20.0dip" ="20.0dip" ="2.0dip" ="fitXY" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131442498" ="wrap_content" ="24.0dip" ="false" ="10.0dip" 2130969936="@id/2131436732" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099764" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="wrap_content" ="16.0dip" android:text="@string/alpha_token_locked" ="8.0dip" ="@color/2131099744" ="@dimen/2131166247" 2130969911="@id/2131442498" 2130969936="@id/2131442498" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <TextView ="@color/2131099778" android:id="@id/2131445419" ="wrap_content" ="wrap_content" ="1.0dip" android:text="@string/alpha_token_locked_tip" ="false" ="2.0dip" 2130969937="@id/2131442498" 2130969940="@id/2131442498" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end|bottom|center" android:id="@id/tvAmount" ="wrap_content" ="24.0dip" ="false" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131443095" ="wrap_content" ="wrap_content" ="ltr" 2130969917="2131438103" 2130969940="@id/tvAmount" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

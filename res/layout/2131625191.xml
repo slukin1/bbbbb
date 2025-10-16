@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center" android:id="@id/2131430911" ="63.0dip" ="63.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="63.0dip" ="63.0dip" ="@null" 2130971077="@drawable/2131234487" />
+    <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436706" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    <FrameLayout android:id="@id/2131450338" ="invisible" ="fill_parent" ="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131435693" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429929" ="#ff202630" ="visible" ="fill_parent" ="fill_parent" ="32.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433090" ="160.0dip" ="160.0dip" ="56.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433087" 2130971077="@drawable/2131234684" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433087" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234589" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433088" ="@drawable/2131234666" ="wrap_content" ="140.0dip" ="56.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433090" />
+        <LinearLayout ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" 2130969911="@id/2131433088" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131433088" 2130969942="0.0">
+            <TextView ="32.0sp" ="#fff0b90b" ="center" android:id="@id/2131441219" ="fill_parent" ="wrap_content" ="14.0dip" android:text="@string/world_leading" />
+            <TextView ="20.0sp" ="#fff0b90b" ="center" android:id="@id/2131441220" ="fill_parent" ="wrap_content" android:text="@string/cryptocurrency_exchange" />
+            <TextView ="12.0sp" ="#ffffffff" ="center" android:id="@id/2131441222" ="fill_parent" ="wrap_content" ="16.0dip" ="20.0dip" android:text="@string/trade_now" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

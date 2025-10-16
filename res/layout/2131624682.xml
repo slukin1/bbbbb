@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/2131430589" ="15.0dip" ="15.0dip" ="none" ="fill_parent" ="fill_parent" ="@id/2131439375" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="12.0sp" ="@color/2131103031" android:id="@id/2131446166" ="visible" ="fill_parent" ="wrap_content" ="16.0dip" ="20.0dip" style="@style/2132149461" />
+            <com.binance.content.internal.view.ContentInputEditView android:id="@id/2131433489" ="fill_parent" ="wrap_content" ="20.0dip" 2130969151="Enter amount" 2130969152="Total Box Amount" />
+            <com.binance.content.internal.view.ContentInputEditView android:id="@id/2131433502" ="fill_parent" ="wrap_content" ="20.0dip" 2130969151="Enter" 2130969152="Enter your question" />
+            <com.binance.content.internal.view.ContentInputEditView android:id="@id/2131433486" ="fill_parent" ="wrap_content" ="20.0dip" 2130969151="Enter" 2130969152="Enter standard answer" />
+            <com.binance.content.internal.view.ContentInputEditView android:id="@id/2131433487" ="fill_parent" ="wrap_content" ="20.0dip" 2130969151="Enter prompt" 2130969152="Answer prompt" />
+            <com.binance.content.internal.view.ContentInputEditView android:id="@id/2131433491" ="fill_parent" ="wrap_content" ="20.0dip" 2130969151="Enter number" 2130969152="Number of gifts" />
+            <TextView ="@color/2131099778" android:id="@id/2131448520" ="visible" ="fill_parent" ="wrap_content" ="6.0dip" android:text="@string/content_cryptobox_period_title" style="@style/2132149450" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435263" ="fill_parent" ="wrap_content" ="14.0dip" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446449" ="40.0dip" ="visible" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/2131441078" ="@color/2131099751" ="fill_parent" ="1.0dip" ="@id/2131439375" />
+    <RelativeLayout android:id="@id/2131439375" ="15.0dip" ="15.0dip" ="fill_parent" ="64.0dip" ="true">
+        <TextView ="@color/2131102769" android:id="@id/2131445630" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/pos_total_amount" style="@style/2132149384" />
+        <TextView ="@color/2131102398" android:id="@id/tv_total_amount" ="wrap_content" ="wrap_content" ="2.0dip" ="@id/2131445630" style="@style/2132149450" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429009" ="145.0dip" ="64.0dip" ="12.0dip" ="12.0dip" android:text="@string/oauth_continue" ="12.0dip" ="true" style="@style/2132149371" />
+    </RelativeLayout>
+    <ProgressBar ="center" android:id="@id/2131438676" ="gone" ="35.0dip" ="35.0dip" ="true" />
+</RelativeLayout>

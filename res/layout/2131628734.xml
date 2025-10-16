@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="54.0dip" ="15.0dip" ="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440795" ="115.0dip" ="54.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivMedal" ="gone" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236509" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tvRanking" ="@drawable/2131236475" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="ivMedal,tvRanking" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="0.0dip" ="wrap_content" ="true" ="5.0dip" 2130969912="@id/2131442598" 2130969917="2131438103" 2130969936="@id/2131428303" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131442598" ="0.0dip" ="wrap_content" ="true" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428303" 2130969940="@id/tvSymbol" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.finance.strategy.framework.widgets.StrategyPoolScrollView android:id="@id/2131440787" ="fill_parent" ="54.0dip">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131440786" ="true" ="wrap_content" ="fill_parent" ="0.0dip" ="15.0dip" />
+        </RelativeLayout>
+    </com.finance.strategy.framework.widgets.StrategyPoolScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

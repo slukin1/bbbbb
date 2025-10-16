@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="wrap_content" ="?2130968589" ="4.0dip" 2130971343="@style/2132148968" />
+        <androidx.fragment.app.FragmentContainerView android:id="@id/2131432939" ="fill_parent" ="fill_parent" ="@id/2131441601" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131436707" ="gone" ="fill_parent" ="fill_parent">
+        <include layout="@layout/onfido_progress_layout" />
+        <include layout="@layout/onfido_watermark_layout" />
+    </RelativeLayout>
+</FrameLayout>

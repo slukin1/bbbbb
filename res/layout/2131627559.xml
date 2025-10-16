@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" android:id="@id/2131432832" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="start" ="vertical" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969918="@id/2131432079" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvPrice" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="false" ="16.0dip" style="@style/2132148740" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/flow_currency_and_change_percentage" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442429" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" 2130969905="true" style="@style/2132148737" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442471" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148736" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131441117" ="gone" ="fill_parent" ="16.0dip" ="16.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131442525" ="wrap_content" ="wrap_content" ="80.0dip" ="1" ="false" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149388" />
+            <ImageView android:id="@id/2131438856" ="wrap_content" ="wrap_content" ="@null" ="5.0dip" ="5.0dip" 2130971077="@drawable/2131234971" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131444245" ="wrap_content" ="wrap_content" ="80.0dip" ="1" ="false" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149388" />
+            <ImageView android:id="@id/2131427536" ="wrap_content" ="wrap_content" ="@null" ="5.0dip" 2130971077="@drawable/2131234971" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131442016" ="wrap_content" ="wrap_content" ="80.0dip" ="1" ="false" ="5.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149388" />
+            <ImageView android:id="@id/2131431730" ="wrap_content" ="wrap_content" ="@null" ="5.0dip" 2130971077="@drawable/2131234971" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" android:id="@id/2131443077" ="0.0dip" ="wrap_content" ="80.0dip" ="1" ="false" ="1.0" ="5.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149388" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include layout="@layout/2131627556" />
+</androidx.constraintlayout.widget.ConstraintLayout>

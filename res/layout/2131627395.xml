@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433544" ="71.0dip" ="71.0dip" ="8.0dip" 2130969912="@id/2131433547" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" 2130971077="@drawable/2131233765" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131433547" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/alpha_market_token_delisted" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433544" />
+</merge>

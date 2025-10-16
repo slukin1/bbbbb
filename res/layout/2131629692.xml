@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131435185" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" 2130969837="1000" 2130969838="@drawable/2131237097" 2130969839="@drawable/2131237100" 2130969840="@string/options_position_guide_banner_title" 2130969843="1" />
+</LinearLayout>

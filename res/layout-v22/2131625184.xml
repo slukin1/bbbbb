@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232490" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433298" ="60.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238414" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvHeader" ="wrap_content" ="wrap_content" ="16.0dip" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433298" style="@style/2132149425" />
+    <ScrollView android:id="@id/2131435391" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvHeader">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099785" ="center" android:id="@id/2131442581" ="0.0dip" ="wrap_content" android:text="@string/fiat_kyc_account_limit_increase_to" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131443532" ="gone" ="0.0dip" ="wrap_content" ="6.0dip" ="1" ="uniform" ="1.0sp" ="9.0sp" 2130968701="9.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442581" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="16.0dip" ="6.0dip" ="6.0dip" 2130969311="@drawable/2131234482" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443532" style="@style/2132149374" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.major.android.uikit.button.KitButton ="end" ="center" android:id="@id/2131428837" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/margin_start_now" 2130969173="4" 2130969912="@id/2131428716" 2130969940="@id/2131435391" 2130969957="@dimen/2131166156" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428716" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" android:text="@string/string_cancel_open_order" ="@id/2131428837" 2130969173="4" 2130969912="@id/2131442360" 2130969940="@id/2131428837" 2130969962="@dimen/2131166156" 2130971472="2" />
+    <TextView android:id="@id/2131442360" ="wrap_content" ="wrap_content" android:text="@string/fiat_kyc_learn_more_in" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

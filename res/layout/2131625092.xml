@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433719" ="60.0dip" ="60.0dip" ="fill_parent" ="wrap_content" ="fitCenter" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234216" />
+    <TextView ="bold" ="@color/2131099764" ="start" android:id="@id/2131442404" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/ocbs_string_what_is_cvv" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433719" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131442403" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_cvv_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442404" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428714" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/OK" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442403" />
+</androidx.constraintlayout.widget.ConstraintLayout>

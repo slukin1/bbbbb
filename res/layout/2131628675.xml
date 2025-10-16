@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131440749" ="gone" ="fill_parent" ="fill_parent" />
+    <TextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/tv_empty" ="visible" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/no_records_found" ="15.0dip" 2130969314="@drawable/2131233601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+</FrameLayout>

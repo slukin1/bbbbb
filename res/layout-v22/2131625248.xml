@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430926" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131431321" ="fill_parent" ="wrap_content" 2130968735="@color/2131099875" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131437464" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431321">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436865" ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432890" ="gone" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+                <TextView ="@color/2131099778" ="center_vertical" android:id="@id/tvHistoryTitle" ="wrap_content" ="38.0dip" android:text="@string/_history" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430809" ="16.0dip" ="16.0dip" ="@drawable/2131237186" ="@color/2131099738" ="11.0dip" 2130969911="@id/tvHistoryTitle" 2130969917="2131438103" 2130969941="@id/tvHistoryTitle" />
+                <com.binance.ocbs.widgets.FlowLayout android:id="@id/2131432892" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="@dimen/2131166184" 2130969459="@dimen/2131166156" 2130969462="1" 2130969937="2131438103" 2130969940="@id/tvHistoryTitle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="14.0sp" ="normal" ="@color/2131099778" ="center_vertical" android:id="@id/2131444321" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="38.0dip" ="12.0dip" android:text="@string/ocbs_string_recommended" ="15.0dip" 2130969940="@id/2131432890" style="@style/2132149450" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438994" ="fill_parent" ="wrap_content" ="false" 2130969940="@id/2131444321" />
+            <TextView ="14.0sp" ="normal" ="@color/2131099778" ="center_vertical" android:id="@id/2131442074" ="15.0dip" ="15.0dip" ="fill_parent" ="38.0dip" android:text="@string/ocbs_string_all_currencies" ="15.0dip" 2130969940="@id/2131438994" style="@style/2132149450" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131427763" ="fill_parent" ="wrap_content" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442074" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/2131431942" ="wrap_content" ="0.0dip" ="80.0dip" ="40.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131431321">
+        <com.binance.hydrogen.widgets.sidebar.BubbleScroller ="end" android:id="@id/2131429131" ="10.0dip" ="visible" ="16.0dip" ="fill_parent" 2130968837="@color/2131103064" 2130968838="@dimen/2131167696" 2130968839="@color/2131099764" 2130968840="@color/2131099778" 2130968841="@dimen/2131167696" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="15.0sp" ="@color/2131103030" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="108.0dip" android:text="@string/no_records_found" ="true" 2130969314="@drawable/2131238473" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431321" />
+</androidx.constraintlayout.widget.ConstraintLayout>

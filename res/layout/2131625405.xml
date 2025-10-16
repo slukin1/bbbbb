@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="240.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624294" />
+    <com.finance.framework.widget.recyclerview.MaxHeightRecyclerView android:id="@id/rvList" ="fill_parent" ="wrap_content" ="16.0dip" 2130970140="240.0dip" />
+</LinearLayout>

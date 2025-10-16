@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235577" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton ="end" android:id="@id/2131428996" ="?2130970780" ="20.0dip" ="20.0dip" ="15.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434870" ="96.0dip" ="96.0dip" ="20.0dip" 2130971077="@drawable/2131238405" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131446058" ="fill_parent" ="wrap_content" ="24.0dip" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="center" android:id="@id/2131445683" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131100443" ="center" android:id="@id/tv_feedback" ="fill_parent" ="wrap_content" ="10.0dip" ="20.0dip" ="22.0dip" style="@style/2132149450" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432248" ="visible" ="fill_parent" ="fill_parent">
+        <com.finance.kit.framework.widget.calendar.grocer.NestedScrollableHost2 android:id="@id/2131449932" ="fill_parent" ="wrap_content" ="41.0dip">
+            <com.finance.kit.framework.widget.calendar.month.MonthViewPager android:id="@id/2131449931" ="fill_parent" ="wrap_content" />
+        </com.finance.kit.framework.widget.calendar.grocer.NestedScrollableHost2>
+        <View android:id="@id/2131435855" ="#ffcfcfcf" ="fill_parent" ="1.0px" ="16.0dip" ="40.0dip" ="16.0dip" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="true">
+        <shape>
+            <size ="18.0dip" ="32.0dip" />
+            <corners ="6.0dip" />
+            <solid ="#fffcd535" />
+            <padding ="2.0dip" ="2.0dip" />
+        </shape>
+    </item>
+    <item ="false" ="false">
+        <shape>
+            <size ="18.0dip" ="32.0dip" />
+            <corners ="6.0dip" />
+            <solid ="@color/2131099726" />
+            <padding ="2.0dip" ="2.0dip" />
+        </shape>
+    </item>
+    <item ="true">
+        <shape>
+            <size ="18.0dip" ="32.0dip" />
+            <corners ="6.0dip" />
+            <solid ="#fffcd535" />
+            <padding ="2.0dip" ="2.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <size ="18.0dip" ="32.0dip" />
+            <corners ="6.0dip" />
+            <solid ="@color/2131099726" />
+            <padding ="2.0dip" ="2.0dip" />
+        </shape>
+    </item>
+</selector>

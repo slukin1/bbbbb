@@ -1,0 +1,113 @@
+.class public final Lcom/sumsub/sns/core/presentation/form/viewadapter/a;
+.super Lcom/sumsub/sns/core/presentation/form/viewadapter/l;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/sumsub/sns/core/presentation/form/viewadapter/l<",
+        "Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;",
+        "Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000,\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0010\u0002\n\u0002\u0008\u0005\u0008\u0000\u0018\u00002\u000e\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u00030\u0001B!\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u0012\u0006\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\t\u0010\nJ\'\u0010\r\u001a\u00020\u000c2\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0006\u001a\u00020\u00022\u0006\u0010\u0008\u001a\u00020\u000bH\u0014\u00a2\u0006\u0004\u0008\r\u0010\u000eR\u0016\u0010\u0011\u001a\u0004\u0018\u00010\u00058\u0002X\u0083\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010"
+    }
+    d2 = {
+        "Lcom/sumsub/sns/core/presentation/form/viewadapter/a;",
+        "Lcom/sumsub/sns/core/presentation/form/viewadapter/l;",
+        "Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;",
+        "Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;",
+        "p0",
+        "Lcom/sumsub/sns/core/presentation/form/c;",
+        "p1",
+        "Lcom/sumsub/sns/core/presentation/form/e;",
+        "p2",
+        "<init>",
+        "(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;Lcom/sumsub/sns/core/presentation/form/c;Lcom/sumsub/sns/core/presentation/form/e;)V",
+        "",
+        "",
+        "a",
+        "(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;I)V",
+        "d",
+        "Lcom/sumsub/sns/core/presentation/form/c;",
+        "callback"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final d:Lcom/sumsub/sns/core/presentation/form/c;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;Lcom/sumsub/sns/core/presentation/form/c;Lcom/sumsub/sns/core/presentation/form/e;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2, p3}, Lcom/sumsub/sns/core/presentation/form/viewadapter/l;-><init>(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBaseFieldView;Lcom/sumsub/sns/core/presentation/form/c;Lcom/sumsub/sns/core/presentation/form/e;)V
+
+    .line 2
+    iput-object p2, p0, Lcom/sumsub/sns/core/presentation/form/viewadapter/a;->d:Lcom/sumsub/sns/core/presentation/form/c;
+
+    return-void
+.end method
+
+.method public static final synthetic a(Lcom/sumsub/sns/core/presentation/form/viewadapter/a;)Lcom/sumsub/sns/core/presentation/form/c;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/sumsub/sns/core/presentation/form/viewadapter/a;->d:Lcom/sumsub/sns/core/presentation/form/c;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic a(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBaseFieldView;Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem;I)V
+    .locals 0
+
+    .line 2
+    check-cast p1, Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;
+
+    check-cast p2, Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;
+
+    invoke-virtual {p0, p1, p2, p3}, Lcom/sumsub/sns/core/presentation/form/viewadapter/a;->a(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;I)V
+
+    return-void
+.end method
+
+.method public final a(Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;I)V
+    .locals 0
+
+    .line 3
+    new-instance p3, Lcom/sumsub/sns/core/presentation/form/viewadapter/a$a;
+
+    invoke-direct {p3, p0, p2, p1}, Lcom/sumsub/sns/core/presentation/form/viewadapter/a$a;-><init>(Lcom/sumsub/sns/core/presentation/form/viewadapter/a;Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem$a;Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;)V
+
+    invoke-virtual {p1, p3}, Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;->setOnCheckedChanged(Lkotlin/jvm/functions/Function1;)V
+
+    .line 9
+    invoke-virtual {p2}, Lcom/sumsub/sns/internal/core/presentation/form/model/FormItem;->d()Lcom/sumsub/sns/internal/features/data/model/common/remote/response/f;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Lcom/sumsub/sns/internal/features/data/model/common/remote/response/f;->u()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Lcom/sumsub/sns/core/widget/applicantData/SNSApplicantDataBoolFieldView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method

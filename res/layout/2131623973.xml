@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="@color/2131099685" ="invisible" ="fill_parent" ="?2130968589" ="24.0dip" ="24.0dip" 2130969141="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131450354" ="wrap_content" ="wrap_content" ="24.0dip" ="6.0dip" ="24.0dip" android:text="@string/ms_login_welcome" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149416" />
+    <TextView ="@color/2131099764" android:id="@id/2131446057" ="fill_parent" ="wrap_content" ="24.0dip" ="6.0dip" ="24.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131450354" 2130969999="@dimen/2131166204" style="@style/2132149423" />
+    <TextView ="@color/2131099764" android:id="@id/2131445149" ="wrap_content" ="wrap_content" android:text="@string/ms_touch_id_tap_unlock" ="25.0dip" 2130969314="@drawable/2131232376" 2130969911="@id/2131432777" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131432777" style="@style/2132149446" />
+    <TextView ="#fff0b90b" android:id="@id/2131444209" ="10.0dip" ="wrap_content" ="wrap_content" ="34.0dip" android:text="@string/ms_touch_id_password_login" ="true" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432781" ="wrap_content" ="wrap_content" 2130969921="0.1" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432777" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

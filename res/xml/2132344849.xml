@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:motion="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition android:id="@id/2131441885" app:2130969123="@id/2131431371" app:2130969124="@id/2131440560" app:2130969323="300">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/2131439035" app:2130971436="2131441647" />
+    </Transition>
+    <Transition android:id="@id/2131441886" app:2130969123="@id/2131431382" app:2130969124="@id/2131440575" app:2130969323="300">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/2131439035" app:2130971436="2131441647" />
+    </Transition>
+    <Transition android:id="@id/2131441887" app:2130969123="@id/2131440589" app:2130969124="@id/2131440588" app:2130969323="300">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/2131439035" app:2130971436="2131441647" />
+    </Transition>
+    <Transition android:id="@id/2131441888" app:2130969123="@id/2131440590" app:2130969124="@id/2131440591" app:2130969323="300">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/2131439035" app:2130971436="2131441647" />
+    </Transition>
+    <Transition android:id="@id/2131441881" app:2130969123="@id/2131440583" app:2130969124="@id/2131440560" app:2130969323="300" />
+    <Transition android:id="@id/2131441882" app:2130969123="@id/2131440583" app:2130969124="@id/2131440584" app:2130969323="300">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/2131439035" app:2130971436="2131441647" />
+    </Transition>
+    <ConstraintSet android:id="@id/2131440588">
+        <Constraint android:id="@id/2131439835" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131432827" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969912="2131438103" />
+        <Constraint android:id="@id/2131438986" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131439835" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431056" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440589">
+        <Constraint android:id="@id/2131439835" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131432827" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131438986" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969911="@id/2131439835" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131439835" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440590">
+        <Constraint android:id="@id/2131432827" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131438986" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969912="2131438103" />
+        <Constraint android:id="@id/2131441077" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440560">
+        <Constraint android:id="@id/2131439835" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131432827" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131439835" />
+        <Constraint android:id="@id/2131438986" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+        <Constraint android:id="@id/2131441077" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431056" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131431371">
+        <Constraint android:id="@id/2131439835" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131432827" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969912="@id/2131438986" />
+        <Constraint android:id="@id/2131438986" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969912="@id/2131431056" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131439835" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969911="@id/2131439835" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131431382">
+        <Constraint android:id="@id/2131432827" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131438986" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0" app:2130969940="@id/2131432827" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431056" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440583">
+        <Constraint android:id="@id/2131439835" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:2130969912="2131438103" />
+        <Constraint android:id="@id/2131432827" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131438986" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969911="@id/2131432827" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431056" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440584">
+        <Constraint android:id="@id/2131439835" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" app:2130969912="2131438103" />
+        <Constraint android:id="@id/2131432827" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131439835" />
+        <Constraint android:id="@id/2131438986" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431056" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440591">
+        <Constraint android:id="@id/2131432827" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131438986" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131440575">
+        <Constraint android:id="@id/2131432827" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969941="2131438103" />
+        <Constraint android:id="@id/2131438986" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131432827" />
+        <Constraint android:id="@id/2131441077" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131431056" />
+        <Constraint android:id="@id/2131439035" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969940="@id/2131441077" />
+        <Constraint android:id="@id/2131431056" android:layout_width="fill_parent" android:layout_height="wrap_content" app:2130969940="@id/2131438986" />
+    </ConstraintSet>
+</MotionScene>

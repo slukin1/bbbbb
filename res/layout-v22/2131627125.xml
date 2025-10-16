@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433705" ="fill_parent" ="280.0dip" ="true" 2130969941="2131438103" />
+    <View ="@color/2131099751" ="fill_parent" ="1.0dip" 2130969940="@id/2131433705" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436300" ="@color/2131099685" ="15.0dip" ="20.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="32.0dip" ="@dimen/2131166184" 2130969940="@id/2131433705">
+        <TextView ="@color/2131099764" ="end" ="wrap_content" ="wrap_content" android:text="@string/earn_meet" ="1" ="false" style="@style/2132149424" />
+        <Space ="8.0dip" ="wrap_content" />
+        <TextView ="@color/2131099764" ="end" ="wrap_content" ="wrap_content" android:text="@string/launcher_switch_version" ="1" ="false" style="@style/2132149424" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View ="@color/2131099685" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131436300" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436301" ="@color/2131099685" ="15.0dip" ="10.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166184" 2130969940="@id/2131436300">
+        <LinearLayout ="fill_parent" ="wrap_content">
+            <ImageView ="20.0dip" ="20.0dip" ="@drawable/2131237037" ="5.0dip" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" android:text="@string/lite_to_pro_switch_tip1" ="2" ="false" style="@style/2132149346" />
+        </LinearLayout>
+        <LinearLayout ="fill_parent" ="wrap_content" ="12.0dip">
+            <ImageView ="20.0dip" ="20.0dip" ="@drawable/2131237037" ="5.0dip" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" android:text="@string/lite_to_pro_switch_tip2" ="2" ="false" style="@style/2132149346" />
+        </LinearLayout>
+        <LinearLayout ="fill_parent" ="wrap_content" ="12.0dip">
+            <ImageView ="20.0dip" ="20.0dip" ="@drawable/2131237037" ="5.0dip" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099778" ="end" ="wrap_content" ="wrap_content" android:text="@string/lite_to_pro_switch_tip3" ="2" ="false" style="@style/2132149346" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131444002" ="16.0dip" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/lite_to_pro_switch_tip4" ="3" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436300" style="@style/2132149346" />
+</androidx.constraintlayout.widget.ConstraintLayout>

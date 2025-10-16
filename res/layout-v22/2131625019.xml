@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="#00000000" ="fill_parent" ="112.0dip" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout ="fill_parent" ="fill_parent" 2130969046="2131429431" 2130969047="@style/2132148671" 2130969149="@color/2131103064" 2130969421="2131440560" 2130969425="@dimen/2131166184" 2130969426="@dimen/2131166259" 2130969427="@style/2132148672" 2130969974="2131439795|@null" app:2130971384="@string/future_preference" 2130971387="true">
+            <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" ="44.0dip" ="15.0dip" ="15.0dip" ="0.0dip" 2130969136="24.0dip" 2130969141="54.0dip" 2130969331="0.0dip" 2130969902="2131438344" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.binance.hydrogen.widgets.scroll.VerticalNestedScrollView ="fill_parent" ="fill_parent" ="true" 2130969901="@string/appbar_scrolling_view_behavior">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/2131448365" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/futures_preference_trading_configuration" ="@dimen/2131166184" style="@style/2132149450" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438364" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438368" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438354" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438357" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438371" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438363" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438360" ="fill_parent" ="wrap_content" />
+            <View android:id="@id/2131449537" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" />
+            <TextView ="@color/2131099778" android:id="@id/2131446788" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/trade_layout" ="@dimen/2131166184" style="@style/2132149450" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438367" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438369" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438366" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438355" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438361" ="fill_parent" ="wrap_content" />
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438365" ="fill_parent" ="wrap_content" />
+        </LinearLayout>
+    </com.binance.hydrogen.widgets.scroll.VerticalNestedScrollView>
+    <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/ivClose" ="?2130968587" ="5.0dip" ="visible" ="30.0dip" ="30.0dip" ="7.0dip" ="centerInside" ="@null" ="15.0dip" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

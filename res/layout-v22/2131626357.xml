@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131443324" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+    <LinearLayout ="horizontal" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166247">
+        <TextView ="0.0dip" ="wrap_content" android:text="@string/earn_supply_amount" ="1.0" ="16.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131444844" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166247">
+        <TextView ="0.0dip" ="wrap_content" android:text="@string/earn_estimate_interest_amount" ="1.0" ="16.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tvInterestAmount" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166247">
+        <TextView ="0.0dip" ="wrap_content" android:text="@string/earn_est_expiration_date" ="1.0" ="16.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131443036" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="16.0dip" />
+</LinearLayout>

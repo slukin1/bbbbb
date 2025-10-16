@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="@dimen/2131166264" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.scroll.CustomizeScrollView android:id="@id/2131449842" ="none" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969918="@id/2131449869" 2130969937="2131438103" 2130969941="2131438103">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449839" ="none" ="true" ="wrap_content" ="fill_parent" />
+        </RelativeLayout>
+    </com.finance.framework.widget.scroll.CustomizeScrollView>
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131449869" ="@color/2131099744" ="68.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="@id/2131429438" 2130969937="@id/2131429438" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131449870" ="wrap_content" ="wrap_content" style="@style/2132149454" />
+    </LinearLayout>
+    <com.finance.framework.widget.scroll.CustomizeScrollView android:id="@id/2131449843" ="none" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131449869" 2130969941="2131438103">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449840" ="none" ="true" ="wrap_content" ="fill_parent" />
+        </RelativeLayout>
+    </com.finance.framework.widget.scroll.CustomizeScrollView>
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131429438" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

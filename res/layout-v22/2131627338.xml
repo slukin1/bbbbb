@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446227" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/spot_select_time_period" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" 2130969962="@dimen/2131166188" style="@style/2132149384" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/date_flow_day" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969125="tv_last_twenty_four_hours,tv_last_two_weeks,tv_past_month" 2130969490="10.0dip" 2130969493="2131438085" 2130969940="@id/2131446227" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/tv_last_twenty_four_hours" ="@drawable/2131233750" ="0.0dip" ="36.0dip" android:text="@string/spot_last_24_hours" ="true" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/tv_last_two_weeks" ="@drawable/2131233750" ="0.0dip" ="36.0dip" android:text="@string/spot_export_history_time_2weeks" ="true" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/tv_past_month" ="@drawable/2131233750" ="0.0dip" ="36.0dip" android:text="@string/uikit_date_picker_one_month" ="true" style="@style/2132149350" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/date_flow_month" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969125="tv_past_three_months,tv_past_six_months,tv_within_six_months" 2130969490="10.0dip" 2130969493="2131438085" 2130969940="@id/date_flow_day" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/tv_past_three_months" ="@drawable/2131233750" ="0.0dip" ="36.0dip" android:text="@string/spot_export_history_time_3months" ="true" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/tv_past_six_months" ="@drawable/2131233750" ="0.0dip" ="36.0dip" android:text="@string/uikit_date_picker_six_months" ="true" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="middle" ="center" android:id="@id/tv_within_six_months" ="@drawable/2131233750" ="0.0dip" ="36.0dip" android:text="@string/spot_export_history_time_customize" ="true" style="@style/2132149454" />
+    <LinearLayout ="horizontal" android:id="@id/2131436606" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/date_flow_month">
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131444759" ="@drawable/2131233766" ="0.0dip" ="36.0dip" ="false" ="1.0" style="@style/2132149350" />
+        <TextView ="@color/2131099778" ="center" ="center_vertical" android:id="@id/2131445018" ="wrap_content" ="36.0dip" android:text="@string/to" ="14.0dip" ="14.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131100785" ="center" android:id="@id/2131442926" ="@drawable/2131233766" ="0.0dip" ="36.0dip" ="false" ="1.0" style="@style/2132149350" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131449214" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969940="@id/2131436606" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432418" ="wrap_content" ="wrap_content" 2130969125="date_flow_day,date_flow_month" />
+</merge>

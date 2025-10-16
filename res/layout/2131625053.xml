@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439492" ="@drawable/2131236021" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433199" ="15.0dip" ="50.0dip" ="50.0dip" ="@null" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="14.0dip" ="24.0dip" android:text="@string/bank_transfer_how_it_works" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131445236" ="wrap_content" ="wrap_content" ="28.0dip" ="20.0dip" android:text="@string/bank_transfer_transfer_money" ="30.0dip" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131445235" ="4.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/bank_transfer_transfer_money_desc" 2130969937="@id/2131445236" 2130969940="@id/2131445236" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444168" ="wrap_content" ="wrap_content" ="12.0dip" ="20.0dip" android:text="@string/bank_transfer_process_order" 2130969937="@id/2131445236" 2130969940="@id/2131445235" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131444166" ="4.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/bank_transfer_process_order_desc" 2130969937="@id/2131445236" 2130969940="@id/2131444168" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443184" ="wrap_content" ="wrap_content" ="12.0dip" ="20.0dip" android:text="@string/bank_transfer_funds_arrived" 2130969937="@id/2131445236" 2130969940="@id/2131444166" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131443183" ="4.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/bank_transfer_funds_arrived_desc" 2130969937="@id/2131445236" 2130969940="@id/2131443184" style="@style/2132149384" />
+    <ImageView android:id="@id/2131433284" ="wrap_content" ="wrap_content" ="@drawable/2131234313" ="@null" ="15.0dip" 2130969911="@id/2131445236" 2130969937="2131438103" 2130969941="@id/2131445236" />
+    <ImageView android:id="@id/2131433285" ="1.0dip" ="0.0dip" ="@drawable/2131234312" ="@null" 2130969911="@id/2131445235" 2130969917="@id/2131433284" 2130969937="@id/2131433284" 2130969941="@id/2131445235" />
+    <ImageView android:id="@id/2131433286" ="wrap_content" ="wrap_content" ="@drawable/2131234313" ="@null" 2130969911="@id/2131444168" 2130969937="@id/2131433284" 2130969941="@id/2131444168" />
+    <ImageView android:id="@id/2131433287" ="1.0dip" ="0.0dip" ="@drawable/2131234312" ="@null" 2130969911="@id/2131444166" 2130969917="@id/2131433284" 2130969937="@id/2131433284" 2130969941="@id/2131444166" />
+    <ImageView android:id="@id/2131433288" ="wrap_content" ="wrap_content" ="@drawable/2131234313" ="@null" 2130969911="@id/2131443184" 2130969937="@id/2131433284" 2130969941="@id/2131443184" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428836" ="fill_parent" ="48.0dip" ="24.0dip" android:text="@string/earn_tip_ok" ="15.0dip" ="15.0dip" 2130969940="@id/2131443183" />
+    <Space ="fill_parent" ="16.0dip" 2130969940="@id/2131428836" />
+</androidx.constraintlayout.widget.ConstraintLayout>

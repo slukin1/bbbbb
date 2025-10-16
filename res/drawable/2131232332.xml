@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="true">
+        <bitmap ="center" ="@drawable/2131232327" />
+    </item>
+    <item ="false">
+        <bitmap ="center" ="@drawable/2131232327" />
+    </item>
+    <item ="true">
+        <bitmap ="center" ="@drawable/2131232329" />
+    </item>
+    <item>
+        <bitmap ="center" ="@drawable/2131232328" />
+    </item>
+</selector>

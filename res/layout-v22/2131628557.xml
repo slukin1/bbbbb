@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440489" ="0.0dip" ="0.0dip" 2130969911="@id/tvAvblValue" 2130969917="@id/tvAvblValue" 2130969929="1.0" 2130969937="@id/2131442249" 2130969941="@id/tvAvblValue" 2130969944="1.0" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131442249" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/avbl" ="4.0dip" ="@dimen/2131166247" 2130969918="@id/tvAvblValue" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131440142" 2130970849="true" 2130971380="2131430667" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tvAvblValue" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="@dimen/2131166260" 2130969306="@drawable/2131237089" 2130969917="2131438103" 2130969936="@id/2131442249" 2130969940="@id/2131440142" style="@style/2132149382" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131442250" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131442249" style="@style/2132149384" />
+    <com.finance.commonbusiness.framework.widget.TwoHintsEditText android:id="@id/2131431450" ="fill_parent" ="wrap_content" ="4.0dip" 2130969360=">0" 2130969937="2131438103" 2130969941="2131438103" 2130971150="@string/spot_grid_investment_hint" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131442040" ="gone" ="wrap_content" ="wrap_content" android:text="@string/spot_grid_adjust_to" 2130969937="2131438103" 2130969940="@id/2131431450" style="@style/2132149377" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/2131440142" ="10.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131442040" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444213" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/futures_grid_manual_qty_order" 2130969937="2131438103" 2130969940="@id/2131442250" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvQtyPerOrderValue" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131444213" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

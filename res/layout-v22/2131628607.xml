@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429988" ="gone" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/announcement_container" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" 2130969941="2131438103" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/llSymbolAndTag" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" 2130969905="true" 2130969918="@id/ivSwitchSymbol" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/announcement_container">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" ="false" ="4.0dip" style="@style/2132149425" />
+        <com.finance.commonbusiness.feature.spot.widget.SpotPreMarketTagView android:id="@id/2131444122" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132148632" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivSwitchSymbol" ="20.0dip" ="20.0dip" ="@null" ="16.0dip" 2130969911="@id/llSymbolAndTag" 2130969918="@id/2131434244" 2130969936="@id/llSymbolAndTag" 2130969941="@id/llSymbolAndTag" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099851" android:id="@id/tvUpAndDown" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="9.0dip" android:text="+0.00%" ="1" ="false" ="ltr" ="@dimen/2131166247" 2130969905="true" 2130969937="@id/llSymbolAndTag" 2130969940="@id/llSymbolAndTag" style="@style/2132149454" />
+    <androidx.constraintlayout.helper.widget.Layer android:id="@id/2131436845" ="wrap_content" ="wrap_content" 2130969125="llSymbolAndTag,ivSwitchSymbol" 2130969937="2131438103" 2130969940="@id/announcement_container" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434244" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/llSymbolAndTag" 2130969918="@id/2131434251" 2130969941="@id/llSymbolAndTag" 2130971077="@drawable/2131237542" 2130971375="@color/2131100223" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434251" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/llSymbolAndTag" 2130969918="@id/2131434253" 2130969941="@id/llSymbolAndTag" 2130969958="@dimen/2131166175" 2130971077="@drawable/2131236989" 2130971375="@color/2131099738" />
+    <com.finance.kit.framework.widget.KitTradeMoreButton android:id="@id/2131434253" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/llSymbolAndTag" 2130969917="2131438103" 2130969941="@id/llSymbolAndTag" />
+    <Space android:id="@id/2131440423" ="fill_parent" ="12.0dip" 2130969940="@id/tvUpAndDown" />
+    <FrameLayout android:id="@id/2131430285" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440423" />
+    <FrameLayout android:id="@id/2131430308" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/2131430285" />
+</androidx.constraintlayout.widget.ConstraintLayout>

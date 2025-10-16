@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="15.0dip" ="15.0dip" ="fill_parent" ="56.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429322" ="24.0dip" ="24.0dip" ="false" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131448835" ="wrap_content" ="wrap_content" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131429322" 2130969941="2131438103" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433247" ="24.0dip" ="24.0dip" ="20.0dip" 2130969911="@id/2131433212" 2130969918="@id/2131433212" 2130969941="@id/2131433212" 2130971077="@drawable/2131237682" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433212" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237680" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

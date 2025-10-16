@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445306" ="fill_parent" ="wrap_content" android:text="@string/c2c_report_scammer_upload_proof_title" ="@font/2131296273" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445307" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="@font/2131296274" ="@dimen/2131166247" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445304" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_report_upload_file_desc" ="@font/2131296274" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449104" ="fill_parent" ="wrap_content" ="12.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

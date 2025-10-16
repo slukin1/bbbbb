@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout ="start|center|top" ="vertical" android:id="@id/2131438104" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131627156" />
+    <FrameLayout android:id="@id/2131430326" ="fill_parent" ="wrap_content" ="48.0dip">
+        <ImageView ="top" android:id="@id/2131439800" ="#1f000000" ="gone" ="fill_parent" ="1.0dip" ="@null" 2130968733="?android:colorForeground" />
+        <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="false" ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                <android.widget.Space android:id="@id/2131441200" ="gone" ="fill_parent" ="18.0dip" />
+                <TextView android:id="@android:id/message" ="?2130969269" ="?2130969269" ="fill_parent" ="wrap_content" style="?2130970086" />
+                <android.widget.Space android:id="@id/2131441199" ="gone" ="fill_parent" ="18.0dip" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <ImageView ="bottom" android:id="@id/2131439799" ="#1f000000" ="gone" ="fill_parent" ="1.0dip" ="@null" 2130968733="?android:colorForeground" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131430668" ="fill_parent" ="wrap_content" ="48.0dip">
+        <FrameLayout android:id="@id/2131430667" ="fill_parent" ="wrap_content" />
+    </FrameLayout>
+    <include ="fill_parent" ="wrap_content" layout="@layout/2131627155" />
+</androidx.appcompat.widget.AlertDialogLayout>

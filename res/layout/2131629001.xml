@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131435401" ="gone" ="fill_parent" ="wrap_content" />
+    <HorizontalScrollView ="horizontal" android:id="@id/2131435410" ="gone" ="none" ="fill_parent" ="wrap_content">
+        <RadioGroup ="horizontal" android:id="@id/2131431231" ="16.0dip" ="wrap_content" ="wrap_content" />
+    </HorizontalScrollView>
+    <com.major.android.uikit.datepicker.KitPeriodView android:id="@id/2131435495" ="10.0dip" ="10.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969370="2020-11-11" 2130971160="2018-10-10" 2130971414="to" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131441451" ="fill_parent" ="wrap_content" ="150.0dip" ="ltr">
+        <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131450437" ="0.0dip" ="fill_parent" ="1.0" />
+        <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131437111" ="0.0dip" ="fill_parent" ="1.0" />
+        <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131430793" ="0.0dip" ="fill_parent" ="1.0" />
+        <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131432945" ="0.0dip" ="fill_parent" ="1.0" />
+        <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/2131437076" ="0.0dip" ="fill_parent" ="1.0" />
+        <com.major.android.uikit.datepicker.wheelview.view.KitWheelView android:id="@id/second" ="0.0dip" ="fill_parent" ="1.0" />
+    </LinearLayout>
+</LinearLayout>

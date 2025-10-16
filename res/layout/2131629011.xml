@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" android:id="@id/2131449014" ="@color/2131099685" ="fill_parent" ="45.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131449017" ="@drawable/2131238491" ="true" ="0.0dip" ="32.0dip" ="1.0" ="12.0dip" ="12.0dip">
+        <ImageView ="center" android:id="@id/2131449016" ="20.0dip" ="20.0dip" ="fitCenter" ="12.0dip" ="10.0dip" 2130971077="@drawable/2131236630" 2130971375="@color/2131099738" />
+        <EditText ="@color/2131099764" ="@color/2131099762" ="start|center" android:id="@id/2131449015" ="@android:color/transparent" ="0.0dip" ="fill_parent" ="1" ="true" ="1.0" ="actionSearch" ="@drawable/2131238492" ="locale" ="viewStart" style="@style/2132149374" />
+        <ImageView ="center_vertical" android:id="@id/2131449018" ="2.0dip" ="invisible" ="20.0dip" ="20.0dip" ="fitCenter" ="8.0dip" 2130971077="@drawable/2131238455" />
+    </LinearLayout>
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131449013" ="wrap_content" ="fill_parent" ="15.0dip" style="@style/2132149450" />
+</LinearLayout>

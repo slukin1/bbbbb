@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236765" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131441558" ="wrap_content" ="50.0dip" android:text="@string/wallet_overview_new_user_buy_crypto" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="15.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131441558" />
+    <ViewStub android:id="@id/2131437717" ="@layout/2131630140" ="fill_parent" ="300.0dip" ="-80.0dip" 2130969940="@id/2131441558" />
+    <ViewStub android:id="@id/2131437719" ="@layout/2131629921" ="fill_parent" ="wrap_content" 2130969940="@id/2131441558" />
+</androidx.constraintlayout.widget.ConstraintLayout>

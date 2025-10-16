@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131440052" ="fill_parent" ="fill_parent" />
+    <LinearLayout ="vertical" android:id="@id/2131436462" ="@drawable/2131233207" ="fill_parent" ="wrap_content" 2130968769="true" 2130968771="0.0dip" 2130968774="true" 2130969901="@string/bottom_sheet_behavior" 2130969911="2131438103" 2130969931="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434394" ="6.0dip" ="6.0dip" ="fill_parent" ="wrap_content" 2130971077="@drawable/2131233208" 2130971375="@color/2131099725" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="50.0dip" android:text="@string/share" style="@style/2132149425" />
+        <LinearLayout ="center_horizontal" ="horizontal" android:id="@id/2131429246" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="16.0dip">
+            <ImageView ="wrap_content" ="wrap_content" ="@drawable/2131233210" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_share_campaign_title" ="2.0dip" style="@style/2132149361" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131440055" ="gone" ="fill_parent" ="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="wrap_content" />
+        <View ="fill_parent" ="10.0dip" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

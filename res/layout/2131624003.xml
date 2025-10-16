@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441619" ="12.0dip" ="visible" ="44.0dip" ="44.0dip" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441629" ="wrap_content" ="wrap_content" ="false" 2130969911="@id/2131441619" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131441619" 2130969943="2131438085" style="@style/2132149425" />
+    <com.major.android.uikit2.image.KitRoundImageView android:id="@id/2131441613" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="8.0dip" 2130969911="@id/2131441629" 2130969918="@id/2131441629" 2130969941="@id/2131441629" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441612" ="@drawable/2131236001" ="1.0dip" ="9.0dip" ="9.0dip" ="fitXY" ="@color/2131099685" 2130969911="@id/2131441613" 2130969917="@id/2131441613" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131435069" ="fill_parent" ="0.0dip" 2130969912="@id/2131429098" 2130969940="@id/2131441619" 2130971089="false" 2130971098="true" 2130971105="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" ="16.0dip" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428988" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/_buy" ="15.0dip" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131429098" 2130969937="2131438103" style="@style/2132148693" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429098" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/_sell" ="8.0dip" 2130969911="2131438103" 2130969918="@id/btn_transfer" 2130969936="@id/2131428988" 2130969958="@dimen/2131166184" 2130969961="@dimen/2131166184" style="@style/2132148698" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_transfer" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/alpha_transfer_in" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131429098" 2130969961="@dimen/2131166286" style="@style/2132148698" />
+</androidx.constraintlayout.widget.ConstraintLayout>

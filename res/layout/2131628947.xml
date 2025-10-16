@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="8.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton ="16.0sp" ="#ffffffff" ="center" android:id="@id/2131429175" ="@drawable/2131236689" ="10.0dip" ="0.0dip" ="wrap_content" ="?android:selectableItemBackground" ="@font/2131296282" ="center" ="11.0dip" ="5.0dip" ="@null" 2130969918="@id/2131439949" 2130969937="@id/2131432755" 2130969941="@id/2131430657" style="?android:selectableItemBackground" />
+    <androidx.appcompat.widget.AppCompatButton ="16.0sp" ="#ffffffff" ="center" android:id="@id/2131439949" ="@drawable/2131236726" ="10.0dip" ="0.0dip" ="wrap_content" ="?android:selectableItemBackground" ="@font/2131296282" ="center" ="5.0dip" ="10.0dip" ="@null" 2130969917="2131438103" 2130969936="@id/2131429175" 2130969941="@id/2131429175" style="?android:selectableItemBackground" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430657" ="2.0dip" ="24.0dip" ="24.0dip" ="fitXY" ="8.0dip" ="11.0dip" 2130969918="@id/2131432755" 2130969936="@id/2131427754" 2130969941="@id/2131427754" 2130971077="@drawable/2131238553" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427754" ="2.0dip" ="24.0dip" ="24.0dip" ="10.0dip" ="8.0dip" ="8.0dip" 2130969918="@id/2131430657" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238553" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969919="163.0dip" 2130969921="0.3" />
+    <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="#ff707a8a" android:id="@id/2131430658" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296281" ="center" 2130969917="@id/2131427754" 2130969937="@id/2131427754" 2130969940="@id/2131427754" />
+    <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="#ff707a8a" android:id="@id/2131427755" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296281" ="center" 2130969917="@id/2131430657" 2130969937="@id/2131430657" 2130969940="@id/2131430657" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433417" ="135.0dip" ="5.0dip" ="31.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429175" 2130971077="@drawable/2131238550" />
+</androidx.constraintlayout.widget.ConstraintLayout>

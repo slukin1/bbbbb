@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131435457" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437883" ="12.0dip" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <View ="0.0dip" ="158.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131428794" ="48.0dip" ="48.0dip" 2130971077="@drawable/2131233154" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131444325" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/content_live_option_title" ="@dimen/2131166184" style="@style/2132149444" />
+    <LinearLayout ="horizontal" android:id="@id/2131435382" ="@drawable/2131233199" ="16.0dip" ="28.0dip" ="16.0dip" ="28.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166188" ="@dimen/2131166220">
+        <LinearLayout ="center_vertical" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_live_chat_room" style="@style/2132149463" />
+            <TextView ="@color/2131099671" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/content_live_chat_room_tip2" style="@style/2132149394" />
+            <TextView ="@color/2131099671" ="wrap_content" ="wrap_content" android:text="@string/content_live_chat_room_tip1" style="@style/2132149394" />
+        </LinearLayout>
+        <View ="16.0dip" ="0.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="132.0dip" ="88.0dip" 2130971077="@drawable/2131233163" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131435500" ="@drawable/2131233199" ="16.0dip" ="28.0dip" ="16.0dip" ="28.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166188" ="@dimen/2131166220">
+        <LinearLayout ="center_vertical" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_live_pc_streaming" style="@style/2132149463" />
+            <TextView ="@color/2131099671" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/content_live_pc_streaming_tip1" style="@style/2132149394" />
+            <TextView ="@color/2131099671" ="wrap_content" ="wrap_content" android:text="@string/content_live_pc_streaming_tip2" style="@style/2132149394" />
+            <TextView ="@color/2131099671" ="wrap_content" ="wrap_content" android:text="@string/content_live_pc_streaming_tip3" style="@style/2132149394" />
+        </LinearLayout>
+        <View ="16.0dip" ="0.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="132.0dip" ="88.0dip" 2130971077="@drawable/2131233164" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/2131430875" ="fill_parent" ="0.0dip" ="true" ="1.0">
+        <com.binance.ocbs.sdk.widgets.OcbsInswitchOfflineDetailView android:id="@id/2131430878" ="fill_parent" ="wrap_content" />
+    </ScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428707" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/done" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430875" style="@style/2132148696" />
+</LinearLayout>

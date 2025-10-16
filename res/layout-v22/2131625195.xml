@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439486" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="15.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131442826" ="wrap_content" ="wrap_content" ="14.0dip" ="14.0dip" android:text="@string/_filter" ="15.0dip" ="@dimen/2131166179" style="@style/2132149425" />
+            <TextView ="@color/2131099778" android:id="@id/tvDateTitle" ="wrap_content" ="wrap_content" android:text="@string/earn_dates" ="15.0dip" style="@style/2132149384" />
+            <FrameLayout android:id="@id/2131430774" ="fill_parent" ="wrap_content" />
+            <TextView ="@color/2131099778" android:id="@id/2131445993" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_borrowed_coin" ="15.0dip" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131447728" ="@drawable/2131232475" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@color/2131099744" ="@dimen/2131166184" ="8.0dip" 2130969306="@drawable/2131237003" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/2131444007" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_collateral_coin" ="15.0dip" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131444560" ="@drawable/2131232475" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@color/2131099744" ="@dimen/2131166184" ="8.0dip" 2130969306="@drawable/2131237003" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/2131444997" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/earn_adjust_direction" ="@dimen/2131166184" style="@style/2132149384" />
+            <RadioGroup ="horizontal" android:id="@id/2131439215" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@drawable/2131233334" ="middle" ="@dimen/2131166184">
+                <RadioButton android:id="@id/2131438879" android:text="@string/earn_both" ="1.0" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438874" android:text="@string/wallet_balance_history_title_add" ="1.0" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438891" android:text="@string/earn_reduce" ="1.0" style="@style/2132148773" />
+            </RadioGroup>
+            <TextView ="@color/2131099778" android:id="@id/2131445001" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/status" ="15.0dip" style="@style/2132149384" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439219" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                <RadioButton android:id="@id/2131438876" android:text="@string/_all" 2130969918="@id/2131438897" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438897" android:text="@string/success" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131438876" 2130969941="2131438103" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438890" ="10.0dip" android:text="@string/lend_pending" 2130969918="@id/2131438881" 2130969937="2131438103" 2130969940="@id/2131438876" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438881" ="10.0dip" android:text="@string/lend_failed" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131438890" 2130969940="@id/2131438897" style="@style/2132148773" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131445011" ="visible" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_loan_subscribe_type" ="15.0dip" style="@style/2132149384" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430261" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                <RadioButton android:id="@id/2131438877" android:text="@string/_all" 2130969918="@id/2131438878" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438878" android:text="@string/_borrow" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131438877" 2130969941="2131438103" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438875" ="10.0dip" android:text="@string/margin_loan_add_collateral" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438877" style="@style/2132148773" />
+                <RadioButton android:id="@id/2131438888" ="10.0dip" android:text="@string/earn_loan_subscription_type_3" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438875" style="@style/2132148773" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="bottom" ="horizontal" android:id="@id/2131436695" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428877" ="0.0dip" ="wrap_content" android:text="@string/reset" ="1.0" ="15.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

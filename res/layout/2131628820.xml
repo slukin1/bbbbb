@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.4" />
+    <TextView ="@color/2131099685" android:id="@id/2131442327" ="fill_parent" ="wrap_content" android:text="@string/ocbs_string_binance_fee" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099685" android:id="@id/2131442328" ="wrap_content" ="wrap_content" 2130969911="@id/2131442327" 2130969917="2131438103" 2130969941="@id/2131442327" style="@style/2132149384" />
+    <TextView ="@color/2131099685" android:id="@id/tvNetworkFeeTitle" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_network_fee" 2130969937="2131438103" 2130969940="@id/2131442327" style="@style/2132149384" />
+    <TextView ="@color/2131099685" android:id="@id/tvNetworkFeeValue" ="wrap_content" ="wrap_content" 2130969911="@id/tvNetworkFeeTitle" 2130969917="2131438103" 2130969941="@id/tvNetworkFeeTitle" style="@style/2132149384" />
+</merge>

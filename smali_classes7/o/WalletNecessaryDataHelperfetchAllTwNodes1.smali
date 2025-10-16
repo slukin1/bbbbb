@@ -1,0 +1,2 @@
+.class public final Lo/WalletNecessaryDataHelperfetchAllTwNodes1;
+.super Lo/WalletNecessaryDataHelperfetchAllNetwork2;

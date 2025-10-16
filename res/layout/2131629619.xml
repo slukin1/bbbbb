@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441079" ="0.0dip" ="24.0dip" ="12.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_contract" ="@drawable/2131236699" ="wrap_content" ="22.0dip" ="16.0dip" ="8.0dip" ="4.0dip" 2130969937="@id/2131441079" 2130969940="@id/2131441079" style="@style/2132149454" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="0.0dip" ="0.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_contract">
+        <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent">
+            <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438431" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438408" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438406" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438418" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438424" ="fill_parent" ="wrap_content" />
+                <Space ="1.0dip" ="20.0dip" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

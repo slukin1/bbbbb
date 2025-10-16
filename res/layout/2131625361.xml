@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="60.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433920" ="wrap_content" ="wrap_content" ="@drawable/2131238132" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/tvName" ="wrap_content" ="wrap_content" ="8.0dip" 2130969912="@id/tvAmount" 2130969936="@id/2131433920" 2130969941="2131438103" 2130969942="0.5" 2130969943="2131438085" style="@style/2132149446" />
+    <TextView android:id="@id/tvAmount" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="@id/tvName" 2130969940="@id/tvName" style="@style/2132149384" />
+    <TextView ="@color/2131099787" android:id="@id/2131443911" ="wrap_content" ="wrap_content" android:text="@string/event_select_account_open" 2130969911="2131438103" 2130969918="@id/2131433840" 2130969941="2131438103" style="@style/2132149374" />
+    <ImageView android:id="@id/2131433840" ="wrap_content" ="wrap_content" ="@drawable/2131237037" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

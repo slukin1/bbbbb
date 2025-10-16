@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="true" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/sns_center_screen" ="1.0dip" ="1.0dip" 2130969921="0.5" />
+    <View android:id="@id/sns_progress_bg" ="0.0dip" ="0.0dip" 2130969911="@id/sns_progress_text" 2130969917="@id/sns_barrier_end" 2130969937="@id/sns_barrier_start" 2130969941="@id/sns_progress_bar" />
+    <com.sumsub.sns.core.widget.SNSProgressBarView android:id="@id/sns_progress_bar" ="@dimen/sns_margin_medium" ="wrap_content" ="wrap_content" ="true" 2130969912="@id/sns_progress_text" 2130969917="2131438103" 2130969937="2131438103" style="?android:progressBarStyle" />
+    <com.sumsub.sns.core.widget.SNSCaptionTextView ="center" android:id="@id/sns_progress_text" ="@dimen/sns_margin_medium" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" 2130969912="@id/sns_center_screen" 2130969917="2131438103" 2130969937="2131438103" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/sns_barrier_start" ="0.0dip" ="0.0dip" 2130968759="2131440560" 2130969125="sns_progress_text,sns_progress_bar" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/sns_barrier_end" ="0.0dip" ="0.0dip" 2130968759="2131431371" 2130969125="sns_progress_text,sns_progress_bar" />
+</merge>

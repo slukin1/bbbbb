@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvHead" ="wrap_content" ="wrap_content" android:text="@string/earn_daily_yield_utilize_staking" 2130969904="true" 2130969905="true" 2130969918="@id/ivEth" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+    <ImageView android:id="@id/ivEth" ="64.0dip" ="64.0dip" ="10.0dip" ="10.0dip" 2130969917="2131438103" 2130969936="@id/tvHead" 2130969941="@id/tvHead" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvHead,ivEth" />
+    <TextView ="@color/2131099787" android:id="@id/2131445431" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_what_is_weth" 2130969937="2131438103" 2130969940="@id/2131428303" style="@style/2132149374" />
+    <androidx.constraintlayout.helper.widget.Layer ="@drawable/2131232712" ="15.0dip" ="wrap_content" ="wrap_content" 2130969125="tvReferenceAprLabel,tvReferenceApr,textView27,viewConversionRatio" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445431" />
+    <TextView ="@color/2131099764" android:id="@id/tvReferenceAprLabel" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_reference_apr" ="5.0dip" ="15.0dip" 2130969312="@color/2131099764" 2130969937="2131438103" 2130969940="@id/2131445431" style="@style/2132149361" />
+    <TextView ="@color/2131099851" android:id="@id/tvReferenceApr" ="wrap_content" ="wrap_content" 2130969937="@id/tvReferenceAprLabel" 2130969940="@id/tvReferenceAprLabel" style="@style/2132149419" />
+    <TextView ="@color/2131099764" android:id="@id/textView27" ="wrap_content" ="wrap_content" android:text="@string/earn_conversion_ratio" ="15.0dip" 2130969911="@id/tvReferenceAprLabel" 2130969917="2131438103" 2130969941="@id/tvReferenceAprLabel" style="@style/2132149384" />
+    <include android:id="@id/viewConversionRatio" ="wrap_content" ="wrap_content" 2130969911="@id/tvReferenceApr" 2130969917="@id/textView27" 2130969941="@id/tvReferenceApr" layout="@layout/2131629315" />
+    <androidx.constraintlayout.widget.Placeholder ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvReferenceApr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

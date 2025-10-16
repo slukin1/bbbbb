@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_ad_closed_ads" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438725" ="fill_parent" ="fill_parent" ="45.0dip" 2130969940="@id/2131441601">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439083" ="fill_parent" ="fill_parent" ="8.0dip" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <LinearLayout ="vertical" android:id="@id/2131431363" ="@color/2131099676" ="gone" ="fill_parent" ="fill_parent" ="45.0dip" ="@id/2131441601" 2130969940="@id/2131441601">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="100.0dip" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_mob_ad_manage_adhistory_label_noadhistory" ="@font/2131296274" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

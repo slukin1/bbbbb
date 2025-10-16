@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.framework.widget.slide.AnnouncementItemView ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="16.0dip" ="16.0dip" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+    <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099764" android:id="@id/2131446058" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" 2130969382="@color/2131099787" 2130969383="@null" 2130969391="2" 2130969394="false" 2130969395="true" 2130969396="true" 2130969398="true" 2130969399="false" 2130969400="false" 2130969401="false" 2130969911="2131438103" 2130969918="@id/2131434514" 2130969936="@id/2131434597" 2130969941="2131438103" 2130969961="@dimen/2131166188" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434514" ="gone" ="16.0dip" ="16.0dip" ="centerInside" ="4.0dip" 2130969911="2131438103" 2130969918="@id/2131434434" 2130971077="@drawable/2131237050" 2130971375="@color/2131099764" />
+</com.finance.framework.widget.slide.AnnouncementItemView>

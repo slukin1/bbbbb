@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition android:id="@id/2131431853" app:2130969124="@id/2131439772" app:2130969323="0" />
+    <ConstraintSet android:id="@id/2131439772">
+        <Constraint android:id="@id/2131437855">
+            <Layout android:layout_width="240.0dip" android:layout_height="48.0dip" android:layout_marginTop="60.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430605" />
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430605">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131439095">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131439096">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430605" />
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

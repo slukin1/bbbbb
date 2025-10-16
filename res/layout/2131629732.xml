@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434121" ="96.0dip" ="96.0dip" ="116.0dip" ="@drawable/2131238405" 2130969917="2131438103" 2130969927="0.497" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432581" ="visible" ="wrap_content" ="wrap_content" 2130969125="viewFrame,txtOrderPlaced,containerInfo2,txtOrderPlacedDesc,btnCheckOrder,btnBackToOptions" />
+    <View android:id="@id/viewFrame" ="fill_parent" ="0.0dip" ="250.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/txtOrderPlaced" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/voptions_lite_order_placed" 2130969917="@id/viewFrame" 2130969937="@id/viewFrame" 2130969940="@id/2131434121" style="@style/2132149425" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/containerInfo2" ="@drawable/2131236713" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" 2130969917="@id/viewFrame" 2130969927="0.0" 2130969937="@id/viewFrame" 2130969940="@id/txtOrderPlacedDesc">
+        <TextView ="@color/2131099764" android:id="@id/2131448837" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131442137" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/amount" 2130969937="@id/2131448837" 2130969940="@id/2131448837" style="@style/2132149355" />
+        <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="@id/2131442137" 2130969917="2131438103" 2130969940="@id/2131448837" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131444134" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/_price" 2130969937="@id/2131448837" 2130969940="@id/2131442137" style="@style/2132149355" />
+        <TextView ="@color/2131099764" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" 2130969911="@id/2131444134" 2130969917="2131438103" 2130969941="@id/2131444134" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448736" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/expiry_date" 2130969937="@id/2131448837" 2130969940="@id/2131444134" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tvDate" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131448736" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099778" ="center" android:id="@id/txtOrderPlacedDesc" ="0.0dip" ="wrap_content" ="21.0dip" ="12.0dip" ="21.0dip" android:text="@string/voptions_lite_order_placed_desc" 2130969917="@id/viewFrame" 2130969937="@id/viewFrame" 2130969941="@id/viewFrame" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnBackToOptions" ="0.0dip" ="40.0dip" android:text="@string/voptions_lite_back_to_options" ="15.0dip" 2130969918="@id/btnCheckOrder" 2130969927="0.5" 2130969937="2131438103" 2130969941="@id/btnCheckOrder" 2130971472="2" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnCheckOrder" ="0.0dip" ="40.0dip" ="12.0dip" android:text="@string/voptions_lite_check_my_order" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/btnBackToOptions" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

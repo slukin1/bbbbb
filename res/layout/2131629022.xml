@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131441067" ="visible" ="1.0dip" ="0.0dip" 2130969912="@id/2131441045" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" 2130969944="1.0" />
+    <View android:id="@id/2131441047" ="1.0dip" ="0.0dip" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131441045" 2130969944="1.0" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441045" ="wrap_content" ="wrap_content" ="false" 2130969912="@id/2131441047" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131441067" style="@style/2132149470" />
+    <androidx.appcompat.widget.AppCompatTextView ="7.0sp" ="@color/2131099789" ="center" android:id="@id/2131441486" ="@drawable/2131238527" ="2.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" ="@font/2131296282" 2130969912="@id/2131441067" 2130969935="@id/2131441045" 2130969941="2131438103" />
+</merge>

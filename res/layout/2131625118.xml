@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="0.0dip" ="wrap_content" android:text="@string/earn_deactivate_and_redeem" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <ImageView android:id="@id/ivClose" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="@id/tvTitle" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/earn_deactivate_and_redeem_all_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428749" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/deactivate" 2130969940="@id/2131442581" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428750" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/earn_deactivate_and_redeem" 2130969940="@id/2131428749" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

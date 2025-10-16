@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="64.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/2131432954" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" class="com.binance.convert.v2.widget.SwitcherHoverCanvasView" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" ="horizontal" ="0.0dip" ="fill_parent" ="1.0">
+            <TextView ="@color/2131099778" android:id="@id/2131435816" ="wrap_content" ="wrap_content" 2130969912="@id/2131435817" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149386" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435814" ="20.0dip" ="20.0dip" 2130969911="@id/2131435817" 2130969918="@id/2131435817" 2130969928="2131438085" 2130969937="2131438103" 2130969941="@id/2131435817" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131435817" ="wrap_content" ="wrap_content" ="2.0dip" ="6.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131435814" 2130969940="@id/2131435816" style="@style/2132149446" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" ="horizontal" ="0.0dip" ="fill_parent" ="1.0">
+            <TextView ="@color/2131099778" android:id="@id/2131439248" ="wrap_content" ="wrap_content" 2130969912="@id/2131439249" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149386" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439245" ="20.0dip" ="20.0dip" 2130969911="@id/2131439249" 2130969918="@id/2131439249" 2130969928="2131438085" 2130969937="2131438103" 2130969941="@id/2131439249" />
+            <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131439249" ="wrap_content" ="wrap_content" ="2.0dip" ="6.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131439245" 2130969940="@id/2131439248" style="@style/2132149446" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

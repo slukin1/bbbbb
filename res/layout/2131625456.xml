@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" ="fill_parent" ="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="S" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="M" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="T" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="W" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="T" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="F" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" ="0.0dip" ="fill_parent" android:text="S" ="1" ="1.0" style="@style/2132149394" />
+</merge>

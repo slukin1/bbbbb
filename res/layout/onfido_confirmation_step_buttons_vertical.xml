@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131449318" ="fill_parent" ="wrap_content" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131429167" style="@style/2132148904" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131429169" ="8.0dip" 2130970348="@string/onfido_doc_confirmation_button_secondary_passport" 2130970350="@null" style="@style/2132148904" />
+</LinearLayout>

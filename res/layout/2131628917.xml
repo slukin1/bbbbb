@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448978" ="12.0dip" ="12.0dip" ="false" ="fill_parent" ="wrap_content" ="40.0dip" ="12.0dip" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.notification.VerticalPageIndicator android:id="@id/2131449321" ="3.0dip" ="3.0dip" ="11.0dip" ="32.0dip" 2130969918="@id/2131448983" 2130969937="2131438103" 2130969941="2131438103" 2130969958="4.0dip" 2130971568="3" 2130971569="1" />
+    <ImageView android:id="@id/2131448983" ="gone" ="16.0dip" ="16.0dip" ="1.0dip" ="centerInside" ="4.0dip" 2130969918="@id/2131448979" 2130969936="@id/2131449321" 2130969941="2131438103" 2130971077="@drawable/2131237095" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448979" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969918="@id/2131448985" 2130969923="2131450408" 2130969936="@id/2131448983" 2130969941="2131438103" 2130969942="0.0">
+        <TextView ="@color/2131099764" ="#fff0b90b" ="end" ="start" android:id="@id/2131448981" ="0.0dip" ="0.0dip" ="294.0dip" ="16.0dip" ="2" ="locale" 2130969911="2131438103" 2130969917="2131438103" 2130969923="2131450408" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" 2130969999="18.0dip" style="@style/2132149361" />
+        <TextView ="@color/2131099764" ="#fff0b90b" ="end" ="start" android:id="@id/2131448982" ="0.0dip" ="0.0dip" ="294.0dip" ="16.0dip" ="2" ="locale" 2130969911="2131438103" 2130969917="2131438103" 2130969923="2131450408" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" 2130969999="18.0dip" style="@style/2132149361" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448985" ="gone" ="wrap_content" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131448979" 2130969941="2131438103">
+        <ImageView android:id="@id/2131448984" ="gone" ="16.0dip" ="16.0dip" ="1.0dip" ="fitCenter" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969961="0.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

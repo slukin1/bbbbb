@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131430273" ="@color/2131099685" ="fill_parent" ="fill_parent">
+        <LinearLayout ="horizontal" android:id="@id/2131441617" ="fill_parent" ="44.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131441619" ="12.0dip" ="wrap_content" ="fill_parent" 2130971077="@drawable/2131237100" 2130971180="@null" 2130971375="@color/2131099764" />
+            <View ="0.0dip" ="0.0dip" ="1.0" />
+            <TextView ="@color/2131099787" ="center" android:id="@id/2131428763" ="15.0dip" ="15.0dip" ="gone" ="wrap_content" ="fill_parent" android:text="@string/content_post_drafts" ="@dimen/2131166184" style="@style/2132149450" />
+            <FrameLayout ="end|center" ="wrap_content" ="wrap_content" ="16.0dip">
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131428863" ="wrap_content" ="32.0dip" android:text="@string/content_publish" ="6.0dip" style="@style/2132149450" />
+                <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428886" ="@drawable/2131233011" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="gone" ="wrap_content" ="32.0dip" ="@dimen/2131166286" ="@dimen/2131166225">
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="#ff202630" 2130971077="@drawable/2131238211" 2130971180="@null" />
+                    <TextView ="#ff202630" android:id="@id/2131444538" ="wrap_content" ="wrap_content" android:text="@string/content_publish" style="@style/2132149450" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+            <com.binance.content.internal.editor.view.PostEditorScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" ="true">
+                <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                    <LinearLayout ="vertical" android:id="@id/2131435413" ="fill_parent" ="wrap_content" ="16.0dip" ="8.0dip" />
+                    <include android:id="@id/2131435496" ="gone" layout="@layout/2131624493" />
+                    <androidx.appcompat.widget.AppCompatTextView ="#ffe33b54" android:id="@id/2131444601" ="8.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@dimen/2131166286" style="@style/2132149350" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439918" ="fill_parent" ="wrap_content" ="8.0dip" ="never" ="16.0dip" ="16.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="3" />
+                    <androidx.appcompat.widget.AppCompatTextView ="#ffe33b54" android:id="@id/2131444602" ="8.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="8.0dip" ="16.0dip" ="@dimen/2131166188" ="@dimen/2131166286" style="@style/2132149350" />
+                    <FrameLayout android:id="@id/2131430522" ="gone" ="fill_parent" ="wrap_content" ="4.0dip">
+                        <androidx.compose.ui.platform.ComposeView android:id="@id/2131430523" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@dimen/2131166188" />
+                        <FrameLayout ="end|center|top" android:id="@id/2131428755" ="@drawable/2131232989" ="18.0dip" ="18.0dip" ="6.0dip" ="22.0dip">
+                            <androidx.appcompat.widget.AppCompatImageView ="center" ="12.0dip" ="12.0dip" ="#ffffffff" 2130971077="@drawable/2131237100" 2130971180="@null" />
+                        </FrameLayout>
+                    </FrameLayout>
+                    <include android:id="@id/2131438809" ="gone" layout="@layout/2131624760" />
+                    <androidx.compose.ui.platform.ComposeView android:id="@id/2131438812" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" />
+                    <androidx.compose.ui.platform.ComposeView android:id="@id/2131440048" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" />
+                </LinearLayout>
+            </com.binance.content.internal.editor.view.PostEditorScrollView>
+            <androidx.appcompat.widget.AppCompatImageView ="end|bottom|center" android:id="@id/2131428766" ="@color/2131099685" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="@color/2131099738" ="11.0dip" 2130971077="@drawable/2131238315" 2130971180="@null" />
+        </FrameLayout>
+        <FrameLayout ="fill_parent" ="wrap_content">
+            <LinearLayout ="center_vertical" ="bottom" ="vertical" android:id="@id/2131428560" ="fill_parent" ="wrap_content">
+                <FrameLayout ="fill_parent" ="wrap_content">
+                    <include android:id="@id/2131435347" layout="@layout/2131624480" />
+                    <include android:id="@id/2131435357" ="gone" layout="@layout/2131624481" />
+                </FrameLayout>
+                <View ="@color/2131100461" ="fill_parent" ="1.0px" />
+                <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="7.0dip" ="15.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428892" ="8.0dip" ="11.0dip" ="8.0dip" ="11.0dip" ="38.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166286" ="@dimen/2131166164" 2130971077="@drawable/2131237505" 2130971180="@null" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428802" ="8.0dip" ="11.0dip" ="8.0dip" ="11.0dip" ="38.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166286" ="@dimen/2131166164" 2130971077="@drawable/2131237331" 2130971180="@null" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428797" ="7.0dip" ="10.0dip" ="7.0dip" ="10.0dip" ="38.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166277" ="@dimen/2131166156" 2130971077="@drawable/2131237793" 2130971180="@null" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428800" ="7.0dip" ="10.0dip" ="7.0dip" ="10.0dip" ="38.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166277" ="@dimen/2131166156" 2130971077="@drawable/2131237833" 2130971180="@null" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428798" ="8.0dip" ="11.0dip" ="8.0dip" ="11.0dip" ="gone" ="38.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166286" ="@dimen/2131166164" 2130971077="@drawable/2131237434" 2130971180="@null" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428801" ="7.0dip" ="10.0dip" ="7.0dip" ="10.0dip" ="38.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166277" ="@dimen/2131166156" 2130971077="@drawable/2131237088" 2130971180="@null" />
+                    <View ="0.0dip" ="0.0dip" ="1.0" />
+                    <androidx.appcompat.widget.AppCompatTextView ="#ffe33b54" ="end|center" android:id="@id/2131443521" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" style="@style/2132149350" />
+                    <FrameLayout android:id="@id/2131435365" ="8.0dip" ="8.0dip" ="wrap_content" ="44.0dip" ="@dimen/2131166286">
+                        <com.binance.content.internal.editor.view.BullishBearishButton ="center" android:id="@id/2131429140" ="78.0dip" ="28.0dip" 2130969982="@string/content_feed_bullish_label" 2130969983="#ffffffff" 2130970670="@string/content_feed_bearish_label" 2130970671="#ffffffff" 2130970786="10.0sp" 2130971504="@color/2131099744" />
+                    </FrameLayout>
+                </LinearLayout>
+                <View android:id="@id/2131435407" ="@color/2131100461" ="fill_parent" ="1.0px" />
+                <include android:id="@id/2131435660" ="gone" layout="@layout/2131624700" />
+                <include android:id="@id/2131435398" ="gone" layout="@layout/2131624698" />
+                <include android:id="@id/2131435399" ="gone" layout="@layout/2131624699" />
+                <include android:id="@id/2131435534" ="gone" layout="@layout/2131624498" />
+            </LinearLayout>
+            <include android:id="@id/2131435548" ="gone" layout="@layout/2131624501" />
+            <include android:id="@id/2131435388" ="gone" layout="@layout/2131624485" />
+            <include android:id="@id/2131435463" ="gone" layout="@layout/2131624488" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131435481" ="@drawable/2131236694" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="44.0dip" ="15.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="@color/2131099764" 2130971077="@drawable/2131237095" 2130971180="@null" />
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" android:text="@string/content_post_editor_out_of_length" ="1.0" ="@dimen/2131166247" style="@style/2132149361" />
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="@color/2131099738" 2130971077="@drawable/2131237055" 2130971180="@null" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131430417" ="fill_parent" ="fill_parent" ="44.0dip" />
+    <LinearLayout ="bottom" ="vertical" android:id="@id/2131435440" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="44.0dip" ="@dimen/2131166286">
+        <LinearLayout ="vertical" android:id="@id/2131435439" ="gone" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_editor_hot_topic_section_text" ="4.0dip" style="@style/2132149446" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432032" ="fill_parent" ="wrap_content" ="4.0dip" ="4.0dip" ="@dimen/2131166247" 2130969467="0" 2130969468="2131450408" 2130969751="0" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131435573" ="gone" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/content_w2e_hot_activity" ="4.0dip" style="@style/2132149446" />
+            <LinearLayout ="horizontal" android:id="@id/2131435574" ="@drawable/2131233205" ="12.0dip" ="fill_parent" ="wrap_content" ="4.0dip" ="8.0dip" ="4.0dip" ="12.0dip" ="@dimen/2131166247">
+                <androidx.appcompat.widget.AppCompatImageView ="48.0dip" ="48.0dip" 2130971077="@drawable/2131233120" />
+                <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131445466" ="0.0dip" ="wrap_content" android:text="@string/content_post_editor_write_to_earn_tip" ="1.0" ="4.0dip" ="8.0dip" style="@style/2132149350" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

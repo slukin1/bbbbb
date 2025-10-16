@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="395.0dip" ="10.0dip" 2130969941="2131438103">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_average_price" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/wallet_pnl_average_price_explain" style="@style/2132149350" />
+            <TextView ="@color/2131099787" android:id="@id/2131438491" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_average_price_modify_link" style="@style/2132149374" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_pnl_highest_lowest" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/wallet_pnl_highest_lowest_explain" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_pnl_total_inflow" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/wallet_pnl_inflow_explain" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_pnl_total_outflow" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/wallet_pnl_outflow_explain" style="@style/2132149350" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131438490" ="fill_parent" ="45.0dip" ="15.0dip" android:text="@string/ok" 2130969940="2131438103" />
+</LinearLayout>

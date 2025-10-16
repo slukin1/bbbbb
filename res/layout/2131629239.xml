@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446220" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <View android:id="@id/2131449531" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446220" />
+    <com.binance.c2c.chat_new.widget.UserAvatarView android:id="@id/2131434349" ="@drawable/2131232480" ="gone" ="40.0dip" ="40.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131449531" 2130969962="@dimen/2131166153" />
+    <com.binance.c2c.chat_new.widget.ChatUserLabelView android:id="@id/2131447067" ="gone" ="0.0dip" ="wrap_content" ="6.0dip" 2130969917="2131438103" 2130969936="@id/2131434349" 2130969940="@id/2131449531" 2130969961="@dimen/2131166268" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="vertical" android:id="@id/2131436493" ="@drawable/2131232708" ="0.0dip" ="wrap_content" ="8.0dip" ="40.0dip" ="22.0dip" ="16.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131429402" 2130969940="@id/2131447067" 2130969946="2131450408" 2130969961="@dimen/2131166268" 2130969962="@dimen/2131166153">
+        <com.binance.c2c.chat_new.widget.ChatMessageContentLayout android:id="@id/2131430120" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" 2130969942="1.0">
+            <com.binance.c2c.chat_new.widget.ChatTextMessageView ="@color/2131099789" android:id="@id/2131446999" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" style="@style/2132149346" />
+            <com.binance.c2c.chat_new.widget.ChatMessageStatusView ="end|bottom|center" android:id="@id/2131440599" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" ="4.0dip" />
+        </com.binance.c2c.chat_new.widget.ChatMessageContentLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429805" ="10.0dip" ="10.0dip" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430120" 2130969942="1.0">
+            <View android:id="@id/view_line" ="@drawable/2131235998" ="fill_parent" ="0.5dip" ="@color/2131099751" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434378" ="gone" ="14.0dip" ="14.0dip" ="8.0dip" ="@color/2131099863" 2130969937="2131438103" 2130969940="@id/view_line" 2130971077="@drawable/2131237075" />
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099863" android:id="@id/2131445809" ="gone" ="0.0dip" ="wrap_content" ="8.0dip" ="false" ="@font/2131296274" ="4.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131434378" 2130969941="2131438103" 2130969946="2131450408" 2130969961="@dimen/2131166153" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" android:id="@id/2131448394" ="gone" ="0.0dip" ="wrap_content" ="6.0dip" android:text="@string/c2c_chat_message_sent" ="false" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131445809" 2130969946="2131450408" 2130969961="@dimen/2131166156" 2130969962="@dimen/2131166153" style="@style/2132149394" />
+            <com.airbnb.lottie.LottieAnimationView ="center" android:id="@id/2131436706" ="gone" ="26.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434832" ="gone" ="wrap_content" ="wrap_content" ="-5.0dip" 2130969911="@id/2131436493" 2130969936="@id/2131436493" 2130971077="@drawable/2131234185" 2130971375="@color/2131099710" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434780" ="gone" ="wrap_content" ="wrap_content" ="-5.0dip" 2130969911="@id/2131436493" 2130969918="@id/2131436493" 2130971077="@drawable/2131234184" 2130971375="@color/2131099763" />
+    <FrameLayout android:id="@id/2131432008" ="@drawable/2131232947" ="gone" ="20.0dip" ="20.0dip" ="4.0dip" ="@color/2131099804" 2130969911="@id/2131436493" 2130969918="@id/2131436493">
+        <androidx.appcompat.widget.AppCompatImageView ="center" ="12.0dip" ="12.0dip" ="1.0dip" 2130971077="@drawable/2131234183" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131431998" ="@drawable/2131232947" ="gone" ="20.0dip" ="20.0dip" ="4.0dip" ="@color/2131099804" 2130969911="@id/2131436493" 2130969936="@id/2131436493">
+        <androidx.appcompat.widget.AppCompatImageView ="center" ="12.0dip" ="12.0dip" ="1.0dip" 2130971077="@drawable/2131234183" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434781" ="gone" ="wrap_content" ="wrap_content" ="-5.0dip" ="-5.0dip" 2130969911="@id/2131436493" 2130969918="@id/2131436493" 2130971077="@drawable/2131234184" 2130971375="@color/2131099763" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434523" ="gone" ="20.0dip" ="20.0dip" ="10.0dip" 2130969911="@id/2131436493" 2130969918="@id/2131436493" 2130969941="@id/2131436493" 2130971077="@drawable/2131237097" 2130971375="@color/2131099730" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429402" ="gone" ="wrap_content" ="wrap_content" ="false" ="20.0dip" 2130969759="2131437069" 2130969911="@id/2131436493" 2130969937="2131438103" 2130969941="@id/2131436493" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434744" ="@drawable/2131232389" ="4.0dip" ="gone" ="20.0dip" ="20.0dip" ="4.0dip" ="@color/2131099804" 2130969911="@id/2131436493" 2130969918="@id/2131436493" 2130971077="@drawable/2131237609" />
+</merge>

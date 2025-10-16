@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" style="@style/2132148650">
+        <TextView ="@color/2131099764" android:id="@id/2131444927" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <LinearLayout ="vertical" android:id="@id/2131436206" ="@drawable/2131236526" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444927">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_running_end_cos_options_yes" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/strategy_end_confirm_cps_content" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131436205" ="@drawable/2131236526" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436206">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_running_end_cos_options_no" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/strategy_end_confirm_manual_content" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131436290" ="@drawable/2131233749" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436205">
+            <TextView ="@color/2131099764" android:id="@id/2131443858" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_running_end_positons_0_tip1" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131443859" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/futures_grid_running_end_cos_des" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131443870" ="gone" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_running_status_new" style="@style/2132149384" />
+        </LinearLayout>
+        <TextView ="@color/2131099778" android:id="@id/tvTip1" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436290" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tvTip2" ="gone" ="0.0dip" ="wrap_content" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTip1" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/tvTip3" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTip2" 2130969962="@dimen/2131166184" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tvTip4" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444927" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131441462" ="wrap_content" ="fill_parent" 2130968759="2131428521" 2130969125="tvTip1, tvTip2,tvTip3,tvTip4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

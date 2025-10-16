@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131449969" ="64.0dip" ="64.0dip" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131449971" ="fill_parent" ="wrap_content" ="28.0dip" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131449966" ="wrap_content" ="wrap_content" ="12.0dip" style="@style/2132149355" />
+    <LinearLayout ="fill_parent" ="wrap_content" ="16.0dip" 2130969468="2131450408" 2130969751="3">
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428716" ="0.0dip" ="40.0dip" android:text="@string/cancel" ="1.0" 2130969173="8.0" 2130971472="2" />
+        <View ="12.0dip" ="1.0dip" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428674" ="0.0dip" ="40.0dip" android:text="@string/dwallet_connect_approve_connect" ="1.0" 2130969173="8.0" />
+    </LinearLayout>
+</LinearLayout>

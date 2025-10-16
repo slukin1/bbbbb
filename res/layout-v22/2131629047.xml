@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436669" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432250" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_pair" ="wrap_content" ="wrap_content" android:text="@string/futures_top_movers_pair" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131445890" ="0.0dip" ="wrap_content" android:text="@string/futures_top_movers_change" ="8.0dip" 2130969917="2131438103" 2130969936="@id/tv_pair" 2130969941="2131438103" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.finance.framework.widget.recyclerview.RefreshableEmptyStateRecyclerView android:id="@id/2131431368" ="fill_parent" ="fill_parent" ="8.0dip" />
+</LinearLayout>

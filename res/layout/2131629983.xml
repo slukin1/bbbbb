@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" android:id="@id/2131448990" ="#00000000" ="false" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="250.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/ivClose" ="6.0dip" ="wrap_content" ="wrap_content" ="@drawable/2131237072" />
+        <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436750" ="210.0dip" ="210.0dip" />
+        <TextView ="@color/2131099776" ="center" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149425" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428789" ="250.0dip" ="wrap_content" ="24.0dip" android:text="@string/go_to_the_wallet" 2130969173="8.0" />
+    </LinearLayout>
+</LinearLayout>

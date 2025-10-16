@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441038" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444876" ="wrap_content" ="wrap_content" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445343" ="@drawable/2131236007" ="6.0dip" ="1.0dip" ="6.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296273" 2130969911="@id/2131444876" 2130969917="2131438103" 2130969941="@id/2131444876" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444875" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131444876" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428861" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_chat_card_btn_proceed" 2130969937="2131438103" 2130969940="@id/2131444875" style="@style/2132148693" />
+</androidx.constraintlayout.widget.ConstraintLayout>

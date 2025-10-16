@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="2.0dip" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131432834" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/material_timepicker_select_time" ="no" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" style="?2130970133" />
+    <com.google.android.material.timepicker.TimePickerView android:id="@id/2131436999" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" ="@dimen/2131166905" ="24.0dip" ="@dimen/2131166904" 2130969912="@id/2131436997" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ViewStub android:id="@id/2131436994" ="@layout/2131627582" ="@id/2131436994" ="wrap_content" ="wrap_content" ="24.0dip" ="44.0dip" ="24.0dip" ="@dimen/2131166904" 2130969912="@id/2131436997" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.google.android.material.button.MaterialButton android:id="@id/2131436997" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969937="2131438103" style="?2130969622" />
+    <Button android:id="@id/2131436995" ="wrap_content" ="wrap_content" ="2.0dip" ="72.0dip" android:text="@string/mtrl_timepicker_cancel" ="8.0dip" 2130969918="@id/2131436998" 2130969941="@id/2131436997" style="?2130968790" />
+    <Button android:id="@id/2131436998" ="wrap_content" ="wrap_content" ="2.0dip" ="64.0dip" android:text="@string/mtrl_timepicker_confirm" ="8.0dip" 2130969917="2131438103" 2130969941="@id/2131436997" style="?2130968790" />
+</androidx.constraintlayout.widget.ConstraintLayout>

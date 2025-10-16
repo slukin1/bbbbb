@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="marquee" ="center_vertical" android:id="@id/2131446280" ="0.0dip" ="50.0dip" android:text="@string/futures_preference_buy_sell_tab_setting" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131435694" ="@drawable/2131233529" ="8.0dip" ="0.0dip" ="122.0dip" ="6.25dip" ="15.0dip" ="6.25dip" ="15.0dip" ="6.23999dip" 2130969918="@id/2131435635" 2130969937="2131438103" 2130969940="@id/2131446280">
+        <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="0.0dip" ="1.0" 2130971077="@drawable/2131233957" />
+        <TextView ="@color/2131099764" ="end" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_preference_buy_sell_tab_setting_display" ="1" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/2131435635" ="@drawable/2131233529" ="8.0dip" ="0.0dip" ="0.0dip" ="6.25dip" ="15.0dip" 2130969911="@id/2131435694" 2130969917="2131438103" 2130969936="@id/2131435694" 2130969941="@id/2131435694">
+        <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="0.0dip" ="7.0dip" ="7.0dip" ="1.0" 2130971077="@drawable/2131233958" />
+        <TextView ="@color/2131099764" ="end" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_preference_buy_sell_tab_setting_hide" ="1" style="@style/2132149350" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448120" ="wrap_content" ="wrap_content" ="31.0dip" android:text="*" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131435694" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/futures_preference_buy_sell_tab_setting_tips" ="4.0dip" ="16.0dip" 2130969917="2131438103" 2130969936="@id/2131448120" 2130969941="@id/2131448120" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

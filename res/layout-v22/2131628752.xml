@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="10.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSymbol" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149449" />
+    <TextView ="@color/2131099764" android:id="@id/tvType" ="@drawable/2131235998" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" ="@color/2131099744" ="@dimen/2131166260" ="@dimen/2131166199" 2130969911="@id/tvSymbol" 2130969936="@id/tvSymbol" 2130969941="@id/tvSymbol" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTime" 2130969911="@id/tvSymbol" 2130969917="2131438103" 2130969941="@id/tvSymbol" style="@style/2132149396" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444666" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/tvSymbol" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvPriceTitle" ="12.0dip" android:text="@string/_price" 2130969937="2131438103" 2130969940="@id/2131444666" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvPriceValue" 2130969917="2131438103" 2130969941="@id/tvPriceTitle" style="@style/2132149357" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443098" ="4.0dip" android:text="@string/_filled" 2130969937="2131438103" 2130969940="@id/tvPriceTitle" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvFilledValue" 2130969917="2131438103" 2130969941="@id/2131443098" style="@style/2132149357" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvFeeTitle" ="4.0dip" android:text="@string/fee" 2130969937="2131438103" 2130969940="@id/2131443098" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvFeeValue" 2130969917="2131438103" 2130969941="@id/tvFeeTitle" style="@style/2132149357" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444498" ="4.0dip" android:text="@string/futures_order_history_role" 2130969937="2131438103" 2130969940="@id/tvFeeTitle" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRoleValue" 2130969917="2131438103" 2130969941="@id/2131444498" style="@style/2132149357" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTotalTitle" ="4.0dip" android:text="@string/spot_grid_total" 2130969937="2131438103" 2130969940="@id/2131444498" style="@style/2132149358" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTotalValue" 2130969917="2131438103" 2130969941="@id/tvTotalTitle" style="@style/2132149357" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="10.0dip" 2130969937="2131438103" 2130969940="@id/tvTotalTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

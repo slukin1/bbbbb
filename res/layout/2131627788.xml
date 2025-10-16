@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131437594" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/2131437639" ="fill_parent" ="fill_parent" />
+    <TextView ="17.0sp" ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/2131437640" ="wrap_content" ="wrap_content" ="100.0dip" android:text="1/6" ="true" />
+</FrameLayout>

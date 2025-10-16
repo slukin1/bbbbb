@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" ="centerInside" ="@null" ="@dimen/2131166184" ="@dimen/2131166170" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="center" android:id="@id/2131447618" ="wrap_content" ="fill_parent" android:text="@string/c2c_mod_ad_select_available_region" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430090" ="fill_parent" ="0.0dip" ="6.0dip" 2130969911="2131438103" 2130969940="@id/2131441601">
+        <com.major.android.uikit2.search.KitSearchBar ="14.0sp" ="@color/2131100973" ="center" android:id="@id/2131439852" ="6.0dip" ="6.0dip" ="false" ="false" ="fill_parent" ="wrap_content" 2130968908="true" 2130969941="2131438103" 2130970759="@string/c2c_mod_ad_please_enter_region" 2130971628="true" />
+        <FrameLayout ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131439852">
+            <com.binance.c2c.indexablerecyclerview.IndexableLayout android:id="@id/2131433413" ="visible" ="fill_parent" ="fill_parent" ="90.0dip" 2130969634="@color/2131103205" 2130969635="@color/2131099778" 2130969636="@dimen/2131167690" 2130969637="@dimen/2131166225" />
+            <LinearLayout ="bottom" ="horizontal" ="@color/2131099685" ="12.0dip" ="30.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131429086" ="0.0dip" ="wrap_content" android:text="@string/reset" ="1.0" ="10.0dip" style="@style/2132148697" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131429003" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView ="end|bottom|center" android:id="@id/2131428235" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="94.0dip" ="16.0dip" ="@color/2131099764" 2130971077="@drawable/2131236869" 2130971375="@color/2131099685" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131432172" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

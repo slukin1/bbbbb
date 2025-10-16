@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/2131429285" ="wrap_content" ="wrap_content" ="5.0dip" 2130968912="10.0dip" style="@style/2132148644" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content" ="20.0dip" ="20.0dip">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/futures_grid_direction_neutral" ="false" ="locale" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_grid_direction_neutral_desc" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/margin_kline_vol_long" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_grid_direction_long_desc" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/margin_kline_vol_short" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_grid_direction_short_desc" style="@style/2132149350" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429058" ="fill_parent" ="wrap_content" ="20.0dip" ="24.0dip" android:text="@string/ok" 2130969173="4" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

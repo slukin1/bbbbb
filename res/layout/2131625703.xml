@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103">
+        <include android:id="@id/2131436874" ="gone" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131626320" />
+        <FrameLayout ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131436874">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439066" ="fill_parent" ="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end|bottom|center" ="vertical" android:id="@id/backButton" ="@drawable/2131235990" ="10.0dip" ="40.0dip" ="40.0dip" ="75.0dip" ="16.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236869" 2130971375="@color/2131099685" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131431363" ="gone" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/c2c_userprofile_no_ads" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

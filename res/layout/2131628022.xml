@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/2131438179" ="fill_parent" ="wrap_content" ="12.0dip" 2130968911="@color/2131099800" 2130968912="@dimen/2131166286" 2130968914="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="14.0dip" ="14.0dip" ="fill_parent" ="fill_parent" ="0.0dip" ="10.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438197" ="24.0dip" ="24.0dip" ="10.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235677" />
+        <TextView ="@color/2131102397" ="end" android:id="@id/2131438200" ="0.0dip" ="wrap_content" ="1" ="locale" ="10.0dip" 2130969905="true" 2130969911="@id/2131438197" 2130969917="2131438103" 2130969936="@id/2131438197" 2130969941="@id/2131438197" style="@style/2132149450" />
+        <TextView ="@color/2131102769" android:id="@id/2131438202" ="wrap_content" ="wrap_content" ="8.0dip" ="10.0dip" 2130969936="@id/2131438197" 2130969940="@id/2131438200" style="@style/2132149384" />
+        <TextView ="@color/2131102769" ="end" ="end" android:id="@id/2131438201" ="0.0dip" ="wrap_content" ="8.0dip" ="15.0dip" 2130969905="true" 2130969911="@id/2131438202" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131438202" 2130969941="@id/2131438202" style="@style/2132149384" />
+        <View android:id="@id/2131438219" ="@color/2131100852" ="0.0dip" ="0.5dip" ="8.0dip" 2130969917="2131438103" 2130969937="@id/2131438200" 2130969940="@id/2131438201" />
+        <TextView ="@color/2131102769" android:id="@id/2131438199" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/payment_claimed" 2130969937="@id/2131438200" 2130969940="@id/2131438219" style="@style/2132149384" />
+        <TextView ="@color/2131102397" android:id="@id/2131438198" ="wrap_content" ="wrap_content" ="locale" ="10.0dip" 2130969911="@id/2131438199" 2130969917="2131438103" 2130969941="@id/2131438199" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

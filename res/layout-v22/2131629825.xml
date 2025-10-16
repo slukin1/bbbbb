@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Layer android:id="@id/2131432692" ="10.0dip" ="0.0dip" ="0.0dip" ="15.0dip" ="10.0dip" 2130969125="ivToken,tvSymbol,tvType" />
+    <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/ivToken" ="22.0dip" ="22.0dip" ="15.0dip" ="15.0dip" 2130969616="4" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131103010" ="center_vertical" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="false" ="4.0dip" 2130969911="@id/ivToken" 2130969936="@id/ivToken" 2130969941="@id/ivToken" style="@style/2132149446" />
+    <View android:id="@id/2131449284" ="0.0dip" ="0.0dip" 2130969911="@id/tvSymbol" 2130969917="@id/tvSymbol" 2130969937="@id/ivToken" 2130969941="@id/tvSymbol" />
+    <TextView ="end" ="center_horizontal" android:id="@id/tvType" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" ="1" 2130969937="@id/ivToken" 2130969940="@id/ivToken" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/tvDate" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="4.0dip" 2130969911="@id/tvType" 2130969936="@id/tvType" 2130969941="@id/tvType" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.progress.LinePercentProgressView android:id="@id/cp_progress" ="visible" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/tvCancel" 2130969918="@id/tvCancel" 2130969941="@id/tvCancel" />
+    <TextView ="@color/2131100091" ="end" android:id="@id/tvCancel" ="@drawable/2131236709" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/_cancel" ="1" ="15.0dip" ="@dimen/2131166286" ="@dimen/2131166225" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    <TextView ="@color/2131099778" android:id="@id/tvAmount" ="wrap_content" ="24.0dip" ="12.0dip" android:text="@string/alpha_limit_trade_title_amount" ="1" 2130969925="16.0dip" 2130969937="@id/ivToken" 2130969940="@id/tvType" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443022" ="gone" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969918="@id/2131443978" 2130969941="@id/tvAmount" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443978" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="2.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tvAmount" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131443320" ="gone" ="wrap_content" ="24.0dip" android:text="@string/spot_trade_iceberg_amount" ="1" 2130969937="@id/ivToken" 2130969940="@id/tvAmount" 2130970840="true" 2130971383="2131440560" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443321" ="gone" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="10.0dip" ="15.0dip" 2130969911="@id/2131443320" 2130969917="2131438103" 2130969941="@id/2131443320" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvPrice" ="wrap_content" ="24.0dip" android:text="@string/string_price" ="1" 2130969937="@id/ivToken" 2130969940="@id/2131443320" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tv_tpsl" ="wrap_content" ="24.0dip" android:text="@string/alpha_trade_oto_title_reverse_order" ="1" 2130969937="@id/ivToken" 2130969940="@id/tvPrice" style="@style/2132149350" />
+    <TextView ="@color/2131099787" android:id="@id/tv_tpsl_view" ="wrap_content" ="24.0dip" android:text="@string/spot_tpsl_view" ="1" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tv_tpsl" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131441749" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_tpsl,tv_tpsl_view" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131444156" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/tvPrice" 2130969917="2131438103" 2130969941="@id/tvPrice">
+        <TextView ="@color/2131099764" android:id="@id/tvPriceValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132149350" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131442566" ="gone" ="wrap_content" ="24.0dip" android:text="@string/conditions" ="1" 2130969937="@id/ivToken" 2130969940="@id/tv_tpsl" 2130970840="true" 2130971383="2131440560" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131442567" ="gone" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131442566" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tvTrailingDelta" ="gone" ="wrap_content" ="24.0dip" android:text="@string/trade_common_trailing_delta" ="1" 2130969937="@id/ivToken" 2130969940="@id/2131442566" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131445192" ="gone" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tvTrailingDelta" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tv_sor" ="wrap_content" ="24.0dip" android:text="@string/spot_sor" 2130969937="@id/ivToken" 2130969940="@id/tvTrailingDelta" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tv_sor_value" ="wrap_content" ="wrap_content" android:text="@string/futures_advance_tpsl_strategy_detail_reduce_only_true" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tv_sor" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131440373" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_sor,tv_sor_value" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131432747" ="0.0dip" ="0.0dip" ="12.0dip" 2130968759="2131428521" 2130969125="tv_sor,cp_progress" />
+    <View android:id="@id/2131449631" ="@color/2131100853" ="0.0dip" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432747" />
+</androidx.constraintlayout.widget.ConstraintLayout>

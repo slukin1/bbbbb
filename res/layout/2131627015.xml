@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441758" ="15.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="1" ="12.0dip" 2130969911="@id/2131433920" 2130969936="@id/2131433920" 2130969941="@id/2131433920" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131444495" ="wrap_content" ="wrap_content" android:text="@string/lite_discover_trade_roi" ="1" ="3.0dip" 2130969911="@id/2131433920" 2130969918="@id/2131444494" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131444494" ="wrap_content" ="wrap_content" ="1" ="2.0dip" 2130969911="@id/2131433920" 2130969918="@id/ivArrow" 2130969941="@id/2131433920" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="20.0dip" ="20.0dip" 2130969911="@id/2131433920" 2130969917="2131438103" 2130969941="@id/2131433920" 2130971077="@drawable/2131237050" 2130971375="@color/2131099785" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429671" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" 2130969940="@id/2131433920">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131443754" ="wrap_content" ="wrap_content" android:text="@string/lite_discover_trade_min_investment" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131443755" ="wrap_content" ="wrap_content" ="1" ="8.0dip" 2130969911="@id/2131443754" 2130969936="@id/2131443754" 2130969941="@id/2131443754" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131444511" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/lite_discover_trade_runtime" ="1" 2130969937="2131438103" 2130969940="@id/2131443754" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131444512" ="wrap_content" ="wrap_content" ="1" ="8.0dip" 2130969911="@id/2131444511" 2130969936="@id/2131444511" 2130969941="@id/2131444511" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131442619" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/lite_discover_trade_copies" ="1" 2130969937="2131438103" 2130969940="@id/2131444511" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442620" ="wrap_content" ="wrap_content" ="1" ="8.0dip" 2130969911="@id/2131442619" 2130969936="@id/2131442619" 2130969941="@id/2131442619" style="@style/2132149377" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428745" ="wrap_content" ="32.0dip" ="100.0dip" android:text="@string/lite_discover_trade_create" 2130969173="20.0" 2130969911="@id/2131442620" 2130969917="2131438103" 2130970889="3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+    <TextView ="@color/2131102397" ="center" android:id="@id/2131447941" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_free_position_layout_new_ui_sub_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149446" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131429808" ="@drawable/2131233817" ="12.0dip" ="0.0dip" ="0.0dip" 2130969911="@id/2131429803" 2130969918="@id/2131429803" 2130969937="2131438103" 2130969941="@id/2131429803">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434384" ="64.0dip" ="64.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/futures_free_position_layout_a_bullish" style="@style/2132149463" />
+        <TextView ="@color/2131099778" ="center" android:id="@id/2131445864" ="wrap_content" ="wrap_content" style="@style/2132149390" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131445859" ="wrap_content" ="wrap_content" ="24.0dip" ="12.0dip" style="@style/2132149390" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131429803" ="@drawable/2131233817" ="12.0dip" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969936="@id/2131429808" 2130969940="@id/2131447941">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434367" ="64.0dip" ="64.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/futures_free_position_layout_a_bearish" style="@style/2132149463" />
+        <TextView ="@color/2131099778" ="center" android:id="@id/2131447758" ="wrap_content" ="wrap_content" style="@style/2132149390" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131447752" ="wrap_content" ="wrap_content" ="24.0dip" ="12.0dip" style="@style/2132149390" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitLoadingButton android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/ct_futures_filter_confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429808" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131446552" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_free_position_layout_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/btn_confirm" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

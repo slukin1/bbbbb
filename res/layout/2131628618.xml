@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="@color/2131099800" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131441647" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" android:id="@id/tvSymbol" ="10.0dip" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131442185" ="12.0dip" ="wrap_content" ="wrap_content" ="1.0dip" style="@style/2132149454" />
+    </LinearLayout>
+    <TextView android:id="@id/tvPrice" ="10.0dip" ="wrap_content" ="wrap_content" ="2.0dip" ="@id/2131441647" style="@style/2132149450" />
+    <TextView android:id="@id/tvPercent" ="10.0dip" ="wrap_content" ="wrap_content" ="2.0dip" ="@id/2131441647" ="true" style="@style/2132149450" />
+</RelativeLayout>

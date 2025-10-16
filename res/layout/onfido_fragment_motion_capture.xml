@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131438608" ="fill_parent" ="fill_parent">
+        <androidx.camera.viewfinder.CameraViewfinder android:id="@id/2131429220" ="gone" ="fill_parent" ="fill_parent" ="true" ="@string/onfido_avc_face_capture_frame_accessibility" 2130969628="2131438287" 2130970741="2131431816" />
+        <androidx.camera.view.PreviewView android:id="@id/2131429230" ="gone" ="fill_parent" ="fill_parent" ="true" ="@string/onfido_avc_face_capture_frame_accessibility" 2130970741="2131431816" />
+        <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.util.RectDebuggingView android:id="@id/2131431683" ="gone" ="fill_parent" ="fill_parent" />
+        <TextView ="center" android:id="@id/2131431684" ="gone" ="wrap_content" ="wrap_content" style="@style/2132148874" />
+        <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.facealignment.FaceAlignmentView android:id="@id/2131431673" ="fill_parent" ="fill_parent" />
+        <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.facealignment.FeedbackLabelView android:id="@id/2131431772" ="fill_parent" ="fill_parent" ="0.0" />
+        <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.HeadTurnGuidanceView android:id="@id/2131432816" ="fill_parent" ="fill_parent" ="0.0" />
+        <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.HeadTurnCompletedView android:id="@id/2131432815" ="gone" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131428192" ="?2130969089" ="fill_parent" ="wrap_content" ="?2130968589" 2130969941="2131438103" 2130971343="@style/2132148875" />
+</FrameLayout>

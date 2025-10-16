@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437266" ="@drawable/2131232628" ="true" ="true" ="fill_parent" ="56.0dip" ="5.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437269" ="20.0dip" ="20.0dip" ="@color/2131099764" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235133" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131437272" ="wrap_content" ="wrap_content" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131437269" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131101992" android:id="@id/2131437274" ="@drawable/2131232646" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_recommend" ="8.0dip" ="5.0dip" ="2.0dip" 2130969911="2131438103" 2130969936="@id/2131437272" 2130969941="2131438103" 2130969942="0.542" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437267" ="20.0dip" ="20.0dip" ="@color/2131099738" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" ="false" ="@drawable/onfido_bg_button_primary_unpressed" />
+    <item ="true" ="@drawable/onfido_bg_button_primary_pressed" />
+    <item ="false" ="false" ="@drawable/onfido_bg_button_primary_disabled" />
+</selector>

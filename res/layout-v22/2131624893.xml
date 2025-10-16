@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440601" ="fill_parent" ="0.0dip" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" ="@id/2131440601" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131433698" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="end" ="center" ="center_horizontal" android:id="@id/2131445051" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_copy_setting" ="true" style="@style/2132149425" />
+        <include ="end" android:id="@id/2131435345" ="wrap_content" ="wrap_content" ="15.0dip" layout="@layout/2131625500" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429661" ="fill_parent" ="fill_parent" ="@id/2131441601">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131429746" ="0.0dip" ="0.0dip" ="12.0dip" 2130969912="@id/2131442568" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/2131428000" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout ="center" ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="11.0dip" ="@dimen/2131166184" 2130969974="2131439795|@null">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434267" ="@drawable/2131235996" ="4.0dip" ="64.0dip" ="64.0dip" ="@color/2131099685" 2130969937="2131438103" 2130969941="2131438103" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131445321" ="0.0dip" ="wrap_content" ="8.0dip" ="4.0dip" ="1" ="false" 2130969905="true" 2130969918="@id/2131434360" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131434267" 2130969946="2131450408" style="@style/2132149423" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434360" ="gone" ="20.0dip" ="20.0dip" ="2.0dip" 2130969911="@id/2131445321" 2130969918="@id/tv_private_tag" 2130969936="@id/2131445321" 2130969941="@id/2131445321" 2130971077="@drawable/2131233770" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_private_tag" ="@drawable/2131236697" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_private" ="false" ="2.0dip" ="@dimen/2131166260" ="2.0dip" 2130969911="@id/2131445321" 2130969917="2131438103" 2130969936="@id/2131434360" 2130969941="@id/2131445321" style="@style/2132149394" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429694" ="fill_parent" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131445321">
+                        <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099764" android:id="@id/2131443386" ="0.0dip" ="wrap_content" android:text="@string/placeholder" 2130969391="2" 2130969396="true" 2130969398="true" 2130969399="false" 2130969400="false" 2130969918="@id/2131433938" 2130969937="2131438103" 2130969941="2131438103" 2130969999="@dimen/2131166188" style="@style/2132149384" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433938" ="2.0dip" ="visible" ="20.0dip" ="20.0dip" ="4.0dip" 2130969911="@id/2131443386" 2130969917="2131438103" 2130969936="@id/2131443386" 2130971077="@drawable/2131237050" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131444557" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_see_original" ="@dimen/2131166247" 2130969937="@id/2131443386" 2130969940="@id/2131443386" style="@style/2132149377" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447525" ="@drawable/2131236699" ="10.0dip" ="3.0dip" ="10.0dip" ="3.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="false" ="4.0dip" ="@dimen/2131166156" ="@dimen/2131166225" 2130969937="2131438103" 2130969940="@id/2131444557" style="@style/2132149384" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447517" ="@drawable/2131236699" ="10.0dip" ="3.0dip" ="10.0dip" ="3.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="false" ="4.0dip" ="@dimen/2131166156" ="@dimen/2131166225" 2130969937="2131438103" 2130969940="@id/2131447525" style="@style/2132149384" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441159" ="0.0dip" ="40.0dip" 2130969918="@id/2131434240" 2130969937="2131438103" 2130969941="2131438103" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434240" ="6.0dip" ="32.0dip" ="32.0dip" ="9.0dip" 2130969911="@id/2131441159" 2130969917="2131438103" 2130969941="@id/2131441159" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449894" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131442568" ="0.0dip" ="40.0dip" ="15.0dip" ="8.0dip" ="15.0dip" ="15.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429746" style="@style/2132148692" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/2131431361" ="gone" layout="@layout/2131624942" />
+</RelativeLayout>

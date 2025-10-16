@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427454" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099851" android:id="@id/2131440615" ="wrap_content" ="wrap_content" android:text="@string/account_activity_complete_status" ="8.0dip" 2130969311="@drawable/2131237068" 2130969312="@color/2131099782" style="@style/2132149446" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131440613" ="gone" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@dimen/2131166286">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/account_activity_time_lab" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131441416" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166286">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/account_activity_source_lab" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131440394" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166286">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/account_activity_location_lab" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131436720" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166286">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/account_activity_ip_lab" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131433557" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+</LinearLayout>

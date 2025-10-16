@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131625507" />
+    <ScrollView ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" style="@style/2132148650">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430019" ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099764" android:id="@id/2131448393" ="wrap_content" ="wrap_content" android:text="@string/futures_new_user_tutorial_transfer_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099764" android:id="@id/2131448390" ="20.0dip" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_new_user_tutorial_transfer_description" ="1.2" 2130969937="2131438103" 2130969940="@id/2131448393" style="@style/2132149350" />
+                <androidx.constraintlayout.widget.Barrier android:id="@id/2131428376" ="fill_parent" ="wrap_content" 2130968759="2131428521" 2130969125="btn_activate_asset_mode, btn_transfer" 2130969940="@id/2131448390" />
+                <com.major.android.uikit.button.KitButton android:id="@id/btn_activate_asset_mode" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/future_activate_multi_asset_mode_title" 2130969173="4" 2130969937="2131438103" 2130969940="@id/2131428376" 2130970889="3" style="@style/2132149450" />
+                <com.major.android.uikit.button.KitButton android:id="@id/btn_transfer" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/_transfer" 2130969173="4" 2130969937="2131438103" 2130969940="@id/btn_activate_asset_mode" 2130970889="3" style="@style/2132149450" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429886" ="fill_parent" ="wrap_content" ="56.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131446813" ="wrap_content" ="wrap_content" android:text="@string/futures_new_user_tutorial_leverage_margin_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099764" android:id="@id/2131446811" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_new_user_tutorial_leverage_margin_description" ="1.2" 2130969937="2131438103" 2130969940="@id/2131446813" style="@style/2132149350" />
+                <ImageView android:id="@id/2131434642" ="fill_parent" ="110.0dip" ="30.0dip" ="fitXY" ="true" 2130969937="2131438103" 2130969940="@id/2131446811" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429941" ="fill_parent" ="wrap_content" ="56.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131447413" ="wrap_content" ="wrap_content" android:text="@string/futures_new_user_tutorial_position_mode_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099764" android:id="@id/2131447411" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_new_user_tutorial_position_mode_description" ="1.2" 2130969937="2131438103" 2130969940="@id/2131447413" style="@style/2132149350" />
+                <TextView ="@color/2131099764" android:id="@id/2131447412" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_new_user_tutorial_position_mode_description_sub" ="1.2" 2130969937="2131438103" 2130969940="@id/2131447411" style="@style/2132149450" />
+                <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429408" ="wrap_content" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131447412" />
+                <TextView ="@color/2131099764" android:id="@id/2131447818" ="wrap_content" ="wrap_content" android:text="@string/future_position_setting_one" ="8.0dip" 2130969911="@id/2131429408" 2130969936="@id/2131429408" 2130969941="@id/2131429408" style="@style/2132149350" />
+                <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429407" ="wrap_content" ="wrap_content" ="10.0dip" 2130969911="@id/2131429408" 2130969936="@id/2131447818" 2130969941="@id/2131429408" />
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/future_position_setting_two" ="8.0dip" 2130969911="@id/2131429407" 2130969936="@id/2131429407" 2130969941="@id/2131429407" style="@style/2132149350" />
+                <com.major.android.uikit.button.KitButton android:id="@id/2131429068" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/confirm" 2130969173="4" 2130969937="2131438103" 2130969940="@id/2131447818" 2130970889="3" style="@style/2132149450" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429924" ="fill_parent" ="wrap_content" ="56.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131447257" ="wrap_content" ="wrap_content" android:text="@string/futures_new_user_tutorial_order_type_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099764" ="@color/2131099787" android:id="@id/2131447255" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_new_user_tutorial_order_type_description" ="1.2" 2130969937="2131438103" 2130969940="@id/2131447257" style="@style/2132149350" />
+                <ImageView android:id="@id/2131434728" ="fill_parent" ="110.0dip" ="30.0dip" ="fitXY" ="true" 2130969937="2131438103" 2130969940="@id/2131447255" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429818" ="fill_parent" ="wrap_content" ="56.0dip">
+                <TextView ="@color/2131099764" android:id="@id/tv_close_position_title" ="wrap_content" ="wrap_content" android:text="@string/futures_new_user_tutorial_close_position_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099764" android:id="@id/2131445953" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_new_user_tutorial_close_position_description" ="1.2" 2130969937="2131438103" 2130969940="@id/tv_close_position_title" style="@style/2132149350" />
+                <ImageView android:id="@id/2131434436" ="fill_parent" ="250.0dip" ="30.0dip" ="fitXY" ="true" 2130969937="2131438103" 2130969940="@id/2131445953" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

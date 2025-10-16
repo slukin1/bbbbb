@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234712" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131432270" ="wrap_content" ="wrap_content" ="15.0dip" ="22.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.widget.BottomDashLineTextView ="@color/2131099778" android:id="@id/2131441713" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="@id/2131432270" 2130969940="@id/2131432270" style="@style/2132149361" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131448193" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" ="ltr" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131432270" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131446220" ="wrap_content" ="wrap_content" ="2.0dip" ="12.0dip" android:text="@string/placeholder" ="1" ="ltr" 2130969911="2131438103" 2130969937="@id/2131432270" 2130969940="@id/2131441713" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131447900" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" 2130969917="@id/2131448193" 2130969941="@id/2131446220" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

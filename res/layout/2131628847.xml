@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" ="center" android:id="@id/2131441367" ="wrap_content" ="30.0dip" 2130970849="false" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131441376" ="0.0dip" ="wrap_content" ="1.0" ="6.0dip" style="@style/2132149350" />
+</androidx.appcompat.widget.LinearLayoutCompat>

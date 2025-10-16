@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTotal" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_spot_balance_title" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434164" ="gone" ="16.0dip" ="16.0dip" ="2.0dip" 2130969911="@id/tvTotal" 2130969936="@id/tvTotal" 2130969941="@id/tvTotal" 2130971077="@drawable/2131237313" 2130971375="@color/2131099785" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131445108" ="0.0dip" ="wrap_content" ="16.0dip" 2130968639="2131428430" 2130969468="2131450408" 2130969917="2131438103" 2130969937="@id/tvTotal" 2130969940="@id/tvTotal">
+        <TextView ="32.0sp" ="@color/2131099764" ="end" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" ="@font/2131296275" ="7.0dip" 2130969937="2131438103" 2130969940="@id/tvTotal" />
+        <TextView ="@color/2131099778" android:id="@id/tvTotalFiatValue" ="wrap_content" ="wrap_content" ="ltr" 2130969907="@id/tvTotalAmount" 2130969936="@id/tvTotalAmount" style="@style/2132149350" />
+    </com.google.android.flexbox.FlexboxLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432655" ="visible" ="wrap_content" ="wrap_content" 2130969125="tvAvblTitle, tvAvblValue,tvUnAvailTitle,tvUnAvailValueArrow, tvUnAvailValue" />
+    <TextView ="@color/2131099778" ="start" android:id="@id/tvAvblTitle" ="110.0dip" ="wrap_content" ="12.0dip" android:text="@string/_available" 2130969937="@id/2131445108" 2130969940="@id/2131445108" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tvAvblValue" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" ="1" ="15" 2130969937="@id/2131445108" 2130969940="@id/tvAvblTitle" style="@style/2132149371" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="1.0dip" ="fill_parent" 2130969921="0.5" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvUnAvailTitle" ="wrap_content" ="wrap_content" android:text="@string/unavailable" 2130969936="@id/2131432755" 2130969941="@id/tvAvblTitle" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/tvUnAvailValue" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="15" 2130969937="@id/2131432755" 2130969940="@id/tvUnAvailTitle" style="@style/2132149371" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/tvUnAvailValueArrow" ="20.0dip" ="20.0dip" 2130969911="@id/tvUnAvailValue" 2130969936="@id/tvUnAvailValue" 2130969941="@id/tvUnAvailValue" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432030" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130968639="2131428430" 2130969467="0" 2130969468="2131450408" 2130969917="2131438103" 2130969940="@id/tvAvblValue">
+        <LinearLayout ="vertical" android:id="@id/2131428195" ="wrap_content" ="wrap_content" 2130969953="50.0%" 2130969954="0.0" 2130969955="1.0">
+            <com.binance.widget.BottomDashLineTextView ="@color/2131099778" android:id="@id/tvAverageCostPNLTitle" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/wallet_pnl_average_cost" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/tvAverageCostValue" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" style="@style/2132149371" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131438475" ="wrap_content" ="wrap_content" 2130969953="50.0%" 2130969954="0.0" 2130969955="1.0">
+            <com.binance.widget.BottomDashLineTextView ="@color/2131099778" android:id="@id/tvTodayPNLTitle" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/wallet_funds_today_pnl" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tvTodayPNLValue" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" ="1" 2130968700="@dimen/2131167696" 2130968701="@dimen/2131167692" 2130968705="2131449068" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969905="true" style="@style/2132149371" />
+        </LinearLayout>
+        <LinearLayout ="vertical" android:id="@id/2131440365" ="gone" ="wrap_content" ="wrap_content" 2130969953="50.0%" 2130969954="0.0" 2130969955="1.0">
+            <com.binance.widget.BottomDashLineTextView ="@color/2131099778" android:id="@id/2131444701" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/wallet_earn_soft_staking" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444702" ="wrap_content" ="wrap_content" ="2.0dip" ="@drawable/2131237055" 2130969312="@color/2131099738" style="@style/2132149446" />
+        </LinearLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

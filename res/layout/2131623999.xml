@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/2131436861" ="@color/2131099685" ="fill_parent" ="115.0dip" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131436862" ="@color/2131099685" ="fill_parent" ="fill_parent" 2130969046="2131429431" 2130969047="@style/2132148671" 2130969149="@color/2131103064" 2130969425="@dimen/2131166188" 2130969427="@style/2132148672" 2130969974="2131439795|@null" app:2130971384="@string/add_new_address" 2130971387="true">
+            <androidx.appcompat.widget.Toolbar android:id="@id/2131436863" ="fill_parent" ="?2130968589" ="15.0dip" ="15.0dip" ="0.0dip" 2130969141="-80.0dip" 2130969331="0.0dip" 2130969902="2131438344" 2130970295="@drawable/2131236863" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView ="vertical" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="135.0dip" ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131099778" android:id="@id/2131429605" ="wrap_content" ="wrap_content" android:text="@string/ms_label_coin" ="1" ="locale" style="@style/2132149450" />
+            <RelativeLayout android:id="@id/2131430171" ="fill_parent" ="50.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131436731">
+                <TextView ="false" android:id="@id/tvCoin" ="fill_parent" ="fill_parent" ="1" ="true" ="10.0dip" ="45.0dip" 2130969016="true" 2130970735="@null" style="@style/2132150265" />
+            </RelativeLayout>
+            <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+                <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131449071" ="wrap_content" ="wrap_content" ="true" ="5.0dip" />
+                <TextView ="@color/2131099778" android:id="@id/2131449072" ="fill_parent" ="wrap_content" ="4.0dip" ="5.0dip" ="24.0dip" style="@style/2132149384" />
+            </LinearLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131429604" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/address" ="1" ="locale" style="@style/2132149450" />
+            <RelativeLayout android:id="@id/2131427709" ="fill_parent" ="50.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131436731">
+                <TextView ="false" android:id="@id/2131442030" ="fill_parent" ="fill_parent" ="1" ="true" ="10.0dip" ="45.0dip" 2130969016="true" 2130970735="@null" style="@style/2132150265" />
+            </RelativeLayout>
+            <TextView ="@color/2131099863" android:id="@id/2131442031" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/please_input_the_label" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/2131447734" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/select_network" style="@style/2132149450" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439701" ="fill_parent" ="wrap_content" ="8.0dip" />
+            <TextView ="@color/2131099863" android:id="@id/2131444490" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" ="15.0dip" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/2131429602" ="visible" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_withdrawal_addresses_address_origin" ="1" ="locale" style="@style/2132149450" />
+            <RelativeLayout android:id="@id/2131427705" ="visible" ="fill_parent" ="50.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131436731">
+                <TextView android:id="@id/2131431312" ="false" ="fill_parent" ="fill_parent" android:hint="@string/wallet_withdrawal_addresses_select_address_platform" ="1" ="true" ="none" ="10.0dip" ="10.0dip" style="@style/2132150265" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429304" ="32.0dip" ="32.0dip" ="fitXY" ="true" ="15.0dip" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" />
+                <ProgressBar android:id="@id/2131427703" ="gone" ="@dimen/2131165973" ="@dimen/2131165973" ="true" ="7.0dip" ="true" />
+            </RelativeLayout>
+            <TextView ="@color/2131099863" android:id="@id/2131442034" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" style="@style/2132149384" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436657" ="wrap_content" ="wrap_content" ="24.0dip">
+                <TextView ="@color/2131099778" android:id="@id/2131441127" ="wrap_content" ="wrap_content" android:text="@string/ms_label_memo" ="1" ="locale" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433993" ="wrap_content" ="wrap_content" ="5.0dip" 2130971077="@drawable/2131237075" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <RelativeLayout android:id="@id/2131441126" ="fill_parent" ="50.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131436731">
+                <TextView android:id="@id/2131431323" ="visible" ="fill_parent" ="fill_parent" ="1" ="true" ="10.0dip" ="10.0dip" style="@style/2132150265" />
+            </RelativeLayout>
+            <TextView ="@color/2131099863" android:id="@id/2131444892" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/wallet_add_withdrawal_address_memo_alert_content" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/2131450279" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ms_wallet_label" ="1" ="locale" 2130969937="2131438103" 2130969940="@id/2131431349" style="@style/2132149450" />
+            <RelativeLayout android:id="@id/2131450278" ="fill_parent" ="50.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131436731">
+                <com.binance.widget.RuleEditText android:id="@id/2131431317" ="fill_parent" ="fill_parent" android:hint="@string/wallet_withdrawal_addresses_wallet_label_hint" ="1" ="true" ="20" ="text" ="actionDone" ="@drawable/2131232372" ="10.0dip" ="10.0dip" 2130969016="true" 2130970735="@null" style="@style/2132150265" />
+            </RelativeLayout>
+            <TextView ="@color/2131099863" android:id="@id/2131443456" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/please_input_the_address" style="@style/2132149384" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450369" ="gone" ="wrap_content" ="wrap_content" ="10.0dip">
+                <com.major.android.uikit2.selection.KitCheckBox ="15.0sp" ="@color/2131102769" android:id="@id/2131429514" ="wrap_content" ="wrap_content" ="true" />
+                <TextView ="@color/2131099778" ="6.0dip" ="wrap_content" ="wrap_content" android:text="@string/add_to_whitelist" ="@null" ="4.0dip" style="@style/2132149374" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="bottom" ="vertical" ="@color/2131099685" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" ="start" android:id="@id/2131450366" ="16.0dip" ="16.0dip" ="wrap_content" ="wrap_content" ="@null" ="4.0dip" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131444524" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/save" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

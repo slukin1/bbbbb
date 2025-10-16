@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131102120" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" />
+    <TextView ="#ff848e9c" ="center_vertical" android:id="@id/2131437687" ="wrap_content" ="wrap_content" ="10.0dip" ="8.0dip" android:text="@string/nezha_subscription_messages_subtitle" ="2.0sp" ="15.0dip" />
+</LinearLayout>

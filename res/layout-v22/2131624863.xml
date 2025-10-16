@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="center_horizontal" ="vertical" ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131442654" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/copy_trading_join_chat_room_desc" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131431035" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442654" />
+    <TextView ="@color/2131099764" android:id="@id/2131442454" ="0.0dip" ="wrap_content" ="8.0dip" ="4.0dip" 2130969918="@id/2131433787" 2130969937="2131438103" 2130969940="@id/2131431035" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131442453" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" 2130969918="@id/2131433787" 2130969937="2131438103" 2130969940="@id/2131442454" style="@style/2132149450" />
+    <ImageView android:id="@id/2131433787" ="visible" ="20.0dip" ="20.0dip" ="@drawable/2131237146" ="no" 2130969911="@id/2131442453" 2130969917="2131438103" 2130969941="@id/2131442454" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/2131431013" ="0.0dip" ="0.5dip" ="8.0dip" ="20.0dip" 2130969912="@id/2131428732" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442453" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431013" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433903" ="fill_parent" ="275.0dip" ="15.0dip" ="25.0dip" ="15.0dip" ="fitXY" ="@dimen/2131166184" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131443258" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="@dimen/2131166184" ="@dimen/2131166170" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443254" ="wrap_content" ="wrap_content" ="4" ="15.0dip" ="15.0dip" style="@style/2132149355" />
+</androidx.appcompat.widget.LinearLayoutCompat>

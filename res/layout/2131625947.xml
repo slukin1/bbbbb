@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/future_preference" style="@style/2132149416" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446819" ="wrap_content" ="wrap_content" android:text="@string/futures_pnlanalysis_life_time_pnl_setting_title" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434596" ="2.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131237075" 2130969911="@id/2131446819" 2130969936="@id/2131446819" 2130969941="@id/2131446819" 2130971375="@color/2131099785" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435177" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131446819" 2130969917="2131438103" 2130969941="@id/2131446819" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

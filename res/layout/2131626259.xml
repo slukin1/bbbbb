@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="164.0dip" ="@color/2131099803" 2130970897="keleton_home_widget_common_4x4_light.svg" 2130970899="keleton_home_widget_common_4x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.image.KitRoundImageView android:id="@id/2131433764" ="gone" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="center_vertical" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="2.0dip" ="1" ="8.0dip" 2130968700="@dimen/2131167694" 2130968701="@dimen/2131167690" 2130968704="2.0sp" 2130968705="2131449068" 2130969905="true" 2130969918="@id/2131448005" 2130969927="0.0" 2130969928="2131438085" 2130969929="1.0" 2130969936="@id/2131433764" 2130969941="@id/2131433764" 2130969961="0.0dip" 2130969962="0.0dip" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/2131448005" ="@drawable/2131236001" ="4.0dip" ="4.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="false" ="4.0dip" ="@color/2131099804" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969927="0.0" 2130969929="0.0" 2130969936="@id/tv_title" 2130969941="@id/tv_title" style="@style/2132149401" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="2.0dip" 2130969912="@id/2131432955" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443093" ="wrap_content" ="wrap_content" style="@style/2132149463" />
+        <com.eaas.home.view.B8PercentageView android:id="@id/2131444055" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432955" ="fill_parent" ="40.0dip" ="fitXY" 2130969911="2131438103" 2130969937="2131438103" />
+</com.components.skeleton.SkeletonViewGroup>

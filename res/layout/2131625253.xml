@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131430273" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441455" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/ocbs_transfi_add_account_page_tip" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/ocbs_transfi_add_account_page_change_account_title" ="1" ="false" style="@style/2132149450" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437092" ="fill_parent" ="wrap_content" ="11.0dip" ="11.0dip" ="never" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="2" />
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131438313" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="number" 2130969816="true" 2130969817="1" 2130969818="false" 2130969821="false" />
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431344" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="textEmailAddress" 2130969817="1" 2130969818="false" 2130969821="false" />
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131442568" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" style="@style/2132148691" />
+    </LinearLayout>
+</FrameLayout>

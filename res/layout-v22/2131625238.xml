@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="20.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="20.0sp" ="bold" ="@color/2131099764" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" android:text="@string/ocbs_string_enter_otp" ="sans-serif-medium" 2130969941="2131438103" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131443357" ="fill_parent" ="wrap_content" ="16.0dip" 2130969837="10" 2130969840="@string/ocbs_string_otp_instructions" 2130969843="1" 2130969940="@id/tvTitle" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131435479" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/2131443357">
+        <EditText ="20.0sp" ="bold" ="@color/2131099764" ="center" android:id="@id/2131431460" ="@drawable/2131232691" ="0.0dip" ="48.0dip" ="1" ="1.0" ="number" ="actionNext" ="center" ="8.0dip" />
+        <EditText ="20.0sp" ="bold" ="@color/2131099764" ="center" android:id="@id/2131431461" ="@drawable/2131232691" ="0.0dip" ="48.0dip" ="1" ="1.0" ="number" ="actionNext" ="center" ="8.0dip" />
+        <EditText ="20.0sp" ="bold" ="@color/2131099764" ="center" android:id="@id/2131431462" ="@drawable/2131232691" ="0.0dip" ="48.0dip" ="1" ="1.0" ="number" ="actionNext" ="center" ="8.0dip" />
+        <EditText ="20.0sp" ="bold" ="@color/2131099764" ="center" android:id="@id/2131431463" ="@drawable/2131232691" ="0.0dip" ="48.0dip" ="1" ="1.0" ="number" ="actionNext" ="center" ="8.0dip" />
+        <EditText ="20.0sp" ="bold" ="@color/2131099764" ="center" android:id="@id/2131431464" ="@drawable/2131232691" ="0.0dip" ="48.0dip" ="1" ="1.0" ="number" ="actionNext" ="center" ="8.0dip" />
+        <EditText ="20.0sp" ="bold" ="@color/2131099764" ="center" android:id="@id/2131431465" ="@drawable/2131232691" ="0.0dip" ="48.0dip" ="1" ="1.0" ="number" ="actionDone" ="center" />
+    </LinearLayout>
+    <TextView ="12.0sp" ="@color/2131099863" android:id="@id/2131442949" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/ocbs_string_invalid_otp" 2130969937="2131438103" 2130969940="@id/2131435479" />
+    <LinearLayout ="horizontal" android:id="@id/2131435518" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442949">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444440" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_sms_not_arrived" />
+        <TextView ="14.0sp" ="@color/2131099787" ="center" android:id="@id/2131428876" ="?2130970780" ="4.0dip" ="4.0dip" ="true" ="true" ="wrap_content" ="wrap_content" ="36.0dip" android:text="@string/ocbs_string_resend" ="4.0dip" ="4.0dip" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428918" ="fill_parent" ="48.0dip" ="24.0dip" android:text="@string/_confirm" 2130969940="@id/2131435518" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

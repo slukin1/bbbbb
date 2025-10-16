@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#00000000" ="298.0dip" ="wrap_content" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="@color/2131099685" ="fill_parent" ="wrap_content" ="@color/2131099685" 2130969911="2131438103" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="center_horizontal" ="vertical" ="#00000000" ="fill_parent" ="wrap_content" ="#00000000">
+            <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" 2130971077="@drawable/2131238710" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/tvHeader" ="visible" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_funds_overview_convert_busd_dialog_title" ="false" ="locale" style="@style/2132149425" />
+            <TextView ="@color/2131099764" ="center_horizontal" ="center_horizontal" android:id="@id/2131445261" ="vertical" ="wrap_content" ="wrap_content" ="8.0dip" ="260.0dip" ="198.0dip" android:text="@string/wallet_funds_overview_convert_busd_dialog_content" ="9" ="5.0dip" ="false" ="locale" ="gravity" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" style="@style/2132149350" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="start" ="horizontal" ="wrap_content" ="wrap_content" ="16.0dip">
+                <com.major.android.uikit2.selection.KitCheckBox ="center" ="center_vertical" android:id="@id/2131429347" ="20.0dip" ="20.0dip" ="0.8" ="0.8" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131444399" ="wrap_content" ="wrap_content" ="1.0dip" android:text="@string/wallet_funds_overview_convert_busd_dialog_reminder_tip" ="1.0dip" style="@style/2132149350" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <RelativeLayout ="center" ="vertical" ="fill_parent" ="wrap_content" ="16.0dip">
+                <com.major.android.uikit2.button.KitButton ="end" ="center" android:id="@id/2131428837" ="fill_parent" ="wrap_content" 2130969173="4" />
+                <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428716" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/wallet_i_acknowledge" ="@id/2131428837" 2130969173="4" 2130971472="2131441186" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

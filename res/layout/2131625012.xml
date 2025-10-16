@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429716" ="12.0dip" ="12.0dip" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" ="1" ="false" ="15.0dip" 2130969918="@id/llSubTitleAndIndex" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <LinearLayout android:id="@id/llSubTitleAndIndex" ="@drawable/2131235998" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" ="@color/2131099744" 2130969905="true" 2130969911="@id/tvSymbol" 2130969918="@id/ivSwitchSymbol" 2130969927="0.0" 2130969936="@id/tvSymbol" 2130969941="@id/tvSymbol">
+        <TextView ="@color/2131099764" ="end" android:id="@id/tvFutureSubTitle" ="wrap_content" ="wrap_content" ="60.0dip" ="1" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131433929" ="gone" ="12.0dip" ="12.0dip" ="@null" ="2.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivSwitchSymbol" ="20.0dip" ="20.0dip" ="@null" ="6.0dip" 2130969911="@id/tvSymbol" 2130969918="@id/2131434917" 2130969936="@id/llSubTitleAndIndex" 2130969941="@id/tvSymbol" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" android:id="@id/2131443190" ="gone" ="0.0dip" ="wrap_content" ="-3.0dip" 2130969918="@id/2131434925" 2130969927="0.0" 2130969937="@id/tvSymbol" 2130969940="@id/tvUpAndDown" 2130969947="@dimen/2131166201" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131435704" ="wrap_content" ="wrap_content" 2130969125="tvSymbol,ivSwitchSymbol,tvUpAndDown" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099778" ="end" android:id="@id/tvUpAndDown" ="70.0dip" ="wrap_content" ="-3.0dip" ="1" ="8.0dip" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol" 2130969945="@dimen/2131166201" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434917" ="gone" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/tvSymbol" 2130969918="@id/2131434925" 2130969941="@id/tvSymbol" 2130971077="@drawable/2131237542" 2130971375="@color/2131100223" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434925" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/tvSymbol" 2130969918="@id/2131434391" 2130969941="@id/tvSymbol" 2130971077="@drawable/2131236989" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434391" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/tvSymbol" 2130969918="@id/2131434684" 2130969941="@id/tvSymbol" 2130971077="@drawable/2131236977" 2130971375="@color/2131099738" />
+    <com.finance.kit.framework.widget.KitTradeMoreButton android:id="@id/2131434684" ="25.0dip" ="wrap_content" ="@color/2131099738" ="10.0dip" 2130969911="@id/tvSymbol" 2130969917="2131438103" 2130969941="@id/tvSymbol" />
+</androidx.constraintlayout.widget.ConstraintLayout>

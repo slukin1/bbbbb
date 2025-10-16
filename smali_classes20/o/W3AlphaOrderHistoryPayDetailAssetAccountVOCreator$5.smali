@@ -1,0 +1,58 @@
+.class final Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator$5;
+.super Landroid/view/ViewOutlineProvider;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator;->initMaskOutlineProvider(Landroid/view/View;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator;
+
+
+# direct methods
+.method constructor <init>(Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator;)V
+    .locals 0
+
+    .line 61
+    iput-object p1, p0, Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator$5;->this$0:Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator;
+
+    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getOutline(Landroid/view/View;Landroid/graphics/Outline;)V
+    .locals 0
+
+    .line 64
+    iget-object p1, p0, Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator$5;->this$0:Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator;
+
+    iget-object p1, p1, Lo/W3AlphaOrderHistoryParentViewModelupdateTradeType1;->shapePath:Landroid/graphics/Path;
+
+    invoke-virtual {p1}, Landroid/graphics/Path;->isEmpty()Z
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    .line 65
+    iget-object p1, p0, Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator$5;->this$0:Lo/W3AlphaOrderHistoryPayDetailAssetAccountVOCreator;
+
+    iget-object p1, p1, Lo/W3AlphaOrderHistoryParentViewModelupdateTradeType1;->shapePath:Landroid/graphics/Path;
+
+    invoke-static {p2, p1}, Lo/getHumanReadableName;->d(Landroid/graphics/Outline;Landroid/graphics/Path;)V
+
+    :cond_0
+    return-void
+.end method

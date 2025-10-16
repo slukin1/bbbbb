@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/funding_rate" ="15.0dip" style="@style/2132149463" />
+            <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432307" ="fill_parent" ="wrap_content">
+                <com.finance.futures.common.feature.bigdata.ui.arbitrage.detail.ui.view.FundingRateChartView android:id="@id/2131429474" ="fill_parent" ="212.0dip" ="20.0dip" ="15.0dip" ="15.0dip" />
+            </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131446719" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/futures_funding_rate_dialog_interval_title" 2130969918="@id/2131432738" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432738" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131446720" ="0.0dip" ="wrap_content" 2130969911="@id/2131446719" 2130969917="2131438103" 2130969936="@id/2131432738" 2130969941="@id/2131446719" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131448079" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/futures_funding_history_time_to_next_funding" 2130969918="@id/2131432738" 2130969937="2131438103" 2130969940="@id/2131446719" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131448080" ="0.0dip" ="wrap_content" 2130969911="@id/2131448079" 2130969917="2131438103" 2130969936="@id/2131432738" 2130969941="@id/2131448079" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131446716" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/futures_funding_history_interest_rate" 2130969918="@id/2131432738" 2130969937="2131438103" 2130969940="@id/2131448079" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131446717" ="0.0dip" ="wrap_content" 2130969911="@id/2131446716" 2130969917="2131438103" 2130969936="@id/2131432738" 2130969941="@id/2131446716" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131446577" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/futures_funding_history_funding_cap" 2130969918="@id/2131432738" 2130969937="2131438103" 2130969940="@id/2131446716" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131446578" ="0.0dip" ="wrap_content" android:text="@string/placeholder" 2130969911="@id/2131446577" 2130969917="2131438103" 2130969936="@id/2131432738" 2130969941="@id/2131446577" style="@style/2132149384" />
+                <View android:id="@id/2131449216" ="@color/2131099751" ="0.0dip" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446577" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/time" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+                <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432740" ="wrap_content" ="wrap_content" 2130969921="0.4" />
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/funding_rate" ="8.0dip" 2130969918="@id/2131432742" 2130969941="2131438103" style="@style/2132149394" />
+                <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432742" ="wrap_content" ="wrap_content" 2130969921="0.7" />
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/future_trade_mark_price" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432319" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="82.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131428453" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/icon_iv" ="24.0dip" ="24.0dip" 2130969911="@id/2131428453" 2130969917="@id/2131428453" 2130969937="@id/2131428453" 2130969941="@id/2131428453" />
+    <TextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131441558" ="wrap_content" ="24.0dip" ="1" ="12.0dip" 2130969905="true" 2130969912="@id/2131440820" 2130969918="@id/2131438991" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131428453" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149447" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131438991" ="@drawable/2131235998" ="4.0dip" ="1.0dip" ="4.0dip" ="1.0dip" ="invisible" ="wrap_content" ="wrap_content" ="false" ="5.0dip" ="5.0dip" ="#1afcd535" ="@dimen/2131166247" ="@dimen/2131166155" 2130969911="@id/2131441558" 2130969918="@id/2131428055" 2130969936="@id/2131441558" 2130969941="@id/2131441558" style="@style/2132149394" />
+    <TextView ="@color/2131099778" android:id="@id/2131440820" ="0.0dip" ="wrap_content" ="3.0dip" 2130969911="2131438103" 2130969918="@id/2131428055" 2130969937="@id/2131441558" 2130969940="@id/2131441558" style="@style/2132149386" />
+    <ImageView android:id="@id/2131428055" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" />
+    <LinearLayout ="center_vertical" android:id="@id/2131430851" ="8.0dip" ="8.0dip" ="wrap_content" ="20.0dip" ="@dimen/2131166286" 2130969917="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131427567" ="12.0dip" ="12.0dip" ="fitXY" />
+        <TextView ="@color/2131099787" android:id="@id/2131427618" ="wrap_content" ="wrap_content" ="false" ="2.0dip" style="@style/2132149398" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427577" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="40.0dip" ="fill_parent" ="wrap_content">
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_current_ltv" style="@style/2132149446" />
+                <TextView ="@color/2131099787" android:id="@id/2131446194" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149446" />
+            </LinearLayout>
+            <LinearLayout ="center" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip">
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" android:text="@string/total_debt" ="1.0" ="10.0dip" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131448247" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="center" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" android:text="@string/margin_loan_collateral_amount" ="1.0" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131446000" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="22.0dip" ="15.0dip" />
+            <include android:id="@id/2131435614" layout="@layout/2131627144" />
+            <TextView ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/margin_loan_adjust_ltv" style="@style/2132149450" />
+            <LinearLayout ="center_vertical" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="15.0dip" ="5.0dip" ="15.0dip" ="@color/2131099744">
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/earn_percent_zero_less" ="10.0dip" style="@style/2132149446" />
+                <View ="@color/2131099751" ="1.0dip" ="18.0dip" ="16.0dip" />
+                <EditText ="@color/2131099764" ="@color/2131099762" ="center" android:id="@id/2131431327" ="@null" ="25.0dip" ="25.0dip" ="0.0dip" ="fill_parent" android:hint="@string/margin_loan_adjust_ltv" ="1" ="1.0" ="number" ="actionDone" ="center" style="@style/2132149446" />
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/earn_percent" style="@style/2132149446" />
+                <View ="@color/2131099751" ="1.0dip" ="18.0dip" ="16.0dip" />
+                <TextView ="@color/2131099764" android:id="@id/2131446969" ="wrap_content" ="wrap_content" ="16.0dip" ="10.0dip" style="@style/2132149446" />
+            </LinearLayout>
+            <com.binance.base.widget.IconTipsTextView ="@color/2131099778" android:id="@id/2131441461" ="wrap_content" ="wrap_content" ="15.0dip" ="22.0dip" ="15.0dip" android:text="@string/margin_loan_collateral_amount" 2130969274="@string/margin_loan_collateral_amount" 2130969613="14" 2130971382="@string/earn_loan_adjust_ltv_collateral_tip" style="@style/2132149450" />
+            <LinearLayout ="fill_parent" ="36.0dip" ="15.0dip" ="5.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131445525" ="@drawable/2131232599" ="0.0dip" ="fill_parent" android:text="@string/wallet_balance_history_title_add" ="1.0" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131447636" ="@drawable/2131232599" ="0.0dip" ="fill_parent" android:text="@string/wallet_balance_history_title_remove" ="1.0" ="5.0dip" style="@style/2132149450" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="@color/2131099676">
+                <com.major.android.uikit.input.KitInputAmount android:id="@id/2131433456" ="fill_parent" ="52.0dip" 2130969655="@string/margin_loan_add_collateral" 2130969937="2131438103" 2130969941="2131438103" />
+                <View android:id="@id/divider" ="@color/2131100851" ="fill_parent" ="1.0dip" ="10.0dip" ="5.0dip" ="10.0dip" 2130969940="@id/2131433456" />
+                <TextView ="@color/2131099726" android:id="@id/tvEqualSign" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/earn_equal" 2130969911="2131438103" 2130969937="@id/divider" 2130969940="@id/divider" style="@style/2132149461" />
+                <TextView ="@color/2131099778" android:id="@id/tvEarnAmount" ="wrap_content" ="wrap_content" ="10.0dip" 2130969912="@id/tvEarnAmountDesc" 2130969936="@id/tvEqualSign" 2130969941="@id/tvEqualSign" 2130969943="2131438085" style="@style/2132149350" />
+                <TextView ="@color/2131099778" android:id="@id/tvEarnAmountDesc" ="wrap_content" ="wrap_content" android:text="@string/loan_from_earn_wallet" 2130969911="@id/tvEqualSign" 2130969937="@id/tvEarnAmount" 2130969940="@id/tvEarnAmount" style="@style/2132149350" />
+                <TextView ="@color/2131099726" android:id="@id/tvPlusSign" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/earn_plus" ="10.0dip" 2130969911="2131438103" 2130969936="@id/tvEarnAmountDesc" 2130969940="@id/divider" style="@style/2132149461" />
+                <TextView ="@color/2131099778" android:id="@id/tvSpotAmount" ="wrap_content" ="wrap_content" ="10.0dip" 2130969912="@id/tvSpotAmountDesc" 2130969936="@id/tvPlusSign" 2130969941="@id/tvPlusSign" 2130969943="2131438085" style="@style/2132149350" />
+                <TextView ="@color/2131099778" android:id="@id/tvSpotAmountDesc" ="wrap_content" ="wrap_content" android:text="@string/loan_from_spot_wallet" 2130969911="@id/tvPlusSign" 2130969937="@id/tvSpotAmount" 2130969940="@id/tvSpotAmount" style="@style/2132149350" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432595" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvSpotAmountDesc,tvSpotAmount,tvPlusSign" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432521" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvEqualSign,divider,tvEarnAmount,tvEarnAmountDesc" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099787" android:id="@id/2131445322" ="@drawable/2131232763" ="10.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/loan_from_spot_wallet_content" style="@style/2132149454" />
+            <TextView ="#fff6465d" android:id="@id/2131443709" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" style="@style/2132149384" />
+            <TextView ="@color/2131099726" ="center_vertical" android:id="@id/2131447637" ="@drawable/2131235987" ="10.0dip" ="10.0dip" ="gone" ="fill_parent" ="50.0dip" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/margin_loan_remove_error" ="@color/2131099751" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/2131445619" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/margin_loan_add_collateral" style="@style/2132148691" />
+</LinearLayout>

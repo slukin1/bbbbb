@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="294.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/tabLayout" ="0.0dip" ="24.0dip" ="12.0dip" ="16.0dip" 2130969918="@id/2131430215" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/2131428453" ="16.0dip" ="24.0dip" 2130969911="@id/tabLayout" 2130969917="@id/tabLayout" 2130969941="@id/tabLayout" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430215" ="gone" ="20.0dip" ="20.0dip" 2130969911="@id/tabLayout" 2130969918="@id/2131440397" 2130969941="@id/tabLayout" />
+    <Space android:id="@id/2131440397" ="16.0dip" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" ="8.0dip" 2130969911="2131438103" 2130969940="@id/tabLayout" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131440121" ="fill_parent" ="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

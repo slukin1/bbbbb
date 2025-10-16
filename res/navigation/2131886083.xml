@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation 2130971149="@id/2131436745" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment ="LookupFragment" ="io.uqudo.sdk.lookup.view.LookupFormFragment" android:id="@id/2131436745">
+        <argument ="error" 2130968681="java.lang.Throwable" 2130970331="true" />
+        <action android:id="@id/2131427513" 2130969252="@id/2131437985" />
+    </fragment>
+    <fragment ="OTPFragment" ="io.uqudo.sdk.lookup.view.LookupOTPFragment" android:id="@id/2131437985">
+        <action android:id="@id/2131427519" 2130969252="@id/2131436745" 2130969891="true" 2130970563="@id/2131437985" 2130970564="true" />
+    </fragment>
+</navigation>

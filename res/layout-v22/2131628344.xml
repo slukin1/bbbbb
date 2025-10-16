@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="16.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="8.0dip" ="16.0dip" ="8.0dip" ="@color/2131099712" ="@dimen/2131166188" ="@dimen/2131166286" ="@dimen/2131166188" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="28.0dip" ="28.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131445971" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/iv_logo" 2130969936="@id/iv_logo" 2130969941="@id/iv_logo" style="@style/2132149450" />
+        <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/rv_tags" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="@id/2131445971" 2130969917="2131438103" 2130969936="@id/2131445971" 2130969941="@id/2131445971" />
+        <View android:id="@id/2131435855" ="@color/2131099665" ="fill_parent" ="1.0px" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iv_logo" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435855">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" style="@style/2132149463" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" ="fill_parent" ="wrap_content" ="12.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131446636" ="wrap_content" ="wrap_content" android:text="@string/market_search_start_at" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/2131448524" ="0.0dip" ="wrap_content" ="1.0" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149450" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131446637" ="wrap_content" ="wrap_content" android:text="@string/market_search_start_at" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/2131448525" ="0.0dip" ="wrap_content" ="1.0" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149450" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" android:id="@id/2131446638" ="wrap_content" ="wrap_content" android:text="@string/market_search_start_at" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/2131448526" ="0.0dip" ="wrap_content" ="1.0" 2130969937="@id/iv_logo" 2130969940="@id/2131429109" style="@style/2132149450" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

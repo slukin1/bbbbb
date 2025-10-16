@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131440467" ="fill_parent" ="fill_parent" xmlns:ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431963" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131432825" ="gone" ="fill_parent" ="40.0dip" 2130969941="2131438103" layout="@layout/2131625448" />
+    </FrameLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438717" ="fill_parent" ="fill_parent" 2130971098="false" 2130971099="false">
+        <FrameLayout android:id="@id/2131431990" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439672" ="gone" ="fill_parent" ="fill_parent" ="true" />
+            <include android:id="@id/2131441786" ="gone" layout="@layout/2131629818" />
+            <include android:id="@id/2131432895" ="gone" layout="@layout/2131629819" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131435713" ="wrap_content" ="wrap_content" ="16.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131448278" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_total_profit_shared" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_eye" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131235977" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView ="@color/2131099764" android:id="@id/2131448279" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="@id/2131435713" 2130969940="@id/2131435713" style="@style/2132149414" />
+    <TextView ="@color/2131099764" android:id="@id/2131448488" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/copy_trading_unrealized_profit_sharing" ="2.0dip" 2130969937="@id/2131435713" 2130969940="@id/2131448279" style="@style/2132149350" />
+    <TextView ="@color/2131099851" android:id="@id/2131448489" ="wrap_content" ="wrap_content" ="5.0dip" 2130969911="@id/2131448488" 2130969936="@id/2131448488" 2130969941="@id/2131448488" style="@style/2132149350" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/2131449249" ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131448489" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="wrap_content" ="12.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969940="@id/2131449249" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449439" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/tabLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

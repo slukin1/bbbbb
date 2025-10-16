@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content" ="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.chat_new.groupchat.widget.GroupChatItemQuoteView android:id="@id/2131438795" ="gone" ="0.0dip" ="wrap_content" ="10.0dip" ="8.0dip" ="10.0dip" ="@dimen/2131166156" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969945="2131436979" />
+    <com.binance.c2c.chat.widget.ChatMsgRadioImageView android:id="@id/2131434001" ="fill_parent" ="wrap_content" ="6.0dip" ="centerCrop" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438795" 2130969962="@dimen/2131166153" 2130971077="@drawable/2131238450" />
+    <FrameLayout android:id="@id/2131432024" ="@drawable/2131232389" ="gone" ="48.0dip" ="48.0dip" ="@color/2131099753" 2130969911="@id/2131434001" 2130969917="@id/2131434001" 2130969937="@id/2131434001" 2130969941="@id/2131434001">
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434960" ="24.0dip" ="24.0dip" ="centerCrop" 2130971077="@drawable/2131237810" 2130971375="@color/2131099776" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099788" android:id="@id/2131448554" ="@drawable/2131235997" ="3.0dip" ="3.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" ="2.0dip" ="@font/2131296266" ="8.0dip" ="@color/2131099753" ="@dimen/2131166225" 2130969937="@id/2131434001" 2130969941="@id/2131434001" />
+</androidx.constraintlayout.widget.ConstraintLayout>

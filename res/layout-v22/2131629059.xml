@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131429995" ="12.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447987" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/futures_switch_positions_title" ="false" ="@dimen/2131166184" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439806" ="vertical" ="fill_parent" ="0.0dip" ="20.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429826" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <include android:id="@id/2131441021" layout="@layout/2131629116" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131447970" ="20.0dip" ="20.0dip" ="24.0dip" ="@color/2131099764" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441021" 2130971077="@drawable/2131236861" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441015" ="wrap_content" ="wrap_content" android:text="@string/futures_switch_position_to" 2130969937="2131438103" 2130969940="@id/2131447970" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429946" ="@drawable/2131236700" ="12.0dip" ="12.0dip" ="0.0dip" ="40.0dip" ="4.0dip" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441015">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" ="center" android:id="@id/2131448198" ="0.0dip" ="0.0dip" ="1" ="8.0dip" 2130969911="2131438103" 2130969918="@id/iv_price_type_arrow" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/iv_price_type_arrow" ="16.0dip" ="16.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441013" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_switch_position_side_title" 2130969937="2131438103" 2130969940="@id/2131429946" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429981" ="@drawable/2131236700" ="12.0dip" ="12.0dip" ="0.0dip" ="40.0dip" ="4.0dip" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441013">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" ="center" android:id="@id/2131447804" ="0.0dip" ="0.0dip" ="1" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131434846" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434846" ="16.0dip" ="16.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441011" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_switch_position_size_title" 2130969937="2131438103" 2130969940="@id/2131429981" style="@style/2132149450" />
+            <com.finance.framework.widget.edit.SlidePercentEditTextV2 android:id="@id/2131440138" ="fill_parent" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441011" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131428496" ="fill_parent" ="40.0dip" ="15.0dip" ="31.0dip" ="15.0dip" android:text="@string/futures_switch_position_switch_title" ="@dimen/2131166184" style="@style/2132148697" />
+</androidx.appcompat.widget.LinearLayoutCompat>

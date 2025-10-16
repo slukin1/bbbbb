@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131430321" ="24.0dip" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433520" ="240.0dip" ="170.0dip" ="8.0dip" ="24.0dip" ="8.0dip" ="fitCenter" ="8.0dip" ="8.0dip" />
+    <ScrollView ="vertical" ="fill_parent" ="fill_parent" ="8.0dip" ="12.0dip" ="30.0dip" ="8.0dip" ="30.0dip">
+        <LinearLayout ="center_vertical" ="vertical" ="fill_parent" ="wrap_content">
+            <TextView android:id="@id/2131433522" ="fill_parent" ="wrap_content" ="12.0dip" />
+            <TextView android:id="@id/2131433521" ="fill_parent" ="wrap_content" ="8.0sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

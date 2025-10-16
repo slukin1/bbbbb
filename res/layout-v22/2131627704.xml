@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232628" ="15.0dip" ="10.0dip" ="15.0dip" ="30.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437284" ="@drawable/2131232617" ="15.0dip" ="15.0dip" ="true" ="true" ="fill_parent" ="wrap_content" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434690" ="20.0dip" ="20.0dip" ="@color/2131099764" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238330" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131447049" ="wrap_content" ="wrap_content" android:text="@string/mpc_create_new_defi_wallet" ="10.0dip" 2130969936="@id/2131434690" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="start|center" android:id="@id/2131447050" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_create_wallet_tips" ="10.0dip" 2130969936="@id/2131434690" 2130969940="@id/2131447049" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437294" ="@drawable/2131232617" ="15.0dip" ="15.0dip" ="true" ="true" ="fill_parent" ="wrap_content" ="10.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131437284">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434692" ="20.0dip" ="20.0dip" ="@color/2131099764" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237192" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131437272" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_import_wallet" ="10.0dip" 2130969936="@id/2131434692" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="start|center" android:id="@id/2131437273" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_import_wallet_sub_title" 2130969937="@id/2131437272" 2130969940="@id/2131437272" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

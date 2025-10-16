@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433050" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" android:id="@id/2131433056" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131433051" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433056" style="@style/2132148994">
+        <AutoCompleteTextView android:id="@id/2131433052" ="true" ="false" ="true" ="false" ="fill_parent" ="fill_parent" ="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131433054" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433051" style="@style/2132148994">
+        <AutoCompleteTextView android:id="@id/2131433055" ="true" ="false" ="true" ="false" ="fill_parent" ="fill_parent" ="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/2131433057" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433054" style="?2130971323">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/2131433058" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="1" ="actionNext" ="4.0dip" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:id="@id/2131433053" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433057" style="?2130971299" />
+</androidx.constraintlayout.widget.ConstraintLayout>

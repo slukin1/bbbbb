@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="54.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131430200" ="fill_parent" ="wrap_content" ="true" />
+    <RelativeLayout android:id="@id/2131430835" ="50.0dip" ="fill_parent" ="15.0dip" ="true">
+        <ImageView ="end" ="20.0dip" ="20.0dip" ="true" ="true" 2130971077="@drawable/2131237353" 2130971375="@color/2131099764" />
+    </RelativeLayout>
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/2131435855" ="fill_parent" ="0.5dip" ="true" ="true" />
+</RelativeLayout>

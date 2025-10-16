@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="15.0dip" ="16.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433328" ="@drawable/2131233487" ="fill_parent" ="wrap_content" ="fitCenter" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_what_is_limit_buy" 2130969937="2131438103" 2130969940="@id/2131433328" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/2131446264" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_limit_buy_description" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433317" ="24.0dip" ="24.0dip" ="15.0dip" ="@drawable/2131236915" 2130969937="2131438103" 2130969940="@id/2131446264" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445861" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_buy_the_dip" ="8.0dip" 2130969911="@id/2131433317" 2130969936="@id/2131433317" 2130969941="@id/2131433317" 2130969942="0.0" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445860" ="0.0dip" ="wrap_content" android:text="@string/ocbs_string_buy_the_dip_description" 2130969917="2131438103" 2130969937="@id/2131445861" 2130969940="@id/2131445861" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

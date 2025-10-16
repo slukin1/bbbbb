@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236021" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="12.0dip" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <TextView ="20.0sp" ="bold" ="@color/2131100164" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/convert_guide_user_deposit_title" ="12.0dip" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/ivClose" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429677" ="@drawable/2131233260" ="fill_parent" ="wrap_content" ="24.0dip" ="12.0dip" ="12.0dip" 2130969940="@id/tvTitle">
+        <TextView ="20.0sp" ="bold" ="@color/2131100164" android:id="@id/2131443091" ="wrap_content" ="wrap_content" ="24.0dip" ="240.0dip" android:text="@string/convert_guide_user_deposit_fiat_content" ="false" ="24.0dip" 2130969918="@id/2131439822" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439822" ="0.0dip" ="22.0dip" ="fitStart" ="8.0dip" ="8.0dip" 2130969911="@id/2131443091" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131443091" 2130969941="@id/2131443091" 2130971077="@drawable/2131233261" />
+        <TextView ="12.0sp" ="#ff959eb1" android:id="@id/2131443094" ="0.0dip" ="wrap_content" ="8.0dip" ="24.0dip" android:text="@string/convert_guide_user_deposit_fiat_sub_content" ="24.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131443091" 2130969940="@id/2131443091" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429652" ="@drawable/2131233260" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="12.0dip" 2130969940="@id/2131429677">
+        <TextView ="20.0sp" ="bold" ="@color/2131100164" android:id="@id/2131442399" ="wrap_content" ="wrap_content" ="24.0dip" ="240.0dip" android:text="@string/fiat_trade" ="false" ="24.0dip" 2130969918="@id/2131439821" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439821" ="0.0dip" ="22.0dip" ="fitStart" ="8.0dip" ="8.0dip" 2130969911="@id/2131442399" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131442399" 2130969941="@id/2131442399" 2130971077="@drawable/2131233266" />
+        <TextView ="12.0sp" ="#ff959eb1" android:id="@id/2131442400" ="0.0dip" ="wrap_content" ="8.0dip" ="24.0dip" android:text="@string/convert_guide_user_deposit_c2c_sub_content" ="24.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131442399" 2130969940="@id/2131442399" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

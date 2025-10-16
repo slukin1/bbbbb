@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="12.0dip" ="12.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433764" ="24.0dip" ="24.0dip" 2130969911="@id/2131442523" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/tvCoinName" ="wrap_content" ="18.0dip" ="false" ="8.0dip" 2130969936="@id/2131433764" 2130969941="2131438103" style="@style/2132149467" />
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131449360" ="gone" ="12.0dip" ="12.0dip" ="4.0dip" 2130969911="@id/tvCoinName" 2130969936="@id/tvCoinName" 2130969941="@id/tvCoinName" 2130970039="true" 2130970050="true" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131442523" ="wrap_content" ="14.0dip" ="1" ="false" ="8.0dip" 2130968700="14.0sp" 2130968701="12.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131433764" 2130969940="@id/tvCoinName" style="@style/2132149450" />
+    <LinearLayout android:id="@id/2131441906" ="fill_parent" ="70.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131441905" ="fill_parent" ="70.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

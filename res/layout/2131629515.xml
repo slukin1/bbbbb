@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="1" ="false" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="3.0dip" ="false" ="true" style="@style/2132149384" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131444459" ="wrap_content" ="wrap_content" android:text="@string/earn_reward_amount" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131444458" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" android:id="@id/tvAprLabel" ="wrap_content" ="wrap_content" android:text="@string/earn_apr" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvApr" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+            <com.binance.base.widget.UnderLineTipsTextView ="@color/2131099778" android:id="@id/2131442914" ="wrap_content" ="wrap_content" 2130970840="true" 2130971380="2131428553" 2130971382="@string/earn_eligible_bfusd_desc" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131442913" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View ="@color/2131100565" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" />
+</LinearLayout>

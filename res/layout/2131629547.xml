@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449733" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="64.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.33" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433681" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148577" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="1" ="10.0dip" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131432755" 2130969927="0.0" 2130969936="@id/2131433681" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tvApy" ="wrap_content" ="wrap_content" ="1" ="12.0dip" 2130969911="2131438103" 2130969936="@id/2131432755" 2130969941="2131438103" style="@style/2132149346" />
+    <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443708" ="gone" ="wrap_content" ="wrap_content" android:text="@string/earn_apr_max" ="1" ="4.0dip" 2130969274="@string/earn_the_max_apr" 2130969911="2131438103" 2130969936="@id/tvApy" 2130969941="2131438103" 2130970562="31" 2130970566="43" 2130971380="2131428553" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.6" />
+    <ImageView android:id="@id/2131433673" ="1.0dip" ="1.0dip" ="gone" ="20.0dip" ="20.0dip" ="true" ="6.0dip" 2130969911="2131438103" 2130969936="@id/2131432760" 2130969941="2131438103" 2130971077="@drawable/2131237021" style="@style/2132149384" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439758" ="32.0dip" ="18.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

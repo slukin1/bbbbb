@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131431664" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234718" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" ="@dimen/2131166170">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="2.0dip" ="26.0dip" ="26.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="2" ="false" ="8.0dip" 2130969917="2131438103" 2130969936="@id/iv_logo" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="6.0dip" ="false" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

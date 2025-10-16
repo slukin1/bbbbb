@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099803" 2130970893="@dimen/2131166170" 2130970894="@id/2131431925" 2130970897="keleton_home_widget_common_8x4_light.svg" 2130970899="keleton_home_widget_common_8x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431925" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/widget_fear_and_greed" ="1" ="16.0dip" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/ivArrow" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099779" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429683" ="0.0dip" ="120.0dip" ="12.0dip" 2130969918="@id/2131429702" 2130969937="2131438103" 2130969940="@id/2131431925">
+        <com.eaas.home.components.dynamic.feargreed.view.FearGreedView android:id="@id/2131431718" ="fill_parent" ="85.0dip" ="16.0dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429702" ="wrap_content" ="wrap_content" ="10.0dip" ="8.0dip" 2130969917="2131438103" 2130969940="@id/2131431925">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429791" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131445471" ="wrap_content" ="wrap_content" android:text="@string/widget_fear_and_greed_yesterday" ="1" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434287" ="5.0dip" ="10.0dip" ="@drawable/2131236009" 2130969911="@id/2131445470" 2130969937="2131438103" 2130969940="@id/2131445471" 2130969941="@id/2131445470" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131445470" ="wrap_content" ="wrap_content" ="184.0dip" ="112.0dip" ="1" ="false" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131434287" 2130969940="@id/2131445471" style="@style/2132149367" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429704" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131429791">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131443493" ="wrap_content" ="wrap_content" android:text="@string/widget_fear_and_greed_last_week" ="1" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433947" ="5.0dip" ="10.0dip" ="@drawable/2131236009" 2130969911="@id/2131443492" 2130969937="2131438103" 2130969940="@id/2131443493" 2130969941="@id/2131443492" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131443492" ="wrap_content" ="wrap_content" ="184.0dip" ="112.0dip" ="1" ="false" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131433947" 2130969940="@id/2131443493" style="@style/2132149367" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429703" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131429704">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131443482" ="wrap_content" ="wrap_content" android:text="@string/widget_fear_and_greed_last_month" ="1" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433945" ="5.0dip" ="10.0dip" ="@drawable/2131236009" 2130969911="@id/2131443481" 2130969937="2131438103" 2130969940="@id/2131443482" 2130969941="@id/2131443481" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131443481" ="wrap_content" ="wrap_content" ="184.0dip" ="112.0dip" ="1" ="false" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131433945" 2130969940="@id/2131443482" style="@style/2132149367" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.components.skeleton.SkeletonViewGroup>

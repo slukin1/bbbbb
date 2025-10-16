@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="565.0dip" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" android:text="@string/futures_position_pnl_close_all_title" ="@dimen/2131166184" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="14.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131446197" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/futures_position_current_pnl" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131446198" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/placeholder" ="ltr" 2130969905="true" 2130969907="@id/2131446197" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131446197" style="@style/2132149450" />
+            <View android:id="@id/2131431059" ="@color/2131099751" ="0.0dip" ="0.5dip" ="19.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446197" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131448030" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_position_target_pnl" ="1" 2130969937="2131438103" 2130969940="@id/2131431059" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131101054" ="center_vertical" android:id="@id/2131445250" ="wrap_content" ="wrap_content" android:text="@string/future_trade_mark" ="2.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969907="@id/2131448030" 2130969917="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099787" ="center" android:id="@id/2131447229" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_cancel" ="16.0dip" ="16.0dip" 2130969907="@id/2131448030" 2130969918="@id/2131445250" style="@style/2132149359" />
+            <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/et_tp_trigger" ="0.0dip" ="40.0dip" ="8.0dip" ="8.0dip" 2130969569="true" 2130969918="@id/et_sl_trigger" 2130969937="2131438103" 2130969940="@id/2131448030" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_tp_error_tip" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="@id/et_tp_trigger" 2130969937="@id/et_tp_trigger" 2130969940="@id/et_tp_trigger" style="@style/2132149361" />
+            <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/et_sl_trigger" ="0.0dip" ="40.0dip" ="8.0dip" 2130969569="true" 2130969917="2131438103" 2130969936="@id/et_tp_trigger" 2130969940="@id/2131448030" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_sl_error_tip" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="@id/et_sl_trigger" 2130969937="@id/et_sl_trigger" 2130969940="@id/et_sl_trigger" style="@style/2132149361" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131428382" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_tp_error_tip,tv_sl_error_tip,et_tp_trigger,et_sl_trigger" />
+            <TextView ="@color/2131099778" android:id="@id/2131445829" ="wrap_content" ="wrap_content" android:text="*" 2130969937="2131438103" 2130969941="@id/2131445824" style="@style/2132149361" />
+            <TextView ="@color/2131099778" android:id="@id/2131445824" ="0.0dip" ="wrap_content" ="16.0dip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131445829" 2130969940="@id/2131428382" style="@style/2132149361" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="14.0dip" ="30.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" style="@style/2132148692" />
+</LinearLayout>

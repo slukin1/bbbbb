@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430903" ="@drawable/2131235991" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433298" ="60.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvHeader" ="wrap_content" ="wrap_content" ="16.0dip" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433298" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="0.0dip" ="wrap_content" ="8.0dip" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvHeader" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435372" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip" 2130969940="@id/2131442581">
+        <com.major.android.uikit.button.KitButton ="end" ="center" android:id="@id/2131428732" ="fill_parent" ="wrap_content" 2130969173="4" 2130969912="@id/2131428716" 2130969941="2131438103" 2130969957="@dimen/2131166156" />
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428716" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="@id/2131428732" 2130969173="4" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428732" 2130969962="0.0dip" 2130971472="2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131442365" ="gone" ="0.0dip" ="wrap_content" ="10.0dip" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435372" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429850" ="fill_parent" ="fill_parent" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131434506" 2130969941="2131438103" layout="@layout/2131624294" />
+    <LinearLayout android:id="@id/2131436629" ="@drawable/2131236700" ="0.0dip" ="32.0dip" ="14.0dip" ="10.0dip" ="6.0dip" ="15.0dip" 2130969918="@id/tv_cancel" 2130969937="2131438103" 2130969940="@id/2131434506" 2130969958="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237994" 2130971375="@color/2131099738" />
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131431302" ="@null" ="0.0dip" ="fill_parent" android:hint="@string/_search" ="1" ="1.0" ="text" ="actionDone" ="6.0dip" style="@style/2132149374" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434432" ="gone" ="26.0dip" ="fill_parent" ="6.0dip" ="4.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+    </LinearLayout>
+    <TextView ="@color/2131099787" ="center" android:id="@id/tv_cancel" ="15.0dip" ="15.0dip" ="gone" ="wrap_content" ="0.0dip" android:text="@string/_cancel" ="@dimen/2131166184" 2130969911="@id/2131436629" 2130969917="2131438103" 2130969941="@id/2131436629" style="@style/2132149450" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432172" ="fill_parent" ="0.0dip" ="6.0dip" 2130969911="2131438103" 2130969940="@id/2131436629" />
+</androidx.constraintlayout.widget.ConstraintLayout>

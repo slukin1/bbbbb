@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436627" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="fill_parent" ="wrap_content" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430704" ="fill_parent" ="44.0dip" />
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131439756" ="fill_parent" ="wrap_content" ="12.0dip" 2130968908="true" 2130969851="2" 2130970759="@string/c2c_chat_list_search_hint" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430701" ="fill_parent" ="wrap_content" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="fill_parent">
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131430692" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="bottom" ="@drawable/2131232784" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434402" ="120.0dip" ="120.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234366" />
+        <TextView ="@color/2131099764" android:id="@id/2131434905" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/c2c_merchant_detail_deposit_title" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131434402" style="@style/2132149423" />
+        <LinearLayout ="vertical" android:id="@id/2131434403" ="fill_parent" ="wrap_content" ="24.0dip" 2130969937="2131438103" 2130969940="@id/2131434905" />
+        <TextView ="@color/2131099764" android:id="@id/2131446074" ="fill_parent" ="wrap_content" ="20.0dip" ="30.0dip" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131434403" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

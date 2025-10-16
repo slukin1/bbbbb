@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="19.0dip" ="12.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <Space android:id="@id/2131440397" ="fill_parent" ="12.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

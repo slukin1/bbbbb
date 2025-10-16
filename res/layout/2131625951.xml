@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436644" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432245" ="gone" ="fill_parent" ="wrap_content" />
+    <com.finance.futures.common.framework.widget.FuturePairZoneTypeView android:id="@id/2131432393" ="fill_parent" ="24.0dip" ="12.0dip" ="12.0dip" ="12.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432250" ="fill_parent" ="wrap_content" ="15.0dip" ="100.0">
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewName" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" ="center" android:id="@id/2131441311" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="/" ="4.0dip" 2130969936="@id/textViewName" 2130969941="2131438103" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewVol" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/2131441311" 2130969941="2131438103" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewLastPrice" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" 2130969905="true" 2130969911="2131438103" 2130969918="@id/textViewSpreator" 2130969927="1.0" 2130969936="@id/textViewVol" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" ="center" android:id="@id/textViewSpreator" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="/" ="4.0dip" 2130969911="2131438103" 2130969918="@id/2131428229" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428229" ="0.0dip" ="0.0dip" 2130968759="2131440560" 2130969125="textViewDayChange, textFundingRate" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewDayChange" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="8.0dip" 2130969918="@id/2131434877" 2130969941="@id/textViewName" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textFundingRate" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" 2130969918="@id/2131434877" 2130969941="@id/textViewName" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434877" ="2.0dip" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237139" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.finance.framework.widget.recyclerview.RefreshableEmptyStateRecyclerView android:id="@id/2131431368" ="fill_parent" ="fill_parent" />
+</LinearLayout>

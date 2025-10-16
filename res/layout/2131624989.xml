@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432921" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443774" ="wrap_content" ="wrap_content" android:text="@string/margin_trading_data" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434008" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131443774" 2130969936="@id/2131443774" 2130969941="@id/2131443774" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <androidx.appcompat.widget.AppCompatImageView ="@color/2131099787" android:id="@id/2131441804" ="40.0dip" ="20.0dip" ="20.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    <RadioGroup ="horizontal" android:id="@id/2131439221" ="160.0dip" ="wrap_content" ="10.0dip" ="@drawable/2131233300" ="middle" 2130969937="2131438103" 2130969940="@id/2131443774">
+        <RadioButton android:id="@id/2131442275" ="@null" android:text="BNB" style="@style/2132148566" />
+        <RadioButton android:id="@id/2131442882" ="@null" android:text="ETH" style="@style/2132148566" />
+        <RadioButton android:id="@id/2131442278" ="@null" android:text="BTC" style="@style/2132148566" />
+    </RadioGroup>
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131441599" ="gone" ="wrap_content" ="wrap_content" 2130968684="@null" 2130969937="2131438103" 2130969940="@id/2131443774" 2130970002="@null" 2130970835="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

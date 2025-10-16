@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.trade.sdk.utils.composes.nestedscroll.ScrollVerticallyComposeView android:id="@id/2131430217" ="fill_parent" ="fill_parent" />
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

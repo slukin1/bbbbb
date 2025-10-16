@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131436742" ="0.0dip" ="40.0dip" ="5.0dip" 2130969569="true" app:2130969577="@string/trade_common_trailing_delta" 2130969918="@id/2131445190" 2130969937="2131438103" 2130969941="2131438103" 2130970134="99.9" 2130970739="1" 2130971511="0.1" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131445190" ="@drawable/2131233756" ="27.0dip" ="0.0dip" android:text="1%" ="1" 2130969911="@id/2131436742" 2130969918="@id/2131445191" 2130969936="@id/2131436742" 2130969941="@id/2131436742" style="@style/2132149454" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131445191" ="@drawable/2131233756" ="27.0dip" ="0.0dip" android:text="2%" ="1" ="5.0dip" 2130969911="@id/2131436742" 2130969917="2131438103" 2130969936="@id/2131445190" 2130969941="@id/2131436742" style="@style/2132149454" />
+</merge>

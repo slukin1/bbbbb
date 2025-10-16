@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447037" ="wrap_content" ="wrap_content" ="10.0dip" ="false" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131431363" ="gone" ="fill_parent" ="wrap_content" ="62.0dip" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/copy_trading_no_more_recommend" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429122" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_view_again" ="70.0dip" 2130969918="@id/2131429094" 2130969937="2131438103" 2130969940="@id/2131431363" style="@style/2132148698" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429094" ="gone" ="0.0dip" ="wrap_content" android:text="@string/copy_trading_see_portfolios" ="10.0dip" ="70.0dip" 2130969917="2131438103" 2130969936="@id/2131429122" 2130969941="@id/2131429122" style="@style/2132148693" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429078" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/copy_trading_refresh" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431363" style="@style/2132148698" />
+    <com.finance.kit.framework.widget.cardstack.KitCardContainer ="center" android:id="@id/2131429278" ="10.0dip" ="false" ="false" ="fill_parent" ="0.0dip" 2130968922="false" 2130968923="true" 2130968924="2131441647" 2130968925="8.0dip" 2130968926="4" 2130969911="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

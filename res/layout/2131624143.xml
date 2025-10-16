@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436713" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="none" ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+            <com.binance.base.widget.IconTipsTextView ="true" ="@color/2131099778" android:id="@id/2131430181" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/margin_loan_collateral_amount" ="4.0dip" 2130969274="@string/margin_loan_collateral_amount" 2130970840="true" 2130970849="false" 2130971380="2131428553" 2130971382="@string/loan_collateral_amount_content" style="@style/2132149450" />
+            <include android:id="@id/2131430177" ="fill_parent" ="wrap_content" ="5.0dip" layout="@layout/2131627148" />
+            <com.major.android.uikit2.notification.KitNotification android:id="@id/2131445322" ="gone" ="fill_parent" ="wrap_content" ="7.0dip" 2130969840="@string/loan_from_spot_wallet_content" 2130969843="0" style="@style/2132149454" />
+            <com.major.android.uikit2.notification.KitNotification android:id="@id/tvTip2" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969840="@string/earn_loan_bnb_vault_collateral_launchpool_tip" 2130969843="0" style="@style/2132149454" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/margin_loan_wanna_borrow" style="@style/2132149450" />
+            <include android:id="@id/2131428518" ="fill_parent" ="wrap_content" ="5.0dip" layout="@layout/2131627148" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+                <com.major.android.uikit2.divider.KitDivider android:id="@id/divider2" ="fill_parent" ="wrap_content" ="12.0dip" 2130969940="@id/2131443554" />
+                <com.binance.base.widget.TipsTextView ="true" ="@color/2131099778" android:id="@id/2131442147" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/loan_annually_interest_rate" 2130969274="@string/loan_annually_interest_rate" 2130969937="2131438103" 2130969940="@id/divider2" 2130970840="true" 2130971380="2131428553" 2130971382="@string/margin_loan_interest_tips" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131442148" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131442147" style="@style/2132149355" />
+                <com.binance.base.widget.TipsTextView ="true" ="@color/2131099778" android:id="@id/2131443799" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/loan_net_annually_interest_rate" 2130969274="@string/loan_net_annually_interest_rate" 2130969937="2131438103" 2130969940="@id/2131442147" 2130970840="true" 2130971380="2131428553" 2130971382="@string/margin_loan_net_interest_tips" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131443800" ="wrap_content" ="wrap_content" 2130969911="@id/2131443799" 2130969917="2131438103" 2130969941="@id/2131443799" style="@style/2132149355" />
+                <TextView ="@color/2131099778" android:id="@id/2131443306" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/loan_estimated_hourly_interest" 2130969937="2131438103" 2130969940="@id/2131443799" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131443309" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131443306" style="@style/2132149355" />
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443342" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/margin_loan_initial_ltv" 2130969937="2131438103" 2130969940="@id/2131442706" 2130970840="true" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131443344" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131443342" style="@style/2132149355" />
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131442705" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/earn_current_ltv" ="2.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130970840="true" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131442708" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131442705" style="@style/2132149355" />
+                <TextView ="12.0sp" ="@color/2131099863" android:id="@id/2131442706" ="gone" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/earn_current_ltv_tips" 2130969937="@id/2131442705" 2130969940="@id/2131442705" style="@style/2132149384" />
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443554" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/controllers_collaterals_detail_liq_ltv" 2130969937="2131438103" 2130969940="@id/2131443655" 2130970840="true" style="@style/2132149355" />
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443655" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/controllers_collaterals_detail_margin_ltv" 2130969937="2131438103" 2130969940="@id/2131443342" 2130970840="true" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131443656" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131443655" style="@style/2132149355" />
+                <TextView ="@color/2131099764" android:id="@id/2131443555" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131443554" style="@style/2132149355" />
+                <TextView ="@color/2131099778" android:id="@id/2131443557" ="wrap_content" ="wrap_content" ="13.0dip" 2130969937="2131438103" 2130969940="@id/2131443306" style="@style/2132149355" />
+                <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443559" ="wrap_content" ="wrap_content" ="false" ="4.0dip" 2130969312="@color/2131099764" 2130969917="2131438103" 2130969941="@id/2131443557" style="@style/2132149355" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" />
+    <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131440002" ="gone" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131432423" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131430231" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="20.0dip" android:text="@string/_confirm" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</LinearLayout>

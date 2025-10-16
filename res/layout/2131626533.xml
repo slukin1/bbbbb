@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447270" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445986" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/ms_label_coin" 2130969937="2131438103" 2130969940="@id/2131447270" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442138" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/ms_withdraw_amount" 2130969937="2131438103" 2130969940="@id/2131445986" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445234" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/margin_auto_top_up_transfer_in" 2130969937="2131438103" 2130969940="@id/2131442138" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445266" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/_Type" 2130969937="2131438103" 2130969940="@id/2131445234" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444766" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/status" 2130969937="2131438103" 2130969940="@id/2131445266" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446220" ="wrap_content" ="wrap_content" 2130969907="@id/2131447270" 2130969917="2131438103" 2130969941="@id/2131447270" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445971" ="wrap_content" ="wrap_content" 2130969907="@id/2131445986" 2130969917="2131438103" 2130969941="@id/2131445986" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_amount" ="wrap_content" ="wrap_content" 2130969907="@id/2131442138" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445232" ="wrap_content" ="wrap_content" 2130969907="@id/2131445234" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvType" ="wrap_content" ="wrap_content" 2130969907="@id/2131445266" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvStatusValue" ="wrap_content" ="wrap_content" 2130969911="@id/2131444766" 2130969917="2131438103" style="@style/2132149350" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0px" ="16.0dip" 2130969911="2131438103" 2130969940="@id/2131444766" />
+</androidx.constraintlayout.widget.ConstraintLayout>

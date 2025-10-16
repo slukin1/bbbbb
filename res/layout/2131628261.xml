@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/2131440446" ="invisible" ="0.0dip" ="wrap_content" ="72.0dip" ="72.0dip" />
+    <include layout="@layout/2131628265" />
+</FrameLayout>

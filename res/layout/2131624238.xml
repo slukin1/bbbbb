@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131427610" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/headerBar" ="fill_parent" ="@dimen/2131165972" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView ="start" android:id="@id/2131441619" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="wrap_content" ="fill_parent" ="true" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView ="fill_parent" ="fill_parent" ="true" ="@id/2131429648" ="@id/headerBar">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/2131441216" ="wrap_content" ="wrap_content" ="33.0dip" android:text="@string/_subscription_amount" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <TextView ="40.0sp" ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" 2130969918="@id/2131442185" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131441216" style="@style/2132149416" />
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="5.0dip" 2130969907="@id/tvAmount" 2130969917="2131438103" 2130969936="@id/tvAmount" style="@style/2132149446" />
+            <com.binance.earn.widgets.SwitchRedeemTargetAutoSubscribeCard android:id="@id/2131428155" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" 2130968918="@string/lending_autosubscribe" 2130969940="@id/2131442185" 2130971589="@string/earn_locked_auto_subscribe_tips" 2130971590="@string/lending_autosubscribe" />
+            <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443597" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/earn_locked_est_apr" ="15.0dip" 2130969274="@string/earn_locked_est_apr" 2130969937="2131438103" 2130969940="@id/2131428155" 2130970840="true" 2130971380="2131428553" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443596" ="wrap_content" ="wrap_content" ="4.0dip" ="15.0dip" 2130969911="@id/2131443597" 2130969917="2131438103" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432503" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvBoostApr,tvBoostAprTitle" />
+            <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/tvBoostAprTitle" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_boost_apr" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443597" 2130971380="2131430667" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvBoostApr" ="wrap_content" ="wrap_content" ="4.0dip" ="15.0dip" 2130969911="@id/tvBoostAprTitle" 2130969917="2131438103" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/tvLaunchPoolRewardsTitle" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_launchpool_apr" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvBoostAprTitle" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvLaunchPoolRewards" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/tvLaunchPoolRewardsTitle" 2130969917="2131438103" 2130969941="@id/tvLaunchPoolRewardsTitle" style="@style/2132149350" />
+            <LinearLayout ="horizontal" android:id="@id/llLaunchPoolRewardsIconContainer" ="wrap_content" ="18.0dip" ="4.0dip" 2130969905="true" 2130969911="@id/tvLaunchPoolRewards" 2130969918="@id/tvLaunchPoolRewards" 2130969927="1.0" 2130969936="@id/tvLaunchPoolRewardsTitle" 2130969941="@id/tvLaunchPoolRewards" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432545" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvLaunchPoolRewardsTitle,tvLaunchPoolRewards,llLaunchPoolRewardsIconContainer" />
+            <TextView ="@color/2131099778" android:id="@id/2131444842" ="wrap_content" ="wrap_content" ="21.0dip" android:text="@string/earn_summary" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvLaunchPoolRewardsTitle" style="@style/2132149384" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/date" ="15.0dip" 2130969911="@id/2131444842" 2130969917="2131438103" style="@style/2132149384" />
+            <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131441421" ="fill_parent" ="wrap_content" ="3.0dip" ="8.0dip" ="3.0dip" 2130969714="2" 2130969940="@id/2131444842" />
+            <TextView ="@color/2131099764" android:id="@id/2131444756" ="wrap_content" ="wrap_content" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969941="@id/2131431869" style="@style/2132149394" />
+            <TextView ="@color/2131099764" android:id="@id/2131431869" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/earn_lite_lock_subscribe2" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131444756" 2130969940="@id/2131442170" style="@style/2132149397" />
+            <TextView ="@color/2131099778" android:id="@id/2131444757" ="wrap_content" ="wrap_content" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969941="@id/2131431870" style="@style/2132149394" />
+            <TextView ="@color/2131099778" android:id="@id/2131431870" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131444757" 2130969940="@id/2131431869" style="@style/2132149394" />
+            <TextView ="@color/2131099764" android:id="@id/2131444758" ="wrap_content" ="wrap_content" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969941="@id/2131442170" style="@style/2132149394" />
+            <TextView ="@color/2131099764" android:id="@id/2131442170" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/earn_apr_fiat_tip" ="4.0dip" ="15.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131444758" 2130969940="@id/2131441421" style="@style/2132149397" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429648" ="20.0dip" ="fill_parent" ="wrap_content" ="true">
+        <View android:id="@id/2131449355" ="@color/2131099751" ="fill_parent" ="1.0px" ="4.0dip" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" android:id="@id/2131442995" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/earn_locked_est_rewards" 2130969937="2131438103" 2130969940="@id/2131449355" style="@style/2132149384" />
+        <TextView ="@color/2131099851" android:id="@id/tvEstAmount" ="wrap_content" ="wrap_content" ="2.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442995" style="@style/2132149425" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432518" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvBoostTitle,tvBoostAmount" />
+        <TextView ="@color/2131099778" android:id="@id/tvBoostTitle" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_daily_boost_rewards" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvEstAmount" style="@style/2132149384" />
+        <TextView ="@color/2131099851" android:id="@id/tvBoostAmount" ="wrap_content" ="wrap_content" ="2.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvBoostTitle" style="@style/2132149425" />
+        <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/tvEstLaunchPoolRewardsTitle" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_hourly_est_launchpool_rewards" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvBoostAmount" 2130971380="2131430667" style="@style/2132149384" />
+        <TextView ="@color/2131099726" android:id="@id/tvEstLaunchPoolRewards" ="wrap_content" ="wrap_content" ="15.0dip" ="2.0dip" ="15.0dip" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/tvEstLaunchPoolRewardsTitle" style="@style/2132149425" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432546" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvEstLaunchPoolRewardsTitle,tvEstLaunchPoolRewards" />
+        <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131440002" ="fill_parent" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969940="@id/tvEstLaunchPoolRewards" />
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428902" ="fill_parent" ="48.0dip" ="16.0dip" ="12.0dip" ="16.0dip" android:text="@string/confirm" ="24.0dip" 2130969940="@id/2131440002" style="@style/2132148691" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

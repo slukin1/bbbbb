@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_sorting" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131444709" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_sort_by" ="15.0dip" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149384" />
+    <RadioGroup ="horizontal" android:id="@id/2131439218" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444709">
+        <RadioButton android:id="@id/2131438880" ="true" android:text="@string/earn_expiration_date" ="1.0" style="@style/2132148773" />
+        <RadioButton android:id="@id/2131438889" android:text="@string/earn_loan_ltv" ="1.0" ="10.0dip" style="@style/2132148773" />
+    </RadioGroup>
+    <TextView ="@color/2131099778" android:id="@id/2131444710" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/earn_sort_order" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131439218" style="@style/2132149384" />
+    <RadioGroup ="horizontal" android:id="@id/2131439217" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444710">
+        <RadioButton android:id="@id/2131438872" ="true" android:text="@string/earn_ascending" ="1.0" style="@style/2132148773" />
+        <RadioButton android:id="@id/2131438873" android:text="@string/earn_descending" ="1.0" ="10.0dip" style="@style/2132148773" />
+    </RadioGroup>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428877" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/reset" ="15.0dip" 2130969918="@id/2131428732" 2130969937="2131438103" 2130969940="@id/2131439217" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="1.0" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131428877" 2130969941="@id/2131428877" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

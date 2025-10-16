@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="gone" ="fill_parent" ="fill_parent">
+        <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <LinearLayout ="vertical" android:id="@id/2131436493" ="fill_parent" ="fill_parent">
+                <FrameLayout android:id="@id/2131441695" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438401" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438398" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438399" ="fill_parent" ="wrap_content" ="16.0dip" />
+            </LinearLayout>
+        </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.finance.kit.framework.widget.lottie.KitLottieAnimationView ="center" android:id="@id/2131438256" ="25.0dip" ="25.0dip" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    <FrameLayout ="end|bottom|center" android:id="@id/2131428982" ="@drawable/2131233549" ="gone" ="40.0dip" ="40.0dip" ="16.0dip" ="16.0dip">
+        <ImageView ="center" ="20.0dip" ="20.0dip" ="@null" 2130971077="@drawable/2131236896" 2130971375="@color/2131099789" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235260" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="center" ="start" android:id="@id/2131448988" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/nezha_settings_disclaimer" ="false" ="locale" ="24.0dip" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView ="3.0dip" ="@color/2131102128" ="vertical" android:id="@id/2131437583" ="10.0dip" ="vertical" ="fill_parent" ="182.0dip" ="12.0dip" ="24.0dip" ="10.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131102138" ="start" ="start" android:id="@id/2131437582" ="fill_parent" ="wrap_content" android:text="@string/nezha_settings_disclamer_description" ="4.0dip" ="@font/2131296266" ="locale" ="gravity" ="11.0dip" />
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429997" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131441173" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131102138" android:id="@id/2131448033" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/2131441173" 2130969941="2131438103" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429898" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131437035" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131102138" android:id="@id/2131446995" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/2131437035" 2130969941="2131438103" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.button.KitButton ="false" ="center" android:id="@id/2131437581" ="@color/2131099725" ="fill_parent" ="wrap_content" ="16.0dip" ="24.0dip" android:text="@string/nezha_OK" ="22.0dip" ="22.0dip" 2130969173="4" />
+</LinearLayout>

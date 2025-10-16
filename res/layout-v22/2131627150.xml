@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131436345" ="fill_parent" ="wrap_content" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131437724" ="gone" ="wrap_content" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/ms_no_results_found" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436345" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131430560" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="6.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131436345" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="0.0dip" 2130969940="@id/2131436345" 2130970808="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434842" ="fill_parent" ="wrap_content" 2130971375="@color/2131099744" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429996" ="15.0dip" ="15.0dip" ="10.0dip" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432016" ="gone" ="0.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" ="10.0dip" ="false" 2130969937="2131438103" 2130969940="@id/2131432016" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_switch_symbol" ="20.0dip" ="20.0dip" ="@null" 2130969911="@id/tv_symbol" 2130969936="@id/tv_symbol" 2130969941="@id/tv_symbol" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099732" android:id="@id/2131443275" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/tv_symbol" 2130969918="@id/2131444719" 2130969941="@id/tv_symbol" style="@style/2132149463" />
+    <View android:id="@id/2131444719" ="@color/2131099751" ="0.5dip" ="0.0dip" ="5.0dip" ="5.0dip" ="8.0dip" 2130969911="@id/tvLow" 2130969918="@id/tvLow" 2130969941="@id/tvLow" style="@style/2132149463" />
+    <TextView ="@color/2131099732" android:id="@id/tvLow" ="wrap_content" ="wrap_content" ="2.0dip" 2130969911="@id/2131443275" 2130969918="@id/2131434684" 2130969941="@id/2131443275" style="@style/2132149463" />
+    <com.finance.kit.framework.widget.KitTradeMoreButton android:id="@id/2131434684" ="wrap_content" ="wrap_content" ="8.0dip" ="0.0dip" 2130969911="@id/tv_symbol" 2130969917="2131438103" 2130969941="@id/tv_symbol" />
+</androidx.constraintlayout.widget.ConstraintLayout>

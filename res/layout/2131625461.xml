@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439285" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131447986" ="0.0dip" ="54.0dip" ="2" ="5.0dip" 2130969918="@id/2131441091" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441091" ="@drawable/2131236699" ="2.0dip" ="140.0dip" ="32.0dip" 2130969866="@dimen/2131166153" 2130969867="@dimen/2131166153" 2130969911="@id/2131447986" 2130969917="2131438103" 2130969941="@id/2131447986" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

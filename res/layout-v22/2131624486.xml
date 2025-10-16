@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="@drawable/2131233197" ="16.0dip" ="7.0dip" ="16.0dip" ="7.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" ="@dimen/2131166277"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="wrap_content" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433767" ="16.0dip" ="16.0dip" />
+        <FrameLayout ="end|bottom|center" android:id="@id/2131435387" ="@drawable/2131233023" ="1.0dip" ="gone" ="8.0dip" ="8.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433762" ="6.0dip" ="6.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="$" ="8.0dip" style="@style/2132149450" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/tvCoinPair" ="wrap_content" ="wrap_content" ="true" ="2.0dip" style="@style/2132149450" />
+    <View ="0.0dip" ="0.0dip" ="1.0" />
+    <TextView ="@color/2131099785" android:id="@id/2131442522" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441089" ="fill_parent" ="24.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" />
+    <include android:id="@id/2131435443" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/2131441089" layout="@layout/2131628076" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131429006" ="fill_parent" ="wrap_content" ="30.0dip" android:text="@string/confirm" 2130969940="@id/2131435443" 2130970889="1" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

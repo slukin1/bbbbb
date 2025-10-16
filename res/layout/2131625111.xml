@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="center_horizontal" ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433920" ="96.0dip" ="wrap_content" ="16.0dip" 2130971077="@drawable/2131234234" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_dual_quiz_title" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131442582" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_dual_quiz_start_desc_1" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131442583" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428836" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_start_quiz" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" style="@style/2132148697" />
+</LinearLayout>

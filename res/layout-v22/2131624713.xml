@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" android:id="@id/2131436578" ="@drawable/2131233007" ="24.0dip" ="24.0dip" ="fill_parent" ="135.0dip" ="true" ="@color/2131099744" ="@dimen/2131166209">
+        <TextView ="@color/2131100153" ="wrap_content" ="wrap_content" android:text="@string/view_more" style="@style/2132149384" />
+    </LinearLayout>
+</RelativeLayout>

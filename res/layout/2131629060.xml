@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131429994" ="12.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447987" ="wrap_content" ="wrap_content" android:text="@string/futures_switch_position_confirm_title" ="false" ="15.0dip" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439806" ="15.0dip" ="15.0dip" ="vertical" ="fill_parent" ="0.0dip" ="20.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429826" ="fill_parent" ="wrap_content">
+            <include android:id="@id/2131441016" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131629116" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131447970" ="20.0dip" ="20.0dip" ="24.0dip" ="@color/2131099764" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441016" 2130971077="@drawable/2131236861" style="@style/2132149384" />
+            <include android:id="@id/2131441017" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447970" layout="@layout/2131629116" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131428496" ="fill_parent" ="40.0dip" ="15.0dip" ="31.0dip" ="15.0dip" android:text="@string/confirm" style="@style/2132148697" />
+</androidx.appcompat.widget.LinearLayoutCompat>

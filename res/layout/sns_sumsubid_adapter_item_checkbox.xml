@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sns_flag" ="gone" ="@dimen/sns_id_flag_size" ="@dimen/sns_id_flag_size" ="@null" ="@dimen/sns_margin_small_tiny" ="@dimen/sns_margin_small" 2130969911="@id/sns_title" 2130969918="@id/sns_title" 2130969937="2131438103" 2130969941="@id/sns_title" />
+    <com.sumsub.sns.core.widget.SNSBodyTextView android:id="@id/sns_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_margin_huge" 2130969917="2131438103" 2130969936="@id/sns_flag" 2130969941="2131438103" 2130969961="@dimen/sns_margin_small_tiny" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_subtitle" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small_tiny" ="@dimen/sns_margin_huge" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/sns_flag" 2130969940="@id/sns_title" />
+    <com.sumsub.sns.core.widget.SNSCardCheckBox android:id="@id/sns_checkbox" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970988="sumsubIdCardStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="220.0dip" ="140.0dip" ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131435326" ="#ffffffff" ="wrap_content" ="wrap_content" ="true">
+        <ImageView android:id="@id/gt3_ot_iv" ="#ffffffff" ="18.0dip" ="18.0dip" ="@drawable/gt3_new_error" ="true" />
+        <TextView ="14.0sp" ="#ff383838" android:id="@id/gt3_ot_tv1" ="#ffffffff" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/gt3_geetest_http_timeout" ="@id/gt3_ot_iv" ="true" />
+    </RelativeLayout>
+    <TextView ="10.0sp" ="#ffde715b" android:id="@id/tv_test_geetest_cord" ="#40de715b" ="4.0dip" ="0.0dip" ="4.0dip" ="0.0dip" ="wrap_content" ="wrap_content" ="9.0dip" ="13.0dip" android:text="201" ="true" />
+    <View android:id="@id/gt3_ot_view3" ="#ffefefef" ="invisible" ="fill_parent" ="1.0dip" ="@id/gt3_ot_llll" />
+    <RelativeLayout ="center_horizontal" android:id="@id/gt3_ot_llll" ="@android:color/transparent" ="invisible" ="fill_parent" ="26.0dip" ="true">
+        <TextView ="10.0sp" ="#ffcacaca" android:id="@id/gt3_ot_tvvv" ="@android:color/transparent" ="wrap_content" ="wrap_content" android:text="@string/gt3_geetest_support" ="@drawable/gt3logo" ="4.0dip" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

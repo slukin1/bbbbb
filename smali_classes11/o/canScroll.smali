@@ -1,0 +1,38 @@
+.class public final synthetic Lo/canScroll;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic d:Lo/edgeEffectFling;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/edgeEffectFling;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/canScroll;->d:Lo/edgeEffectFling;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/canScroll;->d:Lo/edgeEffectFling;
+
+    invoke-static {v0}, Lo/edgeEffectFling;->d(Lo/edgeEffectFling;)Lkotlin/text/Regex;
+
+    move-result-object v0
+
+    return-object v0
+.end method

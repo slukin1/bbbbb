@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624285" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428291" ="fill_parent" ="wrap_content" ="21.0dip" 2130969940="@id/2131441601" 2130969974="2131439795">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439631" ="false" ="false" ="0.0dip" ="0.0dip" ="10.0dip" ="ltr" 2130969912="@id/2131428038" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131428038" ="false" ="wrap_content" ="wrap_content" ="31.0dip" ="ltr" 2130968672="@color/2131100129" 2130968673="@dimen/2131166286" 2130968674="@dimen/2131166286" 2130968676="@color/2131100063" 2130968677="@dimen/2131166260" 2130968678="@dimen/2131166260" 2130968679="@dimen/2131166286" 2130968680="1" 2130969917="@id/2131439631" 2130969937="@id/2131439631" 2130969940="@id/2131439631" 2130969942="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099881" android:id="@id/2131446679" ="wrap_content" ="wrap_content" ="30.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131428291" style="@style/2132149416" />
+    <TextView ="@color/2131099778" android:id="@id/2131448254" ="wrap_content" ="wrap_content" 2130969907="@id/2131446679" 2130969936="@id/2131446679" 2130969940="@id/2131428291" style="@style/2132149446" />
+    <TextView ="@color/2131099881" android:id="@id/2131446617" ="wrap_content" ="wrap_content" ="10.0dip" 2130969907="@id/2131446679" 2130969936="@id/2131448254" 2130969940="@id/2131428291" style="@style/2132149446" />
+    <ScrollView ="0.0dip" ="0.0dip" ="12.0dip" 2130969912="@id/2131429806" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446679" 2130969942="0.0">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131446613" ="15.0dip" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/2131446610" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_grid_guide" ="15.0dip" 2130969311="@drawable/2131234079" style="@style/2132149350" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429806" ="fill_parent" ="wrap_content" ="33.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit.button.KitButton ="@color/2131099764" android:id="@id/2131429072" ="0.0dip" ="wrap_content" android:text="@string/c2c_mob_ad_post_p2_btn_previous" 2130969918="@id/2131429055" 2130969937="2131438103" 2130969941="2131438103" 2130971472="2" style="@style/2132149371" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429055" ="0.0dip" ="wrap_content" android:text="@string/_next" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131429072" 2130969941="2131438103" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429058" ="0.0dip" ="wrap_content" android:text="@string/c2c_buyer_ref_msg_dialog_ok" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center" ="@color/2131099953" ="24.0dip" ="fill_parent" ="wrap_content" ="38.0dip" ="38.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131439284" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433157" ="30.0dip" ="30.0dip" ="true" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237098" />
+        <TextView ="14.0sp" ="@color/2131100164" ="center_vertical" android:id="@id/2131442416" ="wrap_content" ="wrap_content" ="22.0dip" android:text="Are you sure you want to cancel all?" ="true" ="12.0dip" ="@id/2131433157" />
+    </RelativeLayout>
+    <Space android:id="@id/2131440397" ="fill_parent" ="27.0dip" 2130969940="@id/2131439284" />
+    <TextView ="15.0sp" ="@color/2131099765" ="center" android:id="@id/tvCancel" ="@drawable/2131232669" ="0.0dip" ="40.0dip" android:text="No" ="1.0" ="6.0dip" 2130969918="@id/2131442568" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/2131440397" />
+    <TextView ="15.0sp" ="#fff23051" ="center" android:id="@id/2131442568" ="@drawable/2131232670" ="0.0dip" ="40.0dip" android:text="@string/Yes" ="1.0" ="6.0dip" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/tvCancel" 2130969940="@id/2131440397" />
+</androidx.constraintlayout.widget.ConstraintLayout>

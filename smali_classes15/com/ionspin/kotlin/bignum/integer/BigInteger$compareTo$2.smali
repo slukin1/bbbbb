@@ -1,0 +1,98 @@
+.class public final Lcom/ionspin/kotlin/bignum/integer/BigInteger$compareTo$2;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/setThumbIconSize;->compareTo(Ljava/lang/Object;)I
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lo/setThumbIconSize;",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0001\u001a\u00020\u0000H\u000b\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
+    }
+    d2 = {
+        "Lo/setThumbIconSize;",
+        "p0",
+        "",
+        "e",
+        "(Lo/setThumbIconSize;)Ljava/lang/Integer;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lo/setThumbIconSize;
+
+
+# direct methods
+.method public constructor <init>(Lo/setThumbIconSize;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lcom/ionspin/kotlin/bignum/integer/BigInteger$compareTo$2;->this$0:Lo/setThumbIconSize;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e(Lo/setThumbIconSize;)Ljava/lang/Integer;
+    .locals 1
+
+    .line 655
+    iget-object v0, p0, Lcom/ionspin/kotlin/bignum/integer/BigInteger$compareTo$2;->this$0:Lo/setThumbIconSize;
+
+    invoke-virtual {v0, p1}, Lo/setThumbIconSize;->c(Lo/setThumbIconSize;)I
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 655
+    check-cast p1, Lo/setThumbIconSize;
+
+    invoke-virtual {p0, p1}, Lcom/ionspin/kotlin/bignum/integer/BigInteger$compareTo$2;->e(Lo/setThumbIconSize;)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    return-object p1
+.end method

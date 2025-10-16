@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space ="fill_parent" ="100.0dip" />
+    <TextView ="@color/2131099778" ="center" ="center" ="wrap_content" ="wrap_content" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238473" />
+</LinearLayout>

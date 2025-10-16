@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131435059" ="fill_parent" ="106.0dip" 2130969817="1" 2130969818="false" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428735" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/oauth_continue" 2130969940="@id/2131435059" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

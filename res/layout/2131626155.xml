@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="#b3000000" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235987" ="15.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="@id/2131428009" ="40.0dip" ="15.0dip" ="@color/2131099685">
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/c2c_appeal_coach_title" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442581" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/c2c_appeal_coach_content" ="1.2" ="@font/2131296274" 2130969917="2131438103" 2130969937="@id/tvTitle" 2130969940="@id/tvTitle" />
+        <com.major.android.uikit2.button.KitButton ="14.0sp" ="@color/2131099789" ="center" android:id="@id/2131428732" ="wrap_content" ="24.0dip" ="11.0dip" android:text="@string/ok" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131442581" 2130970889="3" 2130971205="true" 2130971472="2" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131428009" ="@drawable/2131235987" ="5.0dip" ="6.0dip" ="5.0dip" ="6.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" ="true" ="@color/2131099685">
+        <com.binance.c2c.orderdetail.widget.AppealSheetButtonView android:id="@id/2131428008" ="fill_parent" ="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

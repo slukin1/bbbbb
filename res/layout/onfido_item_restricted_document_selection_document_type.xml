@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="@drawable/onfido_bg_list_item" ="8.0dip" ="fill_parent" ="wrap_content" ="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433818" ="@drawable/onfido_circle_24" ="42.0dip" ="42.0dip" ="8.0dip" ="?2130970385" />
+    <LinearLayout ="center_vertical" ="vertical" ="4.0dip" ="0.0dip" ="wrap_content" ="1.0">
+        <TextView android:id="@id/2131442854" ="fill_parent" ="wrap_content" style="@style/2132148953" />
+        <TextView android:id="@id/2131442816" ="fill_parent" ="wrap_content" style="@style/2132148949" />
+    </LinearLayout>
+</LinearLayout>

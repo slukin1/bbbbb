@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="40.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433159" ="16.0dip" ="16.0dip" ="@drawable/2131236839" ="centerInside" ="@color/2131099787" 2130969911="@id/2131435475" 2130969937="2131438103" 2130969941="@id/2131435475" />
+    <HorizontalScrollView android:id="@id/2131435475" ="none" ="none" ="true" ="true" ="0.0dip" ="wrap_content" ="6.0dip" ="never" ="4.0dip" ="12.0dip" 2130969918="@id/2131433199" 2130969936="@id/2131433159" 2130969941="2131438103">
+        <TextView ="@color/2131099764" ="none" ="center_vertical" android:id="@id/2131443880" ="wrap_content" ="wrap_content" ="18.0dip" ="true" ="false" style="@style/2132149384" />
+    </HorizontalScrollView>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433199" ="16.0dip" ="16.0dip" ="@drawable/2131237100" ="@color/2131099738" 2130969911="@id/2131435475" 2130969917="2131438103" 2130969941="@id/2131435475" />
+</androidx.constraintlayout.widget.ConstraintLayout>

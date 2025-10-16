@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235593" ="fill_parent" ="620.0dip" ="620.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131445746" ="15.0dip" ="50.0dip" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="wrap_content" ="50.0dip" android:text="@string/payment_payment_method" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439724" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/tv_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

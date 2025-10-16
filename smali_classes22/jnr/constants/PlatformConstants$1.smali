@@ -1,0 +1,52 @@
+.class public Ljnr/constants/PlatformConstants$1;
+.super Ljava/util/HashMap;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo/ImportWalletRepositorydeleteServerWallet1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/HashMap<",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final serialVersionUID:J = 0x1L
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 80
+    invoke-direct {p0}, Ljava/util/HashMap;-><init>()V
+
+    .line 81
+    const-string v0, "Mac OS X"
+
+    const-string v1, "darwin"
+
+    invoke-virtual {p0, v0, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 82
+    const-string v0, "SunOS"
+
+    const-string v1, "solaris"
+
+    invoke-virtual {p0, v0, v1}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method

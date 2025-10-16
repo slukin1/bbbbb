@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/2131432226" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/tvPopularAsset" ="wrap_content" ="wrap_content" android:text="@string/earn_popular_asset_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149423" />
+        <TextView ="@color/2131099778" android:id="@id/tvCoinLabel" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/_coin" ="25.0dip" 2130969937="2131438103" 2130969940="@id/tvPopularAsset" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tvRateLabel" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_annualized_rate" ="25.0dip" 2130969917="2131438103" 2130969940="@id/tvPopularAsset" style="@style/2132149384" />
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/rvPopularAsset" ="fill_parent" ="wrap_content" ="8.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969940="@id/tvCoinLabel" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432566" ="wrap_content" ="wrap_content" 2130969125="tvPopularAsset, tvCoinLabel, tvRateLabel, rvPopularAsset" />
+        <View android:id="@id/vLine" ="@color/2131099751" ="fill_parent" ="0.5dip" ="28.0dip" 2130969940="@id/rvPopularAsset" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/tvEarnMoreLabel" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/earn_loan_earn_more_with_borrowed_asset" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/vLine" style="@style/2132149423" />
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/rvEarnMore" ="fill_parent" ="wrap_content" ="12.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969940="@id/tvEarnMoreLabel" />
+        <View android:id="@id/2131449169" ="@color/2131099751" ="fill_parent" ="0.5dip" ="28.0dip" 2130969940="@id/rvEarnMore" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432520" ="wrap_content" ="wrap_content" 2130969125="tvEarnMoreLabel,rvEarnMore" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428775" ="wrap_content" ="wrap_content" ="28.0dip" ="28.0dip" android:text="@string/earn_got_question_check_faq" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449169" style="@style/2132148699" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

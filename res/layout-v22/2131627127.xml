@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="24.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431982" ="@color/2131099744" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131432733" ="fill_parent" ="wrap_content" ="fitXY" 2130970039="true" 2130970050="true" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131432735" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/lite_to_dynamic_pro_guide_title" ="@dimen/2131166188" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431982" style="@style/2132149423" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131432726" ="16.0dip" ="16.0dip" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/lite_to_dynamic_pro_guide_desc" ="@dimen/2131166188" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432735" style="@style/2132149369" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131440996" ="fill_parent" ="40.0dip" ="15.0dip" ="32.0dip" ="15.0dip" android:text="@string/ms_lite_switch_to_pro" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432726" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

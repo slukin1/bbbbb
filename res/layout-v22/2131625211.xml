@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/title" ="wrap_content" ="wrap_content" ="24.0dip" ="22.0dip" android:text="@string/ocbs_string_deposit_amount" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="bottom" android:id="@id/2131437077" ="wrap_content" ="wrap_content" ="4.0dip" ="36.0dip" android:text="2 EUR" ="false" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149416" />
+    <TextView ="@color/2131099764" ="bottom" android:id="@id/2131437076" ="wrap_content" ="wrap_content" ="4.0dip" ="22.0dip" android:text="@string/ocbs_min" ="false" ="8.0dip" 2130969911="@id/2131437077" 2130969918="@id/2131437077" style="@style/2132149355" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131431720" ="wrap_content" ="wrap_content" ="4.0dip" ="18.0dip" android:text="@string/ocbs_payment_top_up_fee" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437077" style="@style/2132149361" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131441455" ="0.0dip" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="@dimen/2131166184" 2130969837="100" 2130969843="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431720" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131431805" ="0.0dip" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="16.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441455" />
+</androidx.constraintlayout.widget.ConstraintLayout>

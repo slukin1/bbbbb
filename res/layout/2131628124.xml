@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" ="wrap_content" ="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="#ffffffff" ="center" android:id="@id/2131438215" ="@drawable/2131235579" ="16.0dip" ="16.0dip" style="@style/2132149397" />
+    <TextView ="#ff1e2329" ="center" android:id="@id/2131438213" ="8.0dip" ="wrap_content" android:text=":" style="@style/2132149397" />
+    <TextView ="#ffffffff" ="center" android:id="@id/2131438216" ="@drawable/2131235579" ="16.0dip" ="16.0dip" style="@style/2132149397" />
+    <TextView ="#ff1e2329" ="center" android:id="@id/2131438214" ="8.0dip" ="fill_parent" android:text=":" style="@style/2132149397" />
+    <TextView ="#ffffffff" ="center" android:id="@id/2131438218" ="@drawable/2131235579" ="16.0dip" ="16.0dip" style="@style/2132149397" />
+</merge>

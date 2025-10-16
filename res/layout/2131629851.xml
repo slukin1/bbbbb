@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131428233" ="?2130968587" ="visible" ="50.0dip" ="44.0dip" ="@null" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" android:id="@id/2131431262" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_avg_cost_tip_edit" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131428233" style="@style/2132149419" />
+    <TextView ="@color/2131099764" android:id="@id/2131431259" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" android:text="@string/wallet_avg_cost_tip_edit_guide" 2130969937="2131438103" 2130969940="@id/2131431262" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131431263" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/wallet_avg_cost_tip_edit_total" 2130969937="@id/2131431262" 2130969940="@id/2131431259" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431264" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131431263" 2130969936="@id/2131431263" 2130969941="@id/2131431263" 2130971077="@drawable/2131237139" 2130971375="@color/2131099785" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131431257" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="@color/2131099744" 2130969940="@id/2131431263">
+        <EditText ="@color/2131099764" ="@color/2131099738" android:id="@id/2131431260" ="@null" ="0.0dip" ="24.0dip" android:hint="0.00" ="1.0" ="numberDecimal" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431256" ="gone" ="20.0dip" ="20.0dip" ="10.0dip" ="10.0dip" 2130971077="@drawable/2131237072" />
+        <TextView ="@color/2131099764" android:id="@id/2131431258" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131431261" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969937="@id/2131431257" 2130969940="@id/2131431257" style="@style/2132149384" />
+    <LinearLayout ="bottom" ="horizontal" ="@color/2131099685" ="true" ="true" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" 2130969940="@id/2131431261">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131431269" ="0.0dip" ="40.0dip" android:text="@string/cancel" ="1.0" ="false" 2130969173="8.0" 2130971472="2" style="@style/2132148696" />
+        <View ="12.0dip" ="1.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131431279" ="0.0dip" ="40.0dip" android:text="@string/save" ="1.0" ="false" style="@style/2132148691" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

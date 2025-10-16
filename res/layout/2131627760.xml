@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131429873" ="@drawable/2131232931" ="fill_parent" ="56.0dip" ="12.0dip" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatEditText ="16.0sp" ="@color/2131099764" ="@color/2131099785" android:id="@id/2131431521" ="#00000000" ="0.0dip" ="fill_parent" ="12.0dip" ="12.0dip" ="1.0" ="@drawable/2131232930" ="12.0dip" 2130969918="@id/2131432005" 2130969937="2131438103" style="@style/2132149350" />
+        <FrameLayout android:id="@id/2131432005" ="50.0dip" ="50.0dip" ="6.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/2131435203" ="fill_parent" ="fill_parent" 2130970039="true" 2130970050="true" />
+            <ImageView ="center" android:id="@id/2131434831" ="@drawable/2131236009" ="8.0dip" ="38.0dip" ="38.0dip" ="@drawable/2131237665" ="@color/2131099784" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="center" ="horizontal" ="fill_parent" ="20.0dip" ="12.0dip" 2130969911="2131438103" 2130969940="@id/2131429873">
+        <TextView ="@color/2131099726" ="wrap_content" ="wrap_content" android:text="@string/jarvis_binance_ai_verify_output" style="@style/2132149394" />
+        <TextView ="@color/2131099778" android:id="@id/2131449635" ="wrap_content" ="wrap_content" android:text="@string/jarvis_input_view_more" ="4.0dip" style="@style/2132149397" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

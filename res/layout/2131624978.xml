@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="30.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131439417" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443115" ="wrap_content" ="wrap_content" android:text="@string/dashboard_quote_change_title" ="true" style="@style/2132149463" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431654" ="40.0dip" ="20.0dip" ="true" ="20.0dip" ="true" 2130971077="@drawable/2131237050" 2130971375="@color/2131099785" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/2131430316" ="fill_parent" ="wrap_content">
+        <com.market.dashboard.chart.QuoteChangeBarChart android:id="@id/2131428299" ="visible" ="fill_parent" ="100.0dip" />
+        <include android:id="@id/2131436833" ="fill_parent" ="100.0dip" layout="@layout/2131624953" />
+    </FrameLayout>
+    <com.market.dashboard.container.component.tradingdata.ThreeSegmentView ="center_vertical" ="horizontal" android:id="@id/2131438805" ="fill_parent" ="8.0dip" ="15.0dip" ="10.0dip" ="15.0dip" />
+    <RelativeLayout ="fill_parent" ="21.0dip" ="15.0dip" ="2.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131438798" ="wrap_content" ="wrap_content" android:text="Up --" ="true" ="true" style="@style/2132149377" />
+        <TextView ="@color/2131099764" android:id="@id/2131438797" ="wrap_content" ="wrap_content" android:text="Down --" ="true" ="true" style="@style/2132149377" />
+    </RelativeLayout>
+</LinearLayout>

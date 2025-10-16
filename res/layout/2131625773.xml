@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236025" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/payment_method" ="@font/2131296275" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434903" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/tv_title" 2130969936="@id/tv_title" 2130969941="@id/tv_title" 2130971077="@drawable/2131237075" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131435830" ="@drawable/2131235989" ="12.0dip" ="12.0dip" ="12.0dip" ="12.0dip" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@color/2131099745" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.appcompat.widget.AppCompatImageView ="center" ="16.0dip" ="16.0dip" ="2.0dip" 2130971077="@drawable/2131237320" 2130971375="@color/2131100160" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" ="center_vertical" ="fill_parent" ="wrap_content" android:text="@string/c2c_lightning_tips" ="@font/2131296274" ="4.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131435070" ="fill_parent" ="45.0dip" ="4.0dip" ="12.0dip" ="4.0dip" 2130968908="true" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435830" 2130970759="@string/_search" />
+    <TextView ="center" android:id="@id/2131438169" ="30.0dip" ="30.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_filter_payment_no_result" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435070" />
+    <com.binance.widget.MaxHeightRv android:id="@id/2131439680" ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="false" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438169" 2130970140="@dimen/2131166239" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/btn_reset" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/reset" ="16.0dip" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130969940="@id/2131439680" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/confirm" ="1.0" ="8.0dip" ="16.0dip" 2130969917="2131438103" 2130969936="@id/btn_reset" 2130969940="@id/2131439680" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

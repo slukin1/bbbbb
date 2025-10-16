@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448906" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131449090" ="gone" ="fill_parent" ="wrap_content" ="80.0dip" ="36.0dip" 2130969912="@id/2131448904" 2130969917="@id/2131448904" 2130969937="@id/2131448904" 2130969941="2131438103" />
+    <androidx.cardview.widget.CardView android:id="@id/2131448904" ="@color/2131099685" ="wrap_content" ="0.0dip" ="@color/2131099685" 2130968912="10.0dip" 2130968914="0.0dip" 2130969142="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969923="2131450408" 2130969925="116.0dip" 2130969937="2131438103" 2130969940="@id/2131449090" 2130969947="320.0dip" 2130969948="184.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+            <ImageView android:id="@id/2131433898" ="gone" ="fill_parent" ="0.0dip" ="10.0dip" ="center" 2130969912="@id/tvTitle" 2130969923="2131450408" 2130969924="80.0dip" 2130969925="36.0dip" 2130969941="2131438103" 2130969942="0.0" 2130969943="2131438085" />
+            <TextView ="@color/2131099764" android:id="@id/tvTitle" ="1.0dip" ="1.0dip" ="gone" ="fill_parent" ="wrap_content" ="1.0dip" 2130969912="@id/2131442335" 2130969940="@id/2131433898" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="start" android:id="@id/2131442335" ="vertical" ="fill_parent" ="0.0dip" ="10.0dip" ="110.0dip" ="false" ="1.2" ="@font/2131296281" ="locale" ="viewStart" 2130969912="@id/2131428303" 2130969923="2131450408" 2130969924="110.0dip" 2130969940="@id/tvTitle" 2130969943="2131440524" 2130969962="0.0dip" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.Barrier ="horizontal" android:id="@id/2131428303" ="fill_parent" ="wrap_content" 2130968759="2131441647" 2130969125="bOk,bPrevious,bSkip" />
+            <com.major.android.uikit2.button.KitButton ="14.0sp" android:id="@id/bSkip" ="wrap_content" ="wrap_content" ="10.0dip" ="32.0dip" android:text="@string/skip" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131442335" 2130969942="1.0" style="@style/2132148704" />
+            <com.major.android.uikit2.button.KitButton ="14.0sp" android:id="@id/bPrevious" ="wrap_content" ="wrap_content" ="10.0dip" ="32.0dip" android:text="Previous" ="12.0dip" ="12.0dip" 2130969911="2131438103" 2130969918="@id/bOk" 2130969940="@id/2131442335" 2130969942="1.0" style="@style/2132148705" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/bOk" ="wrap_content" ="wrap_content" ="10.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131442335" 2130969942="1.0" style="@style/2132148699" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

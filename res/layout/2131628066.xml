@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131441486" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_gift_center_cash_voucher_tips_link" style="@style/2132149384" />
+    <Space ="fill_parent" ="15.0dip" />
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131439120" ="fill_parent" ="fill_parent" 2130971093="true">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131428208" ="fill_parent" ="wrap_content" 2130969895="LinearLayoutManager" />
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <TextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131431356" ="gone" ="wrap_content" ="wrap_content" ="88.0dip" android:text="@string/no_more_data" ="28.0dip" 2130969314="@drawable/2131238473" />
+    </FrameLayout>
+</LinearLayout>

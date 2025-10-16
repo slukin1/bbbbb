@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="0.0dip" ="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent">
+        <com.finance.framework.widget.scroll.KlineVerticalNestedScrollView android:id="@id/2131430876" ="none" ="fill_parent" ="fill_parent" ="true" ="never">
+            <LinearLayout ="vertical" ="false" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131432827" ="fill_parent" ="wrap_content">
+                    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432186" ="fill_parent" ="wrap_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <FrameLayout android:id="@id/2131431899" ="fill_parent" ="wrap_content" />
+                <include android:id="@id/2131435111" ="false" layout="@layout/2131624434" />
+                <FrameLayout android:id="@id/2131431986" ="false" ="fill_parent" ="wrap_content" />
+                <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+                <FrameLayout android:id="@id/2131432019" ="fill_parent" ="fill_parent" />
+            </LinearLayout>
+        </com.finance.framework.widget.scroll.KlineVerticalNestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.fragment.app.FragmentContainerView ="com.finance.marketdetail.feature.marketdetail.MarketDetailContentPlaceHolderFragment" android:id="@id/2131436964" ="fill_parent" ="fill_parent" />
+</FrameLayout>

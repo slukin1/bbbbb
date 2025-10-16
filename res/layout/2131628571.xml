@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439484" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131450426" ="false" ="0.0dip" ="38.0dip" ="5.0dip" ="7.5dip" 2130969918="@id/2131434297" 2130969937="2131438103" 2130969941="2131438103" />
+    <View ="@drawable/2131236444" ="15.0dip" ="0.0dip" 2130969912="@id/divider" 2130969918="@id/2131434297" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434297" ="41.0dip" ="0.0dip" ="centerInside" ="@null" ="5.0dip" ="20.0dip" 2130969911="@id/2131450426" 2130969917="2131438103" 2130969936="@id/2131450426" 2130969941="@id/2131450426" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" style="@style/2132148650" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969940="@id/2131450426" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="fill_parent" 2130969921="0.5" />
+    <com.finance.spot.framework.widget.SpotLandscapePlaceOrderView android:id="@id/2131429182" ="0.0dip" ="wrap_content" ="15.0dip" ="5.0dip" 2130969918="@id/2131432737" 2130969937="2131438103" 2130969940="@id/divider" />
+    <com.finance.spot.framework.widget.SpotLandscapePlaceOrderView android:id="@id/2131439957" ="0.0dip" ="wrap_content" ="5.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131432737" 2130969940="@id/divider" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="center" android:id="@id/2131428940" ="@drawable/2131236700" ="0.0dip" ="36.0dip" android:text="@string/_login" ="false" ="15.0dip" ="15.0dip" ="@color/2131099879" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149374" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131431939" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/2131438907" ="true" ="@null" android:text="@string/k_5min" 2130969918="@id/2131438901" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148531" />
+    <RadioButton android:id="@id/2131438901" ="@null" android:text="@string/k_15min" 2130969918="@id/2131438905" 2130969936="@id/2131438907" 2130969941="2131438103" style="@style/2132148531" />
+    <RadioButton android:id="@id/2131438905" ="@null" android:text="@string/k_30min" 2130969918="@id/2131438902" 2130969936="@id/2131438901" 2130969941="2131438103" style="@style/2132148531" />
+    <RadioButton android:id="@id/2131438902" ="@null" android:text="@string/k_1h" 2130969918="@id/2131438903" 2130969936="@id/2131438905" 2130969941="2131438103" style="@style/2132148531" />
+    <RadioButton android:id="@id/2131438903" ="@null" android:text="@string/k_2h" 2130969918="@id/2131438915" 2130969936="@id/2131438902" 2130969941="2131438103" style="@style/2132148531" />
+    <RadioButton ="end" android:id="@id/2131438915" ="@null" android:text="@string/ms_index_more" 2130969917="2131438103" 2130969936="@id/2131438903" 2130969941="2131438103" style="@style/2132148531" />
+    <ImageView android:id="@id/2131434330" ="gone" ="wrap_content" ="wrap_content" ="@null" 2130969911="@id/2131438915" 2130969917="@id/2131438915" 2130969941="@id/2131438915" 2130971077="@drawable/2131233667" />
+</merge>

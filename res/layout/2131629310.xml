@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvHead" ="wrap_content" ="wrap_content" android:text="@string/earn_sol_landing_unlogin_tip" 2130969904="true" 2130969905="true" 2130969918="@id/ivSol" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+    <ImageView android:id="@id/ivSol" ="64.0dip" ="64.0dip" ="10.0dip" 2130969917="2131438103" 2130969936="@id/tvHead" 2130969941="@id/tvHead" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvHead,ivSol" />
+    <com.binance.base.widget.UnderLineTipsTextView ="@color/2131099764" android:id="@id/tvReferenceAprLabel" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_reference_apr" 2130969937="2131438103" 2130969940="@id/2131428303" style="@style/2132149350" />
+    <ImageView android:id="@id/ivReferenceApr" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/tvReferenceAprLabel" 2130969936="@id/tvReferenceAprLabel" 2130969941="@id/tvReferenceAprLabel" 2130971077="@drawable/2131237021" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099851" android:id="@id/tvReferenceApr" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="@id/tvReferenceAprLabel" 2130969940="@id/tvReferenceAprLabel" style="@style/2132149416" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429641" ="wrap_content" ="wrap_content" ="4.0dip" 2130969905="true" 2130969911="@id/tvReferenceApr" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/tvReferenceApr" 2130969941="@id/tvReferenceApr" />
+</androidx.constraintlayout.widget.ConstraintLayout>

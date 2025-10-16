@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131430273" ="false" ="fill_parent" ="wrap_content">
+        <FrameLayout ="false" ="fill_parent" ="28.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443897" 2130969962="0.0dip">
+            <com.binance.margin.marketdetail.kline.KLineTypeControllerView android:id="@id/2131435007" ="fill_parent" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443897" 2130969962="0.0dip" />
+            <ViewStub ="bottom" android:id="@id/2131435105" ="invisible" ="@layout/2131627299" ="@id/2131435104" ="fill_parent" ="60.0dip" 2130969942="1.0" />
+        </FrameLayout>
+        <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="1.0dip" ="0.5" />
+        <com.binance.margin.marketdetail.kline.view.KViewContainer android:id="@id/2131435009" ="fill_parent" ="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:id="@id/2131435103" ="@layout/2131627297" ="@id/2131435102" ="fill_parent" ="fill_parent" ="22.0dip" />
+    <ViewStub android:id="@id/2131433541" ="@layout/2131627301" ="@id/2131433542" ="fill_parent" ="fill_parent" />
+</FrameLayout>

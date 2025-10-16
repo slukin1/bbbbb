@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.jpush.android.ui.FullScreenView ="vertical" android:id="@id/2131427527" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131439334" ="#ff29313a" ="fill_parent" ="40.0dip">
+        <ImageButton android:id="@id/2131433273" ="@drawable/2131234611" ="wrap_content" ="wrap_content" ="9.0dip" ="10.0dip" ="true" />
+        <ImageView android:id="@id/2131433309" ="false" ="wrap_content" ="wrap_content" ="@drawable/2131234609" ="@id/2131433273" ="true" />
+        <TextView ="20.0sp" ="#ffffffff" android:id="@id/2131444473" ="false" ="wrap_content" ="wrap_content" ="7.0dip" ="5.0dip" android:text=" " ="@id/2131433309" ="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/pushPrograssBar" ="fill_parent" ="1.0dip" ="0" ="@drawable/2131234612" style="?android:progressBarStyleHorizontal" />
+    <WebView android:id="@id/2131432296" ="#ff000000" ="fill_parent" ="fill_parent" />
+</cn.jpush.android.ui.FullScreenView>

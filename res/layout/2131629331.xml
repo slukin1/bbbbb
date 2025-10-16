@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434645" ="20.0dip" ="20.0dip" ="8.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237320" 2130971375="@color/2131099771" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131447950" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/c2c_od_instant_release" ="8.0dip" ="@font/2131296274" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434645" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446061" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/c2c_ad_filter_quick_release_for_payment_methods" ="@font/2131296274" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131434645" 2130969940="@id/2131447950" />
+</androidx.constraintlayout.widget.ConstraintLayout>

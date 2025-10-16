@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="44.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131437464" ="false" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131446538" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/futures_scaledorder_distribution_flat" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131446539" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/futures_scaledorder_distribution_dialog_flat_des" ="false" 2130969937="@id/2131446538" 2130969940="@id/2131446538" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434547" ="0.0dip" ="wrap_content" ="10.0dip" ="centerInside" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446539" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434335" ="16.0dip" ="16.0dip" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131434547" 2130971077="@drawable/2131238225" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" android:id="@id/2131445651" ="wrap_content" ="wrap_content" android:text="@string/futures_scaledorder_distribution_dialog_ascending" ="false" ="5.0dip" 2130969911="@id/2131434335" 2130969936="@id/2131434335" 2130969941="@id/2131434335" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131445652" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/futures_scaledorder_distribution_dialog_ascending_des" ="false" 2130969937="@id/2131434335" 2130969940="@id/2131445651" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434334" ="0.0dip" ="wrap_content" ="10.0dip" ="centerInside" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445652" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434487" ="16.0dip" ="16.0dip" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131434334" 2130971077="@drawable/2131238224" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" android:id="@id/tv_desc" ="wrap_content" ="wrap_content" android:text="@string/futures_scaledorder_distribution_dialog_descending" ="false" ="5.0dip" 2130969911="@id/2131434487" 2130969936="@id/2131434487" 2130969941="@id/2131434487" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131446260" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/futures_scaledorder_distribution_dialog_descending_des" ="false" 2130969937="@id/2131434487" 2130969940="@id/tv_desc" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434486" ="0.0dip" ="wrap_content" ="10.0dip" ="centerInside" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446260" />
+            <TextView ="@color/2131099764" android:id="@id/2131447557" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/futures_scaledorder_distribution_random" ="false" 2130969937="2131438103" 2130969940="@id/2131434486" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131447558" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/futures_scaledorder_distribution_random_des" ="false" 2130969937="@id/2131447557" 2130969940="@id/2131447557" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434777" ="0.0dip" ="wrap_content" ="10.0dip" ="centerInside" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447558" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

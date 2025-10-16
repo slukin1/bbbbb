@@ -1,0 +1,36 @@
+.class public final synthetic Lo/cy;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic b:Lcom/binance/base/fragment/BaseFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/binance/base/fragment/BaseFragment;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/cy;->b:Lcom/binance/base/fragment/BaseFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/cy;->b:Lcom/binance/base/fragment/BaseFragment;
+
+    invoke-static {v0}, Lcom/binance/base/fragment/BaseFragment;->$r8$lambda$OfUY5Ah-WahwK-J-AAmUf5g92C0(Lcom/binance/base/fragment/BaseFragment;)V
+
+    return-void
+.end method

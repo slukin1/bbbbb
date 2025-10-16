@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441501" ="@drawable/2131236025" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/animal_layout_2" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="14.0sp" ="@color/2131099685" ="center" android:id="@id/2131443849" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="1" ="@font/2131296273" ="@color/2131099764" />
+        <View android:id="@id/2131437954" ="@color/2131099764" ="1.0dip" ="180.0dip" ="@id/2131443849" ="@id/2131437965" ="10.0sp" />
+        <LinearLayout ="vertical" android:id="@id/2131437965" ="16.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@id/2131443849">
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131444989" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296273" />
+            <FrameLayout android:id="@id/2131438186" ="fill_parent" ="wrap_content" ="10.0dip" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439107" ="5.0dip" ="5.0dip" ="fill_parent" ="wrap_content">
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444360" ="wrap_content" ="wrap_content" android:text="@string/c2c_buyer_ref_msg" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+                <View android:id="@id/2131439108" ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/2131444360" 2130969937="@id/2131444360" 2130969940="@id/2131444360" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444361" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969911="@id/2131439108" 2130969917="2131438103" 2130969941="@id/2131444360" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450447" ="5.0dip" ="5.0dip" ="fill_parent" ="wrap_content">
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131441993" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_sheet_your_account_name_title" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+                <View android:id="@id/2131427438" ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/2131441993" 2130969937="@id/2131441993" 2130969940="@id/2131441993" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131441995" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969911="@id/2131427438" 2130969917="2131438103" 2130969941="@id/2131441993" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <FrameLayout android:id="@id/2131437897" ="fill_parent" ="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131427904" ="16.0dip" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/animal_layout_2">
+        <TextView ="14.0sp" ="@color/2131099685" ="center" android:id="@id/2131437963" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="2" ="@font/2131296273" ="@color/2131099764" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131441484" ="fill_parent" ="wrap_content" android:text="@string/c2c_od_step_click_i_have_paid" ="@font/2131296273" ="12.0dip" ="@id/2131437963" />
+        <LinearLayout ="vertical" android:id="@id/2131441182" ="gone" ="fill_parent" ="wrap_content" ="6.0dip" ="@id/2131441484" ="@id/2131441484">
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444931" ="6.0dip" ="6.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_advertiser_terms" ="5.0dip" ="@font/2131296274" 2130969306="@drawable/2131237050" 2130969312="@color/2131099738" />
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444929" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

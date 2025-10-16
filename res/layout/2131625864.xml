@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436627" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131437794" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="14.0dip" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436560" ="fill_parent" ="wrap_content" ="16.0dip" 2130969941="2131438103">
+                <include android:id="@id/2131433446" ="fill_parent" ="wrap_content" layout="@layout/2131626079" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445869" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_position_trailing_stop_callback_ratio_title" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436560" style="@style/2132149450" />
+            <com.finance.futures.common.framework.widget.PositionTrailingStopRateView android:id="@id/2131441914" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445869" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_amount_title" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ms_withdraw_amount" 2130969937="@id/2131445869" 2130969940="@id/2131441914" style="@style/2132149450" />
+            <com.finance.futures.common.framework.widget.SlidePercentEditTextV3 android:id="@id/2131440138" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_amount_title" />
+            <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429366" ="wrap_content" ="wrap_content" ="15.0dip" 2130969835="2131429513" 2130969911="@id/2131445514" 2130969937="2131438103" 2130969941="@id/2131445514" />
+            <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/2131445514" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_position_trailing_stop_activation_price_title" android:title="@string/futures_position_trailing_stop_activation_price_title" ="5.0dip" 2130969905="true" 2130969936="@id/2131429366" 2130969940="@id/2131440138" 2130971382="@string/futures_position_trailing_stop_activation_price_title_tips" 2130971383="2131440560" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099762" ="center" android:id="@id/et_activate_price" ="@drawable/2131234058" ="0.0dip" ="40.0dip" ="8.0dip" android:hint="@string/futures_position_trailing_stop_activation_price_title" ="1" ="numberDecimal" ="12.0dip" ="65.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445514" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_act_price_type" ="wrap_content" ="0.0dip" android:text="Mark" ="2.0dip" ="12.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969911="@id/et_activate_price" 2130969917="@id/et_activate_price" 2130969941="@id/et_activate_price" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131435576" ="gone" ="wrap_content" ="wrap_content" 2130969125="et_activate_price, tv_act_price_type" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131446034" ="fill_parent" ="wrap_content" ="14.0dip" ="15.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

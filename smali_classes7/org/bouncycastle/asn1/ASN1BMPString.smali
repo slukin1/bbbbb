@@ -1,0 +1,536 @@
+.class public abstract Lorg/bouncycastle/asn1/ASN1BMPString;
+.super Lorg/bouncycastle/asn1/ASN1Primitive;
+
+# interfaces
+.implements Lorg/bouncycastle/asn1/ASN1String;
+
+
+# static fields
+.field static final TYPE:Lorg/bouncycastle/asn1/ASN1UniversalType;
+
+
+# instance fields
+.field final string:[C
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 65354
+    new-instance v0, Lorg/bouncycastle/asn1/ASN1BMPString$1;
+
+    const-class v1, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    const/16 v2, 0x1e
+
+    invoke-direct {v0, v1, v2}, Lorg/bouncycastle/asn1/ASN1BMPString$1;-><init>(Ljava/lang/Class;I)V
+
+    sput-object v0, Lorg/bouncycastle/asn1/ASN1BMPString;->TYPE:Lorg/bouncycastle/asn1/ASN1UniversalType;
+
+    return-void
+.end method
+
+.method constructor <init>(Ljava/lang/String;)V
+    .locals 1
+
+    .line 65353
+    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Primitive;-><init>()V
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    return-void
+
+    :cond_0
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string v0, "\'string\' cannot be null"
+
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method constructor <init>([B)V
+    .locals 5
+
+    .line 65352
+    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Primitive;-><init>()V
+
+    if-eqz p1, :cond_2
+
+    array-length v0, p1
+
+    and-int/lit8 v1, v0, 0x1
+
+    if-nez v1, :cond_1
+
+    div-int/lit8 v0, v0, 0x2
+
+    new-array v1, v0, [C
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-eq v2, v0, :cond_0
+
+    shl-int/lit8 v3, v2, 0x1
+
+    aget-byte v4, p1, v3
+
+    add-int/lit8 v3, v3, 0x1
+
+    aget-byte v3, p1, v3
+
+    and-int/lit16 v3, v3, 0xff
+
+    shl-int/lit8 v4, v4, 0x8
+
+    or-int/2addr v3, v4
+
+    int-to-char v3, v3
+
+    aput-char v3, v1, v2
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    iput-object v1, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    return-void
+
+    :cond_1
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string v0, "malformed BMPString encoding encountered"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_2
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string v0, "\'string\' cannot be null"
+
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method constructor <init>([C)V
+    .locals 1
+
+    .line 65351
+    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Primitive;-><init>()V
+
+    if-eqz p1, :cond_0
+
+    iput-object p1, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    return-void
+
+    :cond_0
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string v0, "\'string\' cannot be null"
+
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method static createPrimitive([B)Lorg/bouncycastle/asn1/ASN1BMPString;
+    .locals 1
+
+    .line 65350
+    new-instance v0, Lorg/bouncycastle/asn1/DERBMPString;
+
+    invoke-direct {v0, p0}, Lorg/bouncycastle/asn1/DERBMPString;-><init>([B)V
+
+    return-object v0
+.end method
+
+.method static createPrimitive([C)Lorg/bouncycastle/asn1/ASN1BMPString;
+    .locals 1
+
+    .line 65349
+    new-instance v0, Lorg/bouncycastle/asn1/DERBMPString;
+
+    invoke-direct {v0, p0}, Lorg/bouncycastle/asn1/DERBMPString;-><init>([C)V
+
+    return-object v0
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lorg/bouncycastle/asn1/ASN1BMPString;
+    .locals 2
+
+    if-eqz p0, :cond_2
+
+    .line 65348
+    instance-of v0, p0, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    if-nez v0, :cond_2
+
+    instance-of v0, p0, Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    if-eqz v0, :cond_0
+
+    move-object v0, p0
+
+    check-cast v0, Lorg/bouncycastle/asn1/ASN1Encodable;
+
+    invoke-interface {v0}, Lorg/bouncycastle/asn1/ASN1Encodable;->toASN1Primitive()Lorg/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    instance-of v1, v0, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    if-eqz v1, :cond_0
+
+    check-cast v0, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    return-object v0
+
+    :cond_0
+    instance-of v0, p0, [B
+
+    if-eqz v0, :cond_1
+
+    :try_start_0
+    sget-object v0, Lorg/bouncycastle/asn1/ASN1BMPString;->TYPE:Lorg/bouncycastle/asn1/ASN1UniversalType;
+
+    check-cast p0, [B
+
+    invoke-virtual {v0, p0}, Lorg/bouncycastle/asn1/ASN1UniversalType;->fromByteArray([B)Lorg/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object p0
+
+    check-cast p0, Lorg/bouncycastle/asn1/ASN1BMPString;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p0
+
+    :catch_0
+    move-exception p0
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "encoding error in getInstance: "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "illegal object in getInstance: "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_2
+    check-cast p0, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    return-object p0
+.end method
+
+.method public static getInstance(Lorg/bouncycastle/asn1/ASN1TaggedObject;Z)Lorg/bouncycastle/asn1/ASN1BMPString;
+    .locals 1
+
+    .line 65347
+    sget-object v0, Lorg/bouncycastle/asn1/ASN1BMPString;->TYPE:Lorg/bouncycastle/asn1/ASN1UniversalType;
+
+    invoke-virtual {v0, p0, p1}, Lorg/bouncycastle/asn1/ASN1UniversalType;->getContextInstance(Lorg/bouncycastle/asn1/ASN1TaggedObject;Z)Lorg/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object p0
+
+    check-cast p0, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method final asn1Equals(Lorg/bouncycastle/asn1/ASN1Primitive;)Z
+    .locals 1
+
+    .line 65346
+    instance-of v0, p1, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    if-nez v0, :cond_0
+
+    const/4 p1, 0x0
+
+    return p1
+
+    :cond_0
+    check-cast p1, Lorg/bouncycastle/asn1/ASN1BMPString;
+
+    iget-object v0, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    iget-object p1, p1, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    invoke-static {v0, p1}, Lorg/bouncycastle/util/Arrays;->areEqual([C[C)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method final encode(Lorg/bouncycastle/asn1/ASN1OutputStream;Z)V
+    .locals 10
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65345
+    iget-object v0, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    array-length v0, v0
+
+    const/16 v1, 0x1e
+
+    invoke-virtual {p1, p2, v1}, Lorg/bouncycastle/asn1/ASN1OutputStream;->writeIdentifier(ZI)V
+
+    shl-int/lit8 p2, v0, 0x1
+
+    invoke-virtual {p1, p2}, Lorg/bouncycastle/asn1/ASN1OutputStream;->writeDL(I)V
+
+    const/16 p2, 0x8
+
+    new-array v1, p2, [B
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    :goto_0
+    and-int/lit8 v4, v0, -0x4
+
+    const/4 v5, 0x1
+
+    if-ge v3, v4, :cond_0
+
+    iget-object v4, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    aget-char v6, v4, v3
+
+    add-int/lit8 v7, v3, 0x1
+
+    aget-char v7, v4, v7
+
+    add-int/lit8 v8, v3, 0x2
+
+    aget-char v8, v4, v8
+
+    add-int/lit8 v9, v3, 0x3
+
+    aget-char v4, v4, v9
+
+    add-int/lit8 v3, v3, 0x4
+
+    shr-int/lit8 v9, v6, 0x8
+
+    int-to-byte v9, v9
+
+    aput-byte v9, v1, v2
+
+    int-to-byte v6, v6
+
+    aput-byte v6, v1, v5
+
+    shr-int/lit8 v5, v7, 0x8
+
+    int-to-byte v5, v5
+
+    const/4 v6, 0x2
+
+    aput-byte v5, v1, v6
+
+    int-to-byte v5, v7
+
+    const/4 v6, 0x3
+
+    aput-byte v5, v1, v6
+
+    shr-int/lit8 v5, v8, 0x8
+
+    int-to-byte v5, v5
+
+    const/4 v6, 0x4
+
+    aput-byte v5, v1, v6
+
+    const/4 v5, 0x5
+
+    int-to-byte v6, v8
+
+    aput-byte v6, v1, v5
+
+    shr-int/lit8 v5, v4, 0x8
+
+    int-to-byte v5, v5
+
+    const/4 v6, 0x6
+
+    aput-byte v5, v1, v6
+
+    const/4 v5, 0x7
+
+    int-to-byte v4, v4
+
+    aput-byte v4, v1, v5
+
+    invoke-virtual {p1, v1, v2, p2}, Lorg/bouncycastle/asn1/ASN1OutputStream;->write([BII)V
+
+    goto :goto_0
+
+    :cond_0
+    if-ge v3, v0, :cond_2
+
+    const/4 p2, 0x0
+
+    :goto_1
+    iget-object v4, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    aget-char v4, v4, v3
+
+    add-int/2addr v3, v5
+
+    shr-int/lit8 v6, v4, 0x8
+
+    int-to-byte v6, v6
+
+    aput-byte v6, v1, p2
+
+    add-int/lit8 v6, p2, 0x2
+
+    add-int/2addr p2, v5
+
+    int-to-byte v4, v4
+
+    aput-byte v4, v1, p2
+
+    if-lt v3, v0, :cond_1
+
+    invoke-virtual {p1, v1, v2, v6}, Lorg/bouncycastle/asn1/ASN1OutputStream;->write([BII)V
+
+    goto :goto_2
+
+    :cond_1
+    move p2, v6
+
+    goto :goto_1
+
+    :cond_2
+    :goto_2
+    return-void
+.end method
+
+.method final encodeConstructed()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method final encodedLength(Z)I
+    .locals 1
+
+    .line 65343
+    iget-object v0, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    array-length v0, v0
+
+    shl-int/lit8 v0, v0, 0x1
+
+    invoke-static {p1, v0}, Lorg/bouncycastle/asn1/ASN1OutputStream;->getLengthOfEncodingDL(ZI)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final getString()Ljava/lang/String;
+    .locals 2
+
+    .line 65342
+    new-instance v0, Ljava/lang/String;
+
+    iget-object v1, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    invoke-direct {v0, v1}, Ljava/lang/String;-><init>([C)V
+
+    return-object v0
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    .line 65341
+    iget-object v0, p0, Lorg/bouncycastle/asn1/ASN1BMPString;->string:[C
+
+    invoke-static {v0}, Lorg/bouncycastle/util/Arrays;->hashCode([C)I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    .line 65340
+    invoke-virtual {p0}, Lorg/bouncycastle/asn1/ASN1BMPString;->getString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

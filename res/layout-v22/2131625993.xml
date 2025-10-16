@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236713" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_position_pnl_close_all_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_cancel" ="@drawable/2131236709" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="96.0dip" android:text="@string/cancel" ="1" ="@dimen/2131166286" ="@dimen/2131166225" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title" style="@style/2132149454" />
+    <TextView ="@color/2131099778" android:id="@id/2131446197" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/futures_position_current_pnl" 2130969918="@id/2131448324" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131446198" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/placeholder" 2130969917="@id/2131446197" 2130969937="@id/2131446197" 2130969940="@id/2131446197" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131448324" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" ="8.0dip" android:text="@string/futures_grid_take_profit" ="@dimen/2131166286" 2130969918="@id/2131447835" 2130969936="@id/2131446197" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131448328" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/placeholder" 2130969917="@id/2131448324" 2130969937="@id/2131448324" 2130969940="@id/2131448324" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447835" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/futures_grid_stop_loss" 2130969917="2131438103" 2130969936="@id/2131448324" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131447839" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/placeholder" 2130969917="@id/2131447835" 2130969937="@id/2131447835" 2130969940="@id/2131447835" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

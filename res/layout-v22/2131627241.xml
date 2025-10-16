@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="24.0dip" ="10.0dip" ="24.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@drawable/2131236718" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="16.0dip" style="@style/2132149464" />
+        <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" style="@style/2132149464" />
+        <TextView ="@color/2131099778" android:id="@id/2131447348" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="4.0dip" ="16.0dip" ="16.0dip" style="@style/2132149387" />
+        <TextView ="@color/2131099778" android:id="@id/2131445971" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="4.0dip" ="16.0dip" ="8.0dip" ="16.0dip" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433319" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="fitXY" ="16.0dip" />
+        <View ="@color/2131099751" ="fill_parent" ="1.0px" ="15.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="84.0dip" ="16.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433330" ="120.0dip" ="24.0dip" ="@drawable/2131234893" 2130969912="@id/2131441350" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" />
+            <TextView ="@color/2131099764" android:id="@id/2131441350" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_kline_referral_code" ="29.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131433330" style="@style/2132149387" />
+            <TextView ="@color/2131099764" android:id="@id/2131447609" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/2131441350" 2130969936="@id/2131441350" 2130969941="@id/2131441350" style="@style/2132149378" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433333" ="56.0dip" ="56.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</FrameLayout>

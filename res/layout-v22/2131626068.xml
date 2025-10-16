@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434639" ="16.0dip" ="16.0dip" ="@drawable/2131237004" 2130969911="@id/2131448143" 2130969918="@id/2131448143" 2130969928="2131438085" 2130969937="2131438103" 2130969941="@id/2131448143" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131448143" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166286" 2130969905="true" 2130969918="@id/2131434793" 2130969936="@id/2131434639" 2130969941="2131438103" style="@style/2132149450" />
+    <ImageView android:id="@id/2131434793" ="16.0dip" ="16.0dip" ="@drawable/2131237005" 2130969911="@id/2131448143" 2130969917="2131438103" 2130969936="@id/2131448143" 2130969941="@id/2131448143" />
+    <com.finance.kit.framework.widget.calendar.CalendarView android:id="@id/2131429216" ="fill_parent" ="wrap_content" ="20.0dip" 2130968892="true" 2130968895="12.5dip" 2130968896="12.5dip" 2130969230="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448143" 2130970223="com.finance.futures.common.feature.pnlanalysis.ui.view.PnlMonthView" 2130970226="2" 2130970778="4" 2130971598="@dimen/2131166188" 2130971599="com.finance.futures.common.feature.pnlanalysis.ui.view.PnlWeekBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

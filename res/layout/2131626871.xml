@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435206" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_mob_order_detail_buy_actual_amount" ="8.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131448372" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969911="@id/2131435206" 2130969917="2131438103" 2130969941="@id/2131435206" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131443457" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131435206" />
+    <View ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/2131443457" 2130969937="@id/2131443457" 2130969940="@id/2131443457" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446475" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969911="@id/2131443457" 2130969917="2131438103" 2130969941="@id/2131443457" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tv_fee_single_label" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/fee" ="8.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivFeeIcon2" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/tv_fee_single_label" 2130969936="@id/tv_fee_single_label" 2130969941="@id/tv_fee_single_label" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tv_fee_single_value" ="wrap_content" ="wrap_content" ="8.0dip" ="@font/2131296274" ="true" 2130969911="@id/tv_fee_single_label" 2130969917="2131438103" 2130969941="@id/tv_fee_single_label" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432492" ="gone" ="fill_parent" ="wrap_content" 2130969125="tv_fee_single_label, ivFeeIcon2, tv_fee_single_value" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130971089="false" 2130971098="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131428477" ="fill_parent" ="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131429660" ="gone" ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+                    <TextView ="@color/2131099778" android:id="@id/2131444556" ="wrap_content" ="wrap_content" android:text="*" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+                    <TextView ="@color/2131099778" ="end" android:id="@id/2131444555" ="0.0dip" ="wrap_content" android:text="@string/alpha_trading_audit_top_tip" ="2" ="4.0dip" ="4.0dip" 2130969918="@id/2131434144" 2130969936="@id/2131444556" 2130969941="@id/2131444556" style="@style/2132149388" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434144" ="gone" ="16.0dip" ="16.0dip" 2130969911="@id/2131444555" 2130969917="2131438103" 2130969936="@id/2131444555" 2130971077="@drawable/2131237050" 2130971375="@color/2131099738" />
+                    <include android:id="@id/2131435521" ="0.0dip" ="wrap_content" ="24.0dip" 2130969918="@id/2131435377" 2130969937="2131438103" 2130969940="@id/2131444555" layout="@layout/2131627565" />
+                    <include android:id="@id/2131435377" ="0.0dip" ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969936="@id/2131435521" 2130969940="@id/2131444555" layout="@layout/2131627565" />
+                    <LinearLayout ="horizontal" android:id="@id/2131436339" ="@drawable/2131235989" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="16.0dip" ="@color/2131099712" 2130969940="@id/2131435521">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439055" ="0.0dip" ="wrap_content" ="1.0" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="16.0dip" ="16.0dip" ="1.0dip" ="4.0dip" 2130971077="@drawable/2131237050" />
+                    </LinearLayout>
+                    <TextView ="@color/2131099764" android:id="@id/2131444479" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/alpha_trading_audit_risk_analysis" 2130969937="2131438103" 2130969940="@id/2131436339" style="@style/2132149446" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441058" ="fill_parent" ="24.0dip" ="16.0dip" ="8.0dip" ="16.0dip" 2130969902="2131438344" 2130969940="@id/2131444479" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.core.widget.NestedScrollView ="16.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="16.0dip" ="true" 2130969901="@string/appbar_scrolling_view_behavior">
+                <LinearLayout ="vertical" android:id="@id/2131436338" ="fill_parent" ="fill_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439056" ="fill_parent" ="0.0dip" ="1.0" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+                    <include ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" layout="@layout/2131627546" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <include ="bottom" android:id="@id/2131431359" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" layout="@layout/2131627546" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <ViewStub android:id="@id/2131449525" ="@layout/2131627569" ="@id/2131449525" ="fill_parent" ="wrap_content" ="100.0dip" />
+    </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

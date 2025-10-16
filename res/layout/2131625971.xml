@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="end|center" ="end" ="vertical" android:id="@id/2131429866" ="wrap_content" ="wrap_content">
+        <TextView ="@color/2131099778" android:id="@id/tvTradeTimeDefault" ="wrap_content" ="wrap_content" android:text="@string/delivery_time_to_delivery" ="false" style="@style/2132149394" />
+        <TextView ="@color/2131099764" android:id="@id/tvTradeTime" ="wrap_content" ="wrap_content" ="2.0dip" android:text="--" ="false" style="@style/2132149394" />
+        <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" ="end" ="end" android:id="@id/tvFundingRateDefault" ="wrap_content" ="wrap_content" android:text="@string/future_funding" ="2" ="false" 2130970849="true" 2130971380="2131430667" style="@style/2132149390" />
+        <TextView ="@color/2131099764" android:id="@id/tvFundingRate" ="wrap_content" ="wrap_content" ="1.0dip" android:text="0.00%/00:00:00" ="1" ="false" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

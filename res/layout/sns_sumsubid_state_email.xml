@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSH1TextView ="center" android:id="@id/sns_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium_small" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_title" />
+    <com.sumsub.sns.core.widget.SNSTextInputLayout android:id="@id/sns_email" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_large" 2130969365="2131430072" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_subtitle" style="@style/2132150223">
+        <com.sumsub.sns.core.widget.SNSTextInputEditText android:id="@id/sns_email_id" ="fill_parent" ="wrap_content" ="textEmailAddress" ="actionDone" style="@style/2132150221" />
+    </com.sumsub.sns.core.widget.SNSTextInputLayout>
+</merge>

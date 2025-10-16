@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435623" ="@drawable/2131236713" ="12.0dip" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166170">
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131446415" ="wrap_content" ="wrap_content" android:text="@string/voptions_estimate_pnl" ="1" ="12.0dip" ="4.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434295" ="4.0dip" ="wrap_content" ="wrap_content" ="centerInside" 2130969911="@id/2131446415" 2130969936="@id/2131446415" 2130969941="@id/2131446415" 2130971077="@drawable/2131233676" 2130971375="@color/2131099785" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434511" ="16.0dip" ="16.0dip" ="centerInside" ="12.0dip" 2130969911="@id/2131446415" 2130969917="2131438103" 2130969941="@id/2131446415" 2130971077="@drawable/2131237003" />
+        <com.finance.voptions.feature.trade.widget.VOptionsEstimatePnLChartView android:id="@id/estimate_pnl_chart" ="0.0dip" ="208.0dip" ="24.0dip" 2130969917="@id/2131434511" 2130969937="@id/2131446415" 2130969940="@id/tv_estimate_pnl_breakeven_price_title" />
+        <TextView ="@color/2131099778" android:id="@id/tv_estimate_pnl_max_profit_title" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/voptions_estimate_pnl_max_profit" 2130969937="@id/estimate_pnl_chart" 2130969940="@id/2131446415" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tv_estimate_pnl_max_profit" ="wrap_content" ="wrap_content" 2130969911="@id/tv_estimate_pnl_max_profit_title" 2130969917="@id/estimate_pnl_chart" 2130969927="1.0" 2130969936="@id/tv_estimate_pnl_max_profit_title" 2130969941="@id/tv_estimate_pnl_max_profit_title" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tv_estimate_pnl_max_loss_title" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/voptions_estimate_pnl_max_loss" 2130969937="@id/estimate_pnl_chart" 2130969940="@id/tv_estimate_pnl_max_profit_title" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tv_estimate_pnl_max_loss" ="wrap_content" ="wrap_content" 2130969911="@id/tv_estimate_pnl_max_loss_title" 2130969917="@id/estimate_pnl_chart" 2130969927="1.0" 2130969936="@id/tv_estimate_pnl_max_loss_title" 2130969941="@id/tv_estimate_pnl_max_loss_title" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tv_estimate_pnl_breakeven_price_title" ="wrap_content" ="wrap_content" ="4.0dip" ="10.0dip" android:text="@string/voptions_estimate_pnl_breakeven_price" 2130969937="@id/estimate_pnl_chart" 2130969940="@id/tv_estimate_pnl_max_loss_title" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tv_estimate_pnl_breakeven_price" ="wrap_content" ="wrap_content" 2130969911="@id/tv_estimate_pnl_breakeven_price_title" 2130969917="@id/estimate_pnl_chart" 2130969927="1.0" 2130969936="@id/tv_estimate_pnl_breakeven_price_title" 2130969941="@id/tv_estimate_pnl_breakeven_price_title" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432652" ="gone" ="0.0dip" ="0.0dip" 2130969125="estimate_pnl_chart, tv_estimate_pnl_max_profit_title, tv_estimate_pnl_max_profit, tv_estimate_pnl_max_loss_title, tv_estimate_pnl_max_loss, tv_estimate_pnl_breakeven_price_title, tv_estimate_pnl_breakeven_price" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131450329" ="fill_parent" ="wrap_content" ="12.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435654" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="0.0dip" ="38.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969918="@id/ivHistory" 2130969937="2131438103" 2130969941="2131438103" />
+        <View ="@color/2131099751" ="0.0dip" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441079" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428368" ="wrap_content" ="wrap_content" 2130968759="2131440560" 2130969125="ivHistory" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivHistory" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/2131441079" 2130969917="2131438103" 2130969941="@id/2131441079" 2130971077="@drawable/2131237479" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="blocksDescendants" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

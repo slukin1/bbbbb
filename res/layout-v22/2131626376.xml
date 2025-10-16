@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="@color/2131099745" ="15.0dip" ="9.0dip" ="15.0dip" ="9.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166294" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="@font/2131296266" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="#ff2ebd85" ="end" android:id="@id/tvAmount" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969936="@id/tvTitle" 2130969941="2131438103" style="@style/2132149450" />
+    <com.binance.base.widget.TipsTextView ="12.0sp" android:id="@id/2131443298" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_holding_balance" 2130969937="2131438103" 2130969940="@id/tvAmount" 2130970562="2131449083" 2130970566="2131435801" 2130971380="1" 2130971382="@string/earn_holding_balance_tip" style="@style/2132149350" />
+    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/tvRate" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131443298" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

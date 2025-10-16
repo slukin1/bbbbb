@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166200" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446174" ="wrap_content" ="wrap_content" android:text="@string/futures_pnlanalysis_history_cumulative_pnl_per" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131446220" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131446174" style="@style/2132149361" />
+    <LinearLayout ="horizontal" android:id="@id/2131435612" ="fill_parent" ="wrap_content" ="8.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446220" />
+    <com.finance.kit.framework.widget.chart.FinanceCombinedChart android:id="@id/2131429461" ="fill_parent" ="170.0dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435612" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/tv_empty" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/margin_no_positions" 2130969912="@id/2131429461" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435612" />
+</androidx.constraintlayout.widget.ConstraintLayout>

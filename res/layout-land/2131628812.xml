@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131431023" ="#ffd3d3d3" ="fill_parent" ="2.0dip" />
+    <com.cardinalcommerce.a.setAnimationMatrix ="@style/2132148548" ="22.0sp" ="start" android:id="@id/2131429448" ="wrap_content" ="wrap_content" ="16.0dip" ="8.0dip" android:text="@string/verify_by_phone" />
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+        <com.cardinalcommerce.a.setY android:id="@id/2131450325" ="40.0dip" ="40.0dip" ="@dimen/activity_vertical_margin" ="@drawable/2131238775" ="TODO" />
+        <com.cardinalcommerce.a.setAnimationMatrix ="@style/2132150291" ="16.0sp" android:id="@id/2131429450" ="false" ="vertical" ="false" ="wrap_content" ="wrap_content" android:text="@string/textview" />
+    </LinearLayout>
+</LinearLayout>

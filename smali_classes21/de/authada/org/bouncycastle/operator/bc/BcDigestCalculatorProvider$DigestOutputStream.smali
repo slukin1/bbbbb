@@ -1,0 +1,107 @@
+.class Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;
+.super Ljava/io/OutputStream;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "DigestOutputStream"
+.end annotation
+
+
+# instance fields
+.field private dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+
+# direct methods
+.method constructor <init>(Lde/authada/org/bouncycastle/crypto/Digest;)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;->dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method getDigest()[B
+    .locals 3
+
+    .line 65353
+    iget-object v0, p0, Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;->dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+    invoke-interface {v0}, Lde/authada/org/bouncycastle/crypto/Digest;->getDigestSize()I
+
+    move-result v0
+
+    new-array v0, v0, [B
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;->dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+    const/4 v2, 0x0
+
+    invoke-interface {v1, v0, v2}, Lde/authada/org/bouncycastle/crypto/Digest;->doFinal([BI)I
+
+    return-object v0
+.end method
+
+.method public write(I)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65352
+    iget-object v0, p0, Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;->dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+    int-to-byte p1, p1
+
+    invoke-interface {v0, p1}, Lde/authada/org/bouncycastle/crypto/Digest;->update(B)V
+
+    return-void
+.end method
+
+.method public write([B)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65351
+    iget-object v0, p0, Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;->dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+    const/4 v1, 0x0
+
+    array-length v2, p1
+
+    invoke-interface {v0, p1, v1, v2}, Lde/authada/org/bouncycastle/crypto/Digest;->update([BII)V
+
+    return-void
+.end method
+
+.method public write([BII)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65350
+    iget-object v0, p0, Lde/authada/org/bouncycastle/operator/bc/BcDigestCalculatorProvider$DigestOutputStream;->dig:Lde/authada/org/bouncycastle/crypto/Digest;
+
+    invoke-interface {v0, p1, p2, p3}, Lde/authada/org/bouncycastle/crypto/Digest;->update([BII)V
+
+    return-void
+.end method

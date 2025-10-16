@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="horizontal" android:id="@id/2131448977" ="@drawable/2131236650" ="true" ="true" ="fill_parent" ="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131448976" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099837" ="center" ="center_horizontal" android:id="@id/2131441319" ="fill_parent" ="fill_parent" ="1.0dip" android:text="xxxx" ="false" ="true" style="@style/2132149346" />
+</RelativeLayout>

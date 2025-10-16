@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@style/2132148547" ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131441601" ="fill_parent" ="wrap_content" layout="@layout/2131624377" />
+        <ScrollView ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" ="@dimen/2131166476" ="fill_parent" ="wrap_content" ="8.0dip" ="@dimen/2131166476" ="@dimen/2131166476">
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131624372" />
+                <include android:id="@id/2131441377" ="fill_parent" ="wrap_content" layout="@layout/2131628812" />
+                <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip" ="false">
+                    <LinearLayout ="0.0dip" ="fill_parent" ="@integer/2131492878" />
+                    <LinearLayout ="vertical" ="true" ="true" ="0.0dip" ="fill_parent" ="3">
+                        <com.cardinalcommerce.a.setAnimationMatrix ="@style/2132150246" ="16.0sp" ="center" ="center" android:id="@id/2131429449" ="wrap_content" ="wrap_content" ="20.0dip" ="10.0dip" android:hint="@string/challInfoText" />
+                        <com.cardinalcommerce.a.setLeft ="24.0sp" android:id="@id/2131430133" ="6.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="5.0dip" ="1" ="false" ="textFilter|textPostalAddress|textWebEmailAddress|textWebPassword" ="center" ="no" />
+                        <com.cardinalcommerce.a.setBottom ="@style/2132150293" android:id="@id/2131440841" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/verify" ="false" />
+                        <com.cardinalcommerce.a.setBottom ="@style/2132150292" android:id="@id/2131439179" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="5.0dip" android:text="@string/resend_code" ="false" style="@style/2132149788" />
+                    </LinearLayout>
+                    <LinearLayout ="0.0dip" ="fill_parent" ="@integer/2131492878" />
+                </LinearLayout>
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131624371" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <ProgressBar android:id="@id/2131438251" ="gone" ="wrap_content" ="wrap_content" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

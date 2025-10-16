@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434898" ="72.0dip" ="72.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235010" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434897" ="48.0dip" ="48.0dip" 2130969911="@id/2131434898" 2130969917="@id/2131434898" 2130969937="@id/2131434898" 2130969941="@id/2131434898" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center_vertical" android:id="@id/2131446769" ="8.0dip" ="8.0dip" ="gone" ="wrap_content" ="20.0dip" ="1.0dip" ="1.0dip" ="@dimen/2131166286" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432450" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131166188" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432447" ="wrap_content" ="wrap_content" 2130969920="@dimen/2131166168" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="2" ="3.0sp" 2130969912="@id/2131446220" 2130969917="@id/2131432447" 2130969937="@id/2131432450" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131446220" ="0.0dip" ="wrap_content" ="4.0dip" 2130969912="@id/2131446886" 2130969917="@id/2131432447" 2130969937="@id/2131432450" 2130969940="@id/tv_title" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="start" android:id="@id/2131446886" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/market_grow_banner_launchpool_lock_now" ="1" 2130968705="2131449068" 2130969911="2131438103" 2130969917="@id/2131432447" 2130969937="@id/2131432450" 2130969940="@id/2131446220" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

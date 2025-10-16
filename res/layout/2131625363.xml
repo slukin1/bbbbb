@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435717" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131432287" ="wrap_content" ="wrap_content" android:text="@string/events_trade_trade_payout" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099771" ="end" ="end" android:id="@id/2131447336" ="0.0dip" ="wrap_content" android:text="--" ="true" 2130969911="@id/2131432287" 2130969917="@id/2131432020" 2130969936="@id/2131432287" 2130969941="2131438103" style="@style/2132149384" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131432286" ="wrap_content" ="wrap_content" android:text="@string/events_trade_trade_payout_amt" 2130969937="2131438103" 2130969940="@id/2131432287" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447332" ="0.0dip" ="wrap_content" android:text="--" ="true" 2130969911="@id/2131432286" 2130969917="@id/2131432020" 2130969936="@id/2131432286" 2130969940="@id/2131432287" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131432289" ="wrap_content" ="wrap_content" android:text="@string/events_trade_trade_payout" 2130969937="@id/2131432021" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099771" ="end" ="end" android:id="@id/2131447338" ="0.0dip" ="wrap_content" android:text="--" ="true" 2130969911="@id/2131432287" 2130969917="@id/2131432021" 2130969936="@id/2131432289" 2130969941="2131438103" style="@style/2132149384" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131432288" ="wrap_content" ="wrap_content" android:text="@string/events_trade_trade_payout_amt" 2130969937="@id/2131432021" 2130969940="@id/2131432287" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447337" ="0.0dip" ="wrap_content" android:text="--" ="true" 2130969911="@id/2131432286" 2130969917="@id/2131432021" 2130969936="@id/2131432288" 2130969940="@id/2131432287" style="@style/2132149384" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131432020" ="@drawable/2131233866" ="0.0dip" ="40.0dip" ="8.0dip" ="5.0dip" 2130969918="@id/2131432021" 2130969937="2131438103" 2130969940="@id/2131432286">
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434928" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131236868" 2130971375="@color/2131099776" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099776" ="center" android:id="@id/2131448352" ="wrap_content" ="wrap_content" android:text="@string/events_trade_trade_direction_higher" ="false" style="@style/2132149374" />
+    </LinearLayout>
+    <com.finance.events.framework.widget.EventsCoolingOffPeriodWrapTextView android:id="@id/2131436736" ="@drawable/2131233866" ="0.0dip" ="0.0dip" 2130969911="@id/2131432020" 2130969917="@id/2131432020" 2130969937="@id/2131432020" 2130969941="@id/2131432020" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131432021" ="@drawable/2131233866" ="0.0dip" ="40.0dip" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131432020" 2130969941="@id/2131432020">
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434930" ="16.0dip" ="16.0dip" ="90.0" ="4.0dip" 2130971077="@drawable/2131236868" 2130971375="@color/2131099776" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099776" ="center" android:id="@id/2131448356" ="wrap_content" ="wrap_content" android:text="@string/events_trade_trade_direction_lower" ="false" style="@style/2132149374" />
+    </LinearLayout>
+    <com.finance.events.framework.widget.EventsCoolingOffPeriodWrapTextView android:id="@id/2131440083" ="@drawable/2131233866" ="0.0dip" ="0.0dip" 2130969911="@id/2131432021" 2130969917="@id/2131432021" 2130969937="@id/2131432021" 2130969941="@id/2131432021" />
+</androidx.constraintlayout.widget.ConstraintLayout>

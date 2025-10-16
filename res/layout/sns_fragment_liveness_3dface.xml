@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sumsub.sns.core.widget.SNSBackgroundView ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sns_content" ="fill_parent" ="fill_parent">
+        <View android:id="@id/sns_placeholder" ="fill_parent" ="0.0dip" ="?2130968589" 2130969916="1:1" 2130969941="2131438103" />
+        <androidx.camera.view.PreviewView android:id="@id/sns_camera_preview" ="0.0dip" ="0.0dip" 2130969916="9:16" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <FrameLayout android:id="@id/sns_camera" ="invisible" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/sns_overlay" ="fill_parent" ="fill_parent">
+                <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_complete_icon" ="?android:windowBackground" ="gone" ="fill_parent" ="fill_parent" ="centerCrop" />
+                <com.sumsub.sns.core.widget.SNSLivenessFaceView android:id="@id/sns_face_view" ="invisible" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <com.sumsub.sns.core.widget.SNSBackgroundView ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_face_view" />
+                <TextView ="?2130969089" android:id="@id/sns_debug" ="?android:windowBackground" ="gone" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+        <com.sumsub.sns.core.widget.SNSH2TextView ="end" ="center" android:id="@id/sns_hint" ="fill_parent" ="0.0dip" ="@dimen/sns_margin_large" ="@dimen/sns_margin_large" 2130969912="@id/sns_powered" 2130969940="@id/sns_placeholder" />
+        <com.sumsub.sns.core.widget.SNSBackgroundView android:id="@id/sns_container" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout ="@dimen/sns_margin_medium_small" ="@dimen/sns_margin_medium_small" ="fill_parent" ="fill_parent">
+                <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_icon" ="@drawable/sns_bg_circle" ="@dimen/sns_icon_size_large" ="@dimen/sns_icon_size_large" ="@dimen/sns_margin_medium" ="center" 2130969912="@id/sns_liveness_status_title" 2130969931="2131438103" 2130969935="2131438103" 2130971077="@drawable/sns_ic_warning" />
+                <com.sumsub.sns.core.widget.SNSH2TextView ="center" android:id="@id/sns_liveness_status_title" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_large" ="@dimen/sns_margin_small" 2130969912="@id/sns_liveness_status_subtitle" 2130969931="2131438103" 2130969935="2131438103" />
+                <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_liveness_status_subtitle" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_large" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" 2130969942="0.5" />
+                <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_primary_button" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_huge" 2130969911="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.sumsub.sns.core.widget.SNSBackgroundView>
+        <com.sumsub.sns.core.widget.SNSToolbarView android:id="@id/sns_toolbar" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+        <include android:id="@id/sns_powered" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" 2130969911="2131438103" layout="@layout/sns_layout_powered" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.sumsub.sns.core.widget.SNSBackgroundView>

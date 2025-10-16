@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvProductList" ="fill_parent" ="wrap_content" ="12.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130969941="2131438103" 2130971059="4" />
+    <ImageView android:id="@id/2131434237" ="8.0dip" ="8.0dip" ="gone" ="36.0dip" ="20.0dip" ="@drawable/2131237050" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/rvProductList" />
+</androidx.constraintlayout.widget.ConstraintLayout>

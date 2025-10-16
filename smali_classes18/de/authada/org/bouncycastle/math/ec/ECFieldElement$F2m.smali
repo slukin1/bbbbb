@@ -1,0 +1,677 @@
+.class public Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+.super Lde/authada/org/bouncycastle/math/ec/ECFieldElement$AbstractF2m;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "F2m"
+.end annotation
+
+
+# static fields
+.field public static final GNB:I = 0x1
+
+.field public static final PPB:I = 0x3
+
+.field public static final TPB:I = 0x2
+
+
+# instance fields
+.field private ks:[I
+
+.field private m:I
+
+.field private representation:I
+
+.field x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+
+# direct methods
+.method constructor <init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+    .locals 1
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$AbstractF2m;-><init>()V
+
+    iput p1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    array-length p1, p2
+
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_0
+
+    const/4 p1, 0x2
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x3
+
+    :goto_0
+    iput p1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->representation:I
+
+    iput-object p2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    iput-object p3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public add(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 3
+
+    .line 65353
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p1, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, p1, v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->addShiftedByWords(Lde/authada/org/bouncycastle/math/ec/LongArray;I)V
+
+    new-instance p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-direct {p1, v1, v2, v0}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object p1
+.end method
+
+.method public addOne()Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    .line 65352
+    new-instance v0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v3}, Lde/authada/org/bouncycastle/math/ec/LongArray;->addOne()Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object v3
+
+    invoke-direct {v0, v1, v2, v3}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object v0
+.end method
+
+.method public bitLength()I
+    .locals 1
+
+    .line 65351
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->degree()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public divide(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 0
+
+    .line 65350
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement;->invert()Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement;->multiply(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    if-ne p1, p0, :cond_0
+
+    return v0
+
+    .line 65349
+    :cond_0
+    instance-of v1, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget v3, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    if-ne v1, v3, :cond_2
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->representation:I
+
+    iget v3, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->representation:I
+
+    if-ne v1, v3, :cond_2
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    iget-object v3, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-static {v1, v3}, Lde/authada/org/bouncycastle/util/Arrays;->areEqual([I[I)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    iget-object p1, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    return v0
+
+    :cond_2
+    return v2
+.end method
+
+.method public getFieldName()Ljava/lang/String;
+    .locals 1
+
+    .line 65348
+    const-string v0, "F2m"
+
+    return-object v0
+.end method
+
+.method public getFieldSize()I
+    .locals 1
+
+    .line 65347
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    return v0
+.end method
+
+.method public getK1()I
+    .locals 2
+
+    .line 65346
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    const/4 v1, 0x0
+
+    aget v0, v0, v1
+
+    return v0
+.end method
+
+.method public getK2()I
+    .locals 3
+
+    .line 65345
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    array-length v1, v0
+
+    const/4 v2, 0x2
+
+    if-lt v1, v2, :cond_0
+
+    const/4 v1, 0x1
+
+    aget v0, v0, v1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public getK3()I
+    .locals 3
+
+    .line 65344
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    array-length v1, v0
+
+    const/4 v2, 0x3
+
+    if-lt v1, v2, :cond_0
+
+    const/4 v1, 0x2
+
+    aget v0, v0, v1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public getM()I
+    .locals 1
+
+    .line 65343
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    return v0
+.end method
+
+.method public getRepresentation()I
+    .locals 1
+
+    .line 65342
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->representation:I
+
+    return v0
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    .line 65341
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    xor-int/2addr v0, v1
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-static {v1}, Lde/authada/org/bouncycastle/util/Arrays;->hashCode([I)I
+
+    move-result v1
+
+    xor-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public invert()Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    .line 65340
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    new-instance v2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v3, v0, v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->modInverse(I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object v3
+
+    invoke-direct {v2, v0, v1, v3}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object v2
+.end method
+
+.method public isOne()Z
+    .locals 1
+
+    .line 65339
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->isOne()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isZero()Z
+    .locals 1
+
+    .line 65338
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->isZero()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public multiply(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    .line 65337
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    new-instance v2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p1, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v3, p1, v0, v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->modMultiply(Lde/authada/org/bouncycastle/math/ec/LongArray;I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object p1
+
+    invoke-direct {v2, v0, v1, p1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object v2
+.end method
+
+.method public multiplyMinusProduct(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 0
+
+    .line 65336
+    invoke-virtual {p0, p1, p2, p3}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement;->multiplyPlusProduct(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public multiplyPlusProduct(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    .line 65335
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p1, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p2, p2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p3, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p3, p3, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-virtual {v0, p1, v1, v2}, Lde/authada/org/bouncycastle/math/ec/LongArray;->multiply(Lde/authada/org/bouncycastle/math/ec/LongArray;I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object v1
+
+    iget v2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-virtual {p2, p3, v2, v3}, Lde/authada/org/bouncycastle/math/ec/LongArray;->multiply(Lde/authada/org/bouncycastle/math/ec/LongArray;I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object p2
+
+    if-eq v1, v0, :cond_0
+
+    if-ne v1, p1, :cond_1
+
+    :cond_0
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->clone()Ljava/lang/Object;
+
+    move-result-object p1
+
+    move-object v1, p1
+
+    check-cast v1, Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    :cond_1
+    const/4 p1, 0x0
+
+    invoke-virtual {v1, p2, p1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->addShiftedByWords(Lde/authada/org/bouncycastle/math/ec/LongArray;I)V
+
+    iget p1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object p2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-virtual {v1, p1, p2}, Lde/authada/org/bouncycastle/math/ec/LongArray;->reduce(I[I)V
+
+    new-instance p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget p2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object p3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-direct {p1, p2, p3, v1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object p1
+.end method
+
+.method public negate()Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 0
+
+    return-object p0
+.end method
+
+.method public sqrt()Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 1
+
+    .line 65333
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->isZero()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->isOne()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    add-int/lit8 v0, v0, -0x1
+
+    invoke-virtual {p0, v0}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement;->squarePow(I)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    return-object p0
+.end method
+
+.method public square()Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    .line 65332
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    new-instance v2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v3, v0, v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->modSquare(I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object v3
+
+    invoke-direct {v2, v0, v1, v3}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object v2
+.end method
+
+.method public squareMinusProduct(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 0
+
+    .line 65331
+    invoke-virtual {p0, p1, p2}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement;->squarePlusProduct(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public squarePlusProduct(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    .line 65330
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p1, p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    check-cast p2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object p2, p2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    iget v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-virtual {v0, v1, v2}, Lde/authada/org/bouncycastle/math/ec/LongArray;->square(I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object v1
+
+    iget v2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-virtual {p1, p2, v2, v3}, Lde/authada/org/bouncycastle/math/ec/LongArray;->multiply(Lde/authada/org/bouncycastle/math/ec/LongArray;I[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object p1
+
+    if-ne v1, v0, :cond_0
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->clone()Ljava/lang/Object;
+
+    move-result-object p2
+
+    move-object v1, p2
+
+    check-cast v1, Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    :cond_0
+    const/4 p2, 0x0
+
+    invoke-virtual {v1, p1, p2}, Lde/authada/org/bouncycastle/math/ec/LongArray;->addShiftedByWords(Lde/authada/org/bouncycastle/math/ec/LongArray;I)V
+
+    iget p1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object p2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-virtual {v1, p1, p2}, Lde/authada/org/bouncycastle/math/ec/LongArray;->reduce(I[I)V
+
+    new-instance p1, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget p2, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    invoke-direct {p1, p2, v0, v1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object p1
+.end method
+
+.method public squarePow(I)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 4
+
+    if-gtz p1, :cond_0
+
+    return-object p0
+
+    .line 65329
+    :cond_0
+    iget v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->m:I
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->ks:[I
+
+    new-instance v2, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v3, p1, v0, v1}, Lde/authada/org/bouncycastle/math/ec/LongArray;->modSquareN(II[I)Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    move-result-object p1
+
+    invoke-direct {v2, v0, v1, p1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;-><init>(I[ILde/authada/org/bouncycastle/math/ec/LongArray;)V
+
+    return-object v2
+.end method
+
+.method public subtract(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+    .locals 0
+
+    .line 65328
+    invoke-virtual {p0, p1}, Lde/authada/org/bouncycastle/math/ec/ECFieldElement;->add(Lde/authada/org/bouncycastle/math/ec/ECFieldElement;)Lde/authada/org/bouncycastle/math/ec/ECFieldElement;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public testBitZero()Z
+    .locals 1
+
+    .line 65327
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->testBitZero()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public toBigInteger()Ljava/math/BigInteger;
+    .locals 1
+
+    .line 65326
+    iget-object v0, p0, Lde/authada/org/bouncycastle/math/ec/ECFieldElement$F2m;->x:Lde/authada/org/bouncycastle/math/ec/LongArray;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/math/ec/LongArray;->toBigInteger()Ljava/math/BigInteger;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131441696" ="@drawable/2131236677" ="121.0dip" ="16.0dip" ="28.0dip" ="28.0dip" ="@color/2131099744" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131449378" ="@drawable/2131236677" ="40.0dip" ="12.0dip" ="@color/2131099744" 2130969911="@id/2131441696" 2130969917="2131438103" 2130969941="@id/2131441696" />
+    <View android:id="@id/2131441697" ="@drawable/2131236677" ="87.0dip" ="16.0dip" ="28.0dip" ="28.0dip" ="@color/2131099744" 2130969937="2131438103" 2130969940="@id/2131441696" />
+    <View android:id="@id/2131449379" ="@drawable/2131236677" ="40.0dip" ="12.0dip" ="@color/2131099744" 2130969911="@id/2131441697" 2130969917="2131438103" 2130969941="@id/2131441697" />
+    <View android:id="@id/2131441698" ="@drawable/2131236677" ="44.0dip" ="16.0dip" ="28.0dip" ="28.0dip" ="@color/2131099744" 2130969937="2131438103" 2130969940="@id/2131441697" />
+    <View android:id="@id/2131449380" ="@drawable/2131236677" ="40.0dip" ="12.0dip" ="@color/2131099744" 2130969911="@id/2131441698" 2130969917="2131438103" 2130969941="@id/2131441698" />
+    <View android:id="@id/2131441699" ="@drawable/2131236677" ="38.0dip" ="12.0dip" ="28.0dip" ="28.0dip" ="@color/2131099744" 2130969937="2131438103" 2130969940="@id/2131441698" />
+    <View android:id="@id/2131449381" ="@drawable/2131236677" ="17.0dip" ="12.0dip" ="@color/2131099744" 2130969911="@id/2131441699" 2130969917="2131438103" 2130969941="@id/2131441699" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center" ="vertical" ="30.0dip" ="fill_parent" ="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" android:id="@id/2131436492" ="fill_parent" ="50.0dip">
+        <FrameLayout android:id="@id/2131431966" ="wrap_content" ="wrap_content" ="8.0dip">
+            <ImageView android:id="@id/icon_iv" ="24.0dip" ="24.0dip" />
+            <View ="end|center|top" android:id="@id/2131449261" ="@drawable/2131232389" ="gone" ="8.0dip" ="8.0dip" ="#fff0b90b" />
+        </FrameLayout>
+        <TextView android:id="@id/2131441558" ="wrap_content" ="wrap_content" style="@style/2132149397" />
+    </LinearLayout>
+</FrameLayout>

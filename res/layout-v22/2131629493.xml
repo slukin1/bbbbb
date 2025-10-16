@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131232747" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="wrap_content" ="76.0dip" ="97.0dip" ="10.0dip" ="@dimen/2131166156" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131442766" ="wrap_content" ="wrap_content" style="@style/2132149454" />
+    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content">
+        <com.major.android.uikit.textview.AutoAdjustTextView ="@color/2131099764" android:id="@id/tvApy" ="wrap_content" ="wrap_content" 2130968705="2131449068" style="@style/2132149425" />
+        <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443708" ="gone" ="wrap_content" ="wrap_content" android:text="@string/earn_apr_max" ="1" ="2.0dip" 2130971380="2131430667" style="@style/2132149384" />
+    </LinearLayout>
+    <TextView ="@color/2131099787" ="end" android:id="@id/2131444889" ="@drawable/2131232811" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="1" ="@dimen/2131166247" style="@style/2132149394" />
+</LinearLayout>

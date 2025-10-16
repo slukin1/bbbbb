@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="?android:selectableItemBackground" ="?android:listPreferredItemPaddingLeft" ="?android:listPreferredItemPaddingRight" ="false" ="fill_parent" ="wrap_content" ="false" ="?android:listPreferredItemHeightSmall" ="?android:listPreferredItemPaddingStart" ="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131626280" />
+    <RelativeLayout ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" ="1.0">
+        <TextView ="?android:textAppearanceListItem" ="marquee" android:id="@android:id/title" ="wrap_content" ="wrap_content" ="true" />
+        <TextView ="?android:textColorSecondary" ="start" android:id="@android:id/summary" ="wrap_content" ="wrap_content" ="10" ="@android:id/title" ="@android:id/title" ="viewStart" ="@android:id/title" style="@style/2132149059" />
+    </RelativeLayout>
+    <LinearLayout ="end|center" ="vertical" android:id="@android:id/widget_frame" ="16.0dip" ="0.0dip" ="wrap_content" ="fill_parent" ="16.0dip" ="0.0dip" />
+</LinearLayout>

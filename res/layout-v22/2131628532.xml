@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/trading_rule" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <FrameLayout android:id="@id/2131431996" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <View android:id="@id/2131431040" ="@color/2131099751" ="0.0dip" ="0.5dip" ="15.0dip" ="19.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431996" />
+    <FrameLayout android:id="@id/2131432009" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431040" />
+    <TextView ="@color/2131099787" android:id="@id/2131448373" ="15.0dip" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/view_more" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131432009" style="@style/2132149450" />
+</com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout>

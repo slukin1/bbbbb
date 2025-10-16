@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="visible" ="fill_parent" ="100.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439237" ="48.0dip" ="48.0dip" ="24.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235648" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/title" ="wrap_content" ="wrap_content" android:text="@string/payment_send_crypto_and_receive_fiat" ="2" ="15.0dip" ="10.0dip" 2130969905="true" 2130969912="@id/2131441103" 2130969918="@id/2131439237" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131441103" ="@drawable/2131235561" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_cash_pick_tag_fast" ="@dimen/2131166247" 2130969911="2131438103" 2130969937="@id/title" 2130969940="@id/title" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131441104" ="@drawable/2131235561" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_cash_pick_tag_secure" ="5.0dip" ="@dimen/2131166247" 2130969936="@id/2131441103" 2130969941="@id/2131441103" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131441105" ="@drawable/2131235561" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_cash_pick_tag_excellent_rate" ="5.0dip" ="@dimen/2131166247" 2130969936="@id/2131441104" 2130969941="@id/2131441103" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

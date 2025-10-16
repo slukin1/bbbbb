@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131429978" ="@drawable/2131235989" ="fill_parent" ="fill_parent" ="32.0dip" ="10.0dip" ="32.0dip" ="10.0dip" ="#ff000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131440052" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429929" ="visible" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="116.0dip" ="24.0dip" ="50.0dip" ="fitCenter" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234589" />
+            <LinearLayout ="center_horizontal" ="vertical" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/ivLogo">
+                <TextView ="26.0sp" ="#ffffffff" ="center" android:id="@id/2131444989" ="fill_parent" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" android:text="@string/world_leading" ="@font/2131296263" style="@style/2132149426" />
+                <TextView ="26.0sp" ="#ffffffff" ="center" android:id="@id/2131444990" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/cryptocurrency_exchange" ="@font/2131296263" style="@style/2132149426" />
+                <TextView ="#fff0b90b" ="center" android:id="@id/2131444992" ="fill_parent" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" android:text="@string/trade_now" style="@style/2132149359" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433705" ="fill_parent" ="wrap_content" ="56.0dip" ="15.0dip" ="56.0dip" ="300.0dip" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131431877" ="@drawable/2131232448" ="fill_parent" ="76.0dip" ="#ff000000">
+        <View ="#ff76808f" ="fill_parent" ="0.5dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/2131447610" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/referral_code" ="20.0dip" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ffeaecef" android:id="@id/2131447611" ="wrap_content" ="wrap_content" ="35.0dip" ="20.0dip" style="@style/2132149403" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434772" ="50.0dip" ="50.0dip" ="16.0dip" ="16.0dip" ="20.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436192" ="fill_parent" ="fill_parent">
+        <RelativeLayout ="center" android:id="@id/2131439392" ="gone" ="fill_parent" ="fill_parent">
+            <TextView ="wrap_content" ="wrap_content" android:text="@string/faild_to_connect_to_server" />
+        </RelativeLayout>
+        <LinearLayout ="vertical" ="16.0dip" ="8.0dip" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit.search.KitSearchBar ="14.0sp" ="@color/2131100973" ="center_vertical" ="center_vertical" android:id="@id/2131439832" ="false" ="false" ="fill_parent" ="32.0dip" ="@string/c2c_mobile_payment_add_search_placeholder" 2130968908="true" 2130970759="@string/c2c_mobile_payment_add_search_placeholder" 2130971628="true" />
+            <TextView ="10.0sp" android:id="@id/2131447733" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_post_ad_select_payment_method_only_supported" ="15.0dip" />
+        </LinearLayout>
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <com.binance.c2c.indexablerecyclerview.IndexableLayout android:id="@id/2131433416" ="fill_parent" ="fill_parent" ="@id/2131428734" 2130969634="@color/2131103205" 2130969635="@color/2131099778" 2130969636="@dimen/2131167690" 2130969637="@dimen/2131166225" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428235" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="4.0dip" ="@id/2131428734" ="@string/to_top" ="16.0dip" ="true" ="@color/2131099764" 2130971077="@drawable/2131236869" 2130971375="@color/2131099685" />
+            <LinearLayout ="vertical" android:id="@id/2131428734" ="12.0dip" ="fill_parent" ="wrap_content" ="true" ="2.0dip">
+                <TextView ="14.0sp" ="@color/2131100365" ="center" android:id="@id/2131444041" ="fill_parent" ="wrap_content" android:text="@string/c2c_payment_method_not_found" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131429160" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_payment_suggest_payment_method" ="@font/2131296273" style="@style/2132148692" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131432172" ="gone" ="fill_parent" ="fill_parent" />
+</FrameLayout>

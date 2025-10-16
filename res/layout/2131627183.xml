@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233518" ="15.0dip" ="15.0dip" ="15.0dip" ="5.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448091" ="wrap_content" ="wrap_content" android:text="@string/futures_select_symbol_tip_asterisk" 2130969937="2131438103" 2130969941="@id/2131446635" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131446635" ="0.0dip" ="wrap_content" android:text="@string/spot_export_status_des" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131448091" 2130969941="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

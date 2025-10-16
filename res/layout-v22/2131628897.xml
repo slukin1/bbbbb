@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/startText" ="wrap_content" ="wrap_content" ="1.5dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/startIcon" ="20.0dip" ="20.0dip" ="2.5dip" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099764" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131440562" ="wrap_content" ="wrap_content" 2130968759="2131431371" 2130969125="startIcon,startText" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429654" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="18.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" ="@font/2131296282" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969946="2131450408" />
+        <TextView ="12.0sp" ="#ff848e9c" android:id="@id/2131444819" ="wrap_content" ="wrap_content" ="2.0dip" ="@font/2131296281" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+        <TextView ="14.0sp" ="#ff848e9c" android:id="@id/2131442816" ="visible" ="wrap_content" ="wrap_content" ="2.0dip" ="@font/2131296281" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444819" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131431373" ="wrap_content" ="wrap_content" 2130968759="2131440560" 2130969125="ivClose" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="wrap_content" ="wrap_content" ="3.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237101" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

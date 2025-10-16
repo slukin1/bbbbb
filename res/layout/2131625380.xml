@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="?android:selectableItemBackground" ="fill_parent" ="wrap_content" ="150.0dip" ="52.0dip" ="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131431616" ="24.0dip" ="24.0dip" ="8.0dip" ="12.0dip" ="8.0dip" />
+    <LinearLayout ="start|center" ="vertical" ="4.0dip" ="wrap_content" ="wrap_content" ="2.0dip" ="2.0dip" ="52.0dip" ="locale" ="4.0dip">
+        <TextView ="14.0sp" ="#ffffffff" android:id="@id/2131431617" ="wrap_content" ="wrap_content" ="locale" />
+        <TextView ="12.0sp" ="#b3ffffff" android:id="@id/2131431639" ="wrap_content" ="wrap_content" ="locale" />
+    </LinearLayout>
+</LinearLayout>

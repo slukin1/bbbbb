@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430915" ="@drawable/2131236024" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/ocbs_crypto_price_live" 2130969912="@id/2131435855" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433199" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="44.0dip" ="@color/2131099764" ="@dimen/2131166184" ="@dimen/2131166170" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <View android:id="@id/2131435855" ="wrap_content" ="0.100000024dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+    <TextView ="@color/2131099764" android:id="@id/tvDesc" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/ocbs_crypto_price_live_desc" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435855" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428837" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/earn_tip_ok" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvDesc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

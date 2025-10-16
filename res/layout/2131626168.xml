@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442629" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/copy_trading" ="1" style="@style/2132149463" />
+    <Space ="fill_parent" ="9.0dip" />
+    <fragment ="com.finance.copytrading.feature.home.ui.portfolios.CopyTradingDiscoveryPortfolioListFragment" android:id="@id/2131431884" ="fill_parent" ="490.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

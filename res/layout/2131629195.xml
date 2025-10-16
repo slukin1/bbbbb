@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@drawable/2131238588" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131439478" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131441601" ="fill_parent" ="?2130968589" layout="@layout/2131629184" />
+        <include android:id="@id/2131432842" ="fill_parent" ="0.0dip" ="20.0dip" ="1.0" layout="@layout/2131629183" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131432839" ="fill_parent" ="fill_parent" />
+    <FrameLayout android:id="@id/2131438684" ="#b3000000" ="true" ="gone" ="true" ="fill_parent" ="fill_parent">
+        <androidx.cardview.widget.CardView ="bottom" android:id="@id/2131438695" ="fill_parent" ="wrap_content" ="20.0dip" ="4.0dip" 2130968912="@dimen/2131167822">
+            <LinearLayout ="center_horizontal" ="vertical" ="30.0dip" ="fill_parent" ="wrap_content">
+                <TextView android:id="@id/2131444262" ="wrap_content" ="wrap_content" android:text="@string/uq_read_irq_id_reading" style="@style/2132150344" />
+                <ImageView android:id="@id/2131437699" ="wrap_content" ="wrap_content" ="40.0dip" ="40.0dip" ="@drawable/2131238602" ="@null" />
+                <LinearLayout ="center_horizontal" ="horizontal" ="fill_parent" ="wrap_content">
+                    <ImageView android:id="@id/2131428292" ="35.0dip" ="10.0dip" ="@drawable/2131238605" ="@null" />
+                    <ImageView android:id="@id/2131428293" ="35.0dip" ="10.0dip" ="@drawable/2131238605" ="@null" ="8.0dip" />
+                    <ImageView android:id="@id/2131428294" ="35.0dip" ="10.0dip" ="@drawable/2131238605" ="@null" ="8.0dip" />
+                    <ImageView android:id="@id/2131428295" ="35.0dip" ="10.0dip" ="@drawable/2131238604" ="@null" ="8.0dip" />
+                    <ImageView android:id="@id/2131428296" ="35.0dip" ="10.0dip" ="@drawable/2131238604" ="@null" ="8.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131440854" ="#b3000000" ="true" ="gone" ="true" ="fill_parent" ="fill_parent">
+        <androidx.cardview.widget.CardView ="bottom" ="fill_parent" ="wrap_content" ="20.0dip" ="4.0dip" 2130968912="@dimen/2131167822">
+            <LinearLayout ="center_horizontal" ="vertical" ="30.0dip" ="fill_parent" ="wrap_content">
+                <TextView ="#ff00d102" ="wrap_content" ="wrap_content" android:text="@string/uq_read_irq_id_reading_completed" style="@style/2132150344" />
+                <pl.droidsonroids.gif.GifImageView android:id="@id/2131431071" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_marginTop="40.0dip" android:layout_marginBottom="40.0dip" android:contentDescription="@null" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131431411" ="#b3000000" ="true" ="gone" ="true" ="fill_parent" ="fill_parent">
+        <androidx.cardview.widget.CardView ="bottom" ="fill_parent" ="wrap_content" ="20.0dip" ="4.0dip" 2130968912="@dimen/2131167822">
+            <LinearLayout ="center_horizontal" ="vertical" ="30.0dip" ="fill_parent" ="wrap_content">
+                <TextView ="#ffc80028" ="wrap_content" ="wrap_content" android:text="@string/uq_read_irq_id_reading_failed" style="@style/2132150344" />
+                <ImageView ="130.0dip" ="130.0dip" ="40.0dip" ="40.0dip" ="@drawable/2131238600" ="@null" />
+                <TextView ="16.0sp" ="center_horizontal" ="wrap_content" ="wrap_content" android:text="@string/uq_read_irq_id_info_hold_phone" style="@style/2132150344" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</FrameLayout>

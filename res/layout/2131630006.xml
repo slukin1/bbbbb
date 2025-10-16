@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429606" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="0.0dip" ="0.0dip" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="32.0dip" ="visible" ="16.0dip" ="540.0dip" 2130968838="@dimen/2131166153" 2130968839="@color/2131099764" 2130968840="@color/2131099778" 2130968841="@dimen/2131167696" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    <TextView ="32.0sp" ="center" ="end" android:id="@id/2131443523" ="@drawable/2131234435" ="invisible" ="54.0dip" ="45.0dip" ="0.0dip" ="0.0dip" ="24.0dip" 2130969918="@id/2131429131" 2130969941="@id/2131429131" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="2131438103" 2130970808="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434842" ="fill_parent" ="wrap_content" 2130971375="@color/2131099744" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

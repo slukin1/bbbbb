@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436548" ="fill_parent" ="wrap_content" ="16.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131441023" ="wrap_content" ="wrap_content" android:text="@string/fav_pair" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131441550" ="2.0dip" ="2.0dip" ="gone" ="52.0dip" ="wrap_content" android:text="@string/com_favorites_pin" 2130969918="@id/2131441647" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131441647" ="2.0dip" ="2.0dip" ="52.0dip" ="wrap_content" android:text="@string/top" ="3" 2130969918="@id/2131440374" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131440374" ="2.0dip" ="2.0dip" ="52.0dip" ="wrap_content" android:text="@string/sort" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439662" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" android:id="@id/2131436518" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="120.0dip" 2130971077="@drawable/2131238419" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428966" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ms_market_add_btn" style="@style/2132148701" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+    <View ="@color/2131099751" ="fill_parent" ="1.0px" 2130969941="2131438103" />
+    <FrameLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131446332" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429370" ="wrap_content" ="wrap_content" ="1.0dip" 2130969758="true" 2130969759="2131437069" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447726" ="wrap_content" ="wrap_content" android:text="@string/ms_selecte_all" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131439890" 2130969941="2131438103" style="@style/2132149450" />
+            <Space ="0.0dip" ="0.0dip" ="1.0" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131436499" ="wrap_content" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434458" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237867" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131446111" ="wrap_content" ="wrap_content" android:text="@string/market_add_to_group" ="2.0dip" style="@style/2132149374" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131436509" ="wrap_content" ="wrap_content" ="15.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_delete" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237186" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131446247" ="wrap_content" ="wrap_content" android:text="@string/delete" ="2.0dip" style="@style/2132149374" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView ="@color/2131099778" android:id="@id/2131446653" ="8.0dip" ="8.0dip" ="8.0dip" ="gone" ="fill_parent" ="fill_parent" android:text="@string/com_markets_holdings_edit_tip" style="@style/2132149361" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

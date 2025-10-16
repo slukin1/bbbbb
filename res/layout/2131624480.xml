@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435525" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_add_schedule_live" style="@style/2132149450" />
+        <View ="0.0dip" ="0.0dip" ="1.0" />
+        <TextView ="@color/2131099785" android:id="@id/2131444540" ="gone" ="wrap_content" ="wrap_content" style="@style/2132149361" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@color/2131100434" 2130971077="@drawable/2131237055" 2130971180="@null" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131435346" ="gone" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428686" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/content_post_add_trades" style="@style/2132149450" />
+            <View ="0.0dip" ="0.0dip" ="1.0" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@color/2131100434" 2130971077="@drawable/2131237055" 2130971180="@null" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="16.0dip" ="16.0dip" ="false" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        <View ="0.0dip" ="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

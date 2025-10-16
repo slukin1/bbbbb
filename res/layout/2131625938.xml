@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout android:id="@id/2131432220" ="fill_parent" ="fill_parent" 2130970753="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131439628" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131433839" ="gone" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/no_records_found" ="4.0dip" 2130969314="@drawable/2131233810" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|bottom|center" android:id="@id/2131433700" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="12.0dip" ="15.0dip" ="@color/2131099751" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236869" 2130971375="@color/2131099764" />
+</com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <TextView ="true" ="@color/2131099764" ="center_vertical" android:id="@id/2131438209" ="?2130970780" ="15.0dip" ="15.0dip" ="true" ="true" ="fill_parent" ="64.0dip" android:text="@string/payment_help_customer_support" ="13.0dip" 2130969306="@drawable/2131237055" />
+    <TextView ="true" ="@color/2131099764" ="center_vertical" android:id="@id/2131438210" ="?2130970780" ="15.0dip" ="15.0dip" ="true" ="true" ="fill_parent" ="64.0dip" android:text="@string/_faq" ="13.0dip" 2130969306="@drawable/2131237055" />
+    <FrameLayout android:id="@id/2131438211" ="?2130970780" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="64.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/payment_help_user_guide" />
+        <TextView ="@color/2131102769" ="center" ="end|center" ="wrap_content" ="wrap_content" android:text="@string/payment_watch_now" ="16.0dip" 2130969306="@drawable/2131237055" />
+    </FrameLayout>
+</LinearLayout>

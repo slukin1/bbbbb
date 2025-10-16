@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.dialogs.sheets.HorizontalPageIndicator ="horizontal" android:id="@id/2131432833" ="invisible" ="0.0dip" ="4.0dip" ="1.0" ="15.0dip" 2130969596="3" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="15.0dip" ="50.0dip" ="50.0dip" 2130971077="@drawable/2131237101" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="wrap_content" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131449594" ="wrap_content" ="0.0dip" ="1.0">
+        <com.major.android.uikit2.dialogs.sheets.HorizontalPageIndicator ="horizontal" android:id="@id/2131432149" ="visible" ="fill_parent" ="4.0dip" ="80.0dip" ="80.0dip" 2130969596="3" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131439871" ="0.0dip" ="wrap_content" ="1.0" ="15.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131438654" ="0.0dip" ="wrap_content" ="1.0" ="15.0dip" ="15.0dip" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

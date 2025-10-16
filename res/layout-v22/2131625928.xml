@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131448994" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/futures_arbitrage_portfolio" style="@style/2132149425" />
+        <TextView ="@color/2131102769" android:id="@id/2131448085" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/futures_arbitrage_3daytip" ="false" style="@style/2132149384" />
+        <RadioGroup android:id="@id/2131439229" ="wrap_content" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit.selection.KitRadioButton ="@color/2131102397" ="center" android:id="@id/2131435153" ="wrap_content" ="wrap_content" ="true" ="8.0dip" style="@style/2132149350" />
+            <com.major.android.uikit.selection.KitRadioButton ="@color/2131102397" ="center" android:id="@id/2131435156" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/futures_arbitrage_next_funding_rate" ="8.0dip" style="@style/2132149350" />
+        </RadioGroup>
+        <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131429058" ="fill_parent" ="40.0dip" ="24.0dip" android:text="@string/confirm" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

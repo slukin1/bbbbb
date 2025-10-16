@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236021" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131434506" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="14.0dip" ="14.0dip" android:text="@string/_filter" ="14.0dip" ="15.0dip" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTitle" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/finance_order_dates" ="15.0dip" style="@style/2132149384" />
+    <FrameLayout android:id="@id/2131430317" ="fill_parent" ="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444964" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="10.0dip" ="15.0dip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443968" ="15.0dip" ="15.0dip" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/spot_order_sorting_title" ="15.0dip" style="@style/2132149384" />
+    <RadioGroup ="horizontal" android:id="@id/2131439216" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip">
+        <RadioButton ="@color/2131099764" ="center" android:id="@id/2131438894" ="@drawable/2131234838" ="wrap_content" ="36.0dip" ="true" ="@null" android:text="@string/trade_create_time" ="1.0" ="15.0dip" style="@style/2132149350" />
+        <RadioButton ="@color/2131099764" ="center" android:id="@id/2131438895" ="@drawable/2131234838" ="wrap_content" ="36.0dip" ="@null" android:text="@string/trade_update_time" ="1.0" style="@style/2132149350" />
+    </RadioGroup>
+    <androidx.appcompat.widget.LinearLayoutCompat ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="30.0dip" ="25.0dip" ="15.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428877" ="0.0dip" ="wrap_content" android:text="@string/reset" ="1.0" ="15.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

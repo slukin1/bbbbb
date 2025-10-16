@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427533" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441527" ="64.0dip" ="64.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238393" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441531" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_soft_staking_active_title" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441527" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131430864" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_soft_staking_active_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441531" style="@style/2132149355" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131427534" ="@drawable/2131235989" ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="@color/2131099800" ="@dimen/2131166170" ="@dimen/2131166286" 2130969940="@id/2131430864">
+            <LinearLayout ="wrap_content" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_soft_staking_active_tip1" ="8.0dip" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="wrap_content" ="wrap_content" ="12.0dip">
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_soft_staking_active_tip2" ="8.0dip" style="@style/2132149350" />
+            </LinearLayout>
+            <androidx.appcompat.widget.LinearLayoutCompat ="wrap_content" ="wrap_content" ="12.0dip">
+                <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_soft_staking_active_tip3" ="8.0dip" style="@style/2132149350" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131441177" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131427534">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131440099" ="wrap_content" ="wrap_content" ="2.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441178" ="fill_parent" ="wrap_content" android:text="@string/wallet_soft_staking_active_agreement" ="4.0dip" style="@style/2132149355" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131431404" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/wallet_soft_staking_active_error" 2130969940="@id/2131441177" style="@style/2132149384" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131431404">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131429253" ="0.0dip" ="wrap_content" android:text="@string/cancel" ="1.0" style="@style/2132148697" />
+            <View ="10.0dip" ="1.0dip" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131430233" ="0.0dip" ="wrap_content" android:text="@string/wallet_soft_staking_active_confirm" ="1.0" style="@style/2132148692" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131440852" ="gone" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" ="84.0dip" 2130971077="@drawable/2131238405" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_soft_staking_active_success" ="@dimen/2131166170" style="@style/2132149425" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131440850" ="fill_parent" ="wrap_content" ="164.0dip" android:text="@string/OK" style="@style/2132148692" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131431698" ="gone" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" ="84.0dip" 2130971077="@drawable/2131238406" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_soft_staking_active_failed" ="@dimen/2131166170" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131431699" ="fill_parent" ="wrap_content" ="100.0dip" style="@style/2132149355" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131431697" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/OK" ="@dimen/2131166188" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

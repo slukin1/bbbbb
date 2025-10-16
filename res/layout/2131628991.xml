@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="@style/2132149588" android:id="@id/2131427995" ="@color/2131099685" ="true" ="fill_parent" ="110.0dip" ="@color/2131099685" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout ="center_horizontal" android:id="@id/2131441617" ="true" ="fill_parent" ="fill_parent" 2130969046="2131429431" 2130969149="?2130969089" 2130969974="2131439795|@null">
+            <LinearLayout ="vertical" ="fill_parent" ="130.0dip">
+                <View ="fill_parent" ="44.0dip" />
+                <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131448889" ="5.0dip" ="fill_parent" ="40.0dip" ="false" ="18.0dip" style="@style/2132149416" />
+                <TextView ="@color/2131099778" android:id="@id/2131448888" ="gone" ="fill_parent" ="16.0dip" ="5.0dip" ="false" ="18.0dip" style="@style/2132149384" />
+            </LinearLayout>
+            <com.google.android.material.appbar.MaterialToolbar ="@style/2132149588" android:id="@id/2131441601" ="fill_parent" ="44.0dip" ="?2130968589" ="center" 2130969902="2131438344" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970295="@null" 2130971191="test subtile" 2130971194="@color/2131099778" app:2130971384="Test me" 2130971396="@color/2131099764">
+                <include android:id="@id/2131448959" layout="@layout/2131628987" />
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@id/2131448974" layout="@layout/2131629029" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="16.0dip" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434938" ="16.0dip" ="16.0dip" ="@color/2131099881" />
+        <TextView ="12.0sp" ="@color/2131099881" android:id="@id/tv_type" ="4.0dip" style="@style/2132149386" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="8.0dip" ="2" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="16.0dip" ="17.0dip" ="3" style="@style/2132149350" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+</LinearLayout>

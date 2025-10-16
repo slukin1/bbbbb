@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="vertical" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430265" ="20.0dip" ="fill_parent" ="wrap_content">
+        <com.binance.base.widget.ExpandableTextView ="@color/2131099764" android:id="@id/2131427971" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" 2130969417="@string/mock_futures_instruction_show_all" 2130969418="@color/2131099765" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969999="22.0sp" 2130970063="@dimen/2131166231" 2130970145="6" 2130971627="true" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427974" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/futures_instruction_illustration" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131427971" style="@style/2132149450" />
+        <com.finance.spot.feature.instruction.view.InstructionCheckBox ="@color/2131099764" android:id="@id/checkBoxBuy" ="wrap_content" ="wrap_content" android:text="@string/trade_tabs1" ="12.0dip" 2130969911="@id/2131427974" 2130969918="@id/checkBoxSell" 2130969941="@id/2131427974" />
+        <com.finance.spot.feature.instruction.view.InstructionCheckBox ="@color/2131099764" android:id="@id/checkBoxSell" ="wrap_content" ="wrap_content" android:text="@string/trade_tabs2" ="16.0dip" 2130969911="@id/checkBoxBuy" 2130969917="2131438103" 2130969941="@id/checkBoxBuy" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427946" ="0.0dip" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" ="centerInside" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427974" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432082" ="0.0dip" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969485="2131438085" 2130969490="10.0dip" 2130969500="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427946" />
+        <LinearLayout ="center_horizontal" ="horizontal" android:id="@id/2131436696" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427946">
+            <LinearLayout ="vertical" android:id="@id/2131436697" ="wrap_content" ="wrap_content" />
+            <LinearLayout ="vertical" android:id="@id/2131436698" ="wrap_content" ="wrap_content" ="40.0dip" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427983" ="0.0dip" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432082" 2130969999="16.0sp" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

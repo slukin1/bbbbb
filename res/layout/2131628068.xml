@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131439120" ="fill_parent" ="fill_parent" 2130971093="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432880" ="fill_parent" ="wrap_content" 2130969895="LinearLayoutManager" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <include android:id="@id/2131431356" ="gone" layout="@layout/2131628098" />
+</FrameLayout>

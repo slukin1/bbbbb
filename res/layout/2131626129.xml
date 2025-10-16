@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="wrap_content" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131436655" ="wrap_content" ="wrap_content" 2130969125="tv_filter_title1,tv_colon1,tv_symbol,iv_symbol_arrow" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_filter_title1,tv_type_title" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_filter_title1" ="wrap_content" ="45.0dip" android:text="@string/symbol" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_colon1" ="wrap_content" ="45.0dip" android:text=":" 2130969907="@id/tv_filter_title1" 2130969936="@id/tv_filter_title1" style="@style/2132149361" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_symbol" ="wrap_content" ="45.0dip" ="1" ="4.0dip" 2130969905="true" 2130969907="@id/tv_filter_title1" 2130969936="@id/tv_colon1" style="@style/2132149361" />
+    <ImageView android:id="@id/iv_symbol_arrow" ="wrap_content" ="wrap_content" ="centerInside" ="@null" ="3.0dip" 2130969911="@id/tv_filter_title1" 2130969936="@id/tv_symbol" 2130969941="@id/tv_filter_title1" 2130971077="@drawable/2131233667" 2130971375="@color/2131099764" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131436675" ="wrap_content" ="wrap_content" 2130969125="tv_type_title,tv_colon2,tv_cancel_type,iv_type_arrow" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_type_title" ="wrap_content" ="45.0dip" android:text="@string/_Type" ="16.0dip" 2130969936="@id/iv_symbol_arrow" 2130969941="@id/tv_filter_title1" style="@style/2132149361" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_colon2" ="wrap_content" ="45.0dip" android:text=":" 2130969936="@id/tv_type_title" 2130969941="@id/tv_type_title" style="@style/2132149361" />
+    <TextView ="@color/2131099764" ="end" ="start|center" android:id="@id/tv_cancel_type" ="wrap_content" ="45.0dip" ="1" ="4.0dip" 2130969905="true" 2130969918="@id/iv_type_arrow" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/tv_colon2" style="@style/2132149361" />
+    <ImageView android:id="@id/iv_type_arrow" ="wrap_content" ="wrap_content" ="centerInside" ="@null" ="3.0dip" ="8.0dip" 2130969911="@id/tv_type_title" 2130969918="@id/2131445871" 2130969936="@id/tv_cancel_type" 2130969941="@id/tv_type_title" 2130971077="@drawable/2131233667" 2130971375="@color/2131099764" />
+</merge>

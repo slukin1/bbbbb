@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131448965" ="@drawable/2131236595" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="true" ="true" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131433920" ="gone" ="20.0dip" ="20.0dip" ="true" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center_horizontal" android:id="@id/2131441204" ="0.0dip" ="wrap_content" android:text="xxxx" ="false" ="true" ="@font/2131296271" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131433920" 2130969941="2131438103" 2130969958="0.0dip" 2130969961="0.0dip" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131441315" ="0.0dip" ="wrap_content" ="2.0dip" android:text="xxxx" ="false" ="true" ="@font/2131296281" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131433920" 2130969940="@id/2131441204" 2130969958="0.0dip" 2130969961="0.0dip" style="@style/2132149346" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444205" ="wrap_content" ="wrap_content" android:text="@string/futures_trading" 2130969937="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434031" ="16.0dip" ="16.0dip" ="2.0dip" 2130969911="@id/2131444205" 2130969936="@id/2131444205" 2130969941="@id/2131444205" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131444204" ="wrap_content" ="wrap_content" 2130969911="@id/2131444206" 2130969917="2131438103" 2130969941="@id/2131444205" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444206" ="0.0dip" ="wrap_content" android:text="@string/spot_order_push_no_system_permission_tips" ="15.0dip" 2130969918="@id/2131444204" 2130969937="2131438103" 2130969940="@id/2131444205" style="@style/2132149384" />
+</merge>

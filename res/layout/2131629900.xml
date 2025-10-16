@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131439793" ="wrap_content" ="wrap_content" 2130969125="asset_net_worth_info, asset_net_selected_date_label" />
+    <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131428112" ="wrap_content" ="wrap_content" ="15.0dip" 2130969125="asset_net_worth_label, asset_net_worth_info" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/asset_net_worth_label" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_asset_net_worth_label" ="15.0dip" 2130969937="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/asset_net_worth_info" ="4.0dip" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <TextView ="@color/2131099778" android:id="@id/asset_net_selected_date_label" ="wrap_content" ="wrap_content" ="4.0dip" android:text="--" 2130969937="@id/2131428112" 2130969940="@id/asset_net_worth_label" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/asset_net_worth_value" ="wrap_content" ="wrap_content" ="10.0dip" android:text="--" ="ltr" 2130969937="@id/2131428112" 2130969940="@id/asset_net_selected_date_label" style="@style/2132149421" />
+    <com.github.mikephil.charting.charts.LineChart android:id="@id/asset_net_worth_chart" ="0.0dip" ="0.0dip" ="15.0dip" ="0.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/asset_net_worth_value" 2130969940="@id/asset_net_worth_value" />
+    <include android:id="@id/2131431415" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/asset_net_worth_value" layout="@layout/2131630149" />
+    <include android:id="@id/2131438693" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/asset_net_worth_value" layout="@layout/2131630150" />
+</androidx.constraintlayout.widget.ConstraintLayout>

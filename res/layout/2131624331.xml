@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099764" ="center_vertical" android:id="@id/2131429561" ="wrap_content" ="wrap_content" 2130969758="true" style="@style/2132149350" />
+    <com.major.android.uikit2.selection.KitRadioButton ="@color/2131099764" ="center_vertical" ="center_vertical" android:id="@id/2131438828" ="wrap_content" ="wrap_content" ="false" ="5.0dip" ="0.0dip" style="@style/2132149350" />
+</FrameLayout>

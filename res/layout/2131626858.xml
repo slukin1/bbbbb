@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="@drawable/2131232757" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433097" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131441255" 2130969927="0.5" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234168" />
+    <androidx.appcompat.widget.AppCompatTextView ="13.0sp" ="@color/2131102994" android:id="@id/2131441255" ="wrap_content" ="wrap_content" ="false" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131433097" 2130969941="2131438103" />
+</merge>

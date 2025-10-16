@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="fill_parent" ="wrap_content" ="30.0dip" 2130970893="@dimen/2131166170" 2130970894="@id/tv_title" 2130970897="keleton_home_widget_common_8x2_light.svg" 2130970899="keleton_home_widget_common_8x2_night.svg" 2130970901="@id/tv_title" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="0.0dip" ="wrap_content" android:text="@string/markets_data_AI_select_title" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434315" ="94.0dip" ="20.0dip" ="fitXY" 2130969911="@id/tv_title" 2130969918="@id/2131434333" 2130969941="@id/tv_title" 2130971077="@drawable/2131233318" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434333" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131437469" ="0.0dip" ="88.0dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449258" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+    <LinearLayout ="horizontal" android:id="@id/indicator_container" ="false" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437469" />
+</com.components.skeleton.SkeletonViewGroup>

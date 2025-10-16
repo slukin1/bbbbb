@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131439283" ="@drawable/2131236009" ="74.0dip" ="74.0dip" ="16.0dip" ="@color/2131099800" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433793" ="visible" ="wrap_content" ="wrap_content" ="fitXY" ="true" 2130971077="@drawable/2131237811" 2130971375="@color/2131099738" />
+    <TextView ="14.0sp" ="@color/2131099762" android:id="@id/2131431807" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" ="@font/2131296274" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434165" ="gone" ="fill_parent" ="fill_parent" ="2.0dip" ="fitCenter" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="gone" ="20.0dip" ="20.0dip" ="1.0dip" ="true" 2130971077="@drawable/2131237073" />
+    <TextView ="12.0sp" ="#fff84960" ="center" android:id="@id/2131444663" ="@drawable/2131232534" ="gone" ="fill_parent" ="fill_parent" android:text="@string/account_activity_faile_status" ="true" ="@font/2131296274" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434166" ="gone" ="44.0dip" ="44.0dip" ="2.0dip" ="fitCenter" ="true" 2130971077="@drawable/2131234518" />
+    <com.binance.c2c.view.SectorProgressView android:id="@id/2131429617" ="gone" ="32.0dip" ="32.0dip" ="true" 2130970805="#aaffffff" />
+</RelativeLayout>

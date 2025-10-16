@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430899" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="end" android:id="@id/ivClose" ="20.0dip" ="20.0dip" ="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/earn_your_beth_balance" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131442323" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149423" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232712" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131445464" ="wrap_content" ="wrap_content" android:text="@string/earn_wrap_to_wbeth" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131445465" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_wrap_to_wbeth_desc" ="12.0dip" 2130969905="true" 2130969918="@id/2131433920" 2130969937="2131438103" 2130969940="@id/2131445464" style="@style/2132149384" />
+        <ImageView android:id="@id/2131433920" ="40.0dip" ="40.0dip" 2130969911="@id/2131445465" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428954" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/earn_eth_wrap_now" style="@style/2132148691" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428812" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/earn_remind_me_in_7_days" style="@style/2132148704" />
+</LinearLayout>

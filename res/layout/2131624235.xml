@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427607" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0" ="12.0dip" ="12.0dip">
+        <LinearLayout ="vertical" android:id="@id/2131436269" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit.notification.KitNotification android:id="@id/2131437749" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130970329="@string/earn_redeem_insufficient_warning" 2130970863="@null" />
+            <com.major.android.uikit2.input.KitInputEditAmount android:id="@id/2131433467" ="fill_parent" ="wrap_content" ="16.0dip" 2130969660="@string/redemption_amount" />
+            <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099778" android:id="@id/2131442549" ="gone" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/earn_collateralized_amount_desc2" style="@style/2132149384" />
+                <androidx.legacy.widget.Space ="0.0dip" ="0.0dip" ="1.0" />
+                <com.binance.base.widget.IconTipsTextView ="@color/2131099764" ="end" android:id="@id/2131442548" ="gone" ="wrap_content" ="wrap_content" ="3.0dip" ="5.0dip" 2130969274="@string/earn_collateralized_amount_desc2" 2130969607="2131440560" 2130969937="2131438103" 2130969940="@id/tvAvailableLabel" 2130970840="true" 2130971382="@string/earn_collateralized_amount_usage_tip" style="@style/2132149384" />
+            </LinearLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131444345" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_locked_redeem_to" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="center" android:id="@id/2131429738" ="@drawable/2131232770" ="visible" ="true" ="fill_parent" ="48.0dip" ="4.0dip">
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131442694" ="wrap_content" ="fill_parent" android:text="@string/earn_spot_wallet" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <ImageView android:id="@id/2131433799" ="16.0dip" ="16.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237518" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131431704" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_redemption_desc" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/2131432909" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_holding_redeem_first_desc" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <View ="@color/2131099676" ="fill_parent" ="0.5dip" />
+        <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131440002" ="fill_parent" ="wrap_content" ="15.0dip" />
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131428748" ="fill_parent" ="wrap_content" ="16.0dip" ="24.0dip" ="16.0dip" android:text="@string/confirm" style="@style/2132148691" />
+    </LinearLayout>
+</LinearLayout>

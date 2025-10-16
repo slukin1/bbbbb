@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_main_toptraders" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438758" ="fill_parent" ="wrap_content" ="12.0dip" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438755" ="fill_parent" ="wrap_content" ="16.0dip" />
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438757" ="fill_parent" ="wrap_content" ="16.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/2131429285" ="fill_parent" ="fill_parent" 2130968912="@dimen/2131166170" 2130968914="@dimen/2131166153" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <ImageView android:id="@id/2131433704" ="fill_parent" ="fill_parent" ="@null" />
+        <ImageView android:id="@id/2131433702" ="56.0dip" ="56.0dip" ="5.0dip" ="@null" ="16.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131102397" ="end" ="center_vertical" android:id="@id/2131442304" ="0.0dip" ="wrap_content" ="24.0dip" ="1" ="false" ="16.0dip" ="20.0dip" 2130969912="@id/2131442303" 2130969918="@id/2131433702" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+        <TextView ="@color/2131102769" ="end" ="center_vertical" android:id="@id/2131442303" ="wrap_content" ="wrap_content" ="2.0dip" ="24.0dip" ="true" ="false" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131428045" 2130969927="0.0" 2130969928="2131438085" 2130969937="@id/2131442304" 2130969940="@id/2131442304" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428045" ="16.0dip" ="16.0dip" ="@null" ="20.0dip" 2130969911="@id/2131442303" 2130969918="@id/2131433702" 2130969927="0.0" 2130969936="@id/2131442303" 2130969941="@id/2131442303" 2130971077="@drawable/2131237055" 2130971375="@color/2131102769" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

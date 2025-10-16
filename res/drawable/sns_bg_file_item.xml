@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple ="?2130969062"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/sns_bg_file_item">
+        <shape>
+            <stroke ="1.0dip" ="@color/sns_file_item_color" ="4.0dip" ="4.0dip" />
+            <corners ="8.0dip" />
+            <solid ="@color/sns_file_bg_color" />
+        </shape>
+    </item>
+</ripple>

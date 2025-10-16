@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <LinearLayout ="center" ="vertical" android:id="@id/2131431363" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent">
+        <ImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="-150.0dip" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/c2c_trade_orders_no_pending" ="@font/2131296274" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar ="center_vertical" android:id="@id/2131437480" ="false" ="fill_parent" ="wrap_content" ="5.0dip" ="4.0dip" ="5.0dip" 2130968735="@color/2131103064" 2130968908="true" 2130969917="2131438103" 2130969937="2131438103" 2130970759="@string/_search" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131430850" ="none" ="fill_parent" ="0.0dip" ="15.0dip" ="5.0dip" ="15.0dip" ="1.0" ="never" 2130969912="@id/divider" 2130969941="2131438103" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131450179" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="@color/2131099744" 2130969911="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" />
+        <TextView ="@color/2131099778" android:id="@id/2131437481" ="fill_parent" ="wrap_content" android:text="@string/wallet_deposit_select_network_dialog_desc" ="4.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

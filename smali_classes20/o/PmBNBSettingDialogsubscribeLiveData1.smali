@@ -1,0 +1,33 @@
+.class public abstract Lo/PmBNBSettingDialogsubscribeLiveData1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/UmPortfolioMarginBasePlaceOrderReqVOHookerType;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic clone()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/CloneNotSupportedException;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    .line 1
+    throw v0
+.end method

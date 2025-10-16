@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235577" ="fill_parent" ="wrap_content" ="242.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton ="end" android:id="@id/2131428996" ="?2130970780" ="20.0dip" ="20.0dip" ="15.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447542" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149423" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439652" ="fill_parent" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="30.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448639" ="wrap_content" ="wrap_content" android:text="@string/ocbs_very_unsatisfied" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148872" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445797" ="wrap_content" ="wrap_content" android:text="@string/payment_send_very_satisfied" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148872" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

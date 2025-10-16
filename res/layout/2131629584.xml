@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441601" ="fill_parent" ="44.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131434355" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="1" ="false" ="10.0dip" 2130969912="@id/2131448155" 2130969918="@id/2131434821" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131434355" 2130969941="2131438103" 2130969943="2131438085" 2130969946="2131450408" style="@style/2132149463" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131448154" ="@drawable/2131236734" ="gone" ="0.0dip" ="wrap_content" ="1" ="5.0dip" ="5.0dip" 2130969905="true" 2130969911="@id/tv_title" 2130969918="@id/2131434244" 2130969927="0.0" 2130969936="@id/2131434821" 2130969941="@id/tv_title" 2130969946="2131450408" style="@style/2132149394" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131448155" ="@drawable/2131236734" ="gone" ="wrap_content" ="wrap_content" ="1" ="5.0dip" ="5.0dip" 2130969905="true" 2130969911="2131438103" 2130969917="@id/2131434821" 2130969927="0.0" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434821" ="20.0dip" ="20.0dip" 2130969911="@id/tv_title" 2130969918="@id/2131448154" 2130969936="@id/tv_title" 2130969941="@id/tv_title" 2130971077="@drawable/2131237003" 2130971375="@color/2131099739" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434244" ="7.0dip" ="7.0dip" ="gone" ="34.0dip" ="fill_parent" ="centerInside" ="@null" 2130969911="2131438103" 2130969918="@id/2131433983" 2130969941="2131438103" 2130971077="@drawable/2131237542" 2130971375="@color/2131100223" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433983" ="7.0dip" ="7.0dip" ="34.0dip" ="fill_parent" ="centerInside" ="@null" 2130969911="2131438103" 2130969918="@id/2131434684" 2130969941="2131438103" 2130971077="@drawable/2131236989" 2130971375="@color/2131099738" />
+        <com.finance.kit.framework.widget.KitTradeMoreButton ="center" ="end" android:id="@id/2131434684" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="8.0dip" ="13.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233630" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@id/2131432184" ="fill_parent" ="fill_parent" />
+</LinearLayout>

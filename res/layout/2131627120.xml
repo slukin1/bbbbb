@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.tabs.KitTabLayout android:id="@id/tabLayout" ="15.0dip" ="15.0dip" ="fill_parent" ="24.0dip" ="10.0dip" />
+    <FrameLayout ="fill_parent" ="wrap_content" ="12.0dip">
+        <FrameLayout android:id="@id/2131431904" ="@drawable/2131235987" ="gone" ="fill_parent" ="34.0dip" ="15.0dip" ="15.0dip" ="4.0dip" ="15.0dip" ="#14f0b90b">
+            <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131434005" ="4.0dip" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" ="end" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/lite_service_missed_rewards" ="1" ="24.0dip" ="100.0dip" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131443765" ="wrap_content" ="wrap_content" ="1" style="@style/2132149384" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438663" ="fill_parent" ="wrap_content" ="48.0dip" />
+    </FrameLayout>
+</LinearLayout>

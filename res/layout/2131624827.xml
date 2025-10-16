@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436748" ="190.0dip" ="96.0dip" ="65.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970050="false" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442626" ="wrap_content" ="wrap_content" ="17.0dip" ="12.0dip" ="17.0dip" android:text="@string/copy_trading_copy_successful" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436748" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131444981" ="0.0dip" ="wrap_content" ="17.0dip" ="12.0dip" ="17.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442626" 2130969999="@dimen/2131166204" style="@style/2132149355" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131435132" ="0.0dip" ="wrap_content" ="17.0dip" ="12.0dip" ="17.0dip" 2130969837="100" 2130969838="@drawable/2131237940" 2130969843="0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444981" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428803" ="0.0dip" ="40.0dip" ="25.0dip" android:text="@string/copy_trading_see_portfolios" 2130969911="2131438103" 2130969918="@id/2131428804" 2130969937="2131438103" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428804" ="0.0dip" ="40.0dip" ="25.0dip" android:text="@string/copy_trading_view_details" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428803" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

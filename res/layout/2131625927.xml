@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="fill_parent" ="35.0dip" ="15.0dip" ="15.0dip" ="15.0dip" />
+    <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="0.5dip" ="@id/tabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449913" ="fill_parent" ="fill_parent" ="@id/2131435855" />
+</RelativeLayout>

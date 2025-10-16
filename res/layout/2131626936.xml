@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429742" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441606" ="fill_parent" ="44.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433698" ="5.0dip" ="30.0dip" ="30.0dip" ="centerInside" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_top_traders" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434087" ="2.0dip" ="24.0dip" ="24.0dip" ="13.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236783" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivSearch" ="2.0dip" ="24.0dip" ="24.0dip" ="14.0dip" 2130969911="2131438103" 2130969918="@id/2131434087" 2130969941="2131438103" 2130971077="@drawable/2131237994" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="40.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969940="@id/2131441606" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" 2130969940="@id/tabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449439" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

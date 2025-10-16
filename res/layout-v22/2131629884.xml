@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="vertical" android:id="@id/2131439803" ="fill_parent" ="wrap_content" ="55.0dip" 2130969901="@string/appbar_scrolling_view_behavior" 2130969940="@id/2131441601">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="@color/2131099685" ="fill_parent" ="fill_parent">
+            <TextView android:id="@id/2131448130" android:text="@string/ms_withdraw_address" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148553" />
+            <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131449967" ="fill_parent" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448130" />
+            <RelativeLayout android:id="@id/rect_view" ="@drawable/2131236038" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131449967">
+                <RelativeLayout ="center_horizontal" android:id="@id/2131450373" ="fill_parent" ="wrap_content">
+                    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/whiteListLabel" ="wrap_content" ="wrap_content" android:text="@string/whitelist" ="10.0dip" 2130969311="@drawable/2131238144" 2130969312="@color/2131099764" style="@style/2132149346" />
+                    <com.major.android.uikit2.selection.KitSwitch android:id="@id/switchWhitelist" ="wrap_content" ="wrap_content" ="@id/whiteListLabel" ="@id/whiteListLabel" ="true" />
+                </RelativeLayout>
+                <View android:id="@id/2131433602" ="@color/2131099751" ="fill_parent" ="0.5dip" ="20.0dip" ="@id/2131450373" />
+                <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131438114" ="fill_parent" ="wrap_content" ="20.0dip" ="@id/2131433602">
+                    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131450372" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_address_setting_password_free_title" ="10.0dip" 2130969311="@drawable/2131237613" 2130969312="@color/2131099764" style="@style/2132149346" />
+                    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131441022" ="wrap_content" ="wrap_content" ="@id/2131450372" ="@id/2131450372" ="true" />
+                    <LinearLayout ="vertical" android:id="@id/2131436836" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="@id/2131450372" ="34.0dip" 2130969940="@id/2131441022">
+                        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content">
+                            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_address_setting_password_free_dialog_limit" ="true" style="@style/2132149384" />
+                            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437834" ="wrap_content" ="wrap_content" ="ltr" ="true" style="@style/2132149384" />
+                        </RelativeLayout>
+                        <RelativeLayout ="fill_parent" ="wrap_content" ="10.0dip">
+                            <TextView ="@color/2131099778" android:id="@id/2131437836" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_address_setting_password_free_dialog_onestep_desc" ="true" ="10.0dip" ="@id/2131437838" ="true" style="@style/2132149384" />
+                            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end|center" android:id="@id/2131437838" ="wrap_content" ="wrap_content" ="true" ="ltr" ="true" style="@style/2132149384" />
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437837" ="16.0dip" ="16.0dip" ="@color/2131099738" ="@id/2131437838" ="true" ="2.0dip" 2130971077="@drawable/2131237285" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:id="@id/whitelist_divider" ="@color/2131099751" ="0.0dip" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/rect_view" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131436428" ="gone" ="wrap_content" ="wrap_content" 2130969125="rect_view,whitelist_divider" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="75.0dip" ="fill_parent" ="fill_parent" ="8.0dip" ="15.0dip" ="15.0dip" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/whitelist_divider" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="480.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/whitelist_divider" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+                <com.binance.widget.StretchableWidthImageView android:id="@id/2131440123" ="fill_parent" ="480.0dip" 2130971375="@color/2131099744" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432650" ="gone" ="wrap_content" ="wrap_content" 2130969125="iv_no_result, tv_no_result" />
+            <ImageView android:id="@id/iv_no_result" ="gone" ="wrap_content" ="wrap_content" ="60.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/whitelist_divider" 2130969943="2131440524" 2130971077="@drawable/2131238419" />
+            <TextView ="@color/2131102368" android:id="@id/tv_no_result" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/wallet_withdrawal_addresses_no_address_found" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iv_no_result" 2130969942="0.0" style="@style/2132149350" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="bottom" ="vertical" ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969911="2131438103">
+        <View ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/rect_view" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436223" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="visible" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+            <com.major.android.uikit2.selection.KitCheckBox ="16.0sp" ="@color/2131102769" android:id="@id/2131429515" ="wrap_content" ="wrap_content" />
+            <TextView ="@color/2131099764" android:id="@id/2131427762" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/_all" ="@dimen/2131166286" style="@style/2132149350" />
+            <View ="0.0dip" ="0.0dip" ="1.0" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433805" ="6.0dip" ="6.0dip" ="6.0dip" ="6.0dip" ="36.0dip" ="36.0dip" ="@null" ="16.0dip" ="@dimen/2131166269" ="@dimen/2131166269" 2130971077="@drawable/2131237186" 2130971375="@color/2131099764" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131444405" ="6.0dip" ="6.0dip" ="6.0dip" ="6.0dip" ="36.0dip" ="36.0dip" ="16.0dip" ="@dimen/2131166269" ="@dimen/2131166269" 2130971077="@drawable/2131238755" 2130971375="@color/2131099764" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131442025" ="6.0dip" ="6.0dip" ="6.0dip" ="6.0dip" ="36.0dip" ="36.0dip" ="@dimen/2131166269" ="@dimen/2131166269" 2130971077="@drawable/2131238695" 2130971375="@color/2131099764" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView ="end" android:id="@id/2131427682" ="gone" ="wrap_content" ="wrap_content" ="14.0dip" ="centerInside" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237811" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,122 @@
+.class public final Lcom/sumsub/sns/internal/features/domain/i$b;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sumsub/sns/internal/features/domain/i;-><init>(Landroid/content/Context;Lcom/sumsub/sns/internal/features/data/repository/analytics/a;Lcom/sumsub/sns/internal/features/data/repository/common/a;Lcom/sumsub/sns/internal/features/data/repository/log/a;Lcom/sumsub/sns/internal/core/domain/b;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0002\u0010\u000b\n\u0002\u0008\u0002\u0010\u0001\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "",
+        "a",
+        "()Ljava/lang/Boolean;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/sumsub/sns/internal/features/domain/i;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sumsub/sns/internal/features/domain/i;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lcom/sumsub/sns/internal/features/domain/i$b;->a:Lcom/sumsub/sns/internal/features/domain/i;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/Boolean;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/sumsub/sns/internal/features/domain/i$b;->a:Lcom/sumsub/sns/internal/features/domain/i;
+
+    invoke-static {v0}, Lcom/sumsub/sns/internal/features/domain/i;->a(Lcom/sumsub/sns/internal/features/domain/i;)Lcom/sumsub/sns/internal/features/data/repository/common/a;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/sumsub/sns/internal/features/data/repository/common/a;->b()Lcom/sumsub/sentry/android/i;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/sumsub/sentry/android/i;->j()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lcom/sumsub/sns/internal/features/domain/i$b;->a:Lcom/sumsub/sns/internal/features/domain/i;
+
+    invoke-static {v0}, Lcom/sumsub/sns/internal/features/domain/i;->a(Lcom/sumsub/sns/internal/features/domain/i;)Lcom/sumsub/sns/internal/features/data/repository/common/a;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/sumsub/sns/internal/features/data/repository/common/a;->a()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/sumsub/sns/internal/features/domain/i$b;->a()Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method

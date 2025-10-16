@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="164.0dip" ="@color/2131099803" 2130970893="@dimen/2131166170" 2130970894="@id/tv_title" 2130970897="keleton_home_widget_common_4x4_light.svg" 2130970899="keleton_home_widget_common_4x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_title" ="0.0dip" ="wrap_content" android:text="@string/uc_for_you_card_widget_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149465" />
+    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131437469" ="0.0dip" ="0.0dip" ="10.0dip" 2130969912="@id/indicator_container" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449258" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+    <LinearLayout ="horizontal" android:id="@id/indicator_container" ="false" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437469" />
+</com.components.skeleton.SkeletonViewGroup>

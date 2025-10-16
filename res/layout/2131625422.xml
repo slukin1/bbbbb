@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content" ="38.0dip" ="38.0dip" style="@style/2132148642" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="@drawable/2131233513" ="fill_parent" ="100.0dip">
+        <ImageView ="center" android:id="@id/iv_logo" ="150.0dip" ="30.0dip" 2130971077="@drawable/2131233591" />
+    </FrameLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131446058" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/future_lvt_content_tips" ="4.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099789" ="center" android:id="@id/2131446034" ="@drawable/2131232839" ="fill_parent" ="40.0dip" ="24.0dip" ="24.0dip" android:text="@string/spot_trade_view_now" style="@style/2132149371" />
+    <TextView ="@color/2131099787" ="center" android:id="@id/tv_cancel" ="fill_parent" ="40.0dip" ="24.0dip" ="8.0dip" ="24.0dip" ="24.0dip" android:text="@string/c2c_dialog_btn_later" style="@style/2132149371" />
+</LinearLayout>

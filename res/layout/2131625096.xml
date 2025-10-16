@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" ="24.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" 2130971077="@drawable/2131238406" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_dialog_disclaimer_accept_title" ="@font/2131296275" />
+        <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_dialog_disclaimer_accept_taker_content" ="@font/2131296274" />
+        <LinearLayout ="horizontal" android:id="@id/2131436796" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="false" 2130969758="true" />
+            <TextView ="14.0sp" ="@color/2131100635" android:id="@id/2131429533" ="wrap_content" ="wrap_content" android:text="@string/c2c_dialog_disclaimer_accept_agree" ="@font/2131296274" ="10.0dip" />
+        </LinearLayout>
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="16.0dip">
+            <com.major.android.uikit2.button.KitButton ="false" android:id="@id/2131429120" ="fill_parent" ="wrap_content" android:text="@string/c2c_dialog_maker_confirm_verification_confirm" style="@style/2132148692" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/cancel" style="@style/2132148704" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

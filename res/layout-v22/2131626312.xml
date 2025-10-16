@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236040" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166200" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iconIv" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="@id/titleTv" 2130971077="@drawable/2131237908" />
+    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/titleTv" ="wrap_content" ="wrap_content" ="@font/2131296273" ="10.0dip" 2130969936="@id/iconIv" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131440819" ="0.0dip" ="wrap_content" ="@font/2131296274" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131428049" 2130969937="@id/titleTv" 2130969940="@id/titleTv" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428049" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+</androidx.constraintlayout.widget.ConstraintLayout>

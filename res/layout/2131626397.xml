@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439436" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435222" ="wrap_content" ="wrap_content" android:text="@string/c2c_cash_store_name" ="4.0dip" ="@font/2131296273" 2130969911="@id/2131440691" 2130969937="2131438103" 2130969941="@id/2131440691" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131440691" ="wrap_content" ="wrap_content" ="1.0dip" ="@font/2131296273" 2130969917="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435221" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_ad_store_address" ="@font/2131296266" 2130969917="2131438103" 2130969940="@id/2131440691" />
+    <View android:id="@id/2131435855" ="@color/2131099751" ="1.0dip" ="12.0dip" ="8.0dip" 2130969911="@id/2131435221" 2130969918="@id/2131435221" 2130969941="@id/2131435221" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435212" ="wrap_content" ="wrap_content" android:text="@string/c2c_cash_dialog_open_hours" ="@font/2131296266" ="8.0dip" 2130969911="@id/2131435221" 2130969918="@id/2131435855" 2130969941="@id/2131435221" />
+    <View ="@drawable/2131233287" ="0.0dip" ="2.0dip" ="1.0dip" 2130969917="@id/2131435212" 2130969937="@id/2131435212" 2130969940="@id/2131435212" />
+    <View ="@drawable/2131233287" ="0.0dip" ="2.0dip" ="1.0dip" 2130969917="@id/2131435221" 2130969937="@id/2131435221" 2130969940="@id/2131435221" />
+</androidx.constraintlayout.widget.ConstraintLayout>

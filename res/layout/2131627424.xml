@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="@dimen/2131166011" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441046" ="@color/2131099685" ="7.5dip" ="7.5dip" ="fill_parent" ="40.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.content.view.RecycleViewListenNestedScrollableHost android:id="@id/2131449442" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441046">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449436" ="fill_parent" ="fill_parent" />
+    </com.binance.content.view.RecycleViewListenNestedScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

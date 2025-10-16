@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131440466" ="@drawable/2131235989" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="85.0dip" ="@color/2131099712" ="@dimen/2131166156" ="@dimen/2131166170" 2130969918="@id/2131427380" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131440462" ="wrap_content" ="32.0dip" android:text="@string/dashboard_margin_debt_growth" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131440463" ="wrap_content" ="wrap_content" ="5.0dip" android:text="--" ="ltr" style="@style/2132149446" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131427380" ="@drawable/2131235989" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="85.0dip" ="8.0dip" ="@color/2131099712" ="@dimen/2131166156" ="@dimen/2131166170" 2130969917="2131438103" 2130969936="@id/2131440466" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131440464" ="wrap_content" ="32.0dip" android:text="@string/dashboard_margin_l_s_positions" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131440465" ="wrap_content" ="wrap_content" ="5.0dip" android:text="--" ="ltr" ="viewStart" style="@style/2132149446" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131432374" ="@drawable/2131235989" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="85.0dip" ="8.0dip" ="@color/2131099712" ="@dimen/2131166156" ="@dimen/2131166170" 2130969918="@id/2131432379" 2130969937="2131438103" 2130969940="@id/2131440466">
+        <TextView ="@color/2131099764" android:id="@id/2131432372" ="wrap_content" ="32.0dip" android:text="@string/dashboard_open_interest" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131432373" ="wrap_content" ="wrap_content" ="5.0dip" android:text="--" ="ltr" style="@style/2132149446" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131432379" ="@drawable/2131235989" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="85.0dip" ="8.0dip" ="8.0dip" ="@color/2131099712" ="@dimen/2131166156" ="@dimen/2131166170" 2130969917="2131438103" 2130969936="@id/2131432374" 2130969940="@id/2131427380">
+        <TextView ="@color/2131099764" android:id="@id/2131432376" ="wrap_content" ="32.0dip" android:text="@string/dashboard_top_trader_ls_ratio" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131432377" ="wrap_content" ="wrap_content" ="5.0dip" android:text="--" ="ltr" ="viewStart" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436511" ="400.0dip" ="fill_parent" 2130969911="2131438103" style="@style/2132148644" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431948" ="fill_parent" ="50.0dip" 2130969912="@id/2131430209" 2130969940="@id/2131431947">
+        <com.binance.base.component.PlaceholderView ="center_vertical" android:id="@id/2131430211" ="fill_parent" ="wrap_content" 2130969912="@id/2131430209" 2130969940="@id/2131430210" />
+    </FrameLayout>
+    <FrameLayout ="fill_parent" ="0.0dip" ="1.0" 2130969912="@id/2131431946" 2130969940="@id/2131431948">
+        <com.binance.base.component.PlaceholderView android:id="@id/2131430209" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131431946" ="fill_parent" ="70.0dip" 2130969911="2131438103" 2130969940="@id/2131430209">
+        <com.binance.base.component.PlaceholderView android:id="@id/2131430208" ="fill_parent" ="70.0dip" 2130969911="2131438103" 2130969940="@id/2131430209" />
+    </FrameLayout>
+</LinearLayout>

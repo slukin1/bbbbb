@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="@dimen/2131165975" ="@color/2131100256" ="end" ="center" ="center_horizontal" android:id="@id/toolbar_title" ="wrap_content" ="fill_parent" android:text="@string/c2c_title_follows" ="true" ="@font/2131296266" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441079" ="fill_parent" ="44.0dip" 2130969940="@id/2131441601" />
+    <View android:id="@id/2131449416" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969940="@id/2131441079" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131432126" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131449416" />
+    <com.binance.c2c.main.view.QuickAccessEntryView android:id="@id/2131438782" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428235" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="50.0dip" ="@string/top" ="15.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236869" 2130971375="@color/2131099675" />
+</androidx.constraintlayout.widget.ConstraintLayout>

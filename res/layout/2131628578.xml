@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131440507" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:cube_ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439099" ="15.0dip" ="10.0dip" ="gone" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" android:id="@id/2131448156" ="wrap_content" ="wrap_content" android:text="@string/spot_leveraged_token_redemption_token" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131439098" ="wrap_content" ="wrap_content" 2130969921="0.35" />
+        <TextView ="@color/2131099778" ="end" ="end" android:id="@id/2131448159" ="0.0dip" ="wrap_content" android:text="@string/spot_leveraged_token_redemption_amount_nav" ="true" ="5.0dip" ="0.0dip" 2130969918="@id/2131449598" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131448175" ="wrap_content" ="wrap_content" android:text="@string/spot_leveraged_token_redemption_net_proceeds_fee" ="5.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131449598" ="wrap_content" ="wrap_content" 2130969921="0.68" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438716" ="fill_parent" ="fill_parent" ="@id/2131439099" 2130970616="300" 2130970617="1000" 2130970619="true" 2130970620="false" 2130970621="1.2" 2130970622="1.7">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</RelativeLayout>

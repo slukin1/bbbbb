@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="40.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="bold" ="@color/2131099764" android:id="@id/2131441558" ="wrap_content" ="wrap_content" ="15.0dip" ="50.0dip" ="15.0dip" android:text="@string/wallet_spot_might_interest_you" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149424" />
+    <ImageView android:id="@id/2131430113" ="?2130968587" ="10.0dip" ="40.0dip" ="40.0dip" 2130968941="true" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="wrap_content" ="5.0dip" ="never" 2130969940="@id/2131441558" />
+</androidx.constraintlayout.widget.ConstraintLayout>

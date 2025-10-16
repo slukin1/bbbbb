@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="center" ="vertical" android:id="@id/2131435679" ="@drawable/2131232916" ="112.0dip" ="102.0dip">
+        <ProgressBar ="34.0dip" ="34.0dip" ="centerInside" ="@drawable/2131232898" />
+        <TextView ="14.0sp" ="#ff1e2026" android:id="@id/2131447523" ="wrap_content" ="wrap_content" ="8.0dip" />
+    </LinearLayout>
+    <FrameLayout ="center" android:id="@id/2131450339" ="gone" ="fill_parent" ="355.0dip" ="16.0dip" ="16.0dip" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131435980" ="fill_parent" ="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131435977" ="fill_parent" ="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView ="bottom|center" android:id="@id/2131435978" ="wrap_content" ="3.0dip" ="15.0dip" ="15.0dip" />
+</FrameLayout>

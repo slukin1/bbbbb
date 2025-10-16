@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="20.0dip" ="80.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_title" ="0.0dip" ="wrap_content" android:text="@string/futures_free_position_oop_title" ="30.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131446058" ="0.0dip" ="wrap_content" android:text="@string/futures_free_position_oop_content" ="30.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131445925" ="wrap_content" ="28.0dip" ="20.0dip" ="150.0dip" android:text="@string/futures_free_position_claim" ="2" ="false" ="0.0" ="16.0dip" ="16.0dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446058" 2130969947="@dimen/2131166171" style="@style/2132149095" />
+</androidx.constraintlayout.widget.ConstraintLayout>

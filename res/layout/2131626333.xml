@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436274" ="fill_parent" ="24.0dip">
+        <com.binance.chat.view.ChatLoadingView ="start" android:id="@id/2131436706" ="43.0dip" ="20.0dip" />
+        <View ="0.0dip" ="1.0dip" ="1.0" />
+        <com.binance.chat.view.AudioPlayButton ="end|center" android:id="@id/2131433690" ="true" ="visible" ="true" ="24.0dip" ="24.0dip" ="play audio" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436287" ="fill_parent" ="wrap_content" />
+</LinearLayout>

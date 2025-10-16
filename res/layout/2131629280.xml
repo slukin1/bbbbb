@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/earn_what_is_wbeth" style="@style/2132149423" />
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_wrapped_beacon_eth_description" style="@style/2132149355" />
+    <TextView ="@color/2131099787" android:id="@id/2131443518" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_learn_about_wbeth" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131443639" ="wrap_content" ="wrap_content" ="40.0dip" style="@style/2132149423" />
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439616" ="fill_parent" ="wrap_content" ="24.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

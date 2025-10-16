@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131441659" ="0.0dip" ="0.0dip" ="fitXY" 2130969916="345:200" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/title" ="0.0dip" ="wrap_content" ="28.0dip" android:text="@string/ocbs_string_fiat_add_shortcut_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441659" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131441455" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_fiat_add_shortcut_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428621" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/ocbs_string_fiat_add_now" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441455" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428627" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/ocbs_later" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428621" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236024" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.BottomDashLineTextView ="@color/2131099764" android:id="@id/tvFeeTitle" ="wrap_content" ="wrap_content" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+    <TextView ="@color/2131099764" android:id="@id/tvFeeValue" ="wrap_content" ="wrap_content" ="false" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+</androidx.constraintlayout.widget.ConstraintLayout>

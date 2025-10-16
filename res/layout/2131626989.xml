@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131441650" ="#ff000000" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <TextView ="@color/2131099776" android:id="@id/2131428213" ="wrap_content" ="wrap_content" android:text="@string/cancel" ="1.0" style="@style/2132149463" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428226" ="wrap_content" ="wrap_content" ="@drawable/2131236895" ="20.0dip" 2130971375="@color/2131099776" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428222" ="wrap_content" ="wrap_content" ="@drawable/2131236895" ="-1.0" 2130971375="@color/2131099776" />
+    </LinearLayout>
+    <com.binance.share.dialog.ImgEditView android:id="@id/2131433214" ="30.0dip" ="wrap_content" ="wrap_content" 2130969904="true" 2130969905="true" 2130969912="@id/2131428523" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441650" />
+    <LinearLayout ="vertical" android:id="@id/2131428523" ="#ff000000" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <HorizontalScrollView ="fill_parent" ="wrap_content" ="true">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438261" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428216" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238174" 2130971375="@color/2131101266" />
+                <View android:id="@id/divider" ="@color/2131099751" ="1.0dip" ="16.0dip" 2130969911="2131438103" 2130969936="@id/2131428216" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+        <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="24.0dip" ="16.0dip" ="24.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428219" ="30.0dip" ="30.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237575" 2130971375="@color/2131101266" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428212" ="30.0dip" ="30.0dip" ="30.0dip" 2130969911="2131438103" 2130969936="@id/2131428219" 2130969941="2131438103" 2130971077="@drawable/2131234714" 2130971375="@color/2131101266" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131428215" ="wrap_content" ="wrap_content" ="80.0dip" android:text="@string/done" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148701" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

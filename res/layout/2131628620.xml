@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131440532" ="20.0dip" ="20.0dip" ="20.0dip" ="@id/2131440535" ="true" ="@android:string/untitled" ="20.0dip" ="@id/2131440535" />
+    <ImageView android:id="@id/2131440534" ="20.0dip" ="20.0dip" ="20.0dip" ="@id/2131440535" ="true" ="@android:string/untitled" ="20.0dip" ="@id/2131440535" />
+    <TextView ="15.0sp" ="#ff666666" android:id="@id/2131440535" ="wrap_content" ="wrap_content" android:text="@string/srl_footer_pulling" ="1" ="true" />
+</merge>

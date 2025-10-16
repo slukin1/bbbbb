@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.ConstraintLayoutListenSizeChange android:id="@id/um_trade_place_order_page" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/xTbFutureExchange" ="0.0dip" ="25.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131449189" ="0.0dip" ="26.0dip" 2130969911="@id/tvAvailableAsset" 2130969917="@id/tvAvailableAsset" 2130969937="@id/avbl" 2130969941="@id/tvAvailableAsset" />
+    <TextView ="@color/2131099778" android:id="@id/avbl" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/avbl" 2130969937="@id/xTbFutureExchange" 2130969940="@id/xTbFutureExchange" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/tvAvailableAsset" ="0.0dip" ="wrap_content" ="1" ="5.0dip" ="10.0dip" 2130969306="@drawable/2131238246" 2130969312="@color/2131099765" 2130969917="@id/xTbFutureExchange" 2130969936="@id/avbl" 2130969941="@id/avbl" style="@style/2132149384" />
+    <FrameLayout android:id="@id/rlOrderType" ="@drawable/2131233561" ="0.0dip" ="25.0dip" ="8.0dip" 2130969917="@id/xTbFutureExchange" 2130969937="2131438103" 2130969940="@id/avbl">
+        <TextView ="@color/2131099764" ="center" android:id="@id/orderType" ="wrap_content" ="wrap_content" ="@dimen/2131166401" android:text="@string/futures_grid_tab_twap" ="1" style="@style/2132149450" />
+        <ImageView ="start|center" android:id="@id/ivAboutOrderType" ="12.0dip" ="12.0dip" ="centerInside" ="@null" ="8.0dip" 2130971077="@drawable/2131237076" 2130971375="@color/2131099738" />
+        <ImageView ="end|center" android:id="@id/orderTypeTriangle" ="14.0dip" ="14.0dip" ="centerInside" ="@null" ="8.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <View android:id="@id/2131449260" ="0.0dip" ="0.0dip" 2130969911="@id/seekbarAmount" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/longclickEtStopLimit" />
+    <com.finance.kit.framework.widget.edittext.KitEditText android:id="@id/2131431483" ="@drawable/2131233756" ="0.0dip" ="40.0dip" ="8.0dip" 2130969780="@string/twap_coin_total_size_hint" 2130969917="@id/rlOrderType" 2130969937="@id/rlOrderType" 2130969940="@id/rlOrderType" />
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131445088" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" 2130968684="@null" 2130969015="true" 2130969912="@id/2131431483" 2130969917="@id/rlOrderType" 2130969937="@id/rlOrderType" 2130970002="@null" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/seekbarAmount" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969686="100.0" 2130969687="0.0" 2130969703="5" 2130969917="@id/rlOrderType" 2130969937="@id/rlOrderType" 2130969940="@id/2131431483" />
+    <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131442876" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" 2130968684="@null" 2130969015="true" 2130969912="@id/2131431129" 2130969917="2131438103" 2130969937="2131438103" 2130970002="@null" />
+    <com.finance.um.feature.twap.widget.DurationTimePickerLayout android:id="@id/2131431129" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/seekbarAmount" />
+    <androidx.constraintlayout.widget.Group android:id="@id/layout_reduce_only" ="wrap_content" ="wrap_content" 2130969125="confirmReduceOnly,tvReduceOnly" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier_reduce_only" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="confirmReduceOnly,tvReduceOnly" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/confirmReduceOnly" ="wrap_content" ="wrap_content" ="8.0dip" 2130969835="2131429513" 2130969937="@id/rlOrderType" 2130969940="@id/2131431129" />
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099778" android:id="@id/tvReduceOnly" ="wrap_content" ="wrap_content" android:text="@string/reduce_only" ="4.0dip" 2130969905="true" 2130969911="@id/confirmReduceOnly" 2130969917="@id/rlOrderType" 2130969927="0.0" 2130969936="@id/confirmReduceOnly" 2130969941="@id/confirmReduceOnly" 2130971382="@string/future_tip_exchange_reduce_only" style="@style/2132149384" />
+    <FrameLayout android:id="@id/layout_position_mode_container" ="0.0dip" ="wrap_content" 2130969917="@id/rlOrderType" 2130969937="@id/rlOrderType" 2130969940="@id/barrier_reduce_only" />
+</com.binance.widget.ConstraintLayoutListenSizeChange>

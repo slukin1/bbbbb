@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/icon_bg" ="@drawable/2131236009" ="36.0dip" ="36.0dip" ="3.0dip" ="3.0dip" ="@color/2131099804" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434536" ="20.0dip" ="20.0dip" ="8.0dip" 2130969911="@id/icon_bg" 2130969917="@id/icon_bg" 2130969937="@id/icon_bg" 2130969941="@id/icon_bg" 2130971077="@drawable/2131234181" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="end" android:id="@id/2131447067" ="wrap_content" ="wrap_content" ="1" ="8.0dip" 2130969905="true" 2130969912="@id/tv_desc" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/icon_bg" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="end" android:id="@id/tv_desc" ="gone" ="wrap_content" ="wrap_content" ="2.0dip" ="1" ="0.4" ="8.0dip" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/icon_bg" 2130969940="@id/2131447067" style="@style/2132149361" />
+</merge>

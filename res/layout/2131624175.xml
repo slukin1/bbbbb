@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624283" />
+    <androidx.core.widget.NestedScrollView ="vertical" ="fill_parent" ="fill_parent" ="45.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <RelativeLayout ="center_vertical" ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_30d_transactions" ="true" ="@font/2131296274" ="15.0dip" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437039" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_transactions_times" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_30d_completion_rate" ="true" ="@font/2131296274" ="15.0dip" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437048" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <View ="@color/2131100461" ="fill_parent" ="1.0dip" ="4.0dip" ="4.0dip" ="15.0dip" ="15.0dip" />
+            <RelativeLayout ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_avg_release_time" ="true" ="@font/2131296274" ="15.0dip" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437049" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_avg_release_time_mins" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_avg_pay_time" ="true" ="@font/2131296274" ="15.0dip" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437047" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_avg_release_time_mins" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View ="@color/2131100461" ="fill_parent" ="1.0dip" ="4.0dip" ="4.0dip" ="15.0dip" ="15.0dip" />
+            <RelativeLayout android:id="@id/2131439455" ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131443086" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_reviews_details_pos_rate" ="true" ="@font/2131296274" ="15.0dip" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437054" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131439454" ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_reviews_details_pos" ="true" ="@font/2131296274" ="15.0dip" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437053" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131439447" ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_reviews_details_neg" ="true" ="@font/2131296274" ="15.0dip" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437052" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <View android:id="@id/2131449586" ="@color/2131100461" ="fill_parent" ="1.0dip" ="4.0dip" ="4.0dip" ="15.0dip" ="15.0dip" />
+            <RelativeLayout ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_registered" ="true" ="15.0dip" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437037" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_days_ago" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_first_trade" ="true" ="15.0dip" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437044" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_days_ago" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_trading_counterparties_info" ="true" ="15.0dip" />
+                <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131448372" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <RelativeLayout ="fill_parent" ="60.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_userprofile_all_trades" ="15.0dip" />
+                <LinearLayout ="horizontal" android:id="@id/2131436493" ="wrap_content" ="wrap_content" ="8.0dip" ="15.0dip" ="true">
+                    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131437038" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_transactions_times" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131437040" ="wrap_content" ="wrap_content" ="@id/2131436493" ="6.0dip" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+            <View android:id="@id/2131449724" ="@color/2131100461" ="gone" ="fill_parent" ="1.0dip" ="4.0dip" ="4.0dip" ="15.0dip" ="15.0dip" />
+            <RelativeLayout android:id="@id/2131439463" ="gone" ="fill_parent" ="38.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_30d_volume" ="true" ="@font/2131296274" ="15.0dip" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437051" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="BTC" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131439437" ="gone" ="fill_parent" ="60.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_mob_pro_profile_total_volume" ="15.0dip" />
+                <LinearLayout ="horizontal" android:id="@id/2131436494" ="wrap_content" ="wrap_content" ="8.0dip" ="15.0dip" ="true">
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437042" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="BTC" ="@font/2131296274" ="4.0dip" />
+                </LinearLayout>
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131437043" ="wrap_content" ="wrap_content" ="@id/2131436494" ="6.0dip" ="@font/2131296274" ="15.0dip" ="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132149865" parent="@style/2132148493">
+        <item name="2130971229">2131429431</item>
+        <item name="2130971242">2131431865</item>
+    </style>
+    <style name="2132150106" parent="@style/2132149845">
+        <item name="android:textAppearance">?2130971282</item>
+        <item name="android:textColor">?2130969071</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/2131492926</item>
+    </style>
+    <style name="2132150109" parent="@style/2132148517">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+</resources>

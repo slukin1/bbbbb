@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="start" android:id="@id/tv_price_title" ="wrap_content" ="wrap_content" android:text="@string/string_price" ="2" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/tv_amount_title" ="wrap_content" ="wrap_content" android:text="@string/ms_withdraw_amount" ="2" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428409" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130968760="@dimen/2131166286" 2130969125="tv_price_title,tv_amount_title" />
+    <com.finance.framework.widget.orderbook.OrderBookView android:id="@id/orderBookView_ask" ="fill_parent" ="wrap_content" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969357="false" 2130969638="@color/2131099765" 2130969937="2131438103" 2130969940="@id/2131428409" 2130970437="@dimen/2131166184" 2130970847="false" />
+    <com.finance.framework.widget.orderbook.OrderBookView android:id="@id/orderBookView_bid" ="fill_parent" ="wrap_content" ="8.0dip" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969357="false" 2130969638="@color/2131099765" 2130969912="@id/2131442779" 2130969937="2131438103" 2130969940="@id/orderBookView_ask" 2130970437="@dimen/2131166184" 2130970847="false" />
+</merge>

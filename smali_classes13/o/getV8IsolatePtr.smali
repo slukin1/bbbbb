@@ -1,0 +1,38 @@
+.class public final synthetic Lo/getV8IsolatePtr;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic e:Lcom/finance/futures/common/feature/placeorder/ui/utils/FuturesKeyboardTopBarManager;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/finance/futures/common/feature/placeorder/ui/utils/FuturesKeyboardTopBarManager;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/getV8IsolatePtr;->e:Lcom/finance/futures/common/feature/placeorder/ui/utils/FuturesKeyboardTopBarManager;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/getV8IsolatePtr;->e:Lcom/finance/futures/common/feature/placeorder/ui/utils/FuturesKeyboardTopBarManager;
+
+    invoke-static {v0}, Lcom/finance/futures/common/feature/placeorder/ui/utils/FuturesKeyboardTopBarManager;->a(Lcom/finance/futures/common/feature/placeorder/ui/utils/FuturesKeyboardTopBarManager;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

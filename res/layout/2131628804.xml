@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.chart.FinanceLineChart android:id="@id/chart_view" ="fill_parent" ="fill_parent" />
+    <View ="bottom" android:id="@id/2131428588" ="@drawable/2131236481" ="fill_parent" ="10.0dip" />
+</merge>

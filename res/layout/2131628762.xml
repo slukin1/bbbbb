@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445458" ="wrap_content" ="wrap_content" android:text="@string/strategy_running_withdraw_confirm_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445457" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445453" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131445458" style="@style/2132149361" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131445453" />
+</androidx.constraintlayout.widget.ConstraintLayout>

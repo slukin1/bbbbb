@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427558" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="44.0dip" 2130969918="@id/ivSearch" 2130969937="2131438103" 2130969940="@id/2131441601" 2130971251="@color/2131099764" 2130971254="@color/2131099778" />
+    <ImageView android:id="@id/ivSearch" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/tabLayout" 2130969917="2131438103" 2130969941="@id/tabLayout" 2130971077="@drawable/2131237994" 2130971375="@color/2131099764" />
+    <LinearLayout ="center" ="center_vertical" ="horizontal" android:id="@id/searchBar" ="@drawable/2131238491" ="gone" ="wrap_content" ="24.0dip" ="15.0dip" 2130969911="@id/ivSearch" 2130969917="2131438103" 2130969941="@id/ivSearch">
+        <ImageView android:id="@id/2131434139" ="16.0dip" ="16.0dip" ="10.0dip" ="5.0dip" 2130971077="@drawable/2131237994" />
+        <TextView ="@color/2131099764" ="end" ="start" android:id="@id/2131439823" ="wrap_content" ="wrap_content" ="70.0dip" ="50.0dip" ="1" style="@style/2132149384" />
+        <ImageView android:id="@id/2131434427" ="wrap_content" ="fill_parent" ="10.0dip" 2130971077="@drawable/2131238455" />
+    </LinearLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tabLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

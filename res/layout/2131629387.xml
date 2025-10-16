@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232712" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" android:text="@string/earn_launchpool_unclaimed_reward" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099787" android:id="@id/2131442477" ="wrap_content" ="wrap_content" android:text="@string/earn_liquid_swap_claim_all" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="@id/tvTitle" style="@style/2132149450" />
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439611" ="fill_parent" ="wrap_content" ="16.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969940="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

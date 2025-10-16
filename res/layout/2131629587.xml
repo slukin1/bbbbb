@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="fill_parent" ="wrap_content" ="centerCrop" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/title" ="0.0dip" ="wrap_content" android:text="@string/voptions_bigdata_trending_options" ="15.0dip" ="5.0dip" 2130969918="@id/2131447615" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131447615" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/title" 2130969917="2131438103" 2130969936="@id/title" 2130969941="@id/title" style="@style/2132149384" />
+    <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441082" ="fill_parent" ="24.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/title" />
+    <TextView ="@color/2131099778" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" ="17.0dip" android:text="@string/voptions_bigdata_trending_options_list_symbol" ="15.0dip" 2130969905="true" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/2131441082" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end|center" android:id="@id/2131448432" ="wrap_content" ="wrap_content" android:text="@string/voptions_bigdata_trending_options_list_type_and_unit_placeholder" ="4.0dip" ="10.0dip" 2130969905="true" 2130969911="@id/tv_symbol" 2130969918="@id/2131434880" 2130969941="@id/tv_symbol" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434880" ="4.0dip" ="24.0dip" ="24.0dip" ="90.0" ="11.0dip" 2130969911="@id/2131448432" 2130969917="2131438103" 2130969941="@id/2131448432" 2130971077="@drawable/2131238266" 2130971375="@color/2131099764" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439721" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969940="@id/tv_symbol" 2130969942="0.0" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/tv_empty" ="fill_parent" ="wrap_content" ="54.0dip" ="80.0dip" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_data" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_symbol" />
+</androidx.constraintlayout.widget.ConstraintLayout>

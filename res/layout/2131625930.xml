@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429425" ="wrap_content" ="wrap_content" 2130969835="2131429513" 2130969911="@id/2131448011" 2130969937="2131438103" 2130969941="@id/2131448011" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448011" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_grid_take_profit" ="4.0dip" 2130969912="@id/2131430213" 2130969936="@id/2131429425" 2130969957="@dimen/2131166188" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444902" ="wrap_content" ="wrap_content" android:text="@string/future_trade_mark" ="2.0dip" ="2.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969911="@id/2131448011" 2130969917="2131438103" 2130969941="@id/2131448011" style="@style/2132149384" />
+    <com.finance.futures.common.feature.tpsl.ui.view.FuturesAdvanceTPSLView android:id="@id/2131430213" ="0.0dip" ="wrap_content" 2130969912="@id/2131449180" 2130969917="2131438103" 2130969937="2131438103" />
+    <View android:id="@id/2131449180" ="wrap_content" ="24.0dip" 2130969912="@id/2131429423" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429423" ="wrap_content" ="wrap_content" 2130969835="2131429513" 2130969911="@id/2131447917" 2130969937="2131438103" 2130969941="@id/2131447917" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447917" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_grid_stop_loss" ="4.0dip" 2130969912="@id/2131430212" 2130969936="@id/2131429423" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444794" ="wrap_content" ="wrap_content" android:text="@string/future_trade_mark" ="2.0dip" ="2.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969911="@id/2131447917" 2130969917="2131438103" 2130969941="@id/2131447917" style="@style/2132149384" />
+    <com.finance.futures.common.feature.tpsl.ui.view.FuturesAdvanceTPSLView android:id="@id/2131430212" ="0.0dip" ="wrap_content" ="24.0dip" 2130969912="@id/2131449179" 2130969917="2131438103" 2130969937="2131438103" />
+    <View android:id="@id/2131449179" ="gone" ="wrap_content" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

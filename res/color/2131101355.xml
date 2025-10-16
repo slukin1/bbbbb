@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" ="true" ="?2130969080" ="@dimen/2131166867" />
+    <item ="true" ="true" ="?2130969080" ="@dimen/2131166865" />
+    <item ="true" ="?2130969080" ="@dimen/2131166866" ="true" />
+    <item ="true" ="?2130969080" ="@dimen/2131166867" />
+    <item ="true" ="?2130969080" ="@dimen/2131166865" />
+    <item ="?2130969080" ="@dimen/2131166866" ="true" />
+    <item ="@android:color/transparent" />
+</selector>

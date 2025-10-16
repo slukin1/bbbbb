@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235595" ="22.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/icon" ="fill_parent" ="wrap_content" ="24.0dip" ="centerCrop" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="#ff202630" ="center" android:id="@id/title" ="gone" ="0.0dip" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/payment_promotion_send_and_get_reward" ="@font/2131296275" ="@dimen/2131166209" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/icon" style="@style/2132149425" />
+    <TextView ="#ff202630" ="center" ="center" android:id="@id/2131440150" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" ="8.0dip" ="24.0dip" ="@dimen/2131166209" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428655" ="0.0dip" ="40.0dip" ="24.0dip" ="16.0dip" ="24.0dip" ="@dimen/2131166209" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440150" />
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131440816" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" ="16.0dip" ="24.0dip" ="@dimen/2131166209" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428655" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131436732" ="wrap_content" ="14.0dip" ="24.0dip" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440816" 2130971077="@drawable/2131235780" />
+    <TextView ="#ff848e9c" ="center" ="center" android:id="@id/2131436733" ="wrap_content" ="wrap_content" ="5.0dip" ="24.0dip" android:text="@string/payment_promotion_easy_instant" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436732" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430102" ="20.0dip" ="20.0dip" ="10.0dip" ="10.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

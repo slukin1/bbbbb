@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427548" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131628818" />
+    <FrameLayout android:id="@id/2131432242" ="fill_parent" ="0.0dip" ="1.0" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428858" ="0.0dip" ="wrap_content" android:text="@string/earn_previous" ="1.0" ="8.0dip" style="@style/2132148696" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428831" ="0.0dip" ="wrap_content" android:text="@string/_next" ="1.0" 2130969756="true" style="@style/2132148691" />
+    </LinearLayout>
+</LinearLayout>

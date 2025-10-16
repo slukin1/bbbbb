@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple ="?2130969089"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners ="@dimen/sns_id_banner_corner_radius" />
+            <stroke ="1.0dip" ="?2130969089" />
+        </shape>
+    </item>
+</ripple>

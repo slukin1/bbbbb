@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131430273" ="?2130970780" ="@dimen/2131167206" ="@dimen/2131167274" ="@dimen/2131167206" ="@dimen/2131167274" ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167274" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/iconContainer" ="wrap_content" ="wrap_content" ="true">
+        <ImageView ="@drawable/onfido_circle_24" ="48.0dip" ="48.0dip" ="?2130970385" />
+        <ImageView ="center" android:id="@id/icon" ="wrap_content" ="wrap_content" />
+    </FrameLayout>
+    <LinearLayout ="@id/2131428044" ="@id/iconContainer" style="@style/2132148901">
+        <TextView android:id="@id/2131431065" ="4.0sp" style="@style/2132148937" />
+        <TextView android:id="@id/2131431063" ="4.0sp" style="@style/2132148937" />
+    </LinearLayout>
+    <ImageView android:id="@id/2131428044" ="wrap_content" ="wrap_content" ="true" ="true" 2130971077="@drawable/onfido_ic_chevron_right" />
+</RelativeLayout>

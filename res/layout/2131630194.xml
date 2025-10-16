@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="fill_parent" ="wrap_content" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="20.0dip" ="20.0dip" ="6.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236038" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="20.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" android:id="@id/tvCoin" ="wrap_content" ="wrap_content" ="false" ="10.0dip" 2130969911="@id/ivLogo" 2130969936="@id/ivLogo" 2130969941="@id/ivLogo" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433834" ="invisible" ="20.0dip" ="20.0dip" ="@null" 2130969911="@id/ivLogo" 2130969917="2131438103" 2130969941="@id/ivLogo" 2130971077="@drawable/2131237679" />
+        <TextView ="@color/2131099764" android:id="@id/2131442030" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="@id/tvCoin" 2130969940="@id/tvCoin" style="@style/2132149384" />
+        <TextView ="@color/2131099787" ="center" android:id="@id/2131443806" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="16.0dip" ="4.0dip" ="false" ="#1af0b90b" 2130969937="@id/2131442030" 2130969940="@id/2131442030" style="@style/2132149394" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131444889" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="16.0dip" ="4.0dip" ="4.0dip" ="false" ="@color/2131101182" 2130969911="@id/2131443806" 2130969936="@id/2131443806" 2130969941="@id/2131443806" 2130969942="0.0" style="@style/2132149394" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450370" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="wrap_content" ="16.0dip" ="4.0dip" ="4.0dip" ="@color/2131101182" 2130969936="@id/2131444889" 2130969940="@id/2131442030" 2130969941="@id/2131444889">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iconStart" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131238145" 2130971375="@color/2131099764" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445432" ="visible" ="wrap_content" ="wrap_content" android:text="@string/whitelist" ="@null" ="2.0dip" style="@style/2132149394" />
+        </LinearLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" android:id="@id/2131436244" ="@drawable/2131235998" ="4.0dip" ="4.0dip" ="visible" ="wrap_content" ="16.0dip" ="4.0dip" ="4.0dip" ="#1a2ebd85" 2130969911="@id/2131443806" 2130969936="@id/2131450370" 2130969941="@id/2131443806">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099732" ="wrap_content" ="wrap_content" ="false" style="@style/2132149394" />
+            <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="2.0dip" 2130971077="@drawable/2131237055" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView ="@color/2131099778" android:id="@id/2131443463" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="@id/2131443806" 2130969940="@id/2131443806" style="@style/2132149384" />
+        <View android:id="@id/transparent_space_view" ="@color/2131099751" ="0.0dip" ="0.5dip" ="8.0dip" 2130969917="2131438103" 2130969937="@id/2131443463" 2130969940="@id/2131443463" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131449094" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/com_wallet_address_update_time" ="10" ="30.0dip" ="15.0dip" 2130969937="@id/transparent_space_view" 2130969940="@id/transparent_space_view" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/newlyAddedAddressLabel" ="fill_parent" ="wrap_content" ="4.0dip" ="10" ="30.0dip" ="15.0dip" 2130969937="@id/2131449094" 2130969940="@id/2131449094" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,581 @@
+.class final Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/binance/content/internal/editor/activity/PostEditorFragment;->setUpViews(Landroid/view/View;Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lkotlin/Triple<",
+        "+",
+        "Lkotlin/Pair<",
+        "+",
+        "Ljava/lang/Boolean;",
+        "+",
+        "Ljava/lang/Boolean;",
+        ">;+",
+        "Ljava/util/List<",
+        "+",
+        "Lo/FiatGroupAdminsActivityARouterAutowired;",
+        ">;+",
+        "Ljava/util/List<",
+        "+",
+        "Lo/FiatGroupAdminsActivityARouterAutowired;",
+        ">;>;",
+        "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001c\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0010 \n\u0002\u0018\u0002\u0010\u0000\u001a\u00020\u000120\u0010\u0002\u001a,\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00050\u0004\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00070\u0006\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00070\u00060\u0003H\n"
+    }
+    d2 = {
+        "<anonymous>",
+        "",
+        "it",
+        "Lkotlin/Triple;",
+        "Lkotlin/Pair;",
+        "",
+        "",
+        "Lcom/binance/content/data/ContentCoinInfoTag;"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field synthetic L$0:Ljava/lang/Object;
+
+.field label:I
+
+.field final synthetic this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+
+# direct methods
+.method constructor <init>(Lcom/binance/content/internal/editor/activity/PostEditorFragment;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/binance/content/internal/editor/activity/PostEditorFragment;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "-",
+            "Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 65354
+    iput-object p1, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Lkotlin/Triple;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/Triple<",
+            "Lkotlin/Pair<",
+            "Ljava/lang/Boolean;",
+            "Ljava/lang/Boolean;",
+            ">;+",
+            "Ljava/util/List<",
+            "Lo/FiatGroupAdminsActivityARouterAutowired;",
+            ">;+",
+            "Ljava/util/List<",
+            "Lo/FiatGroupAdminsActivityARouterAutowired;",
+            ">;>;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "-",
+            "Lkotlin/Unit;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 65351
+    invoke-virtual {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;->create(Ljava/lang/Object;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;
+
+    sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p1, p2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final create(Ljava/lang/Object;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "*>;)",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 65353
+    new-instance v0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;
+
+    iget-object v1, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-direct {v0, v1, p2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;-><init>(Lcom/binance/content/internal/editor/activity/PostEditorFragment;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    iput-object p1, v0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->L$0:Ljava/lang/Object;
+
+    check-cast v0, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    return-object v0
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 65352
+    check-cast p1, Lkotlin/Triple;
+
+    check-cast p2, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    invoke-virtual {p0, p1, p2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->b(Lkotlin/Triple;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 5
+
+    iget-object v0, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->L$0:Ljava/lang/Object;
+
+    check-cast v0, Lkotlin/Triple;
+
+    .line 2057
+    sget-object v1, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    .line 1426
+    iget v1, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->label:I
+
+    if-nez v1, :cond_11
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    .line 1427
+    iget-object p1, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {p1}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object p1
+
+    const/4 v1, 0x0
+
+    if-nez p1, :cond_0
+
+    move-object p1, v1
+
+    :cond_0
+    iget-object p1, p1, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object p1, p1, Lo/setGoneOkLayoutAndShowLiked;->b:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
+
+    move-result-object p1
+
+    if-nez p1, :cond_1
+
+    new-instance p1, Lo/getAllKycVerifyConfigure;
+
+    new-instance v2, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38$DropdropElements1;
+
+    iget-object v3, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-direct {v2, v3}, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38$DropdropElements1;-><init>(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)V
+
+    check-cast v2, Lo/getConfigTradeMethods;
+
+    invoke-direct {p1, v2}, Lo/getAllKycVerifyConfigure;-><init>(Lo/getConfigTradeMethods;)V
+
+    check-cast p1, Landroidx/recyclerview/widget/RecyclerView$Adapter;
+
+    :cond_1
+    check-cast p1, Lo/getAllKycVerifyConfigure;
+
+    .line 1438
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_2
+
+    move-object v2, v1
+
+    :cond_2
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->b:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
+
+    move-result-object v2
+
+    if-nez v2, :cond_6
+
+    .line 1439
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_3
+
+    move-object v2, v1
+
+    :cond_3
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->b:Landroidx/recyclerview/widget/RecyclerView;
+
+    invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->setItemAnimator(Landroidx/recyclerview/widget/RecyclerView$IsolatedAddMarginComposeKtgetErrorTips11;)V
+
+    .line 1440
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_4
+
+    move-object v2, v1
+
+    :cond_4
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->b:Landroidx/recyclerview/widget/RecyclerView;
+
+    new-instance v3, Landroidx/recyclerview/widget/LinearLayoutManager;
+
+    iget-object v4, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-virtual {v4}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v4
+
+    check-cast v4, Landroid/content/Context;
+
+    invoke-direct {v3, v4}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V
+
+    check-cast v3, Landroidx/recyclerview/widget/RecyclerView$IsolatedAddMarginComposeKtgetRiskRiskColor111;
+
+    invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$IsolatedAddMarginComposeKtgetRiskRiskColor111;)V
+
+    .line 1441
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_5
+
+    move-object v2, v1
+
+    :cond_5
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->b:Landroidx/recyclerview/widget/RecyclerView;
+
+    move-object v3, p1
+
+    check-cast v3, Landroidx/recyclerview/widget/RecyclerView$Adapter;
+
+    invoke-virtual {v2, v3}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
+
+    .line 1444
+    :cond_6
+    invoke-virtual {v0}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lkotlin/Pair;
+
+    invoke-virtual {v2}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Boolean;
+
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_9
+
+    .line 1445
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_7
+
+    move-object v2, v1
+
+    :cond_7
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->c:Landroid/widget/TextView;
+
+    check-cast v2, Landroid/view/View;
+
+    invoke-static {v2}, Lcom/binance/content/util/android/ViewExtKt;->w(Landroid/view/View;)Lkotlin/Unit;
+
+    .line 1446
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_8
+
+    move-object v2, v1
+
+    :cond_8
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->e:Lcom/binance/base/widget/BNCLottieAnimationView;
+
+    check-cast v2, Landroid/view/View;
+
+    invoke-static {v2}, Lcom/binance/content/util/android/ViewExtKt;->C(Landroid/view/View;)Lkotlin/Unit;
+
+    goto :goto_0
+
+    .line 1448
+    :cond_9
+    invoke-virtual {v0}, Lkotlin/Triple;->getSecond()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/util/List;
+
+    invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_c
+
+    .line 1449
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_a
+
+    move-object v2, v1
+
+    :cond_a
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->c:Landroid/widget/TextView;
+
+    check-cast v2, Landroid/view/View;
+
+    invoke-static {v2}, Lcom/binance/content/util/android/ViewExtKt;->C(Landroid/view/View;)Lkotlin/Unit;
+
+    .line 1450
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_b
+
+    move-object v2, v1
+
+    :cond_b
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->e:Lcom/binance/base/widget/BNCLottieAnimationView;
+
+    check-cast v2, Landroid/view/View;
+
+    invoke-static {v2}, Lcom/binance/content/util/android/ViewExtKt;->w(Landroid/view/View;)Lkotlin/Unit;
+
+    goto :goto_0
+
+    .line 1452
+    :cond_c
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_d
+
+    move-object v2, v1
+
+    :cond_d
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->c:Landroid/widget/TextView;
+
+    check-cast v2, Landroid/view/View;
+
+    invoke-static {v2}, Lcom/binance/content/util/android/ViewExtKt;->w(Landroid/view/View;)Lkotlin/Unit;
+
+    .line 1453
+    iget-object v2, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {v2}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object v2
+
+    if-nez v2, :cond_e
+
+    move-object v2, v1
+
+    :cond_e
+    iget-object v2, v2, Lo/setAndroid;->x:Lo/setGoneOkLayoutAndShowLiked;
+
+    iget-object v2, v2, Lo/setGoneOkLayoutAndShowLiked;->e:Lcom/binance/base/widget/BNCLottieAnimationView;
+
+    check-cast v2, Landroid/view/View;
+
+    invoke-static {v2}, Lcom/binance/content/util/android/ViewExtKt;->w(Landroid/view/View;)Lkotlin/Unit;
+
+    .line 1456
+    :goto_0
+    invoke-virtual {v0}, Lkotlin/Triple;->getThird()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/util/List;
+
+    invoke-virtual {p1, v2}, Lo/isDigitalCredentialRequestcredentials_play_services_auth_release;->submitList(Ljava/util/List;)V
+
+    .line 1459
+    invoke-virtual {v0}, Lkotlin/Triple;->getFirst()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lkotlin/Pair;
+
+    invoke-virtual {p1}, Lkotlin/Pair;->getSecond()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_10
+
+    .line 1460
+    sget-object p1, Lo/getManualLiquidationType;->INSTANCE:Lo/getManualLiquidationType;
+
+    iget-object p1, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    invoke-static {p1}, Lcom/binance/content/internal/editor/activity/PostEditorFragment;->n(Lcom/binance/content/internal/editor/activity/PostEditorFragment;)Lo/setAndroid;
+
+    move-result-object p1
+
+    if-nez p1, :cond_f
+
+    goto :goto_1
+
+    :cond_f
+    move-object v1, p1
+
+    .line 3259
+    :goto_1
+    iget-object p1, v1, Lo/setAndroid;->N:Landroid/widget/FrameLayout;
+
+    .line 1460
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/binance/content/internal/editor/activity/PostEditorFragment$setUpViews$38;->this$0:Lcom/binance/content/internal/editor/activity/PostEditorFragment;
+
+    check-cast v0, Landroidx/fragment/app/Fragment;
+
+    const v1, 0x7f151744
+
+    invoke-static {v0, v1}, Lo/LiveButtonWidgetsKtAddReminderTextButton2211;->a(Landroidx/fragment/app/Fragment;I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lo/getManualLiquidationType;->b(Landroid/content/Context;Ljava/lang/String;)V
+
+    .line 1463
+    :cond_10
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+
+    .line 1426
+    :cond_11
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method

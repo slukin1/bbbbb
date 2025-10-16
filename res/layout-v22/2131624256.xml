@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131450168" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427655" ="wrap_content" ="wrap_content" android:text="@string/dwallet_device_change_wallet_balance_title" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427656" ="wrap_content" ="wrap_content" android:text="--" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427647" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/mpc_wallet_last_backup_address" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131427648" ="0.0dip" ="wrap_content" ="5.0dip" ="viewEnd" ="20.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130969949="0.6" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427653" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/mpc_wallet_last_backup_tip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427654" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427651" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/mpc_wallet_last_backup_method" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427652" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427649" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/mpc_wallet_last_backup_device" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427650" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

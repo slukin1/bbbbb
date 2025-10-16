@@ -1,0 +1,40 @@
+.class public final synthetic Lo/setMoveDuration;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/dispatchAnimationsFinished$DropdropElements1;
+
+
+# instance fields
+.field private synthetic d:Lio/flutter/plugin/common/MethodChannel$Result;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lio/flutter/plugin/common/MethodChannel$Result;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/setMoveDuration;->d:Lio/flutter/plugin/common/MethodChannel$Result;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Z)V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/setMoveDuration;->d:Lio/flutter/plugin/common/MethodChannel$Result;
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-interface {v0, p1}, Lio/flutter/plugin/common/MethodChannel$Result;->success(Ljava/lang/Object;)V
+
+    return-void
+.end method

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" ="center" android:id="@id/2131442908" ="wrap_content" ="fill_parent" android:text="@string/c2c_mob_ad_manage_adlist_actionbar_btn2_editdetail" ="@font/2131296275" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131427726" ="fill_parent" ="0.0dip" 2130969912="@id/2131440842" 2130969940="@id/2131441601" />
+    <LinearLayout ="vertical" android:id="@id/2131440842" ="fill_parent" ="wrap_content" ="true" 2130969911="2131438103">
+        <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+        <com.binance.c2c.advertisement.view.AdShowFeeView ="bottom" android:id="@id/2131449683" ="fill_parent" ="wrap_content" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131431288" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" android:text="@string/save" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

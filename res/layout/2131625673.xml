@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432228" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131443593" ="wrap_content" ="wrap_content" android:text="@string/earn_locked_balance" ="15.0dip" 2130969911="@id/2131444352" 2130969937="2131438103" 2130969941="@id/2131444352" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.44" />
+    <TextView ="@color/2131099778" android:id="@id/2131444352" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/earn_redemption_date_remaining_days" ="10.0dip" 2130969905="true" 2130969918="@id/2131439758" 2130969927="0.0" 2130969936="@id/2131432755" 2130969941="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.selection.KitSwitch ="false" android:id="@id/2131439758" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131444352" 2130969917="2131438103" 2130969941="@id/2131444352" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="visible" ="false" ="0.0dip" ="0.0dip" ="3.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444352" />
+</androidx.constraintlayout.widget.ConstraintLayout>

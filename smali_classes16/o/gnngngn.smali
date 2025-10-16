@@ -1,0 +1,38 @@
+.class public final synthetic Lo/gnngngn;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/MeasurePassDelegatelayoutChildrenBlock12;
+
+
+# instance fields
+.field private synthetic b:Lcom/prometheus/account/activities/screenlock/ScreenLockNewActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/prometheus/account/activities/screenlock/ScreenLockNewActivity;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/gnngngn;->b:Lcom/prometheus/account/activities/screenlock/ScreenLockNewActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onChanged(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/gnngngn;->b:Lcom/prometheus/account/activities/screenlock/ScreenLockNewActivity;
+
+    check-cast p1, Lo/setItemActiveIndicatorHeight;
+
+    invoke-static {v0, p1}, Lcom/prometheus/account/activities/screenlock/ScreenLockNewActivity;->d(Lcom/prometheus/account/activities/screenlock/ScreenLockNewActivity;Lo/setItemActiveIndicatorHeight;)V
+
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" ="@color/2131099685" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.widget.C2CShareView android:id="@id/2131440065" ="fill_parent" ="wrap_content" />
+    <View ="#ffdbdbdb" ="fill_parent" ="4.0dip" />
+    <TextView ="#ff828a98" ="center" android:id="@id/2131440077" ="?android:selectableItemBackground" ="fill_parent" ="50.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" style="@style/2132149371" />
+</LinearLayout>

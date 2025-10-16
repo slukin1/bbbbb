@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="fill_parent" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" android:text="@string/earn_collateral_source_return" ="@dimen/2131166184" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/flexibleRateTitle" ="fill_parent" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" android:text="@string/earn_loan_flexible_rate_title" ="@dimen/2131166184" 2130969940="@id/title" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/flexibleRateContent" ="fill_parent" ="wrap_content" ="15.0dip" ="6.0dip" ="15.0dip" android:text="@string/collateral_flexible_source" ="@dimen/2131166184" 2130969940="@id/flexibleRateTitle" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/flexibleRateContent2" ="fill_parent" ="wrap_content" ="15.0dip" ="6.0dip" ="15.0dip" android:text="@string/earn_loan_flexible_rate_dialog_content_2" ="@dimen/2131166184" 2130969940="@id/flexibleRateContent" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432534" ="wrap_content" ="wrap_content" 2130969125="flexibleRateTitle,flexibleRateContent,flexibleRateContent2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

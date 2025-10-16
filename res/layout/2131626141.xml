@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="0.0dip" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText ="@color/2131099764" ="#99828a98" android:id="@id/edit_text" ="@drawable/2131233560" ="0.0dip" ="50.0dip" ="5.0dip" ="1" ="numberDecimal" ="10.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149371" />
+    <TextView ="@color/2131099778" android:id="@id/2131448476" ="wrap_content" ="wrap_content" ="true" ="10.0dip" ="true" 2130969911="@id/edit_text" 2130969917="@id/edit_text" 2130969941="@id/edit_text" style="@style/2132149446" />
+    <TextView ="12.0sp" ="@color/2131099863" android:id="@id/tv_error_tips" ="5.0dip" ="visible" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/edit_text" />
+    <com.finance.framework.widget.percent.CustomPercentSelectedView android:id="@id/2131430670" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_error_tips" />
+</merge>

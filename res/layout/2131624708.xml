@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434379" ="#00000000" ="invisible" ="fill_parent" ="fill_parent" ="centerCrop" ="true" ="true" ="true" ="true" />
+    <FrameLayout ="center" android:id="@id/2131440869" ="fill_parent" ="fill_parent" ="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441411" ="fill_parent" ="fill_parent" ="centerCrop" ="true" ="true" ="true" ="true" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435586" ="visible" ="fill_parent" ="8.0dip" ="true" />
+    <TextView ="#ffeaecef" android:id="@id/2131440871" ="@drawable/2131233253" ="4.0dip" ="2.0dip" ="4.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="@id/2131435586" ="8.0dip" ="true" style="@style/2132149397" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428243" ="gone" ="24.0dip" ="24.0dip" ="6.0dip" ="6.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434965" ="32.0dip" ="32.0dip" ="8.0dip" ="true" ="8.0dip" ="true" 2130971077="@drawable/2131238117" 2130971375="@color/2131103185" />
+    <LinearLayout ="center_vertical" android:id="@id/2131435712" ="#00000000" ="fill_parent" ="48.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428230" ="10.0dip" ="gone" ="48.0dip" ="48.0dip" ="centerInside" />
+        <TextView ="18.0sp" ="@android:color/white" android:id="@id/title" ="10.0dip" ="gone" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/2131440560" ="@drawable/2131233241" ="visible" ="48.0dip" ="48.0dip" ="true" />
+    <com.binance.content.internal.video.content.view.VideoLoadingViewKt android:id="@id/2131436703" ="invisible" ="fill_parent" ="fill_parent" ="true" ="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440154" ="12.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="#ffffffff" ="12.0dip" ="0.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436721" ="gone" ="30.0dip" ="30.0dip" ="50.0dip" ="centerInside" ="true" ="true" />
+</RelativeLayout>

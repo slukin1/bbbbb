@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.voptions.feature.history.ui.widget.VOptionsTradeItemRootLayout ="fill_parent" ="20.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.voptions.framework.widget.VOptionsSimpleTextView ="#ff848e9c" ="start" android:id="@id/2131441416" ="wrap_content" ="wrap_content" ="true" ="true" 2130969911="@id/price" 2130969937="2131438103" 2130969941="@id/price" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="end" ="start|center" android:id="@id/price" ="wrap_content" ="wrap_content" ="1" 2130968700="12.0sp" 2130968701="8.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969911="@id/price" 2130969918="@id/2131438775" 2130969937="@id/2131432755" 2130969941="@id/price" style="@style/2132149384" />
+    <com.finance.voptions.framework.widget.VOptionsSimpleTextView ="#ff848e9c" ="end" android:id="@id/2131438775" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+</com.finance.voptions.feature.history.ui.widget.VOptionsTradeItemRootLayout>

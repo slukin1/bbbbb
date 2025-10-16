@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131439436" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447300" ="wrap_content" ="wrap_content" android:text="@string/c2c_pass_payment_method" ="@font/2131296273" />
+    <androidx.legacy.widget.Space ="0.0dip" ="wrap_content" ="1.0" />
+    <View android:id="@id/2131438155" ="@color/2131099881" ="3.0dip" ="10.0dip" />
+    <TextView ="14.0sp" ="@color/2131099764" ="end|center" ="center_vertical" android:id="@id/2131447299" ="wrap_content" ="wrap_content" android:text="@string/c2c_cash_trade" ="@font/2131296273" ="ltr" ="4.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

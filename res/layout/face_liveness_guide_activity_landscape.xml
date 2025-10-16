@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" android:id="@id/2131439381" ="@color/flash_bg_color" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431689" layout="@layout/face_liveness_bar_title" />
+    <TextView ="#ff000000" android:id="@id/2131446469" ="wrap_content" ="wrap_content" ="12.0dip" ="@id/2131431689" ="true" />
+    <include android:id="@id/2131431688" ="fill_parent" ="@dimen/bottom_bar_height" ="true" layout="@layout/face_liveness_bar_bottom" />
+    <Button ="@dimen/image_desc_text_size" ="bold" ="#ffffffff" ="center" android:id="@id/2131428634" ="@dimen/start_bt_width" ="@dimen/start_bt_height" ="@dimen/start_bt_margin_bottom" ="true" ="true" />
+    <LinearLayout ="vertical" android:id="@id/2131436530" ="wrap_content" ="wrap_content" ="40.0dip" ="@id/2131428634" ="true">
+        <LinearLayout ="center|left" ="horizontal" android:id="@id/2131436528" ="visible" ="wrap_content" ="wrap_content">
+            <LinearLayout android:id="@id/2131435916" ="15.0dip" ="10.0dip" ="6.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="@null">
+                <CheckBox ="center" android:id="@id/2131429390" ="false" ="@dimen/check_box_size" ="@dimen/check_box_size" ="false" ="@null" />
+            </LinearLayout>
+            <TextView ="@dimen/user_agree_text_size" android:id="@id/2131448510" ="wrap_content" ="wrap_content" ="@dimen/user_agree_text_margin_left" android:text="@string/agree_text" />
+            <TextView ="@dimen/user_agree_text_size" android:id="@id/2131448511" ="wrap_content" ="wrap_content" ="@dimen/user_agree_text_margin_left" />
+        </LinearLayout>
+        <LinearLayout ="center|left" ="horizontal" android:id="@id/2131436529" ="visible" ="wrap_content" ="wrap_content" ="2.0dip">
+            <LinearLayout android:id="@id/2131435917" ="15.0dip" ="10.0dip" ="6.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="@null">
+                <CheckBox ="center" android:id="@id/2131429391" ="false" ="@dimen/check_box_size" ="@dimen/check_box_size" ="false" ="@null" />
+            </LinearLayout>
+            <TextView ="@dimen/user_agree_text_size" android:id="@id/2131448512" ="wrap_content" ="wrap_content" ="@dimen/user_agree_text_margin_left" android:text="@string/agree_text" />
+            <TextView ="@dimen/user_agree_text_size" android:id="@id/2131448513" ="wrap_content" ="wrap_content" ="@dimen/user_agree_text_margin_left" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView ="center" android:id="@id/2131446468" ="300.0dip" ="wrap_content" ="80.0dip" ="@id/2131436530" ="true" />
+    <RelativeLayout android:id="@id/2131439382" ="wrap_content" ="wrap_content" ="32.0dip" ="16.0dip" ="@id/2131446468" ="@id/2131446469" ="true">
+        <ImageView android:id="@id/2131434521" ="@dimen/load_img_width" ="@dimen/load_img_height" ="true" ="true" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

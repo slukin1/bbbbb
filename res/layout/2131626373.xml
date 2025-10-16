@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232712" ="16.0dip" ="16.0dip" ="fill_parent" ="88.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433920" ="40.0dip" ="40.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="12.0dip" ="12.0dip" 2130969905="true" 2130969912="@id/2131444836" 2130969918="@id/ivArrow" 2130969927="0.0" 2130969936="@id/2131433920" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131444836" ="wrap_content" ="wrap_content" ="4.0dip" ="4" ="12.0dip" 2130969905="true" 2130969911="2131438103" 2130969918="@id/ivArrow" 2130969927="0.0" 2130969937="@id/tvTitle" 2130969940="@id/tvTitle" style="@style/2132149384" />
+    <ImageView android:id="@id/ivArrow" ="20.0dip" ="20.0dip" ="@drawable/2131237055" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

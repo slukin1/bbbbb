@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433627" ="@drawable/2131233843" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" ="1" 2130969905="true" 2130969937="2131438103" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132149446" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="0.0dip" ="wrap_content" ="4.0dip" 2130969911="@id/tv_symbol" 2130969918="@id/2131447344" 2130969936="@id/tv_symbol" 2130969941="@id/tv_symbol">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_contract_type" ="@drawable/2131235998" ="6.0dip" ="6.0dip" ="wrap_content" ="wrap_content" ="1" ="4.0dip" ="@color/2131099800" style="@style/2132149394" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447344" ="0.0dip" ="wrap_content" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131448062" ="0.0dip" ="wrap_content" ="1" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131446420" 2130969937="@id/tv_symbol" 2130969940="@id/tv_symbol" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131446420" ="0.0dip" ="wrap_content" ="1" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131448062" 2130969940="@id/2131447344" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

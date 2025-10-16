@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432753" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView ="@color/2131099764" android:id="@id/2131449882" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131449795" ="wrap_content" ="wrap_content" ="7.0dip" android:text="@string/voptions_greeks_delta" ="4.0dip" 2130969905="true" 2130969917="@id/2131432753" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131449882" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449796" ="0.0dip" ="wrap_content" ="2.0dip" ="1" ="4.0dip" 2130969917="@id/2131432753" 2130969937="2131438103" 2130969940="@id/2131449795" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131449797" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/voptions_greeks_gamma" ="4.0dip" 2130969905="true" 2130969907="@id/2131449795" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131432753" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449798" ="0.0dip" ="wrap_content" ="1" ="4.0dip" 2130969907="@id/2131449796" 2130969917="2131438103" 2130969937="@id/2131432753" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131449799" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/voptions_greeks_theta" ="4.0dip" 2130969905="true" 2130969917="@id/2131432753" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131449796" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449800" ="0.0dip" ="wrap_content" ="2.0dip" ="1" ="4.0dip" 2130969917="@id/2131432753" 2130969937="2131438103" 2130969940="@id/2131449799" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131449801" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/voptions_greeks_vega" ="4.0dip" 2130969905="true" 2130969907="@id/2131449799" 2130969917="2131438103" 2130969927="0.0" 2130969937="@id/2131432753" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449802" ="0.0dip" ="wrap_content" ="1" ="4.0dip" 2130969907="@id/2131449800" 2130969917="2131438103" 2130969937="@id/2131432753" style="@style/2132149350" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131449800" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432244" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131449686" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131629457" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438722" ="fill_parent" ="0.0dip" ="1.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449686" 2130971098="false">
+        <com.binance.widget.NestedCoordinatorLayout ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <TextView ="@color/2131099764" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/earn_simple_earn" ="15.0dip" 2130969974="2131439795" style="@style/2132149419" />
+                <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/earn_simple_earn_products_desc" ="15.0dip" 2130969974="2131439795" style="@style/2132149384" />
+                <include android:id="@id/2131449688" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969974="2131439795" layout="@layout/2131629459" />
+                <include android:id="@id/2131449685" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" 2130969974="2131439795" layout="@layout/2131629451" />
+                <com.binance.earn.home.main_v5.view.EarnBannerV2 android:id="@id/2131428281" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" 2130969974="2131439795" />
+                <include android:id="@id/2131449579" ="fill_parent" ="wrap_content" ="6.0dip" 2130969902="2131438344" layout="@layout/2131629305" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439035" ="20.0dip" ="false" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969901="@string/appbar_scrolling_view_behavior" />
+        </com.binance.widget.NestedCoordinatorLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434259" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="58.0dip" ="15.0dip" ="@color/2131099879" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131237434" 2130971375="@color/2131099789" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428240" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="10.0dip" ="15.0dip" ="@color/2131099751" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236869" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

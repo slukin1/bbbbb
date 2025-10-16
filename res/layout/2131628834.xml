@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" 2130969904="true" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427923" ="@drawable/2131234931" ="0.5dip" ="40.0dip" ="40.0dip" 2130969912="@id/2131441316" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441316" ="0.0dip" ="wrap_content" ="12.0dip" ="1" 2130968700="16.0sp" 2130968701="4.0sp" 2130968705="2131449068" 2130969905="true" 2130969912="@id/2131441253" 2130969937="2131438103" 2130969940="@id/2131427923" 2130969945="2131450410" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441253" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/spot_countdown_to_open_sublable" 2130969905="true" 2130969912="@id/2131432068" 2130969937="2131438103" 2130969940="@id/2131441316" 2130969945="2131450410" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewHour" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewSecond" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewMinute" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewCommon1" ="wrap_content" ="0.0dip" android:text=":" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewCommon2" ="wrap_content" ="0.0dip" android:text=":" style="@style/2132149446" />
+        <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432068" ="wrap_content" ="wrap_content" 2130969125="textViewHour,textViewCommon1,textViewMinute,textViewCommon2,textViewSecond" 2130969490="4.0dip" 2130969491="2131438085" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131441253" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

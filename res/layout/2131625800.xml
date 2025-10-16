@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131447531" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/dwallet_wallethub_walletconnect_tab_qrcode_message" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433263" ="180.0dip" ="180.0dip" ="10.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131447531" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436503" ="wrap_content" ="wrap_content" ="10.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131433263">
+        <TextView ="12.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/dwallet_wallethub_walletconnect_tab_qrcode_copy" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450209" ="24.0sp" ="24.0sp" ="@drawable/2131233351" ="2.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

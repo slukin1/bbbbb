@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131436996" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131436982" ="0.0dip" ="wrap_content" ="20.0dip" 2130969125="material_clock_display,material_clock_period_toggle" 2130969500="@dimen/2131166912" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <include android:id="@id/material_clock_display" ="wrap_content" ="wrap_content" layout="@layout/2131627575" />
+    <include android:id="@id/material_clock_period_toggle" ="0.0dip" ="wrap_content" layout="@layout/2131627578" />
+    <com.google.android.material.timepicker.ClockFaceView android:id="@id/2131436983" ="wrap_content" ="wrap_content" ="@dimen/2131165986" 2130969936="@id/2131436982" 2130969941="2131438103" />
+</merge>

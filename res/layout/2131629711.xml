@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131449362" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgEmpty" ="96.0dip" ="96.0dip" 2130969912="@id/txtRetry" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" 2130971077="@drawable/2131238419" />
+    <TextView ="@color/2131099787" android:id="@id/txtRetry" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/voptions_retry" ="5.0dip" 2130969311="@drawable/2131237935" 2130969911="2131438103" 2130969917="@id/imgEmpty" 2130969937="@id/imgEmpty" 2130969940="@id/imgEmpty" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432522" ="visible" ="wrap_content" ="wrap_content" 2130969125="txtRetry,imgEmpty" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433150" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <include android:id="@id/2131435458" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131628985" />
+</androidx.constraintlayout.widget.ConstraintLayout>

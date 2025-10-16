@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="center_horizontal" ="vertical" ="16.0dip" ="20.0dip" ="16.0dip" ="20.0dip" ="fill_parent" ="360.0dip" ="@dimen/2131166188" ="@dimen/2131166200" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433795" ="96.0dip" ="96.0dip" ="@drawable/2131238405" ="no" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131442661" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/copy_trading_private_chat_room_created_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433795" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442655" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_private_chat_room_created_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442661" 2130969999="@dimen/2131167698" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236713" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131442655">
+        <TextView ="@color/2131099764" android:id="@id/2131442454" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131442453" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442454" style="@style/2132149361" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433787" ="gone" ="24.0dip" ="24.0dip" 2130969911="@id/2131442453" 2130969917="2131438103" 2130969941="@id/2131442454" 2130971077="@drawable/2131237146" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

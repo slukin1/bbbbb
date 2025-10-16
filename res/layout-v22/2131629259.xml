@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="vertical" android:id="@id/2131449553" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099785" ="center_vertical" android:id="@id/2131442758" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="@dimen/2131166247" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/contentLayout" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436316" ="0.0dip" ="64.0dip" ="15.0dip" 2130969918="@id/tvApy" 2130969929="1.6" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView ="@color/2131099764" android:id="@id/2131444812" ="wrap_content" ="wrap_content" style="@style/2132149446" />
+            <TextView ="@color/2131099787" android:id="@id/2131444060" ="@drawable/2131232569" ="4.0dip" ="1.0dip" ="4.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="5.0dip" ="@dimen/2131166247" ="@dimen/2131166155" style="@style/2132149394" />
+        </LinearLayout>
+        <com.binance.widget.UnicodeWrapTextView ="end" android:id="@id/tvApy" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969918="@id/2131436373" 2130969929="1.0" 2130969936="@id/2131436316" 2130969941="2131438103" style="@style/2132149446" />
+        <LinearLayout ="end|center" ="horizontal" android:id="@id/2131436373" ="0.0dip" ="wrap_content" ="1.0" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969929="1.0" 2130969936="@id/tvApy" 2130969941="2131438103">
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131434198" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_history_title_subscribe" style="@style/2132148706" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

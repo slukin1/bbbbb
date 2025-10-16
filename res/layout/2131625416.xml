@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436161" ="@drawable/2131233529" ="15.0dip" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/futures_pm_auto_repay" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/futures_pm_auto_repay_tips" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436277" ="@drawable/2131233529" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" 2130969940="@id/2131436161">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/futures_pm_manual_repay" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/futures_pm_manual_repay_tips" style="@style/2132149384" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

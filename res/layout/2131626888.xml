@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" android:id="@id/indicator_container" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/2131440827" ="none" ="0.0dip" ="fill_parent" ="1.0" ="never">
+        <LinearLayout ="horizontal" android:id="@id/2131440825" ="wrap_content" ="fill_parent">
+            <TextView ="center_vertical" android:id="@id/2131443633" ="wrap_content" ="fill_parent" android:text="@string/kv_sma" ="16.0dip" ="10.0dip" style="@style/2132148724" />
+            <TextView android:id="@id/2131442917" android:text="@string/kv_ema" style="@style/2132148724" />
+            <TextView android:id="@id/2131442336" android:text="@string/kv_boll" style="@style/2132148724" />
+            <TextView android:id="@id/2131444523" android:text="SAR" style="@style/2132148724" />
+            <TextView android:id="@id/2131442268" android:text="AVL" style="@style/2132148724" />
+            <View ="center_vertical" ="@color/2131099751" ="0.5dip" ="12.0dip" ="6.0dip" ="6.0dip" />
+            <TextView android:id="@id/tvVol" android:text="@string/kv_vol" style="@style/2132148724" />
+            <TextView android:id="@id/2131443634" android:text="@string/kv_macd" style="@style/2132148724" />
+            <TextView android:id="@id/2131444503" android:text="@string/kv_rsi" style="@style/2132148724" />
+            <TextView android:id="@id/2131443429" android:text="@string/kv_kdj" style="@style/2132148724" />
+            <TextView android:id="@id/2131443891" android:text="OBV" style="@style/2132148724" />
+            <TextView android:id="@id/2131445463" android:text="WR" style="@style/2132148724" />
+            <TextView android:id="@id/2131444787" android:text="StochRSI" style="@style/2132148724" />
+            <View android:id="@id/2131449290" ="@color/2131099751" ="gone" ="0.5dip" ="fill_parent" ="6.0dip" ="6.0dip" />
+            <TextView android:id="@id/2131443889" ="gone" android:text="O.I." style="@style/2132148724" />
+            <TextView android:id="@id/2131443449" ="gone" android:text="L.S Acco." style="@style/2132148724" />
+            <TextView android:id="@id/2131443450" ="gone" android:text="L.S Posit." style="@style/2132148724" />
+            <TextView android:id="@id/2131443451" ="gone" android:text="L.S Ratio" style="@style/2132148724" />
+            <TextView android:id="@id/2131442276" ="gone" android:text="B.S Vol." style="@style/2132148724" />
+            <TextView android:id="@id/2131442309" ="gone" android:text="Basis" style="@style/2132148724" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View ="end" ="@drawable/2131232564" ="15.0dip" ="fill_parent" ="-15.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131433083" ="?2130970780" ="23.0dip" ="16.0dip" ="centerInside" ="7.0dip" 2130971077="@drawable/2131237514" 2130971375="@color/2131099738" />
+</merge>

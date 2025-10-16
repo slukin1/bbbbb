@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131427566" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="@color/2131099685" ="fill_parent" ="0.0dip" ="15.0dip" ="15.0dip" ="12.0dip" 2130969912="@id/2131429298" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131429298" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ocbs_cards_only_up_to_limit" ="4.0dip" ="15.0dip" 2130969311="@drawable/2131234272" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/imgEmpty" ="gone" ="96.0dip" ="96.0dip" ="208.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238419" />
+    <TextView ="@color/2131099778" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/ocbs_card_manage_empty_desc" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/imgEmpty" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

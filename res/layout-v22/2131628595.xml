@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="30.0dip" ="24.0dip" ="30.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166226" ="@dimen/2131166209" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434709" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233808" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/titleTv" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434709" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131441499" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/titleTv" 2130969945="2131450410" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131446804" ="@drawable/2131236717" ="8.0dip" ="8.0dip" ="0.0dip" ="28.0dip" ="8.0dip" ="2" ="false" ="8.0dip" 2130969918="@id/2131447008" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131441499" 2130969947="120.0dip" 2130969958="@dimen/2131166286" 2130969961="@dimen/2131166153" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131447008" ="@drawable/2131236717" ="8.0dip" ="8.0dip" ="0.0dip" ="28.0dip" ="8.0dip" ="8.0dip" ="2" ="false" ="@dimen/2131166286" ="8.0dip" 2130969918="@id/2131447679" 2130969936="@id/2131446804" 2130969941="@id/2131446804" 2130969947="120.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131447679" ="@drawable/2131236717" ="8.0dip" ="8.0dip" ="0.0dip" ="28.0dip" ="2" ="false" ="8.0dip" 2130969917="2131438103" 2130969936="@id/2131447008" 2130969941="@id/2131446804" 2130969947="120.0dip" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

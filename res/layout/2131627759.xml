@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/jarvis_history_tasks" style="@style/2132149359" />
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true">
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131444917" ="@drawable/2131235287" ="24.0dip" ="24.0dip" ="8.0dip" style="@style/2132149350" />
+            <ImageView android:id="@id/2131437124" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131235289" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131441157" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="16.0dip" ="16.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131429282" ="wrap_content" ="wrap_content" style="@style/2132149359" />
+        <TextView ="@color/2131099764" android:id="@id/2131440817" ="wrap_content" ="wrap_content" ="8.0dip" ="@id/2131429282" style="@style/2132149446" />
+        <ImageView ="20.0dip" ="20.0dip" ="true" ="true" 2130971077="@drawable/2131235286" />
+    </RelativeLayout>
+    <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="20.0dip" />
+</LinearLayout>

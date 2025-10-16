@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131435218" ="6.0dip" ="wrap_content" android:text="*" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131432123" ="0.0dip" ="wrap_content" android:text="@string/c2c_follow_tips_content1" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131435218" 2130969941="@id/2131435218" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131435219" ="6.0dip" ="wrap_content" ="8.0dip" android:text="*" ="@font/2131296274" 2130969937="@id/2131435218" 2130969940="@id/2131432123" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131432124" ="0.0dip" ="wrap_content" android:text="@string/c2c_follow_tips_content2" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131435219" 2130969941="@id/2131435219" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1352 @@
+.class public Lo/X931SignatureSpiSHA224WithRSAEncryption;
+.super Lo/PSSSignatureSpiSHA512_224withRSA;
+.source "SourceFile"
+
+
+# instance fields
+.field private a:Lcom/finance/grocer/constant/FutureOrderType;
+
+.field private b:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+.field private final c:J
+
+.field private final e:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lo/SignatureSpiecDSARipeMD160;)V
+    .locals 2
+
+    .line 29
+    invoke-direct {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;-><init>(Lo/SignatureSpiecDSARipeMD160;)V
+
+    .line 31
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->U()Landroid/content/Context;
+
+    move-result-object p1
+
+    const v0, 0x7f153623
+
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->e:Ljava/lang/String;
+
+    .line 36
+    sget-object p1, Lo/registerVoidCallback;->INSTANCE:Lo/registerVoidCallback;
+
+    invoke-static {}, Lo/registerVoidCallback;->r()Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions;
+
+    move-result-object p1
+
+    .line 1030
+    iget-object p1, p1, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions;->e:Lo/weakReferenceReleased;
+
+    sget-object v0, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions;->d:[Lo/CovertWalletListActivityonViewAttached43;
+
+    const/4 v1, 0x2
+
+    aget-object v0, v0, v1
+
+    invoke-virtual {p1, v0}, Lo/weakReferenceReleased;->d(Lo/CovertWalletListActivityonViewAttached43;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions$DropdropElements1;
+
+    .line 2058
+    iget-object p1, p1, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions$DropdropElements1;->e:Ljava/util/HashMap;
+
+    .line 36
+    sget-object v0, Lcom/finance/grocer/constant/FutureOrderType;->LIMIT:Lcom/finance/grocer/constant/FutureOrderType;
+
+    invoke-virtual {v0}, Lcom/finance/grocer/constant/FutureOrderType;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Ljava/util/AbstractMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+    if-nez p1, :cond_0
+
+    .line 37
+    sget-object p1, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;->OPPONENT_ONE:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+    .line 36
+    :cond_0
+    iput-object p1, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->b:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+    .line 38
+    sget-object p1, Lcom/finance/grocer/constant/FutureOrderType;->LIMIT:Lcom/finance/grocer/constant/FutureOrderType;
+
+    iput-object p1, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->a:Lcom/finance/grocer/constant/FutureOrderType;
+
+    const-wide/32 v0, 0x927c0
+
+    .line 40
+    iput-wide v0, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->c:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public A()V
+    .locals 9
+
+    .line 45
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bO_()Landroid/widget/TextView;
+
+    move-result-object v0
+
+    const/16 v1, 0x8
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
+
+    .line 46
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bJ_()Lcom/finance/futures/common/framework/widget/TrailingStopRateView;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
+
+    .line 48
+    :cond_1
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bN_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x2
+
+    const-string v4, ""
+
+    const/4 v5, 0x0
+
+    if-eqz v0, :cond_2
+
+    .line 49
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
+
+    .line 50
+    invoke-static {v0, v4, v5, v3, v2}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->setText$default(Lcom/finance/kit/framework/widget/edittext/CombinedEditText;Ljava/lang/String;ZILjava/lang/Object;)V
+
+    .line 53
+    :cond_2
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    if-eqz v0, :cond_4
+
+    .line 54
+    invoke-virtual {v0, v5}, Landroid/view/View;->setVisibility(I)V
+
+    .line 55
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->U()Landroid/content/Context;
+
+    move-result-object v6
+
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->O()Ljava/lang/String;
+
+    move-result-object v7
+
+    new-array v8, v1, [Ljava/lang/Object;
+
+    aput-object v7, v8, v5
+
+    const v7, 0x7f152a12
+
+    invoke-virtual {v6, v7, v8}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v0, v6}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->setHint(Ljava/lang/String;)V
+
+    .line 56
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->S()Ljava/lang/String;
+
+    move-result-object v6
+
+    check-cast v6, Ljava/lang/CharSequence;
+
+    invoke-interface {v6}, Ljava/lang/CharSequence;->length()I
+
+    move-result v6
+
+    if-lez v6, :cond_3
+
+    .line 57
+    sget-object v6, Lo/BaseMarginTradeFragmentshowContent1;->b:Lo/BaseMarginTradeFragmentshowContent1;
+
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->S()Ljava/lang/String;
+
+    move-result-object v7
+
+    .line 3047
+    invoke-virtual {v6, v7, v4}, Lo/BaseMarginTradeFragmentshowContent1;->c(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v4
+
+    .line 58
+    invoke-static {v0, v4, v5, v3, v2}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->setText$default(Lcom/finance/kit/framework/widget/edittext/CombinedEditText;Ljava/lang/String;ZILjava/lang/Object;)V
+
+    .line 59
+    invoke-virtual {v0}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getEditText()Lcom/finance/kit/framework/widget/edittext/MultiFocusListenerEditText;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/EditText;
+
+    invoke-static {v0}, Lo/JResponse;->e(Landroid/widget/EditText;)V
+
+    goto :goto_0
+
+    .line 61
+    :cond_3
+    invoke-static {v0, v4, v5, v3, v2}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->setText$default(Lcom/finance/kit/framework/widget/edittext/CombinedEditText;Ljava/lang/String;ZILjava/lang/Object;)V
+
+    .line 65
+    :cond_4
+    :goto_0
+    invoke-virtual {p0, v1}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->l(Z)V
+
+    .line 67
+    invoke-virtual {p0, v1}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->k(Z)V
+
+    .line 68
+    invoke-virtual {p0, v5}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->g(Z)V
+
+    .line 69
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->K()V
+
+    return-void
+.end method
+
+.method public final C()Ljava/lang/String;
+    .locals 2
+
+    .line 218
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v0, v1, :cond_0
+
+    .line 219
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->S()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 4033
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    return-object v0
+
+    :cond_1
+    const-string v0, "0"
+
+    return-object v0
+.end method
+
+.method public final F()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+    .locals 1
+
+    .line 246
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public G()Ljava/lang/String;
+    .locals 1
+
+    .line 31
+    iget-object v0, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->e:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final H()Ljava/lang/String;
+    .locals 1
+
+    .line 33
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    const-string v0, "0"
+
+    return-object v0
+.end method
+
+.method public I()Lcom/finance/grocer/constant/FutureOrderType;
+    .locals 1
+
+    .line 38
+    iget-object v0, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->a:Lcom/finance/grocer/constant/FutureOrderType;
+
+    return-object v0
+.end method
+
+.method protected final M()Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+    .locals 1
+
+    .line 36
+    iget-object v0, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->b:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+    return-object v0
+.end method
+
+.method public Y()Lkotlin/Pair;
+    .locals 9
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/Pair<",
+            "Ljava/lang/Boolean;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    .line 148
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->H()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    move-object v0, v1
+
+    :goto_0
+    sget-object v2, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->GTD:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;
+
+    invoke-virtual {v2}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->getValue()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const-string v2, ""
+
+    if-eqz v0, :cond_6
+
+    .line 150
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->G()Ljava/lang/Long;
+
+    move-result-object v1
+
+    :cond_1
+    if-eqz v1, :cond_2
+
+    .line 151
+    invoke-virtual {v1}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v3
+
+    goto :goto_1
+
+    :cond_2
+    const-wide/16 v3, 0x0
+
+    :goto_1
+    iget-wide v5, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->c:J
+
+    sub-long/2addr v3, v5
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v5
+
+    cmp-long v0, v3, v5
+
+    if-gez v0, :cond_3
+
+    .line 152
+    move-object v3, p0
+
+    check-cast v3, Lo/PSSSignatureSpiSHA512_224withRSA;
+
+    const v0, 0x7f15314b
+
+    invoke-static {v0}, Lo/JResponse;->j(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x6
+
+    const/4 v8, 0x0
+
+    invoke-static/range {v3 .. v8}, Lo/PSSSignatureSpiSHA512_224withRSA;->d$default(Lo/PSSSignatureSpiSHA512_224withRSA;Ljava/lang/String;ZIILjava/lang/Object;)V
+
+    .line 153
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    invoke-static {v0, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_3
+    if-eqz v1, :cond_5
+
+    .line 155
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_4
+
+    goto :goto_2
+
+    :cond_4
+    move-object v2, v0
+
+    :cond_5
+    :goto_2
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-static {v0, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 157
+    :cond_6
+    sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-static {v0, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public Z()Ljava/lang/String;
+    .locals 1
+
+    .line 141
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->H()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    return-object v0
+
+    :cond_0
+    sget-object v0, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->GTC:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;
+
+    invoke-virtual {v0}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->getValue()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final a(Z)Ljava/lang/String;
+    .locals 2
+
+    .line 198
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v0, v1, :cond_0
+
+    .line 199
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->i(Z)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 201
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_2
+
+    :cond_1
+    const-string v0, ""
+
+    :cond_2
+    :goto_0
+    const/4 v1, 0x0
+
+    .line 5074
+    invoke-static {v0, v1, v1}, Lo/releaseObjectGroup;->e(Ljava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_3
+
+    .line 204
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->h(Z)D
+
+    move-result-wide v0
+
+    invoke-static {v0, v1}, Ljava/lang/String;->valueOf(D)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_3
+    return-object v0
+.end method
+
+.method protected final a(Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;)V
+    .locals 0
+
+    .line 36
+    iput-object p1, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->b:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+    return-void
+.end method
+
+.method protected final ab()Z
+    .locals 2
+
+    .line 242
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->H()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    sget-object v1, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->GTC:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;
+
+    invoke-virtual {v1}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->getValue()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final b(Z)Ljava/lang/String;
+    .locals 2
+
+    .line 170
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v0, v1, :cond_0
+
+    .line 171
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->i(Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 173
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    return-object p1
+
+    :cond_1
+    const-string p1, "0"
+
+    return-object p1
+.end method
+
+.method public final c(Z)Ljava/lang/String;
+    .locals 2
+
+    .line 190
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v0, v1, :cond_0
+
+    .line 191
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->i(Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 193
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    return-object p1
+
+    :cond_1
+    const-string p1, "0"
+
+    return-object p1
+.end method
+
+.method public final d(Z)Ljava/lang/String;
+    .locals 2
+
+    .line 178
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v0, v1, :cond_0
+
+    .line 179
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->i(Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 181
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    return-object p1
+
+    :cond_1
+    const-string p1, "0"
+
+    return-object p1
+.end method
+
+.method public final e(Z)Ljava/lang/String;
+    .locals 0
+
+    .line 186
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->d(Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public e(Ljava/lang/String;)V
+    .locals 2
+
+    .line 237
+    sget-object p1, Lo/registerVoidCallback;->INSTANCE:Lo/registerVoidCallback;
+
+    invoke-static {}, Lo/registerVoidCallback;->r()Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions;
+
+    move-result-object p1
+
+    .line 27038
+    iget-object p1, p1, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions;->g:Lo/weakReferenceReleased;
+
+    sget-object v0, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions;->d:[Lo/CovertWalletListActivityonViewAttached43;
+
+    const/4 v1, 0x4
+
+    aget-object v0, v0, v1
+
+    invoke-virtual {p1, v0}, Lo/weakReferenceReleased;->d(Lo/CovertWalletListActivityonViewAttached43;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions$DemoFundsParentComponent;
+
+    .line 28067
+    iget-boolean p1, p1, Lcom/finance/futures/common/feature/placeorder/util/FuturesTradeOrderOptions$DemoFundsParentComponent;->a:Z
+
+    .line 29242
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->H()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    sget-object v1, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->GTC:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;
+
+    invoke-virtual {v1}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->getValue()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    if-nez p1, :cond_1
+
+    const/4 p1, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    const/4 p1, 0x0
+
+    .line 238
+    :goto_1
+    invoke-virtual {p0, p1, v1}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->a(ZZ)V
+
+    return-void
+.end method
+
+.method public final e(Lo/BaseAgreementSpi;)Z
+    .locals 13
+
+    .line 74
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lo/PSSSignatureSpiSHA512_224withRSA;->b(Lcom/finance/kit/framework/widget/edittext/CombinedEditText;)Lkotlin/Pair;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/Boolean;
+
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v1
+
+    invoke-virtual {v0}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    .line 75
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v2
+
+    sget-object v3, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    const/4 v4, 0x0
+
+    if-eq v2, v3, :cond_3
+
+    if-nez v1, :cond_3
+
+    .line 8013
+    iget-object p1, p1, Lo/BaseAgreementSpi;->d:Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;
+
+    .line 76
+    instance-of v0, p1, Lo/hasOpCode;
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    check-cast p1, Lo/hasOpCode;
+
+    goto :goto_0
+
+    :cond_0
+    move-object p1, v1
+
+    :goto_0
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p1}, Lo/hasOpCode;->getMonitorParams()Lcom/finance/commonbusiness/feature/future/data/vo/FinancePlaceOrderMonitorVO;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_2
+
+    .line 9016
+    iget-object p1, p1, Lcom/finance/commonbusiness/feature/future/data/vo/FinancePlaceOrderMonitorVO;->c:Lo/setActionButtonBytes;
+
+    .line 77
+    instance-of v0, p1, Lo/Database1;
+
+    if-eqz v0, :cond_1
+
+    move-object v1, p1
+
+    check-cast v1, Lo/Database1;
+
+    :cond_1
+    if-eqz v1, :cond_2
+
+    move-object v5, v1
+
+    check-cast v5, Lo/setActionButtonBytes;
+
+    .line 78
+    sget-object p1, Lcom/finance/futures/common/feature/trade/ui/tracer/FuturesPlaceOrderInterceptedType;->NoPrice:Lcom/finance/futures/common/feature/trade/ui/tracer/FuturesPlaceOrderInterceptedType;
+
+    move-object v6, p1
+
+    check-cast v6, Lo/setActionButton;
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x6
+
+    const/4 v10, 0x0
+
+    .line 77
+    invoke-static/range {v5 .. v10}, Lo/setActionButtonBytes;->d(Lo/setActionButtonBytes;Lo/setActionButton;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)V
+
+    :cond_2
+    return v4
+
+    .line 85
+    :cond_3
+    invoke-virtual {p0, p1}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->c(Lo/BaseAgreementSpi;)Lkotlin/Triple;
+
+    move-result-object v1
+
+    .line 10000
+    iget-object v2, v1, Lkotlin/Triple;->first:Ljava/lang/Object;
+
+    .line 85
+    check-cast v2, Ljava/lang/Boolean;
+
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v2
+
+    .line 11000
+    iget-object v3, v1, Lkotlin/Triple;->second:Ljava/lang/Object;
+
+    .line 85
+    check-cast v3, Ljava/lang/String;
+
+    .line 12000
+    iget-object v1, v1, Lkotlin/Triple;->third:Ljava/lang/Object;
+
+    .line 85
+    check-cast v1, Ljava/lang/String;
+
+    if-nez v2, :cond_4
+
+    return v4
+
+    .line 91
+    :cond_4
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->Z()Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 92
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->Y()Lkotlin/Pair;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Ljava/lang/Boolean;
+
+    invoke-virtual {v6}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v6
+
+    invoke-virtual {v5}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Ljava/lang/String;
+
+    if-nez v6, :cond_5
+
+    return v4
+
+    .line 97
+    :cond_5
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->Q()Ljava/lang/String;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/lang/CharSequence;
+
+    invoke-static {v4}, Lkotlin/text/StringsKt;->e(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    if-nez v4, :cond_8
+
+    .line 98
+    invoke-static {p1}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->b(Lo/BaseAgreementSpi;)Lkotlin/Pair;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Ljava/lang/Boolean;
+
+    invoke-virtual {v6}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v6
+
+    invoke-virtual {v4}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/lang/String;
+
+    .line 13014
+    iget-object v7, p1, Lo/BaseAgreementSpi;->e:Lo/BaseCipherSpi;
+
+    .line 99
+    invoke-interface {v7}, Lo/BaseCipherSpi;->J()Ljava/lang/Boolean;
+
+    move-result-object v7
+
+    .line 14014
+    iget-object v8, p1, Lo/BaseAgreementSpi;->e:Lo/BaseCipherSpi;
+
+    .line 100
+    invoke-interface {v8}, Lo/BaseCipherSpi;->M()Z
+
+    move-result v8
+
+    .line 101
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v9
+
+    sget-object v10, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    const-string v11, ""
+
+    if-ne v9, v10, :cond_6
+
+    move-object v0, v11
+
+    .line 106
+    :cond_6
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v9
+
+    sget-object v10, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v9, v10, :cond_7
+
+    .line 15036
+    iget-object v9, p0, Lo/X931SignatureSpiSHA224WithRSAEncryption;->b:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;
+
+    .line 107
+    invoke-virtual {v9}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO$BBOOptionType;->getValue()Ljava/lang/String;
+
+    move-result-object v11
+
+    .line 16013
+    :cond_7
+    iget-object v9, p1, Lo/BaseAgreementSpi;->d:Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;
+
+    .line 17017
+    iget-object v10, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->w:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/interfac/IPlaceOrderReqPO;
+
+    .line 113
+    check-cast v10, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;
+
+    .line 114
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->Q()Ljava/lang/String;
+
+    move-result-object v12
+
+    invoke-virtual {v10, v12}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setSymbol(Ljava/lang/String;)V
+
+    .line 115
+    invoke-virtual {v10, v0}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setPrice(Ljava/lang/String;)V
+
+    .line 116
+    invoke-virtual {v10, v11}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setPriceMatch(Ljava/lang/String;)V
+
+    .line 117
+    invoke-virtual {v10, v1}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setQuantity(Ljava/lang/String;)V
+
+    .line 118
+    invoke-virtual {v10, v7}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setReduceOnly(Ljava/lang/Boolean;)V
+
+    .line 119
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->V()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v10, v0}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setLeverage(Ljava/lang/String;)V
+
+    .line 18016
+    iget-object p1, p1, Lo/BaseAgreementSpi;->b:Ljava/lang/String;
+
+    .line 120
+    invoke-virtual {v10, p1}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setSide(Ljava/lang/String;)V
+
+    .line 121
+    invoke-virtual {v10, v2}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setTimeInForce(Ljava/lang/String;)V
+
+    .line 122
+    invoke-virtual {v10, v5}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setGoodTillDate(Ljava/lang/String;)V
+
+    .line 123
+    sget-object p1, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$OrderType;->LIMIT:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$OrderType;
+
+    invoke-virtual {v10, p1}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO;->setType(Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$OrderType;)V
+
+    .line 125
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->I()Lcom/finance/grocer/constant/FutureOrderType;
+
+    move-result-object p1
+
+    .line 19065
+    iput-object p1, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->p:Lcom/finance/grocer/constant/FutureOrderType;
+
+    .line 20035
+    iput-object v3, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->x:Ljava/lang/String;
+
+    .line 127
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->O()Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 21044
+    iput-object p1, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->s:Ljava/lang/String;
+
+    .line 128
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->N()Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 22047
+    iput-object p1, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->b:Ljava/lang/String;
+
+    .line 23059
+    iput-boolean v8, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->l:Z
+
+    .line 130
+    invoke-static {v4}, Lo/fillText;->d(Ljava/lang/String;)Ljava/lang/Double;
+
+    move-result-object p1
+
+    .line 24032
+    iput-object p1, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->m:Ljava/lang/Double;
+
+    .line 25029
+    iput-boolean v6, v9, Lcom/finance/um/feature/placeorder/vo/UmBasePlaceOrderReqVO;->k:Z
+
+    :cond_8
+    const/4 p1, 0x1
+
+    return p1
+.end method
+
+.method public final f(Z)Ljava/lang/String;
+    .locals 2
+
+    .line 210
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->z()Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;->ACTIVE:Lcom/finance/futures/common/feature/placeorder/data/util/BBOStatus;
+
+    if-ne v0, v1, :cond_0
+
+    .line 211
+    invoke-virtual {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->i(Z)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 7033
+    :cond_0
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    return-object p1
+
+    :cond_1
+    const-string p1, "0"
+
+    return-object p1
+.end method
+
+.method public final h(Z)D
+    .locals 2
+
+    .line 162
+    invoke-virtual {p0}, Lo/PSSSignatureSpiSHA512_224withRSA;->bM_()Lcom/finance/kit/framework/widget/edittext/CombinedEditText;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/finance/kit/framework/widget/edittext/CombinedEditText;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_1
+
+    :cond_0
+    const-string v0, ""
+
+    :cond_1
+    const/4 v1, 0x0
+
+    .line 6074
+    invoke-static {v0, v1, v1}, Lo/releaseObjectGroup;->e(Ljava/lang/String;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    .line 164
+    invoke-super {p0, p1}, Lo/PSSSignatureSpiSHA512_224withRSA;->h(Z)D
+
+    move-result-wide v0
+
+    return-wide v0
+
+    .line 166
+    :cond_2
+    invoke-static {v0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+
+    move-result-wide v0
+
+    return-wide v0
+.end method
+
+.method public j(Z)V
+    .locals 3
+
+    .line 227
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->H()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    move-object v0, v1
+
+    :goto_0
+    sget-object v2, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->GTD:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;
+
+    invoke-virtual {v2}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->getValue()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 229
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->S()V
+
+    .line 26242
+    :cond_1
+    invoke-virtual {p0}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->T()Lo/BaseCipherSpi;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {v0}, Lo/BaseCipherSpi;->H()Ljava/lang/String;
+
+    move-result-object v1
+
+    :cond_2
+    sget-object v0, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->GTC:Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;
+
+    invoke-virtual {v0}, Lcom/finance/commonbusiness/feature/future/data/po/placeorder/ContractPlaceOrderReqPO$TimeInForceMethod;->getValue()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_3
+
+    if-nez p1, :cond_3
+
+    const/4 p1, 0x1
+
+    goto :goto_1
+
+    :cond_3
+    const/4 p1, 0x0
+
+    .line 232
+    :goto_1
+    invoke-virtual {p0, p1, v1}, Lo/X931SignatureSpiSHA224WithRSAEncryption;->a(ZZ)V
+
+    return-void
+.end method

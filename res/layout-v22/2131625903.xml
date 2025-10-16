@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444987" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/strategy_common_tips" ="@dimen/2131166184" ="@dimen/2131166179" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <ImageView android:id="@id/2131433086" ="96.0dip" ="96.0dip" ="16.0dip" ="@drawable/2131233993" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444987" />
+    <TextView ="@color/2131099764" android:id="@id/2131441215" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_quiz_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433086" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429103" ="0.0dip" ="wrap_content" ="39.0dip" ="15.0dip" android:text="@string/skip" ="15.0dip" 2130969911="2131438103" 2130969918="@id/2131429104" 2130969937="2131438103" 2130969940="@id/2131441215" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429104" ="0.0dip" ="wrap_content" ="39.0dip" ="15.0dip" android:text="@string/voptions_quiz_start" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131429103" 2130969940="@id/2131441215" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

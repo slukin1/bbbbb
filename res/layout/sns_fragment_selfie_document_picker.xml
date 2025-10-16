@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/sns_content" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sns_camera_preview_container" ="fill_parent" ="fill_parent">
+        <androidx.camera.view.PreviewView android:id="@id/sns_camera_preview" ="0.0dip" ="0.0dip" 2130969916="9:16" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.sumsub.sns.core.widget.SNSDocBoundsCheckResultView android:id="@id/sns_doc_detection_result" ="0.0dip" ="0.0dip" 2130969916="9:16" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.sumsub.sns.core.widget.SNSCameraBackgroundView ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_camera_preview" />
+        <FrameLayout android:id="@id/sns_auto_manual" ="gone" ="fill_parent" ="0.0dip" ="122.0dip" ="@dimen/sns_autocapture_switch_min_height" ="1.0" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/sns_toolbar">
+            <com.sumsub.sns.core.widget.SNSSegmentedToggleView ="center|top" android:id="@id/sns_auto_manual_switch" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/sns_frame_container" ="fill_parent" ="wrap_content" 2130969917="@id/sns_camera_preview" 2130969937="@id/sns_camera_preview" 2130969940="@id/sns_auto_manual">
+            <com.sumsub.sns.internal.features.presentation.camera.photo.document.SNSFrameViewWithBackground android:id="@id/sns_frame_with_background" ="fill_parent" ="1.0dip" />
+            <FrameLayout ="center" android:id="@id/sns_frame_popup_hint_container" ="gone" ="wrap_content" ="wrap_content">
+                <include layout="@layout/sns_icon_text_popup_layout" />
+            </FrameLayout>
+        </FrameLayout>
+        <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="end" ="center" ="center" android:id="@id/sns_autocapture_hint" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="gone" ="fill_parent" ="0.0dip" ="@dimen/sns_autocapture_hint_min_height" ="2" ="1.0" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/sns_frame_container" 2130971053="#ffffffff" />
+        <com.sumsub.sns.core.widget.SNSToolbarViewInverse android:id="@id/sns_toolbar" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+        <FrameLayout android:id="@id/sns_primary_button" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103">
+            <ImageView ="center" android:id="@id/sns_button" ="wrap_content" ="wrap_content" />
+            <com.sumsub.sns.core.widget.SNSProgressBarView ="center" android:id="@id/sns_primary_button_progress" ="invisible" ="24.0dip" ="24.0dip" ="true" style="?android:progressBarStyle" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/sns_popup_hint_container_background" ="@color/sns_cameraBackgroundOverlay" ="gone" ="fill_parent" ="fill_parent" 2130969912="@id/sns_primary_button" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/sns_toolbar">
+            <include layout="@layout/sns_icon_text_popup_layout" />
+        </FrameLayout>
+        <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_save_frame" ="gone" ="wrap_content" ="wrap_content" android:text="" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="start" ="vertical" android:id="@id/sns_debug_info" ="#aaffffff" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" ="gone" ="0.0dip" ="0.0dip" 2130969911="@id/sns_primary_button" 2130969931="2131438103" 2130969934="@id/sns_primary_button" 2130969941="@id/sns_primary_button">
+            <com.sumsub.sns.core.widget.SNSTextView ="center" android:id="@id/sns_doc_bounds_confidence" ="wrap_content" ="wrap_content" ="gravity" 2130971375="?android:textColorSecondaryInverse" />
+            <com.sumsub.sns.core.widget.SNSTextView ="center" android:id="@id/sns_good_photo_confidence" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="gravity" 2130971375="?android:textColorSecondaryInverse" />
+        </LinearLayout>
+        <LinearLayout ="start" ="vertical" android:id="@id/sns_debug_info_right" ="#aaffffff" ="@dimen/sns_margin_small" ="@dimen/sns_margin_small" ="gone" ="0.0dip" ="wrap_content" 2130969911="@id/sns_primary_button" 2130969932="@id/sns_primary_button" 2130969935="2131438103">
+            <com.sumsub.sns.core.widget.SNSTextView ="center" android:id="@id/2131441187" ="wrap_content" ="wrap_content" ="gravity" 2130971375="?android:textColorSecondaryInverse" />
+            <com.sumsub.sns.core.widget.SNSTextView ="center" android:id="@id/2131441188" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="gravity" 2130971375="?android:textColorSecondaryInverse" />
+            <com.sumsub.sns.core.widget.SNSTextView ="center" android:id="@id/2131441189" ="wrap_content" ="wrap_content" ="gravity" 2130971375="?android:textColorSecondaryInverse" />
+        </LinearLayout>
+        <ImageView ="bottom|center" android:id="@id/sns_gallery" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" ="true" 2130969911="@id/sns_primary_button" 2130969932="@id/sns_primary_button" 2130969935="2131438103" 2130969941="@id/sns_primary_button" 2130971077="@drawable/sns_ic_gallery" 2130971375="?android:textColorSecondaryInverse" />
+        <View android:id="@id/sns_dark_overlay" ="@android:color/black" ="gone" ="fill_parent" ="fill_parent" />
+        <com.sumsub.sns.core.widget.SNSProgressView android:id="@id/sns_picker_progress" ="gone" ="fill_parent" ="fill_parent" />
+        <FrameLayout android:id="@id/2131438317" ="#ffffffff" ="gone" ="fill_parent" ="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/sns_helper" ="fill_parent" ="wrap_content" 2130968769="false" 2130968771="@dimen/sns_collapsed_intro_height" 2130969901="@string/bottom_sheet_behavior" layout="@layout/sns_layout_document_picker_helper" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449502" ="@drawable/2131235987" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/deposit_important_notes" ="24.0dip" ="25.0dip" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131442184" ="invisible" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdraw_network_congestion_not_show_tip" ="6.0dip" 2130969911="@id/2131429561" 2130969936="@id/2131429561" 2130969941="@id/2131429561" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428732" ="invisible" ="150.0dip" ="40.0dip" ="16.0dip" android:text="@string/earn_tip_ok" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969940="@id/2131442184" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429561" ="invisible" ="20.0dip" ="20.0dip" ="18.0dip" ="false" ="25.0dip" 2130969937="2131438103" 2130969940="@id/2131449743" />
+    <com.binance.deposit.common.view.WrapContentViewPager android:id="@id/2131449743" ="fill_parent" ="wrap_content" 2130969940="@id/tv_title" />
+    <com.zhpan.indicator.IndicatorView android:id="@id/2131433417" ="wrap_content" ="8.0dip" ="24.0dip" 2130969911="@id/2131428732" 2130969937="2131438103" 2130969940="@id/2131442184" 2130969941="@id/2131428732" 2130971576="2131432926" 2130971582="2131439770" 2130971583="@color/2131099881" 2130971584="@color/2131099831" 2130971585="@dimen/2131166225" 2130971586="4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

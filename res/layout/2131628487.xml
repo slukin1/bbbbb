@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="true" ="true" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <com.finance.kit.framework.widget.dropdown.KitDropDown android:id="@id/2131430796" ="@drawable/2131236699" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="11.0dip" ="11.0dip" ="15.0dip" ="15.0dip" 2130968689="@color/2131099738" />
+    <com.finance.spot.feature.heatmap.treemap.view.SpotMarketPairTreeMapView android:id="@id/2131441903" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" ="15.0dip" 2130971399="@color/2131101109" 2130971400="@dimen/2131166247" 2130971401="1.0dip" 2130971402="@color/2131103185" 2130971403="@dimen/2131166179" 2130971404="@dimen/2131166170" 2130971405="14.5" 2130971406="@color/2131103185" 2130971408="@dimen/2131166194" 2130971409="@dimen/2131166170" 2130971410="7.5" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436674" ="@drawable/2131236734" ="gone" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip">
+        <ImageView ="96.0dip" ="96.0dip" ="60.0dip" 2130971077="@drawable/2131238419" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/spot_heatmap_data_exception" style="@style/2132149450" />
+    </LinearLayout>
+</LinearLayout>

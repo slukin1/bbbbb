@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" style="@style/2132150354"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/2131428702" ="?2130970781" ="48.0dip" ="48.0dip" ="@drawable/2131238587" ="true" ="@null" />
+    <ImageView android:id="@id/2131436732" ="wrap_content" ="wrap_content" ="@drawable/2131238625" ="true" ="@null" style="@style/2132150337" />
+    <TextView ="center_vertical" android:id="@id/2131428881" ="?2130970781" ="12.0dip" ="wrap_content" ="48.0dip" ="@drawable/2131238587" ="true" ="@null" ="8.0dip" ="true" style="@style/2132150322" />
+</RelativeLayout>

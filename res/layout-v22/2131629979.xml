@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="vertical" android:id="@id/push_layout" ="@drawable/2131236038" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@dimen/2131166184" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131431348">
+        <TextView ="@color/2131099764" android:id="@id/2131447530" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_app_push" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131447528" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/wallet_withdrawal_app_push_subtitle" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131431348" ="@drawable/2131236038" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" android:id="@id/2131446346" ="wrap_content" ="wrap_content" android:text="@string/_email" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131446345" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="* " style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/wallet_subscribe_dialog_content" style="@style/2132149384" />
+    </LinearLayout>
+</LinearLayout>

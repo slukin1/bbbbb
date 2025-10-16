@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433920" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131232951" style="@style/2132148577" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="20.0dip" style="@style/2132149394" />
+    <TextView ="12.0sp" ="@color/2131099778" ="center" android:id="@id/2131442929" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+    <TextView ="12.0sp" ="@color/2131099778" ="end" android:id="@id/tvApr" ="wrap_content" ="wrap_content" style="@style/2132149394" />
+</FrameLayout>

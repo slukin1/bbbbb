@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233546" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="14.0dip" android:text="@string/voptions_lite_help" ="48.0dip" ="20.0dip" 2130969918="@id/2131434434" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="4.0dip" ="wrap_content" ="wrap_content" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969936="@id/tv_title" 2130969941="@id/tv_title" 2130971077="@drawable/2131237100" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131437468" ="fill_parent" ="0.0dip" ="14.0dip" 2130969912="@id/btn_confirm" 2130969940="@id/tv_title">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/tv_desc" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/voptions_discover_help_desc" 2130969941="2131438103" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip">
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131446948" ="@drawable/2131233898" ="9.0dip" ="9.0dip" ="0.0dip" ="wrap_content" android:text="@string/future_mark_price" ="5.0dip" ="@dimen/2131166294" 2130969918="@id/2131445653" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131445653" ="@drawable/2131233898" ="9.0dip" ="9.0dip" ="0.0dip" ="wrap_content" android:text="@string/voptions_market_list_ask" ="@dimen/2131166294" 2130969911="@id/2131446948" 2130969917="2131438103" 2130969936="@id/2131446948" 2130969941="@id/2131446948" style="@style/2132149450" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/future_mark_price" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_market_list_mark_price_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/voptions_market_list_ask" style="@style/2132149446" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/voptions_market_list_ask_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/voptions_discover_ranking_item_cost_title" style="@style/2132149446" />
+            <TextView ="@color/2131099764" android:id="@id/2131446385" ="fill_parent" ="wrap_content" ="5.0dip" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/voptions_discover_ranking_item_profit_title" style="@style/2132149446" />
+            <TextView ="@color/2131099764" android:id="@id/2131446404" ="fill_parent" ="wrap_content" ="5.0dip" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/options_breakeven" style="@style/2132149446" />
+            <TextView ="@color/2131099764" android:id="@id/2131445843" ="fill_parent" ="wrap_content" ="5.0dip" style="@style/2132149350" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969940="@id/2131437468" />
+</androidx.constraintlayout.widget.ConstraintLayout>

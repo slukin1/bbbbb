@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="?2130970780" ="25.0dip" ="25.0dip" ="fill_parent" ="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433681" ="24.0dip" ="24.0dip" style="@style/2132148577" />
+    <TextView ="@color/2131099764" android:id="@id/2131442185" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/tvRate" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149350" />
+</LinearLayout>

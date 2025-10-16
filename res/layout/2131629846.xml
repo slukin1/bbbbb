@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="10.0dip" 2130969138="10.0dip" 2130969139="10.0dip" 2130969140="10.0dip" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="?2130968587" ="5.0dip" ="visible" ="30.0dip" ="30.0dip" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="center" ="center_horizontal" ="horizontal" android:id="@id/2131441630" ="wrap_content" ="fill_parent">
+        <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/2131433920" ="22.0dip" ="22.0dip" ="8.0dip" 2130969616="4" 2130969911="2131438103" 2130969918="@id/2131445044" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" android:id="@id/2131445044" ="wrap_content" ="wrap_content" ="false" ="8.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131433920" 2130969941="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end" android:id="@id/toolbar_right_icon" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" ="5.0dip" 2130971375="@color/2131099764" />
+</androidx.appcompat.widget.Toolbar>

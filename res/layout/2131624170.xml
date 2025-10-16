@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include ="fill_parent" ="44.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <FrameLayout ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601">
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439576" ="fill_parent" ="fill_parent" />
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <TextView ="14.0sp" ="@color/2131100620" ="center_horizontal" ="center_horizontal" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="108.0dip" android:text="@string/margin_liquidation_history_empty" ="10.0dip" ="80.0dip" ="80.0dip" 2130969314="@drawable/2131238419" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

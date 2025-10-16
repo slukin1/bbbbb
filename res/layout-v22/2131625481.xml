@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="false" ="@dimen/2131166184" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446225" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/filter" ="@dimen/2131166179" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <ScrollView android:id="@id/2131439803" ="none" ="fill_parent" ="wrap_content" ="15.0dip" 2130969904="true" 2130969912="@id/2131436461" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446225">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="true">
+            <FrameLayout android:id="@id/2131432017" ="fill_parent" ="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446223" ="fill_parent" ="wrap_content" android:text="@string/futures_orders_dates" style="@style/2132149384" />
+            <LinearLayout ="vertical" android:id="@id/2131436508" ="fill_parent" ="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131441441" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="4" />
+                <LinearLayout ="horizontal" android:id="@id/2131436606" ="fill_parent" ="wrap_content">
+                    <TextView ="@color/2131099764" ="center" android:id="@id/2131444759" ="@drawable/2131233766" ="0.0dip" ="36.0dip" ="false" ="1.0" style="@style/2132149350" />
+                    <TextView ="@color/2131099778" ="center" ="center_vertical" android:id="@id/2131445018" ="wrap_content" ="36.0dip" android:text="—" ="14.0dip" ="14.0dip" style="@style/2132149350" />
+                    <TextView ="@color/2131100785" ="center" android:id="@id/2131442926" ="@drawable/2131233766" ="0.0dip" ="36.0dip" ="false" ="1.0" style="@style/2132149350" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/2131449214" ="fill_parent" ="wrap_content" ="10.0dip" 2130969940="@id/2131436606" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446224" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/spot_history_range_hint" style="@style/2132149384" />
+                <FrameLayout android:id="@id/2131431941" ="fill_parent" ="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/2131436461" ="fill_parent" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969917="@id/2131439803" 2130969937="@id/2131439803">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131439182" ="0.0dip" ="40.0dip" android:text="@string/reset" ="1.0" style="@style/2132148697" />
+        <View ="15.0dip" ="0.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444416" ="wrap_content" ="wrap_content" android:text="@string/margin_repay_amount" style="@style/2132149450" />
+    <LinearLayout android:id="@id/2131435350" ="@drawable/2131232423" ="fill_parent" ="48.0dip" ="4.0dip">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131431430" ="@null" ="12.0dip" ="12.0dip" ="0.0dip" ="fill_parent" android:hint="@string/_amount" ="1.0" ="numberDecimal" ="12.0dip" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131443708" ="12.0dip" ="12.0dip" ="wrap_content" ="fill_parent" android:text="@string/margin_max" ="12.0dip" style="@style/2132149446" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131442949" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149384" />
+</LinearLayout>

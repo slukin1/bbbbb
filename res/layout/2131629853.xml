@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131102384" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624283" />
+    <RelativeLayout ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131429842" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="14.0dip" ="14.0dip">
+            <TextView ="14.0sp" ="#ff828a98" android:id="@id/2131430777" ="wrap_content" ="wrap_content" android:text="@string/date_start_" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131436211" ="@drawable/2131232817" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" ="9.0dip" 2130969918="@id/2131430773" 2130969936="@id/2131430777" 2130969941="2131438103">
+                <ImageView ="wrap_content" ="wrap_content" ="@drawable/2131233593" ="@null" ="8.0dip" />
+                <TextView ="13.0sp" ="@color/2131102398" android:id="@id/2131442760" ="wrap_content" ="wrap_content" />
+            </LinearLayout>
+            <View android:id="@id/2131430773" ="#ff828a98" ="8.0dip" ="1.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="14.0sp" ="#ff828a98" android:id="@id/2131430769" ="wrap_content" ="wrap_content" android:text="@string/date_end_" ="9.0dip" 2130969911="2131438103" 2130969936="@id/2131430773" 2130969941="2131438103" />
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131436210" ="@drawable/2131232817" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131430769" 2130969941="2131438103">
+                <ImageView ="wrap_content" ="wrap_content" ="@drawable/2131233593" ="@null" ="8.0dip" />
+                <TextView ="13.0sp" ="@color/2131102398" android:id="@id/2131442757" ="wrap_content" ="wrap_content" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430000" ="fill_parent" ="32.0dip" ="@id/2131429842">
+            <TextView ="13.0sp" ="#ff5e646f" ="wrap_content" ="wrap_content" android:text="@string/coin_date" ="14.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="13.0sp" ="#ff5e646f" ="wrap_content" ="wrap_content" android:text="@string/ms_withdraw_amount" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="fill_parent" ="@id/2131430000">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" />
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433839" ="gone" ="wrap_content" ="wrap_content" ="true" 2130971077="@drawable/2131238419" />
+    </RelativeLayout>
+</LinearLayout>

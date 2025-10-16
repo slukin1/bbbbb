@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131427588" ="@color/2131099685" ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <com.binance.hydrogen.widgets.scroll.VerticalNestedScrollView android:id="@id/2131435391" ="fill_parent" ="0.0dip" ="24.0dip" ="15.0dip" ="15.0dip" 2130969912="@id/2131428732" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.binance.paymentsdk.bindcard.FiatPaymentCardInfoView android:id="@id/2131435375" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <com.binance.paymentsdk.bindcard.FiatPaymentBillingInfoView android:id="@id/2131435367" ="0.0dip" ="wrap_content" ="36.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435375" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.binance.hydrogen.widgets.scroll.VerticalNestedScrollView>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428732" ="0.0dip" ="48.0dip" ="16.0dip" android:text="@string/confirm" ="false" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435391" />
+</androidx.constraintlayout.widget.ConstraintLayout>

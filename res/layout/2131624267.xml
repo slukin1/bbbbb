@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429687" ="gone" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444375" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_refresh" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434114" ="16.0dip" ="16.0dip" ="2.0dip" 2130969911="@id/2131444375" 2130969936="@id/2131444375" 2130971077="@drawable/2131237911" 2130971375="@color/2131099738" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131442659" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/strategy_create_new_bot" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148695" />
+            <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="15.0dip" ="8.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442659" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439530" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+            <include android:id="@id/2131437854" ="gone" ="fill_parent" ="fill_parent" ="24.0dip" layout="@layout/2131628800" />
+            <com.finance.kit.framework.widget.KitEmptyViewLayout ="center_horizontal" android:id="@id/2131431354" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" 2130969340="2" />
+        </FrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

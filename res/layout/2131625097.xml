@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@drawable/2131235991" ="fill_parent" ="wrap_content" ="@color/2131099685"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446291" ="fill_parent" ="wrap_content" ="24.0dip" ="8.0dip" ="24.0dip" android:text="@string/c2c_terms_of_use_description" ="@font/2131296274" />
+    <RelativeLayout android:id="@id/2131449641" ="fill_parent" ="wrap_content" ="8.0dip" ="@id/2131446291" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429558" ="wrap_content" ="wrap_content" ="4.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131447138" ="fill_parent" ="wrap_content" ="true" ="@font/2131296274" ="4.0dip" ="@id/2131429558" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131449484" ="fill_parent" ="wrap_content" ="8.0dip" ="@id/2131449641" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429555" ="wrap_content" ="wrap_content" ="4.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131445745" ="fill_parent" ="wrap_content" ="true" ="@font/2131296274" ="4.0dip" ="@id/2131429555" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131449483" ="fill_parent" ="wrap_content" ="8.0dip" ="@id/2131449484" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429553" ="wrap_content" ="wrap_content" ="4.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131445540" ="fill_parent" ="wrap_content" ="true" ="@font/2131296274" ="4.0dip" ="@id/2131429553" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131449485" ="fill_parent" ="wrap_content" ="8.0dip" ="@id/2131449483" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429556" ="wrap_content" ="wrap_content" ="4.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131446512" ="fill_parent" ="wrap_content" ="true" ="@font/2131296274" ="4.0dip" ="@id/2131429556" />
+    </RelativeLayout>
+    <com.major.android.uikit2.button.KitButton ="false" ="16.0sp" android:id="@id/btn_confirm" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/confirm" ="@id/2131449485" ="24.0dip" ="24.0dip" />
+    <com.major.android.uikit2.button.KitButton ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131428989" ="@drawable/2131232451" ="fill_parent" ="40.0dip" ="10.0dip" ="24.0dip" android:text="@string/cancel" ="@id/btn_confirm" ="false" ="24.0dip" ="24.0dip" style="@style/2132148697" />
+</RelativeLayout>

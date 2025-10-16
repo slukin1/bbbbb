@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="170.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131438065" ="fill_parent" ="132.0dip" 2130969941="2131438103">
+        <com.insurance.wallet.overview.pnl.LineChartInViewPager android:id="@id/2131438057" ="fill_parent" ="fill_parent" />
+        <LinearLayout ="center" ="center" ="vertical" android:id="@id/2131438066" ="gone" ="wrap_content" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView ="60.0dip" ="60.0dip" 2130971077="@drawable/2131238431" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_overview_chart_no_data_tip" style="@style/2132149394" />
+        </LinearLayout>
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436703" ="visible" ="40.0dip" ="40.0dip" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131438060" ="gone" ="fill_parent" ="24.0dip" ="20.0dip" ="8.0dip" ="20.0dip" ="@dimen/2131166200" 2130969911="2131438103" 2130969940="@id/2131438065">
+        <TextView ="@color/2131099778" android:id="@id/2131438061" ="0.0dip" ="wrap_content" ="14.0dip" ="1.0" 2130969928="2131440524" style="@style/2132149394" />
+        <TextView ="@color/2131099778" android:id="@id/2131438063" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149394" />
+        <TextView ="@color/2131099778" android:id="@id/2131438062" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149394" />
+        <TextView ="@color/2131099778" android:id="@id/2131438059" ="wrap_content" ="wrap_content" ="14.0dip" style="@style/2132149394" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.tabs.KitTabLayout ="@color/2131099764" android:id="@id/2131438068" ="0.0dip" ="wrap_content" ="20.0dip" ="8.0dip" ="20.0dip" ="@dimen/2131166200" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438065" />
+</androidx.constraintlayout.widget.ConstraintLayout>

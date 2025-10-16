@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433630" ="96.0dip" ="96.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238577" />
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433630" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131430855" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131428655" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/cancel" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430855" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

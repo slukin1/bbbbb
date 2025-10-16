@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/um_order_form_open_account" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149355" />
+    <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131442581" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429327" ="24.0dip" ="24.0dip" 2130969759="2131437069" 2130969911="@id/2131442055" 2130969937="2131438103" 2130969941="@id/2131442055" />
+    <TextView ="@color/2131099764" android:id="@id/2131442055" ="wrap_content" ="wrap_content" ="16.0dip" 2130969936="@id/2131429327" 2130969940="@id/2131435855" style="@style/2132149361" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429350" ="24.0dip" ="24.0dip" 2130969759="2131437069" 2130969911="@id/2131444504" 2130969937="2131438103" 2130969941="@id/2131444504" />
+    <TextView ="@color/2131099764" android:id="@id/2131444504" ="wrap_content" ="wrap_content" ="8.0dip" 2130969936="@id/2131429350" 2130969940="@id/2131442055" style="@style/2132149361" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="32.0dip" android:text="@string/open_future_term_now" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444504" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

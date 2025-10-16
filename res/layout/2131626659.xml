@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131433597" ="@drawable/2131232574" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131449672" ="@drawable/2131232470" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_mobile_payment_add_recommended" ="@font/2131296273" ="true" />
+        <View android:id="@id/2131438224" ="@drawable/2131232420" ="4.0dip" ="12.0dip" ="14.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131438230" ="wrap_content" ="wrap_content" ="12.0dip" ="2" ="@font/2131296273" ="8.0dip" ="@id/2131438224" />
+        <LinearLayout ="vertical" android:id="@id/2131428426" ="fill_parent" ="wrap_content" ="6.0dip" ="16.0dip" ="@id/2131438230" ="16.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131438231" ="20.0dip" ="20.0dip" ="@id/2131428426" ="14.0dip" ="true" 2130971077="@drawable/2131237283" />
+    </RelativeLayout>
+</RelativeLayout>

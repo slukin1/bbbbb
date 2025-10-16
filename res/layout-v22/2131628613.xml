@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432360" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivLogo" ="20.0dip" ="20.0dip" ="2.0dip" ="fitXY" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <TextView ="@color/2131099764" android:id="@id/2131442498" ="wrap_content" ="wrap_content" ="4.0dip" 2130969936="@id/ivLogo" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tvName" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="@id/2131442498" 2130969940="@id/2131442498" style="@style/2132149384" />
+    <TextView ="@color/2131099863" android:id="@id/preDelistTv" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/strategy_wallet_be_delisted" ="#1af6465d" ="@dimen/2131166260" 2130969936="@id/tvName" 2130969940="@id/2131442498" style="@style/2132149394" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tvFunds" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/tvValue" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" 2130969917="2131438103" 2130969940="@id/tvFunds" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428312" ="0.0dip" ="0.0dip" 2130968759="2131428521" 2130969125="tvName, preDelistTv" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131442612" ="gone" ="wrap_content" ="wrap_content" android:text="@string/spot_holdings_convert_usdc" 2130969937="@id/tvName" 2130969940="@id/2131428312" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433779" ="gone" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131442612" 2130969936="@id/2131442612" 2130969941="@id/2131442612" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="12.0dip" 2130969911="2131438103" 2130969940="@id/2131442612" />
+</androidx.constraintlayout.widget.ConstraintLayout>

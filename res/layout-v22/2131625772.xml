@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" android:id="@id/2131449523" ="@drawable/2131236025" ="15.0dip" ="fill_parent" ="wrap_content" ="600.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" android:id="@id/2131441548" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/ad_filter" ="@font/2131296265" ="15.0dip" ="10.0dip" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444066" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/c2c_homepage_ads_filter_payment_time_limit_mins" ="@font/2131296273" ="15.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439032" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="false" />
+    <View android:id="@id/2131449691" ="1.0dip" ="14.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446144" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_mob_country_region" ="@font/2131296273" ="15.0dip" />
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131435070" ="fill_parent" ="45.0dip" ="12.0dip" 2130968909="@string/cancel" 2130969627="@string/_search" 2130970759="@string/c2c_filter_search_region" />
+    <TextView ="center" android:id="@id/2131430558" ="30.0dip" ="30.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_filter_payment_no_result" ="@font/2131296274" ="@dimen/2131166184" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439640" ="vertical" ="fill_parent" ="0.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="1.0" ="false" ="@dimen/2131166184" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton ="center" android:id="@id/btn_reset" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/reset" ="1.0" ="16.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton ="center" android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/confirm" ="1.0" ="8.0dip" ="16.0dip" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

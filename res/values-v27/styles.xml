@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132148528" parent="@style/2132149671">
+        <item name="android:navigationBarColor">@color/2131099685</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="2130968798">@style/2132148827</item>
+    </style>
+    <style name="2132148767" parent="@style/2132148530">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:navigationBarColor">@color/2131099685</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="2132148769">
+        <item name="android:backgroundDimAmount">0.7</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:navigationBarColor">#ff000000</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBlurBehindEnabled">true</item>
+        <item name="android:windowBackgroundBlurRadius">10.0dip</item>
+    </style>
+    <style name="2132148974" parent="@style/2132148532">
+        <item name="android:windowBackground">@color/2131100029</item>
+        <item name="android:statusBarColor">@color/2131100029</item>
+        <item name="android:navigationBarColor">@color/2131100029</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="2132150269" parent="@style/2132149496">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="2132148768" parent="@style/2132148767">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

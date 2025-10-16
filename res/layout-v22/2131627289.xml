@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="16.0dip" ="6.0dip" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" ="0.0dip" ="wrap_content" ="16.0dip" 2130969125="tvPricePlaceHolder,flow_currency_and_change_percentage_placeholder" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131432080" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvPricePlaceHolder" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="15.0dip" 2130969905="true" 2130969927="0.0" style="@style/2132148740" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/flow_currency_and_change_percentage_placeholder" ="0.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="wrap_content" ="wrap_content" android:text="--" 2130969905="true" style="@style/2132148737" />
+        <androidx.appcompat.widget.AppCompatTextView ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" style="@style/2132148736" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvHighStrPlaceHolder" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_high" style="@style/2132148738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvHighPlaceHolder" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" ="1" style="@style/2132148739" />
+    <TextView android:id="@id/tvLowStrPlaceHolder" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/market_detail_24h_low" style="@style/2132148738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvVolSubPlaceHolder" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148739" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/tvVolStrPlaceHolder" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_vol_base" ="false" style="@style/2132148738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvVolPlaceHolder" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148739" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvLowPlaceHolder" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" style="@style/2132148739" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvVolSubStrPlaceHolder" ="wrap_content" ="wrap_content" android:text="@string/launcher_24h_vol" style="@style/2132148738" />
+    <Space android:id="@id/space_high_low_flow_placeholder" ="0.0dip" ="8.0dip" />
+    <Space android:id="@id/space_vol_placeholder" ="0.0dip" ="8.0dip" />
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432080" ="wrap_content" ="wrap_content" ="16.0dip" 2130969125="tvHighStrPlaceHolder,tvHighPlaceHolder,space_high_low_flow_placeholder,tvLowStrPlaceHolder,tvLowPlaceHolder" 2130969488="2131440560" 2130969911="2131438103" 2130969918="@id/2131432096" 2130969941="2131438103" />
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432096" ="wrap_content" ="wrap_content" 2130969125="tvVolStrPlaceHolder,tvVolPlaceHolder,space_vol_placeholder,tvVolSubStrPlaceHolder,tvVolSubPlaceHolder" 2130969488="2131440560" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

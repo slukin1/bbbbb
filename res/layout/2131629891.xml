@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="12.0dip" ="fill_parent" ="wrap_content" ="66.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131430990" ="160.0dip" ="wrap_content" android:text="@string/distribution" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center_vertical" android:id="@id/2131430989" ="wrap_content" ="wrap_content" android:text="@string/earn_airdrop" 2130969917="2131438103" 2130969940="@id/2131430985" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430986" ="wrap_content" ="wrap_content" ="ltr" 2130969937="2131438103" 2130969940="@id/2131430990" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131430985" ="wrap_content" ="wrap_content" ="true" ="true" ="ltr" ="8.0dip" 2130969911="@id/2131430990" 2130969918="@id/2131436488" 2130969941="@id/2131430990" 2130969958="@dimen/2131166153" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436488" ="gone" ="wrap_content" ="wrap_content" 2130969911="@id/2131430990" 2130969917="2131438103" 2130969941="@id/2131430990">
+        <com.major.android.uikit2.image.KitRoundImageView android:id="@id/2131433764" ="20.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433738" ="@drawable/2131236001" ="1.0dip" ="9.0dip" ="9.0dip" ="fitXY" ="@color/2131099685" 2130969911="2131438103" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View ="@color/2131099751" ="0.0dip" ="1.0px" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

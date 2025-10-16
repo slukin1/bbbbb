@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true">
+        <ripple ="#ff707a8a">
+            <item>
+                <shape>
+                    <solid ="@color/2131099744" />
+                    <corners ="20.0dip" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item>
+        <ripple ="#ff707a8a">
+            <item>
+                <shape>
+                    <solid ="#00000000" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

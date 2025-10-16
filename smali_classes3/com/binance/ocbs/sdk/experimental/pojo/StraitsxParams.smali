@@ -1,0 +1,351 @@
+.class public Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;
+.super Lcom/binance/ocbs/sdk/experimental/pojo/OcbsTraderParams;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams$Creator;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0012\u0008\u0016\u0018\u00002\u00020\u0001B%\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0004\u0012\n\u0008\u0002\u0010\u0007\u001a\u0004\u0018\u00010\u0006\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\r\u0010\u000b\u001a\u00020\n\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u001f\u0010\u0012\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00102\u0006\u0010\u0005\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013R\u001a\u0010\u0014\u001a\u00020\u00028\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017R\"\u0010\u0018\u001a\u00020\u00048\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0018\u0010\u0019\u001a\u0004\u0008\u001a\u0010\u001b\"\u0004\u0008\u001c\u0010\u001dR$\u0010\u001e\u001a\u0004\u0018\u00010\u00068\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008 \u0010!\"\u0004\u0008\"\u0010#"
+    }
+    d2 = {
+        "Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;",
+        "Lcom/binance/ocbs/sdk/experimental/pojo/OcbsTraderParams;",
+        "Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;",
+        "p0",
+        "Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;",
+        "p1",
+        "Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;",
+        "p2",
+        "<init>",
+        "(Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;)V",
+        "",
+        "isSellNewAccountFlow",
+        "()Z",
+        "",
+        "describeContents",
+        "()I",
+        "Landroid/os/Parcel;",
+        "",
+        "writeToParcel",
+        "(Landroid/os/Parcel;I)V",
+        "base",
+        "Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;",
+        "getBase",
+        "()Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;",
+        "extra",
+        "Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;",
+        "getExtra",
+        "()Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;",
+        "setExtra",
+        "(Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;)V",
+        "account",
+        "Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;",
+        "getAccount",
+        "()Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;",
+        "setAccount",
+        "(Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;)V"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private account:Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+
+.field private final base:Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;
+
+.field private extra:Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams$Creator;
+
+    invoke-direct {v0}, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams$Creator;-><init>()V
+
+    check-cast v0, Landroid/os/Parcelable$Creator;
+
+    sput-object v0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 241
+    invoke-direct {p0, p1, p2, v0}, Lcom/binance/ocbs/sdk/experimental/pojo/OcbsTraderParams;-><init>(Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 238
+    iput-object p1, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->base:Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;
+
+    .line 239
+    iput-object p2, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->extra:Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+
+    .line 240
+    iput-object p3, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->account:Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 29
+
+    and-int/lit8 v0, p4, 0x2
+
+    if-eqz v0, :cond_0
+
+    .line 239
+    new-instance v0, Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+
+    move-object v1, v0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x0
+
+    const/4 v10, 0x0
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x0
+
+    const/4 v13, 0x0
+
+    const/4 v14, 0x0
+
+    const/4 v15, 0x0
+
+    const/16 v16, 0x0
+
+    const/16 v17, 0x0
+
+    const/16 v18, 0x0
+
+    const/16 v19, 0x0
+
+    const/16 v20, 0x0
+
+    const/16 v21, 0x0
+
+    const/16 v22, 0x0
+
+    const/16 v23, 0x0
+
+    const/16 v24, 0x0
+
+    const/16 v25, 0x0
+
+    const/16 v26, 0x0
+
+    const v27, 0x1ffffff
+
+    const/16 v28, 0x0
+
+    invoke-direct/range {v1 .. v28}, Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;-><init>(Lcom/binance/ocbs/sdk/card/pojo/RoutingChannelResponse;Ljava/lang/String;Ljava/lang/String;Lcom/binance/ocbs/sdk/pojo/LimitForPNKBean;Ljava/lang/String;Lcom/binance/ocbs/sdk/card/pojo/FiatPaymentNewQuoteBean;Lcom/binance/ocbs/sdk/experimental/pojo/OcbsTradeResultParams;Lcom/binance/ocbs/sdk/pojo/MobileMoneyAccountBean;Lcom/binance/ocbs/sdk/pojo/TimePickerPeriodParams;Lcom/binance/ocbs/sdk/pojo/RecurringBuyInfosForResult;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/ArrayList;Lcom/binance/ocbs/sdk/pojo/MemeCoinInfo;ZLcom/binance/ocbs/sdk/experimental/pojo/Regular;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    goto :goto_0
+
+    :cond_0
+    move-object/from16 v0, p2
+
+    :goto_0
+    and-int/lit8 v1, p4, 0x4
+
+    if-eqz v1, :cond_1
+
+    const/4 v1, 0x0
+
+    move-object/from16 v2, p0
+
+    move-object/from16 v3, p1
+
+    goto :goto_1
+
+    :cond_1
+    move-object/from16 v2, p0
+
+    move-object/from16 v3, p1
+
+    move-object/from16 v1, p3
+
+    .line 237
+    :goto_1
+    invoke-direct {v2, v3, v0, v1}, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;-><init>(Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final getAccount()Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+    .locals 1
+
+    .line 240
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->account:Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+
+    return-object v0
+.end method
+
+.method public final getBase()Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;
+    .locals 1
+
+    .line 238
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->base:Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;
+
+    return-object v0
+.end method
+
+.method public final getExtra()Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+    .locals 1
+
+    .line 239
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->extra:Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+
+    return-object v0
+.end method
+
+.method public final isSellNewAccountFlow()Z
+    .locals 1
+
+    .line 243
+    invoke-virtual {p0}, Lcom/binance/ocbs/sdk/experimental/pojo/OcbsTraderParams;->isSell()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->account:Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;->getAccountId()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    check-cast v0, Ljava/lang/CharSequence;
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    :cond_1
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final setAccount(Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;)V
+    .locals 0
+
+    .line 240
+    iput-object p1, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->account:Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+
+    return-void
+.end method
+
+.method public final setExtra(Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;)V
+    .locals 0
+
+    .line 239
+    iput-object p1, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->extra:Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+
+    return-void
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 2
+
+    .line 65352
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->base:Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;
+
+    invoke-virtual {v0, p1, p2}, Lcom/binance/ocbs/sdk/experimental/pojo/BaseParams;->writeToParcel(Landroid/os/Parcel;I)V
+
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->extra:Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;
+
+    invoke-virtual {v0, p1, p2}, Lcom/binance/ocbs/sdk/experimental/pojo/ExtraInfo;->writeToParcel(Landroid/os/Parcel;I)V
+
+    iget-object v0, p0, Lcom/binance/ocbs/sdk/experimental/pojo/StraitsxParams;->account:Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;
+
+    if-nez v0, :cond_0
+
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    return-void
+
+    :cond_0
+    const/4 v1, 0x1
+
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v0, p1, p2}, Lcom/binance/ocbs/sdk/pojo/UQPayAccountBean;->writeToParcel(Landroid/os/Parcel;I)V
+
+    return-void
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235593" ="fill_parent" ="500.0dip" ="500.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="15.0dip" ="gone" ="50.0dip" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="wrap_content" ="50.0dip" android:text="@string/wallet_transfer_paypin" ="false" 2130969918="@id/2131434743" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434743" ="5.0dip" ="wrap_content" ="wrap_content" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969936="@id/tv_title" 2130969941="@id/tv_title" 2130971077="@drawable/2131235770" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="15.0dip" ="50.0dip" ="50.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <com.major.android.uikit.input.KitVerifyCode android:id="@id/2131449309" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="30.0dip" 2130968905="false" 2130969568="true" 2130969574="true" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/tv_title" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099787" ="center_horizontal" android:id="@id/2131446553" ="?2130970780" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/payment_forgot_your_pin" ="@font/2131296265" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131449309" />
+    <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130970857="false" />
+</androidx.constraintlayout.widget.ConstraintLayout>

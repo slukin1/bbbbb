@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131447046" ="17.0dip" ="17.0dip" ="fill_parent" ="wrap_content" android:text="@string/ms_index_more" ="15.0dip" ="15.0dip" ="@dimen/2131166191" style="@style/2132149374" />
+    <TextView ="14.0dip" ="@color/2131099778" ="center" android:id="@id/2131447133" ="17.0dip" ="17.0dip" ="gone" ="fill_parent" ="wrap_content" android:text="@string/no_more_data" ="15.0dip" ="15.0dip" ="@dimen/2131166191" style="@style/2132149394" />
+</FrameLayout>

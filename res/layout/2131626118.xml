@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429968" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" ="105.0dip" android:text="@string/no_data" ="25.0dip" 2130969314="@drawable/2131233810" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429905" ="gone" ="fill_parent" ="wrap_content" ="100.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/iv_no_network" ="96.0dip" ="96.0dip" ="@null" 2130969912="@id/tv_no_network_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.2" 2130969943="2131438085" 2130971077="@drawable/2131238395" />
+        <TextView ="#ff848e9c" ="center_horizontal" android:id="@id/tv_no_network_tips" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ms_network_link_failed" ="33.0dip" ="33.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iv_no_network" style="@style/2132149350" />
+        <ImageView android:id="@id/iv_refresh" ="24.0dip" ="24.0dip" ="31.0dip" ="@null" ="3.0dip" 2130969911="2131438103" 2130969918="@id/tv_refresh" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/tv_no_network_tips" 2130971077="@drawable/2131237935" 2130971375="@color/2131099765" />
+        <TextView ="16.0sp" ="@color/2131099787" android:id="@id/tv_refresh" ="wrap_content" ="wrap_content" android:text="@string/fetch_again" 2130969911="@id/iv_refresh" 2130969917="2131438103" 2130969936="@id/iv_refresh" 2130969941="@id/iv_refresh" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

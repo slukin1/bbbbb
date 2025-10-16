@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430263" ="@drawable/2131235989" ="15.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="15.0dip" ="15.0dip" ="@color/2131099744" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099778" android:id="@id/2131443158" ="wrap_content" ="wrap_content" android:text="@string/from" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/2131445408" ="0.0dip" ="wrap_content" android:text="@string/strategy_wallet_asset_tab_spot" ="12.0dip" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969917="2131438103" 2130969936="@id/2131443158" 2130969941="@id/2131443158" style="@style/2132149446" />
+        <ImageView android:id="@id/2131434210" ="20.0dip" ="20.0dip" ="6.0dip" ="@drawable/2131237111" 2130969937="@id/2131445408" 2130969940="@id/2131445408" />
+        <TextView ="center_vertical" android:id="@id/2131444865" ="0.0dip" ="0.0dip" ="5.0dip" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969911="@id/2131434210" 2130969917="2131438103" 2130969936="@id/2131434210" 2130969941="@id/2131434210" style="@style/2132149384" />
+        <TextView ="@color/2131099863" android:id="@id/2131443142" ="gone" ="0.0dip" ="wrap_content" ="6.0dip" android:text="@string/finance_swap_no_amount_available" 2130969917="2131438103" 2130969937="@id/2131434210" 2130969940="@id/2131444865" style="@style/2132149361" />
+        <TextView ="@color/2131099778" android:id="@id/2131445022" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/to" 2130969937="2131438103" 2130969940="@id/2131443142" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/2131445414" ="0.0dip" ="wrap_content" android:text="@string/wallet_balance_history_title_suffix_usd_m_futures" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131443158" 2130969941="@id/2131445022" style="@style/2132149446" />
+        <ImageView android:id="@id/2131434211" ="20.0dip" ="20.0dip" ="6.0dip" ="@drawable/2131237111" 2130969937="@id/2131445408" 2130969940="@id/2131445414" />
+        <TextView ="center_vertical" android:id="@id/2131444870" ="0.0dip" ="0.0dip" ="5.0dip" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969911="@id/2131434211" 2130969917="2131438103" 2130969936="@id/2131434211" 2130969941="@id/2131434211" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131430483" ="fill_parent" ="wrap_content" ="24.0dip" ="numberDecimal" ="15.0dip" ="15.0dip" 2130969660="@string/asset_convert_amount" 2130969937="2131438103" 2130969940="@id/2131430263" 2130970672="@string/max" 2130970845="false" 2130970861="true" />
+    <LinearLayout ="center_vertical" android:id="@id/2131435896" ="4.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131436375">
+        <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131444271" ="wrap_content" ="wrap_content" android:text="@string/asset_convert_real_time_rate" 2130971380="2131428553" 2130971382="@string/finance_swap_real_time_tips" style="@style/2132149350" />
+        <View ="0.0dip" ="0.0dip" ="10.0dip" ="1.0" />
+        <LinearLayout ="center_vertical" android:id="@id/2131436328" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131102398" android:id="@id/2131444270" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" ="7.5dip" style="@style/2132149450" />
+            <ImageView android:id="@id/2131434113" ="16.0dip" ="16.0dip" ="@null" 2130971077="@drawable/2131237910" 2130971375="@color/2131099764" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout ="center_vertical" android:id="@id/2131436315" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969940="@id/2131435896">
+        <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131445217" ="0.0dip" ="wrap_content" android:text="@string/finance_transaction_fees" ="1.0" 2130971380="2131428553" 2130971382="@string/finance_swap_transaction_fee_tips" style="@style/2132149350" />
+        <View ="10.0dip" ="0.0dip" />
+        <TextView ="@color/2131102398" android:id="@id/2131444127" ="wrap_content" ="wrap_content" android:text="@string/finance_no_fees" ="5.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" android:id="@id/2131436376" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969940="@id/2131436315">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/asset_convert_will_receive" ="1.0" style="@style/2132149350" />
+        <View ="10.0dip" ="0.0dip" />
+        <TextView ="@color/2131102398" android:id="@id/2131444294" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" android:id="@id/2131436375" ="2.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969940="@id/2131430483">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/finance_max_transferable_amount" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131443730" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433989" ="2.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131237075" ="@color/2131099738" />
+    </LinearLayout>
+    <View android:id="@id/2131449349" ="@color/2131099751" ="fill_parent" ="0.5dip" ="24.0dip" 2130969940="@id/2131436376" />
+    <TextView ="@color/2131099778" android:id="@id/2131441230" ="wrap_content" ="wrap_content" android:text="*" ="15.0dip" ="4.0dip" 2130969937="2131438103" 2130969941="@id/2131444849" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131444849" ="0.0dip" ="wrap_content" ="24.0dip" android:text="@string/finance_swap_convert_tips" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131441230" 2130969940="@id/2131449349" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099933" android:id="@id/2131428936" ="fill_parent" ="50.0dip" ="16.0dip" android:text="@string/confirm" ="false" ="15.0dip" ="15.0dip" 2130969911="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

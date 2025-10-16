@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435287" ="@color/2131099685" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <FrameLayout android:id="@id/2131431918" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

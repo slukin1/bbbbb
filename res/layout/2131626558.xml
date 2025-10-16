@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131100637" ="middle" ="center" android:id="@id/2131447095" ="@drawable/2131232662" ="wrap_content" ="36.0dip" ="3.0dip" ="76.0dip" ="true" ="8.0dip" ="8.0dip" ="12.0dip" style="@style/2132149450" />
+    <ImageView ="end|center|top" android:id="@id/iv_selected_icon" ="gone" ="13.0dip" ="13.0dip" ="@drawable/2131234443" ="6.0dip" />
+</FrameLayout>

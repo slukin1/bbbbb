@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.scroll.KlineVerticalNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <FrameLayout ="fill_parent" ="40.0dip">
+                <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131450425" ="false" ="fill_parent" ="40.0dip" ="40.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433932" ="40.0dip" ="32.0dip" ="5.0dip" ="15.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+            </FrameLayout>
+            <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" />
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449654" ="fill_parent" ="fill_parent" />
+        </LinearLayout>
+    </com.finance.framework.widget.scroll.KlineVerticalNestedScrollView>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

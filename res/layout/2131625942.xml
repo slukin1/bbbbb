@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" android:id="@id/2131436634" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="@null" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430841" ="fill_parent" ="fill_parent" 2130969974="2131439795">
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432694" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_history_label, img_clear, fl_history_container" />
+                <TextView ="@color/2131099764" android:id="@id/tv_history_label" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/search_history" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_clear" ="20.0dip" ="20.0dip" ="centerInside" ="15.0dip" 2130969911="@id/tv_history_label" 2130969917="2131438103" 2130969941="@id/tv_history_label" 2130971077="@drawable/2131237186" 2130971375="@color/2131099785" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/fl_history_container" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969937="2131438103" 2130969940="@id/tv_history_label" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432695" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_top_search_label" />
+                <TextView ="@color/2131099764" android:id="@id/tv_top_search_label" ="wrap_content" ="wrap_content" ="32.0dip" ="8.0dip" android:text="@string/ms_top_search" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/fl_history_container" 2130969962="@dimen/2131166209" style="@style/2132149374" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

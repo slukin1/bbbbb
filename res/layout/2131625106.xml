@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="36.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433089" ="160.0dip" ="160.0dip" ="36.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="34.0dip" android:text="@string/earn_auto_compound" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433089" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131438453" ="0.0dip" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" android:text="@string/earn_dual_auto_compound_retain_desc" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131442568" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_keep_auto_compound" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438453" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/tvCancel" ="wrap_content" ="wrap_content" ="14.0dip" ="10.0dip" ="14.0dip" android:text="@string/cancel" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442568" style="@style/2132148704" />
+    <Space ="wrap_content" ="50.0dip" 2130969937="2131438103" 2130969940="@id/2131442568" />
+</androidx.constraintlayout.widget.ConstraintLayout>

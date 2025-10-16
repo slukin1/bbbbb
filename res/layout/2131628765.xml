@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="wrap_content" ="wrap_content" android:text="@string/strategy_asterisk" style="@style/2132149393" />
+    <TextView android:id="@id/2131442952" ="fill_parent" ="wrap_content" ="4.0dip" style="@style/2132149393" />
+</androidx.appcompat.widget.LinearLayoutCompat>

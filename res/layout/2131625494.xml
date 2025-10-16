@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" android:id="@id/2131436691" ="#ffffffff" ="8.0dip" ="8.0dip" ="fill_parent" ="40.0dip" ="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="#ff333333" ="center" ="0.0dip" ="fill_parent" android:text="@string/sun" ="1.0" />
+    <TextView ="12.0sp" ="#ff333333" ="center" ="0.0dip" ="fill_parent" android:text="@string/mon" ="1.0" />
+    <TextView ="12.0sp" ="#ff333333" ="center" ="0.0dip" ="fill_parent" android:text="@string/tue" ="1.0" />
+    <TextView ="12.0sp" ="center" ="0.0dip" ="fill_parent" android:text="@string/wed" ="1.0" />
+    <TextView ="12.0sp" ="#ff333333" ="center" ="0.0dip" ="fill_parent" android:text="@string/thu" ="1.0" />
+    <TextView ="12.0sp" ="#ff333333" ="center" ="0.0dip" ="fill_parent" android:text="@string/fri" ="1.0" />
+    <TextView ="12.0sp" ="#ff333333" ="center" ="0.0dip" ="fill_parent" android:text="@string/sat" ="1.0" />
+</merge>

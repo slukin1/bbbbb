@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="bold" ="#ff848e9c" ="center_horizontal" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="65.0dip" android:text="@string/no_records_found" ="20.0dip" ="true" 2130969314="@drawable/2131238419" />
+    <LinearLayout ="vertical" android:id="@id/2131430339" ="fill_parent" ="fill_parent">
+        <Space ="fill_parent" ="4.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432902" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="30.0dip" ="15.0dip">
+            <TextView ="bold" ="@color/2131099764" android:id="@id/2131432901" ="wrap_content" ="wrap_content" android:text="@string/search_history" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149447" />
+            <ImageView android:id="@id/ivDeleteHistory" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/2131432901" 2130969917="2131438103" 2130969941="@id/2131432901" 2130971077="@drawable/2131237186" 2130971375="@color/2131099785" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432900" ="gone" ="fill_parent" ="wrap_content" ="9.0dip" ="15.0dip" 2130968639="0" 2130969284="@drawable/2131234777" 2130969467="0" 2130969468="2131450408" 2130969940="@id/2131432901" 2130970841="2131437069" 2130970843="2131437069" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441073" ="fill_parent" ="40.0dip" ="4.0dip" ="7.0dip" />
+        <View android:id="@id/2131449529" ="@color/2131099751" ="gone" ="fill_parent" ="1.0px" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131430437" ="fill_parent" ="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

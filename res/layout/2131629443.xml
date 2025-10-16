@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <TextView ="@color/2131099764" android:id="@id/2131441186" ="15.0dip" ="fill_parent" ="wrap_content" style="@style/2132149450" />
+    <include android:id="@id/2131441416" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" layout="@layout/2131629444" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436590" ="fill_parent" ="wrap_content" ="4.0dip" 2130969941="2131438103" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436473" ="gone" ="fill_parent" ="0.0dip" ="2.0dip" 2130969911="2131438103" 2130969940="@id/2131436590">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="2.0dip" ="2.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/widget_category_filter_hint" ="@dimen/2131166184" ="@dimen/2131166199" style="@style/2132149361" />
+        <com.binance.hydrogen.widgets.scroll.VerticalNestedScrollView ="vertical" ="fill_parent" ="wrap_content" ="10.0dip" ="4.0dip" ="10.0dip" ="11.0dip" ="0" ="@dimen/2131166156">
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432042" ="fill_parent" ="wrap_content" 2130968639="0" 2130969467="0" 2130969468="2131450408" 2130970841="2131437069" />
+        </com.binance.hydrogen.widgets.scroll.VerticalNestedScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>> </androidx.constraintlayout.widget.ConstraintLayout>

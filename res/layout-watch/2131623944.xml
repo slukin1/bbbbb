@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ButtonBarLayout ="bottom" ="horizontal" android:id="@id/2131429156" ="12.0dip" ="4.0dip" ="12.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@android:id/button3" ="wrap_content" ="wrap_content" ="1.0" style="?2130968846" />
+    <Button android:id="@android:id/button2" ="wrap_content" ="wrap_content" ="1.0" style="?2130968845" />
+    <Button android:id="@android:id/button1" ="wrap_content" ="wrap_content" ="1.0" style="?2130968847" />
+</androidx.appcompat.widget.ButtonBarLayout>

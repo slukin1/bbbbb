@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" android:id="@id/2131430848" ="@drawable/2131236038" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099863" android:id="@id/2131430849" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131430843" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430844" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/2131430843" 2130969936="@id/2131430843" 2130969941="@id/2131430843" style="@style/2132149384" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/kitDivider" ="fill_parent" ="0.5dip" ="6.0dip" ="15.0dip" 2130969940="@id/2131430843" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430846" ="wrap_content" ="wrap_content" ="6.0dip" 2130969937="2131438103" 2130969940="@id/kitDivider" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430847" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131430846" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430845" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131430847" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

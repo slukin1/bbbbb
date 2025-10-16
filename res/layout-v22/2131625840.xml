@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444860" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/futures_dialog_tpsl_unit_type_title" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <include android:id="@id/2131430027" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444860" layout="@layout/2131625919" />
+    <include android:id="@id/2131430029" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430027" layout="@layout/2131625919" />
+    <include android:id="@id/2131430025" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430029" layout="@layout/2131625919" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar ="14.0sp" ="@color/2131100635" ="@color/2131100973" ="center_vertical" android:id="@id/2131431280" ="fill_parent" ="32.0dip" ="12.0dip" ="true" 2130968735="@color/2131099685" 2130968908="false" 2130968909="@string/_cancel" 2130970759="@string/c2c_order_history_search_search_order_number" 2130971628="true" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437715" ="7.0dip" ="7.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444450" ="wrap_content" ="wrap_content" android:text="@string/search_history" ="@font/2131296273" ="8.0dip" 2130969911="@id/2131433913" 2130969937="2131438103" 2130969941="@id/2131433913" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433913" ="8.0dip" ="8.0dip" ="8.0dip" ="8.0dip" ="36.0dip" ="36.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237186" 2130971375="@color/2131099764" />
+        <com.binance.c2c.view.FiatFlowLayout android:id="@id/2131432085" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="4.0dip" ="@id/2131444450" 2130969917="2131438103" 2130969940="@id/2131433913" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131431363" ="gone" ="fill_parent" ="wrap_content" ="80.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="96.0dip" ="96.0dip" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131446353" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/c2c_search_no_result_found" ="@font/2131296274" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437916" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="fill_parent" ="6.0dip" />
+</LinearLayout>

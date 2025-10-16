@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="23.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131449987" ="wrap_content" ="wrap_content" android:text="@string/wallet_transfer_send_mode" ="false" 2130969911="@id/2131450000" 2130969937="2131438103" 2130969941="@id/2131450000" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131450000" ="175.0dip" ="wrap_content" ="8.0dip" ="false" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_to" 2130969937="2131438103" 2130969941="@id/2131449985" style="@style/2132149350" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131449985" ="wrap_content" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969940="@id/2131450000">
+        <TextView ="@color/2131099764" android:id="@id/2131449977" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131449978" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView ="@color/2131099778" android:id="@id/2131445441" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/amount_total" ="false" 2130969912="@id/2131445440" 2130969937="2131438103" 2130969940="@id/2131449985" 2130969942="0.0" style="@style/2132149350" />
+    <LinearLayout ="end" ="vertical" android:id="@id/2131449979" ="wrap_content" ="wrap_content" 2130969911="@id/2131445441" 2130969917="2131438103" 2130969941="@id/2131445441">
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131449988" ="175.0dip" ="wrap_content" ="false" 2130969917="2131438103" style="@style/2132149350" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131445443" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_internal_pay_recive_ammount" ="false" 2130969937="2131438103" 2130969940="@id/2131449979" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131445444" ="175.0dip" ="wrap_content" ="false" 2130969917="2131438103" 2130969941="@id/2131445443" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131445440" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/fee" ="false" 2130969937="2131438103" 2130969940="@id/2131445443" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131445439" ="gone" ="175.0dip" ="wrap_content" ="false" 2130969917="2131438103" 2130969941="@id/2131445440" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_transfer_result_send_from" ="false" 2130969911="@id/2131449991" 2130969937="2131438103" 2130969941="@id/2131449991" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449991" ="175.0dip" ="wrap_content" ="16.0dip" ="false" 2130969917="2131438103" 2130969940="@id/2131445440" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_transfer_result_send_note" ="false" 2130969911="@id/2131449994" 2130969937="2131438103" 2130969941="@id/2131449994" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449994" ="190.0dip" ="wrap_content" ="16.0dip" ="4" 2130969917="2131438103" 2130969940="@id/2131449991" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/date" ="false" 2130969911="@id/2131449999" 2130969937="2131438103" 2130969941="@id/2131449999" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449999" ="185.0dip" ="wrap_content" ="16.0dip" ="false" 2130969917="2131438103" 2130969940="@id/2131449994" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="23.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_transfer_result_order_id" 2130969911="@id/2131449995" 2130969937="2131438103" 2130969941="@id/2131449995" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131449995" ="23.0dip" ="186.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969940="@id/2131449999" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

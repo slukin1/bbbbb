@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/2131435027" ="@drawable/2131233719" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131441936" 2130969937="2131438103" 2130969941="@id/2131441936" />
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/2131441936" ="wrap_content" ="wrap_content" android:text="@string/spot_trade_iceberg" ="5.0dip" 2130969274="@string/spot_trade_iceberg" 2130969936="@id/2131435027" 2130969941="2131438103" 2130971382="@string/spot_trade_iceberg_explain" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.edittext.KitEditText android:id="@id/edt_iceberg_amount" ="8.0dip" 2130969780="@string/ms_withdraw_amount" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441936" style="@style/2132148633" />
+    <com.finance.framework.widget.LongClickButton android:id="@id/lcb_sub_iceberg_amount" 2130969937="@id/edt_iceberg_amount" 2130969941="@id/edt_iceberg_amount" style="@style/2132149198" />
+    <com.finance.framework.widget.LongClickButton android:id="@id/lcb_add_iceberg_amount" 2130969917="@id/edt_iceberg_amount" 2130969941="@id/edt_iceberg_amount" style="@style/2132148227" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432661" ="gone" ="wrap_content" ="wrap_content" 2130969125="edt_iceberg_amount,lcb_sub_iceberg_amount,lcb_add_iceberg_amount" />
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="vertical" android:id="@id/2131429606" ="20.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout ="fill_parent" ="wrap_content" 2130969974="2131439795" 2130971174="@android:color/transparent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430841" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent">
+                <androidx.constraintlayout.widget.Group android:id="@id/2131432905" ="gone" ="wrap_content" ="wrap_content" 2130969125="deposit_history_label,                         ivDeleteHistory,historyFlexBoxLayout" />
+                <TextView ="@color/2131099764" android:id="@id/deposit_history_label" ="wrap_content" ="wrap_content" android:text="@string/_history" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+                <ImageView android:id="@id/ivDeleteHistory" ="gone" ="20.0dip" ="20.0dip" 2130969911="@id/deposit_history_label" 2130969917="2131438103" 2130971077="@drawable/2131237186" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/historyFlexBoxLayout" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" 2130968639="0" 2130969467="0" 2130969468="2131450408" 2130969937="2131438103" 2130969940="@id/deposit_history_label" 2130970841="2131437069" />
+                <androidx.constraintlayout.widget.Group android:id="@id/2131441909" ="gone" ="wrap_content" ="wrap_content" 2130969125="deposit_trend_label, trendingFlexBoxLayout" />
+                <TextView ="@color/2131099764" android:id="@id/deposit_trend_label" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ms_trending" 2130969937="@id/deposit_history_label" 2130969940="@id/historyFlexBoxLayout" style="@style/2132149425" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/trendingFlexBoxLayout" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" 2130968639="0" 2130969467="0" 2130969468="2131450408" 2130969937="2131438103" 2130969940="@id/deposit_trend_label" 2130970841="2131437069" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="0.0dip" ="0.0dip" ="20.0dip" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvEmpty" ="gone" ="fill_parent" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <com.binance.base.widget.BNCLottieAnimationView ="center_horizontal" android:id="@id/2131438676" ="25.0dip" ="25.0dip" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+        <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="32.0dip" ="visible" ="16.0dip" ="0.0dip" 2130968837="@color/2131099787" 2130968838="@dimen/2131167690" 2130968840="@color/2131099787" 2130968841="@dimen/2131167696" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        <TextView ="32.0sp" ="center" ="end" android:id="@id/2131443523" ="@drawable/2131234435" ="invisible" ="54.0dip" ="45.0dip" ="0.0dip" ="0.0dip" ="24.0dip" 2130969918="@id/2131429131" 2130969941="@id/2131429131" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

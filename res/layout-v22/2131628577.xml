@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439479" ="@drawable/2131233545" ="16.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" ="@dimen/2131166269" />
+    <com.finance.spot.feature.trade.quickorder.SpotQuickPlaceOrderView android:id="@id/2131438790" ="fill_parent" ="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

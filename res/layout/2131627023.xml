@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234712" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="30.0dip" ="30.0dip" ="2.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="end" ="start" android:id="@id/2131445658" ="0.0dip" ="wrap_content" ="1" ="10.0dip" 2130969918="@id/2131432729" 2130969936="@id/iv_logo" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" ="start" android:id="@id/2131445666" ="0.0dip" ="wrap_content" ="1" ="10.0dip" 2130969918="@id/2131432729" 2130969936="@id/iv_logo" 2130969940="@id/2131445658" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432729" ="wrap_content" ="wrap_content" 2130969921="0.6" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tv_amount" ="wrap_content" ="wrap_content" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131445881" ="wrap_content" ="wrap_content" ="1" 2130969917="2131438103" 2130969940="@id/tv_amount" style="@style/2132149384" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436490" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="@color/2131099881" 2130971077="@drawable/2131238208" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" ="wrap_content" ="wrap_content" android:text="@string/earn_coming_soon" ="1" ="2.0dip" style="@style/2132149450" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

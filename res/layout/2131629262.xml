@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center" ="horizontal" android:id="@id/2131441630" ="wrap_content" ="wrap_content" ="9.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/toolbar_title_icon_1" ="24.0dip" ="24.0dip" ="centerInside" ="true" ="@null" 2130969911="@id/toolbar_title" 2130969937="2131438103" style="@style/2132148577" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/toolbar_title_icon_2" ="visible" ="16.0dip" ="16.0dip" ="centerInside" ="true" ="@null" ="16.0dip" 2130969911="@id/toolbar_title_icon_1" 2130969937="@id/toolbar_title_icon_1" style="@style/2132148577" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/iconBarrier" ="0.0dip" ="0.0dip" 2130968759="2131431371" 2130969125="toolbar_title_icon_1,toolbar_title_icon_2" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/toolbar_title" ="wrap_content" ="wrap_content" ="true" ="8.0dip" 2130969936="@id/iconBarrier" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" ="end" ="center" android:id="@id/2131441626" ="wrap_content" ="wrap_content" ="true" ="@id/toolbar_title" 2130969917="@id/toolbar_title" 2130969937="@id/toolbar_title_icon_1" 2130969940="@id/toolbar_title" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

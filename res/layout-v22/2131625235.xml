@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430921" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439042" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="0.0dip" ="1.0" ="@dimen/2131166184" ="@dimen/2131166286" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428624" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" ="@dimen/2131166184" ="@dimen/2131166188" style="@style/2132148692" />
+</LinearLayout>

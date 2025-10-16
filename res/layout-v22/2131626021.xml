@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446280" ="wrap_content" ="wrap_content" ="15.0dip" ="28.0dip" ="15.0dip" ="12.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434902" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/tv_tips" ="0.0dip" ="wrap_content" ="12.0dip" ="2.0dip" 2130969917="@id/2131429073" 2130969937="@id/2131429073" 2130969940="@id/2131446280" style="@style/2132149355" />
+    <ImageView android:id="@id/2131434902" ="96.0dip" ="96.0dip" ="@drawable/2131238414" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429073" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/OK" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_tips" style="@style/2132148692" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131436633" ="gone" ="0.0dip" ="wrap_content" ="10.0dip" ="20.0dip" ="20.0dip" 2130969917="@id/2131429073" 2130969937="@id/2131429073" 2130969940="@id/2131429073">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432974" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131429093" ="wrap_content" ="wrap_content" ="40.0dip" ="4.0dip" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

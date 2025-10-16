@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="40.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131448850" ="wrap_content" ="wrap_content" android:text="@string/voptions__bigdata_put_call_ratio" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131448781" ="@drawable/2131236699" ="wrap_content" ="wrap_content" ="10.0dip" ="8.0dip" ="4.0dip" ="15.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" 2130969937="2131438103" 2130969940="@id/2131448850" style="@style/2132149454" />
+    <com.finance.kit.framework.widget.chart.FinanceLineChart android:id="@id/2131430685" ="invisible" ="0.0dip" ="200.0dip" ="25.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448781" />
+    <com.finance.futures.common.feature.bigdata.ui.widget.FutureBigDataLegendView android:id="@id/2131435820" ="invisible" ="0.0dip" ="25.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430685" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/txtEmpty" ="fill_parent" ="wrap_content" ="40.0dip" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_data" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

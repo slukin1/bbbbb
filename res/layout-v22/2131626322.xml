@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.widget.UserAvatarNameView android:id="@id/2131428189" ="wrap_content" ="wrap_content" 2130968717="24" 2130968718="8" 2130968721="12" 2130969937="2131438103" 2130969941="2131438103" 2130970289="190" 2130970291="true" style="@style/2132149450" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131438250" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_chat_btn_make_payment" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131428189" 2130969962="@dimen/2131166153" />
+    <View android:id="@id/dashLine" ="@drawable/2131233287" ="gone" ="0.0dip" ="2.0dip" ="2.0dip" ="@color/2131099764" 2130969917="@id/2131438250" 2130969937="@id/2131438250" 2130969940="@id/2131438250" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131429509" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969911="@id/2131438250" 2130969917="2131438103" 2130969941="@id/2131438250">
+        <com.major.android.uikit2.button.KitButton ="12.0sp" android:id="@id/2131429501" ="wrap_content" ="24.0dip" android:text="@string/c2c_mob_notification_chat" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.binance.c2c.chat.widget.RemindTextView ="10.0sp" ="#ffffffff" android:id="@id/2131449077" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="-10.0dip" ="@dimen/2131166247" 2130968724="@color/2131100155" 2130969936="@id/2131429501" 2130969941="@id/2131429501" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099764" ="center" android:id="@id/2131442960" ="@drawable/2131236004" ="6.0dip" ="2.0dip" ="6.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_order_detail_escrowed_crypto" ="2.0dip" ="@font/2131296274" ="@color/2131099744" ="@dimen/2131166269" ="@dimen/2131166199" 2130969311="@drawable/2131237997" 2130969312="@color/2131099764" 2130969937="@id/2131438250" 2130969940="@id/2131438250" 2130969962="@dimen/2131166286" />
+</androidx.constraintlayout.widget.ConstraintLayout>

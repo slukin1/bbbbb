@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="164.0dip" ="@color/2131099803" 2130970893="@dimen/2131166170" 2130970894="@id/2131448213" 2130970897="keleton_home_widget_common_4x4_light.svg" 2130970899="keleton_home_widget_common_4x4_night.svg" 2130970900="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.view.View android:id="@id/2131448213" ="0.0dip" ="1.0dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131447612" ="8.0dip" ="5.0dip" ="8.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="@dimen/2131166286" ="@dimen/2131166260" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+    <com.binance.base.widget.CountdownTimerView android:id="@id/2131439113" ="7.0dip" ="2.0dip" ="7.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="@dimen/2131166277" ="@dimen/2131166199" 2130969917="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="60.0dip" ="60.0dip" ="18.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131434602" ="60.0dip" ="60.0dip" ="18.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970050="true" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/tv_title" ="fill_parent" ="wrap_content" ="14.0dip" ="1" ="12.0dip" ="12.0dip" 2130969940="@id/2131434597" style="@style/2132149382" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447950" ="fill_parent" ="wrap_content" ="2" ="12.0dip" ="12.0dip" 2130969940="@id/tv_title" style="@style/2132149450" />
+</com.components.skeleton.SkeletonViewGroup>

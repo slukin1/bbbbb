@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131437865" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout ="center_vertical" android:id="@id/2131435189" ="fill_parent" ="24.0dip" ="8.0dip" ="0.0dip" ="8.0dip" ="0.0dip" ="@dimen/2131166286" ="@dimen/2131166153" />
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131440886" ="fill_parent" ="0.0dip" ="1.0" />
+</androidx.appcompat.widget.LinearLayoutCompat>

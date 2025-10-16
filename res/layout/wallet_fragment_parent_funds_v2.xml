@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131437137" ="fragment_parent_funds" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" ="horizontal" android:id="@id/2131450237" ="gone" ="wrap_content" ="32.0dip" ="5.0dip" android:text="@string/ms_funds_overview_tab" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131441689" ="164.0dip" ="32.0dip" ="7.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450237" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131441079" ="8.0dip" ="8.0dip" ="false" ="fill_parent" ="44.0dip" ="6.0dip" 2130969940="@id/2131441689" 2130969962="@dimen/2131166153" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969940="@id/2131441079" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider" 2130969962="@dimen/2131166269" />
+</androidx.constraintlayout.widget.ConstraintLayout>

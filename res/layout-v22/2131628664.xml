@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/strategy_ranking_settings" ="false" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436325" ="0.0dip" ="wrap_content" 2130969918="@id/2131433855" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442213" ="wrap_content" ="wrap_content" android:text="@string/strategy_asterisk" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149384" />
+        <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099778" android:id="@id/2131431565" ="fill_parent" ="wrap_content" ="false" ="4.0dip" 2130969391="1" 2130969396="true" 2130969398="true" 2130969399="false" 2130969400="false" 2130969999="@dimen/2131166191" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433855" ="4.0dip" ="24.0dip" ="24.0dip" ="-4.0dip" ="@color/2131099738" 2130969917="2131438103" 2130969941="@id/2131436325" 2130971077="@drawable/2131237050" />
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="0.0dip" ="24.0dip" ="15.0dip" ="15.0dip" 2130969918="@id/2131429331" 2130969937="2131438103" 2130969940="@id/2131436325" style="@style/2132148644" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429331" ="true" 2130969911="@id/tabLayout" 2130969918="@id/2131442225" 2130969941="@id/tabLayout" style="@style/2132148647" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099764" ="end" android:id="@id/2131442225" ="wrap_content" ="wrap_content" android:text="@string/strategy_ranking_settings_auto_ranking" ="1" ="4.0dip" ="0.0dip" 2130969274="@string/strategy_ranking_settings" 2130969911="@id/tabLayout" 2130969917="2131438103" 2130969941="@id/tabLayout" 2130970849="true" 2130971380="2131430667" style="@style/2132149384" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449439" ="fill_parent" ="0.0dip" ="1.0" 2130969911="2131438103" 2130969940="@id/tabLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429966" ="fill_parent" ="22.0dip" ="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448062" ="80.0dip" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <com.finance.kit.framework.widget.textview.FinanceAutoResizeTextView ="@color/2131099764" android:id="@id/tv_price" ="0.0dip" ="wrap_content" ="12.0dip" 2130968690="@dimen/2131166170" 2130968691="@dimen/2131166286" 2130968692="@dimen/2131166154" 2130969911="2131438103" 2130969918="@id/tv_amount" 2130969928="2131440523" 2130969929="1.0" 2130969936="@id/2131448062" 2130969941="2131438103" 2130969947="@dimen/2131166157" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tv_amount" ="100.0dip" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

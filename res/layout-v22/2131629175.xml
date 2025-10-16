@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131450435" ="fill_parent" ="25.0dip" ="14.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.finance.kit.framework.widget.edittext.KitLongClickEditText android:id="@id/2131437925" ="0.0dip" ="wrap_content" ="10.0dip" app:2130969577="@string/finance_input_amount" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450435" 2130970739="3" 2130971511="0.001" />
+    <TextView ="@color/2131099764" android:id="@id/tv_error_tips" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131437925" style="@style/2132149384" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/seekbarAmount" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969686="100.0" 2130969687="0.0" 2130969703="5" 2130969917="@id/2131437925" 2130969937="@id/2131437925" 2130969940="@id/tv_error_tips" 2130969962="@dimen/2131166286" />
+    <TextView ="@color/2131099778" android:id="@id/2131445702" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/avbl" 2130969937="2131438103" 2130969940="@id/seekbarAmount" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131445692" ="0.0dip" ="wrap_content" ="1" ="4.0dip" ="10.0dip" ="5.0dip" 2130969918="@id/2131434348" 2130969936="@id/2131445702" 2130969941="@id/2131445702" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434348" ="16.0dip" ="16.0dip" ="@drawable/2131238246" 2130969911="@id/2131445692" 2130969917="2131438103" 2130969941="@id/2131445692" 2130971375="@color/2131099765" />
+    <FrameLayout android:id="@id/layout_position_mode_container" ="fill_parent" ="wrap_content" 2130969940="@id/2131445692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

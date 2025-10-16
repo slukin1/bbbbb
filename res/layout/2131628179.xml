@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439496" ="fill_parent" ="wrap_content" ="?android:selectableItemBackground" ="64.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/icon_container" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969918="@id/2131435204" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/icon" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235828" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:id="@id/2131435204" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969918="@id/2131429588" 2130969927="0.0" 2130969936="@id/icon_container" 2130969941="2131438103" style="?2130971291" />
+    <ImageView android:id="@id/2131429588" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235829" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429993" ="@drawable/2131233759" ="fill_parent" ="40.0dip" ="20.0dip" ="20.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="0.0dip" ="wrap_content" android:text="@string/finance_trade_more_popup_trade_mode_title" ="1" ="8.0dip" 2130969911="2131438103" 2130969918="@id/radio_group" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <RadioGroup ="horizontal" android:id="@id/radio_group" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+        <com.finance.kit.framework.widget.TradeSwitchModeRadioButton ="@color/2131099764" ="center" android:id="@id/2131438849" ="wrap_content" ="wrap_content" android:text="@string/finance_trade_more_popup_trade_mode_pro" ="5.0dip" style="@style/2132149450" />
+        <android.widget.Space ="10.0dip" ="fill_parent" />
+        <com.finance.kit.framework.widget.TradeSwitchModeRadioButton ="@color/2131099764" ="center" android:id="@id/2131438847" ="wrap_content" ="wrap_content" android:text="@string/finance_trade_more_popup_trade_mode_lite" ="5.0dip" style="@style/2132149450" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131438980" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444321" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/strategy_external_running_popular_title" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131442659" ="wrap_content" ="wrap_content" android:text="@string/strategy_create_new_grid" 2130969911="@id/2131444321" 2130969917="2131438103" 2130969941="@id/2131444321" style="@style/2132148695" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439590" ="fill_parent" ="wrap_content" ="12.0dip" 2130969940="@id/2131444321" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131444318" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/strategy_explore_bot_marketplace" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439590" style="@style/2132149450" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131431358" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433839" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238419" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/ct_twap_no_orders" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442924" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/strategy_spot_grid_no_orders_hint" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131442658" ="@drawable/2131233754" ="16.0dip" ="16.0dip" ="wrap_content" ="28.0dip" ="8.0dip" android:text="@string/strategy_explore_bot_marketplace" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428303" style="@style/2132149384" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131430965" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/disable_warning" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131430964" ="@color/2131099800" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/disable_notice" ="6.0dip" ="1.1" style="@style/2132149350" />
+    <TextView ="@color/2131099863" ="email" android:id="@id/2131440868" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/ms_accounts_if_failed_to_reactive" ="1.3" style="@style/2132149350" />
+    <Space ="wrap_content" ="0.0dip" ="1.0" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131430959" ="fill_parent" ="50.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="33.0dip" android:text="@string/disable_account" />
+</LinearLayout>

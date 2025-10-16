@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131450306" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131627708" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/mpc_wallet_import_wallet" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131450306" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447723" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/mpc_wallet_seed_phrase_or_private_key" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429972" ="@drawable/2131232632" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="350.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447723">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099762" ="top" android:id="@id/2131431542" ="@null" ="fill_parent" ="wrap_content" ="96.0dip" android:hint="@string/mpc_wallet_import_wallet_hint" 2130969912="@id/2131434800" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434800" ="10.0dip" ="10.0dip" ="gone" ="34.0dip" ="44.0dip" ="10.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131237864" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131446377" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_incorrect_seed_phrase_tip" 2130969937="2131438103" 2130969940="@id/2131429972" style="@style/2132149350" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436558" ="@drawable/2131236009" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="10.0dip" 2130969917="2131438103" 2130969918="@id/2131436557" 2130969940="@id/2131446377">
+        <androidx.appcompat.widget.AppCompatImageView ="start" ="20.0dip" ="20.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237864" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131437182" ="wrap_content" ="wrap_content" android:text="@string/_scan" ="4.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436557" ="@drawable/2131236009" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="visible" ="wrap_content" ="wrap_content" ="16.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131446377">
+        <androidx.appcompat.widget.AppCompatImageView ="start" ="20.0dip" ="20.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237146" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131437181" ="wrap_content" ="wrap_content" android:text="@string/paste" ="4.0dip" style="@style/2132149450" />
+    </LinearLayout>
+    <com.mpc.wallet.widget.uikit.KitButton ="center" android:id="@id/2131429044" ="0.0dip" ="48.0dip" ="15.0dip" ="15.0dip" ="10.0dip" android:text="@string/mpc_wallet_import" 2130969173="8.0" 2130969912="@id/2131439700" 2130969917="2131438103" 2130969937="2131438103" 2130970889="1" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439700" ="15.0dip" ="5.0dip" ="15.0dip" ="10.0dip" ="gone" ="fill_parent" ="50.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" android:id="@id/2131436434" ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" ="10.0dip" 2130971077="@drawable/2131235711" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="wrap_content" ="wrap_content" android:text="@string/payment_add_currency" ="20.0dip" style="@style/2132149450" />
+</LinearLayout>

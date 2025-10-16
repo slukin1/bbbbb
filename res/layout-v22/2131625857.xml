@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434610" ="fill_parent" ="16.0dip" ="centerInside" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233782" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131446321" ="wrap_content" ="50.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131434610" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427476" ="15.0dip" ="50.0dip" ="50.0dip" ="centerInside" 2130969911="@id/2131446321" 2130969917="2131438103" 2130969941="@id/2131446321" 2130971077="@drawable/2131237100" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="fill_parent" ="wrap_content" ="never" 2130969940="@id/2131446321">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439805" ="fill_parent" ="wrap_content">
+            <com.finance.futures.common.feature.history.exporthistory.FuturesDownloadHistoryTimePeriodView android:id="@id/2131441751" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427634" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/spot_order_history_generate_des" ="@dimen/2131166184" 2130969940="@id/2131441751" style="@style/2132149384" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432629" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_pairs_title,divider_pairs,view_all_pairs,actv_all_pairs,aciv_all_pairs,actv_all_pairs_hint" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_pairs_title" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" android:text="@string/finance_pairs" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131427634" style="@style/2132149446" />
+            <View android:id="@id/divider_pairs" ="@color/2131099751" ="gone" ="fill_parent" ="0.5dip" ="15.0dip" ="5.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/tv_pairs_title" />
+            <View android:id="@id/view_all_pairs" ="@drawable/2131236698" ="gone" ="fill_parent" ="40.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider_pairs" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/actv_all_pairs" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_all" ="10.0dip" 2130969911="@id/view_all_pairs" 2130969937="@id/view_all_pairs" 2130969941="@id/view_all_pairs" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/aciv_all_pairs" ="gone" ="24.0dip" ="24.0dip" ="@drawable/2131233587" ="10.0dip" 2130969911="@id/view_all_pairs" 2130969917="@id/view_all_pairs" 2130969941="@id/view_all_pairs" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/actv_all_pairs_hint" ="20.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/view_all_pairs" style="@style/2132149384" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432653" ="gone" ="wrap_content" ="wrap_content" 2130969125="actv_export_status_title,aciv_export_status,actv_export_status,v_export_click_area" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/actv_export_status_title" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/futures_history_title_export_status" ="15.0dip" 2130969937="2131438103" 2130969940="@id/actv_all_pairs_hint" style="@style/2132149374" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/aciv_export_status" ="24.0dip" ="24.0dip" ="@drawable/2131233587" ="15.0dip" 2130969911="@id/actv_export_status_title" 2130969917="2131438103" 2130969941="@id/actv_export_status_title" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/actv_export_status" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/actv_export_status_title" 2130969918="@id/aciv_export_status" 2130969941="@id/actv_export_status_title" style="@style/2132149374" />
+            <View android:id="@id/v_export_click_area" ="5.0dip" ="200.0dip" ="0.0dip" 2130969911="@id/actv_export_status" 2130969917="@id/aciv_export_status" 2130969941="@id/actv_export_status" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432704" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_format_title,divider_format,ll_doc_type_excel,gl_format_type,ll_doc_type_pdf" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_format_title" ="wrap_content" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" android:text="@string/spot_format" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131427634" style="@style/2132149446" />
+            <View android:id="@id/divider_format" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="5.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/tv_format_title" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/ll_doc_type_excel" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166260" 2130969937="2131438103" 2130969940="@id/divider_format">
+                <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131435024" ="false" ="20.0dip" ="20.0dip" ="true" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/spot_excel" style="@style/2132149384" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/gl_format_type" ="wrap_content" ="wrap_content" 2130969125="ll_doc_type_pdf" 2130969921="0.5" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/ll_doc_type_pdf" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="15.0dip" ="@dimen/2131166260" 2130969936="@id/gl_format_type" 2130969940="@id/divider_format">
+                <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131435025" ="false" ="20.0dip" ="20.0dip" ="false" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/spot_pdf" style="@style/2132149384" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131101049" ="center" android:id="@id/2131429027" ="@drawable/2131234048" ="fill_parent" ="40.0dip" ="15.0dip" ="35.0dip" ="15.0dip" android:text="@string/spot_export" ="@dimen/2131166184" 2130969940="@id/2131439809" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

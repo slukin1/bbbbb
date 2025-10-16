@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131438195" ="wrap_content" ="32.0dip" ="63.0dip" 2130968912="@dimen/2131166200" 2130968914="@dimen/2131166153">
+        <TextView ="@color/2131102397" ="center" android:id="@id/2131438196" ="wrap_content" ="wrap_content" ="10.0dip" ="10.0dip" android:text="@string/payment_crypto_box_send" ="false" ="@dimen/2131166156" style="@style/2132149450" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/2131438191" ="wrap_content" ="32.0dip" ="63.0dip" ="10.0dip" 2130968912="@dimen/2131166200" 2130968914="@dimen/2131166153">
+        <TextView ="@color/2131102397" ="center" android:id="@id/2131438192" ="wrap_content" ="wrap_content" ="10.0dip" ="10.0dip" android:text="@string/payment_crypto_box_receive" ="false" ="@dimen/2131166156" style="@style/2132149450" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

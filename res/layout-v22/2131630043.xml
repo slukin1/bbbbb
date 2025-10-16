@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441614" ="fill_parent" ="44.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441611" ="20.0dip" ="fill_parent" ="12.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="center" ="wrap_content" ="fill_parent" android:text="@string/wallet_manage_account" ="1.0" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" android:id="@id/tv_account_mode_title" ="16.0dip" ="16.0dip" ="wrap_content" ="wrap_content" android:text="@string/futures_portfolio_margin_account_mode" ="15.0dip" ="@dimen/2131166188" 2130969937="2131438103" 2130969940="@id/2131441614" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/tv_account_mode_value" ="wrap_content" ="wrap_content" 2130969911="@id/tv_account_mode_title" 2130969918="@id/iv_account_mode_switch" 2130969941="@id/tv_account_mode_title" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_account_mode_switch" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/tv_account_mode_title" 2130969917="2131438103" 2130969941="@id/tv_account_mode_title" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="1.0dip" ="15.0dip" ="4.0dip" ="15.0dip" ="4.0dip" ="@dimen/2131166184" ="@dimen/2131166247" 2130969940="@id/tv_account_mode_title" />
+    <TextView ="@color/2131099778" android:id="@id/tv_account_list" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_overview_edit_wallet_account_list_title" ="15.0dip" ="@dimen/2131166199" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432622" ="gone" ="wrap_content" ="wrap_content" 2130969125="divider,tv_account_list,tv_account_mode_title,tv_account_mode_value,iv_account_mode_switch" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439725" ="fill_parent" ="0.0dip" ="4.0dip" 2130969940="@id/tv_account_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>

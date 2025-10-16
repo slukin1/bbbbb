@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="36.0dip" ="36.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433992" ="gone" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233779" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433994" ="@drawable/2131236009" ="8.0dip" ="fill_parent" ="fill_parent" ="#ff000000" ="@color/2131099879" 2130971077="@drawable/2131237659" />
+    </FrameLayout>
+    <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" ="1.0">
+        <TextView ="16.0sp" ="@color/2131099764" ="end" android:id="@id/2131443741" ="wrap_content" ="wrap_content" ="true" ="@font/2131296273" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131441110" ="fill_parent" ="wrap_content" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433991" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+</LinearLayout>

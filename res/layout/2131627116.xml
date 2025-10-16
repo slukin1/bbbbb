@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234712" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432729" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="24.0dip" ="24.0dip" ="fitXY" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969936="@id/ivLogo" 2130969941="2131438103">
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131099764" ="end" ="start" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="1" style="@style/2132149446" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131099778" ="end" ="start" android:id="@id/2131442191" ="wrap_content" ="wrap_content" ="1" style="@style/2132149384" />
+            <TextView ="@color/2131099787" ="end" ="center_vertical" android:id="@id/2131443616" ="@drawable/2131236009" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/launch_pool" ="1" ="4.0dip" ="#1af0b90b" style="@style/2132149394" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="end" ="horizontal" ="0.0dip" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131432729" 2130969941="2131438103">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="#ff2ebd85" ="end" ="end" ="bottom" android:id="@id/2131441983" ="fill_parent" ="wrap_content" ="1" ="5.0dip" style="@style/2132149446" />
+            <com.binance.base.widget.UnderLineTipsTextView ="@color/2131099778" ="end" ="end" ="end|bottom|center" android:id="@id/tvApr" ="wrap_content" ="wrap_content" android:text="@string/earn_apr" ="1" 2130970562="31" 2130970566="43" 2130971380="1" 2130971382="@string/earn_max_tips" 2130971506="@color/2131099778" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

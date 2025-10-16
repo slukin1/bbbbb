@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="true" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center" ="wrap_content" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427923" ="70.0dip" ="70.0dip" 2130969912="@id/2131427964" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" 2130971077="@drawable/2131233692" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427964" ="0.0dip" ="wrap_content" ="12.0dip" ="1" 2130968700="16.0sp" 2130968701="4.0sp" 2130968705="2131449068" 2130969905="true" 2130969912="@id/appCompatTextView2" 2130969937="2131438103" 2130969940="@id/2131427923" 2130969945="2131450410" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/appCompatTextView2" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/c2c_sys_maintenance_title" 2130969905="true" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131427964" 2130969945="2131450410" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

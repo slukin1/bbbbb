@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="10.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="1" 2130969905="true" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131447601" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/earn_redeem_date" 2130969937="2131438103" 2130969940="@id/2131442185" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447600" ="wrap_content" ="wrap_content" 2130969911="@id/2131447601" 2130969917="2131438103" 2130969941="@id/2131447601" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131448267" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_total_payment" 2130969937="2131438103" 2130969940="@id/2131447601" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131448266" ="wrap_content" ="wrap_content" 2130969911="@id/2131448267" 2130969917="2131438103" 2130969941="@id/2131448267" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447591" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_receiving_principle" 2130969937="2131438103" 2130969940="@id/2131448267" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447590" ="wrap_content" ="wrap_content" 2130969911="@id/2131447591" 2130969917="2131438103" 2130969941="@id/2131447591" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447589" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_receiving_interest" 2130969937="2131438103" 2130969940="@id/2131447591" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447588" ="wrap_content" ="wrap_content" 2130969911="@id/2131447589" 2130969917="2131438103" 2130969941="@id/2131447589" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447965" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_supply_date" 2130969937="2131438103" 2130969940="@id/2131447589" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447964" ="wrap_content" ="wrap_content" 2130969911="@id/2131447965" 2130969917="2131438103" 2130969941="@id/2131447965" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/tv_status_title" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/status" 2130969937="2131438103" 2130969940="@id/2131447965" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131447900" ="wrap_content" ="wrap_content" 2130969911="@id/tv_status_title" 2130969917="2131438103" 2130969941="@id/tv_status_title" style="@style/2132149350" />
+    <View ="@color/2131101260" ="fill_parent" ="0.5dip" ="10.0dip" 2130969911="2131438103" 2130969940="@id/tv_status_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

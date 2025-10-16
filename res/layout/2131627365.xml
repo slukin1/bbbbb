@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.KitMaxHeightLinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/alpha_market_token_info" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439635" ="fill_parent" ="0.0dip" ="1.0" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131429009" ="fill_parent" ="40.0dip" ="15.0dip" ="23.0dip" ="15.0dip" ="12.0dip" android:text="@string/OK" style="@style/2132148692" />
+</com.finance.kit.framework.widget.KitMaxHeightLinearLayout>

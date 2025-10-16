@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ActionBarOverlayLayout android:id="@id/2131430802" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131623956" />
+    <androidx.appcompat.widget.ActionBarContainer ="top" android:id="@id/2131427490" ="fill_parent" ="wrap_content" ="true" ="true" style="?2130968591">
+        <androidx.appcompat.widget.Toolbar android:id="@id/2131427488" ="fill_parent" ="wrap_content" 2130970294="@string/abc_action_bar_up_description" style="?2130971419" />
+        <androidx.appcompat.widget.ActionBarContextView ="?2130968615" android:id="@id/2131427503" ="gone" ="fill_parent" ="wrap_content" style="?2130968614" />
+    </androidx.appcompat.widget.ActionBarContainer>
+</androidx.appcompat.widget.ActionBarOverlayLayout>

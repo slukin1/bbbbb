@@ -1,0 +1,38 @@
+.class public final synthetic Lo/setCircularRevealScrimColor;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic c:Lo/getCircularRevealScrimColor;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/getCircularRevealScrimColor;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/setCircularRevealScrimColor;->c:Lo/getCircularRevealScrimColor;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/setCircularRevealScrimColor;->c:Lo/getCircularRevealScrimColor;
+
+    invoke-static {v0}, Lo/getCircularRevealScrimColor;->b(Lo/getCircularRevealScrimColor;)Lo/setTextStartPaddingResource;
+
+    move-result-object v0
+
+    return-object v0
+.end method

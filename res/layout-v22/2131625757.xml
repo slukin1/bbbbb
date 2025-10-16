@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@drawable/2131235991" ="fill_parent" ="wrap_content" ="@color/2131099685"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434903" ="fill_parent" ="200.0dip" ="15.0dip" ="true" />
+    <TextView ="18.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/c2c_add_p2p_to_home_screen_title" ="@id/2131434903" ="@font/2131296275" ="@dimen/2131166184" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442581" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/c2c_add_p2p_to_home_screen_description" ="@id/tvTitle" ="@font/2131296274" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton ="16.0sp" ="center" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/c2c_shortcut_add_now" ="@id/2131442581" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton ="16.0sp" ="center" android:id="@id/2131443494" ="fill_parent" ="40.0dip" ="15.0dip" ="18.0dip" ="15.0dip" ="20.0dip" android:text="@string/c2c_shortcut_add_later" ="@id/2131428732" ="@dimen/2131166184" style="@style/2132148697" />
+</RelativeLayout>

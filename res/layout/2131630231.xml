@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099803" 2130970892="282.0dip" 2130970893="@dimen/2131166188" 2130970894="@id/2131436395" 2130970897="keleton_home_widget_common_8x8_light.svg" 2130970898="316.0dip" 2130970899="keleton_home_widget_common_8x8_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436395" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="start|center" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" android:text="@string/web3_widget_earn_title" ="1" ="false" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099779" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429653" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131436395">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433725" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236946" 2130971375="@color/2131099765" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442407" ="wrap_content" ="wrap_content" android:text="@string/web3_widget_earn_campaign_ongoing" ="false" ="4.0dip" 2130969911="@id/2131433725" 2130969936="@id/2131433725" 2130969941="@id/2131433725" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131429653">
+        <include android:id="@id/2131433577" layout="@layout/2131630234" />
+        <include android:id="@id/2131433579" layout="@layout/2131630234" />
+        <include android:id="@id/2131433580" layout="@layout/2131630234" />
+    </LinearLayout>
+</com.components.skeleton.SkeletonViewGroup>

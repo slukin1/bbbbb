@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="#80000000" ="fill_parent" ="fill_parent" ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.LoadingView android:id="@id/2131436707" ="wrap_content" ="wrap_content" ="true" />
+    <com.onfido.android.sdk.capture.ui.camera.liveness.challenges.loading.LivenessChallengesLoadingErrorView android:id="@id/2131431411" ="gone" ="fill_parent" ="fill_parent" />
+</RelativeLayout>

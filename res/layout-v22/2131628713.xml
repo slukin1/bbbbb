@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431924" ="fill_parent" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131102397" ="center" ="center" android:id="@id/2131442575" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_running_end_title" style="@style/2132149446" />
+        <ImageView ="end|center" android:id="@id/ivClose" ="24.0dip" ="24.0dip" ="fitXY" ="@null" 2130971077="@drawable/2131237100" />
+    </FrameLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131444927" ="0.0dip" ="wrap_content" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431924" style="@style/2132149350" />
+    <View android:id="@id/2131430996" ="@color/2131099751" ="0.0dip" ="1.0px" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444927" />
+    <TextView ="@color/2131099764" android:id="@id/tvTip1" ="0.0dip" ="wrap_content" ="15.0dip" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430996" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvTip2" ="0.0dip" ="wrap_content" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTip1" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvTip3" ="0.0dip" ="wrap_content" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTip2" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvTip4" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="4.0sp" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444927" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131441462" ="wrap_content" ="fill_parent" 2130968759="2131428521" 2130969125="tvTip1, tvTip2,tvTip3,tvTip4" />
+    <LinearLayout ="horizontal" ="fill_parent" ="40.0dip" ="24.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131441462" 2130969942="1.0">
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/tvCancel" ="0.0dip" ="fill_parent" android:text="@string/_cancel" ="1.0" 2130969173="4" 2130970889="3" 2130971472="2" style="@style/2132149446" />
+        <View ="15.0dip" ="0.0dip" />
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131442568" ="0.0dip" ="fill_parent" android:text="@string/confirm" ="1.0" 2130969173="4" 2130970889="3" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

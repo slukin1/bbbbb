@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="locale" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131449551" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/strategy_home_tab_title_strategy_list" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131449551" style="@style/2132149425" />
+    <com.finance.framework.widget.recyclerview.MaxHeightRecyclerView ="vertical" android:id="@id/2131439594" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969940="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

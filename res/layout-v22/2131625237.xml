@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430920" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/ocbs_string_switch_receive_crypto_desc" ="4.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="center_vertical" ="wrap_content" ="wrap_content" ="15.0dip" ="22.0dip" android:text="@string/ocbs_string_select_crypto" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435528" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="4.0dip" ="@color/2131099744">
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444577" ="0.0dip" ="24.0dip" ="12.0dip" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131433274" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433274" ="20.0dip" ="20.0dip" ="14.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237003" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131444229" ="fill_parent" ="wrap_content" ="4.0dip" ="18.0dip" style="@style/2132149361" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131442999" ="fill_parent" ="wrap_content" ="4.0dip" ="18.0dip" style="@style/2132149361" />
+    <LinearLayout ="horizontal" android:id="@id/2131435515" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@dimen/2131166286">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429334" ="24.0dip" ="24.0dip" ="true" 2130969758="true" 2130969759="2" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442469" ="0.0dip" ="wrap_content" ="false" ="false" ="1.0" ="4.0dip" ="4.0dip" style="@style/2132149355" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428624" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/confirm" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428623" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/cancel" ="@dimen/2131166188" style="@style/2132148697" />
+</LinearLayout>

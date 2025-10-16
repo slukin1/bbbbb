@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="@drawable/2131235991" ="fill_parent" ="wrap_content" ="@color/2131099685"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.recyclerview.MaxHeightRecyclerView android:id="@id/2131439035" ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="true" ="300.0dip" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="40.0dip" ="20.0dip" ="20.0dip" android:text="@string/ok" ="12.0dip" ="15.0dip" />
+</LinearLayout>

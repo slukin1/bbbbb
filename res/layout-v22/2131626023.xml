@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434902" ="96.0dip" ="96.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233806" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131446280" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434902" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_tips" ="0.0dip" ="wrap_content" ="8.0dip" ="2.0dip" 2130969917="@id/2131446280" 2130969937="@id/2131446280" 2130969940="@id/2131446280" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="32.0dip" ="15.0dip" android:text="@string/OK" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_tips" style="@style/2132148692" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131445852" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_daily_challenge_dialog_btn_tips" 2130969917="@id/2131446280" 2130969937="@id/2131446280" 2130969940="@id/btn_confirm" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

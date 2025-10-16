@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="?android:selectableItemBackground" ="?android:scrollbarSize" ="fill_parent" ="wrap_content" ="?android:listPreferredItemHeight" ="?android:scrollbarSize" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon_frame" ="wrap_content" ="wrap_content">
+        <androidx.preference.internal.PreferenceImageView android:id="@android:id/icon" ="wrap_content" ="wrap_content" 2130970140="48.0dip" 2130970151="48.0dip" />
+    </FrameLayout>
+    <RelativeLayout ="0.0dip" ="wrap_content" ="15.0dip" ="6.0dip" ="6.0dip" ="6.0dip" ="1.0" ="15.0dip" ="6.0dip">
+        <TextView ="?android:textAppearanceLarge" ="?android:textColorPrimary" ="marquee" android:id="@android:id/title" ="horizontal" ="wrap_content" ="wrap_content" ="true" />
+        <TextView ="?android:textAppearanceSmall" ="?android:textColorSecondary" android:id="@android:id/summary" ="wrap_content" ="wrap_content" ="4" ="@android:id/title" ="@android:id/title" ="@android:id/title" />
+    </RelativeLayout>
+    <LinearLayout ="center_vertical" ="vertical" android:id="@android:id/widget_frame" ="wrap_content" ="fill_parent" />
+</LinearLayout>

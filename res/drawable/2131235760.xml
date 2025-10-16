@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <size ="48.0dip" ="48.0dip" />
+            <corners ="16.0dip" />
+            <gradient ="#70ffffff" ="#40ffffff" ="0.0" />
+        </shape>
+    </item>
+    <item ="center" ="@drawable/2131237192" />
+</layer-list>

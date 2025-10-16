@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131445056" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_top_lead_portfolios" ="1" ="@dimen/2131166184" style="@style/2132149463" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439713" ="fill_parent" ="wrap_content" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView ="@color/2131099787" ="center_horizontal" android:id="@id/2131445358" ="10.0dip" ="5.0dip" ="10.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/view_more" ="@dimen/2131166156" ="@dimen/2131166260" style="@style/2132149374" />
+</LinearLayout>

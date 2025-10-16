@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="@color/2131099675" ="fill_parent" ="@dimen/2131165972" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441619" ="?android:selectableItemBackgroundBorderless" ="visible" ="22.0dip" ="22.0dip" ="centerCrop" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234112" 2130971375="@color/2131102397" />
+        <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432111" ="0.0dip" ="wrap_content" 2130969125="toolbar_progress,toolbar_title,toolbar_title_right_icon" 2130969490="8.0dip" 2130969491="2131438085" 2130969498="2131429431" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969949="0.6" />
+        <ProgressBar android:id="@id/toolbar_progress" ="gone" ="@dimen/2131165973" ="@dimen/2131165973" ="7.0dip" />
+        <TextView ="@style/2132149463" ="@color/2131102397" ="end" android:id="@id/toolbar_title" ="gone" ="wrap_content" ="wrap_content" ="true" ="false" 2130969905="true" />
+        <ImageView android:id="@id/toolbar_title_right_icon" ="gone" ="22.0dip" ="22.0dip" ="centerCrop" ="@null" />
+        <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432106" ="wrap_content" ="wrap_content" 2130969125="toolbar_second_right_icon,toolbar_right_icon,toolbar_right_text_view" 2130969498="2131429431" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        <TextView ="@dimen/2131165974" ="@color/2131100260" ="center" ="end" android:id="@id/toolbar_right_text_view" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296266" ="4.0dip" />
+        <ImageView ="center" ="end" android:id="@id/toolbar_right_icon" ="?android:selectableItemBackgroundBorderless" ="4.0dip" ="4.0dip" ="gone" ="22.0dip" ="22.0dip" ="centerCrop" ="@null" ="4.0dip" />
+        <ImageView ="center" ="end" android:id="@id/toolbar_second_right_icon" ="?android:selectableItemBackgroundBorderless" ="gone" ="22.0dip" ="22.0dip" ="centerCrop" ="@null" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

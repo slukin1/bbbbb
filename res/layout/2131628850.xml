@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446226" ="wrap_content" ="wrap_content" android:text="@string/spot_order_sorting_title" style="@style/2132149384" />
+    <LinearLayout ="horizontal" android:id="@id/2131436592" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131446159" ="@drawable/2131236631" ="0.0dip" ="40.0dip" android:text="@string/spot_order_history_sorting_by_create_time" ="1.0" style="@style/2132149350" />
+        <View ="15.0dip" ="0.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131448501" ="@drawable/2131236631" ="0.0dip" ="40.0dip" android:text="@string/spot_order_history_sorting_by_update_time" ="1.0" style="@style/2132149350" />
+    </LinearLayout>
+</LinearLayout>

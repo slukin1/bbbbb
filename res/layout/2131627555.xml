@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/flow_currency_and_change_percentage" ="0.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442429" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" 2130969905="true" style="@style/2132148737" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442471" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148736" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

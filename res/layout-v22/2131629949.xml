@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" android:id="@id/2131450290" ="@drawable/2131236038" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" android:id="@id/2131450292" ="20.0dip" ="fill_parent" ="wrap_content" android:text="@string/wallet_withdrawal_spot_wallet" ="15.0dip" 2130969912="@id/2131450289" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131450289" ="gone" ="fill_parent" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_wallet_warning" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131450292" style="@style/2132149384" />
+        <TextView ="@color/2131099863" android:id="@id/2131450291" ="@drawable/2131238739" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" ="@dimen/2131166286" ="@dimen/2131166199" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131450288" ="@drawable/2131236038" ="fill_parent" ="70.0dip" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/payment_funding_wallet" ="15.0dip" ="@dimen/2131166184" style="@style/2132149446" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131450179" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166184" 2130969911="2131438103">
+        <TextView ="@color/2131099778" ="center_vertical" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/2131450293" ="fill_parent" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_wallet_dialog_sub_title" ="4.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

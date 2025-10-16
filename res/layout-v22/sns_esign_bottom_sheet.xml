@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content">
+        <com.sumsub.sns.core.widget.SNSBottomSheetHandleView ="center|top" android:id="@id/sns_divider" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="@null" 2130971077="@drawable/sns_bg_rounded_divider" />
+        <androidx.core.widget.NestedScrollView android:id="@id/2131428581" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium">
+            <LinearLayout ="center" ="vertical" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content">
+                <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_title" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="gravity" ="@dimen/sns_margin_medium" />
+                <com.sumsub.sns.core.widget.SNSProgressBarView android:id="@id/sns_esign_bottom_progress_bar" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" ="@dimen/sns_margin_medium" ="true" style="?android:progressBarStyle" />
+                <com.sumsub.sns.core.widget.SNSWarningView android:id="@id/sns_warning" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" />
+                <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_button" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</merge>

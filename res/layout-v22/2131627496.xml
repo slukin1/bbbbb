@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439481" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="1.0px" />
+    <LinearLayout ="horizontal" ="16.0dip" ="5.0dip" ="16.0dip" ="5.0dip" ="fill_parent" ="wrap_content" ="false" ="@dimen/2131166188" ="5.0dip">
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center" android:id="@id/2131443381" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131445031" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+        </LinearLayout>
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center" android:id="@id/2131443379" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131444628" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+        </LinearLayout>
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center" android:id="@id/2131443380" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131444933" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+        </LinearLayout>
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center" android:id="@id/2131443378" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131443848" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+        </LinearLayout>
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center" android:id="@id/2131443377" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131443261" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+        </LinearLayout>
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center" android:id="@id/2131443382" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131445468" ="wrap_content" ="14.0dip" ="1" ="false" style="@style/2132149390" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

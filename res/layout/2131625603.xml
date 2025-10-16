@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/2131432211" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.Group android:id="@id/2131438665" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvProductLabel,tvAprLabel,rvProductList,btnViewAllCoins" />
+        <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvProductLabel" ="wrap_content" ="wrap_content" android:text="@string/earn_product" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432436" ="wrap_content" ="wrap_content" ="15.0dip" 2130969921="0.37" />
+        <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvAprLabel" ="0.0dip" ="wrap_content" android:text="@string/earn_est_apr" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131432436" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/rvProductList" ="fill_parent" ="wrap_content" ="12.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvAprLabel" />
+        <TextView ="@color/2131099787" ="center_horizontal" android:id="@id/btnViewAllCoins" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_view_all_coins" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/rvProductList" style="@style/2132149374" />
+        <TextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/tvEmpty" ="48.0dip" ="gone" ="wrap_content" ="wrap_content" ="48.0dip" android:text="@string/earn_no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvAprLabel" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvEmpty, btnViewAllCoins" />
+        <TextView ="@color/2131099778" android:id="@id/2131442671" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_not_what_you_looking" ="15.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131428303" style="@style/2132149384" />
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442671">
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436276" ="gone" ="fill_parent" ="54.0dip">
+                <ImageView ="24.0dip" ="24.0dip" ="@drawable/2131238357" 2130971375="@color/2131099764" />
+                <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/earn_manage_redemption" ="1.0" ="15.0dip" style="@style/2132149450" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131428823" ="wrap_content" ="wrap_content" android:text="@string/earn_redeem" style="@style/2132148700" />
+            </LinearLayout>
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436163" ="gone" ="fill_parent" ="54.0dip">
+                <ImageView ="24.0dip" ="24.0dip" ="@drawable/2131237260" 2130971375="@color/2131099764" />
+                <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/earn_one_click_earn" ="1.0" ="15.0dip" style="@style/2132149450" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131428749" ="wrap_content" ="wrap_content" android:text="@string/earn_deactivate" style="@style/2132148700" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

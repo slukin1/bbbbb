@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/2131432147" ="0.0dip" ="0.0dip" ="0.0dip" ="-2.0dip">
+        <shape ="rectangle">
+            <stroke ="1.0dip" ="@android:color/darker_gray" />
+            <corners ="24.0dip" ="24.0dip" />
+            <solid ="?android:colorBackground" />
+        </shape>
+    </item>
+</layer-list>

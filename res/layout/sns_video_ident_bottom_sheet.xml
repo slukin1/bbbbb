@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sumsub.sns.core.widget.SNSBottomSheetView android:id="@id/sns_web_view_bottom_sheet" ="fill_parent" ="wrap_content" 2130969901="com.sumsub.sns.internal.features.presentation.videoident.presentation.SNSCustomBehavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content">
+        <com.sumsub.sns.core.widget.SNSBottomSheetHandleView ="center|top" android:id="@id/sns_divider" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" ="@null" 2130971077="@drawable/sns_bg_rounded_divider" />
+        <com.google.android.material.card.MaterialCardView android:id="@id/sns_photo_preview" ="gone" ="wrap_content" ="0.0dip" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="1.0" 2130968912="8.0dip" 2130971180="@color/sns_cameraContent" 2130971181="1.0dip">
+            <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_photo" ="wrap_content" ="wrap_content" ="true" />
+        </com.google.android.material.card.MaterialCardView>
+        <androidx.core.widget.NestedScrollView android:id="@id/2131428581" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium">
+            <LinearLayout ="center" ="vertical" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content">
+                <com.sumsub.sns.core.widget.SNSSubtitle1TextView ="center" android:id="@id/sns_title" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="gravity" />
+                <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_text" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="gravity" />
+                <com.sumsub.sns.core.widget.SNSWarningView android:id="@id/sns_warning" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" />
+                <LinearLayout ="vertical" android:id="@id/2131435268" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_large" ="@dimen/sns_margin_medium">
+                    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_language_section_title" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" />
+                    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+                        <com.sumsub.sns.core.widget.SNSSubtitle1TextView android:id="@id/sns_label" ="0.0dip" ="wrap_content" ="1.0" />
+                        <com.sumsub.sns.core.widget.SNSLinkButton android:id="@id/sns_button" ="wrap_content" ="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout ="center" ="vertical" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" 2130969912="@id/sns_progress_text" 2130969917="2131438103" 2130969937="2131438103">
+                    <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_button1" ="fill_parent" ="wrap_content" />
+                    <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_button2" ="fill_parent" ="wrap_content" />
+                    <com.sumsub.sns.core.widget.SNSLinkButton android:id="@id/sns_button3" ="fill_parent" ="wrap_content" />
+                    <LinearLayout ="vertical" android:id="@id/2131431067" ="gone" ="fill_parent" ="wrap_content" ="@drawable/sns_divider_small" ="middle" />
+                    <com.sumsub.sns.core.widget.SNSProgressBarView android:id="@id/sns_vi_bottom_progress_bar" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" ="true" style="?android:progressBarStyle" />
+                </LinearLayout>
+                <include ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" layout="@layout/sns_layout_powered" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</com.sumsub.sns.core.widget.SNSBottomSheetView>

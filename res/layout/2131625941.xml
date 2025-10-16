@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131439385" ="fill_parent" ="fill_parent" xmlns:ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/margin_no_open_orders" ="20.0dip" ="@id/2131435624" ="true" 2130969314="@drawable/2131238419" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435624" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131435620" ="0.0dip" ="wrap_content" 2130969918="@id/2131445871" 2130969937="2131438103" layout="@layout/2131625487" />
+        <TextView ="@color/2131099764" android:id="@id/2131445871" ="@drawable/2131236007" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="75.0dip" android:text="@string/_cancel_all" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438717" ="fill_parent" ="fill_parent" ="@id/2131435624" 2130971098="false" 2130971099="false">
+        <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131439672" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</RelativeLayout>

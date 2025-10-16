@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427560" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130969904="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" 2130971098="false">
+        <androidx.core.widget.NestedScrollView android:id="@id/2131430273" ="fill_parent" ="fill_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout ="92.0dip" ="fill_parent" ="wrap_content">
+                <com.major.android.uikit2.notification.KitNotification android:id="@id/2131435062" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <include android:id="@id/view_earn_sol_staking_holding_no" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435062" layout="@layout/2131629310" />
+                <include android:id="@id/view_earn_sol_staking_holding_yes" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435062" layout="@layout/2131629311" />
+                <androidx.constraintlayout.widget.Barrier android:id="@id/2131428324" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="view_earn_sol_staking_holding_no,view_earn_sol_staking_holding_yes" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131428867" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/redeem" ="15.0dip" 2130969918="@id/2131428912" 2130969937="2131438103" 2130969940="@id/2131428324" style="@style/2132148697" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131428912" ="0.0dip" ="wrap_content" android:text="@string/earn_subscribe" ="12.0dip" ="15.0dip" 2130969911="@id/2131428867" 2130969917="2131438103" 2130969936="@id/2131428867" 2130969941="@id/2131428867" style="@style/2132148692" />
+                <include android:id="@id/2131449559" ="fill_parent" ="wrap_content" ="15.0dip" ="40.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428867" layout="@layout/2131629270" />
+                <include android:id="@id/2131449585" ="fill_parent" ="wrap_content" ="15.0dip" ="40.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449559" layout="@layout/2131629327" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436174" ="@color/2131099685" ="fill_parent" ="72.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428708" ="0.0dip" ="wrap_content" android:text="@string/redeem" ="1.0" ="15.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428709" ="0.0dip" ="wrap_content" android:text="@string/earn_subscribe" ="1.0" ="12.0dip" ="15.0dip" style="@style/2132148692" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131432061" ="16.0dip" ="16.0dip" ="gone" ="wrap_content" ="40.0dip" ="115.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103">
+        <TextView ="@color/2131099789" ="wrap_content" ="wrap_content" android:text="@string/earn_claim_rewards" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

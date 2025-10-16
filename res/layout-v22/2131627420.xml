@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970808="false" 2130970809="0.5">
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131435069" ="gone" ="fill_parent" ="fill_parent" ="20.0dip" 2130971098="false" 2130971100="true" 2130971105="true">
+            <FrameLayout ="fill_parent" ="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" ="none" ="fill_parent" ="fill_parent" ="never" />
+                <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/tv_empty" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969342="false" 2130969343="@drawable/2131238419" 2130969346="@string/no_records_found" />
+            </FrameLayout>
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440122" ="@color/2131099685" ="fill_parent" ="fill_parent" ="15.0dip" ="20.0dip" ="15.0dip" ="fitXY" ="@dimen/2131166184" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

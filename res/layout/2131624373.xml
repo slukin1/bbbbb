@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="true" ="true" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441377" ="fill_parent" ="wrap_content" layout="@layout/2131628812" />
+    <com.cardinalcommerce.a.setAnimationMatrix ="@style/2132150246" ="16.0sp" ="center" ="center" android:id="@id/2131429449" ="wrap_content" ="wrap_content" ="20.0dip" ="10.0dip" android:text="@string/ss_challengeinfo_lable" />
+    <LinearLayout ="vertical" android:id="@id/2131437402" ="fill_parent" ="wrap_content" ="8.0dip" />
+    <com.cardinalcommerce.a.setBottom ="@style/2132150293" android:id="@id/2131440538" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/next" ="false" ="8.0dip" ="8.0dip" />
+</LinearLayout>

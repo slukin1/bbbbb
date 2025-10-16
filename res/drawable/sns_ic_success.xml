@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape ="oval">
+            <solid ="@color/sns_step_tint_color" />
+            <size ="48.0dip" ="48.0dip" />
+        </shape>
+    </item>
+    <item ="center" ="@drawable/sns_ic_success_dow_arrow" />
+</layer-list>

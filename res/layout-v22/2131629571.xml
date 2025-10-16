@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449741" ="fill_parent" ="72.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435316" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" 2130969941="2131438103" layout="@layout/2131629281" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429659" ="@drawable/2131232755" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="-22.0dip" ="64.0dip" ="@dimen/2131166156" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435316" 2130969962="@dimen/2131166286">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" ="12.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148577" />
+        <TextView ="@color/2131099764" android:id="@id/2131444195" ="wrap_content" ="wrap_content" ="1" ="4.0dip" ="4.0dip" 2130969912="@id/2131436263" 2130969936="@id/2131433920" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131442877" ="invisible" ="wrap_content" ="wrap_content" android:text="@string/earn_duration_days_" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/tvDuration" ="gone" ="wrap_content" ="wrap_content" ="1" ="viewStart" ="12.0dip" 2130969911="2131438103" 2130969937="@id/2131442877" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/tvInterestAmount" ="wrap_content" ="wrap_content" ="1" ="5.0dip" 2130969911="2131438103" 2130969918="@id/2131433741" 2130969941="2131438103" 2130969958="@dimen/2131166170" style="@style/2132149446" />
+        <ImageView android:id="@id/2131433741" ="gone" ="16.0dip" ="16.0dip" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237021" 2130971375="@color/2131099738" />
+        <TextView ="@color/2131099778" android:id="@id/tvSoldOut" ="gone" ="wrap_content" ="wrap_content" android:text="@string/earn_sold_out" ="1" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131431373" ="wrap_content" ="wrap_content" 2130968759="2131440560" 2130969125="tvInterestAmount,tvSoldOut" />
+        <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131443708" ="gone" ="wrap_content" ="wrap_content" android:text="@string/earn_apr_max" ="1" ="5.0dip" 2130969274="@string/earn_the_max_apr" 2130969911="2131438103" 2130969918="@id/2131431373" 2130969941="2131438103" 2130970566="43" 2130971380="2131428553" style="@style/2132149384" />
+        <LinearLayout ="start" ="horizontal" android:id="@id/2131436263" ="0.0dip" ="wrap_content" ="4.0dip" 2130969911="2131438103" 2130969937="@id/2131444195" 2130969940="@id/2131444195" 2130969943="2131438085">
+            <TextView ="#ff2ebd85" ="end" ="start" android:id="@id/2131442338" ="@drawable/2131232467" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/earn_bonus" ="1" ="4.0dip" ="@dimen/2131166260" style="@style/2132149394" />
+            <TextView ="@color/2131099787" ="end" android:id="@id/2131442061" ="@drawable/2131232811" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/earn_airdrop" ="1" ="4.0dip" ="@dimen/2131166260" style="@style/2132149394" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131444893" ="@drawable/2131234606" ="2.0dip" ="2.0dip" ="gone" ="wrap_content" ="20.0dip" android:text="@string/ms_recommend_hot_asset_title" ="1" ="2.0dip" ="8.0dip" ="8.0dip" 2130969917="@id/2131429659" 2130969941="@id/2131429659" style="@style/2132149397" />
+</androidx.constraintlayout.widget.ConstraintLayout>

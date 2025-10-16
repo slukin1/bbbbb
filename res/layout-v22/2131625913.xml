@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429985" ="@drawable/2131233529" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447850" ="0.0dip" ="wrap_content" android:text="@string/futures_slippage_by_amount_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447849" ="0.0dip" ="wrap_content" android:text="@string/futures_slippage_by_amount_content" 2130969917="2131438103" 2130969937="@id/2131447850" 2130969940="@id/2131447850" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429986" ="@drawable/2131233529" ="16.0dip" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429985">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447852" ="0.0dip" ="wrap_content" android:text="@string/futures_slippage_by_percentage_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447851" ="0.0dip" ="wrap_content" android:text="@string/futures_slippage_by_percentage_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447852" 2130969942="0.0" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

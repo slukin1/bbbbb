@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232782" ="12.0dip" ="wrap_content" ="wrap_content" ="0.95" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432087" ="wrap_content" ="wrap_content" 2130969125="imageViewLineDashType4,imageViewLineDashType1,imageViewLineDashType3,imageViewLineDashType2" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineDashType1" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235025" 2130971375="@color/2131101769" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineDashType2" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235027" 2130971375="@color/2131101769" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineDashType3" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235026" 2130971375="@color/2131101769" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineDashType4" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235028" 2130971375="@color/2131101769" />
+</androidx.constraintlayout.widget.ConstraintLayout>

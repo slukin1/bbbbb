@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131449556" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131442188" ="wrap_content" ="wrap_content" ="24.0dip" ="15.0dip" style="@style/2132149446" />
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441046" ="fill_parent" ="38.0dip" ="12.0dip" />
+    <View ="@color/2131099751" ="fill_parent" ="1.0px" />
+</LinearLayout>

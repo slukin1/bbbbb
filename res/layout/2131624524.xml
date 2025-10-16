@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131102397" ="end" android:id="@id/2131448615" ="fill_parent" ="wrap_content" ="16.0dip" ="1" style="@style/2132149450" />
+    <RelativeLayout android:id="@id/2131448612" ="fill_parent" ="wrap_content" ="4.0dip" ="@id/2131448615">
+        <TextView ="end" android:id="@id/2131448611" ="fill_parent" ="wrap_content" ="3" ="@id/2131428457" style="@style/2132149384" />
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428457" ="gone" ="82.0dip" ="48.0dip" ="@dimen/2131166000" ="@dimen/2131166000" ="centerCrop" ="@id/2131448611" ="@string/account" ="true" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436680" ="16.0dip" ="fill_parent" ="wrap_content" ="6.0dip" ="16.0dip" ="@id/2131448612">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428178" ="0.5dip" ="16.0dip" ="16.0dip" ="@dimen/2131166000" ="centerCrop" ="@string/account" 2130969937="2131438103" 2130969941="2131438103" 2130970803="@style/2132150258" 2130971180="@color/2131100684" 2130971181="@dimen/2131165998" />
+        <TextView ="@color/2131102397" ="end" ="start" android:id="@id/2131448614" ="wrap_content" ="wrap_content" ="1" ="10.0dip" 2130969905="true" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131428178" 2130969941="2131438103" style="@style/2132149397" />
+        <TextView ="@color/2131100153" android:id="@id/2131448616" ="wrap_content" ="wrap_content" 2130969918="@id/2131448613" 2130969941="2131438103" style="@style/2132149397" />
+        <TextView ="@color/2131100153" android:id="@id/2131448613" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

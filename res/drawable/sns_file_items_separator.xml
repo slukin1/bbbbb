@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size ="@dimen/sns_margin_medium" />
+    <solid ="@color/sns_transparent" />
+</shape>

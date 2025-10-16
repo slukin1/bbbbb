@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.framework.widget.scroll.KlineVerticalNestedScrollView ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436197" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131431905" ="fill_parent" ="wrap_content" layout="@layout/2131628785" />
+        <include android:id="@id/2131429784" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" layout="@layout/2131628771" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438423" ="fill_parent" ="wrap_content" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438385" ="fill_parent" ="wrap_content" />
+        <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131435074" ="fill_parent" ="24.0dip" ="12.0dip" ="7.0dip" 2130969937="2131438103" 2130969940="@id/2131439479" />
+        <FrameLayout android:id="@id/2131431880" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439528" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439556" ="invisible" ="fill_parent" ="fill_parent" />
+            <include android:id="@id/2131431361" ="gone" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131628791" />
+        </FrameLayout>
+    </LinearLayout>
+</com.finance.framework.widget.scroll.KlineVerticalNestedScrollView>

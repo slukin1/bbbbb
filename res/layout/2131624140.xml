@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="#ffffffff" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/2131438676" ="gone" ="wrap_content" ="wrap_content" ="true" ="1000" ="true" style="@style/2132150278" />
+    <TextView ="18.0sp" android:id="@id/2131446878" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" ="@id/2131438676" ="true" />
+    <RelativeLayout android:id="@id/2131439388" ="wrap_content" ="wrap_content" ="15.0dip" ="true" ="true">
+        <ImageView android:id="@id/2131433329" ="@drawable/2131233463" ="wrap_content" ="wrap_content" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

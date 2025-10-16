@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432250" ="15.0dip" ="15.0dip" ="fill_parent" ="31.0dip">
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewName" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131441310" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="/" 2130969911="@id/textViewName" 2130969936="@id/textViewName" 2130969941="@id/textViewName" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/2131441328" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969936="@id/2131441310" 2130969941="@id/textViewName" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewLastPrice" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" 2130969905="true" 2130969911="2131438103" 2130969918="@id/textViewSpreator" 2130969927="1.0" 2130969936="@id/2131441328" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/textViewSpreator" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="/" 2130969911="@id/textViewDayChange" 2130969918="@id/textViewDayChange" 2130969941="@id/textViewDayChange" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/textViewDayChange" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="@id/textViewLastPrice" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439046" ="fill_parent" ="fill_parent" ="ifContentScrolls" />
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="center" ="vertical" android:id="@id/2131435914" ="true" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433119" ="96.0dip" ="96.0dip" 2130971077="@drawable/2131238419" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/textViewEmpty" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/no_records_found" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="center" android:id="@id/2131445536" ="@drawable/2131236007" ="10.0dip" ="5.0dip" ="10.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/finance_add_favorites" 2130968733="@color/2131099744" style="@style/2132149450" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

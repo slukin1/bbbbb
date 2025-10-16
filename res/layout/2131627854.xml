@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="@drawable/2131235407" ="15.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434316" ="gone" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/tv_title" 2130969936="@id/tv_title" 2130969941="@id/tv_title" 2130971077="@drawable/2131237091" 2130971375="@color/2131099785" />
+    <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131446821" ="wrap_content" ="wrap_content" android:text="@string/ocbs_lite_withdraw_limit" 2130969911="@id/tv_title" 2130969917="2131438103" 2130969941="@id/tv_title" 2130971380="1" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

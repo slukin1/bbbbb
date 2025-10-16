@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624283" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131439020" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/c2c_calendar_create_recurring_type" ="@font/2131296273" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131439021" ="@drawable/2131236001" ="0.0dip" ="50.0dip" ="5.0dip" ="@font/2131296273" ="10.0dip" ="14.0dip" ="@color/2131099744" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131439020" />
+            <com.major.android.uikit.input.KitInputEditAmount android:id="@id/2131439013" ="0.0dip" ="wrap_content" ="20.0dip" 2130969655="@string/c2c_calendar_quantity_hint" 2130969660="@string/c2c_calendar_create_recurring_coin_quantity" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131439021" />
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131439011" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/ms_alert_frequency" ="@font/2131296273" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131439013" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432268" ="0.0dip" ="fill_parent" ="5.0dip" 2130969917="2131438103" 2130969937="@id/2131439020" 2130969940="@id/2131439011" />
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131439014" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/c2c_calendar_repeats_day_of_week" ="@font/2131296273" ="@dimen/2131166184" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131432268" />
+            <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131439015" ="@drawable/2131236001" ="0.0dip" ="50.0dip" ="5.0dip" android:text="@string/c2c_calendar_actionsheet_monday" ="@font/2131296273" ="10.0dip" ="14.0dip" ="@color/2131099744" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131439014" />
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131439016" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/c2c_calendar_repeats_local_time" ="@font/2131296273" ="@dimen/2131166184" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131439015" />
+            <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131439017" ="@drawable/2131236001" ="0.0dip" ="50.0dip" ="5.0dip" ="@font/2131296273" ="10.0dip" ="14.0dip" ="@color/2131099744" 2130969306="@drawable/2131237055" 2130969312="@color/2131099738" 2130969917="@id/2131439020" 2130969937="@id/2131439020" 2130969940="@id/2131439016" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="vertical" ="@color/2131099685" ="16.0dip" ="fill_parent" ="wrap_content" ="18.0dip">
+        <TextView ="14.0sp" ="@color/2131099778" ="center" android:id="@id/2131441445" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_calendar_event_time_tips" ="1.2" ="@font/2131296274" ="@dimen/2131166200" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428965" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_calendar_btn_create_recurring_alert" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

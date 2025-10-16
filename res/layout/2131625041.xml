@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131449523" ="fill_parent" ="fill_parent" ="40.0dip" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" ="@color/2131099685">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="64.0dip" ="64.0dip" ="24.0dip" 2130971077="@drawable/2131238390" />
+        <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_share_inventory_mode" ="@font/2131296267" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_share_inventory_mode_content" ="@font/2131296274" />
+        <RelativeLayout android:id="@id/2131439458" ="fill_parent" ="wrap_content" ="24.0dip">
+            <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="24.0dip" ="24.0dip" 2130969758="true" />
+            <TextView ="@color/2131099764" android:id="@id/2131444261" ="fill_parent" ="wrap_content" android:text="@string/c2c_chat_do_not_show" ="true" ="@font/2131296274" ="8.0dip" ="@id/2131429513" />
+        </RelativeLayout>
+        <com.major.android.uikit2.button.KitButton ="16.0sp" ="center" android:id="@id/2131428732" ="@drawable/2131232451" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/ok" />
+        <TextView ="16.0sp" ="@color/2131099787" ="center" android:id="@id/2131448560" ="fill_parent" ="wrap_content" ="10.0dip" ="24.0dip" android:text="@string/view_more" ="@font/2131296274" />
+    </LinearLayout>
+</FrameLayout>

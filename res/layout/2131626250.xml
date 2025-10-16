@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@drawable/2131235989" ="fill_parent" ="fill_parent" ="@color/2131099803" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@null" ="16.0dip" ="12.0dip" ="16.0dip" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149465" />
+        <FrameLayout android:id="@id/2131431981" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/tv_title" 2130969940="@id/tv_title">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="32.0dip" ="32.0dip" />
+            <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436760" ="32.0dip" ="32.0dip" ="centerCrop" 2130970039="true" 2130970050="true" />
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="center" android:id="@id/2131445516" ="@drawable/2131236004" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="48.0dip" ="24.0dip" ="@color/2131099879" 2130969911="@id/2131431981" 2130969917="2131438103" 2130969941="@id/2131431981" style="@style/2132149369" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="vertical" ="0.0dip" ="wrap_content" ="8.0dip" ="8.0dip" 2130969911="@id/2131431981" 2130969918="@id/2131445516" 2130969936="@id/2131431981" 2130969941="@id/2131431981">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" ="center_vertical" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="1" ="false" style="@style/2132149465" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="center_vertical" android:id="@id/2131448005" ="@drawable/2131236001" ="4.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" ="false" ="4.0dip" ="@color/2131099804" style="@style/2132149397" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="end" android:id="@id/2131446263" ="wrap_content" ="wrap_content" ="1" ="false" style="@style/2132149361" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131436506" ="fill_parent" ="wrap_content" ="2.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131447900" ="wrap_content" ="wrap_content" ="1" ="false" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131446136" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446136" ="wrap_content" ="wrap_content" ="false" ="2.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131447900" 2130969941="2131438103" style="@style/2132149361" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.binance.base.widget.CountdownTimerView android:id="@id/2131440158" ="gone" ="fill_parent" ="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436756" ="fill_parent" ="fill_parent" 2130970039="true" 2130970050="true" />
+</FrameLayout>

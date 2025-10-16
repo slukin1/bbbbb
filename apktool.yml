@@ -1,0 +1,1926 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: binance.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-compose.version
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.autofill_autofill.version
+- META-INF/androidx.biometric_biometric-ktx.version
+- META-INF/androidx.biometric_biometric.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.camera_camera-camera2.version
+- META-INF/androidx.camera_camera-core.version
+- META-INF/androidx.camera_camera-extensions.version
+- META-INF/androidx.camera_camera-lifecycle.version
+- META-INF/androidx.camera_camera-video.version
+- META-INF/androidx.camera_camera-view.version
+- META-INF/androidx.camera_camera-viewfinder.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.compose.animation_animation-core.version
+- META-INF/androidx.compose.animation_animation.version
+- META-INF/androidx.compose.foundation_foundation-layout.version
+- META-INF/androidx.compose.foundation_foundation.version
+- META-INF/androidx.compose.material_material-icons-core.version
+- META-INF/androidx.compose.material_material-icons-extended.version
+- META-INF/androidx.compose.material_material-ripple.version
+- META-INF/androidx.compose.material_material.version
+- META-INF/androidx.compose.runtime_runtime-annotation.version
+- META-INF/androidx.compose.runtime_runtime-livedata.version
+- META-INF/androidx.compose.runtime_runtime-saveable.version
+- META-INF/androidx.compose.runtime_runtime.version
+- META-INF/androidx.compose.ui_ui-geometry.version
+- META-INF/androidx.compose.ui_ui-graphics.version
+- META-INF/androidx.compose.ui_ui-text.version
+- META-INF/androidx.compose.ui_ui-tooling-preview.version
+- META-INF/androidx.compose.ui_ui-unit.version
+- META-INF/androidx.compose.ui_ui-util.version
+- META-INF/androidx.compose.ui_ui-viewbinding.version
+- META-INF/androidx.compose.ui_ui.version
+- META-INF/androidx.constraintlayout_constraintlayout.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-i18n.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core-viewtree.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.credentials_credentials-play-services-auth.version
+- META-INF/androidx.credentials_credentials.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview-poolingcontainer.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.datastore_datastore-core.version
+- META-INF/androidx.datastore_datastore-preferences-rxjava2.version
+- META-INF/androidx.datastore_datastore-preferences.version
+- META-INF/androidx.datastore_datastore-rxjava2.version
+- META-INF/androidx.datastore_datastore.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.emoji2_emoji2-views-helper.version
+- META-INF/androidx.emoji2_emoji2.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment-testing-manifest.version
+- META-INF/androidx.fragment_fragment-testing.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.graphics_graphics-path.version
+- META-INF/androidx.heifwriter_heifwriter.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-extensions.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-compose.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-compose.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.navigation_navigation-common.version
+- META-INF/androidx.navigation_navigation-compose.version
+- META-INF/androidx.navigation_navigation-fragment-ktx.version
+- META-INF/androidx.navigation_navigation-fragment.version
+- META-INF/androidx.navigation_navigation-runtime.version
+- META-INF/androidx.navigation_navigation-ui-ktx.version
+- META-INF/androidx.navigation_navigation-ui.version
+- META-INF/androidx.preference_preference.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices-java.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-ktx.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate-compose.version
+- META-INF/androidx.savedstate_savedstate-ktx.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.security_security-crypto-ktx.version
+- META-INF/androidx.security_security-crypto.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing-ktx.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.window.extensions.core_core.version
+- META-INF/androidx.window_window-core.version
+- META-INF/androidx.window_window-java.version
+- META-INF/androidx.window_window-rxjava3.version
+- META-INF/androidx.window_window.version
+- META-INF/androidx.work_work-runtime-ktx.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.dagger_dagger-lint-aar.version
+- META-INF/com.google.dagger_hilt-android.version
+- META-INF/com.google.dagger_hilt-core.version
+- META-INF/kotlinx_coroutines_android.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/kotlinx_coroutines_jdk8.version
+- META-INF/kotlinx_coroutines_play_services.version
+- META-INF/kotlinx_coroutines_reactive.version
+- META-INF/kotlinx_coroutines_rx2.version
+- META-INF/kotlinx_coroutines_rx3.version
+- META-INF/kotlinx_coroutines_slf4j.version
+- META-INF/version-control-info.textproto
+- META-INF/services/com.fasterxml.jackson.core.JsonFactory
+- META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+- META-INF/services/o.NoneFeeExternalSyntheticLambda0
+- META-INF/services/o.WCWalletManager
+- META-INF/services/o.performResume
+- META-INF/services/o.performSaveInstanceState
+- META-INF/services/org.slf4j.spi.SLF4JServiceProvider
+- assets/PLACEHOLDER
+- assets/blaze_face_short_range.tflite
+- assets/face_detection_short_range.tflite
+- png
+- assets/MPs/7w9dcecw3ejUBkzRwYdZ95/jwt/7w9dcecw3ejUBkzRwYdZ95.json
+- assets/MPs/7w9dcecw3ejUBkzRwYdZ95/res/standalone-chunks/pages-common.js.LICENSE.txt
+- assets/MPs/LSxE9EYsfAGGN698m8Qubk/jwt/LSxE9EYsfAGGN698m8Qubk.json
+- assets/MPs/LSxE9EYsfAGGN698m8Qubk/res/__app.css
+- assets/MPs/LSxE9EYsfAGGN698m8Qubk/res/pages/layout.json
+- assets/MPs/LSxE9EYsfAGGN698m8Qubk/res/pages/index/index.json
+- assets/MPs/cH6sYTb5RTJEkpuwrbn7zm/jwt/cH6sYTb5RTJEkpuwrbn7zm.json
+- assets/com/appsflyer/internal/1ef4f10b9adfdad9a-
+- assets/com/appsflyer/internal/4c337fab34977e37d-
+- assets/com/appsflyer/internal/85cbdb71e241e9c4b-
+- assets/com/appsflyer/internal/abcc32aa48e1938c-
+- assets/com/iproov/sdk/core/if/5a8b5977ce566c2fb-
+- assets/com/iproov/sdk/core/if/c1daf3adb1d3bb96a-
+- assets/common/4.51.0/manifest.json
+- assets/common/5.2.0/manifest.json
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/flutter_assets/packages/lib_base/res/files/version_info.txt
+- webp
+- jpg
+- rtttl
+- assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite
+- assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite
+- assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite
+- res/drawable-night-xxhdpi/2131233591
+- res/drawable-night-xxhdpi/2131233839
+- res/drawable-night-xxhdpi/2131233840
+- res/drawable-night-xxhdpi/2131233841
+- res/drawable-night-xxhdpi/2131233924
+- res/drawable-night-xxhdpi/2131234266
+- res/drawable-night-xxhdpi/2131234236
+- res/drawable-night-xxhdpi/2131234142
+- res/drawable-night-xxhdpi/2131233965
+- res/drawable-night-xxhdpi/2131234141
+- res/drawable-night-xxhdpi/2131234272
+- res/drawable-night-xxhdpi/2131234269
+- res/drawable-night-xxhdpi/2131234268
+- res/drawable-night-xxhdpi/2131234298
+- res/drawable-night-xxhdpi/2131234267
+- res/drawable-night-xxhdpi/2131234303
+- res/drawable-night-xxhdpi/2131234317
+- res/drawable-night-xxhdpi/2131234314
+- res/drawable-night-xxhdpi/2131234318
+- res/drawable-night-xxhdpi/2131234299
+- res/drawable-night-xxhdpi/2131234400
+- res/drawable-night-xxhdpi/2131234320
+- res/drawable-night-xxhdpi/2131234401
+- res/drawable-night-xxhdpi/2131234345
+- res/drawable-night-xxhdpi/2131234395
+- res/drawable-night-xhdpi/2131233705
+- res/drawable-night-xhdpi/2131234345
+- res/drawable-night-xhdpi/2131234586
+- res/drawable-night-xhdpi/2131232372
+- res/drawable-night-xhdpi/2131235081
+- res/drawable-night-xhdpi/2131235324
+- res/drawable-night-xxhdpi/2131232368
+- res/drawable-night-xxhdpi/2131232358
+- res/drawable-night-xhdpi/2131238606
+- res/drawable-night-xxhdpi/2131233137
+- res/drawable-night-xxhdpi/2131232372
+- res/drawable-night-xxhdpi/2131232943
+- res/drawable-night-xxhdpi/2131233493
+- res/drawable-night-xxhdpi/2131235053
+- res/drawable-night-xxhdpi/2131235052
+- res/drawable-night-xxhdpi/2131235081
+- res/drawable-night-xxhdpi/2131235168
+- res/drawable-night-xxhdpi/2131235292
+- res/drawable-night-xxhdpi/2131235326
+- res/drawable-night-xxhdpi/2131235324
+- res/drawable-night-xxhdpi/2131235333
+- res/drawable-night-xxhdpi/2131235332
+- res/drawable-night-xxhdpi/2131235560
+- res/drawable-night-xxhdpi/2131235381
+- res/drawable-night-xxhdpi/2131235678
+- res/drawable-night-xxhdpi/2131235334
+- res/drawable-night-xxhdpi/2131235683
+- res/drawable-night-xxhdpi/2131235692
+- res/drawable-night-xxhdpi/2131235713
+- res/drawable-night-xxhdpi/2131235694
+- res/drawable-night-xxhdpi/2131235686
+- res/drawable-night-xxhdpi/2131235740
+- res/drawable-night-xxhdpi/2131235750
+- res/drawable-night-xxhdpi/2131235881
+- res/drawable-night-xxhdpi/2131235741
+- res/drawable-night-xxhdpi/2131235765
+- res/drawable-night-xxhdpi/2131235749
+- res/drawable-night-xxhdpi/2131236049
+- res/drawable-night-xxhdpi/2131234512
+- res/drawable-night-xxhdpi/2131234523
+- res/drawable-night-xxhdpi/2131234403
+- res/drawable-night-xxhdpi/2131234499
+- res/drawable-night-xxhdpi/2131234527
+- res/drawable-night-xxhdpi/2131234538
+- res/drawable-night-xxhdpi/2131234534
+- res/drawable-night-xxhdpi/2131234562
+- res/drawable-night-xxhdpi/2131234529
+- res/drawable-night-xxhdpi/2131234533
+- res/drawable-night-xxhdpi/2131234565
+- res/drawable-night-xxhdpi/2131234572
+- res/drawable-night-xxhdpi/2131234569
+- res/drawable-night-xxhdpi/2131234568
+- res/drawable-night-xxhdpi/2131234570
+- res/drawable-night-xxhdpi/2131234586
+- res/drawable-night-xxhdpi/2131234744
+- res/drawable-night-xxhdpi/2131234576
+- res/drawable-night-xxhdpi/2131234613
+- res/drawable-night-xxhdpi/2131235050
+- res/drawable-night-xxhdpi/2131234757
+- res/drawable-night-xxhdpi/2131234763
+- res/drawable-night-xxhdpi/2131234860
+- res/drawable-night-xxhdpi/2131234764
+- res/drawable-night-xxhdpi/2131235051
+- res/drawable-night-xxxhdpi/2131238606
+- res/drawable-night-xxxhdpi/2131234345
+- res/drawable-night-xxxhdpi/2131235324
+- res/drawable-night-xxxhdpi/2131235081
+- res/drawable-nodpi/sns_ic_flag_ad
+- res/drawable-nodpi/sns_ic_flag_af
+- res/drawable-nodpi/2131234667
+- res/drawable-nodpi/2131233318
+- res/drawable-nodpi/sns_ic_flag_ae
+- res/drawable-nodpi/sns_ic_flag_al
+- res/drawable-nodpi/sns_ic_flag_ag
+- res/drawable-nodpi/sns_ic_flag_ai
+- res/drawable-nodpi/sns_ic_flag_am
+- res/drawable-nodpi/sns_ic_flag_an
+- res/drawable-nodpi/sns_ic_flag_aq
+- res/drawable-nodpi/sns_ic_flag_ao
+- res/drawable-nodpi/sns_ic_flag_as
+- res/drawable-nodpi/sns_ic_flag_at
+- res/drawable-nodpi/sns_ic_flag_ar
+- res/drawable-nodpi/sns_ic_flag_az
+- res/drawable-nodpi/sns_ic_flag_ax
+- res/drawable-nodpi/sns_ic_flag_ba
+- res/drawable-nodpi/sns_ic_flag_au
+- res/drawable-nodpi/sns_ic_flag_aw
+- res/drawable-nodpi/sns_ic_flag_be
+- res/drawable-nodpi/sns_ic_flag_bf
+- res/drawable-night-xxhdpi/2131236471
+- res/drawable-night-xxhdpi/2131235980
+- res/drawable-night-xxhdpi/2131236470
+- res/drawable-night-xxhdpi/2131236558
+- res/drawable-night-xxhdpi/2131236766
+- res/drawable-night-xxhdpi/2131236758
+- res/drawable-night-xxhdpi/2131236756
+- res/drawable-night-xxhdpi/2131236560
+- res/drawable-night-xxhdpi/2131236757
+- res/drawable-night-xxhdpi/2131237534
+- res/drawable-night-xxhdpi/2131237536
+- res/drawable-night-xxhdpi/2131237537
+- res/drawable-night-xxhdpi/2131236773
+- res/drawable-night-xxhdpi/2131236772
+- res/drawable-night-xxhdpi/2131238477
+- res/drawable-night-xxhdpi/2131238455
+- res/drawable-night-xxhdpi/2131238479
+- res/drawable-night-xxhdpi/2131238480
+- res/drawable-night-xxhdpi/2131238483
+- res/drawable-night-xxxhdpi/2131232358
+- res/drawable-night-xxhdpi/2131238493
+- res/drawable-night-xxhdpi/2131238494
+- res/drawable-night-xxhdpi/2131238606
+- res/drawable-night-xxxhdpi/2131232372
+- res/drawable-nodpi/sns_ic_flag_cd
+- res/drawable-nodpi/sns_ic_flag_ci
+- res/drawable-nodpi/sns_ic_flag_cl
+- res/drawable-nodpi/sns_ic_flag_ck
+- res/drawable-nodpi/sns_ic_flag_co
+- res/drawable-nodpi/sns_ic_flag_cn
+- res/drawable-nodpi/sns_ic_flag_cm
+- res/drawable-nodpi/sns_ic_flag_cr
+- res/drawable-nodpi/sns_ic_flag_cx
+- res/drawable-nodpi/sns_ic_flag_cu
+- res/drawable-nodpi/sns_ic_flag_cv
+- res/drawable-nodpi/sns_ic_flag_cw
+- res/drawable-nodpi/sns_ic_flag_dk
+- res/drawable-nodpi/sns_ic_flag_cy
+- res/drawable-nodpi/sns_ic_flag_dj
+- res/drawable-nodpi/sns_ic_flag_de
+- res/drawable-nodpi/sns_ic_flag_cz
+- res/drawable-nodpi/sns_ic_flag_do
+- res/drawable-nodpi/sns_ic_flag_dz
+- res/drawable-nodpi/sns_ic_flag_ee
+- res/drawable-nodpi/sns_ic_flag_dm
+- res/drawable-nodpi/sns_ic_flag_ec
+- res/drawable-nodpi/sns_ic_flag_et
+- res/drawable-nodpi/sns_ic_flag_er
+- res/drawable-nodpi/sns_ic_flag_es
+- res/drawable-nodpi/sns_ic_flag_eg
+- res/drawable-nodpi/sns_ic_flag_bd
+- res/drawable-nodpi/sns_ic_flag_bg
+- res/drawable-nodpi/sns_ic_flag_bb
+- res/drawable-nodpi/sns_ic_flag_bl
+- res/drawable-nodpi/sns_ic_flag_bh
+- res/drawable-nodpi/sns_ic_flag_bi
+- res/drawable-nodpi/sns_ic_flag_bm
+- res/drawable-nodpi/sns_ic_flag_bj
+- res/drawable-nodpi/sns_ic_flag_bq_bo
+- res/drawable-nodpi/sns_ic_flag_bq
+- res/drawable-nodpi/sns_ic_flag_bq_sa
+- res/drawable-nodpi/sns_ic_flag_bn
+- res/drawable-nodpi/sns_ic_flag_bo
+- res/drawable-nodpi/sns_ic_flag_bq_se
+- res/drawable-nodpi/sns_ic_flag_bs
+- res/drawable-nodpi/sns_ic_flag_br
+- res/drawable-nodpi/sns_ic_flag_bt
+- res/drawable-nodpi/sns_ic_flag_bv
+- res/drawable-nodpi/sns_ic_flag_bw
+- res/drawable-nodpi/sns_ic_flag_cc
+- res/drawable-nodpi/sns_ic_flag_by
+- res/drawable-nodpi/sns_ic_flag_bz
+- res/drawable-nodpi/sns_ic_flag_ca
+- res/drawable-nodpi/sns_ic_flag_ch
+- res/drawable-nodpi/sns_ic_flag_cg
+- res/drawable-nodpi/sns_ic_flag_cf
+- res/drawable-nodpi/sns_ic_flag_gy
+- res/drawable-nodpi/sns_ic_flag_hn
+- res/drawable-nodpi/sns_ic_flag_hr
+- res/drawable-nodpi/sns_ic_flag_hk
+- res/drawable-nodpi/sns_ic_flag_hm
+- res/drawable-nodpi/sns_ic_flag_ht
+- res/drawable-nodpi/sns_ic_flag_hu
+- res/drawable-nodpi/sns_ic_flag_ie
+- res/drawable-nodpi/sns_ic_flag_id
+- res/drawable-nodpi/sns_ic_flag_il
+- res/drawable-nodpi/sns_ic_flag_im
+- res/drawable-nodpi/sns_ic_flag_in
+- res/drawable-nodpi/sns_ic_flag_iq
+- res/drawable-nodpi/sns_ic_flag_io
+- res/drawable-nodpi/sns_ic_flag_ir
+- res/drawable-nodpi/sns_ic_flag_it
+- res/drawable-nodpi/sns_ic_flag_jm
+- res/drawable-nodpi/sns_ic_flag_jo
+- res/drawable-nodpi/sns_ic_flag_is
+- res/drawable-nodpi/sns_ic_flag_je
+- res/drawable-nodpi/sns_ic_flag_kh
+- res/drawable-nodpi/sns_ic_flag_jp
+- res/drawable-nodpi/sns_ic_flag_ki
+- res/drawable-nodpi/sns_ic_flag_ke
+- res/drawable-nodpi/sns_ic_flag_kg
+- res/drawable-nodpi/sns_ic_flag_kn
+- res/drawable-nodpi/sns_ic_flag_eh
+- res/drawable-nodpi/sns_ic_flag_eu
+- res/drawable-nodpi/sns_ic_flag_fj
+- res/drawable-nodpi/sns_ic_flag_fm
+- res/drawable-nodpi/sns_ic_flag_fk
+- res/drawable-nodpi/sns_ic_flag_fi
+- res/drawable-nodpi/sns_ic_flag_gb
+- res/drawable-nodpi/sns_ic_flag_ga
+- res/drawable-nodpi/sns_ic_flag_fo
+- res/drawable-nodpi/sns_ic_flag_fr
+- res/drawable-nodpi/sns_ic_flag_gd
+- res/drawable-nodpi/sns_ic_flag_ge
+- res/drawable-nodpi/sns_ic_flag_gf
+- res/drawable-nodpi/sns_ic_flag_gi
+- res/drawable-nodpi/sns_ic_flag_gh
+- res/drawable-nodpi/sns_ic_flag_gg
+- res/drawable-nodpi/sns_ic_flag_gn
+- res/drawable-nodpi/sns_ic_flag_gq
+- res/drawable-nodpi/sns_ic_flag_gm
+- res/drawable-nodpi/sns_ic_flag_gp
+- res/drawable-nodpi/sns_ic_flag_gl
+- res/drawable-nodpi/sns_ic_flag_gs
+- res/drawable-nodpi/sns_ic_flag_gw
+- res/drawable-nodpi/sns_ic_flag_gt
+- res/drawable-nodpi/sns_ic_flag_gu
+- res/drawable-nodpi/sns_ic_flag_gr
+- res/drawable-nodpi/sns_ic_flag_mk
+- res/drawable-nodpi/sns_ic_flag_mn
+- res/drawable-nodpi/sns_ic_flag_mo
+- res/drawable-nodpi/sns_ic_flag_mp
+- res/drawable-nodpi/sns_ic_flag_mr
+- res/drawable-nodpi/sns_ic_flag_mqa
+- res/drawable-nodpi/sns_ic_flag_mqb
+- res/drawable-nodpi/sns_ic_flag_mq
+- res/drawable-nodpi/sns_ic_flag_ms
+- res/drawable-nodpi/sns_ic_flag_mv
+- res/drawable-nodpi/sns_ic_flag_mu
+- res/drawable-nodpi/sns_ic_flag_mw
+- res/drawable-nodpi/sns_ic_flag_mt
+- res/drawable-nodpi/sns_ic_flag_na
+- res/drawable-nodpi/sns_ic_flag_mz
+- res/drawable-nodpi/sns_ic_flag_my
+- res/drawable-nodpi/sns_ic_flag_nc
+- res/drawable-nodpi/sns_ic_flag_mx
+- res/drawable-nodpi/sns_ic_flag_nl
+- res/drawable-nodpi/sns_ic_flag_ne
+- res/drawable-nodpi/sns_ic_flag_ni
+- res/drawable-nodpi/sns_ic_flag_nf
+- res/drawable-nodpi/sns_ic_flag_ng
+- res/drawable-nodpi/sns_ic_flag_nz
+- res/drawable-nodpi/sns_ic_flag_np
+- res/drawable-nodpi/sns_ic_flag_no
+- res/drawable-nodpi/sns_ic_flag_kw
+- res/drawable-nodpi/sns_ic_flag_km
+- res/drawable-nodpi/sns_ic_flag_kp
+- res/drawable-nodpi/sns_ic_flag_kr
+- res/drawable-nodpi/sns_ic_flag_lb
+- res/drawable-nodpi/sns_ic_flag_kz
+- res/drawable-nodpi/sns_ic_flag_la
+- res/drawable-nodpi/sns_ic_flag_lc
+- res/drawable-nodpi/sns_ic_flag_ky
+- res/drawable-nodpi/sns_ic_flag_lr
+- res/drawable-nodpi/sns_ic_flag_li
+- res/drawable-nodpi/sns_ic_flag_lk
+- res/drawable-nodpi/sns_ic_flag_lt
+- res/drawable-nodpi/sns_ic_flag_ls
+- res/drawable-nodpi/sns_ic_flag_lu
+- res/drawable-nodpi/sns_ic_flag_ma
+- res/drawable-nodpi/sns_ic_flag_ly
+- res/drawable-nodpi/sns_ic_flag_lv
+- res/drawable-nodpi/sns_ic_flag_mc
+- res/drawable-nodpi/sns_ic_flag_mh
+- res/drawable-nodpi/sns_ic_flag_md
+- res/drawable-nodpi/sns_ic_flag_me
+- res/drawable-nodpi/sns_ic_flag_mf
+- res/drawable-nodpi/sns_ic_flag_mg
+- res/drawable-nodpi/sns_ic_flag_ml
+- res/drawable-nodpi/sns_ic_flag_mm
+- res/drawable-nodpi/sns_ic_flag_rw
+- res/drawable-nodpi/sns_ic_flag_sg
+- res/drawable-nodpi/sns_ic_flag_si
+- res/drawable-nodpi/sns_ic_flag_sd
+- res/drawable-nodpi/sns_ic_flag_se
+- res/drawable-nodpi/sns_ic_flag_sh
+- res/drawable-nodpi/sns_ic_flag_sj
+- res/drawable-nodpi/sns_ic_flag_sk
+- res/drawable-nodpi/sns_ic_flag_sm
+- res/drawable-nodpi/sns_ic_flag_sl
+- res/drawable-nodpi/sns_ic_flag_sn
+- res/drawable-nodpi/sns_ic_flag_sr
+- res/drawable-nodpi/sns_ic_flag_st
+- res/drawable-nodpi/sns_ic_flag_so
+- res/drawable-nodpi/sns_ic_flag_sv
+- res/drawable-nodpi/sns_ic_flag_ss
+- res/drawable-nodpi/sns_ic_flag_sz
+- res/drawable-nodpi/sns_ic_flag_sx
+- res/drawable-nodpi/sns_ic_flag_tc
+- res/drawable-nodpi/sns_ic_flag_td
+- res/drawable-nodpi/sns_ic_flag_sy
+- res/drawable-nodpi/sns_ic_flag_tj
+- res/drawable-nodpi/sns_ic_flag_tf
+- res/drawable-nodpi/sns_ic_flag_tk
+- res/drawable-nodpi/sns_ic_flag_th
+- res/drawable-nodpi/sns_ic_flag_tg
+- res/drawable-nodpi/sns_ic_flag_nr
+- res/drawable-nodpi/sns_ic_flag_nu
+- res/drawable-nodpi/sns_ic_flag_om
+- res/drawable-nodpi/sns_ic_flag_pe
+- res/drawable-nodpi/sns_ic_flag_pf
+- res/drawable-nodpi/sns_ic_flag_pa
+- res/drawable-nodpi/sns_ic_flag_pg
+- res/drawable-nodpi/sns_ic_flag_pm
+- res/drawable-nodpi/sns_ic_flag_pl
+- res/drawable-nodpi/sns_ic_flag_placeholder
+- res/drawable-nodpi/sns_ic_flag_pk
+- res/drawable-nodpi/sns_ic_flag_ph
+- res/drawable-nodpi/sns_ic_flag_pr
+- res/drawable-nodpi/sns_ic_flag_pt
+- res/drawable-nodpi/sns_ic_flag_pn
+- res/drawable-nodpi/sns_ic_flag_pw
+- res/drawable-nodpi/sns_ic_flag_ps
+- res/drawable-nodpi/sns_ic_flag_re
+- res/drawable-nodpi/sns_ic_flag_qa
+- res/drawable-nodpi/sns_ic_flag_ro
+- res/drawable-nodpi/sns_ic_flag_rs
+- res/drawable-nodpi/sns_ic_flag_py
+- res/drawable-nodpi/sns_ic_flag_sa
+- res/drawable-nodpi/sns_ic_flag_sc
+- res/drawable-nodpi/sns_ic_flag_ru
+- res/drawable-nodpi/sns_ic_flag_sb
+- res/drawable-nodpi/sns_ic_flag_ye
+- res/drawable-nodpi/sns_ic_flag_yt
+- res/drawable-nodpi/sns_ic_flag_za
+- res/drawable-nodpi/sns_ic_flag_zw
+- res/drawable-xhdpi/2131232286
+- res/drawable-nodpi/sns_ic_flag_tr
+- res/drawable-nodpi/sns_ic_flag_tn
+- res/drawable-nodpi/sns_ic_flag_tm
+- res/drawable-nodpi/sns_ic_flag_to
+- res/drawable-nodpi/sns_ic_flag_tl
+- res/drawable-nodpi/sns_ic_flag_tz
+- res/drawable-nodpi/sns_ic_flag_tv
+- res/drawable-nodpi/sns_ic_flag_tw
+- res/drawable-nodpi/sns_ic_flag_ua
+- res/drawable-nodpi/sns_ic_flag_tt
+- res/drawable-nodpi/sns_ic_flag_us
+- res/drawable-nodpi/sns_ic_flag_uy
+- res/drawable-nodpi/sns_ic_flag_um
+- res/drawable-nodpi/sns_ic_flag_uz
+- res/drawable-nodpi/sns_ic_flag_ug
+- res/drawable-nodpi/sns_ic_flag_va
+- res/drawable-nodpi/sns_ic_flag_ve
+- res/drawable-nodpi/sns_ic_flag_vc
+- res/drawable-nodpi/sns_ic_flag_vi
+- res/drawable-nodpi/sns_ic_flag_vg
+- res/drawable-nodpi/sns_ic_flag_xk
+- res/drawable-nodpi/sns_ic_flag_wf
+- res/drawable-nodpi/sns_ic_flag_vu
+- res/drawable-nodpi/sns_ic_flag_ws
+- res/drawable-nodpi/sns_ic_flag_vn
+- res/drawable-nodpi/sns_ic_flag_zm
+- res/drawable-xhdpi/2131232345
+- res/drawable-xhdpi/2131232364
+- res/drawable-xhdpi/2131232358
+- res/drawable-xhdpi/2131232393
+- res/drawable-xhdpi/2131232666
+- res/drawable-xhdpi/2131232372
+- res/drawable-xhdpi/2131232367
+- res/drawable-xhdpi/2131232946
+- res/drawable-xhdpi/2131232954
+- res/drawable-xhdpi/2131233109
+- res/drawable-xhdpi/2131233044
+- res/drawable-xhdpi/2131233048
+- res/drawable-xhdpi/2131233049
+- res/drawable-xhdpi/2131233391
+- res/drawable-xhdpi/2131233389
+- res/drawable-xhdpi/2131232285
+- res/drawable-xhdpi/2131232280
+- res/drawable-xhdpi/2131232287
+- res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012
+- res/drawable-xhdpi/2131232323
+- res/drawable-xhdpi/2131232322
+- res/drawable-xhdpi/2131232340
+- res/drawable-xhdpi/2131232344
+- res/drawable-xhdpi/2131232346
+- res/drawable-xhdpi/2131233420
+- res/drawable-xhdpi/2131234075
+- res/drawable-xhdpi/2131233828
+- res/drawable-xhdpi/2131233827
+- res/drawable-xhdpi/2131234077
+- res/drawable-xhdpi/2131234078
+- res/drawable-xhdpi/2131234120
+- res/drawable-xhdpi/2131234248
+- res/drawable-xhdpi/2131234139
+- res/drawable-xhdpi/2131234247
+- res/drawable-xhdpi/2131234159
+- res/drawable-xhdpi/2131234424
+- res/drawable-xhdpi/2131234325
+- res/drawable-xhdpi/2131234425
+- res/drawable-xhdpi/2131234345
+- res/drawable-xhdpi/2131234426
+- res/drawable-xhdpi/2131234432
+- res/drawable-xhdpi/2131234496
+- res/drawable-xhdpi/2131234450
+- res/drawable-xhdpi/2131234435
+- res/drawable-xhdpi/2131234509
+- res/drawable-xhdpi/2131235080
+- res/drawable-xhdpi/2131234659
+- res/drawable-xhdpi/2131235079
+- res/drawable-xhdpi/2131234586
+- res/drawable-xhdpi/2131233398
+- res/drawable-xhdpi/2131233399
+- res/drawable-xhdpi/2131233397
+- res/drawable-xhdpi/2131233396
+- res/drawable-xhdpi/2131233402
+- res/drawable-xhdpi/2131233404
+- res/drawable-xhdpi/2131233403
+- res/drawable-xhdpi/2131233411
+- res/drawable-xhdpi/2131233405
+- res/drawable-xhdpi/2131233406
+- res/drawable-xhdpi/2131233412
+- res/drawable-xhdpi/2131233416
+- res/drawable-xhdpi/2131233417
+- res/drawable-xhdpi/2131233705
+- res/drawable-xhdpi/2131233422
+- res/drawable-xhdpi/2131233419
+- res/drawable-xhdpi/2131236578
+- res/drawable-xhdpi/2131235886
+- res/drawable-xhdpi/2131235888
+- res/drawable-xhdpi/2131236574
+- res/drawable-xhdpi/2131236583
+- res/drawable-xhdpi/2131236585
+- res/drawable-xhdpi/2131236584
+- res/drawable-xhdpi/2131236579
+- res/drawable-xhdpi/2131238601
+- res/drawable-xhdpi/2131238606
+- res/drawable-xhdpi/2131238616
+- res/drawable-xhdpi/2131236587
+- res/drawable-xhdpi/2131236586
+- res/drawable-xhdpi/2131238629
+- res/drawable-xhdpi/2131238619
+- res/drawable-xhdpi/2131238617
+- res/drawable-xhdpi/2131238620
+- res/drawable-xhdpi/2131238618
+- res/drawable-xxhdpi/2131232280
+- res/drawable-xxhdpi/2131232279
+- res/drawable-xxhdpi/2131232286
+- res/drawable-xxhdpi/2131232285
+- res/drawable-xxhdpi/2131232298
+- res/drawable-xhdpi/2131235089
+- res/drawable-xhdpi/2131235082
+- res/drawable-xhdpi/2131235083
+- res/drawable-xhdpi/2131235081
+- res/drawable-xhdpi/2131235084
+- res/drawable-xhdpi/2131235324
+- res/drawable-xhdpi/2131235251
+- res/drawable-xhdpi/2131235307
+- res/drawable-xhdpi/2131235095
+- res/drawable-xhdpi/2131235327
+- res/drawable-xhdpi/2131235331
+- res/drawable-xhdpi/2131235329
+- res/drawable-xhdpi/2131235335
+- res/drawable-xhdpi/2131235336
+- res/drawable-xhdpi/notify_panel_notification_icon_bg
+- res/drawable-xhdpi/2131235876
+- res/drawable-xhdpi/2131235885
+- res/drawable-xhdpi/2131235803
+- res/drawable-xhdpi/2131235804
+- res/drawable-xhdpi/2131236561
+- res/drawable-xxhdpi/2131232353
+- res/drawable-xxhdpi/2131232358
+- res/drawable-xxhdpi/2131232372
+- res/drawable-xxhdpi/2131232366
+- res/drawable-xxhdpi/2131232360
+- res/drawable-xxhdpi/2131232368
+- res/drawable-xxhdpi/2131232363
+- res/drawable-xxhdpi/2131232385
+- res/drawable-xxhdpi/2131232666
+- res/drawable-xxhdpi/2131232393
+- res/drawable-xxhdpi/2131232376
+- res/drawable-xxhdpi/2131232872
+- res/drawable-xxhdpi/2131232881
+- res/drawable-xxhdpi/2131232812
+- res/drawable-xxhdpi/2131232778
+- res/drawable-xxhdpi/2131232882
+- res/drawable-xxhdpi/2131232287
+- res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012
+- res/drawable-xxhdpi/2131232322
+- res/drawable-xxhdpi/2131232327
+- res/drawable-xxhdpi/2131232323
+- res/drawable-xxhdpi/2131232340
+- res/drawable-xxhdpi/2131232329
+- res/drawable-xxhdpi/2131232345
+- res/drawable-xxhdpi/2131232344
+- res/drawable-xxhdpi/2131232346
+- res/drawable-xxhdpi/2131233163
+- res/drawable-xxhdpi/2131232973
+- res/drawable-xxhdpi/2131233137
+- res/drawable-xxhdpi/2131233261
+- res/drawable-xxhdpi/2131233214
+- res/drawable-xxhdpi/2131233266
+- res/drawable-xxhdpi/2131233333
+- res/drawable-xxhdpi/2131233274
+- res/drawable-xxhdpi/2131233349
+- res/drawable-xxhdpi/2131233369
+- res/drawable-xxhdpi/2131233389
+- res/drawable-xxhdpi/2131233351
+- res/drawable-xxhdpi/2131233391
+- res/drawable-xxhdpi/2131233392
+- res/drawable-xxhdpi/2131233395
+- res/drawable-xxhdpi/2131233393
+- res/drawable-xxhdpi/2131233390
+- res/drawable-xxhdpi/2131233399
+- res/drawable-xxhdpi/2131233397
+- res/drawable-xxhdpi/2131233400
+- res/drawable-xxhdpi/2131233398
+- res/drawable-xxhdpi/2131233396
+- res/drawable-xxhdpi/2131233402
+- res/drawable-xxhdpi/2131232901
+- res/drawable-xxhdpi/2131232900
+- res/drawable-xxhdpi/2131232902
+- res/drawable-xxhdpi/2131232903
+- res/drawable-xxhdpi/2131232908
+- res/drawable-xxhdpi/2131232904
+- res/drawable-xxhdpi/2131232905
+- res/drawable-xxhdpi/2131232906
+- res/drawable-xxhdpi/2131232913
+- res/drawable-xxhdpi/2131232910
+- res/drawable-xxhdpi/2131232911
+- res/drawable-xxhdpi/2131232909
+- res/drawable-xxhdpi/2131232912
+- res/drawable-xxhdpi/2131232914
+- res/drawable-xxhdpi/2131232943
+- res/drawable-xxhdpi/2131232915
+- res/drawable-xxhdpi/2131232941
+- res/drawable-xxhdpi/2131232935
+- res/drawable-xxhdpi/2131232950
+- res/drawable-xxhdpi/2131232951
+- res/drawable-xxhdpi/2131232948
+- res/drawable-xxhdpi/2131233478
+- res/drawable-xxhdpi/2131233493
+- res/drawable-xxhdpi/2131233480
+- res/drawable-xxhdpi/2131233587
+- res/drawable-xxhdpi/2131233591
+- res/drawable-xxhdpi/2131233604
+- res/drawable-xxhdpi/2131233606
+- res/drawable-xxhdpi/2131233623
+- res/drawable-xxhdpi/2131233593
+- res/drawable-xxhdpi/2131233769
+- res/drawable-xxhdpi/2131233677
+- res/drawable-xxhdpi/2131233679
+- res/drawable-xxhdpi/2131233703
+- res/drawable-xxhdpi/2131233678
+- res/drawable-xxhdpi/2131233785
+- res/drawable-xxhdpi/2131233776
+- res/drawable-xxhdpi/2131233404
+- res/drawable-xxhdpi/2131233403
+- res/drawable-xxhdpi/2131233401
+- res/drawable-xxhdpi/2131233405
+- res/drawable-xxhdpi/2131233406
+- res/drawable-xxhdpi/2131233412
+- res/drawable-xxhdpi/2131233411
+- res/drawable-xxhdpi/2131233408
+- res/drawable-xxhdpi/2131233413
+- res/drawable-xxhdpi/2131233418
+- res/drawable-xxhdpi/2131233417
+- res/drawable-xxhdpi/2131233414
+- res/drawable-xxhdpi/2131233416
+- res/drawable-xxhdpi/2131233415
+- res/drawable-xxhdpi/2131233420
+- res/drawable-xxhdpi/2131233460
+- res/drawable-xxhdpi/2131233419
+- res/drawable-xxhdpi/2131233422
+- res/drawable-xxhdpi/2131233459
+- res/drawable-xxhdpi/2131233472
+- res/drawable-xxhdpi/2131233477
+- res/drawable-xxhdpi/2131233461
+- res/drawable-xxhdpi/2131233463
+- res/drawable-xxhdpi/2131234118
+- res/drawable-xxhdpi/2131234072
+- res/drawable-xxhdpi/2131234145
+- res/drawable-xxhdpi/2131234141
+- res/drawable-xxhdpi/2131234146
+- res/drawable-xxhdpi/2131234120
+- res/drawable-xxhdpi/2131234142
+- res/drawable-xxhdpi/2131234206
+- res/drawable-xxhdpi/2131234213
+- res/drawable-xxhdpi/2131234202
+- res/drawable-xxhdpi/2131234168
+- res/drawable-xxhdpi/ic_currency_idr
+- res/drawable-xxhdpi/2131234229
+- res/drawable-xxhdpi/2131234236
+- res/drawable-xxhdpi/ic_currency_mxn
+- res/drawable-xxhdpi/2131234220
+- res/drawable-xxhdpi/2131234221
+- res/drawable-xxhdpi/2131234248
+- res/drawable-xxhdpi/2131234268
+- res/drawable-xxhdpi/2131234267
+- res/drawable-xxhdpi/2131234266
+- res/drawable-xxhdpi/2131234247
+- res/drawable-xxhdpi/2131234273
+- res/drawable-xxhdpi/2131234269
+- res/drawable-xxhdpi/2131234272
+- res/drawable-xxhdpi/2131234275
+- res/drawable-xxhdpi/2131233770
+- res/drawable-xxhdpi/2131233772
+- res/drawable-xxhdpi/2131233771
+- res/drawable-xxhdpi/2131233829
+- res/drawable-xxhdpi/2131233828
+- res/drawable-xxhdpi/2131233832
+- res/drawable-xxhdpi/2131233836
+- res/drawable-xxhdpi/2131233827
+- res/drawable-xxhdpi/2131233840
+- res/drawable-xxhdpi/2131233924
+- res/drawable-xxhdpi/2131233963
+- res/drawable-xxhdpi/2131233841
+- res/drawable-xxhdpi/2131233839
+- res/drawable-xxhdpi/2131233965
+- res/drawable-xxhdpi/2131233978
+- res/drawable-xxhdpi/2131233990
+- res/drawable-xxhdpi/2131234017
+- res/drawable-xxhdpi/2131233993
+- res/drawable-xxhdpi/2131234068
+- res/drawable-xxhdpi/2131234019
+- res/drawable-xxhdpi/2131234066
+- res/drawable-xxhdpi/2131234020
+- res/drawable-xxhdpi/2131234067
+- res/drawable-xxhdpi/2131234073
+- res/drawable-xxhdpi/2131234077
+- res/drawable-xxhdpi/2131234078
+- res/drawable-xxhdpi/2131234421
+- res/drawable-xxhdpi/2131234446
+- res/drawable-xxhdpi/2131234443
+- res/drawable-xxhdpi/2131234496
+- res/drawable-xxhdpi/2131234498
+- res/drawable-xxhdpi/2131234482
+- res/drawable-xxhdpi/2131234447
+- res/drawable-xxhdpi/2131234512
+- res/drawable-xxhdpi/2131234509
+- res/drawable-xxhdpi/2131234518
+- res/drawable-xxhdpi/2131234499
+- res/drawable-xxhdpi/2131234527
+- res/drawable-xxhdpi/2131234530
+- res/drawable-xxhdpi/2131234529
+- res/drawable-xxhdpi/2131234523
+- res/drawable-xxhdpi/2131234522
+- res/drawable-xxhdpi/2131234533
+- res/drawable-xxhdpi/2131234534
+- res/drawable-xxhdpi/2131234538
+- res/drawable-xxhdpi/2131234536
+- res/drawable-xxhdpi/2131234532
+- res/drawable-xxhdpi/2131234560
+- res/drawable-xxhdpi/2131234562
+- res/drawable-xxhdpi/2131234563
+- res/drawable-xxhdpi/2131234302
+- res/drawable-xxhdpi/2131234317
+- res/drawable-xxhdpi/2131234303
+- res/drawable-xxhdpi/2131234320
+- res/drawable-xxhdpi/2131234314
+- res/drawable-xxhdpi/2131234318
+- res/drawable-xxhdpi/2131234340
+- res/drawable-xxhdpi/2131234325
+- res/drawable-xxhdpi/2131234341
+- res/drawable-xxhdpi/2131234345
+- res/drawable-xxhdpi/2131234326
+- res/drawable-xxhdpi/2131234398
+- res/drawable-xxhdpi/2131234397
+- res/drawable-xxhdpi/2131234391
+- res/drawable-xxhdpi/2131234395
+- res/drawable-xxhdpi/2131234375
+- res/drawable-xxhdpi/2131234408
+- res/drawable-xxhdpi/2131234399
+- res/drawable-xxhdpi/2131234400
+- res/drawable-xxhdpi/2131234403
+- res/drawable-xxhdpi/2131234401
+- res/drawable-xxhdpi/2131234445
+- res/drawable-xxhdpi/2131234435
+- res/drawable-xxhdpi/kline_gray_small
+- res/drawable-xxhdpi/kline_green_small
+- res/drawable-xxhdpi/kline_light_green_big
+- res/drawable-xxhdpi/kline_green_mid
+- res/drawable-xxhdpi/kline_light_green_mid
+- res/drawable-xxhdpi/kline_green_big
+- res/drawable-xxhdpi/kline_light_purple_mid
+- res/drawable-xxhdpi/kline_light_purple_big
+- res/drawable-xxhdpi/kline_light_purple_small
+- res/drawable-xxhdpi/kline_light_green_small
+- res/drawable-xxhdpi/kline_light_yellow_big
+- res/drawable-xxhdpi/kline_orange_small
+- res/drawable-xxhdpi/kline_light_yellow_small
+- res/drawable-xxhdpi/kline_orange_big
+- res/drawable-xxhdpi/kline_light_yellow_mid
+- res/drawable-xxhdpi/kline_orange_mid
+- res/drawable-xxhdpi/kline_purple_mid
+- res/drawable-xxhdpi/kline_pink_small
+- res/drawable-xxhdpi/kline_pink_mid
+- res/drawable-xxhdpi/kline_pink_big
+- res/drawable-xxhdpi/kline_purple_big
+- res/drawable-xxhdpi/kline_red_small
+- res/drawable-xxhdpi/kline_selected_top_right_img
+- res/drawable-xxhdpi/kline_red_big
+- res/drawable-xxhdpi/kline_red_mid
+- res/drawable-xxhdpi/kline_purple_small
+- res/drawable-xxhdpi/2131234559
+- res/drawable-xxhdpi/2131234553
+- res/drawable-xxhdpi/2131234569
+- res/drawable-xxhdpi/2131234566
+- res/drawable-xxhdpi/2131234565
+- res/drawable-xxhdpi/2131234564
+- res/drawable-xxhdpi/2131234571
+- res/drawable-xxhdpi/2131234577
+- res/drawable-xxhdpi/2131234572
+- res/drawable-xxhdpi/2131234576
+- res/drawable-xxhdpi/2131234570
+- res/drawable-xxhdpi/2131234588
+- res/drawable-xxhdpi/2131234579
+- res/drawable-xxhdpi/2131234589
+- res/drawable-xxhdpi/2131234578
+- res/drawable-xxhdpi/2131234586
+- res/drawable-xxhdpi/kline_blue_big
+- res/drawable-xxhdpi/jpush_notification_icon
+- res/drawable-xxhdpi/2131234590
+- res/drawable-xxhdpi/2131234613
+- res/drawable-xxhdpi/kline_blue_small
+- res/drawable-xxhdpi/kline_blue_mid
+- res/drawable-xxhdpi/kline_gray_mid
+- res/drawable-xxhdpi/kline_gray_big
+- res/drawable-xxhdpi/2131235027
+- res/drawable-xxhdpi/2131234882
+- res/drawable-xxhdpi/2131235025
+- res/drawable-xxhdpi/2131234893
+- res/drawable-xxhdpi/2131235052
+- res/drawable-xxhdpi/2131235028
+- res/drawable-xxhdpi/2131235051
+- res/drawable-xxhdpi/2131235050
+- res/drawable-xxhdpi/2131235034
+- res/drawable-xxhdpi/2131235079
+- res/drawable-xxhdpi/2131235080
+- res/drawable-xxhdpi/2131235067
+- res/drawable-xxhdpi/2131235053
+- res/drawable-xxhdpi/2131235060
+- res/drawable-xxhdpi/2131235089
+- res/drawable-xxhdpi/2131235083
+- res/drawable-xxhdpi/2131235081
+- res/drawable-xxhdpi/2131235082
+- res/drawable-xxhdpi/2131235084
+- res/drawable-xxhdpi/2131235097
+- res/drawable-xxhdpi/2131235102
+- res/drawable-xxhdpi/2131235124
+- res/drawable-xxhdpi/2131235103
+- res/drawable-xxhdpi/2131235115
+- res/drawable-xxhdpi/2131235167
+- res/drawable-xxhdpi/kline_set_close
+- res/drawable-xxhdpi/kline_yellow_mid
+- res/drawable-xxhdpi/kline_set_enable
+- res/drawable-xxhdpi/kline_yellow_big
+- res/drawable-xxhdpi/kline_set_disable
+- res/drawable-xxhdpi/2131234695
+- res/drawable-xxhdpi/2131234698
+- res/drawable-xxhdpi/2131234684
+- res/drawable-xxhdpi/kline_yellow_small
+- res/drawable-xxhdpi/2131234744
+- res/drawable-xxhdpi/2131234727
+- res/drawable-xxhdpi/2131234763
+- res/drawable-xxhdpi/2131234757
+- res/drawable-xxhdpi/2131234706
+- res/drawable-xxhdpi/2131234764
+- res/drawable-xxhdpi/2131234780
+- res/drawable-xxhdpi/liveness_home_action_line_icon2
+- res/drawable-xxhdpi/2131234774
+- res/drawable-xxhdpi/liveness_home_action_line_icon1
+- res/drawable-xxhdpi/2131234860
+- res/drawable-xxhdpi/2131234823
+- res/drawable-xxhdpi/2131234856
+- res/drawable-xxhdpi/liveness_home_action_line_icon4
+- res/drawable-xxhdpi/liveness_home_action_line_icon3
+- res/drawable-xxhdpi/2131235026
+- res/drawable-xxhdpi/2131235383
+- res/drawable-xxhdpi/2131235385
+- res/drawable-xxhdpi/2131235339
+- res/drawable-xxhdpi/2131235388
+- res/drawable-xxhdpi/2131235389
+- res/drawable-xxhdpi/2131235386
+- res/drawable-xxhdpi/2131235408
+- res/drawable-xxhdpi/2131235410
+- res/drawable-xxhdpi/2131235413
+- res/drawable-xxhdpi/2131235416
+- res/drawable-xxhdpi/2131235414
+- res/drawable-xxhdpi/2131235412
+- res/drawable-xxhdpi/2131235415
+- res/drawable-xxhdpi/2131235538
+- res/drawable-xxhdpi/2131235560
+- res/drawable-xxhdpi/2131235616
+- res/drawable-xxhdpi/2131235417
+- res/drawable-xxhdpi/2131235556
+- res/drawable-xxhdpi/2131235617
+- res/drawable-xxhdpi/2131235640
+- res/drawable-xxhdpi/2131235641
+- res/drawable-xxhdpi/2131235636
+- res/drawable-xxhdpi/2131235637
+- res/drawable-xxhdpi/2131235666
+- res/drawable-xxhdpi/2131235678
+- res/drawable-xxhdpi/2131235140
+- res/drawable-xxhdpi/2131235168
+- res/drawable-xxhdpi/2131235147
+- res/drawable-xxhdpi/2131235180
+- res/drawable-xxhdpi/2131235251
+- res/drawable-xxhdpi/2131235265
+- res/drawable-xxhdpi/2131235181
+- res/drawable-xxhdpi/2131235274
+- res/drawable-xxhdpi/2131235264
+- res/drawable-xxhdpi/2131235307
+- res/drawable-xxhdpi/2131235324
+- res/drawable-xxhdpi/2131235292
+- res/drawable-xxhdpi/2131235325
+- res/drawable-xxhdpi/2131235308
+- res/drawable-xxhdpi/2131235331
+- res/drawable-xxhdpi/2131235329
+- res/drawable-xxhdpi/2131235332
+- res/drawable-xxhdpi/2131235327
+- res/drawable-xxhdpi/2131235326
+- res/drawable-xxhdpi/2131235335
+- res/drawable-xxhdpi/2131235334
+- res/drawable-xxhdpi/2131235336
+- res/drawable-xxhdpi/2131235338
+- res/drawable-xxhdpi/2131235333
+- res/drawable-xxhdpi/2131235382
+- res/drawable-xxhdpi/2131235381
+- res/drawable-xxhdpi/2131235803
+- res/drawable-xxhdpi/2131235876
+- res/drawable-xxhdpi/2131235886
+- res/drawable-xxhdpi/2131236048
+- res/drawable-xxhdpi/2131235980
+- res/drawable-xxhdpi/2131235888
+- res/drawable-xxhdpi/2131235885
+- res/drawable-xxhdpi/2131236054
+- res/drawable-xxhdpi/2131236055
+- res/drawable-xxhdpi/2131236049
+- res/drawable-xxhdpi/2131236053
+- res/drawable-xxhdpi/2131236056
+- res/drawable-xxhdpi/2131236470
+- res/drawable-xxhdpi/2131236459
+- res/drawable-xxhdpi/2131236066
+- res/drawable-xxhdpi/2131236471
+- res/drawable-xxhdpi/2131236057
+- res/drawable-xxhdpi/2131236560
+- res/drawable-xxhdpi/2131236558
+- res/drawable-xxhdpi/2131236551
+- res/drawable-xxhdpi/2131236561
+- res/drawable-xxhdpi/2131236502
+- res/drawable-xxhdpi/2131236577
+- res/drawable-xxhdpi/2131236578
+- res/drawable-xxhdpi/2131236580
+- res/drawable-xxhdpi/2131236574
+- res/drawable-xxhdpi/2131235667
+- res/drawable-xxhdpi/2131235668
+- res/drawable-xxhdpi/2131235683
+- res/drawable-xxhdpi/2131235692
+- res/drawable-xxhdpi/2131235694
+- res/drawable-xxhdpi/2131235701
+- res/drawable-xxhdpi/2131235703
+- res/drawable-xxhdpi/2131235686
+- res/drawable-xxhdpi/2131235713
+- res/drawable-xxhdpi/2131235715
+- res/drawable-xxhdpi/2131235717
+- res/drawable-xxhdpi/2131235714
+- res/drawable-xxhdpi/2131235711
+- res/drawable-xxhdpi/2131235736
+- res/drawable-xxhdpi/2131235725
+- res/drawable-xxhdpi/2131235724
+- res/drawable-xxhdpi/2131235740
+- res/drawable-xxhdpi/2131235722
+- res/drawable-xxhdpi/2131235750
+- res/drawable-xxhdpi/2131235765
+- res/drawable-xxhdpi/2131235757
+- res/drawable-xxhdpi/2131235741
+- res/drawable-xxhdpi/2131235749
+- res/drawable-xxhdpi/2131235881
+- res/drawable-xxhdpi/2131235772
+- res/drawable-xxhdpi/2131235804
+- res/drawable-xxhdpi/2131238616
+- res/drawable-xxhdpi/2131238531
+- res/drawable-xxhdpi/2131238606
+- res/drawable-xxhdpi/2131238601
+- res/drawable-xxhdpi/2131238617
+- res/drawable-xxhdpi/2131238629
+- res/drawable-xxhdpi/2131238620
+- res/drawable-xxhdpi/2131238619
+- res/drawable-xxhdpi/2131238618
+- res/drawable-xxhdpi/2131238774
+- res/drawable-xxhdpi/2131238754
+- res/drawable-xxhdpi/2131238679
+- res/drawable-xxhdpi/2131238680
+- res/drawable-xxhdpi/2131238674
+- res/drawable-xxxhdpi/2131232285
+- res/drawable-xxxhdpi/2131232280
+- res/drawable-xxxhdpi/2131232286
+- res/drawable-xxxhdpi/2131232287
+- res/drawable-xxxhdpi/2131232340
+- res/drawable-xxxhdpi/2131232329
+- res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012
+- res/drawable-xxhdpi/2131236579
+- res/drawable-xxhdpi/2131236586
+- res/drawable-xxhdpi/2131236583
+- res/drawable-xxhdpi/2131236584
+- res/drawable-xxhdpi/2131236585
+- res/drawable-xxhdpi/2131236581
+- res/drawable-xxhdpi/2131236587
+- res/drawable-xxhdpi/2131236757
+- res/drawable-xxhdpi/2131236755
+- res/drawable-xxhdpi/2131236756
+- res/drawable-xxhdpi/2131237534
+- res/drawable-xxhdpi/2131236772
+- res/drawable-xxhdpi/2131236773
+- res/drawable-xxhdpi/2131236758
+- res/drawable-xxhdpi/2131236766
+- res/drawable-xxhdpi/2131238477
+- res/drawable-xxhdpi/2131237536
+- res/drawable-xxhdpi/2131237537
+- res/drawable-xxhdpi/2131238479
+- res/drawable-xxhdpi/2131238455
+- res/drawable-xxhdpi/2131238483
+- res/drawable-xxhdpi/2131238530
+- res/drawable-xxhdpi/2131238480
+- res/drawable-xxhdpi/2131238493
+- res/drawable-xxhdpi/2131238494
+- res/drawable-xxxhdpi/2131233413
+- res/drawable-xxxhdpi/2131233415
+- res/drawable-xxxhdpi/2131233416
+- res/drawable-xxxhdpi/2131233412
+- res/drawable-xxxhdpi/2131233419
+- res/drawable-xxxhdpi/2131233418
+- res/drawable-xxxhdpi/2131233420
+- res/drawable-xxxhdpi/2131233827
+- res/drawable-xxxhdpi/2131233417
+- res/drawable-xxxhdpi/2131233828
+- res/drawable-xxxhdpi/2131234248
+- res/drawable-xxxhdpi/2131234247
+- res/drawable-xxxhdpi/2131234325
+- res/drawable-xxxhdpi/2131234120
+- res/drawable-xxxhdpi/2131235082
+- res/drawable-xxxhdpi/2131235079
+- res/drawable-xxxhdpi/2131235081
+- res/drawable-xxxhdpi/2131235080
+- res/drawable-xxxhdpi/2131234345
+- res/drawable-xxxhdpi/2131235307
+- res/drawable-xxxhdpi/2131235083
+- res/drawable-xxxhdpi/2131235084
+- res/drawable-xxxhdpi/2131235251
+- res/drawable-xxxhdpi/2131235089
+- res/drawable-xxxhdpi/2131235324
+- res/drawable-xxxhdpi/2131235327
+- res/drawable-xxxhdpi/2131232346
+- res/drawable-xxxhdpi/2131232358
+- res/drawable-xxxhdpi/2131232344
+- res/drawable-xxxhdpi/2131232372
+- res/drawable-xxxhdpi/2131233390
+- res/drawable-xxxhdpi/2131233391
+- res/drawable-xxxhdpi/2131233389
+- res/drawable-xxxhdpi/2131232393
+- res/drawable-xxxhdpi/2131233392
+- res/drawable-xxxhdpi/2131233397
+- res/drawable-xxxhdpi/2131233395
+- res/drawable-xxxhdpi/2131233398
+- res/drawable-xxxhdpi/2131233393
+- res/drawable-xxxhdpi/2131233396
+- res/drawable-xxxhdpi/2131233403
+- res/drawable-xxxhdpi/2131233401
+- res/drawable-xxxhdpi/2131233399
+- res/drawable-xxxhdpi/2131233402
+- res/drawable-xxxhdpi/2131233400
+- res/drawable-xxxhdpi/2131233411
+- res/drawable-xxxhdpi/2131233406
+- res/drawable-xxxhdpi/2131233408
+- res/drawable-xxxhdpi/2131233405
+- res/drawable-xxxhdpi/2131233404
+- res/drawable-xxxhdpi/2131233414
+- res/drawable/2131232356
+- res/drawable-xxxhdpi/2131235331
+- res/drawable-xxxhdpi/2131235329
+- res/drawable-xxxhdpi/2131235335
+- res/drawable-xxxhdpi/2131235804
+- res/drawable-xxxhdpi/2131235336
+- res/drawable-xxxhdpi/2131235338
+- res/drawable-xxxhdpi/2131235803
+- res/drawable-xxxhdpi/2131235339
+- res/drawable-xxxhdpi/2131235888
+- res/drawable-xxxhdpi/2131235876
+- res/drawable-xxxhdpi/2131235885
+- res/drawable-xxxhdpi/2131236561
+- res/drawable-xxxhdpi/2131235886
+- res/drawable-xxxhdpi/2131236580
+- res/drawable-xxxhdpi/2131236574
+- res/drawable-xxxhdpi/2131236579
+- res/drawable-xxxhdpi/2131236578
+- res/drawable-xxxhdpi/2131236583
+- res/drawable-xxxhdpi/2131236587
+- res/drawable-xxxhdpi/2131236585
+- res/drawable-xxxhdpi/2131236584
+- res/drawable-xxxhdpi/2131238601
+- res/drawable-xxxhdpi/2131236586
+- res/drawable-xxxhdpi/2131238629
+- res/drawable-xxxhdpi/2131238606
+- res/drawable/2131232482
+- res/drawable/2131233025
+- res/drawable/2131232917
+- res/drawable/2131233153
+- res/drawable/2131232996
+- res/drawable/2131233171
+- res/drawable/gt3_new_bind_logo
+- res/drawable/2131233320
+- res/drawable/2131234076
+- res/drawable/gt3_new_error
+- res/drawable/2131234339
+- res/drawable/2131234454
+- res/drawable/gt3logo
+- res/drawable/2131234452
+- res/drawable/2131234453
+- res/drawable/2131234459
+- res/drawable/2131234461
+- res/drawable/2131234460
+- res/drawable/2131234455
+- res/drawable/2131234456
+- res/drawable/2131234464
+- res/drawable/2131234670
+- res/drawable/2131234659
+- res/drawable/2131234463
+- res/drawable/2131234462
+- res/drawable/2131234689
+- res/drawable/2131234676
+- res/drawable/2131234770
+- res/drawable/2131234699
+- res/drawable/liveness_action_success_icon
+- res/drawable/liveness_agreement_close_pressed
+- res/drawable/liveness_action_shake_tips_icon
+- res/drawable/liveness_agreement_close_normal
+- res/drawable/liveness_action_nod_tips_icon
+- res/drawable/liveness_distance_move_image2
+- res/drawable/liveness_distance_mirror_light
+- res/drawable/liveness_distance_move_image1
+- res/drawable/liveness_agreement_selected
+- res/drawable/liveness_agreement_noselected
+- res/drawable/liveness_home_action_line_icon3
+- res/drawable/liveness_home_agreement
+- res/drawable/liveness_home_action_line_icon4
+- res/drawable/liveness_home_action_line_icon2
+- res/drawable/liveness_home_action_line_icon1
+- res/drawable/liveness_home_back_normal
+- res/drawable/liveness_home_vertical_remind
+- res/drawable/liveness_home_back_highlight
+- res/drawable/liveness_home_close_white
+- res/drawable/liveness_home_close
+- res/drawable/2131235252
+- res/drawable/2131235034
+- res/drawable/2131235000
+- res/drawable/liveness_loading_icon
+- res/drawable/2131235159
+- res/drawable/2131238533
+- res/drawable/2131238454
+- res/drawable/2131238459
+- res/drawable/2131238458
+- res/drawable/2131238571
+- res/drawable/2131238569
+- res/drawable/2131238685
+- res/drawable/2131238684
+- res/drawable/2131238714
+- res/drawable/2131238540
+- res/drawable/2131238539
+- res/drawable/2131238538
+- res/drawable/2131238515
+- res/drawable/2131238767
+- res/drawable/2131238768
+- res/drawable/2131238775
+- res/drawable/2131238782
+- res/drawable/2131235311
+- res/drawable/2131235255
+- res/drawable/2131235303
+- res/drawable/2131235310
+- res/drawable/2131235354
+- res/drawable/2131235315
+- res/drawable/2131235346
+- res/drawable/2131235353
+- res/drawable/2131235352
+- res/drawable/2131235262
+- res/drawable/2131235699
+- res/drawable/2131235698
+- res/drawable/2131235697
+- res/drawable/2131235357
+- res/drawable/onfido_ocr_font
+- wav
+- res/drawable/2131237518
+- res/drawable/2131236455
+- res/drawable/2131238450
+- res/drawable/2131236453
+- res/drawable/2131236571
+- res/raw/facelivemodel.bin
+- res/mipmap-hdpi/ic_launcher_logo
+- res/mipmap-hdpi/2131820548
+- res/mipmap-hdpi/2131820547
+- m4a
+- res/mipmap-mdpi/2131820547
+- res/mipmap-hdpi/2131820550
+- res/mipmap-hdpi/ic_launcher_round_logo
+- res/mipmap-mdpi/2131820548
+- res/mipmap-mdpi/ic_launcher_logo
+- res/mipmap-mdpi/2131820550
+- res/mipmap-xhdpi/gt3logored
+- res/mipmap-xhdpi/gt3logogreen
+- res/mipmap-xhdpi/gt3logogray
+- res/mipmap-mdpi/ic_launcher_round_logo
+- res/mipmap-xhdpi/2131820550
+- res/mipmap-xhdpi/ic_launcher_round_logo
+- res/mipmap-xhdpi/ic_launcher_logo
+- res/mipmap-xhdpi/2131820547
+- res/mipmap-xhdpi/2131820548
+- res/mipmap-xxhdpi/2131820547
+- res/mipmap-xxhdpi/2131820550
+- res/mipmap-xxhdpi/ic_launcher_logo
+- res/mipmap-xxhdpi/2131820548
+- res/mipmap-xxhdpi/ic_launcher_round_logo
+- res/mipmap-xxxhdpi/2131820550
+- res/mipmap-xxxhdpi/ic_launcher_logo
+- res/mipmap-xxxhdpi/ic_launcher_round_logo
+- res/mipmap-xxxhdpi/2131820547
+- res/mipmap-xxxhdpi/2131820548
+- res/drawable-hdpi/2131232344
+- res/drawable-hdpi/2131232346
+- res/drawable-hdpi/2131232372
+- res/drawable-hdpi/2131232358
+- res/drawable-hdpi/2131232393
+- res/drawable-hdpi/2131232954
+- res/drawable-hdpi/2131233389
+- res/drawable-hdpi/2131233397
+- res/drawable-hdpi/2131233398
+- res/drawable-hdpi/2131232280
+- res/drawable-hdpi/2131232286
+- res/drawable-hdpi/2131232285
+- res/drawable-hdpi/2131232287
+- res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012
+- res/drawable-hdpi/2131232322
+- res/drawable-hdpi/2131232323
+- res/drawable-hdpi/2131232329
+- res/drawable-hdpi/2131232345
+- res/drawable-hdpi/2131234345
+- res/drawable-hdpi/2131235081
+- res/drawable-hdpi/2131235080
+- res/drawable-hdpi/2131235078
+- res/drawable-hdpi/2131235079
+- res/drawable-hdpi/2131234609
+- res/drawable-hdpi/2131235089
+- res/drawable-hdpi/2131235082
+- res/drawable-hdpi/2131235084
+- res/drawable-hdpi/2131235083
+- res/drawable-hdpi/2131235251
+- res/drawable-hdpi/2131235327
+- res/drawable-hdpi/2131235329
+- res/drawable-hdpi/2131235307
+- res/drawable-hdpi/2131235324
+- res/drawable-hdpi/2131235338
+- res/drawable-hdpi/notify_panel_notification_icon_bg
+- res/drawable-hdpi/2131233399
+- res/drawable-hdpi/2131233415
+- res/drawable-hdpi/2131233412
+- res/drawable-hdpi/2131233416
+- res/drawable-hdpi/2131233419
+- res/drawable-hdpi/2131233420
+- res/drawable-hdpi/2131233417
+- res/drawable-hdpi/2131234077
+- res/drawable-hdpi/2131233828
+- res/drawable-hdpi/2131234078
+- res/drawable-hdpi/2131233827
+- res/drawable-hdpi/2131234247
+- res/drawable-hdpi/2131234608
+- res/drawable-hdpi/2131234325
+- res/drawable-hdpi/2131234248
+- res/drawable-ldpi/2131232393
+- res/drawable-ldpi/2131233389
+- res/drawable-ldpi/2131233392
+- res/drawable-ldpi/2131233408
+- res/drawable-ldpi/2131233413
+- res/drawable-ldpi/2131233412
+- res/drawable-ldpi/2131233411
+- res/drawable-ldpi/2131233415
+- res/drawable-ldpi/2131233418
+- res/drawable-ldpi/2131233417
+- res/drawable-hdpi/2131235886
+- res/drawable-hdpi/2131235876
+- res/drawable-hdpi/2131235803
+- res/drawable-hdpi/2131235804
+- res/drawable-hdpi/2131236579
+- res/drawable-hdpi/2131236574
+- res/drawable-hdpi/2131235888
+- res/drawable-hdpi/2131236561
+- res/drawable-hdpi/2131236578
+- res/raw/onfido_avc_persistent_recorder_surface_unsupported_devices
+- res/drawable-hdpi/2131236583
+- res/drawable-hdpi/2131236586
+- res/drawable-ldpi/2131232358
+- res/drawable-hdpi/2131238606
+- res/drawable-hdpi/2131236587
+- res/drawable-hdpi/2131238601
+- res/drawable-hdpi/2131238629
+- res/drawable-ldpi/2131232372
+- res/drawable-ldpi/2131233390
+- res/drawable-ldpi/2131236578
+- res/drawable-ldpi/2131236574
+- res/drawable-ldpi/2131236579
+- res/drawable-ldpi/2131236583
+- res/drawable-ldpi/2131236580
+- res/drawable-ldpi/2131238601
+- res/drawable-ldpi/2131236585
+- res/drawable-ldpi/2131236587
+- res/drawable-ldpi/2131236584
+- res/drawable-ldpi/2131236586
+- res/drawable-ldpi/2131238629
+- res/drawable-ldrtl-night/2131237534
+- res/drawable-ldrtl-night/2131238540
+- res/drawable-ldrtl-night/2131238539
+- res/drawable-ldrtl/2131238539
+- res/drawable-ldrtl/2131237534
+- res/drawable-ldrtl-night-xxhdpi/2131235332
+- res/drawable-ldpi/2131233416
+- res/drawable-ldpi/2131234247
+- res/drawable-ldpi/2131234120
+- res/drawable-ldpi/2131233827
+- res/drawable-ldpi/2131235080
+- res/drawable-ldpi/2131234248
+- res/drawable-ldpi/2131234325
+- res/drawable-ldpi/2131235251
+- res/drawable-ldpi/2131235324
+- res/drawable-ldpi/2131235089
+- res/drawable-ldpi/2131235081
+- res/drawable-ldpi/2131235307
+- res/drawable-ldpi/2131235335
+- res/drawable-ldpi/2131235327
+- res/drawable-ldpi/2131235329
+- res/drawable-ldpi/2131235336
+- res/drawable-ldpi/2131235331
+- res/drawable-ldpi/2131235339
+- res/drawable-ldpi/2131235804
+- res/drawable-ldpi/2131236561
+- res/drawable-ldpi/2131235803
+- res/drawable-ldpi/2131235338
+- res/drawable-ldrtl-xxhdpi/2131235885
+- res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012
+- res/drawable-mdpi/2131232323
+- res/drawable-ldrtl/2131238540
+- res/drawable-ldrtl-xhdpi/2131233333
+- res/drawable-ldrtl-xhdpi/2131235095
+- res/drawable-ldrtl-xxhdpi/2131234421
+- res/drawable-ldrtl-xhdpi/2131235885
+- res/drawable-ldrtl-xxhdpi/2131233333
+- res/drawable-ldrtl-xxxhdpi/2131235885
+- res/drawable-ldrtl-xxhdpi/2131235332
+- res/drawable-mdpi/2131233412
+- res/drawable-mdpi/2131233417
+- res/drawable-mdpi/2131233415
+- res/drawable-mdpi/2131233416
+- res/drawable-mdpi/2131233422
+- res/drawable-mdpi/2131233827
+- res/drawable-mdpi/2131233419
+- res/drawable-mdpi/2131233420
+- res/drawable-mdpi/2131234078
+- res/drawable-mdpi/2131233828
+- res/drawable-mdpi/2131234077
+- res/drawable-mdpi/2131234247
+- res/drawable-mdpi/2131234120
+- res/drawable-mdpi/2131234248
+- res/drawable-mdpi/2131232329
+- res/drawable-mdpi/2131232344
+- res/drawable-mdpi/2131232372
+- res/drawable-mdpi/2131232358
+- res/drawable-mdpi/2131232393
+- res/drawable-mdpi/2131233389
+- res/drawable-mdpi/2131233396
+- res/drawable-mdpi/2131233397
+- res/drawable-mdpi/2131235803
+- res/drawable-mdpi/2131235804
+- res/drawable-mdpi/2131236561
+- res/drawable-mdpi/2131236578
+- res/drawable-mdpi/2131235886
+- res/drawable-mdpi/2131236574
+- res/drawable-mdpi/2131236579
+- res/drawable-mdpi/2131236583
+- res/drawable-mdpi/2131236580
+- res/drawable-mdpi/2131236586
+- res/drawable-mdpi/2131238601
+- res/drawable-mdpi/2131238616
+- res/drawable-mdpi/2131236587
+- res/drawable-mdpi/2131238617
+- res/drawable-night-hdpi/2131232358
+- res/drawable-mdpi/2131238618
+- res/drawable-mdpi/2131238619
+- res/drawable-mdpi/2131238620
+- res/drawable-mdpi/2131238629
+- res/drawable-mdpi/2131235080
+- res/drawable-mdpi/2131234345
+- res/drawable-mdpi/2131235079
+- res/drawable-mdpi/2131234325
+- res/drawable-mdpi/2131235084
+- res/drawable-mdpi/2131235081
+- res/drawable-mdpi/2131235083
+- res/drawable-mdpi/2131235089
+- res/drawable-mdpi/2131235082
+- res/drawable-mdpi/2131235327
+- res/drawable-mdpi/2131235095
+- res/drawable-mdpi/2131235251
+- res/drawable-mdpi/2131235307
+- res/drawable-mdpi/2131235324
+- res/drawable-mdpi/2131235331
+- res/drawable-mdpi/2131235336
+- res/drawable-mdpi/2131235338
+- res/drawable-mdpi/2131235335
+- res/drawable-mdpi/2131235876
+- res/drawable-mdpi/notify_panel_notification_icon_bg
+- res/drawable-night-hdpi/2131238606
+- res/drawable-night-hdpi/2131232372
+- res/drawable-night-hdpi/2131235081
+- res/drawable-night-hdpi/2131234345
+- res/drawable-night-hdpi/2131235324
+- res/drawable-night-ldpi/2131235324
+- res/drawable-night-ldpi/2131232372
+- res/drawable-night-ldpi/2131235081
+- res/drawable-night-ldpi/2131232358
+- res/drawable-night-mdpi/2131235081
+- res/drawable-night-mdpi/2131235324
+- res/drawable-night-mdpi/2131232372
+- res/drawable-night-mdpi/2131232358
+- res/drawable-night-mdpi/2131234345
+- gif
+- res/drawable-night/2131234452
+- res/drawable-night/2131234455
+- res/drawable-night/2131234454
+- res/drawable-night/2131234453
+- res/drawable-night/2131234456
+- res/drawable-night/2131234460
+- res/drawable-night/2131234462
+- res/drawable-night/2131234461
+- res/drawable-night/2131234459
+- res/drawable-night/2131234463
+- res/drawable-night/2131234699
+- res/drawable-night/2131237518
+- res/drawable-night/2131234464
+- res/drawable-night/2131236453
+- res/drawable-night/2131236455
+- res/drawable-night/2131238539
+- res/drawable-night/2131238538
+- res/drawable-night/2131238571
+- res/drawable-night-xhdpi/2131232358
+- res/drawable-night/2131238540
+- res/drawable-night/2131238459
+- res/drawable-night/2131238454
+- res/drawable-night/2131238515
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '35'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  LICENSE-junit.txt: '8'
+  a-: '0'
+  app-update-ktx.properties: '8'
+  app-update.properties: '8'
+  b-: '0'
+  barcode-scanning-common.properties: '8'
+  barcode-scanning.properties: '8'
+  client_analytics.proto: '8'
+  common.properties: '8'
+  content.proto: '8'
+  core-common.properties: '8'
+  en-mnemonic-word-list.txt: '8'
+  feature-delivery-ktx.properties: '8'
+  feature-delivery.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  googleid.properties: '8'
+  image.properties: '8'
+  integrity.properties: '8'
+  kotlin-tooling-metadata.json: '8'
+  messaging_event.proto: '8'
+  messaging_event_extension.proto: '8'
+  module-info.java: '8'
+  places.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth-blockstore.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-cronet.properties: '8'
+  play-services-fido.properties: '8'
+  play-services-identity-credentials.properties: '8'
+  play-services-identity.properties: '8'
+  play-services-location.properties: '8'
+  play-services-maps.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-mlkit-barcode-scanning.properties: '8'
+  play-services-mlkit-face-detection.properties: '8'
+  play-services-mlkit-text-recognition-common.properties: '8'
+  play-services-mlkit-text-recognition.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tapandpay.properties: '8'
+  play-services-tasks.properties: '8'
+  play-services-wallet.properties: '8'
+  review-ktx.properties: '8'
+  review.properties: '8'
+  vision-common.properties: '8'
+  vision-interfaces.properties: '8'
+  web3j-version.properties: '8'
+  auth/auth.proto: '8'
+  base/base.proto: '0'
+  cache/cache.proto: '8'
+  com/ServiceReqKey.proto: '8'
+  com/WsMsg.proto: '8'
+  com/WsReq.proto: '8'
+  com/WsResp.proto: '8'
+  com/account/RoamingWebAckPushMsg.proto: '8'
+  com/apex/ApexIncomeMsg.proto: '8'
+  com/apex/UserRefreshMsg.proto: '8'
+  com/asset/AlphaBalanceMsg.proto: '8'
+  com/asset/AssetBalancePushMsg.proto: '8'
+  com/asset/AssetPushMsg.proto: '8'
+  com/asset/AssetRateMsg.proto: '8'
+  com/asset/FundingBalanceMsg.proto: '8'
+  com/bigdata/HomePageRegUserMsg.proto: '8'
+  com/bigdata/OneClickFuturesRealtimeMetricsListMsg.proto: '8'
+  com/cardinalcommerce/dependencies/internal/bouncycastle/x509/CertPathReviewerMessages.properties: '8'
+  com/cardinalcommerce/dependencies/internal/bouncycastle/x509/CertPathReviewerMessages_de.properties: '8'
+  com/convert/QuoteUpdatePushMsg.proto: '8'
+  com/earn/ActivePositionsReq.proto: '8'
+  com/earn/ActivePositionsResp.proto: '8'
+  com/earn/CoinConfigReq.proto: '8'
+  com/earn/CoinConfigResp.proto: '8'
+  com/earn/EarnDcProjectOrderInfoMsg.proto: '8'
+  com/earn/EarnDcUnderlyingOverviewMsg.proto: '8'
+  com/earn/EarnDntProjectOverviewMsg.proto: '8'
+  com/earn/EarnIndexMsg.proto: '8'
+  com/earn/LoanableAssetReq.proto: '8'
+  com/earn/LoanableAssetResp.proto: '8'
+  com/earn/SavingMarketAprMsg.proto: '8'
+  com/earn/TrialCalcForRepaymentReq.proto: '8'
+  com/earn/TrialCalcForRepaymentResp.proto: '8'
+  com/futures/GetOpenGridsReq.proto: '8'
+  com/futures/GetOpenGridsResp.proto: '8'
+  com/futures/GetOrderConfirmationReq.proto: '8'
+  com/futures/GetOrderConfirmationResp.proto: '8'
+  com/futures/GetUserCommissionReq.proto: '8'
+  com/futures/GetUserCommissionResp.proto: '8'
+  com/google/api/client/googleapis/google.jks: '8'
+  com/google/api/client/http/google-http-client.properties: '0'
+  com/growth/GrowthButtonGameMsg.proto: '8'
+  com/inbox/InboxMsg.proto: '8'
+  com/inbox/InboxMsgReadReq.proto: '8'
+  com/inbox/InboxMsgReadResp.proto: '8'
+  com/inbox/InboxMsgReq.proto: '8'
+  com/inbox/InboxMsgResp.proto: '8'
+  com/inbox/InboxNotificationMsg.proto: '8'
+  com/inbox/InboxUnReadReq.proto: '8'
+  com/inbox/InboxUnReadResp.proto: '8'
+  com/market/AnnouncementBroadcastMsg.proto: '8'
+  com/market/BalanceValuationReq.proto: '8'
+  com/market/BalanceValuationResp.proto: '8'
+  com/market/BuyRedesignQueryCryptoListReq.proto: '8'
+  com/market/BuyRedesignQueryCryptoListResp.proto: '8'
+  com/market/BuyRedesignQueryCryptoResp.proto: '8'
+  com/market/BuyRedesignQueryFiatListReq.proto: '8'
+  com/market/BuyRedesignQueryFiatListResp.proto: '8'
+  com/market/C2cAllQuotePriceMsg.proto: '8'
+  com/market/C2cKlineMsg.proto: '8'
+  com/market/C2cQuotePriceMsg.proto: '8'
+  com/market/CapitalConfigReq.proto: '8'
+  com/market/CapitalConfigResp.proto: '8'
+  com/market/CoinPriceMsg.proto: '8'
+  com/market/EmergencyBroadcastMsg.proto: '8'
+  com/market/ExchangeRateMsg.proto: '8'
+  com/market/FaceSdkVerifyReq.proto: '8'
+  com/market/FaceSdkVerifyResp.proto: '8'
+  com/market/GetAccountUserConfigReq.proto: '8'
+  com/market/GetAccountUserConfigResp.proto: '8'
+  com/market/GetAssetPortfolioReq.proto: '8'
+  com/market/GetAssetPortfolioResp.proto: '8'
+  com/market/GetBuyAndSellSelectorReq.proto: '8'
+  com/market/GetBuyAndSellSelectorResp.proto: '8'
+  com/market/GetBuyAndSellSubSelectorReq.proto: '8'
+  com/market/GetBuyAndSellSubSelectorResp.proto: '8'
+  com/market/GetSelectorReq.proto: '8'
+  com/market/GetSelectorResp.proto: '8'
+  com/market/GetSubSelectorReq.proto: '8'
+  com/market/GetSubSelectorResp.proto: '8'
+  com/market/IsolatedMarginAccountReq.proto: '8'
+  com/market/IsolatedMarginAccountResp.proto: '8'
+  com/market/KycStatusReq.proto: '8'
+  com/market/KycStatusResp.proto: '8'
+  com/market/OtcGetQuoteReq.proto: '8'
+  com/market/OtcGetQuoteResp.proto: '8'
+  com/market/TrivialMsg.proto: '8'
+  com/market/TrivialReq.proto: '8'
+  com/market/TrivialResp.proto: '8'
+  com/market/WalletBalanceV2Req.proto: '8'
+  com/market/WalletBalanceV2Resp.proto: '8'
+  com/nft/NftInboxMsg.proto: '8'
+  com/payment/PaymentPixInfoSyncWsMsg.proto: '8'
+  com/push/AISearchPushMsg.proto: '8'
+  com/push/PushMsg.proto: '8'
+  com/web3/AlphaCexOrderChangeMsg.proto: '8'
+  com/web3/AlphaCexTokenAddMgs.proto: '8'
+  com/web3/AlphaCexTokenDynamicMgs.proto: '8'
+  com/web3/AlphaCexTokenKLineMgs.proto: '8'
+  com/web3/AlphaCexTokenListDynamicMgs.proto: '8'
+  com/web3/TxStatusEventMsg.proto: '8'
+  com/web3/Web3CommonEventMsg.proto: '8'
+  conversation/conversation.proto: '8'
+  de/authada/com/samskivert/Mustache.gwt.xml: '8'
+  de/authada/com/samskivert/mustache/BasicCollector.java: '8'
+  de/authada/com/samskivert/mustache/Escapers.java: '8'
+  de/authada/com/samskivert/mustache/Mustache.java: '8'
+  de/authada/com/samskivert/mustache/MustacheException.java: '8'
+  de/authada/com/samskivert/mustache/MustacheParseException.java: '8'
+  de/authada/com/samskivert/mustache/Template.java: '8'
+  de/authada/com/samskivert/super/com/samskivert/mustache/DefaultCollector.java: '8'
+  de/authada/com/samskivert/super/java/io/Reader.java: '8'
+  de/authada/com/samskivert/super/java/io/StringReader.java: '8'
+  de/authada/com/samskivert/super/java/io/StringWriter.java: '8'
+  de/authada/com/samskivert/super/java/io/Writer.java: '8'
+  de/authada/mobile/okhttp3/internal/publicsuffix/NOTICE: '8'
+  de/authada/mobile/okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  de/authada/org/bouncycastle/pkix/CertPathReviewerMessages.properties: '8'
+  de/authada/org/bouncycastle/pkix/CertPathReviewerMessages_de.properties: '8'
+  de/authada/org/bouncycastle/pqc/crypto/picnic/lowmcL1.bin.properties: '8'
+  de/authada/org/bouncycastle/pqc/crypto/picnic/lowmcL3.bin.properties: '8'
+  de/authada/org/bouncycastle/pqc/crypto/picnic/lowmcL5.bin.properties: '8'
+  de/authada/org/bouncycastle/x509/CertPathReviewerMessages.properties: '8'
+  de/authada/org/bouncycastle/x509/CertPathReviewerMessages_de.properties: '8'
+  de/authada/templates/DIDAuthenticateError.mustache: '8'
+  de/authada/templates/EAC1OutputType.mustache: '8'
+  de/authada/templates/EAC2OutputType.mustache: '8'
+  de/authada/templates/End.mustache: '8'
+  de/authada/templates/Result.mustache: '8'
+  de/authada/templates/Start.mustache: '8'
+  de/authada/templates/StartPAOS.mustache: '8'
+  de/authada/templates/TransmitResponse.mustache: '8'
+  friend/friend.proto: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  group/group.proto: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  mozilla/public-suffix-list.txt: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/apache/commons/codec/language/dmrules.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_lang.txt: '8'
+  org/apache/commons/codec/language/bm/ash_languages.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_lang.txt: '8'
+  org/apache/commons/codec/language/bm/gen_languages.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/lang.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/sep_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_lang.txt: '8'
+  org/apache/commons/codec/language/bm/sep_languages.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_spanish.txt: '8'
+  org/apache/http/version.properties: '8'
+  org/apache/http/client/version.properties: '8'
+  org/bouncycastle/x509/CertPathReviewerMessages.properties: '8'
+  org/bouncycastle/x509/CertPathReviewerMessages_de.properties: '8'
+  org/commonmark/internal/util/entities.properties: '8'
+  org/spongycastle/x509/CertPathReviewerMessages.properties: '8'
+  org/spongycastle/x509/CertPathReviewerMessages_de.properties: '8'
+  sdk_ws/ws.proto: '8'
+  solidity/readme.txt: '8'
+  solidity/ens/abi/registry/ENS.abi: '8'
+  solidity/ens/abi/registry/ENSRegistry.abi: '8'
+  solidity/ens/abi/registry/ENSRegistryWithFallback.abi: '8'
+  solidity/ens/abi/resolvers/OffchainResolver.abi: '8'
+  solidity/ens/abi/resolvers/PublicResolver.abi: '8'
+  user/user.proto: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '100300404'
+  versionName: 3.4.4

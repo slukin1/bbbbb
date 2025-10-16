@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="#00000000" ="298.0dip" ="wrap_content" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="@color/2131099685" ="fill_parent" ="wrap_content" ="@color/2131099685" 2130969911="2131438103" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="center_horizontal" ="vertical" ="#00000000" ="fill_parent" ="wrap_content" ="#00000000">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433706" ="fill_parent" ="108.0dip" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/tvHeader" ="visible" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/lite_detour_deposit_before_trading_dialog_crypto_title" ="false" ="locale" style="@style/2132149425" />
+            <RelativeLayout ="center" ="vertical" ="fill_parent" ="wrap_content" ="16.0dip">
+                <com.major.android.uikit2.button.KitButton ="end" ="center" android:id="@id/2131428656" ="fill_parent" ="wrap_content" android:text="@string/lite_detour_deposit_before_trading_dialog_buy_fiat" ="20.0dip" style="@style/2132148692" />
+                <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428663" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/_deposit" ="@id/2131428656" ="20.0dip" 2130971472="2131441186" style="@style/2132148697" />
+            </RelativeLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView ="end|center|top" android:id="@id/ivClose" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="@drawable/2131235991" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434281" ="64.0dip" ="64.0dip" ="true" 2130971077="@drawable/2131238543" />
+        <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="vertical" ="fill_parent" ="wrap_content" ="16.0dip" ="@id/2131434281">
+            <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131442581" ="fill_parent" ="fill_parent" ="1.1" ="@font/2131296274" />
+        </androidx.core.widget.NestedScrollView>
+        <com.major.android.uikit2.selection.KitCheckBox ="@color/2131099764" ="center_vertical" android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/c2c_dialog_dont_remind" ="@id/2131439809" ="@font/2131296274" ="8.0dip" ="0.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/earn_tip_ok" ="@id/2131429513" style="@style/2132148692" />
+    </RelativeLayout>
+</FrameLayout>

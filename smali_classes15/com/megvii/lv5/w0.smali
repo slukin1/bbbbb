@@ -1,0 +1,81 @@
+.class public Lcom/megvii/lv5/w0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/megvii/lv5/c3;
+
+
+# instance fields
+.field public final synthetic a:Lcom/megvii/lv5/a1;
+
+
+# direct methods
+.method public constructor <init>(Lcom/megvii/lv5/a1;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lcom/megvii/lv5/w0;->a:Lcom/megvii/lv5/a1;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/String;ILjava/lang/String;Lcom/megvii/lv5/d3;)V
+    .locals 3
+
+    const/4 p1, 0x1
+
+    if-eq p2, p1, :cond_0
+
+    const/4 p1, 0x2
+
+    if-eq p2, p1, :cond_0
+
+    const/4 p1, -0x1
+
+    :cond_0
+    iget-object v0, p0, Lcom/megvii/lv5/w0;->a:Lcom/megvii/lv5/a1;
+
+    .line 4
+    iget-object v1, v0, Lcom/megvii/lv5/a1;->h:Lcom/megvii/lv5/q1;
+
+    .line 5
+    iget-object v0, v0, Lcom/megvii/lv5/a1;->f:Ljava/lang/String;
+
+    .line 6
+    new-instance v2, Lcom/megvii/lv5/w0$a;
+
+    invoke-direct {v2, p0, p4, p2}, Lcom/megvii/lv5/w0$a;-><init>(Lcom/megvii/lv5/w0;Lcom/megvii/lv5/d3;I)V
+
+    check-cast v1, Lcom/megvii/lv5/h7;
+
+    invoke-virtual {v1, v0, p1, p3, v2}, Lcom/megvii/lv5/h7;->a(Ljava/lang/String;ILjava/lang/String;Lcom/megvii/lv5/r1;)V
+
+    return-void
+.end method
+
+.method public a([B)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/megvii/lv5/w0;->a:Lcom/megvii/lv5/a1;
+
+    .line 1
+    iget-object v0, v0, Lcom/megvii/lv5/a1;->h:Lcom/megvii/lv5/q1;
+
+    .line 2
+    check-cast v0, Lcom/megvii/lv5/h7;
+
+    .line 3
+    iget-object v0, v0, Lcom/megvii/lv5/h7;->c:Lcom/megvii/lv5/sdk/listener/MegLiveDataSyncCallback;
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {v0, p1}, Lcom/megvii/lv5/sdk/listener/MegLiveDataSyncCallback;->onGetMegliveData([B)V
+
+    :cond_0
+    return-void
+.end method

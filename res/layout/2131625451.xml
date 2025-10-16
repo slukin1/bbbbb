@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="wrap_content" ="wrap_content" 2130968911="@color/2131099685" 2130968912="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="vertical" ="24.0dip" ="298.0dip" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/top" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434627" ="wrap_content" ="wrap_content" ="16.0dip" ="fitXY" 2130971077="@drawable/2131233619" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429166" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/ok" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

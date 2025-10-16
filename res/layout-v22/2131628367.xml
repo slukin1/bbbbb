@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236025" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_sheet_verification_title" ="@font/2131296275" ="@dimen/2131166184" ="@dimen/2131166170" />
+    <TextView ="14.0sp" ="@color/2131099764" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_sheet_verification_sub_title" ="@dimen/2131166184" />
+    <com.major.android.uikit2.steps.KitVerticalTitledStepBar android:id="@id/2131440631" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130969871="false" />
+    <com.binance.c2c.api.common.UnderlineTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443426" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@font/2131296274" ="@dimen/2131166184" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131443428" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_sheet_verification_tips_taker_sell" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/OK" ="@dimen/2131166184" ="@dimen/2131166188" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

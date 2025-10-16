@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131437829" ="#4d000000" ="80.0dip" ="80.0dip" ="true" ="true" ="fill_parent" ="fill_parent" ="@dimen/2131166963"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center" ="fill_parent" ="fill_parent" ="40.0dip" ="40.0dip" ="@dimen/2131166962">
+        <androidx.viewpager.widget.ViewPager android:id="@id/2131449438" ="wrap_content" ="wrap_content" />
+        <RelativeLayout ="fill_parent" ="80.0dip" ="true">
+            <com.microblink.capture.overlay.onboarding.PageIndicatorView ="center|top" android:id="@id/2131438089" ="wrap_content" ="24.0dip" />
+            <FrameLayout android:id="@id/2131433519" ="fill_parent" ="56.0dip" ="true">
+                <Button ="start|center" android:id="@id/2131428903" ="wrap_content" ="wrap_content" style="@style/2132148787" />
+                <Button ="start|center" android:id="@id/2131428702" ="gone" ="wrap_content" ="wrap_content" style="@style/2132148787" />
+                <Button ="end|center" android:id="@id/2131428831" ="wrap_content" ="wrap_content" style="@style/2132148787" />
+                <Button ="end|center" android:id="@id/2131428761" ="gone" ="wrap_content" ="wrap_content" style="@style/2132148787" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131439500" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131441755" ="fill_parent" ="wrap_content" 2130969941="2131438103" layout="@layout/2131630161" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430119" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441755">
+            <TextView ="@color/2131099764" android:id="@id/2131448354" ="wrap_content" ="wrap_content" android:text="30 Days Trade PNL" ="4.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/2131448358" ="wrap_content" ="wrap_content" android:text="65 times" ="5.0dip" 2130969936="@id/2131448354" 2130969941="@id/2131448354" style="@style/2132149384" />
+            <com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131441716" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131448354">
+                <TextView ="@color/2131099764" android:id="@id/2131441714" ="wrap_content" ="wrap_content" ="4.0dip" android:text="+$2,000,500.05" 2130969937="2131438103" 2130969940="@id/2131448354" style="@style/2132149419" />
+            </com.binance.base.sensor.view.BaseExposureLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_kline_bg" ="visible" ="fill_parent" ="wrap_content" ="13.0dip" ="24.0dip" ="13.0dip" ="16.0dip" ="@dimen/2131166175" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131430119" />
+        <com.insurance.wallet.activities.report.tradeanalysis.wedget.ReportTradeLineChart android:id="@id/lineChartMarginData" ="visible" ="fill_parent" ="170.0dip" ="24.0dip" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131430119" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432664" ="gone" ="wrap_content" ="fill_parent" 2130969125="lineChartMarginData,iv_kline_bg" />
+        <com.insurance.wallet.activities.report.tradeanalysis.wedget.PNLCalendarView android:id="@id/2131438492" ="visible" ="fill_parent" ="wrap_content" ="5.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430119" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131449695" ="10.0dip" ="120.0dip" ="170.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430119" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

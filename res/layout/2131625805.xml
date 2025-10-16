@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="60.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="15.0sp" ="@color/2131102398" android:id="@id/2131442780" ="0.0dip" ="wrap_content" android:text="@string/futures_arbitrage_setting" ="1.0" />
+        <com.major.android.uikit.selection.KitSwitch android:id="@id/2131439760" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/futures_arbitrage_interest_deducted_tip" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131441956" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131442169" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" style="@style/2132149350" />
+</LinearLayout>

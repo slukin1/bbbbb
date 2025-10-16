@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="fill_parent" ="@dimen/2131165638">
+        <ScrollView ="fill_parent" ="fill_parent" ="true">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                <pl.droidsonroids.gif.GifImageView android:id="@id/image" android:contentDescription="@null" app:2130969917="2131438103" app:2130969937="2131438103" style="@style/2132150333" />
+                <TextView android:id="@id/title" ="fill_parent" android:text="" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132150335" />
+                <TextView android:id="@id/2131430862" android:text="" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132150334" />
+                <TextView android:id="@id/2131428793" ="gone" style="@style/2132150343" />
+                <TextView android:id="@id/2131438093" ="visible" ="true" 2130969911="2131438103" style="@style/2132150332" />
+                <Button android:id="@id/2131428885" ="gone" android:text="@string/uq_start" ="false" 2130969911="2131438103" 2130969917="2131438103" 2130969926="0.4" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.87" style="@style/2132150323" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </FrameLayout>
+</FrameLayout>

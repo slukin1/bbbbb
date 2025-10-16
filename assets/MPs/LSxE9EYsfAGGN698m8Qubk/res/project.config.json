@@ -1,0 +1,27 @@
+{
+  "miniprogramRoot": ".bmp/build",
+  "projectname": "mp-shell-app",
+  "description": "For wallet-kit shell app",
+  "appid": "LSxE9EYsfAGGN698m8Qubk",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "5.0.0",
+  "msv": [
+    "5.1.0"
+  ],
+  "enableBytecode": true,
+  "bmp": {
+    "version": "3.2.7-ci-5d87948af28290907bbbcc50c2e16ab0be6407da",
+    "taroVersion": "3.6.34-ci-5d87948af28290907bbbcc50c2e16ab0be6407da",
+    "platform": "LOCAL",
+    "NODE_ENV": "production",
+    "framework": {
+      "react": "18.2.0"
+    }
+  }
+}

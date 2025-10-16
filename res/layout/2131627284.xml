@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="56.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/2131443782" ="gone" ="40.0dip" ="wrap_content" ="32.0dip" android:text="@string/ms_index_more" ="1" 2130969312="@color/2131099764" 2130969314="@drawable/2131237082" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/2131443315" ="40.0dip" ="wrap_content" ="32.0dip" android:text="@string/market_hub_button" ="1" 2130969312="@color/2131099764" 2130969314="@drawable/2131236827" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/2131442361" ="gone" ="40.0dip" ="wrap_content" ="32.0dip" android:text="@string/cash_account" ="1" 2130969312="@color/2131099764" 2130969314="@drawable/2131238132" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="center" android:id="@id/2131428710" ="0.0dip" ="36.0dip" android:text="@string/margin_trade_margin_buy" ="1.0" ="8.0dip" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="center" android:id="@id/2131428893" ="0.0dip" ="36.0dip" android:text="@string/margin_trade_margin_sell" ="1.0" ="8.0dip" style="@style/2132149450" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131449568" ="gone" layout="@layout/2131629289" />
+    <TextView ="@color/2131099787" ="center_horizontal" android:id="@id/2131442895" ="12.0dip" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_earn_homepage" style="@style/2132149446" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131232783" ="fill_parent" ="wrap_content" ="30.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131439465" ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131448131" ="wrap_content" ="wrap_content" android:text="@string/select_coin" ="true" style="@style/2132149425" />
+        <ImageView android:id="@id/2131434395" ="wrap_content" ="fill_parent" ="true" ="16.0dip" ="16.0dip" ="true" 2130971077="@drawable/2131237100" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439054" ="fill_parent" ="300.0dip" />
+</LinearLayout>

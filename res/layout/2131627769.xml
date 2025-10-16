@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/title" ="fill_parent" ="wrap_content" android:text="Debug Plugin" style="@style/2132149416" />
+    <com.major.android.uikit.input.FocusAwareEditText android:id="@id/2131437574" ="fill_parent" ="40.0dip" ="14.0dip" android:hint="plugin action" />
+    <com.major.android.uikit.input.FocusAwareEditText android:id="@id/2131437579" ="fill_parent" ="100.0dip" ="14.0dip" android:hint="plugin payload" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131437577" ="fill_parent" ="40.0dip" ="14.0dip" android:text="Confirm" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131437576" ="fill_parent" ="40.0dip" ="14.0dip" android:text="Cancel" />
+</LinearLayout>

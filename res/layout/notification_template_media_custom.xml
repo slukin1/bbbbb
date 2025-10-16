@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131440611" ="fill_parent" ="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include ="64.0dip" ="64.0dip" layout="@layout/notification_template_icon_group" />
+    <LinearLayout ="horizontal" android:id="@id/2131437777" ="0.0dip" ="0.0dip" ="wrap_content" ="64.0dip" ="1.0" ="@id/2131429254" ="@id/2131429254">
+        <FrameLayout android:id="@id/2131437776" ="fill_parent" ="wrap_content" ="0.0dip" ="8.0dip" ="8.0dip" ="1.0" ="0.0dip" ="8.0dip" />
+        <FrameLayout android:id="@id/2131439247" ="4.0dip" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip">
+            <DateTimeView ="@style/2132149258" ="end|center|top" android:id="@id/2131441416" ="gone" ="wrap_content" ="wrap_content" ="true" />
+            <Chronometer ="@style/2132149258" ="end|center|top" android:id="@id/2131429610" ="gone" ="wrap_content" ="wrap_content" ="true" />
+            <TextView ="@style/2132149253" ="end|bottom|center" android:id="@id/2131433438" ="wrap_content" ="wrap_content" ="20.0dip" ="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout ="end|center" ="horizontal" android:id="@id/2131437009" ="wrap_content" ="fill_parent" ="ltr" />
+    <include ="48.0dip" ="fill_parent" ="6.0dip" ="6.0dip" layout="@layout/notification_media_cancel_action" />
+    <ImageView android:id="@id/2131431383" ="6.0dip" ="fill_parent" />
+</LinearLayout>

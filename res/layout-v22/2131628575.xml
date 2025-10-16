@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131444207" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" layout="@layout/2131628602" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429736" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166170">
+        <TextView ="@color/2131099764" android:id="@id/2131444205" ="wrap_content" ="wrap_content" android:text="@string/spot_order_push_setting_label" 2130969912="@id/2131444206" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131444204" ="wrap_content" ="wrap_content" 2130969911="@id/2131444205" 2130969917="2131438103" 2130969941="@id/2131444205" />
+        <TextView android:id="@id/2131444206" ="0.0dip" ="wrap_content" android:text="@string/spot_order_push_no_system_permission_tips" ="21.0dip" 2130969911="2131438103" 2130969918="@id/2131444204" 2130969937="2131438103" 2130969940="@id/2131444205" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

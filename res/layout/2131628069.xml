@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429931" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131444014" ="gone" ="fill_parent" ="wrap_content" 2130969912="@id/2131443847" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131443847" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969940="@id/2131444014" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView ="fill_parent" ="wrap_content" 2130969904="true" 2130969912="@id/2131435038" 2130969940="@id/2131429931" 2130969942="0.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView android:id="@id/2131444600" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969941="2131438103" style="@style/2132149384" />
+            <View android:id="@id/2131431125" ="0.0dip" ="0.0dip" 2130969911="@id/2131448521" 2130969917="@id/2131436449" 2130969937="@id/2131436449" 2130969941="@id/2131436449" />
+            <LinearLayout ="center" ="horizontal" android:id="@id/2131436449" ="wrap_content" ="wrap_content" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433688" ="20.0dip" ="20.0dip" ="2.0dip" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442691" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149459" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434337" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237003" />
+            </LinearLayout>
+            <com.binance.dev.pay.widget.AutoFitEditText ="false" ="48.0sp" ="@color/2131099764" ="@color/2131100153" ="center" android:id="@id/2131433456" ="@null" ="false" ="false" ="false" ="fill_parent" ="wrap_content" ="5.0dip" android:hint="0" ="true" ="19" ="numberDecimal" ="@font/2131296266" ="24.0dip" ="24.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436449" />
+            <View android:id="@id/2131431127" ="0.0dip" ="0.0dip" 2130969911="@id/2131448521" 2130969917="@id/2131448521" 2130969937="@id/2131448521" 2130969941="@id/2131448521" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448521" ="@color/2131100492" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="5.0dip" ="4.0dip" 2130969306="@drawable/2131237285" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433456" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="#fff6465d" ="center" android:id="@id/2131448606" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/payment_transfer_limitation_msg" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448521" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131447143" ="20.0dip" ="10.0dip" ="20.0dip" ="10.0dip" ="gone" ="0.0dip" ="wrap_content" ="30.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448606" 2130969946="2131450408" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131445532" ="0.0dip" ="wrap_content" ="30.0dip" android:text="@string/payment_add_note" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448606" style="@style/2132149374" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969912="@id/2131449660" 2130969931="2131438103" 2130969935="2131438103" />
+    <View ="center" android:id="@id/2131449660" ="@color/2131099685" ="fill_parent" ="48.0dip" ="16.0dip" 2130969911="@id/2131428831" 2130969941="@id/2131428831" />
+    <com.major.android.uikit.button.KitButton ="false" ="center" android:id="@id/2131428831" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/oauth_continue" 2130969911="2131438103" />
+    <FrameLayout android:id="@id/2131429587" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969926="0.7" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

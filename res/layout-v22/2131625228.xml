@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131442816" ="fill_parent" ="wrap_content" android:text="@string/ocbs_string_join_binance_launchpool_desc" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429283" ="@drawable/2131232711" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/2131442816">
+        <TextView ="@color/2131099851" android:id="@id/2131443906" ="@drawable/2131236011" ="8.0dip" ="4.0dip" ="8.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_ongoing" ="#192ebd85" ="@dimen/2131166286" ="@dimen/2131166247" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435546" ="fill_parent" ="wrap_content" ="16.0dip" ="20.0dip" ="16.0dip" ="@dimen/2131166188" 2130969941="2131438103">
+            <ImageView android:id="@id/2131434239" ="40.0dip" ="40.0dip" ="4.0dip" ="4.0dip" ="centerCrop" ="@dimen/2131166247" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="bold" ="@color/2131099764" ="center_vertical" android:id="@id/2131445048" ="wrap_content" ="wrap_content" ="26.0dip" ="12.0dip" 2130969936="@id/2131434239" 2130969941="2131438103" style="@style/2132149425" />
+            <TextView ="@color/2131099778" android:id="@id/2131445062" ="wrap_content" ="wrap_content" 2130969937="@id/2131445048" 2130969940="@id/2131445048" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/2131445061" ="wrap_content" ="wrap_content" 2130969911="@id/2131445062" 2130969936="@id/2131445062" 2130969941="@id/2131445062" style="@style/2132149350" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:id="@id/2131449416" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" ="12.0dip" ="16.0dip" ="@dimen/2131166188" 2130969940="@id/2131435546" />
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131442934" ="fill_parent" ="wrap_content" ="16.0dip" ="12.0dip" ="16.0dip" ="18.0dip" android:text="@string/ocbs_string_end_in" ="@dimen/2131166188" 2130969940="@id/2131449416" style="@style/2132149361" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435395" ="wrap_content" ="22.0dip" ="16.0dip" ="4.0dip" ="16.0dip" ="@dimen/2131166188" 2130969937="2131438103" 2130969940="@id/2131442934">
+            <TextView ="bold" ="@color/2131099764" android:id="@id/2131442768" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+            <TextView ="bold" ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" android:text=":" ="@dimen/2131166247" style="@style/2132149450" />
+            <TextView ="bold" ="@color/2131099764" android:id="@id/2131443312" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+            <TextView ="bold" ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" android:text=":" ="@dimen/2131166247" style="@style/2132149450" />
+            <TextView ="bold" ="@color/2131099764" android:id="@id/2131443764" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+        </LinearLayout>
+        <Space ="fill_parent" ="12.0dip" 2130969940="@id/2131435395" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131444930" ="gone" ="fill_parent" ="wrap_content" ="28.0dip" 2130969940="@id/2131429283" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428673" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/ocbs_string_accept" 2130969940="@id/2131444930" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428870" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/ocbs_string_refuse" 2130969940="@id/2131428673" style="@style/2132148697" />
+    <Space ="fill_parent" ="16.0dip" 2130969940="@id/2131428870" />
+</androidx.constraintlayout.widget.ConstraintLayout>

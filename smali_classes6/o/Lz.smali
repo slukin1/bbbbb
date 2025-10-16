@@ -1,0 +1,38 @@
+.class public final synthetic Lo/Lz;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic e:Lio/flutter/embedding/engine/FlutterEngine;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lio/flutter/embedding/engine/FlutterEngine;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/Lz;->e:Lio/flutter/embedding/engine/FlutterEngine;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/Lz;->e:Lio/flutter/embedding/engine/FlutterEngine;
+
+    invoke-static {v0}, Lo/Lx;->d(Lio/flutter/embedding/engine/FlutterEngine;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/payment_setting_set_pay_pin" ="15.0dip" 2130969931="2131438103" 2130969940="@id/2131441601" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448182" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/payment_setting_your_pin_will_be_used" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <com.major.android.uikit.input.KitVerifyCode android:id="@id/2131438347" ="0.0dip" ="wrap_content" ="-18.0dip" ="15.0dip" ="15.0dip" 2130969568="false" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131447353" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447353" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/payment_active_create" 2130969937="@id/tv_title" 2130969940="@id/2131448182" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434743" ="20.0dip" ="20.0dip" ="2.0dip" ="5.0dip" 2130969911="@id/2131447353" 2130969936="@id/2131447353" 2130969941="@id/2131447353" 2130971077="@drawable/2131237313" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447351" ="0.0dip" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/payment_active_pin_tip" ="@dimen/2131167866" ="@dimen/2131166184" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438347" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442055" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131447351" />
+    <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" 2130969912="@id/btn_confirm" 2130969931="2131438103" 2130969935="2131438103" />
+    <com.major.android.uikit.button.KitButton ="false" ="center" android:id="@id/btn_confirm" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130970889="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

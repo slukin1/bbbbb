@@ -1,0 +1,1498 @@
+.class public final Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+.super Lcom/google/protobuf/GeneratedMessageLite;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsgOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageLite<",
+        "Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;",
+        "Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;",
+        ">;",
+        "Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsgOrBuilder;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final ASSET_FIELD_NUMBER:I = 0x2
+
+.field private static final DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+.field public static final DELTA_FIELD_NUMBER:I = 0x7
+
+.field public static final EXTEND_FIELD_NUMBER:I = 0x8
+
+.field public static final FIAT_FIELD_NUMBER:I = 0x3
+
+.field private static volatile PARSER:Lcom/google/protobuf/Parser; = null
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/google/protobuf/Parser<",
+            "Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final PRICE_FIELD_NUMBER:I = 0x5
+
+.field public static final SYMBOL_FIELD_NUMBER:I = 0x4
+
+.field public static final TRADETYPE_FIELD_NUMBER:I = 0x1
+
+.field public static final UPDATE_TIME_FIELD_NUMBER:I = 0x6
+
+
+# instance fields
+.field private asset_:Ljava/lang/String;
+
+.field private bitField0_:I
+
+.field private delta_:D
+
+.field private extend_:Ljava/lang/String;
+
+.field private fiat_:Ljava/lang/String;
+
+.field private price_:D
+
+.field private symbol_:Ljava/lang/String;
+
+.field private tradeType_:Ljava/lang/String;
+
+.field private updateTime_:J
+
+
+# direct methods
+.method static synthetic -$$Nest$mclearAsset(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearAsset()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearDelta(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearDelta()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearExtend(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65352
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearExtend()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearFiat(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65351
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearFiat()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearPrice(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65350
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearPrice()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearSymbol(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65349
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearSymbol()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearTradeType(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65348
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearTradeType()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$mclearUpdateTime(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)V
+    .locals 0
+
+    .line 65347
+    invoke-direct {p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->clearUpdateTime()V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetAsset(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Ljava/lang/String;)V
+    .locals 0
+
+    .line 65346
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setAsset(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetAssetBytes(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 65345
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setAssetBytes(Lcom/google/protobuf/ByteString;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetDelta(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;D)V
+    .locals 0
+
+    .line 65344
+    invoke-direct {p0, p1, p2}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setDelta(D)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetExtend(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Ljava/lang/String;)V
+    .locals 0
+
+    .line 65343
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setExtend(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetExtendBytes(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 65342
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setExtendBytes(Lcom/google/protobuf/ByteString;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetFiat(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Ljava/lang/String;)V
+    .locals 0
+
+    .line 65341
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setFiat(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetFiatBytes(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 65340
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setFiatBytes(Lcom/google/protobuf/ByteString;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetPrice(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;D)V
+    .locals 0
+
+    .line 65339
+    invoke-direct {p0, p1, p2}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setPrice(D)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetSymbol(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Ljava/lang/String;)V
+    .locals 0
+
+    .line 65338
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setSymbol(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetSymbolBytes(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 65337
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setSymbolBytes(Lcom/google/protobuf/ByteString;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetTradeType(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Ljava/lang/String;)V
+    .locals 0
+
+    .line 65336
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setTradeType(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetTradeTypeBytes(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 65335
+    invoke-direct {p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setTradeTypeBytes(Lcom/google/protobuf/ByteString;)V
+
+    return-void
+.end method
+
+.method static synthetic -$$Nest$msetUpdateTime(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;J)V
+    .locals 0
+
+    .line 65334
+    invoke-direct {p0, p1, p2}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->setUpdateTime(J)V
+
+    return-void
+.end method
+
+.method static bridge synthetic -$$Nest$sfgetDEFAULT_INSTANCE()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+
+    .line 65333
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object v0
+.end method
+
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 947
+    new-instance v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-direct {v0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;-><init>()V
+
+    .line 950
+    sput-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    .line 951
+    const-class v1, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v1, v0}, Lcom/google/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    .line 14
+    invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageLite;-><init>()V
+
+    .line 15
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->tradeType_:Ljava/lang/String;
+
+    .line 16
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->asset_:Ljava/lang/String;
+
+    .line 17
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->fiat_:Ljava/lang/String;
+
+    .line 18
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->symbol_:Ljava/lang/String;
+
+    .line 19
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->extend_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private clearAsset()V
+    .locals 1
+
+    .line 117
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x3
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 118
+    invoke-static {}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getDefaultInstance()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getAsset()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->asset_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private clearDelta()V
+    .locals 2
+
+    .line 336
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x41
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    const-wide/16 v0, 0x0
+
+    .line 337
+    iput-wide v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->delta_:D
+
+    return-void
+.end method
+
+.method private clearExtend()V
+    .locals 1
+
+    .line 381
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit16 v0, v0, -0x81
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 382
+    invoke-static {}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getDefaultInstance()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getExtend()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->extend_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private clearFiat()V
+    .locals 1
+
+    .line 171
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x5
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 172
+    invoke-static {}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getDefaultInstance()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getFiat()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->fiat_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private clearPrice()V
+    .locals 2
+
+    .line 268
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x11
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    const-wide/16 v0, 0x0
+
+    .line 269
+    iput-wide v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->price_:D
+
+    return-void
+.end method
+
+.method private clearSymbol()V
+    .locals 1
+
+    .line 225
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x9
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 226
+    invoke-static {}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getDefaultInstance()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getSymbol()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->symbol_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private clearTradeType()V
+    .locals 1
+
+    .line 63
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x2
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 64
+    invoke-static {}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getDefaultInstance()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->getTradeType()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->tradeType_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private clearUpdateTime()V
+    .locals 2
+
+    .line 302
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, -0x21
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    const-wide/16 v0, 0x0
+
+    .line 303
+    iput-wide v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->updateTime_:J
+
+    return-void
+.end method
+
+.method public static getDefaultInstance()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+
+    .line 956
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object v0
+.end method
+
+.method public static newBuilder()Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;
+    .locals 1
+
+    .line 469
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->createBuilder()Lcom/google/protobuf/GeneratedMessageLite$Builder;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;
+
+    return-object v0
+.end method
+
+.method public static newBuilder(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;
+    .locals 1
+
+    .line 472
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-virtual {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->createBuilder(Lcom/google/protobuf/GeneratedMessageLite;)Lcom/google/protobuf/GeneratedMessageLite$Builder;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;
+
+    return-object p0
+.end method
+
+.method public static parseDelimitedFrom(Ljava/io/InputStream;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 446
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->parseDelimitedFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseDelimitedFrom(Ljava/io/InputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 452
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->parseDelimitedFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Lcom/google/protobuf/ByteString;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 410
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 417
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/ByteString;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Lcom/google/protobuf/CodedInputStream;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 457
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/CodedInputStream;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 464
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Ljava/io/InputStream;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 434
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Ljava/io/InputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 441
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Ljava/nio/ByteBuffer;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 397
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom(Ljava/nio/ByteBuffer;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 404
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom([B)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 422
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;[B)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parseFrom([BLcom/google/protobuf/ExtensionRegistryLite;)Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/google/protobuf/InvalidProtocolBufferException;
+        }
+    .end annotation
+
+    .line 429
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-static {v0, p0, p1}, Lcom/google/protobuf/GeneratedMessageLite;->parseFrom(Lcom/google/protobuf/GeneratedMessageLite;[BLcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p0
+.end method
+
+.method public static parser()Lcom/google/protobuf/Parser;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/google/protobuf/Parser<",
+            "Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;",
+            ">;"
+        }
+    .end annotation
+
+    .line 962
+    sget-object v0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-virtual {v0}, Lcom/google/protobuf/GeneratedMessageLite;->getParserForType()Lcom/google/protobuf/Parser;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private setAsset(Ljava/lang/String;)V
+    .locals 1
+
+    .line 110
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x2
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 111
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->asset_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private setAssetBytes(Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 126
+    invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->asset_:Ljava/lang/String;
+
+    .line 127
+    iget p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 p1, p1, 0x2
+
+    iput p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    return-void
+.end method
+
+.method private setDelta(D)V
+    .locals 1
+
+    .line 329
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x40
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 330
+    iput-wide p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->delta_:D
+
+    return-void
+.end method
+
+.method private setExtend(Ljava/lang/String;)V
+    .locals 1
+
+    .line 374
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit16 v0, v0, 0x80
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 375
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->extend_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private setExtendBytes(Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 390
+    invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->extend_:Ljava/lang/String;
+
+    .line 391
+    iget p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit16 p1, p1, 0x80
+
+    iput p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    return-void
+.end method
+
+.method private setFiat(Ljava/lang/String;)V
+    .locals 1
+
+    .line 164
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x4
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 165
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->fiat_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private setFiatBytes(Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 180
+    invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->fiat_:Ljava/lang/String;
+
+    .line 181
+    iget p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 p1, p1, 0x4
+
+    iput p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    return-void
+.end method
+
+.method private setPrice(D)V
+    .locals 1
+
+    .line 261
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x10
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 262
+    iput-wide p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->price_:D
+
+    return-void
+.end method
+
+.method private setSymbol(Ljava/lang/String;)V
+    .locals 1
+
+    .line 218
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x8
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 219
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->symbol_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private setSymbolBytes(Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 234
+    invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->symbol_:Ljava/lang/String;
+
+    .line 235
+    iget p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 p1, p1, 0x8
+
+    iput p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    return-void
+.end method
+
+.method private setTradeType(Ljava/lang/String;)V
+    .locals 1
+
+    .line 56
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 57
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->tradeType_:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private setTradeTypeBytes(Lcom/google/protobuf/ByteString;)V
+    .locals 0
+
+    .line 72
+    invoke-virtual {p1}, Lcom/google/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->tradeType_:Ljava/lang/String;
+
+    .line 73
+    iget p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 p1, p1, 0x1
+
+    iput p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    return-void
+.end method
+
+.method private setUpdateTime(J)V
+    .locals 1
+
+    .line 295
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    or-int/lit8 v0, v0, 0x20
+
+    iput v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    .line 296
+    iput-wide p1, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->updateTime_:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final dynamicMethod(Lcom/google/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 889
+    sget-object p2, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$1;->$SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke:[I
+
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result p1
+
+    aget p1, p2, p1
+
+    const/4 p2, 0x1
+
+    const/4 p3, 0x0
+
+    packed-switch p1, :pswitch_data_0
+
+    .line 940
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw p1
+
+    :pswitch_0
+    return-object p3
+
+    .line 934
+    :pswitch_1
+    invoke-static {p2}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 919
+    :pswitch_2
+    sget-object p1, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->PARSER:Lcom/google/protobuf/Parser;
+
+    if-nez p1, :cond_1
+
+    .line 921
+    const-class p1, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    monitor-enter p1
+
+    .line 922
+    :try_start_0
+    sget-object p2, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->PARSER:Lcom/google/protobuf/Parser;
+
+    if-nez p2, :cond_0
+
+    .line 924
+    new-instance p2, Lcom/google/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;
+
+    sget-object p3, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-direct {p2, p3}, Lcom/google/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;-><init>(Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    .line 927
+    sput-object p2, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->PARSER:Lcom/google/protobuf/Parser;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 929
+    :cond_0
+    monitor-exit p1
+
+    return-object p2
+
+    :catchall_0
+    move-exception p2
+
+    monitor-exit p1
+
+    throw p2
+
+    :cond_1
+    return-object p1
+
+    .line 916
+    :pswitch_3
+    sget-object p1, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    return-object p1
+
+    :pswitch_4
+    const/16 p1, 0x9
+
+    .line 897
+    new-array p1, p1, [Ljava/lang/Object;
+
+    const-string p3, "bitField0_"
+
+    const/4 v0, 0x0
+
+    aput-object p3, p1, v0
+
+    const-string p3, "tradeType_"
+
+    aput-object p3, p1, p2
+
+    const-string p2, "asset_"
+
+    const/4 p3, 0x2
+
+    aput-object p2, p1, p3
+
+    const-string p2, "fiat_"
+
+    const/4 p3, 0x3
+
+    aput-object p2, p1, p3
+
+    const-string p2, "symbol_"
+
+    const/4 p3, 0x4
+
+    aput-object p2, p1, p3
+
+    const-string p2, "price_"
+
+    const/4 p3, 0x5
+
+    aput-object p2, p1, p3
+
+    const-string p2, "updateTime_"
+
+    const/4 p3, 0x6
+
+    aput-object p2, p1, p3
+
+    const-string p2, "delta_"
+
+    const/4 p3, 0x7
+
+    aput-object p2, p1, p3
+
+    const-string p2, "extend_"
+
+    const/16 p3, 0x8
+
+    aput-object p2, p1, p3
+
+    .line 912
+    sget-object p2, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->DEFAULT_INSTANCE:Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    const-string p3, "\u0001\u0008\u0000\u0001\u0001\u0008\u0008\u0000\u0000\u0000\u0001\u1008\u0000\u0002\u1008\u0001\u0003\u1008\u0002\u0004\u1008\u0003\u0005\u1000\u0004\u0006\u1002\u0005\u0007\u1000\u0006\u0008\u1008\u0007"
+
+    invoke-static {p2, p3, p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->newMessageInfo(Lcom/google/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 894
+    :pswitch_5
+    new-instance p1, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;
+
+    invoke-direct {p1, p3}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg$Builder;-><init>(Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg-IA;)V
+
+    return-object p1
+
+    .line 891
+    :pswitch_6
+    new-instance p1, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;
+
+    invoke-direct {p1}, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;-><init>()V
+
+    return-object p1
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final getAsset()Ljava/lang/String;
+    .locals 1
+
+    .line 92
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->asset_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getAssetBytes()Lcom/google/protobuf/ByteString;
+    .locals 1
+
+    .line 101
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->asset_:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getDelta()D
+    .locals 2
+
+    .line 322
+    iget-wide v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->delta_:D
+
+    return-wide v0
+.end method
+
+.method public final getExtend()Ljava/lang/String;
+    .locals 1
+
+    .line 356
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->extend_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getExtendBytes()Lcom/google/protobuf/ByteString;
+    .locals 1
+
+    .line 365
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->extend_:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getFiat()Ljava/lang/String;
+    .locals 1
+
+    .line 146
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->fiat_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getFiatBytes()Lcom/google/protobuf/ByteString;
+    .locals 1
+
+    .line 155
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->fiat_:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getPrice()D
+    .locals 2
+
+    .line 254
+    iget-wide v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->price_:D
+
+    return-wide v0
+.end method
+
+.method public final getSymbol()Ljava/lang/String;
+    .locals 1
+
+    .line 200
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->symbol_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getSymbolBytes()Lcom/google/protobuf/ByteString;
+    .locals 1
+
+    .line 209
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->symbol_:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getTradeType()Ljava/lang/String;
+    .locals 1
+
+    .line 38
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->tradeType_:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getTradeTypeBytes()Lcom/google/protobuf/ByteString;
+    .locals 1
+
+    .line 47
+    iget-object v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->tradeType_:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/google/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Lcom/google/protobuf/ByteString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getUpdateTime()J
+    .locals 2
+
+    .line 288
+    iget-wide v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->updateTime_:J
+
+    return-wide v0
+.end method
+
+.method public final hasAsset()Z
+    .locals 1
+
+    .line 84
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, 0x2
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasDelta()Z
+    .locals 1
+
+    .line 314
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, 0x40
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasExtend()Z
+    .locals 1
+
+    .line 348
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit16 v0, v0, 0x80
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasFiat()Z
+    .locals 1
+
+    .line 138
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, 0x4
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasPrice()Z
+    .locals 1
+
+    .line 246
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, 0x10
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasSymbol()Z
+    .locals 1
+
+    .line 192
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, 0x8
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasTradeType()Z
+    .locals 2
+
+    .line 30
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    const/4 v1, 0x1
+
+    and-int/2addr v0, v1
+
+    if-eqz v0, :cond_0
+
+    return v1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final hasUpdateTime()Z
+    .locals 1
+
+    .line 280
+    iget v0, p0, Lcom/binance/ws/messages/protobuf/com/market/C2cQuotePriceMsg;->bitField0_:I
+
+    and-int/lit8 v0, v0, 0x20
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method

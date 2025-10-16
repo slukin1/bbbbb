@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space ="wrap_content" ="wrap_content" ="1.0" />
+    <com.airbnb.lottie.LottieAnimationView ="center_horizontal" android:id="@id/icon_iv" ="60.0dip" ="60.0dip" />
+    <TextView ="@color/2131099778" android:id="@id/2131441558" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149398" />
+</LinearLayout>

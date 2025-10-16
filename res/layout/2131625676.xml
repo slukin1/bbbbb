@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" ="fill_parent" ="wrap_content" layout="@layout/2131629184" />
+    <RelativeLayout ="fill_parent" ="0.0dip" ="4.0dip" ="20.0dip" ="1.0">
+        <FrameLayout ="fill_parent" ="fill_parent" ="4.0dip" ="4.0dip" ="16.0dip" ="16.0dip">
+            <ScrollView ="fill_parent" ="fill_parent" ="false">
+                <LinearLayout ="center" ="center" ="vertical" ="fill_parent" ="wrap_content">
+                    <TextView ="18.0sp" ="#ff44546c" ="center" ="center" ="wrap_content" ="fill_parent" ="20.0dip" android:text="@string/uq_lookup_enter_otp_code_received_on_your_mobile_number" ="30.0dip" ="30.0dip" />
+                    <io.uqudo.sdk.lookup.view.pinview.PinView ="16.0sp" ="bold" android:id="@id/2131427365" ="wrap_content" ="wrap_content" ="true" style="@style/2132150339" />
+                    <TextView ="14.0sp" ="#ffff2f2f" ="center" ="center" android:id="@id/2131431396" ="gone" ="wrap_content" ="fill_parent" ="20.0dip" android:text="@string/uq_error_session_expired_or_not_found" ="30.0dip" ="30.0dip" />
+                    <TextView ="14.0sp" ="#ff44546c" ="center" ="center" android:id="@id/2131441429" ="gone" ="wrap_content" ="fill_parent" ="20.0dip" android:text="@string/uq_lookup_ind_id_feedback_text_time_remaining" ="30.0dip" ="30.0dip" />
+                    <RelativeLayout android:id="@id/2131439180" ="visible" ="fill_parent" ="fill_parent" ="20.0dip" ="30.0dip" ="30.0dip">
+                        <TextView ="14.0sp" ="#ff44546c" ="center_vertical" ="center" android:id="@id/2131439181" ="wrap_content" ="fill_parent" android:text="@string/uq_lookup_otp_expired" ="true" ="true" />
+                        <TextView ="center_vertical" android:id="@id/2131428876" ="?2130970781" ="12.0dip" ="wrap_content" ="48.0dip" ="@drawable/2131238587" android:text="@string/uq_lookup_button_title_resend" ="true" ="@null" ="true" style="@style/2132150321" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </RelativeLayout>
+    <Button android:id="@id/2131428918" ="40.0dip" android:text="@string/uq_lookup_button_title_submit" ="false" style="@style/2132150323" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="true" ="true" ="fill_parent" ="wrap_content" ="1.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131430353" ="wrap_content" ="48.0dip" 2130970039="true" 2130970043="@color/2131099762" 2130970047="uikit_refresh_loading.json" 2130970050="true" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131430352" ="fill_parent" ="48.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="16.0dip" 2130971077="@drawable/2131237910" 2130971375="@color/2131099762" />
+        <TextView ="@color/2131099762" ="wrap_content" ="wrap_content" android:text="@string/launcher_feed_item_footer_retry" ="5.0dip" style="@style/2132149374" />
+    </LinearLayout>
+    <TextView ="@color/2131099785" ="center" android:id="@id/2131430354" ="wrap_content" ="88.0dip" android:text="@string/launcher_feed_item_footer_no_more_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131430351" ="90.0dip" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView ="64.0dip" ="64.0dip" ="40.0dip" 2130971077="@drawable/2131233174" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/content_no_content_found" style="@style/2132149374" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131429007" ="wrap_content" ="wrap_content" ="36.0dip" android:text="@string/content_btn_discover_more_content" 2130969173="4" 2130970889="3" 2130971472="2" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/2131435603" ="20.0dip" ="40.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131429008" ="30.0dip" ="30.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/content_btn_discover_more_content" 2130969173="4" 2130970889="3" 2130971472="2" />
+    </FrameLayout>
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131430395" ="fill_parent" ="wrap_content">
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131430418" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131430337" ="fill_parent" ="fill_parent" ="120.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430432" ="wrap_content" ="wrap_content" ="12.0dip" 2130969912="@id/2131430433" 2130969917="2131438103" 2130969937="2131438103" 2130971077="@drawable/2131233231" />
+        <TextView ="@color/2131100706" ="center" android:id="@id/2131430433" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/content_trading_tab_share_empty_market" 2130969912="@id/2131430431" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149350" />
+    </LinearLayout>
+</LinearLayout>

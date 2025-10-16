@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441039" ="@drawable/2131236009" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="@color/2131099804" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444879" ="wrap_content" ="wrap_content" ="@font/2131296271" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444878" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296281" 2130969937="2131438103" 2130969940="@id/2131444879" />
+    <FrameLayout android:id="@id/2131429284" ="fill_parent" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131444878" 2130969962="@dimen/2131166170">
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444877" ="wrap_content" ="wrap_content" ="@font/2131296281" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449306" ="gone" ="fill_parent" ="wrap_content" />
+    </FrameLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131437906" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131429284">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435213" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_card_label_order_id" ="@font/2131296281" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131443947" ="0.0dip" ="wrap_content" ="1.0" ="@font/2131296281" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131437924" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131437906">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435225" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_card_label_last_verified" ="@font/2131296281" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131445345" ="0.0dip" ="wrap_content" ="1.0" ="@font/2131296281" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131449307" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131437924">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435220" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_card_label_status" ="@font/2131296281" />
+        <Space ="0.0dip" ="1.0dip" ="1.0" />
+        <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131442428" ="@drawable/2131236007" ="6.0dip" ="1.0dip" ="6.0dip" ="1.0dip" ="wrap_content" ="wrap_content" ="@font/2131296271" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428719" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_chat_card_btn_proceed" 2130969937="2131438103" 2130969940="@id/2131449307" style="@style/2132148693" />
+</androidx.constraintlayout.widget.ConstraintLayout>

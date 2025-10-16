@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440601" ="fill_parent" ="0.0dip" 2130969941="2131438103" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131441601" ="fill_parent" ="45.0dip" 2130969940="@id/2131440601" />
+    <com.major.android.uikit.smartrefresh.KitSmartRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441601" 2130971098="false">
+        <FrameLayout android:id="@id/2131430273" ="fill_parent" ="fill_parent" />
+    </com.major.android.uikit.smartrefresh.KitSmartRefreshLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131449746" ="wrap_content" ="wrap_content" ="100.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131428523" ="fill_parent" ="44.0dip" ="16.0dip" ="16.0dip" ="16.0dip" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

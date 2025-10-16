@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="0.0dip" ="0.0dip" 2130969912="@id/sns_primary_button" 2130969917="2131438103" 2130969922="2131450410" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+            <ImageView android:id="@id/sns_image" ="@dimen/sns_eid_image_size" ="@dimen/sns_eid_image_size" ="@dimen/sns_margin_medium" ="@drawable/sns_ic_id_hand" ="@null" 2130969912="@id/sns_title" 2130969917="2131438103" 2130969937="2131438103" 2130969943="2131438085" />
+            <com.sumsub.sns.core.widget.SNSH1TextView ="center" android:id="@id/sns_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969912="@id/sns_subtitle" 2130969917="2131438103" 2130969937="2131438103" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/sns_guideline_center" />
+            <com.sumsub.sns.core.widget.SNSLinkButton android:id="@id/sns_button_option" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_subtitle" />
+            <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/sns_guideline_center" ="1.0dip" ="1.0dip" 2130969921="0.5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_primary_button" ="0.0dip" ="wrap_content" 2130969912="@id/sns_secondary_button" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_secondary_button" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</merge>

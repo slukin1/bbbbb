@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="start" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131450187" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/wallet_deposit_tss_address_dialog_tip" ="@dimen/2131166184" style="@style/2132149384" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="24.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="fill_parent" ="22.0dip" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/wallet_deposit_tss_address_dialog_old_address" ="@dimen/2131166184" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131437507" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/wallet_deposit_fragment_select_network_title" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+    <TextView ="@color/2131099764" android:id="@id/2131437501" ="wrap_content" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184" style="@style/2132149463" />
+    <TextView ="@color/2131099778" android:id="@id/2131437498" ="wrap_content" ="wrap_content" ="15.0dip" ="2.0dip" ="15.0dip" ="@dimen/2131166184" style="@style/2132149394" />
+    <View android:id="@id/2131441915" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" ="@dimen/2131166184" />
+    <TextView ="@color/2131099778" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/ms_lite_wallet_address" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131441915" style="@style/2132149350" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131102398" android:id="@id/2131442030" ="wrap_content" ="wrap_content" ="1.0" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131442621" ="@drawable/2131235989" ="8.0dip" ="36.0dip" ="36.0dip" ="12.0dip" 2130971077="@drawable/2131237146" 2130971375="@color/2131099764" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131450287" ="fill_parent" ="48.0dip" ="15.0dip" ="110.0dip" ="15.0dip" android:text="@string/OK" ="@dimen/2131166184" 2130969173="10.0" style="@style/2132148691" />
+</LinearLayout>

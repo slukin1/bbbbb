@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444115" ="14.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/futures_position_tip_tpsl_title" ="@dimen/2131166179" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="wrap_content" ="8.0dip" ="200.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444115" />
+    <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131428037" ="false" ="wrap_content" ="wrap_content" ="8.0dip" 2130968672="@color/2131099764" 2130968673="@dimen/2131166225" 2130968674="@dimen/2131166286" 2130968676="@color/2131099725" 2130968677="@dimen/2131166225" 2130968678="@dimen/2131166286" 2130968679="@dimen/2131166260" 2130968680="2131440527" 2130969917="@id/2131449438" 2130969937="@id/2131449438" 2130969940="@id/2131449438" />
+    <TextView android:id="@id/2131441225" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/futures_position_tip_tpsl_desc" 2130969940="@id/2131428037" />
+    <com.major.android.uikit2.button.KitButton ="16.0sp" ="@color/2131099789" android:id="@id/2131428819" ="fill_parent" ="wrap_content" ="24.0dip" ="16.0dip" android:text="@string/futures_position_tpsl_try" 2130969911="2131438103" 2130969940="@id/2131441225" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="@drawable/2131235942" ="vertical" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" ="false" ="@dimen/2131166156">
+        <LinearLayout ="vertical" ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166209">
+            <include android:id="@id/2131436642" layout="@layout/2131630170" />
+            <Space ="0.0dip" ="140.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.LinearLayoutCompat ="bottom" ="vertical" android:id="@id/2131436492" ="@drawable/2131236059" ="fill_parent" ="wrap_content">
+        <FrameLayout ="fill_parent" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131099778" ="start" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_select_charts_dialog_label" style="@style/2132149350" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/2131431885" ="fill_parent" ="wrap_content">
+            <include android:id="@id/2131436640" layout="@layout/2131630171" />
+        </FrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

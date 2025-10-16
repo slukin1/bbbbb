@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431921" ="fill_parent" ="wrap_content">
+        <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099778" android:id="@id/2131431568" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="16.0dip" ="@dimen/2131166184" 2130969382="@color/2131099787" 2130969383="@null" 2130969394="false" 2130969395="true" 2130969396="true" 2130969398="true" 2130969399="false" 2130969400="false" 2130969401="false" style="@style/2132149384" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131450329" ="fill_parent" ="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429755" ="fill_parent" ="wrap_content">
+        <View android:id="@id/divider" ="@color/2131099751" ="0.0dip" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440501" />
+        <HorizontalScrollView android:id="@id/2131440501" ="none" ="0.0dip" ="38.0dip" ="never" ="7.5dip" 2130969918="@id/ivHistory" 2130969937="2131438103" 2130969941="2131438103">
+            <LinearLayout ="horizontal" ="false" ="wrap_content" ="fill_parent">
+                <com.binance.widget.tablayout.XTabLayout android:id="@id/2131450418" ="wrap_content" ="fill_parent" />
+                <TextView ="@color/2131099778" ="end" ="center_vertical" android:id="@id/2131447882" ="7.5dip" ="7.5dip" ="gone" ="wrap_content" ="fill_parent" android:text="@string/wallet_strategy_tab_name" ="1" ="7.5dip" 2130969911="@id/2131450418" 2130969918="@id/ivHistory" 2130969936="@id/2131450418" 2130969941="@id/2131450418" 2130969945="2131450410" 2130969948="@dimen/2131166278" style="@style/2132149374" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View ="@drawable/2131236444" ="15.0dip" ="0.0dip" 2130969912="@id/divider" 2130969918="@id/ivHistory" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivHistory" ="40.0dip" ="0.0dip" ="centerInside" ="@null" ="5.0dip" ="15.0dip" 2130969911="@id/2131440501" 2130969917="2131438103" 2130969941="@id/2131440501" 2130971077="@drawable/2131237479" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449906" ="blocksDescendants" ="fill_parent" ="wrap_content" 2130969901="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

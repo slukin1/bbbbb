@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099712" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435686" ="fill_parent" ="wrap_content" ="12.0dip" layout="@layout/2131627325" />
+    <include android:id="@id/2131435689" ="fill_parent" ="wrap_content" ="6.0dip" layout="@layout/2131627325" />
+    <include android:id="@id/2131435688" ="fill_parent" ="wrap_content" ="6.0dip" layout="@layout/2131627325" />
+    <include android:id="@id/2131435687" ="fill_parent" ="wrap_content" ="6.0dip" layout="@layout/2131627325" />
+    <include android:id="@id/2131435690" ="fill_parent" ="wrap_content" ="6.0dip" layout="@layout/2131627325" />
+    <View ="@color/2131100461" ="fill_parent" ="0.5dip" ="12.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

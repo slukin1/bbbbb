@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="wrap_content" ="44.0dip" ="10.0dip" ="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+    <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099778" ="center" android:id="@id/2131443138" ="@drawable/2131235991" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="true" ="@font/2131296273" ="4.0dip" />
+</LinearLayout>

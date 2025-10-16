@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428010" ="15.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.orderdetail.widget.step.AppealStepsView android:id="@id/2131428026" ="fill_parent" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.c2c.orderdetail.widget.step.AppealStepsDescView android:id="@id/2131428025" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="@id/2131428026" 2130969937="@id/2131428026" 2130969940="@id/2131428026" />
+</androidx.constraintlayout.widget.ConstraintLayout>

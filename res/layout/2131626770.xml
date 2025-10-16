@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="4.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131444975" ="wrap_content" ="fill_parent" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131444972" ="0.0dip" ="fill_parent" ="1" 2130969917="2131438103" 2130969936="@id/2131444975" 2130969941="2131438103" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

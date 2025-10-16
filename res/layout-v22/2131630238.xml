@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428006" ="@color/2131099685" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="10.0sp" ="@color/2131099778" android:id="@id/tvAppealNegotiationTips" ="wrap_content" ="wrap_content" android:text="@string/c2c_appeal_negotiation_tips" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/dashLine" ="@drawable/2131233287" ="0.0dip" ="2.0dip" 2130969917="@id/tvAppealNegotiationTips" 2130969937="@id/tvAppealNegotiationTips" 2130969940="@id/tvAppealNegotiationTips" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131428004" ="gone" ="fill_parent" ="wrap_content" 2130969125="dashLine, tvAppealNegotiationTips" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428695" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969940="@id/dashLine" 2130969962="@dimen/2131166153" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428696" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" 2130969937="2131438103" 2130969940="@id/2131428695" 2130969962="@dimen/2131166153" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

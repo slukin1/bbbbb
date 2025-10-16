@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429696" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.search.KitSearchBar android:id="@id/2131436345" ="fill_parent" ="45.0dip" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/margin_search_pairs" />
+    <LinearLayout ="vertical" android:id="@id/2131436346" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436345">
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="20.0dip" ="4.0dip">
+            <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/search_history" ="1.0" style="@style/2132149446" />
+            <ImageView android:id="@id/ivDeleteHistory" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237186" />
+        </LinearLayout>
+        <View ="@color/2131099751" ="fill_parent" ="1.0px" />
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432031" ="fill_parent" ="wrap_content" ="11.0dip" 2130969284="@drawable/2131234923" 2130969467="0" 2130969468="2131450408" 2130970841="2131437069" />
+    </LinearLayout>
+    <TextView ="@color/2131099778" android:id="@id/searchResult" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/margin_pair_list" ="@id/2131436345" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436346" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tvAmountTitle" ="wrap_content" ="wrap_content" ="@id/2131436345" ="15.0dip" 2130969911="@id/searchResult" 2130969917="2131438103" 2130969941="@id/searchResult" style="@style/2132149446" />
+    <View android:id="@id/2131449623" ="@color/2131099751" ="0.0dip" ="1.0dip" ="10.0dip" ="15.0dip" 2130969912="@id/2131439035" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/searchResult" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="0.0dip" ="0.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449623" />
+</androidx.constraintlayout.widget.ConstraintLayout>

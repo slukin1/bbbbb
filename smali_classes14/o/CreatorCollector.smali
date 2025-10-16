@@ -1,0 +1,50 @@
+.class public final synthetic Lo/CreatorCollector;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnLongClickListener;
+
+
+# instance fields
+.field private synthetic b:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+.field private synthetic c:Lo/paramName;
+
+.field private synthetic e:Lo/parameter;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/parameter;Landroidx/constraintlayout/widget/ConstraintLayout;Lo/paramName;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/CreatorCollector;->e:Lo/parameter;
+
+    iput-object p2, p0, Lo/CreatorCollector;->b:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    iput-object p3, p0, Lo/CreatorCollector;->c:Lo/paramName;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onLongClick(Landroid/view/View;)Z
+    .locals 3
+
+    .line 0
+    iget-object v0, p0, Lo/CreatorCollector;->e:Lo/parameter;
+
+    iget-object v1, p0, Lo/CreatorCollector;->b:Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    iget-object v2, p0, Lo/CreatorCollector;->c:Lo/paramName;
+
+    invoke-static {v0, v1, v2, p1}, Lo/parameter;->d(Lo/parameter;Landroidx/constraintlayout/widget/ConstraintLayout;Lo/paramName;Landroid/view/View;)Z
+
+    move-result p1
+
+    return p1
+.end method

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nezha.android.render.view.NavigationBar android:id="@id/2131437633" ="fill_parent" ="wrap_content" />
+    <LinearLayout ="horizontal" ="#ffe5e5e5" ="fill_parent" ="fill_parent" ="1.0">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" ="center" ="vertical" ="0.0dip" ="wrap_content" ="10.0dip" ="0.35" ="15.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437607" ="36.0dip" ="44.0dip" ="5.0dip" ="@drawable/2131233320" />
+            <TextView ="#ff202630" android:id="@id/2131437614" ="wrap_content" ="wrap_content" ="1" style="@style/2132149425" />
+            <TextView ="#ff29313d" android:id="@id/2131437615" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437620" ="20.0dip" ="20.0dip" ="10.0dip" ="@drawable/2131235354" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131235322" ="0.0dip" ="fill_parent" ="30.0dip" ="0.65">
+            <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131437616" ="fill_parent" ="44.0dip" />
+            <androidx.viewpager.widget.ViewPager android:id="@id/2131437617" ="fill_parent" ="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</RelativeLayout>

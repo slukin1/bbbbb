@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439486" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433698" ="20.0dip" ="20.0dip" ="14.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <ImageView android:id="@id/2131434228" ="20.0dip" ="20.0dip" ="14.0dip" 2130969918="@id/tvTitle" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/earn_stake_weth" ="8.0dip" 2130969911="@id/2131434228" 2130969917="2131438103" 2130969936="@id/2131434228" 2130969941="@id/2131434228" style="@style/2132149425" />
+    <ImageView android:id="@id/2131433909" ="20.0dip" ="20.0dip" ="14.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" android:id="@id/tvRatio" ="wrap_content" ="wrap_content" ="17.0dip" 2130969918="@id/2131434102" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149350" />
+    <include android:id="@id/2131432151" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="17.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" layout="@layout/2131626850" />
+    <ImageView android:id="@id/2131434102" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="@id/tvRatio" 2130969917="2131438103" 2130969936="@id/tvRatio" 2130969941="@id/tvRatio" 2130971077="@drawable/2131237139" 2130971375="@color/2131099764" />
+    <com.major.android.uikit.textview.KitAutoSizeAmountWithAssetView android:id="@id/2131435443" ="wrap_content" ="62.0dip" ="153.0dip" ="12.0dip" ="12.0dip" 2130968942="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970142="15" 2130970143="180.0dip" 2130970148="48.0sp" 2130970204="12.0sp" />
+    <ImageView android:id="@id/2131434205" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/2131435443" 2130969917="2131438103" 2130969941="@id/2131435443" />
+    <TextView ="center_horizontal" android:id="@id/2131444850" ="38.0dip" ="wrap_content" ="4.0dip" android:text="@string/earn_eth_lite_stake_or_redeem" 2130969917="@id/2131434205" 2130969937="@id/2131434205" 2130969940="@id/2131434205" style="@style/2132149394" />
+    <TextView ="@color/2131099863" ="center_horizontal" android:id="@id/2131445163" ="gone" ="0.0dip" ="wrap_content" ="70.0dip" ="4.0dip" ="70.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435443" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131445165" ="0.0dip" ="wrap_content" ="70.0dip" ="4.0dip" ="70.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445163" style="@style/2132149350" />
+    <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131442569" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/earn_stake_maximum_amount" ="24.0dip" 2130969912="@id/2131435038" style="@style/2132148696" />
+    <TextView ="@color/2131099778" android:id="@id/2131442230" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/earn_simple_lite_available_balance" ="15.0dip" 2130969912="@id/2131442569" 2130969937="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131442240" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131442230" 2130969917="2131438103" 2130969941="@id/2131442230" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

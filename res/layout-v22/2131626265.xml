@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="fill_parent" ="12.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="26.0dip" ="26.0dip" ="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="fill_parent" ="fill_parent" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|bottom|center" android:id="@id/2131434575" ="12.0dip" ="12.0dip" />
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="2" ="false" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131436527" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149367" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131436527" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/tv_title" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434888" ="12.0dip" ="12.0dip" ="4.0dip" 2130971077="@drawable/2131238235" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="false" ="4.0dip" style="@style/2132149361" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131448005" ="@drawable/2131234093" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="@dimen/2131166247" style="@style/2132149397" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447950" ="@null" ="gone" ="fill_parent" ="wrap_content" ="1" 2130969911="@id/iv_logo" 2130969917="2131438103" 2130969937="@id/tv_title" style="@style/2132149367" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

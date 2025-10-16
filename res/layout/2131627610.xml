@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131450306" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131627708" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450225" ="96.0dip" ="96.0dip" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450306" 2130971077="@drawable/2131238405" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131450226" ="fill_parent" ="wrap_content" ="15.0dip" ="40.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131450225" style="@style/2132149450" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445768" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/web3_backup_management_tip_title" 2130969937="2131438103" 2130969940="@id/2131450226" style="@style/2132149463" />
+    <LinearLayout ="horizontal" android:id="@id/2131436454" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131445768">
+        <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237218" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445769" ="visible" ="fill_parent" ="wrap_content" android:text="@string/web3_backup_management_safe_tip_1" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436455" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436454">
+        <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237218" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445770" ="visible" ="fill_parent" ="wrap_content" android:text="@string/web3_backup_management_safe_tip_1" style="@style/2132149350" />
+    </LinearLayout>
+    <com.mpc.wallet.widget.uikit.KitButton ="@color/2131099764" android:id="@id/2131450300" ="@drawable/2131235996" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="20.0dip" android:text="@string/mpc_wallet_restore_wallet" 2130969173="80.0" 2130969911="2131438103" 2130969928="2131440524" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

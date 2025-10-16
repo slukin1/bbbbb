@@ -1,0 +1,171 @@
+.class public final synthetic Lo/ContentTippingBottomSheet;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Ljava/lang/Double;
+
+.field public final synthetic e:Ljava/lang/String;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/Double;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/ContentTippingBottomSheet;->c:Ljava/lang/Double;
+
+    iput-object p2, p0, Lo/ContentTippingBottomSheet;->e:Ljava/lang/String;
+
+    iput-object p3, p0, Lo/ContentTippingBottomSheet;->b:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 14
+
+    .line 0
+    iget-object v0, p0, Lo/ContentTippingBottomSheet;->c:Ljava/lang/Double;
+
+    iget-object v3, p0, Lo/ContentTippingBottomSheet;->e:Ljava/lang/String;
+
+    iget-object v7, p0, Lo/ContentTippingBottomSheet;->b:Ljava/lang/String;
+
+    check-cast p1, Lcom/moon/analysis/EventBuilder;
+
+    .line 12673
+    invoke-virtual {v0}, Ljava/lang/Number;->doubleValue()D
+
+    move-result-wide v1
+
+    const-wide/16 v4, 0x0
+
+    cmpl-double v6, v1, v4
+
+    if-lez v6, :cond_0
+
+    .line 12674
+    const-string v9, "df_9"
+
+    const/4 v0, 0x1
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v10
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x4
+
+    const/4 v13, 0x0
+
+    move-object v8, p1
+
+    invoke-static/range {v8 .. v13}, Lcom/moon/analysis/EventBuilder$DefaultImpls;->e$default(Lcom/moon/analysis/EventBuilder;Ljava/lang/String;Ljava/lang/Object;ZILjava/lang/Object;)Lcom/moon/analysis/EventBuilder;
+
+    goto :goto_0
+
+    .line 12675
+    :cond_0
+    invoke-virtual {v0}, Ljava/lang/Number;->doubleValue()D
+
+    move-result-wide v0
+
+    cmpg-double v2, v0, v4
+
+    if-gez v2, :cond_1
+
+    .line 12676
+    const-string v9, "df_9"
+
+    const/4 v0, 0x2
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v10
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x4
+
+    const/4 v13, 0x0
+
+    move-object v8, p1
+
+    invoke-static/range {v8 .. v13}, Lcom/moon/analysis/EventBuilder$DefaultImpls;->e$default(Lcom/moon/analysis/EventBuilder;Ljava/lang/String;Ljava/lang/Object;ZILjava/lang/Object;)Lcom/moon/analysis/EventBuilder;
+
+    goto :goto_0
+
+    .line 12678
+    :cond_1
+    const-string v9, "df_9"
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v10
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x4
+
+    const/4 v13, 0x0
+
+    move-object v8, p1
+
+    invoke-static/range {v8 .. v13}, Lcom/moon/analysis/EventBuilder$DefaultImpls;->e$default(Lcom/moon/analysis/EventBuilder;Ljava/lang/String;Ljava/lang/Object;ZILjava/lang/Object;)Lcom/moon/analysis/EventBuilder;
+
+    :goto_0
+    if-eqz v3, :cond_2
+
+    .line 12680
+    const-string v2, "df_source"
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x4
+
+    const/4 v6, 0x0
+
+    move-object v1, p1
+
+    invoke-static/range {v1 .. v6}, Lcom/moon/analysis/EventBuilder$DefaultImpls;->e$default(Lcom/moon/analysis/EventBuilder;Ljava/lang/String;Ljava/lang/Object;ZILjava/lang/Object;)Lcom/moon/analysis/EventBuilder;
+
+    :cond_2
+    if-eqz v7, :cond_3
+
+    .line 12681
+    const-string v5, "df_11"
+
+    const/4 v0, 0x0
+
+    const/4 v8, 0x4
+
+    const/4 v9, 0x0
+
+    move-object v4, p1
+
+    move-object v6, v7
+
+    move v7, v0
+
+    invoke-static/range {v4 .. v9}, Lcom/moon/analysis/EventBuilder$DefaultImpls;->e$default(Lcom/moon/analysis/EventBuilder;Ljava/lang/String;Ljava/lang/Object;ZILjava/lang/Object;)Lcom/moon/analysis/EventBuilder;
+
+    .line 12682
+    :cond_3
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method

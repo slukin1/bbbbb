@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/2131437464" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441948" android:text="@string/futures_grid_24h_matched_trades" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443707" 2130969917="2131438103" 2130969936="@id/2131441948" 2130969941="@id/2131441948" style="@style/2132148670" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445112" ="5.0dip" android:text="@string/futures_grid_total_matched_trades" 2130969937="2131438103" 2130969940="@id/2131441948" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTotalMatchedTradesValue" 2130969917="2131438103" 2130969936="@id/2131445112" 2130969941="@id/2131445112" style="@style/2132148670" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442264" ="5.0dip" android:text="@string/futures_grid_avg_daily_arbitraged_trades" 2130969937="2131438103" 2130969940="@id/tvTotalMatchedTradesValue" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442265" 2130969917="2131438103" 2130969936="@id/2131442264" 2130969941="@id/2131442264" style="@style/2132148670" />
+            <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131445110" ="5.0dip" android:text="@string/futures_grid_total_matched_profits" 2130969937="2131438103" 2130969940="@id/2131442264" style="@style/2132149354" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445111" 2130969917="2131438103" 2130969936="@id/2131445110" 2130969941="@id/2131445110" style="@style/2132148670" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429768" ="fill_parent" ="wrap_content">
+            <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131435075" ="0.0dip" ="24.0dip" ="15.0dip" 2130969918="@id/2131428320" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131428320" ="wrap_content" ="wrap_content" 2130968759="2131440560" 2130969125="ivFilter,placeholder" />
+            <View android:id="@id/2131440026" ="@drawable/2131236529" ="20.0dip" ="24.0dip" 2130969918="@id/ivFilter" 2130969941="@id/2131435075" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivFilter" ="2.0dip" ="24.0dip" ="24.0dip" ="13.0dip" 2130969911="@id/2131435075" 2130969917="2131438103" 2130969941="@id/2131435075" 2130971077="@drawable/2131237353" />
+            <ImageView android:id="@id/2131433872" ="gone" ="wrap_content" ="wrap_content" ="@null" 2130969917="@id/ivFilter" 2130969941="@id/ivFilter" 2130971077="@drawable/2131233714" />
+            <View android:id="@id/placeholder" ="gone" ="15.0dip" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449895" ="fill_parent" ="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

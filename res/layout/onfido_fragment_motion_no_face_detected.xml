@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="0.0dip" ="true" ="1.0" style="@style/2132148929">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <View ="fill_parent" ="0.0dip" ="16.0dip" ="1.0" />
+            <ImageView ="center" android:id="@id/2131437713" ="48.0dip" ="48.0dip" ="16.0dip" ="no" style="@style/2132148909" />
+            <TextView ="center" ="fill_parent" ="wrap_content" ="32.0dip" ="32.0dip" ="36.0dip" android:text="@string/onfido_avc_no_face_detected_title" style="@style/2132148963" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/onfido_avc_no_face_detected_list_item_lighting" 2130969307="@drawable/onfido_ic_avc_sun" style="@style/2132148890" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/onfido_avc_no_face_detected_list_item_eyes" 2130969307="@drawable/onfido_ic_avc_eye" style="@style/2132148890" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/onfido_avc_no_face_detected_list_item_mask" 2130969307="@drawable/onfido_ic_avc_mask" style="@style/2132148890" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/onfido_avc_no_face_detected_list_item_face" ="@string/onfido_avc_no_face_detected_list_item_face_accessibility" 2130969307="@drawable/onfido_ic__avc_face" style="@style/2132148890" />
+            <View ="fill_parent" ="0.0dip" ="16.0dip" ="1.0" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131437714" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="8.0dip" ="@dimen/2131167223" 2130970348="@string/onfido_avc_no_face_detected_button_primary_restart" />
+    <include layout="@layout/onfido_watermark_layout" />
+</LinearLayout>

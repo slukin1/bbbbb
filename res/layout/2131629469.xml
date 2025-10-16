@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131449738" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="1" ="false" style="@style/2132149446" />
+            <TextView ="@color/2131099778" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="3.0dip" ="false" ="true" style="@style/2132149384" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_voucher_no" style="@style/2132149350" />
+            <TextView ="true" ="@color/2131099764" android:id="@id/2131445391" ="wrap_content" ="wrap_content" ="true" 2130969348="false" 2130969607="2131440560" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="7.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/_amount" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View ="@color/2131100565" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" />
+</LinearLayout>

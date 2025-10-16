@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/2131439474" ="38.0dip" ="38.0dip" ="none" ="fill_parent" ="fill_parent" ="@dimen/2131166243" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429690" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434217" ="96.0dip" ="80.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235723" />
+            <View android:id="@id/2131449478" ="@color/2131099685" ="0.0dip" ="0.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" 2130969911="@id/2131443253" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434217" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433695" ="wrap_content" ="wrap_content" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434217" 2130971077="@drawable/2131235617" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131444603" ="fill_parent" ="wrap_content" ="4.0dip" 2130969940="@id/2131433695" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131443747" ="fill_parent" ="wrap_content" ="4.0dip" 2130969940="@id/2131444603" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434097" ="160.0dip" ="160.0dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443747" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131443253" ="32.0dip" ="fill_parent" ="wrap_content" ="10.0dip" 2130969940="@id/2131434097" style="@style/2132149394" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434058" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131449478" 2130971077="@drawable/2131235712" />
+            <Space android:id="@id/2131440406" ="fill_parent" ="24.0dip" 2130969940="@id/2131434058" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428883" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" android:text="@string/ms_redpacket_picture_save" ="@dimen/2131166209" 2130970889="1" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/ivClose" ="36.0dip" ="36.0dip" 2130971077="@drawable/2131235657" />
+    </LinearLayout>
+</ScrollView>

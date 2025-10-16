@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131625974" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434282" ="96.0dip" ="96.0dip" ="100.0dip" ="@drawable/2131233785" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435631" />
+    <TextView ="@color/2131099778" android:id="@id/2131444976" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_on_account" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434282" style="@style/2132149450" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428839" ="wrap_content" ="40.0dip" ="8.0dip" android:text="@string/um_order_form_open_account" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444976" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430172" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="@color/2131099744">
+        <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131166257" 2130969937="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430146" ="20.0dip" ="20.0dip" 2130969911="@id/2131432755" 2130969918="@id/2131430153" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131430153" ="56.0dip" ="0.0dip" ="5.0dip" 2130969911="@id/2131432755" 2130969918="@id/2131434330" 2130969941="2131438103" style="@style/2132149446" />
+        <ImageView android:id="@id/2131434330" ="20.0dip" ="20.0dip" 2130969911="@id/2131430146" 2130969917="2131438103" 2130969941="@id/2131430146" 2130971077="@drawable/2131237003" 2130971375="@color/2131099778" />
+        <View android:id="@id/2131449623" ="@color/2131099751" ="0.5dip" ="24.0dip" ="12.0dip" 2130969911="@id/2131432755" 2130969918="@id/2131430146" 2130969941="2131438103" />
+        <EditText ="@color/2131099764" ="@color/2131099762" android:id="@id/2131431314" ="@null" ="0.0dip" ="wrap_content" android:hint="@string/ms_withdraw_amount" ="1" ="numberDecimal" ="10.0dip" 2130969911="@id/2131432755" 2130969918="@id/2131443708" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131443708" ="wrap_content" ="0.0dip" android:text="@string/margin_max" ="12.0dip" 2130969911="@id/2131432755" 2130969918="@id/2131449623" 2130969941="2131438103" style="@style/2132149446" />
+        <View android:id="@id/divider" ="@color/2131100120" ="fill_parent" ="0.5dip" 2130969937="2131438103" 2130969941="@id/2131432755" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/tvEqual" ="wrap_content" ="wrap_content" android:text="@string/earn_equal" 2130969911="2131438103" 2130969937="2131438103" 2130969941="@id/divider" style="@style/2132149461" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clFromEarn" ="@drawable/2131236001" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="15.0dip" ="@color/2131099744" ="@dimen/2131166156" 2130969936="@id/tvEqual" 2130969940="@id/divider">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131442528" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131442902" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/loan_from_earn_wallet" 2130969937="@id/2131442528" 2130969940="@id/2131442528" style="@style/2132149355" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/tvAdd" ="wrap_content" ="wrap_content" android:text="@string/earn_plus" ="10.0dip" 2130969936="@id/clFromEarn" 2130969941="@id/tvEqual" style="@style/2132149461" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clFromSpot" ="@drawable/2131236001" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="15.0dip" ="@color/2131099744" ="@dimen/2131166156" 2130969936="@id/tvAdd" 2130969940="@id/divider">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131442529" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131444742" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/loan_from_spot_wallet" 2130969937="@id/2131442529" 2130969940="@id/2131442529" style="@style/2132149355" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.Group android:id="@id/2131430178" ="gone" ="wrap_content" ="wrap_content" 2130969125="divider,clFromEarn,clFromSpot,tvEqual,tvAdd" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131439256" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" 2130969843="0" />
+    <LinearLayout ="horizontal" android:id="@id/2131436227" ="gone" ="fill_parent" ="wrap_content" ="7.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131442951" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149384" />
+    </LinearLayout>
+</LinearLayout>

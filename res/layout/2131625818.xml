@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="#80000000" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="center" ="vertical" ="fill_parent" ="0.0dip" ="1.0">
+        <RelativeLayout ="fill_parent" ="620.0dip">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131440059" ="fill_parent" ="wrap_content" ="true" />
+            <FrameLayout android:id="@id/2131429072" ="@drawable/2131234069" ="gone" ="30.0dip" ="30.0dip" ="true">
+                <androidx.appcompat.widget.AppCompatImageView ="center" ="20.0dip" ="20.0dip" ="fitXY" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131103185" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/2131429055" ="@drawable/2131234069" ="gone" ="30.0dip" ="30.0dip" ="true" ="true">
+                <androidx.appcompat.widget.AppCompatImageView ="center" ="20.0dip" ="20.0dip" ="fitXY" ="@null" 2130971077="@drawable/2131236866" 2130971375="@color/2131103185" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.binance.widget.indicator.IndexPageIndicator android:id="@id/2131440060" ="false" ="wrap_content" ="wrap_content" ="12.0dip" 2130968672="@color/2131099764" 2130968673="@dimen/2131166286" 2130968674="@dimen/2131166286" 2130968676="@color/2131099785" 2130968677="@dimen/2131166260" 2130968678="@dimen/2131166260" 2130968679="@dimen/2131166260" 2130968680="1" 2130969942="1.0" />
+    </LinearLayout>
+</LinearLayout>

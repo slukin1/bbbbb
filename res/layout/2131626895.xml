@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="@color/2131099685" ="fill_parent" ="wrap_content" ="@drawable/2131233336" ="middle" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitButton android:id="@id/btnRepay" ="0.0dip" ="wrap_content" android:text="@string/_repay" ="1.0" style="@style/2132148701" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428688" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_adjust_ltv" ="1.0" style="@style/2132148699" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428873" ="gone" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_renew" ="1.0" style="@style/2132148699" />
+    <com.binance.base.widget.IconTipsTextView ="@color/2131099837" android:id="@id/2131442838" ="gone" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_renew" ="false" ="3.0dip" ="0.8" 2130969274="@string/margin_loan_not_renew_hint_title" 2130969607="2131440560" 2130970840="true" style="@style/2132149350" />
+</LinearLayout>

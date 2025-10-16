@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@drawable/2131236668" ="20.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" android:text="@string/compare_markets" style="@style/2132149423" />
+        <com.binance.widget.recyclerview.MaxHeightRecyclerView ="3.0dip" android:id="@id/2131436952" ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" />
+    </LinearLayout>
+</LinearLayout>

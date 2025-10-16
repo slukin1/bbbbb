@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232803" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429823" ="fill_parent" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131430258" ="@drawable/2131234220" ="20.0dip" ="20.0dip" ="fitXY" ="15.0dip" 2130969911="@id/2131431193" 2130969917="2131438103" 2130969941="@id/2131431193" />
+        <TextView ="@color/2131099764" android:id="@id/2131431193" ="14.0dip" ="wrap_content" ="50.0dip" android:text="@string/dwallet_wallethub_connect_title" ="7.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439063" ="@null" ="fill_parent" ="0.0dip" 2130969923="2131450408" 2130969924="500.0dip" 2130969940="@id/2131431193" />
+        <TextView ="@color/2131099778" ="start|center" android:id="@id/2131446435" ="wrap_content" ="56.0dip" android:text="@string/dwallet_wallethub_walletconnect_entry_title" ="@drawable/2131233349" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131439063" />
+        <com.mpc.wallet.widget.uikit.KitDivider android:id="@id/divider" ="fill_parent" ="wrap_content" 2130969292="@null" 2130969940="@id/2131446435" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430036" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131450164" ="@drawable/2131234220" ="20.0dip" ="20.0dip" ="fitXY" ="15.0dip" 2130969911="@id/2131450166" 2130969917="2131438103" 2130969941="@id/2131450166" />
+        <ImageView android:id="@id/2131450163" ="@drawable/2131235167" ="20.0dip" ="20.0dip" ="fitXY" ="15.0dip" 2130969911="@id/2131450166" 2130969937="2131438103" 2130969941="@id/2131450166" />
+        <TextView ="@color/2131099764" android:id="@id/2131450166" ="14.0dip" ="wrap_content" ="50.0dip" android:text="@string/dwallet_wallethub_walletconnect_title" ="7.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <com.mpc.wallet.widget.uikit.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="24.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450166" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449742" ="fill_parent" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tabLayout" 2130969944="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

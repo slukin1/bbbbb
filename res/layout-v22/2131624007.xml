@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427539" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include ="fill_parent" ="wrap_content" layout="@layout/2131624284" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438710" ="fill_parent" ="0.0dip" ="1.0" 2130971098="false">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <include android:id="@id/2131449557" ="fill_parent" ="wrap_content" 2130969974="2131439795" layout="@layout/2131629267" />
+                <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131449469" ="fill_parent" ="40.0dip" 2130969902="2131438344" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428867" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="20.0dip" android:text="@string/redeem" ="@dimen/2131166184" style="@style/2132148691" />
+</LinearLayout>

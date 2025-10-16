@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout ="center" android:id="@id/2131431605" ="fill_parent" ="fill_parent">
+        <View android:id="@id/2131431638" ="@android:color/black" ="fill_parent" ="fill_parent" />
+        <ImageView android:id="@id/2131431598" ="fill_parent" ="fill_parent" ="fitXY" />
+        <com.google.android.exoplayer2.ui.SubtitleView android:id="@id/2131431641" ="fill_parent" ="fill_parent" />
+        <ProgressBar ="center" android:id="@id/2131431602" ="wrap_content" ="wrap_content" ="true" />
+        <TextView ="14.0sp" ="#ffffffff" ="center" ="center" android:id="@id/2131431610" ="@drawable/2131233431" ="12.0dip" ="4.0dip" ="12.0dip" ="4.0dip" ="wrap_content" ="32.0dip" ="64.0dip" />
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+    <FrameLayout android:id="@id/2131431597" ="fill_parent" ="fill_parent" />
+    <FrameLayout android:id="@id/2131431623" ="fill_parent" ="fill_parent" />
+    <View android:id="@id/2131431607" ="fill_parent" ="fill_parent" />
+</merge>

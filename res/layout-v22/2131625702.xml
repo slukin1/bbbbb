@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439500" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131438081" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131626311" />
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441168" ="fill_parent" ="38.0dip" ="6.0dip" ="8.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438081" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="fill_parent" ="0.0dip" 2130969901="@string/appbar_scrolling_view_behavior" 2130969911="2131438103" 2130969940="@id/2131441168" />
+</androidx.constraintlayout.widget.ConstraintLayout>

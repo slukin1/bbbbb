@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="bottom" ="vertical" ="@drawable/2131232785" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="0.0dip" ="8.0dip" ="1.0">
+        <RelativeLayout ="fill_parent" ="50.0dip" ="15.0dip" ="0.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" android:id="@id/2131444223" ="wrap_content" ="wrap_content" ="true" ="@font/2131296275" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433729" ="15.0dip" ="15.0dip" ="wrap_content" ="fill_parent" ="@color/2131099764" ="true" ="true" 2130971077="@drawable/2131237100" />
+        </RelativeLayout>
+        <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+                <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131444989" ="fill_parent" ="wrap_content" ="@font/2131296273" />
+                    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444977" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_sheet_upload_proof_tips" ="1.2" ="@font/2131296274" />
+                </LinearLayout>
+                <LinearLayout ="vertical" android:id="@id/2131438704" ="gone" ="fill_parent" ="fill_parent" ="32.0dip">
+                    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131444198" ="fill_parent" ="wrap_content" android:text="@string/c2c_dialog_upload_proof_title" ="@font/2131296273" />
+                    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131438705" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_dialog_quick_receive_proof_desc" ="1.2" ="@font/2131296274" />
+                    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/c2c_dialog_quick_receive_proof_file_format" ="1.2" ="@font/2131296274" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449101" ="fill_parent" ="wrap_content" ="12.0dip" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442462" ="fill_parent" ="wrap_content" ="32.0dip" android:text="@string/c2c_dialog_check_before_use_title" ="@font/2131296273" />
+                <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442461" ="fill_parent" ="wrap_content" ="12.0dip" ="1.2" ="@font/2131296274" />
+                <com.major.android.uikit2.selection.KitCheckBox ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131449111" ="fill_parent" ="28.0dip" ="12.0dip" ="@drawable/2131232446" android:text="@string/c2c_dialog_quick_finish_checkbox" ="@font/2131296273" ="8.0dip" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131438783" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" style="@style/2132148697" />
+</androidx.appcompat.widget.LinearLayoutCompat>

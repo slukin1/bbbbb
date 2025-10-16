@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="331.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446174" ="wrap_content" ="wrap_content" android:text="@string/futures_pnlanalysis_history_cumulative_pnl_per" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131446220" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131446174" style="@style/2132149361" />
+    <TextView ="@color/2131099764" android:id="@id/2131446172" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131446220" style="@style/2132149425" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432738" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_cumulative_pnl_amount_label" ="0.0dip" ="wrap_content" android:text="@string/voptions_pnl_analysis_chart_cumulative_pnl_amount" ="4.0dip" 2130969311="@drawable/2131233852" 2130969918="@id/2131432738" 2130969937="2131438103" 2130969940="@id/2131446172" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131446176" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="@id/2131446172" 2130969936="@id/2131432738" 2130969941="@id/2131446172" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/tv_cumulative_pnl_percent_label" ="0.0dip" ="wrap_content" android:text="@string/futures_pnlanalysis_history_cumulative_pnl_per" ="4.0dip" ="8.0dip" 2130969311="@drawable/2131234035" 2130969911="@id/tv_cumulative_pnl_amount_label" 2130969917="2131438103" 2130969936="@id/2131432738" 2130969941="@id/tv_cumulative_pnl_amount_label" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428374" ="0.0dip" ="0.0dip" 2130968759="2131428521" 2130969125="tv_cumulative_pnl_amount_label, tv_cumulative_pnl_percent_label" />
+    <com.finance.voptions.feature.wallet.pnl.ui.widget.VOptionsPnlAnalysisCumulativePnlChart android:id="@id/2131429461" ="fill_parent" ="170.0dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428374" />
+    <com.finance.futures.common.feature.bigdata.ui.widget.FutureBigDataLegendView android:id="@id/lv_legend" ="0.0dip" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" ="center" ="center" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" android:text="@string/no_data" ="@drawable/2131233810" ="10.0dip" 2130969912="@id/lv_legend" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428374" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

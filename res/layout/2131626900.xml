@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="@drawable/2131234837" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/margin_trade_access_restricted_tip" ="4.0dip" style="@style/2132149384" />
+</LinearLayout>

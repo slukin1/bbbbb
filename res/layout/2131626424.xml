@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0dip" ="@color/2131099778" ="start" android:id="@id/2131448087" ="wrap_content" ="wrap_content" android:text="@string/ms_alert_tips_title" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="14.0dip" ="@color/2131099778" android:id="@id/2131448117" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/c2c_calendar_tips_content1" ="@font/2131296274" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131448087" />
+    <TextView ="14.0dip" ="@color/2131099778" android:id="@id/2131448119" ="fill_parent" ="fill_parent" ="5.0dip" android:text="@string/c2c_calendar_tips_content2" ="@font/2131296274" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131448117" />
+    <TextView ="14.0dip" ="@color/2131099778" android:id="@id/2131448121" ="fill_parent" ="fill_parent" ="5.0dip" android:text="@string/c2c_calendar_tips_content3" ="@font/2131296274" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131448119" />
+    <View ="@drawable/2131232422" ="4.0dip" ="4.0dip" ="12.0dip" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131448087" />
+    <View ="@drawable/2131232422" ="4.0dip" ="4.0dip" ="12.0dip" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131448117" />
+    <View ="@drawable/2131232422" ="4.0dip" ="4.0dip" ="12.0dip" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131448119" />
+</androidx.constraintlayout.widget.ConstraintLayout>

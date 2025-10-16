@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@drawable/onfido_video_view_frame" ="2.0dip" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView ="center" android:id="@id/2131449339" ="@string/onfido_tag_main_content_title" ="fill_parent" ="fill_parent" />
+    <ImageButton ="center" android:id="@id/2131438457" ="#00000000" ="false" ="60.0dip" ="60.0dip" ="no" 2130971077="@drawable/onfido_video_view_play_background" />
+</FrameLayout>

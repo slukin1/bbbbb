@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236038" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445971" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/iv_logo" 2130969936="@id/iv_logo" 2130969941="@id/iv_logo" style="@style/2132149450" />
+        <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/rv_tags" ="0.0dip" ="wrap_content" ="8.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="@id/2131445971" 2130969917="2131438103" 2130969936="@id/2131445971" 2130969941="@id/2131445971" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

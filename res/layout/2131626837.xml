@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436430" ="@drawable/2131236009" ="12.0dip" ="12.0dip" ="gone" ="fill_parent" ="34.0dip" ="15.0dip" ="8.0dip" ="15.0dip" ="#14dd7a2b" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="12.0dip" ="12.0dip" ="@drawable/2131237095" ="#ffff693d" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ffff693d" ="end" android:id="@id/2131445434" ="wrap_content" ="wrap_content" ="1" ="4.0dip" style="@style/2132149361" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="fill_parent" ="wrap_content" ="5.0dip" 2130969940="@id/2131436430" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" ="8.0dip" ="8.0dip" ="fill_parent" ="0.0dip" ="12.0dip" ="12.0dip" ="250.0dip" 2130969912="@id/2131450381" 2130969940="@id/2131441079" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="vertical" android:id="@id/2131431363" ="60.0dip" ="40.0dip" ="gone" ="fill_parent" ="250.0dip" 2130969912="@id/2131450381" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView ="center" android:id="@id/2131433839" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238473" />
+        <TextView ="@color/2131099779" ="center_horizontal" android:id="@id/2131446353" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/convert_search_no_records_tip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" android:id="@id/2131450381" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/widget_lib_disclaimer_tip" 2130969911="2131438103" style="@style/2132149394" />
+</androidx.constraintlayout.widget.ConstraintLayout>

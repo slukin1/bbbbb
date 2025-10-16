@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.squareup.workflow1.ui.WorkflowViewStub android:id="@id/2131429594" ="fill_parent" ="fill_parent" 2130969646="@id/2131429591" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton ="start|bottom|center" android:id="@id/2131432065" ="wrap_content" ="wrap_content" ="16.0dip" ="sandbox toggle" 2130968733="#ffff69b4" 2130971077="@drawable/2131235865" 2130971375="@android:color/white" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="80.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432749" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238673" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="0.0dip" ="wrap_content" ="30.0dip" ="4.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434597" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131446058" ="0.0dip" ="wrap_content" ="30.0dip" ="12.0dip" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131448387" ="@drawable/2131236717" ="4.0dip" ="5.0dip" ="4.0dip" ="5.0dip" ="80.0dip" ="wrap_content" ="8.0dip" android:text="@string/_transfer" ="2" ="false" ="0.0" ="60.0dip" ="4.0dip" 2130969918="@id/2131432749" 2130969940="@id/2131446058" 2130969999="@dimen/2131166179" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131446611" ="@drawable/2131236717" ="4.0dip" ="5.0dip" ="4.0dip" ="5.0dip" ="80.0dip" ="wrap_content" ="8.0dip" android:text="@string/finance_trade_learn_oop" ="2" ="false" ="0.0" ="4.0dip" ="60.0dip" 2130969936="@id/2131432749" 2130969940="@id/2131446058" 2130969999="@dimen/2131166179" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

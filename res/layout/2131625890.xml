@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429965" ="8.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_pair" ="wrap_content" ="wrap_content" ="false" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView android:id="@id/tv_contract_type" ="4.0dip" 2130969911="@id/tv_pair" 2130969936="@id/tv_pair" 2130969941="@id/tv_pair" style="@style/2132148661" />
+    <TextView android:id="@id/2131447410" ="4.0dip" 2130969911="@id/tv_pair" 2130969936="@id/tv_contract_type" 2130969941="@id/tv_pair" style="@style/2132148661" />
+    <TextView android:id="@id/2131447803" android:text="@string/futures_preference_confirmation_reverse_buy_to_sell" ="4.0dip" ="4.0dip" 2130969905="true" 2130969911="@id/tv_pair" 2130969918="@id/2131446772" 2130969927="0.0" 2130969936="@id/2131447410" 2130969941="@id/tv_pair" style="@style/2132148661" />
+    <TextView ="@color/2131099764" android:id="@id/2131446772" ="0.0dip" ="wrap_content" ="false" ="15.0dip" 2130969911="@id/tv_pair" 2130969917="2131438103" 2130969941="@id/tv_pair" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428360" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130968760="@dimen/2131166170" 2130969125="tv_pair" />
+    <include android:id="@id/2131435629" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428360" layout="@layout/2131626001" />
+    <View android:id="@id/2131449537" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" 2130969911="@id/2131447670" 2130969941="@id/2131447670" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131447670" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435629" style="@style/2132149384" />
+    <include android:id="@id/2131435710" ="0.0dip" ="wrap_content" ="12.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447670" layout="@layout/2131626001" />
+    <TextView ="@color/2131099778" android:id="@id/2131446059" ="wrap_content" ="wrap_content" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969941="@id/2131446058" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131446058" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/futures_preference_confirmation_reverse_confirmation_tips2" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131446059" 2130969940="@id/2131435710" style="@style/2132149384" />
+    <View android:id="@id/2131449471" ="@color/2131099751" ="0.0dip" ="0.5dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446058" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131428502" ="16.0dip" ="16.0dip" ="12.0dip" ="false" ="15.0dip" 2130969835="2131429513" 2130969937="2131438103" 2130969940="@id/2131449471" />
+    <TextView ="@color/2131099764" android:id="@id/2131447796" ="0.0dip" ="wrap_content" android:text="@string/futures_preference_confirmation_reverse_confirmation_tips" ="5.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131428502" 2130969941="@id/2131428502" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131428496" ="fill_parent" ="40.0dip" ="15.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969940="@id/2131447796" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,451 @@
+.class public final Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Landroidx/room/Transactor;",
+        "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+        "-TR;>;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u0002H\u0001\"\u0004\u0008\u0000\u0010\u00012\u0006\u0010\u0002\u001a\u00020\u0003H\n\u00a8\u0006\u0004"
+    }
+    d2 = {
+        "<anonymous>",
+        "R",
+        "transactor",
+        "Landroidx/room/Transactor;",
+        "androidx/room/util/DBUtil__DBUtilKt$internalPerform$2"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $block$inlined:Lkotlin/jvm/functions/Function1;
+
+.field final synthetic $inTransaction:Z
+
+.field final synthetic $isReadOnly:Z
+
+.field final synthetic $this_internalPerform:Landroidx/room/RoomDatabase;
+
+.field synthetic L$0:Ljava/lang/Object;
+
+.field L$1:Ljava/lang/Object;
+
+.field label:I
+
+
+# direct methods
+.method public constructor <init>(ZZLandroidx/room/RoomDatabase;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;Lkotlin/jvm/functions/Function1;)V
+    .locals 0
+
+    .line 65354
+    iput-boolean p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$inTransaction:Z
+
+    iput-boolean p2, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$isReadOnly:Z
+
+    iput-object p3, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$this_internalPerform:Landroidx/room/RoomDatabase;
+
+    iput-object p5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$block$inlined:Lkotlin/jvm/functions/Function1;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p4}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "*>;)",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 65353
+    new-instance v6, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;
+
+    iget-boolean v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$inTransaction:Z
+
+    iget-boolean v2, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$isReadOnly:Z
+
+    iget-object v3, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$this_internalPerform:Landroidx/room/RoomDatabase;
+
+    iget-object v5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$block$inlined:Lkotlin/jvm/functions/Function1;
+
+    move-object v0, v6
+
+    move-object v4, p2
+
+    invoke-direct/range {v0 .. v5}, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;-><init>(ZZLandroidx/room/RoomDatabase;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;Lkotlin/jvm/functions/Function1;)V
+
+    iput-object p1, v6, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    check-cast v6, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    return-object v6
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 0
+    check-cast p1, Landroidx/room/Transactor;
+
+    check-cast p2, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    .line 1000
+    invoke-virtual {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/BaseContinuationImpl;->create(Ljava/lang/Object;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;
+
+    sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p1, p2}, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 9
+
+    .line 2057
+    sget-object v0, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    .line 0
+    iget v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->label:I
+
+    const/4 v2, 0x4
+
+    const/4 v3, 0x3
+
+    const/4 v4, 0x2
+
+    const/4 v5, 0x5
+
+    const/4 v6, 0x1
+
+    const/4 v7, 0x0
+
+    if-eqz v1, :cond_5
+
+    if-eq v1, v6, :cond_4
+
+    if-eq v1, v4, :cond_3
+
+    if-eq v1, v3, :cond_2
+
+    if-eq v1, v2, :cond_1
+
+    if-ne v1, v5, :cond_0
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    return-object p1
+
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    iget-object v0, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    goto/16 :goto_4
+
+    :cond_2
+    iget-object v0, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    check-cast v0, Landroidx/room/Transactor;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    goto/16 :goto_3
+
+    :cond_3
+    iget-object v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$1:Ljava/lang/Object;
+
+    check-cast v1, Landroidx/room/Transactor$SQLiteTransactionType;
+
+    iget-object v4, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    check-cast v4, Landroidx/room/Transactor;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    goto :goto_2
+
+    :cond_4
+    iget-object v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$1:Ljava/lang/Object;
+
+    check-cast v1, Landroidx/room/Transactor$SQLiteTransactionType;
+
+    iget-object v5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    check-cast v5, Landroidx/room/Transactor;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    :cond_5
+    invoke-static {p1}, Lkotlin/ResultKt;->c(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    check-cast p1, Landroidx/room/Transactor;
+
+    .line 49
+    iget-boolean v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$inTransaction:Z
+
+    if-eqz v1, :cond_d
+
+    .line 51
+    iget-boolean v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$isReadOnly:Z
+
+    if-eqz v1, :cond_6
+
+    .line 52
+    sget-object v1, Landroidx/room/Transactor$SQLiteTransactionType;->DEFERRED:Landroidx/room/Transactor$SQLiteTransactionType;
+
+    goto :goto_0
+
+    .line 54
+    :cond_6
+    sget-object v1, Landroidx/room/Transactor$SQLiteTransactionType;->IMMEDIATE:Landroidx/room/Transactor$SQLiteTransactionType;
+
+    .line 56
+    :goto_0
+    iget-boolean v5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$isReadOnly:Z
+
+    if-nez v5, :cond_9
+
+    move-object v5, p0
+
+    check-cast v5, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    iput-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    iput-object v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$1:Ljava/lang/Object;
+
+    iput v6, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->label:I
+
+    invoke-interface {p1, v5}, Landroidx/room/Transactor;->d(Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object v5
+
+    move-object v8, v5
+
+    move-object v5, p1
+
+    move-object p1, v8
+
+    :goto_1
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-nez p1, :cond_8
+
+    .line 57
+    iget-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$this_internalPerform:Landroidx/room/RoomDatabase;
+
+    .line 3144
+    iget-object p1, p1, Landroidx/room/RoomDatabase;->d:Lo/CredentialProviderPlayServicesImplonGetCredential2;
+
+    if-nez p1, :cond_7
+
+    move-object p1, v7
+
+    .line 57
+    :cond_7
+    move-object v6, p0
+
+    check-cast v6, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    iput-object v5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    iput-object v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$1:Ljava/lang/Object;
+
+    iput v4, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->label:I
+
+    invoke-virtual {p1, v6}, Lo/CredentialProviderPlayServicesImplonGetCredential2;->a(Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-eq p1, v0, :cond_e
+
+    :cond_8
+    move-object v4, v5
+
+    :goto_2
+    move-object p1, v4
+
+    .line 59
+    :cond_9
+    new-instance v4, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1$1;
+
+    iget-object v5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$block$inlined:Lkotlin/jvm/functions/Function1;
+
+    invoke-direct {v4, v7, v5}, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1$1;-><init>(Lo/WalletNecessaryDataHelperfetchActiveNetwork21;Lkotlin/jvm/functions/Function1;)V
+
+    check-cast v4, Lkotlin/jvm/functions/Function2;
+
+    move-object v5, p0
+
+    check-cast v5, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    iput-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    iput-object v7, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$1:Ljava/lang/Object;
+
+    iput v3, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->label:I
+
+    invoke-interface {p1, v1, v4, v5}, Landroidx/room/Transactor;->e(Landroidx/room/Transactor$SQLiteTransactionType;Lkotlin/jvm/functions/Function2;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    if-eq v1, v0, :cond_e
+
+    move-object v0, p1
+
+    move-object p1, v1
+
+    .line 60
+    :goto_3
+    iget-boolean v1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$isReadOnly:Z
+
+    if-nez v1, :cond_c
+
+    move-object v1, p0
+
+    check-cast v1, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    iput-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->L$0:Ljava/lang/Object;
+
+    iput v2, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->label:I
+
+    invoke-interface {v0, v1}, Landroidx/room/Transactor;->d(Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v8, v0
+
+    move-object v0, p1
+
+    move-object p1, v8
+
+    :goto_4
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-nez p1, :cond_b
+
+    .line 61
+    iget-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$this_internalPerform:Landroidx/room/RoomDatabase;
+
+    .line 4144
+    iget-object p1, p1, Landroidx/room/RoomDatabase;->d:Lo/CredentialProviderPlayServicesImplonGetCredential2;
+
+    if-nez p1, :cond_a
+
+    goto :goto_5
+
+    :cond_a
+    move-object v7, p1
+
+    .line 5168
+    :goto_5
+    iget-object p1, v7, Lo/CredentialProviderPlayServicesImplonGetCredential2;->b:Lo/HiddenActivityExternalSyntheticLambda1;
+
+    iget-object v1, v7, Lo/CredentialProviderPlayServicesImplonGetCredential2;->i:Lkotlin/jvm/functions/Function0;
+
+    iget-object v2, v7, Lo/CredentialProviderPlayServicesImplonGetCredential2;->g:Lkotlin/jvm/functions/Function0;
+
+    invoke-virtual {p1, v1, v2}, Lo/HiddenActivityExternalSyntheticLambda1;->c(Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
+
+    :cond_b
+    return-object v0
+
+    :cond_c
+    return-object p1
+
+    .line 65
+    :cond_d
+    move-object v1, p0
+
+    check-cast v1, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    check-cast p1, Lo/r8lambdaVEpGZlRc13jsiBO5ww6UDWZp4;
+
+    .line 67
+    iget-object p1, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->$block$inlined:Lkotlin/jvm/functions/Function1;
+
+    iput v5, p0, Landroidx/room/util/DBUtil__DBUtil_androidKt$performInTransactionSuspending$2$invokeSuspend$$inlined$internalPerform$1;->label:I
+
+    invoke-interface {p1, p0}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_f
+
+    :cond_e
+    return-object v0
+
+    :cond_f
+    return-object p1
+.end method

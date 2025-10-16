@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439479" ="20.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431107" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/market_detail_chart_add_drawings_title" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431106" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/market_detail_chart_add_drawings_desc" style="@style/2132149355" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="18.0dip" ="12.0dip">
+        <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131441033" ="16.0dip" ="16.0dip" 2130969835="2131429513" 2130969911="@id/2131441743" 2130969937="2131438103" 2130969941="@id/2131441743" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/market_detail_sync_no_need" ="4.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428989" ="0.0dip" ="wrap_content" android:text="@string/_cancel" ="1.0" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" android:text="@string/_confirm" ="1.0" ="10.0dip" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

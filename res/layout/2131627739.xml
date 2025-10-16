@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="center_horizontal" android:id="@id/2131437451" ="true" ="wrap_content" ="wrap_content" ="8.0dip" ="16.0dip">
+        <View ="center" android:id="@id/2131437450" ="0.0dip" ="0.0dip" />
+        <ImageView ="center" android:id="@id/2131437452" ="true" ="24.0dip" ="24.0dip" ="@null" />
+    </FrameLayout>
+    <com.google.android.material.internal.BaselineLayout ="bottom|center" android:id="@id/2131437453" ="16.0dip" ="true" ="false" ="false" ="wrap_content" ="wrap_content">
+        <TextView ="12.0dip" ="end" android:id="@id/2131437455" ="true" ="wrap_content" ="wrap_content" ="1" ="2.0dip" ="2.0dip" />
+        <TextView ="14.0dip" ="end" android:id="@id/2131437454" ="invisible" ="true" ="wrap_content" ="wrap_content" ="1" ="2.0dip" ="2.0dip" />
+    </com.google.android.material.internal.BaselineLayout>
+</merge>

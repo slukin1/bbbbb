@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="@drawable/onfido_video_recording_indicator_background" ="wrap_content" ="wrap_content" ="true" ="16.0dip" ="24.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.progressindicator.CircularProgressIndicator ="wrap_content" ="wrap_content" ="true" ="no" 2130969638="@color/2131102252" 2130969642="@dimen/2131167266" 2130971440="@color/2131102254" 2130971443="@dimen/2131167245" 2130971450="@dimen/2131167244" />
+    <TextView android:id="@id/2131436866" ="wrap_content" ="wrap_content" android:text="@string/onfido_doc_capture_header_capturing" ="12.0dip" style="@style/2132148954" />
+</LinearLayout>

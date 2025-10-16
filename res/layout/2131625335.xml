@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" android:id="@id/2131430909" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@drawable/2131236023" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/2131444819" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/ocbs_transfi_info_dialog_tip" ="5.0dip" ="15.0dip" ="15.0dip" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="4.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="15.0dip" ="19.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131439889" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430622" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="5.0dip" ="@color/2131101182" 2130969940="@id/2131439889">
+                <ImageView android:id="@id/2131434146" ="gone" ="36.0dip" ="24.0dip" ="@null" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444574" ="visible" ="0.0dip" ="fill_parent" ="1" ="10.0dip" ="30.0dip" 2130968700="@dimen/2131167696" 2130968701="@dimen/2131167719" 2130968704="1.0sp" 2130968705="2131449068" 2130969917="2131438103" 2130969936="@id/2131434146" style="@style/2132149346" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433276" ="visible" ="20.0dip" ="20.0dip" ="@drawable/2131237003" ="fitCenter" ="@null" ="10.0dip" 2130969911="@id/2131444574" 2130969917="2131438103" 2130969941="@id/2131444574" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099863" android:id="@id/2131444573" ="invisible" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/eternal_internal_additional_user_information_field_invalid_format" 2130969940="@id/2131430622" 2130969962="@dimen/2131166268" style="@style/2132149450" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="19.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131442936" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430618" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="5.0dip" ="@color/2131101182" 2130969937="2131438103" 2130969940="@id/2131442936">
+                <EditText ="@color/2131099764" ="@color/2131099762" ="center_vertical" android:id="@id/2131431275" ="@null" ="0.0dip" ="48.0dip" ="1" ="true" ="textNoSuggestions" ="10.0dip" ="30.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149346" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099863" android:id="@id/2131442911" ="invisible" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/eternal_internal_additional_user_information_field_invalid_format" 2130969940="@id/2131430618" 2130969962="@dimen/2131166268" style="@style/2132149450" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit2.button.KitButton ="false" ="center" android:id="@id/2131442568" ="fill_parent" ="48.0dip" ="16.0dip" ="16.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" style="@style/2132149446" />
+    </LinearLayout>
+</LinearLayout>

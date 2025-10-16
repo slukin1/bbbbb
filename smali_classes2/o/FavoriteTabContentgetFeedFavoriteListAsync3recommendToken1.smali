@@ -1,0 +1,207 @@
+.class public final Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final c:Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;
+
+.field private static d:Lkotlin/jvm/functions/Function2;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlin/jvm/functions/Function2<",
+            "Lo/defaultgetSupportedResolutions;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;
+
+    invoke-direct {v0}, Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;-><init>()V
+
+    sput-object v0, Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;->c:Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;
+
+    .line 103
+    new-instance v0, Lo/FavoriteTabContentload2;
+
+    invoke-direct {v0}, Lo/FavoriteTabContentload2;-><init>()V
+
+    const v1, -0x2e2ff872
+
+    const/4 v2, 0x0
+
+    invoke-static {v1, v2, v0}, Lo/UseCaseAttachState;->d(IZLjava/lang/Object;)Lo/getMaximumSize;
+
+    move-result-object v0
+
+    check-cast v0, Lkotlin/jvm/functions/Function2;
+
+    sput-object v0, Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;->d:Lkotlin/jvm/functions/Function2;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method private static final c(Lo/defaultgetSupportedResolutions;I)Lkotlin/Unit;
+    .locals 25
+
+    move-object/from16 v13, p0
+
+    and-int/lit8 v0, p1, 0x3
+
+    const/4 v1, 0x2
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x0
+
+    if-eq v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    and-int/lit8 v1, p1, 0x1
+
+    invoke-interface {v13, v0, v1}, Lo/defaultgetSupportedResolutions;->b(ZI)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 106
+    invoke-static {}, Lo/OcbsRecurringBuyInputFragmentspecialinlinedviewModelsdefault3;->aq()Lo/AdvancedSessionProcessorExtensionMetadataMonitor;
+
+    move-result-object v20
+
+    const v0, 0x7f0603cc
+
+    .line 107
+    invoke-static {v0, v13, v3}, Lo/generateTexture;->e(ILo/defaultgetSupportedResolutions;I)J
+
+    move-result-wide v2
+
+    .line 109
+    sget-object v0, Lo/EnterExitTransitionKtslideOutHorizontally2;->DropdropElements3:Lo/EnterExitTransitionKtslideOutHorizontally2$DropdropElements3;
+
+    invoke-static {}, Lo/EnterExitTransitionKtslideOutHorizontally2$DropdropElements3;->b()I
+
+    move-result v15
+
+    .line 104
+    const-string v0, "--"
+
+    const/4 v1, 0x0
+
+    const-wide/16 v4, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const-wide/16 v9, 0x0
+
+    const/4 v11, 0x0
+
+    const/4 v12, 0x0
+
+    const-wide/16 v16, 0x0
+
+    move-wide/from16 v13, v16
+
+    const/16 v16, 0x0
+
+    const/16 v17, 0x1
+
+    const/16 v18, 0x0
+
+    const/16 v19, 0x0
+
+    const/16 v22, 0x6
+
+    const/16 v23, 0xc30
+
+    const v24, 0xd7fa
+
+    move-object/from16 v21, p0
+
+    invoke-static/range {v0 .. v24}, Lo/EncoderProfilesProxyImmutableEncoderProfilesProxy;->c(Ljava/lang/String;Landroidx/compose/ui/Modifier;JJLo/setImplementationMode;Lo/PreviewViewStreamState;Lo/getViewPortScaleType;JLo/EnterExitTransitionKtshrinkHorizontally2;Lo/EnterExitTransitionKtexpandVertically1;JIZIILkotlin/jvm/functions/Function1;Lo/AdvancedSessionProcessorExtensionMetadataMonitor;Lo/defaultgetSupportedResolutions;III)V
+
+    goto :goto_1
+
+    .line 103
+    :cond_1
+    invoke-interface/range {p0 .. p0}, Lo/defaultgetSupportedResolutions;->C()V
+
+    .line 111
+    :goto_1
+    sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object v0
+.end method
+
+.method public static synthetic d(Lo/defaultgetSupportedResolutions;I)Lkotlin/Unit;
+    .locals 0
+
+    .line 65354
+    invoke-static {p0, p1}, Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;->c(Lo/defaultgetSupportedResolutions;I)Lkotlin/Unit;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final c()Lkotlin/jvm/functions/Function2;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/jvm/functions/Function2<",
+            "Lo/defaultgetSupportedResolutions;",
+            "Ljava/lang/Integer;",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    .line 65352
+    sget-object v0, Lo/FavoriteTabContentgetFeedFavoriteListAsync3recommendToken1;->d:Lkotlin/jvm/functions/Function2;
+
+    return-object v0
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <com.geetest.sdk.views.GT3GeetestView ="center_vertical" android:id="@id/geetest_view" ="0.0dip" ="wrap_content" ="1.0" />
+        <LinearLayout ="center_vertical" ="horizontal" ="0.0dip" ="wrap_content" ="4.0">
+            <TextView ="14.0sp" ="#ff383838" android:id="@id/tv_test_geetest" ="wrap_content" ="wrap_content" android:text="@string/gt3_geetest_click" />
+            <TextView ="14.0sp" ="#ff3873ff" android:id="@id/tv_test_geetest_cof" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/gt3_geetest_try_again" />
+        </LinearLayout>
+        <ImageView ="center_vertical" android:id="@id/iv_geetest_logo" ="0.0dip" ="wrap_content" ="1.0" />
+    </LinearLayout>
+    <TextView ="10.0sp" ="#ffafbbbf" android:id="@id/tv_test_geetest_cord" ="gone" ="wrap_content" ="wrap_content" ="3.0dip" ="1.0dip" android:text="100" ="true" ="true" />
+</RelativeLayout>

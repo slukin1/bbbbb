@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/futures_dialog_adjust_funding_fee_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <com.finance.futures.common.framework.widget.SuffixEditText ="@color/2131099764" ="#99828a98" ="center" android:id="@id/edit_amount" ="@drawable/2131233560" ="0.0dip" ="40.0dip" ="23.0dip" ="1" ="numberDecimal" ="center" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" 2130969958="@dimen/2131166209" 2130969961="@dimen/2131166209" 2130971196="%" style="@style/2132149446" />
+    <com.binance.hydrogen.widgets.button.LongClickImageButton android:id="@id/2131429052" ="#00000000" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="12.0dip" 2130969911="@id/edit_amount" 2130969937="@id/edit_amount" 2130969941="@id/edit_amount" 2130971077="@drawable/2131237666" 2130971375="@color/2131099738" />
+    <com.binance.hydrogen.widgets.button.LongClickImageButton android:id="@id/2131428963" ="#00000000" ="20.0dip" ="20.0dip" ="centerInside" ="@color/2131099738" ="@null" ="12.0dip" 2130969911="@id/edit_amount" 2130969917="@id/edit_amount" 2130969941="@id/edit_amount" 2130971077="@drawable/2131237811" />
+    <TextView ="@color/2131099863" android:id="@id/2131445416" ="invisible" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/futures_dialog_pref_funding_fee_tips" 2130969937="2131438103" 2130969940="@id/2131428963" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131430229" ="fill_parent" ="40.0dip" ="10.0dip" android:text="@string/confirm" 2130969940="@id/2131445416" 2130969962="40.0dip" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

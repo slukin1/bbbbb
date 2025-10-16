@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450310" ="wrap_content" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131450309" ="wrap_content" ="wrap_content" android:text="@string/launcher_index_total_balance" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433886" ="16.0dip" ="16.0dip" ="centerInside" ="5.0dip" 2130971077="@drawable/2131237313" 2130971375="@color/2131099785" />
+        <View ="0.0dip" ="1.0dip" ="1.0" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432308" ="20.0dip" ="20.0dip" 2130969917="2131438103" 2130969941="@id/2131450310" 2130971077="@drawable/2131237479" 2130971375="@color/2131099764" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441731" ="fill_parent" ="wrap_content" ="2.0dip" 2130969937="2131438103" 2130969940="@id/2131450310">
+        <TextView ="32.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131441722" ="wrap_content" ="wrap_content" ="280.0dip" android:text="--" ="1" ="uniform" ="@dimen/2131167696" ="@dimen/2131167709" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149416" />
+        <include android:id="@id/2131428121" ="wrap_content" ="18.0dip" ="5.0dip" 2130969907="@id/2131441722" 2130969936="@id/2131441722" layout="@layout/2131629902" />
+        <TextView ="@color/2131099778" android:id="@id/2131438942" ="fill_parent" ="22.0dip" ="4.0dip" android:text="--" ="false" ="ltr" ="viewStart" 2130969936="2131438103" 2130969940="@id/2131441722" style="@style/2132149350" />
+        <include android:id="@id/2131438477" ="fill_parent" ="wrap_content" ="4.0dip" 2130969940="@id/2131438942" layout="@layout/2131630048" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/2131450180" ="fill_parent" ="wrap_content" ="16.0dip" layout="@layout/2131629950" />
+</LinearLayout>

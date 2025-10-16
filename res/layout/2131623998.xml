@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@android:color/transparent" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440809" ="fill_parent" ="0.0dip" />
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <com.face.csg.lv5.sdk.view.CameraGLSurfaceView android:id="@id/2131436143" ="visible" ="fill_parent" ="fill_parent" />
+        <ImageView android:id="@id/liveness_img_color_line" ="@drawable/2131233478" ="invisible" ="wrap_content" ="wrap_content" ="true" />
+        <com.face.csg.lv5.sdk.view.RadarView android:id="@id/2131438816" ="gone" ="fill_parent" ="fill_parent" />
+        <com.face.csg.lv5.sdk.view.LoadingCoverView android:id="@id/liveness_layout_lcv" ="fill_parent" ="fill_parent" 2130970026="6.0dip" 2130970027="180.0dip" 2130970029="-50.0dip" 2130970030="3.0dip" 2130970606="6.0dip" 2130970607="@color/2131100894" 2130970678="5.0dip" />
+        <TextView ="20.0sp" ="#ffffffff" ="center" android:id="@id/2131445518" ="gone" ="320.0dip" ="wrap_content" ="1" ="true" />
+        <TextView ="20.0sp" ="#ffff0000" ="center" android:id="@id/2131447902" ="gone" ="320.0dip" ="wrap_content" ="1" ="true" />
+        <TextView ="20.0sp" ="#ffffffff" ="center" android:id="@id/2131446531" ="12.0dip" ="12.0dip" ="gone" ="320.0dip" ="wrap_content" ="1" ="true" />
+        <TextView ="16.0sp" ="#ffffffff" ="center" android:id="@id/2131448114" ="@drawable/2131233467" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" ="3" ="true" />
+        <ImageView android:id="@id/2131434374" ="gone" ="fill_parent" ="wrap_content" ="true" />
+        <TextView ="20.0sp" ="#ffffffff" ="center" android:id="@id/2131448553" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" ="1" ="@id/2131434374" ="true" />
+        <ImageView android:id="@id/image_animation" ="gone" ="80.0dip" ="80.0dip" ="true" />
+        <ImageView android:id="@id/2131433129" ="gone" ="wrap_content" ="wrap_content" ="true" />
+        <ImageView android:id="@id/2131433128" ="gone" ="wrap_content" ="wrap_content" ="true" />
+        <TextView android:id="@id/tv_the_countdown" ="invisible" ="wrap_content" ="wrap_content" android:text="10s" ="true" />
+        <include android:id="@id/title_bar" ="gone" layout="@layout/face_liveness_bar_title" />
+        <include android:id="@id/bottombar" ="fill_parent" ="@dimen/bottom_bar_height" ="true" layout="@layout/face_liveness_bar_bottom" />
+        <TextView ="12.0sp" ="bold" ="#ff666666" ="end" ="center" android:id="@id/2131446872" ="20.0dip" ="8.0dip" ="20.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="3" ="true" />
+        <LinearLayout android:id="@id/ll_action_close" ="16.0dip" ="wrap_content" ="wrap_content" ="@id/2131446872" ="true">
+            <ImageView android:id="@id/2131434651" ="19.0dip" ="19.0dip" ="centerCrop" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

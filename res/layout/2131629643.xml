@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429973" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131448754" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+    <TextView ="@color/2131099778" android:id="@id/2131448700" ="wrap_content" ="wrap_content" ="15.0dip" 2130969936="@id/2131448754" 2130969941="@id/2131448754" style="@style/2132149454" />
+    <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131443603" ="5.0dip" ="5.0dip" ="gone" ="0.0dip" ="16.0dip" ="false" ="15.0dip" 2130969911="@id/2131448700" 2130969918="@id/2131434205" 2130969936="@id/2131448700" 2130969941="@id/2131448700" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434205" ="4.0dip" ="24.0dip" ="24.0dip" ="@drawable/2131238220" ="@color/2131099738" ="15.0dip" 2130969911="@id/2131448700" 2130969917="2131438103" 2130969941="@id/2131448700" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131435012" ="fill_parent" ="24.0dip" ="15.0dip" ="2.0dip" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131448754" />
+    <View android:id="@id/2131449353" ="@drawable/2131238651" ="40.0dip" ="0.0dip" 2130969911="@id/2131435012" 2130969917="2131438103" 2130969941="@id/2131435012" />
+    <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131435012">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131439930" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

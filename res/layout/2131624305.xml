@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.FirstNestedScrollView ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439623" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433839" ="gone" ="96.0dip" ="96.0dip" ="90.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439623" 2130971077="@drawable/2131238419" />
+            <TextView android:id="@id/txtEmpty" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/finance_trade_more_popup_no_new_announcements" 2130969917="@id/2131433839" 2130969937="@id/2131433839" 2130969940="@id/2131433839" />
+            <TextView ="@color/2131099787" android:id="@id/2131448556" ="wrap_content" ="wrap_content" ="17.0dip" android:text="@string/finance_trade_more_popup_view_all" ="15.0dip" 2130969918="@id/2131449390" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/txtEmpty" style="@style/2132149450" />
+            <View android:id="@id/2131449390" ="@color/2131099751" ="1.0dip" ="16.0dip" ="15.0dip" 2130969911="@id/2131448556" 2130969918="@id/2131448804" 2130969936="@id/2131448556" 2130969941="@id/2131448556" />
+            <TextView ="@color/2131099787" android:id="@id/2131448804" ="wrap_content" ="wrap_content" ="17.0dip" android:text="@string/finance_announcement_settings" 2130969917="2131438103" 2130969936="@id/2131449390" 2130969940="@id/txtEmpty" style="@style/2132149450" />
+            <View android:id="@id/2131449450" ="@drawable/2131233825" ="gone" ="8.0dip" ="8.0dip" 2130969936="@id/2131448804" 2130969941="@id/2131448804" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.binance.widget.FirstNestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

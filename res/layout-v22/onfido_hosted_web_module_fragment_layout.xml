@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="?2130970361" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450337" ="gone" ="fill_parent" ="fill_parent">
+        <ImageView android:id="@id/2131431399" ="56.0dip" ="56.0dip" ="0.8" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/onfido_error_circle" />
+        <TextView android:id="@id/2131431410" ="wrap_content" ="wrap_content" android:text="@string/onfido_generic_error_network_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431399" style="@style/2132148962" />
+        <TextView ="center" ="wrap_content" ="wrap_content" android:text="@string/onfido_generic_error_network_detail" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431410" style="@style/2132148937" />
+        <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131439140" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" ="@dimen/2131167223" 2130969912="@id/2131450331" 2130969917="2131438103" 2130969937="2131438103" 2130970348="@string/onfido_video_capture_prompt_button_timeout" 2130970350="@null" />
+        <com.onfido.android.sdk.capture.ui.widget.WatermarkView android:id="@id/2131450331" ="8.0dip" ="@dimen/2131167501" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148972" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <WebView android:id="@id/2131437845" ="?2130970361" ="gone" ="fill_parent" ="fill_parent" />
+</LinearLayout>

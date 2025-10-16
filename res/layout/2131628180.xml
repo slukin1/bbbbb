@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/governmentid_header_image_container" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131441388" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" />
+        <ImageView android:id="@id/imageview_governmentid_header_image" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" ="fitStart" ="no" ="24.0dip" ="24.0dip" 2130969912="@id/2131441388" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131432465" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="governmentid_header_image_container,imageview_governmentid_header_image" />
+        <TextView android:id="@id/2131441388" ="0.0dip" ="wrap_content" ="16.0dip" 2130969912="@id/2131441386" 2130969917="@id/2131439091" 2130969937="@id/2131439091" 2130969940="@id/2131432465" 2130969942="0.0" 2130969943="2131438085" 2130969947="500.0dip" style="?2130971282" />
+        <TextView android:id="@id/2131441386" ="0.0dip" ="wrap_content" ="16.0dip" 2130969912="@id/2131441389" 2130969917="@id/2131439091" 2130969937="@id/2131439091" 2130969940="@id/2131441388" 2130969947="500.0dip" style="?2130971299" />
+        <TextView ="bold" android:id="@id/2131441389" ="24.0dip" ="0.0dip" ="wrap_content" 2130969912="@id/2131439091" 2130969917="@id/2131439091" 2130969927="0.0" 2130969937="@id/2131439091" 2130969940="@id/2131441386" 2130969947="500.0dip" />
+        <View android:id="@id/2131435937" ="?android:listDivider" ="fill_parent" ="1.0dip" ="24.0dip" ="16.0dip" ="24.0dip" ="no" 2130969940="@id/2131441389" 2130969947="500.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439091" ="16.0dip" ="false" ="0.0dip" ="0.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131441387" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435937" 2130969947="500.0dip" />
+        <TextView ="center" android:id="@id/2131441387" ="0.0dip" ="wrap_content" ="24.0dip" 2130969911="2131438103" 2130969917="@id/2131439091" 2130969937="@id/2131439091" 2130969940="@id/2131439091" 2130969947="500.0dip" style="?2130971273" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

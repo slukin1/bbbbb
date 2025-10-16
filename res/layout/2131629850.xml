@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="start" android:id="@id/2131434434" ="?2130968587" ="wrap_content" ="44.0dip" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="wrap_content" ="wrap_content" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434434" 2130971077="@drawable/2131238406" />
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/wallet_withdrawal_risk_alert_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iv_logo" style="@style/2132149459" />
+    <androidx.core.widget.NestedScrollView ="0.0dip" ="0.0dip" ="16.0dip" 2130969912="@id/2131429806" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <TextView ="@color/2131099778" android:id="@id/2131446058" ="fill_parent" ="wrap_content" ="25.0dip" ="25.0dip" android:text="@string/wallet_withdrawal_risk_alert_comsumer" style="@style/2132149374" />
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429806" ="@color/2131099685" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131446604" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_go_official_verification_channel" ="25.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+        <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131430242" ="16.0dip" ="16.0dip" ="20.0dip" ="false" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131446604" 2130969962="@dimen/2131166286" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445901" ="0.0dip" ="wrap_content" ="-2.0dip" android:text="@string/wallet_understand_agreement" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969928="2131438085" 2130969936="@id/2131430242" 2130969941="@id/2131430242" style="@style/2132149384" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="0.0dip" ="40.0dip" ="11.0dip" ="16.0dip" ="11.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445901">
+            <com.major.android.uikit.button.KitButton android:id="@id/2131428989" ="0.0dip" ="fill_parent" ="4.0dip" ="4.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="1.0" 2130971472="2" />
+            <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="fill_parent" ="4.0dip" ="4.0dip" android:text="@string/confirm" ="1.0" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

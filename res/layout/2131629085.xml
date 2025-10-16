@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131449050" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="3.0dip" ="3.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432439" ="wrap_content" ="wrap_content" 2130969921="0.15" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432438" ="wrap_content" ="wrap_content" 2130969921="0.3" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432443" ="wrap_content" ="wrap_content" 2130969921="0.7" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432444" ="wrap_content" ="wrap_content" 2130969921="0.85" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131447204" ="@drawable/2131236697" ="wrap_content" ="16.0dip" ="2.0dip" ="16.0dip" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428353" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432675" ="wrap_content" ="wrap_content" 2130969125="tv_open_order_price_title,tv_open_order_to_fill_buy,tv_open_order_to_fill_sell" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432674" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_open_order_buy_amount_title,tv_open_order_buy_amount_base, tv_open_order_sell_amount_title, tv_open_order_sell_amount_base" />
+        <TextView ="@color/2131099778" android:id="@id/tv_open_order_price_title" ="wrap_content" ="wrap_content" android:text="@string/_price" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428353" ="0.0dip" ="0.0dip" 2130968759="2131428521" 2130969125="tv_open_order_to_fill_buy, tv_open_order_buy_amount_title, tv_open_order_buy_amount_base, tv_open_order_price_title, tv_open_order_sell_amount_title, tv_open_order_sell_amount_base, tv_open_order_to_fill_sell" />
+        <TextView ="#ff2ebd85" ="end" ="end" android:id="@id/2131447201" ="0.0dip" ="wrap_content" ="1" ="5.0dip" ="4.0dip" 2130969911="@id/2131447204" 2130969918="@id/2131447204" 2130969936="@id/2131432438" 2130969941="@id/2131447204" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tv_open_order_buy_amount_title" ="0.0dip" ="wrap_content" android:text="@string/_amount" ="4.0dip" 2130969917="@id/2131432438" 2130969936="@id/2131432439" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tv_open_order_buy_amount_base" ="4.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="@id/2131432438" 2130969936="@id/2131432439" 2130969940="@id/tv_open_order_buy_amount_title" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131447197" ="0.0dip" ="wrap_content" ="1" ="4.0dip" 2130969911="@id/2131447204" 2130969917="@id/2131432438" 2130969936="@id/2131432439" 2130969941="@id/2131447204" style="@style/2132149384" />
+        <TextView android:id="@id/tv_open_order_to_fill_buy" ="0.0dip" ="wrap_content" android:text="@string/strategy_open_order_to_fill" ="5.0dip" 2130969918="@id/2131432439" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="end" android:id="@id/tv_open_order_to_fill_sell" ="0.0dip" ="wrap_content" android:text="@string/strategy_open_order_to_fill" ="5.0dip" 2130969917="2131438103" 2130969937="@id/2131432444" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447209" ="0.0dip" ="wrap_content" ="1" ="4.0dip" 2130969911="@id/2131447204" 2130969917="2131438103" 2130969937="@id/2131432444" 2130969941="@id/2131447204" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131447200" ="0.0dip" ="wrap_content" ="1" ="5.0dip" 2130969911="@id/2131447204" 2130969918="@id/2131432439" 2130969937="2131438103" 2130969941="@id/2131447204" style="@style/2132149384" />
+        <TextView ="#ffe0294a" ="end" ="start" android:id="@id/2131447210" ="0.0dip" ="wrap_content" ="1" ="4.0dip" 2130969911="@id/2131447204" 2130969918="@id/2131432443" 2130969936="@id/2131447204" 2130969941="@id/2131447204" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/tv_open_order_sell_amount_title" ="0.0dip" ="wrap_content" android:text="@string/_amount" ="4.0dip" 2130969918="@id/2131432444" 2130969936="@id/2131432443" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="end" android:id="@id/tv_open_order_sell_amount_base" ="4.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969918="@id/2131432444" 2130969936="@id/2131432443" 2130969940="@id/tv_open_order_sell_amount_title" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447206" ="0.0dip" ="wrap_content" ="1" ="4.0dip" 2130969911="@id/2131447204" 2130969918="@id/2131432444" 2130969937="@id/2131432443" 2130969941="@id/2131447204" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

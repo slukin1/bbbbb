@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439619" ="fill_parent" ="fill_parent" />
+    <TextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="145.0dip" android:text="@string/no_records_found" ="@drawable/2131238419" ="10.0dip" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.lottie.KitLottieAnimationView ="center_horizontal" android:id="@id/2131438252" ="gone" ="25.0dip" ="25.0dip" ="145.0dip" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+</FrameLayout>

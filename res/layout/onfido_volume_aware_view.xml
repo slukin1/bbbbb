@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.audio.ExpandablePillView android:id="@id/2131438343" ="wrap_content" ="wrap_content" />
+    <RelativeLayout android:id="@id/2131440439" ="@drawable/onfido_audio_pill_background" ="4.0dip" ="wrap_content" ="wrap_content">
+        <ImageView ="24.0dip" ="24.0dip" ="true" 2130971077="@drawable/onfido_volume_full" />
+    </RelativeLayout>
+    <TextView ="?2130970368" ="end" android:id="@id/2131441938" ="4.0dip" android:text="@string/onfido_video_confirmation_button_audio_unmute" ="false" ="0.0" ="4.0dip" ="@id/2131440439" style="@style/2132148932" />
+</RelativeLayout>

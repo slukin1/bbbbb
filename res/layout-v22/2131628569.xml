@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="center" ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/futures_instruction_is_this_helpful" style="@style/2132149384" />
+    <Space ="0.0dip" ="10.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="wrap_content" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131427992" ="@drawable/2131236440" ="20.0dip" ="2.0dip" ="20.0dip" ="2.0dip" ="wrap_content" ="24.0dip" ="70.0dip" android:text="@string/margin_auto_top_up_transfer_in_yes" ="20.0dip" ="2.0dip" style="@style/2132149384" />
+        <Space ="10.0dip" ="0.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/2131427979" ="@drawable/2131236440" ="20.0dip" ="2.0dip" ="20.0dip" ="2.0dip" ="wrap_content" ="24.0dip" ="70.0dip" android:text="@string/margin_auto_top_up_transfer_in_no" ="20.0dip" ="2.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

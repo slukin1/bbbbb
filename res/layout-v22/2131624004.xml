@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131435010" ="fill_parent" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/2131433664" ="25.0dip" ="25.0dip" 2130969616="3" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131427789" ="wrap_content" ="wrap_content" ="8.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131442116" ="wrap_content" ="20.0dip" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442117" ="wrap_content" ="16.0dip" ="false" 2130969937="2131438103" 2130969940="@id/2131442116" style="@style/2132149361" />
+            <androidx.appcompat.widget.AppCompatImageView ="2.0dip" ="20.0dip" ="20.0dip" 2130969911="@id/2131442116" 2130969936="@id/2131442116" 2130969941="@id/2131442116" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" ="14.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442118" ="wrap_content" ="20.0dip" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099771" android:id="@id/2131442119" ="wrap_content" ="wrap_content" 2130969937="@id/2131442118" 2130969940="@id/2131442118" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442115" ="wrap_content" ="wrap_content" ="8.0dip" 2130969936="@id/2131442119" 2130969941="@id/2131442119" style="@style/2132149454" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433665" ="2.0dip" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131442115" 2130969936="@id/2131442115" 2130969941="@id/2131442115" 2130971077="@drawable/2131237146" 2130971375="@color/2131099738" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="0.0dip" ="wrap_content" ="1.0" ="32.0dip" ="16.0dip">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="wrap_content" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442126" ="wrap_content" ="16.0dip" android:text="@string/alpha_market_info_market_cap" style="@style/2132149394" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442127" ="wrap_content" ="16.0dip" style="@style/2132149394" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="wrap_content" ="wrap_content" ="12.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442122" ="wrap_content" ="16.0dip" android:text="@string/alpha_market_info_holders" style="@style/2132149394" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442123" ="wrap_content" ="16.0dip" style="@style/2132149394" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="wrap_content" ="wrap_content" ="12.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442124" ="wrap_content" ="16.0dip" android:text="@string/alpha_market_info_liquidity" style="@style/2132149394" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442125" ="wrap_content" ="16.0dip" style="@style/2132149394" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="wrap_content" ="wrap_content" ="12.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442120" ="wrap_content" ="16.0dip" android:text="@string/alpha_market_info_fdv" style="@style/2132149394" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442121" ="wrap_content" ="16.0dip" style="@style/2132149394" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433663" ="20.0dip" ="20.0dip" ="26.0dip" 2130969911="@id/2131442117" 2130969917="2131438103" 2130969941="@id/2131442116" 2130971077="@drawable/2131237100" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include android:id="@id/2131435409" ="invisible" ="300.0dip" ="35.0dip" ="5.0dip" 2130969911="@id/2131435010" 2130969917="@id/2131435010" 2130969937="@id/2131435010" 2130969941="@id/2131435010" layout="@layout/2131627471" />
+    <FrameLayout android:id="@id/2131435264" ="10.0dip" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969929="1.0" 2130969937="2131438103" 2130969940="@id/2131435007" />
+    <com.finance.marketdetail.feature.skyline.view.KLineTypeControllerView android:id="@id/2131435007" ="0.0dip" ="25.0dip" ="5.0dip" ="5.0dip" ="49.0dip" 2130969917="@id/2131435264" 2130969937="2131438103" 2130969940="@id/2131435010" 2130969978="1" />
+    <com.finance.marketdetail.feature.business.w3w.marketdetail.W3AlphaKlineInvalidSymbolView android:id="@id/2131433540" ="20.0dip" ="20.0dip" ="gone" ="0.0dip" ="0.0dip" ="@dimen/2131166200" 2130969911="@id/2131435264" 2130969917="@id/2131435264" 2130969937="@id/2131435264" 2130969941="@id/2131435007" style="@style/2132148650" />
+</androidx.constraintlayout.widget.ConstraintLayout>

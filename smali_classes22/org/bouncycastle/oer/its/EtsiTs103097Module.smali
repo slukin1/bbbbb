@@ -1,0 +1,13 @@
+.class public Lorg/bouncycastle/oer/its/EtsiTs103097Module;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

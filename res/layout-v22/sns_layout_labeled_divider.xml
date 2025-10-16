@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440574" ="@color/sns_color_neutral_60" ="0.0dip" ="1.0dip" 2130969911="2131438103" 2130969918="@id/2131441186" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/2131441186" ="@dimen/sns_margin_small_tiny" ="@dimen/sns_margin_small_tiny" ="gone" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_small_tiny" 2130969911="@id/2131440574" 2130969918="@id/2131431380" 2130969936="@id/2131440574" 2130969941="@id/2131440574" />
+    <View android:id="@id/2131431380" ="@color/sns_color_neutral_60" ="0.0dip" ="1.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131441186" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131439474" ="82.0dip" ="110.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131430273" ="80.0dip" ="108.0dip" 2130968914="3.0dip">
+        <FrameLayout android:id="@id/2131435389" ="1.0dip" ="82.0dip" ="110.0dip" />
+        <View android:id="@id/2131449593" ="@drawable/2131234782" ="fill_parent" ="fill_parent" ="1.0dip" />
+        <View android:id="@id/2131438359" ="fill_parent" ="fill_parent" ="2.0dip" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/future_position_liquidation_tips_title" ="@dimen/2131166184" style="@style/2132149425" />
+    </FrameLayout>
+    <com.finance.framework.widget.scroll.MaxHeightScrollView android:id="@id/2131439809" ="vertical" ="fill_parent" ="fill_parent" ="false" ="never">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" ="2.0dip" android:text="@string/future_position_liquidation_tips_content" style="@style/2132149355" />
+            <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="16.0dip" ="4.0dip" android:text="@string/future_position_liquidation_tips_step1" style="@style/2132149454" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434612" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:92" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="16.0dip" ="4.0dip" android:text="@string/future_position_liquidation_tips_step2" style="@style/2132149454" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434613" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:172" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131438279" ="fill_parent" ="wrap_content" ="16.0dip" ="4.0dip" android:text="@string/future_position_liquidation_tips_step3" style="@style/2132149454" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438280" ="fill_parent" ="wrap_content" ="25.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434614" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:150" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </com.finance.framework.widget.scroll.MaxHeightScrollView>
+</LinearLayout>

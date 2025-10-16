@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/2131441371" android:text="100%" style="@style/2132150313" />
+    <com.moon.imagecropper.view.widget.HorizontalProgressWheelView android:id="@id/2131439775" ="fill_parent" ="fill_parent" ="@id/2131441371" />
+</RelativeLayout>

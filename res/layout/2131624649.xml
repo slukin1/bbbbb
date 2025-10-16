@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441771" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="0.0dip" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971098="false" 2130971100="true">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131437137" ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427921" ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432819" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+                    <androidx.compose.ui.platform.ComposeView android:id="@id/2131440528" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                    <androidx.compose.ui.platform.ComposeView android:id="@id/2131441176" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440528" />
+                    <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131435934" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441176">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435933" ="fill_parent" ="wrap_content" ="never" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+                    </com.binance.widget.viewpager2.NestedScrollableHost>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441046" ="fill_parent" ="wrap_content" ="15.0dip" ="9.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449436" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <FrameLayout android:id="@id/2131440080" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131440079" ="fill_parent" ="fill_parent" layout="@layout/2131624650" />
+    </FrameLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131431749" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

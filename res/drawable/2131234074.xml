@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="-40.0dip" ="-40.0dip">
+        <rotate android:fromDegrees="90.0">
+            <shape ="line">
+                <stroke ="1.0dip" ="#10f0b908" ="2.0dip" ="2.0dip" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

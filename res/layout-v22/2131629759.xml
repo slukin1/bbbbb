@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" style="@style/2132148638" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131102397" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/voptions_choose_trade_mode" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429645" ="@drawable/2131233817" ="15.0dip" ="fill_parent" ="wrap_content" ="14.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <TextView ="@color/2131102397" android:id="@id/2131444815" ="wrap_content" ="wrap_content" android:text="@string/voptions_easy_trade_mode" ="5.0dip" 2130969936="@id/2131434650" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131443574" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/voptions_trademode_lite_desc" 2130969937="@id/2131444815" 2130969940="@id/2131444815" style="@style/2132149384" />
+        <ImageView android:id="@id/2131434650" ="4.0dip" ="66.0dip" ="76.0dip" ="@drawable/2131238684" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429734" ="@drawable/2131233817" ="15.0dip" ="fill_parent" ="wrap_content" ="14.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429645">
+        <TextView ="@color/2131102397" android:id="@id/2131444180" ="wrap_content" ="wrap_content" android:text="@string/voptions_classic_trade_mode" ="5.0dip" 2130969936="@id/2131434767" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="#ff848e9c" android:id="@id/2131444179" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/voptions_trademode_pro_desc_new" 2130969937="@id/2131444180" 2130969940="@id/2131444180" style="@style/2132149350" />
+        <ImageView android:id="@id/2131434767" ="9.0dip" ="66.0dip" ="76.0dip" ="@drawable/2131238685" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

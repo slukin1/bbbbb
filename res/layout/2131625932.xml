@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429876" ="11.0dip" ="11.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131434828" ="wrap_content" ="wrap_content" ="11.0dip" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233930" />
+        <ImageView android:id="@id/2131434387" ="wrap_content" ="wrap_content" ="3.0dip" ="@null" 2130969937="2131438103" 2130969940="@id/2131434828" 2130971077="@drawable/2131233925" />
+        <TextView ="14.0dip" ="@color/2131102397" ="end" android:id="@id/2131447747" ="wrap_content" ="wrap_content" ="9.0dip" ="1" ="4.0dip" 2130969905="true" 2130969918="@id/tv_3day_cum_rate" 2130969927="0.0" 2130969936="@id/2131434828" 2130969941="2131438103" style="@style/2132149351" />
+        <TextView ="14.0dip" ="@color/2131102397" ="end" android:id="@id/2131445854" ="wrap_content" ="wrap_content" ="1" ="4.0dip" 2130969905="true" 2130969918="@id/tv_3day_cum_rate" 2130969927="0.0" 2130969936="@id/2131434387" 2130969940="@id/2131447747" style="@style/2132149351" />
+        <TextView ="@color/2131102397" android:id="@id/tv_3day_cum_rate" ="wrap_content" ="20.0dip" ="2.0dip" 2130969911="2131438103" 2130969918="@id/2131447879" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131102397" android:id="@id/2131447879" ="wrap_content" ="20.0dip" android:text="/" ="2.0dip" 2130969911="2131438103" 2130969918="@id/2131445646" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131102397" android:id="@id/2131445646" ="wrap_content" ="20.0dip" ="2.0dip" 2130969911="2131438103" 2130969918="@id/iv_warning" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_warning" ="16.0dip" ="16.0dip" ="@null" ="4.0dip" ="4.0dip" 2130969911="2131438103" 2130969918="@id/2131434330" 2130969941="2131438103" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+        <ImageView android:id="@id/2131434330" ="wrap_content" ="wrap_content" ="@null" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233929" />
+        <View ="@color/2131100854" ="0.0dip" ="0.5dip" ="11.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434387" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429852" ="32.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView android:id="@id/2131434493" ="wrap_content" ="wrap_content" ="18.0dip" ="@null" ="18.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233676" />
+        <TextView ="12.0sp" android:id="@id/2131446290" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/futures_arbitrage_disclaimer" ="4.0dip" 2130969912="@id/2131446292" 2130969936="@id/2131434493" 2130969941="2131438103" style="@style/2132149386" />
+        <TextView ="12.0sp" android:id="@id/2131446292" ="wrap_content" ="wrap_content" ="16.0dip" ="32.0dip" android:text="@string/futures_arbitrage_disclaimer_des" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131446290" style="@style/2132149386" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

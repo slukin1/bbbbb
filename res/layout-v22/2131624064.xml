@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="true" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="20.0dip" ="20.0dip" ="12.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_alert_create_title" ="@font/2131296275" 2130969911="@id/2131434355" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131434355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429016" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="30.0dip" android:text="@string/c2c_mod_alert_create_title" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+    <androidx.core.widget.NestedScrollView ="vertical" android:id="@id/2131439810" ="vertical" ="fill_parent" ="0.0dip" ="28.0dip" ="12.0dip" 2130969912="@id/2131429016" 2130969940="@id/2131434355">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131447727" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="0.0dip" ="50.0dip" ="5.0dip" ="@drawable/2131237003" ="@font/2131296273" ="@color/2131099745" ="@dimen/2131166170" 2130969312="@color/2131099738" 2130969918="@id/2131447730" 2130969937="2131438103" 2130969940="@id/2131445993" />
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445993" ="wrap_content" ="wrap_content" android:text="@string/ms_label_coin" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_alert_create_fiat_currency" ="@font/2131296273" 2130969937="@id/2131447730" 2130969941="@id/2131445993" />
+                <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131447730" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="0.0dip" ="50.0dip" ="@drawable/2131237003" ="@font/2131296273" ="11.0dip" ="@color/2131099745" ="@dimen/2131166170" 2130969312="@color/2131099738" 2130969911="@id/2131447727" 2130969917="2131438103" 2130969936="@id/2131447727" 2130969941="@id/2131447727" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/ms_alert_type" ="@font/2131296273" />
+            <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131447725" ="@drawable/2131235987" ="fill_parent" ="50.0dip" ="5.0dip" ="@font/2131296273" ="10.0dip" ="14.0dip" ="@color/2131099745" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" />
+            <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/c2c_alert_payment_method_optional" ="@font/2131296273" />
+            <androidx.appcompat.widget.AppCompatTextView ="16.0dip" ="@color/2131099764" ="center_vertical" android:id="@id/2131447737" ="@drawable/2131235987" ="fill_parent" ="50.0dip" ="5.0dip" android:text="@string/_all" ="@font/2131296273" ="10.0dip" ="14.0dip" ="@color/2131099745" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="28.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447480" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_alert_create_price" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131447614" ="wrap_content" ="wrap_content" ="100.0dip" ="4.0dip" ="@font/2131296273" ="10.0dip" ="0.0dip" ="20.0dip" 2130969312="@color/2131099787" 2130969917="2131438103" 2130969941="2131438103" />
+                <androidx.appcompat.widget.AppCompatEditText ="16.0sp" ="@color/2131099764" ="@color/2131099762" ="start|center" android:id="@id/2131431513" ="@drawable/2131235987" ="15.0dip" ="15.0dip" ="fill_parent" ="50.0dip" ="5.0dip" android:hint="@string/c2c_mod_alert_create_set_target_price" ="numberDecimal" ="@color/2131099745" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131447480" />
+                <TextView ="12.0sp" ="@color/2131099863" android:id="@id/2131446703" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131431513" />
+                <LinearLayout ="horizontal" ="fill_parent" ="35.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131446703">
+                    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131447463" ="@drawable/2131232574" ="wrap_content" ="fill_parent" ="@null" android:text="-5%" ="1.0" ="@font/2131296274" ="5.0dip" />
+                    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131447481" ="@drawable/2131232574" ="wrap_content" ="fill_parent" ="@null" android:text="-10%" ="1.0" ="@font/2131296274" ="5.0dip" />
+                    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131447462" ="@drawable/2131232574" ="wrap_content" ="fill_parent" ="@null" android:text="-15%" ="1.0" ="@font/2131296274" ="5.0dip" />
+                    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131447483" ="@drawable/2131232574" ="wrap_content" ="fill_parent" ="@null" android:text="-20%" ="1.0" ="@font/2131296274" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/ms_alert_frequency" ="@font/2131296273" />
+            <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131447731" ="@drawable/2131235987" ="fill_parent" ="50.0dip" ="5.0dip" android:text="@string/c2c_mod_alert_create_only_once" ="@font/2131296273" ="10.0dip" ="14.0dip" ="@color/2131099745" 2130969306="@drawable/2131237003" 2130969312="@color/2131099738" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131446560" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/c2c_mod_alert_create_notification_once_set_price" ="@font/2131296274" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

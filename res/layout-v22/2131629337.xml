@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131440116" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p2_label_orderlimit" ="5.0dip" ="@font/2131296273" 2130969306="@drawable/2131237075" />
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="0.0dip" ="wrap_content" ="1.0">
+                <LinearLayout ="horizontal" android:id="@id/2131436804" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="fill_parent" ="48.0dip" ="ltr" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+                    <EditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131431524" ="@null" ="0.0dip" ="fill_parent" android:hint="@string/c2c_mob_ad_post_p2_placeholder_minlimit" ="13" ="1.0" ="numberDecimal" ="actionNone" ="@font/2131296273" ="ltr" />
+                    <TextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131446186" ="wrap_content" ="fill_parent" ="@font/2131296273" />
+                </LinearLayout>
+                <TextView ="12.0sp" ="#fff23051" android:id="@id/2131443758" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296266" 2130969937="2131438103" 2130969940="@id/2131436804" />
+                <TextView ="12.0sp" ="@color/2131099778" ="end|center" android:id="@id/2131443757" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296266" 2130969937="@id/2131443758" 2130969940="@id/2131443758" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="14.0sp" ="@color/2131099764" ="center" ="3.0dip" ="3.0dip" ="wrap_content" ="48.0dip" android:text="~" ="@font/2131296274" ="@dimen/2131166225" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="0.0dip" ="wrap_content" ="1.0">
+                <LinearLayout ="horizontal" android:id="@id/2131436802" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="0.0dip" ="48.0dip" ="1.0" ="ltr" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+                    <EditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131431520" ="@null" ="0.0dip" ="fill_parent" android:hint="@string/c2c_mob_ad_post_p2_placeholder_maxlimit" ="13" ="1.0" ="numberDecimal" ="actionNone" ="@font/2131296273" ="ltr" />
+                    <TextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131446188" ="wrap_content" ="fill_parent" ="@font/2131296273" />
+                </LinearLayout>
+                <TextView ="12.0sp" ="#fff23051" android:id="@id/2131443720" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296266" 2130969937="@id/2131436802" 2130969940="@id/2131436802" />
+                <TextView ="12.0sp" ="@color/2131099778" ="end|center" android:id="@id/2131443719" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296266" 2130969937="@id/2131443720" 2130969940="@id/2131443720" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

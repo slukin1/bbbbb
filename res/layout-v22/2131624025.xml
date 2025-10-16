@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" android:id="@id/2131427544" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" android:id="@id/2131436345" ="@color/2131100051" ="fill_parent" ="45.0dip" ="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="centerInside" ="16.0dip" ="12.0dip" 2130971077="@drawable/2131237994" />
+        <EditText ="14.0sp" ="@color/2131102398" ="#ff999999" ="start|center" android:id="@id/2131431280" ="@android:color/transparent" ="0.0dip" ="fill_parent" android:hint="@string/please_input_keywords" ="1" ="1.0" ="text" ="no" />
+        <TextView ="15.0sp" ="@color/2131103031" ="center" android:id="@id/tvCancel" ="wrap_content" ="fill_parent" android:text="@string/dialog_adjust_leverage_action_cancel" ="16.0dip" ="16.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="visible" ="fill_parent" ="fill_parent" ="@id/2131436345" />
+    <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="20.0dip" ="16.0dip" ="fill_parent" ="@id/2131436345" ="true" 2130968837="@color/2131100298" 2130968838="@dimen/2131167690" 2130968840="@color/2131103031" 2130968841="@dimen/2131167696" />
+    <TextView ="32.0sp" ="center" android:id="@id/2131443523" ="@drawable/2131234435" ="gone" ="54.0dip" ="45.0dip" ="@id/2131436345" ="0.0dip" ="8.0dip" ="@id/2131429131" />
+</RelativeLayout>

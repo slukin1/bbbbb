@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" android:id="@id/2131432132" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131432131" ="gone" ="wrap_content" ="wrap_content" android:text="@string/foot" style="@style/2132149350" />
+    <ProgressBar android:id="@id/2131432130" ="gone" ="26.0dip" ="26.0dip" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431141" ="fill_parent" ="44.0dip" layout="@layout/2131627708" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450295" ="gone" ="fill_parent" ="wrap_content" ="100.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431141">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430256" ="96.0dip" ="96.0dip" ="100.0dip" ="@drawable/2131235149" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" ="center" android:id="@id/2131430257" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/dwallet_wallet_no_connect_tip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430256" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131450296" ="fill_parent" ="0.0dip" ="16.0dip" ="16.0dip" 2130969912="@id/2131450214" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431141" />
+    <com.mpc.wallet.widget.uikit.KitNotification android:id="@id/2131450214" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="30.0dip" ="15.0dip" ="15.0dip" 2130969912="@id/2131450005" 2130970325="@drawable/2131235140" 2130970863="@null" />
+    <com.mpc.wallet.widget.uikit.KitButton ="true" android:id="@id/2131450005" ="fill_parent" ="48.0dip" ="37.0dip" android:text="@string/dwallet_wallet_connect_add" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

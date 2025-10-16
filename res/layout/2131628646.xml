@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/strategy_add_shortcut_title" style="@style/2132149423" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433904" ="fill_parent" ="275.0dip" ="15.0dip" ="fitXY" />
+</androidx.appcompat.widget.LinearLayoutCompat>

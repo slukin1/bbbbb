@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="44.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="center_vertical" android:id="@id/2131431989" ="@drawable/2131238565" ="wrap_content" ="20.0dip" ="15.0dip" ="36.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" ="16.0dip" ="16.0dip" ="6.0dip" 2130971077="@drawable/2131238216" 2130971375="@color/2131099787" />
+        <HorizontalScrollView ="none" ="wrap_content" ="fill_parent" ="true" ="24.0dip">
+            <TextView ="@color/2131099787" ="center_vertical" android:id="@id/2131447152" ="wrap_content" ="wrap_content" ="1" ="0.0dip" ="6.0dip" style="@style/2132149454" />
+        </HorizontalScrollView>
+    </FrameLayout>
+    <View ="end" ="@color/2131099675" ="36.0dip" ="fill_parent" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434434" ="16.0dip" ="16.0dip" ="15.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+    <View ="end" ="@drawable/2131234071" ="16.0dip" ="fill_parent" ="36.0dip" />
+</FrameLayout>

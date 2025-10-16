@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432024" ="285.0dip" ="285.0dip" 2130969912="@id/2131436493" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextureView android:id="@id/2131449346" ="fill_parent" ="fill_parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434551" ="@color/2131099675" ="fill_parent" ="fill_parent" 2130971077="@drawable/2131234703" />
+    </FrameLayout>
+    <View ="@drawable/2131234697" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131436493" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436493" ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="@dimen/2131166209" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131432024">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="wrap_content" android:text="@string/launcher_lite_pro_choose_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969999="56.0dip" style="@style/2132149472" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131429814" ="@drawable/2131235989" ="16.0dip" ="fill_parent" ="wrap_content" ="32.0dip" ="@color/2131099803">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/launcher_lite_pro_choose_lite_title" style="@style/2132149429" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/launcher_lite_pro_choose_lite_content" 2130969999="@dimen/2131166204" style="@style/2132149467" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" ="@color/2131099764" ="8.0dip" 2130971077="@drawable/2131236866" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131429815" ="@drawable/2131235989" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="@color/2131099803">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/launcher_lite_pro_choose_pro_title" style="@style/2132149429" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/launcher_lite_pro_choose_pro_content" 2130969999="@dimen/2131166204" style="@style/2132149467" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" ="@color/2131099764" ="8.0dip" 2130971077="@drawable/2131236866" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

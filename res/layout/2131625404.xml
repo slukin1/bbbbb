@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" ="fill_parent" ="wrap_content" style="@style/2132148642">
+        <ImageView ="center" android:id="@id/iv_logo" ="@drawable/2131233606" ="60.0dip" ="60.0dip" ="24.0dip" ="16.0dip" />
+        <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131446058" ="24.0dip" ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" android:text="@string/trade_compliance_policies_tips_new" ="4.0dip" style="@style/2132149350" />
+        <TextView ="@color/2131099789" ="center" android:id="@id/2131446034" ="@drawable/2131232839" ="fill_parent" ="40.0dip" ="24.0dip" ="24.0dip" android:text="@string/got_it" style="@style/2132149450" />
+        <TextView ="@color/2131099787" ="center" android:id="@id/tv_cancel" ="fill_parent" ="wrap_content" ="24.0dip" ="10.0dip" ="24.0dip" ="24.0dip" ="20.0dip" android:text="@string/common_viewdetail" style="@style/2132149450" />
+    </LinearLayout>
+</FrameLayout>

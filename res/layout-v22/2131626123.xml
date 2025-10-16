@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435594" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="@drawable/2131234017" ="52.0dip" ="52.0dip" 2130969911="2131438103" 2130969918="@id/2131432760" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099787" android:id="@id/2131446359" ="0.0dip" ="wrap_content" ="16.0dip" ="12.0dip" ="16.0dip" android:text="@string/futures_keep_exploring" ="@dimen/2131166188" 2130969912="@id/2131446358" 2130969918="@id/2131435052" 2130969937="@id/2131432760" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/2131446358" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/futures_voucher_csat_title" ="@dimen/2131166188" 2130969918="@id/2131435052" 2130969937="@id/2131432760" 2130969940="@id/2131446359" style="@style/2132149374" />
+    <TextView ="@color/2131099764" android:id="@id/2131448617" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="12.0dip" android:text="@string/futures_voucher_csat_desc" ="@dimen/2131166188" 2130969911="2131438103" 2130969918="@id/2131435052" 2130969937="@id/2131432760" 2130969940="@id/2131446358" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.2086" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131435052" ="wrap_content" ="wrap_content" android:text="@string/futures_campaign_center_claim" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148706" />
+    <ImageView android:id="@id/ivClose" ="4.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131237100" ="4.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

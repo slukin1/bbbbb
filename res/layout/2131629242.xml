@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434446" ="@drawable/2131235991" ="12.0dip" ="48.0dip" ="48.0dip" ="@color/2131099744" 2130971077="@drawable/2131237001" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" ="end" android:id="@id/2131446058" ="wrap_content" ="wrap_content" ="5.0dip" ="70.0dip" android:text="@string/payment_methods" ="1" style="@style/2132149384" />
+</merge>

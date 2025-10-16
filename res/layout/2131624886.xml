@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" 2130969314="@drawable/2131238419" style="@style/2132149350" />
+</FrameLayout>

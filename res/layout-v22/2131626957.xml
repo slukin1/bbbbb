@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131429824" ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="@null" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969974="2131439795">
+                    <TextView ="@color/2131099778" android:id="@id/tv_total" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="2.0dip" android:text="@string/leaderboard_profile_following_all_count" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.major.android.uikit.emptylayout.KitEmptyLayout ="@color/2131099778" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" ="50.0dip" 2130969343="@drawable/2131238419" 2130969346="@string/no_records_found" />
+    </FrameLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

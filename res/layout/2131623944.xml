@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/2131429156" ="fill_parent" ="wrap_content" ="true" style="?2130968848"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.ButtonBarLayout ="bottom" ="horizontal" ="12.0dip" ="4.0dip" ="12.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="locale">
+        <Button android:id="@android:id/button3" ="wrap_content" ="wrap_content" style="?2130968846" />
+        <android.widget.Space android:id="@id/2131440433" ="invisible" ="0.0dip" ="0.0dip" ="1.0" />
+        <Button android:id="@android:id/button2" ="wrap_content" ="wrap_content" style="?2130968845" />
+        <Button android:id="@android:id/button1" ="wrap_content" ="wrap_content" style="?2130968847" />
+    </androidx.appcompat.widget.ButtonBarLayout>
+</ScrollView>

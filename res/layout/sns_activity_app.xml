@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sumsub.sns.core.widget.SNSBackgroundView ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/sns_container" ="fill_parent" ="fill_parent" />
+    <com.sumsub.sns.core.widget.SNSProgressView android:id="@id/sns_progress" ="gone" ="fill_parent" ="fill_parent" />
+</com.sumsub.sns.core.widget.SNSBackgroundView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" ="#cc000000" ="fill_parent" ="wrap_content" ="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="horizontal" ="4.0dip" ="fill_parent" ="wrap_content">
+        <ImageButton android:id="@id/2131431629" style="@style/2132148584" />
+        <ImageButton android:id="@id/2131431633" style="@style/2132148585" />
+        <ImageButton android:id="@id/2131431637" style="@style/2132148579" />
+        <ImageButton android:id="@id/2131431632" style="@style/2132148579" />
+        <ImageButton android:id="@id/2131431625" style="@style/2132148583" />
+        <ImageButton android:id="@id/2131431624" style="@style/2132148582" />
+        <ImageButton android:id="@id/2131431613" style="@style/2132148580" />
+        <ImageButton android:id="@id/2131431620" style="@style/2132148581" />
+        <ImageButton android:id="@id/2131431645" style="@style/2132148586" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="4.0dip">
+        <TextView ="14.0sp" ="bold" ="#ffbebebe" android:id="@id/2131431628" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="false" />
+        <View android:id="@id/2131431631" ="0.0dip" ="26.0dip" ="1.0" />
+        <TextView ="14.0sp" ="bold" ="#ffbebebe" android:id="@id/2131431609" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="false" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427596" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <TextView ="@color/2131099764" android:id="@id/title" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/ocbs_payment_currency" ="15.0dip" ="15.0dip" 2130969974="2131439795" style="@style/2132149416" />
+            <TextView ="@color/2131099785" android:id="@id/2131430855" ="16.0dip" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/ocbs_payment_currency_desc" ="15.0dip" ="15.0dip" 2130969974="2131439795" style="@style/2132149384" />
+            <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131431541" ="fill_parent" ="wrap_content" 2130968735="@color/2131099875" 2130968908="true" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="gone" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <com.binance.hydrogen.widgets.sidebar.BubbleScroller android:id="@id/2131429131" ="40.0dip" ="100.0dip" ="gone" ="16.0dip" ="0.0dip" 2130968837="@color/2131103064" 2130968838="@dimen/2131167696" 2130968839="@color/2131099764" 2130968840="@color/2131099778" 2130968841="@dimen/2131167696" 2130969911="2131438103" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_no_result" ="132.0dip" ="94.0dip" ="120.0dip" ="@null" 2130969911="@id/tv_no_result" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131440524" 2130971077="@drawable/2131238419" />
+            <TextView ="15.0sp" ="@color/2131102368" android:id="@id/tv_no_result" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/no_records_found" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iv_no_result" 2130969942="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

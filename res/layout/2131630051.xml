@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438123" ="@drawable/2131235989" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="#1afcd535" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131438125" ="0.0dip" ="wrap_content" android:text="@string/wallet_transfer_participate_no_gift_tip" ="8.0dip" 2130969912="@id/2131438124" 2130969918="@id/2131434057" 2130969937="2131438103" 2130969941="@id/2131434057" 2130969943="2131438085" style="@style/2132149450" />
+    <TextView ="@color/2131099787" android:id="@id/2131438124" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/wallet_view_now" ="8.0dip" 2130969911="@id/2131434057" 2130969918="@id/2131434057" 2130969937="2131438103" 2130969940="@id/2131438125" 2130969943="2131438085" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434057" ="60.0dip" ="60.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238393" />
+</androidx.constraintlayout.widget.ConstraintLayout>

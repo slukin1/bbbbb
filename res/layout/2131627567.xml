@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="52.0dip" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="0.0dip" ="fill_parent" ="1.0">
+            <FrameLayout android:id="@id/2131439387" ="24.0dip" ="fill_parent">
+                <com.major.android.uikit2.selection.KitCheckBox ="13.0sp" ="@color/2131101242" ="start|center" ="center_vertical" android:id="@id/2131435120" ="false" ="18.0dip" ="18.0dip" ="true" ="locale" ="gravity" />
+            </FrameLayout>
+            <TextView ="@color/2131099764" android:id="@id/2131446914" ="wrap_content" ="wrap_content" android:text="@string/kv_macd" style="@style/2132149450" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/margin_kline_style" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/kline_set_indicator_color_title" ="1.0" style="@style/2132149450" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.finance.marketdetail.feature.chartsetting.view.MacdModifyItemView android:id="@id/2131437087" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.MacdModifyItemView android:id="@id/2131437086" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.MacdModifyItemView android:id="@id/2131437089" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+    <com.finance.marketdetail.feature.chartsetting.view.MacdModifyItemView android:id="@id/2131437088" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+</LinearLayout>

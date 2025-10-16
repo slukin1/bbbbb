@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131447176" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/spot_stop_loss" ="@dimen/2131166188" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149390" />
+    <com.finance.kit.framework.widget.edittext.KitEditText android:id="@id/edt_stop_price" 2130969780="@string/stop_price" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447176" 2130969962="@dimen/2131166286" style="@style/2132148633" />
+    <Space android:id="@id/2131440429" ="fill_parent" ="wrap_content" ="2.0dip" 2130969941="@id/edt_stop_price" />
+    <TextView android:id="@id/2131440672" ="gone" 2130969912="@id/2131440429" 2130969917="@id/edt_stop_price" 2130969937="@id/edt_stop_price" style="@style/2132148634" />
+    <com.finance.framework.widget.LongClickButton android:id="@id/sub_stop_price" 2130969937="@id/edt_stop_price" 2130969941="@id/edt_stop_price" style="@style/2132149198" />
+    <com.finance.framework.widget.LongClickButton android:id="@id/add_stop_price" 2130969917="@id/edt_stop_price" 2130969941="@id/edt_stop_price" style="@style/2132148227" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432599" ="wrap_content" ="wrap_content" 2130969125="edt_stop_price,sub_stop_price,add_stop_price" />
+</androidx.constraintlayout.widget.ConstraintLayout>

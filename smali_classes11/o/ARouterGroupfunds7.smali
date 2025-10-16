@@ -1,0 +1,42 @@
+.class public final synthetic Lo/ARouterGroupfunds7;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic d:I
+
+.field public final synthetic e:Lo/ARouterGroupfunds6;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/ARouterGroupfunds6;I)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/ARouterGroupfunds7;->e:Lo/ARouterGroupfunds6;
+
+    iput p2, p0, Lo/ARouterGroupfunds7;->d:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, Lo/ARouterGroupfunds7;->e:Lo/ARouterGroupfunds6;
+
+    iget v1, p0, Lo/ARouterGroupfunds7;->d:I
+
+    invoke-static {v0, v1, p1}, Lo/ARouterGroupfunds6;->a(Lo/ARouterGroupfunds6;ILandroid/view/View;)V
+
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="false" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446216" ="0.0dip" ="wrap_content" ="17.0dip" android:text="@string/futures_pnlanalysis_history_daily_pnl" 2130969263="@string/i_understand" 2130969937="2131438103" 2130969940="@id/2131448062" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131446218" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/placeholder" 2130969917="2131438103" 2130969941="@id/2131446216" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446171" ="0.0dip" ="wrap_content" ="11.0dip" android:text="@string/margin_pnl_cumulative_pnl_title" 2130969937="2131438103" 2130969940="@id/2131446216" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131446181" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/placeholder" 2130969917="2131438103" 2130969941="@id/2131446171" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446169" ="0.0dip" ="wrap_content" ="11.0dip" android:text="@string/futures_pnlanalysis_history_cumulative_pnl_per" 2130969937="2131438103" 2130969940="@id/2131446171" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131446170" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/placeholder" 2130969917="2131438103" 2130969941="@id/2131446169" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447093" ="0.0dip" ="wrap_content" ="11.0dip" android:text="@string/margin_pnl_net_transfer" 2130969937="2131438103" 2130969940="@id/2131446169" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131447094" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/placeholder" 2130969917="2131438103" 2130969941="@id/2131447093" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_trading_vol" ="0.0dip" ="wrap_content" ="11.0dip" android:text="@string/futures_pnlanalysis_trade_volume" 2130969937="2131438103" 2130969940="@id/2131447093" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/tv_trading_vol_value" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/placeholder" 2130969917="2131438103" 2130969941="@id/tv_trading_vol" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

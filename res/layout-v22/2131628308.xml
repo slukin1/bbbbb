@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="bottom" ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166170" style="@style/2132149463" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="24.0dip" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447950" ="fill_parent" ="wrap_content" style="@style/2132149346" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131447870" ="fill_parent" ="wrap_content" ="8.0dip" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

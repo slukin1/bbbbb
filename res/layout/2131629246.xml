@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449520" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428057" ="gone" ="0.0dip" ="6.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434951" ="gone" ="12.0dip" ="6.0dip" ="20.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236653" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434950" ="gone" ="12.0dip" ="6.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236653" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434954" ="gone" ="12.0dip" ="6.0dip" ="20.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236653" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.cardview.widget.CardView android:id="@id/2131429285" ="@color/2131099685" ="wrap_content" ="wrap_content" ="320.0dip" ="226.0dip" ="184.0dip" ="108.0dip" ="@color/2131099685" 2130968912="4.0dip" 2130968914="0.0dip" 2130969912="@id/2131428053" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428057">
+        <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="fill_parent">
+            <TextView ="@drawable/2131236759" ="@color/2131099764" ="start" android:id="@id/2131442581" ="vertical" ="fill_parent" ="wrap_content" ="290.0dip" ="122.0dip" ="156.0dip" ="44.0dip" ="7" ="false" ="@font/2131296266" ="locale" ="viewStart" 2130969941="2131438103" style="@style/2132149346" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="center" android:id="@id/2131428837" ="@drawable/2131236750" ="wrap_content" ="24.0dip" ="10.0dip" ="48.0dip" ="false" ="text" ="locale" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969940="@id/2131442581" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131444777" ="wrap_content" ="wrap_content" 2130969911="@id/2131428837" 2130969937="2131438103" 2130969941="@id/2131428837" style="@style/2132149384" />
+            <TextView ="@color/2131099787" ="center" android:id="@id/2131428903" ="gone" ="wrap_content" ="wrap_content" ="38.0dip" ="22.0dip" android:text="@string/ms_market_skip" ="9.0dip" 2130969911="@id/2131428837" 2130969918="@id/2131428837" 2130969941="@id/2131428837" style="@style/2132149450" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <FrameLayout android:id="@id/2131428053" ="gone" ="0.0dip" ="6.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131434502" ="gone" ="12.0dip" ="6.0dip" ="20.0dip" 2130971077="@drawable/2131236652" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434501" ="gone" ="12.0dip" ="6.0dip" 2130971077="@drawable/2131236652" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131434505" ="gone" ="12.0dip" ="6.0dip" ="20.0dip" 2130971077="@drawable/2131236652" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

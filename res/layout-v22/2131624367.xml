@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232712" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432583" ="wrap_content" ="wrap_content" 2130969125="redeemTarget,redeemTargetSelector,ivCaret" />
+    <TextView ="@color/2131099764" android:id="@id/2131445687" ="wrap_content" ="wrap_content" android:text="@string/lending_autosubscribe" ="false" ="6.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132149450" />
+    <ImageView android:id="@id/2131434227" ="wrap_content" ="wrap_content" ="@null" ="8.0dip" 2130969911="@id/2131445687" 2130969936="@id/2131445687" 2130969941="@id/2131445687" 2130971077="@drawable/2131234247" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439758" ="wrap_content" ="wrap_content" 2130969911="@id/2131445687" 2130969917="2131438103" 2130969941="@id/2131445687" />
+    <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/redeemTarget" ="wrap_content" ="wrap_content" ="14.0dip" ="12.0dip" android:text="@string/earn_locked_redeem_to" ="5.0dip" 2130969273="false" 2130969348="true" 2130969905="true" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131445687" 2130971382="@string/earn_wallet_selection_tip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/redeemTargetSelector" ="@drawable/2131232801" ="5.0dip" ="2.0dip" ="5.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="3.0dip" ="@dimen/2131166260" ="@dimen/2131166199" 2130969911="@id/redeemTarget" 2130969918="@id/ivCaret" 2130969941="@id/redeemTarget" style="@style/2132149394" />
+    <ImageView android:id="@id/ivCaret" ="2.0dip" ="20.0dip" ="20.0dip" 2130969911="@id/redeemTarget" 2130969917="2131438103" 2130969941="@id/redeemTarget" 2130971077="@drawable/2131237285" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

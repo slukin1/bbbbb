@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440495" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131440490" ="fill_parent" ="0.0dip" 2130969911="@id/2131428745" 2130969941="@id/2131428745" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428745" ="fill_parent" ="wrap_content" android:text="@string/um_grid_trade_create" ="15.0dip" ="15.0dip" 2130969756="true" 2130969911="2131438103" 2130969940="@id/2131435417" style="@style/2132148692" />
+    <include ="top" android:id="@id/2131435417" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="10.0dip" ="@dimen/2131166184" 2130969912="@id/2131428745" 2130969941="2131438103" layout="@layout/2131628765" />
+</androidx.constraintlayout.widget.ConstraintLayout>

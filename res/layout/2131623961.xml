@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131439835" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="?android:textAppearanceMedium" ="?android:textColorPrimary" ="center_vertical" android:id="@id/2131439834" ="gone" ="wrap_content" ="fill_parent" ="2.0dip" ="0.0dip" />
+    <ImageView ="center_vertical" android:id="@id/2131439839" ="true" ="wrap_content" ="fill_parent" ="@string/abc_searchview_description_search" style="?2130968597" />
+    <LinearLayout ="horizontal" android:id="@id/2131439841" ="wrap_content" ="fill_parent" ="8.0dip" ="8.0dip" ="1.0" ="locale">
+        <ImageView ="center_vertical" android:id="@id/2131439849" ="gone" ="32.0dip" ="wrap_content" ="centerInside" style="@style/2132149081" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131439851" ="wrap_content" ="fill_parent" ="1.0">
+            <view ="end" ="center_vertical" android:id="@id/2131439853" ="@null" ="8.0dip" ="8.0dip" ="0.0dip" ="36.0dip" ="true" ="1.0" ="textAutoComplete|textNoSuggestions" ="@id/2131439841" ="actionSearch" ="wrap_content" ="0.0dip" ="0.0dip" class="androidx.appcompat.widget.SearchView$SearchAutoComplete" />
+            <ImageView ="center_vertical" android:id="@id/2131439840" ="?2130970781" ="8.0dip" ="8.0dip" ="true" ="wrap_content" ="fill_parent" ="@string/abc_searchview_description_clear" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" android:id="@id/2131440844" ="wrap_content" ="fill_parent">
+            <ImageView ="center_vertical" android:id="@id/2131439842" ="?2130970781" ="16.0dip" ="16.0dip" ="true" ="gone" ="wrap_content" ="fill_parent" ="@string/abc_searchview_description_submit" />
+            <ImageView ="center_vertical" android:id="@id/2131439856" ="?2130970781" ="16.0dip" ="16.0dip" ="true" ="gone" ="wrap_content" ="fill_parent" ="@string/abc_searchview_description_voice" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131435299" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="@color/2131099685" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip">
+        <ImageView ="start" android:id="@id/2131441619" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131236863" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="wrap_content" ="wrap_content" ="true" style="@style/2132149425" />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView ="@color/2131099764" ="15.0dip" ="5.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" android:text="@string/usercenter_follow_us" ="@dimen/2131166184" style="@style/2132149416" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436232" ="@drawable/2131234718" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166200">
+        <ImageView ="24.0dip" ="24.0dip" ="centerInside" ="10.0dip" 2130971077="@drawable/2131238058" 2130971375="@color/2131099738" />
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/like_us_on_facebook" ="1.0" ="15.0dip" style="@style/2132149346" />
+        <ImageView android:id="@id/2131431676" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436413" ="@drawable/2131234718" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166200">
+        <ImageView ="24.0dip" ="24.0dip" ="centerInside" ="10.0dip" 2130971077="@drawable/2131238094" 2130971375="@color/2131099738" />
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/follow_us_on_twitter" ="1.0" ="15.0dip" style="@style/2132149346" />
+        <ImageView android:id="@id/2131448679" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436389" ="@drawable/2131234718" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166200">
+        <ImageView ="24.0dip" ="24.0dip" ="centerInside" ="10.0dip" 2130971077="@drawable/2131238086" 2130971375="@color/2131099738" />
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/join_us_on_telegram" ="1.0" ="15.0dip" style="@style/2132149346" />
+        <ImageView android:id="@id/2131441174" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </LinearLayout>
+</LinearLayout>

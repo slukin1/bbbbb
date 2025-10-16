@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" android:text="@string/margin_kline_vol_tips" ="15.0dip" ="10.0dip" style="@style/2132149350" />
+    <FrameLayout ="15.0dip" ="15.0dip" ="fill_parent" ="52.0dip" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_vol_long" style="@style/2132149450" />
+        <RelativeLayout ="end|center" android:id="@id/2131439391" ="@drawable/kline_bg_set_other" ="8.0dip" ="8.0dip" ="110.0dip" ="32.0dip" ="8.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131446894" ="wrap_content" ="wrap_content" ="true" ="@id/2131434670" ="true" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434670" ="16.0dip" ="16.0dip" ="true" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout ="15.0dip" ="15.0dip" ="fill_parent" ="52.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start|center" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_vol_short" style="@style/2132149450" />
+        <RelativeLayout ="end|center" android:id="@id/2131439404" ="@drawable/kline_bg_set_other" ="8.0dip" ="8.0dip" ="110.0dip" ="32.0dip" ="8.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131447794" ="wrap_content" ="wrap_content" ="true" ="@id/2131434843" ="true" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434843" ="16.0dip" ="16.0dip" ="true" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+        </RelativeLayout>
+    </FrameLayout>
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" 2130969292="2131437069" />
+</LinearLayout>

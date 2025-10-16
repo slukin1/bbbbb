@@ -1,0 +1,84 @@
+.class public final synthetic Lo/r8lambdayzQ5httOEIxMLs1TOtAs5w2ybZI;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic c:Lo/withAllQuirksDisabled;
+
+.field public final synthetic d:Lo/getPostviewOutputConfig;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/getPostviewOutputConfig;Lo/withAllQuirksDisabled;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/r8lambdayzQ5httOEIxMLs1TOtAs5w2ybZI;->d:Lo/getPostviewOutputConfig;
+
+    iput-object p2, p0, Lo/r8lambdayzQ5httOEIxMLs1TOtAs5w2ybZI;->c:Lo/withAllQuirksDisabled;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 0
+    iget-object v0, p0, Lo/r8lambdayzQ5httOEIxMLs1TOtAs5w2ybZI;->d:Lo/getPostviewOutputConfig;
+
+    iget-object v1, p0, Lo/r8lambdayzQ5httOEIxMLs1TOtAs5w2ybZI;->c:Lo/withAllQuirksDisabled;
+
+    .line 4465
+    check-cast v1, Lo/getPostviewOutputConfig;
+
+    .line 5597
+    invoke-interface {v1}, Lo/getPostviewOutputConfig;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    if-eqz v2, :cond_0
+
+    .line 3467
+    invoke-interface {v0}, Lo/getPostviewOutputConfig;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    .line 6597
+    invoke-interface {v1}, Lo/getPostviewOutputConfig;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    .line 3467
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 0
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method

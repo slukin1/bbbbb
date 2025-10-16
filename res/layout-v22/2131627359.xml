@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="@drawable/2131236645" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099788" ="0.0dip" ="wrap_content" android:text="@string/common_add_favorites_success" ="1.0" style="@style/2132149350" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131436431" ="10.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166156">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099788" ="wrap_content" ="wrap_content" android:text="@string/market_edit_group" style="@style/2132149374" />
+            <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="1.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099788" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

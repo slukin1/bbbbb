@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131440880" ="15.0dip" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969904="true" 2130969911="@id/2131449543" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432748" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+            <TextView ="@color/2131099778" android:id="@id/2131448000" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/symbol" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131448001" ="wrap_content" ="wrap_content" ="1" ="false" ="2.0dip" 2130969911="@id/2131447991" 2130969918="@id/2131447991" 2130969941="@id/2131447991" style="@style/2132149450" />
+            <TextView ="@color/2131099764" android:id="@id/2131447991" ="@drawable/2131235998" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="1" ="@color/2131099744" 2130969911="@id/2131448000" 2130969917="2131438103" 2130969941="@id/2131448000" style="@style/2132149394" />
+            <TextView ="@color/2131099778" android:id="@id/2131446362" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/futures_history_position_avg_cost" 2130969937="2131438103" 2130969940="@id/2131448000" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131446363" ="wrap_content" ="wrap_content" 2130969907="@id/2131446362" 2130969917="2131438103" style="@style/2132149450" />
+            <View android:id="@id/2131449544" ="@color/2131099751" ="0.0dip" ="0.5dip" ="18.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446362" />
+            <TextView ="@color/2131099764" android:id="@id/tv_take_profit_title" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_grid_take_profit" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449544" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131448316" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="@id/2131432748" 2130969937="2131438103" 2130969940="@id/tv_take_profit_title" style="@style/2132149384" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131448329" ="0.0dip" ="wrap_content" android:text="@string/volume_btc" ="10.0dip" 2130969907="@id/2131448316" 2130969917="2131438103" 2130969937="@id/2131432748" style="@style/2132149384" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439716" ="none" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448316" />
+            <TextView ="@color/2131099778" android:id="@id/2131448325" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_tpsl_split_target_total_est_pnl" 2130969937="2131438103" 2130969940="@id/2131439716" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131448326" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="10.0dip" 2130969907="@id/2131448325" 2130969917="2131438103" 2130969936="@id/2131448325" style="@style/2132149384" />
+            <View android:id="@id/2131449545" ="@color/2131099751" ="0.0dip" ="0.5dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448325" />
+            <TextView ="@color/2131099764" android:id="@id/2131447835" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/futures_grid_stop_loss" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449545" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131447830" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="@id/2131432748" 2130969937="2131438103" 2130969940="@id/2131447835" style="@style/2132149384" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131447840" ="0.0dip" ="wrap_content" android:text="@string/volume_btc" ="10.0dip" 2130969907="@id/2131447830" 2130969917="2131438103" 2130969937="@id/2131432748" style="@style/2132149384" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439704" ="none" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447830" />
+            <TextView ="@color/2131099778" android:id="@id/2131447836" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_tpsl_split_target_total_est_pnl" 2130969937="2131438103" 2130969940="@id/2131439704" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131447837" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="10.0dip" 2130969907="@id/2131447836" 2130969917="2131438103" 2130969936="@id/2131447836" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@id/2131449543" ="@color/2131099751" ="0.0dip" ="0.5dip" ="12.0dip" 2130969912="@id/2131429419" 2130969917="@id/btn_confirm" 2130969937="@id/btn_confirm" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/2131429419" ="16.0dip" ="16.0dip" ="false" 2130969835="2131429513" 2130969937="@id/btn_confirm" 2130969941="@id/2131447796" />
+    <TextView ="@color/2131099764" android:id="@id/2131447796" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/futures_confirmation_setting_split_order_tips" ="4.0dip" 2130969912="@id/btn_confirm" 2130969917="@id/btn_confirm" 2130969936="@id/2131429419" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="25.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969911="2131438103" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

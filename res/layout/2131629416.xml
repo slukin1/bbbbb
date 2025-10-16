@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236538" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/2131440875" ="16.0dip" ="none" ="0.0dip" ="wrap_content" ="true" ="never" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="vertical" android:id="@id/2131436304" ="fill_parent" ="wrap_content" />
+    </ScrollView>
+    <View android:id="@id/2131449176" ="@color/2131099685" ="gone" ="0.0dip" ="0.0dip" ="0.8" 2130969911="@id/2131440875" 2130969917="@id/2131440875" 2130969937="@id/2131440875" 2130969941="@id/2131440875" />
+</androidx.constraintlayout.widget.ConstraintLayout>

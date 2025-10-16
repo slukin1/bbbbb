@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434868" ="120.0dip" ="100.0dip" ="5.0dip" ="4.0dip" 2130971077="@drawable/2131238405" />
+    <TextView ="@color/2131099764" android:id="@id/2131446051" ="14.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_createdv3" style="@style/2132149445" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="fill_parent" ="0.0dip" ="16.0dip" ="1.0">
+        <LinearLayout ="vertical" android:id="@id/2131439386" ="fill_parent" ="wrap_content" ="@color/2131099676">
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_box_typev3" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102397" android:id="@id/2131445834" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_title_amountv3" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102397" android:id="@id/tv_amount" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_title_giftnumber" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102398" android:id="@id/2131447171" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_info_claimtype" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102397" android:id="@id/2131445927" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_info_question" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102398" ="end" ="end" android:id="@id/2131447542" ="175.0dip" ="wrap_content" ="2" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_info_answer" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102397" ="end" ="end" android:id="@id/2131445641" ="175.0dip" ="wrap_content" ="2" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_info_prompt" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102397" ="end" ="end" android:id="@id/2131445640" ="175.0dip" ="wrap_content" ="2" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/content_cryptobox_info_expired" ="true" ="true" style="@style/2132149350" />
+                <TextView ="14.0sp" ="@color/2131102397" android:id="@id/2131446461" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="vertical" ="16.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428980" ="fill_parent" ="48.0dip" android:text="@string/content_cryptobox_info_back" />
+    </LinearLayout>
+</LinearLayout>

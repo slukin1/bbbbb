@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/trade_margin" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432738" ="wrap_content" ="wrap_content" 2130969921="0.33333" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432740" ="wrap_content" ="wrap_content" 2130969921="0.66666" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/tv_colum_coin" ="0.0dip" ="wrap_content" ="4.5dip" android:text="@string/_coin" ="2" ="false" 2130969917="@id/2131432738" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" ="end" android:id="@id/tv_colum_margin_borrowed" ="0.0dip" ="wrap_content" android:text="@string/pm_repay_debt_margin_borrowed_title" ="2" ="false" ="8.0dip" 2130969911="@id/tv_colum_coin" 2130969917="@id/2131432740" 2130969937="@id/2131432738" 2130969941="@id/tv_colum_coin" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" ="end" android:id="@id/tv_colum_margin_interest" ="0.0dip" ="wrap_content" android:text="@string/pm_repay_debt_margin_interest_title" ="2" ="false" ="8.0dip" 2130969911="@id/tv_colum_coin" 2130969917="@id/tv_title" 2130969937="@id/2131432740" 2130969941="@id/tv_colum_coin" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432637" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_colum_coin,tv_colum_margin_borrowed,tv_colum_margin_interest" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center" android:id="@id/tvEmpty" ="visible" ="wrap_content" ="wrap_content" ="28.0dip" ="40.0dip" android:text="@string/pm_repay_debt_margin_empty_tips" ="8.0dip" 2130969314="@drawable/2131233810" 2130969911="2131438103" 2130969917="@id/tv_title" 2130969937="@id/tv_title" 2130969940="@id/tv_title" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436492" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434573" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234160" />
+    <TextView ="@color/2131102397" ="center_horizontal" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_sheet_od_reminder_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434573" style="@style/2132149425" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442638" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444067" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_sheet_od_reminder_setting_android" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442638" />
+    <LinearLayout ="horizontal" android:id="@id/2131429524" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444067">
+        <com.major.android.uikit2.selection.KitCheckBox ="top" android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="2.0dip" ="false" 2130969759="2" 2130969937="2131438103" 2130969941="@id/2131443030" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443030" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_ongoing_check_box_content" ="@font/2131296274" ="8.0dip" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/c2c_sheet_od_reminder_btn_stay" 2130969917="2131438103" 2130969936="@id/2131428716" 2130969940="@id/2131429524" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="0.0dip" ="wrap_content" android:text="@string/c2c_sheet_od_reminder_btn_leave" ="12.0dip" 2130969918="@id/2131428732" 2130969937="2131438103" 2130969941="@id/2131428732" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+.class final Lcom/binance/app/kmm/KoinKt$coreModule$1$1;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/binance/app/kmm/KoinKt$coreModule$1;->a(Lorg/koin/core/module/Module;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function2<",
+        "Lorg/koin/core/scope/Scope;",
+        "Lorg/koin/core/parameter/ParametersHolder;",
+        "Lco/touchlab/kermit/Logger;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0004\u001a\u00020\u0003*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u000b\u00a2\u0006\u0004\u0008\u0004\u0010\u0005"
+    }
+    d2 = {
+        "Lorg/koin/core/scope/Scope;",
+        "Lorg/koin/core/parameter/ParametersHolder;",
+        "p0",
+        "Lco/touchlab/kermit/Logger;",
+        "b",
+        "(Lorg/koin/core/scope/Scope;Lorg/koin/core/parameter/ParametersHolder;)Lco/touchlab/kermit/Logger;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final c:Lcom/binance/app/kmm/KoinKt$coreModule$1$1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/binance/app/kmm/KoinKt$coreModule$1$1;
+
+    invoke-direct {v0}, Lcom/binance/app/kmm/KoinKt$coreModule$1$1;-><init>()V
+
+    sput-object v0, Lcom/binance/app/kmm/KoinKt$coreModule$1$1;->c:Lcom/binance/app/kmm/KoinKt$coreModule$1$1;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    .line 65353
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Lorg/koin/core/scope/Scope;Lorg/koin/core/parameter/ParametersHolder;)Lco/touchlab/kermit/Logger;
+    .locals 1
+
+    .line 22
+    const-class p1, Ljava/lang/String;
+
+    invoke-static {p1}, Lo/WalletRestoreActivityoldBindProcess22;->a(Ljava/lang/Class;)Lo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;
+
+    move-result-object p1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p2, v0, p1}, Lorg/koin/core/parameter/ParametersHolder;->elementAt(ILo/ImportSeedPhraseUIComponentimportSeedPhraseWallet15;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/String;
+
+    if-eqz p1, :cond_0
+
+    .line 18
+    sget-object p2, Lco/touchlab/kermit/Logger;->DropdropElements4:Lco/touchlab/kermit/Logger$DropdropElements4;
+
+    .line 1028
+    new-instance v0, Lco/touchlab/kermit/Logger;
+
+    .line 2024
+    iget-object p2, p2, Lco/touchlab/kermit/BaseLogger;->e:Lo/isOrfFormat;
+
+    .line 1028
+    invoke-direct {v0, p2, p1}, Lco/touchlab/kermit/Logger;-><init>(Lo/isOrfFormat;Ljava/lang/String;)V
+
+    return-object v0
+
+    .line 18
+    :cond_0
+    sget-object p1, Lco/touchlab/kermit/Logger;->DropdropElements4:Lco/touchlab/kermit/Logger$DropdropElements4;
+
+    .line 3028
+    new-instance p2, Lco/touchlab/kermit/Logger;
+
+    .line 4024
+    iget-object p1, p1, Lco/touchlab/kermit/BaseLogger;->e:Lo/isOrfFormat;
+
+    .line 3028
+    const-string v0, "KMMLib"
+
+    invoke-direct {p2, p1, v0}, Lco/touchlab/kermit/Logger;-><init>(Lo/isOrfFormat;Ljava/lang/String;)V
+
+    return-object p2
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 18
+    check-cast p1, Lorg/koin/core/scope/Scope;
+
+    check-cast p2, Lorg/koin/core/parameter/ParametersHolder;
+
+    invoke-virtual {p0, p1, p2}, Lcom/binance/app/kmm/KoinKt$coreModule$1$1;->b(Lorg/koin/core/scope/Scope;Lorg/koin/core/parameter/ParametersHolder;)Lco/touchlab/kermit/Logger;
+
+    move-result-object p1
+
+    return-object p1
+.end method

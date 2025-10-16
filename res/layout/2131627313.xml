@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445006" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432514" ="gone" ="wrap_content" ="wrap_content" 2130969125="pAllocation,rvBreakdown" />
+    <com.github.mikephil.charting.charts.PieChart android:id="@id/pAllocation" ="120.0dip" ="120.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445006" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvBreakdown" ="0.0dip" ="wrap_content" ="8.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/pAllocation" 2130969942="0.0" 2130971059="3" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432522" ="wrap_content" ="wrap_content" 2130969125="ivPieEmpty,tvEmpty" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivPieEmpty" ="85.0dip" ="85.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445006" 2130971077="@drawable/2131234423" />
+    <TextView ="@color/2131099778" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/margin_no_data_found" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/ivPieEmpty" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

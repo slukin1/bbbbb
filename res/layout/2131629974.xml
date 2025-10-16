@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/wallet_withdrawal_transfer_amonut" style="@style/2132149350" />
+    <LinearLayout ="center_horizontal" ="horizontal" ="wrap_content" ="wrap_content" ="8.0dip" ="ltr">
+        <TextView ="@color/2131099764" android:id="@id/2131445226" ="wrap_content" ="wrap_content" style="@style/2132149416" />
+        <TextView ="@color/2131099764" android:id="@id/2131445228" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149461" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131238460" ="16.0dip" ="8.0dip" ="16.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="25.0dip">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/from" 2130969911="@id/2131446580" 2130969937="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/2131446580" ="wrap_content" ="wrap_content" android:text="@string/payment_funding_wallet" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_to" 2130969911="@id/2131447891" 2130969937="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/2131447891" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/wallet_withdrawal_spot_wallet" 2130969917="2131438103" 2130969940="@id/2131446580" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131429056" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/confirm" 2130970889="1" />
+</LinearLayout>

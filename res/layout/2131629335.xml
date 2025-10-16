@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447293" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_buyorder_method" ="@font/2131296273" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131447736" ="wrap_content" ="wrap_content" ="5.0dip" ="@id/2131447293" ="@font/2131296274" />
+        <FrameLayout ="wrap_content" ="32.0dip" ="true" ="ltr" ="true">
+            <TextView ="14.0sp" ="@drawable/2131232462" ="center_vertical" android:id="@id/2131445534" ="@drawable/2131232459" ="wrap_content" ="fill_parent" android:text="@string/_add" ="@font/2131296273" ="32.0dip" ="10.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434309" ="12.0dip" ="12.0dip" ="fitCenter" ="15.0dip" 2130971077="@drawable/2131232461" />
+        </FrameLayout>
+    </RelativeLayout>
+    <TextView ="12.0sp" ="#fff6465d" android:id="@id/2131437723" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/c2c_mob_ad_post_p2_error09" ="@font/2131296274" ="15.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439069" ="gone" ="fill_parent" ="wrap_content" />
+</LinearLayout>

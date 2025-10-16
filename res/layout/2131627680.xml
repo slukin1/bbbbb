@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431229" ="@drawable/2131232651" ="5.0dip" ="5.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437355" ="gone" ="wrap_content" ="38.0dip" android:text="@string/dwallet_connect_approve_network" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437354" ="gone" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131431200" ="wrap_content" ="38.0dip" android:text="@string/confirm_send_dialog_contract_address" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131437355" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131431199" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131437355" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131431156" ="wrap_content" ="38.0dip" android:text="@string/dwallet_transaction_sign_contract_function" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131431200" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131431157" ="0.0dip" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131431156" 2130969940="@id/2131431199" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

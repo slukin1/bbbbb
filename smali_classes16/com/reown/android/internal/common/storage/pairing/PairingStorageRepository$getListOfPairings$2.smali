@@ -1,0 +1,215 @@
+.class public final synthetic Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository$getListOfPairings$2;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.source "SourceFile"
+
+# interfaces
+.implements Lo/WalletNecessaryDataHelpergetSupportNetwork2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository;->getListOfPairings(Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1011
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lo/WalletNecessaryDataHelpergetSupportNetwork2<",
+        "Ljava/lang/String;",
+        "Ljava/lang/Long;",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Ljava/lang/Boolean;",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Ljava/util/List<",
+        "+",
+        "Ljava/lang/String;",
+        ">;",
+        "Ljava/lang/String;",
+        "Lcom/reown/android/internal/common/model/Pairing;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 7
+
+    const/16 v1, 0xc
+
+    .line 65354
+    const-class v3, Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository;
+
+    const-string v4, "toPairing"
+
+    const-string v5, "toPairing(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Lcom/reown/android/internal/common/model/Pairing;"
+
+    const/4 v6, 0x0
+
+    move-object v0, p0
+
+    move-object v2, p1
+
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Lcom/reown/android/internal/common/model/Pairing;
+    .locals 15
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "J",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/Boolean;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;",
+            "Ljava/lang/String;",
+            ")",
+            "Lcom/reown/android/internal/common/model/Pairing;"
+        }
+    .end annotation
+
+    const-string v0, ""
+
+    move-object/from16 v2, p1
+
+    invoke-static {v2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    move-object/from16 v5, p4
+
+    invoke-static {v5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    move-object/from16 v7, p6
+
+    invoke-static {v7, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    move-object/from16 v8, p7
+
+    invoke-static {v8, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    move-object v0, p0
+
+    .line 39
+    iget-object v1, v0, Lkotlin/jvm/internal/FunctionReferenceImpl;->receiver:Ljava/lang/Object;
+
+    check-cast v1, Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository;
+
+    move-wide/from16 v3, p2
+
+    move-object/from16 v6, p5
+
+    move-object/from16 v9, p8
+
+    move-object/from16 v10, p9
+
+    move-object/from16 v11, p10
+
+    move-object/from16 v12, p11
+
+    move-object/from16 v13, p12
+
+    move-object/from16 v14, p13
+
+    invoke-static/range {v1 .. v14}, Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository;->access$toPairing(Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Lcom/reown/android/internal/common/model/Pairing;
+
+    move-result-object v1
+
+    return-object v1
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 14
+
+    .line 39
+    move-object v1, p1
+
+    check-cast v1, Ljava/lang/String;
+
+    move-object/from16 v0, p2
+
+    check-cast v0, Ljava/lang/Number;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v2
+
+    move-object/from16 v4, p3
+
+    check-cast v4, Ljava/lang/String;
+
+    move-object/from16 v5, p4
+
+    check-cast v5, Ljava/lang/String;
+
+    move-object/from16 v6, p5
+
+    check-cast v6, Ljava/lang/String;
+
+    move-object/from16 v7, p6
+
+    check-cast v7, Ljava/lang/String;
+
+    move-object/from16 v8, p7
+
+    check-cast v8, Ljava/lang/Boolean;
+
+    move-object/from16 v9, p8
+
+    check-cast v9, Ljava/lang/String;
+
+    move-object/from16 v10, p9
+
+    check-cast v10, Ljava/lang/String;
+
+    move-object/from16 v11, p10
+
+    check-cast v11, Ljava/lang/String;
+
+    move-object/from16 v12, p11
+
+    check-cast v12, Ljava/util/List;
+
+    move-object/from16 v13, p12
+
+    check-cast v13, Ljava/lang/String;
+
+    move-object v0, p0
+
+    invoke-virtual/range {v0 .. v13}, Lcom/reown/android/internal/common/storage/pairing/PairingStorageRepository$getListOfPairings$2;->invoke(Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)Lcom/reown/android/internal/common/model/Pairing;
+
+    move-result-object v0
+
+    return-object v0
+.end method

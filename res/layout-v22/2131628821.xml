@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/2131436861" ="@null" ="fill_parent" ="109.0dip" 2130969331="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131436862" ="fill_parent" ="fill_parent" 2130969046="2131429431" 2130969047="@style/2132148671" 2130969149="@color/2131103064" 2130969421="2131440560" 2130969425="@dimen/2131166184" 2130969426="@dimen/2131166259" 2130969427="@style/2132148672" 2130969974="2131439795|@null" app:2130971384="@string/future_preference" 2130971387="true">
+            <androidx.appcompat.widget.Toolbar android:id="@id/2131436863" ="fill_parent" ="44.0dip" ="44.0dip" ="15.0dip" ="15.0dip" ="0.0dip" 2130969136="24.0dip" 2130969141="54.0dip" 2130969331="0.0dip" 2130969899="@id/2131436861" 2130969900="2131441647|2131429431" 2130969902="2131438344" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+            <com.binance.margin.trade.view.MarginLabelPreferencesItemView android:id="@id/2131449172" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970286="@string/margin_related" 2130970860="false" />
+            <com.binance.margin.trade.view.MarginRelatedPreferencesItemView android:id="@id/2131439509" ="fill_parent" ="62.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" app:2130971384="@string/margin_auto_borrow_repay" />
+            <com.binance.margin.trade.view.MarginRelatedPreferencesItemView android:id="@id/2131439510" ="fill_parent" ="62.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130971184="@string/margin_setting_auto_topup_desc" app:2130971384="@string/controllers_collaterals_detail_auto_title" />
+            <com.binance.margin.trade.view.MarginRelatedPreferencesItemView android:id="@id/2131439512" ="fill_parent" ="62.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130971184="@string/margin_setting_auto_topup_desc" app:2130971384="@string/margin_preference_customMCR_title" />
+            <com.binance.margin.trade.view.MarginRelatedPreferencesItemView android:id="@id/2131439514" ="fill_parent" ="62.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" app:2130971384="@string/margin_isolated_anc_title" />
+            <com.binance.margin.trade.view.MarginRelatedPreferencesItemView android:id="@id/2131439511" ="gone" ="fill_parent" ="62.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" app:2130971384="@string/margin_cross_account_mode" />
+            <LinearLayout ="center_vertical" android:id="@id/2131436170" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/margin_cross_benchmark" ="1.0" style="@style/2132149450" />
+                <LinearLayout ="center_vertical" ="horizontal" ="@drawable/2131236007" ="2.0dip" ="wrap_content" ="wrap_content" ="@color/2131099744">
+                    <TextView ="@color/2131102981" android:id="@id/2131445270" ="@drawable/2131232605" ="12.0dip" ="3.0dip" ="12.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="@color/2131099685" ="12.0dip" ="3.0dip" style="@style/2132149450" />
+                    <TextView ="@color/2131102981" android:id="@id/2131442279" ="@drawable/2131232604" ="12.0dip" ="3.0dip" ="12.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="3.0dip" style="@style/2132149450" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout ="vertical" android:id="@id/2131436314" ="fill_parent" ="wrap_content">
+                <com.major.android.uikit.divider.KitDivider android:id="@id/2131449166" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" />
+                <com.binance.margin.trade.view.MarginLabelPreferencesItemView android:id="@id/2131449165" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970286="@string/trade_layout" 2130970860="false" />
+                <LinearLayout ="center_vertical" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444114" ="0.0dip" ="wrap_content" android:text="@string/future_position_tab_layout_title" ="1.0" style="@style/2132149450" />
+                    <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.major.android.uikit.divider.KitDivider android:id="@id/2131449159" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" />
+            <com.binance.margin.trade.view.MarginLabelPreferencesItemView android:id="@id/2131449158" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970286="@string/spot_preference_general_setting_title" />
+            <com.binance.trade.sdk.widgets.RowLayout android:id="@id/2131439513" ="fill_parent" ="54.0dip" 2130970067="2131432457" 2130970068="2131432457" 2130970073="@string/margin_tap_to_fill_price" 2130970074="2131449747" />
+            <com.binance.margin.trade.view.MarginTradeNotificationSettingViewNew android:id="@id/2131438305" ="fill_parent" ="wrap_content" />
+            <com.binance.margin.trade.view.MarginRelatedPreferencesItemView android:id="@id/2131439515" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="16.0dip" 2130971184="@string/margin_pm_liquidation_alert_tip" />
+            <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" />
+            <com.binance.margin.trade.view.MarginLabelPreferencesItemView android:id="@id/2131449178" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970286="@string/order_confirmation" />
+            <androidx.fragment.app.FragmentContainerView ="com.binance.margin.features.preferences.orderconfirmation.OrderConfirmationFragment" android:id="@id/2131437894" ="fill_parent" ="wrap_content" />
+            <com.major.android.uikit.divider.KitDivider android:id="@id/2131449164" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" />
+            <com.binance.margin.trade.view.MarginLabelPreferencesItemView android:id="@id/2131449163" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970286="@string/finance_pref_k_line_in_trade_title" />
+            <com.binance.margin.trade.view.TradeKlinePositionPreferencesWidget android:id="@id/2131435101" ="fill_parent" ="wrap_content" />
+            <com.major.android.uikit.divider.KitDivider android:id="@id/2131449183" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" />
+            <com.binance.margin.trade.view.MarginLabelPreferencesItemView android:id="@id/2131449182" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970286="@string/margin_place_order_layout_title" />
+            <LinearLayout ="horizontal" android:id="@id/2131436309" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="@dimen/2131166184" ="12.0dip">
+                <LinearLayout ="center" ="vertical" android:id="@id/2131436310" ="@drawable/2131234921" ="0.0dip" ="142.0dip" ="1.0">
+                    <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131236457" />
+                    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_place_order_layout_left" style="@style/2132149350" />
+                </LinearLayout>
+                <View ="11.0dip" ="wrap_content" />
+                <LinearLayout ="center" ="vertical" android:id="@id/2131436308" ="@drawable/2131234921" ="0.0dip" ="142.0dip" ="1.0">
+                    <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131236456" />
+                    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/trade_horizontal" style="@style/2132149350" />
+                </LinearLayout>
+                <View ="11.0dip" ="wrap_content" />
+                <LinearLayout ="center" ="vertical" android:id="@id/2131436311" ="@drawable/2131234921" ="0.0dip" ="142.0dip" ="1.0">
+                    <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131236458" />
+                    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_place_order_layout_right" style="@style/2132149350" />
+                </LinearLayout>
+            </LinearLayout>
+            <View ="fill_parent" ="30.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

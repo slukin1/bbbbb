@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_horizontal" android:id="@id/icon" ="96.0dip" ="96.0dip" ="@drawable/2131238375" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" ="center" ="center_horizontal" android:id="@id/title" ="wrap_content" ="wrap_content" ="41.0dip" ="26.0dip" android:text="@string/ocbs_string_nuvei_new_account_step1_title" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/icon" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/step1Icon" ="20.0dip" ="20.0dip" ="35.0dip" ="@drawable/2131237192" 2130969937="2131438103" 2130969940="@id/title" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" android:id="@id/step1Text" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_nuvei_new_account_step1_tip1" ="10.0dip" 2130969936="@id/step1Icon" 2130969941="@id/step1Icon" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131440619" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="step1Text,step1Icon" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/step2Icon" ="20.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131238208" 2130969937="2131438103" 2130969940="@id/2131440619" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" android:id="@id/step2Text" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_nuvei_new_account_step1_tip2" ="10.0dip" 2130969936="@id/step2Icon" 2130969941="@id/step2Icon" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131440623" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="step2Icon,step2Text" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/step3Icon" ="20.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131237068" 2130969937="2131438103" 2130969940="@id/2131440623" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" android:id="@id/step3Text" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_nuvei_new_account_step1_tip3" ="10.0dip" 2130969936="@id/step3Icon" 2130969941="@id/step3Icon" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131440627" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="step3Icon,step3Text" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131435013" ="0.0dip" ="wrap_content" ="26.0dip" android:text="@string/_understand_continue" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440627" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

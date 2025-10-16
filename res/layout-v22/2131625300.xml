@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="@drawable/2131232783" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131448131" ="15.0dip" ="15.0dip" ="fill_parent" ="50.0dip" android:text="@string/show_qr_code" ="@dimen/2131166184" style="@style/2132149425" />
+    <FrameLayout ="#ffffffff" ="fill_parent" ="310.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434772" ="wrap_content" ="fill_parent" ="true" />
+        <com.airbnb.lottie.LottieAnimationView ="center" android:id="@id/2131436706" ="gone" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429088" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" android:text="@string/save" ="@dimen/2131166209" style="@style/2132148692" />
+</LinearLayout>

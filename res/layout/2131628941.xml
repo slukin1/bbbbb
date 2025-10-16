@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="end" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="2" style="@style/2132149450" />
+    <TextView ="end" android:id="@id/2131442816" ="fill_parent" ="wrap_content" ="4.0dip" ="2" style="@style/2132149361" />
+</LinearLayout>

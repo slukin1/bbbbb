@@ -1,0 +1,28 @@
+.class public final Lcom/cardinalcommerce/dependencies/internal/bouncycastle/jcajce/provider/asymmetric/edec/KeyPairGeneratorSpi$XDH;
+.super Lcom/cardinalcommerce/dependencies/internal/bouncycastle/jcajce/provider/asymmetric/edec/KeyPairGeneratorSpi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/cardinalcommerce/dependencies/internal/bouncycastle/jcajce/provider/asymmetric/edec/KeyPairGeneratorSpi;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "XDH"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const/4 v0, -0x2
+
+    const/4 v1, 0x0
+
+    .line 65354
+    invoke-direct {p0, v0, v1}, Lcom/cardinalcommerce/dependencies/internal/bouncycastle/jcajce/provider/asymmetric/edec/KeyPairGeneratorSpi;-><init>(ILo/OcbsSellInputFragmentopenChangeTransfiMobileMoneyAccountDialog211;)V
+
+    return-void
+.end method

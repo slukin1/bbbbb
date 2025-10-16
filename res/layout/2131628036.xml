@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429966" ="@drawable/2131235600" ="24.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/payment_send_double_check_payee_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="40.0dip" ="40.0dip" ="20.0dip" ="centerCrop" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" 2130971077="@drawable/2131235559" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429933" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434597">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447307" ="wrap_content" ="wrap_content" android:text="@string/payment_nickname" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447306" ="0.0dip" ="wrap_content" ="1" ="20.0dip" 2130969917="2131438103" 2130969936="@id/2131447307" 2130969941="@id/2131447307" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447309" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/payment_send_phone" ="1" 2130969937="@id/2131447307" 2130969940="@id/2131447307" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447308" ="0.0dip" ="wrap_content" ="1" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131447309" 2130969941="@id/2131447309" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447305" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/payment_send_country" ="1" 2130969937="@id/2131447309" 2130969940="@id/2131447309" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/2131447304" ="0.0dip" ="wrap_content" ="2" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131447305" 2130969941="@id/2131447305" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428989" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/cancel" 2130969918="@id/btn_confirm" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131429933" 2130970889="2131437069" 2130971472="2" />
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131428989" 2130969941="@id/2131428989" 2130970889="2131437069" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

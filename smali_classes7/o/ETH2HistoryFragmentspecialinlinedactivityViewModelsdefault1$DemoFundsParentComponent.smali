@@ -1,0 +1,109 @@
+.class public final Lo/ETH2HistoryFragmentspecialinlinedactivityViewModelsdefault1$DemoFundsParentComponent;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/ETH2HistoryFragmentspecialinlinedactivityViewModelsdefault1;-><init>()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Landroidx/lifecycle/ViewModelProvider$Factory;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic d:Lo/j;
+
+
+# direct methods
+.method public constructor <init>(Lo/j;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lo/ETH2HistoryFragmentspecialinlinedactivityViewModelsdefault1$DemoFundsParentComponent;->d:Lo/j;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()Landroidx/lifecycle/ViewModelProvider$Factory;
+    .locals 2
+
+    .line 99
+    iget-object v0, p0, Lo/ETH2HistoryFragmentspecialinlinedactivityViewModelsdefault1$DemoFundsParentComponent;->d:Lo/j;
+
+    invoke-interface {v0}, Lo/j;->bp_()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    instance-of v1, v0, Lo/ComposeUiNodeCompanionSetModifier1;
+
+    if-eqz v1, :cond_0
+
+    check-cast v0, Lo/ComposeUiNodeCompanionSetModifier1;
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    if-eqz v0, :cond_1
+
+    invoke-interface {v0}, Lo/ComposeUiNodeCompanionSetModifier1;->getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    return-object v0
+
+    .line 100
+    :cond_1
+    iget-object v0, p0, Lo/ETH2HistoryFragmentspecialinlinedactivityViewModelsdefault1$DemoFundsParentComponent;->d:Lo/j;
+
+    invoke-interface {v0}, Lo/j;->getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 95
+    invoke-virtual {p0}, Lo/ETH2HistoryFragmentspecialinlinedactivityViewModelsdefault1$DemoFundsParentComponent;->c()Landroidx/lifecycle/ViewModelProvider$Factory;
+
+    move-result-object v0
+
+    return-object v0
+.end method

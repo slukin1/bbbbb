@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_horizontal" ="64.0dip" ="64.0dip" ="30.0dip" 2130971077="@drawable/2131238396" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131442839" ="344.0dip" ="wrap_content" ="10.0dip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="all" ="center_horizontal" android:id="@id/2131443804" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_suspend_faq" style="@style/2132149377" />
+</LinearLayout>

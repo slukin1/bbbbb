@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@android:color/black" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.camera.view.PreviewView android:id="@id/2131438612" ="fill_parent" ="fill_parent" ="ltr" />
+    <io.uqudo.sdk.face.ui.FaceOvalOverlayView android:id="@id/2131431682" ="fill_parent" ="fill_parent" />
+    <TextView ="18.0sp" ="@android:color/white" ="center_horizontal" android:id="@id/2131431680" ="@drawable/2131238610" ="8.0dip" ="gone" ="250.0dip" ="wrap_content" ="@dimen/2131165740" android:text="@string/uq_face_facial_recognition_find_face" ="true" ="@font/2131296286" />
+    <TextView ="18.0sp" ="@android:color/white" ="center_horizontal" android:id="@id/2131431679" ="@drawable/2131238609" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" ="@dimen/2131165740" ="250.0dip" android:text="@string/uq_face_facial_recognition_find_face" ="true" ="@font/2131296286" ="20.0dip" ="20.0dip" />
+    <TextView ="18.0sp" ="@android:color/white" ="center_horizontal" android:id="@id/2131431681" ="@drawable/2131238611" ="8.0dip" ="gone" ="250.0dip" ="wrap_content" ="@dimen/2131165740" android:text="@string/uq_face_facial_recognition_find_face" ="true" ="@font/2131296286" />
+    <TextView ="18.0sp" ="#ff37465b" ="center_horizontal" android:id="@id/2131431678" ="@drawable/2131238608" ="8.0dip" ="gone" ="250.0dip" ="wrap_content" ="@dimen/2131165740" android:text="@string/uq_face_facial_recognition_find_face" ="true" ="@font/2131296286" />
+    <ImageButton android:id="@id/2131428702" ="?2130970781" ="48.0dip" ="48.0dip" ="8.0dip" ="@drawable/2131238587" ="@null" 2130971375="@color/2131103118" />
+    <TextView ="20.0sp" ="@android:color/white" ="center" ="wrap_content" ="48.0dip" ="8.0dip" android:text="@string/uq_face_title" ="true" ="@font/2131296286" />
+    <LinearLayout ="center" ="vertical" ="fill_parent" ="150.0dip" ="20.0dip" ="true">
+        <TextView ="20.0sp" ="@android:color/white" ="center_horizontal" android:id="@id/message" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/uq_face_position" ="@font/2131296284" ="30.0dip" ="30.0dip" />
+        <ImageButton android:id="@id/2131428913" ="@null" ="64.0dip" ="64.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131238615" ="@null" ="20.0dip" ="20.0dip" />
+    </LinearLayout>
+</RelativeLayout>

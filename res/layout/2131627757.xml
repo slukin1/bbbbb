@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="@color/2131099685" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="@drawable/2131235287" ="28.0dip" ="28.0dip" ="10.0dip">
+        <ImageView ="center" android:id="@id/2131433920" ="@drawable/2131235275" ="16.0dip" ="16.0dip" />
+    </FrameLayout>
+    <LinearLayout ="vertical" ="wrap_content" ="wrap_content">
+        <TextView ="@color/2131102397" ="end" android:id="@id/2131445058" ="fill_parent" ="wrap_content" ="1" style="@style/2132149446" />
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/tvTime" ="fill_parent" ="wrap_content" ="4.0dip" style="@style/2132149361" />
+    </LinearLayout>
+</LinearLayout>

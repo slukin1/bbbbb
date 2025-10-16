@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447802" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_want_to" style="@style/2132149450" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441090" ="@drawable/2131236600" ="2.0dip" ="fill_parent" ="32.0dip" ="7.0dip" ="@color/2131099745" />
+</merge>

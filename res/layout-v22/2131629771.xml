@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431099" layout="@layout/2131624294" />
+    <LinearLayout ="center" ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="0.0dip" ="24.0dip" ="40.0dip" ="@dimen/2131166184" 2130969912="@id/2131428837" 2130969940="@id/2131431099">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434122" ="96.0dip" ="96.0dip" 2130971077="@drawable/2131238405" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131444450" ="wrap_content" ="wrap_content" ="12.0dip" style="@style/2132149425" />
+        <TextView ="@color/2131099778" ="center" android:id="@id/2131444446" ="wrap_content" ="wrap_content" ="12.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428837" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/ok" 2130969911="2131438103" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

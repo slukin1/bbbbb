@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429876" ="fill_parent" ="70.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_iv" ="@drawable/2131232803" ="40.0dip" ="40.0dip" ="centerCrop" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429825" ="0.0dip" ="wrap_content" ="10.0dip" 2130969911="@id/icon_iv" 2130969917="2131438103" 2130969936="@id/icon_iv" 2130969941="@id/icon_iv">
+        <TextView ="@color/2131099764" android:id="@id/2131450215" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="12.0sp" ="@color/2131099785" android:id="@id/2131450305" ="wrap_content" ="wrap_content" ="1.0dip" android:text="@string/dwallet_wallethub_connect_binancewallet_title" 2130969937="2131438103" 2130969940="@id/2131450215" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131447595" ="gone" ="16.0dip" ="16.0dip" ="@drawable/2131238754" ="10.0dip" 2130969911="@id/2131450215" 2130969936="@id/2131450215" 2130969941="@id/2131450215" />
+        <TextView ="@color/2131099787" ="center" android:id="@id/2131446319" ="gone" ="wrap_content" ="wrap_content" android:text="@string/dwallet_wallethub_wallet_download" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="12.0sp" ="@color/2131099778" ="center" android:id="@id/2131447142" ="@drawable/2131232806" ="1.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/dwallet_wallethub_wallet_not_installed_tip" ="2.0dip" ="2.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    <com.mpc.wallet.widget.uikit.KitDivider ="gone" ="fill_parent" ="wrap_content" 2130969292="@null" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

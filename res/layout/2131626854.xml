@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView ="none" ="fill_parent" ="fill_parent" ="true" ="never">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="20.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444003" ="0.0dip" ="wrap_content" ="8.0dip" ="34.0dip" android:text="@string/ocbs_pay_with_transfer_details" ="false" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgClock" ="16.0dip" ="16.0dip" ="7.0dip" ="@drawable/2131238208" 2130969937="@id/2131444003" 2130969940="@id/2131444003" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvPayWith" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_pay_within" ="false" ="4.0dip" 2130969911="@id/imgClock" 2130969936="@id/imgClock" 2130969940="@id/2131444003" 2130969941="@id/imgClock" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="22.0dip" android:text="--" ="false" ="4.0dip" 2130969911="@id/tvPayWith" 2130969936="@id/tvPayWith" 2130969941="@id/tvPayWith" style="@style/2132149374" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/2131428327" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="imgClock,tvPayWith,tvTime" />
+            <View android:id="@id/2131430678" ="@color/2131099751" ="0.0dip" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428327" />
+            <FrameLayout android:id="@id/2131431908" ="0.0dip" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430678">
+                <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" android:text="@string/ocbs_cpf_copy_tip" style="@style/2132149350" />
+                    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236538" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip">
+                        <LinearLayout ="horizontal" android:id="@id/2131436201" ="fill_parent" ="wrap_content">
+                            <ImageView ="24.0dip" ="24.0dip" ="@drawable/2131233493" />
+                            <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="8.0dip">
+                                <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/ocbs_pix_copy_and_paste" ="1" ="false" style="@style/2132149374" />
+                                <TextView ="@color/2131099778" ="end" ="center_vertical" android:id="@id/2131444211" ="fill_parent" ="22.0dip" ="4.0dip" ="1" ="false" style="@style/2132149355" />
+                                <com.major.android.uikit2.button.KitButton ="center_vertical" android:id="@id/2131433780" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/fiat_history_copy_pix_code" style="@style/2132148706" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="16.0dip" ="12.0dip">
+                            <View ="@color/2131099751" ="0.0dip" ="0.5dip" ="1.0" />
+                            <TextView ="@color/2131099762" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_or" ="false" ="12.0dip" ="12.0dip" style="@style/2132149394" />
+                            <View ="@color/2131099751" ="0.0dip" ="0.5dip" ="1.0" />
+                        </LinearLayout>
+                        <TextView ="@color/2131099764" ="center" android:id="@id/2131444964" ="fill_parent" ="wrap_content" ="12.0dip" ="22.0dip" android:text="@string/ocbs_scan_pix_qr_code" ="false" style="@style/2132149374" />
+                        <ImageView ="center_horizontal" android:id="@id/2131433262" ="124.0dip" ="124.0dip" ="8.0dip" ="fitCenter" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444529" />
+                        <LinearLayout ="center" ="center_horizontal" ="horizontal" ="wrap_content" ="wrap_content" ="8.0dip">
+                            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="@drawable/2131237527" ="@color/2131099738" />
+                            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131444201" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_cpf_provided_by" ="false" ="8.0dip" style="@style/2132149384" />
+                        </LinearLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </FrameLayout>
+            <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437789" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969837="100" 2130969843="0" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431908" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,36 @@
+.class public final synthetic Lo/g0067gg0067g00670067;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field private synthetic a:Lcom/major/android/uikit/dialog/KitLoadingDialog;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/major/android/uikit/dialog/KitLoadingDialog;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/g0067gg0067g00670067;->a:Lcom/major/android/uikit/dialog/KitLoadingDialog;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/g0067gg0067g00670067;->a:Lcom/major/android/uikit/dialog/KitLoadingDialog;
+
+    invoke-static {v0}, Lcom/prometheus/account/activities/currency/CurrencyActivity;->c(Lcom/major/android/uikit/dialog/KitLoadingDialog;)V
+
+    return-void
+.end method

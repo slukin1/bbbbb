@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@dimen/sns_margin_small_tiny" ="@dimen/sns_margin_small_tiny" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_small_tiny" ="@dimen/sns_margin_small_tiny" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_item_start_icon" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle1TextView android:id="@id/sns_item_title" ="true" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969936="@id/sns_item_start_icon" 2130969941="2131438103" 2130969958="@dimen/sns_margin_medium" 2130969961="@dimen/sns_margin_small" />
+    <com.sumsub.sns.core.widget.SNSBodyTextView android:id="@id/sns_item_subtitle" ="true" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_tiny" 2130969917="@id/sns_item_title" 2130969937="@id/sns_item_title" 2130969940="@id/sns_item_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

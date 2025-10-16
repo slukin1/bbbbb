@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131445040" ="wrap_content" ="wrap_content" android:text="@string/margin_today_pnl" 2130969918="@id/2131433885" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <com.binance.trade.sdk.widgets.MarginFundsEyeView android:id="@id/2131433885" ="4.0dip" ="24.0dip" ="24.0dip" 2130969911="@id/2131445040" 2130969936="@id/2131445040" 2130969941="@id/2131445040" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445038" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="2131438103" 2130969940="@id/2131445040" style="@style/2132149414" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445041" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="4.0dip" 2130969911="@id/2131445038" 2130969936="@id/2131445038" style="@style/2132149350" />
+    <com.binance.margin.pnldetail.MarginPnlItem android:id="@id/2131438480" ="0.0dip" ="wrap_content" ="12.0dip" 2130969918="@id/2131438479" 2130969937="2131438103" 2130969940="@id/2131445041" 2130970479="@string/placeholder" app:2130971384="@string/margin_wallet_profit_loss_title" 2130971532="@string/placeholder" />
+    <com.binance.margin.pnldetail.MarginPnlItem android:id="@id/2131438479" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969936="@id/2131438480" 2130969941="@id/2131438480" 2130970479="@string/placeholder" app:2130971384="@string/wallet_pnl_30_day_pnl_label" 2130971532="@string/placeholder" />
+</androidx.constraintlayout.widget.ConstraintLayout>

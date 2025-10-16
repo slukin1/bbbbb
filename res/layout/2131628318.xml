@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="@drawable/2131234718" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446679" ="20.0dip" ="wrap_content" style="@style/2132149463" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="wrap_content" ="wrap_content" ="6.0dip">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="ltr" style="@style/2132149446" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446651" ="@drawable/2131235998" ="3.0dip" ="3.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" android:text="@string/holding" ="4.0dip" ="@color/2131099800" style="@style/2132149394" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447950" ="visible" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat ="end" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/tv_percent" ="wrap_content" ="wrap_content" ="ltr" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_est_apr" ="ltr" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.binance.base.sensor.view.BaseExposureLayout>

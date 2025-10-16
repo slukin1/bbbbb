@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236021" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131434506" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="14.0dip" ="14.0dip" android:text="@string/select_date" ="14.0dip" ="15.0dip" style="@style/2132149425" />
+    <FrameLayout android:id="@id/2131430317" ="fill_parent" ="wrap_content" />
+    <LinearLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/futures_select_symbol_tip_asterisk" style="@style/2132149384" />
+        <androidx.legacy.widget.Space ="4.0dip" ="fill_parent" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444964" ="wrap_content" ="wrap_content" android:text="@string/margin_pnl_time_filter_tip" style="@style/2132149384" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="30.0dip" ="25.0dip" ="15.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428877" ="0.0dip" ="wrap_content" android:text="@string/reset" ="1.0" ="15.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/2131432180" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.orderbook.SpotOrderBookLayout android:id="@id/2131437889" ="fill_parent" ="wrap_content" ="5.0dip" 2130968777="Spot" 2130969896="com.finance.framework.widget.orderbook.layoutprovider.MarketLandscapeLayoutProvider" 2130971563="40" />
+</LinearLayout>

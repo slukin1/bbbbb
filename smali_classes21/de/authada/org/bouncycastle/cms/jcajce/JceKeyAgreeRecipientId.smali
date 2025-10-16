@@ -1,0 +1,38 @@
+.class public Lde/authada/org/bouncycastle/cms/jcajce/JceKeyAgreeRecipientId;
+.super Lde/authada/org/bouncycastle/cms/KeyAgreeRecipientId;
+
+
+# direct methods
+.method public constructor <init>(Ljava/security/cert/X509Certificate;)V
+    .locals 1
+
+    .line 65354
+    invoke-virtual {p1}, Ljava/security/cert/X509Certificate;->getIssuerX500Principal()Ljavax/security/auth/x500/X500Principal;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Ljava/security/cert/X509Certificate;->getSerialNumber()Ljava/math/BigInteger;
+
+    move-result-object p1
+
+    invoke-direct {p0, v0, p1}, Lde/authada/org/bouncycastle/cms/jcajce/JceKeyAgreeRecipientId;-><init>(Ljavax/security/auth/x500/X500Principal;Ljava/math/BigInteger;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljavax/security/auth/x500/X500Principal;Ljava/math/BigInteger;)V
+    .locals 0
+
+    .line 65353
+    invoke-virtual {p1}, Ljavax/security/auth/x500/X500Principal;->getEncoded()[B
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/x500/X500Name;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x500/X500Name;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1, p2}, Lde/authada/org/bouncycastle/cms/KeyAgreeRecipientId;-><init>(Lde/authada/org/bouncycastle/asn1/x500/X500Name;Ljava/math/BigInteger;)V
+
+    return-void
+.end method

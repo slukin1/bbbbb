@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="64.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="vertical" android:id="@id/2131436261" ="@drawable/2131234921" ="0.0dip" ="142.0dip" ="1.0">
+        <androidx.appcompat.widget.AppCompatImageView ="56.0dip" ="81.0dip" ="fitXY" 2130971077="@drawable/2131236455" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/to_top" style="@style/2132149350" />
+    </LinearLayout>
+    <View ="11.0dip" ="wrap_content" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131436259" ="@drawable/2131234921" ="0.0dip" ="142.0dip" ="1.0">
+        <androidx.appcompat.widget.AppCompatImageView ="56.0dip" ="81.0dip" ="fitXY" 2130971077="@drawable/2131236453" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/common_kline_position_bottom" style="@style/2132149350" />
+    </LinearLayout>
+    <View ="11.0dip" ="wrap_content" />
+    <LinearLayout ="center" ="vertical" android:id="@id/2131436260" ="@drawable/2131234921" ="0.0dip" ="142.0dip" ="1.0">
+        <androidx.appcompat.widget.AppCompatImageView ="56.0dip" ="81.0dip" ="fitXY" 2130971077="@drawable/2131236454" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/common_kline_position_none" style="@style/2132149350" />
+    </LinearLayout>
+</LinearLayout>

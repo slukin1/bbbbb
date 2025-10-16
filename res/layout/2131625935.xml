@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="none" ="fill_parent" ="fill_parent" ="true" ="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="20.0dip" ="fill_parent" ="wrap_content">
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432258" ="fill_parent" ="wrap_content">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438408" ="fill_parent" ="wrap_content" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432255" ="fill_parent" ="wrap_content">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438386" ="fill_parent" ="wrap_content" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432259" ="fill_parent" ="wrap_content">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438416" ="fill_parent" ="wrap_content" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432257" ="fill_parent" ="wrap_content">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438404" ="fill_parent" ="wrap_content" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432260" ="fill_parent" ="wrap_content">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438425" ="fill_parent" ="wrap_content" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <com.finance.framework.widget.BlockHorizontalSlipFrameLayout android:id="@id/2131432256" ="fill_parent" ="wrap_content">
+            <com.binance.base.component.PlaceholderView android:id="@id/2131438390" ="fill_parent" ="wrap_content" />
+        </com.finance.framework.widget.BlockHorizontalSlipFrameLayout>
+        <TextView ="#ff848e9c" ="center" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/no_more_data" style="@style/2132149350" />
+        <Space ="1.0dip" ="175.0dip" />
+    </LinearLayout>
+</ScrollView>

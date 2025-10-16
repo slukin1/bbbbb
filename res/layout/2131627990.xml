@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427919" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" android:id="@id/2131442855" ="11.0dip" ="wrap_content" ="wrap_content" android:text="@string/ms_index_done" ="4.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434217" ="120.0dip" ="100.0dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442855" 2130971077="@drawable/2131235664" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" ="center" android:id="@id/2131443747" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/content_cryptobox_createdv3" ="4.0dip" 2130969311="@drawable/2131234200" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434217" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131445353" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/payment_crypto_box_view_details" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443747" style="@style/2132149454" />
+    <ScrollView ="fill_parent" ="0.0dip" ="40.0dip" 2130969911="2131438103" 2130969940="@id/2131445353">
+        <FrameLayout android:id="@id/2131430273" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969940="@id/2131445353" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

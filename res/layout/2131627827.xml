@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235358" ="10.0dip" ="320.0dip" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="bold" ="@android:color/black" ="center" android:id="@id/2131450345" ="10.0dip" ="fill_parent" ="wrap_content" android:text="Select Key" />
+    <Spinner ="18.0sp" android:id="@id/2131450346" ="#ffeeeeee" ="10.0dip" ="fill_parent" ="wrap_content" ="10.0dip" />
+    <LinearLayout ="center" ="horizontal" ="@android:color/white" ="0.0dip" ="fill_parent" ="wrap_content">
+        <Button ="18.0sp" ="@android:color/holo_blue_dark" android:id="@id/2131450343" ="@android:color/white" ="wrap_content" ="wrap_content" ="6.0dip" android:text="CANCEL" ="6.0dip" style="?android:borderlessButtonStyle" />
+        <Button ="18.0sp" ="@android:color/holo_blue_dark" android:id="@id/2131450344" ="@android:color/white" ="wrap_content" ="wrap_content" ="6.0dip" android:text="SELECT" ="6.0dip" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

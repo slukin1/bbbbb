@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234718" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441547" ="36.0dip" ="36.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="ltr" ="8.0dip" 2130969936="@id/2131441547" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440815" ="@drawable/2131235998" ="3.0dip" ="3.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" ="4.0dip" ="@color/2131099800" 2130969911="@id/title" 2130969936="@id/title" 2130969941="@id/title" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440847" ="wrap_content" ="wrap_content" ="ltr" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131441547" 2130969940="@id/title" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/price" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ff00c087" android:id="@id/2131438267" ="wrap_content" ="wrap_content" ="ltr" 2130969911="2131438103" 2130969917="@id/price" 2130969940="@id/price" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

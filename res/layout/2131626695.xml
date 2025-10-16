@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center" ="center" android:id="@id/2131438565" ="#66000000" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView ="center" ="center" android:id="@id/2131429266" ="gone" ="342.0dip" ="355.0dip" />
+    <LinearLayout ="center" ="center" ="vertical" android:id="@id/2131429265" ="@drawable/2131232916" ="visible" ="112.0dip" ="102.0dip">
+        <ProgressBar ="gone" ="34.0dip" ="34.0dip" ="centerInside" ="@drawable/2131232898" />
+        <com.bina.security.spinkit.SpinKitView ="center" android:id="@id/2131450334" ="34.0dip" ="34.0dip" ="centerInside" SpinKit_Color="#fffcc800" style="@style/2132149177" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        <TextView ="14.0sp" ="#ff1e2026" android:id="@id/2131447523" ="wrap_content" ="wrap_content" ="8.0dip" android:text="Loading" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236699" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166286" ="@dimen/2131166225" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432688" ="wrap_content" ="wrap_content" 2130969125="tv_sort_title,tv_colon,tv_sort_desc,iv_sort_arrow" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_sort_title" ="wrap_content" ="wrap_content" android:text="@string/strategy_leader_board_sort_by" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149377" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_colon" ="wrap_content" ="wrap_content" android:text=":" 2130969936="@id/tv_sort_title" 2130969941="@id/tv_sort_title" style="@style/2132149377" />
+    <TextView ="@color/2131099764" ="end" ="start|center" android:id="@id/tv_sort_desc" ="wrap_content" ="wrap_content" ="1" ="4.0dip" 2130969905="true" 2130969918="@id/iv_sort_arrow" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/tv_colon" 2130969941="2131438103" style="@style/2132149377" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_sort_arrow" ="16.0dip" ="16.0dip" ="centerInside" ="@null" 2130969911="@id/tv_sort_title" 2130969917="2131438103" 2130969936="@id/tv_sort_desc" 2130969941="@id/tv_sort_title" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+</androidx.constraintlayout.widget.ConstraintLayout>

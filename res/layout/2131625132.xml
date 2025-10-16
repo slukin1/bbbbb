@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/image" ="96.0dip" ="96.0dip" ="106.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235413" />
+    <TextView ="@color/2131099764" android:id="@id/2131441186" ="wrap_content" ="wrap_content" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/image" style="@style/2132149425" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131430855" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/eternal_convert_exchange_completed" ="5.0dip" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441186" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131449726" ="fill_parent" ="wrap_content" ="134.0dip" android:text="@string/earn_view_wallet" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430855" />
+</androidx.constraintlayout.widget.ConstraintLayout>

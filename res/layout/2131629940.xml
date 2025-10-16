@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" ="center" ="vertical" android:id="@id/2131437482" ="gone" ="fill_parent" ="wrap_content" ="75.0dip" ="75.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="2131438103">
+        <ImageView ="96.0dip" ="96.0dip" ="@null" 2130971077="@drawable/2131238395" />
+        <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/ms_network_link_failed" ="@font/2131296274" />
+        <TextView ="#ffd89f00" android:id="@id/2131439124" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/fetch_again" ="8.0dip" ="8.0dip" 2130969311="@drawable/2131237936" style="@style/2132149371" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/2131439190" ="gone" ="wrap_content" ="wrap_content" ="109.0dip" android:text="@string/ms_deposit_user_restricted_restricted_country_tip" ="20.0dip" ="30.0dip" ="30.0dip" 2130969314="@drawable/2131238396" style="@style/2132149355" />
+    <include ="center" android:id="@id/2131439189" ="gone" ="fill_parent" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" 2130969940="2131438103" layout="@layout/2131630110" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/2131427765" ="gone" ="wrap_content" ="wrap_content" ="109.0dip" android:text="@string/wallet_all_network_unavailable_tips" ="20.0dip" 2130969314="@drawable/2131238396" 2130969917="2131438103" 2130969937="2131438103" 2130969940="2131438103" style="@style/2132149355" />
+</FrameLayout>

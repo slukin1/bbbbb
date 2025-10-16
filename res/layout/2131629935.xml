@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="#ffeaecef" android:id="@id/daily_pnl_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_daily_pnl_label" 2130969937="2131438103" style="@style/2132149350" />
+        <TextView ="#ff848e9c" android:id="@id/daily_pnl_selected_date_label" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        <TextView ="#ff2ebd85" android:id="@id/pnl_profits_selected_profit" ="wrap_content" ="wrap_content" ="ltr" style="@style/2132149474" />
+        <com.github.mikephil.charting.charts.BarChart android:id="@id/daily_pnl_chart" ="fill_parent" ="157.0dip" ="10.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include ="center" android:id="@id/2131431415" ="fill_parent" ="fill_parent" layout="@layout/2131630149" />
+    <include ="center" android:id="@id/2131438693" ="gone" ="fill_parent" ="fill_parent" layout="@layout/2131630150" />
+</FrameLayout>

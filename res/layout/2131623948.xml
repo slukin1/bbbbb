@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.FitWindowsLinearLayout ="vertical" ="true" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="end" ="start" android:id="@id/title" ="?2130969269" ="18.0dip" ="?2130969269" ="fill_parent" ="wrap_content" ="true" ="viewStart" style="?android:windowTitleStyle" />
+    <include ="fill_parent" ="wrap_content" ="1.0" layout="@layout/2131623956" />
+</androidx.appcompat.widget.FitWindowsLinearLayout>

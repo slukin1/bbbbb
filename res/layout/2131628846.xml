@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView ="@color/2131099778" ="start" android:id="@id/tv_price_title" ="wrap_content" ="wrap_content" ="2" ="false" ="8.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130969999="13.0dip" style="@style/2132149390" />
+    <com.google.android.material.textview.MaterialTextView ="@color/2131099778" ="end" android:id="@id/tv_amount_title" ="wrap_content" ="wrap_content" ="2" 2130969917="2131438103" 2130969941="2131438103" 2130969999="13.0dip" style="@style/2132149390" />
+    <Space android:id="@id/2131441673" ="fill_parent" ="2.0dip" 2130969912="@id/orderBookView_ask" 2130969937="2131438103" 2130969940="@id/tv_price_title" />
+    <com.binance.trade.sdk.orderbook.widgets.OrderBookView android:id="@id/orderBookView_ask" ="fill_parent" ="0.0dip" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969638="@color/2131099765" 2130969912="@id/2131435281" 2130969937="2131438103" 2130969940="@id/2131441673" 2130970437="@dimen/2131166200" />
+    <Space android:id="@id/2131435281" ="fill_parent" ="2.0dip" 2130969912="@id/2131446783" 2130969940="@id/orderBookView_ask" />
+    <com.google.android.material.textview.MaterialTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131446783" ="wrap_content" ="wrap_content" ="false" 2130969335="false" 2130969912="@id/2131446948" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435281" 2130969943="2131438085" 2130969999="20.0dip" style="@style/2132149445" />
+    <com.google.android.material.textview.MaterialTextView ="@color/2131099778" android:id="@id/2131446948" ="wrap_content" ="wrap_content" ="false" 2130969335="false" 2130969912="@id/2131435280" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446783" 2130969999="14.0dip" 2130971380="2131430667" style="@style/2132149384" />
+    <Space android:id="@id/2131435280" ="fill_parent" ="2.0dip" 2130969912="@id/orderBookView_bid" 2130969940="@id/2131446948" />
+    <com.binance.trade.sdk.orderbook.widgets.OrderBookView android:id="@id/orderBookView_bid" ="fill_parent" ="0.0dip" ="8.0dip" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969638="@color/2131099765" 2130969912="@id/2131428554" 2130969937="2131438103" 2130969940="@id/2131435280" 2130969957="@dimen/2131166153" 2130970437="@dimen/2131166200" />
+    <Space android:id="@id/2131428554" ="fill_parent" ="2.0dip" 2130969912="@id/2131430682" 2130969937="2131438103" 2130969940="@id/orderBookView_bid" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131430682" ="fill_parent" ="16.0dip" ="8.0dip" 2130969912="@id/2131429185" 2130969940="@id/2131428554" />
+    <Space android:id="@id/2131429185" ="fill_parent" ="2.0dip" 2130969912="@id/2131435616" 2130969937="2131438103" 2130969940="@id/2131430682" />
+    <FrameLayout android:id="@id/2131435616" ="0.0dip" ="20.0dip" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131434254" 2130969937="2131438103" 2130969940="@id/2131429185">
+        <TextView ="@color/2131099778" ="start|center" ="start" ="horizontal" android:id="@id/2131442779" ="@drawable/2131236004" ="8.0dip" ="8.0dip" ="fill_parent" ="20.0dip" ="@color/2131099744" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433804" ="16.0dip" ="16.0dip" ="6.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131434254" ="20.0dip" ="20.0dip" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131435616" 2130969941="@id/2131435616" 2130971077="@drawable/2131233651" />
+</merge>

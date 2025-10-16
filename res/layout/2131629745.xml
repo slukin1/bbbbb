@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout android:id="@id/2131429942" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435620" ="fill_parent" ="wrap_content" layout="@layout/2131625487" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435620">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439681" ="fill_parent" ="fill_parent" ="true" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" ="100.0dip" ="20.0dip" android:text="@string/margin_lite_no_positions" ="20.0dip" 2130969314="@drawable/2131238419" style="@style/2132149450" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout>

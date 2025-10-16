@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236040" ="12.0dip" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433687" ="32.0dip" ="32.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131443156" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296273" 2130969937="2131438103" 2130969940="@id/2131433687" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445019" ="wrap_content" ="wrap_content" ="@font/2131296273" ="2.0dip" 2130969911="@id/2131443156" 2130969936="@id/2131443156" 2130969941="@id/2131443156" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969937="@id/2131443156" 2130969940="@id/2131443156" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099851" android:id="@id/2131444060" ="wrap_content" ="wrap_content" ="@font/2131296273" 2130969937="@id/tvPrice" 2130969940="@id/tvPrice" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="center" android:id="@id/2131449004" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131449000" ="@color/2131099763" ="false" ="false" ="fill_parent" ="wrap_content" ="78.0dip" ="62.0dip" ="15.0dip" ="15.0dip" ="10.0dip" ="@color/2131099763" 2130968912="12.0dip" 2130968919="true">
+        <LinearLayout ="center_vertical" ="horizontal" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="top" android:id="@id/2131449002" ="20.0dip" ="20.0dip" ="centerInside" />
+            <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131449009" ="0.0dip" ="wrap_content" ="1.0" ="4.0dip">
+                <TextView ="14.0sp" ="@color/2131099764" ="end" ="center_horizontal" ="start" android:id="@id/2131449001" ="vertical" ="wrap_content" ="wrap_content" ="1" ="true" ="@font/2131296271" ="locale" ="gravity" />
+                <TextView ="12.0sp" ="@color/2131099778" ="@color/2131099787" ="center_vertical" ="start" android:id="@id/2131449007" ="fill_parent" ="wrap_content" ="true" ="@font/2131296281" ="locale" ="gravity" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView ="top" android:id="@id/2131448998" ="visible" ="20.0dip" ="20.0dip" ="centerInside" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

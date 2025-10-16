@@ -1,0 +1,242 @@
+.class Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$GenericBlockCipher;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "BufferedGenericBlockCipher"
+.end annotation
+
+
+# instance fields
+.field private cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+
+# direct methods
+.method constructor <init>(Lde/authada/org/bouncycastle/crypto/BlockCipher;)V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lde/authada/org/bouncycastle/crypto/paddings/PKCS7Padding;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/crypto/paddings/PKCS7Padding;-><init>()V
+
+    invoke-direct {p0, p1, v0}, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;-><init>(Lde/authada/org/bouncycastle/crypto/BlockCipher;Lde/authada/org/bouncycastle/crypto/paddings/BlockCipherPadding;)V
+
+    return-void
+.end method
+
+.method constructor <init>(Lde/authada/org/bouncycastle/crypto/BlockCipher;Lde/authada/org/bouncycastle/crypto/paddings/BlockCipherPadding;)V
+    .locals 1
+
+    .line 65353
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Lde/authada/org/bouncycastle/crypto/paddings/PaddedBufferedBlockCipher;
+
+    invoke-direct {v0, p1, p2}, Lde/authada/org/bouncycastle/crypto/paddings/PaddedBufferedBlockCipher;-><init>(Lde/authada/org/bouncycastle/crypto/BlockCipher;Lde/authada/org/bouncycastle/crypto/paddings/BlockCipherPadding;)V
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    return-void
+.end method
+
+.method constructor <init>(Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;)V
+    .locals 0
+
+    .line 65352
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public doFinal([BI)I
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/IllegalStateException;,
+            Ljavax/crypto/BadPaddingException;
+        }
+    .end annotation
+
+    .line 65351
+    :try_start_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0, p1, p2}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->doFinal([BI)I
+
+    move-result p1
+    :try_end_0
+    .catch Lde/authada/org/bouncycastle/crypto/InvalidCipherTextException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return p1
+
+    :catch_0
+    move-exception p1
+
+    new-instance p2, Ljavax/crypto/BadPaddingException;
+
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljavax/crypto/BadPaddingException;-><init>(Ljava/lang/String;)V
+
+    throw p2
+.end method
+
+.method public getAlgorithmName()Ljava/lang/String;
+    .locals 1
+
+    .line 65350
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->getUnderlyingCipher()Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lde/authada/org/bouncycastle/crypto/BlockCipher;->getAlgorithmName()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getOutputSize(I)I
+    .locals 1
+
+    .line 65349
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0, p1}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->getOutputSize(I)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public getUnderlyingCipher()Lde/authada/org/bouncycastle/crypto/BlockCipher;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->getUnderlyingCipher()Lde/authada/org/bouncycastle/crypto/BlockCipher;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getUpdateOutputSize(I)I
+    .locals 1
+
+    .line 65347
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0, p1}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->getUpdateOutputSize(I)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public init(ZLde/authada/org/bouncycastle/crypto/CipherParameters;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/IllegalArgumentException;
+        }
+    .end annotation
+
+    .line 65346
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0, p1, p2}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->init(ZLde/authada/org/bouncycastle/crypto/CipherParameters;)V
+
+    return-void
+.end method
+
+.method public processByte(B[BI)I
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lde/authada/org/bouncycastle/crypto/DataLengthException;
+        }
+    .end annotation
+
+    .line 65345
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    invoke-virtual {v0, p1, p2, p3}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->processByte(B[BI)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public processBytes([BII[BI)I
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lde/authada/org/bouncycastle/crypto/DataLengthException;
+        }
+    .end annotation
+
+    .line 65344
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    move-object v1, p1
+
+    move v2, p2
+
+    move v3, p3
+
+    move-object v4, p4
+
+    move v5, p5
+
+    invoke-virtual/range {v0 .. v5}, Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;->processBytes([BII[BI)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public updateAAD([BII)V
+    .locals 0
+
+    .line 65343
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "AAD is not supported in the current mode."
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public wrapOnNoPadding()Z
+    .locals 1
+
+    .line 65342
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BaseBlockCipher$BufferedGenericBlockCipher;->cipher:Lde/authada/org/bouncycastle/crypto/BufferedBlockCipher;
+
+    instance-of v0, v0, Lde/authada/org/bouncycastle/crypto/modes/CTSBlockCipher;
+
+    xor-int/lit8 v0, v0, 0x1
+
+    return v0
+.end method

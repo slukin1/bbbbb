@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131439965" ="@drawable/2131236036" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="1.1" ="@font/2131296266" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428272" ="@drawable/2131235989" ="12.0dip" ="12.0dip" ="12.0dip" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="@color/2131100507">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433954" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238480" 2130971375="@color/2131099764" />
+        <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131442414" ="wrap_content" ="wrap_content" android:text="@string/c2c_reached_due_to_seller_limit" ="1.1" ="@font/2131296266" ="4.0dip" 2130969936="@id/2131433954" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

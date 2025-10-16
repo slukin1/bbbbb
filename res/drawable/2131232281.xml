@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset ="@dimen/2131165869" ="@dimen/2131165869" ="6.0dip" ="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple ="?android:colorControlHighlight">
+        <item>
+            <selector>
+                <item ="false">
+                    <shape ="rectangle">
+                        <corners ="2.0dip" />
+                        <solid ="?android:colorButtonNormal" />
+                        <padding ="8.0dip" ="@dimen/2131165870" ="8.0dip" ="@dimen/2131165870" />
+                    </shape>
+                </item>
+                <item>
+                    <shape ="rectangle">
+                        <corners ="2.0dip" />
+                        <solid ="?android:colorAccent" />
+                        <padding ="8.0dip" ="@dimen/2131165870" ="8.0dip" ="@dimen/2131165870" />
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>

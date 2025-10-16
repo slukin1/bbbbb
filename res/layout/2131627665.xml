@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437494" ="@drawable/2131232640" ="10.0dip" ="fill_parent" ="62.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mpc.wallet.widget.uikit.KitRadioButton android:id="@id/2131437493" ="wrap_content" ="wrap_content" ="false" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437495" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_network_fee_speed_average" ="8.0dip" 2130969936="@id/2131437493" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437491" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131437493" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437496" ="wrap_content" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437492" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

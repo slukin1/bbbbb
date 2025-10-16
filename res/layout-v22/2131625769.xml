@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131438668" ="fill_parent" ="wrap_content" ="48.0dip">
+        <View ="center_horizontal" android:id="@id/2131431099" ="@android:color/darker_gray" ="40.0dip" ="4.0dip" ="8.0dip" />
+        <com.binance.chat.view.ChatNavigationBarView android:id="@id/2131437448" ="fill_parent" ="wrap_content" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="true" ="1.0">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <LinearLayout ="center" ="vertical" ="16.0dip" ="16.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="16.0dip">
+                <ImageView android:id="@id/2131433670" ="50.0dip" ="50.0dip" ="8.0dip" ="@drawable/2131235264" ="@string/nezha_profile_app_logo" />
+                <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content">
+                    <TextView ="@color/2131099764" ="center" android:id="@id/2131442152" ="wrap_content" ="wrap_content" android:text="@string/nezha_profile_app_name" style="@style/2132149419" />
+                    <LinearLayout ="center" ="6.0dip" ="6.0dip" ="wrap_content" ="16.0dip" ="4.0dip" ="6.0dip">
+                        <TextView ="@color/2131099778" ="center" ="wrap_content" ="wrap_content" android:text="@string/nezha_profile_beta" style="@style/2132149397" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView ="@color/2131099764" ="start" android:id="@id/2131442151" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/jarvis_setting_subtitle" ="2.0dip" ="textStart" style="@style/2132149412" />
+            </LinearLayout>
+            <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0dip" />
+            <LinearLayout ="vertical" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439057" ="8.0dip" ="8.0dip" ="none" ="false" ="fill_parent" ="wrap_content" ="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView android:id="@id/2131449126" ="fill_parent" ="0.0dip" ="1.0" style="@style/2132148929">
+        <TextView android:id="@id/2131449127" ="@dimen/2131167509" ="@dimen/2131167206" ="fill_parent" ="fill_parent" ="@dimen/2131167206" ="@dimen/2131167206" ="@dimen/2131167206" style="@style/2132148937" />
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <LinearLayout ="vertical" android:id="@id/2131449125" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167206" ="@dimen/2131167206">
+        <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131449123" ="6.0dip" 2130970348="@string/onfido_user_consent_button_primary" 2130970349="@color/2131102239" style="@style/2132148904" />
+        <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131449124" 2130970348="@string/onfido_user_consent_button_secondary" 2130970349="@color/2131102244" 2130970350="@null" style="@style/2132148904" />
+        <include layout="@layout/onfido_watermark_layout" />
+    </LinearLayout>
+</LinearLayout>

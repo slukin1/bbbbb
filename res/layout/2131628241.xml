@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131438439" ="#1f000000" ="fill_parent" ="1.0dip" ="68.0dip" />
+    <FrameLayout ="fill_parent" ="wrap_content">
+        <ProgressBar ="center_vertical" android:id="@id/2131438442" ="3.0dip" ="24.0dip" ="24.0dip" ="true" ="16.0dip" ="#ff4184f3" ="src_atop" style="@style/2132149832" />
+        <ImageView android:id="@id/2131438438" ="wrap_content" ="40.0dip" ="@drawable/2131235876" ="center" ="@string/places_powered_by_google" ="68.0dip" />
+    </FrameLayout>
+</merge>

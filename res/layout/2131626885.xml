@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435553" ="gone" ="fill_parent" ="fill_parent">
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131445014" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_string_trade_with_hottest_crypto" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439061" ="fill_parent" ="0.0dip" ="8.0dip" 2130969911="2131438103" 2130969940="@id/2131445014" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435477" ="@drawable/2131232712" ="16.0dip" ="gone" ="fill_parent" ="fill_parent">
+        <TextView ="@color/2131099778" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_string_trade_with_hottest_crypto" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <ImageView android:id="@id/2131433173" ="2.0dip" ="28.0dip" ="28.0dip" ="14.0dip" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+        <TextView ="@color/2131099764" android:id="@id/tvQuoteAsset" ="wrap_content" ="wrap_content" ="false" ="8.0dip" 2130969911="@id/2131433173" 2130969936="@id/2131433173" 2130969941="@id/2131433173" style="@style/2132149459" />
+        <TextView ="@color/2131099778" android:id="@id/tvBaseAsset" ="wrap_content" ="wrap_content" ="2.0dip" ="false" ="2.0dip" 2130969911="@id/tvQuoteAsset" 2130969936="@id/tvQuoteAsset" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView ="48.0dip" ="48.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238445" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

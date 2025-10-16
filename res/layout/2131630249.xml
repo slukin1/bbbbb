@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.lib.dynamiclayout.window.DynamicWidgetTipStep1View android:id="@id/2131441455" ="fill_parent" ="fill_parent" />
+    <com.binance.lib.dynamiclayout.drag.ui.UserGuideTipView android:id="@id/2131449135" ="wrap_content" ="wrap_content" />
+</FrameLayout>

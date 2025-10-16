@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition android:id="@id/2131431853" app:2130969123="@id/2131439771" app:2130969124="@id/2131439772" app:2130969323="500">
+        <KeyFrameSet>
+            <KeyAttribute android:scaleX="1.2" android:scaleY="1.2" app:2130969525="50" app:2130970269="@id/2131430605" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/2131439772">
+        <Constraint android:id="@id/2131437855">
+            <Layout android:layout_width="240.0dip" android:layout_height="48.0dip" android:layout_marginTop="60.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430605" />
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430605" />
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430605">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131439095">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131439096">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430602">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" app:2130969911="2131438103" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969941="2131438103" />
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131439771" app:2130969249="@id/2131439772">
+        <Constraint android:id="@id/2131437855">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430605">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition android:id="@id/2131437863" app:2130969123="@id/2131437856" app:2130969124="@id/2131437861" />
+    <ConstraintSet android:id="@id/2131437861" app:2130969249="@id/2131439771">
+        <Constraint android:id="@id/2131430605">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430603">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430604">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131437856" app:2130969249="@id/2131437861">
+        <Constraint android:id="@id/2131430603">
+            <Transform android:translationX="-10.5dip" android:translationY="-65.0dip" android:rotation="-8.0" />
+        </Constraint>
+        <Constraint android:id="@id/2131430602">
+            <PropertySet android:visibility="visible" />
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" app:2130969912="@id/2131430604" app:2130969931="2131438103" app:2130969935="2131438103" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition android:id="@id/2131440088" app:2130969123="@id/2131431374" app:2130969124="@id/2131440563" />
+    <ConstraintSet android:id="@id/2131440563" app:2130969249="@id/2131437856">
+        <Constraint android:id="@id/2131428521">
+            <Transform android:translationY="300.0dip" />
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131431374" app:2130969249="@id/2131440563">
+        <Constraint android:id="@id/2131428521">
+            <Transform android:translationY="0.0dip" />
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430603">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430602">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131450386" />
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430602" />
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430604">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+    </ConstraintSet>
+    <Transition android:id="@id/2131437859" app:2130969123="@id/2131437857" app:2130969124="@id/2131437858" />
+    <ConstraintSet android:id="@id/2131437858">
+        <Constraint android:id="@id/2131437855">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430605" />
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430605">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131437857">
+        <Constraint android:id="@id/2131437855">
+            <PropertySet android:visibility="invisible" />
+        </Constraint>
+        <Constraint android:id="@id/2131441486">
+            <Layout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" app:2130969931="2131438103" app:2130969935="2131438103" app:2130969940="@id/2131430605" />
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+        <Constraint android:id="@id/2131430605">
+            <PropertySet android:visibility="visible" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

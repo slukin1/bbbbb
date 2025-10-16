@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430087" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131447739" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_display_to_user" ="6.0dip" ="@font/2131296273" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434820" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131447739" 2130969936="@id/2131447739" 2130969941="@id/2131447739" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437784" ="0.0dip" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447739" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131446707" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/c2c_mod_ad_all_region" ="@font/2131296273" ="@color/2131099744" 2130969306="@drawable/2131237003" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437784" />
+</androidx.constraintlayout.widget.ConstraintLayout>

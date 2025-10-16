@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099726" android:id="@id/2131447264" ="gone" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/tv_title" ="fill_parent" ="wrap_content" style="@style/2132149423" />
+        <ImageView ="center_horizontal" android:id="@id/2131434604" ="@drawable/2131235987" ="gone" ="345.0dip" ="275.0dip" ="15.0dip" ="@color/2131099744" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_desc" ="fill_parent" ="wrap_content" ="15.0dip" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/tv_view_more" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/view_more" 2130969306="@drawable/2131237055" 2130969312="@color/2131099787" style="@style/2132149350" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

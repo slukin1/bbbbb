@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" android:id="@id/2131436798" ="@drawable/2131232784" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="wrap_content" ="14.0dip" ="14.0dip">
+        <TextView ="18.0sp" ="@color/2131099764" ="center_horizontal" android:id="@id/2131430941" ="wrap_content" ="wrap_content" android:text="@string/c2c_add_payment_method_select_a_bank" ="@font/2131296273" ="15.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="20.0dip" ="20.0dip" ="@color/2131099764" ="15.0dip" ="true" 2130971077="@drawable/2131237100" />
+    </RelativeLayout>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <com.binance.c2c.indexablerecyclerview.IndexableLayout android:id="@id/2131433416" ="fill_parent" ="wrap_content" 2130969634="@color/2131103205" 2130969635="@color/2131099778" 2130969636="@dimen/2131167690" 2130969637="@dimen/2131166225" />
+</LinearLayout>

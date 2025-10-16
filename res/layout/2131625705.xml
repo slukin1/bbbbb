@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="vertical" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                <RelativeLayout android:id="@id/2131439464" ="fill_parent" ="wrap_content" ="16.0dip" 2130969941="2131438103">
+                    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448054" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_30d_transactions" ="@font/2131296274" ="15.0dip" />
+                    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448055" ="wrap_content" ="wrap_content" ="@font/2131296273" ="16.0dip" ="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/2131439462" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439464">
+                    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448051" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_30d_completion_rate" ="@font/2131296274" ="15.0dip" />
+                    <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131448052" ="wrap_content" ="wrap_content" ="@font/2131296273" ="16.0dip" ="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/2131439433" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439462">
+                    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445732" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_avg_release_time" ="@font/2131296274" ="16.0dip" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445731" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_avg_release_time_mins" ="@font/2131296274" ="16.0dip" ="true" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445733" ="wrap_content" ="wrap_content" ="@font/2131296274" ="5.0dip" ="@id/2131445731" style="@style/2132148872" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/2131439431" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439433">
+                    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445725" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_avg_pay_time" ="@font/2131296274" ="16.0dip" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445724" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_avg_release_time_mins" ="@font/2131296274" ="16.0dip" ="true" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131445727" ="wrap_content" ="wrap_content" ="@font/2131296274" ="5.0dip" ="@id/2131445724" style="@style/2132148872" />
+                </RelativeLayout>
+                <View android:id="@id/2131449625" ="@color/2131099751" ="fill_parent" ="0.5dip" ="12.0dip" 2130969940="@id/2131439431" />
+                <TextView ="@color/2131099778" android:id="@id/2131445175" ="gone" ="16.0dip" android:text="@string/c2c_merchant_trade_type" ="15.0dip" ="12.0dip" 2130969918="@id/2131445176" 2130969937="2131438103" 2130969940="@id/2131449625" style="@style/2132149191" />
+                <TextView ="@color/2131099764" android:id="@id/2131445176" ="gone" ="180.0dip" ="12.0dip" 2130969911="@id/2131445175" 2130969917="2131438103" 2130969941="@id/2131445175" style="@style/2132149191" />
+                <View android:id="@id/2131449716" ="@drawable/2131233287" ="gone" ="0.0dip" ="1.0dip" ="@color/2131099764" 2130969917="@id/2131445176" 2130969937="@id/2131445176" 2130969940="@id/2131445176" />
+                <RelativeLayout android:id="@id/2131439459" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131445175">
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_registered" ="true" ="@font/2131296274" ="15.0dip" />
+                    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437037" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                        <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_days_ago" ="@font/2131296274" ="4.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/2131439441" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439459">
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_first_trade" ="true" ="@font/2131296274" ="15.0dip" />
+                    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true">
+                        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437044" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                        <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_days_ago" ="@font/2131296274" ="4.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/2131439466" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439441">
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_ad_merchant_trading_counterparties" ="true" ="@font/2131296274" ="15.0dip" />
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131448372" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="15.0dip" ="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/2131439428" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131439466">
+                    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_all_trades" ="@font/2131296274" ="15.0dip" />
+                    <LinearLayout ="horizontal" android:id="@id/2131436493" ="wrap_content" ="wrap_content" ="15.0dip" ="true">
+                        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131437038" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                        <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_transactions_times" ="@font/2131296274" ="4.0dip" />
+                    </LinearLayout>
+                    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437041" ="wrap_content" ="wrap_content" ="@id/2131436493" ="6.0dip" ="@font/2131296274" ="15.0dip" ="true" />
+                </RelativeLayout>
+                <View android:id="@id/2131449626" ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131439428" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430089" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131449626">
+                    <TextView ="@color/2131099764" ="center" android:id="@id/2131428986" ="gone" ="0.0dip" ="40.0dip" ="@font/2131296274" 2130969918="@id/2131429083" 2130969937="2131438103" 2130969941="2131438103" />
+                    <View ="@color/2131099751" ="1.0dip" ="12.0dip" 2130969911="@id/2131428986" 2130969936="@id/2131428986" 2130969941="@id/2131428986" />
+                    <TextView ="@color/2131099764" ="center" android:id="@id/2131429083" ="gone" ="0.0dip" ="40.0dip" android:text="@string/c2c_report_scammer_title" ="@font/2131296274" 2130969917="2131438103" 2130969936="@id/2131428986" 2130969941="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView ="12.0sp" ="#ff848e9c" android:id="@id/title" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/merchant_ad_risk_control" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430089" />
+                <TextView ="12.0sp" ="#ff848e9c" ="center" android:id="@id/2131444480" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/merchant_ad_bottom_tips" ="@font/2131296274" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" />
+                <View ="fill_parent" ="30.0dip" 2130969937="2131438103" 2130969940="@id/2131444480" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

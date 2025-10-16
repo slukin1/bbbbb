@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvTime" ="0.0dip" 2130969918="@id/2131433812" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149453" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433812" ="24.0dip" ="24.0dip" ="-3.0dip" ="@null" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237050" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444189" ="6.0dip" android:text="@string/spot_grid_profits" 2130969937="2131438103" 2130969940="@id/tvTime" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131444190" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131444189" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429725" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131444189">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443535" ="0.0dip" ="18.0dip" android:text="@string/strategy_grid_orders_limit_buy" ="5.0dip" 2130969918="@id/2131432440" 2130969936="@id/2131432445" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432445" ="0.0dip" ="0.0dip" 2130969921="0.22" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432440" ="0.0dip" ="0.0dip" 2130969921="0.61" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442393" ="0.0dip" ="8.0dip" android:text="@string/time" 2130969918="@id/2131432445" 2130969937="2131438103" 2130969940="@id/2131443535" style="@style/2132149393" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442394" ="0.0dip" 2130969911="@id/2131442393" 2130969917="@id/2131443535" 2130969937="@id/2131443535" 2130969941="@id/2131442393" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442380" ="0.0dip" ="8.0dip" android:text="@string/futures_grid_avg_price" 2130969918="@id/2131432445" 2130969937="2131438103" 2130969940="@id/2131442393" style="@style/2132149393" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442381" ="0.0dip" 2130969911="@id/2131442380" 2130969917="@id/2131443535" 2130969937="@id/2131443535" 2130969941="@id/2131442380" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442383" ="0.0dip" ="8.0dip" android:text="@string/spot_grid_executed" 2130969918="@id/2131432445" 2130969937="2131438103" 2130969940="@id/2131442380" style="@style/2132149393" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442384" ="0.0dip" 2130969911="@id/2131442383" 2130969917="@id/2131443535" 2130969937="@id/2131443535" 2130969941="@id/2131442383" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442396" ="0.0dip" ="8.0dip" android:text="@string/spot_grid_total" 2130969918="@id/2131432445" 2130969937="2131438103" 2130969940="@id/2131442383" style="@style/2132149393" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442397" ="0.0dip" 2130969911="@id/2131442396" 2130969917="@id/2131443535" 2130969937="@id/2131443535" 2130969941="@id/2131442396" style="@style/2132149392" />
+        <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131442385" ="0.0dip" ="8.0dip" android:text="@string/fee" 2130969918="@id/2131432445" 2130969937="2131438103" 2130969940="@id/2131442396" 2130970849="false" style="@style/2132149393" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442386" ="0.0dip" 2130969911="@id/2131442385" 2130969917="@id/2131443535" 2130969937="@id/2131443535" 2130969941="@id/2131442385" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444595" ="0.0dip" ="18.0dip" android:text="@string/strategy_grid_orders_limit_sell" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131432440" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444594" ="0.0dip" 2130969911="@id/2131442393" 2130969917="@id/2131444595" 2130969937="@id/2131444595" 2130969941="@id/2131442393" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444584" ="0.0dip" 2130969911="@id/2131442380" 2130969917="@id/2131444595" 2130969937="@id/2131444595" 2130969941="@id/2131442380" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444585" ="0.0dip" 2130969911="@id/2131442383" 2130969917="@id/2131444595" 2130969937="@id/2131444595" 2130969941="@id/2131442383" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444596" ="0.0dip" 2130969911="@id/2131442396" 2130969917="@id/2131444595" 2130969937="@id/2131444595" 2130969941="@id/2131442396" style="@style/2132149392" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444586" ="0.0dip" 2130969911="@id/2131442385" 2130969917="@id/2131444595" 2130969937="@id/2131444595" 2130969941="@id/2131442385" style="@style/2132149392" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131429725" />
+</androidx.constraintlayout.widget.ConstraintLayout>

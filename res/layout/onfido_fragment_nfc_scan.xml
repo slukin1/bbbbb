@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip">
+            <com.onfido.android.sdk.capture.ui.camera.view.PlaybackControlsVideoPlayerView android:id="@id/2131449339" ="200.0dip" ="200.0dip" ="16.0dip" />
+            <TextView android:id="@id/title" ="fill_parent" ="wrap_content" ="16.0dip" ="5.0sp" style="@style/2132148962" />
+            <LinearLayout ="vertical" android:id="@id/2131440654" ="fill_parent" ="wrap_content" ="32.0dip" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131428917" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" 2130969912="@id/2131437844" 2130970348="@string/onfido_nfc_intro_button_primary" />
+    <include android:id="@id/2131437844" ="wrap_content" ="wrap_content" ="16.0dip" layout="@layout/onfido_watermark_layout" />
+</LinearLayout>

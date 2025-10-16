@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" ="false" ="true" ="@drawable/2131232318" />
+    <item ="true" ="false" ="@drawable/2131232318" />
+    <item ="true" ="true" ="@drawable/2131232316" />
+    <item ="false" ="true" ="@drawable/2131232316" />
+    <item ="true" ="@drawable/2131232312" />
+    <item ="@android:color/transparent" />
+</selector>

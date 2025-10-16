@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.blur.BlurView android:id="@id/2131438563" ="true" ="true" ="fill_parent" ="fill_parent" />
+    <ImageView android:id="@id/2131433591" ="wrap_content" ="wrap_content" />
+    <LinearLayout ="vertical" android:id="@id/2131429505" ="@drawable/2131235272" ="16.0dip" ="10.0dip" ="10.0dip" ="gone" ="128.0dip" ="wrap_content" ="16.0dip">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131437034" ="wrap_content" ="40.0dip">
+            <ImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131235281" />
+            <TextView ="@color/2131102397" ="wrap_content" ="wrap_content" android:text="@string/jarvis_history_rename" ="8.0dip" style="@style/2132149446" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131437029" ="wrap_content" ="40.0dip">
+            <ImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131235276" />
+            <TextView ="#fff6465d" ="wrap_content" ="wrap_content" android:text="@string/jarvis_delete" ="8.0dip" style="@style/2132149446" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

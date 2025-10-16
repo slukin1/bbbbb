@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131430263" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="fill_parent" ="4.0dip" ="20.0dip" ="20.0dip" ="2.0dip" 2130968912="@dimen/2131167822" 2130968914="@dimen/2131167823">
+        <RelativeLayout ="center" ="center" ="fill_parent" ="fill_parent">
+            <pl.droidsonroids.gif.GifImageView android:id="@id/2131433668" android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="@dimen/2131165527" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+            <TextView android:id="@id/title" ="16.0dip" ="@id/2131433668" style="@style/2132150334" />
+            <TextView android:id="@id/2131438093" ="20.0dip" ="8.0dip" ="@id/title" style="@style/2132150332" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

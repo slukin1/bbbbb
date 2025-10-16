@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" 2130971098="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.NestedCoordinatorLayout android:id="@id/2131432384" ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="12.0dip" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131625974" />
+                <include ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" layout="@layout/2131629119" />
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131626035" />
+                <include ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" layout="@layout/2131629132" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <FrameLayout ="fill_parent" ="40.0dip" 2130969902="2131438344">
+                <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441166" ="fill_parent" ="fill_parent" />
+                <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131434344" ="gone" ="20.0dip" ="20.0dip" ="@color/2131099785" ="15.0dip" 2130971077="@drawable/2131238026" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449924" ="fill_parent" ="fill_parent" />
+        </com.binance.widget.viewpager2.NestedScrollableHost>
+    </com.binance.widget.NestedCoordinatorLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

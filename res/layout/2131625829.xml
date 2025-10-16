@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435725" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131101055" ="center" android:id="@id/2131428932" ="@color/2131099881" ="0.0dip" ="@dimen/2131166240" ="8.0dip" android:text="@string/futures_scaledorder_preview_long_open" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+    <com.finance.futures.common.framework.widget.CoolingOffPeriodWrapTextView ="@drawable/2131233866" ="0.0dip" ="0.0dip" 2130969911="@id/2131428932" 2130969917="@id/2131428932" 2130969937="@id/2131428932" 2130969941="@id/2131428932" ="1001" />
+    <TextView ="@color/2131101055" ="center" android:id="@id/2131428934" ="@color/2131099881" ="0.0dip" ="@dimen/2131166240" ="8.0dip" android:text="@string/futures_scaledorder_preview_short_open" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428932" style="@style/2132149374" />
+    <com.finance.futures.common.framework.widget.CoolingOffPeriodWrapTextView ="@drawable/2131233866" ="0.0dip" ="0.0dip" 2130969911="@id/2131428934" 2130969917="@id/2131428934" 2130969937="@id/2131428934" 2130969941="@id/2131428934" ="1001" />
+</androidx.constraintlayout.widget.ConstraintLayout>

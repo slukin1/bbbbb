@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="?2130970780" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148577" />
+    <TextView ="@color/2131099764" android:id="@id/tvCoin" ="wrap_content" ="wrap_content" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131433920" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tvCoinName" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/tvCoin" 2130969936="@id/tvCoin" 2130969941="@id/tvCoin" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" android:id="@id/2131430908" ="fill_parent" ="wrap_content" ="54.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131431321" ="gone" ="fill_parent" ="wrap_content" 2130968735="@color/2131099875" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969851="2131440542" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+    <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131444819" ="10.0dip" ="10.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149350" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="0.0dip" ="1.0" ="never" 2130969941="2131438103" />
+            <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131442595" ="gone" ="fill_parent" ="48.0dip" ="16.0dip" ="16.0dip" android:text="@string/oauth_continue" ="15.0dip" ="15.0dip" style="@style/2132149446" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/2131431351" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" ="100.0dip" ="100.0dip" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238473" style="@style/2132149350" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

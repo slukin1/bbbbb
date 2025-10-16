@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" android:id="@id/2131449747" ="@drawable/2131233327" />
+    <item android:id="@id/2131436977" ="@drawable/2131233326" />
+    <transition ="@drawable/2131232387" ="@id/2131449747" ="@id/2131436977" />
+    <transition ="@drawable/2131232388" ="@id/2131436977" ="@id/2131449747" />
+</animated-selector>

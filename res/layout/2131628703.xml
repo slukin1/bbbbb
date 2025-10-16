@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439608" ="fill_parent" ="fill_parent" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" android:id="@id/2131436225" ="gone" ="fill_parent" ="fill_parent" ="85.0dip" style="@style/2132148650">
+        <TextView ="@color/2131099778" ="center" android:id="@id/2131433839" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="@drawable/2131238419" ="10.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

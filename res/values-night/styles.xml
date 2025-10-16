@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132148528" parent="@style/2132149671">
+        <item name="android:navigationBarColor">@color/2131099685</item>
+        <item name="2130968798">@style/2132148827</item>
+    </style>
+    <style name="2132149478" parent="@style/2132149476" />
+    <style name="2132149479" parent="@style/2132149476" />
+    <style name="2132149480" parent="@style/2132149485" />
+    <style name="2132149481" parent="@style/2132149486" />
+    <style name="2132149482" parent="@style/2132149487" />
+    <style name="2132149483" parent="@style/2132149488" />
+    <style name="2132149484" parent="@style/2132149497" />
+    <style name="2132149515" parent="@style/2132149507" />
+    <style name="2132149516" parent="@style/2132149508" />
+    <style name="2132149517" parent="@style/2132149509" />
+    <style name="2132149518" parent="@style/2132149510" />
+    <style name="2132149519" parent="@style/2132149511" />
+    <style name="2132149520" parent="@style/2132149512" />
+    <style name="2132149521" parent="@style/2132149513" />
+    <style name="2132149522" parent="@style/2132149514" />
+    <style name="2132149525" parent="@style/2132149523" />
+    <style name="2132149526" parent="@style/2132149524" />
+    <style name="2132149541" parent="@style/2132149537" />
+    <style name="2132149542" parent="@style/2132149538" />
+    <style name="2132149543" parent="@style/2132149539" />
+    <style name="2132149544" parent="@style/2132149537" />
+    <style name="2132149545" parent="@style/2132149539" />
+    <style name="2132149546" parent="@style/2132149557" />
+    <style name="2132149547" parent="@style/2132149558" />
+    <style name="2132149548" parent="@style/2132149559" />
+    <style name="2132149549" parent="@style/2132149560" />
+    <style name="2132149550" parent="@style/2132149561" />
+    <style name="2132149551" parent="@style/2132149562" />
+    <style name="2132149552" parent="@style/2132149563" />
+    <style name="2132149553" parent="@style/2132149564" />
+    <style name="2132149554" parent="@style/2132149565" />
+    <style name="2132149555" parent="@style/2132149582" />
+    <style name="2132149556" parent="@style/2132149583" />
+    <style name="2132149590" parent="@style/2132149588" />
+    <style name="2132149625" parent="@style/2132149624" />
+    <style name="2132150040" parent="@style/2132150042" />
+    <style name="2132150045" parent="@style/2132150046" />
+    <style name="2132150054" parent="@style/2132150052" />
+    <style name="2132150057" parent="@style/2132150055" />
+    <style name="2132150122" parent="@style/2132150118" />
+    <style name="2132150136" parent="@style/2132150134" />
+    <style name="2132150162" parent="@style/2132150163" />
+    <style name="2132150186" parent="@style/2132150059">
+        <item name="2130968733">@color/sns_color_background_100</item>
+        <item name="2130970795">@style/2132149140</item>
+    </style>
+    <style name="2132150330" parent="@style/2132149481">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@drawable/2131238595</item>
+        <item name="android:padding">@dimen/2131167853</item>
+        <item name="android:windowMinWidthMinor">85.0%</item>
+        <item name="android:datePickerStyle">@style/2132148830</item>
+    </style>
+    <style name="2132150353" parent="@style/2132149484">
+        <item name="android:colorPrimaryDark">#ff222222</item>
+        <item name="android:ambientShadowAlpha">0.0851</item>
+        <item name="android:spotShadowAlpha">0.0851</item>
+    </style>
+</resources>

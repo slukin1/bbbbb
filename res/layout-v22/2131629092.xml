@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" style="@style/2132148639"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131429666" ="@drawable/2131236478" ="15.0dip" ="fill_parent" ="wrap_content" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442669" ="wrap_content" ="wrap_content" android:text="@string/_cross" style="@style/2132149449" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442668" android:text="@string/strategy_cross_margin_mode_desc1" ="2.0dip" style="@style/2132149393" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131429695" ="@drawable/2131236478" ="15.0dip" ="fill_parent" ="wrap_content" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443401" ="wrap_content" ="wrap_content" android:text="@string/_isolated" style="@style/2132149449" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443400" android:text="@string/strategy_isolated_margin_mode_desc1" ="2.0dip" style="@style/2132149393" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441336" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="center" android:id="@id/2131445885" ="0.0dip" ="wrap_content" ="false" ="0.75" ="simple" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131430309" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445885">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434660" ="gone" ="16.0dip" ="16.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434661" ="gone" ="16.0dip" ="16.0dip" ="-4.5dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434662" ="gone" ="16.0dip" ="16.0dip" ="-4.5dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="#ffffffff" ="end" ="center|top" android:id="@id/tv_price_change" ="0.0dip" ="wrap_content" ="0.0dip" ="1" ="false" ="ltr" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445885" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

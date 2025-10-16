@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131432387" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="fill_parent" ="0.0dip" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131437137" ="fill_parent" ="fill_parent" ="@id/2131440610">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427921" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131430176" ="fill_parent" ="wrap_content" 2130969149="@color/2131103064" 2130969974="2131439795|@null|@null">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                    <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="8.0dip" ="8.0dip" ="false" ="0.0dip" ="44.0dip" ="@dimen/2131166286" 2130969917="@id/viewMask" 2130969937="2131438103" 2130969941="2131438103" 2130969958="0.0dip" />
+                    <View android:id="@id/viewMask" ="@drawable/2131234071" ="15.0dip" ="44.0dip" ="-5.0dip" 2130969918="@id/2131433996" 2130969941="2131438103" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433996" ="5.0dip" ="30.0dip" ="30.0dip" ="@drawable/2131237662" ="@color/2131099764" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View ="bottom" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440134" ="fill_parent" ="wrap_content" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+                <FrameLayout android:id="@id/2131431883" ="gone" ="fill_parent" ="wrap_content" />
+                <ImageView android:id="@id/2131434883" ="wrap_content" ="wrap_content" ="7.0dip" ="fitXY" 2130971077="@drawable/2131238568" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440135" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449897" ="invisible" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+            <ImageView android:id="@id/2131434927" ="fill_parent" ="fill_parent" ="fitXY" 2130971077="@drawable/2131238567" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/2131431906" ="true" ="true" ="fill_parent" ="wrap_content" ="true" style="@style/2132148650" />
+    <FrameLayout android:id="@id/2131431928" ="true" ="true" ="fill_parent" ="wrap_content" ="true" style="@style/2132148650" />
+    <include android:id="@id/2131436475" ="gone" ="wrap_content" ="30.0dip" ="6.0dip" ="true" layout="@layout/2131626100" />
+</RelativeLayout>

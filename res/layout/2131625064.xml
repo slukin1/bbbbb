@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="bottom" ="vertical" ="@drawable/2131236765" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131448138" ="fill_parent" ="56.0dip" ="@font/2131296275" ="16.0dip" />
+    <androidx.recyclerview.widget.RecyclerView ="bottom" ="vertical" android:id="@id/2131439078" ="@drawable/2131236765" ="fill_parent" ="wrap_content" />
+    <com.major.android.uikit2.button.KitButton ="14.0sp" ="center" android:id="@id/2131446036" ="@drawable/2131232501" ="gone" ="fill_parent" ="40.0dip" ="16.0dip" ="2.0dip" android:text="@string/confirm" />
+</LinearLayout>

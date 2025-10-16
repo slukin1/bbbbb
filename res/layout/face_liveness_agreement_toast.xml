@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@drawable/2131233468" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@dimen/agree_toast_text_size" ="#ffffffff" ="center" android:id="@id/tv_agreement_toast" ="5.0dip" ="5.0dip" ="@dimen/agree_toast_width" ="@dimen/agree_toast_height" android:text="@string/agree_toast_text" />
+</RelativeLayout>

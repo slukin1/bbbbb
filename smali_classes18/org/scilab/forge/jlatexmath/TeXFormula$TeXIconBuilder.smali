@@ -1,0 +1,505 @@
+.class public Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/scilab/forge/jlatexmath/TeXFormula;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "TeXIconBuilder"
+.end annotation
+
+
+# instance fields
+.field private align:Ljava/lang/Integer;
+
+.field private fgcolor:Lo/getFirstSetDataDelay;
+
+.field private interLineSpacing:Ljava/lang/Float;
+
+.field private interLineUnit:Ljava/lang/Integer;
+
+.field private isMaxWidth:Z
+
+.field private size:Ljava/lang/Float;
+
+.field private style:Ljava/lang/Integer;
+
+.field private textWidth:Ljava/lang/Float;
+
+.field final synthetic this$0:Lorg/scilab/forge/jlatexmath/TeXFormula;
+
+.field private trueValues:Z
+
+.field private type:Ljava/lang/Integer;
+
+.field private widthUnit:Ljava/lang/Integer;
+
+
+# direct methods
+.method public constructor <init>(Lorg/scilab/forge/jlatexmath/TeXFormula;)V
+    .locals 0
+
+    .line 609
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->this$0:Lorg/scilab/forge/jlatexmath/TeXFormula;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 p1, 0x0
+
+    .line 614
+    iput-boolean p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->trueValues:Z
+
+    .line 618
+    iput-boolean p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->isMaxWidth:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public build()Lorg/scilab/forge/jlatexmath/TeXIcon;
+    .locals 5
+
+    .line 739
+    iget-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->style:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_9
+
+    .line 742
+    iget-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->size:Ljava/lang/Float;
+
+    if-eqz v0, :cond_8
+
+    .line 745
+    iget-object v1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->type:Ljava/lang/Integer;
+
+    if-nez v1, :cond_0
+
+    new-instance v0, Lorg/scilab/forge/jlatexmath/DefaultTeXFont;
+
+    iget-object v1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->size:Ljava/lang/Float;
+
+    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
+
+    move-result v1
+
+    invoke-direct {v0, v1}, Lorg/scilab/forge/jlatexmath/DefaultTeXFont;-><init>(F)V
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->this$0:Lorg/scilab/forge/jlatexmath/TeXFormula;
+
+    invoke-virtual {v0}, Ljava/lang/Number;->floatValue()F
+
+    move-result v0
+
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->type:Ljava/lang/Integer;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v0, v2}, Lorg/scilab/forge/jlatexmath/TeXFormula;->access$000(Lorg/scilab/forge/jlatexmath/TeXFormula;FI)Lorg/scilab/forge/jlatexmath/DefaultTeXFont;
+
+    move-result-object v0
+
+    .line 747
+    :goto_0
+    iget-object v1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->widthUnit:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_1
+
+    .line 748
+    new-instance v1, Lorg/scilab/forge/jlatexmath/TeXEnvironment;
+
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->style:Ljava/lang/Integer;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->intValue()I
+
+    move-result v2
+
+    iget-object v3, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->widthUnit:Ljava/lang/Integer;
+
+    invoke-virtual {v3}, Ljava/lang/Number;->intValue()I
+
+    move-result v3
+
+    iget-object v4, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->textWidth:Ljava/lang/Float;
+
+    invoke-virtual {v4}, Ljava/lang/Number;->floatValue()F
+
+    move-result v4
+
+    invoke-direct {v1, v2, v0, v3, v4}, Lorg/scilab/forge/jlatexmath/TeXEnvironment;-><init>(ILorg/scilab/forge/jlatexmath/TeXFont;IF)V
+
+    goto :goto_1
+
+    .line 750
+    :cond_1
+    new-instance v1, Lorg/scilab/forge/jlatexmath/TeXEnvironment;
+
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->style:Ljava/lang/Integer;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->intValue()I
+
+    move-result v2
+
+    invoke-direct {v1, v2, v0}, Lorg/scilab/forge/jlatexmath/TeXEnvironment;-><init>(ILorg/scilab/forge/jlatexmath/TeXFont;)V
+
+    .line 753
+    :goto_1
+    iget-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineUnit:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_2
+
+    .line 754
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineSpacing:Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->floatValue()F
+
+    move-result v2
+
+    invoke-virtual {v1, v0, v2}, Lorg/scilab/forge/jlatexmath/TeXEnvironment;->setInterline(IF)V
+
+    .line 757
+    :cond_2
+    iget-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->this$0:Lorg/scilab/forge/jlatexmath/TeXFormula;
+
+    invoke-static {v0, v1}, Lorg/scilab/forge/jlatexmath/TeXFormula;->access$100(Lorg/scilab/forge/jlatexmath/TeXFormula;Lorg/scilab/forge/jlatexmath/TeXEnvironment;)Lorg/scilab/forge/jlatexmath/Box;
+
+    move-result-object v0
+
+    .line 759
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->widthUnit:Ljava/lang/Integer;
+
+    if-eqz v2, :cond_6
+
+    .line 761
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineUnit:Ljava/lang/Integer;
+
+    if-eqz v2, :cond_4
+
+    .line 762
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineSpacing:Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->floatValue()F
+
+    move-result v2
+
+    iget-object v3, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineUnit:Ljava/lang/Integer;
+
+    invoke-virtual {v3}, Ljava/lang/Number;->intValue()I
+
+    move-result v3
+
+    invoke-static {v3, v1}, Lorg/scilab/forge/jlatexmath/SpaceAtom;->getFactor(ILorg/scilab/forge/jlatexmath/TeXEnvironment;)F
+
+    move-result v3
+
+    .line 763
+    invoke-virtual {v1}, Lorg/scilab/forge/jlatexmath/TeXEnvironment;->getTextwidth()F
+
+    move-result v4
+
+    mul-float v2, v2, v3
+
+    invoke-static {v0, v4, v2}, Lorg/scilab/forge/jlatexmath/BreakFormula;->split(Lorg/scilab/forge/jlatexmath/Box;FF)Lorg/scilab/forge/jlatexmath/Box;
+
+    move-result-object v0
+
+    .line 764
+    iget-boolean v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->isMaxWidth:Z
+
+    if-eqz v2, :cond_3
+
+    invoke-virtual {v0}, Lorg/scilab/forge/jlatexmath/Box;->getWidth()F
+
+    move-result v2
+
+    goto :goto_2
+
+    :cond_3
+    invoke-virtual {v1}, Lorg/scilab/forge/jlatexmath/TeXEnvironment;->getTextwidth()F
+
+    move-result v2
+
+    :goto_2
+    new-instance v3, Lorg/scilab/forge/jlatexmath/HorizontalBox;
+
+    iget-object v4, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->align:Ljava/lang/Integer;
+
+    invoke-virtual {v4}, Ljava/lang/Number;->intValue()I
+
+    move-result v4
+
+    invoke-direct {v3, v0, v2, v4}, Lorg/scilab/forge/jlatexmath/HorizontalBox;-><init>(Lorg/scilab/forge/jlatexmath/Box;FI)V
+
+    goto :goto_4
+
+    .line 766
+    :cond_4
+    iget-boolean v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->isMaxWidth:Z
+
+    if-eqz v2, :cond_5
+
+    invoke-virtual {v0}, Lorg/scilab/forge/jlatexmath/Box;->getWidth()F
+
+    move-result v2
+
+    goto :goto_3
+
+    :cond_5
+    invoke-virtual {v1}, Lorg/scilab/forge/jlatexmath/TeXEnvironment;->getTextwidth()F
+
+    move-result v2
+
+    :goto_3
+    new-instance v3, Lorg/scilab/forge/jlatexmath/HorizontalBox;
+
+    iget-object v4, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->align:Ljava/lang/Integer;
+
+    invoke-virtual {v4}, Ljava/lang/Number;->intValue()I
+
+    move-result v4
+
+    invoke-direct {v3, v0, v2, v4}, Lorg/scilab/forge/jlatexmath/HorizontalBox;-><init>(Lorg/scilab/forge/jlatexmath/Box;FI)V
+
+    .line 768
+    :goto_4
+    new-instance v0, Lorg/scilab/forge/jlatexmath/TeXIcon;
+
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->size:Ljava/lang/Float;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->floatValue()F
+
+    move-result v2
+
+    iget-boolean v4, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->trueValues:Z
+
+    invoke-direct {v0, v3, v2, v4}, Lorg/scilab/forge/jlatexmath/TeXIcon;-><init>(Lorg/scilab/forge/jlatexmath/Box;FZ)V
+
+    goto :goto_5
+
+    .line 770
+    :cond_6
+    new-instance v2, Lorg/scilab/forge/jlatexmath/TeXIcon;
+
+    iget-object v3, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->size:Ljava/lang/Float;
+
+    invoke-virtual {v3}, Ljava/lang/Number;->floatValue()F
+
+    move-result v3
+
+    iget-boolean v4, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->trueValues:Z
+
+    invoke-direct {v2, v0, v3, v4}, Lorg/scilab/forge/jlatexmath/TeXIcon;-><init>(Lorg/scilab/forge/jlatexmath/Box;FZ)V
+
+    move-object v0, v2
+
+    .line 772
+    :goto_5
+    iget-object v2, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->fgcolor:Lo/getFirstSetDataDelay;
+
+    if-eqz v2, :cond_7
+
+    .line 773
+    invoke-virtual {v0, v2}, Lorg/scilab/forge/jlatexmath/TeXIcon;->setForeground(Lo/getFirstSetDataDelay;)V
+
+    .line 775
+    :cond_7
+    iget-boolean v1, v1, Lorg/scilab/forge/jlatexmath/TeXEnvironment;->isColored:Z
+
+    iput-boolean v1, v0, Lorg/scilab/forge/jlatexmath/TeXIcon;->isColored:Z
+
+    return-object v0
+
+    .line 743
+    :cond_8
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "A size is required. Use setStyle()"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    .line 740
+    :cond_9
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "A style is required. Use setStyle()"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public setFGColor(Lo/getFirstSetDataDelay;)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 0
+
+    .line 658
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->fgcolor:Lo/getFirstSetDataDelay;
+
+    return-object p0
+.end method
+
+.method public setInterLineSpacing(IF)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 1
+
+    .line 725
+    iget-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->widthUnit:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_0
+
+    .line 728
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineUnit:Ljava/lang/Integer;
+
+    .line 729
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->interLineSpacing:Ljava/lang/Float;
+
+    return-object p0
+
+    .line 726
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string p2, "Cannot set inter line spacing without having specified a width!"
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public setIsMaxWidth(Z)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 1
+
+    .line 693
+    iget-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->widthUnit:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_1
+
+    if-eqz p1, :cond_0
+
+    const/4 v0, 0x0
+
+    .line 712
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->align:Ljava/lang/Integer;
+
+    .line 714
+    :cond_0
+    iput-boolean p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->isMaxWidth:Z
+
+    return-object p0
+
+    .line 694
+    :cond_1
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    const-string v0, "Cannot set \'isMaxWidth\' without having specified a width!"
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public setSize(F)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 0
+
+    .line 638
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->size:Ljava/lang/Float;
+
+    return-object p0
+.end method
+
+.method public setStyle(I)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 0
+
+    .line 628
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->style:Ljava/lang/Integer;
+
+    return-object p0
+.end method
+
+.method public setTrueValues(Z)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 0
+
+    .line 668
+    iput-boolean p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->trueValues:Z
+
+    return-object p0
+.end method
+
+.method public setType(I)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 0
+
+    .line 648
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->type:Ljava/lang/Integer;
+
+    return-object p0
+.end method
+
+.method public setWidth(IFI)Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;
+    .locals 0
+
+    .line 680
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->widthUnit:Ljava/lang/Integer;
+
+    .line 681
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->textWidth:Ljava/lang/Float;
+
+    .line 682
+    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->align:Ljava/lang/Integer;
+
+    const/4 p1, 0x1
+
+    .line 683
+    iput-boolean p1, p0, Lorg/scilab/forge/jlatexmath/TeXFormula$TeXIconBuilder;->trueValues:Z
+
+    return-object p0
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131448884" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131448883" ="@color/2131103079" ="fill_parent" ="fill_parent" ="-12.0dip" ="@id/2131430450">
+        <ImageView ="center" android:id="@id/2131433142" ="200.0dip" ="200.0dip" 2130971077="@drawable/2131236591" />
+        <com.moon.imagecropper.view.UCropView android:id="@id/2131448882" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131430450" ="gone" ="fill_parent" ="wrap_content" ="true" />
+</RelativeLayout>

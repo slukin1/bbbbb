@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429245" ="@android:color/black" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131439213" ="0.0dip" ="0.0dip" ="centerCrop" ="@string/pi2_governmentid_review_content_description" 2130969911="@id/overlay" 2130969916="1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/overlay" 2130969943="2131438085" />
+    <View android:id="@id/overlay" ="0.0dip" ="0.0dip" 2130969911="@id/2131438048" 2130969917="@id/2131438048" 2130969937="@id/2131438048" 2130969941="@id/2131438047" />
+    <ImageView ="center" android:id="@id/2131438047" ="8.0dip" ="invisible" ="0.0dip" ="0.0dip" 2130969912="@id/2131438048" 2130969917="@id/2131438048" 2130969937="@id/2131438048" 2130969940="@id/2131437449" 2130969943="2131438085" 2130971077="@drawable/2131235826" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438048" ="@drawable/2131235864" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" 2130969912="@id/2131430973" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438047" 2130969943="2131438085" 2130969947="500.0dip" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131430973" ="fill_parent" ="wrap_content" ="12.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131432100" 2130969940="@id/2131438048" 2130969942="0.0" 2130969947="500.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

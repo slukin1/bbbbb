@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450168" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.StatusBarPlaceHolderView android:id="@id/2131431221" ="0.0dip" ="0.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <include android:id="@id/2131431168" ="fill_parent" ="44.0dip" 2130969940="@id/2131431221" layout="@layout/2131627708" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131440882" ="fill_parent" ="0.0dip" ="10.0dip" 2130969912="@id/2131429955" 2130969940="@id/2131431168">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.mpc.wallet.widget.uikit.NestedScrollableHost android:id="@id/2131450321" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131429171" ="fill_parent" ="500.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            </com.mpc.wallet.widget.uikit.NestedScrollableHost>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.mpc.wallet.widget.ViewPagerIndicator ="center_horizontal" android:id="@id/2131450202" ="48.0dip" ="24.0dip" ="20.0dip" 2130969911="@id/2131440882" 2130969917="2131438103" 2130969937="2131438103" 2130971570="@color/2131099751" 2130971571="60.0dip" 2130971572="2" 2130971573="2" 2130971574="12.0dip" 2130971577="3.0dip" 2130971581="@color/2131099879" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429955" ="wrap_content" ="wrap_content" ="30.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.mpc.wallet.widget.KitRoundlProgres android:id="@id/2131437167" ="20.0dip" ="20.0dip" ="0" 2130969911="@id/2131437168" 2130969937="2131438103" 2130969941="@id/2131437168" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131437168" ="2.0dip" ="wrap_content" ="34.0dip" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131437167" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

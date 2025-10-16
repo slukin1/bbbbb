@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236021" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131434506" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="14.0dip" ="14.0dip" android:text="@string/future_position_tab_layout_title" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_desc" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/future_position_tab_layout_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439709" ="fill_parent" ="wrap_content" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" />
+</LinearLayout>

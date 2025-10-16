@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="vertical" android:id="@id/2131431993" ="fill_parent" ="fill_parent">
+        <androidx.viewpager.widget.ViewPager android:id="@id/2131449918" ="fill_parent" ="fill_parent" />
+        <com.binance.c2c.chat.widget.layout.MyRelativeLayout ="bottom" android:id="@id/2131437364" ="fill_parent" ="50.0dip" ="40.0dip" 2130971175="#ffffffff">
+            <TextView ="17.0sp" ="#ffffffff" ="center_horizontal" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="true" ="#ff000000" ="3.0" ="true" ="@font/2131296274" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434799" ="40.0dip" ="40.0dip" ="@drawable/2131232941" ="true" ="16.0dip" ="true" />
+        </com.binance.c2c.chat.widget.layout.MyRelativeLayout>
+    </FrameLayout>
+</LinearLayout>

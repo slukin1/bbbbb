@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="horizontal" ="@drawable/2131236700" ="3.0dip" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="center" android:id="@id/2131447983" ="@drawable/2131233818" ="24.0dip" ="fill_parent" android:text="@string/sign_percent" />
+    <androidx.appcompat.widget.AppCompatTextView ="center" android:id="@id/2131447980" ="24.0dip" ="fill_parent" android:text="$" ="1.0dip" />
+</merge>

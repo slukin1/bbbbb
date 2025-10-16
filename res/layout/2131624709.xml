@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428458" ="#88000000" ="gone" ="48.0dip" ="48.0dip" ="10.0dip" ="true" 2130970795="@style/2132150259" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436712" ="invisible" ="28.0dip" ="28.0dip" ="true" 2130971077="@drawable/2131237935" 2130971375="@color/2131103185" />
+    <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131449347" ="gone" ="wrap_content" ="40.0dip" ="true" 2130969941="2131438103" 2130970039="true" 2130970043="@color/2131103185" 2130970047="uikit_refresh_loading.json" 2130970050="true" />
+</RelativeLayout>

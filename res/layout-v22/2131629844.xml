@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="2.0dip" ="2.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166199" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131449273" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446305" ="wrap_content" ="wrap_content" android:text="@string/slash" ="2.0dip" 2130969911="2131438103" 2130969936="@id/2131449273" 2130969941="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131449274" ="wrap_content" ="wrap_content" ="2.0dip" 2130969911="2131438103" 2130969936="@id/2131446305" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131449272" ="wrap_content" ="wrap_content" ="2.0dip" 2130969911="2131438103" 2130969918="@id/2131446306" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446306" ="wrap_content" ="wrap_content" android:text="@string/slash" ="2.0dip" 2130969911="2131438103" 2130969918="@id/2131449271" 2130969941="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131449271" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

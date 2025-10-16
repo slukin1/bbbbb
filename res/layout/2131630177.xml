@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236038" ="16.0dip" ="13.0dip" ="16.0dip" ="13.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131446667" ="@drawable/2131236019" ="gone" ="27.0dip" ="16.0dip" ="1.0dip" android:text="Hot" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+    <TextView ="@color/2131099764" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="ltr" ="1.0dip" 2130969907="@id/tvSymbol" 2130969936="@id/tvSymbol" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" ="2.0dip" 2130968700="16.0sp" 2130968701="10.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol" style="@style/2132149446" />
+    <TextView android:id="@id/tvPercent" ="wrap_content" ="wrap_content" ="ltr" ="6.0dip" 2130969911="2131438103" 2130969936="@id/tvPrice" 2130969941="@id/tvPrice" style="@style/2132149446" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131441774" ="100.0dip" ="32.0dip" android:text="@string/ms_trade_now" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148693" />
+</androidx.constraintlayout.widget.ConstraintLayout>

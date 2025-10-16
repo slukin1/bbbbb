@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236038" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="74.0dip" ="@dimen/2131166184" ="@dimen/2131166170"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_payment_amount_limit_tips" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443533" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443534" ="wrap_content" ="wrap_content" ="2.0dip" style="@style/2132149350" />
+</androidx.appcompat.widget.LinearLayoutCompat>

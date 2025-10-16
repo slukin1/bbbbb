@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="?2130969104" />
+    <item ="?2130969069" 2130971166="true" />
+    <item ="?2130969071" 2130971167="true" />
+    <item ="true" ="?2130969071" />
+    <item ="false" ="?2130969071" />
+</selector>

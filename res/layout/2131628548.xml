@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/2131430015" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" android:id="@id/2131447244" ="0.0dip" ="wrap_content" ="19.0dip" android:text="@string/spot_trading_rule_order_size" ="15.0dip" 2130969918="@id/2131432737" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131447243" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131447244" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131448337" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/spot_trading_rule_trade_amount" ="15.0dip" 2130969918="@id/2131432737" 2130969937="2131438103" 2130969940="@id/2131447243" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tv_trade_amount" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131448337" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131447010" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/margin_min_amount_movement" ="15.0dip" 2130969918="@id/2131432737" 2130969937="2131438103" 2130969940="@id/2131448337" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131447009" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131447010" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131446973" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/margin_max_market_order_amount" ="15.0dip" 2130969918="@id/2131432737" 2130969937="2131438103" 2130969940="@id/2131447009" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131446972" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131446973" style="@style/2132149350" />
+        <TextView ="@color/2131099778" android:id="@id/2131446977" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/margin_max_limit_number" ="15.0dip" 2130969918="@id/2131432737" 2130969937="2131438103" 2130969940="@id/2131446973" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131446976" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131446977" style="@style/2132149350" />
+        <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131446975" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/margin_max_conditional_number" ="15.0dip" 2130969917="@id/2131432737" 2130969937="2131438103" 2130969940="@id/2131446977" 2130971382="@string/margin_size_conditional_tips" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131446974" ="wrap_content" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969941="@id/2131446975" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131439500" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232439" ="10.0dip" ="6.0dip" ="10.0dip" ="6.0dip" ="wrap_content" ="wrap_content" ="3.0dip" ="3.0dip" ="10.0dip" ="0.0dip" ="4.0dip">
+        <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131443425" ="wrap_content" ="wrap_content" android:text="@string/c2c_home_banner_kyc" ="5.0dip" ="@font/2131296273" 2130969311="@drawable/2131236818" 2130969312="@color/2131099787" 2130969917="2131438103" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099787" android:id="@id/2131443427" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_homepage_complete_kyc" ="2" ="5.0dip" ="@font/2131296273" 2130969311="@drawable/2131236818" 2130969312="@color/2131099787" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

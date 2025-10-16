@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="16.0dip" ="19.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131430566" ="1.0dip" ="111.0dip" ="64.0dip" ="centerCrop" 2130969917="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="@id/2131430566" 2130969918="@id/2131430566" 2130969937="2131438103" 2130969941="@id/2131430566">
+        <TextView ="@color/2131099764" ="end" android:id="@id/title" ="fill_parent" ="wrap_content" ="2" style="@style/2132149374" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131441106" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

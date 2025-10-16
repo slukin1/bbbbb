@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099675" ="15.0dip" ="100.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="ltr" ="@dimen/2131166184" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="@drawable/2131233740" ="visible" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_pair" ="wrap_content" ="wrap_content" ="16.0dip" 2130969905="true" 2130969918="@id/tv_contract_type" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/iv_logo" 2130969943="2131438085" 2130969962="@dimen/2131166153" style="@style/2132149425" />
+    <TextView android:id="@id/tv_contract_type" ="4.0dip" 2130969911="@id/tv_pair" 2130969917="2131438103" 2130969936="@id/tv_pair" 2130969941="@id/tv_pair" style="@style/2132148661" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441253" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/spot_countdown_to_open_sublable" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_pair" style="@style/2132149350" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/hourLayout" ="@drawable/2131233820" ="6.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewHour" ="wrap_content" ="wrap_content" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_count_down_hours" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/minuteLayout" ="@drawable/2131233820" ="6.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewMinute" ="wrap_content" ="wrap_content" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_count_down_mins" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/secondLayout" ="@drawable/2131233820" ="6.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/textViewSecond" ="wrap_content" ="wrap_content" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_count_down_secs" style="@style/2132149384" />
+    </LinearLayout>
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432068" ="wrap_content" ="wrap_content" ="16.0dip" 2130969125="hourLayout,minuteLayout,secondLayout" 2130969490="16.0dip" 2130969491="2131440524" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441253" />
+</androidx.constraintlayout.widget.ConstraintLayout>

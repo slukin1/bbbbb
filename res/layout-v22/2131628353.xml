@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout android:id="@id/2131433627" ="148.0dip" ="164.0dip" ="4.0dip" ="4.0dip" ="@dimen/2131166247" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@drawable/2131235989" ="fill_parent" ="fill_parent" ="@color/2131099712">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434349" ="36.0dip" ="36.0dip" ="12.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434888" ="12.0dip" ="12.0dip" ="-2.0dip" ="-2.0dip" 2130969911="@id/2131434349" 2130969917="@id/2131434349" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434349">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="16.0dip" ="4.0dip" ="16.0dip" ="1" ="@dimen/2131166188" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="center_horizontal" android:id="@id/2131447950" ="wrap_content" ="wrap_content" ="8.0dip" ="4.0dip" ="8.0dip" ="2" ="@dimen/2131166286" 2130969912="@id/2131429031" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+            <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+                <com.major.android.uikit2.button.KitButton ="@color/2131099764" ="bottom|center" android:id="@id/2131429031" ="wrap_content" ="24.0dip" ="16.0dip" android:text="@string/c2c_follow_btn_follow" ="6.0dip" />
+            </FrameLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

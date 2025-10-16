@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center|top" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/margin_no_open_orders" ="4.0dip" 2130969314="@drawable/2131233601" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446453" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/alpha_trading_processing_explore_tip" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131446452" ="@drawable/2131236717" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="90.0dip" ="28.0dip" ="8.0dip" android:text="@string/alpha_trading_processing_explore" style="@style/2132149384" />
+</androidx.appcompat.widget.LinearLayoutCompat>

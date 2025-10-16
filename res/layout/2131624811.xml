@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236021" ="12.0dip" ="12.0dip" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/available" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442230" ="wrap_content" ="wrap_content" ="4.0dip" ="ltr" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149419" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440476" ="@drawable/2131236038" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="82.0dip" ="15.0dip" ="16.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442230">
+        <TextView ="@color/2131099764" android:id="@id/2131441546" ="wrap_content" ="wrap_content" android:text="@string/convert_spot_wallet_name" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131441192" ="wrap_content" ="wrap_content" ="2.0dip" android:text="Available: 0.0 BTC" 2130969937="2131438103" 2130969940="@id/2131441546" style="@style/2132149384" />
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429532" ="false" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432314" ="@drawable/2131236038" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="82.0dip" ="15.0dip" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440476">
+        <TextView ="@color/2131099764" android:id="@id/2131441545" ="wrap_content" ="wrap_content" android:text="@string/convert_funding_wallet_name" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131441191" ="wrap_content" ="wrap_content" ="2.0dip" android:text="Available: 0.0 BTC" 2130969937="2131438103" 2130969940="@id/2131441545" style="@style/2132149384" />
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429522" ="false" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429004" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/confirm" ="15.0dip" ="15.0dip" 2130969940="@id/2131432314" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

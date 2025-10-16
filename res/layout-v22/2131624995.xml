@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131430965" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/ms_accounts_before_delete_warning" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131430964" ="@color/2131099800" ="15.0dip" ="25.0dip" ="15.0dip" ="25.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/ms_accounts_delete_notice" ="1.3" ="@dimen/2131166184" ="@dimen/2131166184" ="@dimen/2131166212" 2130969940="@id/2131430965" style="@style/2132149350" />
+    <TextView ="@color/2131099863" android:id="@id/2131440868" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/ms_accounts_delete_risk_notice" ="1.3" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131430964" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center_horizontal" android:id="@id/2131430818" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="54.0dip" android:text="@string/c2c_appeal_reason_others_btn_customer" ="3.0dip" ="@dimen/2131166184" 2130969173="4" 2130969911="2131438103" 2130971472="2" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

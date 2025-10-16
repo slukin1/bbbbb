@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131440585" ="wrap_content" ="wrap_content" 2130969125="asset_allocation_breakdown, asset_allocation_pie_chart" />
+    <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131428097" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" 2130969125="asset_allocation_label, asset_allocation_info" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/asset_allocation_label" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_asset_allocation_label" ="15.0dip" 2130969937="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/asset_allocation_info" ="4.0dip" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <com.github.mikephil.charting.charts.PieChart android:id="@id/asset_allocation_pie_chart" ="0.0dip" ="160.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428097" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131428100" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/margin_no_data_found" 2130969940="@id/asset_allocation_pie_chart" style="@style/2132149207" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/asset_allocation_breakdown" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/asset_allocation_pie_chart" />
+    <include android:id="@id/2131431415" ="gone" ="fill_parent" ="wrap_content" ="48.0dip" 2130969911="2131438103" 2130969940="@id/asset_allocation_label" layout="@layout/2131630149" />
+    <include android:id="@id/2131438693" ="gone" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131630150" />
+</androidx.constraintlayout.widget.ConstraintLayout>

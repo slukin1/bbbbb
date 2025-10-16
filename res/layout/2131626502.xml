@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444029" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/2131441524" ="@drawable/2131233287" ="gone" ="0.0dip" ="1.0dip" 2130969917="@id/2131444029" 2130969937="@id/2131444029" 2130969940="@id/2131444029" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131449298" ="fill_parent" ="wrap_content" 2130969937="@id/2131444029" 2130969940="@id/2131441524">
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444030" ="0.0dip" ="wrap_content" ="1.0" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433780" ="2.0dip" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237146" 2130971375="@color/2131099764" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

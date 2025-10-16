@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@dimen/2131166269" ="0.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430343" ="fill_parent" ="138.0dip" ="@dimen/2131166184" ="10.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430367" ="40.0dip" ="40.0dip" ="10.0dip" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131430343" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131430378" ="wrap_content" ="wrap_content" ="23" ="5.0dip" 2130969911="@id/2131430367" 2130969936="@id/2131430367" 2130969941="@id/2131430367" style="@style/2132149371" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131430394" ="wrap_content" ="wrap_content" android:text="@string/launcher_feed_item_trade_now" ="@dimen/2131166184" 2130969173="4" 2130969911="@id/2131430367" 2130969917="2131438103" 2130969941="@id/2131430367" 2130970889="3" />
+    <Space android:id="@id/2131431762" ="fill_parent" ="@dimen/2131166260" 2130969940="@id/2131430367" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="@dimen/2131166011" ="@dimen/2131166269" ="@dimen/2131166153" 2130969911="2131438103" 2130969940="@id/2131431762" />
+</androidx.constraintlayout.widget.ConstraintLayout>

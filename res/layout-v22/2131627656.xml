@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="true" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436686" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" ="30.0dip" ="30.0dip" ="5.0dip" ="fitXY" 2130971077="@drawable/2131235196" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445989" ="wrap_content" ="wrap_content" ="10.0dip" ="@id/icon" style="@style/2132149459" />
+    <LinearLayout ="start" ="horizontal" android:id="@id/2131436486" ="wrap_content" ="wrap_content" ="@id/2131445989" ="50.0dip" ="@id/icon" ="true">
+        <TextView ="12.0sp" ="@color/2131099778" ="middle" android:id="@id/2131445972" ="75.0dip" ="wrap_content" ="1.0dip" ="1" ="10.0dip" style="@style/2132149459" />
+    </LinearLayout>
+    <TextView ="12.0sp" ="#ffd89f00" android:id="@id/2131445980" ="gone" ="75.0dip" ="wrap_content" android:text="@string/mpc_wallet_backup_escape_copy" ="true" ="@id/2131436486" ="10.0dip" ="@id/icon" style="@style/2132149459" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131436556" ="@drawable/2131236726" ="30.0dip" ="30.0dip" ="true" ="@color/2131099744">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_arrow" ="wrap_content" ="wrap_content" ="fitXY" 2130971077="@drawable/2131237050" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439479" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432788" ="wrap_content" ="wrap_content" 2130969921="0.0877" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432787" ="wrap_content" ="wrap_content" 2130969921="0.9123" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432778" ="wrap_content" ="0.0dip" 2130969921="0.1271" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969918="@id/2131432778" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237940" />
+    <View ="@drawable/2131234074" ="1.0dip" ="0.0dip" 2130969911="@id/2131432787" 2130969937="@id/2131432778" 2130969941="@id/2131432788" />
+    <TextView ="@color/2131099787" ="end" android:id="@id/2131445395" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/strategy_voucher_unclaim_title" ="1" ="12.0dip" ="8.0dip" 2130969912="@id/2131445387" 2130969918="@id/2131428726" 2130969937="@id/2131432778" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149397" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131445387" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/strategy_voucher_unclaim_desc" ="1" ="12.0dip" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131428726" 2130969937="@id/2131432778" 2130969940="@id/2131445395" style="@style/2132149454" />
+    <com.major.android.uikit2.button.KitButton ="10.0dip" android:id="@id/2131428726" ="wrap_content" ="wrap_content" android:text="@string/strategy_voucher_claim" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148706" />
+</androidx.constraintlayout.widget.ConstraintLayout>

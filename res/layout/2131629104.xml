@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131430312" ="fill_parent" ="fill_parent">
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438353" ="fill_parent" ="wrap_content" />
+        <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="15.0dip" ="15.0dip" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438351" ="fill_parent" ="wrap_content" ="5.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

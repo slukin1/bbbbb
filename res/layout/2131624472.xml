@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="#ff000000" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.BNCLottieAnimationView ="center" ="bottom|center" android:id="@id/2131430353" ="wrap_content" ="48.0dip" 2130970039="true" 2130970043="@color/2131099762" 2130970047="uikit_refresh_loading.json" 2130970050="true" />
+    <TextView ="@color/2131099726" ="bottom|center" android:id="@id/2131430354" ="gone" ="wrap_content" ="68.0dip" android:text="@string/content_video_no_more_content" style="@style/2132149375" />
+</LinearLayout>

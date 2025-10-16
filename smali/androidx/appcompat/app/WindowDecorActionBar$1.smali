@@ -1,0 +1,53 @@
+.class final Landroidx/appcompat/app/WindowDecorActionBar$1;
+.super Lo/TextFieldSelectionManagerpaste1;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/appcompat/app/WindowDecorActionBar;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Landroidx/appcompat/app/WindowDecorActionBar;
+
+
+# direct methods
+.method constructor <init>(Landroidx/appcompat/app/WindowDecorActionBar;)V
+    .locals 0
+
+    .line 150
+    iput-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$1;->a:Landroidx/appcompat/app/WindowDecorActionBar;
+
+    invoke-direct {p0}, Lo/TextFieldSelectionManagerpaste1;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e(Landroid/view/View;)V
+    .locals 1
+
+    .line 153
+    iget-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$1;->a:Landroidx/appcompat/app/WindowDecorActionBar;
+
+    const/4 v0, 0x0
+
+    iput-object v0, p1, Landroidx/appcompat/app/WindowDecorActionBar;->mCurrentShowAnim:Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;
+
+    .line 154
+    iget-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$1;->a:Landroidx/appcompat/app/WindowDecorActionBar;
+
+    iget-object p1, p1, Landroidx/appcompat/app/WindowDecorActionBar;->mContainerView:Landroidx/appcompat/widget/ActionBarContainer;
+
+    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
+
+    return-void
+.end method

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131435522" ="@drawable/2131236021" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/title" ="wrap_content" ="wrap_content" android:text="@string/fiat_history_bank_details" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131430102" ="20.0dip" ="20.0dip" ="@null" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131427439" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="22.0dip" 2130969940="@id/title">
+        <TextView ="@color/2131099778" android:id="@id/2131444995" ="wrap_content" ="wrap_content" android:text="@string/fiat_history_bank_details_account_name" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433193" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131444995" 2130969917="2131438103" 2130969941="@id/2131444995" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131441992" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="@id/2131444995" 2130969918="@id/2131433193" 2130969936="@id/2131444995" 2130969941="@id/2131444995" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131428277" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131427439">
+        <TextView ="@color/2131099778" android:id="@id/2131444999" ="wrap_content" ="wrap_content" android:text="@string/fiat_history_bank_details_bank_name" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433196" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131444999" 2130969917="2131438103" 2130969941="@id/2131444999" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442298" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="@id/2131444999" 2130969918="@id/2131433196" 2130969936="@id/2131444999" 2130969941="@id/2131444999" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131427735" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131428277">
+        <TextView ="@color/2131099778" android:id="@id/2131444998" ="wrap_content" ="wrap_content" android:text="@string/fiat_history_bank_details_agency" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433195" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131444998" 2130969917="2131438103" 2130969941="@id/2131444998" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442051" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="@id/2131444998" 2130969918="@id/2131433195" 2130969936="@id/2131444998" 2130969941="@id/2131444998" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131427445" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131427735">
+        <TextView ="@color/2131099778" android:id="@id/2131444996" ="wrap_content" ="wrap_content" android:text="@string/fiat_history_bank_details_account_number" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433194" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131444996" 2130969917="2131438103" 2130969941="@id/2131444996" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/tvAccountNumber" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="@id/2131444996" 2130969918="@id/2131433194" 2130969936="@id/2131444996" 2130969941="@id/2131444996" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" ="horizontal" android:id="@id/2131430128" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131427445">
+        <TextView ="@color/2131099778" ="start" android:id="@id/2131445002" ="wrap_content" ="wrap_content" android:text="@string/fiat_history_bank_details_cnpj" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433197" ="16.0dip" ="16.0dip" ="@null" 2130969911="@id/2131445002" 2130969917="2131438103" 2130969941="@id/2131445002" 2130971077="@drawable/2131237146" />
+        <TextView ="@color/2131099764" ="end" android:id="@id/2131442497" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" 2130969911="@id/2131445002" 2130969918="@id/2131433197" 2130969936="@id/2131445002" 2130969941="@id/2131445002" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131437818" ="fill_parent" ="48.0dip" ="20.0dip" android:text="@string/ok" 2130969173="4" 2130969940="@id/2131430128" />
+</androidx.constraintlayout.widget.ConstraintLayout>

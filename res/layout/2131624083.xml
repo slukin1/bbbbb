@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131430107" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="45.0dip" ="44.0dip" ="true" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <ScrollView ="none" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+            <LinearLayout ="center" ="vertical" android:id="@id/2131436801" ="30.0dip" ="fill_parent" ="wrap_content" ="true">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434456" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238405" />
+                <TextView ="16.0sp" ="@color/2131099764" ="center_horizontal" android:id="@id/2131446099" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/c2c_mod_successfully_purchased_coin" ="@font/2131296273" />
+                <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="32.0dip">
+                    <RelativeLayout ="fill_parent" ="wrap_content">
+                        <RelativeLayout android:id="@id/2131430488" ="@drawable/2131232428" ="20.0dip" ="20.0dip" ="@color/2131099764">
+                            <androidx.appcompat.widget.AppCompatImageView ="15.0dip" ="15.0dip" ="2.0dip" ="true" 2130971077="@drawable/2131237039" 2130971375="@color/2131099685" />
+                        </RelativeLayout>
+                        <View android:id="@id/2131437953" ="@color/2131099764" ="1.5dip" ="180.0dip" ="@id/2131430488" ="@id/2131437965" ="1.0" ="10.0sp" />
+                        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131437965" ="16.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="@id/2131430488">
+                            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131441482" ="fill_parent" ="wrap_content" android:text="@string/c2c_mod_usdt_purchase_completed" ="@font/2131296273" />
+                            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131437974" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_mod_coin_usdt_deposited_into_wallet" ="@font/2131296274" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+                        <RelativeLayout android:id="@id/2131430489" ="@drawable/2131232428" ="20.0dip" ="20.0dip">
+                            <TextView ="12.0sp" ="@color/2131099675" ="center" android:id="@id/2131446098" ="fill_parent" ="fill_parent" android:text="2" ="@font/2131296273" />
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434453" ="gone" ="wrap_content" ="wrap_content" ="true" 2130971077="@drawable/2131237100" 2130971375="@color/2131099685" />
+                        </RelativeLayout>
+                        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131437966" ="wrap_content" ="wrap_content" ="16.0dip">
+                            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131440652" ="fill_parent" ="wrap_content" android:text="@string/c2c_mod_convert_usdt_to_coin" ="@font/2131296273" />
+                            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131437977" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_mod_express_guide_price_changed_convert" ="@font/2131296274" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131430486" ="fill_parent" ="wrap_content" ="15.0dip" ="32.0dip" ="15.0dip" android:text="@string/c2c_mod_convert_now_order" style="@style/2132148692" />
+            <TextView ="16.0sp" ="@color/2131099787" ="center_horizontal" android:id="@id/2131430474" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_mod_convert_assets_order" ="@font/2131296273" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+    <View android:id="@id/2131427901" ="fill_parent" ="1.0dip" ="true" ="true" />
+    <FrameLayout android:id="@id/2131431582" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="true" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427600" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131436345" ="fill_parent" ="45.0dip" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970759="@string/_search" />
+    <TextView ="@color/2131099778" android:id="@id/searchResult" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/select_coin" ="@id/2131436345" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436345" style="@style/2132149446" />
+    <View android:id="@id/view_line" ="@color/2131099751" ="0.0dip" ="1.0dip" ="10.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/searchResult" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131441523" ="wrap_content" ="wrap_content" 2130969125="searchResult,view_line" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131433830" ="0.0dip" ="0.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/view_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

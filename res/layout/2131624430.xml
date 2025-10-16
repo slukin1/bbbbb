@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435737" ="@drawable/2131238569" ="5.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="22.0dip" ="22.0dip" ="5.0dip" ="@drawable/2131234020" 2130969911="2131438103" 2130969918="@id/2131432760" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099787" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" ="12.0dip" ="5.0dip" ="12.0dip" android:text="@string/futures_new_user_only" 2130969912="@id/2131442581" 2130969918="@id/2131435052" 2130969937="@id/2131432760" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149397" />
+    <TextView ="@color/2131099764" android:id="@id/2131442581" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" android:text="@string/futures_claim_gift" 2130969918="@id/2131435052" 2130969937="@id/2131432760" 2130969940="@id/tvTitle" style="@style/2132149454" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.1275" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131435052" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/futures_campaign_center_claim" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148706" />
+    <View android:id="@id/2131449195" ="@drawable/2131233825" ="gone" ="8.0dip" ="8.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

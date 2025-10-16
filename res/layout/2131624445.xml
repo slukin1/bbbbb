@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.BNCLottieAnimationView ="top" android:id="@id/2131436759" ="@color/2131099685" ="visible" ="fill_parent" ="wrap_content" ="170.0dip" ="top" 2130969917="2131438103" 2130969941="2131438103" 2130970039="true" 2130970047="feed_list_skeleton_light.json" 2130970050="true" />
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130971078="@android:color/transparent" 2130971103="false" 2130971121="@android:color/transparent">
+        <com.binance.content.internal.topics.EmptyClassicsHeader android:id="@id/2131432819" ="fill_parent" ="100.0dip" 2130971078="@android:color/transparent" 2130971097="false" 2130971121="@android:color/transparent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" ="@id/2131448219" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    <FrameLayout android:id="@id/2131441601" ="true" ="true" ="fill_parent" ="48.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="18.0sp" ="bold" ="@color/2131099764" ="bottom|center" android:id="@id/title" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/content_trending" style="@style/2132149425" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="#00000000" ="24.0dip" ="24.0dip" ="12.0dip" ="@color/2131099764" ="16.0dip" 2130969911="@id/2131441601" 2130969937="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434657" ="@drawable/2131237935" ="gone" ="24.0dip" ="24.0dip" ="12.0dip" ="16.0dip" 2130969911="@id/2131441601" 2130969917="2131438103" 2130971375="@color/2131099764" />
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131436711" ="@color/2131099685" ="true" ="true" ="gone" ="fill_parent" ="0.0dip" 2130969336="@null" 2130969342="true" 2130969343="@drawable/2131238395" 2130969344="@drawable/2131238490" 2130969346="@string/ms_network_link_failed" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" />
+</androidx.constraintlayout.widget.ConstraintLayout>

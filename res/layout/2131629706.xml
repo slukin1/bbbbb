@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432522" ="visible" ="wrap_content" ="wrap_content" 2130969125="imgEmpty,txtEmpty" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgEmpty" ="96.0dip" ="96.0dip" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238419" />
+    <TextView ="@color/2131099778" android:id="@id/txtEmpty" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/voptions_favorites_no_favorites" 2130969917="@id/imgEmpty" 2130969937="@id/imgEmpty" 2130969940="@id/imgEmpty" style="@style/2132149374" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432514" ="gone" ="wrap_content" ="wrap_content" 2130969125="cbAll,recycler,txtSymbols,txtSort,txtTop" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/cbAll" ="24.0dip" ="24.0dip" ="false" ="15.0dip" 2130969912="@id/2131432729" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099778" android:id="@id/txtSymbols" ="wrap_content" ="wrap_content" android:text="@string/voptions_favorites_symbol" ="10.0dip" 2130969912="@id/2131432729" 2130969936="@id/cbAll" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/txtSort" ="wrap_content" ="wrap_content" android:text="@string/voptions_favorites_sort" ="15.0dip" 2130969907="@id/txtSymbols" 2130969917="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/txtTop" ="wrap_content" ="wrap_content" android:text="@string/voptions_favorites_top" ="20.0dip" 2130969907="@id/txtSymbols" 2130969918="@id/txtSort" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432729" ="wrap_content" ="wrap_content" 2130969919="@dimen/2131166253" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" ="0.0dip" ="wrap_content" 2130969904="true" 2130969912="@id/2131430276" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432729" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430276" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit2.button.KitButton ="false" ="@color/2131099725" ="@color/2131099726" android:id="@id/2131428754" ="0.0dip" ="40.0dip" android:text="@string/voptions_favorites_edit_delete_all" ="15.0dip" ="15.0dip" 2130969173="8" 2130969911="2131438103" 2130969918="@id/2131428732" 2130969928="2131438085" 2130969937="2131438103" style="@style/2132148694" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="15.0dip" 2130969173="8" 2130969917="2131438103" 2130969936="@id/2131428754" 2130969941="@id/2131428754" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

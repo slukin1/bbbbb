@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131432208" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.NestedCoordinatorLayout ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969974="2131439795">
+                <include android:id="@id/2131449555" ="gone" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131629264" />
+                <com.binance.widget.viewpager2.NestedScrollableHost android:id="@id/2131439552" ="0.0dip" ="wrap_content" ="10.0dip" 2130969918="@id/ivFilter" 2130969937="2131438103" 2130969940="@id/2131449555">
+                    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439551" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+                </com.binance.widget.viewpager2.NestedScrollableHost>
+                <ImageView android:id="@id/ivFilter" ="5.0dip" ="30.0dip" ="30.0dip" ="15.0dip" 2130969911="@id/2131439552" 2130969917="2131438103" 2130969941="@id/2131439552" 2130971077="@drawable/2131238206" />
+                <com.binance.base.widget.IconTipsTextView ="@color/2131099764" android:id="@id/tvCumulativeReward" ="wrap_content" ="wrap_content" ="9.0dip" android:text="@string/earn_cumulative_rewards" ="6.0dip" ="15.0dip" 2130969274="@string/earn_cumulative_rewards" 2130969937="2131438103" 2130969940="@id/2131439552" 2130970864="false" 2130971380="2131428553" 2130971382="@string/earn_analysis_cumulative_reward_tips" 2130971383="2131440560" style="@style/2132149446" />
+                <FrameLayout android:id="@id/2131431900" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/tvCumulativeReward">
+                    <com.binance.base.widget.LineChartPnlView android:id="@id/2131435872" ="fill_parent" ="272.0dip" ="13.5dip" />
+                    <ProgressBar ="center" android:id="@id/2131435867" ="40.0dip" ="40.0dip" />
+                </FrameLayout>
+                <com.binance.base.widget.IconTipsTextView ="@color/2131099764" android:id="@id/2131442753" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_savings_guide_title2" ="6.0dip" ="15.0dip" 2130969274="@string/earn_savings_guide_title2" 2130969937="2131438103" 2130969940="@id/2131431900" 2130970864="false" 2130971380="2131428553" 2130971382="@string/earn_analysis_daily_reward_tips" 2130971383="2131440560" style="@style/2132149446" />
+                <com.binance.earn.widgets.BarChartView2 android:id="@id/2131428297" ="fill_parent" ="272.0dip" ="15.0dip" 2130969940="@id/2131442753" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <include android:id="@id/2131449556" ="fill_parent" ="wrap_content" 2130969902="2131438344" 2130969917="2131438103" 2130969937="2131438103" layout="@layout/2131629265" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+    </com.binance.widget.NestedCoordinatorLayout>
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

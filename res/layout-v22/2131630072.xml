@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432360" ="@drawable/2131234718" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131430144" ="fill_parent" ="0.0dip" 2130969911="@id/wallet_coin_average_price_title" 2130969941="@id/2131442498" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="20.0dip" ="20.0dip" ="2.0dip" ="fitXY" 2130969911="@id/2131442498" 2130969937="2131438103" 2130969941="@id/2131442498" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429444" ="@drawable/2131236001" ="1.0dip" ="10.0dip" ="10.0dip" ="fitXY" ="@color/2131099685" 2130969911="@id/2131436732" 2130969917="@id/2131436732" 2130971077="@drawable/2131232951" />
+    <TextView ="bold" ="@color/2131099764" ="center" android:id="@id/2131442498" ="wrap_content" ="24.0dip" ="12.0dip" ="false" ="10.0dip" 2130969936="@id/2131436732" 2130969941="2131438103" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="center_vertical" android:id="@id/2131430136" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="16.0dip" ="false" ="4.0dip" ="#1af6465d" ="@dimen/2131166260" 2130969911="@id/2131442498" 2130969936="@id/2131442498" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="center_vertical" android:id="@id/2131430137" ="@drawable/2131235998" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="16.0dip" ="false" ="4.0dip" ="#1af6465d" ="@dimen/2131166260" 2130969911="@id/2131442498" 2130969936="@id/2131430136" 2130969941="@id/2131442498" style="@style/2132149394" />
+    <TextView ="@color/2131099778" android:id="@id/tvName" ="0.0dip" ="wrap_content" ="1.0dip" ="false" ="2.0dip" 2130969918="@id/2131432737" 2130969937="@id/2131442498" 2130969940="@id/2131442498" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="end|bottom|center" android:id="@id/tvFunds" ="0.0dip" ="24.0dip" ="1" ="false" 2130969912="@id/2131448523" 2130969917="2131438103" 2130969936="@id/2131432737" 2130969941="@id/2131442498" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131448523" ="0.0dip" ="wrap_content" ="1.0dip" ="ltr" ="viewEnd" 2130969911="@id/tvName" 2130969917="@id/tvFunds" 2130969936="@id/2131432737" 2130969940="@id/tvFunds" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131450247" ="gone" ="wrap_content" ="wrap_content" 2130969125="wallet_pnl_profit,wallet_pnl_profit_ratio_title,wallet_pnl_profit_ratio_value" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131450160" ="gone" ="fill_parent" ="fill_parent" 2130969125="wallet_coin_average_price_title,wallet_coin_average_price_value" />
+    <TextView ="@color/2131099778" android:id="@id/wallet_pnl_profit_ratio_title" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_funds_today_pnl" 2130969937="@id/2131442498" 2130969940="@id/tvName" style="@style/2132149384" />
+    <View android:id="@id/2131450263" ="@drawable/2131236004" ="gone" ="100.0dip" ="18.0dip" 2130969911="@id/wallet_pnl_profit" 2130969917="2131438103" 2130969941="@id/wallet_pnl_profit" />
+    <TextView android:id="@id/wallet_pnl_profit" ="wrap_content" ="wrap_content" 2130969918="@id/wallet_pnl_profit_ratio_value" 2130969941="@id/wallet_pnl_profit_ratio_title" style="@style/2132149384" />
+    <TextView android:id="@id/wallet_pnl_profit_ratio_value" ="wrap_content" ="wrap_content" 2130969917="@id/tvFunds" 2130969941="@id/wallet_pnl_profit_ratio_title" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/wallet_coin_average_price_title" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/wallet_pnl_average_cost" 2130969937="@id/2131442498" 2130969940="@id/wallet_pnl_profit_ratio_title" style="@style/2132149384" />
+    <View android:id="@id/2131450159" ="@drawable/2131236004" ="gone" ="100.0dip" ="18.0dip" 2130969911="@id/wallet_coin_average_price_value" 2130969917="2131438103" 2130969941="@id/wallet_coin_average_price_value" />
+    <TextView ="@color/2131099764" android:id="@id/wallet_coin_average_price_value" ="wrap_content" ="wrap_content" 2130969917="@id/tvFunds" 2130969941="@id/wallet_coin_average_price_title" style="@style/2132149384" />
+    <LinearLayout ="end" android:id="@id/2131441763" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969940="@id/wallet_coin_average_price_value">
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131442896" ="@drawable/2131236007" ="20.0dip" ="20.0dip" ="gone" ="wrap_content" ="24.0dip" ="12.0dip" ="60.0dip" android:text="@string/earn" ="8.0dip" ="@dimen/2131166200" 2130969918="@id/2131445164" 2130969940="@id/wallet_coin_average_price_value" style="@style/2132149454" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131445164" ="@drawable/2131236007" ="20.0dip" ="20.0dip" ="gone" ="wrap_content" ="24.0dip" ="12.0dip" ="60.0dip" android:text="@string/ms_guide_title2" ="@dimen/2131166200" 2130969917="2131438103" style="@style/2132149454" />
+    </LinearLayout>
+    <View ="fill_parent" ="12.0dip" 2130969911="2131438103" 2130969940="@id/2131441763" />
+    <View android:id="@id/lineView" ="@color/2131099751" ="gone" ="fill_parent" ="0.5dip" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

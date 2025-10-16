@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439489" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.constraintlayout.widget.Guideline ="horizontal" android:id="@id/2131432729" ="wrap_content" ="wrap_content" 2130969921="0.13" />
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131433239" ="96.0dip" ="96.0dip" ="88.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970039="true" 2130970050="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433293" ="gone" ="96.0dip" ="96.0dip" ="88.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235416" />
+    <TextView ="@color/2131099764" android:id="@id/2131444773" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/future_borrow_order_status_pending" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433239" 2130969962="205.0dip" style="@style/2132149425" />
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131442812" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/ocbs_bank_transfer_online_processing" ="1.0dip" ="30.0dip" ="30.0dip" 2130969940="@id/2131444773" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/btnTryAgain" ="gone" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/ms_jumio_try_again" ="false" ="15.0dip" ="15.0dip" 2130969173="2131437069" 2130969911="2131438103" 2130971205="true" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131235296" ="32.0dip" ="4.0dip" ="8.0dip" ="16.0dip" />
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="50.0dip" ="16.0dip" ="16.0dip">
+        <ImageView android:id="@id/2131433698" ="?2130970781" ="true" ="true" ="24.0dip" ="24.0dip" ="@drawable/2131237053" ="@string/back" />
+        <TextView ="@color/2131099764" ="end" ="center" ="0.0dip" ="wrap_content" android:text="@string/jarvis_setting_shortcut_title" ="1" ="1.0" ="16.0dip" style="@style/2132149428" />
+        <View ="24.0dip" ="24.0dip" />
+    </LinearLayout>
+    <LinearLayout ="vertical" ="8.0dip" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436155" ="?2130970780" ="true" ="true" ="fill_parent" ="60.0dip" ="15.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131442130" ="0.0dip" ="wrap_content" android:text="@string/jarvis_setting_shortcut_always" ="1.0" style="@style/2132149446" />
+            <ImageView android:id="@id/2131433666" ="gone" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131235288" 2130971375="@color/2131099764" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436159" ="?2130970780" ="true" ="true" ="fill_parent" ="60.0dip" ="15.0dip" ="15.0dip">
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442218" ="0.0dip" ="wrap_content" android:text="@string/jarvis_setting_shortcut_auto" ="1.0" style="@style/2132149446" />
+            <ImageView android:id="@id/2131433691" ="gone" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131235288" 2130971375="@color/2131099764" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.futures.common.framework.widget.FuturesMaxHeightLinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434610" ="fill_parent" ="16.0dip" ="centerInside" 2130971077="@drawable/2131233782" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="50.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131446321" ="wrap_content" ="50.0dip" android:text="@string/futures_preference_position_button_setting_close_position" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439806" ="vertical" ="fill_parent" ="0.0dip" ="16.0dip" ="28.0dip" ="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" ="end" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" android:text="@string/symbol" ="1" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+            <TextView ="#ff00c087" android:id="@id/tv_direction" ="wrap_content" ="wrap_content" ="16.0dip" 2130969905="true" 2130969907="@id/tv_symbol" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/tv_symbol" style="@style/2132149384" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131447466" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/copy_trading_position_market_close_order_price" ="1" 2130969937="@id/tv_symbol" 2130969940="@id/tv_symbol" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131446360" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/_market" ="ltr" 2130969905="true" 2130969907="@id/2131447466" 2130969917="@id/tv_direction" 2130969927="1.0" 2130969936="@id/2131447466" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/tv_amount_title" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ms_withdraw_amount" 2130969937="@id/tv_symbol" 2130969940="@id/2131447466" style="@style/2132149450" />
+            <com.finance.framework.widget.edit.SlidePercentEditTextV2 android:id="@id/edit_amount" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_amount_title" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131447242" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_position_size" ="1" 2130969937="@id/tv_symbol" 2130969940="@id/edit_amount" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131447241" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/placeholder" ="ltr" 2130969905="true" 2130969907="@id/2131447242" 2130969917="@id/tv_direction" 2130969927="1.0" 2130969936="@id/2131447242" style="@style/2132149350" />
+            <TextView ="@color/2131099778" ="end" android:id="@id/2131447391" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/estimated_pnl" ="1" 2130969937="@id/2131447242" 2130969940="@id/2131447242" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131447387" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/placeholder" ="ltr" 2130969905="true" 2130969907="@id/2131447391" 2130969917="@id/tv_direction" 2130969927="1.0" 2130969936="@id/2131447391" style="@style/2132149350" />
+            <View android:id="@id/divider" ="@color/2131099751" ="0.0dip" ="0.5dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447391" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_bottom_tip" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_market_close_confirmation_tip" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131445949" ="fill_parent" ="wrap_content" android:text="@string/confirm" ="15.0dip" ="15.0dip" style="@style/2132148692" />
+</com.finance.futures.common.framework.widget.FuturesMaxHeightLinearLayout>

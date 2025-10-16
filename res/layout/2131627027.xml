@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435948" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="fill_parent" ="36.0dip" 2130971077="@drawable/2131234778" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234723" ="fill_parent" ="fill_parent" ="20.0dip">
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131435949" ="fill_parent" ="wrap_content" ="32.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435942" ="24.0dip" ="8.0dip" ="4.0dip" ="@color/2131099800" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131435949" 2130971077="@drawable/2131234728" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435947" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969940="@id/2131435942">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131435950" ="fill_parent" ="wrap_content" ="20.0dip" ="3" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+                <com.binance.base.widget.GrowthCountDownView ="center" android:id="@id/2131435944" ="2.0dip" ="2.0dip" ="invisible" ="wrap_content" ="wrap_content" ="8.0dip" ="true" ="4.0dip" ="4.0dip" ="15.0dip" ="15.0dip" 2130969054="@color/2131099778" 2130969232="@string/day" 2130969592="@string/earn_h" 2130969937="2131438103" 2130969940="@id/2131435950" 2130970213="@string/earn_m" 2130970769="@string/earn_s" 2130970889="2131437069" 2130971309="@color/2131099778" 2130971336="10.0sp" style="@style/2132149397" />
+                <ProgressBar android:id="@id/2131435945" ="@null" ="gone" ="wrap_content" ="8.0dip" ="@drawable/2131234767" ="8.0dip" 2130969911="@id/2131435946" 2130969918="@id/2131435946" 2130969941="@id/2131435946" style="@style/2132149833" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131435946" ="gone" ="wrap_content" ="18.0dip" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131435950" style="@style/2132149377" />
+                <com.major.android.uikit.button.KitButton ="@color/2131099764" android:id="@id/2131435943" ="fill_parent" ="48.0dip" ="20.0dip" ="20.0dip" android:text="@string/ms_feature_convert" ="15.0dip" ="15.0dip" 2130969173="24.0" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131435944" style="@style/2132149371" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView ="@color/2131099789" ="center" ="center_horizontal" ="@drawable/2131234770" ="5.0dip" ="100.0dip" ="220.0dip" ="40.0dip" android:text="@string/lite_market_active_boarding" style="@style/2132149463" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

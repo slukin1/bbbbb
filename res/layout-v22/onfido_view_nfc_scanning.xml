@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_horizontal" ="vertical" ="@drawable/onfido_nfc_bottom_sheet_bg" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.camera.view.AutoPlayVideoView android:id="@id/2131433517" ="false" ="wrap_content" ="0.0dip" ="no" 2130969911="@id/2131438678" 2130969917="@id/2131438678" 2130969937="@id/2131438678" 2130969941="@id/2131438678" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/2131438678" ="18.0dip" ="false" ="wrap_content" ="wrap_content" ="100" 2130969642="@dimen/2131167406" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971450="@dimen/2131167407" style="@style/2132148898" />
+    <ImageView android:id="@id/2131440851" ="false" ="gone" ="wrap_content" ="wrap_content" ="@string/onfido_nfc_sheet_success_subtitle" 2130969911="@id/2131438678" 2130969917="@id/2131438678" 2130969937="@id/2131438678" 2130969941="@id/2131438678" 2130971077="@drawable/onfido_ic_check_accented" />
+    <ImageView android:id="@id/2131437698" ="false" ="wrap_content" ="wrap_content" 2130969911="@id/2131438678" 2130969917="@id/2131438678" 2130969937="@id/2131438678" 2130969941="@id/2131438678" 2130971077="@drawable/onfido_ic_nfc" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131441544" ="true" ="wrap_content" ="wrap_content" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131438678">
+        <TextView android:id="@id/title" ="false" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="5.0sp" ="no" ="center" ="@dimen/2131167417" style="@style/2132148962" />
+        <TextView ="?2130970372" android:id="@id/2131440847" ="16.0dip" ="16.0dip" ="false" ="wrap_content" ="wrap_content" ="8.0dip" ="3" ="no" ="center" ="@dimen/2131167417" style="@style/2132148937" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton ="16.0sp" ="end" android:id="@id/2131439870" ="@drawable/onfido_bottom_sheet_cancel_button_bg" ="fill_parent" ="wrap_content" ="32.0dip" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441544" style="?android:borderlessButtonStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

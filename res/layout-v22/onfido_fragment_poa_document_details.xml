@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="@dimen/2131167206" ="@dimen/2131167206" ="@dimen/2131167206">
+        <TextView android:id="@id/2131438534" ="0.0dip" ="wrap_content" ="@dimen/2131167276" android:text="@string/onfido_doc_select_button_bank_statement" ="true" 2130969912="@id/2131438546" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148962" />
+        <ImageView android:id="@id/2131438546" ="wrap_content" ="wrap_content" ="40.0dip" ="@drawable/onfido_ic_info_filled_24" 2130969937="@id/2131438534" 2130969940="@id/2131438534" />
+        <TextView ="20.0sp" android:id="@id/2131438533" ="0.0dip" ="wrap_content" android:text="@string/onfido_poa_guidance_subtitle_benefits_letter" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131438546" 2130969941="@id/2131438546" style="@style/2132148953" />
+        <TextView android:id="@id/2131438527" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/onfido_poa_guidance_instructions_label" 2130969912="@id/2131438523" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131438533" style="@style/2132148953" />
+        <TextView android:id="@id/2131438523" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/onfido_poa_guidance_instructions_logo" ="16.0dip" 2130969912="@id/2131438524" 2130969937="2131438103" 2130969940="@id/2131438527" style="@style/2132148950" />
+        <TextView android:id="@id/2131438524" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/onfido_poa_guidance_instructions_full_name" ="16.0dip" 2130969912="@id/2131438525" 2130969937="2131438103" 2130969940="@id/2131438523" style="@style/2132148950" />
+        <TextView android:id="@id/2131438525" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/onfido_poa_guidance_instructions_address" ="16.0dip" 2130969912="@id/2131438526" 2130969937="2131438103" 2130969940="@id/2131438524" style="@style/2132148950" />
+        <TextView android:id="@id/2131438526" ="wrap_content" ="wrap_content" ="8.0dip" ="52.0dip" android:text="@string/onfido_poa_guidance_instructions_issue_date" ="16.0dip" 2130969912="@id/2131438522" 2130969937="2131438103" 2130969940="@id/2131438525" 2130969942="0.0" style="@style/2132148950" />
+        <LinearLayout ="vertical" android:id="@id/2131438522" ="fill_parent" ="wrap_content" ="true" 2130969911="2131438103" 2130969940="@id/2131438526">
+            <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131441139" 2130970348="@string/onfido_poa_upload_instructions_take_photo_button" style="@style/2132148904" />
+            <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131449096" ="8.0dip" 2130970348="@string/onfido_poa_upload_instructions_upload_button" 2130970350="@null" style="@style/2132148904" />
+            <com.onfido.android.sdk.capture.ui.widget.WatermarkView android:id="@id/2131438553" ="8.0dip" ="@dimen/2131167501" style="@style/2132148972" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>

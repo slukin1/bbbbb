@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131447425" ="wrap_content" ="wrap_content" ="8.0dip" ="1" 2130969912="@id/2131438607" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <View android:id="@id/2131447426" ="@color/2131099751" ="gone" ="0.0dip" ="1.0dip" ="8.0dip" 2130969911="@id/2131447425" 2130969917="2131438103" 2130969936="@id/2131447425" 2130969941="@id/2131447425" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131447427" ="0.0dip" ="wrap_content" ="8.0dip" 2130969911="@id/2131447425" 2130969917="2131438103" 2130969936="@id/2131447425" 2130969941="@id/2131447425" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131438607" ="wrap_content" ="135.0dip" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131447425" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429832" ="@drawable/2131233007" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131447425">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/image" ="@drawable/2131233007" ="235.0dip" ="135.0dip" ="centerCrop" 2130969937="2131438103" 2130969941="2131438103" 2130971180="@null" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428257" ="0.0dip" ="0.0dip" 2130969911="@id/2131428254" 2130969917="@id/2131428254" 2130969937="2131438103" 2130969941="@id/2131428254" />
+        <TextView ="bold" ="#fff9fbfc" android:id="@id/2131428254" ="4.0dip" ="2.0dip" ="4.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_preview_badge" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+        <TextView ="#fff9fbfc" android:id="@id/reminder_count_badge" ="2.5dip" ="2.5dip" ="visible" ="wrap_content" ="wrap_content" ="6.0dip" 2130969917="2131438103" 2130969941="@id/image" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434789" ="14.0dip" ="14.0dip" ="4.0dip" 2130969918="@id/reminder_count_badge" 2130969941="@id/image" 2130971077="@drawable/2131237717" 2130971375="@color/2131103185" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131102398" ="end" android:id="@id/2131446869" ="visible" ="235.0dip" ="wrap_content" ="8.0dip" ="true" 2130969937="@id/2131438607" 2130969940="@id/2131438607" style="@style/2132149450" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131446871" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/2131438607" 2130969940="@id/2131446869" />
+    <com.major.android.uikit.button.KitButton ="@color/2131102398" android:id="@id/2131446870" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/content_add_reminder" 2130969937="@id/2131438607" 2130969940="@id/2131446869" 2130970889="3" 2130971472="2" style="@style/2132149377" />
+</androidx.constraintlayout.widget.ConstraintLayout>

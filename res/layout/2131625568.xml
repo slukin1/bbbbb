@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="6.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <TextView ="@color/2131099764" android:id="@id/2131444296" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/earn_current_subscribed_amount" ="15.0dip" 2130969905="true" 2130969918="@id/tvAmount" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131444296" 2130969917="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099764" android:id="@id/tvTip2" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_current_subscribed_amount_tip" 2130969940="@id/2131444296" style="@style/2132149350" />
+        <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131441421" ="fill_parent" ="wrap_content" ="12.0dip" 2130969714="3" 2130969940="@id/tvTip2" />
+        <TextView ="@color/2131099778" android:id="@id/tvTip3" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_apr_detail_des_v2" 2130969940="@id/2131441421" style="@style/2132149394" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

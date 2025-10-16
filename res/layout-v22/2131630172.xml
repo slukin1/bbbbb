@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432007" ="@drawable/2131236038" ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166200">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434831" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238015" />
+        <TextView ="@color/2131099764" android:id="@id/2131447771" ="0.0dip" ="wrap_content" android:text="@string/wallet_withdraw_select_send_crypto_address" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131434831" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/wallet_withdraw_select_send_crypto_address_sub_title" 2130969917="2131438103" 2130969937="@id/2131447771" 2130969940="@id/2131447771" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432006" ="@drawable/2131236038" ="20.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434731" ="24.0dip" ="24.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237785" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131434665" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/wallet_pay_withdraw_pay_activity" ="2.0dip" ="@dimen/2131166286" ="@dimen/2131166199" 2130969312="@color/2131099787" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+        <TextView ="@color/2131099764" android:id="@id/2131447766" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/wallet_withdraw_select_send_binance_account" ="false" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131434731" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131447767" ="0.0dip" ="wrap_content" android:text="@string/wallet_withdraw_select_send_binance_account_sub_title" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131447766" 2130969940="@id/2131447766" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.datepicker.KitPeriodView ="center_vertical" android:id="@id/2131438289" ="fill_parent" ="56.0dip" ="true" ="15.0dip" ="15.0dip" ="40.0dip" 2130969918="@id/2131431824" 2130969937="2131438103" 2130969941="2131438103" 2130970445="true" 2130971414="@string/to" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431824" ="10.0dip" ="10.0dip" ="40.0dip" ="56.0dip" ="@dimen/2131166156" 2130969911="@id/2131438289" 2130969917="2131438103" 2130969941="@id/2131438289" 2130971077="@drawable/2131237353" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/2131435855" ="fill_parent" ="0.5dip" ="-10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431824" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131438289">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/2131430610" ="gone" ="wrap_content" ="wrap_content" ="96.0dip" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238473" style="@style/2132149450" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448990" ="#00000000" ="295.0dip" ="wrap_content" ="true" ="#00000000" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131429285" ="@color/2131099685" ="fill_parent" ="wrap_content" ="428.0dip" ="5.0dip" ="@color/2131099685" 2130968912="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969931="2131438103" 2130969935="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448994" ="#00000000" ="fill_parent" ="wrap_content" ="22.0dip" ="22.0dip" ="22.0dip" ="22.0dip" ="#00000000">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448992" ="wrap_content" ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238543" />
+            <TextView ="@color/2131099764" android:id="@id/2131448988" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" ="false" ="locale" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448992" style="@style/2132149425" />
+            <com.binance.widget.MaxHeightRv android:id="@id/2131448956" ="vertical" ="fill_parent" ="wrap_content" ="10.0dip" 2130969912="@id/2131448987" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448988" 2130970140="255.0dip" />
+            <RelativeLayout ="center" ="vertical" android:id="@id/2131448987" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" 2130969911="2131438103">
+                <com.major.android.uikit.button.KitButton ="end" ="center" android:id="@id/2131448914" ="fill_parent" ="wrap_content" android:text="@string/earn_tip_ok" 2130969173="4" />
+                <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131448913" ="fill_parent" ="wrap_content" ="9.0dip" android:text="Cancel" ="@id/2131448914" 2130969173="4" 2130971472="2131441186" />
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

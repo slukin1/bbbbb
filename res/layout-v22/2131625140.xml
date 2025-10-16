@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" ="24.0dip" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgEmpty" ="gone" ="96.0dip" ="96.0dip" ="100.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238473" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tvEmpty" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="@dimen/2131166184" 2130969940="@id/imgEmpty" style="@style/2132149355" />
+    <TextView ="@color/2131099789" android:id="@id/2131444373" ="@drawable/2131232543" ="20.0dip" ="8.0dip" ="20.0dip" ="8.0dip" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/fetch_again" ="@color/2131099879" ="@dimen/2131166200" ="@dimen/2131166286" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvEmpty" style="@style/2132149446" />
+    <Space ="fill_parent" ="24.0dip" 2130969940="@id/recycler_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

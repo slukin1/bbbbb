@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" ="wrap_content" ="wrap_content" ="@dimen/2131167206" ="true">
+        <TextView android:id="@id/title" ="true" ="true" ="wrap_content" ="wrap_content" ="20.0dip" style="@style/2132148965" />
+        <TextView android:id="@id/2131440847" ="true" ="true" ="wrap_content" ="wrap_content" style="@style/2132148913" />
+    </LinearLayout>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131437536" 2130970348="@string/onfido_continue" style="@style/2132148903" />
+</RelativeLayout>

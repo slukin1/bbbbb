@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_desc" ="wrap_content" ="wrap_content" ="22.0dip" 2130969937="2131438103" 2130969940="@id/tv_title" 2130969999="@dimen/2131167702" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099751" ="@color/2131099764" android:id="@id/2131428989" ="0.0dip" ="wrap_content" ="22.0dip" android:text="@string/cancel" ="12.0dip" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130969940="@id/tv_desc" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" ="22.0dip" android:text="@string/OK" 2130969917="2131438103" 2130969936="@id/2131428989" 2130969940="@id/tv_desc" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

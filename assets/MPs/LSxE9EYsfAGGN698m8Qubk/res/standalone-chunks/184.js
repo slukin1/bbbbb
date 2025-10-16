@@ -1,0 +1,1 @@
+globalThis.define("standalone-chunks/184.js",(function(l,a,n,s,h,p,e,b,c,o,u,i,f,k,t,d,_,g,T,m,w,C,j,r){(globalThis.webpackChunkmp_shell_app=globalThis.webpackChunkmp_shell_app||[]).push([["184"],{9652:function(l,a,n){n.r(a),n.d(a,{default:()=>s});const s={f85a:!1,cb2b:!1}}}])}),"");

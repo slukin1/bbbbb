@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429723" ="@drawable/2131233550" ="fill_parent" ="40.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434037" ="14.0dip" ="14.0dip" ="@null" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237096" />
+    <com.binance.widget.MarqueeTextView ="@color/2131099787" android:id="@id/2131443894" ="0.0dip" ="wrap_content" ="6.0dip" ="16.0dip" 2130969912="@id/tv_tips2" 2130969918="@id/2131434038" 2130969927="0.0" 2130969936="@id/2131434037" 2130969941="2131438103" style="@style/2132149384" />
+    <TextView ="@color/2131099787" android:id="@id/tv_tips2" ="gone" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="@id/2131443894" 2130969927="0.0" 2130969937="@id/2131443894" 2130969940="@id/2131443894" style="@style/2132149384" />
+    <ImageView android:id="@id/2131434038" ="14.0dip" ="14.0dip" ="centerInside" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="1.0" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233598" />
+</androidx.constraintlayout.widget.ConstraintLayout>

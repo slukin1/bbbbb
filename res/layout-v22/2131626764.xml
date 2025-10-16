@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="100.0dip" ="50.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/iconBgView" ="@drawable/2131235989" ="44.0dip" ="44.0dip" ="16.0dip" ="@color/2131099712" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iconIv" ="24.0dip" ="24.0dip" 2130969911="@id/iconBgView" 2130969917="@id/iconBgView" 2130969937="@id/iconBgView" 2130969941="@id/iconBgView" />
+    <TextView ="@color/2131099764" ="end" ="center_horizontal" android:id="@id/titleTv" ="5.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="8.0dip" ="2" ="2" ="@dimen/2131166260" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/iconBgView" style="@style/2132149384" />
+    <View android:id="@id/2131428453" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/itemEditLayout" ="invisible" ="31.0dip" ="31.0dip" 2130969917="@id/iconBgView" 2130969936="@id/iconBgView" 2130969941="@id/iconBgView">
+        <ImageView ="end" android:id="@id/2131431276" ="16.0dip" ="16.0dip" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432491" ="wrap_content" ="wrap_content" 2130969125="iconIv,titleTv,itemEditLayout" />
+    <ImageView android:id="@id/2131438383" ="gone" ="36.0dip" ="36.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234674" />
+</androidx.constraintlayout.widget.ConstraintLayout>

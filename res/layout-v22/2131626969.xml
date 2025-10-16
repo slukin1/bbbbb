@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439500" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131428945" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/view_more" ="@dimen/2131166184" style="@style/2132149374" />
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443490" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_rank_last_update_time" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433946" ="20.0dip" ="20.0dip" ="centerInside" ="4.0dip" 2130971077="@drawable/2131237075" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442630" ="15.0dip" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_rank_last_update_tips" ="@dimen/2131166184" style="@style/2132149384" />
+</androidx.appcompat.widget.LinearLayoutCompat>

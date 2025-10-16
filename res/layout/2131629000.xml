@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131435401" ="gone" ="fill_parent" ="wrap_content" />
+    <com.major.android.uikit2.datepicker.KitPeriodView android:id="@id/2131435495" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969370="2020-11-11" 2130971160="2018-10-10" 2130971414="" />
+    <FrameLayout ="fill_parent" ="wrap_content">
+        <com.finance.framework.widget.timepicker.KitTimeWheelView android:id="@id/2131430787" ="fill_parent" ="wrap_content" />
+        <com.finance.framework.widget.timepicker.KitTimeWheelView android:id="@id/2131430100" ="fill_parent" ="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" ="@dimen/2131166269" />
+    <FrameLayout ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/market_detail_internal_chart_display" ="@dimen/2131166184" style="@style/2132149425" />
+    </FrameLayout>
+    <com.finance.framework.widget.scroll.MaxHeightScrollView android:id="@id/2131439809" ="vertical" ="fill_parent" ="wrap_content" ="false" ="never" 2130970140="600.0dip">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/futures_arbitrage_next_funding_rate_countdown" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/market_detail_internal_count_down_hint" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434463" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_bid_ask_price" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/market_detail_bid_ask_title" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434375" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" android:id="@id/2131438282" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_percentage_view" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131438279" ="fill_parent" ="wrap_content" android:text="@string/market_detail_percentage_view_hint" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438280" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434738" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" android:id="@id/2131436727" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/chart_logarithmic_view_title" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131436725" ="fill_parent" ="wrap_content" android:text="@string/chart_logarithmic_view_desc" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436726" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434663" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" android:id="@id/2131433550" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_inverted_view" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131433548" ="fill_parent" ="wrap_content" android:text="@string/market_detail_inverted_view_hint" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131433549" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434617" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" android:id="@id/2131445583" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_price_alert" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131445582" ="gone" ="fill_parent" ="wrap_content" android:text="@string/market_detail_price_alert_tips" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449191" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434316" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" android:id="@id/2131446572" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_full_data" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131446571" ="gone" ="fill_parent" ="wrap_content" android:text="@string/market_detail_setting_full_data_tips" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449230" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434554" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </com.finance.framework.widget.scroll.MaxHeightScrollView>
+</LinearLayout>

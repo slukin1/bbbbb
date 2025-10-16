@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131443014" ="0.0dip" ="wrap_content" 2130969918="@id/2131432756" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149346" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131443013" ="0.0dip" ="wrap_content" android:text="@string/events_trading_rules_min" ="15.0dip" 2130969918="@id/2131432760" 2130969936="@id/2131443014" 2130969941="@id/2131443014" style="@style/2132149346" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131443012" ="0.0dip" ="wrap_content" android:text="@string/events_trading_rules_max" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131432760" 2130969941="2131438103" style="@style/2132149346" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432756" ="wrap_content" ="wrap_content" 2130969921="0.33" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432760" ="wrap_content" ="wrap_content" 2130969921="0.66" />
+</androidx.constraintlayout.widget.ConstraintLayout>

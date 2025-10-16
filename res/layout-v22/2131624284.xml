@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="@color/2131099685" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="start" android:id="@id/2131441619" ="?2130968587" ="12.0dip" ="visible" ="44.0dip" ="fill_parent" ="centerInside" ="@null" ="3.0dip" 2130971077="@drawable/2131236863" />
+    <LinearLayout ="center" ="center_horizontal" ="horizontal" android:id="@id/2131441630" ="wrap_content" ="fill_parent">
+        <ProgressBar android:id="@id/toolbar_progress" ="gone" ="@dimen/2131165973" ="@dimen/2131165973" ="7.0dip" />
+        <ImageView android:id="@id/2131441633" ="gone" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="6.0dip" ="6.0dip" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="gone" ="wrap_content" ="wrap_content" ="true" style="@style/2132149425" />
+        <ImageView android:id="@id/toolbar_title_right_icon" ="gone" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="6.0dip" ="6.0dip" />
+    </LinearLayout>
+    <TextView ="@dimen/2131165974" ="@color/2131100260" ="center" ="end" android:id="@id/toolbar_right_text_view" ="gone" ="wrap_content" ="fill_parent" ="15.0dip" ="15.0dip" />
+    <ImageView ="center" ="end" android:id="@id/toolbar_right_icon" ="12.0dip" ="12.0dip" ="gone" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="8.0dip" ="15.0dip" ="@dimen/2131166170" />
+    <ImageView ="center" ="end" android:id="@id/toolbar_second_right_icon" ="12.0dip" ="12.0dip" ="gone" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="15.0dip" ="7.0dip" ="@dimen/2131166170" />
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429861" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131446890" ="wrap_content" ="45.0dip" android:text="@string/Logout" ="20.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434581" ="wrap_content" ="wrap_content" ="90.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233833" />
+    <TextView ="@color/2131100365" ="center_horizontal" android:id="@id/tv_title" ="315.0dip" ="wrap_content" ="20.0dip" android:text="@string/two_fa_force_2fa_title" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434581" style="@style/2132149419" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131446058" ="300.0dip" ="wrap_content" ="10.0dip" android:text="@string/login_unbind_cn_mobile_content" ="false" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131446208" ="wrap_content" ="22.0dip" ="40.0dip" ="30.0dip" android:text="@string/two_fa_force_2fa_customer_service" ="7.0dip" 2130969311="@drawable/2131236563" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149450" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439659" ="0.0dip" ="0.0dip" ="36.0dip" ="60.0dip" ="36.0dip" 2130969912="@id/2131446208" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446058" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="@color/2131102137" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <com.nezha.android.render.view.NavigationBar android:id="@id/2131437633" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131437658" ="0.0dip" ="wrap_content" ="6.0dip" android:text="@string/nezha_settings_about" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131437633" style="@style/2132149416" />
+        <com.major.android.uikit.image.KitRoundImageView android:id="@id/2131437651" ="24.0dip" ="24.0dip" ="16.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131437658" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131437652" ="wrap_content" ="wrap_content" android:text="@string/nezha_settings_about" ="5.0dip" ="15.0dip" 2130969911="@id/2131437651" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131437651" 2130969941="@id/2131437651" style="@style/2132149446" />
+        <com.nezha.android.view.NezhaFirstPartyLabel android:id="@id/2131437679" ="gone" ="wrap_content" ="wrap_content" 2130969911="@id/2131437652" 2130969936="@id/2131437652" 2130969941="@id/2131437652" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131437650" ="0.0dip" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437652" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102149" android:id="@id/2131437659" ="0.0dip" ="wrap_content" ="48.0dip" android:text="@string/nezha_settings_provider" ="15.0dip" ="5.0dip" 2130969918="@id/2131437660" 2130969937="2131438103" 2130969940="@id/2131437650" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="right" android:id="@id/2131437660" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131437659" 2130969941="@id/2131437659" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102149" android:id="@id/2131437666" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/nezha_settings_developer_website" ="15.0dip" ="5.0dip" 2130969918="@id/2131437667" 2130969937="2131438103" 2130969940="@id/2131437660" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="right" android:id="@id/2131437667" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131437666" 2130969941="@id/2131437666" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102149" android:id="@id/2131437656" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/nezha_settings_support_email" ="15.0dip" ="5.0dip" 2130969918="@id/2131437657" 2130969937="2131438103" 2130969940="@id/2131437667" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="right" android:id="@id/2131437657" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131437656" 2130969941="@id/2131437656" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437665" ="gone" ="fill_parent" ="55.0dip" ="8.0dip" 2130969940="@id/2131437657">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102149" ="center_vertical" ="wrap_content" ="fill_parent" android:text="@string/nezha_mp_settings_about_related_apps" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" />
+            <RelativeLayout ="end|center" ="horizontal" ="fill_parent" ="fill_parent" ="65.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437662" ="40.0dip" ="40.0dip" ="@drawable/2131234145" ="60.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437663" ="40.0dip" ="40.0dip" ="@drawable/2131234145" ="25.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437664" ="40.0dip" ="40.0dip" ="@drawable/2131234145" ="50.0dip" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437661" ="30.0dip" ="30.0dip" ="@drawable/2131235352" ="right" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437654" ="@color/2131099800" ="0.0dip" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437665" 2130969942="0.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" android:id="@id/2131437653" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/nezha_settings_disclaimer" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149346" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102149" android:id="@id/2131437655" ="0.0dip" ="wrap_content" ="10.0dip" ="20.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437653" 2130969942="0.0" style="@style/2132149350" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="278.0dip" ="wrap_content" ="278.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131435459" ="@drawable/2131235595" ="24.0dip" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131433972" ="20.0dip" ="20.0dip" ="12.0dip" ="10.0dip" 2130971077="@drawable/2131237100" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131433971" ="86.0dip" ="86.0dip" ="centerCrop" ="true" 2130971077="@drawable/2131235764" />
+        <TextView ="#ff202630" ="center" ="center" android:id="@id/2131443630" ="fill_parent" ="wrap_content" ="24.0dip" ="10.0dip" ="24.0dip" style="@style/2132149346" />
+        <TextView ="#ff848e9c" ="center" android:id="@id/2131444465" ="5.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" android:text="@string/payment_prize_award_unknown_voucher" style="@style/2132149384" />
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131429009" ="fill_parent" ="40.0dip" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/payment_promotion_go_to_gift_center" />
+        <TextView ="#ffd89f00" ="center" ="center" android:id="@id/2131443221" ="10.0dip" ="16.0dip" ="10.0dip" ="wrap_content" ="wrap_content" android:text="@string/payment_promotion_go_to_home_page" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="14.0dip" ="16.0dip" ="true" 2130971077="@drawable/2131235780" />
+        <TextView ="#ff848e9c" ="center" ="center" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/payment_promotion_easy_instant" style="@style/2132149384" />
+    </LinearLayout>
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436752" ="0.0dip" ="0.0dip" 2130969904="true" 2130969911="@id/2131435459" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131435459" 2130970039="true" 2130970050="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

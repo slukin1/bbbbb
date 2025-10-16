@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236038" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427732" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tvNickName" ="wrap_content" ="wrap_content" ="true" ="27" ="@font/2131296275" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436386" ="wrap_content" ="16.0dip" ="5.0dip" 2130969911="@id/tvNickName" 2130969936="@id/tvNickName" 2130969941="@id/tvNickName" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099764" android:id="@id/2131443907" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" ="4.0dip" 2130969911="@id/tvNickName" 2130969918="@id/2131433999" 2130969941="@id/tvNickName" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433999" ="20.0dip" ="20.0dip" 2130969911="@id/tvNickName" 2130969917="2131438103" 2130969941="@id/tvNickName" 2130971077="@drawable/2131237055" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip">
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443637" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443638" ="wrap_content" ="wrap_content" ="@font/2131296274" ="8.0dip" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip">
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443950" ="wrap_content" ="wrap_content" android:text="@string/c2c_sheet_order_limit" ="@font/2131296274" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443951" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" ="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

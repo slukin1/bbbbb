@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="fill_parent" ="wrap_content" ="15.0dip" ="14.0dip" ="15.0dip" ="14.0dip" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_tips" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" 2130969999="@dimen/2131166204" style="@style/2132149350" />
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429058" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/OK" style="@style/2132148692" />
+</LinearLayout>

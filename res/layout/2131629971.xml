@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131441687" ="wrap_content" ="wrap_content" ="24.0dip" 2130971077="@drawable/2131238405" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/transfer_successful" style="@style/2132149459" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_amount" ="wrap_content" ="wrap_content" ="8.0dip" ="ltr" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131446547" ="visible" ="fill_parent" ="wrap_content" ="32.0dip" android:text="@string/wallet_transfer_following_products" style="@style/2132149350" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439685" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" />
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_submit" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/got_it" 2130969173="8.0" 2130970889="2131437069" />
+    <View ="fill_parent" ="20.0dip" />
+</LinearLayout>

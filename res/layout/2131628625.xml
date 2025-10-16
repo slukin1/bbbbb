@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" ="0.95" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440770" ="@drawable/2131236646" ="8.0dip" ="202.0dip" ="wrap_content" ="@color/2131099764" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099685" android:id="@id/2131440771" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_upper_price_hint" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <TextView ="@color/2131099685" android:id="@id/2131440772" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440771" style="@style/2132149454" />
+        <TextView ="@color/2131099685" android:id="@id/2131440761" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/futures_grid_lower_price_hint" 2130969937="2131438103" 2130969940="@id/2131440771" style="@style/2132149384" />
+        <TextView ="@color/2131099685" android:id="@id/2131440762" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440761" style="@style/2132149454" />
+        <TextView ="@color/2131099685" android:id="@id/2131440757" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/futures_grid_order_grid_number" 2130969937="2131438103" 2130969940="@id/2131440761" style="@style/2132149384" />
+        <TextView ="@color/2131099685" android:id="@id/2131440758" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131440757" style="@style/2132149454" />
+        <TextView ="@color/2131099685" android:id="@id/2131440759" ="wrap_content" ="wrap_content" ="6.0dip" android:text="@string/strategy_card_grid_profit" 2130969937="2131438103" 2130969940="@id/2131440757" style="@style/2132149384" />
+        <TextView ="@color/2131099685" android:id="@id/2131440760" ="wrap_content" ="wrap_content" 2130969911="@id/2131440759" 2130969917="2131438103" 2130969941="@id/2131440759" style="@style/2132149454" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434501" ="visible" ="13.0dip" ="6.0dip" ="fitXY" 2130969917="@id/2131440770" 2130969937="@id/2131440770" 2130969940="@id/2131440770" 2130971077="@drawable/2131238535" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

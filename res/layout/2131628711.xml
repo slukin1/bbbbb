@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442933" ="15.0dip" ="15.0dip" ="wrap_content" ="50.0dip" android:text="@string/strategy_um_dca_end_confirm_title" style="@style/2132149425" />
+    <com.finance.framework.widget.scroll.MaxHeightNestedScrollView android:id="@id/2131440876" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442928" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/strategy_um_dca_end_confirm_sub_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+            <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="12.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442927" ="wrap_content" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.finance.framework.widget.scroll.MaxHeightNestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

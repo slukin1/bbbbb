@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435821" ="15.0dip" ="20.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/price" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_buyorder_price" ="2" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvPrice" ="wrap_content" ="wrap_content" 2130969907="@id/price" 2130969917="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131427806" ="134.0dip" ="wrap_content" ="16.0dip" android:text="@string/amount" ="2" 2130969937="@id/price" 2130969940="@id/price" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" 2130969907="@id/2131427806" 2130969917="2131438103" />
+        <ImageView android:id="@id/2131437956" ="20.0dip" ="8.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131427806" 2130971077="@drawable/2131237050" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131437125" ="gone" ="fill_parent" ="wrap_content">
+        <FrameLayout android:id="@id/2131437036" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" />
+        <FrameLayout android:id="@id/2131437908" ="fill_parent" ="wrap_content" ="15.0dip" />
+        <LinearLayout ="center_vertical" ="horizontal" ="@drawable/2131235987" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@color/2131100492">
+            <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_filter_payment_method" />
+            <androidx.legacy.widget.Space ="0.0dip" ="wrap_content" ="1.0" />
+            <View android:id="@id/2131438155" ="@color/2131099881" ="3.0dip" ="10.0dip" />
+            <TextView ="12.0sp" ="@color/2131099778" ="end|center" ="center_vertical" android:id="@id/2131438168" ="wrap_content" ="wrap_content" android:text="@string/c2c_cash_trade" ="ltr" ="4.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/2131437950" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" 2130969940="@id/2131427806" 2130971077="@drawable/2131237057" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

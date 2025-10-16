@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="44.0dip" ="@dimen/2131166184" style="@style/2132148650"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446251" ="0.0dip" ="wrap_content" android:text="@string/dt_navigation_title" ="1.0" style="@style/2132149425" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436453" ="@drawable/2131233323" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" ="12.0dip">
+        <ImageView ="16.0dip" ="16.0dip" ="@drawable/2131237617" ="6.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/2131445747" ="6.0dip" ="6.0dip" ="wrap_content" ="wrap_content" android:text="@string/dt_navigation_back_to_live" ="@dimen/2131166269" style="@style/2132149454" />
+    </LinearLayout>
+</LinearLayout>

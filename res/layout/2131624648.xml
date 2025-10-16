@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131432176" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441046" ="6.0dip" ="4.0dip" ="fill_parent" ="34.0dip" />
+    <com.binance.content.view.RecycleViewListenNestedScrollableHost android:id="@id/2131449442" ="fill_parent" ="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449436" ="fill_parent" ="fill_parent" />
+    </com.binance.content.view.RecycleViewListenNestedScrollableHost>
+</LinearLayout>

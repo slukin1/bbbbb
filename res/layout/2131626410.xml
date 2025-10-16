@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.widget.UserAvatarNameView android:id="@id/2131428189" ="wrap_content" ="wrap_content" 2130968717="20" 2130968718="5" 2130968721="12" 2130969911="@id/2131443133" 2130969937="2131438103" 2130969941="@id/2131443133" 2130970289="170" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434203" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/2131428189" 2130969936="@id/2131428189" 2130969941="@id/2131428189" 2130971077="@drawable/2131234166" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436386" ="wrap_content" ="16.0dip" ="5.0dip" 2130969911="@id/2131428189" 2130969936="@id/2131428189" 2130969941="@id/2131428189" />
+    <TextView ="12.0sp" ="@color/2131099789" ="center" android:id="@id/2131443133" ="@drawable/2131236007" ="8.0dip" ="4.0dip" ="8.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="20.0dip" ="@font/2131296273" 2130969917="2131438103" 2130969941="2131438103" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131443133" />
+</androidx.constraintlayout.widget.ConstraintLayout>

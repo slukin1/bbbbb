@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="6.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131432826" ="18.0dip" ="18.0dip" ="@drawable/2131234432" ="fitXY" ="@null" />
+    <LinearLayout ="center" ="vertical" ="wrap_content" ="wrap_content" ="14.0dip">
+        <TextView ="14.0sp" ="#ff4d4d4d" android:id="@id/2131432831" ="wrap_content" ="wrap_content" android:text="@string/pull_to_refresh_pull_label" />
+        <TextView ="12.0sp" ="#ff4d4d4d" android:id="@id/2131432830" ="wrap_content" ="wrap_content" ="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="30.0dip" ="30.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429444" ="@drawable/2131236034" ="1.0dip" ="16.0dip" ="16.0dip" 2130969911="@id/2131436732" 2130969917="@id/2131436732" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131430140" ="wrap_content" ="wrap_content" ="12.0dip" 2130969936="@id/2131436732" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430153" ="wrap_content" ="wrap_content" 2130969937="@id/2131430140" 2130969940="@id/2131430140" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131432454" ="wrap_content" ="wrap_content" android:text="@string/wallet_go_to_web3" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148701" />
+</androidx.constraintlayout.widget.ConstraintLayout>

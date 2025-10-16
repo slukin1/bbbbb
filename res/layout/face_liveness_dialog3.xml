@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="center" ="@drawable/2131233469" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@dimen/dialog_text_size" ="#ff000000" android:id="@id/2131446467" ="wrap_content" ="wrap_content" ="24.0dip" ="true" ="true" />
+    <TextView ="@dimen/dialog_text_size" ="#ff000000" ="center_horizontal" android:id="@id/2131446466" ="wrap_content" ="wrap_content" ="12.0dip" ="19.0dip" ="12.0dip" ="@id/2131446467" ="true" />
+    <View android:id="@id/2131435855" ="#ff979797" ="fill_parent" ="0.5dip" ="24.0dip" ="@id/2131446466" />
+    <LinearLayout ="horizontal" ="fill_parent" ="@dimen/dialog_item_height" ="@id/2131435855">
+        <TextView ="@dimen/dialog_text_size" ="center" ="center" android:id="@id/2131446464" ="0.0dip" ="wrap_content" android:text="@string/face_dialog_cancel" ="1.0" />
+        <View ="#ff979797" ="0.5dip" ="@dimen/dialog_item_height" />
+        <TextView ="@dimen/dialog_text_size" ="center" ="center" android:id="@id/2131446465" ="0.0dip" ="wrap_content" android:text="@string/face_dialog_confirm" ="1.0" />
+    </LinearLayout>
+</RelativeLayout>

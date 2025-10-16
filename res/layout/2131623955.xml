@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView ="vertical" ="fill_parent" ="wrap_content" ="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131432647" ="@drawable/2131232310" ="fill_parent" ="1.0dip" ="4.0dip" ="4.0dip" />
+    <LinearLayout android:id="@id/content" ="true" ="fill_parent" ="?2130969320" style="@style/2132149070">
+        <RelativeLayout ="center_vertical" ="true" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149071">
+            <TextView ="?2130971289" ="marquee" android:id="@id/title" ="horizontal" ="true" ="fill_parent" ="wrap_content" ="true" ="true" style="@style/2132149074" />
+            <TextView ="?2130971298" android:id="@id/2131440085" ="true" ="wrap_content" ="wrap_content" ="true" ="@id/title" style="@style/2132149074" />
+        </RelativeLayout>
+        <ImageView ="center" android:id="@id/2131440839" ="gone" ="wrap_content" ="wrap_content" ="center" style="@style/2132149073" />
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

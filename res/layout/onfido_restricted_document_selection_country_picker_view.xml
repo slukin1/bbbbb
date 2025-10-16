@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/onfido_bg_list_item" ="8.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="72.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131430555" ="gone" ="56.0dip" ="56.0dip" ="8.0dip" ="8.0dip" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131430557" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView android:id="@id/2131430557" ="0.0dip" ="wrap_content" ="1.0" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131428048" 2130969936="@id/2131430555" 2130969941="2131438103" style="@style/2132148953" />
+    <ImageView android:id="@id/2131428048" ="wrap_content" ="wrap_content" ="8.0dip" ="@drawable/onfido_ic_chevron_right" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

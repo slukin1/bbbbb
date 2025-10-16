@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.FirstNestedScrollView android:id="@id/2131439809" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438410" ="fill_parent" ="wrap_content" />
+        <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438426" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438387" ="fill_parent" ="wrap_content" />
+        <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441063" ="fill_parent" ="38.0dip" />
+        <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="wrap_content">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449934" ="fill_parent" ="wrap_content" />
+        </com.binance.widget.viewpager2.NestedScrollableHost>
+    </LinearLayout>
+</com.binance.widget.FirstNestedScrollView>

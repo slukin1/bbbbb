@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131427562" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438722" ="fill_parent" ="0.0dip" ="2.0dip" ="2.0dip" ="@dimen/2131166199" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+                    <TextView ="@color/2131099764" android:id="@id/tvTotal" ="wrap_content" ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+                    <TextView ="@color/2131099764" android:id="@id/tvTotalValue" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTotal" style="@style/2132149416" />
+                    <TextView ="@color/2131099778" android:id="@id/tvTotalFiatValue" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTotalValue" style="@style/2132149350" />
+                    <androidx.constraintlayout.widget.Group android:id="@id/2131441719" ="wrap_content" ="wrap_content" 2130969125="tvTotal,tvTotalValue,tvTotalFiatValue" />
+                    <TextView ="@color/2131099764" android:id="@id/2131443299" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/market_search_holdings" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tvTotalFiatValue" style="@style/2132149463" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432910" ="false" ="fill_parent" ="fill_parent" ="10.0dip" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@android:color/white" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@drawable/2131238591" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131441601" ="fill_parent" ="?2130968589" layout="@layout/2131629184" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/2131449438" ="fill_parent" ="0.0dip" ="16.0dip" ="1.0" />
+        <com.rd.PageIndicatorView android:id="@id/2131438090" ="wrap_content" ="wrap_content" 2130970547="@id/2131449438" style="@style/2132150342" />
+    </LinearLayout>
+</FrameLayout>

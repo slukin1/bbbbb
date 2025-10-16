@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131430495" ="@null" ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/2131427921" ="@null" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436630" ="@null" ="fill_parent" ="wrap_content" ="6.0dip" ="6.0dip" ="layout_search_input" 2130969974="2131439795|@null">
+                <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131436629" ="@drawable/2131232475" ="0.0dip" ="32.0dip" ="1.0" ="15.0dip" ="6.0dip" ="@color/2131099744">
+                    <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" ="10.0dip" ="5.0dip" 2130971077="@drawable/2131237994" 2130971375="@color/2131099738" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099738" ="start" ="fill_parent" ="wrap_content" android:text="@string/ms_search_input_hint" style="@style/2132149450" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <FrameLayout ="center_vertical" android:id="@id/2131434677" ="6.0dip" ="6.0dip" ="gone" ="wrap_content" ="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@color/2131099764" 2130971077="@drawable/2131237353" />
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434678" ="41.0dip" ="fill_parent" ="@color/2131099764" ="6.0dip" ="15.0dip" 2130971077="@drawable/2131237679" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="fill_parent" ="wrap_content" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449917" ="@null" ="fill_parent" ="fill_parent" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

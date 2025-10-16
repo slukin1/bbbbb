@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131428027" ="fill_parent" ="wrap_content" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428013" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131428027" style="@style/2132148699" />
+</androidx.constraintlayout.widget.ConstraintLayout>

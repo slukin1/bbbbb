@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="12.0dip" ="12.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131436747" ="34.0dip" ="34.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="0.0dip" ="wrap_content" ="1.0" ="4.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="1" style="@style/2132149465" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131447950" ="@null" ="fill_parent" ="wrap_content" ="1" 2130969911="@id/iv_logo" 2130969917="2131438103" 2130969937="@id/tv_title" style="@style/2132149361" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099764" android:id="@id/2131445516" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132148700" />
+</androidx.appcompat.widget.LinearLayoutCompat>

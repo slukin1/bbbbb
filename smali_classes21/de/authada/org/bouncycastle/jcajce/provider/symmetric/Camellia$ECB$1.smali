@@ -1,0 +1,40 @@
+.class Lde/authada/org/bouncycastle/jcajce/provider/symmetric/Camellia$ECB$1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lde/authada/org/bouncycastle/jcajce/provider/symmetric/util/BlockCipherProvider;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lde/authada/org/bouncycastle/jcajce/provider/symmetric/Camellia$ECB;-><init>()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public get()Lde/authada/org/bouncycastle/crypto/BlockCipher;
+    .locals 1
+
+    .line 65353
+    new-instance v0, Lde/authada/org/bouncycastle/crypto/engines/CamelliaEngine;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/crypto/engines/CamelliaEngine;-><init>()V
+
+    return-object v0
+.end method

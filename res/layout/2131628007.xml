@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436627" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131100443" ="end" android:id="@id/2131442855" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/ms_index_done" ="@font/2131296273" />
+    <ScrollView android:id="@id/2131439803" ="fill_parent" ="0.0dip" ="1.0" 2130969912="@id/2131429063" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131442855">
+        <androidx.constraintlayout.widget.ConstraintLayout ="center" ="vertical" android:id="@id/2131439476" ="fill_parent" ="wrap_content">
+            <com.binance.base.widget.BNCLottieAnimationView android:id="@id/2131434059" ="64.0dip" ="64.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969941="2131438103" 2130970039="true" 2130970050="true" />
+            <TextView ="@color/2131099764" android:id="@id/2131444016" ="wrap_content" ="wrap_content" ="12.0dip" 2130969931="2131438103" 2130969935="2131438103" 2130969940="@id/2131434059" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="12.0dip" ="1" 2130968700="@dimen/2131167707" 2130968701="@dimen/2131167700" 2130968704="1.0sp" 2130968705="2131449068" 2130969918="@id/2131442195" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131444016" style="@style/2132148853" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442195" ="wrap_content" ="wrap_content" ="5.0dip" ="1" ="5.0dip" 2130969911="@id/tvAmount" 2130969917="2131438103" 2130969936="@id/tvAmount" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446509" ="gone" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvAmount" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" ="center" android:id="@id/2131444976" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446509" />
+            <LinearLayout ="vertical" android:id="@id/2131431910" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" 2130969940="@id/2131444976">
+                <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131437910" ="@drawable/2131235620" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_subtotal_title" ="wrap_content" ="wrap_content" android:text="@string/payment_checkout_subtotal" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end" android:id="@id/tv_subtotal" ="wrap_content" ="wrap_content" ="2" ="15.0dip" 2130969905="true" 2130969911="@id/tv_subtotal_title" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/tv_subtotal_title" 2130969941="@id/tv_subtotal_title" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_discount_title" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/payment_checkout_discount" 2130969937="2131438103" 2130969940="@id/tv_subtotal_title" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="end" ="end" android:id="@id/tv_discount" ="wrap_content" ="wrap_content" ="2" 2130969905="true" 2130969911="@id/tv_discount_title" 2130969918="@id/iv_discount_arrow" 2130969927="1.0" 2130969936="@id/tv_discount_title" 2130969941="@id/tv_discount_title" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_discount_arrow" ="gone" ="20.0dip" ="20.0dip" 2130969911="@id/tv_discount_title" 2130969917="2131438103" 2130969941="@id/tv_discount_title" 2130971077="@drawable/2131237050" />
+                    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/ll_discount_details" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/tv_discount_title" />
+                    <androidx.constraintlayout.widget.Group android:id="@id/2131432691" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_subtotal_title,tv_subtotal" />
+                    <androidx.constraintlayout.widget.Group android:id="@id/2131432646" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_discount_title,tv_discount,ll_discount_details, iv_discount_arrow" />
+                    <LinearLayout ="vertical" android:id="@id/2131436297" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/ll_discount_details" />
+                    <View android:id="@id/2131437952" ="@color/2131099751" ="fill_parent" ="0.5dip" ="8.0dip" 2130969940="@id/2131436297" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_fees" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/payment_checkout_fees" 2130969937="2131438103" 2130969940="@id/2131437952" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_fees_value" ="0.0dip" ="wrap_content" 2130969911="@id/tv_fees" 2130969917="2131438103" 2130969941="@id/tv_fees" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_payee_received" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/payment_result_payee_received" 2130969937="2131438103" 2130969940="@id/tv_fees" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_payee_received_value" ="0.0dip" ="wrap_content" 2130969911="@id/tv_payee_received" 2130969917="2131438103" 2130969941="@id/tv_payee_received" style="@style/2132149350" />
+                    <androidx.constraintlayout.widget.Group android:id="@id/2131432654" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_fees,tv_payee_received,tv_fees_value,tv_payee_received_value" />
+                    <LinearLayout ="horizontal" android:id="@id/2131436306" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/tv_payee_received">
+                        <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/payment_payment_method" style="@style/2132149350" />
+                        <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131444033" ="fill_parent" ="wrap_content" ="10.0dip" style="@style/2132149350" />
+                    </LinearLayout>
+                    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446584" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/payment_paid_with" 2130969937="2131438103" 2130969940="@id/2131436306" />
+                    <TextView ="@color/2131099787" android:id="@id/2131448560" ="gone" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/common_viewdetail" ="1.0" 2130969911="@id/2131446584" 2130969917="2131438103" 2130969941="@id/2131446584" style="@style/2132149374" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439655" ="wrap_content" ="wrap_content" 2130969904="true" 2130969912="@id/2131434686" 2130969917="2131438103" 2130969941="@id/2131446584" />
+                    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434686" ="8.0dip" ="gone" ="36.0dip" ="24.0dip" ="10.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_bottom_tip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/payment_result_pre_auth_after_successful" style="@style/2132149350" />
+            </LinearLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449890" ="gone" ="fill_parent" ="0.0dip" ="15.0dip" ="24.0dip" ="15.0dip" 2130969916="H,4.3:1" 2130969940="@id/2131431910" />
+            <TextView ="10.0sp" ="#ffeaecef" android:id="@id/2131443337" ="@drawable/2131235591" ="6.0dip" ="4.0dip" ="6.0dip" ="4.0dip" ="gone" ="wrap_content" ="wrap_content" 2130969911="@id/2131449890" 2130969917="@id/2131449890" />
+            <ViewStub android:id="@id/2131429317" ="@layout/2131628097" ="fill_parent" ="100.0dip" ="15.0dip" ="24.0dip" ="15.0dip" 2130969937="@id/2131449890" 2130969940="@id/2131449890" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/2131429063" ="gone" ="fill_parent" ="80.0dip" ="26.0dip">
+        <com.major.android.uikit.button.KitButton ="center" ="center" android:id="@id/2131428655" ="visible" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" android:text="@string/ms_jumio_try_again" />
+    </FrameLayout>
+</LinearLayout>

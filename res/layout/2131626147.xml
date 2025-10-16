@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436485" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="center_vertical" android:id="@id/2131439399" ="0.0dip" ="32.0dip" ="15.0dip" ="15.0dip" 2130969918="@id/tv_cancel" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148652">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439845" ="16.0dip" ="16.0dip" ="true" ="10.0dip" 2130971077="@drawable/2131237994" 2130971375="@color/2131099738" />
+        <EditText ="@color/2131099764" ="@color/2131099738" android:id="@id/2131431831" ="@null" ="fill_parent" ="32.0dip" ="1" ="true" ="text" ="actionDone" ="6.0dip" ="6.0dip" ="@id/clear_button" ="@id/2131439845" style="@style/2132149374" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/clear_button" ="gone" ="16.0dip" ="16.0dip" ="true" ="10.0dip" ="true" 2130971077="@drawable/2131237072" 2130971375="@color/2131099725" />
+    </RelativeLayout>
+    <TextView ="@color/2131099787" ="center" android:id="@id/tv_cancel" ="gone" ="wrap_content" ="wrap_content" android:text="@string/_cancel" ="15.0dip" ="15.0dip" 2130969911="@id/2131439399" 2130969917="2131438103" 2130969941="@id/2131439399" style="@style/2132149450" />
+    <FrameLayout android:id="@id/2131432004" ="fill_parent" ="0.0dip" ="10.0dip" 2130969904="true" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131439399" />
+</androidx.constraintlayout.widget.ConstraintLayout>

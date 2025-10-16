@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236021" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="fill_parent" ="50.0dip" ="15.0dip" style="@style/2132149425" />
+    <LinearLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="4.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445083" ="0.0dip" ="wrap_content" android:text="@string/margin_total_debt" ="1.0" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445080" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <LinearLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="4.0dip" ="16.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445071" ="0.0dip" ="wrap_content" android:text="@string/margin_total_available_balance" ="1.0" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445070" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+    </LinearLayout>
+    <include android:id="@id/2131435351" layout="@layout/2131626840" />
+    <com.major.android.uikit2.slider.KitSlider android:id="@id/slider" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" 2130969686="100.0" 2130969687="0.0" 2130969690="false" 2130969703="5" />
+    <LinearLayout ="vertical" android:id="@id/2131435516" ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444418" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444410" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444419" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="8.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444418" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444420" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_position_cross_repay_tip3" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131444419" style="@style/2132149350" />
+        <View android:id="@id/divider" ="@color/2131099751" ="15.0dip" ="15.0dip" ="fill_parent" ="1.0px" ="16.0dip" ="15.0dip" 2130969940="@id/2131444420" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" ="16.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969904="true" 2130969911="2131438103" 2130969940="@id/divider" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131435517" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="0.0dip" ="1.0" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444421" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_pm_repay_tip4" 2130969937="2131438103" 2130969940="@id/2131444410" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444422" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/margin_pm_repay_tip5" 2130969937="2131438103" 2130969940="@id/2131444421" style="@style/2132149350" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip">
+        <com.major.android.uikit2.button.KitButton ="14.0sp" ="end" android:id="@id/2131428691" ="gone" ="0.0dip" ="wrap_content" android:text="@string/margin_aggregate_balances" ="1" ="1.0" ="12.0dip" 2130968701="14.0sp" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434340" ="20.0dip" ="20.0dip" 2130969918="@id/2131446183" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131446183" ="wrap_content" ="wrap_content" ="5.0dip" 2130969918="@id/2131434723" 2130969928="2131438085" 2130969936="@id/2131434340" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434723" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/2131434340" 2130969917="2131438103" 2130969928="2131438085" 2130969936="@id/2131446183" 2130969941="@id/2131434340" 2130971077="@drawable/2131237003" />
+    <com.binance.dev.pay.widget.AutoFitEditText ="48.0sp" ="@color/2131099764" ="@color/2131100153" ="center" android:id="@id/2131431512" ="@null" ="fill_parent" ="wrap_content" ="24.0dip" ="5.0dip" ="24.0dip" android:hint="0" ="1" ="19" ="none" ="@font/2131296266" 2130969905="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446183" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448521" ="wrap_content" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431512" />
+    <com.major.android.uikit.keyboard.KitNumKeyboard android:id="@id/2131435038" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131448521" />
+</androidx.constraintlayout.widget.ConstraintLayout>

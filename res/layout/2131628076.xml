@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131436602" ="fill_parent" ="wrap_content" 2130969940="@id/2131441089" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131438177" ="fill_parent" ="wrap_content" 2130969654="@null" 2130969655="@string/payment_enter_here" 2130970775="2131435801" 2130970829="true" />
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131438175" ="gone" ="fill_parent" ="wrap_content" 2130969654="@null" 2130969655="@string/payment_enter_here" 2130970829="true" />
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131438178" ="gone" ="fill_parent" ="wrap_content" 2130969654="@null" 2130969655="@string/payment_enter_here" 2130970829="true" />
+</LinearLayout>

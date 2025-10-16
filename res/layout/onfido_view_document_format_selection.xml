@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="?2130970345" ="32.0dip" ="16.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="16.0sp" android:id="@id/title" ="true" ="wrap_content" ="wrap_content" ="16.0dip" ="32.0dip" style="@style/2132148958" />
+    <TextView ="center_vertical" android:id="@id/2131429279" ="?2130970780" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/onfido_doc_capture_prompt_button_card" ="16.0dip" ="@drawable/onfido_plastic_card" ="32.0dip" ="32.0dip" style="@style/2132148937" />
+    <TextView ="center_vertical" android:id="@id/2131432118" ="?2130970780" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/onfido_doc_capture_prompt_button_paper" ="16.0dip" ="@drawable/onfido_folded_document" ="32.0dip" ="32.0dip" style="@style/2132148937" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" android:text="@string/content_feed_recommend_token_title" style="@style/2132149447" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440847" ="wrap_content" ="wrap_content" android:text="@string/content_feed_recommend_token_subtitle" style="@style/2132149387" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438985" ="fill_parent" ="wrap_content" ="12.0dip" ="never" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="2" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131427662" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" android:text="@string/content_feed_recommend_token_add_favorites" 2130970889="2131437069" />
+</LinearLayout>

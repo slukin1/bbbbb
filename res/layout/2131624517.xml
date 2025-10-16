@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="@drawable/2131233059" ="fill_parent" ="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="0.0dip" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

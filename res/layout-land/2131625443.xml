@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433839" ="96.0dip" ="96.0dip" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238419" />
+    <TextView ="@color/2131099778" android:id="@id/2131442923" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/no_records_found" 2130969912="@id/2131428767" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433839" style="@style/2132149450" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099744" ="@color/2131099764" android:id="@id/2131428767" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/finance_add_favorites" 2130969917="@id/2131433839" 2130969937="@id/2131433839" 2130969940="@id/2131442923" 2130969962="@dimen/2131166212" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

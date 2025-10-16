@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start|center" android:id="@id/2131446280" ="15.0dip" ="15.0dip" ="0.0dip" ="50.0dip" ="14.0dip" android:text="@string/futures_pnlanalysis_history_profitandloss" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439809" ="fill_parent" ="wrap_content" ="16.0dip" 2130969904="true" 2130969912="@id/btn_confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446280">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439805" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" 2130969940="@id/2131446527">
+            <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" android:text="@string/futures_pnlanalysis_history_profitandloss_tips" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_pnlanalysis_cum_daily" style="@style/2132149450" />
+            <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/futures_pnlanalysis_tips_dailypnl" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/margin_pnl_cumulative_pnl_title" style="@style/2132149450" />
+            <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/futures_pnlanalysis_tips_cumulativepnl" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_pnlanalysis_history_cumulative_pnl_per" style="@style/2132149450" />
+            <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/futures_pnlanalysis_tips_cumulativepnl_per" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/margin_pnl_net_transfer" style="@style/2132149450" />
+            <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/futures_pnlanalysis_tips_cumulativepnl_nettransfer" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_pnlanalysis_trade_volume" style="@style/2132149450" />
+            <TextView ="#ff848e9c" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/futures_pnlanalysis_trade_volume_tips" style="@style/2132149350" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/OK" ="@dimen/2131166184" ="@dimen/2131166188" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

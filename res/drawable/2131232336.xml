@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset ="4.0dip" ="4.0dip" ="4.0dip" ="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item ="false" ="false">
+            <layer-list>
+                <item ="@drawable/2131232348" />
+                <item ="@drawable/2131232335" />
+            </layer-list>
+        </item>
+        <item>
+            <layer-list>
+                <item ="@drawable/2131232347" />
+                <item ="@drawable/2131232335" />
+            </layer-list>
+        </item>
+    </selector>
+</inset>

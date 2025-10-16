@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.advertisement.view.PriceAdjustmentView android:id="@id/2131438623" ="fill_parent" ="wrap_content" />
+    <FrameLayout ="fill_parent" ="wrap_content" ="5.0dip">
+        <RelativeLayout android:id="@id/2131444161" ="gone" ="fill_parent" ="wrap_content">
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444160" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_pricing_formula" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444159" ="fill_parent" ="wrap_content" ="@font/2131296274" ="8.0dip" ="@id/2131444160" />
+            <View android:id="@id/dashLine" ="@drawable/2131233287" ="wrap_content" ="2.0dip" ="@id/2131444160" ="@id/2131444160" />
+        </RelativeLayout>
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131444143" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969936="@id/2131444144" />
+    </FrameLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131450448" ="fill_parent" ="wrap_content" ="16.0dip">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448653" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p1_label_price" ="@font/2131296274" />
+        <com.binance.c2c.api.view.AutoSplitTextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131438941" ="wrap_content" ="wrap_content" ="1" ="@font/2131296273" ="8.0dip" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436955" ="fill_parent" ="wrap_content" ="8.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131438631" ="wrap_content" ="wrap_content">
+            <LinearLayout ="vertical" ="wrap_content" ="wrap_content">
+                <TextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131446901" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p1_dialog2_title_highestorderprice" ="@font/2131296274" />
+                <View ="@drawable/2131233287" ="fill_parent" ="1.0dip" ="2.0dip" />
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.binance.c2c.api.view.AutoSplitTextView ="18.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131446902" ="wrap_content" ="wrap_content" ="1" ="@font/2131296273" ="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

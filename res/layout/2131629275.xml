@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131435076" ="@drawable/2131236600" ="2.0dip" ="2.0dip" ="2.0dip" ="2.0dip" ="fill_parent" ="wrap_content" ="2.0dip" />
+    <LinearLayout ="vertical" ="@drawable/2131232454" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip">
+        <com.binance.earn.widgets.DualInvestSchematicDiagramProView android:id="@id/2131429642" ="@color/2131099675" ="fill_parent" ="wrap_content" ="1.0dip" ="software" />
+        <RelativeLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="28.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/lending_subscription_amount" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/2131444822" ="wrap_content" ="wrap_content" ="3.0dip" ="@id/2131434199" style="@style/2132149350" />
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131434199" ="16.0dip" ="16.0dip" ="4.0dip" ="4.0dip" android:text="@string/earn_next_step" ="true" ="@id/2131444823" style="@style/2132148577" />
+            <TextView ="@color/2131099778" android:id="@id/2131444823" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip">
+            <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131441464" ="wrap_content" ="wrap_content" ="8.0dip" ="@id/tvInterestAmount" ="true" 2130971380="2131428553" 2130971382="@string/earn_dual_apr_deposit_tip" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/tvInterestAmount" ="wrap_content" ="wrap_content" ="true" ="3.0dip" ="@id/2131433935" style="@style/2132149350" />
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433935" ="16.0dip" ="16.0dip" ="4.0dip" ="4.0dip" android:text="@string/earn_next_step" ="true" ="@id/2131443360" style="@style/2132148577" />
+            <TextView ="@color/2131099778" android:id="@id/2131443360" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <com.major.android.uikit.divider.KitDivider ="fill_parent" ="1.0dip" ="8.0dip" ="8.0dip" />
+        <RelativeLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_total" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" ="3.0dip" ="@id/2131434245" style="@style/2132149350" />
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131434245" ="16.0dip" ="16.0dip" ="4.0dip" ="4.0dip" ="true" ="@id/2131445079" style="@style/2132148577" />
+            <TextView ="@color/2131099778" android:id="@id/2131445079" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout ="fill_parent" ="wrap_content" ="16.0dip">
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131442714" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_you_will_receive" ="@id/2131444294" ="@id/2131444294" style="@style/2132149350" />
+            <androidx.appcompat.widget.AppCompatTextView ="20.0sp" ="#ff2ebd85" ="end" android:id="@id/2131444294" ="wrap_content" ="wrap_content" ="1" ="15.0dip" ="3.0dip" ="@id/2131434103" ="@id/2131442714" 2130968705="2131449068" style="@style/2132149350" />
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131434103" ="24.0dip" ="24.0dip" ="4.0dip" ="4.0dip" ="true" ="@id/2131444299" style="@style/2132148577" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131444299" ="wrap_content" ="wrap_content" ="@id/2131444294" ="@id/2131444294" ="true" style="@style/2132149350" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

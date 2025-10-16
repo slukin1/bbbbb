@@ -1,0 +1,3 @@
+.class public final synthetic Lo/UmPortfolioMarginPositionComponentcalculationViewModel_delegatelambda0inlinedlifecycleAwareActivityViewModelsdefault3;
+.super Ljava/lang/Object;
+.source "SourceFile"

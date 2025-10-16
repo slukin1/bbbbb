@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131441770" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="fill_parent" ="0.0dip" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131437137" ="fill_parent" ="fill_parent" ="@id/2131440610">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427921" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131430176" ="fill_parent" ="wrap_content" 2130969149="@null" 2130969974="2131439795|@null|@null">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="44.0dip">
+                    <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="7.5dip" ="7.5dip" ="false" ="0.0dip" ="44.0dip" ="7.5dip" 2130969911="2131438103" 2130969918="@id/2131437025" 2130969937="2131438103" 2130969941="2131438103" />
+                    <ImageView android:id="@id/2131428453" ="15.0dip" ="fill_parent" ="@drawable/2131234702" 2130969918="@id/2131437025" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437025" ="20.0dip" ="20.0dip" ="@drawable/2131237662" ="@color/2131099764" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <View ="bottom" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <FrameLayout android:id="@id/2131431883" ="fill_parent" ="wrap_content" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449909" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/2131431928" ="@color/2131099685" ="true" ="fill_parent" ="wrap_content" ="true" />
+</RelativeLayout>

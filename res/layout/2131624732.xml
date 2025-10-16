@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233201" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvDate" ="wrap_content" ="wrap_content" android:text="JUN 11" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149465" />
+    <FrameLayout android:id="@id/2131429126" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428676" ="wrap_content" ="24.0dip" android:text="@string/content_add" ="4.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429251" ="wrap_content" ="24.0dip" android:text="@string/content_schedule_live_cancel_add" ="4.0dip" style="@style/2132148698" />
+    </FrameLayout>
+    <TextView ="@color/2131099778" android:id="@id/2131444821" ="wrap_content" ="wrap_content" android:text="JUN 11" ="10.0dip" 2130969911="@id/2131429126" 2130969918="@id/2131429126" 2130969941="@id/2131429126" style="@style/2132149394" />
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" ="8.0dip" android:text="JUN 11" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429126" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

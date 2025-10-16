@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131435622" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_records_found" />
+</FrameLayout>

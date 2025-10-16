@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236712" ="10.0dip" ="10.0dip" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/2131444242" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/strategy_rank_on_marketplace" 2130969274="@string/strategy_rank_on_marketplace" 2130969937="2131438103" 2130969941="2131438103" 2130970840="true" 2130971383="2131440560" style="@style/2132149384" />
+    <com.major.android.uikit2.selection.KitSwitch ="center" android:id="@id/2131440978" ="wrap_content" ="wrap_content" ="true" 2130969911="@id/2131444242" 2130969917="2131438103" 2130969941="@id/2131444242" />
+    <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099764" android:id="@id/2131442219" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/strategy_auto_add_margin" 2130969274="@string/strategy_auto_add_margin" 2130969937="2131438103" 2130969940="@id/2131444242" 2130970840="true" 2130971382="@string/strategy_auto_add_margin_tips" 2130971383="2131440560" style="@style/2132149384" />
+    <com.major.android.uikit2.selection.KitSwitch ="center" android:id="@id/2131440958" ="wrap_content" ="wrap_content" ="true" 2130969911="@id/2131442219" 2130969917="2131438103" 2130969941="@id/2131442219" />
+    <View android:id="@id/2131430568" ="gone" ="0.0dip" ="0.0dip" 2130969911="@id/2131440958" 2130969917="@id/2131440958" 2130969937="@id/2131440958" 2130969941="@id/2131440958" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.earn.widgets.LiteSingleLineSelectionBoxCard android:id="@id/2131431703" ="fill_parent" ="wrap_content" 2130969250="@string/fast_redemption_desc" app:2130971384="@string/fast_redemption" />
+    <com.binance.earn.widgets.LiteSingleLineSelectionBoxCard android:id="@id/2131440542" ="fill_parent" ="wrap_content" ="5.0dip" 2130969250="@string/earn_the_redeemed_quantity" app:2130971384="@string/standard_redemption" />
+</LinearLayout>

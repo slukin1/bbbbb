@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439486" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_confirmation" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131444819" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_second_confirmation_title" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" style="@style/2132149450" />
+    <LinearLayout ="vertical" android:id="@id/2131436193" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444819" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/confirm" 2130969756="true" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436193" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

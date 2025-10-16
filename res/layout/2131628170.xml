@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView android:id="@id/2131429302" ="0.0dip" ="0.0dip" ="4.0dip" 2130968912="4.0dip" 2130968914="0.0dip" 2130969911="2131438103" 2130969916="h,1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971180="#ffd8d9df" 2130971181="1.0dip">
+        <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131427671" ="fill_parent" ="fill_parent" ="@string/pi2_document_add_image" 2130968733="@null" 2130969916="h,1:1" />
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

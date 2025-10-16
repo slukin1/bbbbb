@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.c2c.widget.UserAvatarNameView ="12.0sp" ="@color/2131099685" ="center" android:id="@id/2131428189" ="wrap_content" ="wrap_content" 2130968717="16" 2130968718="5" 2130968721="12" 2130969937="2131438103" 2130969941="2131438103" 2130970289="240" style="@style/2132149350" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436386" ="wrap_content" ="16.0dip" ="5.0dip" 2130969911="@id/2131428189" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131428189" />
+</androidx.constraintlayout.widget.ConstraintLayout>

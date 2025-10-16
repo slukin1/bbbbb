@@ -1,0 +1,322 @@
+.class public Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;
+.super Lde/authada/org/bouncycastle/asn1/ASN1Object;
+
+# interfaces
+.implements Lde/authada/org/bouncycastle/asn1/ASN1Choice;
+
+
+# instance fields
+.field private givenName:Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+.field private pseudonym:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+.field private surname:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+
+# direct methods
+.method private constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+    .locals 3
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    const/4 v1, 0x2
+
+    if-ne v0, v1, :cond_1
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v1
+
+    instance-of v1, v1, Lde/authada/org/bouncycastle/asn1/ASN1String;
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {p1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->surname:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->givenName:Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    return-void
+
+    :cond_0
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v2, "Bad object encountered: "
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object p1
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "Bad sequence size: "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result p1
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;)V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->pseudonym:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+    .locals 0
+
+    .line 65352
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->surname:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    iput-object p2, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->givenName:Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 1
+
+    .line 65351
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    invoke-direct {v0, p1}, Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;-><init>(Ljava/lang/String;)V
+
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;-><init>(Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;)V
+
+    return-void
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;
+    .locals 2
+
+    if-eqz p0, :cond_2
+
+    .line 65350
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;
+
+    if-nez v0, :cond_2
+
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/ASN1String;
+
+    if-eqz v0, :cond_0
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;-><init>(Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;)V
+
+    return-object v0
+
+    :cond_0
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    if-eqz v0, :cond_1
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;
+
+    check-cast p0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+
+    return-object v0
+
+    :cond_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "illegal object in getInstance: "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_2
+    check-cast p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getGivenName()[Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+    .locals 4
+
+    .line 65349
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->givenName:Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    new-array v0, v0, [Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->givenName:Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjects()Ljava/util/Enumeration;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Enumeration;->hasMoreElements()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    invoke-interface {v1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v3
+
+    invoke-static {v3}, Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    move-result-object v3
+
+    aput-object v3, v0, v2
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-object v0
+.end method
+
+.method public getPseudonym()Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->pseudonym:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    return-object v0
+.end method
+
+.method public getSurname()Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+    .locals 1
+
+    .line 65347
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->surname:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    return-object v0
+.end method
+
+.method public toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 2
+
+    .line 65346
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->pseudonym:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;->toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    return-object v0
+
+    :cond_0
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;-><init>(I)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->surname:Lde/authada/org/bouncycastle/asn1/x500/DirectoryString;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/x509/sigi/NameOrPseudonym;->givenName:Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERSequence;
+
+    invoke-direct {v1, v0}, Lde/authada/org/bouncycastle/asn1/DERSequence;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;)V
+
+    return-object v1
+.end method

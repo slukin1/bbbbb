@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433086" ="96.0dip" ="96.0dip" ="12.0dip" 2130971077="@drawable/2131238406" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/wallet_withdrawal_deduct_arrears" ="@id/2131433086" ="true" style="@style/2132149459" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131441361" ="fill_parent" ="wrap_content" ="10.0dip" ="@id/tv_title" ="true" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429794" ="@drawable/2131236538" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="32.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131445624" ="wrap_content" ="wrap_content" android:text="@string/wallet_amount_owed" ="10.0dip" 2130969937="2131438103" 2130969941="@id/2131445623" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131445623" ="0.0dip" ="wrap_content" ="1.1" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131445624" 2130969941="2131438103" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131445626" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdraw_blocking_arrears_reason" ="10.0dip" 2130969937="2131438103" 2130969941="@id/2131445625" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131445625" ="0.0dip" ="wrap_content" ="15.0dip" ="1.1" ="10.0dip" 2130969917="2131438103" 2130969936="@id/2131445626" 2130969940="@id/2131445623" style="@style/2132149350" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429018" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/wallet_deduct_now" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

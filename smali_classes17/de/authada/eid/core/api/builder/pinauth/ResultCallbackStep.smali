@@ -1,0 +1,8 @@
+.class public interface abstract Lde/authada/eid/core/api/builder/pinauth/ResultCallbackStep;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract resultCallback(Lde/authada/eid/core/api/callbacks/AuthenticationResultCallback;)Lde/authada/eid/core/api/builder/pinauth/PasswordCallbackStep;
+.end method

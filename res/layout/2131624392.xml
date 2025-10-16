@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout android:id="@id/2131429942" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131432850" ="@color/2131100316" ="gone" ="fill_parent" ="45.0dip" 2130968629="1002" layout="@layout/2131625448" />
+    <TextView ="@color/2131099778" android:id="@id/tv_brief_symbol_title" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_position_brief_title_symbol_size" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131432850" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="start" android:id="@id/tv_brief_entry_price_title" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_position_brief_title_entry_mark" ="8.0dip" 2130969937="@id/2131432738" 2130969940="@id/2131432850" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/tv_brief_liq_price_title" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_position_brief_title_liq_pnl" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131432850" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432738" ="wrap_content" ="wrap_content" 2130969921="0.42" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432740" ="wrap_content" ="wrap_content" 2130969921="0.71" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432632" ="wrap_content" ="wrap_content" 2130969125="tv_brief_symbol_title,tv_brief_entry_price_title,tv_brief_liq_price_title" />
+    <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131439681" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/tv_brief_symbol_title" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131433839" ="fill_parent" ="wrap_content" ="20.0dip" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/margin_no_positions" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_brief_entry_price_title" />
+    <ViewStub android:id="@id/2131429856" ="@layout/2131625925" ="@id/2131429856" ="fill_parent" ="wrap_content" 2130968629="1002" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_brief_entry_price_title" />
+    <com.finance.futures.common.framework.widget.FutureNewUserOOPView android:id="@id/2131449133" ="fill_parent" ="wrap_content" 2130968629="1002" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView ="end|bottom|center" android:id="@id/2131433700" ="@drawable/2131235990" ="10.0dip" ="gone" ="40.0dip" ="40.0dip" ="12.0dip" ="15.0dip" ="@color/2131099751" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236869" 2130971375="@color/2131099764" />
+</com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout>

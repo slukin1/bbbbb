@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131428285" ="fill_parent" ="86.0dip" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+    <LinearLayout ="bottom|center" ="horizontal" android:id="@id/2131433418" ="wrap_content" ="wrap_content" ="8.0dip" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="94.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.image.KitRoundImageView android:id="@id/2131433765" ="24.0dip" ="24.0dip" 2130969911="@id/2131436184" 2130969937="2131438103" 2130969941="@id/2131436184" 2130971077="@drawable/2131232951" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="vertical" android:id="@id/2131436184" ="wrap_content" ="36.0dip" ="8.0dip" 2130969936="@id/2131433765" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131442518" ="wrap_content" ="wrap_content" ="1" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099851" ="end" ="center_vertical" android:id="@id/2131444890" ="@drawable/2131234107" ="4.0dip" ="4.0dip" ="wrap_content" ="14.0dip" android:text="@string/widget_earn_bonus" ="1" style="@style/2132149397" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131441974" ="wrap_content" ="wrap_content" ="14.0dip" ="1" 2130968700="@dimen/2131167694" 2130968701="@dimen/2131167690" 2130968705="2131449068" 2130969918="@id/2131443412" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131436184" 2130969946="2131440523" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131441978" ="wrap_content" ="wrap_content" android:text="@string/widget_earn_apr" ="1" 2130969937="2131438103" 2130969940="@id/2131441974" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="end|center" ="center_vertical" android:id="@id/2131443412" ="0.0dip" ="22.0dip" ="14.0dip" ="1" 2130968700="@dimen/2131167694" 2130968701="@dimen/2131167690" 2130968705="2131449068" 2130969917="2131438103" 2130969936="@id/2131441974" 2130969940="@id/2131436184" 2130969946="2131440523" style="@style/2132149450" />
+    <com.binance.widget.BottomDashLineTextView ="@color/2131099779" ="end" android:id="@id/2131443411" ="wrap_content" ="wrap_content" android:text="@string/widget_earn_potential_earning_simple_title" ="1" 2130969917="2131438103" 2130969940="@id/2131443412" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

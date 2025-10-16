@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131100609" android:id="@id/tvTitle" ="true" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296271" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434230" ="gone" ="true" ="16.0dip" ="16.0dip" ="@color/2131100609" ="13.0dip" ="4.0dip" 2130969907="@id/tvTitle" 2130969936="@id/tvTitle" 2130971077="@drawable/2131234316" />
+    <FrameLayout android:id="@id/2131431885" ="true" ="0.0dip" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131444964" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" ="18.0sp" ="false" 2130969937="2131438103" 2130969940="@id/2131431885" 2130969999="18.0sp" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="#fff6465d" ="center_vertical" android:id="@id/2131442949" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" ="18.0sp" ="false" ="@font/2131296281" 2130969937="2131438103" 2130969940="@id/2131444964" 2130969999="18.0sp" />
+</merge>

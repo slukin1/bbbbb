@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/2131432197" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent">
+        <com.github.mikephil.charting.charts.PieChart android:id="@id/pieChart" ="176.0dip" ="194.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.binance.earn.widgets.PieChartColorLayout android:id="@id/first" ="wrap_content" ="wrap_content" ="24.5dip" ="176.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <com.binance.earn.widgets.PieChartColorLayout android:id="@id/second" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/first" 2130969940="@id/first" />
+        <com.binance.earn.widgets.PieChartColorLayout android:id="@id/third" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/second" 2130969940="@id/second" />
+        <com.binance.earn.widgets.PieChartColorLayout android:id="@id/four" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/third" 2130969940="@id/third" />
+        <com.binance.earn.widgets.PieChartColorLayout android:id="@id/five" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/four" 2130969940="@id/four" />
+        <com.binance.earn.widgets.PieChartColorLayout android:id="@id/other" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/five" 2130969940="@id/five" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="other,first,second,third,four,five,pieChart" />
+        <TextView ="@color/2131099778" android:id="@id/tvListLabel" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131428303" style="@style/2132149384" />
+        <TextView ="@color/2131099778" android:id="@id/tvListLabel2" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" 2130969904="true" 2130969917="2131438103" 2130969940="@id/2131428303" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131435207" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tvListLabel,tvListLabel2" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvList" ="fill_parent" ="wrap_content" ="8.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435207" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131450377" ="gone" ="wrap_content" ="wrap_content" 2130969125="pieChart, tvListLabel, tvListLabel2, rvList,first,second,third,four,five,other" />
+        <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" ="70.0dip" android:text="@string/no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

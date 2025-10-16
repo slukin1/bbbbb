@@ -1,0 +1,38 @@
+.class public final synthetic Lo/getBuilderId;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic c:Lcom/binance/base/uicomponents/Segment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/binance/base/uicomponents/Segment;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/getBuilderId;->c:Lcom/binance/base/uicomponents/Segment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/getBuilderId;->c:Lcom/binance/base/uicomponents/Segment;
+
+    invoke-static {v0}, Lcom/binance/base/uicomponents/Segment;->$r8$lambda$95Q5h8NfKY9y3DR04fHBLu1_ywU(Lcom/binance/base/uicomponents/Segment;)Lo/getAppId;
+
+    move-result-object v0
+
+    return-object v0
+.end method

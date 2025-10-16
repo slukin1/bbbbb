@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="16.0dip">
+        <View ="center_horizontal" android:id="@id/2131431099" ="@android:color/darker_gray" ="40.0dip" ="4.0dip" ="8.0dip" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="center" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" android:text="@string/jarvis_history_rename_title" style="@style/2132149425" />
+    <RelativeLayout ="center" ="@drawable/2131235284" ="12.0dip" ="12.0dip" ="fill_parent" ="48.0dip">
+        <EditText ="@color/2131102397" android:id="@id/2131431458" ="@android:color/transparent" ="fill_parent" ="24.0dip" ="1" ="@color/2131099744" ="28.0dip" style="@style/2132149446" />
+        <ImageView android:id="@id/2131430068" ="20.0dip" ="20.0dip" ="true" 2130971077="@drawable/2131235282" />
+    </RelativeLayout>
+    <TextView ="@color/2131099789" ="center" android:id="@id/2131428732" ="@drawable/2131235285" ="fill_parent" ="40.0dip" ="28.0dip" ="16.0dip" android:text="@string/jarvis_confirm" style="@style/2132149446" />
+</LinearLayout>

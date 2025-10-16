@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447250" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/payment_ppo_description" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" android:id="@id/tv_currencies" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/payment_currencies" 2130969931="@id/2131447250" 2130969940="@id/2131447250" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" android:id="@id/tv_top" ="0.0dip" ="wrap_content" android:text="@string/top" ="63.0dip" 2130969935="2131438103" 2130969941="@id/tv_currencies" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" android:id="@id/tv_drag" ="0.0dip" ="wrap_content" android:text="@string/payment_drag" ="15.0dip" 2130969935="2131438103" 2130969941="@id/tv_currencies" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" android:id="@id/tv_order_bottom_tip" ="0.0dip" ="wrap_content" ="15.0dip" ="20.0dip" android:text="@string/payment_tips_for_priority_settings" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_order" ="fill_parent" ="0.0dip" ="15.0dip" 2130969912="@id/tv_order_bottom_tip" 2130969940="@id/tv_currencies" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432643" ="gone" ="wrap_content" ="wrap_content" 2130969125="rv_order,tv_order_bottom_tip,tv_currencies,tv_top,tv_drag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

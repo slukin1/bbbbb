@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170">
+        <TextView ="18.0sp" ="@color/2131099764" android:id="@id/2131437783" ="wrap_content" ="wrap_content" ="@font/2131296275" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131439785" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296274" />
+        <RelativeLayout ="horizontal" android:id="@id/2131439293" ="fill_parent" ="48.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_notifications_email" ="true" ="@font/2131296274" ="true" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131437772" ="wrap_content" ="wrap_content" ="true" ="true" />
+        </RelativeLayout>
+        <RelativeLayout ="horizontal" android:id="@id/2131439336" ="fill_parent" ="48.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_notifications_sms" ="true" ="@font/2131296274" ="true" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131437785" ="wrap_content" ="wrap_content" ="true" ="true" />
+        </RelativeLayout>
+        <RelativeLayout ="horizontal" android:id="@id/2131439268" ="fill_parent" ="48.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_notifications" ="true" ="@font/2131296274" ="true" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131437769" ="wrap_content" ="wrap_content" ="true" ="true" />
+        </RelativeLayout>
+        <RelativeLayout ="horizontal" android:id="@id/2131439395" ="fill_parent" ="48.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_notifications" ="true" ="@font/2131296274" ="true" />
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131447153" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_push_each_message" ="true" ="@font/2131296274" ="8.0dip" ="@id/2131434717" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434717" ="20.0dip" ="20.0dip" ="@drawable/2131237055" ="true" ="true" 2130971375="@color/2131099738" />
+        </RelativeLayout>
+        <RelativeLayout ="horizontal" android:id="@id/2131439299" ="fill_parent" ="48.0dip" ="12.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_notification_order_shortcuts" ="true" ="@font/2131296274" ="true" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131437754" ="wrap_content" ="wrap_content" ="false" ="true" ="true" />
+        </RelativeLayout>
+        <RelativeLayout ="horizontal" android:id="@id/2131439298" ="fill_parent" ="48.0dip" ="12.0dip">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131446529" ="wrap_content" ="wrap_content" android:text="@string/c2c_chat_add_friends_dialog_phone_email_title" ="true" ="@font/2131296274" ="true" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434541" ="16.0dip" ="16.0dip" ="@drawable/2131237075" ="true" ="2.0dip" ="@id/2131446529" 2130971375="@color/2131099738" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435172" ="wrap_content" ="wrap_content" ="false" ="true" ="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View ="@color/2131100461" ="fill_parent" ="0.5dip" />
+</LinearLayout>

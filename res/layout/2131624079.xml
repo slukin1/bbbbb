@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar ="center_vertical" ="@color/2131099685" ="fill_parent" ="45.0dip" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <ImageView android:id="@id/2131428231" ="wrap_content" ="fill_parent" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237053" />
+            <TextView ="20.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="visible" ="wrap_content" ="fill_parent" android:text="@string/c2c_userprofile_reviews_hidden_subtitle" ="true" ="@font/2131296273" ="ltr" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="vertical" ="fill_parent" ="fill_parent" ="45.0dip" 2130969331="0.0dip" 2130969941="2131438103">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969974="2131439795|@null">
+                <LinearLayout ="vertical" android:id="@id/2131436824" ="@color/2131099800" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="8.0dip" ="8.0dip" 2130969937="2131438103" 2130969941="2131438103">
+                    <TextView ="14.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_userprofile_reviews_hidden_banner_subtitle" style="@style/2132149220" />
+                    <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_userprofile_reviews_hidden_banner_label" ="6.0dip" ="@font/2131296274" />
+                </LinearLayout>
+                <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131446627" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/c2c_userprofile_reviews_hidden_subtitle" 2130969937="2131438103" 2130969940="@id/2131436824" style="@style/2132149220" />
+                <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446628" ="wrap_content" ="wrap_content" ="@font/2131296274" ="4.0dip" 2130969936="@id/2131446627" 2130969941="@id/2131446627" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/2131432253" ="visible" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

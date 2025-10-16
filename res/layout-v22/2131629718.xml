@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="12.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131448850" ="wrap_content" ="wrap_content" android:text="@string/order_confirmation" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+        <TextView ="@color/2131099764" android:id="@id/2131448851" ="wrap_content" ="wrap_content" ="12.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131448850" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448737" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/voptions_order_confirm_expire" 2130969937="@id/2131448851" 2130969940="@id/2131448851" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131448738" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131448737" 2130969917="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448687" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/voptions_order_confirm_amount" 2130969937="@id/2131448851" 2130969940="@id/2131448737" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131448688" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131448687" 2130969917="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448789" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/_price" 2130969937="@id/2131448851" 2130969940="@id/2131448687" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131448790" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131448789" 2130969917="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448855" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/voptions_trade_place_order_total_cost" 2130969937="@id/2131448851" 2130969940="@id/2131448789" style="@style/2132149350" />
+        <View android:id="@id/2131435855" ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131448855" />
+        <TextView ="@color/2131099764" android:id="@id/2131448856" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131448855" 2130969917="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/tvReduceOnly" ="gone" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/reduce_only" 2130969937="@id/2131448851" 2130969940="@id/2131435855" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131444359" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/tvReduceOnly" 2130969917="2131438103" style="@style/2132149450" />
+        <TextView ="@color/2131099778" android:id="@id/2131448854" ="@drawable/2131236700" ="12.0dip" ="0.0dip" ="wrap_content" ="12.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131448855" 2130969940="@id/tvReduceOnly" style="@style/2132149384" />
+        <TextView ="@color/2131099863" android:id="@id/2131448863" ="gone" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448854" style="@style/2132149350" />
+        <View android:id="@id/2131449349" ="@color/2131099751" ="fill_parent" ="0.5dip" ="12.0dip" 2130969940="@id/2131448863" />
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429322" ="wrap_content" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969937="@id/2131448854" 2130969940="@id/2131449349" />
+        <TextView ="@color/2131099764" android:id="@id/2131448727" ="0.0dip" ="wrap_content" android:text="@string/voptions_order_confirm_dont_show" ="5.0dip" ="15.0dip" 2130969911="@id/2131429322" 2130969917="2131438103" 2130969936="@id/2131429322" 2130969941="@id/2131429322" style="@style/2132149350" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

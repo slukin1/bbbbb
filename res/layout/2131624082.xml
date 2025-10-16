@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131100528" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131437902" ="fill_parent" ="44.0dip" 2130969136="0.0dip" 2130969140="0.0dip">
+        <RelativeLayout ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131428702" ="?2130968587" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="visible" ="50.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView ="28.0sp" ="@color/2131099764" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_pro_profile_notifications" ="@font/2131296275" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131437779" ="16.0dip" ="fill_parent" ="fill_parent" ="15.0dip" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="bottom" android:id="@id/2131429848" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" style="@style/2132148639">
+        <include android:id="@id/2131434506" layout="@layout/2131624294" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/tv_title" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="20.0dip" 2130969905="true" 2130969918="@id/2131434434" 2130969937="2131438103" 2130969940="@id/2131434506" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434434" ="24.0dip" ="24.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="@id/tv_title" 2130971077="@drawable/2131233836" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="195.0dip" ="140.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131441681" ="0.0dip" ="0.0dip" 2130968759="2131428521" 2130969125="tv_title, iv_logo" />
+        <com.finance.framework.widget.dialog.rating.RatingView android:id="@id/2131438867" ="fill_parent" ="40.0dip" ="15.0dip" ="24.0dip" ="15.0dip" ="14.0dip" 2130969912="@id/2131428369" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441681" 2130969957="@dimen/2131166209" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428369" ="0.0dip" ="0.0dip" 2130968759="2131441647" 2130969125="rv_tags" />
+        <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/rv_tags" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" 2130969940="@id/2131438867" />
+        <com.binance.widget.EditableTextView ="@color/2131099764" ="@color/2131099762" ="start|center|top" android:id="@id/2131431503" ="@drawable/2131238453" ="10.0dip" ="gone" ="fill_parent" ="80.0dip" ="6.0dip" ="10.0dip" android:hint="@string/finance_rating_dialog_edit_text_hint" 2130969912="@id/btn_submit" 2130969940="@id/rv_tags" style="@style/2132149346" />
+        <com.major.android.uikit.button.KitButton android:id="@id/btn_submit" ="fill_parent" ="wrap_content" ="25.0dip" ="15.0dip" android:text="@string/_Submit" 2130969911="2131438103" 2130969940="@id/2131431503" 2130970889="2131437069" 2130971472="2131429147" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432681" ="gone" ="0.0dip" ="0.0dip" 2130969125="rv_tags, btn_submit" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432701" ="0.0dip" ="0.0dip" 2130969125="iv_logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.finance.kit.framework.widget.lottie.KitLottieAnimationView ="bottom|center" android:id="@id/2131436757" ="wrap_content" ="wrap_content" 2130970052="@raw/2132017191" />
+</FrameLayout>

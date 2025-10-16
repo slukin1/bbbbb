@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236038" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvSymbol" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <LinearLayout ="horizontal" android:id="@id/2131436385" ="wrap_content" ="wrap_content" ="2.0dip" ="@drawable/2131232853" ="middle" ="3.0dip" 2130969937="@id/tvSymbol" 2130969940="@id/tvSymbol">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvDateTypeTag" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="#ff2ebd85" android:id="@id/tvDirection" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" ="@dimen/2131166247" 2130969961="@dimen/2131166199" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTrailing" ="gone" ="wrap_content" ="wrap_content" android:text="@string/strategy_trailing_up" ="4.0dip" ="4.0dip" style="@style/2132149394" />
+        <LinearLayout ="center_vertical" android:id="@id/2131436202" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" ="@dimen/2131166247">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440782" ="10.0dip" ="10.0dip" ="@color/2131099778" 2130969911="@id/2131432092" 2130971077="@drawable/2131238296" />
+            <TextView ="@color/2131099778" android:id="@id/2131440755" ="wrap_content" ="wrap_content" ="false" style="@style/2132149394" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428745" ="wrap_content" ="wrap_content" android:text="@string/um_grid_trade_create" 2130969911="@id/2131436385" 2130969917="2131438103" 2130969941="@id/tvSymbol" 2130970889="3" 2130971472="2" style="@style/2132148702" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvPNLTitle" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/leaderboard_statistics_type_pnl" 2130969918="@id/2131444236" 2130969937="2131438103" 2130969940="@id/2131436385" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvPNLValue" ="0.0dip" ="wrap_content" ="1" 2130969917="@id/tvPNLTitle" 2130969937="@id/tvPNLTitle" 2130969940="@id/2131444236" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131444236" ="0.0dip" ="wrap_content" android:text="@string/leaderboard_statistics_type_roi" 2130969907="@id/tvPNLTitle" 2130969917="2131438103" 2130969936="@id/tvPNLTitle" 2130969940="@id/2131436385" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131444237" ="0.0dip" ="wrap_content" 2130969917="@id/2131444236" 2130969937="@id/2131444236" 2130969940="@id/2131444236" style="@style/2132149425" />
+</androidx.constraintlayout.widget.ConstraintLayout>

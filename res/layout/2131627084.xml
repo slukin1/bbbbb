@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.widget.refreshLayout.KitRefreshLayout ="vertical" android:id="@id/refreshLayout" ="none" ="fill_parent" ="fill_parent" 2130971098="false" 2130971100="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/contentLayout" layout="@layout/2131627087" />
+</com.binance.base.widget.refreshLayout.KitRefreshLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@drawable/2131238588" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" ="fill_parent" ="?2130968589" layout="@layout/2131629184" />
+    <FrameLayout ="fill_parent" ="fill_parent" ="4.0dip" ="@id/2131428814" ="@id/2131441601">
+        <RelativeLayout ="fill_parent" ="fill_parent" ="8.0dip" ="8.0dip">
+            <TextView ="center" android:id="@id/title" ="8.0dip" android:text="@string/uq_bg_check_background_check" ="true" style="@style/2132150335" />
+            <TextView ="start" android:id="@id/2131430862" ="8.0dip" android:text="@string/uq_bg_check_background_check_description" ="@id/title" style="@style/2132150334" />
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131428814" ="fill_parent" ="wrap_content" ="40.0dip" ="true" ="@dimen/2131165194">
+        <Button ="start" ="start" android:id="@id/2131428751" ="wrap_content" android:text="@string/uq_bg_check_decline" ="false" ="true" style="@style/2132150320" />
+        <RelativeLayout android:id="@id/2131432246" ="0.0dip" ="wrap_content" ="1.0">
+            <Button android:id="@id/2131428733" ="wrap_content" android:text="@string/uq_bg_check_consent" ="1" ="false" ="@dimen/2131165194" ="true" style="@style/2132150319" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431953" ="gone" ="fill_parent" ="wrap_content" />
+    <FrameLayout android:id="@id/2131431943" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435654" ="fill_parent" ="wrap_content">
+        <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441165" ="fill_parent" ="38.0dip" ="6.0dip" ="8.0dip" 2130969905="true" 2130969918="@id/ivHistory" 2130969937="2131438103" 2130969941="2131438103" />
+        <View ="@color/2131099751" ="0.0dip" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441165" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivHistory" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/2131441165" 2130969917="2131438103" 2130969941="@id/2131441165" 2130971077="@drawable/2131237479" 2130971375="@color/2131099738" />
+        <com.finance.kit.framework.widget.ClickArea android:id="@id/ca_history" ="0.0dip" ="0.0dip" ="-13.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/ivHistory" 2130969941="2131438103" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432660" ="wrap_content" ="wrap_content" 2130969125="ivHistory,ca_history" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449921" ="blocksDescendants" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

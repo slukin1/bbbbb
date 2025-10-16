@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131449502" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <ScrollView ="fill_parent" ="fill_parent" ="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435522" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433798" ="28.0dip" ="28.0dip" ="24.0dip" ="@null" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="@color/2131099764" android:id="@id/2131442693" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/2131433798" 2130969936="@id/2131433798" 2130969941="@id/2131433798" style="@style/2132149423" />
+            <TextView ="@color/2131099764" android:id="@id/2131442692" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131433798" 2130969917="2131438103" 2130969941="@id/2131433798" style="@style/2132149423" />
+            <com.major.android.uikit.notification.KitNotification android:id="@id/2131430855" ="0.0dip" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442693" 2130970325="@drawable/2131238480" 2130970329="@string/deposit_exceed_limit_to_daily_charge_remind" 2130970863="@null" />
+            <FrameLayout android:id="@id/2131431951" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131430855" />
+            <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131445354" ="0.0dip" ="48.0dip" ="16.0dip" android:text="@string/deposit_view_history" ="false" ="15.0dip" ="5.5dip" 2130969173="2131437069" 2130969911="2131438103" 2130969918="@id/2131442382" 2130969937="2131438103" 2130971472="2" />
+            <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131442382" ="0.0dip" ="48.0dip" ="16.0dip" ="false" ="5.5dip" ="15.0dip" 2130969173="2131437069" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131445354" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

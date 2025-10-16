@@ -1,0 +1,18 @@
+.class public interface abstract Lo/PreferenceHeaderFragmentCompat;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;)Lo/getIconUrls;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")",
+            "Lo/getIconUrls<",
+            "Ljava/lang/Double;",
+            ">;"
+        }
+    .end annotation
+.end method

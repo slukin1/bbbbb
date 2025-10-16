@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" ="2.0dip" ="5.0dip" ="10.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="10.0sp" ="@color/2131099788" ="start" android:id="@id/2131436935" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296265" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="8.0sp" ="@color/2131099778" ="start" android:id="@id/2131436940" ="gone" ="wrap_content" ="wrap_content" ="-2.0dip" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/2131436935" />
+    <TextView android:id="@id/2131436937" ="wrap_content" ="wrap_content" ="1" ="@font/2131296273" ="uniform" ="@dimen/2131167719" ="@dimen/2131167694" 2130969937="2131438103" 2130969940="@id/2131436940" />
+    <TextView ="10.0sp" ="@color/2131099778" android:id="@id/2131436939" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/2131436937" />
+    <TextView ="10.0sp" ="@color/2131099851" android:id="@id/2131436936" ="wrap_content" ="wrap_content" ="4.0dip" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/2131436939" />
+</androidx.constraintlayout.widget.ConstraintLayout>

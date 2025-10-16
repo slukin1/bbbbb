@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232787" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" android:id="@id/2131442416" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/order_already_cancel" 2130969506="@font/2131296275" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131442417" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/c2c_lite_order_cancelled_hint" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442416" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439058" ="32.0dip" ="fill_parent" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442417" />
+</androidx.constraintlayout.widget.ConstraintLayout>

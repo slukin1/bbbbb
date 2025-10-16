@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvHighStr" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_high" style="@style/2132148738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvHigh" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" style="@style/2132148739" />
+    <TextView android:id="@id/tvLowStr" ="wrap_content" ="wrap_content" android:text="@string/market_detail_24h_low" style="@style/2132148738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvVolSub" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148739" />
+    <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" android:id="@id/tvVolStr" ="wrap_content" ="wrap_content" ="false" style="@style/2132148738" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvVol" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148739" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvLow" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132148739" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvVolSubStr" ="wrap_content" ="wrap_content" style="@style/2132148738" />
+    <Space android:id="@id/space_high_low_flow" ="0.0dip" ="4.0dip" />
+    <Space android:id="@id/space_vol" ="0.0dip" ="4.0dip" />
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432079" ="wrap_content" ="wrap_content" ="12.0dip" 2130969125="tvHighStr,tvHigh,space_high_low_flow,tvLowStr,tvLow" 2130969488="2131440560" 2130969918="@id/2131432095" 2130969941="2131438103" />
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432095" ="wrap_content" ="wrap_content" 2130969125="tvVolStr,tvVol,space_vol,tvVolSubStr,tvVolSub" 2130969488="2131440560" 2130969917="2131438103" 2130969941="2131438103" />
+</merge>

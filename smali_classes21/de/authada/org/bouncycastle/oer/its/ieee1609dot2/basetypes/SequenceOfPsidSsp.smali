@@ -1,0 +1,164 @@
+.class public Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;
+.super Lde/authada/org/bouncycastle/asn1/ASN1Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp$Builder;
+    }
+.end annotation
+
+
+# instance fields
+.field private final psidSsps:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/PsidSsp;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method private constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+    .locals 2
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/PsidSsp;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/PsidSsp;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;->psidSsps:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/List;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/PsidSsp;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 65353
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    invoke-static {p1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;->psidSsps:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public static builder()Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp$Builder;
+    .locals 1
+
+    .line 65352
+    new-instance v0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp$Builder;
+
+    invoke-direct {v0}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp$Builder;-><init>()V
+
+    return-object v0
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;
+    .locals 1
+
+    .line 65351
+    instance-of v0, p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;
+
+    return-object p0
+
+    :cond_0
+    if-eqz p0, :cond_1
+
+    new-instance v0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+
+    return-object v0
+
+    :cond_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getPsidSsps()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/PsidSsp;",
+            ">;"
+        }
+    .end annotation
+
+    .line 65350
+    iget-object v0, p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;->psidSsps:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 1
+
+    .line 65349
+    iget-object v0, p0, Lde/authada/org/bouncycastle/oer/its/ieee1609dot2/basetypes/SequenceOfPsidSsp;->psidSsps:Ljava/util/List;
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/oer/its/ItsUtils;->toSequence(Ljava/util/List;)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object v0
+
+    return-object v0
+.end method

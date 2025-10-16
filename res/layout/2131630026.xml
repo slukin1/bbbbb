@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/from" ="15.0dip" ="15.0dip" ="true" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131441563" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/margin_to" ="15.0dip" ="15.0dip" ="true" style="@style/2132149384" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438007" ="fill_parent" ="fill_parent" ="@id/2131441563" 2130970616="300" 2130970617="1000" 2130970619="true" 2130970620="false" 2130970621="1.2" 2130970622="1.7">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438008" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" android:id="@id/2131438006" ="visible" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238473" style="@style/2132149450" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</RelativeLayout>

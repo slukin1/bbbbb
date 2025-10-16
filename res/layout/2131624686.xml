@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="@style/2132149589" android:id="@id/2131427995" ="@color/2131099685" ="true" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/2131441601" ="@color/2131099685" ="fill_parent" ="?2130968589" ="16.0dip" ="16.0dip" ="0.0dip" 2130970295="@drawable/2131234196" 2130970572="@style/2132149589" app:2130971384="." 2130971385="true" />
+        <com.major.android.uikit.search.KitSearchBar android:id="@id/2131439835" ="fill_parent" ="wrap_content" ="@string/content_search_transition_name" 2130968735="@android:color/transparent" 2130968908="true" 2130969627="@string/_search" 2130969974="2131439795|@null|@null" 2130970759="@string/content_search_content_hint" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

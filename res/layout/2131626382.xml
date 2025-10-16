@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439436" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_want_to" ="@font/2131296273" />
+    <RadioGroup ="horizontal" android:id="@id/2131448873" ="@drawable/2131236007" ="2.0dip" ="fill_parent" ="34.0dip" ="6.0dip" ="@color/2131099744">
+        <RadioButton ="14.0sp" ="@color/2131100640" ="center" android:id="@id/2131438596" ="@drawable/2131232698" ="0.0dip" ="fill_parent" ="true" ="@null" android:text="@string/deposit" ="1.0" ="@font/2131296273" />
+        <RadioButton ="14.0sp" ="@color/2131100640" ="center" android:id="@id/2131438598" ="@drawable/2131232698" ="0.0dip" ="fill_parent" ="@null" android:text="@string/withdraw" ="1.0" ="@font/2131296273" />
+    </RadioGroup>
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446494" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/c2c_mob_ad_post_p1_label_fiat" ="5.0dip" ="@font/2131296273" />
+    <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131446508" ="@drawable/2131235987" ="12.0dip" ="12.0dip" ="fill_parent" ="48.0dip" ="5.0dip" ="@font/2131296273" ="@color/2131099744" 2130969306="@drawable/2131237003" />
+</androidx.appcompat.widget.LinearLayoutCompat>

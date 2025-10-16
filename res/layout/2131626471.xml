@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236009" ="12.0dip" ="12.0dip" ="12.0dip" ="22.0dip" ="wrap_content" ="wrap_content" ="250.0dip" ="@color/2131099712" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131441525" ="wrap_content" ="wrap_content" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237434" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="true" ="@font/2131296273" ="8.0dip" />
+    </LinearLayout>
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442581" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428880" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/c2c_gc_card_reward_content_btn_claim" style="@style/2132148693" />
+</LinearLayout>

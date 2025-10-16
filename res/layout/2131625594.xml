@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" android:id="@id/2131432203" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/rvProductList" ="20.0dip" ="gone" ="false" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131431361" ="gone" ="fill_parent" ="fill_parent">
+        <TextView ="@color/2131099778" ="center" ="center_horizontal" ="64.0dip" ="wrap_content" ="wrap_content" ="64.0dip" android:text="@string/earn_no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

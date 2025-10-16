@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131443296" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" android:text="@string/_history" ="1.0" ="@dimen/2131166184" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434149" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237037" 2130971375="@color/2131099764" />
+</LinearLayout>

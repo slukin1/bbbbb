@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444323" ="wrap_content" ="wrap_content" android:text="@string/lite_earn_recommend" ="15.0dip" 2130969905="true" 2130969918="@id/2131443782" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <TextView ="@color/2131099785" android:id="@id/2131443782" ="wrap_content" ="wrap_content" android:text="@string/more" ="15.0dip" 2130969911="@id/2131444323" 2130969917="2131438103" 2130969941="@id/2131444323" style="@style/2132149374" />
+    <include android:id="@id/2131449493" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444323" layout="@layout/2131629287" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439591" ="gone" ="fill_parent" ="wrap_content" ="11.0dip" ="8.0dip" ="11.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449493" 2130971059="3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

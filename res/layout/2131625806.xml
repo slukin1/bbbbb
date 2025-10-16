@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624283" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="@id/2131441601">
+        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436391" ="visible" ="fill_parent" ="wrap_content" ="80.0dip">
+            <ImageView android:id="@id/2131434220" ="10.0dip" ="125.0dip" ="125.0dip" ="@null" 2130971077="@drawable/2131238405" />
+            <TextView ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/asset_convert_successfully" style="@style/2132149425" />
+        </LinearLayout>
+        <TextView ="#ff707a8a" ="center_horizontal" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/asset_convert_have_received" style="@style/2132149350" />
+        <LinearLayout ="center_horizontal" ="horizontal" ="wrap_content" ="wrap_content" ="10.0dip">
+            <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" style="@style/2132149423" />
+            <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149446" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="50.0dip" ="12.0dip" ="12.0dip" ="20.0dip" ="true">
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131445159" ="@drawable/2131236004" ="0.0dip" ="fill_parent" android:text="@string/asset_convert_goto_trade" ="1.0" ="5.0dip" ="@color/2131099751" style="@style/2132149371" />
+        <TextView ="#ff29313d" ="center" android:id="@id/2131442855" ="@drawable/2131232869" ="0.0dip" ="fill_parent" android:text="@string/ms_index_done" ="1.0" ="5.0dip" style="@style/2132149371" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445210" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149453" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442637" ="wrap_content" ="wrap_content" ="5.0dip" 2130969936="@id/2131445210" 2130969941="@id/2131445210" style="@style/2132149453" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131445209" ="@drawable/2131233868" ="4.0dip" ="1.0dip" ="4.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/strategy_trailing_up" 2130969917="2131438103" 2130969941="@id/2131445210" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443824" ="8.0dip" android:text="@string/strategy_trailing_records_new_price_range" 2130969937="2131438103" 2130969940="@id/2131445210" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443826" 2130969917="2131438103" 2130969941="@id/2131443824" style="@style/2132149353" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443827" ="8.0dip" android:text="@string/strategy_trailing_records_new_stop_loss_price" 2130969937="2131438103" 2130969940="@id/2131443824" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443828" 2130969917="2131438103" 2130969941="@id/2131443827" style="@style/2132149353" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443986" ="8.0dip" android:text="@string/strategy_trailing_records_original_price_range" 2130969937="2131438103" 2130969940="@id/2131443827" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443988" 2130969917="2131438103" 2130969941="@id/2131443986" style="@style/2132149353" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443993" ="8.0dip" android:text="@string/strategy_trailing_records_original_stop_loss_price" 2130969937="2131438103" 2130969940="@id/2131443986" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443994" 2130969917="2131438103" 2130969941="@id/2131443993" style="@style/2132149353" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443993" />
+</androidx.constraintlayout.widget.ConstraintLayout>

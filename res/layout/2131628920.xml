@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439476" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="14.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="center" ="center_vertical" android:id="@id/tvTitle" ="visible" ="0.0dip" ="wrap_content" android:text="" ="false" ="1.0" ="6.0dip" ="6.0dip" style="@style/2132149425" />
+    </LinearLayout>
+    <FrameLayout ="center_horizontal" android:id="@id/2131430317" ="fill_parent" ="wrap_content" />
+    <TextView ="@color/2131099778" android:id="@id/2131444976" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="15.0dip" 2130969999="18.0sp" style="@style/2132149384" />
+    <LinearLayout ="horizontal" android:id="@id/2131436178" ="16.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton ="center" ="center_vertical" android:id="@id/tvCancel" ="3.0dip" ="wrap_content" ="wrap_content" android:text="Cancel" ="1.0" ="12.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton ="center" ="center_vertical" android:id="@id/2131442568" ="3.0dip" ="wrap_content" ="wrap_content" android:text="Confirm" ="1.0" style="@style/2132148692" />
+    </LinearLayout>
+</LinearLayout>

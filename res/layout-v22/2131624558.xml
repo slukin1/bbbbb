@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" android:id="@id/2131435469" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432121" ="12.0dip" ="16.0dip" ="12.0dip" ="15.0dip" ="false" ="fill_parent" ="wrap_content" ="never" ="@dimen/2131166170" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+</LinearLayout>

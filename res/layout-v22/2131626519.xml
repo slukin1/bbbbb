@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="48.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131429524" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="3.0dip" 2130969911="@id/tvAmount" 2130969937="2131438103" 2130969941="@id/tvAmount">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="false" ="16.0dip" ="16.0dip" ="7.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="50.0dip" ="10.0dip" style="@style/2132149450" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="40.0dip" 2130969912="@id/2131442691" 2130969936="@id/2131429524" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442691" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="@id/tvAmount" 2130969940="@id/tvAmount" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433212" ="5.0dip" ="30.0dip" ="30.0dip" ="@color/2131099764" ="10.0dip" 2130969911="@id/tvAmount" 2130969917="2131438103" 2130969941="@id/tvAmount" 2130971077="@drawable/2131237680" />
+</androidx.constraintlayout.widget.ConstraintLayout>

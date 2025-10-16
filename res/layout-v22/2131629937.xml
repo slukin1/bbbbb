@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131235987" ="12.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@color/2131099744">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" ="top" android:id="@id/2131427692" ="@null" ="0.0dip" ="vertical" ="fill_parent" ="48.0dip" android:hint="@string/wallet_deposit_address_name_edit_hint" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099738" ="end" android:id="@id/2131427691" ="fill_parent" ="wrap_content" ="8.0dip" style="@style/2132149350" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131430229" ="fill_parent" ="48.0dip" ="12.0dip" android:text="@string/confirm" style="@style/2132149446" />
+</androidx.appcompat.widget.LinearLayoutCompat>

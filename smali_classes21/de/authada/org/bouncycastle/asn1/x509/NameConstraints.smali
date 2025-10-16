@@ -1,0 +1,289 @@
+.class public Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;
+.super Lde/authada/org/bouncycastle/asn1/ASN1Object;
+
+
+# instance fields
+.field private excluded:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+.field private permitted:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+
+# direct methods
+.method private constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+    .locals 4
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjects()Ljava/util/Enumeration;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Enumeration;->hasMoreElements()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;->getTagNo()I
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_1
+
+    const/4 v3, 0x1
+
+    if-ne v1, v3, :cond_0
+
+    invoke-static {v0, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getInstance(Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;Z)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->createArray(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->excluded:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v1, "Unknown tag encountered: "
+
+    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;->getTagNo()I
+
+    move-result v0
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    invoke-static {v0, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getInstance(Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;Z)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->createArray(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->permitted:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    goto :goto_0
+
+    :cond_2
+    return-void
+.end method
+
+.method public constructor <init>([Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;)V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    invoke-static {p1}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->cloneSubtree([Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->permitted:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    invoke-static {p2}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->cloneSubtree([Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->excluded:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    return-void
+.end method
+
+.method private static cloneSubtree([Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+    .locals 3
+
+    if-eqz p0, :cond_0
+
+    .line 65352
+    array-length v0, p0
+
+    new-array v1, v0, [Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    const/4 v2, 0x0
+
+    invoke-static {p0, v2, v1, v2, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    return-object v1
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method private createArray(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+    .locals 4
+
+    .line 65351
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    new-array v1, v0, [Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    const/4 v2, 0x0
+
+    :goto_0
+    if-eq v2, v0, :cond_0
+
+    invoke-virtual {p1, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v3
+
+    invoke-static {v3}, Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object v3
+
+    aput-object v3, v1, v2
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-object v1
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;
+    .locals 1
+
+    .line 65350
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;
+
+    return-object p0
+
+    :cond_0
+    if-eqz p0, :cond_1
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;
+
+    invoke-static {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+
+    return-object v0
+
+    :cond_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public getExcludedSubtrees()[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+    .locals 1
+
+    .line 65349
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->excluded:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->cloneSubtree([Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getPermittedSubtrees()[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->permitted:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->cloneSubtree([Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;)[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 5
+
+    .line 65347
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;-><init>(I)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->permitted:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_0
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;
+
+    new-instance v3, Lde/authada/org/bouncycastle/asn1/DERSequence;
+
+    iget-object v4, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->permitted:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    invoke-direct {v3, v4}, Lde/authada/org/bouncycastle/asn1/DERSequence;-><init>([Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-direct {v1, v2, v2, v3}, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;-><init>(ZILde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    :cond_0
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->excluded:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    if-eqz v1, :cond_1
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;
+
+    new-instance v3, Lde/authada/org/bouncycastle/asn1/DERSequence;
+
+    iget-object v4, p0, Lde/authada/org/bouncycastle/asn1/x509/NameConstraints;->excluded:[Lde/authada/org/bouncycastle/asn1/x509/GeneralSubtree;
+
+    invoke-direct {v3, v4}, Lde/authada/org/bouncycastle/asn1/DERSequence;-><init>([Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v2, v4, v3}, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;-><init>(ZILde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    :cond_1
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERSequence;
+
+    invoke-direct {v1, v0}, Lde/authada/org/bouncycastle/asn1/DERSequence;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;)V
+
+    return-object v1
+.end method

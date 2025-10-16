@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232656" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431204" ="36.0dip" ="36.0dip" ="20.0dip" ="fitXY" ="14.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="0.0dip" ="wrap_content" ="15.0dip" 2130969911="@id/2131431204" 2130969917="2131438103" 2130969936="@id/2131431204" 2130969941="@id/2131431204">
+        <TextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131431208" ="wrap_content" ="wrap_content" ="2" ="8.0dip" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131448547" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <TextView ="#ff2ebd85" android:id="@id/2131448547" ="@drawable/2131232654" ="gone" ="wrap_content" ="wrap_content" android:text="@string/dwallet_common_transaction_verified" ="5.0dip" ="5.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131431208" 2130969941="2131438103" style="@style/2132149454" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131431214" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969927="0.928" 2130969937="@id/2131431204" 2130969940="@id/2131431204" style="@style/2132149419" />
+    <TextView ="@color/2131099778" android:id="@id/2131431203" ="fill_parent" ="wrap_content" ="5.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131431204" 2130969940="@id/2131431214" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437217" ="@drawable/2131235150" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131431203">
+        <ImageView android:id="@id/2131448983" ="12.0dip" ="12.0dip" ="12.0dip" ="@drawable/2131235181" ="fitCenter" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099863" ="start|center" android:id="@id/2131448979" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" ="294.0dip" ="16.0dip" android:text="@string/mpc_sign_msg_risk_title" ="false" ="locale" ="viewStart" ="5.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131448983" 2130969941="2131438103" style="@style/2132149377" />
+        <TextView ="@color/2131099863" ="start|center" ="0.0dip" ="wrap_content" ="5.0dip" ="12.0dip" ="294.0dip" ="16.0dip" android:text="@string/mpc_sign_msg_risk_tip" ="false" ="locale" ="viewStart" ="5.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131448983" 2130969940="@id/2131448979" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.mpc.wallet.widget.uikit.KitNotification ="@color/2131099863" ="start|center" android:id="@id/2131431220" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="42.0dip" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131437217" 2130970325="@drawable/2131235181" 2130970329="@string/confirm_dialog_sign_error_tip" style="@style/2132149377" />
+    <include android:id="@id/view_network_fee" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131431220" layout="@layout/2131627682" />
+    <include android:id="@id/view_swap_info" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131431220" layout="@layout/2131627683" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428303" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="view_network_fee,view_swap_info" />
+    <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tv_view_detail" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/dwallet_common_transaction_showdetails" ="15.0dip" ="15.0dip" 2130969940="@id/2131428303" style="@style/2132149450" />
+    <include android:id="@id/sign_dialog_info_desc" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131428303" layout="@layout/2131627680" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428304" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_view_detail,sign_dialog_info_desc" />
+    <include android:id="@id/2131440101" ="gone" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131428304" layout="@layout/2131627681" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="visible" ="fill_parent" ="wrap_content" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131440101">
+        <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131439115" ="0.0dip" ="48.0dip" ="16.0dip" android:text="@string/confirm_dialog_sign_reject" ="15.0dip" ="7.5dip" 2130969173="4" 2130969911="2131438103" 2130969918="@id/2131430253" 2130969937="2131438103" 2130969941="2131438103" 2130971472="2" />
+        <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131430253" ="0.0dip" ="48.0dip" ="16.0dip" android:text="@string/confirm_dialog_sign_approve" ="7.5dip" ="15.0dip" 2130969173="4" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131439115" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="52.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="center_vertical" android:id="@id/2131429580" ="0.0dip" ="fill_parent" ="1.0">
+        <RelativeLayout ="center_vertical" android:id="@id/2131439387" ="24.0dip" ="fill_parent">
+            <com.major.android.uikit2.selection.KitCheckBox ="13.0sp" ="@color/2131101242" ="start|center" android:id="@id/2131435120" ="18.0dip" ="18.0dip" ="true" ="locale" ="gravity" />
+        </RelativeLayout>
+        <TextView ="@color/2131099764" android:id="@id/2131433433" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/2131435123" ="@drawable/kline_bg_set_other" ="0.0dip" ="30.0dip" ="16.0dip" ="16.0dip" ="1.0">
+        <ImageView android:id="@id/2131435126" ="@drawable/2131236066" ="wrap_content" ="wrap_content" ="true" ="11.0dip" ="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439928" ="16.0dip" ="16.0dip" ="true" ="8.0dip" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131435121" ="@drawable/kline_bg_set_other" ="0.0dip" ="30.0dip" ="1.0">
+        <androidx.cardview.widget.CardView android:id="@id/2131435124" ="12.0dip" ="12.0dip" ="true" ="11.0dip" ="true" 2130968911="#ff8b68c4" 2130968912="@dimen/2131166199" 2130968914="0.0dip" 2130968916="0.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439927" ="16.0dip" ="16.0dip" ="true" ="8.0dip" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

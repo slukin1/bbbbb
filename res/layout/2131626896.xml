@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_horizontal" ="vertical" ="0.0dip" ="wrap_content" ="1.0" ="2.5dip">
+        <View ="@drawable/2131232602" ="fill_parent" ="10.0dip" />
+        <TextView ="@color/2131099837" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/percent_25" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" ="0.0dip" ="wrap_content" ="1.0" ="2.5dip" ="2.5dip">
+        <View ="@drawable/2131232602" ="fill_parent" ="10.0dip" />
+        <TextView ="@color/2131099837" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/percent_50" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" ="0.0dip" ="wrap_content" ="1.0" ="2.5dip" ="2.5dip">
+        <View ="@drawable/2131232602" ="fill_parent" ="10.0dip" />
+        <TextView ="@color/2131099837" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/percent_75" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" ="0.0dip" ="wrap_content" ="1.0" ="2.5dip">
+        <View ="@drawable/2131232602" ="fill_parent" ="10.0dip" />
+        <TextView ="@color/2131099837" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/percent_100" style="@style/2132149384" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131441674" ="fill_parent" ="8.0dip" />
+    <TextView ="12.0sp" ="@color/2131099778" ="center_horizontal" android:id="@id/2131443245" ="wrap_content" ="wrap_content" ="16.0dip" ="@font/2131296274" ="ltr" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="36.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429344" ="20.0dip" ="20.0dip" ="8.0dip" ="8.0dip" 2130969937="2131438103" 2130969941="@id/2131433902" />
+        <FrameLayout android:id="@id/2131428185" ="@drawable/2131235991" ="28.0dip" ="28.0dip" ="@color/2131099784">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433902" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103" />
+        </FrameLayout>
+        <RelativeLayout ="vertical" ="fill_parent" ="wrap_content" ="8.0dip" ="0.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131449132" ="fill_parent" ="wrap_content" />
+            <LinearLayout ="top" ="horizontal" android:id="@id/2131437060" ="wrap_content" ="wrap_content" ="8.0dip" ="@id/2131449132" ="@id/2131449132">
+                <LinearLayout ="vertical" android:id="@id/2131437059" ="0.0dip" ="wrap_content" ="1.0" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434014" ="gone" ="16.0dip" ="16.0dip" ="10.0dip" ="4.0dip" 2130971077="@drawable/2131238264" />
+            </LinearLayout>
+            <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="@id/2131437060" ="@id/2131437060">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434013" ="gone" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131443246" 2130969917="@id/2131437059" 2130969941="@id/2131443246" 2130971077="@drawable/2131237806" />
+                <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443246" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+                <View android:id="@id/2131449659" ="gone" ="24.0dip" ="0.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <Space android:id="@id/2131428554" ="gone" ="fill_parent" ="16.0dip" />
+</LinearLayout>

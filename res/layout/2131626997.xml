@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429892" ="@drawable/2131236021" ="fill_parent" ="fill_parent" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="wrap_content" ="wrap_content" ="24.0dip" ="true" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <com.major.android.uikit.search.KitSearchBar android:id="@id/2131439835" ="fill_parent" ="wrap_content" ="24.0dip" 2130968735="@android:color/transparent" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/toolbar_title" 2130970759="@string/_search" />
+    <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131439662" ="none" ="fill_parent" ="0.0dip" ="never" 2130969347="@string/no_records_found" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439835" />
+</androidx.constraintlayout.widget.ConstraintLayout>

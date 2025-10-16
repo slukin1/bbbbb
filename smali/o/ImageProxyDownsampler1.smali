@@ -1,0 +1,42 @@
+.class public final synthetic Lo/ImageProxyDownsampler1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic d:Lo/createPlaneProxy;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/createPlaneProxy;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/ImageProxyDownsampler1;->d:Lo/createPlaneProxy;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/ImageProxyDownsampler1;->d:Lo/createPlaneProxy;
+
+    invoke-static {v0}, Lo/createPlaneProxy;->a(Lo/createPlaneProxy;)F
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v0
+
+    return-object v0
+.end method

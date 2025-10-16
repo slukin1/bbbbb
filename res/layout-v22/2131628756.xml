@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445143" android:text="@string/strategy_trailing_records_total_trailing_counts" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131445144" 2130969917="2131438103" 2130969941="@id/2131445143" style="@style/2132149353" />
+    <com.finance.framework.widget.text.FinanceTipsTextView android:id="@id/2131442419" ="5.0dip" android:text="@string/strategy_trailing_records_trailing_cap_price" ="1" 2130969937="2131438103" 2130969940="@id/2131445143" 2130970849="false" style="@style/2132149354" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131442420" 2130969917="2131438103" 2130969941="@id/2131442419" style="@style/2132149353" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442419" />
+</androidx.constraintlayout.widget.ConstraintLayout>

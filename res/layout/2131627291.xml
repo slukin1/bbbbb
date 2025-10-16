@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431886" ="visible" ="fill_parent" ="fill_parent" />
+    <ScrollView android:id="@id/2131440877" ="@color/2131099685" ="gone" ="none" ="fill_parent" ="fill_parent" ="never">
+        <LinearLayout ="vertical" ="false" ="blocksDescendants" ="fill_parent" ="wrap_content">
+            <include layout="@layout/2131627289" />
+            <include layout="@layout/2131627290" />
+            <View ="@color/2131099676" ="fill_parent" ="5.0dip" />
+            <include android:id="@id/2131441045" layout="@layout/2131627288" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

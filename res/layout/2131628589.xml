@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440519" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131447270" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149346" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="2.0dip" ="true" 2130969937="2131438103" 2130969940="@id/2131447270" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="end" android:id="@id/tv_amount" ="0.0dip" ="wrap_content" ="true" ="5.0dip" ="0.0dip" 2130969917="@id/2131439104" 2130969936="@id/2131449598" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="end" ="end" android:id="@id/2131447074" ="0.0dip" ="wrap_content" ="2.0dip" ="true" ="5.0dip" ="0.0dip" 2130969917="@id/2131439104" 2130969936="@id/2131449598" 2130969940="@id/tv_amount" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131439104" ="wrap_content" ="wrap_content" 2130969921="0.68" />
+    <TextView ="@color/2131099764" android:id="@id/2131447088" ="wrap_content" ="wrap_content" ="5.0dip" ="0.0dip" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/tv_fee" ="wrap_content" ="wrap_content" ="2.0dip" ="5.0dip" ="0.0dip" 2130969917="2131438103" 2130969940="@id/2131447088" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131449598" ="wrap_content" ="wrap_content" 2130969921="0.35" />
+</androidx.constraintlayout.widget.ConstraintLayout>

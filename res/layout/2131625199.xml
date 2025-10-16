@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_ltv_sort_by" ="@font/2131296265" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443289" ="fill_parent" ="56.0dip" ="14.0dip" android:text="@string/earn_loan_ltv_high_to_low" ="15.0dip" 2130969940="@id/title" style="@style/2132149346" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443614" ="fill_parent" ="56.0dip" android:text="@string/earn_loan_ltv_low_to_high" ="15.0dip" 2130969940="@id/2131443289" style="@style/2132149346" />
+    <ImageView android:id="@id/2131433911" ="gone" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="@id/2131443289" 2130969917="2131438103" 2130969941="@id/2131443289" 2130971077="@drawable/2131233699" 2130971375="@color/2131099764" />
+    <ImageView android:id="@id/2131433969" ="gone" ="24.0dip" ="24.0dip" ="15.0dip" 2130969911="@id/2131443614" 2130969917="2131438103" 2130969941="@id/2131443614" 2130971077="@drawable/2131233699" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

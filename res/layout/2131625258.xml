@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="15.0dip" ="12.0dip" ="15.0dip" ="16.0dip" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431435" ="fill_parent" ="wrap_content" ="24.0dip" 2130969816="false" 2130969817="1" 2130969818="false" 2130969821="false" />
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131431466" ="fill_parent" ="wrap_content" ="24.0dip" 2130969816="true" 2130969817="1" 2130969818="false" 2130969821="false" />
+        <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131439728" ="fill_parent" ="wrap_content" ="24.0dip" 2130969818="false" 2130969834="1" />
+        <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131439729" ="fill_parent" ="wrap_content" ="24.0dip" 2130969818="false" 2130969834="1" />
+        <com.major.android.uikit2.button.KitLoadingButton android:id="@id/2131435740" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/confirm" style="@style/2132148691" />
+    </LinearLayout>
+    <View android:id="@id/2131449176" ="gone" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

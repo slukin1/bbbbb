@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="center" android:id="@id/2131437782" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131437771" ="@color/2131099800" ="false" ="false" ="fill_parent" ="fill_parent" ="62.0dip" ="10.0dip" ="10.0dip" ="10.0dip" ="@color/2131099800" 2130968912="@dimen/2131166156" 2130968919="true">
+        <FrameLayout ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" android:id="@id/2131437788" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="46.0dip">
+                <LinearLayout ="center_vertical" ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+                    <ImageView android:id="@id/2131437774" ="20.0dip" ="20.0dip" />
+                    <TextView ="@color/2131099764" ="end" ="start" ="start" android:id="@id/2131437773" ="wrap_content" ="wrap_content" ="1" ="5.0dip" ="5.0dip" style="@style/2132149450" />
+                </LinearLayout>
+                <TextView ="@color/2131099778" ="end" ="center_vertical" ="start" android:id="@id/2131437786" ="fill_parent" ="wrap_content" ="2" ="25.0dip" style="@style/2132149384" />
+            </LinearLayout>
+            <ImageView ="end|center" android:id="@id/2131437781" ="10.0dip" ="visible" ="36.0dip" ="36.0dip" ="centerInside" ="5.0dip" 2130971077="@drawable/2131237100" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

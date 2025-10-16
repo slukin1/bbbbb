@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@drawable/2131236004" ="fill_parent" ="40.0dip" ="@color/2131099800" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgLogo" ="20.0dip" ="20.0dip" ="fitCenter" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="bold" ="@color/2131102184" ="end" ="center_vertical" android:id="@id/tvName" ="0.0dip" ="fill_parent" ="2" ="8.0dip" 2130968700="@dimen/2131167693" 2130968701="@dimen/2131167719" 2130968705="2131449068" 2130969917="2131438103" 2130969936="@id/imgLogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

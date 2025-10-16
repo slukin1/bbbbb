@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="24.0dip" ="fill_parent" ="wrap_content" style="@style/2132148642" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="20.0sp" android:id="@id/tv_title" ="32.0dip" android:text="@string/spot_leverage_token_risk_disclaimer_title" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149063" />
+    <ScrollView android:id="@id/2131439805" ="fill_parent" ="255.0dip" ="24.0dip" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="14.0sp" ="#ff848e9c" android:text="@string/spot_leverage_token_risk_disclaimer_content" style="@style/2132149063" />
+        </LinearLayout>
+    </ScrollView>
+    <CheckBox ="12.0sp" android:id="@id/2131429368" ="fill_parent" ="24.0dip" android:text="@string/spot_leverage_token_risk_disclaimer_check_hint" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439805" style="@style/2132149063" />
+    <TextView ="false" ="22.0sp" ="@color/2131099933" ="center" android:id="@id/2131446034" ="@drawable/2131235960" ="0.0dip" ="40.0dip" ="20.0dip" android:text="@string/confirm" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429368" />
+    <ImageView android:id="@id/2131434434" ="24.0dip" ="24.0dip" ="10.0dip" ="@null" ="10.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

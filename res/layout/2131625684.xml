@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969974="2131439795|@null">
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432694" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_history_label, img_clear, fl_history_container" />
+            <TextView ="@color/2131099764" android:id="@id/tv_history_label" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/search_history" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_clear" ="20.0dip" ="20.0dip" ="fitCenter" ="15.0dip" 2130969911="@id/tv_history_label" 2130969917="2131438103" 2130969941="@id/tv_history_label" 2130971077="@drawable/2131237186" 2130971375="@color/2131099785" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/fl_history_container" ="24.0dip" ="fill_parent" ="wrap_content" ="15.0dip" 2130969467="0" 2130969468="2131450408" 2130969751="0" 2130969937="2131438103" 2130969940="@id/tv_history_label" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.binance.widget.tablayout.XTabLayout android:id="@id/tabLayout" ="wrap_content" ="40.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" ="4.0dip" 2130969901="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

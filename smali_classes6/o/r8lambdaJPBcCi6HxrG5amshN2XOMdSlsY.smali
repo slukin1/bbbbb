@@ -1,0 +1,44 @@
+.class public final synthetic Lo/r8lambdaJPBcCi6HxrG5amshN2XOMdSlsY;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic a:Lcom/nezha/android/render/fragment/BaseRenderFragment;
+
+.field private synthetic b:Lo/dY;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/dY;Lcom/nezha/android/render/fragment/BaseRenderFragment;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/r8lambdaJPBcCi6HxrG5amshN2XOMdSlsY;->b:Lo/dY;
+
+    iput-object p2, p0, Lo/r8lambdaJPBcCi6HxrG5amshN2XOMdSlsY;->a:Lcom/nezha/android/render/fragment/BaseRenderFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 0
+    iget-object v0, p0, Lo/r8lambdaJPBcCi6HxrG5amshN2XOMdSlsY;->b:Lo/dY;
+
+    iget-object v1, p0, Lo/r8lambdaJPBcCi6HxrG5amshN2XOMdSlsY;->a:Lcom/nezha/android/render/fragment/BaseRenderFragment;
+
+    invoke-static {v0, v1}, Lo/r8lambda67kTCh9nwLRMgf3csWfBkNuqJE;->f(Lo/dY;Lcom/nezha/android/render/fragment/BaseRenderFragment;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

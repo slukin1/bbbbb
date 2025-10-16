@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431686" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="start" android:id="@id/2131433698" ="?2130968587" ="visible" ="wrap_content" ="48.0dip" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <ImageView android:id="@id/2131433907" ="wrap_content" ="wrap_content" ="124.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131232358" />
+    <TextView ="@color/2131102397" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/face_verification_failed" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433907" style="@style/2132149318" />
+    <TextView ="14.0dip" ="@color/2131100886" android:id="@id/2131444964" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/face_fail_check_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+    <TextView ="@color/2131102397" android:id="@id/2131442582" ="0.0dip" ="wrap_content" ="40.0dip" android:text="@string/face_fail_take_off" ="4.0dip" ="24.0dip" ="24.0dip" 2130969311="@drawable/2131237218" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444964" style="@style/2132149350" />
+    <TextView ="@color/2131102397" android:id="@id/2131442583" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/face_fail_make_sure" ="4.0dip" ="24.0dip" ="24.0dip" 2130969311="@drawable/2131237218" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442582" style="@style/2132149350" />
+    <TextView ="16.0sp" ="@color/2131102397" ="center" android:id="@id/2131445253" ="@drawable/2131232355" ="0.0dip" ="40.0dip" ="12.0dip" android:text="@string/ms_jumio_try_again" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <TextView ="@color/2131102397" ="center_horizontal" android:id="@id/2131443641" ="gone" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/face_fail_use_manual" 2130969912="@id/2131445253" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

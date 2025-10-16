@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439474" ="@color/2131099685" ="false" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="2131438103" 2130971098="false" 2130971100="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435940" ="fill_parent" ="fill_parent" ="never" 2130969917="2131438103" 2130969937="2131438103" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131439119" ="invisible" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131431750" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131431757" ="wrap_content" ="wrap_content" ="25.0dip" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

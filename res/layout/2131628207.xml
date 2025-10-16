@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427700" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" android:id="@id/2131427704" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427701" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427704">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131427696" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="?2130971323">
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView android:id="@id/2131427697" ="false" ="fill_parent" ="wrap_content" ="1" ="true" ="1" ="actionNext" ="wrap_content" style="@style/2132150049" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView ="14.0sp" android:id="@id/2131427695" ="0.0dip" ="wrap_content" ="8.0dip" 2130969917="@id/2131427696" 2130969937="@id/2131427696" 2130969940="@id/2131427696" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427702" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427704">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131427698" ="0.0dip" ="wrap_content" 2130969912="@id/2131427714" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="?2130971323">
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView android:id="@id/2131427699" ="false" ="fill_parent" ="wrap_content" ="1" ="true" ="1" ="actionNext" ="wrap_content" style="@style/2132150049" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131427714" ="0.0dip" ="wrap_content" ="16.0dip" ="textPostalAddress" 2130969912="@id/2131427693" 2130969917="@id/2131427698" 2130969937="@id/2131427698" 2130969940="@id/2131427698" style="?2130971323">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/2131431309" ="false" ="fill_parent" ="wrap_content" ="1" ="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131427693" ="0.0dip" ="wrap_content" ="16.0dip" ="textPostalAddress" 2130969912="@id/2131427713" 2130969917="@id/2131427698" 2130969937="@id/2131427698" 2130969940="@id/2131427714" style="?2130971323">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/2131431305" ="false" ="fill_parent" ="wrap_content" ="1" ="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131427713" ="0.0dip" ="wrap_content" ="16.0dip" ="textPostalAddress" 2130969912="@id/2131427706" 2130969917="@id/2131427698" 2130969937="@id/2131427698" 2130969940="@id/2131427693" style="?2130971323">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/2131431308" ="false" ="fill_parent" ="wrap_content" ="1" ="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/2131427706" ="0.0dip" ="wrap_content" ="16.0dip" ="textPostalAddress" 2130969911="2131438103" 2130969917="@id/2131427698" 2130969937="@id/2131427698" 2130969940="@id/2131427713" style="?2130971323">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/2131431307" ="false" ="fill_parent" ="wrap_content" ="1" ="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/2131438692" ="gone" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

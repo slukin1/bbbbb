@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435522" ="@drawable/2131236004" ="8.0dip" ="9.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="12.0dip" ="12.0dip" ="@color/2131099800" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.6" />
+    <TextView ="@color/2131099778" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/fiat_kyc_daily_remaining" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <com.binance.fiat.kyc.ui.view.PieView android:id="@id/2131438335" ="20.0dip" ="20.0dip" ="9.0dip" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+    <TextView ="@color/2131099764" android:id="@id/2131444392" ="0.0dip" ="wrap_content" ="1" ="8.0dip" ="3.0dip" 2130968701="7.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969911="@id/2131438335" 2130969918="@id/2131432755" 2130969936="@id/2131438335" 2130969941="@id/2131438335" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/tvTotal" ="0.0dip" ="wrap_content" ="1" ="3.0dip" 2130968701="7.0sp" 2130968704="1.0sp" 2130968705="2131449068" 2130969911="@id/2131444392" 2130969917="2131438103" 2130969936="@id/2131432755" 2130969941="@id/2131444392" style="@style/2132149384" />
+    <FrameLayout android:id="@id/2131435436" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTotal">
+        <com.major.android.uikit.divider.KitDivider ="fill_parent" ="0.5dip" />
+        <androidx.appcompat.widget.AppCompatImageView ="13.0dip" ="13.0dip" ="12.0dip" 2130971077="@drawable/2131237096" />
+        <TextView ="@color/2131099787" android:id="@id/2131443291" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/fiat_kyc_daily_limit_hint" ="false" ="18.0dip" style="@style/2132149384" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

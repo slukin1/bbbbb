@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.margin.marketdetail.kline.tradeView.BlockFrameLayout android:id="@id/2131450336" ="fill_parent" ="fill_parent" />
+    <View android:id="@id/2131431364" ="@color/2131099685" ="fill_parent" ="fill_parent" />
+    <ProgressBar ="center" android:id="@id/2131438675" ="visible" ="26.0dip" ="26.0dip" ="@drawable/2131234888" />
+</FrameLayout>

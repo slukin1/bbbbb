@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431983" ="fill_parent" ="wrap_content" />
+    <com.major.android.uikit2.tabs.KitTabLayout ="center" android:id="@id/2131441079" ="fill_parent" ="26.0dip" 2130969866="@dimen/2131166153" 2130969867="@dimen/2131166153" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="blocksDescendants" ="fill_parent" ="fill_parent" ="8.0dip" 2130969911="2131438103" />
+</LinearLayout>

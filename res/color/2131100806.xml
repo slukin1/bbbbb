@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" ="@color/2131102070" />
+    <item ="@color/2131102071" ="true" />
+    <item ="false" ="@color/2131102068" />
+    <item ="@color/2131102067" />
+</selector>

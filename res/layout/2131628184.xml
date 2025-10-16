@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131430435" ="fill_parent" ="fill_parent">
+        <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" />
+        <ScrollView ="fill_parent" ="0.0dip" ="1.0">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="24.0dip">
+                <TextView android:id="@id/title" ="0.0dip" ="wrap_content" 2130969912="@id/2131430565" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="?2130971282" />
+                <TextView android:id="@id/2131430565" ="0.0dip" ="wrap_content" ="24.0dip" 2130969912="@id/2131430564" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" style="?2130971299" />
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/2131430564" ="0.0dip" ="wrap_content" ="8.0dip" 2130969363="@drawable/2131235822" 2130969912="@id/2131433047" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430565" style="@style/2132148994">
+                    <AutoCompleteTextView ="true" ="false" ="true" ="false" ="fill_parent" ="fill_parent" ="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <TextView android:id="@id/2131433047" ="0.0dip" ="wrap_content" ="16.0dip" 2130969912="@id/2131433046" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430564" style="?2130971299" />
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/2131433046" ="0.0dip" ="wrap_content" ="8.0dip" 2130969363="@drawable/2131235822" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433047" style="@style/2132148994">
+                    <AutoCompleteTextView ="true" ="false" ="true" ="false" ="fill_parent" ="fill_parent" ="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="24.0dip">
+            <Button android:id="@id/2131430442" ="fill_parent" ="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

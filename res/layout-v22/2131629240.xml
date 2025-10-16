@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@android:color/transparent" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131437058" ="wrap_content" ="wrap_content" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434832" ="gone" ="wrap_content" ="wrap_content" ="-5.0dip" 2130971077="@drawable/2131234185" />
+    <androidx.cardview.widget.CardView android:id="@id/2131437024" ="invisible" ="220.0dip" ="wrap_content" ="8.0dip" ="0.0" 2130968911="@color/2131099685" 2130968912="@dimen/2131166170" 2130968914="0.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="8.0dip" ="8.0dip" ="220.0dip" ="wrap_content" ="160.0dip" ="@dimen/2131166286" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

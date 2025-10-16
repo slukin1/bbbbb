@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.earn.widgets.AssetOverviewSummary android:id="@id/2131440857" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130968843="0" 2130968857="true" 2130968865="@string/earn_loan_total_debt_amount_usd" />
+    <com.binance.earn.widgets.AssetOverviewSummary android:id="@id/2131440856" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="@dimen/2131166184" 2130968843="0" 2130968857="false" 2130968865="@string/earn_loan_total_collateral_amount_usd" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <RelativeLayout ="center_vertical" ="center_vertical" android:id="@id/2131432501" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166184" 2130969902="2131438099" 2130969974="2131439795">
+                <com.binance.base.widget.IconTipsTextView android:id="@id/2131441460" ="wrap_content" ="wrap_content" android:text="@string/controllers_collaterals_detail_auto_title" ="true" 2130969613="14" 2130971380="2131430667" style="@style/2132149446" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131440960" ="wrap_content" ="wrap_content" ="true" />
+            </RelativeLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="false" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

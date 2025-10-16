@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="32.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="marquee" ="center_vertical" android:id="@id/2131446280" ="0.0dip" ="50.0dip" android:text="@string/margin_tap_to_fill_price" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/tv_desc" ="0.0dip" ="wrap_content" ="10.0dip" android:text="@string/margin_tap_to_fill_price_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446280" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434568" ="0.0dip" ="0.0dip" ="16.0dip" 2130969916="w,250:345" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

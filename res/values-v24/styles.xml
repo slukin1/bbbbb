@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132148297" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+    <style name="2132148298" parent="@android:style/TextAppearance.Material.Widget.Button.Colored" />
+    <style name="2132148328" parent="@style/2132148418" />
+    <style name="2132148330" parent="@style/2132148419" />
+    <style name="2132148334" parent="@style/2132148420" />
+    <style name="2132148336" parent="@style/2132148421" />
+    <style name="2132148386" parent="@style/2132148387">
+        <item name="android:colorBackground">@color/2131100807</item>
+        <item name="android:buttonBarButtonStyle">?2130968844</item>
+        <item name="android:timePickerDialogTheme">@style/2132149675</item>
+        <item name="android:datePickerDialogTheme">@style/2132149675</item>
+        <item name="android:contextPopupMenuStyle">@style/2132150125</item>
+        <item name="2130968588">@style/2132149672</item>
+        <item name="2130968589">@dimen/2131167177</item>
+        <item name="2130968591">@style/2132150042</item>
+        <item name="2130968595">@style/2132149663</item>
+        <item name="2130968614">@style/2132150043</item>
+        <item name="2130968618">@style/2132150127</item>
+        <item name="2130968635">@style/2132149676</item>
+        <item name="2130968663">@style/2132150046</item>
+        <item name="2130968790">@style/2132150064</item>
+        <item name="2130968794">@style/2132150055</item>
+        <item name="2130968796">@style/2132149671</item>
+        <item name="2130968844">@style/2132150064</item>
+        <item name="2130968952">@style/2132150084</item>
+        <item name="2130969057">?2130969099</item>
+        <item name="2130969064">@color/2131100808</item>
+        <item name="2130969089">@color/2131100814</item>
+        <item name="2130969091">@color/2131100815</item>
+        <item name="2130969481">@style/2132150089</item>
+        <item name="2130970013">@style/2132150126</item>
+        <item name="2130970088">@style/2132149680</item>
+        <item name="2130970098">@style/2132149688</item>
+        <item name="2130970108">@style/2132150093</item>
+        <item name="2130970109">@style/2132149687</item>
+        <item name="2130970132">@style/2132149694</item>
+        <item name="2130970299">@style/2132150123</item>
+        <item name="2130970571">@style/2132150124</item>
+        <item name="2130970638">@style/2132150085</item>
+        <item name="2130970906">@style/2132150069</item>
+        <item name="2130970907">@style/2132150131</item>
+        <item name="2130970908">@style/2132150133</item>
+        <item name="2130971223">@style/2132150086</item>
+        <item name="2130971252">@style/2132150134</item>
+        <item name="2130971289">?2130971299</item>
+        <item name="2130971298">?2130971299</item>
+        <item name="2130971316">@style/2132150142</item>
+        <item name="2130971317">@style/2132150144</item>
+        <item name="2130971318">@style/2132150141</item>
+        <item name="2130971320">@style/2132150146</item>
+        <item name="2130971321">@style/2132150148</item>
+        <item name="2130971322">@style/2132150145</item>
+        <item name="2130971323">@style/2132150141</item>
+        <item name="2130971419">@style/2132150160</item>
+        <item name="2130971554">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="2132148388" parent="@style/2132148389">
+        <item name="android:colorBackground">@color/2131100807</item>
+        <item name="android:contextPopupMenuStyle">@style/2132150125</item>
+        <item name="2130968588">@style/2132149672</item>
+        <item name="2130968589">@dimen/2131167177</item>
+        <item name="2130968591">@style/2132150042</item>
+        <item name="2130968595">@style/2132149663</item>
+        <item name="2130968614">@style/2132150043</item>
+        <item name="2130968618">@style/2132150127</item>
+        <item name="2130968635">@style/2132149676</item>
+        <item name="2130968663">@style/2132150046</item>
+        <item name="2130968790">@style/2132150064</item>
+        <item name="2130968794">@style/2132150055</item>
+        <item name="2130968844">@style/2132150066</item>
+        <item name="2130968952">@style/2132150084</item>
+        <item name="2130969057">?2130969099</item>
+        <item name="2130969064">@color/2131100808</item>
+        <item name="2130969089">@color/2131100814</item>
+        <item name="2130969091">@color/2131100815</item>
+        <item name="2130969099">@color/2131100817</item>
+        <item name="2130969481">@style/2132150089</item>
+        <item name="2130970013">@style/2132150126</item>
+        <item name="2130970088">@style/2132149680</item>
+        <item name="2130970299">@style/2132150123</item>
+        <item name="2130970571">@style/2132150124</item>
+        <item name="2130970638">@style/2132150085</item>
+        <item name="2130970906">@style/2132150069</item>
+        <item name="2130970907">@style/2132150131</item>
+        <item name="2130970908">@style/2132150133</item>
+        <item name="2130971223">@style/2132150086</item>
+        <item name="2130971252">@style/2132150134</item>
+        <item name="2130971289">?2130971299</item>
+        <item name="2130971298">?2130971299</item>
+        <item name="2130971316">@style/2132150142</item>
+        <item name="2130971317">@style/2132150144</item>
+        <item name="2130971318">@style/2132150141</item>
+        <item name="2130971320">@style/2132150146</item>
+        <item name="2130971321">@style/2132150148</item>
+        <item name="2130971322">@style/2132150145</item>
+        <item name="2130971323">@style/2132150141</item>
+        <item name="2130971419">@style/2132150160</item>
+        <item name="2130971554">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="2132148390" parent="@style/2132148391">
+        <item name="android:colorBackground">@color/2131100820</item>
+        <item name="android:buttonBarButtonStyle">?2130968844</item>
+        <item name="android:timePickerDialogTheme">@style/2132149675</item>
+        <item name="android:datePickerDialogTheme">@style/2132149675</item>
+        <item name="android:contextPopupMenuStyle">@style/2132150125</item>
+        <item name="2130968588">@style/2132149678</item>
+        <item name="2130968589">@dimen/2131167177</item>
+        <item name="2130968591">@style/2132150090</item>
+        <item name="2130968614">@style/2132150043</item>
+        <item name="2130968618">@style/2132150127</item>
+        <item name="2130968635">@style/2132149676</item>
+        <item name="2130968663">@style/2132150044</item>
+        <item name="2130968790">@style/2132150064</item>
+        <item name="2130968794">@style/2132150055</item>
+        <item name="2130968796">@style/2132149671</item>
+        <item name="2130968844">@style/2132150064</item>
+        <item name="2130968952">@style/2132150084</item>
+        <item name="2130969057">?2130969099</item>
+        <item name="2130969064">@color/2131100821</item>
+        <item name="2130969089">@color/2131100827</item>
+        <item name="2130969091">@color/2131100828</item>
+        <item name="2130969481">@style/2132150089</item>
+        <item name="2130970013">@style/2132150126</item>
+        <item name="2130970088">@style/2132149680</item>
+        <item name="2130970098">@style/2132149688</item>
+        <item name="2130970108">@style/2132150093</item>
+        <item name="2130970109">@style/2132149687</item>
+        <item name="2130970132">@style/2132149694</item>
+        <item name="2130970299">@style/2132150123</item>
+        <item name="2130970571">@style/2132150124</item>
+        <item name="2130970638">@style/2132150085</item>
+        <item name="2130970906">@style/2132150069</item>
+        <item name="2130970907">@style/2132150131</item>
+        <item name="2130970908">@style/2132150133</item>
+        <item name="2130971223">@style/2132150086</item>
+        <item name="2130971252">@style/2132150134</item>
+        <item name="2130971289">?2130971299</item>
+        <item name="2130971298">?2130971299</item>
+        <item name="2130971316">@style/2132150142</item>
+        <item name="2130971317">@style/2132150144</item>
+        <item name="2130971318">@style/2132150141</item>
+        <item name="2130971320">@style/2132150146</item>
+        <item name="2130971321">@style/2132150148</item>
+        <item name="2130971322">@style/2132150145</item>
+        <item name="2130971323">@style/2132150141</item>
+        <item name="2130971419">@style/2132150160</item>
+        <item name="2130971554">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="2132148393" parent="@style/2132148394">
+        <item name="android:colorBackground">@color/2131100820</item>
+        <item name="android:contextPopupMenuStyle">@style/2132150125</item>
+        <item name="2130968588">@style/2132149678</item>
+        <item name="2130968589">@dimen/2131167177</item>
+        <item name="2130968591">@style/2132150090</item>
+        <item name="2130968614">@style/2132150043</item>
+        <item name="2130968618">@style/2132150127</item>
+        <item name="2130968635">@style/2132149676</item>
+        <item name="2130968663">@style/2132150044</item>
+        <item name="2130968790">@style/2132150064</item>
+        <item name="2130968794">@style/2132150055</item>
+        <item name="2130968844">@style/2132150066</item>
+        <item name="2130968952">@style/2132150084</item>
+        <item name="2130969057">?2130969099</item>
+        <item name="2130969064">@color/2131100821</item>
+        <item name="2130969089">@color/2131100827</item>
+        <item name="2130969091">@color/2131100828</item>
+        <item name="2130969099">@color/2131100830</item>
+        <item name="2130969481">@style/2132150089</item>
+        <item name="2130970013">@style/2132150126</item>
+        <item name="2130970088">@style/2132149680</item>
+        <item name="2130970299">@style/2132150123</item>
+        <item name="2130970571">@style/2132150124</item>
+        <item name="2130970638">@style/2132150085</item>
+        <item name="2130970906">@style/2132150069</item>
+        <item name="2130970907">@style/2132150131</item>
+        <item name="2130970908">@style/2132150133</item>
+        <item name="2130971223">@style/2132150086</item>
+        <item name="2130971252">@style/2132150134</item>
+        <item name="2130971289">?2130971299</item>
+        <item name="2130971298">?2130971299</item>
+        <item name="2130971316">@style/2132150142</item>
+        <item name="2130971317">@style/2132150144</item>
+        <item name="2130971318">@style/2132150141</item>
+        <item name="2130971320">@style/2132150146</item>
+        <item name="2130971321">@style/2132150148</item>
+        <item name="2130971322">@style/2132150145</item>
+        <item name="2130971323">@style/2132150141</item>
+        <item name="2130971419">@style/2132150160</item>
+        <item name="2130971554">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="2132149253" parent="@style/2132149252" />
+    <style name="2132149256" parent="@style/2132149251" />
+    <style name="2132149258" parent="@style/2132149257" />
+    <style name="2132149260" parent="@style/2132149259" />
+    <style name="2132148418" parent="@style/2132148378">
+        <item name="android:contextPopupMenuStyle">@style/2132149999</item>
+    </style>
+    <style name="2132148419" parent="@style/2132148380">
+        <item name="android:contextPopupMenuStyle">@style/2132149999</item>
+    </style>
+    <style name="2132148420" parent="@style/2132148382">
+        <item name="android:contextPopupMenuStyle">@style/2132149999</item>
+    </style>
+    <style name="2132148421" parent="@style/2132148384">
+        <item name="android:contextPopupMenuStyle">@style/2132149999</item>
+    </style>
+</resources>

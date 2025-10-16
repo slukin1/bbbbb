@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/contentLayout" ="launcher_first" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131438939" ="fill_parent" ="0.0dip" 2130969912="@id/2131428574" 2130969941="2131438103" />
+    <LinearLayout ="horizontal" android:id="@id/2131428574" ="@color/2131099685" ="gone" ="fill_parent" ="50.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <ViewStub android:id="@id/2131435649" ="@layout/2131626814" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131428575" ="bottom_navigation_dim" ="@color/2131099675" ="0.0dip" ="0.0dip" ="0.0" 2130969911="@id/2131428574" 2130969917="@id/2131428574" 2130969937="@id/2131428574" 2130969941="@id/2131428574" />
+</androidx.constraintlayout.widget.ConstraintLayout>

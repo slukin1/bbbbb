@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="horizontal" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433791" ="20.0dip" ="20.0dip" />
+    <TextView ="16.0sp" ="@color/2131099726" android:id="@id/2131444125" ="0.0dip" ="wrap_content" ="5.0dip" ="5.0dip" ="30.0dip" ="1" ="false" ="1.0" ="@font/2131296271" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="wrap_content" ="wrap_content" ="4.0dip" 2130971077="@drawable/2131234227" />
+    <View ="@color/2131099751" ="1.0dip" ="fill_parent" />
+</LinearLayout>

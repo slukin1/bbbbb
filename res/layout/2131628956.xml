@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="true" ="true" ="fill_parent" ="98.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.image.KitRoundImageView android:id="@id/2131433135" ="46.0dip" ="46.0dip" ="18.0dip" ="true" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099837" android:id="@id/2131441560" ="wrap_content" ="wrap_content" ="8.0dip" android:text="xxxx" ="@id/2131433135" ="true" style="@style/2132149454" />
+</RelativeLayout>

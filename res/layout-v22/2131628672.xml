@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434276" ="160.0dip" ="160.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131445395" ="30.0dip" ="30.0dip" ="wrap_content" ="wrap_content" ="16.0dip" ="@dimen/2131166226" 2130969937="2131438103" 2130969940="@id/2131434276" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445388" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/strategy_loss_protection_claim_dialog_desc" ="1.2" 2130969937="2131438103" 2130969940="@id/2131445395" style="@style/2132149350" />
+    <com.finance.commonbusiness.framework.widget.banner.CountdownView ="@color/2131099764" ="center_vertical" android:id="@id/2131430684" ="wrap_content" ="22.0dip" ="16.0dip" ="false" 2130969937="2131438103" 2130969940="@id/2131445388" style="@style/2132149450" />
+    <SeekBar android:id="@id/2131439878" ="0.0dip" ="wrap_content" ="4.0dip" ="4.0dip" ="0" ="@drawable/2131236479" ="4.0dip" ="@drawable/2131236502" ="0.0dip" ="0.0dip" ="0.0dip" ="false" ="multiply" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131430684" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445392" ="wrap_content" ="wrap_content" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131439878" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428727" ="fill_parent" ="40.0dip" ="23.0dip" android:text="@string/strategy_loss_protection_claim_now" 2130969937="2131438103" 2130969940="@id/2131445392" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428811" ="fill_parent" ="40.0dip" ="10.0dip" android:text="@string/strategy_loss_protection_claim_later" 2130969937="2131438103" 2130969940="@id/2131428727" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

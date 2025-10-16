@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131441434" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131441433" ="none" ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView android:id="@id/2131441435" ="5.0dip" android:text="@string/market_menu_change_basis_title_new" style="@style/2132148553" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+                <TextView ="wrap_content" ="wrap_content" android:text="1. " style="@style/2132149384" />
+                <TextView android:id="@id/2131441436" ="fill_parent" ="wrap_content" android:text="@string/launcher_change_basis_illustrate_one_v2" style="@style/2132149384" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip">
+                <TextView ="wrap_content" ="wrap_content" android:text="2. " style="@style/2132149384" />
+                <TextView android:id="@id/2131441437" ="fill_parent" ="wrap_content" android:text="@string/launcher_change_basis_illustrate_two_v2" style="@style/2132149384" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131441432" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

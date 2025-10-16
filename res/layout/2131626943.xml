@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/tvTitle" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_apply_leader" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428729" ="15.0dip" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_apply_desc" style="@style/2132149450" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="wrap_content" ="wrap_content" ="8.0dip">
+            <TextView ="@color/2131099863" ="wrap_content" ="wrap_content" android:text="* " style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/leaderboard_apply_email" style="@style/2132149450" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.binance.widget.RuleEditText ="@color/2131099764" ="center_vertical" android:id="@id/2131431435" ="@drawable/2131238460" ="10.0dip" ="fill_parent" ="50.0dip" ="5.0dip" ="1" ="true" ="textEmailAddress" ="actionNext" 2130970735="2131431342" style="@style/2132149346" />
+        <TextView ="@color/2131099863" android:id="@id/2131442919" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/leaderboard_apply_email_invalid" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/leaderboard_apply_social_desc" style="@style/2132149450" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/leaderboard_apply_twitter" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="center_vertical" android:id="@id/2131431494" ="@drawable/2131238460" ="10.0dip" ="fill_parent" ="50.0dip" ="5.0dip" ="1" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/leaderboard_apply_telegram" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="center_vertical" android:id="@id/2131431481" ="@drawable/2131238460" ="10.0dip" ="fill_parent" ="50.0dip" ="5.0dip" ="1" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/leaderboard_apply_other_social_account" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="center_vertical" android:id="@id/2131431459" ="@drawable/2131238460" ="10.0dip" ="fill_parent" ="50.0dip" ="5.0dip" ="1" />
+        <TextView ="@color/2131099863" android:id="@id/2131444696" ="gone" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/leaderboard_apply_social_error" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/_Submit" ="15.0dip" ="15.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

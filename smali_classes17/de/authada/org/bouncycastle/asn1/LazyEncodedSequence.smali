@@ -1,0 +1,411 @@
+.class Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;
+.super Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+
+# instance fields
+.field private encoded:[B
+
+
+# direct methods
+.method constructor <init>([B)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;-><init>()V
+
+    if-eqz p1, :cond_0
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->encoded:[B
+
+    return-void
+
+    :cond_0
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string v0, "\'encoded\' cannot be null"
+
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method private force()V
+    .locals 4
+
+    .line 65353
+    monitor-enter p0
+
+    :try_start_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->encoded:[B
+
+    if-eqz v0, :cond_0
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/ASN1InputStream;
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->encoded:[B
+
+    const/4 v2, 0x1
+
+    invoke-direct {v0, v1, v2}, Lde/authada/org/bouncycastle/asn1/ASN1InputStream;-><init>([BZ)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    :try_start_1
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1InputStream;->readVector()Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Ljava/io/InputStream;->close()V
+
+    invoke-virtual {v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->takeElements()[Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->elements:[Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->encoded:[B
+    :try_end_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    :try_start_2
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/ASN1ParsingException;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "malformed ASN.1: "
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2, v0}, Lde/authada/org/bouncycastle/asn1/ASN1ParsingException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw v1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    :cond_0
+    :goto_0
+    monitor-exit p0
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+.method private getContents()[B
+    .locals 1
+
+    .line 65352
+    monitor-enter p0
+
+    :try_start_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->encoded:[B
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method
+
+
+# virtual methods
+.method encode(Lde/authada/org/bouncycastle/asn1/ASN1OutputStream;Z)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65351
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->getContents()[B
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    const/16 v1, 0x30
+
+    invoke-virtual {p1, p2, v1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1OutputStream;->writeEncodingDL(ZI[B)V
+
+    return-void
+
+    :cond_0
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1, p2}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->encode(Lde/authada/org/bouncycastle/asn1/ASN1OutputStream;Z)V
+
+    return-void
+.end method
+
+.method encodedLength(Z)I
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65350
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->getContents()[B
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    array-length v0, v0
+
+    invoke-static {p1, v0}, Lde/authada/org/bouncycastle/asn1/ASN1OutputStream;->getLengthOfEncodingDL(ZI)I
+
+    move-result p1
+
+    return p1
+
+    :cond_0
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lde/authada/org/bouncycastle/asn1/ASN1Primitive;->encodedLength(Z)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+    .locals 0
+
+    .line 65349
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0, p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public getObjects()Ljava/util/Enumeration;
+    .locals 2
+
+    .line 65348
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->getContents()[B
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/LazyConstructionEnumeration;
+
+    invoke-direct {v1, v0}, Lde/authada/org/bouncycastle/asn1/LazyConstructionEnumeration;-><init>([B)V
+
+    return-object v1
+
+    :cond_0
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjects()Ljava/util/Enumeration;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    .line 65347
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public iterator()Ljava/util/Iterator;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Iterator<",
+            "Lde/authada/org/bouncycastle/asn1/ASN1Encodable;",
+            ">;"
+        }
+    .end annotation
+
+    .line 65346
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public size()I
+    .locals 1
+
+    .line 65345
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->size()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method toASN1BitString()Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+    .locals 1
+
+    .line 65344
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    check-cast v0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toASN1BitString()Lde/authada/org/bouncycastle/asn1/ASN1BitString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method toASN1External()Lde/authada/org/bouncycastle/asn1/ASN1External;
+    .locals 1
+
+    .line 65343
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    check-cast v0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toASN1External()Lde/authada/org/bouncycastle/asn1/ASN1External;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method toASN1OctetString()Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+    .locals 1
+
+    .line 65342
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    check-cast v0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toASN1OctetString()Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method toASN1Set()Lde/authada/org/bouncycastle/asn1/ASN1Set;
+    .locals 1
+
+    .line 65341
+    invoke-virtual {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    check-cast v0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-virtual {v0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toASN1Set()Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public toArray()[Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+    .locals 1
+
+    .line 65340
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toArray()[Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method toArrayInternal()[Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+    .locals 1
+
+    .line 65339
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toArrayInternal()[Lde/authada/org/bouncycastle/asn1/ASN1Encodable;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method toDERObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 1
+
+    .line 65338
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toDERObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 1
+
+    .line 65337
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/LazyEncodedSequence;->force()V
+
+    invoke-super {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->toDLObject()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+
+    move-result-object v0
+
+    return-object v0
+.end method

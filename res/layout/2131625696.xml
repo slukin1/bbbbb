@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" 2130969901="@string/appbar_scrolling_view_behavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent">
+        <include android:id="@id/2131430712" layout="@layout/2131627173" />
+        <Space ="0.0dip" ="8.0dip" />
+        <include android:id="@id/2131441715" layout="@layout/2131627312" />
+        <Space ="0.0dip" ="8.0dip" />
+        <include android:id="@id/2131430636" layout="@layout/2131627312" />
+        <Space ="0.0dip" ="8.0dip" />
+        <include android:id="@id/2131428063" layout="@layout/2131627313" />
+        <Space ="0.0dip" ="8.0dip" />
+        <include android:id="@id/2131430798" layout="@layout/2131627313" />
+        <Space ="0.0dip" ="8.0dip" />
+        <include android:id="@id/2131437471" layout="@layout/2131627312" />
+        <Space ="0.0dip" ="24.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

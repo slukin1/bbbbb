@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="164.0dip" ="@color/2131099803" 2130970893="@dimen/2131166170" 2130970894="@id/2131428040" 2130970897="keleton_home_widget_common_4x4_light.svg" 2130970899="keleton_home_widget_common_4x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428040" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" android:id="@id/2131448620" ="0.0dip" ="wrap_content" android:text="@string/widget_ahr999_title" ="1" 2130969911="2131438103" 2130969918="@id/icon_widget_nav" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_widget_nav" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099779" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="12.0dip" ="0.0dip" ="wrap_content" 2130969912="@id/2131449705" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428040">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099771" ="end" ="center" android:id="@id/2131448621" ="fill_parent" ="wrap_content" ="1" ="false" style="@style/2132149414" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/2131448619" ="fill_parent" ="wrap_content" ="2.0dip" ="2" style="@style/2132149367" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.eaas.home.components.dynamic.ahr999.ThreeSegmentView android:id="@id/2131449705" ="0.0dip" ="6.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</com.components.skeleton.SkeletonViewGroup>

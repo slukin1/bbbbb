@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@drawable/2131235991" ="fill_parent" ="wrap_content" ="40.0dip" ="40.0dip" ="@color/2131099685" ="@dimen/2131166248"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="20.0sp" ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="34.0dip" android:text="@string/c2c_mob_important_notice" ="@font/2131296267" ="24.0dip" ="24.0dip" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131442581" ="vertical" ="fill_parent" ="wrap_content" ="8.0dip" ="200.0dip" ="@id/tvTitle" ="@font/2131296274" ="24.0dip" ="24.0dip" />
+    <RelativeLayout android:id="@id/2131439458" ="fill_parent" ="wrap_content" ="24.0dip" ="@id/2131442581" ="24.0dip" ="24.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="24.0dip" ="24.0dip" ="true" />
+        <TextView ="@color/2131100365" android:id="@id/2131444261" ="fill_parent" ="wrap_content" android:text="@string/c2c_home_pop_up_risk_check_lable" ="true" ="@font/2131296274" ="8.0dip" ="@id/2131429513" />
+    </RelativeLayout>
+    <com.major.android.uikit2.button.KitButton ="false" ="center" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="16.0dip" ="24.0dip" android:text="@string/confirm" ="@id/2131439458" ="24.0dip" ="24.0dip" />
+</RelativeLayout>

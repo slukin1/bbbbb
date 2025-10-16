@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131437928" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" 2130969912="@id/2131449312" 2130969937="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449312" ="@drawable/2131235987" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="12.0dip" ="@color/2131099744" 2130969912="@id/2131439876" 2130969937="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434269" ="16.0dip" ="16.0dip" ="1.0dip" 2130969937="2131438103" 2130969941="@id/2131449303" 2130971077="@drawable/2131237068" 2130971375="@color/2131099732" />
+        <TextView ="12.0sp" ="@color/2131099851" android:id="@id/2131449303" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_od_order_verified_tips_title" ="@font/2131296273" ="5.0dip" 2130969936="@id/2131434269" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131449302" ="0.0dip" ="wrap_content" android:text="@string/c2c_od_maker_verified_tips" ="@font/2131296274" ="8.0dip" 2130969917="2131438103" 2130969937="@id/2131449303" 2130969940="@id/2131449303" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/2131439876" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="12.0dip" 2130969912="@id/2131443397" 2130969937="2131438103">
+        <com.major.android.uikit2.notification.KitNotification android:id="@id/2131428550" ="@drawable/2131232473" ="gone" ="fill_parent" ="wrap_content" 2130969843="0" 2130970326="" 2130970329="@string/c2c_order_detail_ban_third_parth_payments" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131428558" ="gone" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433715" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131236818" 2130971375="@color/2131099764" />
+            <TextView ="12.0sp" ="center_horizontal" android:id="@id/2131442366" ="wrap_content" ="wrap_content" ="false" ="@font/2131296274" ="4.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+    <TextView ="center" android:id="@id/2131443397" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/c2c_auto_payment_is_completed" ="@font/2131296274" ="16.0dip" ="16.0dip" 2130969912="@id/2131428529" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131428529" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="10.0dip" 2130969912="@id/2131429075" 2130969937="2131438103" 2130969957="@dimen/2131166188">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131435802" ="gone" ="0.0dip" ="40.0dip" ="1.0" ="10.0dip" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131439231" ="visible" ="0.0dip" ="40.0dip" ="1.0" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429075" ="gone" ="0.0dip" ="40.0dip" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/c2c_appeal_i_have_question" 2130969912="@id/2131439132" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148697" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099787" ="center_horizontal" android:id="@id/2131439132" ="4.0dip" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="@font/2131296273" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <com.binance.c2c.orderdetail.widget.AppealSheetButtonView android:id="@id/2131428007" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

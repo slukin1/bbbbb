@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="?2130970780" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSFlagView ="center_vertical" android:id="@android:id/icon" ="wrap_content" ="wrap_content" ="fitCenter" ="true" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@android:id/text1" ="@dimen/sns_margin_medium" ="fill_parent" ="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

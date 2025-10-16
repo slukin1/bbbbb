@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437695" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131437696" ="fill_parent" ="fill_parent" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <LinearLayout ="center" android:id="@id/2131428241" ="@drawable/2131235350" ="invisible" ="fill_parent" ="54.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428240" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237488" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" android:id="@id/2131428245" ="wrap_content" ="wrap_content" android:text="@string/nezha_launcher_mp_back_home" ="4.0dip" style="@style/2132149350" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

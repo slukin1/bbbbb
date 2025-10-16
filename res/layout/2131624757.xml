@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.content.view.ContentProgressView ="center_horizontal" android:id="@id/2131438684" ="wrap_content" ="wrap_content" />
+    <Space ="fill_parent" ="50.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" ="fill_parent" ="wrap_content" android:text="@string/content_space_live_agora_loading" style="@style/2132149356" />
+</LinearLayout>

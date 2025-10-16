@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="30.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131440880" ="0.0dip" ="wrap_content" ="16.0dip" 2130969904="true" 2130969912="@id/btn_confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <ImageView android:id="@id/2131434902" ="96.0dip" ="96.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238406" />
+            <TextView ="@color/2131099764" android:id="@id/2131446280" ="12.0dip" ="12.0dip" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/future_za_compliance_pop_up_title" ="@dimen/2131166170" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434902" style="@style/2132149425" />
+            <TextView ="@color/2131099764" android:id="@id/2131448098" ="0.0dip" ="wrap_content" android:text="@string/future_za_compliance_pop_up_content1" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446280" style="@style/2132149412" />
+            <androidx.constraintlayout.helper.widget.Layer ="@drawable/2131236734" ="wrap_content" ="wrap_content" 2130969125="tv_tips2_dot,tv_tips2" 2130969911="@id/tv_tips2" 2130969917="@id/tv_tips2" 2130969937="@id/tv_tips2_dot" 2130969941="@id/tv_tips2" />
+            <TextView ="@color/2131099764" android:id="@id/tv_tips2_dot" ="@drawable/2131236734" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="16.0dip" android:text="·" ="2.0dip" ="8.0dip" ="@dimen/2131166286" 2130969937="2131438103" 2130969940="@id/2131448098" style="@style/2132149410" />
+            <TextView ="@color/2131099764" android:id="@id/tv_tips2" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/future_za_compliance_pop_up_content2" ="2.0dip" ="8.0dip" ="8.0dip" ="@dimen/2131166286" 2130969917="2131438103" 2130969936="@id/tv_tips2_dot" 2130969940="@id/2131448098" style="@style/2132149410" />
+            <TextView ="@color/2131099764" android:id="@id/2131448102" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/future_za_compliance_pop_up_content3" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_tips2" style="@style/2132149412" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/verify_now" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

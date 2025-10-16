@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131427452" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="25.0dip" ="16.0dip" ="12.0dip" ="8.0dip" ="8.0dip">
+            <RelativeLayout android:id="@id/2131439909" ="@drawable/2131235998" ="0.0dip" ="fill_parent" ="1.0" ="8.0dip" ="8.0dip" ="@color/2131100492">
+                <TextView ="@color/2131099764" ="start|center" android:id="@id/2131439894" ="wrap_content" ="wrap_content" ="true" ="10.0dip" ="10.0dip" ="true" style="@style/2132149450" />
+                <ImageView android:id="@id/2131439895" ="wrap_content" ="wrap_content" ="true" ="10.0dip" ="10.0dip" ="true" 2130971077="@drawable/2131232362" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131439907" ="@drawable/2131235998" ="0.0dip" ="fill_parent" ="1.0" ="8.0dip" ="8.0dip" ="@color/2131100492">
+                <TextView ="@color/2131099764" android:id="@id/2131439905" ="wrap_content" ="wrap_content" android:text="@string/_all" ="true" ="10.0dip" ="10.0dip" ="true" style="@style/2132149450" />
+                <ImageView android:id="@id/2131439906" ="wrap_content" ="wrap_content" ="true" ="10.0dip" ="10.0dip" ="true" 2130971077="@drawable/2131232362" />
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" 2130971098="false">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" />
+            </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+            <LinearLayout ="center_horizontal" ="center_horizontal" ="vertical" android:id="@id/2131437730" ="gone" ="wrap_content" ="wrap_content" ="100.0dip">
+                <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131238419" />
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/account_activity_no_history_lab" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

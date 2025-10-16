@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131236021" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTitle" ="fill_parent" ="50.0dip" android:text="@string/market_detail_indicator_dialog_title" style="@style/2132149425" />
+    <TextView ="@color/2131099778" android:id="@id/2131436867" ="fill_parent" ="wrap_content" ="15.0dip" android:text="@string/market_detail_indicator_dialog_main_title" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131436868" ="fill_parent" ="wrap_content" ="10.0dip" />
+    <TextView ="@color/2131099778" android:id="@id/2131440824" ="fill_parent" ="wrap_content" ="20.0dip" android:text="@string/market_detail_indicator_dialog_sub_title" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131440826" ="fill_parent" ="wrap_content" ="10.0dip" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="20.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131436254" ="fill_parent" ="62.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/kline_setting_index_setting" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

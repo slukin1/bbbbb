@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439476" ="@color/2131102313" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="13.0dip" ="13.0dip">
+        <TextView ="bold" ="@color/2131099726" ="center" ="center_vertical" android:id="@id/tvCancel" ="3.0dip" ="wrap_content" ="wrap_content" style="@style/2132149374" />
+        <TextView ="bold" ="@color/2131099764" ="center" ="center_vertical" android:id="@id/tvTitle" ="2.0dip" ="invisible" ="0.0dip" ="wrap_content" android:text="" ="1.0" style="@style/2132149446" />
+        <TextView ="bold" ="@color/2131099787" ="center" ="center_vertical" android:id="@id/2131442568" ="3.0dip" ="wrap_content" ="wrap_content" style="@style/2132149374" />
+    </LinearLayout>
+    <View ="@color/2131102309" ="fill_parent" ="0.5dip" />
+    <FrameLayout ="center_horizontal" android:id="@id/2131430317" ="fill_parent" ="wrap_content" />
+</LinearLayout>

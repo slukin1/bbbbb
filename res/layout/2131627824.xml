@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/2131439474" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="#ff848e9c" ="center" android:id="@id/title" ="fill_parent" ="50.0dip" android:text="@string/nezha_card_information" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430102" ="17.0dip" ="50.0dip" ="50.0dip" ="@drawable/2131235261" 2130969917="2131438103" 2130969941="2131438103" />
+        <com.nezha.android.webview.NezhaWebView android:id="@id/content" ="fill_parent" ="92.0dip" ="10.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" />
+        <View android:id="@id/2131428521" ="fill_parent" ="34.0dip" 2130969940="@id/content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

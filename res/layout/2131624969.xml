@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="30.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131450467" ="fill_parent" ="wrap_content" layout="@layout/2131624990" />
+    <include android:id="@id/2131450468" ="fill_parent" ="wrap_content" ="10.0dip" layout="@layout/2131624992" />
+    <include android:id="@id/2131450466" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131624992" />
+</androidx.appcompat.widget.LinearLayoutCompat>

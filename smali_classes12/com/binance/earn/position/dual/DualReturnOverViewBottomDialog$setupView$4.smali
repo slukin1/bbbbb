@@ -1,0 +1,152 @@
+.class final Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog$setupView$4;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;->b(Landroid/view/View;Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lo/getIosEnable;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\u0010\u0003\u001a\u00020\u00022\u0008\u0010\u0001\u001a\u0004\u0018\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
+    }
+    d2 = {
+        "Lo/getIosEnable;",
+        "p0",
+        "",
+        "b",
+        "(Lo/getIosEnable;)V"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;
+
+
+# direct methods
+.method constructor <init>(Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog$setupView$4;->this$0:Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(Lo/getIosEnable;)V
+    .locals 3
+
+    if-eqz p1, :cond_2
+
+    .line 124
+    iget-object v0, p0, Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog$setupView$4;->this$0:Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;
+
+    .line 125
+    invoke-static {v0}, Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;->b(Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;)Lo/getTransactionPartitionId;
+
+    move-result-object v1
+
+    .line 1026
+    iget-object v2, p1, Lo/getIosEnable;->r:Lcom/binance/earn/subscribe/dual/model/DualExercisedType;
+
+    if-eqz v2, :cond_0
+
+    .line 2042
+    iget-object v1, v1, Lo/getTransactionPartitionId;->a:Lo/MeasurePassDelegateremeasure12;
+
+    invoke-virtual {v1, v2}, Landroidx/lifecycle/LiveData;->d(Ljava/lang/Object;)V
+
+    .line 126
+    :cond_0
+    invoke-static {v0}, Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;->b(Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;)Lo/getTransactionPartitionId;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p1}, Lo/getTransactionPartitionId;->c(Lo/getIosEnable;)V
+
+    .line 127
+    invoke-static {v0}, Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;->b(Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog;)Lo/getTransactionPartitionId;
+
+    move-result-object v0
+
+    .line 3019
+    iget-object p1, p1, Lo/getIosEnable;->d:Ljava/lang/String;
+
+    .line 4032
+    move-object v1, p1
+
+    check-cast v1, Ljava/lang/CharSequence;
+
+    if-eqz v1, :cond_1
+
+    invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 4036
+    iget-object v0, v0, Lo/getTransactionPartitionId;->d:Lo/MeasurePassDelegateremeasure12;
+
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/LiveData;->d(Ljava/lang/Object;)V
+
+    return-void
+
+    .line 4033
+    :cond_1
+    iget-object p1, v0, Lo/getTransactionPartitionId;->d:Lo/MeasurePassDelegateremeasure12;
+
+    const-string v0, "0"
+
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/LiveData;->d(Ljava/lang/Object;)V
+
+    :cond_2
+    return-void
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 123
+    check-cast p1, Lo/getIosEnable;
+
+    invoke-virtual {p0, p1}, Lcom/binance/earn/position/dual/DualReturnOverViewBottomDialog$setupView$4;->b(Lo/getIosEnable;)V
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p1
+.end method

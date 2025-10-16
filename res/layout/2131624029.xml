@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440809" ="fill_parent" ="0.0dip" />
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <com.face.csg.lv5.sdk.view.CameraGLSurfaceViewNew android:id="@id/liveness_layout_cameraView" ="gone" ="fill_parent" ="fill_parent" />
+        <com.face.csg.lv5.sdk.view.RadarView android:id="@id/2131438816" ="gone" ="fill_parent" ="fill_parent" />
+        <com.face.csg.lv5.sdk.view.EggView android:id="@id/2131431336" ="gone" ="fill_parent" ="fill_parent" />
+        <include ="fill_parent" ="@dimen/bottom_bar_height" ="true" layout="@layout/face_liveness_bar_bottom" />
+        <TextView ="15.0sp" ="bold" ="end" ="center" android:id="@id/2131446872" ="20.0dip" ="20.0dip" ="gone" ="fill_parent" ="39.0dip" ="3" ="true" />
+        <LinearLayout android:id="@id/2131436510" ="16.0dip" ="wrap_content" ="wrap_content" ="@id/2131446872" ="true">
+            <ImageView android:id="@id/2131434651" ="19.0dip" ="19.0dip" ="centerCrop" />
+        </LinearLayout>
+        <TextView ="20.0sp" ="center" android:id="@id/2131447902" ="gone" ="320.0dip" ="wrap_content" ="94.0dip" ="1" ="true" ="true" />
+        <RelativeLayout ="center" android:id="@id/2131439408" ="fill_parent" ="100.0dip" ="true">
+            <TextView ="20.0sp" ="center" android:id="@id/2131447903" ="wrap_content" ="wrap_content" ="1" ="true" />
+        </RelativeLayout>
+        <TextView ="20.0sp" ="#ffffffff" ="center" android:id="@id/2131446531" ="12.0dip" ="12.0dip" ="gone" ="320.0dip" ="wrap_content" ="1" ="true" />
+    </RelativeLayout>
+</LinearLayout>

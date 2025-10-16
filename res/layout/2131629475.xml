@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="20.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436401" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="24.0sp" ="bold" ="@color/2131099764" android:id="@id/2131445430" ="0.0dip" ="wrap_content" android:text="@string/jarvis_welcome_title" ="1.0" ="textStart" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436327" ="gone" ="fill_parent" ="wrap_content" 2130969912="@id/2131439539" 2130969917="2131438103" 2130969937="2131438103">
+        <LinearLayout ="vertical" android:id="@id/2131436322" ="@color/2131099685" ="fill_parent" ="wrap_content" ="24.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/2131439539" ="false" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" 2130969911="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

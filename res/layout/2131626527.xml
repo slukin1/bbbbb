@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444989" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444991" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/ms_label_coin" 2130969937="2131438103" 2130969940="@id/2131444989" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442806" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/ms_withdraw_amount" 2130969937="2131438103" 2130969940="@id/2131444991" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442808" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/interest" 2130969937="2131438103" 2130969940="@id/2131442806" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444993" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/_total" 2130969937="2131438103" 2130969940="@id/2131442808" style="@style/2132149350" />
+    <com.binance.trade.sdk.view.MarginTipsTextView ="@color/2131099778" android:id="@id/2131442351" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/_Type" 2130969937="2131438103" 2130969940="@id/2131444993" 2130970840="true" 2130971382="@string/margin_history_repay_type_tips" 2130971383="2131440560" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvStatusLabel" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/status" 2130969937="2131438103" 2130969940="@id/2131442351" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442804" ="wrap_content" ="wrap_content" 2130969907="@id/2131444989" 2130969917="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444990" ="wrap_content" ="wrap_content" 2130969907="@id/2131444991" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442805" ="wrap_content" ="wrap_content" 2130969907="@id/2131442806" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442807" ="wrap_content" ="wrap_content" 2130969907="@id/2131442808" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444992" ="wrap_content" ="wrap_content" 2130969907="@id/2131444993" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442350" ="wrap_content" ="wrap_content" 2130969907="@id/2131442351" 2130969917="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444766" ="wrap_content" ="wrap_content" ="false" ="4.0dip" 2130969907="@id/tvStatusLabel" 2130969917="2131438103" style="@style/2132149350" />
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="1.0px" ="16.0dip" 2130969911="2131438103" 2130969940="@id/tvStatusLabel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

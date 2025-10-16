@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236765" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131430113" ="20.0dip" ="20.0dip" ="@drawable/2131238483" ="centerInside" 2130969917="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131441558" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/wallet_withdraw_indicator_dialog_title" 2130969937="2131438103" 2130969940="@id/2131430113" style="@style/2132149425" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131433432" ="wrap_content" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131441558" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131438075" ="fill_parent" ="300.0dip" ="10.0dip" 2130969940="@id/2131433432" />
+</androidx.constraintlayout.widget.ConstraintLayout>

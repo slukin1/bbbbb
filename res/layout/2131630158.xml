@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="15.0dip" ="15.0dip" ="16.0dip" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131438515" ="fill_parent" ="wrap_content" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131438513" ="fill_parent" ="wrap_content" ="12.0dip" style="@style/2132149355" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131438514" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/ok" 2130969173="8.0" />
+</LinearLayout>

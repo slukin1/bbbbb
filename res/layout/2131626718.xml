@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131436355" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="none" ="fill_parent" ="fill_parent" ="true">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView android:id="@id/2131440007" ="15.0dip" android:text="@string/_setting" style="@style/2132148553" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="center_vertical" ="wrap_content" ="26.0dip" android:text="@string/launcher_settings_general" ="12.0dip" style="@style/2132149450" />
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439311" ="gone" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/usercenter_notification_preference" style="@style/2132148762" />
+                <TextView android:id="@id/2131443885" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439288" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/currency" style="@style/2132148762" />
+                <TextView android:id="@id/2131442691" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439303" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/language" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131443470" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <FrameLayout ="center_vertical" ="horizontal" android:id="@id/2131441823" ="@drawable/2131234718" ="gone" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/setting_trade_prefer_title" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView ="end|center" android:id="@id/2131444123" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </FrameLayout>
+            <RelativeLayout android:id="@id/2131439362" ="gone" ="fill_parent" ="54.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" android:text="@string/withdrawal_address_management" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="centerInside" ="true" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131435297" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/launcher_market_floating_window_setting_title" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131435298" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131439274" ="visible" ="fill_parent" ="54.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" android:text="@string/usercenter_setting_bnb_discount" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="centerInside" ="true" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <View ="@color/2131099751" ="fill_parent" ="1.0px" ="12.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="center_vertical" ="wrap_content" ="26.0dip" ="12.0dip" android:text="@string/launcher_settings_appearance" ="12.0dip" style="@style/2132149450" />
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439290" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView ="start|center" android:text="@string/usercenter_setting_theme" ="5.0dip" ="@id/2131442767" style="@style/2132148762" />
+                <TextView ="end" android:id="@id/2131442767" ="160.0dip" ="true" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <FrameLayout ="center_vertical" ="horizontal" android:id="@id/2131439282" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/color_preference" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433770" ="20.0dip" ="20.0dip" ="centerCrop" ="47.0dip" 2130971077="@drawable/2131234681" />
+                <androidx.appcompat.widget.AppCompatImageView ="@color/2131103030" ="end" ="wrap_content" ="fill_parent" ="centerInside" ="8.0dip" ="15.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </FrameLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131441431" ="@drawable/2131234718" ="visible" ="fill_parent" ="54.0dip">
+                <TextView ="start|center" android:text="@string/market_menu_change_basis_title_new" ="5.0dip" ="@id/2131430665" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131430665" ="160.0dip" ="true" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <View ="bottom" ="@color/2131099751" ="fill_parent" ="1.0px" ="12.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="center_vertical" ="wrap_content" ="26.0dip" ="12.0dip" android:text="@string/payment_methods" ="12.0dip" style="@style/2132149450" />
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439316" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/ocbs_payment_currency" style="@style/2132148762" />
+                <TextView android:id="@id/2131444027" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131438166" ="gone" ="fill_parent" ="54.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" android:text="@string/payment_method" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="centerInside" ="true" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/2131431784" ="gone" ="fill_parent" ="54.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" android:text="@string/ocbs_fiat_channel_list" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="centerInside" ="true" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <View ="bottom" ="@color/2131099751" ="fill_parent" ="1.0px" ="12.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="center_vertical" ="wrap_content" ="26.0dip" ="12.0dip" android:text="@string/lite_ms_funds_asset_others" ="12.0dip" style="@style/2132149450" />
+            <RelativeLayout android:id="@id/2131430069" ="gone" ="fill_parent" ="54.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" android:text="@string/clean_cache" style="@style/2132148762" />
+                <TextView ="@color/2131099778" android:id="@id/2131429214" ="wrap_content" ="wrap_content" ="true" ="8.0dip" ="@id/2131430070" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430070" ="wrap_content" ="wrap_content" ="centerInside" ="true" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439301" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/help_support" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439295" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/usercentera_double_confirm_exit" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131443029" ="160.0dip" ="true" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" android:id="@id/2131440008" ="@drawable/2131234718" ="visible" ="fill_parent" ="54.0dip">
+                <TextView android:id="@id/2131447498" android:text="@string/launcher_privacy_settings_title" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131440011" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" android:id="@id/2131440010" ="@drawable/2131234718" ="gone" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/launcher_privacy_center" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatTextView 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439261" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+                <TextView android:text="@string/About" style="@style/2132148762" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427395" ="wrap_content" ="wrap_content" ="true" ="15.0dip" ="true" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </RelativeLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131436481" ="@drawable/2131234718" ="fill_parent" ="64.0dip" ="15.0dip" ="15.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131436218" ="wrap_content" ="wrap_content" android:text="@string/check_for_updates" 2130969912="@id/2131427394" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+                <TextView ="@color/2131099778" android:id="@id/2131427394" ="invisible" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131436218" style="@style/2132149386" />
+                <TextView ="@color/2131099778" android:id="@id/2131445347" ="wrap_content" ="wrap_content" ="true" ="8.0dip" 2130969911="@id/2131436218" 2130969918="@id/2131427396" 2130969941="@id/2131436218" style="@style/2132149350" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427393" ="invisible" ="8.0dip" ="8.0dip" ="8.0dip" 2130969911="@id/2131436218" 2130969918="@id/2131445347" 2130969941="@id/2131436218" 2130971077="@drawable/2131236033" 2130971375="@color/2131099765" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427396" ="wrap_content" ="wrap_content" 2130969911="@id/2131436218" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131436218" 2130969941="@id/2131436218" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <RelativeLayout ="center_vertical" ="horizontal" android:id="@id/2131439286" ="@drawable/2131234718" ="gone" ="fill_parent" ="54.0dip">
+                <TextView android:text="Crash List" style="@style/2132148762" />
+                <TextView android:id="@id/2131442653" 2130969306="@drawable/2131237055" style="@style/2132148763" />
+            </RelativeLayout>
+            <View ="fill_parent" ="30.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

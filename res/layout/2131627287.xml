@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" ="1.0">
+        <com.binance.margin.marketdetail.kline.view.KlineVerticalNestedScrollView android:id="@id/2131430876" ="none" ="fill_parent" ="fill_parent" ="true" ="never">
+            <LinearLayout ="vertical" ="false" ="fill_parent" ="wrap_content">
+                <FrameLayout android:id="@id/2131432186" ="fill_parent" ="wrap_content" />
+                <FrameLayout android:id="@id/2131431899" ="fill_parent" ="wrap_content" />
+                <include android:id="@id/2131435111" ="false" layout="@layout/2131627170" />
+                <FrameLayout android:id="@id/2131431986" ="false" ="fill_parent" ="wrap_content" />
+                <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="4.0dip" />
+                <FrameLayout android:id="@id/2131432019" ="fill_parent" ="fill_parent" />
+            </LinearLayout>
+        </com.binance.margin.marketdetail.kline.view.KlineVerticalNestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <ViewStub android:id="@id/2131435721" ="@layout/2131627307" ="@id/2131435720" ="fill_parent" ="40.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="16.0dip" ="16.0dip" ="fill_parent" ="fill_parent" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" style="@style/2132149361" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131447950" ="wrap_content" ="wrap_content" style="@style/2132149361" />
+    </FrameLayout>
+</com.binance.base.sensor.view.BaseExposureLayout>

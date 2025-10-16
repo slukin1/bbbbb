@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" ="fill_parent" ="45.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433698" ="15.0dip" ="15.0dip" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@color/2131099764" ="@null" ="@dimen/2131166184" 2130971077="@drawable/2131236863" />
+        <TextView ="@color/2131100365" ="end" ="center" android:id="@id/tvTitle" ="0.0dip" ="fill_parent" android:text="@string/margin_debt_convert" ="1" ="1.0" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" ="end" android:id="@id/ivHistory" ="15.0dip" ="15.0dip" ="wrap_content" ="fill_parent" ="centerInside" ="@color/2131099764" ="@null" ="@dimen/2131166184" 2130971077="@drawable/2131237479" />
+    </LinearLayout>
+    <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" android:id="@id/2131436193" ="gone" ="fill_parent" ="fill_parent">
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="@dimen/2131166184" ="@dimen/2131166260">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="*" 2130969999="16.0dip" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442815" ="wrap_content" ="wrap_content" ="4.0dip" 2130969999="16.0dip" style="@style/2132149384" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/ms_label_coin" ="0.8" 2130969911="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <TextView ="@color/2131099778" ="end" ="0.0dip" ="wrap_content" android:text="@string/margin_debt" ="1.0" ="8.0dip" ="8.0dip" 2130969911="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131442161" ="0.0dip" ="wrap_content" ="1.0" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439545" ="fill_parent" ="0.0dip" ="8.0dip" ="1.0" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+            <RelativeLayout android:id="@id/2131439883" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166188">
+                <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429515" ="20.0dip" ="20.0dip" ="false" ="true" />
+                <TextView ="@color/2131099764" android:id="@id/2131442072" ="wrap_content" ="wrap_content" android:text="@string/ms_selecte_all" ="false" ="true" ="6.0dip" ="@id/2131444575" ="@id/2131429515" style="@style/2132149446" />
+                <TextView ="@color/2131099764" android:id="@id/2131444575" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include android:id="@id/2131431354" ="visible" ="fill_parent" ="wrap_content" ="120.0dip" layout="@layout/2131627196" />
+    </FrameLayout>
+    <View android:id="@id/divider" ="13.0dip" style="@style/2132148664" />
+    <RelativeLayout ="horizontal" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131446599" ="wrap_content" ="16.0dip" android:text="@string/margin_debt_get_debt" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" ="@id/2131446599">
+            <TextView ="@color/2131099764" android:id="@id/tvTotal" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969931="2131438103" 2130969941="2131438103" style="@style/2132149459" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="@drawable/2131237003" ="4.0dip" 2130969907="@id/tvTotal" 2130969932="@id/tvTotal" style="@style/2132149446" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131442603" ="130.0dip" ="wrap_content" android:text="@string/margin_convert_convertText" ="true" ="true" 2130969173="4" style="@style/2132148692" />
+    </RelativeLayout>
+</LinearLayout>

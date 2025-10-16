@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="@drawable/2131234661" ="wrap_content" ="26.0dip" ="true" ="8.0dip" ="80.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_vertical" android:id="@id/2131434409" ="16.0dip" ="16.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237434" />
+    <Space ="center_vertical" ="8.0dip" ="1.0dip" 2130969911="2131438103" 2130969936="@id/2131434409" 2130969941="2131438103" />
+    <TextView ="@color/2131099789" ="end" ="center_vertical" android:id="@id/tv_challenge" ="1.0dip" ="wrap_content" ="fill_parent" ="1" ="2.0dip" 2130969905="true" 2130969911="2131438103" 2130969918="@id/iv_challenge_close" 2130969927="0.0" 2130969928="2131438085" 2130969936="@id/2131434409" 2130969941="2131438103" style="@style/2132149377" />
+    <ImageView ="center_vertical" android:id="@id/iv_challenge_close" ="1.0dip" ="20.0dip" ="fill_parent" ="8.0dip" ="2.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/tv_challenge" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099789" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432635" ="gone" ="0.0dip" ="0.0dip" 2130969125="tv_challenge, iv_challenge_close" />
+</androidx.constraintlayout.widget.ConstraintLayout>

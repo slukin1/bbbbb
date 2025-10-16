@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="@style/2132148551" android:id="@id/2131432195" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit.input.KitInputEditAmount android:id="@id/2131433467" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130968714="@string/_available_" 2130969655="@string/earn_enter_amount" 2130969660="@string/lending_subscription_amount" 2130970862="true" 2130971434="@string/total_amount" />
+        <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" ="@dimen/2131166184">
+            <com.binance.base.widget.UnderLineTipsTextView ="@color/2131099764" android:id="@id/2131444970" ="wrap_content" ="wrap_content" android:text="@string/_available" 2130971380="2131430667" style="@style/2132149384" />
+            <TextView ="bold" ="@color/2131099764" android:id="@id/2131442230" ="wrap_content" ="wrap_content" ="4.0dip" ="@id/2131444970" style="@style/2132149384" />
+            <ImageView android:id="@id/2131433644" ="16.0dip" ="16.0dip" ="@id/2131442230" ="@id/2131442230" ="4.0dip" ="@id/2131442230" 2130971077="@drawable/2131237089" 2130971375="@color/2131099765" />
+            <TextView ="@color/2131099787" android:id="@id/tvAdd" ="wrap_content" ="wrap_content" android:text="@string/earn_top_up" ="@id/2131433644" ="@id/2131433644" ="2.0dip" ="@id/2131433644" style="@style/2132149454" />
+            <TextView ="@color/2131099778" android:id="@id/2131443607" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_amount_limit" ="@id/2131442230" style="@style/2132149450" />
+            <TextView ="@color/2131099764" android:id="@id/2131443759" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_minimum" ="@id/2131443607" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/2131443760" ="wrap_content" ="wrap_content" ="@id/2131443759" ="4.0dip" ="@id/2131443759" style="@style/2132149359" />
+            <TextView ="@color/2131099764" android:id="@id/tvMaxTitle" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/earn_maximum" ="@id/2131443759" ="@id/2131443759" style="@style/2132149350" />
+            <TextView ="@color/2131099764" android:id="@id/tvMaxValue" ="wrap_content" ="wrap_content" ="@id/tvMaxTitle" ="4.0dip" ="@id/tvMaxTitle" style="@style/2132149359" />
+        </RelativeLayout>
+        <TextView ="@color/2131099778" android:id="@id/2131443016" ="fill_parent" ="wrap_content" ="16.0dip" ="4.0dip" ="16.0dip" ="16.0dip" android:text="@string/earn_max_subscription_tip" ="2.0dip" ="@dimen/2131166188" style="@style/2132149361" />
+        <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="wrap_content" />
+        <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/earn_return_overview" ="@dimen/2131166184" style="@style/2132149450" />
+        <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/earn_settlement_price_scenario" ="@dimen/2131166184" style="@style/2132149350" />
+        <include android:id="@id/2131449562" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184" layout="@layout/2131629275" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

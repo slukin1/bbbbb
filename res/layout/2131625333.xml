@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430943" ="30.0dip" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="20.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131435900" style="@style/2132148728">
+            <FrameLayout ="@drawable/2131232795" ="32.0dip" ="32.0dip">
+                <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131429471" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131236989" 2130971375="@color/2131099764" />
+            </FrameLayout>
+            <Space ="0.0dip" ="6.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/margin_chart_type_title" 2130969506="@font/2131296274" style="@style/2132148729" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131435899" style="@style/2132148728">
+            <FrameLayout ="@drawable/2131232795" ="32.0dip" ="32.0dip">
+                <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131432453" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131238024" 2130971375="@color/2131099764" />
+            </FrameLayout>
+            <Space ="0.0dip" ="6.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_setting_chart_settings" 2130969506="@font/2131296274" style="@style/2132148729" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131435913" style="@style/2132148728">
+            <FrameLayout ="@drawable/2131232795" ="32.0dip" ="32.0dip">
+                <androidx.appcompat.widget.AppCompatImageView ="center" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131238315" 2130971375="@color/2131099764" />
+            </FrameLayout>
+            <Space ="0.0dip" ="6.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/marketdetail_horizontal" 2130969506="@font/2131296274" style="@style/2132148729" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

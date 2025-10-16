@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438401" ="fill_parent" ="44.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="gone" ="0.0dip" ="0.0dip" 2130969912="@id/2131428734" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432822" 2130971105="false">
+        <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+            <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438427" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438405" ="fill_parent" ="wrap_content" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438413" ="fill_parent" ="wrap_content" ="15.0dip" />
+                <com.binance.base.component.PlaceholderView android:id="@id/2131438415" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" />
+            </LinearLayout>
+        </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428734" ="0.0dip" ="72.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148650">
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432767" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+        <com.finance.framework.widget.text.FinanceBottomDialogTipsTextView ="@color/2131099778" android:id="@id/2131448243" ="wrap_content" ="wrap_content" android:text="@string/voptions_trade_place_order_total_cost" ="15.0dip" 2130969260="2131437732" 2130969263="@string/ok" 2130969274="@string/voptions_trade_place_order_total_cost" 2130969937="2131438103" 2130969941="@id/2131428930" 2130970840="true" 2130971382="@string/voptions_trade_place_order_total_cost_tips" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131441711" ="0.0dip" ="wrap_content" ="5.0dip" ="15.0dip" 2130969911="@id/2131428930" 2130969918="@id/2131432767" 2130969937="2131438103" 2130969940="@id/2131448243" style="@style/2132149371" />
+        <TextView ="#ffffffff" ="center" ="center" android:id="@id/2131428930" ="#ff2ebd85" ="0.0dip" ="40.0dip" android:text="@string/future_buy_optimized" ="false" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/2131432767" 2130969941="2131438103" style="@style/2132149371" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.finance.kit.framework.widget.lottie.KitLottieAnimationView ="center" android:id="@id/2131438256" ="25.0dip" ="25.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432822" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="@drawable/2131236600" ="2.0dip" ="2.0dip" ="2.0dip" ="2.0dip" ="gone" ="fill_parent" ="32.0dip" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184" ="2.0dip" ="2.0dip" 2130969940="@id/2131441601" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" ="8.0dip" 2130969912="@id/2131437807" 2130969940="@id/tabLayout" />
+    <include android:id="@id/2131437807" ="fill_parent" ="wrap_content" ="8.0dip" 2130969912="@id/2131428678" layout="@layout/2131626286" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131428678" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="16.0dip" ="@dimen/2131166184" 2130969911="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="8.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148637" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.edit.LongClickEditText android:id="@id/2131438851" ="0.0dip" ="48.0dip" 2130969128="true" 2130969580="12" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970134="10" 2130970739="0" 2130971325="0" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447893" ="wrap_content" ="wrap_content" android:text="*" 2130969918="@id/2131446254" 2130969937="2131438103" 2130969941="@id/2131446254" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446254" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_scaledorder_random_dialog_des" ="false" ="4.0dip" 2130969936="@id/2131447893" 2130969940="@id/2131438851" style="@style/2132149361" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="31.0dip" android:text="@string/confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446254" />
+</androidx.constraintlayout.widget.ConstraintLayout>

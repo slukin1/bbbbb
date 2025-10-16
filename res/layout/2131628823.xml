@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131236010" ="24.0dip" ="fill_parent" ="wrap_content" ="38.0dip" ="38.0dip" ="@color/2131102167" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/iv_logo" ="60.0dip" ="60.0dip" ="24.0dip" ="16.0dip" 2130971077="@drawable/2131238406" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/trade_common_pair_risk_warning" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131446058" ="24.0dip" ="8.0dip" ="24.0dip" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/trade_common_pair_risk_warning_content" ="4.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099789" ="center" android:id="@id/2131442568" ="@drawable/2131232839" ="fill_parent" ="40.0dip" ="24.0dip" ="24.0dip" android:text="@string/c2c_mob_send_first_button_understand" style="@style/2132149371" />
+    <TextView ="@color/2131099787" ="center" android:id="@id/2131446801" ="gone" ="fill_parent" ="40.0dip" ="24.0dip" ="5.0dip" ="24.0dip" android:text="@string/trade_common_risk_warning_learn_more" style="@style/2132149371" />
+</LinearLayout>

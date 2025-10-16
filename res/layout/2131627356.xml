@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/2131441601" 2130970808="true" 2130970809="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439490" ="gone" ="fill_parent" ="fill_parent">
+            <com.major.android.uikit2.notification.KitNotification android:id="@id/2131435852" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" 2130969843="0" 2130969941="2131438103" 2130970325="@drawable/2131237095" />
+            <include android:id="@id/2131430880" ="fill_parent" ="66.0dip" 2130969940="@id/2131435852" layout="@layout/2131627474" />
+            <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131427758" ="fill_parent" ="0.0dip" ="16.0dip" 2130969347="@string/no_records_found" 2130969912="@id/2131427668" 2130969940="@id/2131430880" />
+            <com.major.android.uikit2.button.KitButton android:id="@id/2131427668" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/ms_add_alert" ="15.0dip" ="15.0dip" 2130969911="2131438103" style="@style/2132148691" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440448" ="fill_parent" ="fill_parent" ="fitStart" 2130971077="@drawable/2131234946" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

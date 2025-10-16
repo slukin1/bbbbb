@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:longclick_edittext="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969941="2131438103" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131432290" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/events_trade_trade_time_increment" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439601" ="15.0dip" ="15.0dip" ="fill_parent" ="36.0dip" ="4.0dip" 2130969937="2131438103" 2130969940="@id/2131432290" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_amount_title" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/finance_input_amount" 2130969918="@id/tv_amount_title" 2130969927="1.0" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131439601" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131445697" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/avbl" 2130969937="2131438103" 2130969940="@id/2131435011" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131445415" ="gone" ="wrap_content" ="wrap_content" ="@drawable/2131237003" ="10.0dip" ="2.0dip" 2130969312="@color/2131099778" 2130969911="@id/2131445698" 2130969918="@id/2131445698" 2130969941="@id/2131445698" style="@style/2132149384" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131445698" ="wrap_content" ="wrap_content" ="1" ="2.0dip" ="4.0dip" ="15.0dip" ="2.0dip" 2130969312="@color/2131099787" 2130969911="@id/2131445697" 2130969917="2131438103" 2130969927="1.0" 2130969936="@id/2131445697" 2130969941="@id/2131445697" style="@style/2132149384" />
+    <com.finance.kit.framework.widget.edittext.KitLongClickEndEditText android:id="@id/2131435011" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_amount_title" 2130970739="3" 2130971511="0.001" />
+    <FrameLayout android:id="@id/2131435718" ="15.0dip" ="15.0dip" ="0.0dip" ="wrap_content" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

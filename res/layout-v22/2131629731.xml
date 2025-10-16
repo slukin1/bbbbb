@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.voptions.framework.widget.VOptionsLoadingImageView android:id="@id/2131433150" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970024="160" />
+    <TextView ="@color/2131099764" android:id="@id/2131448710" ="0.0dip" ="wrap_content" ="25.0dip" android:text="@string/voptions_welcome_content" 2130969917="@id/2131433150" 2130969937="@id/2131433150" 2130969940="@id/2131433150" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

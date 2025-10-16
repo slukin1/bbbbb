@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/title_bar" ="2.0dip" ="6.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/_name" ="1" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.35" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/tv_price" ="wrap_content" ="wrap_content" android:text="@string/last_price" ="2.0dip" 2130969846="0" 2130969847="2131430855" 2130969848="1" 2130969852="0" 2130969854="true" 2130969918="@id/2131429590" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" android:id="@id/2131429590" ="wrap_content" ="wrap_content" android:text="@string/slash" ="2.0dip" 2130969918="@id/2131445910" 2130969941="@id/2131445910" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/2131445910" ="0.0dip" ="wrap_content" android:text="@string/h24_chg" ="2.0dip" ="100.0dip" 2130969846="0" 2130969847="2131430855" 2130969848="1" 2130969852="0" 2130969854="true" 2130969917="@id/2131448566" 2130969941="2131438103" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/2131445874" ="wrap_content" ="wrap_content" android:text="@string/ms_cap" ="2.0dip" 2130969846="0" 2130969847="2131430855" 2130969848="1" 2130969852="0" 2130969854="true" 2130969918="@id/2131449754" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" android:id="@id/2131449754" ="wrap_content" ="wrap_content" android:text="@string/slash" ="2.0dip" 2130969918="@id/2131448566" 2130969941="2131438103" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitSortButton android:id="@id/2131448566" ="wrap_content" ="wrap_content" android:text="@string/market_detail_vol_quote_asset" ="9.0dip" 2130969846="0" 2130969847="2131430855" 2130969848="1" 2130969852="0" 2130969854="true" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="fill_parent" ="fill_parent" 2130971098="false" 2130971100="true">
+        <com.binance.base.widget.recyclerview.EmptyRecyclerWrapperView android:id="@id/2131431365" ="none" ="fill_parent" ="fill_parent" ="never" 2130969347="@string/no_data" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

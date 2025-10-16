@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446541" ="2.0dip" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+    <RelativeLayout android:id="@id/2131439457" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="5.0dip" ="ltr">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434534" ="40.0dip" ="fill_parent" ="1.0dip" ="1.0dip" ="centerInside" ="1.0dip" 2130971077="@drawable/2131237666" 2130971375="@color/2131099738" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" ="fill_parent" ="fill_parent" ="50.0dip" ="@id/2131427665" ="@id/2131434534">
+            <EditText ="16.0sp" ="@color/2131099764" ="@color/2131099762" android:id="@id/2131431504" ="@null" ="4.0dip" ="wrap_content" ="fill_parent" ="100.0dip" ="true" ="numberDecimal" ="actionDone" ="@font/2131296273" ="viewEnd" />
+            <TextView ="16.0sp" ="@color/2131099764" ="center" android:id="@id/2131441030" ="wrap_content" ="fill_parent" ="@font/2131296273" ="2.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <LinearLayout ="horizontal" android:id="@id/2131427665" ="wrap_content" ="fill_parent" ="true">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434533" ="40.0dip" ="fill_parent" ="1.0dip" ="1.0dip" ="centerInside" ="1.0dip" 2130971077="@drawable/2131237811" 2130971375="@color/2131099738" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView ="12.0sp" ="#fff23051" android:id="@id/2131446540" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296274" />
+</LinearLayout>

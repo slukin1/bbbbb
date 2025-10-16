@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <TextView ="15.0dip" android:text="@string/color_preference" style="@style/2132148553" />
+    <FrameLayout ="center_vertical" ="horizontal" android:id="@id/2131439345" ="@drawable/2131234718" ="fill_parent" ="54.0dip">
+        <TextView android:text="@string/style_setting" style="@style/2132148762" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131434196" ="wrap_content" ="fill_parent" ="centerInside" ="47.0dip" 2130971077="@drawable/2131234686" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" ="wrap_content" ="fill_parent" ="centerInside" ="8.0dip" ="15.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </FrameLayout>
+    <FrameLayout ="center_vertical" ="horizontal" android:id="@id/2131439282" ="fill_parent" ="54.0dip">
+        <TextView android:text="@string/usercenter_setting_price_change_color" style="@style/2132148762" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433770" ="20.0dip" ="20.0dip" ="centerCrop" ="47.0dip" 2130971077="@drawable/2131234681" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" ="wrap_content" ="fill_parent" ="centerInside" ="8.0dip" ="15.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099785" />
+    </FrameLayout>
+</LinearLayout>

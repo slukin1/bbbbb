@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440809" ="fill_parent" ="0.0dip" />
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <TextureView android:id="@id/liveness_layout_textureview" ="gone" ="fill_parent" ="fill_parent" />
+        <com.face.csg.lv5.sdk.view.CameraGLSurfaceView android:id="@id/liveness_layout_cameraView" ="gone" ="fill_parent" ="fill_parent" />
+        <ImageView android:id="@id/liveness_img_color_frame" ="@drawable/2131233477" ="invisible" ="wrap_content" ="wrap_content" ="true" />
+        <ImageView android:id="@id/liveness_img_color_line" ="@drawable/2131233478" ="invisible" ="wrap_content" ="wrap_content" ="true" />
+        <com.face.csg.lv5.sdk.view.RadarView android:id="@id/2131438816" ="gone" ="fill_parent" ="fill_parent" />
+        <com.face.csg.lv5.sdk.view.LoadingCoverView android:id="@id/liveness_layout_lcv" ="fill_parent" ="fill_parent" 2130970026="6.0dip" 2130970027="180.0dip" 2130970029="-50.0dip" 2130970030="3.0dip" 2130970606="6.0dip" 2130970607="@color/2131100894" 2130970678="5.0dip" />
+        <com.face.csg.lv5.sdk.view.HorizontalStepView android:id="@id/2131440653" ="gone" ="fill_parent" ="wrap_content" ="true" />
+        <TextView ="20.0sp" ="center" android:id="@id/2131446537" ="gone" ="320.0dip" ="wrap_content" ="1" ="true" />
+        <TextSwitcher ="20.0sp" ="center" android:id="@id/2131445518" ="invisible" ="320.0dip" ="wrap_content" ="1" ="true" />
+        <TextView ="14.0sp" ="center" android:id="@id/2131446137" ="gone" ="wrap_content" ="wrap_content" ="1" ="true" />
+        <TextView ="16.0sp" ="#ffffffff" ="end" ="center" android:id="@id/2131445517" ="@drawable/2131233462" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="gone" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" ="3" ="true" />
+        <ImageView android:id="@id/2131433324" ="gone" ="24.0dip" ="24.0dip" ="true" />
+        <TextView ="20.0sp" ="#ffffffff" ="center" android:id="@id/2131446531" ="12.0dip" ="12.0dip" ="gone" ="320.0dip" ="wrap_content" ="1" ="true" />
+        <ImageView android:id="@id/2131434374" ="gone" ="fill_parent" ="wrap_content" ="true" />
+        <TextView ="20.0sp" ="#ffffffff" ="center" android:id="@id/2131448553" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" ="1" ="@id/2131434374" ="true" />
+        <RelativeLayout ="fill_parent" ="@dimen/title_bar_height">
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436458" ="20.0dip" ="20.0dip" ="wrap_content" ="fill_parent" ="true" ="true" ="true" />
+        </RelativeLayout>
+        <TextView ="@dimen/tips_text_size" ="#ff666666" ="visible" ="wrap_content" ="wrap_content" ="160.0dip" ="true" ="true" />
+        <include ="fill_parent" ="@dimen/bottom_bar_height" ="true" layout="@layout/face_liveness_bar_bottom" />
+        <TextView ="15.0sp" ="bold" ="end" ="center" android:id="@id/2131446872" ="20.0dip" ="8.0dip" ="20.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="3" ="true" />
+        <RelativeLayout android:id="@id/2131436507" ="gone" ="fill_parent" ="39.0dip">
+            <ImageView android:id="@id/2131433313" ="@drawable/2131233461" ="16.0dip" ="16.0dip" ="12.0dip" ="8.0dip" ="true" />
+            <View android:id="@id/2131431685" ="@drawable/2131233455" ="1.0dip" ="fill_parent" ="@id/2131433313" />
+            <com.face.csg.lv5.sdk.view.HorizontalMarqueeView ="15.0sp" ="bold" ="center" android:id="@id/2131436973" ="fill_parent" ="39.0dip" ="@id/2131431685" />
+            <ImageView android:id="@id/2131433331" ="@drawable/2131233472" ="10.0dip" ="39.0dip" ="@id/2131431685" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/2131436510" ="16.0dip" ="wrap_content" ="wrap_content" ="true">
+            <ImageView android:id="@id/2131434651" ="19.0dip" ="19.0dip" ="centerCrop" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

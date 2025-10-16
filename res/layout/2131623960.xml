@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="58.0dip" style="@style/2132149076"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon1" ="invisible" ="32.0dip" ="48.0dip" ="centerInside" ="true" ="true" style="@style/2132149077" />
+    <ImageView android:id="@id/2131431300" ="?2130970780" ="gone" ="48.0dip" ="48.0dip" ="centerInside" ="true" ="true" style="@style/2132149079" />
+    <ImageView android:id="@android:id/icon2" ="gone" ="48.0dip" ="48.0dip" ="centerInside" ="true" ="true" ="true" style="@style/2132149078" />
+    <TextView ="?2130971296" ="top" android:id="@android:id/text2" ="4.0dip" ="gone" ="fill_parent" ="29.0dip" ="true" ="true" ="true" style="?android:dropDownItemStyle" />
+    <TextView ="?2130971297" android:id="@android:id/text1" ="fill_parent" ="wrap_content" ="true" ="@android:id/text2" ="true" style="?android:dropDownItemStyle" />
+</RelativeLayout>

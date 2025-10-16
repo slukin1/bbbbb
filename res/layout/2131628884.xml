@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131448884" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="@color/2131103094" ="fill_parent" ="wrap_content" ="?2130968589">
+        <TextView ="@color/2131103079" ="start" android:id="@id/toolbar_title" ="wrap_content" ="wrap_content" android:text="@string/ucrop_label_edit_photo" style="@style/2132149340" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/2131448883" ="fill_parent" ="wrap_content" ="-12.0dip" ="@id/2131430450" ="@id/2131441601">
+        <ImageView ="center" android:id="@id/2131433142" ="200.0dip" ="200.0dip" 2130971077="@drawable/2131236591" />
+        <com.moon.imagecropper.view.UCropView android:id="@id/2131448882" ="fill_parent" ="fill_parent" ="0.0" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/2131430450" ="gone" ="fill_parent" ="wrap_content" ="true" />
+</RelativeLayout>

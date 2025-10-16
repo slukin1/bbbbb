@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="5.0dip" android:text="@string/earn_simple_earn" ="15.0dip" style="@style/2132149416" />
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131439836" ="fill_parent" ="wrap_content" ="15.0dip" ="3.0dip" ="3.0dip" 2130968735="@color/2131103064" 2130968908="true" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130970759="@string/_search" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131435069" ="fill_parent" ="fill_parent" ="14.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971098="false" 2130971100="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439645" ="@color/2131099685" ="none" ="fill_parent" ="fill_parent" ="never" 2130969911="@id/2131439836" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</LinearLayout>

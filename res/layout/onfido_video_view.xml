@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="center" ="wrap_content" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/2131449339" ="@string/onfido_tag_main_content_title" ="0.0dip" ="fill_parent" />
+    <ImageButton android:id="@id/2131438457" ="#00000000" ="false" ="60.0dip" ="60.0dip" ="true" ="no" 2130971077="@drawable/onfido_video_view_play_background" />
+</merge>

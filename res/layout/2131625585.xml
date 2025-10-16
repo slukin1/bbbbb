@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/2131432196" ="fill_parent" ="wrap_content" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="30.0dip" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/earn_subscription_summary" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <LinearLayout ="vertical" android:id="@id/2131436312" ="@drawable/2131232454" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" 2130969940="@id/tvTitle">
+            <com.major.android.uikit2.steps.KitVerticalTitledTimelineBar android:id="@id/2131441450" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" 2130969873="@color/2131099764" />
+            <View ="@color/2131100461" ="fill_parent" ="1.0dip" ="12.0dip" ="16.0dip" ="12.0dip" />
+            <TextView ="@color/2131099764" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/earn_plan_details" style="@style/2132149450" />
+            <RelativeLayout ="horizontal" ="12.0dip" ="12.0dip" ="wrap_content" ="fill_parent" ="5.0dip">
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_target_price" ="true" style="@style/2132149350" />
+                <TextView ="@color/2131099764" android:id="@id/2131444911" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+            </RelativeLayout>
+            <RelativeLayout ="horizontal" ="12.0dip" ="12.0dip" ="wrap_content" ="fill_parent" ="5.0dip">
+                <TextView ="@color/2131099764" android:id="@id/2131442702" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+                <TextView ="@color/2131099851" android:id="@id/2131442701" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+            </RelativeLayout>
+            <RelativeLayout ="horizontal" ="12.0dip" ="12.0dip" ="wrap_content" ="fill_parent" ="5.0dip">
+                <com.binance.base.widget.TipsTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/earn_apr" ="4.0dip" ="true" 2130969274="@string/earn_apr" 2130971380="2131428553" 2130971382="@string/earn_dual_apr_deposit_tip" style="@style/2132149350" />
+                <TextView ="@color/2131099851" android:id="@id/tvApr" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+            </RelativeLayout>
+            <RelativeLayout ="horizontal" android:id="@id/2131439272" ="12.0dip" ="12.0dip" ="wrap_content" ="fill_parent" ="5.0dip">
+                <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/earn_auto_compound" ="true" style="@style/2132149350" />
+                <TextView ="@color/2131099764" android:id="@id/2131444079" ="wrap_content" ="wrap_content" ="true" style="@style/2132149350" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView ="@color/2131099764" android:id="@id/2131443879" ="wrap_content" ="wrap_content" ="15.0dip" ="32.0dip" ="15.0dip" android:text="@string/earn_terms_and_conditions" 2130969937="2131438103" 2130969940="@id/2131436312" style="@style/2132149450" />
+        <RelativeLayout android:id="@id/2131439410" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" 2130969940="@id/2131443879">
+            <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430243" ="wrap_content" ="wrap_content" ="4.0dip" />
+            <TextView ="@color/2131102397" android:id="@id/2131446326" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_agreement_term1" ="true" ="5.0dip" ="4.0dip" ="@id/2131430243" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/2131439411" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969940="@id/2131439410">
+            <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430244" ="wrap_content" ="wrap_content" ="4.0dip" />
+            <TextView ="@color/2131102397" android:id="@id/2131446327" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_agreement_term2" ="true" ="5.0dip" ="4.0dip" ="@id/2131430244" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/2131439412" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969940="@id/2131439411">
+            <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430245" ="wrap_content" ="wrap_content" ="4.0dip" />
+            <TextView ="@color/2131102397" android:id="@id/2131446328" ="wrap_content" ="wrap_content" android:text="@string/earn_dual_agreement_term3" ="true" ="5.0dip" ="4.0dip" ="@id/2131430245" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/2131439413" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969940="@id/2131439412">
+            <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430246" ="wrap_content" ="wrap_content" ="4.0dip" />
+            <TextView ="@color/2131102397" android:id="@id/2131446329" ="wrap_content" ="wrap_content" android:text="@string/earn_auto_compound_agreement_term_4" ="true" ="5.0dip" ="4.0dip" ="@id/2131430246" style="@style/2132149350" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/2131439414" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" 2130969940="@id/2131439413">
+            <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131430247" ="wrap_content" ="wrap_content" ="4.0dip" />
+            <TextView ="@color/2131102397" android:id="@id/2131446330" ="wrap_content" ="wrap_content" android:text="@string/earn_auto_compound_agreement_term_5_v2" ="true" ="5.0dip" ="4.0dip" ="@id/2131430247" style="@style/2132149350" />
+        </RelativeLayout>
+        <com.binance.earn.widgets.ServiceAgreementCard android:id="@id/2131439415" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/2131439414" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

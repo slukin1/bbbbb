@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131430930" ="@color/2131099675" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131432002" ="fill_parent" ="fill_parent" ="44.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433199" ="15.0dip" ="50.0dip" ="50.0dip" ="@null" ="true" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131435062" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@id/2131432002" ="@dimen/2131166184" 2130969837="10" 2130969843="1" />
+</RelativeLayout>

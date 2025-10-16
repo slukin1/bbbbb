@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444761" ="wrap_content" ="wrap_content" android:text="@string/earn_start_earning_in_3_steps" style="@style/2132149423" />
+    <com.binance.earn.widgets.timeline.v2.EarnTimeLineView android:id="@id/2131431240" ="fill_parent" ="wrap_content" ="24.0dip" />
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/earn_binance_cover_it_all" style="@style/2132149423" />
+    <TextView ="@color/2131099764" android:id="@id/2131428467" ="wrap_content" ="wrap_content" ="28.0dip" android:text="@string/earn_easy_to_get_started" ="6.0dip" 2130969312="@color/2131099764" style="@style/2132149346" />
+    <TextView ="@color/2131099764" android:id="@id/2131428468" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_secure_and_transparent" ="6.0dip" 2130969312="@color/2131099764" style="@style/2132149346" />
+    <TextView ="@color/2131099764" android:id="@id/2131428469" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_utilize_staked_eth" ="6.0dip" 2130969312="@color/2131099764" 2130969937="2131438103" style="@style/2132149346" />
+    <TextView ="@color/2131099764" android:id="@id/2131428470" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_flexible_exit_policy" ="6.0dip" 2130969312="@color/2131099764" 2130969937="2131438103" style="@style/2132149346" />
+</LinearLayout>

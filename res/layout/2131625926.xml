@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="0.0dip" ="wrap_content" ="15.0dip" 2130969912="@id/btn_confirm" 2130969917="2131438103" 2130969937="2131438103">
+        <include android:id="@id/2131429780" ="fill_parent" ="wrap_content" layout="@layout/2131625930" />
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" ="21.0dip" android:text="@string/confirm" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132148692" />
+</com.finance.kit.framework.widget.FuturesMaxHeightConstraintLayout>

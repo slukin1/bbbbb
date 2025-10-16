@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429676" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099712">
+        <TextView ="@color/2131099764" android:id="@id/2131443058" ="0.0dip" ="wrap_content" android:text="@string/earn_fixed_rate_loan_supply_content" ="8.0dip" 2130969918="@id/2131428773" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428773" ="wrap_content" ="wrap_content" android:text="@string/earn_explore" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148700" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429726" ="@drawable/2131235989" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="#1afcd535">
+        <TextView ="@color/2131099764" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" android:text="@string/earn_fixed_rate_loan_supply_content" ="8.0dip" 2130969918="@id/2131440967" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131440967" ="wrap_content" ="wrap_content" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="@id/tvTitle" />
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/inputExpectedInterestRate" ="fill_parent" ="wrap_content" ="8.0dip" 2130969815="false" 2130969817="0" 2130969820="@string/earn_expected_interest_rate_title" 2130969821="false" 2130969822="@color/2131099778" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+        <com.major.android.uikit2.input.KitInputSelector android:id="@id/inputDuration" ="fill_parent" ="wrap_content" ="8.0dip" 2130969817="0" 2130969820="@string/duration" 2130969821="false" 2130969822="@color/2131099778" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/inputExpectedInterestRate" />
+        <TextView ="@color/2131099778" android:id="@id/tvDesc" ="fill_parent" ="wrap_content" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/inputDuration" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432494" ="gone" ="wrap_content" ="wrap_content" 2130969125="inputExpectedInterestRate, inputDuration,tvDesc" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

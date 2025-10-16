@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation 2130971149="@id/2131432844" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment ="ScannerHelpFragment" ="io.uqudo.sdk.scanner.view.ScannerHelpFragment" android:id="@id/2131432844">
+        <argument ="document" 2130968681="io.uqudo.sdk.core.domain.model.Document" />
+        <action android:id="@id/2131427509" 2130969252="@id/2131438297" />
+        <action android:id="@id/2131427510" 2130969252="@id/2131438689" />
+    </fragment>
+    <fragment ="DialogFragment" ="io.uqudo.sdk.core.view.custom.CustomProgressDialog" android:id="@id/2131438689">
+        <action android:id="@id/2131427505" 2130969252="@id/2131438297" 2130970563="@id/2131438689" 2130970564="true" />
+        <action android:id="@id/2131427504" 2130969252="@id/2131432844" 2130970563="@id/2131438689" 2130970564="true" />
+    </fragment>
+    <fragment ="PermissionsFragment" ="io.uqudo.sdk.scanner.view.PermissionsFragment" android:id="@id/2131438297">
+        <action android:id="@id/2131427522" 2130969252="@id/2131429237" 2130970563="@id/2131438297" 2130970564="true" />
+    </fragment>
+    <fragment ="CameraFragment" ="io.uqudo.sdk.scanner.view.CameraFragment" android:id="@id/2131429237">
+        <argument ="document" 2130968681="io.uqudo.sdk.core.domain.model.Document" />
+        <argument ="error" 2130968681="java.lang.Throwable" 2130970331="true" />
+        <argument ="allowNonPhysicalDocuments" 2130968681="java.lang.Boolean" 2130970331="true" />
+        <argument ="disableTamperingRejection" 2130968681="java.lang.Boolean" 2130970331="true" />
+        <action android:id="@id/2131427499" 2130969252="@id/2131437992" />
+        <action android:id="@id/2131427500" 2130969252="@id/2131438297" 2130970563="@id/2131429237" 2130970564="true" />
+        <action android:id="@id/2131427498" 2130969252="@id/2131432844" 2130970563="@id/2131429237" 2130970564="true" />
+        <action android:id="@id/2131427501" 2130969252="@id/2131438689" 2130970563="@id/2131429237" 2130970564="true" />
+    </fragment>
+    <fragment ="OutputFragment" ="io.uqudo.sdk.scanner.view.OutputFragment" android:id="@id/2131437992">
+        <argument ="scan" 2130968681="io.uqudo.sdk.scanner.domain.model.Scan" />
+        <action android:id="@id/2131427520" 2130969252="@id/2131429237" 2130969891="true" 2130970563="@id/2131437992" 2130970564="true" />
+        <action android:id="@id/2131427521" 2130969252="@id/2131449108" 2130969891="true" 2130970563="@id/2131437992" 2130970564="true" />
+    </fragment>
+    <fragment ="UploadFragment" ="io.uqudo.sdk.scanner.view.UploadFragment" android:id="@id/2131449108">
+        <argument ="document" 2130968681="io.uqudo.sdk.core.domain.model.Document" />
+        <argument ="error" 2130968681="java.lang.Throwable" 2130970331="true" />
+        <action android:id="@id/2131427525" 2130969252="@id/2131437992" />
+    </fragment>
+</navigation>

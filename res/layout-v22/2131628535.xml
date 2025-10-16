@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131440467" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439596" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="true" ="15.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/spot_trade_funds_empty" ="10.0dip" ="@dimen/2131166200" 2130969314="@drawable/2131233601" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439417" style="@style/2132149384" />
+</FrameLayout>

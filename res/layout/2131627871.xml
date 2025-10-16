@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="@drawable/2131236038" ="20.0dip" ="20.0dip" ="fill_parent" ="108.0dip" ="@color/2131099800">
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <FrameLayout ="@drawable/2131235398" ="wrap_content" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView ="bottom|center" android:id="@id/2131434859" ="27.0dip" ="27.0dip" ="15.5dip" 2130971077="@drawable/2131235401" />
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="USDT" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatImageView ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237045" 2130971375="@color/2131099785" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <FrameLayout ="@drawable/2131235399" ="wrap_content" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131434891" ="28.0dip" ="28.0dip" ="5.5dip" ="15.5dip" ="5.5dip" 2130971077="@drawable/2131235401" />
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/ms_feature_convert" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/ocbs_lite_trade_convert_guide_description" 2130969999="@dimen/2131166200" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429010" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/ms_feature_convert" ="20.0dip" style="@style/2132148692" />
+</androidx.appcompat.widget.LinearLayoutCompat>

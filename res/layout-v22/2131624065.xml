@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="20.0dip" ="20.0dip" ="12.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/c2c_calendar_actionsheet_price_alerts" ="@font/2131296275" 2130969911="@id/2131434355" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131434355" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441079" ="@drawable/2131236600" ="2.0dip" ="2.0dip" ="2.0dip" ="2.0dip" ="fill_parent" ="32.0dip" ="15.0dip" ="20.0dip" ="15.0dip" ="@color/2131099745" ="@dimen/2131166184" ="2.0dip" ="2.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434355" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131440884" ="0.0dip" ="0.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441079" />
+</androidx.constraintlayout.widget.ConstraintLayout>

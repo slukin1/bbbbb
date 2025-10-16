@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="vertical" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" ="center_horizontal" android:id="@id/tvTitle" ="visible" ="wrap_content" ="wrap_content" ="48.0dip" ="48.0dip" android:text="@string/no_records_found" ="8.0dip" 2130969314="@drawable/2131233810" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/tvDesc" ="wrap_content" ="wrap_content" ="48.0dip" ="12.0dip" ="48.0dip" style="@style/2132149355" />
+</merge>

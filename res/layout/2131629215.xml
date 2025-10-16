@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131435043" ="fill_parent" ="wrap_content" android:hint="@string/c2c_share_inventory_enter_target_quanlity" ="numberDecimal" 2130969815="false" 2130969817="1" 2130969818="false" 2130969820="@string/c2c_share_inventory_target_quantity" 2130969821="true" 2130969941="2131438103" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436457" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" 2130969940="@id/2131435043">
+        <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p2_label_available" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131447750" ="wrap_content" ="wrap_content" ="ltr" ="4.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434306" ="16.0dip" ="16.0dip" ="8.0dip" 2130971077="@drawable/2131237088" 2130971375="@color/2131099764" />
+    </LinearLayout>
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131435042" ="0.0dip" ="wrap_content" ="24.0dip" android:hint="@string/c2c_mob_ad_post_p2_placeholder_minlimit" ="numberDecimal" ="3.0dip" 2130969815="false" 2130969817="1" 2130969820="@string/c2c_mob_ad_post_p2_label_orderlimit" 2130969821="true" 2130969918="@id/2131447772" 2130969937="2131438103" 2130969940="@id/2131436457" 2130969962="@dimen/2131166209" 2130970862="true" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131447772" ="9.0dip" ="wrap_content" android:text="~" 2130969911="@id/2131435042" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131435042" />
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131435041" ="0.0dip" ="wrap_content" ="numberDecimal" ="3.0dip" 2130969655="@string/c2c_mob_ad_post_p2_placeholder_maxlimit" 2130969815="false" 2130969817="1" 2130969911="@id/2131435042" 2130969917="2131438103" 2130969936="@id/2131447772" 2130969962="@dimen/2131166153" />
+</merge>

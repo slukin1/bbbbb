@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444860" ="fill_parent" ="66.0dip" android:text="@string/trade_tpsl_advanced_settings_title" style="@style/2132149425" />
+    <include android:id="@id/2131430026" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131628506" />
+    <include android:id="@id/2131430027" ="fill_parent" ="wrap_content" ="8.0dip" layout="@layout/2131628506" />
+</LinearLayout>

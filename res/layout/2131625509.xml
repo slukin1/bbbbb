@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="44.0dip" 2130969136="10.0dip" 2130969138="10.0dip" 2130969139="10.0dip" 2130969140="10.0dip" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441630" ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="?2130968587" ="5.0dip" ="visible" ="30.0dip" ="30.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131441634" ="gone" ="wrap_content" ="wrap_content" ="true" 2130969912="@id/2131441635" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131441635" ="gone" ="wrap_content" ="wrap_content" ="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441634" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441615" ="gone" ="20.0dip" ="20.0dip" 2130969911="@id/2131441634" 2130969936="@id/2131441634" 2130969941="@id/2131441634" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@dimen/2131165974" ="@color/2131100260" ="center" android:id="@id/toolbar_right_text_view" ="gone" ="wrap_content" ="fill_parent" ="10.0dip" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/toolbar_right_icon" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" ="5.0dip" 2130969911="2131438103" 2130969918="@id/toolbar_right_text_view" 2130969941="2131438103" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/toolbar_second_right_icon" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" ="5.0dip" 2130969911="2131438103" 2130969918="@id/toolbar_right_icon" 2130969941="2131438103" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131441627" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969918="@id/toolbar_second_right_icon" 2130969941="2131438103" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

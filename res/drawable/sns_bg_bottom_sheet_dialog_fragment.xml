@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape ="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners ="@dimen/sns_bottom_sheet_corner_radius" ="@dimen/sns_bottom_sheet_corner_radius" />
+    <padding ="@dimen/sns_bottom_sheet_top_padding" />
+    <solid ="?2130969104" />
+</shape>

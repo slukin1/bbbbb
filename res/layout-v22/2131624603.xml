@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="0.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="@dimen/2131166184" ="@dimen/2131166184" ="fill_parent" ="wrap_content" ="20.0dip" ="@dimen/2131166034">
+        <androidx.cardview.widget.CardView ="0.0dip" ="0.0dip" 2130968911="#14707a8a" 2130968912="@null" 2130968914="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="12.0dip" ="12.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430102" ="?2130970781" ="5.0dip" ="true" ="true" ="26.0dip" ="26.0dip" ="12.0dip" ="12.0dip" ="@string/close" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="@dimen/2131166011" ="@dimen/2131166269" ="@dimen/2131166153" />
+</LinearLayout>

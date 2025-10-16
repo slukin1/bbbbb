@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="fill_parent" ="22.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.BottomDashLineTextView ="@color/2131099764" ="vertical" android:id="@id/2131432369" ="wrap_content" ="fill_parent" android:text="@string/wallet_funds_today_pnl" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099725" android:id="@id/2131432365" ="wrap_content" ="fill_parent" ="ltr" ="5.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099725" android:id="@id/2131432368" ="wrap_content" ="fill_parent" ="ltr" 2130969911="2131438103" 2130969936="@id/2131432365" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432366" ="16.0dip" ="fill_parent" ="5.0dip" 2130969911="2131438103" 2130969936="@id/2131432368" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131433698" ="?2130968587" ="5.0dip" ="visible" ="30.0dip" ="30.0dip" ="6.0dip" ="centerInside" ="@null" ="10.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441099" ="@drawable/2131236699" ="2.0dip" ="164.0dip" ="32.0dip" 2130969911="@id/2131433698" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131433698" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433824" ="5.0dip" ="gone" ="30.0dip" ="30.0dip" ="10.0dip" 2130969911="@id/2131433698" 2130969917="2131438103" 2130969941="@id/2131433698" 2130971077="@drawable/2131237309" 2130971375="@color/2131099764" />
+    <FrameLayout android:id="@id/2131432172" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131433698" />
+</androidx.constraintlayout.widget.ConstraintLayout>

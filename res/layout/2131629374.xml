@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="2131438103" 2130969941="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView ="end" android:id="@id/2131430217" ="wrap_content" ="wrap_content" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428930" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" ="26.0dip" android:text="@string/c2c_chat_card_spot_btn_trade" style="@style/2132148701" />
+</LinearLayout>

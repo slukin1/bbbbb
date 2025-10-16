@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="top" ="horizontal" android:id="@id/2131439452" ="12.0dip" ="visible" ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131441783" ="128.0dip" ="wrap_content" android:text="@string/c2c_mob_filter_payment_method" ="2" ="@font/2131296274" />
+        <LinearLayout ="end" ="end" ="horizontal" ="0.0dip" ="fill_parent" ="1.0" ="0.0dip" ="0.0dip" ="2.0dip" />
+        <TextView ="12.0sp" ="@color/2131099778" ="center" android:id="@id/2131447048" ="@drawable/2131232697" ="gone" ="wrap_content" ="fill_parent" ="2.0dip" ="@font/2131296274" />
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131434792" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131439110" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="12.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131439111" ="wrap_content" ="wrap_content" ="128.0dip" android:text="@string/c2c_buyer_ref_msg" ="@font/2131296266" 2130969937="2131438103" 2130969941="2131438103" />
+            <View ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/2131439111" 2130969937="@id/2131439111" 2130969940="@id/2131439111" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.legacy.widget.Space ="0.0dip" ="1.0px" ="1.0" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131439109" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+        <androidx.appcompat.widget.AppCompatImageView ="center|top" android:id="@id/2131434783" ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131237146" ="6.0dip" 2130971375="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438226" ="fill_parent" ="wrap_content" ="8.0dip" />
+    <FrameLayout ="vertical" android:id="@id/2131441795" ="fill_parent" ="wrap_content" />
+    <TextView ="12.0sp" ="#fff0b90b" ="center" android:id="@id/2131437978" ="gone" ="fill_parent" ="wrap_content" ="-12.0dip" ="8.0dip" android:text="@string/c2c_order_detail_view_all" ="@font/2131296274" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131437437" ="gone" ="fill_parent" ="wrap_content" ="8.0dip">
+        <TextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131435198" ="128.0dip" ="wrap_content" android:text="@string/c2c_gift_card_full_name" ="@font/2131296266" />
+        <androidx.legacy.widget.Space ="0.0dip" ="1.0px" ="1.0" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437439" ="wrap_content" ="wrap_content" ="6.0dip" ="@font/2131296274" 2130969306="@drawable/2131237146" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131437964" ="gone" ="fill_parent" ="wrap_content" ="8.0dip">
+        <TextView ="14.0sp" ="@color/2131099778" ="center_vertical" android:id="@id/2131437959" ="128.0dip" ="wrap_content" android:text="@string/c2c_mob_buyorder_number" ="@font/2131296266" />
+        <androidx.legacy.widget.Space ="0.0dip" ="1.0px" ="1.0" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131437913" ="wrap_content" ="wrap_content" ="6.0dip" ="@font/2131296274" 2130969306="@drawable/2131237146" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131429193" ="fill_parent" ="wrap_content">
+        <LinearLayout ="horizontal" android:id="@id/2131429199" ="gone" ="fill_parent" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435229" ="128.0dip" ="wrap_content" android:text="@string/c2c_buyer_name" ="@font/2131296274" />
+            <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131429198" ="fill_parent" ="wrap_content" ="@font/2131296274" ="8.0dip" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" android:id="@id/2131441789" ="gone" ="fill_parent" ="wrap_content" ="8.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content">
+                <TextView ="14.0sp" ="@color/2131099778" ="end" android:id="@id/2131441790" ="wrap_content" ="wrap_content" ="128.0dip" ="50.0dip" android:text="@string/c2c_buyer_ref_msg" ="1" ="4.0dip" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+                <View ="@drawable/2131233287" ="0.0dip" ="1.0dip" 2130969917="@id/2131441790" 2130969937="@id/2131441790" 2130969940="@id/2131441790" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131441788" ="0.0dip" ="wrap_content" ="1.0" ="@font/2131296274" ="8.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView ="center|top" android:id="@id/2131434929" ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131237146" ="6.0dip" 2130971375="@color/2131099738" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.binance.c2c.api.common.UnderlineTextView ="12.0sp" ="@color/2131099778" android:id="@id/2131442455" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_share_payment_card_desc" ="@font/2131296281" 2130969917="@id/2131440066" 2130969937="@id/2131440066" 2130969940="@id/2131440066" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428825" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="10.0dip" android:text="@string/c2c_chat_share_payment_mark_paid" style="@style/2132148693" />
+</LinearLayout>

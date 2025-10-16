@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar ="top" android:id="@id/2131441601" ="fill_parent" ="wrap_content" 2130969136="0.0dip" 2130969138="0.0dip" 2130969139="0.0dip" 2130969140="0.0dip" 2130969331="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="start|center|top" android:id="@id/2131441619" ="?2130968587" ="visible" ="wrap_content" ="@dimen/2131165972" ="centerInside" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131236863" />
+    <include android:id="@id/2131431121" layout="@layout/2131629262" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131444852" ="@drawable/2131235997" ="4.0dip" ="2.0dip" ="4.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/earn_switch_coin" ="14.0dip" ="@dimen/2131166247" ="@dimen/2131166199" style="@style/2132149397" />
+</androidx.appcompat.widget.Toolbar>

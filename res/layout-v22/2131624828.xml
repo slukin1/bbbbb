@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.kit.framework.widget.KitMaxHeightLinearLayout ="vertical" android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" 2130970192="0" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="14.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/ct_futures_filter_advanced_filters" ="@dimen/2131166179" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439818" ="fill_parent" ="0.0dip" ="1.0" 2130969912="@id/btn_reset" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430703" ="fill_parent" ="wrap_content" 2130968907="false" 2130970281="false" 2130971059="3" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430702" ="fill_parent" ="wrap_content" ="24.0dip" 2130970281="false" 2130971059="2" />
+            <com.finance.kit.framework.widget.filter.slider.FinanceKitDoubleEditSlideView android:id="@id/2131431298" ="fill_parent" ="wrap_content" ="24.0dip" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430699" ="fill_parent" ="wrap_content" ="24.0dip" 2130970281="false" 2130971059="2" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430695" ="fill_parent" ="wrap_content" ="24.0dip" 2130970281="false" 2130971059="2" />
+            <com.finance.kit.framework.widget.filter.slider.FinanceKitDoubleEditSlideView android:id="@id/2131431290" ="fill_parent" ="wrap_content" ="24.0dip" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430693" ="fill_parent" ="wrap_content" ="24.0dip" 2130970281="false" 2130971059="2" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430690" ="fill_parent" ="wrap_content" ="24.0dip" 2130970281="false" 2130971059="2" />
+            <com.finance.kit.framework.widget.filter.choice.FinanceKitChoiceView android:id="@id/2131430696" ="fill_parent" ="wrap_content" ="24.0dip" 2130970281="false" 2130971059="2" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448133" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_api" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435169" ="wrap_content" ="wrap_content" 2130969911="@id/2131448133" 2130969917="2131438103" 2130969941="@id/2131448133" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429829" ="fill_parent" ="wrap_content" ="16.0dip">
+                <com.binance.base.widget.TipsTextView ="@color/2131099764" android:id="@id/2131448141" ="wrap_content" ="wrap_content" android:text="@string/ct_futures_filter_copy_ready_portfolios" 2130969937="2131438103" 2130969941="2131438103" 2130971380="1" 2130971382="@string/ct_futures_filter_copy_ready_portfolios_desc" style="@style/2132149450" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435170" ="wrap_content" ="wrap_content" 2130969911="@id/2131448141" 2130969917="2131438103" 2130969941="@id/2131448141" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448150" ="wrap_content" ="wrap_content" android:text="@string/ct_futures_filter_hide_full_portfolios" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435174" ="wrap_content" ="wrap_content" 2130969911="@id/2131448150" 2130969917="2131438103" 2130969941="@id/2131448150" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448151" ="wrap_content" ="wrap_content" android:text="@string/ct_futures_filter_hide_lock_up_period_portfolios" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435175" ="wrap_content" ="wrap_content" 2130969911="@id/2131448151" 2130969917="2131438103" 2130969941="@id/2131448151" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <Space ="wrap_content" ="24.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448151" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_reset" ="fill_parent" ="wrap_content" android:text="@string/reset" ="1.0" 2130969911="2131438103" 2130969918="@id/btn_confirm" 2130969937="2131438103" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" android:text="@string/confirm" ="1.0" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/btn_reset" style="@style/2132148692" />
+    </LinearLayout>
+</com.finance.kit.framework.widget.KitMaxHeightLinearLayout>

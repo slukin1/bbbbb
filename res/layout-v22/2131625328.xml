@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="14.0dip" ="14.0dip" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/earn_total_value_staked_history" ="@dimen/2131166184" ="@dimen/2131166179" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="12.0sp" android:id="@id/2131445030" ="wrap_content" ="wrap_content" ="10.0dip" 2130969937="@id/tvTitle" 2130969940="@id/tvTitle" />
+    <TextView ="@color/2131099764" android:id="@id/tvApr" ="wrap_content" ="wrap_content" 2130969937="@id/2131445030" 2130969940="@id/2131445030" style="@style/2132149419" />
+    <TextView ="12.0sp" android:id="@id/2131442691" ="wrap_content" ="wrap_content" 2130969937="@id/tvTitle" 2130969940="@id/tvApr" />
+    <TextView ="@color/2131102954" android:id="@id/2131441961" ="@drawable/2131232775" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_last_7_days" ="15.0dip" ="@dimen/2131166286" ="@dimen/2131166225" 2130969937="2131438103" 2130969940="@id/2131442691" style="@style/2132149454" />
+    <TextView ="@color/2131102954" android:id="@id/2131441953" ="@drawable/2131232775" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/last_30_days" ="8.0dip" ="@dimen/2131166286" ="@dimen/2131166225" 2130969936="@id/2131441961" 2130969940="@id/2131442691" style="@style/2132149454" />
+    <TextView ="@color/2131102954" android:id="@id/2131441962" ="@drawable/2131232775" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_last_90_days" ="8.0dip" ="@dimen/2131166286" ="@dimen/2131166225" 2130969936="@id/2131441953" 2130969940="@id/2131442691" style="@style/2132149454" />
+    <com.binance.base.widget.LineChartPnlView android:id="@id/2131435872" ="fill_parent" ="218.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/2131441961" />
+    <TextView ="@color/2131099778" android:id="@id/2131442165" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/earn_total_value_stake_desc" ="4.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435872" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

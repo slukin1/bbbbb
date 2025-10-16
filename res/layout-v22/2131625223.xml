@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236024" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439559" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969941="2131438103" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/contentDivider" ="@color/2131099751" ="0.0dip" ="0.5dip" ="24.0dip" 2130968943="true" 2130969292="@null" 2130969917="@id/2131439559" 2130969937="@id/2131439559" 2130969940="@id/2131439559" />
+    <TextView ="@color/2131099764" ="start" android:id="@id/2131443071" ="0.0dip" ="wrap_content" ="24.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/contentDivider" 2130969962="@dimen/2131166170" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428837" ="fill_parent" ="48.0dip" ="20.0dip" android:text="@string/earn_tip_ok" ="15.0dip" ="15.0dip" 2130969915="@dimen/2131166247" 2130969940="@id/2131443071" />
+    <androidx.constraintlayout.widget.Placeholder ="fill_parent" ="16.0dip" 2130969940="@id/2131428837" />
+</androidx.constraintlayout.widget.ConstraintLayout>

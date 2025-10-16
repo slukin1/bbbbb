@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="0.0dip" ="true" ="1.0" style="@style/2132148929">
+        <LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="16.0dip" ="16.0dip">
+            <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.OnfidoAnimWebView ="center_horizontal" android:id="@id/2131427898" ="fill_parent" ="160.0dip" ="@dimen/2131167509" ="32.0dip" />
+            <TextView android:id="@id/2131437143" ="fill_parent" ="wrap_content" ="8.0dip" android:text="@string/onfido_avc_intro_title" ="@string/onfido_avc_intro_title_accessibility" style="@style/2132148962" />
+            <TextView android:id="@id/2131437142" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/onfido_avc_intro_subtitle" style="@style/2132148955" />
+            <TextView android:id="@id/2131437140" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/onfido_avc_intro_list_item_one" ="@string/onfido_avc_intro_list_item_one_accessibility" style="@style/2132148939" />
+            <TextView android:id="@id/2131437141" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/onfido_avc_intro_list_item_two" ="@string/onfido_avc_intro_list_item_two_accessibility" style="@style/2132148939" />
+            <View ="fill_parent" ="0.0dip" ="16.0dip" ="1.0" />
+            <TextView android:id="@id/2131433538" ="fill_parent" ="wrap_content" ="8.0dip" ="16.0dip" android:text="@string/onfido_avc_intro_disclaimer" ="12.0dip" 2130969311="@drawable/onfido_ic_info_disclaimer" style="@style/2132148934" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131437136" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="8.0dip" ="@dimen/2131167223" 2130970348="@string/onfido_avc_intro_button_primary_ready" />
+    <include layout="@layout/onfido_watermark_layout" />
+</LinearLayout>

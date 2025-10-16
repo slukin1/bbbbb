@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="220.0dip" ="140.0dip" ="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="#ffffffff" ="wrap_content" ="wrap_content" ="true">
+        <com.geetest.sdk.views.GT3View android:id="@id/gt3_success_iv" ="#ffffffff" ="wrap_content" ="26.0dip" ="true" />
+        <TextView ="14.0sp" ="#ff18a452" android:id="@id/gt3_success_tv1" ="#ffffffff" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/gt3_geetest_pass" ="@id/gt3_success_iv" ="true" />
+    </RelativeLayout>
+    <View android:id="@id/gt3_success_view2" ="#ffefefef" ="invisible" ="fill_parent" ="1.0dip" ="@id/gt3_success_lll" />
+    <RelativeLayout ="center_horizontal" android:id="@id/gt3_success_lll" ="@android:color/transparent" ="invisible" ="fill_parent" ="26.0dip" ="true">
+        <TextView ="10.0sp" ="#ffcacaca" android:id="@id/gt3_success_tvvv" ="@android:color/transparent" ="wrap_content" ="wrap_content" android:text="@string/gt3_geetest_support" ="@drawable/gt3logo" ="4.0dip" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

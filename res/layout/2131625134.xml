@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236025" ="15.0dip" ="10.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit.input.KitMultiLineInputText android:id="@id/2131437409" ="fill_parent" ="wrap_content" ="12.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130970274="@color/2131099778" 2130970278="1000" 2130970280="280" 2130970282="false" 2130970283="true" 2130970284="false" 2130970285="false" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437409">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428716" ="0.0dip" ="wrap_content" android:text="@string/dialog_adjust_leverage_action_cancel" ="1.0" 2130969940="@id/2131437409" style="@style/2132148697" />
+        <androidx.legacy.widget.Space ="12.0dip" ="1.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" android:text="@string/save" ="1.0" 2130969940="@id/2131437409" style="@style/2132148692" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

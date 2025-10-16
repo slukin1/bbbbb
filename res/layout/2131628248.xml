@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235271" ="8.0dip" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131436247" ="?android:selectableItemBackground" ="12.0dip" ="true" ="true" ="fill_parent" ="wrap_content" ="120.0dip">
+        <ImageView ="center_vertical" ="20.0dip" ="20.0dip" ="@drawable/2131238208" ="12.0dip" />
+        <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/jarvis_history_title" ="1.0" style="@style/2132149446" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436356" ="?android:selectableItemBackground" ="12.0dip" ="true" ="true" ="fill_parent" ="wrap_content" ="4.0dip">
+        <ImageView ="center_vertical" ="20.0dip" ="20.0dip" ="@drawable/2131238024" ="12.0dip" />
+        <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/jarvis_setting_title" ="1.0" style="@style/2132149446" />
+    </LinearLayout>
+</LinearLayout>

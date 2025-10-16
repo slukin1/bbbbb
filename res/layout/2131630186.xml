@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131442244" ="wrap_content" ="wrap_content" android:text="@string/universal_balance_select_wallet_total_available" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442246" ="wrap_content" ="wrap_content" ="4.0dip" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442244" style="@style/2132149419" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429788" ="@drawable/2131236038" ="20.0dip" ="20.0dip" ="true" ="gone" ="true" ="fill_parent" ="82.0dip" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131442246">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429362" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131445399" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/2131429362" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="start|center" android:id="@id/2131445398" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/2131429362" 2130969940="@id/2131445399" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429789" ="@drawable/2131236038" ="20.0dip" ="20.0dip" ="true" ="gone" ="true" ="fill_parent" ="82.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131429788">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429363" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131445401" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/2131429363" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="start|center" android:id="@id/2131445400" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/2131429363" 2130969940="@id/2131445401" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429790" ="@drawable/2131236038" ="20.0dip" ="20.0dip" ="true" ="gone" ="true" ="fill_parent" ="82.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131429789">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429364" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="start|center" android:id="@id/2131445403" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/2131429364" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" ="start|center" android:id="@id/2131445402" ="wrap_content" ="wrap_content" ="10.0dip" 2130969936="@id/2131429364" 2130969940="@id/2131445403" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="top" ="horizontal" android:id="@id/2131436417" ="fill_parent" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131429790">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="*" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/universal_balance_select_wallet_desc" ="4.0dip" style="@style/2132149384" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131443424" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131436417">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center_vertical" ="0.0dip" ="wrap_content" android:text="@string/universal_balance_select_wallet_c360_deposit_tip" ="1.0" style="@style/2132149454" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@drawable/2131237055" ="@color/2131099787" 2130969312="@color/2131099787" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="16.0dip" ="16.0dip" ="1.0" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443424" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235987" ="300.0dip" ="fill_parent" ="fill_parent" ="@color/2131099800" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449428" ="fill_parent" ="fill_parent" 2130969911="2131438103">
+        <FrameLayout ="63.0dip" ="63.0dip" ="51.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <ImageView ="@drawable/2131234487" ="63.0dip" ="63.0dip" />
+            <com.airbnb.lottie.LottieAnimationView ="center" android:id="@id/2131436706" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+        </FrameLayout>
+        <TextView ="12.0sp" ="@color/2131099778" ="center" android:id="@id/2131443576" ="225.0dip" ="wrap_content" ="128.0dip" android:text="@string/c2c_mob_africa_payment_loading_payment_detials" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449429" ="fill_parent" ="fill_parent" 2130969911="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099787" android:id="@id/2131444373" ="wrap_content" ="wrap_content" ="77.0dip" android:text="@string/c2c_mob_exads_refresh" ="@font/2131296274" 2130969311="@drawable/2131237910" 2130969312="@color/2131099787" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="12.0sp" ="@color/2131099778" ="center" ="225.0dip" ="wrap_content" ="110.0dip" android:text="@string/c2c_mob_africa_payment_load_failed_and_refresh" ="@font/2131296274" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

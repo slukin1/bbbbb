@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.FitWindowsFrameLayout android:id="@id/2131427491" ="true" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131623956" />
+    <androidx.appcompat.widget.ViewStubCompat android:id="@id/2131427517" ="@layout/2131623940" ="@id/2131427516" ="fill_parent" ="wrap_content" />
+</androidx.appcompat.widget.FitWindowsFrameLayout>

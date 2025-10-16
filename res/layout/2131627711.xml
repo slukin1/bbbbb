@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430273" ="@drawable/2131232628" ="15.0dip" ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437300" ="160.0dip" ="160.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234373" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437301" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/mpc_wallet_import_reminders" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437300" style="@style/2132149423" />
+    <LinearLayout ="horizontal" android:id="@id/2131436454" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437301">
+        <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237218" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445769" ="visible" ="fill_parent" ="wrap_content" android:text="@string/web3_wallet_view_reminders_1" style="@style/2132149346" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436455" ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436454">
+        <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237218" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445770" ="visible" ="fill_parent" ="wrap_content" android:text="@string/web3_wallet_view_reminders_2" style="@style/2132149346" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/2131436456" ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131436455">
+        <ImageView ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237218" />
+        <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131445771" ="visible" ="fill_parent" ="wrap_content" android:text="@string/web3_wallet_view_reminders_3" style="@style/2132149346" />
+    </LinearLayout>
+    <com.mpc.wallet.widget.uikit.KitButton ="false" android:id="@id/2131437297" ="fill_parent" ="48.0dip" ="10.0dip" 2130969173="8.0" 2130969912="@id/2131437279" 2130969917="2131438103" 2130969937="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131437279" ="@drawable/2131235109" ="fill_parent" ="48.0dip" android:text="@string/mpc_wallet_backup_escape_cancel" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

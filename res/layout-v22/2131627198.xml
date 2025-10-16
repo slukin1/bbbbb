@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131432180" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131431879" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" />
+    <com.binance.trade.sdk.orderbook.layout.MarginOrderBookLayout android:id="@id/2131437889" ="fill_parent" ="wrap_content" ="4.0dip" 2130968777="Margin" 2130971563="15" />
+</LinearLayout>

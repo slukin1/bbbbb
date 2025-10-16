@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/title" ="fill_parent" ="44.0dip" android:text="@string/alpha_transferIn_history_title" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/backButton" ="15.0dip" ="15.0dip" ="50.0dip" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131441848" ="fill_parent" ="wrap_content" ="20.0dip" 2130969940="@id/title" style="@style/2132149416" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441866" ="20.0dip" ="20.0dip" ="@drawable/2131238208" ="4.0dip" 2130969911="@id/2131441865" 2130969918="@id/2131441865" 2130969941="@id/2131441865" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131441865" ="wrap_content" ="wrap_content" ="12.0dip" 2130969917="2131438103" 2130969927="0.56" 2130969937="2131438103" 2130969940="@id/2131441848" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441867" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="4.0dip" ="15.0dip" 2130969940="@id/2131441865" />
+    <View android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="1.0dip" ="32.0dip" 2130969940="@id/2131441867" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131437486" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/ms_network" ="16.0dip" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131437487" ="@drawable/2131236004" ="5.0dip" ="5.0dip" ="wrap_content" ="20.0dip" ="16.0dip" ="#1af0b90b" 2130969911="@id/2131437486" 2130969917="2131438103" 2130969941="@id/2131437486" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131427389" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/txid" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131437486" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448682" ="186.0dip" ="wrap_content" ="4.0dip" 2130969918="@id/2131448683" 2130969941="@id/2131427389" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131448683" ="16.0dip" ="16.0dip" ="16.0dip" 2130969911="@id/2131427389" 2130969917="2131438103" 2130969941="@id/2131427389" 2130971077="@drawable/2131237146" 2130971375="@color/2131099778" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131449975" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/_wallets" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131448682" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131450001" ="wrap_content" ="20.0dip" ="16.0dip" 2130969911="@id/2131449975" 2130969917="2131438103" 2130969941="@id/2131449975" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430779" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/date" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131449975" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131430781" ="wrap_content" ="20.0dip" ="16.0dip" 2130969911="@id/2131430779" 2130969917="2131438103" 2130969941="@id/2131430779" style="@style/2132149355" />
+</androidx.constraintlayout.widget.ConstraintLayout>

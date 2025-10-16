@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/2131431283" ="fill_parent" style="@style/2132149713" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end|center" android:id="@id/2131443798" ="gone" ="6.0dip" ="40.0dip" android:text="-" ="12.0dip" style="@style/2132149450" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="end" ="horizontal" android:id="@id/2131439238" ="wrap_content" ="40.0dip" ="12.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="center_vertical" android:id="@id/2131433933" ="2.0dip" ="gone" ="20.0dip" ="20.0dip" ="centerCrop" ="12.0dip" 2130971077="@drawable/2131238454" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" ="center" android:id="@id/2131442930" ="wrap_content" ="40.0dip" style="@style/2132149450" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/2131442949" ="gone" ="wrap_content" ="wrap_content" ="41.0dip" style="@style/2132149384" />
+    <View android:id="@id/2131449388" ="gone" ="fill_parent" ="40.0dip" />
+</merge>

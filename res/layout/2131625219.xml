@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/2131430914" ="@drawable/2131235991" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip">
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131447146" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/notice" 2130969941="2131438103" style="@style/2132149425" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131447147" ="fill_parent" ="wrap_content" ="16.0dip" 2130969940="@id/2131447146" style="@style/2132149350" />
+        <ImageView android:id="@id/2131434388" ="60.0dip" ="60.0dip" ="16.0dip" ="@drawable/2131234397" ="@null" ="35.0dip" 2130969937="2131438103" 2130969940="@id/2131447147" />
+        <ImageView android:id="@id/2131434452" ="60.0dip" ="60.0dip" ="16.0dip" ="@drawable/2131234398" ="@null" ="35.0dip" 2130969917="2131438103" 2130969940="@id/2131447147" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434390" ="22.0dip" ="wrap_content" ="fitCenter" ="@null" 2130969911="@id/2131434388" 2130969917="@id/2131434452" 2130969937="@id/2131434388" 2130969941="@id/2131434388" 2130971077="@drawable/2131236866" 2130971375="@color/2131099762" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131445854" ="100.0dip" ="wrap_content" ="6.0dip" 2130969917="@id/2131434388" 2130969937="@id/2131434388" 2130969940="@id/2131434388" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131446091" ="109.0dip" ="wrap_content" ="6.0dip" 2130969917="@id/2131434452" 2130969937="@id/2131434452" 2130969940="@id/2131434452" style="@style/2132149450" />
+        <com.major.android.uikit.button.KitButton android:id="@id/2131428988" ="fill_parent" ="wrap_content" ="16.0dip" 2130969173="4" 2130969940="@id/2131445854" />
+        <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428989" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" 2130969173="4" 2130969940="@id/2131428988" 2130971472="2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

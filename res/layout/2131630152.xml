@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131439793" ="wrap_content" ="wrap_content" 2130969125="pnl_profits_info, pnl_profits_selected_date_label" />
+    <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131438506" ="wrap_content" ="wrap_content" ="20.0dip" ="15.0dip" 2130969125="pnl_profits_label, pnl_profits_info" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/pnl_profits_label" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_profits_label" ="15.0dip" 2130969937="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/pnl_profits_info" ="4.0dip" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <TextView ="@color/2131099778" android:id="@id/pnl_profits_selected_date_label" ="wrap_content" ="wrap_content" ="4.0dip" android:text="--" 2130969937="@id/2131438506" 2130969940="@id/2131438506" style="@style/2132149384" />
+    <TextView ="#ff2ebd85" android:id="@id/pnl_profits_selected_profit" ="wrap_content" ="wrap_content" ="4.0dip" android:text="--" ="ltr" 2130969937="@id/pnl_profits_selected_date_label" 2130969940="@id/pnl_profits_selected_date_label" style="@style/2132149421" />
+    <com.github.mikephil.charting.charts.LineChart android:id="@id/profits_line_chart" ="0.0dip" ="0.0dip" ="5.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="@id/2131438506" 2130969940="@id/pnl_profits_selected_profit" 2130969942="0.0" />
+    <include android:id="@id/2131431415" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/pnl_profits_selected_profit" layout="@layout/2131630149" />
+    <include android:id="@id/2131438693" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/pnl_profits_selected_profit" layout="@layout/2131630150" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="30.0dip" ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="center_horizontal" ="vertical" ="30.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131099778" android:id="@id/2131443967" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+            <com.binance.widget.UnicodeWrapTextView ="28.0sp" ="@color/2131099764" ="center" android:id="@id/2131442142" ="wrap_content" ="wrap_content" ="1" 2130968700="@dimen/2131167707" 2130968701="@dimen/2131166170" 2130968705="2131449068" style="@style/2132149416" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131429457" ="fill_parent" ="wrap_content" ="8.0dip" ="30.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429649" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit.divider.KitDivider android:id="@id/dvDivider" ="fill_parent" ="0.5dip" 2130968943="true" 2130969292="@null" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099778" android:id="@id/youWillGet" ="wrap_content" ="wrap_content" ="9.0dip" android:text="@string/ocbs_you_will_pay" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/tvYouWillGetAmount" ="wrap_content" ="wrap_content" 2130969937="@id/youWillGet" 2130969940="@id/youWillGet" style="@style/2132149446" />
+        <TextView ="@color/2131099764" android:id="@id/tvPriceValid" ="wrap_content" ="wrap_content" ="2.0dip" ="9.0dip" 2130969911="2131438103" 2130969937="@id/tvYouWillGetAmount" 2130969940="@id/tvYouWillGetAmount" style="@style/2132149394" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/confirm_btn" ="0.0dip" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="186.0dip" ="130.0dip" android:text="@string/c2c_module_p2p_make_order_refresh_price" ="1" ="@dimen/2131166184" 2130968700="@dimen/2131167696" 2130968705="2131449068" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132148692" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131428538" ="wrap_content" ="wrap_content" 2130969125="dvDivider, youWillGet, tvYouWillGetAmount, tvPriceValid" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446679" ="22.0dip" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/tv_symbol" ="0.0dip" ="wrap_content" ="true" ="4.0dip" 2130969918="@id/2131444492" 2130969928="2131438085" 2130969936="@id/2131446679" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446084" ="@drawable/2131236665" ="3.0dip" ="3.0dip" ="gone" ="wrap_content" ="16.0dip" ="2.0dip" ="@color/2131099744" ="@dimen/2131166225" 2130969937="@id/tv_symbol" 2130969940="@id/tv_symbol" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="center" android:id="@id/tv_direction" ="@drawable/2131236665" ="3.0dip" ="3.0dip" ="gone" ="wrap_content" ="16.0dip" ="2.0dip" ="8.0dip" ="#ffffebeb" ="@dimen/2131166225" 2130969936="@id/2131446084" 2130969940="@id/tv_symbol" style="@style/2132149394" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969921="0.584" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/2131444492" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="2131438103" 2130969917="@id/2131432755" 2130969936="@id/tv_symbol" 2130969941="2131438103" style="@style/2132149450" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" ="end" android:id="@id/2131443756" ="0.0dip" ="wrap_content" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131432755" 2130969941="2131438103" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

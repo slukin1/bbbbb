@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="@drawable/2131236040" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166209">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430064" ="20.0dip" ="20.0dip" ="true" 2130971077="@drawable/2131236840" 2130971375="@color/2131099764" />
+        <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131430067" ="wrap_content" ="wrap_content" ="@font/2131296273" ="12.0dip" ="@id/2131430064" />
+        <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131430066" ="wrap_content" ="wrap_content" ="@id/2131430067" ="@font/2131296274" ="12.0dip" ="@id/2131430064" />
+    </RelativeLayout>
+</FrameLayout>

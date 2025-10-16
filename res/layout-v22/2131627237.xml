@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236021" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" android:id="@id/2131431087" ="@drawable/2131234900" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" ="@dimen/2131166269" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.binance.margin.marketdetail.kline.view.StepIndicatorView android:id="@id/2131440634" ="fill_parent" ="3.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431087" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449439" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440634" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428858" ="0.0dip" ="wrap_content" ="20.0dip" ="24.0dip" android:text="@string/c2c_mob_ad_post_p2_btn_previous" ="15.0dip" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131428831" 2130969937="2131438103" 2130969940="@id/2131449439" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428831" ="0.0dip" ="wrap_content" ="20.0dip" ="24.0dip" android:text="@string/market_detail_internal_drawing_line_guide_next" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428858" 2130969940="@id/2131449439" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

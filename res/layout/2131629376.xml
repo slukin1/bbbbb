@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@color/2131099685" ="fill_parent" ="214.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131434510" ="wrap_content" ="wrap_content" ="40.0dip" ="true" 2130971077="@drawable/2131238419" />
+    <TextView ="14.0sp" ="#ff848e9c" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_mob_no_payment_supported" ="@id/2131434510" ="true" ="@font/2131296274" />
+</RelativeLayout>

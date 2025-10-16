@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_horizontal" ="96.0dip" ="96.0dip" ="@drawable/2131238406" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/title" ="fill_parent" ="wrap_content" ="50.0dip" ="false" style="@style/2132149429" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131440818" ="fill_parent" ="wrap_content" ="8.0dip" ="26.0dip" ="false" style="@style/2132149429" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/2131443153" ="fill_parent" ="wrap_content" ="8.0dip" ="44.0dip" android:text="@string/c2c_confirm_payment_dialog_tip" style="@style/2132149355" />
+    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="8.0dip" ="44.0dip" android:text="@string/c2c_confirm_payment_dialog_tip" style="@style/2132149355" />
+    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="16.0dip">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429325" ="24.0dip" ="24.0dip" 2130969758="true" 2130969759="2" />
+        <TextView ="@color/2131099764" android:id="@id/2131442053" ="wrap_content" ="wrap_content" android:text="@string/c2c_confirm_payment_dialog_check_terms" ="4.0dip" style="@style/2132149350" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131438127" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_pay_now" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429250" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/cancel" style="@style/2132148697" />
+</LinearLayout>

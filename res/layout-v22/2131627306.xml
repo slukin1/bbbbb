@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center_vertical" android:id="@id/2131432832" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432109" ="0.0dip" ="wrap_content" ="15.0dip" 2130969125="tvPrice,flow_currency_and_change_percentage,tabContainer" 2130969905="true" 2130969911="2131438103" 2130969918="@id/2131432079" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvPrice" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="15.0dip" 2130969905="true" 2130969927="0.0" style="@style/2132148740" />
+    <include layout="@layout/2131627303" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/tabContainer" ="0.0dip" ="wrap_content" ="2.0dip">
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131441119" ="0.0dip" ="wrap_content" 2130969125="cvTags" 2130969489="0.0" 2130969490="5.0dip" 2130969491="2131438085" 2130969500="5.0dip" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/cvTags" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/2131627304" />
+</androidx.constraintlayout.widget.ConstraintLayout>

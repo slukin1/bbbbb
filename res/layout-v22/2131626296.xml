@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439436" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131449305" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166156" 2130969937="2131438103" 2130969941="2131438103">
+        <com.major.android.uikit2.selection.KitCheckBox ="center_vertical" android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="2.0dip" ="true" ="true" 2130969759="2131437069" />
+        <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131442463" ="#00000000" ="wrap_content" ="wrap_content" ="true" ="@font/2131296274" ="5.0dip" ="0.0dip" ="@id/2131429513" />
+    </RelativeLayout>
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131435059" ="fill_parent" ="wrap_content" ="4.0dip" android:hint="@string/c2c_post_ad_sheet_label_specifications_hint" ="2" ="200" 2130969817="0" 2130969818="false" 2130969937="2131438103" 2130969940="@id/2131449305" />
+</androidx.constraintlayout.widget.ConstraintLayout>

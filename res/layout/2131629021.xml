@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="none" ="none" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/indicator_container" ="fill_parent" ="fill_parent" />
+        <View ="bottom" android:id="@id/2131428430" ="@color/2131099751" ="gone" ="fill_parent" ="0.5dip" />
+        <LinearLayout ="horizontal" android:id="@id/2131441544" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+</merge>

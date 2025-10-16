@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="24.0dip" ="24.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166209"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/content_crypto_box_quiz_guideline_title_1v3" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432779" ="fill_parent" ="400.0dip" ="10.0dip" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131441455" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/content_crypto_box_quiz_guideline_tip_1v3" style="@style/2132149350" />
+</LinearLayout>

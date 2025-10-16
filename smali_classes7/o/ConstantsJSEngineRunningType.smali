@@ -1,0 +1,117 @@
+.class public final Lo/ConstantsJSEngineRunningType;
+.super Lo/setTransitionName;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lo/setTransitionName<",
+        "[S>;"
+    }
+.end annotation
+
+
+# instance fields
+.field a:[S
+
+.field e:I
+
+
+# direct methods
+.method public constructor <init>([S)V
+    .locals 2
+
+    .line 91
+    invoke-direct {p0}, Lo/setTransitionName;-><init>()V
+
+    .line 93
+    iput-object p1, p0, Lo/ConstantsJSEngineRunningType;->a:[S
+
+    .line 94
+    array-length v0, p1
+
+    iput v0, p0, Lo/ConstantsJSEngineRunningType;->e:I
+
+    .line 1102
+    array-length v0, p1
+
+    const/16 v1, 0xa
+
+    if-ge v0, v1, :cond_0
+
+    .line 1103
+    array-length v0, p1
+
+    shl-int/lit8 v0, v0, 0x1
+
+    invoke-static {v1, v0}, Lkotlin/ranges/RangesKt;->d(II)I
+
+    move-result v0
+
+    invoke-static {p1, v0}, Ljava/util/Arrays;->copyOf([SI)[S
+
+    move-result-object p1
+
+    iput-object p1, p0, Lo/ConstantsJSEngineRunningType;->a:[S
+
+    :cond_0
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()I
+    .locals 1
+
+    .line 94
+    iget v0, p0, Lo/ConstantsJSEngineRunningType;->e:I
+
+    return v0
+.end method
+
+.method public final c(I)V
+    .locals 2
+
+    .line 102
+    iget-object v0, p0, Lo/ConstantsJSEngineRunningType;->a:[S
+
+    array-length v1, v0
+
+    if-ge v1, p1, :cond_0
+
+    .line 103
+    array-length v1, v0
+
+    shl-int/lit8 v1, v1, 0x1
+
+    invoke-static {p1, v1}, Lkotlin/ranges/RangesKt;->d(II)I
+
+    move-result p1
+
+    invoke-static {v0, p1}, Ljava/util/Arrays;->copyOf([SI)[S
+
+    move-result-object p1
+
+    iput-object p1, p0, Lo/ConstantsJSEngineRunningType;->a:[S
+
+    :cond_0
+    return-void
+.end method
+
+.method public final synthetic e()Ljava/lang/Object;
+    .locals 2
+
+    .line 2111
+    iget-object v0, p0, Lo/ConstantsJSEngineRunningType;->a:[S
+
+    .line 3094
+    iget v1, p0, Lo/ConstantsJSEngineRunningType;->e:I
+
+    .line 2111
+    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([SI)[S
+
+    move-result-object v0
+
+    return-object v0
+.end method

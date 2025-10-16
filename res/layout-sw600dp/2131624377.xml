@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar ="@style/2132149587" android:id="@id/2131441601" ="#fff7f7f7" ="fill_parent" ="56.0dip" ="3.0dip" app:2130971384="@string/secured_checkout" 2130971396="@color/2131100300" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cardinalcommerce.a.setAnimationMatrix ="@style/2132150291" ="16.0sp" ="end" android:id="@id/2131441603" ="true" ="true" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/cancel" ="false" ="true" />
+</androidx.appcompat.widget.Toolbar>

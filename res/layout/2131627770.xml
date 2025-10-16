@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="40.0dip" ="fill_parent" ="wrap_content" ="4.0">
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="start" android:id="@id/2131437575" ="vertical" ="fill_parent" ="wrap_content" android:text="Debug Plugin" ="1.0" style="@style/2132149346" />
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit.button.KitButton android:id="@id/2131437578" ="fill_parent" ="40.0dip" ="14.0dip" android:text="Copy" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131437576" ="fill_parent" ="40.0dip" ="14.0dip" ="14.0dip" android:text="Cancel" />
+</LinearLayout>

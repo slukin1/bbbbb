@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/tv_contract_address_title" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/wallet_deposit_contract_information" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_contract_address_value" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/tv_contract_address_title" 2130969936="@id/tv_contract_address_title" 2130969941="@id/tv_contract_address_title" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_contract_address" ="14.0dip" ="14.0dip" ="4.0dip" 2130969911="@id/tv_contract_address_value" 2130969936="@id/tv_contract_address_value" 2130969941="@id/tv_contract_address_value" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432639" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_contract_address_title,iv_contract_address,tv_contract_address_value" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446554" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/wallet_format_hint_withdrawal" 2130969917="2131438103" 2130969940="@id/tv_contract_address_title" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448385" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/wallet_withdrawal_transact_sanctioned" 2130969937="2131438103" 2130969940="@id/2131446554" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

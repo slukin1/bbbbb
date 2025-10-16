@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="#00000000" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvTitle" ="@color/2131099685" ="15.0dip" ="22.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/content_trade_coin_terminal_title" ="1" ="@dimen/2131166184" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434801" ="fill_parent" ="wrap_content" ="fitXY" />
+    <include android:id="@id/2131438767" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969940="@id/divider" layout="@layout/2131624798" />
+</LinearLayout>

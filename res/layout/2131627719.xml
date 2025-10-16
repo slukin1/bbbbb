@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="center_vertical" android:id="@id/2131439500" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434691" ="fill_parent" ="wrap_content" ="30.0dip" ="fitXY" 2130971077="@drawable/2131232658" />
+    <RelativeLayout ="top" android:id="@id/2131450298" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="true">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102398" ="center" android:id="@id/2131446246" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/mpc_wallet_transition_welcome_to" ="true" style="@style/2132149346" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434482" ="244.0dip" ="103.0dip" ="4.0dip" ="@id/2131446246" ="true" ="true" 2130971077="@drawable/2131235206" />
+    </RelativeLayout>
+</RelativeLayout>

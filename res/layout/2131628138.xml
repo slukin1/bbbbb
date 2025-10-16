@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="vertical" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="?2130970780" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="20.0dip" ="20.0dip" />
+        <TextView ="@color/2131102397" android:id="@id/2131430132" ="wrap_content" ="wrap_content" ="10.0dip" ="5.0dip" style="@style/2132149446" />
+        <TextView ="@color/2131099778" android:id="@id/2131437428" ="fill_parent" ="wrap_content" ="8.0dip" 2130969306="@drawable/2131235649" style="@style/2132149454" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131436688" ="@color/2131100492" ="10.0dip" ="fill_parent" ="wrap_content" ="12.0dip">
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/payment_funding_wallet" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131432311" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+        </LinearLayout>
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131432312" ="wrap_content" ="wrap_content" ="ltr" style="@style/2132149384" />
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="5.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_spot_wallet" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131440474" ="fill_parent" ="wrap_content" style="@style/2132149384" />
+        </LinearLayout>
+        <TextView ="@color/2131099778" ="end" android:id="@id/2131440475" ="wrap_content" ="wrap_content" ="ltr" style="@style/2132149384" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435601" ="10.0dip" ="13.0dip" ="10.0dip" ="13.0dip" ="wrap_content" ="wrap_content" ="5.0dip" ="9.5dip" ="5.0dip" ="9.5dip" ="3.0dip" ="@dimen/2131166260" ="9.5dip" ="@dimen/2131166156" ="@dimen/2131166175" style="@style/2132148645">
+        <com.finance.kit.framework.widget.selection.KitToggledRadioButton ="center" android:id="@id/2131429393" ="wrap_content" ="wrap_content" ="false" 2130969835="2131429513" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" android:id="@id/2131446629" ="0.0dip" ="wrap_content" android:text="@string/hide_zero_balances" ="false" ="5.0dip" 2130969911="@id/2131429393" 2130969936="@id/2131429393" 2130969941="@id/2131429393" style="@style/2132149350" />
+        <com.finance.kit.framework.widget.selection.KitToggledRadioButton ="center" android:id="@id/cb_showDebt" ="wrap_content" ="wrap_content" ="16.0dip" ="false" 2130969835="2131429513" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131429393" />
+        <TextView ="@color/2131099764" android:id="@id/tv_showDebt" ="0.0dip" ="wrap_content" android:text="@string/pm_funds_only_show_debt" ="false" ="5.0dip" 2130969911="@id/cb_showDebt" 2130969936="@id/cb_showDebt" 2130969941="@id/cb_showDebt" style="@style/2132149350" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432685" ="gone" ="wrap_content" ="wrap_content" 2130969125="cb_showDebt,tv_showDebt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

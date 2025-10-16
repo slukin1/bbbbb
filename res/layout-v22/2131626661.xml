@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="@drawable/2131236040" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166209" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" ="20.0dip" ="20.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099764" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="@font/2131296273" ="12.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

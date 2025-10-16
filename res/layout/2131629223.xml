@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="@color/2131099685" ="fill_parent" ="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131441949" ="@drawable/2131232574" ="0.0dip" ="fill_parent" android:text="1x" ="1.0" ="@font/2131296274" />
+    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131441945" ="@drawable/2131232574" ="0.0dip" ="fill_parent" android:text="5x" ="1.0" ="@font/2131296274" ="5.0dip" />
+    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131441957" ="@drawable/2131232574" ="0.0dip" ="fill_parent" android:text="10x" ="1.0" ="@font/2131296274" ="5.0dip" />
+    <TextView ="14.0sp" ="@color/2131099764" ="center" android:id="@id/2131441944" ="@drawable/2131232574" ="0.0dip" ="fill_parent" android:text="20x" ="1.0" ="@font/2131296274" ="5.0dip" />
+</LinearLayout>

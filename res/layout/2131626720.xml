@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131435289" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="none" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131440813" ="wrap_content" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/style_setting" style="@style/2132149416" />
+            <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131436369" ="@drawable/2131236038" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" ="15.0dip" ="15.0dip">
+                <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content">
+                    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="ltr">
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131236004" ="centerInside" 2130971375="@color/2131099732" />
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131236004" ="centerInside" ="8.0dip" 2130971375="@color/2131099771" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131444813" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/style_fresh" style="@style/2132149463" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434194" ="visible" ="fill_parent" ="wrap_content" ="5.0dip" ="centerInside" ="true" ="@null" 2130971077="@drawable/2131238642" />
+            </LinearLayout>
+            <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131436370" ="@drawable/2131236038" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip">
+                <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content">
+                    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="ltr">
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131236004" ="centerInside" 2130971375="@color/2131099793" />
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131236004" ="centerInside" ="8.0dip" 2130971375="@color/2131099797" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131444814" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/style_traditional" style="@style/2132149463" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434195" ="visible" ="fill_parent" ="wrap_content" ="5.0dip" ="centerInside" ="true" ="@null" 2130971077="@drawable/2131238643" />
+            </LinearLayout>
+            <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131436649" ="@drawable/2131236038" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip">
+                <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content">
+                    <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="ltr">
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131236004" ="centerInside" 2130971375="@color/2131099677" />
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="2.0dip" ="@drawable/2131236004" ="centerInside" ="8.0dip" 2130971375="@color/2131099681" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131447938" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" android:text="@string/style_color_vision_deficiency" style="@style/2132149463" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/2131434865" ="visible" ="fill_parent" ="wrap_content" ="5.0dip" ="centerInside" ="true" ="@null" 2130971077="@drawable/2131238641" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

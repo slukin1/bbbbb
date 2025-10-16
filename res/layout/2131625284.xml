@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131430935" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="horizontal" android:id="@id/2131439255" ="#ff0b0e11" ="fill_parent" ="fill_parent" ="0.4" />
+    <LinearLayout ="center" ="vertical" ="@drawable/2131235990" ="fill_parent" ="176.0dip" ="9.0dip" ="true">
+        <TextView ="17.0sp" ="@color/2131102002" ="center_horizontal" android:id="@id/2131439253" ="17.0dip" ="15.5dip" ="fill_parent" ="wrap_content" android:text="@string/ms_risk_take_photo" />
+        <TextView ="17.0sp" ="@color/2131102002" ="center_horizontal" android:id="@id/2131439252" ="17.0dip" ="15.5dip" ="fill_parent" ="wrap_content" android:text="@string/ms_risk_take_upload" />
+        <View ="@color/2131102001" ="fill_parent" ="8.0dip" />
+        <TextView ="17.0sp" ="@color/2131102000" ="center_horizontal" android:id="@id/2131439254" ="17.5dip" ="17.0dip" ="fill_parent" ="wrap_content" android:text="@string/dialog_adjust_leverage_action_cancel" />
+    </LinearLayout>
+</RelativeLayout>

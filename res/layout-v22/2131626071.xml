@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="blocksDescendants" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="15.0dip" ="5.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131447509" ="wrap_content" ="wrap_content" android:text="@string/futures_pnlanalysis_history_profitandloss" style="@style/2132149446" />
+        <ImageView android:id="@id/iv_warning" ="20.0dip" ="20.0dip" ="@null" ="8.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439656" ="fill_parent" ="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="15.0dip" ="fill_parent" ="wrap_content" ="@color/2131099744" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131443160" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/from" ="2" 2130969937="2131438103" 2130969941="@id/2131432276" style="@style/2132149450" />
+    <include android:id="@id/2131432276" ="0.0dip" ="wrap_content" ="12.0dip" 2130969918="@id/2131433852" 2130969927="0.0" 2130969936="@id/2131443160" 2130969941="2131438103" layout="@layout/2131630109" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433852" ="32.0dip" ="0.0dip" ="centerInside" ="@null" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237141" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131445024" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/margin_to" ="2" 2130969937="2131438103" 2130969941="@id/2131441569" style="@style/2132149450" />
+    <include android:id="@id/2131441569" ="0.0dip" ="wrap_content" ="20.0dip" 2130969918="@id/2131433852" 2130969937="@id/2131432276" 2130969940="@id/2131432276" layout="@layout/2131630109" />
+</androidx.constraintlayout.widget.ConstraintLayout>

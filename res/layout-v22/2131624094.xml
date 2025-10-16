@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" ="15.0dip" ="11.0dip" ="15.0dip" ="11.0dip" ="50.0dip" ="42.0dip" ="@dimen/2131166184" ="@dimen/2131166164" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <include android:id="@id/2131449304" layout="@layout/2131626579" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428945" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="10.0dip" android:text="@string/c2c_od_btn_view_payment_details" ="@dimen/2131166184" 2130969912="@id/2131428703" 2130969937="2131438103" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428703" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="8.0dip" android:text="@string/c2c_od_btn_back_to_chat" ="@dimen/2131166184" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

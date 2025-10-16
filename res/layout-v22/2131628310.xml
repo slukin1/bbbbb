@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@null" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="@null" ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/2131427921" ="@null" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" 2130969974="2131439795|@null">
+                <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131436643" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" ="18.0dip" ="@dimen/2131166184">
+                    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="@drawable/2131236007" ="10.0dip" ="10.0dip" ="wrap_content" ="32.0dip" ="@color/2131099800" ="@dimen/2131166156">
+                        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237353" 2130971375="@color/2131099667" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="wrap_content" ="wrap_content" android:text="@string/market_filter_entry_text" ="4.0dip" style="@style/2132149450" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.AppCompatTextView ="6.0sp" ="@color/2131099789" ="end" android:id="@id/2131447109" ="@drawable/2131236004" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/content_tab_tip_new" ="-11.0dip" ="@color/2131099881" ="@dimen/2131166199" style="@style/2132149405" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436550" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="18.0dip">
+                    <FrameLayout ="horizontal" ="fill_parent" ="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099667" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/search_history" ="@dimen/2131166184" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131434584" ="15.0dip" ="15.0dip" ="50.0dip" ="20.0dip" ="@dimen/2131166184" 2130971077="@drawable/2131237186" 2130971375="@color/2131099738" />
+                    </FrameLayout>
+                    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432043" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166156" 2130968639="0" 2130969467="0" 2130969468="2131450408" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <FrameLayout ="fill_parent" ="wrap_content">
+                <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441562" ="fill_parent" ="wrap_content" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447819" ="15.0dip" ="15.0dip" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/ms_top_search" ="@dimen/2131166184" style="@style/2132149446" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout ="fill_parent" ="fill_parent" 2130969901="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449917" ="fill_parent" ="fill_parent" />
+            <FrameLayout android:id="@id/2131431950" ="gone" ="fill_parent" ="fill_parent" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

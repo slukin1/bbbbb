@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132148314" parent="@style/2132148414" />
+    <style name="2132148321" parent="@style/2132148415" />
+    <style name="2132148564" parent="@style/2132148528">
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="2130970304">@color/2131099675</item>
+        <item name="2130970307">@color/2131099685</item>
+    </style>
+    <style name="2132148840" parent="@style/2132148832">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="2130969091">#00000000</item>
+    </style>
+    <style name="2132148414" parent="@style/2132148402">
+        <item name="2130968612">?android:actionModeShareDrawable</item>
+        <item name="2130969326">?android:editTextBackground</item>
+    </style>
+    <style name="2132148415" parent="@style/2132148404">
+        <item name="2130968612">?android:actionModeShareDrawable</item>
+        <item name="2130969326">?android:editTextBackground</item>
+    </style>
+</resources>

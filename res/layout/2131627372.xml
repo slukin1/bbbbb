@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/market_detail_tags_dialog_desc" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441586" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131445049" ="fill_parent" ="wrap_content" android:text="@string/market_detail_tags_dialog_token_info" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432093" ="0.0dip" ="wrap_content" ="5.0dip" 2130969489="0.0" 2130969490="10.0dip" 2130969491="2131438085" 2130969500="10.0dip" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445049" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438857" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131444246" ="fill_parent" ="wrap_content" android:text="@string/market_detail_tags_dialog_ranking" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432091" ="0.0dip" ="wrap_content" ="5.0dip" 2130969489="0.0" 2130969490="10.0dip" 2130969491="2131438085" 2130969500="10.0dip" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444246" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427537" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131442017" ="fill_parent" ="wrap_content" android:text="@string/market_detail_tags_dialog_pair_activities" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432070" ="0.0dip" ="wrap_content" ="5.0dip" 2130969489="0.0" 2130969490="10.0dip" 2130969491="2131438085" 2130969500="10.0dip" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442017" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431731" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip">
+        <TextView ="@color/2131099778" android:id="@id/2131443078" ="fill_parent" ="wrap_content" android:text="@string/market_detail_fee_promotion" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+        <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131432077" ="0.0dip" ="wrap_content" ="5.0dip" 2130969489="0.0" 2130969490="10.0dip" 2130969491="2131438085" 2130969500="10.0dip" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443078" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131437821" ="fill_parent" ="wrap_content" ="15.0dip" ="30.0dip" ="15.0dip" ="15.0dip" android:text="@string/ok" style="@style/2132148692" />
+</LinearLayout>

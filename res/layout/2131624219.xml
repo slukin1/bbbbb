@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624283" />
+    <LinearLayout ="vertical" android:id="@id/2131431363" ="@color/2131099685" ="visible" ="fill_parent" ="0.0dip" ="1.0">
+        <ImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="80.0dip" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_mobile_payment_no_payment_method" ="@font/2131296274" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="gone" ="fill_parent" ="0.0dip" ="1.0" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428970" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/c2c_mobile_payment_add_new_payment_method" style="@style/2132148692" />
+</LinearLayout>

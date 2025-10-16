@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.margin.marketdetail.features.base.tradehistory.view.DetailTradeItemRootLayout ="fill_parent" ="wrap_content" ="3.0dip" ="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.margin.marketdetail.widget.SimpleTextView ="#ff848e9c" ="start" android:id="@id/2131441416" ="wrap_content" ="wrap_content" ="true" ="true" 2130969911="@id/price" 2130969937="2131438103" 2130969941="@id/price" style="@style/2132149384" />
+    <com.binance.margin.marketdetail.widget.SimpleTextView ="#ff2ebd85" ="start" android:id="@id/price" ="wrap_content" ="wrap_content" 2130969911="@id/price" 2130969918="@id/2131438775" 2130969937="@id/2131432755" 2130969941="@id/price" style="@style/2132149384" />
+    <com.binance.margin.marketdetail.widget.SimpleTextView ="#ff848e9c" ="end" android:id="@id/2131438775" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+</com.binance.margin.marketdetail.features.base.tradehistory.view.DetailTradeItemRootLayout>

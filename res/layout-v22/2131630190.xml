@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131234718" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="14.0dip" ="14.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="20.0dip" ="20.0dip" ="3.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131430132" ="wrap_content" ="wrap_content" ="10.0dip" 2130969911="@id/2131436732" 2130969936="@id/2131436732" 2130969941="@id/2131436732" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131437428" ="wrap_content" ="wrap_content" 2130969937="@id/2131430132" 2130969940="@id/2131430132" style="@style/2132149384" />
+    <TextView ="@color/2131099778" android:id="@id/2131440873" ="2.0dip" ="1.0dip" ="2.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/wallet_deposit_select_network_dialog_suspend" ="-2.0dip" ="@dimen/2131166199" ="@dimen/2131166155" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/valueAmount" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131430132" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/valueCash" ="wrap_content" ="wrap_content" ="ltr" 2130969917="@id/valueAmount" 2130969940="@id/valueAmount" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131436337" ="visible" ="wrap_content" ="wrap_content" 2130969125="valueAmount,valueCash" />
+</androidx.constraintlayout.widget.ConstraintLayout>

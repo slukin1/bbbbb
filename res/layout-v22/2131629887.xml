@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439488" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <ImageView android:id="@id/2131433086" ="wrap_content" ="wrap_content" ="74.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238443" />
+    <TextView ="@color/2131099764" android:id="@id/2131441215" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/wallet_risk_warning" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433086" style="@style/2132149459" />
+    <TextView ="@color/2131099778" android:id="@id/2131441231" ="0.0dip" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/wallet_verification_questionnaire" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441215" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428989" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/dialog_adjust_leverage_action_cancel" ="15.0dip" ="6.0dip" 2130969911="2131438103" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130971472="2" />
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="40.0dip" ="15.0dip" android:text="@string/verify_now" ="6.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428989" />
+</androidx.constraintlayout.widget.ConstraintLayout>

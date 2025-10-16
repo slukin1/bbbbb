@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131450306" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131627708" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131445988" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/mpc_wallet_backup_escape_key_tip" ="@id/2131450306" ="@dimen/2131166184" style="@style/2132149459" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439636" ="fill_parent" ="fill_parent" ="@id/2131429015" ="@id/2131445988" />
+    <com.mpc.wallet.widget.uikit.KitButton ="center_horizontal" android:id="@id/2131429015" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_backup_escape_continue_copy_all" ="@id/2131446158" ="@dimen/2131166184" 2130969173="80.0" />
+    <TextView ="16.0sp" ="@color/2131099857" ="center" ="center_horizontal" android:id="@id/2131446158" ="#00000000" ="15.0dip" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_escape_erase_leave" ="true" ="@font/2131296275" ="@dimen/2131166184" style="@style/2132149446" />
+</RelativeLayout>

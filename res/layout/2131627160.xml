@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131439496" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <ScrollView ="fill_parent" ="fill_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131099764" android:id="@id/2131446916" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/kline_setting_main" ="15.0dip" style="@style/2132149450" />
+            <com.major.android.uikit2.slider.KitSlider android:id="@id/2131435178" ="fill_parent" ="23.0dip" ="15.0dip" ="12.0dip" ="15.0dip" 2130969686="140.0" 2130969687="60.0" 2130969703="3" />
+            <TextView ="@color/2131099764" android:id="@id/2131447939" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/margin_kline_sub_original_chart_only" ="15.0dip" style="@style/2132149450" />
+            <com.major.android.uikit2.slider.KitSlider android:id="@id/2131435181" ="fill_parent" ="23.0dip" ="15.0dip" ="12.0dip" ="15.0dip" 2130969686="135.0" 2130969687="65.0" 2130969703="3" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434411" ="fill_parent" ="302.0dip" ="32.0dip" ="fitXY" 2130971077="@drawable/2131234843" />
+            <com.major.android.uikit.divider.KitDivider android:id="@id/2131435031" ="fill_parent" ="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434412" ="fill_parent" ="60.0dip" ="fitXY" 2130971077="@drawable/2131234844" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="8.0dip" ="30.0dip" android:text="@string/margin_kline_valid_vertical_chart" ="15.0dip" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

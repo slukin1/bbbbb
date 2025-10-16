@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="1.0dip" ="1.0dip" ="1.0dip" ="1.0dip">
+        <shape ="rectangle">
+            <solid ="@android:color/transparent" />
+            <stroke ="4.0dip" ="#ffc6dafb" />
+        </shape>
+    </item>
+    <item ="@drawable/2131232957" />
+</layer-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refresh_layout" ="fill_parent" ="fill_parent">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="fill_parent" ="fill_parent" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" ="center|top" android:id="@id/2131431366" ="gone" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/no_records_found" ="20.0dip" 2130969314="@drawable/2131238419" style="@style/2132149450" />
+            <include android:id="@id/2131431367" ="gone" ="fill_parent" ="fill_parent" layout="@layout/2131625443" />
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</merge>

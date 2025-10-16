@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166170" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131433177" ="36.0dip" ="36.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130970795="@style/2132148627" />
+    <TextView ="@color/2131099764" android:id="@id/2131448870" ="wrap_content" ="wrap_content" ="8.0dip" 2130969912="@id/2131448740" 2130969928="2131438085" 2130969936="@id/2131433177" 2130969941="@id/2131433177" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131448740" ="wrap_content" ="wrap_content" 2130969911="@id/2131433177" 2130969937="@id/2131448870" 2130969940="@id/2131448870" style="@style/2132149454" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433256" ="20.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

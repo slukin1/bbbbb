@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131449472" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131449354" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131449364" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" ="@dimen/2131166188" />
+    <View ="0.0dip" ="160.0dip" />
+    <com.major.android.uikit2.button.KitButton ="#ff202630" android:id="@id/2131428676" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="10.0dip" android:text="@string/content_post_add" ="@dimen/2131166184" style="@style/2132148692" />
+</LinearLayout>

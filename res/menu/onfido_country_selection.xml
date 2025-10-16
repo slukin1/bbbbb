@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="@drawable/onfido_ic_search" android:id="@id/2131427523" android:title="@string/onfido_app_title_country_select_search" 2130968622="androidx.appcompat.widget.SearchView" 2130970833="@null|@null" />
+</menu>

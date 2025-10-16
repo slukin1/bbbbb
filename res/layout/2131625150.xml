@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131236025" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_sheet_order_floating_title" ="@font/2131296275" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131443129" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/c2c_sheet_order_floating_tip1" ="@font/2131296274" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131443130" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/c2c_sheet_order_floating_tip2" ="@font/2131296274" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428790" ="fill_parent" ="wrap_content" android:text="@string/c2c_sheet_order_floating_go_setting" style="@style/2132148692" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428811" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/c2c_shortcut_add_later" style="@style/2132148697" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

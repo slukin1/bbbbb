@@ -1,0 +1,380 @@
+.class public Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;
+.super Ljava/security/SignatureSpi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi$Ed25519;,
+        Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi$Ed448;,
+        Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi$EdDSA;
+    }
+.end annotation
+
+
+# static fields
+.field private static final EMPTY_CONTEXT:[B
+
+
+# instance fields
+.field private final algorithm:Ljava/lang/String;
+
+.field private signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 65354
+    new-array v0, v0, [B
+
+    sput-object v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->EMPTY_CONTEXT:[B
+
+    return-void
+.end method
+
+.method constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 65353
+    invoke-direct {p0}, Ljava/security/SignatureSpi;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->algorithm:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private static getLwEdDSAKeyPrivate(Ljava/security/PrivateKey;)Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    .line 65352
+    invoke-static {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/EdECUtil;->generatePrivateKeyParameter(Ljava/security/PrivateKey;)Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static getLwEdDSAKeyPublic(Ljava/security/PublicKey;)Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    .line 65351
+    invoke-static {p0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/EdECUtil;->generatePublicKeyParameter(Ljava/security/PublicKey;)Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private getSigner(Ljava/lang/String;)Lde/authada/org/bouncycastle/crypto/Signer;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    .line 65350
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->algorithm:Ljava/lang/String;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    const-string v0, "inappropriate key for "
+
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->algorithm:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance v0, Ljava/security/InvalidKeyException;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Ljava/security/InvalidKeyException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    :goto_0
+    const-string v0, "Ed448"
+
+    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    new-instance p1, Lde/authada/org/bouncycastle/crypto/signers/Ed448Signer;
+
+    sget-object v0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->EMPTY_CONTEXT:[B
+
+    invoke-direct {p1, v0}, Lde/authada/org/bouncycastle/crypto/signers/Ed448Signer;-><init>([B)V
+
+    return-object p1
+
+    :cond_2
+    new-instance p1, Lde/authada/org/bouncycastle/crypto/signers/Ed25519Signer;
+
+    invoke-direct {p1}, Lde/authada/org/bouncycastle/crypto/signers/Ed25519Signer;-><init>()V
+
+    return-object p1
+.end method
+
+
+# virtual methods
+.method protected engineGetParameter(Ljava/lang/String;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidParameterException;
+        }
+    .end annotation
+
+    .line 65349
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string v0, "engineGetParameter unsupported"
+
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected engineGetParameters()Ljava/security/AlgorithmParameters;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method protected engineInitSign(Ljava/security/PrivateKey;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    .line 65347
+    invoke-static {p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->getLwEdDSAKeyPrivate(Ljava/security/PrivateKey;)Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+
+    move-result-object p1
+
+    instance-of v0, p1, Lde/authada/org/bouncycastle/crypto/params/Ed25519PrivateKeyParameters;
+
+    if-eqz v0, :cond_0
+
+    const-string v0, "Ed25519"
+
+    goto :goto_0
+
+    :cond_0
+    instance-of v0, p1, Lde/authada/org/bouncycastle/crypto/params/Ed448PrivateKeyParameters;
+
+    if-eqz v0, :cond_1
+
+    const-string v0, "Ed448"
+
+    :goto_0
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->getSigner(Ljava/lang/String;)Lde/authada/org/bouncycastle/crypto/Signer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+    const/4 v1, 0x1
+
+    invoke-interface {v0, v1, p1}, Lde/authada/org/bouncycastle/crypto/Signer;->init(ZLde/authada/org/bouncycastle/crypto/CipherParameters;)V
+
+    return-void
+
+    :cond_1
+    new-instance p1, Ljava/security/InvalidKeyException;
+
+    const-string v0, "unsupported private key type"
+
+    invoke-direct {p1, v0}, Ljava/security/InvalidKeyException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected engineInitVerify(Ljava/security/PublicKey;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidKeyException;
+        }
+    .end annotation
+
+    .line 65346
+    invoke-static {p1}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->getLwEdDSAKeyPublic(Ljava/security/PublicKey;)Lde/authada/org/bouncycastle/crypto/params/AsymmetricKeyParameter;
+
+    move-result-object p1
+
+    instance-of v0, p1, Lde/authada/org/bouncycastle/crypto/params/Ed25519PublicKeyParameters;
+
+    if-eqz v0, :cond_0
+
+    const-string v0, "Ed25519"
+
+    goto :goto_0
+
+    :cond_0
+    instance-of v0, p1, Lde/authada/org/bouncycastle/crypto/params/Ed448PublicKeyParameters;
+
+    if-eqz v0, :cond_1
+
+    const-string v0, "Ed448"
+
+    :goto_0
+    invoke-direct {p0, v0}, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->getSigner(Ljava/lang/String;)Lde/authada/org/bouncycastle/crypto/Signer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+    const/4 v1, 0x0
+
+    invoke-interface {v0, v1, p1}, Lde/authada/org/bouncycastle/crypto/Signer;->init(ZLde/authada/org/bouncycastle/crypto/CipherParameters;)V
+
+    return-void
+
+    :cond_1
+    new-instance p1, Ljava/security/InvalidKeyException;
+
+    const-string v0, "unsupported public key type"
+
+    invoke-direct {p1, v0}, Ljava/security/InvalidKeyException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected engineSetParameter(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/InvalidParameterException;
+        }
+    .end annotation
+
+    .line 65345
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    const-string p2, "engineSetParameter unsupported"
+
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method protected engineSign()[B
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/SignatureException;
+        }
+    .end annotation
+
+    .line 65344
+    :try_start_0
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+    invoke-interface {v0}, Lde/authada/org/bouncycastle/crypto/Signer;->generateSignature()[B
+
+    move-result-object v0
+    :try_end_0
+    .catch Lde/authada/org/bouncycastle/crypto/CryptoException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object v0
+
+    :catch_0
+    move-exception v0
+
+    new-instance v1, Ljava/security/SignatureException;
+
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {v1, v0}, Ljava/security/SignatureException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+.end method
+
+.method protected engineUpdate(B)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/SignatureException;
+        }
+    .end annotation
+
+    .line 65343
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+    invoke-interface {v0, p1}, Lde/authada/org/bouncycastle/crypto/Signer;->update(B)V
+
+    return-void
+.end method
+
+.method protected engineUpdate([BII)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/SignatureException;
+        }
+    .end annotation
+
+    .line 65342
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+    invoke-interface {v0, p1, p2, p3}, Lde/authada/org/bouncycastle/crypto/Signer;->update([BII)V
+
+    return-void
+.end method
+
+.method protected engineVerify([B)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/security/SignatureException;
+        }
+    .end annotation
+
+    .line 65341
+    iget-object v0, p0, Lde/authada/org/bouncycastle/jcajce/provider/asymmetric/edec/SignatureSpi;->signer:Lde/authada/org/bouncycastle/crypto/Signer;
+
+    invoke-interface {v0, p1}, Lde/authada/org/bouncycastle/crypto/Signer;->verifySignature([B)Z
+
+    move-result p1
+
+    return p1
+.end method

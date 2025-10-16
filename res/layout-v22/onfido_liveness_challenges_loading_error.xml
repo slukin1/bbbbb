@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/2131441601" ="fill_parent" ="wrap_content" ="?2130968589" 2130970294="@string/onfido_generic_back" 2130970295="?2130969586" 2130971343="@style/2132148968" />
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView ="fill_parent" ="fill_parent" ="@id/2131439140" ="@id/2131441601">
+        <LinearLayout ="center" ="vertical" ="fill_parent" ="fill_parent" ="20.0dip" ="20.0dip">
+            <ImageView ="center_horizontal" ="56.0dip" ="56.0dip" ="16.0dip" ="0.8" 2130971077="@drawable/onfido_error_circle" />
+            <TextView ="center" ="center_horizontal" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/onfido_video_capture_prompt_network_timeout_title" style="@style/2132148962" />
+            <TextView ="center" ="center_horizontal" ="wrap_content" ="wrap_content" android:text="@string/onfido_video_capture_prompt_network_timeout_detail" style="@style/2132148937" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedScrollView>
+    <include layout="@layout/onfido_watermark_layout" />
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131439140" ="fill_parent" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" ="@id/2131450333" ="@dimen/2131167223" 2130970348="@string/onfido_video_capture_prompt_button_primary_network_timeout" 2130970350="@null" />
+</RelativeLayout>

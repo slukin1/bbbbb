@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="60.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgLogo" ="32.0dip" ="32.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131442185" ="wrap_content" ="wrap_content" ="10.0dip" 2130969912="@id/2131443168" 2130969936="@id/imgLogo" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149463" />
+    <TextView ="@color/2131099778" android:id="@id/2131443168" ="wrap_content" ="wrap_content" ="2.0dip" ="10.0dip" 2130969911="2131438103" 2130969936="@id/imgLogo" 2130969940="@id/2131442185" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="10.0dip" 2130969912="@id/2131442691" 2130969917="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149463" />
+    <TextView ="@color/2131099778" android:id="@id/2131442691" ="wrap_content" ="wrap_content" ="2.0dip" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/tvAmount" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

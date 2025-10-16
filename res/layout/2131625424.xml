@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131443385" ="fill_parent" ="wrap_content" android:text="@string/placeholder" ="6.0dip" style="@style/2132149350" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" android:id="@id/2131435557" ="gone" ="wrap_content" ="wrap_content" ="4.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131445278" ="wrap_content" ="wrap_content" android:text="@string/market_coin_introduction_unfold" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433306" ="16.0dip" ="16.0dip" ="90.0" 2130971077="@drawable/2131237055" 2130971375="@color/2131099738" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232628" ="15.0dip" ="15.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437246" ="gone" ="24.0dip" ="24.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437247" ="161.0dip" ="160.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437246" 2130971077="@drawable/2131235189" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131437250" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/mpc_wallet_backup_google_drive_required" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437247" style="@style/2132149423" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131437249" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/mpc_wallet_backup_google_drive_required_backup" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437250" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450042" ="fill_parent" ="wrap_content" ="30.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437249">
+        <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131437245" ="gone" ="0.0dip" ="48.0dip" android:text="@string/mpc_wallet_backup_leave" ="15.0dip" 2130969173="8.0" 2130969918="@id/2131437248" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" 2130971472="2" />
+        <com.mpc.wallet.widget.uikit.KitButton android:id="@id/2131437248" ="0.0dip" ="48.0dip" android:text="@string/dwallet_ok" 2130969173="8.0" 2130969917="2131438103" 2130969928="2131440524" 2130969936="@id/2131437245" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

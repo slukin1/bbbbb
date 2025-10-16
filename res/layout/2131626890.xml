@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="center_vertical" ="vertical" ="@drawable/2131232782" ="fill_parent" ="fill_parent" ="0.95" ="5.0dip" ="5.0dip" ="15.0dip" ="15.0dip">
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" ="wrap_content" ="wrap_content">
+                <LinearLayout android:id="@id/linearLayoutCompatOpen" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_open_" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441286" style="@style/2132148759" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/linearLayoutCompatClose" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_close" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441248" style="@style/2132148759" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/linearLayoutCompatChg" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_chg" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441247" style="@style/2132148759" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space ="0.0dip" ="wrap_content" ="1.0" />
+            <LinearLayout ="vertical" ="wrap_content" ="wrap_content">
+                <LinearLayout android:id="@id/linearLayoutCompatHigh" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_high" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441272" style="@style/2132148759" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/linearLayoutCompatLow" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_low" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441278" style="@style/2132148759" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/linearLayoutCompatAmpl" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441372" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441238" style="@style/2132148759" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space ="0.0dip" ="wrap_content" ="1.0" />
+            <LinearLayout ="vertical" ="wrap_content" ="wrap_content">
+                <LinearLayout android:id="@id/linearLayoutCompatVol" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_vol" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/textViewVol" style="@style/2132148759" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/linearLayoutCompatTxn" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/kline_txn" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441325" style="@style/2132148759" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/linearLayoutCompatTime" style="@style/2132148756">
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441373" style="@style/2132148758" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131427966" style="@style/2132148759" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout ="horizontal" android:id="@id/2131432073" ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="end" ="center_vertical" ="start" android:id="@id/text_view_buy" ="wrap_content" ="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="end|center" ="end" android:id="@id/textViewSell" ="0.0dip" ="wrap_content" ="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

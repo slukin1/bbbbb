@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSBottomSheetHandleView ="center" android:id="@id/sns_divider" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@null" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/sns_bg_rounded_divider" />
+    <androidx.core.widget.NestedScrollView android:id="@id/sns_scroller" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" 2130969904="true" 2130969912="@id/sns_button" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_divider" 2130969942="0.0">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <com.sumsub.sns.core.widget.SNSH1TextView android:id="@id/sns_title" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" />
+            <com.sumsub.sns.core.widget.SNSBodyTextView android:id="@id/sns_text" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium_small" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_button" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</merge>

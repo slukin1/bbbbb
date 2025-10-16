@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector ="32.0dip" ="32.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="true" android:id="@id/2131438606" ="@drawable/2131235237" />
+    <item ="true" android:id="@id/2131429583" ="@drawable/2131235234" />
+    <item android:id="@id/2131450391" ="@drawable/2131235234" 2130971171="true" />
+    <item android:id="@id/2131449067" ="@drawable/2131235240" />
+    <transition ="@drawable/2131235238" ="@id/2131429583" ="@id/2131438606" />
+    <transition ="@drawable/2131235238" ="@id/2131450391" ="@id/2131438606" />
+    <transition ="@drawable/2131235239" ="@id/2131449067" ="@id/2131438606" />
+    <transition ="@drawable/2131235235" ="@id/2131438606" ="@id/2131429583" />
+    <transition ="@drawable/2131235236" ="@id/2131449067" ="@id/2131429583" />
+    <transition ="@drawable/2131235235" ="@id/2131438606" ="@id/2131450391" />
+    <transition ="@drawable/2131235242" ="@id/2131438606" ="@id/2131449067" />
+    <transition ="@drawable/2131235241" ="@id/2131429583" ="@id/2131449067" />
+</animated-selector>

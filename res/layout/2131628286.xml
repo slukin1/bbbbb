@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="@color/2131099807" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131102397" ="center_vertical" ="fill_parent" ="wrap_content" android:text="@string/c2c_follow_tips_title" ="@font/2131296273" ="5.0dip" style="@style/2132149454" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131102397" ="center_vertical" android:id="@id/2131432123" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_recent_ad_tip_1" ="8.0dip" ="@drawable/2131232409" ="@font/2131296274" ="26.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="@color/2131102397" ="center_vertical" android:id="@id/2131432124" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_recent_ad_tip_2" ="8.0dip" ="@drawable/2131232409" ="@font/2131296274" ="26.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

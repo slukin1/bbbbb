@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="8.0dip" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131444003" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/ocbs_pay_with_transfer_details" ="false" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgClock" ="16.0dip" ="16.0dip" ="7.0dip" ="@drawable/2131238208" 2130969937="@id/2131444003" 2130969940="@id/2131444003" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvPayWith" ="wrap_content" ="wrap_content" ="18.0dip" android:text="@string/ocbs_pay_within" ="false" ="4.0dip" 2130969911="@id/imgClock" 2130969936="@id/imgClock" 2130969940="@id/2131444003" 2130969941="@id/imgClock" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tvTime" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/placeholder" ="false" ="4.0dip" 2130969911="@id/tvPayWith" 2130969936="@id/tvPayWith" 2130969941="@id/tvPayWith" style="@style/2132149374" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428327" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="imgClock,tvPayWith,tvTime" />
+    <View android:id="@id/vLine" ="@color/2131099751" ="0.0dip" ="0.5dip" ="20.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428327" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436403" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="24.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/vLine">
+        <ImageView android:id="@id/2131431787" ="20.0dip" ="20.0dip" ="@null" ="8.0dip" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431789" ="wrap_content" ="fill_parent" ="false" style="@style/2132149446" />
+        <Space ="0.0dip" ="wrap_content" ="1.0" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131431780" ="wrap_content" ="fill_parent" ="200.0dip" ="1" ="false" 2130968700="@dimen/2131167704" 2130968701="@dimen/2131167690" 2130968704="1.0sp" 2130968705="2131449068" style="@style/2132149446" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131444976" ="0.0dip" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" android:text="@string/ocbs_inswitch_cash_payment_processing_tip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131436403" style="@style/2132149350" />
+    <com.binance.ocbs.sdk.widgets.OcbsInswitchOfflinePayBarcodeView android:id="@id/2131428300" ="0.0dip" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131444976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

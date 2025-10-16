@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="wrap_content" 2130969941="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440079" ="fill_parent" ="wrap_content" 2130970808="true" 2130970809="1.0" 2130970819="0.0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433961" ="fill_parent" ="wrap_content" ="fitXY" ="@null" 2130971077="@drawable/2131233486" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

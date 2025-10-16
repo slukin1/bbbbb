@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131430088" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="fill_parent" ="1.0dip" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/tv_title" 2130969937="2131438103" 2130969941="@id/tv_title" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="visible" ="wrap_content" ="44.0dip" android:text="@string/order_history" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440610" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434806" ="20.0dip" ="20.0dip" ="15.0dip" ="14.0dip" 2130969918="@id/2131434724" 2130969940="@id/tv_title" 2130971077="@drawable/2131237994" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434724" ="20.0dip" ="20.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/tv_title" 2130971077="@drawable/2131237353" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="visible" ="0.0dip" ="38.0dip" ="5.0dip" 2130969918="@id/2131434806" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/tv_channel" ="gone" ="wrap_content" ="38.0dip" android:text="@string/lend_pending" ="15.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099764" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131448439" ="gone" ="wrap_content" ="38.0dip" android:text="@string/_complete" ="15.0dip" 2130969306="@drawable/2131237003" 2130969312="@color/2131099764" 2130969911="@id/tv_channel" 2130969936="@id/tv_channel" 2130969941="@id/tv_channel" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428414" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tabLayout,tv_channel" />
+    <View android:id="@id/2131449528" ="@color/2131099751" ="0.0dip" ="1.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428414" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131440614" ="0.0dip" ="wrap_content" ="10.0dip" ="10.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449528" />
+    <LinearLayout ="vertical" android:id="@id/2131436593" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131440614">
+        <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437981" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969839="@drawable/2131237055" 2130969840="@string/c2c_have_unread_msg_tips" 2130969843="1" />
+        <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437926" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969839="@drawable/2131237055" 2130969840="@string/c2c_have_unread_msg_tips" 2130969843="1" />
+    </LinearLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131436593" />
+</androidx.constraintlayout.widget.ConstraintLayout>

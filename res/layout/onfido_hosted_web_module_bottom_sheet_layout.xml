@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131432940" ="@drawable/onfido_hosted_web_module_bottom_sheet_bg" ="fill_parent" ="fill_parent" ="200.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441660" ="16.0dip" ="fill_parent" ="wrap_content">
+        <View android:id="@id/2131431091" ="@drawable/onfido_hosted_web_module_bottom_sheet_header" ="50.0dip" ="3.0dip" ="0.99" 2130969911="@id/2131429154" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131429154" />
+        <ImageButton android:id="@id/2131429154" ="@drawable/onfido_hosted_web_module_close_button_bg" ="4.0dip" ="wrap_content" ="wrap_content" ="@drawable/onfido_hosted_web_module_close_button_ic" 2130969917="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.progressindicator.CircularProgressIndicator ="center" android:id="@id/2131438688" ="wrap_content" ="wrap_content" style="@style/2132148898" />
+    <WebView android:id="@id/2131437842" ="#fffcfcfd" ="fill_parent" ="fill_parent" 2130969940="@id/2131429154" />
+</LinearLayout>

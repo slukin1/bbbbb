@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" ="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="vertical" android:id="@id/2131432112" ="fill_parent" ="0.0dip" ="1.0">
+        <View android:id="@id/2131432115" ="fill_parent" ="fill_parent" style="@style/2132148650" />
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131438675" ="26.0dip" ="26.0dip" 2130970039="true" 2130970050="true" />
+        <include layout="@layout/2131627529" />
+    </FrameLayout>
+    <View android:id="@id/2131435108" ="@color/2131099751" ="visible" ="fill_parent" ="0.5dip" ="2.0dip" />
+    <com.finance.marketdetail.feature.skyline.view.KlineOptionViewHorizontal android:id="@id/2131435100" ="fill_parent" ="33.0dip" />
+</LinearLayout>

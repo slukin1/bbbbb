@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.toolbar.KitMiniProgramToolbar android:id="@id/2131437080" ="fill_parent" ="44.0dip" app:2130971384="@string/eu_futures_title" />
+    <FrameLayout android:id="@id/2131431960" ="fill_parent" ="fill_parent" ="@id/2131437080" />
+    <FrameLayout android:id="@id/2131431928" ="@color/2131099685" ="true" ="true" ="fill_parent" ="wrap_content" ="true" />
+</RelativeLayout>

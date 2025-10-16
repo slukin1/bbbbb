@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="@color/2131099778" ="center_vertical" ="center_vertical" android:id="@id/2131438604" ="wrap_content" ="wrap_content" ="Coming Soon" ="5.0dip" 2130971077="@drawable/2131234345" />
+    <TextView ="@color/2131099778" ="center_vertical" ="center_vertical" android:id="@id/2131438605" ="wrap_content" ="wrap_content" android:text="Warming" ="10.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099787" android:id="@id/2131430795" ="@drawable/2131236004" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="00D" ="#26f0b90b" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="center_vertical" ="center_vertical" android:id="@id/2131430183" ="wrap_content" ="wrap_content" android:text=" : " />
+    <TextView ="@color/2131099787" android:id="@id/2131432948" ="@drawable/2131236004" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="00H" ="#26f0b90b" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="center_vertical" ="center_vertical" android:id="@id/2131430184" ="wrap_content" ="wrap_content" android:text=" : " />
+    <TextView ="@color/2131099787" android:id="@id/2131437083" ="@drawable/2131236004" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="00M" ="#26f0b90b" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="center_vertical" ="center_vertical" android:id="@id/2131430185" ="wrap_content" ="wrap_content" android:text=" : " />
+    <TextView ="@color/2131099787" android:id="@id/2131439866" ="@drawable/2131236004" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" android:text="00S" ="#26f0b90b" style="@style/2132149384" />
+</LinearLayout>

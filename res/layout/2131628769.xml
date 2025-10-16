@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131436299" ="@drawable/2131233499" ="12.0dip" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/tvTime" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="16.0dip" ="16.0dip" ="@null" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443996" ="fill_parent" ="wrap_content" ="false" ="4.0dip" style="@style/2132149361" />
+</androidx.appcompat.widget.LinearLayoutCompat>

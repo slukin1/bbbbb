@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131429742" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="#00000000" ="fill_parent" ="0.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131437137" ="fill_parent" ="fill_parent" ="@id/2131440610">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427921" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/2131430176" ="#00000000" ="fill_parent" ="wrap_content" 2130969149="@color/2131103064" 2130969974="2131439795|@null">
+                <androidx.appcompat.widget.Toolbar android:id="@id/2131436863" ="fill_parent" ="44.0dip" ="15.0dip" ="15.0dip" ="0.0dip" 2130969902="2131438344" 2130971396="@color/2131099764" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429687" ="fill_parent" ="wrap_content" ="44.0dip">
+                    <com.binance.base.component.PlaceholderView android:id="@id/2131438750" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="40.0dip" ="@string/futures_copy_trading_restart_tips" 2130969866="@dimen/2131166184" 2130969867="@dimen/2131166184" style="@style/2132148650" />
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.fragment.app.FragmentContainerView android:id="@id/2131432172" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" style="@style/2132148650" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435711" ="15.0dip" ="15.0dip" ="fill_parent" ="44.0dip" ="@id/2131440610" 2130969941="2131438103" style="@style/2132148650">
+        <TextView ="@color/2131099764" android:id="@id/2131447070" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="44.0dip" ="@id/2131440610" ="10.0dip" ="10.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433698" ="?2130968587" ="5.0dip" ="30.0dip" ="30.0dip" ="centerInside" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434090" ="5.0dip" ="30.0dip" ="30.0dip" ="centerInside" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238029" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434089" ="30.0dip" ="30.0dip" ="5.0dip" ="5.0dip" ="8.0dip" 2130969911="2131438103" 2130969918="@id/2131434090" 2130969941="2131438103" 2130971077="@drawable/2131238024" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.binance.base.component.PlaceholderView android:id="@id/2131438749" ="fill_parent" ="wrap_content" ="true" />
+</RelativeLayout>

@@ -1,0 +1,870 @@
+.class public final Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem$Creator;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u000f\n\u0002\u0010\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u001a\u0008\u0086\u0008\u0018\u00002\u00020\u0001BC\u0012\u0008\u0008\u0002\u0010\u0003\u001a\u00020\u0002\u0012\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u0002\u0012\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0002\u0012\u0008\u0008\u0002\u0010\u0007\u001a\u00020\u0006\u0012\u0008\u0008\u0002\u0010\u0008\u001a\u00020\u0002\u0012\u0008\u0008\u0002\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0010\u0010\r\u001a\u00020\u0002H\u00c7\u0003\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0010\u0010\u000f\u001a\u00020\u0002H\u00c7\u0003\u00a2\u0006\u0004\u0008\u000f\u0010\u000eJ\u0010\u0010\u0010\u001a\u00020\u0002H\u00c7\u0003\u00a2\u0006\u0004\u0008\u0010\u0010\u000eJ\u0010\u0010\u0011\u001a\u00020\u0006H\u00c7\u0003\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u0010\u0010\u0013\u001a\u00020\u0002H\u00c7\u0003\u00a2\u0006\u0004\u0008\u0013\u0010\u000eJ\u0010\u0010\u0014\u001a\u00020\tH\u00c6\u0003\u00a2\u0006\u0004\u0008\u0014\u0010\u0015JL\u0010\u0016\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0003\u001a\u00020\u00022\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u00022\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u00022\u0008\u0008\u0002\u0010\u0007\u001a\u00020\u00062\u0008\u0008\u0002\u0010\u0008\u001a\u00020\u00022\u0008\u0008\u0002\u0010\n\u001a\u00020\tH\u00c7\u0001\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\r\u0010\u0018\u001a\u00020\t\u00a2\u0006\u0004\u0008\u0018\u0010\u0015J\u001a\u0010\u001b\u001a\u00020\u001a2\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0019H\u00d6\u0003\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u0010\u0010\u001d\u001a\u00020\tH\u00d6\u0001\u00a2\u0006\u0004\u0008\u001d\u0010\u0015J\u0010\u0010\u001e\u001a\u00020\u0002H\u00d7\u0001\u00a2\u0006\u0004\u0008\u001e\u0010\u000eJ\u001d\u0010!\u001a\u00020 2\u0006\u0010\u0003\u001a\u00020\u001f2\u0006\u0010\u0004\u001a\u00020\t\u00a2\u0006\u0004\u0008!\u0010\"R\"\u0010#\u001a\u00020\u00028\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008#\u0010$\u001a\u0004\u0008%\u0010\u000e\"\u0004\u0008&\u0010\'R\"\u0010(\u001a\u00020\u00028\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008(\u0010$\u001a\u0004\u0008)\u0010\u000e\"\u0004\u0008*\u0010\'R\"\u0010+\u001a\u00020\u00028\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008+\u0010$\u001a\u0004\u0008,\u0010\u000e\"\u0004\u0008-\u0010\'R\"\u0010.\u001a\u00020\u00068\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008.\u0010/\u001a\u0004\u00080\u0010\u0012\"\u0004\u00081\u00102R\"\u00103\u001a\u00020\u00028\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u00083\u0010$\u001a\u0004\u00084\u0010\u000e\"\u0004\u00085\u0010\'R\"\u00106\u001a\u00020\t8\u0007@\u0007X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u00086\u00107\u001a\u0004\u00088\u0010\u0015\"\u0004\u00089\u0010:"
+    }
+    d2 = {
+        "Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;",
+        "Landroid/os/Parcelable;",
+        "",
+        "p0",
+        "p1",
+        "p2",
+        "Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;",
+        "p3",
+        "p4",
+        "",
+        "p5",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)V",
+        "component1",
+        "()Ljava/lang/String;",
+        "component2",
+        "component3",
+        "component4",
+        "()Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;",
+        "component5",
+        "component6",
+        "()I",
+        "copy",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;",
+        "describeContents",
+        "",
+        "",
+        "equals",
+        "(Ljava/lang/Object;)Z",
+        "hashCode",
+        "toString",
+        "Landroid/os/Parcel;",
+        "",
+        "writeToParcel",
+        "(Landroid/os/Parcel;I)V",
+        "tagName",
+        "Ljava/lang/String;",
+        "getTagName",
+        "setTagName",
+        "(Ljava/lang/String;)V",
+        "tagLangKey",
+        "getTagLangKey",
+        "setTagLangKey",
+        "descLangKey",
+        "getDescLangKey",
+        "setDescLangKey",
+        "describeParams",
+        "Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;",
+        "getDescribeParams",
+        "setDescribeParams",
+        "(Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;)V",
+        "enDescribe",
+        "getEnDescribe",
+        "setEnDescribe",
+        "sort",
+        "I",
+        "getSort",
+        "setSort",
+        "(I)V"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private descLangKey:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "descLangKey"
+    .end annotation
+.end field
+
+.field private describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "describeParams"
+    .end annotation
+.end field
+
+.field private enDescribe:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "enDescribe"
+    .end annotation
+.end field
+
+.field private sort:I
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "sort"
+    .end annotation
+.end field
+
+.field private tagLangKey:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "tagLangKey"
+    .end annotation
+.end field
+
+.field private tagName:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "tagName"
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem$Creator;
+
+    invoke-direct {v0}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem$Creator;-><init>()V
+
+    check-cast v0, Landroid/os/Parcelable$Creator;
+
+    sput-object v0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 9
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/16 v7, 0x3f
+
+    const/4 v8, 0x0
+
+    move-object v0, p0
+
+    .line 65353
+    invoke-direct/range {v0 .. v8}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)V
+    .locals 0
+
+    .line 15
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 16
+    iput-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    .line 20
+    iput-object p2, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    .line 24
+    iput-object p3, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    .line 28
+    iput-object p4, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    .line 32
+    iput-object p5, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    .line 36
+    iput p6, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 13
+
+    and-int/lit8 v0, p7, 0x1
+
+    .line 15
+    const-string v1, ""
+
+    if-eqz v0, :cond_0
+
+    move-object v0, v1
+
+    goto :goto_0
+
+    :cond_0
+    move-object v0, p1
+
+    :goto_0
+    and-int/lit8 v2, p7, 0x2
+
+    if-eqz v2, :cond_1
+
+    move-object v2, v1
+
+    goto :goto_1
+
+    :cond_1
+    move-object v2, p2
+
+    :goto_1
+    and-int/lit8 v3, p7, 0x4
+
+    if-eqz v3, :cond_2
+
+    move-object v3, v1
+
+    goto :goto_2
+
+    :cond_2
+    move-object/from16 v3, p3
+
+    :goto_2
+    and-int/lit8 v4, p7, 0x8
+
+    if-eqz v4, :cond_3
+
+    .line 30
+    new-instance v4, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x0
+
+    const/4 v10, 0x0
+
+    const/16 v11, 0x1f
+
+    const/4 v12, 0x0
+
+    move-object v5, v4
+
+    invoke-direct/range {v5 .. v12}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    goto :goto_3
+
+    :cond_3
+    move-object/from16 v4, p4
+
+    :goto_3
+    and-int/lit8 v5, p7, 0x10
+
+    if-eqz v5, :cond_4
+
+    goto :goto_4
+
+    :cond_4
+    move-object/from16 v1, p5
+
+    :goto_4
+    and-int/lit8 v5, p7, 0x20
+
+    if-eqz v5, :cond_5
+
+    const/4 v5, 0x0
+
+    goto :goto_5
+
+    :cond_5
+    move/from16 v5, p6
+
+    :goto_5
+    move-object p1, p0
+
+    move-object p2, v0
+
+    move-object/from16 p3, v2
+
+    move-object/from16 p4, v3
+
+    move-object/from16 p5, v4
+
+    move-object/from16 p6, v1
+
+    move/from16 p7, v5
+
+    .line 15
+    invoke-direct/range {p1 .. p7}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public static synthetic copy$default(Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;IILjava/lang/Object;)Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+    .locals 4
+
+    and-int/lit8 p8, p7, 0x1
+
+    if-eqz p8, :cond_0
+
+    .line 65352
+    iget-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    :cond_0
+    and-int/lit8 p8, p7, 0x2
+
+    if-eqz p8, :cond_1
+
+    iget-object p2, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    :cond_1
+    move-object p8, p2
+
+    and-int/lit8 p2, p7, 0x4
+
+    if-eqz p2, :cond_2
+
+    iget-object p3, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    :cond_2
+    move-object v0, p3
+
+    and-int/lit8 p2, p7, 0x8
+
+    if-eqz p2, :cond_3
+
+    iget-object p4, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    :cond_3
+    move-object v1, p4
+
+    and-int/lit8 p2, p7, 0x10
+
+    if-eqz p2, :cond_4
+
+    iget-object p5, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    :cond_4
+    move-object v2, p5
+
+    and-int/lit8 p2, p7, 0x20
+
+    if-eqz p2, :cond_5
+
+    iget p6, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    :cond_5
+    move v3, p6
+
+    move-object p2, p0
+
+    move-object p3, p1
+
+    move-object p4, p8
+
+    move-object p5, v0
+
+    move-object p6, v1
+
+    move-object p7, v2
+
+    move p8, v3
+
+    invoke-virtual/range {p2 .. p8}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final component1()Ljava/lang/String;
+    .locals 1
+
+    .line 65351
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final component2()Ljava/lang/String;
+    .locals 1
+
+    .line 65350
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final component3()Ljava/lang/String;
+    .locals 1
+
+    .line 65349
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final component4()Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    return-object v0
+.end method
+
+.method public final component5()Ljava/lang/String;
+    .locals 1
+
+    .line 65347
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final component6()I
+    .locals 1
+
+    .line 65346
+    iget v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    return v0
+.end method
+
+.method public final copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+    .locals 8
+
+    .line 65345
+    new-instance v7, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+
+    move-object v0, v7
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    move-object v3, p3
+
+    move-object v4, p4
+
+    move-object v5, p5
+
+    move v6, p6
+
+    invoke-direct/range {v0 .. v6}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;Ljava/lang/String;I)V
+
+    return-object v7
+.end method
+
+.method public final describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    .line 65343
+    :cond_0
+    instance-of v1, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;
+
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    iget-object v3, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_5
+
+    return v2
+
+    :cond_5
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_6
+
+    return v2
+
+    :cond_6
+    iget v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    iget p1, p1, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    if-eq v1, p1, :cond_7
+
+    return v2
+
+    :cond_7
+    return v0
+.end method
+
+.method public final getDescLangKey()Ljava/lang/String;
+    .locals 1
+
+    .line 24
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getDescribeParams()Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+    .locals 1
+
+    .line 28
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    return-object v0
+.end method
+
+.method public final getEnDescribe()Ljava/lang/String;
+    .locals 1
+
+    .line 32
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getSort()I
+    .locals 1
+
+    .line 36
+    iget v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    return v0
+.end method
+
+.method public final getTagLangKey()Ljava/lang/String;
+    .locals 1
+
+    .line 20
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getTagName()Ljava/lang/String;
+    .locals 1
+
+    .line 16
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final hashCode()I
+    .locals 2
+
+    .line 65342
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    add-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public final setDescLangKey(Ljava/lang/String;)V
+    .locals 0
+
+    .line 24
+    iput-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setDescribeParams(Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;)V
+    .locals 0
+
+    .line 28
+    iput-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    return-void
+.end method
+
+.method public final setEnDescribe(Ljava/lang/String;)V
+    .locals 0
+
+    .line 32
+    iput-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setSort(I)V
+    .locals 0
+
+    .line 36
+    iput p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    return-void
+.end method
+
+.method public final setTagLangKey(Ljava/lang/String;)V
+    .locals 0
+
+    .line 20
+    iput-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setTagName(Ljava/lang/String;)V
+    .locals 0
+
+    .line 16
+    iput-object p1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 8
+
+    .line 65341
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    iget-object v1, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    iget-object v2, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    iget-object v4, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    iget v5, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    const-string v7, "CopyTradingLeadItem(tagName="
+
+    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", tagLangKey="
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", descLangKey="
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", describeParams="
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", enDescribe="
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", sort="
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v0, ")"
+
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 1
+
+    .line 65340
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagName:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->tagLangKey:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->descLangKey:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->describeParams:Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;
+
+    invoke-virtual {v0, p1, p2}, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingDescribeParams;->writeToParcel(Landroid/os/Parcel;I)V
+
+    iget-object p2, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->enDescribe:Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget p2, p0, Lcom/finance/copytrading/feature/portfolio/data/po/CopyTradingLeadItem;->sort:I
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    return-void
+.end method

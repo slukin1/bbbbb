@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_tips" ="fill_parent" ="wrap_content" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429058" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/ok" style="@style/2132148691" />
+</LinearLayout>

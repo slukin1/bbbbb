@@ -1,0 +1,76 @@
+.class public Lde/authada/org/bouncycastle/crypto/io/MacOutputStream;
+.super Ljava/io/OutputStream;
+
+
+# instance fields
+.field protected mac:Lde/authada/org/bouncycastle/crypto/Mac;
+
+
+# direct methods
+.method public constructor <init>(Lde/authada/org/bouncycastle/crypto/Mac;)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/crypto/io/MacOutputStream;->mac:Lde/authada/org/bouncycastle/crypto/Mac;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getMac()[B
+    .locals 3
+
+    .line 65353
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/io/MacOutputStream;->mac:Lde/authada/org/bouncycastle/crypto/Mac;
+
+    invoke-interface {v0}, Lde/authada/org/bouncycastle/crypto/Mac;->getMacSize()I
+
+    move-result v0
+
+    new-array v0, v0, [B
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/crypto/io/MacOutputStream;->mac:Lde/authada/org/bouncycastle/crypto/Mac;
+
+    const/4 v2, 0x0
+
+    invoke-interface {v1, v0, v2}, Lde/authada/org/bouncycastle/crypto/Mac;->doFinal([BI)I
+
+    return-object v0
+.end method
+
+.method public write(I)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65352
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/io/MacOutputStream;->mac:Lde/authada/org/bouncycastle/crypto/Mac;
+
+    int-to-byte p1, p1
+
+    invoke-interface {v0, p1}, Lde/authada/org/bouncycastle/crypto/Mac;->update(B)V
+
+    return-void
+.end method
+
+.method public write([BII)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 65351
+    iget-object v0, p0, Lde/authada/org/bouncycastle/crypto/io/MacOutputStream;->mac:Lde/authada/org/bouncycastle/crypto/Mac;
+
+    invoke-interface {v0, p1, p2, p3}, Lde/authada/org/bouncycastle/crypto/Mac;->update([BII)V
+
+    return-void
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131430563" ="?android:windowBackground" ="fill_parent" ="wrap_content" ="true" ="8.0dip" style="?2130968798">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton ="16.0sp" ="?2130970370" ="start" android:id="@id/title" ="16.0dip" ="fill_parent" ="wrap_content" android:text="@string/onfido_country_select_bottom_sheet_title" 2130969912="@id/2131430862" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132150064" />
+            <TextView ="@style/2132149309" android:id="@id/2131430862" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" android:text="@string/onfido_country_select_bottom_sheet_details" ="16.0dip" ="16.0dip" 2130969912="@id/close_button" 2130969917="2131438103" 2130969937="2131438103" />
+            <androidx.appcompat.widget.AppCompatButton ="16.0sp" ="?2130970370" android:id="@id/close_button" ="true" ="gone" ="wrap_content" ="wrap_content" android:text="@string/onfido_poa_capture_enlarge_close" ="true" ="ltr" 2130969911="2131438103" 2130969917="2131438103" style="@style/2132150064" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <com.onfido.android.sdk.capture.ui.widget.RecyclerView android:id="@id/2131430554" ="false" ="fill_parent" ="fill_parent" ="@id/2131430563" />
+</RelativeLayout>

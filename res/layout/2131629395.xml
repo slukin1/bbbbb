@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" android:id="@id/2131449666" ="@drawable/2131232603" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="#ffffffff" ="center" android:id="@id/2131447120" ="@drawable/2131236009" ="16.0dip" ="16.0dip" ="5.0dip" ="@font/2131296274" ="@color/2131099881" />
+    <TextView ="@color/2131099764" android:id="@id/tv_price" ="wrap_content" ="wrap_content" ="@font/2131296265" ="5.0dip" />
+</LinearLayout>

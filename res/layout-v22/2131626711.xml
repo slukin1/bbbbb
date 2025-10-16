@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435286" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131449710" ="fill_parent" ="44.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131430496" ="@null" ="fill_parent" ="0.0dip" 2130969912="@id/2131431940" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449710">
+        <com.google.android.material.appbar.AppBarLayout ="vertical" android:id="@id/2131427998" ="@null" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" android:id="@id/tv_title" ="15.0dip" ="6.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" 2130969974="2131439795" style="@style/2132149416" />
+            <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131439755" ="fill_parent" ="wrap_content" ="3.0dip" ="3.0dip" ="@dimen/2131166225" 2130968735="@color/2131099685" 2130968908="true" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130970759="@string/_search" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439662" ="none" ="fill_parent" ="fill_parent" ="never" 2130969901="@string/appbar_scrolling_view_behavior" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440082" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" 2130970808="false" 2130970809="1.0" 2130970819="0.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440122" ="fill_parent" ="432.0dip" ="fitXY" 2130971375="@color/2131099744" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView ="@color/2131099778" ="center" android:id="@id/tv_empty" ="gone" ="wrap_content" ="wrap_content" ="150.0dip" android:text="@string/no_data" ="28.0dip" 2130969314="@drawable/2131238419" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <FrameLayout ="bottom" android:id="@id/2131431940" ="@color/2131099685" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131429055" ="fill_parent" ="48.0dip" ="16.0dip" android:text="@string/_next" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

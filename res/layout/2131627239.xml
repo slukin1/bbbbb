@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131439486" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.trade.sdk.widgets.ShadowLayout2 ="end" android:id="@id/2131440030" ="5.0dip" ="5.0dip" ="310.0dip" ="wrap_content" ="5.0dip" ="5.0dip" ="13.0dip" 2130969987="#1a000000" 2130969989="5.0dip" 2130969990="true">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="@drawable/2131236734" ="none" ="fill_parent" ="wrap_content" ="never" />
+    </com.binance.trade.sdk.widgets.ShadowLayout2>
+</FrameLayout>

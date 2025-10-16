@@ -1,0 +1,116 @@
+.class public final Lcom/sumsub/sns/internal/features/data/model/common/p$c;
+.super Lcom/sumsub/sns/internal/features/data/model/common/p;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sumsub/sns/internal/features/data/model/common/p;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/sumsub/sns/internal/features/data/model/common/p$c$a;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0003\u0008\u00c7\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u0010\u0010\u0005\u001a\u00020\u0004H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J \u0010\u000b\u001a\u00020\n2\u0006\u0010\u0008\u001a\u00020\u00072\u0006\u0010\t\u001a\u00020\u0004H\u00d6\u0001\u00a2\u0006\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\r"
+    }
+    d2 = {
+        "Lcom/sumsub/sns/internal/features/data/model/common/p$c;",
+        "Lcom/sumsub/sns/internal/features/data/model/common/p;",
+        "<init>",
+        "()V",
+        "",
+        "describeContents",
+        "()I",
+        "Landroid/os/Parcel;",
+        "parcel",
+        "flags",
+        "",
+        "writeToParcel",
+        "(Landroid/os/Parcel;I)V",
+        "idensic-mobile-sdk-aar_defaultRelease"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lcom/sumsub/sns/internal/features/data/model/common/p$c;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final e:Lcom/sumsub/sns/internal/features/data/model/common/p$c;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 65354
+    new-instance v0, Lcom/sumsub/sns/internal/features/data/model/common/p$c;
+
+    invoke-direct {v0}, Lcom/sumsub/sns/internal/features/data/model/common/p$c;-><init>()V
+
+    sput-object v0, Lcom/sumsub/sns/internal/features/data/model/common/p$c;->e:Lcom/sumsub/sns/internal/features/data/model/common/p$c;
+
+    new-instance v0, Lcom/sumsub/sns/internal/features/data/model/common/p$c$a;
+
+    invoke-direct {v0}, Lcom/sumsub/sns/internal/features/data/model/common/p$c$a;-><init>()V
+
+    sput-object v0, Lcom/sumsub/sns/internal/features/data/model/common/p$c;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-direct {p0, v0}, Lcom/sumsub/sns/internal/features/data/model/common/p;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 0
+
+    const/4 p2, 0x1
+
+    .line 65352
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+
+    return-void
+.end method

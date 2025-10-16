@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/2131437467" ="fill_parent" ="0.0dip" ="16.0dip" 2130969912="@id/2131439280" 2130969923="2131450408" 2130969941="2131438103">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435194" ="fill_parent" ="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <RelativeLayout android:id="@id/2131439280" ="8.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969912="@id/2131428808" 2130969937="2131438103">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429513" ="wrap_content" ="wrap_content" ="false" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434135" ="5.0dip" ="5.0dip" ="gone" ="wrap_content" ="wrap_content" ="true" ="true" 2130971077="@drawable/2131237041" />
+        <TextView ="12.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_checkbox_agree_advertiser_terms" ="5.0dip" ="@id/2131434135" ="@id/2131429513" />
+    </RelativeLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131428808" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428806" ="0.0dip" ="wrap_content" android:text="@string/c2c_sheet_additional_kyv_method_btn_back" ="1.0" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428807" ="0.0dip" ="wrap_content" android:text="@string/c2c_sheet_request_verification_btn_continue" ="2.0" ="12.0dip" style="@style/2132148692" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

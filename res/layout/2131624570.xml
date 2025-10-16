@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233074" ="10.0dip" ="200.0dip" ="270.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/title" ="0.0dip" ="wrap_content" android:text="@string/content_highest_searched" ="1" 2130969918="@id/2131449118" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131449118" ="wrap_content" ="wrap_content" android:text="USDT" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149394" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131432041" ="fill_parent" ="wrap_content" ="4.0dip" 2130969467="2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

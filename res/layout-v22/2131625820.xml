@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131625507" />
+    <TextView ="@color/2131099764" android:id="@id/tv_symbol" ="0.0dip" ="wrap_content" ="20.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149446" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131448476" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/future_trade_analysis_unit_text" ="15.0dip" 2130969937="2131438103" 2130969940="@id/tv_symbol" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" ="center_horizontal" android:id="@id/2131446222" ="wrap_content" ="wrap_content" ="1" ="4.0dip" 2130969911="@id/2131448476" 2130969936="@id/2131448476" 2130969941="@id/2131448476" style="@style/2132149384" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="20.0dip" 2130969940="@id/2131446222" />
+    <TextView ="@color/2131099778" android:id="@id/2131446416" ="0.0dip" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/future_trade_analysis_PNL_tips" ="@dimen/2131166184" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131446417" ="wrap_content" ="wrap_content" ="4.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131446416" style="@style/2132149414" />
+    <TextView ="@color/2131099764" android:id="@id/2131446418" ="wrap_content" ="wrap_content" ="4.0dip" ="4.0dip" 2130969907="@id/2131446417" 2130969936="@id/2131446417" style="@style/2132149374" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432449" ="@color/2131099751" ="wrap_content" ="wrap_content" 2130969912="@id/2131449200" 2130969921="0.5" 2130969940="@id/2131446417" 2130969941="@id/2131449288" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131449288" ="@color/2131099751" ="fill_parent" ="0.5dip" ="25.0dip" 2130969940="@id/2131446417" />
+    <TextView ="@color/2131099778" android:id="@id/2131447575" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/future_trade_analysis_total_realized_profit" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131449288" style="@style/2132149384" />
+    <TextView ="@color/2131099851" android:id="@id/2131447574" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131447575" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131447565" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/future_trade_analysis_total_realized_loss" ="15.0dip" 2130969937="@id/2131432449" 2130969940="@id/2131449288" style="@style/2132149384" />
+    <TextView ="@color/2131099863" android:id="@id/2131447566" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969937="@id/2131432449" 2130969940="@id/2131447565" style="@style/2132149350" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131449227" ="@color/2131099751" ="fill_parent" ="0.5dip" ="14.0dip" 2130969940="@id/2131447566" />
+    <TextView ="@color/2131099778" android:id="@id/2131448241" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/future_trade_analysis_total_buys" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131449227" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131448240" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131448241" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131448291" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/future_trade_analysis_total_sells" ="15.0dip" 2130969937="@id/2131432449" 2130969940="@id/2131449227" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131448292" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969937="@id/2131432449" 2130969940="@id/2131448291" style="@style/2132149350" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131449266" ="@color/2131099751" ="fill_parent" ="0.5dip" ="14.0dip" 2130969940="@id/2131448292" />
+    <TextView ="@color/2131099778" android:id="@id/2131445708" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/future_trade_analysis_average_buy_price" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131449266" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131445707" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131445708" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131445714" ="wrap_content" ="wrap_content" ="13.0dip" android:text="@string/future_trade_analysis_average_sell_price" ="15.0dip" 2130969937="@id/2131432449" 2130969940="@id/2131449266" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131445713" ="wrap_content" ="wrap_content" ="5.0dip" ="15.0dip" 2130969937="@id/2131432449" 2130969940="@id/2131445714" style="@style/2132149350" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131449200" ="@color/2131099751" ="fill_parent" ="0.5dip" ="14.0dip" 2130969940="@id/2131445713" />
+    <View android:id="@id/2131449292" ="@color/2131099751" ="0.5dip" ="0.0dip" 2130969912="@id/2131449200" 2130969937="@id/2131432449" 2130969940="@id/2131449288" />
+    <TextView ="@color/2131099778" ="start" android:id="@id/2131446777" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/future_trade_analysis_period_tips_notice" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449200" style="@style/2132149384" />
+    <ViewStub android:id="@id/2131449949" ="@layout/2131626118" ="@id/2131449949" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="@id/divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

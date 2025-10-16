@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435620" layout="@layout/2131625487" />
+    <com.finance.commonbusiness.framework.widget.treemap.view.FutureMarketPairTreeMapView android:id="@id/2131441903" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" ="15.0dip" 2130971399="@color/2131101109" 2130971400="@dimen/2131166247" 2130971401="1.0dip" 2130971402="@color/2131103185" 2130971403="@dimen/2131166179" 2130971404="@dimen/2131166170" 2130971405="14.5" 2130971406="@color/2131103185" 2130971408="@dimen/2131166200" 2130971409="@dimen/2131166170" 2130971410="7.5" />
+</LinearLayout>

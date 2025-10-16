@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.copytrading.framework.widget.CopyTradingDropDown android:id="@id/2131430797" ="@drawable/2131236699" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439678" ="fill_parent" ="0.0dip" ="10.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969940="@id/2131430797" 2130969962="@dimen/2131166153" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout android:id="@id/2131435622" ="gone" ="fill_parent" ="wrap_content" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_records_found" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

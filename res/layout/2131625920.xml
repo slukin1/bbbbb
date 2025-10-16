@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430008" ="15.0dip" ="42.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="0.0dip" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/_filter" 2130969911="@id/tv_cancel" 2130969917="@id/2131432449" 2130969937="@id/2131432449" 2130969941="@id/tv_cancel" style="@style/2132149425" />
+    <ImageView android:id="@id/tv_cancel" ="20.0dip" ="20.0dip" ="4.0dip" ="@null" ="19.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233836" />
+    <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131448000" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/symbol" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/tv_title" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131428506" ="fill_parent" ="0.5dip" ="10.0dip" 2130969937="2131438103" 2130969940="@id/2131448000" />
+    <TextView ="@color/2131099764" android:id="@id/2131447998" ="@drawable/2131232789" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="10.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131428506" style="@style/2132149446" />
+    <ImageView android:id="@id/2131434884" ="wrap_content" ="wrap_content" ="@null" ="14.0dip" 2130969911="@id/2131447998" 2130969917="@id/2131447998" 2130969941="@id/2131447998" 2130971077="@drawable/2131238546" 2130971375="@color/2131099777" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131444315" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/future_trade_analysis_recent_text" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/2131447998" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434108" ="20.0dip" ="20.0dip" ="@null" ="15.0dip" 2130969911="@id/2131444315" 2130969917="2131438103" 2130969941="@id/2131444315" 2130971077="@drawable/2131237186" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131431916" ="visible" ="fill_parent" ="wrap_content" 2130969467="0" 2130969468="2131450408" 2130969937="2131438103" 2130969940="@id/2131444315" 2130970841="2131437069" />
+    <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131448481" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/future_trade_analysis_unit_text" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/2131431916" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131428507" ="fill_parent" ="0.5dip" ="10.0dip" 2130969937="2131438103" 2130969940="@id/2131448481" />
+    <TextView ="14.0sp" ="@drawable/2131234049" android:id="@id/2131428499" ="@drawable/2131234047" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="15.0dip" ="@font/2131296265" ="10.0dip" ="10.0dip" 2130969937="2131438103" 2130969940="@id/2131428507" />
+    <TextView ="14.0sp" ="@drawable/2131234049" android:id="@id/2131428501" ="@drawable/2131234047" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="@font/2131296265" ="10.0dip" ="10.0dip" ="20.0dip" 2130969936="@id/2131428499" 2130969941="@id/2131428499" />
+    <TextView ="16.0sp" ="@color/2131099778" android:id="@id/2131447350" ="wrap_content" ="wrap_content" ="31.0dip" android:text="@string/future_trade_analysis_period" ="@font/2131296265" 2130969937="2131438103" 2130969940="@id/2131428499" />
+    <com.major.android.uikit.divider.KitDivider android:id="@id/2131428505" ="fill_parent" ="0.5dip" ="10.0dip" 2130969937="2131438103" 2130969940="@id/2131447350" />
+    <com.finance.futures.common.framework.widget.FuturesTradeAnalysisDatePickerPeriodView android:id="@id/2131428497" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" 2130969940="@id/2131428505" />
+    <TextView ="@color/2131099778" android:id="@id/2131447349" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/future_trade_analysis_period_tips" 2130969937="2131438103" 2130969940="@id/2131428497" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432449" ="@color/2131099751" ="wrap_content" ="wrap_content" 2130969921="0.48" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428494" ="0.0dip" ="42.0dip" ="65.0dip" android:text="@string/reset" ="7.5dip" 2130969173="4" 2130969917="@id/2131432449" 2130969937="2131438103" 2130969940="@id/2131447349" 2130970889="1" 2130971472="2" />
+    <com.major.android.uikit.button.KitButton android:id="@id/2131428495" ="0.0dip" ="42.0dip" android:text="@string/_search" ="7.5dip" ="15.0dip" 2130969173="4" 2130969917="2131438103" 2130969936="@id/2131432449" 2130969941="@id/2131428494" 2130970889="1" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

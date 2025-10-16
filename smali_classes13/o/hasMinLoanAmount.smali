@@ -1,0 +1,38 @@
+.class public final synthetic Lo/hasMinLoanAmount;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic e:Lcom/fairy/lite/biz/services/LiteServicesFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/fairy/lite/biz/services/LiteServicesFragment;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/hasMinLoanAmount;->e:Lcom/fairy/lite/biz/services/LiteServicesFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/hasMinLoanAmount;->e:Lcom/fairy/lite/biz/services/LiteServicesFragment;
+
+    invoke-static {v0}, Lcom/fairy/lite/biz/services/LiteServicesFragment;->c(Lcom/fairy/lite/biz/services/LiteServicesFragment;)Lo/NestmclearMinAmount;
+
+    move-result-object v0
+
+    return-object v0
+.end method

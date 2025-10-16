@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449962" ="fill_parent" ="44.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="?2130968587" ="visible" ="50.0dip" ="fill_parent" ="@null" ="15.0dip" ="15.0dip" ="true" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441604" ="20.0dip" ="fill_parent" ="centerInside" ="@null" 2130969918="@id/2131441610" 2130969928="2131438085" 2130969937="2131438103" />
+        <TextView ="@color/2131099764" ="end" ="center" ="center" android:id="@id/2131441610" ="wrap_content" ="fill_parent" ="true" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131441604" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131449961" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131449962" 2130970325="@drawable/2131238480" 2130970863="@null" />
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131439867" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131449961" 2130970325="@drawable/2131238480" 2130970863="@null" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428492" ="0.0dip" ="0.0dip" 2130969912="@id/2131428758" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439867" 2130971098="false" 2130971100="true">
+        <androidx.core.widget.NestedScrollView android:id="@id/2131449958" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" android:id="@id/2131428265" ="fill_parent" ="wrap_content" 2130969331="@dimen/2131166153">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                    <TextView ="@color/2131099764" android:id="@id/tvTotal" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/lite_ms_funds_total_balance" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434164" ="gone" ="16.0dip" ="16.0dip" ="2.0dip" 2130969911="@id/tvTotal" 2130969936="@id/tvTotal" 2130969941="@id/tvTotal" 2130971077="@drawable/2131237313" 2130971375="@color/2131099785" />
+                    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131445108" ="0.0dip" ="wrap_content" ="5.0dip" 2130968639="2131428430" 2130969468="2131450408" 2130969937="@id/tvTotal" 2130969940="@id/tvTotal">
+                        <TextView ="32.0sp" ="@color/2131099764" android:id="@id/tvTotalAmount" ="wrap_content" ="wrap_content" android:text="0.00" ="1" ="@font/2131296275" ="7.0dip" 2130969937="2131438103" 2130969940="@id/tvTotal" />
+                    </com.google.android.flexbox.FlexboxLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <include android:id="@id/2131450123" ="gone" layout="@layout/2131630089" />
+                <androidx.compose.ui.platform.ComposeView android:id="@id/2131441822" ="fill_parent" ="wrap_content" />
+                <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131432893" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+                    <TextView ="@color/2131099764" ="end" android:id="@id/2131432903" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_balance_history" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+                    <TextView android:id="@id/2131432904" ="wrap_content" ="wrap_content" android:text="@string/account_activity_status_array1" 2130969911="@id/2131432903" 2130969918="@id/2131432894" 2130969941="@id/2131432903" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432894" ="16.0dip" ="16.0dip" 2130969911="@id/2131432903" 2130969917="2131438103" 2130969941="@id/2131432903" 2130971077="@drawable/2131237003" 2130971375="@color/2131099785" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/2131432889" ="fill_parent" ="wrap_content" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.core.widget.NestedScrollView>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <LinearLayout android:id="@id/2131428758" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" 2130969911="2131438103">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428757" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/wallet_ms_add_crypto_button_title" style="@style/2132148691" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

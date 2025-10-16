@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131428461" ="fill_parent" ="fill_parent" ="fitXY" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/contentLayout" ="20.0dip" ="20.0dip" ="fill_parent" ="wrap_content" ="30.0dip" 2130969911="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131099764" android:id="@id/2131441558" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_transition_welcome_to" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149347" />
+        <ImageView android:id="@id/2131436732" ="200.0dip" ="40.0dip" ="17.0dip" 2130969937="2131438103" 2130969940="@id/2131441558" 2130971077="@drawable/2131234689" />
+        <TextView ="32.0sp" ="@color/2131099764" android:id="@id/2131449315" ="wrap_content" ="wrap_content" ="10.0dip" 2130969911="@id/2131436732" 2130969936="@id/2131436732" style="@style/2132149347" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131438024" ="@drawable/2131236021" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131438029" ="wrap_content" ="wrap_content" android:text="@string/_filter" ="14.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131438026" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/wallet_spot_statements_tip" ="2" ="ltr" style="@style/2132149384" />
+    <ScrollView ="none" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/2131438022" ="wrap_content" ="wrap_content" ="14.0dip" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131438021" ="visible" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" 2130969284="@drawable/2131238764" 2130969467="0" 2130969468="2131450408" 2130970841="2131437069" />
+            <TextView ="@color/2131099778" android:id="@id/2131438033" ="gone" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131438025" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" 2130969284="@drawable/2131238764" 2130969467="0" 2130969468="2131450408" 2130970841="2131437069" />
+            <TextView ="@color/2131099778" android:id="@id/2131438019" ="gone" ="wrap_content" ="wrap_content" android:text="@string/date" style="@style/2132149384" />
+            <com.major.android.uikit2.datepicker.KitPeriodView android:id="@id/2131438020" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="16.0dip" 2130971414="@string/to" />
+            <TextView ="@color/2131099778" android:id="@id/2131438028" ="gone" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131438032" ="@drawable/2131236009" ="gone" ="fill_parent" ="48.0dip" ="10.0dip" ="@color/2131099744">
+                <TextView ="@color/2131099764" android:id="@id/2131431832" ="0.0dip" ="wrap_content" ="1.0" ="10.0dip" style="@style/2132149448" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431082" ="20.0dip" ="20.0dip" ="15.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <com.google.android.flexbox.FlexboxLayout android:id="@id/2131438027" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" 2130969284="@drawable/2131238764" 2130969467="0" 2130969468="2131450408" 2130970841="2131437069" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436508" ="gone" ="fill_parent" ="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/earn_dates" style="@style/2132149384" />
+                <com.major.android.uikit2.datepicker.KitPeriodView android:id="@id/2131438036" ="fill_parent" ="wrap_content" ="10.0dip" ="true" ="@id/2131438014" 2130971414="@string/to" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView ="@color/2131099778" android:id="@id/2131438016" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/ms_label_coin" style="@style/2132149384" />
+            <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131438017" ="@drawable/2131236009" ="fill_parent" ="48.0dip" ="10.0dip" ="@color/2131099744">
+                <TextView ="@color/2131099764" android:id="@id/2131438031" ="0.0dip" ="wrap_content" ="1.0" ="10.0dip" style="@style/2132149448" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438015" ="20.0dip" ="20.0dip" ="15.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+            </LinearLayout>
+            <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="30.0dip" ="15.0dip">
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131438023" ="0.0dip" ="40.0dip" android:text="@string/reset" ="1.0" 2130971472="2" style="@style/2132148697" />
+                <Space ="15.0dip" ="fill_parent" />
+                <com.major.android.uikit2.button.KitButton android:id="@id/2131438018" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" style="@style/2132148692" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

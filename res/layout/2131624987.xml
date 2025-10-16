@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="false" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131437106" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+        <include android:id="@id/2131432917" ="fill_parent" ="wrap_content" ="30.0dip" layout="@layout/2131624989" />
+        <include android:id="@id/2131430877" ="gone" ="fill_parent" ="wrap_content" ="9.0dip" layout="@layout/2131624988" />
+    </FrameLayout>
+    <com.market.dashboard.chart.MoneyFlowPieChart android:id="@id/2131438341" ="fill_parent" ="180.0dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437106" />
+    <include android:id="@id/2131436833" ="fill_parent" ="245.0dip" 2130969911="@id/2131438341" 2130969941="@id/2131438341" layout="@layout/2131624953" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437105" ="gone" ="fill_parent" ="wrap_content" ="22.0dip" 2130969937="2131438103" 2130969940="@id/2131438341">
+        <View android:id="@id/2131428451" ="fill_parent" ="0.0dip" ="12.0dip" 2130969911="2131438103" 2130969940="@id/2131444595" />
+        <View android:id="@id/2131431037" ="@color/2131100852" ="fill_parent" ="0.5dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvSmallOrders" />
+        <TextView android:id="@id/tvLargeOrders" ="24.0dip" ="100.0dip" android:text="@string/margin_large_orders" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131444595" style="@style/2132148569" />
+        <TextView android:id="@id/tvMediumOrders" ="12.0dip" ="100.0dip" android:text="@string/margin_medium_orders" 2130969937="@id/tvLargeOrders" 2130969940="@id/tvLargeOrders" style="@style/2132148569" />
+        <TextView android:id="@id/tvSmallOrders" ="12.0dip" ="100.0dip" android:text="@string/margin_small_orders" 2130969937="@id/tvLargeOrders" 2130969940="@id/tvMediumOrders" style="@style/2132148569" />
+        <TextView android:id="@id/tvTotal" ="8.0dip" ="8.0dip" ="100.0dip" android:text="@string/margin_total_up" 2130969911="2131438103" 2130969937="@id/tvLargeOrders" 2130969940="@id/2131431037" style="@style/2132148569" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/2131428328" ="wrap_content" ="wrap_content" 2130968759="2131439230" 2130969125="tvLargeOrders, tvMediumOrders, tvSmallOrders, tvTotal" />
+        <TextView ="13.0sp" ="end" android:id="@id/2131442395" ="0.0dip" 2130969918="@id/2131444595" 2130969936="@id/2131428328" 2130969941="2131438103" style="@style/2132148568" />
+        <TextView ="13.0sp" ="end" android:id="@id/2131444595" ="0.0dip" 2130969918="@id/2131443338" 2130969936="@id/2131442395" 2130969941="@id/2131442395" style="@style/2132148568" />
+        <TextView ="13.0sp" ="end" android:id="@id/2131443338" ="0.0dip" android:text="@string/margin_inflow" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131444595" 2130969941="@id/2131444595" style="@style/2132148568" />
+        <TextView ="@color/2131099851" ="end" android:id="@id/2131443473" ="0.0dip" 2130969918="@id/2131443476" 2130969936="@id/2131428328" 2130969941="@id/tvLargeOrders" style="@style/2132148570" />
+        <TextView ="@color/2131099863" ="end" android:id="@id/2131443476" ="0.0dip" 2130969918="@id/2131443474" 2130969936="@id/2131443473" 2130969941="@id/2131443473" style="@style/2132148570" />
+        <TextView ="end" android:id="@id/2131443474" ="0.0dip" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131443476" 2130969941="@id/2131443473" style="@style/2132148570" />
+        <TextView ="@color/2131099851" ="end" android:id="@id/2131443735" ="0.0dip" 2130969918="@id/2131443738" 2130969936="@id/2131428328" 2130969941="@id/tvMediumOrders" style="@style/2132148570" />
+        <TextView ="@color/2131099863" ="end" android:id="@id/2131443738" ="0.0dip" 2130969918="@id/2131443736" 2130969936="@id/2131443735" 2130969941="@id/2131443735" style="@style/2132148570" />
+        <TextView ="end" android:id="@id/2131443736" ="0.0dip" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131443738" 2130969941="@id/2131443735" style="@style/2132148570" />
+        <TextView ="@color/2131099851" ="end" android:id="@id/2131444690" ="0.0dip" 2130969918="@id/2131444693" 2130969936="@id/2131428328" 2130969941="@id/tvSmallOrders" style="@style/2132148570" />
+        <TextView ="@color/2131099863" ="end" android:id="@id/2131444693" ="0.0dip" 2130969918="@id/2131444691" 2130969936="@id/2131444690" 2130969941="@id/2131444690" style="@style/2132148570" />
+        <TextView ="end" android:id="@id/2131444691" ="0.0dip" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131444693" 2130969941="@id/2131444690" style="@style/2132148570" />
+        <TextView ="@color/2131099851" ="end" android:id="@id/2131445078" ="0.0dip" 2130969918="@id/2131445131" 2130969936="@id/2131428328" 2130969941="@id/tvTotal" style="@style/2132148570" />
+        <TextView ="@color/2131099863" ="end" android:id="@id/2131445131" ="0.0dip" 2130969918="@id/2131445099" 2130969936="@id/2131445078" 2130969941="@id/2131445078" style="@style/2132148570" />
+        <TextView ="end" android:id="@id/2131445099" ="0.0dip" ="12.0dip" 2130969917="2131438103" 2130969936="@id/2131445131" 2130969941="@id/2131445078" style="@style/2132148570" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

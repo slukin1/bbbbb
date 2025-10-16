@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="130.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434371" ="fill_parent" ="fill_parent" ="fitXY" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434397" ="56.0dip" ="56.0dip" ="fitXY" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235690" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445879" ="wrap_content" ="wrap_content" android:text="@string/card_card_wallet" ="1" ="16.0dip" 2130969905="true" 2130969912="@id/2131445877" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131445877" ="0.0dip" ="wrap_content" ="2.0dip" android:text="@string/payment_home_no_card_tip" ="2" ="10.0dip" 2130969905="true" 2130969912="@id/2131445876" 2130969918="@id/2131434397" 2130969937="@id/2131445879" 2130969940="@id/2131445879" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131445876" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/payment_home_get_yours_now" ="1" 2130969905="true" 2130969911="2131438103" 2130969937="@id/2131445879" 2130969940="@id/2131445877" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

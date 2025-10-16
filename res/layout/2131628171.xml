@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView android:id="@id/2131429302" ="0.0dip" ="0.0dip" ="4.0dip" 2130968912="4.0dip" 2130968914="0.0dip" 2130969911="2131438103" 2130969916="h,1:1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971180="#ffd8d9df" 2130971181="1.0dip">
+        <LinearLayout ="vertical" android:id="@id/2131433138" ="fill_parent" ="fill_parent">
+            <ImageView android:id="@id/2131433135" ="#ff989cad" ="fill_parent" ="0.0dip" ="centerInside" ="1.0" ="@string/pi2_document_captured_image" ="yes" 2130969912="@id/2131431814" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <TextView ="middle" android:id="@id/2131431814" ="12.0dip" ="8.0dip" ="12.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="true" ="Filename" ="yes" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433135" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/2131436709" ="wrap_content" ="wrap_content" ="100" ="2.0dip" 2130969911="@id/2131429302" 2130969917="@id/2131429302" 2130969937="@id/2131429302" 2130969941="@id/2131429302" />
+    <com.withpersona.sdk2.inquiry.shared.ui.ThemeableLottieAnimationView android:id="@id/2131439152" ="28.0dip" ="48.0dip" ="48.0dip" ="8.0dip" ="@string/pi2_document_remove_image" ="28.0dip" ="2.0dip" 2130968733="@null" 2130969917="@id/2131429302" 2130969941="@id/2131429302" />
+</androidx.constraintlayout.widget.ConstraintLayout>

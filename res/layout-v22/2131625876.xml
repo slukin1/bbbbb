@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" android:id="@id/2131443538" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/limit_order" ="@dimen/2131166188" 2130969918="@id/2131439761" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439761" ="wrap_content" ="wrap_content" 2130969911="@id/2131443538" 2130969917="2131438103" 2130969936="@id/2131443538" 2130969941="@id/2131443538" />
+        <TextView ="@color/2131099764" android:id="@id/2131443689" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/market_order" ="@dimen/2131166188" 2130969918="@id/2131439762" 2130969937="2131438103" 2130969940="@id/2131443538" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439762" ="wrap_content" ="wrap_content" 2130969911="@id/2131443689" 2130969917="2131438103" 2130969936="@id/2131443689" 2130969941="@id/2131443689" />
+        <TextView ="@color/2131099764" android:id="@id/2131444791" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/stop_limit_order" ="@dimen/2131166188" 2130969918="@id/2131439765" 2130969937="2131438103" 2130969940="@id/2131443689" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439765" ="wrap_content" ="wrap_content" 2130969911="@id/2131444791" 2130969917="2131438103" 2130969936="@id/2131444791" 2130969941="@id/2131444791" />
+        <TextView ="@color/2131099764" android:id="@id/2131444795" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/stop_market_order" ="@dimen/2131166188" 2130969918="@id/2131439766" 2130969937="2131438103" 2130969940="@id/2131444791" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439766" ="wrap_content" ="wrap_content" 2130969911="@id/2131444795" 2130969917="2131438103" 2130969936="@id/2131444795" 2130969941="@id/2131444795" />
+        <TextView ="@color/2131099764" android:id="@id/tvConditionalOrder" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/futures_conditional_type" ="@dimen/2131166188" 2130969918="@id/scConditionalOrder" 2130969937="2131438103" 2130969940="@id/2131444795" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/scConditionalOrder" ="wrap_content" ="wrap_content" 2130969911="@id/tvConditionalOrder" 2130969917="2131438103" 2130969936="@id/tvConditionalOrder" 2130969941="@id/tvConditionalOrder" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131436189" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvConditionalOrder,scConditionalOrder" />
+        <TextView ="@color/2131099764" android:id="@id/tvTrailingStopOrder" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/future_trailing_stop_order" ="@dimen/2131166188" 2130969918="@id/scTrailingStopOrder" 2130969937="2131438103" 2130969940="@id/tvConditionalOrder" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/scTrailingStopOrder" ="wrap_content" ="wrap_content" 2130969911="@id/tvTrailingStopOrder" 2130969917="2131438103" 2130969936="@id/tvTrailingStopOrder" 2130969941="@id/tvTrailingStopOrder" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131436410" ="wrap_content" ="wrap_content" 2130969125="tvTrailingStopOrder,scTrailingStopOrder" />
+        <TextView ="@color/2131099764" android:id="@id/tvTwap" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/twap_order" ="@dimen/2131166188" 2130969918="@id/scTwapOrder" 2130969937="2131438103" 2130969940="@id/tvTrailingStopOrder" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/scTwapOrder" ="wrap_content" ="wrap_content" 2130969911="@id/tvTwap" 2130969917="2131438103" 2130969936="@id/tvTwap" 2130969941="@id/tvTwap" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131436412" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvTwap,scTwapOrder" />
+        <TextView ="@color/2131099764" android:id="@id/tvReverse" ="16.0dip" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/futures_preference_confirmation_reverse" ="@dimen/2131166188" 2130969918="@id/scReverseOrder" 2130969937="2131438103" 2130969940="@id/tvTwap" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/scReverseOrder" ="wrap_content" ="wrap_content" 2130969911="@id/tvReverse" 2130969917="2131438103" 2130969936="@id/tvReverse" 2130969941="@id/tvReverse" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131436335" ="wrap_content" ="wrap_content" 2130969125="tvReverse,scReverseOrder" />
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/order_confirmation_tips" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvReverse" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

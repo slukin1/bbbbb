@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="true" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431911" ="gone" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatEditText ="@color/2131100607" ="@color/2131100608" ="center_vertical" android:id="@id/2131431283" ="@null" ="11.0dip" ="11.0dip" ="vertical" ="true" ="false" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" 2130969918="@id/2131436146" 2130969936="@id/2131431911" 2130969941="2131438103" 2130969946="2131440523" style="@style/2132149446" />
+    <TextView ="@color/2131099748" android:id="@id/2131442444" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969940="@id/2131431283" 2130969946="2131450408" style="@style/2132149355" />
+    <LinearLayout ="center" ="horizontal" android:id="@id/2131436146" ="gone" ="0.0dip" ="wrap_content" ="12.0dip" 2130969911="@id/2131431283" 2130969917="2131438103" 2130969936="@id/2131431283" 2130969941="@id/2131431283" 2130969946="2131450408" />
+</androidx.constraintlayout.widget.ConstraintLayout>

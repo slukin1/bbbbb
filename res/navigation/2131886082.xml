@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/2131436869" 2130971149="@id/2131438967" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment ="P2pAntiScamQuizVideoFragment" ="com.binance.c2c.profession.recentlyviewed.presentation.ui.RecentlyViewedAdsViewPagerFragment" android:id="@id/2131438967">
+        <action android:id="@id/2131437146" 2130969252="@id/2131431783" />
+        <action android:id="@id/2131437150" 2130969252="@id/2131431791" />
+        <action android:id="@id/2131437148" 2130969252="@id/2131431788" />
+    </fragment>
+    <activity ="com.binance.c2c.neworder.FiatPlaceBuyOrderActivity" android:id="@id/2131431783" />
+    <activity ="com.binance.c2c.neworder.FiatPlaceSellOrderActivity" android:id="@id/2131431791" />
+    <activity ="com.binance.c2c.merchant.FiatMerchantDetailsActivity" android:id="@id/2131431788" />
+</navigation>

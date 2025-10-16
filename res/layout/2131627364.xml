@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" />
+    <FrameLayout ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/market_detail_zoom_chart" style="@style/2132149425" />
+    </FrameLayout>
+    <com.finance.framework.widget.scroll.MaxHeightScrollView android:id="@id/2131439809" ="vertical" ="fill_parent" ="wrap_content" ="false" ="never" 2130970140="600.0dip">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_zoom_to_area_title" style="@style/2132149450" />
+            <TextView ="@color/2131099778" android:id="@id/2131445484" ="fill_parent" ="wrap_content" android:text="@string/market_detail_zoom_to_area_tips" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip" ="10.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434290" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="10.0dip" ="2.0dip" android:text="@string/market_detail_internal_keep_zoom_status" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/market_detail_keep_zoom_status_tips" style="@style/2132149350" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434289" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <Space ="1.0dip" ="10.0dip" />
+        </LinearLayout>
+    </com.finance.framework.widget.scroll.MaxHeightScrollView>
+</LinearLayout>

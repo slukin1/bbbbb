@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="55.0dip" ="55.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166265" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433086" ="gone" ="64.0dip" ="64.0dip" ="60.0dip" 2130971077="@drawable/2131233174" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131437733" ="wrap_content" ="wrap_content" ="32.0dip" ="32.0dip" android:text="@string/content_share_trading_list_no_more_30_data" ="@dimen/2131166231" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/2131441204" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/content_trade_empry_titile" style="@style/2132149451" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429147" ="gone" ="wrap_content" ="32.0dip" ="16.0dip" android:text="@string/content_trade_empry_button_title" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:motion="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Transition app:2130969123="@id/2131431371" app:2130969124="@id/2131440560" app:2130969323="300">
+        <OnSwipe app:2130969300="2131431095" app:2130971435="@id/recycler_view" app:2130971436="2131441647" />
+    </Transition>
+    <ConstraintSet android:id="@id/2131440560">
+        <Constraint android:id="@id/2131441558" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginStart="15.0dip" app:2130969937="2131438103" app:2130969941="2131438103" />
+        <Constraint android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:2130969911="2131438103" app:2130969917="2131438103" app:2130969937="2131438103" app:2130969940="@id/2131441558" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/2131431371">
+        <Constraint android:id="@id/2131441558" android:layout_width="wrap_content" android:layout_height="45.0dip" android:scaleX="0.64" android:scaleY="0.64" android:layout_marginStart="0.0dip" app:2130969917="2131438103" app:2130969937="2131438103" app:2130969941="2131438103" />
+        <Constraint android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" app:2130969911="2131438103" app:2130969917="2131438103" app:2130969937="2131438103" app:2130969940="@id/2131441558" />
+    </ConstraintSet>
+</MotionScene>

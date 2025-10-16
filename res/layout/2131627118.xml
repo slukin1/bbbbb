@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" android:text="@string/wallet_balance_binance_earn" ="1" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <ImageView android:id="@id/2131436092" ="28.0dip" ="16.0dip" ="4.0dip" 2130969911="2131438103" 2130969936="@id/tvTitle" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microblink.capture.overlay.tooltip.TouchInterceptRelativeLayout android:id="@id/2131441734" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441653" layout="@layout/2131627599" />
+    <ImageView android:id="@id/2131439200" ="wrap_content" ="wrap_content" ="@drawable/2131235090" ="true" ="no" />
+    <com.microblink.capture.overlay.reticle.views.ReticleSensingView android:id="@id/2131439202" ="wrap_content" ="wrap_content" ="true" />
+    <com.microblink.capture.overlay.reticle.views.ReticleProgressView android:id="@id/2131439201" ="wrap_content" ="wrap_content" ="true" />
+    <TextSwitcher ="center" android:id="@id/2131433523" ="8.0dip" ="wrap_content" ="wrap_content" ="60.0dip" ="6.0dip" ="60.0dip" ="false" ="@id/2131439200" ="true" />
+    <ImageView android:id="@id/2131429276" ="wrap_content" ="wrap_content" ="true" />
+    <include android:id="@id/2131430884" layout="@layout/2131627597" />
+    <include android:id="@id/2131430799" layout="@layout/2131627596" />
+    <TextView ="center" android:id="@id/2131437831" ="12.0dip" ="12.0dip" ="invisible" ="wrap_content" ="wrap_content" ="@id/2131429269" ="24.0dip" ="true" ="@dimen/2131166971" />
+    <ImageButton android:id="@id/2131429269" ="#00000000" ="6.0dip" ="gone" ="wrap_content" ="wrap_content" ="18.0dip" ="true" ="@string/mb_capture_help" ="12.0dip" ="true" />
+    <ViewSwitcher android:id="@id/2131440167" ="fill_parent" ="wrap_content" ="true" />
+    <FrameLayout android:id="@id/2131437830" ="fill_parent" ="fill_parent" />
+</com.microblink.capture.overlay.tooltip.TouchInterceptRelativeLayout>

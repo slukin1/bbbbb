@@ -1,0 +1,38 @@
+.class public final synthetic Lo/LeaderBoardEditInfoDialogspecialinlinedviewModelsdefault3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic d:Lo/LeaderBoardUserSettingFragmentspecialinlinedviewModelsdefault3;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/LeaderBoardUserSettingFragmentspecialinlinedviewModelsdefault3;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/LeaderBoardEditInfoDialogspecialinlinedviewModelsdefault3;->d:Lo/LeaderBoardUserSettingFragmentspecialinlinedviewModelsdefault3;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/LeaderBoardEditInfoDialogspecialinlinedviewModelsdefault3;->d:Lo/LeaderBoardUserSettingFragmentspecialinlinedviewModelsdefault3;
+
+    invoke-static {v0}, Lo/LeaderBoardUserSettingFragmentspecialinlinedviewModelsdefault3;->a(Lo/LeaderBoardUserSettingFragmentspecialinlinedviewModelsdefault3;)Lo/LeaderBoardNotificationFragmentspecialinlinedviewModelsdefault3;
+
+    move-result-object v0
+
+    return-object v0
+.end method

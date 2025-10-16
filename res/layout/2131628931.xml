@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/2131441045" ="0.0dip" ="wrap_content" ="false" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969946="2131450408" style="@style/2132149722" />
+    <View android:id="@id/2131449156" ="@drawable/2131236643" ="gone" ="8.0dip" ="8.0dip" 2130969936="@id/2131441045" 2130969941="@id/2131441045" />
+    <androidx.appcompat.widget.AppCompatTextView ="6.0sp" ="@color/2131099789" ="center" android:id="@id/2131441486" ="@drawable/2131236643" ="3.0dip" ="3.0dip" ="gone" ="wrap_content" ="wrap_content" ="-3.0dip" ="@font/2131296267" ="-7.0dip" 2130969917="@id/2131441045" 2130969941="@id/2131441045" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434214" ="20.0dip" ="20.0dip" ="@drawable/2131236868" ="@color/2131099764" 2130969911="2131438103" 2130969936="@id/2131441045" 2130969941="2131438103" />
+    <View ="1.0dip" ="1.0dip" 2130969917="@id/2131441486" />
+</merge>

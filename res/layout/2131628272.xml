@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@android:color/black" ="fill_parent" ="fill_parent" ="true" ="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="@android:color/white" ="@dimen/activity_horizontal_margin" ="@dimen/2131167606" ="@dimen/2131167605" ="true">
+        <ProgressBar ="fill_parent" ="wrap_content" ="@dimen/activity_vertical_margin" ="8.0dip" ="8.0dip" />
+        <com.cardinalcommerce.a.setY android:id="@id/2131433086" ="fill_parent" ="fill_parent" ="8.0dip" ="@drawable/2131232917" ="false" ="@string/card_network" ="8.0dip" ="8.0dip" />
+    </LinearLayout>
+</FrameLayout>

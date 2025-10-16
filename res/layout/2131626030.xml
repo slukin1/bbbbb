@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131447577" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/futures_funding_fee_analysis_realtime_funding_rate" 2130969937="2131438103" 2130969940="@id/tv_symbol" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131447576" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969917="2131438103" 2130969941="@id/2131447577" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131446389" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_funding_fee_analysis_est_funding_fee" 2130969937="2131438103" 2130969940="@id/2131447577" style="@style/2132149350" />
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131446388" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="5.0dip" 2130969911="@id/2131446389" 2130969918="@id/2131446390" 2130969941="@id/2131446389" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131446390" ="wrap_content" ="wrap_content" 2130969911="@id/2131446389" 2130969917="2131438103" 2130969941="@id/2131446389" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

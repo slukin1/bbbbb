@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432239" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442677" ="fill_parent" ="50.0dip" android:text="@string/ocbs_string_crypto_list" ="15.0dip" 2130969941="2131438103" style="@style/2132149425" />
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131431321" ="fill_parent" ="wrap_content" 2130968735="@color/2131099875" 2130968908="false" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131442677" 2130970759="@string/_search" />
+    <ImageView android:id="@id/2131433701" ="gone" ="fill_parent" ="0.0dip" ="8.0dip" ="@null" ="15.0dip" ="15.0dip" 2130969916="H,5:1" 2130969940="@id/2131431321" 2130969962="0.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435515" ="15.0dip" ="12.0dip" ="15.0dip" ="4.0dip" ="gone" ="fill_parent" ="wrap_content" ="8.0dip" ="@dimen/2131166184" 2130969940="@id/2131433701" 2130969962="@dimen/2131166153">
+        <TextView ="@color/2131099778" android:id="@id/2131444398" ="wrap_content" ="16.0dip" android:text="*" ="false" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237075" style="@style/2132149384" />
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131444399" ="0.0dip" ="wrap_content" ="18.0dip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131444398" 2130969941="2131438103" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="0.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969940="@id/2131435515">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="fill_parent" ="fill_parent" 2130969911="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="15.0sp" ="@color/2131103030" ="center" android:id="@id/tvEmpty" ="gone" ="wrap_content" ="wrap_content" ="108.0dip" android:text="@string/no_records_found" ="true" 2130969314="@drawable/2131238419" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435471" ="gone" ="fill_parent" ="0.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969940="@id/2131435515">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434709" ="96.0dip" ="96.0dip" ="100.0dip" ="@null" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131235417" />
+        <TextView ="@color/2131099778" ="center_vertical" android:id="@id/2131445677" ="wrap_content" ="wrap_content" ="8.0dip" ="22.0dip" android:text="@string/ocbs_insufficient_assets" ="60.0dip" ="60.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434709" style="@style/2132149350" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428712" ="wrap_content" ="36.0dip" ="8.0dip" android:text="@string/ocbs_bind_card_result_btn_buy" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131445677" style="@style/2132148701" />
+        <TextView ="@color/2131099787" android:id="@id/2131442796" ="8.0dip" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_overview_new_user_deposit_crypto" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428712" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

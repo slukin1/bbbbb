@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131430920" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439039" ="15.0dip" ="15.0dip" ="fill_parent" ="0.0dip" ="1.0" ="@dimen/2131166184" />
+    <LinearLayout ="horizontal" android:id="@id/2131435515" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429334" ="24.0dip" ="24.0dip" 2130969758="true" 2130969759="2" />
+        <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442469" ="0.0dip" ="wrap_content" android:text="@string/ocbs_string_do_not_remind_again" ="false" ="false" ="1.0" ="4.0dip" style="@style/2132149355" />
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428628" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" android:text="@string/ocbs_ok" ="@dimen/2131166184" ="@dimen/2131166188" style="@style/2132148692" />
+</LinearLayout>

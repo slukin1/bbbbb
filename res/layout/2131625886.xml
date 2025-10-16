@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131448990" ="13.0dip" ="30.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447379" ="wrap_content" ="wrap_content" android:text="@string/futures_portfolio_margin_order_notification_title" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/2131447378" ="fill_parent" ="wrap_content" ="23.0dip" android:text="@string/futures_portfolio_margin_futures_instruction_stop_limit_pm_tips" ="1.2" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447379" style="@style/2132149350" />
+    <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131447376" ="18.0dip" ="18.0dip" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131447378" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131447377" ="0.0dip" ="wrap_content" android:text="@string/futures_portfolio_margin_order_notification_check_tips" ="1" ="8.0dip" 2130969911="@id/2131447376" 2130969917="2131438103" 2130969936="@id/2131447376" 2130969941="@id/2131447376" style="@style/2132149384" />
+    <com.major.android.uikit.button.KitButton ="false" ="center" android:id="@id/2131429067" ="fill_parent" ="40.0dip" ="20.0dip" android:text="@string/confirm" 2130969173="4" 2130969937="2131438103" 2130969940="@id/2131447376" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvDate" ="75.0dip" ="wrap_content" ="true" style="@style/2132149350" />
+    <TextView ="@color/2131102397" android:id="@id/2131442614" ="wrap_content" ="wrap_content" ="16.0dip" ="true" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/tvFee" ="wrap_content" ="wrap_content" ="@id/2131442614" ="true" style="@style/2132148872" />
+</RelativeLayout>

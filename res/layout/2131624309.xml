@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131449196" ="@color/2131099790" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/tv_title" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099788" android:id="@id/tv_title" ="4.0dip" ="4.0dip" ="wrap_content" ="wrap_content" ="12.0dip" 2130969912="@id/2131433337" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149454" />
+    <androidx.cardview.widget.CardView android:id="@id/2131433337" ="gone" ="0.0dip" ="0.0dip" ="10.0dip" ="24.0dip" ="24.0dip" 2130968912="@dimen/2131166156" 2130968914="@dimen/2131166153" 2130969912="@id/2131446058" 2130969916="H,327:284" 2130969917="2131438103" 2130969937="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433338" ="fill_parent" ="fill_parent" ="fitXY" ="@null" />
+    </androidx.cardview.widget.CardView>
+    <TextView ="@color/2131099788" android:id="@id/2131446058" ="0.0dip" ="wrap_content" ="10.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131446635" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099881" android:id="@id/2131446635" ="gone" ="0.0dip" ="wrap_content" ="10.0dip" ="24.0dip" ="24.0dip" 2130969912="@id/2131447110" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099879" android:id="@id/2131446803" ="wrap_content" ="wrap_content" ="44.0dip" android:text="@string/ms_market_skip" ="24.0dip" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099879" ="center_vertical" android:id="@id/2131447110" ="wrap_content" ="wrap_content" ="44.0dip" android:text="@string/_next" ="2.0dip" ="10.0dip" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

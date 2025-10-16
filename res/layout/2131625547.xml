@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="16.0sp" ="?android:textColorSecondary" ="marquee" android:id="@id/2131431842" ="fill_parent" ="wrap_content" ="8.0dip" ="true" ="marquee_forever" ="24.0dip" ="24.0dip" />
+        <TextView ="16.0sp" ="?android:textColorSecondary" android:id="@id/2131431839" ="0.0dip" ="fill_parent" ="wrap_content" ="4" ="24.0dip" ="24.0dip" />
+        <ImageView ="center_horizontal" android:id="@id/2131431841" ="64.0dip" ="64.0dip" ="32.0dip" ="fitXY" ="@string/fingerprint_dialog_icon_description" />
+        <TextView ="14.0sp" ="?android:textColorSecondary" ="center_horizontal" android:id="@id/2131431840" ="16.0dip" ="24.0dip" ="fill_parent" ="wrap_content" android:text="@string/fingerprint_dialog_touch_sensor" ="24.0dip" ="24.0dip" ="polite" />
+    </LinearLayout>
+</ScrollView>

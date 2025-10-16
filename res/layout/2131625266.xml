@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131438764" ="@drawable/2131235989" ="20.0dip" ="24.0dip" ="20.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="#ff202630" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131436732" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234139" />
+    <TextView ="16.0sp" ="#ffeaecef" android:id="@id/2131438167" ="wrap_content" ="wrap_content" ="12.0dip" ="@font/2131296275" 2130969937="@id/2131436732" 2130969940="@id/2131436732" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131440073" ="wrap_content" ="wrap_content" ="@font/2131296274" 2130969937="@id/2131436732" 2130969940="@id/2131438167" />
+    <TextView ="12.0sp" ="#ffeaecef" android:id="@id/2131444036" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_payment_details_hint_2" ="@font/2131296274" 2130969937="@id/2131436732" 2130969940="@id/2131440073" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438767" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131444036">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438773" ="wrap_content" ="wrap_content" 2130969911="@id/2131444535" 2130969917="2131438103" 2130969941="@id/2131433405" 2130971077="@drawable/2131237861" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="#ff202630" ="center" android:id="@id/2131433405" ="@drawable/2131232428" ="wrap_content" ="wrap_content" ="12.0dip" android:text="1" ="@font/2131296273" ="#ffeaecef" 2130969937="2131438103" 2130969941="2131438103" />
+        <View ="#ffeaecef" ="1.0dip" ="0.0dip" 2130969912="@id/2131433406" 2130969917="@id/2131433405" 2130969937="@id/2131433405" 2130969940="@id/2131433405" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="#ffeaecef" android:id="@id/2131444527" ="0.0dip" ="wrap_content" android:text="@string/c2c_payment_details_save_share" ="@font/2131296274" ="6.0dip" ="15.0dip" 2130969911="@id/2131433405" 2130969918="@id/2131438773" 2130969936="@id/2131433405" 2130969941="@id/2131433405" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="#ff202630" ="center" android:id="@id/2131433406" ="@drawable/2131232428" ="wrap_content" ="wrap_content" ="16.0dip" android:text="2" ="@font/2131296274" ="#ffeaecef" 2130969937="2131438103" 2130969940="@id/2131433405" />
+        <androidx.appcompat.widget.AppCompatTextView ="12.0sp" ="#ffeaecef" android:id="@id/2131444535" ="0.0dip" ="wrap_content" android:text="@string/c2c_payment_details_scan_qr" ="@font/2131296274" ="6.0dip" ="16.0dip" 2130969918="@id/2131438773" 2130969936="@id/2131433406" 2130969941="@id/2131433406" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="10.0sp" ="#ff848e9c" android:id="@id/2131444035" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_payment_details_hint_1" ="@font/2131296274" 2130969937="2131438103" 2130969940="@id/2131438767" />
+</androidx.constraintlayout.widget.ConstraintLayout>

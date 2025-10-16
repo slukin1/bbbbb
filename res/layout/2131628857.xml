@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429822" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvSymbol" ="0.0dip" ="wrap_content" ="12.0dip" ="1" ="false" 2130969937="2131438103" 2130969940="@id/2131431085" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131444862" ="@drawable/2131235998" ="3.0dip" ="3.0dip" ="wrap_content" ="wrap_content" ="1" ="2.0dip" ="@color/2131099744" 2130969911="@id/tvSymbol" 2130969936="@id/tvSymbol" 2130969941="@id/tvSymbol" style="@style/2132149394" />
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444819" ="0.0dip" ="wrap_content" ="-2.0dip" 2130969937="2131438103" 2130969940="@id/tvSymbol" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="0.0dip" ="0.0dip" 2130969921="0.6" />
+    <TextView ="@color/2131099778" android:id="@id/2131441717" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/twap_coin_total_size" 2130969917="@id/2131432755" 2130969937="2131438103" 2130969940="@id/2131444819" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131445132" ="0.0dip" ="wrap_content" ="ltr" 2130969911="@id/2131441717" 2130969917="2131438103" 2130969937="@id/2131432755" 2130969941="@id/2131441717" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131441718" ="0.0dip" ="wrap_content" ="6.0dip" android:text="@string/twap_total_time" 2130969917="@id/2131432755" 2130969937="2131438103" 2130969940="@id/2131441717" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131445141" ="0.0dip" ="wrap_content" ="ltr" 2130969911="@id/2131441718" 2130969917="2131438103" 2130969937="@id/2131432755" 2130969941="@id/2131441718" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/reduceOnlyConfirm" ="0.0dip" ="wrap_content" ="6.0dip" android:text="@string/reduce_only" 2130969917="@id/2131432755" 2130969937="2131438103" 2130969940="@id/2131441718" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/tvReduceOnlyConfirm" ="0.0dip" ="wrap_content" ="ltr" 2130969911="@id/reduceOnlyConfirm" 2130969917="2131438103" 2130969937="@id/2131432755" 2130969941="@id/reduceOnlyConfirm" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131435513" ="wrap_content" ="wrap_content" 2130969125="reduceOnlyConfirm,tvReduceOnlyConfirm" />
+    <TextView ="@color/2131099778" android:id="@id/2131435273" ="0.0dip" ="wrap_content" ="6.0dip" android:text="@string/ms_market_filter_last_price" 2130969917="@id/2131432755" 2130969937="2131438103" 2130969940="@id/reduceOnlyConfirm" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131443486" ="0.0dip" ="wrap_content" ="ltr" 2130969911="@id/2131435273" 2130969917="2131438103" 2130969937="@id/2131432755" 2130969941="@id/2131435273" style="@style/2132149450" />
+    <View android:id="@id/2131449416" ="@color/2131099751" ="visible" ="0.0dip" ="0.5dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435273" />
+    <com.finance.kit.framework.widget.selection.KitToggledRadioButton android:id="@id/checkBoxConfirm" ="wrap_content" ="wrap_content" ="12.0dip" 2130969835="2131429513" 2130969937="2131438103" 2130969940="@id/2131449416" />
+    <TextView ="@color/2131099764" android:id="@id/tvCheckBoxConfirm" ="0.0dip" ="wrap_content" android:text="@string/future_dont_ask" ="4.0dip" 2130969917="2131438103" 2130969936="@id/checkBoxConfirm" 2130969941="@id/checkBoxConfirm" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099879" ="@color/2131099789" android:id="@id/2131442570" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvCheckBoxConfirm" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

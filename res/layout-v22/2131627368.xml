@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="center_horizontal" ="@drawable/2131232852" ="40.0dip" ="4.0dip" ="6.0dip" ="6.0dip" ="@dimen/2131166269" />
+    <FrameLayout ="fill_parent" ="50.0dip">
+        <TextView ="@color/2131099764" ="start|center" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/market_detail_general_settings" ="@dimen/2131166184" style="@style/2132149425" />
+    </FrameLayout>
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="2.0dip" android:text="@string/market_detail_multiple_main_indicator" ="@dimen/2131166184" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/market_detail_multiple_main_indicator_tips" ="@dimen/2131166184" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434017" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 345:76" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Space ="1.0dip" ="10.0dip" />
+</LinearLayout>

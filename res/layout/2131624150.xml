@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427578" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/margin_loan_repay_with" style="@style/2132149450" />
+            <LinearLayout ="fill_parent" ="wrap_content" ="5.0dip">
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131442356" ="@drawable/2131232746" ="0.0dip" ="36.0dip" android:text="@string/margin_loan_borrowed_coin" ="1.0" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="center" android:id="@id/2131442526" ="@drawable/2131232746" ="gone" ="0.0dip" ="36.0dip" android:text="@string/margin_loan_collateral" ="1.0" ="10.0dip" style="@style/2132149350" />
+            </LinearLayout>
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/margin_loan_repayment_amount" style="@style/2132149450" />
+            <com.major.android.uikit.input.KitInputAmount android:id="@id/2131433456" ="fill_parent" ="wrap_content" ="5.0dip" 2130969655="@string/ms_label_amount" />
+            <LinearLayout ="start|center" ="horizontal" android:id="@id/2131436700" ="3.0dip" ="3.0dip" ="gone" ="fill_parent" ="wrap_content">
+                <ImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+                <TextView ="@color/2131099851" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_total_debt_repaid" ="2.0dip" style="@style/2132149454" />
+            </LinearLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131443144" ="wrap_content" ="wrap_content" ="5.0dip" style="@style/2132149384" />
+            <com.binance.earn.widgets.QuarterProgressBar android:id="@id/2131438762" ="10.0dip" ="10.0dip" ="fill_parent" ="wrap_content" />
+            <com.major.android.uikit2.selection.KitCheckBox ="center_vertical" android:id="@id/2131429358" ="6.0dip" ="6.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="false" android:text="@string/margin_loan_keep_col_in_order" ="8.0dip" style="@style/2132149355" />
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="20.0dip" ="20.0dip" />
+            <LinearLayout ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/total_debt" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131445080" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="8.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_loan_remaining_debt" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131444395" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="20.0dip" ="20.0dip" />
+            <LinearLayout ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_ltv_after_repayment" style="@style/2132149350" />
+                <View ="0.0dip" ="1.0px" ="1.0" />
+                <TextView ="@color/2131099726" ="end" android:id="@id/2131443622" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443621" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131436334" ="fill_parent" ="wrap_content" ="8.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_returned_collateral_amount" style="@style/2132149350" />
+                <LinearLayout ="end" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+                    <TextView ="@color/2131099764" android:id="@id/2131444455" ="wrap_content" ="wrap_content" style="@style/2132149350" />
+                    <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_flexible_to_earn_wallet" style="@style/2132149384" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" />
+    <LinearLayout ="vertical" android:id="@id/2131436699" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_repay_with_collateral" style="@style/2132149450" />
+        <LinearLayout ="fill_parent" ="wrap_content" ="4.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_rate" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131444426" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="1.0" style="@style/2132149350" />
+            <ImageView android:id="@id/2131433776" ="2.0dip" ="20.0dip" ="20.0dip" ="@drawable/2131237139" ="2.0dip" 2130971375="@color/2131099764" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/2131435667" ="fill_parent" ="wrap_content" ="4.0dip">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_collateral_used" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="end" android:id="@id/2131444425" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="1.0" style="@style/2132149350" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="12.0dip" android:text="@string/confirm" 2130969756="true" style="@style/2132148692" />
+</LinearLayout>

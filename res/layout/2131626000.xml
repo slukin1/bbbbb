@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099738" ="center" android:id="@id/2131431490" ="@drawable/2131234058" ="0.0dip" ="40.0dip" ="1" ="numberDecimal" ="12.0dip" ="34.0dip" ="8.0dip" 2130969918="@id/2131445201" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="%" ="12.0dip" 2130969911="@id/2131431490" 2130969917="@id/2131431490" 2130969941="@id/2131431490" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131445201" ="@drawable/2131236009" ="44.0dip" ="0.0dip" android:text="1%" ="1" ="center" ="8.0dip" ="@color/2131099744" 2130969911="@id/2131431490" 2130969918="@id/2131445200" 2130969941="@id/2131431490" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131445200" ="@drawable/2131236009" ="44.0dip" ="0.0dip" android:text="5%" ="1" ="center" ="8.0dip" ="@color/2131099744" 2130969911="@id/2131431490" 2130969918="@id/2131445202" 2130969941="@id/2131431490" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131445202" ="@drawable/2131236009" ="44.0dip" ="0.0dip" android:text="10%" ="1" ="center" ="@color/2131099744" 2130969911="@id/2131431490" 2130969917="2131438103" 2130969941="@id/2131431490" style="@style/2132149450" />
+</merge>

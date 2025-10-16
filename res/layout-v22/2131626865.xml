@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="@color/2131099712" ="15.0dip" ="8.0dip" ="15.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166286"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/tvTitle" ="0.0dip" ="wrap_content" android:text="@string/earn_dual_target_price" ="1.6" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" ="0.0dip" ="wrap_content" android:text="@string/earn_apr" ="1.0" style="@style/2132149384" />
+    <TextView ="@color/2131099778" ="end" ="0.0dip" ="wrap_content" android:text="@string/earn_dual_action" ="1.0" style="@style/2132149384" />
+</LinearLayout>

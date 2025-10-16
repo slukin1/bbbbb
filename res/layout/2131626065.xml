@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="20.0dip" ="15.0dip" ="20.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446171" ="wrap_content" ="wrap_content" android:text="@string/margin_pnl_cumulative_pnl_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" android:id="@id/2131446220" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131446171" style="@style/2132149361" />
+    <TextView ="@color/2131099764" android:id="@id/2131446181" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131446220" style="@style/2132149425" />
+    <com.finance.kit.framework.widget.chart.FinanceCombinedChart android:id="@id/2131429461" ="fill_parent" ="170.0dip" ="25.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446181" />
+    <com.major.android.uikit2.emptylayout.KitEmptyLayout ="@color/2131099785" ="center" ="center" android:id="@id/tv_empty" ="wrap_content" ="wrap_content" ="10.0dip" 2130969336="@null" 2130969343="@drawable/2131238419" 2130969346="@string/no_data" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

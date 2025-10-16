@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232782" ="12.0dip" ="wrap_content" ="wrap_content" ="0.95" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427934" ="20.0dip" ="wrap_content" 2130969911="2131438103" 2130969918="@id/2131427947" 2130969927="0.5" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237243" 2130971375="@color/2131099764" />
+    <com.finance.marketdetail.framework.widget.view.ColoredExtendableView android:id="@id/2131427947" ="wrap_content" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131427948" 2130969927="0.5" 2130969936="@id/2131427934" 2130969941="2131438103" 2130971077="@drawable/2131237575" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427932" ="wrap_content" ="0.0dip" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131427927" 2130969927="0.5" 2130969936="@id/2131427948" 2130969941="2131438103" 2130971077="@drawable/2131235016" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427948" ="wrap_content" ="0.0dip" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131427932" 2130969927="0.5" 2130969936="@id/2131427947" 2130969941="2131438103" 2130971077="@drawable/2131235017" />
+    <com.finance.marketdetail.framework.widget.view.ColoredExtendableView android:id="@id/2131427927" ="wrap_content" ="wrap_content" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131427949" 2130969927="0.5" 2130969936="@id/2131427932" 2130969941="2131438103" 2130971077="@drawable/2131238195" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427949" ="18.0dip" ="18.0dip" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131427933" 2130969927="0.5" 2130969936="@id/2131427927" 2130969941="2131438103" 2130971077="@drawable/2131237613" 2130971375="@color/2131101796" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427933" ="20.0dip" ="20.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/2131427949" 2130969941="2131438103" 2130971077="@drawable/2131237186" 2130971375="@color/2131101796" />
+</androidx.constraintlayout.widget.ConstraintLayout>

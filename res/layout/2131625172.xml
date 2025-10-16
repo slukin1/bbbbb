@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center" android:id="@id/2131436547" ="fill_parent" ="15.0dip" 2130969941="2131438103">
+        <ImageView ="40.0dip" ="4.0dip" ="@drawable/2131234543" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="50.0dip" android:text="@string/earn_all_historical_rewards" 2130969940="@id/2131436547" style="@style/2132149425" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/tabLayout" ="fill_parent" ="38.0dip" 2130969940="@id/tv_title" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="332.0dip" 2130969940="@id/tabLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

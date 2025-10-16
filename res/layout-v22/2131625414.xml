@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="24.0dip" ="fill_parent" ="wrap_content" ="38.0dip" ="38.0dip" style="@style/2132148641"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center_horizontal" android:id="@id/iv_logo" ="60.0dip" ="60.0dip" ="24.0dip" ="16.0dip" ="@drawable/2131236649" />
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/trade_common_pair_risk_warning" style="@style/2132149425" />
+    <TextView ="outsideOverlay" ="@color/2131099764" ="center_horizontal" android:id="@id/2131446058" ="4.0dip" ="4.0dip" ="vertical" ="fill_parent" ="wrap_content" ="20.0dip" ="8.0dip" ="20.0dip" ="16.0dip" ="198.0dip" android:text="@string/trade_common_pair_risk_warning_content" ="9" ="4.0dip" ="false" ="locale" ="20.0dip" ="4.0dip" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131446034" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" android:text="@string/c2c_mob_send_first_button_understand" style="@style/2132148692" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/2131446801" ="gone" ="fill_parent" ="40.0dip" ="24.0dip" ="5.0dip" ="24.0dip" android:text="@string/trade_common_risk_warning_learn_more" style="@style/2132149371" />
+</LinearLayout>

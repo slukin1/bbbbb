@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/earn_supply_amount" ="15.0dip" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131440865" ="wrap_content" ="wrap_content" ="15.0dip" style="@style/2132149419" />
+    <RelativeLayout ="center_vertical" android:id="@id/2131439322" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184">
+        <com.binance.base.widget.UnderLineTipsTextView ="@color/2131099778" android:id="@id/2131444192" ="0.0dip" ="wrap_content" android:text="@string/earn_progress" ="@id/2131444191" ="true" style="@style/2132149350" />
+        <TextView ="#ff2ebd85" android:id="@id/2131444191" ="wrap_content" ="wrap_content" ="true" ="true" style="@style/2132149450" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/interest_rate" ="@id/2131443369" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131443369" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/earn_estimate_interest_amount" ="@id/2131442973" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131442973" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" android:id="@id/2131439333" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/earn_remaining_amount" ="@id/2131444393" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131444393" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="@dimen/2131166184" ="@dimen/2131166188" />
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/duration" ="@id/tvDuration" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/tvDuration" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/earn_match_time" ="@id/2131443703" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131443703" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" android:id="@id/2131445003" ="0.0dip" ="wrap_content" android:text="@string/earn_first_expiration_date" ="@id/2131443109" ="true" style="@style/2132149350" />
+        <TextView ="@color/2131099764" android:id="@id/2131443109" ="wrap_content" ="wrap_content" ="5.0dip" ="true" ="true" style="@style/2132149350" />
+    </RelativeLayout>
+    <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="@dimen/2131166184" ="@dimen/2131166188" />
+    <RelativeLayout ="center_vertical" android:id="@id/2131439343" ="fill_parent" ="wrap_content" ="15.0dip" ="9.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/earn_spilt_order" ="@id/2131434178" ="true" style="@style/2132149350" />
+        <ImageView android:id="@id/2131434178" ="4.0dip" ="24.0dip" ="24.0dip" ="@drawable/2131237055" ="true" />
+    </RelativeLayout>
+    <RelativeLayout ="center_vertical" android:id="@id/2131439350" ="fill_parent" ="wrap_content" ="15.0dip" ="18.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/earn_auto_renew" ="@id/2131440993" ="true" style="@style/2132149350" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131440993" ="wrap_content" ="wrap_content" ="true" />
+    </RelativeLayout>
+</LinearLayout>

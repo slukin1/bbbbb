@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431982" ="@color/2131099744" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131432733" ="298.0dip" ="180.0dip" ="fitXY" 2130970039="true" 2130970050="true" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432725" ="20.0dip" ="20.0dip" ="12.0dip" android:text="@string/close" ="12.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131432735" ="wrap_content" ="wrap_content" ="24.0dip" ="8.0dip" ="24.0dip" android:text="@string/home_b8_guide_dialog_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431982" style="@style/2132149429" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131432726" ="24.0dip" ="24.0dip" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/home_b8_guide_dialog_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432735" style="@style/2132149369" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131431662" ="fill_parent" ="40.0dip" ="24.0dip" ="16.0dip" ="24.0dip" android:text="@string/widget_dynamic_guide_explore_now" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432726" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

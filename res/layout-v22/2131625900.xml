@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235987" ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" ="@dimen/2131166184"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView ="vertical" ="fill_parent" ="wrap_content" ="16.0dip" ="true">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" android:id="@id/2131447474" ="8.0dip" ="fill_parent" ="wrap_content" android:text="@string/futures_price_protection_warning_tips" ="1.2" style="@style/2132149350" />
+    </ScrollView>
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131446034" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/OK" style="@style/2132148692" />
+</LinearLayout>

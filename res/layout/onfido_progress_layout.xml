@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="20.0dip" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/2131438688" ="wrap_content" ="wrap_content" style="@style/2132148898" />
+    <TextView ="16.0sp" android:id="@id/2131438682" ="8.0dip" ="wrap_content" ="wrap_content" style="@style/2132148937" />
+</LinearLayout>

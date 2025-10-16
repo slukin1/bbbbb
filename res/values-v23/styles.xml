@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="2132148260" parent="@style/2132149580">
+        <item name="android:buttonBarButtonStyle">@style/2132148992</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="2130969089">@color/2131100309</item>
+        <item name="2130969096">@color/2131100311</item>
+        <item name="2130969099">@color/2131100319</item>
+        <item name="2130970093">@style/2132148989</item>
+        <item name="2130970094">@style/2132148997</item>
+        <item name="2130970486">@style/2132148990</item>
+        <item name="2130970487">@style/2132148998</item>
+        <item name="2130970489">?android:colorBackground</item>
+        <item name="2130970490">?android:listDivider</item>
+        <item name="2130970495">@style/2132148996</item>
+        <item name="2130970499">@style/2132148996</item>
+        <item name="2130970505">0.8</item>
+        <item name="2130970507">0.6</item>
+        <item name="2130971063">@style/2132148999</item>
+        <item name="2130971282">@style/2132149004</item>
+        <item name="2130971291">@style/2132149003</item>
+        <item name="2130971299">@style/2132149000</item>
+        <item name="2130971300">@style/2132149001</item>
+        <item name="2130971323">@style/2132148995</item>
+    </style>
+    <style name="2132148289" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="2132148299" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="2132148314" parent="@style/2132148416" />
+    <style name="2132148321" parent="@style/2132148417" />
+    <style name="2132148359" parent="@style/2132149555">
+        <item name="android:statusBarColor">?2130969104</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">?2130969062</item>
+    </style>
+    <style name="2132148442" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="2132148448" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="2132148450" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/2132149243</item>
+    </style>
+    <style name="2132148460" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="2132148481" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="2132148482" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="2132148488" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="2132148489" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="2132148543" parent="@style/2132148253">
+        <item name="2130968911">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="2132148974" parent="@style/2132148532">
+        <item name="android:windowBackground">@color/2131100029</item>
+        <item name="android:statusBarColor">@color/2131100029</item>
+        <item name="android:navigationBarColor">@color/2131100029</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="2132149598" parent="@style/2132148368">
+        <item name="2130969063">@color/2131101726</item>
+    </style>
+    <style name="2132149615">
+        <item name="2130969063">@color/2131101326</item>
+    </style>
+    <style name="2132149616">
+        <item name="2130969063">@color/2131101307</item>
+    </style>
+    <style name="2132149653" parent="@style/2132148372">
+        <item name="2130969063">@color/2131101726</item>
+    </style>
+    <style name="2132149931" parent="@style/2132148500">
+        <item name="android:background">@drawable/2131234818</item>
+    </style>
+    <style name="2132149933" parent="@style/2132148501">
+        <item name="android:background">@drawable/2131234817</item>
+    </style>
+    <style name="2132149934" parent="@style/2132148502">
+        <item name="android:background">@drawable/2131234818</item>
+    </style>
+    <style name="2132150021" parent="@style/2132148512">
+        <item name="android:background">@drawable/2131234822</item>
+    </style>
+    <style name="2132150125" parent="@style/2132148520">
+        <item name="android:popupBackground">?2130970570</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="2132150126" parent="@style/2132148521">
+        <item name="android:popupBackground">?2130970570</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="2132148416" parent="@style/2132148414">
+        <item name="2130968587">?android:actionBarItemBackground</item>
+        <item name="2130968600">?android:actionMenuTextAppearance</item>
+        <item name="2130968601">?android:actionMenuTextColor</item>
+        <item name="2130968617">?android:actionOverflowButtonStyle</item>
+        <item name="2130969169">@drawable/2131232292</item>
+        <item name="2130970642">?android:ratingBarStyleIndicator</item>
+        <item name="2130970643">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="2132148417" parent="@style/2132148415">
+        <item name="2130968587">?android:actionBarItemBackground</item>
+        <item name="2130968600">?android:actionMenuTextAppearance</item>
+        <item name="2130968601">?android:actionMenuTextColor</item>
+        <item name="2130968617">?android:actionOverflowButtonStyle</item>
+        <item name="2130969169">@drawable/2131232292</item>
+        <item name="2130970642">?android:ratingBarStyleIndicator</item>
+        <item name="2130970643">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

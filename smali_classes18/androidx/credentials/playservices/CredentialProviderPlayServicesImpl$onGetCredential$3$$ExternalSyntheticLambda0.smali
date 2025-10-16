@@ -1,0 +1,36 @@
+.class public final synthetic Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$onGetCredential$3$$ExternalSyntheticLambda0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Lo/MinimumInteractiveModifier;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lo/MinimumInteractiveModifier;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$onGetCredential$3$$ExternalSyntheticLambda0;->f$0:Lo/MinimumInteractiveModifier;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$onGetCredential$3$$ExternalSyntheticLambda0;->f$0:Lo/MinimumInteractiveModifier;
+
+    invoke-static {v0}, Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$onGetCredential$3;->$r8$lambda$4rzAdejhCbKzIVTc41bn7Li0cO4(Lo/MinimumInteractiveModifier;)V
+
+    return-void
+.end method

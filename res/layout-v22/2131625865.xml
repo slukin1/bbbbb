@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131439474" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131431924" ="fill_parent" ="50.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="@color/2131102397" ="center" ="center" android:id="@id/2131442575" ="wrap_content" ="wrap_content" android:text="@string/futures_grid_running_end_title" style="@style/2132149446" />
+        <ImageView ="end|center" android:id="@id/ivClose" ="wrap_content" ="wrap_content" ="fitXY" ="@null" 2130971077="@drawable/2131237100" />
+    </FrameLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131444927" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131431924" style="@style/2132149350" />
+    <FrameLayout android:id="@id/placeholder" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131444927">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429824" ="gone" ="wrap_content" ="wrap_content">
+            <TextView ="@color/2131099778" android:id="@id/tvTip1" ="0.0dip" ="wrap_content" ="6.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099778" android:id="@id/tvTip2" ="0.0dip" ="wrap_content" ="6.0dip" 2130969937="@id/tvTip1" 2130969940="@id/tvTip1" style="@style/2132149384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429827" ="fill_parent" ="wrap_content" ="15.0dip" 2130969937="2131438103" 2130969941="@id/placeholder">
+            <com.major.android.uikit.selection.KitCheckBox android:id="@id/cbYes" ="16.0dip" ="16.0dip" 2130969911="@id/tvCancelAllTip" 2130969937="2131438103" 2130969941="@id/tvCancelAllTip" />
+            <TextView ="@color/2131099764" android:id="@id/tvCancelAllTip" ="0.0dip" ="wrap_content" android:text="@string/spot_grid_help_sell" ="false" ="10.0dip" 2130969936="@id/cbYes" 2130969941="2131438103" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/tv_help_buy_tip_completion" ="0.0dip" ="wrap_content" ="6.0dip" 2130969917="2131438103" 2130969937="@id/tvCancelAllTip" 2130969940="@id/tvCancelAllTip" style="@style/2132149384" />
+            <com.major.android.uikit.selection.KitCheckBox android:id="@id/cbNo" ="16.0dip" ="16.0dip" 2130969911="@id/tvSellAllTip" 2130969937="2131438103" 2130969941="@id/tvSellAllTip" />
+            <TextView ="@color/2131099764" android:id="@id/tvSellAllTip" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/spot_grid_handle_myself" ="false" ="10.0dip" 2130969917="2131438103" 2130969936="@id/cbNo" 2130969940="@id/tv_help_buy_tip_completion" style="@style/2132149350" />
+            <TextView ="@color/2131099778" android:id="@id/tv_handle_myself_tip_completion" ="0.0dip" ="wrap_content" ="6.0dip" 2130969917="2131438103" 2130969937="@id/tvSellAllTip" 2130969940="@id/tvSellAllTip" style="@style/2132149384" />
+            <androidx.constraintlayout.widget.Group android:id="@id/2131432516" ="0.0dip" ="0.0dip" 2130969125="cbYes,cbNo,tvCancelAllTip,tv_help_buy_tip_completion,tvSellAllTip,tv_handle_myself_tip_completion" />
+            <View android:id="@id/2131449416" ="@color/2131099751" ="fill_parent" ="1.0dip" ="15.0dip" 2130969912="@id/2131442411" 2130969937="2131438103" 2130969940="@id/tv_handle_myself_tip_completion" />
+            <TextView ="@color/2131099764" android:id="@id/2131442411" ="0.0dip" ="wrap_content" ="15.0dip" android:text="@string/spot_grid_terminal_bottom_tips" 2130969937="2131438103" 2130969940="@id/2131449416" style="@style/2132149350" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="40.0dip" ="33.0dip" ="20.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/placeholder">
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/tvCancel" ="0.0dip" ="fill_parent" android:text="@string/_cancel" ="1.0" 2130969173="4" 2130970889="3" 2130971472="2" style="@style/2132149446" />
+        <View ="15.0dip" ="0.0dip" />
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131442568" ="0.0dip" ="fill_parent" android:text="@string/confirm" ="1.0" 2130969173="4" 2130970889="3" style="@style/2132149446" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

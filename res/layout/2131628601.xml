@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131450428" ="0.0dip" ="25.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131431907" ="@drawable/2131233561" ="0.0dip" ="26.0dip" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131450428">
+        <TextView ="@color/2131099764" ="end" ="center" android:id="@id/tvOrderType" ="28.0dip" ="28.0dip" ="fill_parent" ="fill_parent" android:text="@string/limit_order" ="1" ="false" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131433636" ="7.0dip" ="7.0dip" ="28.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131237076" 2130971375="@color/2131099738" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131434051" ="7.0dip" ="7.0dip" ="28.0dip" ="fill_parent" ="centerInside" ="@null" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <Space android:id="@id/2131440410" ="wrap_content" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131431907" />
+    <include layout="@layout/2131628600" />
+</merge>

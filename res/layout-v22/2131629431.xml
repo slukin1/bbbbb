@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="64.0dip" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.44" />
+    <TextView ="@color/2131099764" android:id="@id/2131442285" ="wrap_content" ="wrap_content" ="1" 2130969937="2131438103" 2130969941="@id/tvRedemptionDate" style="@style/2132149346" />
+    <TextView ="@color/2131099764" android:id="@id/tvRedemptionDate" ="wrap_content" ="wrap_content" ="1" 2130969912="@id/2131444394" 2130969936="@id/2131432755" 2130969941="2131438103" style="@style/2132149346" />
+    <TextView ="@color/2131099778" android:id="@id/2131444394" ="wrap_content" ="wrap_content" ="1" 2130969911="2131438103" 2130969936="@id/2131432755" 2130969940="@id/tvRedemptionDate" style="@style/2132149384" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131439758" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/tvRedemptionDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

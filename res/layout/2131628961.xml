@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="bottom" ="@drawable/2131236765" ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131441559" ="fill_parent" ="46.0dip" ="true" ="15.0dip" ="15.0dip" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.recyclerview.widget.RecyclerView ="horizontal" android:id="@id/recycler_view" ="fill_parent" ="wrap_content" ="@id/2131441559" 2130969940="@id/2131441559" />
+        <View android:id="@id/2131435855" ="@color/2131099676" ="fill_parent" ="6.0dip" ="@id/recycler_view" 2130969940="@id/recycler_view" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099837" ="center" android:id="@id/2131429257" ="?android:selectableItemBackground" ="true" ="true" ="fill_parent" ="50.0dip" android:text="Cancel" ="@id/2131435855" 2130969940="@id/2131435855" style="@style/2132149371" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

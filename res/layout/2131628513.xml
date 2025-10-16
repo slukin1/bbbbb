@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="24.0dip" ="fill_parent" ="wrap_content" style="@style/2132148643" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_title" ="fill_parent" ="wrap_content" android:text="@string/finance_insufficient_balance" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131446058" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/spot_trade_order_failed_hint" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149350" />
+    <TextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/btn_transfer" ="@drawable/2131236439" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/_transfer" ="1.0" ="false" ="10.0dip" 2130969918="@id/btn_deposit" 2130969928="2131440523" 2130969937="2131438103" 2130969940="@id/2131446058" style="@style/2132149446" />
+    <TextView ="18.0sp" ="@color/2131099789" ="center" android:id="@id/btn_deposit" ="@drawable/2131232869" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/spot_trade_go_deposit" ="1.0" ="false" 2130969917="2131438103" 2130969936="@id/btn_transfer" 2130969940="@id/2131446058" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="#ff848e9c" android:id="@id/2131430591" ="20.0dip" ="10.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/c2c_express_other_options" ="@font/2131296274" />
+    <RelativeLayout ="vertical" android:id="@id/2131439439" ="@drawable/2131232574" ="fill_parent" ="wrap_content" ="12.0dip">
+        <View android:id="@id/2131434603" ="@drawable/2131232420" ="3.0dip" ="8.0dip" ="true" ="12.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip" ="16.0dip" ="8.0dip" ="16.0dip" ="true" ="@id/2131439440" ="@id/2131434603" ="@dimen/2131166286" ="@dimen/2131166188">
+            <TextView ="14.0sp" ="@color/2131099764" ="end" ="start" android:id="@id/2131447069" ="wrap_content" ="wrap_content" ="3" ="@font/2131296273" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131435829" ="12.0dip" ="12.0dip" ="@drawable/2131237319" ="true" ="2.0dip" ="@id/2131439440" ="@id/2131447069" 2130971375="@color/2131100160" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <LinearLayout ="horizontal" android:id="@id/2131439440" ="wrap_content" ="wrap_content" ="24.0dip" ="24.0dip" ="true" ="15.0dip" ="true" ="@dimen/2131166209">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131447995" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+            <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131447461" ="wrap_content" ="wrap_content" ="@font/2131296273" />
+        </LinearLayout>
+        <TextView ="12.0sp" ="@color/2131099787" ="center_vertical" android:id="@id/2131445798" ="@drawable/2131232608" ="8.0dip" ="8.0dip" ="visible" ="wrap_content" ="22.0dip" android:text="@string/c2c_module_price_optimal" ="@font/2131296273" ="true" ="@dimen/2131166286" />
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

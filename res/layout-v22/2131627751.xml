@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131437875" ="?2130970750" ="fill_parent" ="fill_parent" ="0.0" />
+    <com.google.android.material.internal.ClippableRoundedCornerLayout android:id="@id/2131437874" ="true" ="true" ="gone" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" android:id="@id/2131437867" ="fill_parent" ="fill_parent">
+            <View android:id="@id/2131437877" ="gone" ="fill_parent" ="wrap_content" />
+            <FrameLayout android:id="@id/2131437873" ="gone" ="fill_parent" ="wrap_content" />
+            <FrameLayout android:id="@id/2131437879" ="fill_parent" ="wrap_content">
+                <com.google.android.material.appbar.MaterialToolbar ="end" android:id="@id/2131437871" ="gone" ="wrap_content" ="wrap_content" 2130970295="@null" style="?2130970128" />
+                <com.google.android.material.appbar.MaterialToolbar android:id="@id/2131437878" ="false" ="fill_parent" ="wrap_content" 2130970294="@string/searchview_navigation_content_description" style="?2130970128">
+                    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="?2130970127">
+                        <TextView android:id="@id/2131437876" ="gone" ="wrap_content" ="wrap_content" style="?2130970125" />
+                        <EditText android:id="@id/2131437872" ="@null" ="0.0dip" ="fill_parent" ="1.0" ="textNoSuggestions" ="actionSearch|flagNoExtractUi" ="firstStrong" ="no" />
+                        <ImageButton android:id="@id/2131437868" ="?2130968587" ="16.0dip" ="gone" ="wrap_content" ="wrap_content" ="@string/searchview_clear_text_content_description" 2130971077="@drawable/2131234203" />
+                    </LinearLayout>
+                </com.google.android.material.appbar.MaterialToolbar>
+            </FrameLayout>
+            <View android:id="@id/2131437870" ="?2130969087" ="fill_parent" ="1.0dip" />
+            <com.google.android.material.internal.TouchObserverFrameLayout android:id="@id/2131437869" ="fill_parent" ="fill_parent" />
+        </LinearLayout>
+    </com.google.android.material.internal.ClippableRoundedCornerLayout>
+</merge>

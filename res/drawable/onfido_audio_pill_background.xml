@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="@drawable/onfido_audio_pill_circle" />
+    <item ="true" ="@drawable/onfido_audio_pill_circle_pressed" />
+</selector>

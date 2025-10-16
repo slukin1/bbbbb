@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.Group android:id="@id/2131439793" ="wrap_content" ="wrap_content" 2130969125="pnl_inout_flow_tip, pnl_inout_flow_selected_date_label" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131440585" ="wrap_content" ="wrap_content" 2130969125="pnl_inout_flow_selected_date_label, pnl_inout_flow_chart" />
+    <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131430717" ="wrap_content" ="wrap_content" ="20.0dip" ="15.0dip" 2130969125="pnl_inout_flow_label, pnl_inout_flow_tip" 2130969928="2131440524" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/pnl_inout_flow_label" ="2.0dip" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_inout_flow_label" ="15.0dip" 2130969937="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/pnl_inout_flow_tip" ="4.0dip" ="24.0dip" ="24.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+    <TextView ="@color/2131099778" android:id="@id/pnl_inout_flow_selected_date_label" ="wrap_content" ="wrap_content" ="4.0dip" android:text="--" 2130969937="@id/2131430717" 2130969940="@id/2131430717" style="@style/2132149384" />
+    <TextView ="#ff2ebd85" android:id="@id/2131450248" ="wrap_content" ="wrap_content" ="10.0dip" android:text="--" ="ltr" 2130969937="@id/pnl_inout_flow_selected_date_label" 2130969940="@id/pnl_inout_flow_selected_date_label" style="@style/2132149445" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131450252" ="8.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="10.0dip" ="10.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/2131450248">
+        <TextView ="#ff2ebd85" android:id="@id/2131450251" ="wrap_content" ="wrap_content" ="4.0dip" android:text="--" ="ltr" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149374" />
+        <View android:id="@id/2131450249" ="@drawable/2131236656" ="5.0dip" ="5.0dip" 2130969911="@id/2131450250" 2130969937="2131438103" 2130969941="@id/2131450250" />
+        <TextView ="@color/2131099764" android:id="@id/2131450250" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/wallet_pnl_inflow" ="ltr" ="5.0dip" 2130969936="@id/2131450249" 2130969940="@id/2131450251" style="@style/2132149394" />
+        <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131438499" ="1.0dip" ="fill_parent" 2130969921="0.5" />
+        <TextView ="#ffe0294a" android:id="@id/2131450261" ="wrap_content" ="wrap_content" ="4.0dip" android:text="--" ="ltr" 2130969936="@id/2131438499" 2130969941="2131438103" style="@style/2132149374" />
+        <View android:id="@id/2131450259" ="@drawable/2131236656" ="5.0dip" ="5.0dip" 2130969911="@id/2131450260" 2130969937="@id/2131438499" 2130969941="@id/2131450260" />
+        <TextView ="@color/2131099764" android:id="@id/2131450260" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/wallet_pnl_outflow" ="ltr" ="5.0dip" 2130969936="@id/2131450259" 2130969940="@id/2131450261" style="@style/2132149394" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.github.mikephil.charting.charts.BarChart android:id="@id/pnl_inout_flow_chart" ="fill_parent" ="155.0dip" ="8.0dip" ="15.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="@id/2131430717" 2130969940="@id/2131450252" 2130969942="0.0" />
+    <include android:id="@id/2131431415" ="gone" ="fill_parent" ="180.0dip" ="8.0dip" 2130969940="@id/2131450252" layout="@layout/2131630149" />
+    <include android:id="@id/2131438693" ="gone" ="fill_parent" ="180.0dip" ="8.0dip" 2130969940="@id/2131450252" layout="@layout/2131630150" />
+</androidx.constraintlayout.widget.ConstraintLayout>

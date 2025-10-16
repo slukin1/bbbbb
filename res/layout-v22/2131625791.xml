@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/2131432112" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131432115" ="fill_parent" ="fill_parent" style="@style/2132148650" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="center" ="vertical" android:id="@id/2131431412" ="gone" ="fill_parent" ="fill_parent" style="@style/2132148650">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431413" ="64.0dip" ="64.0dip" 2130971077="@drawable/kline_error_icon" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/refresh_layout" ="wrap_content" ="wrap_content" ="8.0dip">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" ="2.0dip" 2130971077="@drawable/2131237910" 2130971375="@color/2131099787" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="wrap_content" ="wrap_content" android:text="@string/copy_trading_refresh" style="@style/2132149450" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131447132" ="wrap_content" ="wrap_content" ="40.0dip" ="40.0dip" android:text="@string/no_data" ="@dimen/2131166248" style="@style/2132149394" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131438675" ="26.0dip" ="26.0dip" 2130970039="true" 2130970050="true" />
+</FrameLayout>

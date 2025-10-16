@@ -1,0 +1,338 @@
+.class public Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;
+.super Lde/authada/org/bouncycastle/asn1/ASN1Object;
+
+
+# instance fields
+.field private authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+.field private digAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+.field private digEncryptionAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+.field private encryptedDigest:Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+.field private issuerAndSerialNumber:Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+
+.field private unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+.field private version:Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+
+# direct methods
+.method public constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1Integer;Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1Set;Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;Lde/authada/org/bouncycastle/asn1/ASN1OctetString;Lde/authada/org/bouncycastle/asn1/ASN1Set;)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->version:Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    iput-object p2, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->issuerAndSerialNumber:Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+
+    iput-object p3, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    iput-object p4, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    iput-object p5, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digEncryptionAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    iput-object p6, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->encryptedDigest:Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    iput-object p7, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+    .locals 4
+
+    .line 65353
+    invoke-direct {p0}, Lde/authada/org/bouncycastle/asn1/ASN1Object;-><init>()V
+
+    invoke-virtual {p1}, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;->getObjects()Ljava/util/Enumeration;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->version:Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->issuerAndSerialNumber:Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    instance-of v1, v0, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    if-eqz v1, :cond_0
+
+    check-cast v0, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;
+
+    invoke-static {v0, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Set;->getInstance(Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;Z)Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    iput-object v3, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    :goto_0
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digEncryptionAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lde/authada/org/bouncycastle/asn1/DEROctetString;->getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->encryptedDigest:Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->hasMoreElements()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {p1}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;
+
+    invoke-static {p1, v2}, Lde/authada/org/bouncycastle/asn1/ASN1Set;->getInstance(Lde/authada/org/bouncycastle/asn1/ASN1TaggedObject;Z)Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    return-void
+
+    :cond_1
+    iput-object v3, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    return-void
+.end method
+
+.method public static getInstance(Ljava/lang/Object;)Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;
+    .locals 2
+
+    .line 65352
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;
+
+    return-object p0
+
+    :cond_0
+    instance-of v0, p0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    if-eqz v0, :cond_1
+
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;
+
+    check-cast p0, Lde/authada/org/bouncycastle/asn1/ASN1Sequence;
+
+    invoke-direct {v0, p0}, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1Sequence;)V
+
+    return-object v0
+
+    :cond_1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "unknown object in factory: "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+
+# virtual methods
+.method public getAuthenticatedAttributes()Lde/authada/org/bouncycastle/asn1/ASN1Set;
+    .locals 1
+
+    .line 65351
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    return-object v0
+.end method
+
+.method public getDigestAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+    .locals 1
+
+    .line 65350
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    return-object v0
+.end method
+
+.method public getDigestEncryptionAlgorithm()Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+    .locals 1
+
+    .line 65349
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digEncryptionAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    return-object v0
+.end method
+
+.method public getEncryptedDigest()Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+    .locals 1
+
+    .line 65348
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->encryptedDigest:Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    return-object v0
+.end method
+
+.method public getIssuerAndSerialNumber()Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+    .locals 1
+
+    .line 65347
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->issuerAndSerialNumber:Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+
+    return-object v0
+.end method
+
+.method public getUnauthenticatedAttributes()Lde/authada/org/bouncycastle/asn1/ASN1Set;
+    .locals 1
+
+    .line 65346
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    return-object v0
+.end method
+
+.method public getVersion()Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+    .locals 1
+
+    .line 65345
+    iget-object v0, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->version:Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    return-object v0
+.end method
+
+.method public toASN1Primitive()Lde/authada/org/bouncycastle/asn1/ASN1Primitive;
+    .locals 5
+
+    .line 65344
+    new-instance v0, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;
+
+    const/4 v1, 0x7
+
+    invoke-direct {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;-><init>(I)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->version:Lde/authada/org/bouncycastle/asn1/ASN1Integer;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->issuerAndSerialNumber:Lde/authada/org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_0
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;
+
+    iget-object v3, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->authenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    invoke-direct {v1, v2, v2, v3}, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;-><init>(ZILde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    :cond_0
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->digEncryptionAlgorithm:Lde/authada/org/bouncycastle/asn1/x509/AlgorithmIdentifier;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->encryptedDigest:Lde/authada/org/bouncycastle/asn1/ASN1OctetString;
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    iget-object v1, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    if-eqz v1, :cond_1
+
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;
+
+    const/4 v3, 0x1
+
+    iget-object v4, p0, Lde/authada/org/bouncycastle/asn1/pkcs/SignerInfo;->unauthenticatedAttributes:Lde/authada/org/bouncycastle/asn1/ASN1Set;
+
+    invoke-direct {v1, v2, v3, v4}, Lde/authada/org/bouncycastle/asn1/DERTaggedObject;-><init>(ZILde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    invoke-virtual {v0, v1}, Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;->add(Lde/authada/org/bouncycastle/asn1/ASN1Encodable;)V
+
+    :cond_1
+    new-instance v1, Lde/authada/org/bouncycastle/asn1/DERSequence;
+
+    invoke-direct {v1, v0}, Lde/authada/org/bouncycastle/asn1/DERSequence;-><init>(Lde/authada/org/bouncycastle/asn1/ASN1EncodableVector;)V
+
+    return-object v1
+.end method

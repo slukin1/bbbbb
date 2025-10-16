@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131232782" ="12.0dip" ="wrap_content" ="wrap_content" ="0.95" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.helper.widget.Flow ="vertical" android:id="@id/2131432089" ="wrap_content" ="wrap_content" 2130969125="imageViewLineType1,imageViewLineType2,imageViewLineType3,imageViewLineType4" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineType1" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235030" 2130971375="@color/2131101769" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineType2" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235031" 2130971375="@color/2131101769" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineType3" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235032" 2130971375="@color/2131101769" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewLineType4" ="wrap_content" ="20.0dip" 2130971077="@drawable/2131235033" 2130971375="@color/2131101769" />
+</androidx.constraintlayout.widget.ConstraintLayout>

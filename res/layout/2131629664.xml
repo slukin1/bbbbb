@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="start|center" android:id="@id/2131445786" ="0.0dip" ="wrap_content" ="10.0dip" ="11.0dip" ="10.0dip" 2130969918="@id/2131448062" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="end" ="end|center" android:id="@id/2131448062" ="wrap_content" ="wrap_content" ="1" ="11.0dip" 2130969911="@id/2131445786" 2130969917="2131438103" 2130969941="@id/2131445786" style="@style/2132149384" />
+    <TextView ="start|center" android:id="@id/2131447217" ="wrap_content" ="wrap_content" 2130969937="@id/2131445786" 2130969940="@id/2131445786" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/tv_price_title" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/string_price" 2130969917="@id/2131432737" 2130969937="@id/2131445786" 2130969940="@id/2131447217" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131448355" ="0.0dip" ="wrap_content" ="10.0dip" 2130969907="@id/tv_price_title" 2130969917="@id/2131448062" 2130969936="@id/2131432737" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/tv_amount_title" ="0.0dip" ="wrap_content" ="3.0dip" android:text="@string/_filled" 2130969917="@id/2131432737" 2130969937="@id/2131445786" 2130969940="@id/tv_price_title" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131448344" ="0.0dip" ="wrap_content" ="10.0dip" 2130969907="@id/tv_amount_title" 2130969917="@id/2131448062" 2130969936="@id/2131432737" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131447395" ="0.0dip" ="wrap_content" ="3.0dip" android:text="@string/copy_trading_realized_pnl" 2130969917="@id/2131432737" 2130969937="@id/2131445786" 2130969940="@id/tv_amount_title" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131447389" ="0.0dip" ="wrap_content" ="10.0dip" 2130969907="@id/2131447395" 2130969917="@id/2131448062" 2130969936="@id/2131432737" style="@style/2132149350" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/tv_fee_title" ="0.0dip" ="wrap_content" ="3.0dip" android:text="@string/fee" 2130969917="@id/2131432737" 2130969937="@id/2131445786" 2130969940="@id/2131447395" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131448349" ="0.0dip" ="wrap_content" ="10.0dip" 2130969907="@id/tv_fee_title" 2130969917="@id/2131448062" 2130969936="@id/2131432737" style="@style/2132149350" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131443421" ="wrap_content" ="wrap_content" ="3.0dip" android:text="@string/voptions_trade_history_iv" 2130969274="@string/voptions_trade_history_implied_volatility" 2130969937="@id/2131445786" 2130969940="@id/tv_fee_title" 2130970840="true" 2130970849="true" 2130971380="0" 2130971382="@string/voptions_trade_history_iv_tip" 2130971383="2131440560" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131448759" ="wrap_content" ="wrap_content" 2130969907="@id/2131443421" 2130969917="@id/2131448062" style="@style/2132149350" />
+    <View android:id="@id/2131449631" ="@color/2131099970" ="gone" ="0.0dip" ="0.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

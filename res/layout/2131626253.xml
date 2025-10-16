@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="94.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvTotalValue" ="wrap_content" ="wrap_content" ="1" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149463" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="center_vertical" android:id="@id/2131443062" ="wrap_content" ="wrap_content" android:text="@string/earn_dashboard_total_asset" ="1" 2130969905="true" 2130969917="2131438103" 2130969918="@id/2131433858" 2130969927="0.0" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/tvTotalValue" style="@style/2132149361" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433858" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131443062" 2130969936="@id/2131443062" 2130969941="@id/2131443062" 2130971077="@drawable/2131237313" 2130971375="@color/2131099779" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131444092" ="0.0dip" ="wrap_content" ="14.0dip" ="1" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443062" style="@style/2132149450" />
+    <com.binance.widget.BottomDashLineTextView ="@color/2131099779" ="end" ="center_vertical" android:id="@id/2131444088" ="wrap_content" ="wrap_content" android:text="@string/last_day_pnl" ="1" 2130969937="2131438103" 2130969940="@id/2131444092" style="@style/2132149361" />
+</androidx.constraintlayout.widget.ConstraintLayout>

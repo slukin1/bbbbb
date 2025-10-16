@@ -1,0 +1,51 @@
+.class public final Lo/LaunchpoolPreheatInfo;
+.super Lo/EarnHomeProductTag;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0002\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0007\u001a\u00020\u0006H\u0017\u00a2\u0006\u0004\u0008\u0007\u0010\u0008"
+    }
+    d2 = {
+        "Lo/LaunchpoolPreheatInfo;",
+        "Lo/EarnHomeProductTag;",
+        "Landroid/app/Application;",
+        "p0",
+        "<init>",
+        "(Landroid/app/Application;)V",
+        "",
+        "b",
+        "()Ljava/lang/String;"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Application;)V
+    .locals 0
+
+    .line 12
+    invoke-direct {p0, p1}, Lo/EarnHomeProductTag;-><init>(Landroid/app/Application;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b()Ljava/lang/String;
+    .locals 1
+
+    .line 15
+    const-string v0, "com.binance.margin.asset.KEY_SORT_ITEM"
+
+    return-object v0
+.end method

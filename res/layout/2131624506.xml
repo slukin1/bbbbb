@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="16.0dip" ="4.0dip" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="never" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130971059="5" />
+    <View android:id="@id/divider" ="@color/2131099676" ="fill_parent" ="1.0px" />
+</LinearLayout>

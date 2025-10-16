@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131430791" ="wrap_content" ="wrap_content" android:text="@string/market_detail_date" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131430767" ="wrap_content" ="wrap_content" 2130969911="@id/2131430791" 2130969917="2131438103" 2130969941="@id/2131430791" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441730" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/market_detail_total_unlocked" 2130969937="2131438103" 2130969940="@id/2131430791" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441706" ="wrap_content" ="wrap_content" 2130969911="@id/2131441730" 2130969917="2131438103" 2130969941="@id/2131441730" style="@style/2132149450" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131440866" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/market_detail_max_supply" 2130969937="2131438103" 2130969940="@id/2131441730" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131440864" ="wrap_content" ="wrap_content" 2130969911="@id/2131440866" 2130969917="2131438103" 2130969941="@id/2131440866" style="@style/2132149450" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="1.0dip" ="16.0dip" 2130969940="@id/2131440866" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,483 @@
+.class public final Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/reactivex/functions/IsolatedAddMarginComposeKtgetRiskRiskColor11;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/binance/share/internal/CommonShareActivity;->work(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lio/reactivex/functions/IsolatedAddMarginComposeKtgetRiskRiskColor11;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic e:Lcom/binance/share/internal/CommonShareActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/binance/share/internal/CommonShareActivity;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;->e:Lcom/binance/share/internal/CommonShareActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 5
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    if-eqz p1, :cond_c
+
+    .line 163
+    check-cast p1, Lo/KDepthFragmentsubscribeDepthData2invokeSuspendinlinedfilter121;
+
+    .line 1003
+    iget-object v0, p1, Lo/KDepthFragmentsubscribeDepthData2invokeSuspendinlinedfilter121;->d:Ljava/lang/String;
+
+    .line 223
+    check-cast v0, Ljava/lang/CharSequence;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 224
+    iget-object v0, p0, Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;->e:Lcom/binance/share/internal/CommonShareActivity;
+
+    .line 2003
+    iget-object p1, p1, Lo/KDepthFragmentsubscribeDepthData2invokeSuspendinlinedfilter121;->d:Ljava/lang/String;
+
+    .line 224
+    iput-object p1, v0, Lcom/binance/share/internal/CommonShareActivity;->c:Ljava/lang/String;
+
+    .line 225
+    iget-object p1, p0, Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;->e:Lcom/binance/share/internal/CommonShareActivity;
+
+    iget-object v0, p1, Lcom/binance/share/internal/CommonShareActivity;->h:Ljava/lang/String;
+
+    iget-object v1, p0, Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;->e:Lcom/binance/share/internal/CommonShareActivity;
+
+    iget-object v1, v1, Lcom/binance/share/internal/CommonShareActivity;->c:Ljava/lang/String;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, "\n"
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->e(Lcom/binance/share/internal/CommonShareActivity;Ljava/lang/String;)V
+
+    .line 227
+    :cond_0
+    iget-object p1, p0, Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;->e:Lcom/binance/share/internal/CommonShareActivity;
+
+    invoke-static {p1}, Lcom/binance/share/internal/CommonShareActivity;->a(Lcom/binance/share/internal/CommonShareActivity;)I
+
+    move-result v0
+
+    invoke-static {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Lcom/binance/share/internal/CommonShareActivity;I)V
+
+    .line 228
+    iget-object p1, p0, Lcom/binance/share/internal/CommonShareActivity$DropdropElements3;->e:Lcom/binance/share/internal/CommonShareActivity;
+
+    invoke-static {p1}, Lcom/binance/share/internal/CommonShareActivity;->a(Lcom/binance/share/internal/CommonShareActivity;)I
+
+    move-result v0
+
+    const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
+
+    const/16 v2, 0x1d
+
+    const/16 v3, 0x17
+
+    const/4 v4, 0x1
+
+    packed-switch v0, :pswitch_data_0
+
+    return-void
+
+    .line 3270
+    :pswitch_0
+    const-string v0, "com.reddit.frontpage"
+
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3267
+    :pswitch_1
+    const-string v0, "jp.naver.line.android"
+
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3264
+    :pswitch_2
+    const-string v0, "com.whatsapp"
+
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3261
+    :pswitch_3
+    const-string v0, "com.snapchat.android"
+
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3258
+    :pswitch_4
+    const-string v0, "com.instagram.android"
+
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3255
+    :pswitch_5
+    const-string v0, "com.facebook.katana"
+
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 4381
+    :pswitch_6
+    iget-object v0, p1, Lcom/binance/share/internal/CommonShareActivity;->g:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    if-eq v0, v4, :cond_1
+
+    goto :goto_1
+
+    .line 4385
+    :cond_1
+    new-instance v0, Lo/setCurrentCurrency;
+
+    invoke-direct {v0, p1}, Lo/setCurrentCurrency;-><init>(Lcom/binance/share/internal/CommonShareActivity;)V
+
+    .line 4389
+    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    if-ge v4, v3, :cond_2
+
+    .line 4390
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->e(Landroid/media/MediaScannerConnection$OnScanCompletedListener;)Z
+
+    goto/16 :goto_3
+
+    .line 4392
+    :cond_2
+    sget-object v3, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->INSTANCE:Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;
+
+    move-object v3, p1
+
+    check-cast v3, Landroid/content/Context;
+
+    .line 5042
+    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    if-lt v4, v2, :cond_3
+
+    goto :goto_0
+
+    .line 5045
+    :cond_3
+    invoke-static {v3, v1}, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->a(Landroid/content/Context;Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    .line 4393
+    sget-object v0, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->INSTANCE:Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;
+
+    move-object v0, p1
+
+    check-cast v0, Landroidx/appcompat/app/AppCompatActivity;
+
+    iget p1, p1, Lcom/binance/share/internal/CommonShareActivity;->i:I
+
+    invoke-static {v0, p1}, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->a(Landroidx/appcompat/app/AppCompatActivity;I)V
+
+    goto/16 :goto_3
+
+    .line 4395
+    :cond_4
+    :goto_0
+    invoke-virtual {p1, v0}, Lcom/binance/share/internal/CommonShareActivity;->e(Landroid/media/MediaScannerConnection$OnScanCompletedListener;)Z
+
+    return-void
+
+    .line 4382
+    :cond_5
+    :goto_1
+    sget-object v0, Lo/MarginTradeFragmentspecialinlinedviewModelsdefault5;->Companion:Lo/MarginTradeFragmentspecialinlinedviewModelsdefault5$Companion;
+
+    move-object v1, p1
+
+    check-cast v1, Landroid/content/Context;
+
+    iget-object v2, p1, Lcom/binance/share/internal/CommonShareActivity;->c:Ljava/lang/String;
+
+    iget-object v3, p1, Lcom/binance/share/internal/CommonShareActivity;->h:Ljava/lang/String;
+
+    if-nez v3, :cond_6
+
+    const-string v3, ""
+
+    :cond_6
+    invoke-virtual {v0, v1, v2, v3}, Lo/MarginTradeFragmentspecialinlinedviewModelsdefault5$Companion;->e(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 4383
+    iput-boolean v4, p1, Lcom/binance/share/internal/CommonShareActivity;->e:Z
+
+    goto/16 :goto_3
+
+    .line 6322
+    :pswitch_7
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    if-lt v0, v3, :cond_8
+
+    .line 6325
+    sget-object v0, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->INSTANCE:Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;
+
+    move-object v0, p1
+
+    check-cast v0, Landroid/content/Context;
+
+    .line 7042
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    if-lt v3, v2, :cond_7
+
+    goto :goto_2
+
+    .line 7045
+    :cond_7
+    invoke-static {v0, v1}, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->a(Landroid/content/Context;Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_8
+
+    .line 6326
+    sget-object v0, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->INSTANCE:Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;
+
+    move-object v0, p1
+
+    check-cast v0, Landroidx/appcompat/app/AppCompatActivity;
+
+    iget p1, p1, Lcom/binance/share/internal/CommonShareActivity;->f:I
+
+    invoke-static {v0, p1}, Lo/MarginExchangeCorespecialinlinedviewModelsdefault14;->a(Landroidx/appcompat/app/AppCompatActivity;I)V
+
+    goto :goto_3
+
+    .line 6328
+    :cond_8
+    :goto_2
+    invoke-virtual {p1}, Lcom/binance/share/internal/CommonShareActivity;->d()V
+
+    return-void
+
+    .line 3276
+    :pswitch_8
+    iget-object v0, p1, Lcom/binance/share/internal/CommonShareActivity;->c:Ljava/lang/String;
+
+    if-eqz v0, :cond_9
+
+    move-object v1, p1
+
+    check-cast v1, Landroid/content/Context;
+
+    const v2, 0x7f155380
+
+    invoke-static {v2}, Lo/JResponse;->j(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v0, v1, v2}, Lo/parseHead;->c(Ljava/lang/String;Landroid/content/Context;Ljava/lang/String;)V
+
+    .line 3277
+    :cond_9
+    invoke-virtual {p1}, Landroid/app/Activity;->finish()V
+
+    return-void
+
+    .line 3248
+    :pswitch_9
+    move-object v0, p1
+
+    check-cast v0, Landroid/content/Context;
+
+    const-string v1, "org.telegram.messenger.web"
+
+    invoke-static {v0, v1}, Lo/getSpotOrderBookService;->e(Landroid/content/Context;Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_a
+
+    .line 3249
+    invoke-virtual {p1, v1}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3250
+    :cond_a
+    const-string v1, "org.telegram.messenger"
+
+    invoke-static {v0, v1}, Lo/getSpotOrderBookService;->e(Landroid/content/Context;Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    .line 3251
+    invoke-virtual {p1, v1}, Lcom/binance/share/internal/CommonShareActivity;->a(Ljava/lang/String;)V
+
+    return-void
+
+    .line 3236
+    :pswitch_a
+    iget-object v0, p1, Lcom/binance/share/internal/CommonShareActivity;->g:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_b
+
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    if-ne v0, v4, :cond_b
+
+    .line 3237
+    const-string v0, "com.twitter.android"
+
+    iget-object v1, p1, Lcom/binance/share/internal/CommonShareActivity;->a:Ljava/lang/String;
+
+    invoke-virtual {p1, v0, v1}, Lcom/binance/share/internal/CommonShareActivity;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+
+    .line 3240
+    :cond_b
+    const-string v0, "https://twitter.com/intent/tweet"
+
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    .line 3241
+    invoke-virtual {v0}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
+
+    move-result-object v0
+
+    .line 3242
+    const-string v1, "text"
+
+    iget-object v2, p1, Lcom/binance/share/internal/CommonShareActivity;->h:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
+
+    move-result-object v0
+
+    .line 3243
+    const-string v1, "url"
+
+    iget-object v2, p1, Lcom/binance/share/internal/CommonShareActivity;->c:Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Landroid/net/Uri$Builder;->appendQueryParameter(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
+
+    move-result-object v0
+
+    .line 3244
+    new-instance v1, Landroid/content/Intent;
+
+    const-string v2, "android.intent.action.VIEW"
+
+    invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
+
+    invoke-virtual {p1, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+
+    :cond_c
+    :goto_3
+    return-void
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

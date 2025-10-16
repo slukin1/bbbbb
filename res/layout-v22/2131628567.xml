@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099712" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131430324" ="11.0dip" ="11.0dip" ="fill_parent" ="wrap_content" ="11.0dip">
+        <include android:id="@id/2131435686" ="fill_parent" ="wrap_content" ="10.0dip" layout="@layout/2131628847" />
+        <include android:id="@id/2131435689" ="fill_parent" ="wrap_content" layout="@layout/2131628847" />
+        <include android:id="@id/2131435688" ="fill_parent" ="wrap_content" layout="@layout/2131628847" />
+        <include android:id="@id/2131435687" ="fill_parent" ="wrap_content" layout="@layout/2131628847" />
+        <include android:id="@id/2131435690" ="fill_parent" ="wrap_content" layout="@layout/2131628847" />
+        <include android:id="@id/2131435691" ="fill_parent" ="wrap_content" layout="@layout/2131628847" />
+        <View ="@color/2131100461" ="fill_parent" ="0.5dip" ="12.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" ="center_horizontal" android:id="@id/2131447133" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="16.0dip" android:text="@string/no_more_data" style="@style/2132149450" />
+</androidx.appcompat.widget.LinearLayoutCompat>

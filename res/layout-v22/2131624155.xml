@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="fill_parent" ="0.0dip" ="1.0">
+            <TextView ="@color/2131099764" ="center" ="wrap_content" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="10.0dip" ="40.0dip" android:text="@string/margin_loan_renew" ="@dimen/2131166184" style="@style/2132149416" />
+            <com.finance.framework.widget.slide.AnnouncementView android:id="@id/2131449490" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" />
+            <com.major.android.uikit.notification.KitFoldNotification ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" 2130970325="@drawable/2131238480" 2130970329="@string/margin_loan_renew_tip" 2130970863="@null" />
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/margin_borrow_amount" ="1.0" ="10.0dip" style="@style/2132149350" />
+                <TextView ="@color/2131099778" ="0.0dip" ="wrap_content" android:text="@string/margin_loan_collateral_amount" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099764" android:id="@id/2131445815" ="0.0dip" ="wrap_content" ="1.0" ="10.0dip" style="@style/2132149446" />
+                <TextView ="@color/2131099764" android:id="@id/2131446000" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149446" />
+            </LinearLayout>
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" ="@dimen/2131166184" />
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131441506" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_term" ="3.0dip" 2130969274="@string/margin_loan_term" 2130969306="@drawable/2131233676" 2130970840="true" 2130970849="false" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131446884" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_hourly_interest_rate" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131446668" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_expiration_time" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131446444" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184">
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_repayment_amount" ="3.0dip" 2130969274="@string/margin_loan_repayment_amount" 2130969306="@drawable/2131233676" 2130970840="true" 2130970849="false" 2130971382="@string/margin_loan_repayment_amount_tip" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131447640" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" ="@dimen/2131166184" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/margin_loan_prompt" ="@dimen/2131166184" style="@style/2132149384" />
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" android:text="@string/margin_loan_residual_interest" ="@dimen/2131166184" style="@style/2132149450" />
+            <TextView ="@color/2131099787" android:id="@id/2131447661" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" style="@style/2132149446" />
+            <LinearLayout ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_loan_renew_accrued_interest_time" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131446715" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/2131435667" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_overdue_time" style="@style/2132149450" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131447263" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429081" ="fill_parent" ="wrap_content" ="20.0dip" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/margin_loan_pay_and_renew" ="@dimen/2131166200" ="@dimen/2131166184" style="@style/2132148691" />
+</LinearLayout>

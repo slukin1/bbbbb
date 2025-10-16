@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131438184" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438181" ="fill_parent" ="wrap_content" 2130971077="@drawable/2131235614" />
+    <TextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/2131438182" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/payment_enter_box_code_to_claim_crypto_box" style="@style/2132149446" />
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131438180" ="fill_parent" ="wrap_content" 2130969655="@string/payment_claim_box_hint" 2130969940="@id/2131438182" 2130970672="@string/paste" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131438190" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/payment_claim_now" 2130969940="@id/2131438180" 2130970889="1" 2130971472="2131429147" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429816" ="gone" ="fill_parent" ="wrap_content" ="30.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/_history" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="end" ="wrap_content" ="wrap_content" android:text="@string/c2c_order_detail_view_all" 2130969905="true" 2130969918="@id/2131434330" 2130969941="2131438103" style="@style/2132149377" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434330" ="18.0dip" ="18.0dip" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971375="@color/2131099787" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131438189" ="gone" ="fill_parent" ="wrap_content" ="7.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

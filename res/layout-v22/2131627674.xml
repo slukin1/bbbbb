@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131431229" ="@color/2131099800" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437211" ="gone" ="wrap_content" ="38.0dip" android:text="@string/mpc_send_dialog_nft_tem" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437212" ="5.0dip" ="5.0dip" ="gone" ="0.0dip" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131437211" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437209" ="wrap_content" ="38.0dip" android:text="@string/mpc_send_dialog_amount" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131437212" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437210" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131437212" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437204" ="wrap_content" ="38.0dip" android:text="@string/dwallet_connect_approve_network" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131437209" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437205" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131437210" style="@style/2132149450" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437199" ="wrap_content" ="38.0dip" android:text="@string/confirm_send_dialog_network_fee" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131437204" style="@style/2132149350" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437203" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" ="8.0dip" 2130969917="2131438103" 2130969940="@id/2131437205">
+        <LinearLayout ="end|center" ="vertical" ="wrap_content" ="wrap_content" ="5.0dip" 2130969918="@id/2131437200" 2130969941="2131438103">
+            <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437202" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+            <TextView ="@color/2131099778" ="end|center" android:id="@id/2131437201" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437200" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131437207" ="wrap_content" ="38.0dip" android:text="@string/confirm_send_dialog_total" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131437203" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end|center" android:id="@id/2131437208" ="wrap_content" ="38.0dip" ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969940="@id/2131437203" style="@style/2132149450" />
+</androidx.constraintlayout.widget.ConstraintLayout>

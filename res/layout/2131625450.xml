@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" android:id="@id/2131435918" ="wrap_content" ="50.0dip" ="15.0dip" ="15.0dip">
+        <TextView ="@color/2131099837" android:id="@id/2131431837" ="wrap_content" ="wrap_content" android:text="@string/to_top" style="@style/2132149446" />
+        <ImageView android:id="@id/2131434622" ="7.0dip" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131233519" />
+    </LinearLayout>
+    <ImageView ="end|center" android:id="@id/2131431836" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" 2130971077="@drawable/2131233617" />
+    <View ="bottom" android:id="@id/2131449707" ="@color/2131099751" ="wrap_content" ="0.5dip" />
+</FrameLayout>

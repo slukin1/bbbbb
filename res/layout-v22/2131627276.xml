@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="26.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099778" android:id="@id/2131445483" ="wrap_content" ="wrap_content" android:text="@string/market_detail_zoom_chart" style="@style/2132149450" />
+        <ImageView android:id="@id/2131434288" ="16.0dip" ="16.0dip" ="4.0dip" ="4.0dip" ="@dimen/2131166247" 2130971077="@drawable/2131237075" 2130971375="@color/2131099726" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="@dimen/2131166184">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/market_detail_zoom_to_area_title" ="1.0" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435184" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436258" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/market_detail_internal_keep_zoom_status" ="1.0" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435161" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" 2130969292="@null" />
+    <TextView ="@color/2131099778" ="center_vertical" ="wrap_content" ="26.0dip" ="16.0dip" android:text="@string/abstract_on_kline" ="15.0dip" style="@style/2132149450" />
+    <LinearLayout ="center" ="horizontal" ="15.0dip" ="15.0dip" ="fill_parent" ="146.0dip" ="15.0dip">
+        <LinearLayout ="center" ="vertical" android:id="@id/2131435341" ="@drawable/2131233528" ="0.0dip" ="wrap_content" ="5.5dip" ="5.5dip" ="1.0" ="5.5dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="14.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433637" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 76:50" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/layer" style="@style/2132149350" />
+        </LinearLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131435343" ="@drawable/2131233528" ="0.0dip" ="wrap_content" ="5.5dip" ="5.5dip" ="1.0" ="5.5dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="14.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433639" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 76:50" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/window" style="@style/2132149350" />
+        </LinearLayout>
+        <LinearLayout ="center" ="vertical" android:id="@id/2131435342" ="@drawable/2131233528" ="0.0dip" ="wrap_content" ="5.5dip" ="5.5dip" ="1.0" ="5.5dip">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="14.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433638" ="fill_parent" ="0.0dip" ="@drawable/2131236734" ="fitCenter" 2130969916="H, 76:50" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/marketdetail_none" style="@style/2132149350" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" 2130969292="@null" />
+    <TextView ="@color/2131099778" ="center_vertical" ="wrap_content" ="26.0dip" ="16.0dip" android:text="@string/market_detail_general_settings" ="15.0dip" style="@style/2132149450" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436387" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/market_detail_tap_show_abs" ="1.0" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435166" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436286" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131443786" ="wrap_content" ="wrap_content" android:text="@string/market_detail_multiple_main_indicator" ="false" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434015" ="2.0dip" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+        <Space ="0.0dip" ="1.0dip" ="1.0" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435164" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436421" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/market_detail_internal_vibration" ="1.0" style="@style/2132149450" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435167" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131435430" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+        <TextView ="@color/2131099764" android:id="@id/2131443167" ="wrap_content" ="wrap_content" android:text="@string/market_detail_full_data" ="false" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433884" ="2.0dip" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+        <Space ="0.0dip" ="1.0dip" ="1.0" />
+        <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435160" ="wrap_content" ="wrap_content" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131441034" ="fill_parent" ="wrap_content">
+        <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" 2130969292="@null" />
+        <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="26.0dip" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/market_detail_chart_sync_title" style="@style/2132149450" />
+            <ImageView android:id="@id/2131441035" ="16.0dip" ="16.0dip" ="4.0dip" ="4.0dip" ="@dimen/2131166247" 2130971077="@drawable/2131237075" 2130971375="@color/2131099726" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="54.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/market_detail_draw_sync_mode" style="@style/2132149450" />
+            <Space ="0.0dip" ="1.0dip" ="1.0" />
+            <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435165" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="24.0dip" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131438076" ="@drawable/2131236709" ="0.0dip" ="fill_parent" android:text="@string/market_detail_chart_overwrite_drawings_title" ="1.0" ="8.0dip" style="@style/2132149454" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131427672" ="@drawable/2131236709" ="0.0dip" ="fill_parent" android:text="@string/market_detail_chart_add_drawings_title" ="1.0" style="@style/2132149454" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" 2130969292="@null" />
+    <TextView ="@color/2131099778" ="center_vertical" ="wrap_content" ="26.0dip" ="16.0dip" android:text="@string/marketdetail_doubleclick_mainchart" ="15.0dip" style="@style/2132149450" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436378" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" android:id="@id/2131444855" ="wrap_content" ="wrap_content" android:text="@string/marketdetail_switch_main_indicators" ="false" style="@style/2132149450" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434207" ="2.0dip" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099785" />
+            <Space ="0.0dip" ="1.0dip" ="1.0" />
+            <com.major.android.uikit2.selection.KitRadioButton android:id="@id/2131435142" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436380" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/marketdetail_switch_hor_screen" ="1.0" style="@style/2132149450" />
+            <com.major.android.uikit2.selection.KitRadioButton android:id="@id/2131435144" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436216" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/marketdetail_none" ="1.0" style="@style/2132149450" />
+            <com.major.android.uikit2.selection.KitRadioButton android:id="@id/2131435140" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.major.android.uikit.divider.KitDivider ="fill_parent" ="wrap_content" ="16.0dip" 2130969292="@null" />
+    <TextView ="@color/2131099778" ="center_vertical" ="wrap_content" ="26.0dip" ="16.0dip" android:text="@string/marketdetail_doubleclick_subchart" ="15.0dip" style="@style/2132149450" />
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436379" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/marketdetail_switch_sub_indicators" ="1.0" style="@style/2132149450" />
+            <com.major.android.uikit2.selection.KitRadioButton android:id="@id/2131435143" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436217" ="15.0dip" ="15.0dip" ="fill_parent" ="54.0dip" ="30.0dip" ="15.0dip">
+            <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/marketdetail_none" ="1.0" style="@style/2132149450" />
+            <com.major.android.uikit2.selection.KitRadioButton android:id="@id/2131435141" ="wrap_content" ="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

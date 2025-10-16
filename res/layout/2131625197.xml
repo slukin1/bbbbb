@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="36.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_features_announcement" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436158" ="105.0dip" ="wrap_content" ="20.0dip" ="15.0dip" 2130969918="@id/2131436273" 2130969928="2131440524" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <ImageView android:id="@id/2131433689" ="12.0dip" ="48.0dip" ="48.0dip" ="@drawable/2131237115" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/margin_loan_asset_overview" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436273" ="105.0dip" ="wrap_content" ="20.0dip" 2130969918="@id/2131436231" 2130969936="@id/2131436158" 2130969940="@id/tvTitle">
+        <ImageView android:id="@id/2131433960" ="12.0dip" ="48.0dip" ="48.0dip" ="@drawable/2131238235" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/margin_loan_data" />
+    </LinearLayout>
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131436231" ="105.0dip" ="wrap_content" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131436273" 2130969940="@id/tvTitle">
+        <ImageView android:id="@id/2131433859" ="12.0dip" ="48.0dip" ="48.0dip" ="@drawable/2131236780" 2130971375="@color/2131099764" />
+        <TextView ="@color/2131099764" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/_faq" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

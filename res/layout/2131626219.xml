@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.components.skeleton.SkeletonViewGroup android:id="@id/2131430273" ="@drawable/2131235989" ="12.0dip" ="12.0dip" ="fill_parent" ="164.0dip" ="@color/2131099803" 2130970893="@dimen/2131166170" 2130970894="@id/2131431925" 2130970897="keleton_home_widget_common_4x4_light.svg" 2130970899="keleton_home_widget_common_4x4_night.svg" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131431925" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099779" ="end" ="start|center" ="0.0dip" ="wrap_content" android:text="@string/home_widget_alpha_event_title" ="1" ="false" ="1.0" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237055" 2130971375="@color/2131099779" />
+    </LinearLayout>
+    <androidx.compose.ui.platform.ComposeView ="@color/2131099764" android:id="@id/2131427784" ="wrap_content" ="wrap_content" ="11.0dip" ="false" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131431925" />
+    <TextView ="@color/2131099779" android:id="@id/2131427785" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/home_widget_alpha_days" 2130969937="2131438103" 2130969940="@id/2131427784" style="@style/2132149361" />
+    <View android:id="@id/2131427783" ="@color/2131099752" ="fill_parent" ="0.5dip" ="12.0dip" ="15.0dip" ="12.0dip" 2130969937="2131438103" 2130969940="@id/2131427785" />
+    <TextView ="@color/2131099786" ="center" android:id="@id/2131437711" ="fill_parent" ="0.0dip" ="15.0dip" ="29.0dip" android:text="@string/home_widget_alpha_no_events" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131427783" style="@style/2132149454" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439035" ="gone" ="fill_parent" ="0.0dip" ="15.0dip" ="30.0dip" 2130969912="@id/2131433417" 2130969937="2131438103" 2130969940="@id/2131427783" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131433417" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+</com.components.skeleton.SkeletonViewGroup>

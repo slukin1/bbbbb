@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131440160" ="@color/2131099685" ="fill_parent" ="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439080" ="fill_parent" ="fill_parent" />
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+    <androidx.appcompat.widget.AppCompatImageView ="center" ="end|bottom|center" ="vertical" android:id="@id/backButton" ="@drawable/2131235990" ="10.0dip" ="40.0dip" ="40.0dip" ="75.0dip" ="16.0dip" ="@color/2131099764" 2130971077="@drawable/2131236869" 2130971375="@color/2131099685" />
+    <LinearLayout ="vertical" android:id="@id/2131431363" ="@color/2131099685" ="gone" ="fill_parent" ="fill_parent">
+        <ImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="100.0dip" 2130971077="@drawable/2131238419" />
+        <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" android:id="@id/2131446352" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/c2c_mob_pro_profile_received_reviews_no_reviews" />
+    </LinearLayout>
+</FrameLayout>

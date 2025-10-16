@@ -1,0 +1,75 @@
+.class final Lcom/onfido/android/sdk/capture/component/active/video/capture/di/host/DaggerMotionHostComponent$MotionHostComponentImpl$ProvideSdkUploadMetadataHelper$onfido_capture_sdk_core_releaseProvider;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/onfido/javax/inject/Provider;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/onfido/android/sdk/capture/component/active/video/capture/di/host/DaggerMotionHostComponent$MotionHostComponentImpl;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "onfido_capture_sdk_core_releaseProvider"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/onfido/javax/inject/Provider<",
+        "Lcom/onfido/android/sdk/capture/internal/metadata/SdkUploadMetadataHelper;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final sdkComponent:Lcom/onfido/android/sdk/capture/common/di/SdkComponent;
+
+
+# direct methods
+.method constructor <init>(Lcom/onfido/android/sdk/capture/common/di/SdkComponent;)V
+    .locals 0
+
+    .line 65354
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/onfido/android/sdk/capture/component/active/video/capture/di/host/DaggerMotionHostComponent$MotionHostComponentImpl$ProvideSdkUploadMetadataHelper$onfido_capture_sdk_core_releaseProvider;->sdkComponent:Lcom/onfido/android/sdk/capture/common/di/SdkComponent;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get()Lcom/onfido/android/sdk/capture/internal/metadata/SdkUploadMetadataHelper;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/onfido/android/sdk/capture/component/active/video/capture/di/host/DaggerMotionHostComponent$MotionHostComponentImpl$ProvideSdkUploadMetadataHelper$onfido_capture_sdk_core_releaseProvider;->sdkComponent:Lcom/onfido/android/sdk/capture/common/di/SdkComponent;
+
+    invoke-virtual {v0}, Lcom/onfido/android/sdk/capture/common/di/SdkComponent;->provideSdkUploadMetadataHelper$onfido_capture_sdk_core_release()Lcom/onfido/android/sdk/capture/internal/metadata/SdkUploadMetadataHelper;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/onfido/dagger/internal/Preconditions;->checkNotNullFromComponent(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/onfido/android/sdk/capture/internal/metadata/SdkUploadMetadataHelper;
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/onfido/android/sdk/capture/component/active/video/capture/di/host/DaggerMotionHostComponent$MotionHostComponentImpl$ProvideSdkUploadMetadataHelper$onfido_capture_sdk_core_releaseProvider;->get()Lcom/onfido/android/sdk/capture/internal/metadata/SdkUploadMetadataHelper;
+
+    move-result-object v0
+
+    return-object v0
+.end method

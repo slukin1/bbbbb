@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient ="#90000000" ="0.0" ="radial" ="100.0%p" ="#02000000" />
+        </shape>
+    </item>
+    <item ="@drawable/2131233111" ="1.0dip" ="1.0dip" ="1.0dip" ="1.0dip" />
+</layer-list>

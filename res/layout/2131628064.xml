@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131439474" ="@drawable/2131235607" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/ivClose" ="gone" ="20.0dip" ="20.0dip" ="15.0dip" ="15.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="center" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="40.0dip" android:text="@string/payment_crypto_box_send_to_your_friends_now" style="@style/2132149425" />
+    <com.major.android.uikit.button.KitButton ="start|center" android:id="@id/2131428899" ="fill_parent" ="wrap_content" ="24.0dip" android:text="@string/ms_redpacket_link_share" ="12.0dip" ="textStart" 2130969311="@drawable/2131238029" 2130970889="1" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" android:id="@id/2131428884" ="@drawable/2131235585" ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/ms_redpacket_picture_share" ="12.0dip" ="false" ="textStart" 2130969311="@drawable/2131235730" style="@style/2132149446" />
+    <LinearLayout ="horizontal" android:id="@id/2131436203" ="@drawable/2131235585" ="true" ="true" ="fill_parent" ="wrap_content" ="16.0dip" ="32.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" android:id="@id/2131428739" ="#00000000" ="16.0dip" ="0.0dip" ="wrap_content" android:text="@string/payment_crypto_box_copy_box_code" ="12.0dip" ="1.0" ="false" ="textStart" 2130969311="@drawable/2131235660" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center" android:id="@id/2131442367" ="18.0dip" ="18.0dip" ="wrap_content" ="wrap_content" ="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

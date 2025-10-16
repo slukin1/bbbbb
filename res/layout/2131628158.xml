@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start|center" android:id="@id/tvTitle" ="5.0dip" ="fill_parent" ="27.0dip" ="false" ="locale" ="viewStart" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+    <LinearLayout android:id="@id/content" ="@drawable/2131238460" ="fill_parent" ="50.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvTitle">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430323" ="wrap_content" ="fill_parent" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433920" ="20.0dip" ="20.0dip" ="10.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatTextView ="center_vertical" android:id="@id/tvName" ="wrap_content" ="wrap_content" ="false" ="5.0dip" 2130969911="2131438103" 2130969936="@id/2131433920" 2130969941="2131438103" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432959" ="20.0dip" ="20.0dip" ="5.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/tvName" 2130969941="2131438103" 2130971077="@drawable/2131237518" />
+            <View ="@color/2131099725" ="1.0dip" ="16.0dip" ="10.0dip" 2130969911="2131438103" 2130969936="@id/2131432959" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099762" ="start|center" android:id="@id/2131431430" ="@null" ="fill_parent" ="fill_parent" android:hint="@string/c2c_mob_palceorder_buy_inputhint_amount" ="true" ="false" ="@drawable/2131238456" ="locale" ="viewStart" ="10.0dip" ="10.0dip" style="@style/2132149346" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" android:id="@id/2131436393" ="fill_parent" ="wrap_content" ="5.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/content">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start|center" ="start" android:id="@id/2131444983" ="wrap_content" ="wrap_content" ="16.0dip" ="true" ="1.0" ="locale" ="viewStart" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end|center" android:id="@id/2131444984" ="wrap_content" ="wrap_content" ="16.0dip" ="true" ="1.0" ="locale" ="viewEnd" style="@style/2132149384" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" ="start|center" ="start" android:id="@id/2131444980" ="gone" ="fill_parent" ="wrap_content" ="5.0dip" ="16.0dip" ="true" ="locale" ="viewStart" 2130969911="2131438103" 2130969937="2131438103" 2130969940="@id/2131436393" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

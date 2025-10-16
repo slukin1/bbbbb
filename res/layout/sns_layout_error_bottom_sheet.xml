@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSBottomSheetView ="vertical" android:id="@id/sns_bottom_sheet" ="true" ="true" ="fill_parent" ="wrap_content" 2130969901="@string/bottom_sheet_behavior">
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="@dimen/sns_margin_medium" ="fill_parent" ="fill_parent">
+            <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_start_icon" ="@dimen/sns_icon_size_medium" ="@dimen/sns_icon_size_medium" 2130969911="@id/sns_text" 2130969937="2131438103" 2130969941="2131438103" 2130971375="?2130969069" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center_vertical" android:id="@id/sns_text" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" ="@dimen/sns_icon_size_medium" ="@dimen/sns_margin_small_tiny" 2130969912="@id/sns_primary_button" 2130969917="2131438103" 2130969927="0.5" 2130969936="@id/sns_start_icon" 2130969941="2131438103" />
+            <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_primary_button" ="0.0dip" ="wrap_content" 2130969912="@id/sns_secondary_button" 2130969917="2131438103" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/sns_text" />
+            <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_secondary_button" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969927="0.5" 2130969937="2131438103" 2130969940="@id/sns_primary_button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.sumsub.sns.core.widget.SNSBottomSheetView>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.framework.widget.scroll.KlineVerticalNestedScrollView android:id="@id/2131439479" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103">
+        <include android:id="@id/2131431905" ="fill_parent" ="wrap_content" layout="@layout/2131628785" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438423" ="fill_parent" ="wrap_content" />
+        <com.binance.base.component.PlaceholderView android:id="@id/2131438384" ="fill_parent" ="wrap_content" />
+        <FrameLayout android:id="@id/2131431880" ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439528" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439556" ="invisible" ="fill_parent" ="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</com.finance.framework.widget.scroll.KlineVerticalNestedScrollView>

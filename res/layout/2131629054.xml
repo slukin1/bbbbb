@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" android:id="@id/2131430273" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.contrarywind.view.WheelView ="center_vertical" android:id="@id/2131450360" ="0.0dip" ="fill_parent" ="1.0" />
+    <com.contrarywind.view.WheelView ="center_vertical" android:id="@id/2131450361" ="0.0dip" ="fill_parent" ="1.0" />
+</androidx.appcompat.widget.LinearLayoutCompat>

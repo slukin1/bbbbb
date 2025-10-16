@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="fill_parent" ="wrap_content" android:text="@string/content_attach_crypto_box_tipv3" style="@style/2132149384" />
+    <LinearLayout ="horizontal" android:id="@id/2131429045" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@dimen/2131166170">
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237031" 2130971180="@null" />
+        <TextView ="@color/2131099764" ="0.0dip" ="wrap_content" android:text="@string/content_cryptobox_quiz_namev3" ="1.0" ="8.0dip" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@color/2131099785" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237055" 2130971180="@null" />
+    </LinearLayout>
+</LinearLayout>

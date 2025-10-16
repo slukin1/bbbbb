@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="fill_parent" ="wrap_content" 2130968911="@color/2131099844" 2130968912="@dimen/2131166164" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="24.0dip" ="32.0dip" ="24.0dip" ="32.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428186" ="fill_parent" ="wrap_content" 2130969941="2131438103">
+            <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428178" ="44.0dip" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971180="@null" />
+            <include android:id="@id/2131435361" ="12.0dip" ="12.0dip" 2130969911="@id/2131428178" 2130969917="@id/2131428178" layout="@layout/2131624459" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ffeaecef" android:id="@id/2131430980" ="0.0dip" ="0.0dip" ="1" ="textStart" ="12.0dip" 2130968700="20.0sp" 2130968701="10.0sp" 2130968705="2131449068" 2130969911="@id/2131428178" 2130969917="2131438103" 2130969936="@id/2131428178" 2130969941="@id/2131428178" style="@style/2132149424" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131449128" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/2131428186" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428124" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/2131449128">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428126" ="@drawable/2131233192" ="gone" ="fill_parent" ="170.0dip" ="13.0dip" ="13.0dip" 2130969911="@id/2131428125" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131428125" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430633" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/2131428124">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131430635" ="@drawable/2131233192" ="gone" ="fill_parent" ="170.0dip" ="13.0dip" ="13.0dip" 2130969911="@id/2131430634" />
+            <androidx.compose.ui.platform.ComposeView android:id="@id/2131430634" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131428123" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" 2130969940="@id/2131430633" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

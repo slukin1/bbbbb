@@ -1,0 +1,91 @@
+.class public final Lo/NestmaddLevelDetail$DropdropElements1;
+.super Lo/SimpleFlexibleRedeemSucceedActivity;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/NestmaddLevelDetail;->b(ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lo/SimpleFlexibleRedeemSucceedActivity<",
+        "Ljava/util/List<",
+        "+",
+        "Lcom/finance/futures/common/feature/history/data/po/FutureHistoryOrderHistoryItemBean;",
+        ">;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field private synthetic c:Z
+
+.field private synthetic d:Lo/NestmaddLevelDetail;
+
+
+# direct methods
+.method constructor <init>(Lo/NestmaddLevelDetail;Z)V
+    .locals 0
+
+    iput-object p1, p0, Lo/NestmaddLevelDetail$DropdropElements1;->d:Lo/NestmaddLevelDetail;
+
+    iput-boolean p2, p0, Lo/NestmaddLevelDetail$DropdropElements1;->c:Z
+
+    .line 94
+    invoke-direct {p0}, Lo/SimpleFlexibleRedeemSucceedActivity;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic c(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 94
+    check-cast p1, Ljava/util/List;
+
+    .line 1096
+    iget-object v0, p0, Lo/NestmaddLevelDetail$DropdropElements1;->d:Lo/NestmaddLevelDetail;
+
+    invoke-static {v0}, Lo/NestmaddLevelDetail;->b(Lo/NestmaddLevelDetail;)Lo/LanguageGuideAlertInfo$DropdropElements1;
+
+    move-result-object v0
+
+    iget-boolean v1, p0, Lo/NestmaddLevelDetail$DropdropElements1;->c:Z
+
+    if-nez p1, :cond_0
+
+    invoke-static {}, Lkotlin/collections/CollectionsKt;->emptyList()Ljava/util/List;
+
+    move-result-object p1
+
+    :cond_0
+    invoke-interface {v0, v1, p1}, Lo/LanguageGuideAlertInfo$DropdropElements1;->e(ZLjava/util/List;)V
+
+    return-void
+.end method
+
+.method public final c(Ljava/lang/Throwable;)V
+    .locals 2
+
+    .line 100
+    iget-object v0, p0, Lo/NestmaddLevelDetail$DropdropElements1;->d:Lo/NestmaddLevelDetail;
+
+    invoke-static {v0}, Lo/NestmaddLevelDetail;->b(Lo/NestmaddLevelDetail;)Lo/LanguageGuideAlertInfo$DropdropElements1;
+
+    move-result-object v0
+
+    iget-boolean v1, p0, Lo/NestmaddLevelDetail$DropdropElements1;->c:Z
+
+    invoke-interface {v0, v1, p1}, Lo/LanguageGuideAlertInfo$DropdropElements1;->c(ZLjava/lang/Throwable;)V
+
+    return-void
+.end method

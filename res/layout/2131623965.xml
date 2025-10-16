@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427448" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <com.major.android.uikit.tabs.KitTabLayout android:id="@id/2131441071" ="fill_parent" ="50.0dip" />
+    <View android:id="@id/2131441072" ="@color/2131102353" ="fill_parent" ="1.0dip" />
+    <com.binance.widget.ScrollableViewPager android:id="@id/2131449743" ="fill_parent" ="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131432230" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="38.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439037" ="7.0dip" ="7.0dip" ="false" ="fill_parent" ="38.0dip" ="false" />
+        <androidx.appcompat.widget.AppCompatImageView ="end" ="20.0dip" ="fill_parent" ="@color/2131100905" 2130971077="@drawable/2131233484" />
+    </FrameLayout>
+    <View android:id="@id/2131449457" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439059" ="15.0dip" ="15.0dip" ="false" ="fill_parent" ="wrap_content" ="12.0dip" ="false" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

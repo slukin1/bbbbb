@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/strategy_um_dca_auto_add_margin" ="@dimen/2131166184" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" 2130969912="@id/2131428732" 2130969940="@id/tvTitle">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235989" ="15.0dip" ="fill_parent" ="wrap_content" ="@color/2131099712">
+                <com.binance.base.widget.TipsTextView ="@color/2131099764" android:id="@id/2131444857" ="0.0dip" ="wrap_content" android:text="@string/strategy_um_dca_auto_add_margin" ="15.0dip" 2130969274="@string/strategy_um_dca_auto_add_margin" 2130969918="@id/2131435072" 2130969937="2131438103" 2130969941="2131438103" 2130970840="true" 2130971380="2131428553" 2130971382="@string/strategy_um_dca_auto_add_margin_tooltip" 2130971383="2131440560" 2130971506="@color/2131099764" style="@style/2132149450" />
+                <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435072" ="wrap_content" ="wrap_content" ="2.5dip" ="2.5dip" ="@dimen/2131166224" 2130969917="2131438103" 2130969936="@id/2131444857" 2130969941="2131438103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429783" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+                <TextView ="@color/2131099778" android:id="@id/tvMaxTitle" ="wrap_content" ="wrap_content" android:text="@string/strategy_um_dca_max_transfer_limit" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tvMaxValue" ="0.0dip" ="wrap_content" ="4.0dip" ="15.0dip" 2130969306="@drawable/2131237283" 2130969312="@color/2131099738" 2130969917="2131438103" 2130969936="@id/tvMaxTitle" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.constraintlayout.widget.Barrier android:id="@id/2131428333" ="fill_parent" ="0.0dip" 2130968759="2131428521" 2130969125="tvMaxTitle, tvMaxValue" />
+                <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/2131442128" ="wrap_content" ="wrap_content" android:text="@string/strategy_um_dca_already_add_margin" 2130969274="@string/strategy_um_dca_already_add_margin" 2130969937="2131438103" 2130969940="@id/2131428333" 2130970840="true" 2130970849="true" 2130971380="2131428553" 2130971382="@string/strategy_um_dca_already_add_margin_tooltip" 2130971383="2131440560" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442129" ="0.0dip" ="wrap_content" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131442128" 2130969941="@id/2131442128" style="@style/2132149450" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429673" ="gone" ="fill_parent" ="wrap_content" ="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443166" ="wrap_content" ="wrap_content" android:text="@string/cash_account" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCaret" ="20.0dip" ="20.0dip" 2130969911="@id/2131443166" 2130969936="@id/2131443166" 2130969941="@id/2131443166" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+                <com.finance.commonbusiness.framework.widget.TwoHintsEditText android:id="@id/2131431457" ="fill_parent" ="40.0dip" ="8.0dip" 2130969360="USDT" 2130969940="@id/2131443166" 2130971150="@string/strategy_um_dca_max_transfer_limit_hint" />
+                <TextView ="@color/2131099778" android:id="@id/tvAvblTitle" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/_available" 2130969937="@id/2131431457" 2130969940="@id/2131431457" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442249" ="0.0dip" ="wrap_content" 2130969306="@drawable/2131238246" 2130969312="@color/2131099765" 2130969917="2131438103" 2130969936="@id/tvAvblTitle" 2130969941="@id/tvAvblTitle" style="@style/2132149454" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" android:id="@id/2131444976" ="fill_parent" ="wrap_content" ="16.0dip" style="@style/2132149384" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" android:text="@string/_confirm" ="@dimen/2131166188" 2130969911="2131438103" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/headerBar" ="fill_parent" ="@dimen/2131165972" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441619" ="10.0dip" ="10.0dip" ="10.0dip" ="10.0dip" ="visible" ="40.0dip" ="40.0dip" ="centerInside" ="@color/2131099764" ="@dimen/2131166156" ="@dimen/2131166156" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" ="center" android:id="@id/toolbar_title" ="wrap_content" ="wrap_content" android:text="@string/lite_string_title_choose_currency" ="true" ="4.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.major.android.uikit2.search.KitSearchBar android:id="@id/2131435527" ="fill_parent" ="wrap_content" ="6.0dip" 2130968735="@color/2131099685" 2130968908="true" 2130968909="@string/dialog_adjust_leverage_action_cancel" 2130969627="@string/_search" 2130970759="@string/_search" />
+    <FrameLayout ="fill_parent" ="fill_parent" ="4.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439662" ="fill_parent" ="fill_parent" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="center_horizontal" ="vertical" android:id="@id/2131436518" ="gone" ="fill_parent" ="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView ="96.0dip" ="96.0dip" ="124.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131435527" 2130971077="@drawable/2131238419" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="19.0dip" android:text="@string/no_records_found" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433252" style="@style/2132149446" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

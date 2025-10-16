@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="16.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131431085" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" android:id="@id/2131448139" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/symbol_margin_mode" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429836" ="@drawable/2131233817" ="15.0dip" ="0.0dip" ="wrap_content" ="22.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131448139">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446163" ="wrap_content" ="wrap_content" android:text="@string/_cross" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446162" ="wrap_content" ="wrap_content" android:text="@string/futures_change_cross_mode_desc" ="1.1" 2130969937="2131438103" 2130969940="@id/2131446163" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429875" ="@drawable/2131233817" ="15.0dip" ="0.0dip" ="wrap_content" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429836">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446727" ="wrap_content" ="wrap_content" android:text="@string/_isolated" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446726" ="wrap_content" ="wrap_content" android:text="@string/futures_change_isolated_mode_desc" ="1.1" 2130969937="2131438103" 2130969940="@id/2131446727" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448091" ="wrap_content" ="wrap_content" android:text="@string/futures_select_symbol_tip_asterisk" 2130969918="@id/2131448088" 2130969937="2131438103" 2130969941="@id/2131448088" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448088" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_change_cross_mode_tip" ="1.1" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131448091" 2130969940="@id/2131429875" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_mica_tip_star_key" ="wrap_content" ="wrap_content" android:text="@string/futures_select_symbol_tip_asterisk" 2130969918="@id/tv_mica_tip_bottom" 2130969937="2131438103" 2130969941="@id/tv_mica_tip_bottom" style="@style/2132149384" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099863" android:id="@id/tv_mica_tip_bottom" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/futures_change_cross_mode_mica_tip" ="1.1" ="4.0dip" 2130969917="2131438103" 2130969936="@id/tv_mica_tip_star_key" 2130969940="@id/2131448088" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432668" ="gone" ="0.0dip" ="0.0dip" 2130969125="tv_mica_tip_star_key, tv_mica_tip_bottom" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center_vertical" android:id="@id/2131446240" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/futures_default_leverage_margin_mode" ="2.0dip" ="@drawable/2131237055" 2130969312="@color/2131099787" 2130969937="2131438103" 2130969940="@id/tv_mica_tip_bottom" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

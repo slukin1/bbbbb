@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441501" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/2131440621" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="12.0sp" ="@color/2131099685" ="center" android:id="@id/2131437961" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="1" ="@font/2131296273" ="@color/2131099764" />
+        <View android:id="@id/2131437953" ="@color/2131099726" ="1.5dip" ="180.0dip" ="@id/2131437961" ="@id/2131437965" ="10.0sp" />
+        <LinearLayout ="vertical" android:id="@id/2131437965" ="16.0dip" ="fill_parent" ="wrap_content" ="10.0dip" ="@id/2131437961">
+            <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444989" ="fill_parent" ="wrap_content" android:text="@string/c2c_seller_step1_title" ="@font/2131296273" />
+            <FrameLayout android:id="@id/2131429195" ="fill_parent" ="fill_parent" />
+            <TextView ="12.0sp" ="@color/2131099778" ="end" android:id="@id/2131444977" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_pay_seller_desc1" ="2" ="4.0dip" ="@font/2131296274" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/2131440625" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" 2130969937="2131438103" 2130969940="@id/2131440621">
+        <TextView ="12.0sp" ="@color/2131099685" ="center" android:id="@id/2131437962" ="@drawable/2131232428" ="20.0dip" ="20.0dip" android:text="2" ="@font/2131296273" ="@color/2131099764" />
+        <LinearLayout ="center_horizontal" ="vertical" ="16.0dip" ="wrap_content" ="wrap_content" ="10.0dip" ="@id/2131437962">
+            <com.binance.c2c.api.common.UnderlineTextView ="14.0sp" ="@color/2131099764" android:id="@id/2131444990" ="fill_parent" ="wrap_content" android:text="@string/c2c_seller_step2_title" ="@font/2131296273" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

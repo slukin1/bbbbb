@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235577" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton ="end" android:id="@id/2131428996" ="?2130970780" ="20.0dip" ="20.0dip" ="14.0dip" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447542" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149423" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439624" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" />
+    <LinearLayout ="vertical" android:id="@id/2131429926" ="@drawable/2131235584" ="10.0dip" ="15.0dip" ="10.0dip" ="10.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip">
+        <androidx.appcompat.widget.AppCompatEditText ="@color/2131099764" ="@color/2131099762" android:id="@id/2131431333" ="@null" ="fill_parent" ="wrap_content" android:hint="@string/payment_send_add_more_info" ="100" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131447258" ="wrap_content" ="wrap_content" ="15.0dip" android:text="0/100" style="@style/2132149350" />
+    </LinearLayout>
+    <com.major.android.uikit.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="48.0dip" ="15.0dip" ="20.0dip" ="15.0dip" ="15.0dip" android:text="@string/_Submit" />
+</LinearLayout>

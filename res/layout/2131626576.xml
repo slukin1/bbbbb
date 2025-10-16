@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center" ="horizontal" android:id="@id/2131440605" ="fill_parent" ="wrap_content" ="20.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+        <TextView ="14.0sp" ="@color/2131099851" android:id="@id/2131444766" ="wrap_content" ="wrap_content" android:text="@string/c2c_order_detail_trade_success" ="@font/2131296273" ="4.0dip" />
+        <TextView ="10.0sp" ="@color/2131099764" ="center" android:id="@id/2131444225" ="@drawable/2131235998" ="5.0dip" ="1.0dip" ="5.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="@font/2131296274" ="4.0dip" ="@color/2131099744" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout ="vertical" android:id="@id/2131440643" ="wrap_content" ="0.0dip" ="0.0dip" ="12.0dip" 2130969911="@id/2131440641" 2130969937="2131438103" 2130969941="@id/2131440640">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437961" ="@drawable/2131232428" ="4.0dip" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237037" 2130971375="@color/2131099685" />
+        <View android:id="@id/2131437953" ="@color/2131099764" ="1.5dip" ="0.0dip" ="1.0" ="10.0sp" />
+        <FrameLayout ="wrap_content" ="wrap_content">
+            <TextView ="14.0sp" ="@color/2131099685" ="center" android:id="@id/2131444780" ="@drawable/2131232428" ="2.0dip" ="20.0dip" ="22.0dip" android:text="2" ="@font/2131296273" ="@color/2131099764" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434189" ="@drawable/2131232428" ="4.0dip" ="20.0dip" ="20.0dip" 2130971077="@drawable/2131237037" 2130971375="@color/2131099685" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131440640" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/c2c_mod_successfully_purchased_coin" ="@font/2131296273" 2130969936="@id/2131440643" 2130969940="@id/2131440605" />
+    <FrameLayout android:id="@id/2131437897" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="@id/2131440640" 2130969940="@id/2131440640" />
+    <TextView ="14.0sp" ="@color/2131099764" android:id="@id/2131440641" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/c2c_mod_convert_usdt_to_coin" ="@font/2131296273" 2130969937="@id/2131440640" 2130969940="@id/2131437897" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430459" ="@drawable/2131236040" ="10.0dip" ="12.0dip" ="10.0dip" ="12.0dip" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="2131438103" 2130969937="@id/2131440641" 2130969940="@id/2131440641">
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131430469" ="wrap_content" ="wrap_content" android:text="@string/c2c_mod_express_coin_price" ="@font/2131296274" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434956" ="12.0dip" ="12.0dip" ="4.0dip" 2130969911="@id/2131430469" 2130969936="@id/2131430469" 2130969941="@id/2131430469" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+        <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131430468" ="wrap_content" ="wrap_content" ="@font/2131296273" 2130969917="2131438103" 2130969941="@id/2131430469" />
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131435215" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/c2c_mod_you_received_convert" ="@font/2131296274" 2130969937="@id/2131430469" 2130969940="@id/2131430469" />
+        <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131430470" ="fill_parent" ="wrap_content" ="@font/2131296273" 2130969917="2131438103" 2130969941="@id/2131435215" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="14.0sp" ="@color/2131099787" android:id="@id/2131442467" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_mod_convert_assets_order" ="@font/2131296273" 2130969937="@id/2131440641" 2130969940="@id/2131430459" />
+</androidx.constraintlayout.widget.ConstraintLayout>

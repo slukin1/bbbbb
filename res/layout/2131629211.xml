@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" ="fill_parent" ="?2130968589" layout="@layout/2131629184" />
+    <RelativeLayout ="fill_parent" ="0.0dip" ="4.0dip" ="20.0dip" ="1.0">
+        <FrameLayout ="fill_parent" ="fill_parent" ="4.0dip" ="4.0dip" ="16.0dip" ="16.0dip">
+            <ScrollView ="fill_parent" ="fill_parent" ="true">
+                <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+                    <TextView ="center" android:id="@id/title" ="fill_parent" ="8.0dip" style="@style/2132150335" />
+                    <Button android:id="@id/2131439897" ="35.0dip" ="35.0dip" ="visible" ="120.0dip" ="30.0dip" ="12.0dip" android:text="@string/uq_scan_upload_select_file" ="@drawable/2131234492" ="false" ="4.0dip" style="@style/2132150350" />
+                    <RelativeLayout android:id="@id/2131439898" ="gone" ="fill_parent" ="wrap_content">
+                        <TextView ="center_horizontal" android:id="@id/2131439900" ="35.0dip" ="35.0dip" ="120.0dip" ="30.0dip" ="12.0dip" android:text="File.pdf" ="8.0dip" ="4.0dip" 2130969314="@drawable/2131234494" style="@style/2132150351" />
+                        <ImageView android:id="@id/2131439899" ="12.0dip" ="12.0dip" ="40.0dip" ="@drawable/2131234493" ="12.0dip" ="true" />
+                    </RelativeLayout>
+                    <TextView android:id="@id/2131431813" ="wrap_content" ="20.0dip" ="20.0dip" android:text="@string/uq_scan_upload_accepted_file_type" ="4.0dip" style="@style/2132150334" />
+                    <TextView android:id="@id/2131449113" ="20.0dip" ="wrap_content" ="12.0dip" android:text="@string/uq_scan_upload_tip" ="12.0dip" ="4.0dip" 2130969311="@drawable/2131234495" style="@style/2132150352" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </RelativeLayout>
+    <Button android:id="@id/2131428885" ="40.0dip" android:text="@string/uq_upload" ="false" style="@style/2132150323" />
+</LinearLayout>

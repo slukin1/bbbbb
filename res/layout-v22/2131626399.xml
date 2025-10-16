@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131449680" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131448037" ="wrap_content" ="wrap_content" android:text="@string/c2c_adv_tags_terms_tags_optional" ="@font/2131296273" />
+    <RelativeLayout android:id="@id/2131449702" ="@drawable/2131235987" ="fill_parent" ="wrap_content" ="4.0dip" ="48.0dip" ="@color/2131099744">
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" android:id="@id/2131446635" ="fill_parent" ="wrap_content" android:text="@string/c2c_adv_tags_add_tags" ="true" ="@font/2131296273" ="12.0sp" ="@id/2131434499" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439074" ="gone" ="fill_parent" ="wrap_content" ="12.0dip" ="@id/2131434499" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434499" ="15.0dip" ="20.0dip" ="35.0dip" ="true" ="14.0dip" ="true" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </RelativeLayout>
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131448036" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/c2c_adv_tags_set_up_tags" ="@font/2131296266" />
+</androidx.appcompat.widget.LinearLayoutCompat>

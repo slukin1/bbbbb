@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436120" ="@color/2131100148" ="true" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131436034" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.binance.base.widget.BNCLottieAnimationView ="center" android:id="@id/2131436035" ="140.0dip" ="140.0dip" ="@string/lite_ms_market_welcome" 2130970039="true" />
+        <TextView ="24.0sp" ="@color/2131099764" ="center" ="center" android:id="@id/2131435968" ="wrap_content" ="wrap_content" ="30.0dip" android:text="@string/lite_ms_market_welcome" ="false" style="@style/2132149423" />
+    </LinearLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content" ="30.0dip" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" android:id="@id/2131432456" ="0.0dip" ="48.0dip" android:text="@string/_signup" ="1.0" 2130969173="24.0" 2130970889="2131437069" 2130971472="2" style="@style/2132149448" />
+        <com.major.android.uikit.button.KitButton ="@color/2131099789" android:id="@id/2131432455" ="0.0dip" ="48.0dip" android:text="@string/_login" ="1.0" ="16.0dip" 2130969173="24.0" 2130970889="2131437069" style="@style/2132149448" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

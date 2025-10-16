@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.w3w.feature.common.trade.ui.view.W3AlphaRiskMonitorLinearLayout ="vertical" android:id="@id/2131436627" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131430004" ="15.0dip" ="15.0dip" ="fill_parent" ="44.0dip" ="13.0dip" ="@dimen/2131166184">
+        <androidx.appcompat.widget.AppCompatImageView ="start|center" android:id="@id/2131441619" ="?2130968587" ="visible" ="20.0dip" ="20.0dip" ="centerInside" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <com.finance.kit.framework.widget.imageview.FinanceW3IconView android:id="@id/2131433664" ="34.0dip" ="34.0dip" ="16.0dip" 2130969616="2" 2130969911="2131438103" 2130969936="@id/2131441619" 2130969941="2131438103" 2130969961="@dimen/2131166153" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131441589" ="wrap_content" ="wrap_content" ="8.0dip" 2130969936="@id/2131433664" 2130969941="2131438103" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131439903" ="20.0dip" ="20.0dip" 2130969911="@id/2131441589" 2130969936="@id/2131441589" 2130969941="@id/2131441589" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/price" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="@id/2131441589" 2130969940="@id/2131441589" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="end" android:id="@id/percentage" ="0.0dip" ="wrap_content" ="1" ="5.0dip" ="16.0dip" 2130969911="@id/price" 2130969918="@id/2131434244" 2130969936="@id/price" 2130969941="@id/price" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434244" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="@id/icon_more" 2130969918="@id/icon_candle" 2130969941="@id/icon_more" 2130971077="@drawable/2131237542" 2130971375="@color/2131102777" />
+        <View android:id="@id/2131449284" ="0.0dip" ="0.0dip" 2130969911="@id/price" 2130969917="@id/percentage" 2130969937="@id/2131433664" 2130969941="@id/2131441589" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_candle" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/icon_more" 2130969918="@id/icon_events" 2130969941="@id/icon_more" 2130971077="@drawable/2131236989" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_events" ="20.0dip" ="20.0dip" ="15.0dip" 2130969911="@id/icon_more" 2130969918="@id/icon_more" 2130969941="@id/icon_more" 2130971077="@drawable/2131236830" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_more" ="20.0dip" ="20.0dip" ="1.5dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237679" 2130971375="@color/2131099764" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131428500" ="fill_parent" ="fill_parent">
+            <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131439809" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+                <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+                    <com.binance.base.component.PlaceholderView android:id="@id/2131441695" ="gone" ="fill_parent" ="wrap_content" />
+                    <FrameLayout android:id="@id/2131431976" ="fill_parent" ="wrap_content" />
+                    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" android:id="@id/2131441795" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184" ="@dimen/2131166247">
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131101009" android:id="@id/2131435854" ="@drawable/2131233748" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/_limit" ="@dimen/2131166286" ="@dimen/2131166225" style="@style/2132149450" />
+                        <androidx.appcompat.widget.AppCompatTextView ="@color/2131101009" android:id="@id/2131433515" ="@drawable/2131233748" ="8.0dip" ="3.0dip" ="8.0dip" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/alpha_trading_instant_type" ="8.0dip" ="@dimen/2131166286" ="@dimen/2131166225" style="@style/2132149450" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.fragment.app.FragmentContainerView android:id="@id/2131441777" ="fill_parent" ="wrap_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <com.binance.base.component.PlaceholderView ="bottom" android:id="@id/2131428587" ="fill_parent" ="wrap_content" />
+    </FrameLayout>
+</com.finance.w3w.feature.common.trade.ui.view.W3AlphaRiskMonitorLinearLayout>

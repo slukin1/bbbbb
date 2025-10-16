@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131447873" ="gone" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_free_position_tt_dialog_special_desc" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149361" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_reward_tier" ="none" ="0.0dip" ="74.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447873" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428402" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="rv_reward_tier" />
+    <View android:id="@id/2131435336" ="@drawable/2131236713" ="0.0dip" ="0.0dip" 2130969911="@id/2131448084" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428402" />
+    <TextView ="@color/2131099863" android:id="@id/tv_error_tips_star" ="wrap_content" ="wrap_content" ="16.0dip" android:text="*" ="16.0dip" 2130969937="2131438103" 2130969940="@id/2131428402" style="@style/2132149361" />
+    <TextView ="@color/2131099863" android:id="@id/tv_error_tips" ="0.0dip" ="wrap_content" ="16.0dip" ="4.0dip" ="16.0dip" 2130969917="2131438103" 2130969936="@id/tv_error_tips_star" 2130969940="@id/2131428402" style="@style/2132149361" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432651" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_error_tips_star,tv_error_tips" />
+    <TextView ="@color/2131099764" android:id="@id/2131447086" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/tv_error_tips" 2130969962="@dimen/2131166188" style="@style/2132149446" />
+    <ImageView android:id="@id/2131434699" ="16.0dip" ="16.0dip" ="@drawable/2131237075" ="4.0dip" 2130969911="@id/2131447086" 2130969936="@id/2131447086" 2130969941="@id/2131447086" />
+    <ProgressBar android:id="@id/2131438257" ="0.0dip" ="6.0dip" ="8.0dip" ="100" ="@drawable/2131238566" ="24.0dip" 2130969918="@id/2131432752" 2130969937="@id/2131447086" 2130969940="@id/2131447086" style="@style/2132149833" />
+    <TextView ="@color/2131099778" android:id="@id/tv_net_deposit_value" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="@id/2131438257" 2130969927="0.0" 2130969937="@id/2131438257" 2130969940="@id/2131438257" style="@style/2132149355" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432752" ="wrap_content" ="wrap_content" 2130969921="0.704" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_deposit" ="0.0dip" ="wrap_content" android:text="@string/deposit" ="16.0dip" 2130969917="2131438103" 2130969937="@id/2131432752" 2130969941="@id/2131438257" style="@style/2132148701" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428375" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130969125="tv_net_deposit_value,btn_deposit" />
+    <View android:id="@id/2131431047" ="@drawable/2131233918" ="0.0dip" ="1.5dip" ="16.0dip" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428375" />
+    <TextView ="@color/2131099764" android:id="@id/2131446592" ="wrap_content" ="wrap_content" ="16.0dip" ="16.0dip" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/2131431047" style="@style/2132149446" />
+    <ImageView android:id="@id/2131434558" ="16.0dip" ="16.0dip" ="@drawable/2131237075" ="4.0dip" 2130969911="@id/2131446592" 2130969936="@id/2131446592" 2130969941="@id/2131446592" />
+    <ProgressBar android:id="@id/2131438255" ="0.0dip" ="6.0dip" ="8.0dip" ="100" ="@drawable/2131238566" ="24.0dip" 2130969918="@id/2131432752" 2130969937="@id/2131446592" 2130969940="@id/2131446592" style="@style/2132149833" />
+    <TextView ="@color/2131099778" android:id="@id/tv_futures_trade_value" ="0.0dip" ="wrap_content" ="4.0dip" 2130969917="@id/2131438255" 2130969927="0.0" 2130969937="@id/2131438255" 2130969940="@id/2131438255" style="@style/2132149355" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_futures_trade" ="0.0dip" ="wrap_content" android:text="@string/leaderboard_trade" ="16.0dip" 2130969917="2131438103" 2130969937="@id/2131432752" 2130969941="@id/2131438255" style="@style/2132148701" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/2131428381" ="wrap_content" ="wrap_content" 2130968759="2131428521" 2130968760="@dimen/2131166188" 2130969125="tv_futures_trade_value,btn_futures_trade" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131429104" ="0.0dip" ="wrap_content" ="15.0dip" ="15.0dip" android:text="@string/futures_new_reward_join_now" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428381" style="@style/2132148692" />
+    <TextView ="@color/2131099778" android:id="@id/2131448084" ="16.0dip" ="0.0dip" ="wrap_content" ="15.0dip" ="8.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131429104" 2130969962="@dimen/2131166153" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

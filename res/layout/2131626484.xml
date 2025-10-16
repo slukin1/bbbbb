@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="wrap_content">
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131433468" ="gone" ="fill_parent" ="wrap_content" 2130969816="false" 2130969817="1" 2130969818="false" 2130969821="false" />
+        <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131433481" ="gone" ="fill_parent" ="wrap_content" 2130969818="false" 2130969834="1" />
+        <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131438313" ="gone" ="fill_parent" ="wrap_content" 2130969816="true" 2130969817="1" 2130969818="false" 2130969821="false" />
+    </FrameLayout>
+    <com.major.android.uikit2.notification.KitFoldableTextView android:id="@id/2131437789" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" ="100" />
+</LinearLayout>

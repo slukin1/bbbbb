@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" style="@style/2132148636"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428738" ="gone" ="fill_parent" ="48.0dip" ="15.0dip" android:text="@string/nezha_copy" />
+</FrameLayout>

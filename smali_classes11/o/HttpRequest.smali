@@ -1,0 +1,212 @@
+.class public final Lo/HttpRequest;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lo/HttpRequest$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0005\u0008\u0086@\u0018\u0000 \t2\u00020\u0001:\u0001\tJ\u0010\u0010\u0003\u001a\u00020\u0002H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0010\u0010\u0006\u001a\u00020\u0005H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0006\u0010\u0007R\u0014\u0010\u0006\u001a\u00020\u00058\u0006X\u0087\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0003\u0010\u0008\u0088\u0001\n\u0092\u0001\u00020\u0005"
+    }
+    d2 = {
+        "Lo/HttpRequest;",
+        "",
+        "",
+        "b",
+        "(Ljava/lang/String;)I",
+        "",
+        "a",
+        "(Ljava/lang/String;)Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Companion",
+        "value"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lo/HttpRequest$Companion;
+
+.field public static final a:Ljava/lang/String;
+
+.field public static final c:Ljava/lang/String;
+
+.field public static final d:Ljava/lang/String;
+
+.field public static final e:Ljava/lang/String;
+
+
+# instance fields
+.field public b:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lo/HttpRequest$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lo/HttpRequest$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    sput-object v0, Lo/HttpRequest;->Companion:Lo/HttpRequest$Companion;
+
+    .line 14
+    const-string v0, "SCAN"
+
+    sput-object v0, Lo/HttpRequest;->a:Ljava/lang/String;
+
+    .line 15
+    const-string v0, "CONFIRM"
+
+    sput-object v0, Lo/HttpRequest;->d:Ljava/lang/String;
+
+    .line 16
+    const-string v0, "EXPIRED"
+
+    sput-object v0, Lo/HttpRequest;->e:Ljava/lang/String;
+
+    .line 17
+    const-string v0, "VALID"
+
+    sput-object v0, Lo/HttpRequest;->c:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static a(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    .line 65352
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "HttpRequest(a="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, ")"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static b(Ljava/lang/String;)I
+    .locals 0
+
+    .line 65353
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static final b(Ljava/lang/String;Ljava/lang/String;)Z
+    .locals 0
+
+    .line 65354
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    .line 0
+    iget-object v0, p0, Lo/HttpRequest;->b:Ljava/lang/String;
+
+    .line 5000
+    instance-of v1, p1, Lo/HttpRequest;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_0
+
+    return v2
+
+    :cond_0
+    check-cast p1, Lo/HttpRequest;
+
+    .line 6000
+    iget-object p1, p1, Lo/HttpRequest;->b:Ljava/lang/String;
+
+    .line 5000
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    return v2
+
+    :cond_1
+    const/4 p1, 0x1
+
+    return p1
+.end method
+
+.method public final hashCode()I
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/HttpRequest;->b:Ljava/lang/String;
+
+    .line 7000
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    .line 0
+    iget-object v0, p0, Lo/HttpRequest;->b:Ljava/lang/String;
+
+    .line 8000
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string v2, "Status(value="
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ")"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

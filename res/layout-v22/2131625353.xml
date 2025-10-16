@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="false" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_horizontal" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/event_contract_select_date_time" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="14.0dip" ="true">
+        <LinearLayout ="horizontal" android:id="@id/2131435495" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131430789" ="@drawable/2131233752" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="1.0" ="45.0dip" style="@style/2132149350" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131441442" ="@drawable/2131233752" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/2131449214" ="fill_parent" ="wrap_content" ="10.0dip" ="15.0dip" 2130969940="@id/2131435495" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/event_contract_select_date_time_tips" ="15.0dip" style="@style/2132149384" />
+    <LinearLayout ="horizontal" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip">
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131439182" ="0.0dip" ="40.0dip" android:text="@string/cancel" ="1.0" style="@style/2132148696" />
+        <View ="15.0dip" ="0.0dip" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131430229" ="0.0dip" ="40.0dip" android:text="@string/confirm" ="1.0" style="@style/2132148691" />
+    </LinearLayout>
+</LinearLayout>

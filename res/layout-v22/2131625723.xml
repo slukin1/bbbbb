@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="true" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624284" />
+    <com.major.android.uikit2.button.KitButton ="16.0dip" ="@color/2131099789" android:id="@id/2131429016" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="16.0dip" android:text="@string/confirm" ="@dimen/2131166184" 2130969911="2131438103" />
+    <androidx.core.widget.NestedScrollView ="vertical" android:id="@id/2131439810" ="vertical" ="fill_parent" ="0.0dip" 2130969912="@id/2131429016" 2130969940="@id/2131441601">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="62.0dip" ="@dimen/2131166184">
+                <TextView ="@color/2131099764" android:id="@id/2131430601" ="wrap_content" ="wrap_content" android:text="@string/symbol_placeholder" ="ltr" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                <TextView ="@color/2131099778" android:id="@id/2131431782" ="wrap_content" ="wrap_content" ="2.0dip" ="ltr" ="2.0dip" 2130969911="@id/2131430601" 2130969932="@id/2131430601" 2130969941="@id/2131430601" style="@style/2132149454" />
+                <TextView ="@color/2131099764" android:id="@id/2131431790" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969912="@id/2131438625" 2130969917="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149446" />
+                <TextView ="@color/2131099851" android:id="@id/2131438625" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="ltr" 2130969911="2131438103" 2130969917="@id/2131431790" 2130969940="@id/2131431790" style="@style/2132149359" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:id="@id/2131431023" ="@color/2131099751" ="fill_parent" ="0.5dip" />
+            <TextView ="@color/2131099778" android:id="@id/2131442070" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" style="@style/2132149450" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" ="@dimen/2131166184">
+                <com.major.android.uikit2.input.KitInputEditText ="@color/2131099764" ="@color/2131099762" android:id="@id/2131431449" ="0.0dip" ="wrap_content" ="numberDecimal" 2130969815="false" 2130969817="1" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <LinearLayout ="horizontal" ="fill_parent" ="35.0dip" ="5.0dip" 2130969937="2131438103" 2130969940="@id/2131431449">
+                    <com.major.android.uikit2.button.KitButton ="@color/2131099764" ="center" android:id="@id/2131444138" ="wrap_content" ="fill_parent" ="@null" android:text="-5%" ="1.0" ="6.0dip" ="5.0dip" style="@style/2132148698" />
+                    <com.major.android.uikit2.button.KitButton ="@color/2131099764" ="center" android:id="@id/2131444139" ="wrap_content" ="fill_parent" ="@null" android:text="-10%" ="1.0" ="6.0dip" ="5.0dip" style="@style/2132148698" />
+                    <com.major.android.uikit2.button.KitButton ="@color/2131099764" ="center" android:id="@id/2131444137" ="wrap_content" ="fill_parent" ="@null" android:text="-15%" ="1.0" ="6.0dip" ="5.0dip" style="@style/2132148698" />
+                    <com.major.android.uikit2.button.KitButton ="@color/2131099764" ="center" android:id="@id/2131444140" ="wrap_content" ="fill_parent" ="@null" android:text="-20%" ="1.0" ="6.0dip" style="@style/2132148698" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/ocbs_payment_method_optional" ="@dimen/2131166184" style="@style/2132149450" />
+            <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444567" ="@drawable/2131235987" ="fill_parent" ="50.0dip" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/_all" ="10.0dip" ="14.0dip" ="@color/2131099744" ="@dimen/2131166184" 2130969306="@drawable/2131237003" style="@style/2132149446" />
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/ocbs_frequency" ="@dimen/2131166184" style="@style/2132149450" />
+            <TextView ="16.0dip" ="@color/2131099764" ="center_vertical" android:id="@id/2131444564" ="@drawable/2131235987" ="fill_parent" ="50.0dip" ="15.0dip" ="5.0dip" ="15.0dip" android:text="@string/ocbs_only_once" ="10.0dip" ="14.0dip" ="@color/2131099744" ="@dimen/2131166184" 2130969306="@drawable/2131237003" style="@style/2132149446" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131443149" ="wrap_content" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/ocbs_receive_notifications_tip" ="@dimen/2131166184" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="center" android:id="@id/2131439474" ="wrap_content" ="wrap_content" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.camera.liveness.intro.error.LoadingErrorState ="center" android:id="@id/2131436704" ="invisible" ="wrap_content" ="wrap_content" />
+    <com.onfido.android.sdk.capture.ui.widget.LoadingView ="center" android:id="@id/2131438676" ="wrap_content" ="wrap_content" 2130970432="@string/onfido_video_intro_loader" />
+    <TextureView ="center" android:id="@id/2131449335" ="invisible" ="fill_parent" ="fill_parent" />
+    <ImageButton ="end|bottom|center" android:id="@id/2131449334" ="#00000000" ="gone" ="44.0dip" ="44.0dip" ="8.0dip" ="@string/onfido_video_intro_button_pause_accessibility" ="yes" ="8.0dip" 2130971077="@drawable/onfido_video_pause" />
+</FrameLayout>

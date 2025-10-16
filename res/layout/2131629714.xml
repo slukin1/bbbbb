@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131446941" ="wrap_content" ="wrap_content" android:text="@string/finance_position_margin_ratio" ="false" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149390" />
+    <ImageView android:id="@id/2131434796" ="16.0dip" ="16.0dip" ="2.0dip" 2130969911="@id/2131446942" 2130969918="@id/2131446942" 2130969927="1.0" 2130969928="2131438085" 2130969937="2131438103" 2130969941="@id/2131446942" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131446942" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" 2130969917="2131438103" 2130969936="@id/2131434796" 2130969940="@id/2131446941" style="@style/2132149454" />
+</androidx.constraintlayout.widget.ConstraintLayout>

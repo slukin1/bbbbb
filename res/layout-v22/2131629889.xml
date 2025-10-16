@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/select_method" ="@dimen/2131166179" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435988" ="8.0dip" ="fill_parent" ="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

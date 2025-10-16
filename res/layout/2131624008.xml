@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131439474" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip">
+        <TextView ="@color/2131099764" ="center_horizontal" ="center" android:id="@id/2131444971" ="10.0dip" ="fill_parent" ="wrap_content" ="104.0dip" android:text="@string/lending_redemption_confirmed" ="10.0dip" 2130969314="@drawable/2131232429" style="@style/2132149459" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/2131444337" ="wrap_content" ="wrap_content" ="8.0dip" style="@style/2132149416" />
+    </LinearLayout>
+    <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="20.0dip" ="true">
+        <com.major.android.uikit2.button.KitButton ="@color/2131100199" ="center" android:id="@id/2131443214" ="@drawable/2131232450" ="0.0dip" ="wrap_content" android:text="@string/ms_withdraw_logs" ="1.0" ="5.0dip" style="@style/2132148696" />
+        <com.major.android.uikit2.button.KitButton ="@color/2131100200" ="center" android:id="@id/2131443215" ="@drawable/2131232839" ="0.0dip" ="wrap_content" android:text="@string/lending_go_to_wallet" ="1.0" ="5.0dip" style="@style/2132148691" />
+    </LinearLayout>
+</RelativeLayout>

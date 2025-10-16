@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0sp" ="12.0sp" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="24.0sp" ="@color/2131099764" android:id="@id/2131437967" ="0.0dip" ="wrap_content" android:text="@string/c2c_chat_btn_make_payment" ="@font/2131296275" ="12.0dip" 2130969918="@id/2131429509" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131444774" ="gone" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/c2c_od_status_make_payment_in_tips" ="@font/2131296274" ="12.0dip" 2130969918="@id/2131429509" 2130969937="@id/2131437967" 2130969940="@id/2131437967" />
+    <include android:id="@id/2131437903" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="@id/2131437967" 2130969940="@id/2131444774" layout="@layout/2131629430" />
+    <FrameLayout android:id="@id/2131429509" ="wrap_content" ="wrap_content" 2130969911="@id/2131437967" 2130969917="2131438103" 2130969941="@id/2131437967">
+        <com.major.android.uikit2.button.KitButton ="12.0sp" ="center" android:id="@id/2131429501" ="wrap_content" ="24.0dip" android:text="@string/c2c_mob_notification_chat" />
+        <com.binance.c2c.chat.widget.RemindTextView ="10.0sp" ="#ffffffff" ="end|center|top" android:id="@id/2131449077" ="4.0dip" ="1.0dip" ="4.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="-3.0dip" ="-3.0dip" 2130968724="@color/2131100155" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

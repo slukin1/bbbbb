@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="100.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449937" ="fill_parent" ="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView ="bottom|center" android:id="@id/2131439658" ="wrap_content" ="wrap_content" ="12.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView ="end" android:id="@id/2131434434" ="16.0dip" ="12.0dip" ="16.0dip" ="12.0dip" ="48.0dip" ="40.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099779" />
+</FrameLayout>

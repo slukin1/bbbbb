@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131443657" ="wrap_content" ="wrap_content" ="14.0dip" ="15.0dip" android:text="@string/futures_margin_call_title" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131444935" ="wrap_content" ="wrap_content" ="32.0dip" android:text="@string/futures_margin_call_current_threshold" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443657" style="@style/2132149450" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439600" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" ="10.0dip" ="10.0dip" 2130969895="androidx.recyclerview.widget.GridLayoutManager" 2130969940="@id/2131444935" 2130971059="4" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvFrequency" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/ms_alert_frequency" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131439600" style="@style/2132149450" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429713" ="@drawable/2131236700" ="fill_parent" ="40.0dip" ="4.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/tvFrequency">
+        <TextView ="@color/2131099738" android:id="@id/2131443654" ="wrap_content" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView ="20.0dip" ="20.0dip" ="@drawable/2131237003" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971375="@color/2131099738" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:id="@id/2131441231" ="wrap_content" ="wrap_content" ="24.0dip" android:text="*" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131429713" />
+    <TextView android:id="@id/2131443651" ="0.0dip" ="wrap_content" android:text="@string/futures_margin_call_desc1" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131441231" 2130969941="@id/2131441231" />
+    <TextView android:id="@id/2131443652" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_margin_call_desc2" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131441231" 2130969940="@id/2131443651" />
+    <TextView android:id="@id/2131443653" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_margin_call_desc3" ="4.0dip" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131441231" 2130969940="@id/2131443652" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="0.0dip" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:text="@string/_confirm" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443653" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

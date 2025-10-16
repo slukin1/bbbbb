@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.camera.view.CameraSourcePreview android:id="@id/2131429226" ="fill_parent" ="fill_parent" />
+    <ViewStub android:id="@id/2131438052" ="fill_parent" ="fill_parent" />
+    <com.onfido.android.sdk.capture.edge_detector.EdgeDetectorFrame android:id="@id/2131437847" ="gone" ="0.0dip" ="0.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/2131431066" ="gone" ="0.0dip" ="0.0dip" ="fitEnd" ="no" 2130969911="@id/2131437847" 2130969917="@id/2131437847" 2130969937="@id/2131437847" 2130969941="@id/2131437847" />
+</merge>

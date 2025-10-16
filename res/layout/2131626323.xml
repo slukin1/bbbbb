@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235299" ="12.0dip" ="true" ="true" ="100.0dip" ="70.0dip" ="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="start" android:id="@id/2131433736" ="16.0dip" ="16.0dip" ="8.0dip" />
+    <TextView ="14.0sp" ="@color/2131099764" ="end" ="center" ="start" android:id="@id/2131442431" ="wrap_content" ="wrap_content" android:text="Category" ="2" />
+</LinearLayout>

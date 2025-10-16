@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.finance.strategy.framework.widgets.ListenScreenClickRelativeLayout ="vertical" android:id="@id/2131439335" ="beforeDescendants" ="fill_parent" ="fill_parent" style="@style/2132148650" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131440610" ="fill_parent" ="0.0dip" />
+    <com.finance.kit.framework.widget.toolbar.KitMiniProgramToolbar android:id="@id/2131437080" ="fill_parent" ="44.0dip" ="@id/2131440610" app:2130971384="@string/wallet_strategy_tab_name" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="fill_parent" ="@id/2131437080" 2130971098="false">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131430494" ="fill_parent" ="fill_parent">
+            <com.finance.strategy.framework.widgets.StrategyAppBarLayout ="vertical" android:id="@id/2131427921" ="@null" ="fill_parent" ="wrap_content" ="0.0dip" 2130969331="0.0dip">
+                <com.google.android.material.appbar.CollapsingToolbarLayout ="fill_parent" ="wrap_content" 2130969149="@null" 2130969974="2131439795|@null">
+                    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+                        <com.binance.base.component.PlaceholderView android:id="@id/2131438302" ="fill_parent" ="wrap_content" />
+                        <com.binance.base.component.PlaceholderView android:id="@id/2131438300" ="fill_parent" ="wrap_content" ="20.0dip" />
+                        <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="40.0dip" ="20.0dip" ="@dimen/2131166184">
+                            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131443701" ="wrap_content" ="fill_parent" android:text="@string/strategy_tab_marketplace" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivArrow" ="20.0dip" ="20.0dip" ="4.0dip" 2130969911="@id/2131443701" 2130969936="@id/2131443701" 2130969941="@id/2131443701" 2130971077="@drawable/2131237003" 2130971375="@color/2131099764" />
+                            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131442740" ="@drawable/2131236698" ="5.0dip" ="5.0dip" ="wrap_content" ="20.0dip" android:text="@string/strategy_daily_picks" ="2.0dip" ="@drawable/2131238213" ="10.0dip" ="@dimen/2131166260" 2130969911="2131438103" 2130969918="@id/2131433986" 2130969941="2131438103" style="@style/2132149454" />
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433986" ="@drawable/2131236698" ="2.0dip" ="20.0dip" ="20.0dip" ="@color/2131099764" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237980" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <com.major.android.uikit2.divider.KitDivider ="fill_parent" ="0.5dip" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.finance.strategy.framework.widgets.StrategyAppBarLayout>
+            <com.finance.framework.widget.scroll.KlineDealNestedScrollView android:id="@id/2131437464" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior">
+                <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent">
+                    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449899" ="fill_parent" ="fill_parent" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.finance.framework.widget.scroll.KlineDealNestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</com.finance.strategy.framework.widgets.ListenScreenClickRelativeLayout>

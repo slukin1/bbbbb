@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="?2130970780" ="blocksDescendants" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_medium" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSFlagView ="center_vertical" android:id="@android:id/icon" ="wrap_content" ="wrap_content" ="fitCenter" ="true" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@android:id/text1" ="@dimen/sns_margin_medium" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969918="@id/sns_checkbox" 2130969936="@android:id/icon" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/sns_checkbox" ="@android:color/transparent" ="false" ="false" ="40.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

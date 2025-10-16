@@ -1,0 +1,47 @@
+.class public final synthetic Landroidx/camera/core/impl/SessionProcessor$CaptureCallback$-CC;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static $default$onCaptureCompleted(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;JILandroidx/camera/core/impl/CameraCaptureResult;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static $default$onCaptureFailed(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static $default$onCaptureProcessProgressed(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static $default$onCaptureProcessStarted(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static $default$onCaptureSequenceAborted(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static $default$onCaptureSequenceCompleted(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static $default$onCaptureStarted(Landroidx/camera/core/impl/SessionProcessor$CaptureCallback;IJ)V
+    .locals 0
+
+    return-void
+.end method

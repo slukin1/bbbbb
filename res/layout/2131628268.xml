@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_vertical" ="?android:scrollbarSize" ="false" ="false" ="fill_parent" ="wrap_content" ="?android:listPreferredItemHeight" ="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView ="center" android:id="@android:id/icon" ="wrap_content" ="wrap_content" ="0.0dip" />
+    <RelativeLayout ="false" ="false" ="0.0dip" ="wrap_content" ="16.0dip" ="6.0dip" ="8.0dip" ="6.0dip" ="1.0" ="16.0dip" ="8.0dip">
+        <TextView ="?android:textAppearanceMedium" ="marquee" android:id="@android:id/title" ="horizontal" ="wrap_content" ="wrap_content" ="true" />
+        <TextView ="?android:textAppearanceSmall" ="?android:textColorSecondary" android:id="@android:id/summary" ="wrap_content" ="wrap_content" ="4" ="@android:id/title" ="@android:id/title" ="@android:id/title" />
+        <androidx.preference.UnPressableLinearLayout ="false" ="false" ="fill_parent" ="wrap_content" ="@android:id/summary" ="@android:id/title" ="@android:id/title">
+            <SeekBar android:id="@id/2131439879" ="@null" ="0.0dip" ="22.0dip" ="false" ="false" ="0.0dip" ="wrap_content" ="1.0" ="0.0dip" ="22.0dip" />
+            <TextView ="?android:textAppearanceMedium" ="marquee" ="center|right" android:id="@id/2131439882" ="horizontal" ="36.0dip" ="fill_parent" ="true" ="sans-serif-condensed" />
+        </androidx.preference.UnPressableLinearLayout>
+    </RelativeLayout>
+</LinearLayout>

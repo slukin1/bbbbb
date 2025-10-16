@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131450306" ="fill_parent" ="44.0dip" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131627708" />
+    <ImageView ="center" android:id="@id/2131434972" ="visible" ="wrap_content" ="wrap_content" ="32.0dip" ="40.0dip" ="centerInside" ="@id/2131450306" ="true" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131238443" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446380" ="15.0dip" ="15.0dip" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_backup_management_suggestion" ="@id/2131434972" ="true" ="@dimen/2131166184" style="@style/2132149350" />
+    <TextView ="14.0sp" ="@color/2131101992" android:id="@id/2131448618" ="15.0dip" ="15.0dip" ="gone" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/mpc_wallet_backup_escape_emergency" ="@id/2131446380" ="true" ="@dimen/2131166184" style="@style/2132149459" />
+    <com.mpc.wallet.widget.uikit.KitButton ="center_horizontal" android:id="@id/2131428993" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_backup_escape_cancel_back" ="@id/2131446764" ="@dimen/2131166184" ="@dimen/2131166184" 2130969173="8.0" />
+    <com.mpc.wallet.widget.uikit.KitButton ="16.0sp" ="@color/2131099764" ="center" ="center_horizontal" android:id="@id/2131446764" ="30.0dip" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/mpc_wallet_backup_escape_title" ="true" ="@dimen/2131166184" 2130969173="8.0" 2130971472="2" style="@style/2132149454" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432207" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.tablayout.XTabLayout android:id="@id/2131441046" ="0.0dip" ="@dimen/2131166073" ="4.0dip" 2130969918="@id/ivFilter" 2130969937="2131438103" 2130969941="2131438103" />
+    <View android:id="@id/viewMask" ="@drawable/2131232561" ="15.0dip" ="0.0dip" 2130969911="@id/2131441046" 2130969917="@id/2131441046" 2130969941="@id/2131441046" />
+    <ImageView android:id="@id/ivFilter" ="5.0dip" ="30.0dip" ="30.0dip" ="@drawable/2131237679" ="10.0dip" 2130969911="@id/2131441046" 2130969917="2131438103" 2130969941="@id/2131441046" />
+    <View android:id="@id/divider" ="@color/2131100565" ="fill_parent" ="0.5dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441046" />
+    <com.binance.widget.viewpager2.NestedScrollableHost ="fill_parent" ="0.0dip" 2130969901="@string/appbar_scrolling_view_behavior" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/divider">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449438" ="fill_parent" ="fill_parent" />
+    </com.binance.widget.viewpager2.NestedScrollableHost>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432215" ="@color/2131099685" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="true" ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/headerBar" ="fill_parent" ="44.0dip" 2130969941="2131438103">
+            <androidx.appcompat.widget.AppCompatImageView ="start" android:id="@id/2131441607" ="?2130968587" ="visible" ="wrap_content" ="fill_parent" ="centerInside" ="@null" ="15.0dip" ="15.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131102397" />
+            <ImageView android:id="@id/2131428783" ="?2130968587" ="gone" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131428685" 2130969941="2131438103" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428685" ="?2130968587" ="visible" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="16.0dip" 2130969911="2131438103" 2130969918="@id/2131428944" 2130969941="2131438103" 2130971077="@drawable/2131236805" 2130971375="@color/2131102397" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428944" ="?2130968587" ="visible" ="20.0dip" ="20.0dip" ="centerInside" ="@null" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237479" 2130971375="@color/2131102397" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/refreshLayout" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969940="@id/headerBar">
+            <ScrollView ="fill_parent" ="fill_parent" ="true">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                    <TextView ="@color/2131102397" ="center_vertical" android:id="@id/tvTitle" ="wrap_content" ="wrap_content" ="40.0dip" android:text="@string/trade_market_detail_fiat" ="false" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149416" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131428720" ="@drawable/2131235994" ="wrap_content" ="0.0dip" ="2.0dip" ="2.0dip" ="10.0dip" ="10.0dip" ="15.0dip" ="@color/2131099685" 2130969911="@id/tvTitle" 2130969917="2131438103" 2130969941="@id/tvTitle">
+                        <ImageView android:id="@id/2131433797" ="16.0dip" ="16.0dip" ="@null" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                        <TextView ="@color/2131102397" ="center_vertical" android:id="@id/2131442691" ="wrap_content" ="wrap_content" ="false" ="4.0dip" 2130969911="2131438103" 2130969936="@id/2131433797" 2130969941="2131438103" style="@style/2132149450" />
+                        <ImageView ="16.0dip" ="16.0dip" ="@null" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131442691" 2130969941="2131438103" 2130971077="@drawable/2131237139" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <com.binance.ocbs.landing.FiatLandingBanner android:id="@id/2131428281" ="fill_parent" ="wrap_content" ="16.0dip" ="15.0dip" ="15.0dip" 2130969940="@id/tvTitle" />
+                    <include android:id="@id/2131435353" layout="@layout/2131625627" />
+                    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439538" ="fill_parent" ="wrap_content" ="false" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969940="@id/2131435353" />
+                    <include android:id="@id/2131435466" layout="@layout/2131625638" />
+                    <include android:id="@id/2131435438" ="gone" layout="@layout/2131625636" />
+                    <include android:id="@id/2131435433" layout="@layout/2131625635" />
+                    <include android:id="@id/2131435422" layout="@layout/2131625634" />
+                    <Space ="fill_parent" ="12.0dip" 2130969940="@id/2131435422" />
+                    <include android:id="@id/2131440080" ="fill_parent" ="0.0dip" 2130969911="2131438103" 2130969941="2131438103" layout="@layout/2131625639" />
+                    <include android:id="@id/2131435414" ="gone" layout="@layout/2131625633" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+        </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+        <com.major.android.uikit2.tooltip.KitToolTip android:id="@id/2131441456" ="gone" ="wrap_content" ="wrap_content" ="-5.0dip" ="30.0dip" 2130968684="@null" 2130969917="2131438103" 2130969940="@id/headerBar" 2130970002="@null" 2130970835="true" 2130971428="Click here to add Fiat to the Homepage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

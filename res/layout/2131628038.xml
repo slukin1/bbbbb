@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236021" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/2131428996" ="?2130970780" ="15.0dip" ="wrap_content" ="wrap_content" 2130969935="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="fill_parent" ="28.0dip" ="15.0dip" ="15.0dip" android:text="@string/payment_enter_fiat_title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428996" style="@style/2132149423" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131447950" ="fill_parent" ="16.0dip" ="15.0dip" ="15.0dip" android:text="@string/payment_enter_fiat_subtitle" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <com.major.android.uikit.input.KitInputText android:id="@id/2131433485" ="fill_parent" ="wrap_content" ="15.0dip" ="32.0dip" ="15.0dip" 2130969654="@null" 2130969655="@string/payment_remittance_enter" 2130969660="@string/ms_label_amount" 2130969940="@id/2131447950" 2130970775="2131439230" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131429009" ="0.0dip" ="48.0dip" ="15.0dip" ="32.0dip" ="15.0dip" ="16.0dip" android:text="@string/oauth_continue" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433485" />
+</androidx.constraintlayout.widget.ConstraintLayout>

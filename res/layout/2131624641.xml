@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView ="fill_parent" ="fill_parent" 2130968911="@color/2131099685" 2130968912="13.0dip" 2130968914="@dimen/2131166153" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="fill_parent" ="fill_parent">
+        <com.binance.content.internal.video.content.player.ContentExoLiveView android:id="@id/2131436126" ="fill_parent" ="fill_parent" ="0.5dip" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131441411" ="fill_parent" ="fill_parent" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/2131435204" ="fill_parent" ="fill_parent" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

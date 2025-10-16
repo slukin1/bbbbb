@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@style/2132148547" ="vertical" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+        <include android:id="@id/2131441601" ="fill_parent" ="wrap_content" layout="@layout/2131624377" />
+        <ScrollView ="fill_parent" ="wrap_content">
+            <LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="8.0dip" ="8.0dip" ="8.0dip">
+                <include ="fill_parent" ="wrap_content" layout="@layout/2131624372" />
+                <include ="fill_parent" ="wrap_content" ="5.0dip" layout="@layout/2131624375" />
+                <include ="fill_parent" ="wrap_content" ="5.0dip" ="8.0dip" layout="@layout/2131624371" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout ="fill_parent" ="fill_parent">
+        <ProgressBar android:id="@id/2131438251" ="gone" ="wrap_content" ="wrap_content" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

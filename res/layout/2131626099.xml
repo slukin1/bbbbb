@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="wrap_content" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_horizontal" android:id="@id/tv_percent" ="wrap_content" ="wrap_content" android:text="100.0%" style="@style/2132149446" />
+    <TextView ="@color/2131099778" ="center_horizontal" ="wrap_content" ="wrap_content" android:text="@string/margin_available" style="@style/2132149394" />
+</LinearLayout>

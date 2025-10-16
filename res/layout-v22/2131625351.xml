@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131447067" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166260" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131446634" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166260" 2130969918="@id/2131432755" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131446900" ="15.0dip" ="5.0dip" ="15.0dip" ="5.0dip" ="wrap_content" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166260" 2130969917="2131438103" 2130969941="2131438103" />
+    <com.finance.framework.widget.recyclerview.RefreshableEmptyStateRecyclerView android:id="@id/2131439646" ="24.0dip" ="fill_parent" ="wrap_content" ="8.0dip" 2130969940="@id/2131447067" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="false" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout ="false" ="fill_parent" ="30.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443897" 2130969962="0.0dip">
+        <com.binance.margin.marketdetail.kline.KLineTypeControllerView android:id="@id/2131435008" ="fill_parent" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443897" 2130969962="0.0dip" />
+    </FrameLayout>
+    <View ="@color/2131099751" ="fill_parent" ="1.0dip" ="0.5" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131435113" ="fill_parent" ="320.0dip">
+        <FrameLayout ="fill_parent" ="0.0dip" ="1.0">
+            <com.airbnb.lottie.LottieAnimationView ="center" android:id="@id/2131436706" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+        </FrameLayout>
+        <View ="@color/2131099751" ="visible" ="fill_parent" ="0.5dip" ="2.0dip" />
+        <com.binance.margin.marketdetail.kline.skyline.view.KlineHorizontalOptionView ="fill_parent" ="33.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

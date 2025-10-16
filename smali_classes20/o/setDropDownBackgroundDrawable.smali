@@ -1,0 +1,162 @@
+.class public final Lo/setDropDownBackgroundDrawable;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u000b\u0008\u0002\u0018\u00002\u00020\u0001B\u001f\u0012\n\u0008\u0002\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0007\u001a\u00020\u0002H\u0017\u00a2\u0006\u0004\u0008\u0007\u0010\u0008R\u001c\u0010\u000b\u001a\u0004\u0018\u00010\u00028\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\t\u0010\n\u001a\u0004\u0008\u000b\u0010\u0008R\u001c\u0010\r\u001a\u0004\u0018\u00010\u00028\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000b\u0010\n\u001a\u0004\u0008\u000c\u0010\u0008"
+    }
+    d2 = {
+        "Lo/setDropDownBackgroundDrawable;",
+        "",
+        "",
+        "p0",
+        "p1",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        "toString",
+        "()Ljava/lang/String;",
+        "b",
+        "Ljava/lang/String;",
+        "e",
+        "a",
+        "c"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final b:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "page"
+    .end annotation
+.end field
+
+.field private final e:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "name"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x3
+
+    .line 65354
+    invoke-direct {p0, v0, v0, v1, v0}, Lo/setDropDownBackgroundDrawable;-><init>(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    .line 88
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 89
+    iput-object p1, p0, Lo/setDropDownBackgroundDrawable;->b:Ljava/lang/String;
+
+    .line 93
+    iput-object p2, p0, Lo/setDropDownBackgroundDrawable;->e:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 1
+
+    and-int/lit8 p4, p3, 0x1
+
+    const/4 v0, 0x0
+
+    if-eqz p4, :cond_0
+
+    move-object p1, v0
+
+    :cond_0
+    and-int/lit8 p3, p3, 0x2
+
+    if-eqz p3, :cond_1
+
+    move-object p2, v0
+
+    .line 88
+    :cond_1
+    invoke-direct {p0, p1, p2}, Lo/setDropDownBackgroundDrawable;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .locals 1
+
+    .line 93
+    iget-object v0, p0, Lo/setDropDownBackgroundDrawable;->e:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final e()Ljava/lang/String;
+    .locals 1
+
+    .line 89
+    iget-object v0, p0, Lo/setDropDownBackgroundDrawable;->b:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 4
+
+    .line 98
+    iget-object v0, p0, Lo/setDropDownBackgroundDrawable;->b:Ljava/lang/String;
+
+    iget-object v1, p0, Lo/setDropDownBackgroundDrawable;->e:Ljava/lang/String;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "RemoteConfig(page="
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ", name="
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, ")"
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

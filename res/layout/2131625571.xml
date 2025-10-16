@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="fill_parent" ="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131432893" ="fill_parent" ="wrap_content">
+        <View ="center_horizontal" android:id="@id/2131431099" ="@android:color/darker_gray" ="40.0dip" ="4.0dip" ="8.0dip" />
+        <com.binance.chat.view.ChatNavigationBarView android:id="@id/2131437448" ="fill_parent" ="wrap_content" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439041" ="fill_parent" ="wrap_content" />
+    <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131435415" ="120.0dip" ="gone" ="fill_parent" ="fill_parent">
+        <ImageView ="@drawable/2131235283" ="96.0dip" ="96.0dip" />
+        <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/jarvis_history_empty_title" style="@style/2132149450" />
+    </LinearLayout>
+</LinearLayout>

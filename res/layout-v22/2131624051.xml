@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439486" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/2131433698" ="20.0dip" ="20.0dip" ="14.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+    <ImageView android:id="@id/2131433909" ="20.0dip" ="20.0dip" ="14.0dip" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441045" ="@drawable/2131236600" ="2.0dip" ="2.0dip" ="2.0dip" ="2.0dip" ="wrap_content" ="wrap_content" ="2.0dip" ="2.0dip" 2130969911="@id/2131433909" 2130969918="@id/2131433909" 2130969936="@id/2131433698" 2130969941="@id/2131433909" />
+    <FrameLayout android:id="@id/2131431884" ="0.0dip" ="0.0dip" ="6.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441045" />
+</androidx.constraintlayout.widget.ConstraintLayout>

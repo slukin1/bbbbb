@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166179" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/tv_title" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" android:text="@string/copy_trading_share_on_square" ="@dimen/2131166184" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_signals_sub_tips" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="14.0dip" android:text="@string/copy_trading_share_signals_sub_tips" ="@dimen/2131166184" 2130969940="@id/tv_title" 2130969999="@dimen/2131166188" style="@style/2132149384" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="15.0dip" ="16.0dip" ="15.0dip" ="@dimen/2131166184" 2130969940="@id/tv_signals_sub_tips" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131447806" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/copy_trading_share_signals" ="15.0dip" ="8.0dip" 2130969918="@id/2131435180" 2130969937="2131438103" 2130969940="@id/divider" 2130969962="@dimen/2131166153" style="@style/2132149450" />
+    <com.major.android.uikit2.selection.KitSwitch android:id="@id/2131435180" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131447806" 2130969917="2131438103" 2130969941="@id/2131447806" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447808" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/copy_trading_share_signals_tips" ="@dimen/2131166184" 2130969940="@id/2131447806" 2130969999="@dimen/2131166188" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432690" ="wrap_content" ="wrap_content" 2130969125="divider,tv_signals_sub_tips,tv_title" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider2" ="fill_parent" ="0.5dip" ="16.0dip" 2130969940="@id/2131447808" />
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/cb_square" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" 2130969757="@dimen/2131166224" 2130969758="true" 2130969759="2131437069" 2130969937="2131438103" 2130969940="@id/divider2" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_agree" ="0.0dip" ="wrap_content" android:text="@string/copy_trading_share_agree" ="4.0dip" 2130969911="@id/cb_square" 2130969936="@id/cb_square" 2130969941="@id/cb_square" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/_confirm" ="@dimen/2131166184" 2130969940="@id/tv_agree" style="@style/2132148692" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432686" ="wrap_content" ="wrap_content" 2130969125="divider2,btn_confirm,cb_square,tv_agree" />
+</androidx.constraintlayout.widget.ConstraintLayout>

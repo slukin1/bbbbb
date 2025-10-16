@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="14.0dip" ="14.0dip" ="fill_parent" ="wrap_content" android:text="@string/futures_position_sorting" ="@dimen/2131166179" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131447857" ="wrap_content" ="wrap_content" android:text="@string/futures_position_sort_by" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149384" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439705" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131447857" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tv_order" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/futures_position_order" 2130969937="2131438103" 2130969940="@id/2131439705" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_order_asc" ="@drawable/2131233823" ="12.0dip" ="7.0dip" ="12.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="@dimen/2131166170" ="@dimen/2131166277" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_order_desc" ="@drawable/2131233823" ="12.0dip" ="7.0dip" ="12.0dip" ="7.0dip" ="0.0dip" ="wrap_content" ="@dimen/2131166170" ="@dimen/2131166277" style="@style/2132149350" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/flow_order" ="0.0dip" ="wrap_content" ="10.0dip" 2130969125="tv_order_asc,tv_order_desc" 2130969490="@dimen/2131166156" 2130969491="2131440523" 2130969502="2131429442" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_order" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432676" ="gone" ="wrap_content" ="wrap_content" 2130969125="tv_order,flow_order" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_reset" ="0.0dip" ="wrap_content" ="30.0dip" android:text="@string/reset" 2130969918="@id/btn_confirm" 2130969937="2131438103" 2130969940="@id/flow_order" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/btn_confirm" ="0.0dip" ="wrap_content" android:text="@string/_confirm" ="15.0dip" 2130969917="2131438103" 2130969936="@id/btn_reset" 2130969941="@id/btn_reset" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437592" ="?2130970307" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nezha.android.render.view.NavigationBar android:id="@id/2131437633" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131437629" ="63.0dip" ="63.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <ImageView ="63.0dip" ="63.0dip" 2130971077="@drawable/2131234487" />
+        <com.nezha.android.view.NezhaLottieAnimationView ="center" android:id="@id/2131437623" ="26.0dip" ="wrap_content" 2130970039="true" 2130970047="uikit_loading_bg_anim.json" 2130970050="true" />
+    </FrameLayout>
+    <com.major.android.uikit.emptylayout.KitEmptyLayout android:id="@id/2131437627" ="gone" ="wrap_content" ="wrap_content" ="96.0dip" 2130969336="@null" 2130969342="false" 2130969343="@drawable/2131235325" 2130969344="@drawable/2131238490" 2130969346="@string/nezha_loading_error" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130969942="0.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439125" ="gone" ="wrap_content" ="wrap_content" ="31.0dip" 2130969905="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437627" 2130969942="0.0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437545" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969918="@id/2131437644" 2130969928="2131438085" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238490" />
+        <androidx.appcompat.widget.AppCompatTextView ="16.0sp" ="@color/2131099787" ="center" android:id="@id/2131437644" ="visible" ="wrap_content" ="wrap_content" android:text="@string/nezha_refresh" ="8.0dip" 2130969911="@id/2131437545" 2130969917="2131438103" 2130969936="@id/2131437545" 2130969941="@id/2131437545" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102138" ="center" android:id="@id/2131437626" ="gone" ="0.0dip" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit.button.KitButton ="@color/2131102138" ="center" android:id="@id/2131437694" ="gone" ="0.0dip" ="wrap_content" ="27.0dip" android:text="@string/nezha_mp_upgrade_binance_app" ="15.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

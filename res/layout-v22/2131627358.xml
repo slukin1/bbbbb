@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/2131440025" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="vertical" ="true" ="fill_parent" ="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/2131427998" ="@color/2131099685" ="@dimen/2131165972" ="fill_parent" ="wrap_content" 2130969331="0.0dip" 2130969901="com.plutus.market.widgets.CustomBehavior">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131450472" ="fill_parent" ="wrap_content" ="15.0dip" ="6.0dip" ="15.0dip" ="5.0dip" ="2" ="@dimen/2131166184" 2130968700="@dimen/2131166898" 2130968701="@dimen/2131166897" 2130968705="2131449068" 2130969974="2131439795|@null" style="@style/2132149416" />
+            <include android:id="@id/2131430270" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969974="2131439795|@null" layout="@layout/2131627458" />
+            <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" android:id="@id/2131450470" ="15.0dip" ="2.0dip" ="fill_parent" ="wrap_content" ="36.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/_name" ="1" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103">
+                    <com.plutus.market.activities.zone.tab.cap.SoftRadioButton ="@color/2131099778" android:id="@id/2131440391" ="wrap_content" ="wrap_content" android:text="@string/last_price" ="1" style="@style/2132149384" />
+                    <TextView ="@color/2131099778" android:id="@id/2131429590" ="wrap_content" ="wrap_content" android:text="/" style="@style/2132149384" />
+                    <com.plutus.market.activities.zone.tab.cap.SoftRadioButton ="@color/2131099778" android:id="@id/2131440389" ="wrap_content" ="wrap_content" android:text="@string/h24_chg" ="1" ="1.0dip" style="@style/2132149384" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439662" ="none" ="fill_parent" ="fill_parent" ="never" 2130969347="@string/no_data" 2130969901="@string/appbar_scrolling_view_behavior" 2130971098="false" 2130971100="true" />
+        <include layout="@layout/2131624284" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434841" ="@color/2131099685" ="fill_parent" ="fill_parent" ="44.0dip" ="fitXY" 2130971375="@color/2131099744" />
+</com.facebook.shimmer.ShimmerFrameLayout>

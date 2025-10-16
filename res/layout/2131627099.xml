@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="21.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="125.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_iv" ="24.0dip" ="24.0dip" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="@color/2131099764" android:id="@id/2131437438" ="0.0dip" ="24.0dip" ="10.0dip" ="10.0dip" 2130969911="@id/icon_iv" 2130969917="2131438103" 2130969936="@id/icon_iv" 2130969941="@id/icon_iv" style="@style/2132149372" />
+    <TextView ="@color/2131099764" android:id="@id/2131438283" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149420" />
+    <TextView ="@color/2131099764" android:id="@id/2131441446" ="wrap_content" ="wrap_content" android:text="@string/lite_express_last_three_years" 2130969917="2131438103" 2130969940="@id/2131438283" style="@style/2132149386" />
+    <TextView ="@color/2131099787" ="end" android:id="@id/2131429187" ="wrap_content" ="wrap_content" android:text="@string/buy_now" 2130969911="@id/2131427823" 2130969917="2131438103" 2130969941="@id/2131427823" style="@style/2132149375" />
+    <TextView ="@color/2131099764" android:id="@id/2131438647" ="wrap_content" ="wrap_content" android:text="@string/last_price" 2130969912="@id/2131427823" 2130969937="2131438103" style="@style/2132149386" />
+    <TextView ="@color/2131099764" android:id="@id/2131427823" ="0.0dip" ="24.0dip" ="13.0dip" 2130969911="2131438103" 2130969918="@id/2131429187" 2130969937="2131438103" style="@style/2132149372" />
+</androidx.constraintlayout.widget.ConstraintLayout>

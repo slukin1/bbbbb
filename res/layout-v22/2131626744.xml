@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131432879" ="gone" ="wrap_content" ="wrap_content" android:text="@string/launcher_add_service_dialog_subtitle" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149364" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435292" ="20.0dip" ="fill_parent" ="wrap_content" ="4.0dip" 2130969940="@id/2131432879" />
+    <TextView ="@color/2131099764" ="start|center" android:id="@id/2131435294" ="15.0dip" ="15.0dip" ="gone" ="fill_parent" ="42.0dip" ="15.0dip" ="15.0dip" android:text="@string/launcher_more_services_custom_full_hint" ="@dimen/2131166184" ="@dimen/2131166184" 2130969940="@id/2131435292" style="@style/2132149364" />
+    <Space android:id="@id/2131435293" ="gone" ="fill_parent" ="20.0dip" 2130969940="@id/2131435294" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131435290" ="0.0dip" ="wrap_content" android:text="@string/dialog_adjust_leverage_action_cancel" ="15.0dip" ="16.0dip" 2130969918="@id/2131435291" 2130969937="2131438103" 2130969940="@id/2131435293" style="@style/2132148697" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" android:id="@id/2131435291" ="0.0dip" ="wrap_content" android:text="@string/confirm" ="15.0dip" 2130969917="2131438103" 2130969936="@id/2131435290" 2130969941="@id/2131435290" style="@style/2132148692" />
+</androidx.constraintlayout.widget.ConstraintLayout>

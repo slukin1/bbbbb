@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429741" ="@drawable/2131236694" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434130" ="16.0dip" ="16.0dip" ="@null" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+    <com.finance.framework.widget.expandable.ExpandableTextViewV2 ="@color/2131099764" android:id="@id/2131444739" ="0.0dip" ="wrap_content" android:text="@string/trade_common_risk_warning" ="4.0dip" ="2.0dip" 2130969378="@color/2131099764" 2130969379=" " 2130969382="@color/2131099787" 2130969383="@null" 2130969385="@color/2131099764" 2130969391="1000000000" 2130969394="false" 2130969395="false" 2130969396="true" 2130969398="false" 2130969399="false" 2130969400="false" 2130969401="false" 2130969918="@id/2131433854" 2130969927="0.0" 2130969936="@id/2131434130" 2130969941="2131438103" 2130969957="12.0dip" 2130969958="@dimen/2131166247" style="@style/2132149386" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433854" ="gone" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131444739" 2130969918="@id/2131434126" 2130969936="@id/2131444739" 2130971077="@drawable/2131237050" 2130971375="@color/2131099738" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434126" ="16.0dip" ="16.0dip" ="centerInside" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+</androidx.constraintlayout.widget.ConstraintLayout>

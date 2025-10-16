@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="vertical" ="@drawable/2131235987" ="24.0dip" ="24.0dip" ="298.0dip" ="wrap_content" ="20.0dip" ="20.0dip" ="@dimen/2131166148" ="@dimen/2131166148" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433071" ="fill_parent" ="wrap_content" ="fitXY" />
+    <LinearLayout ="vertical" android:id="@id/2131435372" ="fill_parent" ="wrap_content" ="18.0dip">
+        <TextView ="#ff242d3d" ="center" android:id="@id/2131437820" ="@drawable/2131232839" ="fill_parent" ="40.0dip" android:text="@string/i_understand" ="1.0" style="@style/2132149446" />
+        <TextView ="@color/2131099787" ="center" android:id="@id/2131429253" ="#00000000" ="gone" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/i_understand" ="1.0" style="@style/2132149446" />
+    </LinearLayout>
+</LinearLayout>

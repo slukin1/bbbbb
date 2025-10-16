@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" 2130969912="@id/2131428572" 2130969923="2131450408" 2130969937="2131438103" 2130969941="2131438103">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" android:id="@id/2131443935" ="@drawable/2131236040" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_received_sheet_have_not_received" ="@font/2131296273" />
+            <TextView ="@color/2131099764" android:id="@id/2131443936" ="@drawable/2131236040" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="@font/2131296273" />
+            <View ="@color/2131099751" ="fill_parent" ="0.5dip" />
+            <FrameLayout android:id="@id/2131441493" ="@drawable/2131235987" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="@color/2131099744">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437739" ="gone" ="fill_parent" ="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434028" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236818" 2130971375="@color/2131099764" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131443868" ="0.0dip" ="wrap_content" android:text="@string/c2c_received_sheet_not_received_tips1" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131434028" 2130969941="2131438103" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131443869" ="0.0dip" ="wrap_content" ="8.0dip" android:text="@string/c2c_received_sheet_not_received_tips2" ="@font/2131296274" 2130969917="2131438103" 2130969937="@id/2131443868" 2130969940="@id/2131443868" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131438965" ="fill_parent" ="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434105" ="2.0dip" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="@id/2131444308" 2130971077="@drawable/2131237068" 2130971375="@color/2131099782" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131444308" ="0.0dip" ="wrap_content" android:text="@string/c2c_received_sheet_received_tips1" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131434105" 2130969941="2131438103" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434106" ="2.0dip" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="@id/2131444309" 2130971077="@drawable/2131237072" 2130971375="@color/2131100160" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131444309" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/c2c_received_sheet_received_tips3" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131434106" 2130969940="@id/2131444308" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434107" ="2.0dip" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="@id/2131444310" 2130971077="@drawable/2131237072" 2130971375="@color/2131100160" />
+                    <TextView ="12.0sp" ="@color/2131099764" android:id="@id/2131444310" ="0.0dip" ="wrap_content" ="12.0dip" android:text="@string/c2c_received_sheet_received_tips4" ="@font/2131296274" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131434107" 2130969940="@id/2131444309" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/2131428572" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103">
+        <com.major.android.uikit2.button.KitButton ="false" android:id="@id/btn_confirm" ="fill_parent" ="wrap_content" android:text="@string/c2c_order_detail_confirm_release" style="@style/2132148692" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

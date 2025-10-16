@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@color/2131099685" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="12.0sp" ="#fff0b90b" android:id="@id/2131438769" ="@drawable/2131232439" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="0.0dip" ="wrap_content" android:text="@string/c2c_cash_taker_buy_present_qr" ="@font/2131296274" ="8.0dip" 2130969918="@id/2131438770" 2130969937="2131438103" 2130969941="2131438103" />
+    <FrameLayout android:id="@id/2131438770" ="80.0dip" ="80.0dip" 2130969917="2131438103" 2130969941="@id/2131438769">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131438771" ="fill_parent" ="fill_parent" ="centerCrop" />
+        <RelativeLayout android:id="@id/2131427366" ="gone" ="fill_parent" ="fill_parent">
+            <TextView ="@color/2131099787" ="center" ="#d6ffffff" ="fill_parent" ="fill_parent" android:text="@string/c2c_mob_exads_refresh" ="@font/2131296274" />
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

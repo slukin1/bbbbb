@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="horizontal" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" ="16.0dip" ="fill_parent" android:text="・" ="false" style="@style/2132149350" />
+    <TextView ="@color/2131099778" android:id="@id/2131440074" ="0.0dip" ="fill_parent" ="false" ="1.0" ="4.0dip" style="@style/2132149384" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView ="vertical" android:id="@id/2131439035" ="10.0dip" ="58.0dip" ="false" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131432467" ="fill_parent" ="fill_parent">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099778" ="center_horizontal" ="center_horizontal" android:id="@id/tvEmpty" ="wrap_content" ="wrap_content" ="70.0dip" android:text="@string/earn_no_records_found" ="10.0dip" 2130969314="@drawable/2131238419" style="@style/2132149350" />
+            <com.major.android.uikit2.button.KitButton ="center_horizontal" android:id="@id/2131444821" ="wrap_content" ="wrap_content" ="17.0dip" android:text="@string/earn_subscribe_now" style="@style/2132148692" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428240" ="@drawable/2131235990" ="10.0dip" ="40.0dip" ="40.0dip" ="10.0dip" ="15.0dip" ="@color/2131099751" 2130969911="2131438103" 2130969917="2131438103" 2130971077="@drawable/2131236869" 2130971375="@color/2131099764" />
+</androidx.constraintlayout.widget.ConstraintLayout>

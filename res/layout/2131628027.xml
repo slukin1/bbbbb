@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131235573" ="fill_parent" ="500.0dip" ="500.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434355" ="15.0dip" ="15.0dip" ="20.0dip" ="50.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131236863" />
+    <TextView ="@color/2131102397" ="center" android:id="@id/tv_title" ="0.0dip" ="0.0dip" android:text="@string/wallet_history_list_title" 2130969911="@id/2131434355" 2130969917="2131438103" 2130969937="2131438103" 2130969941="@id/2131434355" style="@style/2132149446" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439679" ="fill_parent" ="0.0dip" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" 2130969911="2131438103" 2130969940="@id/tv_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

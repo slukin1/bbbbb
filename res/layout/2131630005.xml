@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441606" ="fill_parent" ="45.0dip" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131441619" ="44.0dip" ="fill_parent" ="@null" ="12.0dip" ="12.0dip" 2130969937="2131438103" 2130971077="@drawable/2131236863" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131432887" ="gone" ="44.0dip" ="fill_parent" ="centerInside" ="@null" ="8.0dip" ="16.0dip" 2130969917="2131438103" 2130971077="@drawable/2131237479" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatImageView ="center" ="end" android:id="@id/2131431700" ="36.0dip" ="fill_parent" ="centerInside" ="@null" ="8.0dip" ="8.0dip" 2130969918="@id/2131432887" 2130969958="@dimen/2131166286" 2130971077="@drawable/2131237473" 2130971375="@color/2131099764" />
+        <ImageView android:id="@id/2131439246" ="@drawable/2131236033" ="gone" ="8.0dip" ="8.0dip" ="8.0dip" ="12.0dip" ="@color/2131099881" 2130969917="2131438103" 2130969941="2131438103" />
+        <TextView ="@color/2131099764" ="center" android:id="@id/titleTv" ="wrap_content" ="fill_parent" 2130969917="2131438103" 2130969937="2131438103" style="@style/2132149425" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131428644" ="visible" ="fill_parent" ="0.0dip" ="1.0" 2130969911="2131438103" 2130969940="@id/2131441606">
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131428645" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="#1afcd535">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" android:id="@id/2131428646" ="0.0dip" ="wrap_content" ="5" ="1.0" ="4.0dip" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131437504" ="true" ="true" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" 2130969940="@id/2131450184">
+            <TextView ="@color/2131099778" android:id="@id/2131437507" ="wrap_content" ="wrap_content" android:text="@string/wallet_deposit_fragment_select_network_title" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149355" />
+            <TextView ="@color/2131099764" android:id="@id/2131437501" ="wrap_content" ="wrap_content" ="8.0dip" 2130969937="2131438103" 2130969940="@id/2131437507" style="@style/2132149463" />
+            <TextView ="@color/2131099764" android:id="@id/2131437498" ="wrap_content" ="wrap_content" ="2.0dip" 2130969937="2131438103" 2130969940="@id/2131437501" style="@style/2132149384" />
+            <TextView ="@color/2131099863" android:id="@id/2131437503" ="@drawable/2131236004" ="5.0dip" ="1.0dip" ="5.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="6.0dip" ="23.0dip" ="#1af6465d" 2130969911="@id/2131437501" 2130969936="@id/2131437501" 2130969941="@id/2131437501" style="@style/2132149394" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437506" ="@drawable/2131235989" ="8.0dip" ="36.0dip" ="36.0dip" ="@color/2131099744" 2130969911="@id/2131437498" 2130969917="2131438103" 2130969941="@id/2131437501" 2130971077="@drawable/2131237139" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" />
+        <TextView ="@color/2131099778" android:id="@id/2131428641" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" android:text="@string/amount" 2130969940="@id/2131437504" style="@style/2132149450" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428638" ="@drawable/2131235987" ="fill_parent" ="48.0dip" ="5.0dip" ="14.0dip" ="14.0dip" ="@color/2131099744" 2130969940="@id/2131428641">
+            <EditText ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/2131428640" ="@null" ="14.0dip" ="14.0dip" ="0.0dip" ="wrap_content" ="1" ="0123456789." ="1.0" ="numberDecimal" ="12.0dip" ="12.0dip" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428637" ="20.0dip" ="20.0dip" ="10.0dip" ="10.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131099738" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131428642" ="wrap_content" ="30.0dip" ="13.0dip" ="13.0dip" ="10.0dip" style="@style/2132149446" />
+        </LinearLayout>
+        <TextView ="@color/2131099863" android:id="@id/2131428639" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="3" style="@style/2132149384" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131450282" ="true" ="gone" ="true" ="fill_parent" ="wrap_content" ="15.0dip" ="10.0dip" ="15.0dip" 2130969940="@id/2131428639">
+            <TextView ="@color/2131099778" android:id="@id/2131450284" ="wrap_content" ="wrap_content" android:text="@string/ms_deposit_to" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+            <TextView ="@color/2131099764" android:id="@id/2131450286" ="wrap_content" ="wrap_content" android:text="@string/wallet_withdrawal_spot_wallet" 2130969911="@id/2131450284" 2130969918="@id/2131450283" 2130969941="@id/2131450284" style="@style/2132149384" />
+            <ImageView android:id="@id/2131450283" ="16.0dip" ="16.0dip" ="5.0dip" 2130969911="@id/2131450284" 2130969917="2131438103" 2130969941="@id/2131450284" 2130971077="@drawable/2131237003" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View ="fill_parent" ="wrap_content" ="1.0" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428643" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="16.0dip" android:text="@string/wallet_deposit_btc_lighting_create" 2130969911="2131438103" 2130971472="2131429147" style="@style/2132148691" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131428648" ="gone" ="fill_parent" ="0.0dip" ="1.0" 2130969940="@id/2131441606">
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131428653" ="@drawable/2131235989" ="12.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="23.0dip" ="15.0dip" ="#1afcd535" 2130969940="@id/titleTv">
+            <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+            <TextView ="@color/2131099764" android:id="@id/2131428654" ="0.0dip" ="wrap_content" ="5" ="1.0" ="4.0dip" style="@style/2132149361" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/2131428652" ="180.0dip" ="180.0dip" ="24.0dip" 2130969940="@id/2131428653" />
+        <TextView ="@color/2131099778" ="center" android:id="@id/2131428647" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/wallet_deposit_btc_lighting_expired_time" 2130969940="@id/2131450184" style="@style/2132149355" />
+        <androidx.constraintlayout.widget.ConstraintLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip">
+            <TextView ="@color/2131099778" android:id="@id/2131428650" ="fill_parent" ="wrap_content" android:text="@string/wallet_deposit_btc_lighting_invoice_number" 2130969941="2131438103" style="@style/2132149355" />
+            <TextView ="@color/2131099764" android:id="@id/2131428651" ="0.0dip" ="wrap_content" ="4.0dip" ="12.0dip" 2130969918="@id/2131428649" 2130969937="2131438103" 2130969940="@id/2131428650" style="@style/2132149346" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428649" ="@drawable/2131235989" ="8.0dip" ="36.0dip" ="36.0dip" ="@color/2131099744" 2130969917="2131438103" 2130969941="@id/2131428651" 2130971077="@drawable/2131237146" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

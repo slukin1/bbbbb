@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429382" ="wrap_content" ="wrap_content" ="4.0dip" ="true" style="@style/2132148665" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442624" ="wrap_content" ="wrap_content" android:text="@string/strategy_copy_ready_grids" ="4.0dip" style="@style/2132149355" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434460" ="16.0dip" ="16.0dip" ="4.0dip" 2130971077="@drawable/2131237075" 2130971375="@color/2131099738" />
+</androidx.appcompat.widget.LinearLayoutCompat>

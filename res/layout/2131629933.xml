@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content">
+        <TextView ="#ffeaecef" android:id="@id/cumulative_pnl_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_cummulative_pnl_label" style="@style/2132149350" />
+        <TextView ="#ff848e9c" android:id="@id/cumulative_pnl_selected_date_label" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+        <TextView ="#ff2ebd85" android:id="@id/cumulative_pnl_selected_percentage" ="wrap_content" ="wrap_content" style="@style/2132149474" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131450169" ="gone" ="fill_parent" ="wrap_content" ="8.0dip">
+            <TextView ="#ff909090" ="wrap_content" ="wrap_content" android:text="@string/wallet_cost_price" style="@style/2132149384" />
+            <TextView ="#ffffffff" ="end" android:id="@id/2131438505" ="wrap_content" ="wrap_content" ="1.0" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/2131450205" ="gone" ="fill_parent" ="wrap_content" ="4.0dip">
+            <TextView ="#ff909090" ="wrap_content" ="wrap_content" android:text="@string/last_price" style="@style/2132149384" />
+            <TextView ="#ffffffff" ="end" android:id="@id/2131438504" ="wrap_content" ="wrap_content" ="1.0" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.github.mikephil.charting.charts.LineChart android:id="@id/cumulative_pnl_line_chart" ="fill_parent" ="160.0dip" ="10.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <include ="center" android:id="@id/2131431415" ="gone" ="fill_parent" ="wrap_content" layout="@layout/2131630149" />
+    <include ="center" android:id="@id/2131438693" ="gone" ="fill_parent" ="wrap_content" layout="@layout/2131630150" />
+</FrameLayout>

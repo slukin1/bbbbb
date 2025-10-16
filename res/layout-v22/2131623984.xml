@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="40.0dip">
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="6.0dip">
+            <ImageView android:id="@id/2131434986" ="18.0dip" ="18.0dip" ="@drawable/2131236033" ="6.0dip" 2130971375="@color/2131100430" />
+            <ImageView android:id="@id/2131434987" ="18.0dip" ="18.0dip" ="@drawable/2131236033" ="6.0dip" 2130971375="@color/2131100430" />
+            <ImageView android:id="@id/2131434988" ="18.0dip" ="18.0dip" ="@drawable/2131236033" 2130971375="@color/2131100430" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="6.0dip">
+            <ImageView android:id="@id/2131434989" ="18.0dip" ="18.0dip" ="@drawable/2131236033" ="6.0dip" 2130971375="@color/2131100430" />
+            <ImageView android:id="@id/2131434990" ="18.0dip" ="18.0dip" ="@drawable/2131236033" ="6.0dip" 2130971375="@color/2131100430" />
+            <ImageView android:id="@id/2131434991" ="18.0dip" ="18.0dip" ="@drawable/2131236033" 2130971375="@color/2131100430" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="wrap_content" ="wrap_content" ="6.0dip">
+            <ImageView android:id="@id/2131434993" ="18.0dip" ="18.0dip" ="@drawable/2131236033" ="6.0dip" 2130971375="@color/2131100430" />
+            <ImageView android:id="@id/2131434994" ="18.0dip" ="18.0dip" ="@drawable/2131236033" ="6.0dip" 2130971375="@color/2131100430" />
+            <ImageView android:id="@id/2131434995" ="18.0dip" ="18.0dip" ="@drawable/2131236033" 2130971375="@color/2131100430" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView ="@color/2131099764" android:id="@id/2131445416" ="wrap_content" ="wrap_content" ="20.0dip" ="24.0dip" ="20.0dip" ="60.0dip" android:text="@string/draw_pattern" ="@dimen/2131166200" style="@style/2132149446" />
+    <com.prometheus.account.widgets.gesturelock.CustomLockView android:id="@id/2131429634" ="260.0dip" ="260.0dip" />
+    <View ="fill_parent" ="0.0dip" ="1.0" />
+    <RelativeLayout ="center" ="horizontal" ="fill_parent" ="wrap_content">
+        <TextView ="@color/2131099787" android:id="@id/2131445150" ="10.0dip" ="wrap_content" ="wrap_content" ="56.0dip" android:text="@string/touch_id" ="true" ="true" style="@style/2132149377" />
+        <View ="@color/2131099787" ="0.5dip" ="10.0dip" ="true" />
+        <TextView ="@color/2131099787" android:id="@id/2131443587" ="10.0dip" ="wrap_content" ="wrap_content" ="56.0dip" android:text="@string/password_login" ="true" ="true" style="@style/2132149377" />
+    </RelativeLayout>
+</LinearLayout>

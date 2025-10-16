@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429966" ="@drawable/2131232625" ="15.0dip" ="30.0dip" ="fill_parent" ="wrap_content" ="182.0dip" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434597" ="visible" ="36.0dip" ="36.0dip" ="centerCrop" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center" android:id="@id/2131447067" ="wrap_content" ="wrap_content" ="8.0dip" 2130969911="@id/2131434597" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/2131434597" 2130969941="@id/2131434597" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="start" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/mpc_wallet_you_are_connected" 2130969937="2131438103" 2130969940="@id/2131447067" style="@style/2132149419" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/tv_desc" ="wrap_content" ="wrap_content" android:text="@string/mpc_wallet_go_back_to_your_browser" 2130969937="2131438103" 2130969940="@id/tv_title" style="@style/2132149346" />
+</androidx.constraintlayout.widget.ConstraintLayout>

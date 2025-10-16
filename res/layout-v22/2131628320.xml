@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.base.sensor.view.BaseExposureLayout ="vertical" android:id="@id/2131433627" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="@drawable/2131234718" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" ="@dimen/2131166156">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446679" ="20.0dip" ="wrap_content" style="@style/2132149463" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="ltr" ="6.0dip" style="@style/2132149446" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446769" ="@drawable/2131234955" ="3.0dip" ="3.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" ="4.0dip" ="@dimen/2131166225" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446651" ="@drawable/2131234955" ="3.0dip" ="3.0dip" ="1.0dip" ="gone" ="wrap_content" ="wrap_content" ="1.0dip" ="4.0dip" ="@dimen/2131166225" style="@style/2132149394" />
+        <androidx.appcompat.widget.LinearLayoutCompat ="end" ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tv_price" ="wrap_content" ="wrap_content" 2130969918="@id/2131440543" 2130969941="2131438103" 2130969958="@dimen/2131166184" style="@style/2132149446" />
+            <androidx.appcompat.widget.AppCompatTextView ="#ff00c087" android:id="@id/tv_percent" ="wrap_content" ="wrap_content" ="ltr" 2130969911="2131438103" 2130969917="@id/price" 2130969940="@id/price" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.binance.base.sensor.view.BaseExposureLayout>

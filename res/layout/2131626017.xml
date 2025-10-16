@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.kit.framework.widget.chart.FinanceLineChart android:id="@id/chart_view" ="gone" ="fill_parent" ="fill_parent" />
+    <TextView ="@color/2131099778" ="center" android:id="@id/tv_empty" ="visible" ="wrap_content" ="wrap_content" android:text="@string/no_data" ="10.0dip" 2130969314="@drawable/2131233810" style="@style/2132149450" />
+</merge>

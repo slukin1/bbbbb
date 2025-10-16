@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="true" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131624285" />
+    <ViewStub android:id="@id/2131430159" ="@layout/2131630092" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <ViewStub android:id="@id/2131437717" ="@layout/2131630100" ="fill_parent" ="wrap_content" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131437464" ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" android:id="@id/2131450393" ="fill_parent" ="wrap_content">
+            <ViewStub android:id="@id/2131437728" ="@layout/2131630230" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" ="4.0dip" />
+            <include layout="@layout/2131630115" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435444" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131443813" ="4.0dip" ="wrap_content" ="wrap_content" android:text="@string/ms_label_network" ="false" ="4.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149450" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131437478" ="12.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="32.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443813">
+                    <androidx.appcompat.widget.AppCompatTextView ="false" ="@color/2131099764" ="@color/2131099738" ="center_vertical" android:id="@id/tv_network_code" ="0.0dip" ="24.0dip" android:hint="@string/auto_match_network" 2130969946="2131450408" style="@style/2132149446" />
+                    <androidx.appcompat.widget.AppCompatTextView ="false" ="@color/2131099778" ="center_vertical" android:id="@id/tv_network_name" ="0.0dip" ="wrap_content" 2130969946="2131450408" style="@style/2132149384" />
+                    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" android:id="@id/tvFirstTag" ="4.0dip" ="4.0dip" ="gone" ="0.0dip" ="16.0dip" android:text="@string/wallet_congested" 2130969946="2131450408" style="@style/2132149394" />
+                    <androidx.appcompat.widget.AppCompatTextView ="center" android:id="@id/tvSecondTag" ="4.0dip" ="4.0dip" ="gone" ="0.0dip" ="16.0dip" 2130969946="2131450408" style="@style/2132149394" />
+                    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432067" ="0.0dip" ="wrap_content" 2130969125="tv_network_code,tv_network_name,tvFirstTag,tvSecondTag" 2130969484="0.0" 2130969485="2131438085" 2130969490="@dimen/2131166247" 2130969492="0.0" 2130969493="2131438085" 2130969500="@dimen/2131166199" 2130969502="2131429443" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437489" ="20.0dip" ="20.0dip" ="12.0dip" 2130969911="@id/2131437478" 2130969917="2131438103" 2130969941="@id/2131437478" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441474" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="5.0dip" ="15.0dip" style="@style/2132149384" />
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" android:id="@id/2131435921" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" ="15.0dip" style="@style/2132149377" />
+            <ViewStub android:id="@id/2131437485" ="@layout/2131630114" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" />
+            <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131428490" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" android:hint="@string/wallet_long_press_paste" 2130969817="1" 2130969818="false" 2130969820="@string/_tag" 2130969821="true" 2130970845="false" />
+            <include android:id="@id/2131428489" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip" layout="@layout/2131630112" />
+            <View android:id="@id/2131438110" ="@color/2131099751" ="wrap_content" ="0.5dip" ="24.0dip" />
+            <include android:id="@id/2131431668" layout="@layout/2131630228" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" android:id="@id/2131443000" ="gone" ="fill_parent" ="wrap_content" android:text="@string/estimated_recovery_time" 2130969941="2131438103" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131444832" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" ="10.0dip" android:text="@string/wallet_set_reminder" 2130969940="@id/2131443000" style="@style/2132148691" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435572" ="fill_parent" ="wrap_content">
+        <View ="@color/2131102766" ="fill_parent" ="0.5dip" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448651" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/wallet_receive_amount" ="14.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440979" ="gone" ="false" ="16.0dip" ="16.0dip" ="centerInside" ="4.0dip" 2130969911="@id/2131448651" 2130969936="@id/2131448651" 2130969941="@id/2131448651" 2130971077="@drawable/2131237139" 2130971375="@color/2131099762" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131444294" ="wrap_content" ="wrap_content" ="false" ="ltr" ="14.0dip" 2130969937="2131438103" 2130969940="@id/2131448651" style="@style/2132149459" />
+        <com.binance.base.widget.TipsTextView ="@color/2131099778" android:id="@id/tvFeeTitle" ="wrap_content" ="wrap_content" android:text="@string/wallet_network_fee" ="14.0dip" 2130969937="2131438103" 2130969940="@id/2131444294" 2130971380="2131430667" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/tvFee" ="8.0dip" ="wrap_content" ="wrap_content" ="5.0dip" ="ltr" ="4.0dip" 2130969907="@id/tvFeeTitle" 2130969936="@id/tvFeeTitle" style="@style/2132149384" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428952" ="wrap_content" ="wrap_content" ="24.0dip" ="18.0dip" ="130.0dip" android:text="@string/withdraw" ="false" ="14.0dip" 2130969911="2131438103" 2130969917="2131438103" style="@style/2132148692" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

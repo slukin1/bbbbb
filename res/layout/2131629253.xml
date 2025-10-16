@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="@color/2131099685" ="15.0dip" ="10.0dip" ="15.0dip" ="10.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131446142" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_manage_addetail_label_conditions" ="@font/2131296273" />
+    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131445539" ="fill_parent" ="wrap_content" ="5.0dip" android:text="@string/c2c_ad_post_p3_conditions_description" ="@id/2131446142" ="@font/2131296274" />
+    <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131436818" ="fill_parent" ="28.0dip" ="16.0dip" ="@id/2131445539">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131434785" ="18.0dip" ="18.0dip" ="2.0dip" />
+        <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" ="#00000000" ="wrap_content" ="fill_parent" android:text="@string/c2c_mob_ad_post_p3_label_registered" ="@font/2131296274" ="8.0dip" ="8.0dip" />
+        <androidx.appcompat.widget.AppCompatEditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" ="center" android:id="@id/2131431540" ="@drawable/2131236009" ="12.0dip" ="1.0dip" ="12.0dip" ="1.0dip" ="wrap_content" ="26.0dip" ="60.0dip" android:hint="0" ="4" ="number" ="actionDone" ="@font/2131296273" ="@color/2131099744" />
+        <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" ="wrap_content" ="fill_parent" android:text="@string/c2c_mob_ad_post_p3_label_days" ="@font/2131296274" ="8.0dip" />
+    </LinearLayout>
+    <TextView ="14.0sp" ="#fff23051" ="center_vertical" android:id="@id/2131447619" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" ="@id/2131436818" ="@font/2131296274" ="28.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439443" ="fill_parent" ="wrap_content" ="16.0dip" ="@id/2131447619">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131434382" ="18.0dip" ="18.0dip" ="2.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <TextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131446652" ="#00000000" ="wrap_content" ="wrap_content" android:text="@string/c2c_mob_ad_post_p3_label_holdings" ="true" ="@font/2131296274" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131434382" 2130969941="2131438103" />
+        <View ="@drawable/2131233287" ="0.0dip" ="1.0dip" ="@color/2131099764" 2130969917="@id/2131446652" 2130969937="@id/2131446652" 2130969940="@id/2131446652" />
+        <androidx.appcompat.widget.AppCompatEditText ="16.0sp" ="@color/2131099764" ="@color/2131099738" ="end|center" android:id="@id/2131431500" ="@drawable/2131236009" ="12.0dip" ="1.0dip" ="12.0dip" ="1.0dip" ="wrap_content" ="26.0dip" ="8.0dip" ="8.0dip" ="175.0dip" ="50.0dip" android:hint="0.0000" ="numberDecimal" ="actionDone" ="@font/2131296273" ="@color/2131099744" 2130969911="2131438103" 2130969936="@id/2131446652" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131446649" ="wrap_content" ="wrap_content" android:text="BTC" ="true" ="@font/2131296274" ="8.0dip" 2130969911="2131438103" 2130969936="@id/2131431500" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView ="14.0sp" ="#fff23051" ="center_vertical" android:id="@id/2131446650" ="gone" ="fill_parent" ="wrap_content" ="4.0dip" ="@id/2131439443" ="@font/2131296274" ="28.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439394" ="fill_parent" ="wrap_content" ="16.0dip" ="@id/2131446650">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131434714" ="18.0dip" ="18.0dip" ="2.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131447140" ="#00000000" ="wrap_content" ="wrap_content" android:text="@string/c2c_post_ad_non_merchant" ="6.0dip" ="true" ="@font/2131296274" ="8.0dip" ="@id/2131434714" 2130969911="2131438103" 2130969936="@id/2131434714" 2130969941="2131438103" />
+        <View ="@drawable/2131233287" ="0.0dip" ="1.0dip" ="@color/2131099764" 2130969917="@id/2131447140" 2130969937="@id/2131447140" 2130969940="@id/2131447140" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/2131433398" ="fill_parent" ="wrap_content" ="28.0dip" ="@id/2131439394" layout="@layout/2131629463" />
+</RelativeLayout>

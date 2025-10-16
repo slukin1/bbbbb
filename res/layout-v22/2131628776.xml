@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429764" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429777" ="fill_parent" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <com.finance.framework.widget.text.FinanceWalletTipsTextView ="@color/2131099778" ="center_vertical" android:id="@id/2131441930" ="wrap_content" ="wrap_content" android:text="@string/future_funds_total_balance_title" android:title="@string/future_funds_total_balance_title" 2130969937="2131438103" 2130969941="2131438103" 2130971382="@string/strategy_total_balance_new_tips" style="@style/2132149361" />
+        <com.finance.framework.widget.FinanceFundsEyeView ="center" android:id="@id/2131431670" ="visible" ="16.0dip" ="16.0dip" ="centerInside" ="2.0dip" 2130969911="@id/2131441930" 2130969936="@id/2131441930" 2130969941="@id/2131441930" 2130971077="@drawable/2131238731" 2130971375="@color/2131099785" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445076" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/placeholder" ="false" 2130969937="@id/2131441930" 2130969940="@id/2131441930" style="@style/2132149425" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131445042" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="false" ="4.0dip" 2130969907="@id/2131445076" 2130969911="@id/2131445076" 2130969936="@id/2131445076" style="@style/2132149450" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433896" ="18.0dip" ="18.0dip" ="@color/2131099738" 2130969911="@id/2131445042" 2130969936="@id/2131445042" 2130969941="@id/2131445042" 2130971077="@drawable/2131237055" />
+        <com.finance.kit.framework.widget.lottie.KitLottieAnimationView android:id="@id/2131439525" ="gone" ="11.0dip" ="11.0dip" ="4.0dip" 2130969911="@id/2131444508" 2130969918="@id/2131444508" 2130969941="@id/2131444508" 2130970039="false" 2130970050="false" 2130970052="@raw/2132017277" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="center_vertical" android:id="@id/2131444508" ="gone" ="wrap_content" ="18.0dip" android:text="@string/strategy_list_running" ="false" ="4.0dip" ="2.0dip" 2130969918="@id/2131433895" 2130969941="2131438103" style="@style/2132149382" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433895" ="gone" ="18.0dip" ="18.0dip" ="@color/2131099738" 2130969911="@id/2131444508" 2130969917="2131438103" 2130969941="@id/2131444508" 2130971077="@drawable/2131237055" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439532" ="fill_parent" ="wrap_content" ="20.0dip" 2130969937="2131438103" 2130969940="@id/2131429777" />
+</androidx.constraintlayout.widget.ConstraintLayout>

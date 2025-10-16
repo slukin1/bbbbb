@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape ="rectangle">
+            <solid ="?2130969088" />
+        </shape>
+    </item>
+    <item ="1.0dip">
+        <shape ="rectangle">
+            <solid ="?2130969104" />
+        </shape>
+    </item>
+</layer-list>

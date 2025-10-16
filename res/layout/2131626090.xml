@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="center" ="vertical" android:id="@id/2131440053" ="@drawable/2131233911" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/2131440064" ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131233912" ="fill_parent" ="92.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440064">
+        <ImageView ="center_vertical" android:id="@id/iv_logo" ="wrap_content" ="24.0dip" ="@null" ="24.0dip" 2130969912="@id/2131440063" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" 2130971077="@drawable/2131233999" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440061" ="60.0dip" ="60.0dip" ="16.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="11.0dip" ="@color/2131099787" android:id="@id/2131440063" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/binance_com" ="15.0dip" 2130969911="2131438103" 2130969937="@id/iv_logo" 2130969940="@id/iv_logo" style="@style/2132149384" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131441218" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/earn_apr_breakdown" ="@dimen/2131166184" ="@dimen/2131166170" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <TextView ="@color/2131099764" android:id="@id/2131441219" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_apr" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131441218" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131445785" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131441219" 2130969917="2131438103" 2130969941="@id/2131441219" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131441220" ="wrap_content" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" android:text="@string/earn_boost_apr" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131441219" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvBoostApr" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131441220" 2130969917="2131438103" 2130969941="@id/2131441220" style="@style/2132149450" />
+    <TextView android:id="@id/2131442929" ="wrap_content" ="wrap_content" ="9.0dip" 2130969937="@id/2131441220" 2130969940="@id/2131441220" style="@style/2132149384" />
+    <TextView ="@color/2131099787" android:id="@id/2131443517" ="wrap_content" ="wrap_content" android:text="@string/ms_detail_course" ="15.0dip" 2130969911="@id/2131442929" 2130969917="2131438103" 2130969941="@id/2131442929" style="@style/2132149377" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428837" ="0.0dip" ="wrap_content" ="28.0dip" android:text="@string/earn_tip_ok" 2130969917="@id/2131443517" 2130969937="@id/2131442929" 2130969940="@id/2131442929" />
+</androidx.constraintlayout.widget.ConstraintLayout>

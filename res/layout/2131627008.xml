@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131430795" ="wrap_content" ="wrap_content" android:text="00D" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" ="center_vertical" android:id="@id/2131430183" ="wrap_content" ="wrap_content" android:text=":" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131432948" ="wrap_content" ="wrap_content" android:text="00H" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" ="center_vertical" android:id="@id/2131430184" ="wrap_content" ="wrap_content" android:text=":" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131437083" ="wrap_content" ="wrap_content" android:text="00M" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="center_vertical" ="center_vertical" android:id="@id/2131430185" ="wrap_content" ="wrap_content" android:text=":" ="4.0dip" style="@style/2132149384" />
+    <TextView ="@color/2131099764" android:id="@id/2131439866" ="wrap_content" ="wrap_content" android:text="00S" ="4.0dip" style="@style/2132149384" />
+</LinearLayout>

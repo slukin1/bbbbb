@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="12.0dip" ="2.0dip" ="gone" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131447865" ="wrap_content" ="wrap_content" android:text="@string/_name" ="15.0dip" 2130969852="0" 2130969854="true" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099785" android:id="@id/2131447073" ="wrap_content" ="wrap_content" android:text="@string/slash" ="2.0dip" 2130969936="@id/2131447865" 2130969941="@id/2131447865" style="@style/2132149384" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131447869" ="wrap_content" ="wrap_content" android:text="@string/market_detail_vol_base_asset" ="2.0dip" 2130969852="0" 2130969854="true" 2130969936="@id/2131447073" 2130969941="@id/2131447865" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131447864" ="wrap_content" ="wrap_content" 2130969921="0.44" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131447867" ="wrap_content" ="wrap_content" android:text="@string/last_price" ="100.0dip" 2130969852="0" 2130969854="true" 2130969911="2131438103" 2130969917="@id/2131447866" 2130969941="2131438103" />
+    <com.major.android.uikit2.button.KitSortButton android:id="@id/2131447866" ="wrap_content" ="wrap_content" android:text="@string/last_price" ="15.0dip" 2130969852="0" 2130969854="true" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

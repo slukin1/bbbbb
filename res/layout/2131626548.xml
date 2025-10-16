@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" ="wrap_content" ="wrap_content" ="80.0dip" 2130971077="@drawable/2131238419" />
+    <TextView ="14.0sp" ="#ff848e9c" ="center_horizontal" ="wrap_content" ="wrap_content" ="24.0dip" android:text="@string/c2c_mob_pro_profile_received_reviews_no_reviews" ="@font/2131296274" />
+</androidx.appcompat.widget.LinearLayoutCompat>

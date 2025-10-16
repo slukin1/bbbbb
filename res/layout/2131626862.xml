@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="true" ="true" ="fill_parent" ="100.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View ="@color/2131099675" ="fill_parent" ="50.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" />
+    <View android:id="@id/2131432478" ="fill_parent" ="50.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431096" ="@drawable/2131236009" ="40.0dip" ="40.0dip" ="42.0dip" ="centerInside" ="40.0dip" ="@color/2131099879" 2130969918="@id/2131432755" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131234224" 2130971375="@color/2131099789" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131431097" ="@drawable/2131236009" ="40.0dip" ="40.0dip" ="42.0dip" ="centerInside" ="40.0dip" ="@color/2131099764" 2130969917="2131438103" 2130969936="@id/2131432755" 2130969941="2131438103" 2130971077="@drawable/2131234225" 2130971375="@color/2131099675" />
+    <com.binance.lib.dynamiclayout.drag.ui.UserGuideTipView android:id="@id/2131449135" ="wrap_content" ="wrap_content" ="12.0dip" 2130969912="@id/2131431096" 2130969917="@id/2131431096" 2130969937="@id/2131431096" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432755" ="wrap_content" ="wrap_content" 2130969921="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

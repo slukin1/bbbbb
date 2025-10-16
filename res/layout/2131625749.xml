@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="24.0dip" ="12.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="16.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="#ff202630" ="center" android:id="@id/2131437961" ="@drawable/2131232526" ="20.0dip" ="20.0dip" android:text="1" ="@font/2131296265" />
+        <View android:id="@id/2131437953" ="@color/2131100461" ="1.0dip" ="180.0dip" ="@id/2131437961" ="@id/2131437965" ="10.0sp" />
+        <LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131437965" ="12.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="@id/2131437961">
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131441482" ="fill_parent" ="wrap_content" android:text="@string/c2c_cash_taker_buy_step_title1" ="1.2" />
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436878" ="fill_parent" ="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" ="4.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131437976" ="16.0dip" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237075" />
+                    <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131437974" ="0.0dip" ="wrap_content" android:text="@string/c2c_buyer_payment_page_first_warning" ="1.0dip" 2130969936="@id/2131437976" 2130969941="@id/2131437976" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <fragment ="com.google.android.gms.maps.SupportMapFragment" android:id="@id/2131436877" ="fill_parent" ="120.0dip" ="8.0dip" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131440687" ="@drawable/2131235987" ="10.0dip" ="fill_parent" ="wrap_content" ="12.0dip" ="@color/2131099800">
+                <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432975" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131237609" />
+                    <TextView ="12.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131440681" ="0.0dip" ="wrap_content" ="5.0dip" 2130969918="@id/2131440697" 2130969936="@id/2131432975" 2130969941="@id/2131432975" />
+                    <androidx.appcompat.widget.AppCompatTextView ="10.0sp" ="@color/2131099787" ="center_vertical" android:id="@id/2131432463" ="8.0dip" ="8.0dip" ="0.0dip" ="wrap_content" android:text="@string/c2c_cash_trade_get_directions" ="2.0dip" ="@font/2131296273" 2130969306="@drawable/2131237055" 2130969312="@color/2131099765" 2130969937="@id/2131440681" 2130969940="@id/2131440681" />
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440697" ="16.0dip" ="16.0dip" ="4.0dip" ="4.0dip" 2130969917="2131438103" 2130969936="@id/2131440681" 2130971077="@drawable/2131237146" 2130971375="@color/2131099738" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131432976" ="16.0dip" ="16.0dip" 2130971077="@drawable/2131238208" />
+                    <TextView ="12.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131440695" ="0.0dip" ="wrap_content" ="12.0dip" ="5.0dip" 2130969917="2131438103" 2130969936="@id/2131432976" 2130969941="@id/2131432976" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <LinearLayout ="horizontal" android:id="@id/2131429199" ="@drawable/2131235987" ="10.0dip" ="8.0dip" ="10.0dip" ="8.0dip" ="gone" ="fill_parent" ="wrap_content" ="6.0dip" ="2.0dip" ="@color/2131100492">
+                <TextView ="14.0sp" ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/c2c_buyer_name" />
+                <TextView ="14.0sp" ="@color/2131099764" ="end" android:id="@id/2131429198" ="fill_parent" ="wrap_content" ="@font/2131296265" ="8.0dip" />
+            </LinearLayout>
+            <TextView ="12.0sp" ="@color/2131099787" ="end|center" android:id="@id/2131439173" ="4.0dip" ="4.0dip" ="fill_parent" ="wrap_content" android:text="@string/c2c_cash_taker_buy_report_wrong_address" ="@font/2131296273" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout ="fill_parent" ="wrap_content">
+        <TextView ="14.0sp" ="#ff202630" ="center" android:id="@id/2131437962" ="@drawable/2131232526" ="20.0dip" ="20.0dip" android:text="2" ="@font/2131296265" />
+        <LinearLayout ="center_horizontal" ="vertical" ="16.0dip" ="wrap_content" ="wrap_content" ="12.0dip" ="@id/2131437962">
+            <TextView ="16.0sp" ="@color/2131099764" android:id="@id/2131441483" ="fill_parent" ="wrap_content" android:text="@string/c2c_cash_taker_buy_step_title2" ="1.2" />
+            <TextView ="12.0sp" ="@color/2131099778" android:id="@id/2131437977" ="fill_parent" ="wrap_content" ="4.0dip" android:text="@string/c2c_cash_taker_buy_step_tips2" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

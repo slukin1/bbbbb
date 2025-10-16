@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="220.0dip" ="140.0dip" ="true" xmlns:custom="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout ="#ffffffff" ="wrap_content" ="wrap_content" ="true">
+        <FrameLayout android:id="@id/gt3_wait_iv" ="wrap_content" ="wrap_content" ="true" />
+        <TextView ="14.0sp" ="#ff383838" android:id="@id/gt3_wait_tv2" ="#ffffffff" ="wrap_content" ="wrap_content" ="10.0dip" android:text="@string/gt3_geetest_checking" ="@id/gt3_wait_iv" ="true" />
+    </RelativeLayout>
+    <View android:id="@id/gt3_wait_view1" ="#ffefefef" ="invisible" ="fill_parent" ="1.0dip" ="@id/gt3_wait_ll" />
+    <RelativeLayout ="center_horizontal" android:id="@id/gt3_wait_ll" ="@android:color/transparent" ="invisible" ="fill_parent" ="26.0dip" ="true">
+        <TextView ="10.0sp" ="#ffcacaca" android:id="@id/gt3_wait_tvvv" ="@android:color/transparent" ="wrap_content" ="wrap_content" android:text="@string/gt3_geetest_support" ="@drawable/gt3logo" ="4.0dip" ="true" />
+    </RelativeLayout>
+</RelativeLayout>

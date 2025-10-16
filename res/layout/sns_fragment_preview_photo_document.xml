@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sumsub.sns.core.widget.SNSBackgroundView ="fill_parent" ="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sns_preview_content" ="fill_parent" ="fill_parent">
+            <androidx.constraintlayout.widget.Group android:id="@id/sns_content" ="wrap_content" ="wrap_content" 2130969125="sns_photos,                 sns_title,sns_subtitle,sns_primary_button,sns_secondary_button,                 sns_powered,sns_rotate_cw,sns_rotate_ccw,sns_content_icon" />
+            <androidx.constraintlayout.widget.Group android:id="@id/sns_below_image_content" ="wrap_content" ="wrap_content" 2130969125="sns_photos,                 sns_title,sns_subtitle,sns_primary_button,sns_secondary_button,                 sns_powered,sns_content_icon" />
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/sns_guideline_start" ="wrap_content" ="wrap_content" 2130969919="@dimen/sns_margin_medium" />
+            <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/sns_guideline_end" ="wrap_content" ="wrap_content" 2130969920="@dimen/sns_margin_medium" />
+            <FrameLayout android:id="@id/sns_form_placeholder" ="gone" ="0.0dip" ="0.0dip" 2130969912="@id/sns_primary_button" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969940="@id/sns_toolbar" />
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/sns_photos" ="fill_parent" ="0.0dip" ="@dimen/sns_margin_medium" 2130969912="@id/sns_rotation_buttons" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969940="@id/sns_toolbar" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/sns_rotation_buttons" ="1.0dip" ="1.0dip" 2130968759="2131441647" 2130969125="sns_rotate_ccw,sns_rotate_cw" />
+            <com.sumsub.sns.core.widget.SNSImageButton android:id="@id/sns_rotate_cw" ="invisible" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" ="center" 2130969912="@id/sns_title" 2130969937="@id/sns_guideline_start" 2130971077="@drawable/sns_ic_rotate_cw" />
+            <com.sumsub.sns.core.widget.SNSImageButton android:id="@id/sns_rotate_ccw" ="invisible" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" ="center" 2130969912="@id/sns_title" 2130969917="@id/sns_guideline_end" 2130971077="@drawable/sns_ic_rotate_ccw" />
+            <com.sumsub.sns.core.widget.SNSH2TextView ="center" android:id="@id/sns_iddoc" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969940="@id/sns_photos" />
+            <com.sumsub.sns.core.widget.SNSH2TextView ="center" android:id="@id/sns_title" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_small" 2130969912="@id/sns_subtitle" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" />
+            <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/sns_upload_progress" ="gone" ="0.0dip" ="@dimen/sns_margin_small" ="@dimen/sns_margin_medium_small" ="@dimen/sns_margin_medium_small" ="100" ="0" ="@dimen/sns_margin_large" ="@dimen/sns_margin_large" 2130969912="@id/sns_primary_button" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969940="@id/sns_title" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium_small" 2130969912="@id/sns_primary_button" 2130969917="@id/sns_guideline_end" 2130969936="@id/sns_content_icon" />
+            <com.sumsub.sns.core.widget.SNSImageView android:id="@id/sns_content_icon" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@null" ="@dimen/sns_margin_small" 2130969918="@id/sns_subtitle" 2130969937="@id/sns_guideline_start" 2130969941="@id/sns_subtitle" 2130971375="?2130971002" />
+            <com.sumsub.sns.core.widget.SNSPrimaryButton android:id="@id/sns_primary_button" ="0.0dip" ="wrap_content" 2130969912="@id/sns_secondary_button" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" 2130969957="@dimen/sns_margin_medium" />
+            <com.sumsub.sns.core.widget.SNSSecondaryButton android:id="@id/sns_secondary_button" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" 2130969912="@id/sns_powered" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" />
+            <com.sumsub.sns.core.widget.SNSToolbarView android:id="@id/sns_toolbar" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+            <include ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" 2130969911="2131438103" 2130969917="@id/sns_guideline_end" 2130969937="@id/sns_guideline_start" layout="@layout/sns_layout_powered" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.sumsub.sns.core.widget.SNSBackgroundView>
+    <include android:id="@id/sns_warning" ="fill_parent" ="wrap_content" 2130969901="@string/bottom_sheet_behavior" layout="@layout/sns_iddoc_warning_bottom_sheet" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

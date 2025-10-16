@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="horizontal" ="15.0dip" ="8.0dip" ="15.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/tvCoin" ="wrap_content" ="wrap_content" style="@style/2132149355" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/tvAmount" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149450" />
+</LinearLayout>

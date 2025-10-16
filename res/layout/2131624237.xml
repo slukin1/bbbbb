@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131427609" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131441601" layout="@layout/2131629466" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="5.0dip" ="@id/2131428154" ="@id/2131441601">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView ="@color/2131099764" ="center" ="center" android:id="@id/2131444971" ="80.0dip" ="wrap_content" ="wrap_content" android:text="@string/earn_subscription_successful" ="12.0dip" 2130969314="@drawable/2131238405" style="@style/2132149425" />
+            <TextView ="@color/2131099764" ="center" android:id="@id/2131447942" ="fill_parent" ="wrap_content" ="8.0dip" style="@style/2132149419" />
+            <TextView ="@color/2131099778" ="center_horizontal" android:id="@id/tvDesc" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="12.0dip" ="15.0dip" style="@style/2132149355" />
+            <RelativeLayout android:id="@id/2131439378" ="visible" ="fill_parent" ="wrap_content" ="15.0dip" ="24.0dip" ="15.0dip">
+                <TextView ="@color/2131099778" android:id="@id/2131439751" ="wrap_content" ="wrap_content" android:text="@string/earn_savings_trial_fund_no" style="@style/2132149350" />
+                <TextView ="@color/2131099764" android:id="@id/2131448571" ="wrap_content" ="wrap_content" ="@id/2131439751" ="true" style="@style/2132149350" />
+                <TextView ="@color/2131099778" android:id="@id/2131439752" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/earn_accruing_period" ="@id/2131439751" style="@style/2132149350" />
+                <TextView ="@color/2131099764" android:id="@id/2131446146" ="wrap_content" ="wrap_content" ="@id/2131439752" ="true" style="@style/2132149350" />
+            </RelativeLayout>
+            <com.binance.earn.widgets.timeline.EarnTimeLineView android:id="@id/2131431240" ="#00000000" ="fill_parent" ="wrap_content" ="3.0dip" ="12.0dip" ="3.0dip" 2130969714="3" />
+            <com.binance.earn.widgets.EarnCSATSurveyView android:id="@id/2131431234" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="20.0dip" ="15.0dip" 2130970598="1" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout ="horizontal" android:id="@id/2131436178" ="fill_parent" ="48.0dip" ="15.0dip" ="15.0dip" ="16.0dip" ="true">
+        <com.major.android.uikit2.button.KitButton ="true" ="center" android:id="@id/2131445351" ="0.0dip" ="fill_parent" android:text="@string/earn_view_balance" ="1.0" ="0.0dip" ="0.0dip" style="@style/2132148696" />
+        <com.major.android.uikit2.button.KitButton ="@color/2131100200" ="center" android:id="@id/2131443215" ="@drawable/2131232839" ="0.0dip" ="fill_parent" android:text="@string/earn_go_to_earn_wallet" ="1.0" ="0.0dip" ="0.0dip" ="12.0dip" style="@style/2132148691" />
+    </LinearLayout>
+    <com.binance.earn.widgets.AutoSubscribeCard android:id="@id/2131428154" ="fill_parent" ="wrap_content" ="12.0dip" ="12.0dip" ="16.0dip" ="@id/2131436178" 2130968913="@string/earn_auto_sub_tip_flexible" 2130968918="@string/lending_autosubscribe" />
+    <com.binance.earn.widgets.CardFuBannerView android:id="@id/2131449943" ="gone" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="16.0dip" ="@id/2131436178" />
+</RelativeLayout>

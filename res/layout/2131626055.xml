@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_logo" ="@drawable/2131233740" ="visible" ="40.0dip" ="40.0dip" 2130969912="@id/2131432110" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/tv_pair" ="wrap_content" ="wrap_content" ="1" 2130968700="@dimen/2131166188" 2130968701="@dimen/2131166269" 2130968705="2131449068" 2130969905="true" style="@style/2132149446" />
+    <TextView android:id="@id/tv_contract_type" style="@style/2132148661" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432110" ="wrap_content" ="wrap_content" ="12.0dip" 2130969125="tv_pair,tv_contract_type" 2130969489="0.0" 2130969490="@dimen/2131166247" 2130969502="2131429442" 2130969905="true" 2130969912="@id/2131441253" 2130969917="2131438103" 2130969927="0.0" 2130969937="2131438103" 2130969940="@id/iv_logo" 2130969962="@dimen/2131166153" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131441253" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/spot_countdown_to_open_sublable" 2130969905="true" 2130969912="@id/2131446136" 2130969937="2131438103" 2130969940="@id/2131432110" 2130969945="2131450410" style="@style/2132149394" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446136" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131441253" style="@style/2132149446" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131440632" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099778" android:id="@id/2131442800" ="wrap_content" ="wrap_content" ="false" ="16.0dip" 2130969936="@id/2131430528" 2130969941="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131442799" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/ocbs_string_mica_warning_view_funds" ="false" 2130969937="@id/2131442800" 2130969940="@id/2131442800" style="@style/2132149361" />
+    <TextView ="@color/2131099764" android:id="@id/2131444728" ="wrap_content" ="wrap_content" ="22.0dip" android:text="@string/ocbs_string_deposit_fiat_spot_failed" ="false" 2130969937="@id/2131442799" 2130969940="@id/2131442799" style="@style/2132149450" />
+    <TextView ="@color/2131099764" android:id="@id/2131444727" ="wrap_content" ="wrap_content" ="4.0dip" ="false" 2130969937="@id/2131444728" 2130969940="@id/2131444728" style="@style/2132149361" />
+    <View ="@color/2131099764" ="1.5dip" ="0.0dip" ="4.0dip" ="4.0dip" ="9.0dip" 2130969911="@id/2131431696" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/2131430528" ="20.0dip" ="20.0dip" ="@drawable/2131234534" 2130969937="2131438103" 2130969941="2131438103" />
+    <ImageView android:id="@id/2131431696" ="20.0dip" ="20.0dip" ="@drawable/2131234533" 2130969937="2131438103" 2130969941="@id/2131444728" />
+</androidx.constraintlayout.widget.ConstraintLayout>

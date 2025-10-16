@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="@android:color/transparent" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="vertical" android:id="@id/2131430448" ="24.0dip" ="24.0dip" ="fill_parent" ="wrap_content" ="24.0dip">
+        <ImageView android:id="@id/2131438463" ="wrap_content" ="wrap_content" 2130971077="@drawable/2131237100" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/2131438465" ="@drawable/2131232408" ="32.0dip" ="8.0dip" ="fill_parent" ="wrap_content" ="true">
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip">
+            <TextView ="16.0sp" ="bold" ="@android:color/white" android:id="@id/2131438461" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+            <SeekBar android:id="@id/2131438460" ="0.0dip" ="wrap_content" ="2.0dip" ="@drawable/2131232614" ="2.0dip" ="@drawable/2131234450" ="0.0dip" ="1.0" ="0.0dip" ="0.0dip" ="10.0dip" ="10.0dip" ="multiply" />
+            <TextView ="16.0sp" ="bold" ="@android:color/white" android:id="@id/2131441729" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+        </LinearLayout>
+        <RelativeLayout ="16.0dip" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip">
+            <LinearLayout ="center_vertical" ="horizontal" ="wrap_content" ="wrap_content" ="true">
+                <ImageView android:id="@id/2131439472" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="10.0dip" ="10.0dip" 2130971077="@drawable/2131234425" />
+                <ImageView android:id="@id/2131438459" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="30.0dip" ="30.0dip" 2130971077="@drawable/2131237084" />
+                <ImageView android:id="@id/2131440441" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="10.0dip" ="10.0dip" 2130971077="@drawable/2131234426" />
+            </LinearLayout>
+            <ImageView android:id="@id/2131437100" ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" ="true" 2130971077="@drawable/2131234424" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/2131429966" ="@color/2131099710" ="10.0dip" ="10.0dip" ="10.0dip" ="10.0dip" ="360.0dip" ="wrap_content" ="@dimen/2131166156" ="@dimen/2131166156" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434732" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099851" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="end" android:id="@id/tv_amount" ="0.0dip" ="wrap_content" ="165.0dip" ="1" ="8.0dip" 2130969905="true" 2130969927="0.0" 2130969936="@id/2131434732" 2130969941="2131438103" 2130969943="2131438085" 2130969945="2131450409" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" android:id="@id/tv_amount_unit" ="wrap_content" ="wrap_content" ="4.0dip" 2130969911="@id/tv_amount" 2130969917="2131438103" 2130969927="0.0" 2130969936="@id/tv_amount" 2130969941="@id/tv_amount" 2130969943="2131438085" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099789" ="end" android:id="@id/2131447298" ="0.0dip" ="wrap_content" ="1" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131434732" 2130969940="@id/tv_amount" style="@style/2132149394" />
+</merge>

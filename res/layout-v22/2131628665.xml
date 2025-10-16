@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131439479" ="fill_parent" ="wrap_content" style="@style/2132148639" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvTitle" ="12.0dip" ="12.0dip" ="wrap_content" ="wrap_content" android:text="@string/strategy_grid_trade_type_title" ="0.0dip" ="25.0dip" ="15.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <ImageView android:id="@id/2131434567" ="3.0dip" ="24.0dip" ="24.0dip" ="@null" 2130969911="@id/tvTitle" 2130969917="@id/tvTitle" 2130969941="@id/tvTitle" 2130971077="@drawable/2131233676" />
+    <View android:id="@id/2131431034" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969937="2131438103" 2130969940="@id/tvTitle" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102935" android:id="@id/2131442179" ="@drawable/2131236477" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="50.0dip" android:text="@string/finance_grid_arithmetic" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131431034" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433674" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131442179" 2130969917="2131438103" 2130969941="@id/2131442179" 2130971077="@drawable/2131236496" />
+    <View android:id="@id/2131431010" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969937="2131438103" 2130969940="@id/2131442179" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102935" android:id="@id/2131443205" ="@drawable/2131236477" ="15.0dip" ="12.0dip" ="15.0dip" ="12.0dip" ="fill_parent" ="50.0dip" android:text="@string/finance_grid_geometric" ="@dimen/2131166184" 2130969937="2131438103" 2130969940="@id/2131431010" style="@style/2132149346" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433894" ="gone" ="wrap_content" ="wrap_content" ="15.0dip" 2130969911="@id/2131443205" 2130969917="2131438103" 2130969941="@id/2131443205" 2130971077="@drawable/2131236496" />
+    <View android:id="@id/2131431020" ="@color/2131099751" ="fill_parent" ="0.5dip" 2130969937="2131438103" 2130969940="@id/2131443205" />
+    <View android:id="@id/2131431013" ="@color/2131099676" ="fill_parent" ="10.0dip" 2130969937="2131438103" 2130969940="@id/2131431020" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099837" ="center" android:id="@id/tvCancel" ="12.0dip" ="12.0dip" ="fill_parent" ="50.0dip" android:text="@string/_cancel" 2130969937="2131438103" 2130969940="@id/2131431013" style="@style/2132149346" />
+</androidx.constraintlayout.widget.ConstraintLayout>

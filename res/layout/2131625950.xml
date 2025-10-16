@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center_horizontal" ="vertical" android:id="@id/2131439403" ="340.0dip" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131429977" ="20.0dip" ="20.0dip" ="20.0dip" ="340.0dip" ="480.0dip" 2130969937="2131438103" 2130969941="2131438103">
+        <TextView ="#ffffffff" android:id="@id/tv_symbol" ="wrap_content" ="wrap_content" ="56.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+        <TextView ="@color/2131099778" ="end" ="center_horizontal" android:id="@id/2131446222" ="wrap_content" ="wrap_content" ="1" 2130969937="2131438103" 2130969940="@id/tv_symbol" style="@style/2132149384" />
+        <LinearLayout ="center_vertical" ="vertical" ="29.0dip" ="fill_parent" ="wrap_content" 2130969912="@id/2131428577" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446222">
+            <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+                <TextView ="@color/2131099778" android:id="@id/2131446416" ="wrap_content" ="wrap_content" android:text="@string/future_trade_analysis_PNL_tips" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+                <TextView ="20.0sp" ="#ff02c076" android:id="@id/2131446417" ="visible" ="wrap_content" ="wrap_content" ="5.0dip" ="@font/2131296273" 2130969937="2131438103" 2130969940="@id/2131446416" />
+                <LinearLayout ="vertical" android:id="@id/2131437075" ="wrap_content" ="wrap_content" ="25.0dip" 2130969937="2131438103" 2130969940="@id/2131446417">
+                    <TextView ="#ff848e9c" android:id="@id/2131447573" ="wrap_content" ="wrap_content" android:text="@string/future_trade_analysis_total_realized_profit" style="@style/2132149384" />
+                    <TextView ="@color/2131099851" android:id="@id/2131447574" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                    <TextView ="@color/2131099778" android:id="@id/2131448239" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/future_trade_analysis_total_buys" style="@style/2132149384" />
+                    <TextView ="#ffeaecef" android:id="@id/2131448240" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                    <TextView ="@color/2131099778" android:id="@id/2131445708" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/future_trade_analysis_average_buy_price" style="@style/2132149384" />
+                    <TextView ="#ffeaecef" android:id="@id/2131445707" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                </LinearLayout>
+                <LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="17.0dip" 2130969936="@id/2131437075" 2130969941="@id/2131437075">
+                    <TextView ="@color/2131099778" android:id="@id/2131447565" ="wrap_content" ="wrap_content" android:text="@string/future_trade_analysis_total_realized_loss" style="@style/2132149384" />
+                    <TextView ="@color/2131099863" android:id="@id/2131447566" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                    <TextView ="#ff848e9c" android:id="@id/2131448291" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/future_trade_analysis_total_sells" style="@style/2132149384" />
+                    <TextView ="#ffeaecef" android:id="@id/2131448292" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                    <TextView ="#ff848e9c" android:id="@id/2131445714" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/future_trade_analysis_average_sell_price" style="@style/2132149384" />
+                    <TextView ="#ffeaecef" android:id="@id/2131445713" ="wrap_content" ="wrap_content" style="@style/2132149450" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131428577" ="wrap_content" ="wrap_content" 2130969911="2131438103" 2130969937="2131438103">
+            <ImageView android:id="@id/2131440061" ="#ffffffff" ="43.0dip" ="43.0dip" ="@null" 2130971077="@drawable/2131234591" />
+            <LinearLayout ="vertical" ="wrap_content" ="wrap_content" ="10.0dip">
+                <TextView ="10.0sp" ="#ffaeb4bc" android:id="@id/2131447609" ="wrap_content" ="wrap_content" android:text="@string/margin_kline_referral_code" ="@font/2131296274" />
+                <TextView ="24.0sp" ="#ffffffff" android:id="@id/2131447611" ="wrap_content" ="wrap_content" ="@font/2131296274" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/2131440058" ="wrap_content" ="wrap_content" ="@null" 2130969911="2131438103" 2130969917="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="340.0dip" ="140.0dip" style="@style/2132148650">
+        <TextView ="@color/2131099778" android:id="@id/2131447738" ="wrap_content" ="wrap_content" android:text="@string/future_trade_analysis_share_select_performance_tips" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149384" />
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131429577" ="wrap_content" ="wrap_content" ="13.0dip" 2130969937="2131438103" 2130969940="@id/2131447738">
+            <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429576" ="18.0dip" ="18.0dip" ="true" />
+            <TextView ="@color/2131099764" android:id="@id/2131445904" ="wrap_content" ="wrap_content" android:text="@string/string_price" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131429582" ="wrap_content" ="wrap_content" ="23.0dip" 2130969936="@id/2131429577" 2130969941="@id/2131429577">
+            <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429581" ="18.0dip" ="18.0dip" ="true" />
+            <TextView ="@color/2131099764" android:id="@id/2131445907" ="wrap_content" ="wrap_content" android:text="@string/volume_btc" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="center_vertical" ="horizontal" android:id="@id/2131429579" ="wrap_content" ="wrap_content" ="23.0dip" 2130969936="@id/2131429582" 2130969941="@id/2131429582">
+            <com.major.android.uikit.selection.KitCheckBox android:id="@id/2131429578" ="18.0dip" ="18.0dip" ="true" />
+            <TextView ="@color/2131099764" android:id="@id/2131445905" ="wrap_content" ="wrap_content" android:text="@string/future_trade_analysis_share_checkbox_profit_loss" style="@style/2132149384" />
+        </LinearLayout>
+        <LinearLayout ="horizontal" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+            <com.major.android.uikit.button.KitButton android:id="@id/2131440050" ="0.0dip" ="40.0dip" android:text="@string/_cancel" ="1.0" 2130971472="2" />
+            <com.major.android.uikit.button.KitButton android:id="@id/2131440051" ="0.0dip" ="40.0dip" android:text="@string/share" ="1.0" ="8.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/2131429275" ="true" ="true" ="0.0dip" ="0.0dip" 2130968911="@color/2131099800" 2130968912="4.0dip" 2130968914="0.0dip" 2130968919="false" 2130969142="0.0dip" 2130969911="@id/2131429297" 2130969917="@id/2131429297" 2130969937="@id/2131429297" 2130969941="@id/2131429297" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/2131429297" ="148.0dip" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131428281" ="0.0dip" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131233034" />
+        <com.binance.content.internal.view.ContentAvatarView android:id="@id/2131428178" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <LinearLayout ="center" ="horizontal" android:id="@id/2131437432" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" ="4.0dip" ="@dimen/2131166286" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428178">
+            <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" ="end" ="center" android:id="@id/2131437428" ="0.0dip" ="24.0dip" ="1" ="1.0" style="@style/2132149374" />
+            <include android:id="@id/2131435361" ="wrap_content" ="wrap_content" ="1.0dip" ="-1.0dip" layout="@layout/2131624459" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="#ff848e9c" ="end" ="center|top" android:id="@id/2131440847" ="0.0dip" ="32.0sp" ="8.0dip" ="4.0dip" ="8.0dip" ="2" ="8.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437432" style="@style/2132149394" />
+        <FrameLayout ="wrap_content" ="wrap_content" ="8.0dip" ="8.0dip" ="8.0dip" ="12.0dip" ="8.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131440847">
+            <include android:id="@id/2131432122" ="wrap_content" ="@dimen/2131166220" layout="@layout/2131624660" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

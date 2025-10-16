@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235991" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center_horizontal" android:id="@id/ivLogo" ="96.0dip" ="96.0dip" ="24.0dip" 2130971077="@drawable/2131234304" />
+    <androidx.appcompat.widget.AppCompatTextView ="18.0sp" ="@color/2131099764" ="center" android:id="@id/tvTitle" ="fill_parent" ="wrap_content" ="16.0dip" ="16.0dip" ="16.0dip" android:text="@string/c2c_24th_withdraw_security_protection_title" ="@font/2131296267" ="@dimen/2131166188" />
+    <androidx.appcompat.widget.AppCompatTextView ="14.0sp" ="@color/2131099778" android:id="@id/2131442581" ="fill_parent" ="wrap_content" ="16.0dip" ="12.0dip" ="16.0dip" android:text="@string/c2c_24th_withdraw_security_protection_content" ="@font/2131296274" ="@dimen/2131166188" />
+    <com.major.android.uikit2.button.KitButton ="center" android:id="@id/2131428732" ="fill_parent" ="40.0dip" ="16.0dip" ="16.0dip" ="16.0dip" ="24.0dip" android:text="@string/c2c_dialog_data_usage_confirm" ="@dimen/2131166188" style="@style/2132148692" />
+</LinearLayout>

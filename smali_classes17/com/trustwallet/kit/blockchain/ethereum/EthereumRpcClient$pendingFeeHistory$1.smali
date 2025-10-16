@@ -1,0 +1,110 @@
+.class final Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;
+.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;->pendingFeeHistory(Lcom/trustwallet/kit/common/blockchain/entity/Chain;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field I$0:I
+
+.field J$0:J
+
+.field L$0:Ljava/lang/Object;
+
+.field L$1:Ljava/lang/Object;
+
+.field L$2:Ljava/lang/Object;
+
+.field L$3:Ljava/lang/Object;
+
+.field L$4:Ljava/lang/Object;
+
+.field L$5:Ljava/lang/Object;
+
+.field L$6:Ljava/lang/Object;
+
+.field L$7:Ljava/lang/Object;
+
+.field L$8:Ljava/lang/Object;
+
+.field L$9:Ljava/lang/Object;
+
+.field label:I
+
+.field synthetic result:Ljava/lang/Object;
+
+.field final synthetic this$0:Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;
+
+
+# direct methods
+.method constructor <init>(Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;",
+            "Lo/WalletNecessaryDataHelperfetchActiveNetwork21<",
+            "-",
+            "Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 65354
+    iput-object p1, p0, Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;->this$0:Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;
+
+    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 65353
+    iput-object p1, p0, Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;->result:Ljava/lang/Object;
+
+    iget p1, p0, Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;->label:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;->label:I
+
+    iget-object p1, p0, Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient$pendingFeeHistory$1;->this$0:Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;
+
+    const/4 v0, 0x0
+
+    move-object v1, p0
+
+    check-cast v1, Lo/WalletNecessaryDataHelperfetchActiveNetwork21;
+
+    invoke-virtual {p1, v0, v1}, Lcom/trustwallet/kit/blockchain/ethereum/EthereumRpcClient;->pendingFeeHistory(Lcom/trustwallet/kit/common/blockchain/entity/Chain;Lo/WalletNecessaryDataHelperfetchActiveNetwork21;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

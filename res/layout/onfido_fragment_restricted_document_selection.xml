@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.onfido.android.sdk.capture.ui.widget.ShadowedNestedScrollView android:id="@id/2131439803" ="fill_parent" ="0.0dip" 2130969912="@id/2131437843" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148929">
+        <LinearLayout ="vertical" ="fill_parent" ="wrap_content">
+            <TextView android:id="@id/title" ="@dimen/2131167206" ="@dimen/2131167276" ="@dimen/2131167206" android:text="@string/onfido_doc_select_title" style="@style/2132148962" />
+            <TextView ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="4.0dip" ="@dimen/2131167206" android:text="@string/onfido_doc_select_subtitle_country" style="@style/2132148937" />
+            <TextView android:id="@id/2131443844" ="gone" ="fill_parent" ="wrap_content" ="@dimen/2131167206" ="16.0dip" ="@dimen/2131167206" android:text="@string/onfido_nfc_scan_doc_selection_disclaimer" style="@style/2132148923" />
+            <TextView android:id="@id/2131444576" ="wrap_content" ="wrap_content" ="@dimen/2131167206" ="33.0dip" ="@dimen/2131167206" android:text="@string/onfido_doc_select_section_header_country" ="true" style="@style/2132148931" />
+            <include android:id="@id/2131430559" layout="@layout/onfido_restricted_document_selection_country_picker_view" />
+            <TextView android:id="@id/2131432823" ="wrap_content" ="wrap_content" ="@dimen/2131167206" ="@dimen/2131167206" android:text="@string/onfido_doc_select_section_header_doc_type" ="true" style="@style/2132148931" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131431064" ="fill_parent" ="wrap_content" ="16.0dip" ="false" />
+        </LinearLayout>
+    </com.onfido.android.sdk.capture.ui.widget.ShadowedNestedScrollView>
+    <com.onfido.android.sdk.capture.ui.widget.OnfidoButton android:id="@id/2131428629" ="visible" ="0.0dip" ="wrap_content" ="@dimen/2131167223" ="@dimen/2131167223" ="8.0dip" 2130969912="@id/2131437843" 2130969917="2131438103" 2130969937="2131438103" 2130970348="@string/onfido_video_capture_prompt_button_timeout" />
+    <include android:id="@id/2131437843" ="0.0dip" ="wrap_content" ="8.0dip" ="@dimen/2131167206" ="@dimen/2131167206" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" layout="@layout/onfido_watermark_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

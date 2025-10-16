@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131100620" android:id="@id/2131446783" ="wrap_content" ="wrap_content" ="16.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149445" />
+    <TextView ="@color/2131099778" ="end" android:id="@id/2131445883" ="5.0dip" ="5.0dip" ="0.0dip" ="wrap_content" ="1" 2130969907="@id/2131446783" 2130969918="@id/2131435616" 2130969936="@id/2131446783" style="@style/2132149384" />
+    <FrameLayout android:id="@id/2131435616" ="90.0dip" ="22.0dip" ="16.0dip" 2130969911="@id/2131446783" 2130969917="2131438103" 2130969941="@id/2131446783">
+        <TextView ="@color/2131099778" ="start|center" ="start" ="horizontal" android:id="@id/2131442779" ="@drawable/2131236004" ="8.0dip" ="8.0dip" ="fill_parent" ="22.0dip" android:text="@string/_decimals" ="@color/2131099744" style="@style/2132149384" />
+        <androidx.appcompat.widget.AppCompatImageView ="end|center" android:id="@id/2131433804" ="16.0dip" ="16.0dip" ="6.0dip" 2130971077="@drawable/2131237003" 2130971375="@color/2131099738" />
+    </FrameLayout>
+    <TextView ="@color/2131099778" ="end" ="start" android:id="@id/tv_amount_bid" ="0.0dip" ="wrap_content" android:text="@string/ms_withdraw_amount" ="1" ="1.0" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="center" android:id="@id/tv_price_title" ="0.0dip" ="wrap_content" android:text="@string/string_price" ="1" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="end" android:id="@id/tv_amount_ask" ="0.0dip" ="wrap_content" android:text="@string/ms_withdraw_amount" ="1" style="@style/2132149394" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432068" ="fill_parent" ="wrap_content" ="16.0dip" ="5.0dip" ="16.0dip" 2130969125="tv_amount_bid,tv_price_title,tv_amount_ask" 2130969940="@id/2131446783" />
+    <com.finance.framework.widget.orderbook.OrderBookView android:id="@id/orderBookView_bid" ="0.0dip" ="100.0dip" ="1.0" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969638="@color/2131099765" 2130969664="true" 2130969665="true" 2130969673="false" 2130969674="false" 2130970437="@dimen/2131166200" />
+    <com.finance.framework.widget.orderbook.OrderBookView android:id="@id/orderBookView_ask" ="0.0dip" ="100.0dip" ="1.0" 2130968651="@color/2131099764" 2130968700="@dimen/2131167692" 2130968701="@dimen/2131167718" 2130969638="@color/2131099765" 2130969664="false" 2130969665="true" 2130969673="true" 2130969674="true" 2130970437="@dimen/2131166200" />
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/2131432069" ="fill_parent" ="wrap_content" ="8.0dip" ="5.0dip" ="8.0dip" 2130969125="orderBookView_bid,orderBookView_ask" 2130969940="@id/2131432068" />
+    <com.finance.framework.widget.orderbook.OrderBookBuySellRatioView android:id="@id/2131437888" ="gone" ="fill_parent" ="18.0dip" ="15.0dip" ="5.0dip" ="15.0dip" 2130969911="2131438103" 2130969940="@id/orderBookView_bid" />
+</merge>

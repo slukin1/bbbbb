@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView ="fill_parent" ="0.0dip" 2130969912="@id/sns_checkgroup" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+            <com.sumsub.sns.core.widget.SNSH1TextView ="center" android:id="@id/sns_title" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium_small" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView ="center" android:id="@id/sns_subtitle" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_title" />
+            <ImageView android:id="@id/sns_sumsubid_benefit_icon_securely" ="@dimen/sns_icon_size_small" ="@dimen/sns_icon_size_small" ="no" 2130969911="@id/sns_sumsubid_benefit_title_securely" 2130969937="2131438103" 2130969941="@id/sns_sumsubid_benefit_title_securely" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_sumsubid_benefit_title_securely" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_large" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969936="@id/sns_sumsubid_benefit_icon_securely" 2130969940="@id/sns_subtitle" />
+            <ImageView android:id="@id/sns_sumsubid_benefit_icon_optionally" ="@dimen/sns_icon_size_small" ="@dimen/sns_icon_size_small" ="no" 2130969911="@id/sns_sumsubid_benefit_title_optionally" 2130969937="2131438103" 2130969941="@id/sns_sumsubid_benefit_title_optionally" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_sumsubid_benefit_title_optionally" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969936="@id/sns_sumsubid_benefit_icon_optionally" 2130969940="@id/sns_sumsubid_benefit_title_securely" />
+            <ImageView android:id="@id/sns_sumsubid_benefit_icon_instantly" ="@dimen/sns_icon_size_small" ="@dimen/sns_icon_size_small" ="no" 2130969911="@id/sns_sumsubid_benefit_title_instantly" 2130969937="2131438103" 2130969941="@id/sns_sumsubid_benefit_title_instantly" />
+            <com.sumsub.sns.core.widget.SNSSubtitle2TextView android:id="@id/sns_sumsubid_benefit_title_instantly" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_small" 2130969917="2131438103" 2130969936="@id/sns_sumsubid_benefit_icon_instantly" 2130969940="@id/sns_sumsubid_benefit_title_optionally" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout ="vertical" android:id="@id/sns_checkgroup" ="fill_parent" ="wrap_content" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <com.google.android.material.divider.MaterialDivider android:id="@id/sns_divider" ="fill_parent" ="wrap_content" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/sns_checkbox_user_consent" ="40.0dip" ="wrap_content" 2130969911="@id/sns_text_user_consent" 2130969937="2131438103" 2130969941="@id/sns_text_user_consent" 2130969942="0.0" />
+        <com.sumsub.sns.core.widget.SNSTextView ="center_vertical" android:id="@id/sns_text_user_consent" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="40.0dip" 2130969917="2131438103" 2130969936="@id/sns_checkbox_user_consent" 2130969941="2131438103" />
+        <com.sumsub.sns.core.widget.SNSTextView ="center_vertical" android:id="@id/sns_footer" ="0.0dip" ="wrap_content" ="@dimen/sns_margin_medium" ="40.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/sns_text_user_consent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236765" ="15.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="18.0sp" ="@color/2131099764" android:id="@id/titleTv" ="fill_parent" ="wrap_content" ="12.0dip" android:text="@string/c2c_mod_feedback_title" ="@font/2131296275" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView ="14.0sp" ="@color/2131099778" ="center" ="center" android:id="@id/2131444819" ="wrap_content" ="wrap_content" ="2.0dip" ="@font/2131296274" 2130969937="@id/titleTv" 2130969940="@id/titleTv" />
+    <com.binance.c2c.orderdetail.evaluation.FiatEvaluationView2 android:id="@id/2131431587" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131444819" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131431585" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969940="@id/2131431587" />
+    <com.major.android.uikit2.input.KitInputEditText android:id="@id/2131437406" ="fill_parent" ="wrap_content" ="16.0dip" ="5" ="500" 2130969806="true" 2130969817="1" 2130969818="false" 2130969937="2131438103" 2130969940="@id/2131431585" />
+    <com.major.android.uikit2.selection.KitCheckBox ="center" android:id="@id/2131429549" ="24.0dip" ="24.0dip" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131437406" />
+    <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131429551" ="0.0dip" ="wrap_content" android:text="@string/c2c_mod_feedback_anonymous_comment" ="@font/2131296274" ="4.0dip" 2130969911="@id/2131429549" 2130969936="@id/2131429549" 2130969941="@id/2131429549" />
+    <TextView ="16.0sp" ="@drawable/2131235954" ="center" android:id="@id/2131429046" ="@drawable/2131235953" ="fill_parent" ="40.0dip" ="16.0dip" android:text="@string/c2c_mob_write_comments_leave_feedback" ="@font/2131296273" 2130969940="@id/2131429551" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+.class Lcom/slot/widget/android/factor/ComplianceTaskWidget$$Factor$1;
+.super Lcom/google/gson/reflect/TypeToken;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/slot/widget/android/factor/ComplianceTaskWidget$$Factor;->getDeclaredType()Ljava/lang/reflect/Type;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/gson/reflect/TypeToken<",
+        "Lo/v0076v0076007600760076;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/slot/widget/android/factor/ComplianceTaskWidget$$Factor;
+
+
+# direct methods
+.method constructor <init>(Lcom/slot/widget/android/factor/ComplianceTaskWidget$$Factor;)V
+    .locals 0
+
+    .line 32
+    iput-object p1, p0, Lcom/slot/widget/android/factor/ComplianceTaskWidget$$Factor$1;->this$0:Lcom/slot/widget/android/factor/ComplianceTaskWidget$$Factor;
+
+    invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V
+
+    return-void
+.end method

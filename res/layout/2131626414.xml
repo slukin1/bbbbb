@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@color/2131099685" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="fill_parent" ="wrap_content" ="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440698" ="4.0dip" ="20.0dip" ="20.0dip" ="-2.0dip" 2130969918="@id/2131440681" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237609" />
+        <TextView ="16.0sp" ="@color/2131099764" ="center_vertical" android:id="@id/2131440681" ="0.0dip" ="wrap_content" ="5.0dip" ="5.0dip" ="@font/2131296274" 2130969918="@id/2131440697" 2130969929="1.0" 2130969936="@id/2131440698" 2130969941="@id/2131440698" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131440697" ="16.0dip" ="16.0dip" ="3.0dip" 2130969917="2131438103" 2130969941="@id/2131440698" 2130971077="@drawable/2131237146" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView ="16.0dip" ="16.0dip" ="1.0dip" 2130971077="@drawable/2131238208" />
+        <TextView ="14.0sp" ="@color/2131099778" android:id="@id/2131440693" ="wrap_content" ="wrap_content" ="@font/2131296274" ="5.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131440694" ="fill_parent" ="wrap_content" ="21.0dip" ="2.0dip" ="21.0dip" />
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="16.0dip" />
+</LinearLayout>

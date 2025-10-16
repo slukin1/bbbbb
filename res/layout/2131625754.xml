@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="12.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content">
+        <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="6.0">
+            <TextView ="24.0sp" ="@color/2131100634" android:id="@id/2131437967" ="fill_parent" ="wrap_content" ="4.0dip" ="@font/2131296275" />
+            <TextView ="12.0sp" ="@color/2131099917" ="start" android:id="@id/2131437973" ="fill_parent" ="wrap_content" ="8.0dip" ="@font/2131296266" ="16.0dip" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView ="top" android:id="@id/2131440097" ="@drawable/2131232873" ="gone" ="8.0dip" android:text="@string/trade_tabs1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149195" />
+    </LinearLayout>
+    <com.major.android.uikit2.notification.KitNotification android:id="@id/2131437433" ="gone" ="fill_parent" ="wrap_content" ="16.0dip" 2130969843="0" 2130970329="@string/c2c_order_detail_buyer_wait_for_release" />
+    <include android:id="@id/2131437903" ="fill_parent" ="wrap_content" ="2.0dip" layout="@layout/2131629430" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131427479" ="fill_parent" ="wrap_content" ="true" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131427639" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/strategy_trailing_down_notice_intro" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131427479" style="@style/2132149350" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center_vertical" android:id="@id/2131427640" ="20.0dip" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/view_more" ="true" 2130969312="@color/2131099787" 2130969937="2131438103" 2130969940="@id/2131427639" style="@style/2132149450" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

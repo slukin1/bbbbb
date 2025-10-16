@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131446393" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/future_trade_estimated_liquidation_price" 2130969937="2131438103" 2130969941="2131438103" 2130970849="false" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131446394" ="gone" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="1" 2130969911="@id/2131446393" 2130969917="2131438103" 2130969936="@id/2131446393" 2130969941="@id/2131446393" style="@style/2132149382" />
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/2131446395" ="gone" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/future_trade_estimated_liquidation_price" 2130969937="2131438103" 2130969940="@id/2131446393" 2130970849="false" style="@style/2132149384" />
+    <TextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131446396" ="gone" ="0.0dip" ="wrap_content" android:text="@string/placeholder" ="1" 2130969911="@id/2131446395" 2130969917="2131438103" 2130969936="@id/2131446395" 2130969941="@id/2131446395" style="@style/2132149382" />
+    <TextView ="@color/2131099863" android:id="@id/2131446397" ="gone" ="0.0dip" ="wrap_content" ="5.0dip" android:text="@string/strategy_um_grid_liquidation_price_warning" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131446395" style="@style/2132149384" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout android:id="@id/2131429824" ="@color/2131100078" ="fill_parent" ="fill_parent" ="15.0dip" ="15.0dip" 2130970753="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.widget.UnicodeWrapTextView ="@color/2131099764" android:id="@id/2131441721" ="wrap_content" ="wrap_content" ="15.0dip" android:text="@string/placeholder" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149423" />
+    <com.finance.um.feature.lite.features.balance.view.UmliteFundsEyeView android:id="@id/2131434556" ="16.0dip" ="16.0dip" ="4.0dip" 2130969911="@id/2131441721" 2130969936="@id/2131441721" 2130969941="@id/2131441721" 2130971375="@color/2131099738" />
+    <TextView ="@color/2131099778" android:id="@id/2131445690" ="0.0dip" ="wrap_content" ="4.0dip" android:text="@string/placeholder" 2130969937="@id/2131441721" 2130969940="@id/2131441721" style="@style/2132149350" />
+    <TextView ="@color/2131099787" android:id="@id/2131448387" ="0.0dip" ="wrap_content" android:text="@string/_transfer" 2130969911="@id/2131441721" 2130969917="2131438103" 2130969941="@id/2131441721" style="@style/2132149454" />
+    <Space android:id="@id/2131440398" ="0.0dip" ="0.0dip" 2130969937="2131438103" 2130969940="@id/2131445690" />
+    <com.binance.widget.adaptivescrolling.recycleview.AdaptiveScrollingRecycleView android:id="@id/2131439628" ="fill_parent" ="0.0dip" ="8.0dip" 2130969911="2131438103" 2130969940="@id/2131440398" />
+    <TextView ="14.0sp" ="@color/2131100620" ="center_horizontal" android:id="@id/2131433839" ="gone" ="wrap_content" ="wrap_content" ="80.0dip" android:text="@string/no_records_found" ="10.0dip" 2130969314="@drawable/2131233810" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+</com.binance.widget.adaptivescrolling.layout.AdaptiveScrollingConstrainLayout>

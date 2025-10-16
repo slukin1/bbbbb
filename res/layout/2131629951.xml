@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.tabs.KitTabLayout android:id="@id/2131441046" ="fill_parent" ="wrap_content" ="11.0dip" 2130969866="@dimen/2131166153" 2130969867="@dimen/2131166153" />
+    <com.major.android.uikit2.input.KitInputSelector android:id="@id/2131431311" ="fill_parent" ="wrap_content" ="24.0dip" android:hint="@string/wallet_withdrawal_addresses_select_address_platform" ="1" 2130969818="false" 2130969820="@string/wallet_withdrawal_addresses_address_platform" 2130969834="1" 2130970845="false" />
+    <com.major.android.uikit2.input.KitInputEditText ="@color/2131099738" android:id="@id/2131431320" ="gone" ="fill_parent" ="wrap_content" ="24.0dip" android:hint="@string/wallet_withdrawal_addresses_platform_name_hint" ="1" ="true" ="30" ="text" ="actionDone" 2130969817="1" 2130969818="false" 2130969820="@string/wallet_withdrawal_addresses_platform_name" 2130970845="false" />
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131442568" ="fill_parent" ="wrap_content" ="24.0dip" ="20.0dip" android:text="@string/confirm" style="@style/2132148691" />
+</LinearLayout>

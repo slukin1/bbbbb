@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.withpersona.sdk2.inquiry.shared.ui.Pi2NavigationBar android:id="@id/2131437449" ="fill_parent" ="wrap_content" ="yes" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <TextView android:id="@id/title" ="16.0dip" ="0.0dip" ="wrap_content" ="yes" ="24.0dip" ="24.0dip" 2130969912="@id/2131428508" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131437449" 2130969947="500.0dip" style="?2130971282" />
+    <TextView android:id="@id/2131428508" ="16.0dip" ="0.0dip" ="wrap_content" ="24.0dip" ="24.0dip" 2130969912="@id/title" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/title" 2130969947="500.0dip" style="?2130971299" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" ="16.0dip" ="24.0dip" ="16.0dip" ="0.0dip" ="0.0dip" ="16.0dip" 2130969912="@id/2131432138" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131428508" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432138" ="16.0dip" ="fill_parent" ="wrap_content" ="24.0dip" ="24.0dip" ="24.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103">
+        <Button android:id="@id/2131449121" ="0.0dip" ="wrap_content" ="8.0dip" 2130969603="@null" 2130969912="@id/2131439199" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131432138" />
+        <Button android:id="@id/2131439199" ="0.0dip" ="wrap_content" ="12.0dip" ="12.0dip" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131449121" 2130969942="0.0" style="?2130970094" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

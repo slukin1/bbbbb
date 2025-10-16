@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="16.0dip" ="4.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_delete" ="15.0dip" ="15.0dip" ="50.0dip" ="20.0dip" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237186" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131102397" android:id="@id/tv_title" ="5.0dip" ="wrap_content" ="wrap_content" android:text="@string/lite_ocbs_buy_coin_search_tip" ="1.0" ="15.0dip" ="0.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149447" />
+</androidx.constraintlayout.widget.ConstraintLayout>

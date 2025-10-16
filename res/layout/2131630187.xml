@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236038" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434279" ="20.0dip" ="20.0dip" ="fitXY" ="15.0dip" 2130969911="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971375="@color/2131099764" />
+    <TextView ="@color/2131099764" android:id="@id/tvWalletName" ="wrap_content" ="wrap_content" ="20.0dip" ="12.0dip" 2130969912="@id/tvAmount" 2130969936="@id/2131434279" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149447" />
+    <TextView ="@color/2131099778" android:id="@id/tvAmount" ="wrap_content" ="wrap_content" ="20.0dip" 2130969911="2131438103" 2130969937="@id/tvWalletName" 2130969940="@id/tvWalletName" style="@style/2132149387" />
+    <TextView ="@color/2131099764" android:id="@id/2131442010" ="@drawable/2131236030" ="8.0dip" ="2.0dip" ="8.0dip" ="2.0dip" ="gone" ="wrap_content" ="wrap_content" android:text="@string/wallet_wallet_inactive" ="@color/2131099744" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149397" />
+    <androidx.constraintlayout.widget.Group ="wrap_content" ="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

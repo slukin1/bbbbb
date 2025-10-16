@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout ="fill_parent" ="fill_parent" ="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436717" ="fill_parent" ="fill_parent">
+        <com.twilio.video.VideoView android:id="@id/2131436718" ="gone" ="fill_parent" ="fill_parent" />
+        <FrameLayout android:id="@id/2131438317" ="#ffffffff" ="gone" ="fill_parent" ="fill_parent" />
+        <com.google.android.material.card.MaterialCardView android:id="@id/2131439150" ="gone" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" 2130968911="@color/sns_cameraBackground" 2130968912="8.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971180="@color/sns_cameraContent" 2130971181="1.0dip">
+            <com.twilio.video.VideoTextureView android:id="@id/2131439151" ="gone" ="0.0dip" ="wrap_content" />
+            <com.sumsub.sns.core.widget.SNSCaptionTextView ="marquee" ="start|bottom|center" android:id="@id/title" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_small" ="true" 2130971053="@color/sns_cameraContent" />
+            <com.sumsub.sns.core.widget.SNSProgressBarView ="center" android:id="@id/sns_progress_bar" ="gone" ="@dimen/sns_min_button_size" ="@dimen/sns_min_button_size" ="true" style="?android:progressBarStyle" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.sumsub.sns.core.widget.SNSWarningView android:id="@id/message" ="@dimen/sns_margin_medium" ="gone" ="fill_parent" ="wrap_content" ="@dimen/sns_margin_medium" ="?2130968589" ="@dimen/sns_margin_medium" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+        <FrameLayout android:id="@id/2131438316" ="@drawable/sns_ic_photo_frame" ="gone" ="320.0dip" ="202.0dip" ="@dimen/sns_margin_large" ="164.0dip" ="@dimen/sns_margin_large" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout ="bottom" android:id="@id/2131428569" ="false" ="false" ="fill_parent" ="fill_parent">
+        <FrameLayout android:id="@id/2131427398" ="fill_parent" ="wrap_content" ="@dimen/sns_anchor_margin" 2130969899="@id/sns_web_view_bottom_sheet" 2130969900="2131441647">
+            <com.sumsub.sns.core.widget.SNSRecorderTextView ="start|center" android:id="@id/2131441452" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" />
+            <ImageView ="end|center" android:id="@id/2131440962" ="wrap_content" ="wrap_content" ="@dimen/sns_margin_medium" ="@dimen/sns_margin_large" ="@null" 2130971077="@drawable/sns_ic_reverse_with_background" />
+        </FrameLayout>
+        <com.sumsub.sns.core.widget.SNSToolbarViewInverse android:id="@id/sns_toolbar" ="fill_parent" ="wrap_content" />
+        <include android:id="@id/sns_web_view_bottom_sheet" layout="@layout/sns_video_ident_bottom_sheet" />
+        <include android:id="@id/2131438314" layout="@layout/sns_video_ident_phone_verification_bottom_sheet" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

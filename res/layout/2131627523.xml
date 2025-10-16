@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.marketdetail.feature.bottominfo.FinanceMarketDetailTabItem android:id="@id/2131431778" ="fill_parent" ="wrap_content" />
+    <FrameLayout android:id="@id/2131431962" ="fill_parent" ="fill_parent">
+        <com.finance.framework.widget.orderbook.SpotOrderBookLayout android:id="@id/2131437889" ="fill_parent" ="wrap_content" ="5.0dip" 2130968777="Spot" 2130969896="com.finance.framework.widget.orderbook.layoutprovider.MarketLandscapeLayoutProvider" 2130971563="15" />
+    </FrameLayout>
+</LinearLayout>

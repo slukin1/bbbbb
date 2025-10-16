@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="105.0dip" ="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.text.FinanceTipsTextView ="12.0sp" ="@color/2131099778" ="end" ="end|center" android:id="@id/2131440784" ="wrap_content" ="0.0dip" ="true" ="@font/2131296266" 2130969911="2131438103" 2130969917="2131438103" 2130969941="2131438103" 2130970840="true" 2130971380="2131430667" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.major.android.uikit2.image.KitRoundImageView android:id="@id/2131433660" ="36.0dip" ="36.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433659" ="@drawable/2131236001" ="1.0dip" ="13.0dip" ="13.0dip" ="fitXY" ="@color/2131099685" 2130969911="@id/2131433660" 2130969917="@id/2131433660" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442092" ="wrap_content" ="wrap_content" ="4.0dip" ="ltr" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131433660" style="@style/2132149419" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="1.0dip" ="14.0dip" 2130969940="@id/2131442092" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131446568" ="8.0dip" ="8.0dip" ="wrap_content" ="wrap_content" android:text="@string/from" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131446562" ="wrap_content" ="wrap_content" android:text="@string/com_wallet_alpha_account" 2130969911="@id/2131446568" 2130969917="2131438103" 2130969940="@id/2131442092" 2130969941="@id/2131446568" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131448199" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/to" 2130969937="2131438103" 2130969940="@id/2131446568" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131448189" ="wrap_content" ="wrap_content" android:text="@string/ocbs_string_spot_wallet" 2130969911="@id/2131448199" 2130969917="2131438103" 2130969941="@id/2131448199" style="@style/2132149350" />
+    <androidx.appcompat.widget.LinearLayoutCompat ="@drawable/2131235987" ="12.0dip" ="fill_parent" ="wrap_content" ="8.0dip" ="@color/2131099744" 2130969911="2131438103" 2130969940="@id/2131448199">
+        <androidx.appcompat.widget.AppCompatImageView ="1.0dip" ="16.0dip" ="16.0dip" ="fitXY" 2130971077="@drawable/2131237095" 2130971375="@color/2131099764" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="wrap_content" ="wrap_content" android:text="@string/wallet_alpha_transfer_warning" ="4.0dip" style="@style/2132149361" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

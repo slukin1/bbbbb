@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131446168" ="0.0dip" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131433325" ="wrap_content" ="18.0dip" ="@drawable/2131234035" 2130969941="@id/2131446167" />
+    <TextView ="@color/2131099778" android:id="@id/2131446167" ="0.0dip" ="wrap_content" android:text="@string/futures_pnlanalysis_history_cumulative_btcusdt_mark" ="4.0dip" 2130969905="true" 2130969917="2131438103" 2130969936="@id/2131433325" 2130969940="@id/2131446168" style="@style/2132149384" />
+</merge>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="true" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131450267" ="wrap_content" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" android:text="@string/wallet_pnl_total_btc_value_label" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131450297" ="4.0dip" ="24.0dip" ="24.0dip" 2130969911="@id/2131450267" 2130969936="@id/2131450267" 2130969941="@id/2131450267" 2130971077="@drawable/2131237313" 2130971375="@color/2131099785" />
+    <com.google.android.flexbox.FlexboxLayout android:id="@id/2131445108" ="0.0dip" ="wrap_content" ="15.0dip" 2130968639="2131428430" 2130969468="2131450408" 2130969917="2131438103" 2130969937="@id/2131450267" 2130969940="@id/2131450267">
+        <TextView ="32.0sp" ="@color/2131099764" ="end" android:id="@id/2131441732" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="2" ="@font/2131296267" 2130969937="2131438103" />
+        <TextView ="@color/2131099778" android:id="@id/2131441723" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="ltr" ="4.0dip" style="@style/2132149384" />
+    </com.google.android.flexbox.FlexboxLayout>
+    <androidx.constraintlayout.helper.widget.Flow ="horizontal" android:id="@id/2131438496" ="fill_parent" ="wrap_content" ="15.0dip" ="16.0dip" ="15.0dip" 2130969125="today_pnl_flow,seven_day_pnl_flow, thirty_day_pnl_flow, floatPNLFlow, cumulative_pnl_flow, average_cost_flow, average_break_even_cost_flow, market_price_flow" 2130969490="@dimen/2131166286" 2130969496="3" 2130969498="2131441647" 2130969500="@dimen/2131166188" 2130969502="2131427761" 2130969940="@id/2131445108" />
+    <LinearLayout ="vertical" android:id="@id/today_pnl_flow" ="0.0dip" ="wrap_content" ="20.0dip">
+        <com.binance.widget.BottomDashLineTextView ="@color/2131099778" android:id="@id/today_pnl_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_todays_pnl_label" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131441582" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131441579" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" ="ltr" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/seven_day_pnl_flow" ="gone" ="0.0dip" ="wrap_content" ="20.0dip">
+        <TextView ="@color/2131099778" ="start" android:id="@id/seven_day_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_7_day_pnl_label" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/seven_day_pnl_percentage" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/seven_day_pnl_fiat_value" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" ="ltr" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/thirty_day_pnl_flow" ="gone" ="0.0dip" ="wrap_content" ="20.0dip">
+        <TextView ="@color/2131099778" ="start" android:id="@id/thirty_pnl_day_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_30_day_pnl_label" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/thirty_day_pnl_percentage" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/thirty_day_pnl_fiat_value" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" ="ltr" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/floatPNLFlow" ="gone" ="0.0dip" ="wrap_content" ="20.0dip">
+        <com.binance.widget.BottomDashLineTextView ="@color/2131099778" ="start" android:id="@id/2131432057" ="wrap_content" ="wrap_content" android:text="@string/wallet_floating_pnl" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131432059" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131432055" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" ="ltr" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/cumulative_pnl_flow" ="gone" ="0.0dip" ="wrap_content">
+        <com.binance.widget.BottomDashLineTextView ="@color/2131099778" ="start" android:id="@id/cumulative_pnl_label" ="wrap_content" ="wrap_content" android:text="@string/wallet_cumulative_pnl" style="@style/2132149384" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131430652" ="3.0dip" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" style="@style/2132149450" />
+        <TextView ="@color/2131099764" ="start" android:id="@id/2131430647" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="true" ="ltr" style="@style/2132149384" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/average_cost_flow" ="gone" ="0.0dip" ="wrap_content">
+        <com.binance.widget.BottomDashLineTextView ="@color/2131099778" ="start" android:id="@id/2131438488" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_average_cost" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131438489" ="wrap_content" ="wrap_content" android:text="@string/placeholder" 2130969937="@id/2131438488" 2130969940="@id/2131438488" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/average_break_even_cost_flow" ="gone" ="0.0dip" ="wrap_content">
+        <com.binance.widget.BottomDashLineTextView ="@color/2131099778" ="start" android:id="@id/2131438486" ="wrap_content" ="wrap_content" android:text="@string/wallet_cost_price" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131438487" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132149450" />
+    </LinearLayout>
+    <LinearLayout ="vertical" android:id="@id/market_price_flow" ="gone" ="0.0dip" ="wrap_content" ="20.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="start" android:id="@id/2131438503" ="wrap_content" ="wrap_content" android:text="@string/wallet_pnl_market_price_title" style="@style/2132149384" />
+        <TextView ="@color/2131099764" android:id="@id/2131438494" ="wrap_content" ="wrap_content" android:text="@string/placeholder" style="@style/2132149450" />
+    </LinearLayout>
+    <View ="@color/2131099751" ="fill_parent" ="0.5dip" ="24.0dip" 2130969940="@id/2131438496" />
+</androidx.constraintlayout.widget.ConstraintLayout>

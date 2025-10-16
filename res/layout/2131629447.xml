@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131449681" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/2131441994" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ocbs_account_name" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131441992" ="wrap_content" ="wrap_content" android:text="Binance" 2130969917="2131438103" 2130969941="@id/2131441994" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443317" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/ocbs_iban" 2130969937="2131438103" 2130969940="@id/2131441994" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443316" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131443317" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131442273" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/deposit_bic" 2130969937="2131438103" 2130969940="@id/2131443317" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131442272" ="wrap_content" ="wrap_content" 2130969917="2131438103" 2130969941="@id/2131442273" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

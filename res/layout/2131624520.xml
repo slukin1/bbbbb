@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="vertical" ="fill_parent" ="34.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="#ff848e9c" ="end" android:id="@id/2131447721" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/content_feed_center_see_more" ="1" ="true" style="@style/2132149384" />
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/2131428457" ="10.0dip" ="10.0dip" ="7.0dip" ="centerCrop" ="@string/account" ="5.0dip" ="@id/2131447721" 2130970803="@style/2132150259" 2130971077="@drawable/2131237055" />
+</RelativeLayout>

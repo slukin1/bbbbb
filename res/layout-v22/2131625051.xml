@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" android:id="@id/title" ="wrap_content" ="wrap_content" ="14.0dip" android:text="@string/earn_balance_position_details" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149425" />
+    <ImageView android:id="@id/ivClose" ="14.0dip" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131237100" 2130971375="@color/2131099764" />
+    <androidx.core.widget.NestedScrollView android:id="@id/2131439803" ="fill_parent" ="0.0dip" ="24.0dip" ="16.0dip" 2130969912="@id/2131428732" 2130969940="@id/title">
+        <androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="@dimen/2131166184">
+            <TextView ="@color/2131102397" android:id="@id/2131441708" ="wrap_content" ="22.0dip" android:text="@string/amount_total" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131441707" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_balance_total_amount_tip" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131428171" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_available_amount" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131428170" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_available_amount_tip" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131430180" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/margin_loan_collateral_amount" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131430179" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_simple_collateral_amount_tip2" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131438933" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_est_market_apr" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131438932" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_real_time_apr" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131450450" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_ytds_real_time_apr_rewards" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131450449" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_ytds_real_time_apr_rewards_tip" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131430640" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_simple_cumulative_total_rewards" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131430639" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_simple_cumulative_total_rewards_tip" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131430638" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_cumulative_apr_reward" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131430637" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_cumulative_apr_reward_tip" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131430632" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_cumulative_bonus_tiered_apr_reward" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131430631" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_balance_cumulative_bonus_tip" style="@style/2132149384" />
+            <TextView ="@color/2131102397" android:id="@id/2131436771" ="wrap_content" ="22.0dip" ="12.0dip" android:text="@string/earn_launchpool_rewards" style="@style/2132149450" />
+            <TextView ="#ff848e9c" android:id="@id/2131436770" ="wrap_content" ="wrap_content" ="2.0dip" android:text="@string/earn_simple_cumulative_total_rewards_tip" style="@style/2132149384" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton ="true" android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="21.0dip" android:text="@string/_got_it" ="@dimen/2131166184" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131439803" style="@style/2132148691" />
+</androidx.constraintlayout.widget.ConstraintLayout>

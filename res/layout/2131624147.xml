@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131427575" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624284" />
+    <TextView ="@color/2131099764" android:id="@id/2131442771" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/total_debt" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131441601" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131442772" ="wrap_content" ="wrap_content" 2130969937="@id/2131442771" 2130969940="@id/2131442771" style="@style/2132149419" />
+    <TextView ="@color/2131099764" android:id="@id/2131442530" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_collateral_coin_amount" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442772" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131442532" ="wrap_content" ="wrap_content" ="1" 2130969905="true" 2130969918="@id/2131443782" 2130969927="0.0" 2130969937="@id/2131442530" 2130969940="@id/2131442530" style="@style/2132149419" />
+    <TextView ="@color/2131099787" android:id="@id/2131443782" ="gone" ="wrap_content" ="wrap_content" android:text="@string/more" ="15.0dip" 2130969907="@id/2131442532" 2130969917="2131438103" />
+    <TextView android:id="@id/2131443623" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_loan_ltv" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442532" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443624" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131443623" 2130969917="2131438103" style="@style/2132149450" />
+    <TextView ="@color/2131099778" android:id="@id/2131443370" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/interest_rate" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443623" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443372" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131443370" 2130969917="2131438103" />
+    <TextView ="@color/2131099778" android:id="@id/2131443365" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_interest_payment" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131443370" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443366" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131443365" 2130969917="2131438103" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider" ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443365" />
+    <TextView ="@color/2131099778" android:id="@id/2131442874" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/duration" ="15.0dip" 2130969937="2131438103" 2130969940="@id/divider" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvDurationValue" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131442874" 2130969917="2131438103" />
+    <TextView ="@color/2131099778" android:id="@id/2131443037" ="wrap_content" ="wrap_content" ="8.0dip" android:text="@string/earn_est_expiration_date" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131442874" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/2131443038" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/2131443037" 2130969917="2131438103" />
+    <com.major.android.uikit2.divider.KitDivider android:id="@id/divider2" ="fill_parent" ="0.5dip" ="15.0dip" ="20.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443037" />
+    <TextView ="@color/2131099778" android:id="@id/tvRepaymentMethod" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_repayment_method" ="15.0dip" 2130969937="2131438103" 2130969940="@id/divider2" style="@style/2132149350" />
+    <TextView ="@color/2131099764" android:id="@id/tvRepaymentMethodValue" ="wrap_content" ="wrap_content" ="15.0dip" 2130969907="@id/tvRepaymentMethod" 2130969917="2131438103" />
+    <androidx.constraintlayout.widget.Group android:id="@id/2131432576" ="wrap_content" ="wrap_content" 2130969125="divider2,tvRepaymentMethod,tvRepaymentMethodValue" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/btnRepay" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/repay" ="15.0dip" 2130969911="2131438103" 2130969918="@id/btnAdjustLtv" 2130969937="2131438103" 2130969958="@dimen/2131166184" style="@style/2132148692" />
+    <com.major.android.uikit2.button.KitButton ="false" android:id="@id/btnAdjustLtv" ="0.0dip" ="wrap_content" ="20.0dip" android:text="@string/margin_loan_adjust_ltv" ="8.0dip" ="15.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/btnRepay" 2130969961="@dimen/2131166184" style="@style/2132148697" />
+</androidx.constraintlayout.widget.ConstraintLayout>

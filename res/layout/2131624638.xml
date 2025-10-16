@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131432176" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.binance.content.view.RecycleViewListenNestedScrollableHost android:id="@id/2131439045" ="fill_parent" ="fill_parent" 2130969937="2131438103" 2130969941="2131438103">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/2131435940" ="fill_parent" ="fill_parent" ="never" />
+    </com.binance.content.view.RecycleViewListenNestedScrollableHost>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/2131449078" ="gone" ="fill_parent" ="wrap_content" 2130969937="2131438103" 2130969941="2131438103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

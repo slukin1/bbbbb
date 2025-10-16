@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item ="false" ="@color/sns_secondaryButtonBackgroundDisabled" />
+    <item ="true" ="@color/sns_secondaryButtonBackgroundHighlighted" />
+    <item ="@color/sns_secondaryButtonBackground" />
+</selector>

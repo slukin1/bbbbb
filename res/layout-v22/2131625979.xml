@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166188" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center_vertical" android:id="@id/2131445786" ="wrap_content" ="wrap_content" ="11.0dip" ="12.0dip" 2130969918="@id/2131448062" 2130969927="0.0" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <TextView ="@color/2131099764" android:id="@id/tv_contract_type" ="@drawable/2131235998" ="3.0dip" ="3.0dip" ="wrap_content" ="16.0dip" ="2.0dip" ="@color/2131099744" ="@dimen/2131166225" 2130969911="@id/2131445786" 2130969936="@id/2131445786" 2130969941="@id/2131445786" style="@style/2132149394" />
+    <TextView ="@color/2131099778" ="end" ="end|center" android:id="@id/2131448062" ="0.0dip" ="wrap_content" ="1" ="10.0dip" ="11.0dip" 2130969911="@id/2131445786" 2130969917="2131438103" 2130969936="@id/tv_contract_type" 2130969941="@id/2131445786" style="@style/2132149384" />
+    <androidx.constraintlayout.widget.Guideline ="vertical" android:id="@id/2131432737" ="wrap_content" ="wrap_content" 2130969921="0.4" />
+    <TextView ="@color/2131099778" ="start|center" android:id="@id/2131447237" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/futures_history_liquidation_number" 2130969905="true" 2130969917="@id/2131432737" 2130969927="0.0" 2130969937="@id/2131445786" 2130969940="@id/2131445786" style="@style/2132149350" />
+    <TextView ="@color/2131099764" ="end" ="end|center" android:id="@id/2131447236" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="1" ="4.0dip" ="10.0dip" 2130969905="true" 2130969907="@id/2131447237" 2130969917="@id/2131448062" 2130969927="1.0" 2130969936="@id/2131447237" style="@style/2132149350" />
+</androidx.constraintlayout.widget.ConstraintLayout>

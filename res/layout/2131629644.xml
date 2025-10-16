@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131436485" ="true" ="fill_parent" ="fill_parent" style="@style/2132148637" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131434506" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" layout="@layout/2131624294" />
+    <TextView ="@color/2131099764" ="start|bottom|center" android:id="@id/tv_title" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/market_future_option_tab" ="15.0dip" 2130969937="2131438103" 2130969940="@id/2131434506" style="@style/2132149446" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439723" ="fill_parent" ="0.0dip" ="20.0dip" 2130969904="true" 2130969911="2131438103" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tv_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

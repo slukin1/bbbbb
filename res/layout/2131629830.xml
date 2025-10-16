@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131440467" ="fill_parent" ="fill_parent" xmlns:ptr="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/2131435636" ="gone" ="fill_parent" ="40.0dip" 2130969941="2131438103" layout="@layout/2131625448" />
+    <com.binance.base.widget.refreshLayout.KitRefreshLayout android:id="@id/2131438717" ="fill_parent" ="fill_parent" 2130971098="false" 2130971099="false">
+        <FrameLayout ="fill_parent" ="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131439662" ="gone" ="fill_parent" ="fill_parent" 2130969895="androidx.recyclerview.widget.LinearLayoutManager" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131435622" ="15.0dip" ="24.0dip" ="15.0dip" ="24.0dip" ="gone" ="fill_parent" ="wrap_content" 2130969940="@id/2131435636">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131434709" ="48.0dip" ="48.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" 2130971077="@drawable/2131238419" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/titleTv" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/alpha_trading_processing_no_orders" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131434709" style="@style/2132149450" />
+                <TextView ="@color/2131099778" ="center" android:id="@id/2131441499" ="wrap_content" ="wrap_content" ="12.0dip" android:text="@string/alpha_trading_processing_explore_tip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/titleTv" 2130969945="2131450410" style="@style/2132149384" />
+                <TextView ="@color/2131099764" ="end" ="center" android:id="@id/2131446452" ="@drawable/2131236717" ="16.0dip" ="16.0dip" ="wrap_content" ="28.0dip" ="8.0dip" android:text="@string/alpha_trading_processing_explore" ="2" ="false" 2130969917="2131438103" 2130969928="2131438085" 2130969937="2131438103" 2130969940="@id/2131441499" 2130969958="@dimen/2131166286" 2130969961="@dimen/2131166153" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.appcompat.widget.LinearLayoutCompat ="vertical" android:id="@id/2131436294" ="gone" ="fill_parent" ="fill_parent">
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="center" ="center_horizontal" android:id="@id/2131446641" ="wrap_content" ="wrap_content" ="100.0dip" android:text="@string/alpha_trading_processing_no_orders" ="16.0dip" 2130969314="@drawable/2131238419" style="@style/2132149450" />
+                <androidx.appcompat.widget.AppCompatTextView ="@color/2131099787" ="center" ="center_horizontal" android:id="@id/2131445357" ="gone" ="wrap_content" ="wrap_content" ="16.0dip" android:text="@string/alpha_open_orders_view_limit" style="@style/2132149374" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
+    </com.binance.base.widget.refreshLayout.KitRefreshLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

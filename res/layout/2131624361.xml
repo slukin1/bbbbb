@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/2131430273" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" ="fill_parent" ="fill_parent">
+        <View android:id="@id/2131432828" ="#b3000000" ="fill_parent" ="0.0dip" ="1.7" />
+        <LinearLayout android:id="@id/2131429229" ="fill_parent" ="240.0dip">
+            <View android:id="@id/2131435808" ="#b3000000" ="16.0dip" ="fill_parent" />
+            <FrameLayout android:id="@id/2131430594" ="0.0dip" ="fill_parent" ="1.0">
+                <ImageView android:id="@id/2131430592" ="gone" ="fill_parent" ="fill_parent" ="fitXY" />
+                <ImageView android:id="@id/2131432861" ="fill_parent" ="fill_parent" ="fitXY" />
+            </FrameLayout>
+            <View ="#b3000000" ="16.0dip" ="fill_parent" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/2131440848" ="#b3000000" ="fill_parent" ="wrap_content">
+            <TextView ="#ffffffff" ="center_horizontal" android:id="@id/2131429242" ="16.0dip" ="16.0dip" ="16.0dip" ="fill_parent" ="wrap_content" ="2" style="@style/2132149423" />
+            <ProgressBar ="bottom|center" android:id="@id/2131438676" ="invisible" ="35.0dip" ="35.0dip" />
+        </FrameLayout>
+        <View android:id="@id/2131428549" ="#b3000000" ="fill_parent" ="0.0dip" ="1.0" />
+        <LinearLayout ="vertical" android:id="@id/2131429161" ="#b3000000" ="fill_parent" ="145.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/2131441140" ="fill_parent" ="fill_parent">
+                <ImageButton android:id="@id/2131429243" ="@drawable/2131232883" ="92.0dip" ="92.0dip" ="fitCenter" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103" />
+                <ImageView android:id="@id/2131427750" ="wrap_content" ="wrap_content" ="32.0dip" 2130969911="@id/2131429243" 2130969937="2131438103" 2130969941="@id/2131429243" 2130971077="@drawable/2131232882" />
+                <TextView ="#ffffffff" android:id="@id/2131427751" ="visible" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/photo" 2130969931="@id/2131427750" 2130969935="@id/2131427750" 2130969940="@id/2131427750" style="@style/2132149384" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout ="bottom" android:id="@id/2131439198" ="58.0dip" ="gone" ="fill_parent" ="fill_parent" ="12.0dip" ="12.0dip">
+                <TextView ="18.0sp" ="#ffffffff" ="center" android:id="@id/2131441913" ="@drawable/2131232880" ="0.0dip" ="50.0dip" android:text="@string/camera_retake" ="1.0" />
+                <com.major.android.uikit.button.KitButton android:id="@id/2131430441" ="0.0dip" ="50.0dip" ="12.0dip" android:text="@string/oauth_continue" ="1.0" 2130970889="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/2131429233" ="?2130968587" ="wrap_content" ="@dimen/2131165972" ="centerInside" ="true" ="@null" ="12.0dip" ="12.0dip" 2130971077="@drawable/2131237100" 2130971375="@color/2131103185" />
+</RelativeLayout>

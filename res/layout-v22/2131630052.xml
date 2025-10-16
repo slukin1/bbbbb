@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="fill_parent" ="@dimen/2131166184" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="14.0dip" ="14.0dip" ="wrap_content" ="wrap_content" android:text="@string/choose_wallet" ="@dimen/2131166179" style="@style/2132149425" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/2131450210" ="fill_parent" ="wrap_content" />
+</androidx.appcompat.widget.LinearLayoutCompat>

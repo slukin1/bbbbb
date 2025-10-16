@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center|top" ="horizontal" android:id="@id/2131432301" ="4.0dip" ="4.0dip" ="4.0dip" ="fill_parent" ="@dimen/2131167046" ="4.0dip" ="4.0dip" style="?2130970102">
+        <com.google.android.material.button.MaterialButton ="center" ="top" android:id="@id/2131429257" ="12.0dip" ="48.0dip" ="48.0dip" ="0.0dip" ="0.0dip" ="@string/mtrl_picker_cancel" 2130969601="@drawable/2131235070" style="?2130970099" />
+        <FrameLayout android:id="@id/2131437394" ="12.0dip" ="true" ="true" ="0.0dip" ="fill_parent" ="1.0" ="12.0dip">
+            <TextView ="start|bottom|center" ="start|center|top" android:id="@id/2131437399" ="fill_parent" ="wrap_content" 2130969458="@dimen/2131167065" style="?2130970104" />
+            <TextView ="start|bottom|center" ="start|center|top" android:id="@id/2131437393" ="0.0dip" ="fill_parent" ="wrap_content" 2130969458="@dimen/2131167059" 2130969999="@dimen/2131167047" style="?2130970103" />
+        </FrameLayout>
+        <LinearLayout ="@integer/2131492925" ="wrap_content" ="wrap_content">
+            <com.google.android.material.button.MaterialButton ="end|center|top" android:id="@id/2131430241" ="wrap_content" ="48.0dip" android:text="@string/mtrl_picker_save" ="@string/mtrl_picker_save" style="?2130970100" />
+            <include layout="@layout/2131627747" />
+        </LinearLayout>
+    </LinearLayout>
+    <View ="bottom" ="fill_parent" ="1.0dip" style="?2130970101" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="@drawable/2131236025" ="fill_parent" ="wrap_content" ="500.0dip" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131100365" ="end" ="center" android:id="@id/tvNickName" ="0.0dip" ="8.0dip" ="1" ="16.0dip" ="1.0dip" 2130969918="@id/2131430105" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149427" />
+    <ImageView android:id="@id/2131430105" ="?2130970780" ="wrap_content" ="50.0dip" ="@string/close" ="16.0dip" ="16.0dip" 2130969911="@id/tvNickName" 2130969917="2131438103" 2130969941="@id/tvNickName" 2130971077="@drawable/2131237100" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="wrap_content" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/tvNickName">
+        <TextView ="@color/2131100365" android:id="@id/2131431717" ="fill_parent" ="fill_parent" ="16.0dip" />
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

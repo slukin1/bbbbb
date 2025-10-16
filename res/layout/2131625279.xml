@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="@drawable/2131235987" ="24.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView ="center" android:id="@id/icon" ="64.0dip" ="64.0dip" ="centerInside" />
+    <TextView ="@color/2131099764" ="center" ="center" android:id="@id/title" ="wrap_content" ="wrap_content" ="16.0dip" ="28.0dip" ="false" ="locale" style="@style/2132149425" />
+    <TextView ="@color/2131099764" ="center" ="center" android:id="@id/content" ="fill_parent" ="wrap_content" ="8.0dip" ="2.0dip" style="@style/2132149350" />
+    <com.major.android.uikit.button.KitButton ="end" ="center" android:id="@id/2131428633" ="fill_parent" ="wrap_content" ="16.0dip" android:text="@string/futures_instruction_yes" 2130969173="4" />
+    <com.major.android.uikit.button.KitButton ="center" android:id="@id/2131428622" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" android:text="@string/mock_futures_instruction_no" 2130969173="4" 2130971472="2131441186" />
+</LinearLayout>

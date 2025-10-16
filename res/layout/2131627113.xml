@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131429705" ="fill_parent" ="wrap_content" ="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="vertical" android:id="@id/2131429768" ="@drawable/2131234726" ="15.0dip" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969941="2131438103">
+        <com.major.android.uikit.input.KitInputAmount android:id="@id/2131433480" ="fill_parent" ="wrap_content" 2130969655="@string/placeholder" />
+        <HorizontalScrollView ="none" ="fill_parent" ="wrap_content" ="12.0dip">
+            <LinearLayout ="horizontal" android:id="@id/2131441071" ="wrap_content" ="wrap_content" />
+        </HorizontalScrollView>
+        <LinearLayout ="center_vertical" ="horizontal" ="fill_parent" ="wrap_content" ="15.0dip">
+            <LinearLayout ="vertical" ="0.0dip" ="wrap_content" ="1.0">
+                <TextView ="@color/2131099778" ="end" android:id="@id/2131445299" ="wrap_content" ="wrap_content" android:text="@string/lite_service_calculator_estimation" style="@style/2132149384" />
+                <androidx.appcompat.widget.AppCompatTextView ="#ff2ebd85" ="end" ="end|center" android:id="@id/2131445300" ="wrap_content" ="wrap_content" android:text="@string/placeholder" ="2" ="false" 2130968700="@dimen/2131167710" 2130968701="@dimen/2131167692" 2130968705="2131449068" style="@style/2132149463" />
+            </LinearLayout>
+            <com.major.android.uikit2.button.KitButton android:id="@id/btnSubscribe" ="wrap_content" ="wrap_content" ="80.0dip" android:text="@string/lite_service_calculator_subscribe" ="15.0dip" style="@style/2132148701" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

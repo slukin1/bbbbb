@@ -1,0 +1,96 @@
+.class public final Lo/RedEnvelopeClaimDialogfollowUser11$IsolatedAddMarginComposeKtgetRiskRiskColor111;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/RedEnvelopeClaimDialogfollowUser11;->e(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lo/WCWalletManagerExternalSyntheticLambda13;Lkotlin/jvm/functions/Function0;Lo/Web3DeeplinkInterceptor;Lkotlin/jvm/functions/Function3;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lo/withAllQuirksDisabled;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lo/defaultgetSupportedResolutions;III)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Ljava/lang/Integer;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    k = 0x3
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic c:Ljava/util/List;
+
+.field final synthetic d:Lkotlin/jvm/functions/Function1;
+
+
+# direct methods
+.method public constructor <init>(Lkotlin/jvm/functions/Function1;Ljava/util/List;)V
+    .locals 0
+
+    .line 65354
+    iput-object p1, p0, Lo/RedEnvelopeClaimDialogfollowUser11$IsolatedAddMarginComposeKtgetRiskRiskColor111;->d:Lkotlin/jvm/functions/Function1;
+
+    iput-object p2, p0, Lo/RedEnvelopeClaimDialogfollowUser11$IsolatedAddMarginComposeKtgetRiskRiskColor111;->c:Ljava/util/List;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final d(I)Ljava/lang/Object;
+    .locals 2
+
+    .line 177
+    iget-object v0, p0, Lo/RedEnvelopeClaimDialogfollowUser11$IsolatedAddMarginComposeKtgetRiskRiskColor111;->d:Lkotlin/jvm/functions/Function1;
+
+    iget-object v1, p0, Lo/RedEnvelopeClaimDialogfollowUser11$IsolatedAddMarginComposeKtgetRiskRiskColor111;->c:Ljava/util/List;
+
+    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    invoke-interface {v0, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 174
+    check-cast p1, Ljava/lang/Number;
+
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+
+    move-result p1
+
+    invoke-virtual {p0, p1}, Lo/RedEnvelopeClaimDialogfollowUser11$IsolatedAddMarginComposeKtgetRiskRiskColor111;->d(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

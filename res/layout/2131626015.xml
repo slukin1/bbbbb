@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_condition1" ="@drawable/2131236699" ="wrap_content" ="22.0dip" ="8.0dip" ="4.0dip" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149454" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_condition2" ="@drawable/2131236699" ="wrap_content" ="22.0dip" ="8.0dip" ="4.0dip" ="8.0dip" 2130969936="@id/tv_condition1" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132149454" />
+    <TextView ="@color/2131099764" ="center" android:id="@id/tv_condition3" ="@drawable/2131236699" ="wrap_content" ="22.0dip" ="8.0dip" ="4.0dip" ="8.0dip" 2130969936="@id/tv_condition2" 2130969941="2131438103" style="@style/2132149454" />
+</merge>

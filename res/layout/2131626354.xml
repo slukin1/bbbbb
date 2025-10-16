@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="center" ="15.0dip" ="16.0dip" ="15.0dip" ="16.0dip" ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout ="center_vertical" ="0.0dip" ="wrap_content" ="0.8">
+        <com.major.android.uikit2.selection.KitCheckBox android:id="@id/2131429561" ="20.0dip" ="20.0dip" />
+        <TextView ="@color/2131099764" android:id="@id/tvCoin" ="fill_parent" ="wrap_content" ="false" ="6.0dip" style="@style/2132149446" />
+    </LinearLayout>
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131442230" ="0.0dip" ="wrap_content" ="false" ="1.0" ="8.0dip" ="8.0dip" style="@style/2132149450" />
+    <TextView ="@color/2131099764" ="end" android:id="@id/2131442280" ="0.0dip" ="wrap_content" ="false" ="1.0" style="@style/2132149450" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" ="wrap_content" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.finance.framework.widget.text.FinanceTipsTextView ="@color/2131099778" android:id="@id/tv_title" ="wrap_content" ="wrap_content" android:text="@string/voptions_ticker_est_exercis_price" 2130970840="true" 2130971380="2131430667" 2130971383="2131440560" style="@style/2132149390" />
+    <TextView ="@color/2131099764" android:id="@id/2131448523" ="wrap_content" ="wrap_content" style="@style/2132149384" />
+</LinearLayout>

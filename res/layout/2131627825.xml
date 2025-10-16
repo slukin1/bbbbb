@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="horizontal" ="@drawable/2131238453" ="5.0dip" ="5.0dip" ="fill_parent" ="wrap_content" ="true" ="10.0dip" ="10.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatEditText ="16.0sp" ="@color/2131099764" ="@color/2131099762" android:id="@id/2131435015" ="@color/2131099685" ="10.0dip" ="0.0dip" ="wrap_content" android:text="" ="false" ="@font/2131296273" ="viewStart" 2130969904="true" 2130969911="2131438103" 2130969918="@id/2131435014" 2130969924="@dimen/2131166291" 2130969929="1.0" 2130969937="2131438103" 2130969941="2131438103" />
+    <com.major.android.uikit.button.KitButton ="center_vertical" android:id="@id/2131435014" ="wrap_content" ="wrap_content" android:text="" ="10.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131435015" 2130969941="2131438103" 2130970889="3" 2130971472="2131429147" />
+</androidx.constraintlayout.widget.ConstraintLayout>

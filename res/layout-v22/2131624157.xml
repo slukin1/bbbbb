@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout ="vertical" android:id="@id/2131427581" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/2131624284" />
+    <androidx.core.widget.NestedScrollView ="fill_parent" ="0.0dip" ="1.0">
+        <LinearLayout ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@dimen/2131166184">
+            <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" ="20.0dip" android:text="@string/earn_repayment_account" style="@style/2132149450" />
+            <TextView ="@color/2131099764" ="end" ="center_vertical" android:id="@id/2131444427" ="@drawable/2131236721" ="12.0dip" ="12.0dip" ="fill_parent" ="48.0dip" ="4.0dip" ="1" ="@color/2131099744" ="@dimen/2131166170" style="@style/2132149446" />
+            <com.major.android.uikit2.input.KitInputEditAmount android:id="@id/2131433456" ="fill_parent" ="wrap_content" ="20.0dip" 2130969655="@string/earn_enter_amount" 2130969660="@string/margin_loan_repayment_amount" />
+            <TextView ="@color/2131099851" android:id="@id/2131445126" ="gone" ="wrap_content" ="wrap_content" ="4.0dip" android:text="@string/margin_loan_total_debt_repaid" ="2.0dip" style="@style/2132149455" />
+            <TextView ="@color/2131099778" android:id="@id/2131443144" ="wrap_content" ="wrap_content" ="4.0dip" style="@style/2132149387" />
+            <com.binance.earn.widgets.QuarterProgressBar android:id="@id/2131438762" ="12.0dip" ="10.0dip" ="fill_parent" ="wrap_content" />
+            <LinearLayout ="fill_parent" ="wrap_content" ="20.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/total_debt" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131445080" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="8.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/margin_loan_ltv_after_repayment" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131443621" ="fill_parent" ="fill_parent" style="@style/2132149350" />
+            </LinearLayout>
+            <LinearLayout ="fill_parent" ="wrap_content" ="8.0dip">
+                <TextView ="@color/2131099778" ="wrap_content" ="wrap_content" android:text="@string/earn_loan_remaining_debt" style="@style/2132149350" />
+                <TextView ="@color/2131099764" ="end" android:id="@id/2131444396" ="0.0dip" ="wrap_content" ="1.0" style="@style/2132149350" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.major.android.uikit2.button.KitButton android:id="@id/2131428732" ="fill_parent" ="wrap_content" ="15.0dip" ="15.0dip" ="15.0dip" ="15.0dip" android:text="@string/earn_confirm_repayment" ="@dimen/2131166184" 2130969756="true" style="@style/2132148691" />
+</LinearLayout>

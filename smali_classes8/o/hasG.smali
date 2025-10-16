@@ -1,0 +1,38 @@
+.class public final synthetic Lo/hasG;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field private synthetic c:Landroid/webkit/WebResourceRequest;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroid/webkit/WebResourceRequest;)V
+    .locals 0
+
+    .line 0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/hasG;->c:Landroid/webkit/WebResourceRequest;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 0
+    iget-object v0, p0, Lo/hasG;->c:Landroid/webkit/WebResourceRequest;
+
+    invoke-static {v0}, Lo/ClientVideoOuterClassVector3D;->b(Landroid/webkit/WebResourceRequest;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

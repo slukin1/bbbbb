@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ="fill_parent" ="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/2131429138" ="@drawable/onfido_circle_small" ="6.0sp" ="6.0sp" />
+    <TextView android:id="@id/2131429139" ="2" ="16.0dip" ="@id/2131429138" style="@style/2132148937" />
+</RelativeLayout>

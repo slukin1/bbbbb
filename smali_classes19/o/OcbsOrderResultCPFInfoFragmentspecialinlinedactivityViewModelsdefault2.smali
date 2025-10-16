@@ -1,0 +1,120 @@
+.class public final Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;
+.super Lo/statusBg;
+
+
+# instance fields
+.field private final a:Lo/setFastFunds;
+
+.field public final c:Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+
+# direct methods
+.method public constructor <init>(Lcom/cardinalcommerce/a/isEnableLogging;)V
+    .locals 1
+
+    .line 0
+    invoke-direct {p0}, Lo/statusBg;-><init>()V
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lcom/cardinalcommerce/a/isEnableLogging;->d(I)Lo/OcbsOrderHistoryFragment;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lo/setFastFunds;->d(Ljava/lang/Object;)Lo/setFastFunds;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;->a:Lo/setFastFunds;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, v0}, Lcom/cardinalcommerce/a/isEnableLogging;->d(I)Lo/OcbsOrderHistoryFragment;
+
+    move-result-object p1
+
+    .line 1000
+    instance-of v0, p1, Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+    if-eqz v0, :cond_0
+
+    check-cast p1, Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+    goto :goto_0
+
+    :cond_0
+    if-eqz p1, :cond_1
+
+    new-instance v0, Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+    invoke-static {p1}, Lcom/cardinalcommerce/a/isEnableLogging;->e(Ljava/lang/Object;)Lcom/cardinalcommerce/a/isEnableLogging;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Lo/OcbsBuyInputRevampFragmentrefreshPage1;-><init>(Lcom/cardinalcommerce/a/isEnableLogging;)V
+
+    move-object p1, v0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 p1, 0x0
+
+    .line 0
+    :goto_0
+    iput-object p1, p0, Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;->c:Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lo/OcbsBuyInputRevampFragmentrefreshPage1;)V
+    .locals 3
+
+    .line 65354
+    invoke-direct {p0}, Lo/statusBg;-><init>()V
+
+    new-instance v0, Lo/setFastFunds;
+
+    const-wide/16 v1, 0x0
+
+    invoke-direct {v0, v1, v2}, Lo/setFastFunds;-><init>(J)V
+
+    iput-object v0, p0, Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;->a:Lo/setFastFunds;
+
+    iput-object p1, p0, Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;->c:Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final e()Lo/FiatAssetBaseInfoBean;
+    .locals 3
+
+    .line 0
+    new-instance v0, Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;
+
+    invoke-direct {v0}, Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;-><init>()V
+
+    iget-object v1, p0, Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;->a:Lo/setFastFunds;
+
+    .line 2000
+    iget-object v2, v0, Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;->e:Ljava/util/Vector;
+
+    invoke-virtual {v2, v1}, Ljava/util/Vector;->addElement(Ljava/lang/Object;)V
+
+    .line 0
+    iget-object v1, p0, Lo/OcbsOrderResultCPFInfoFragmentspecialinlinedactivityViewModelsdefault2;->c:Lo/OcbsBuyInputRevampFragmentrefreshPage1;
+
+    .line 3000
+    iget-object v2, v0, Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;->e:Ljava/util/Vector;
+
+    invoke-virtual {v2, v1}, Ljava/util/Vector;->addElement(Ljava/lang/Object;)V
+
+    .line 0
+    new-instance v1, Lcom/cardinalcommerce/a/getProcessorTransactionId;
+
+    invoke-direct {v1, v0}, Lcom/cardinalcommerce/a/getProcessorTransactionId;-><init>(Lo/OcbsPaymentDataExchangeForLiteExtKtchangeAccount11;)V
+
+    return-object v1
+.end method

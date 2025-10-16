@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/2131435986" ="fill_parent" ="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/2131436036" ="#00000000" ="fill_parent" ="wrap_content" 2130969331="0.0dip">
+        <LinearLayout ="vertical" android:id="@id/2131427920" ="fill_parent" ="wrap_content" 2130969974="2131439795">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/2131436039" ="fill_parent" ="wrap_content" />
+            <include android:id="@id/2131435979" ="gone" layout="@layout/2131627055" />
+            <View ="bottom" android:id="@id/divider" ="@color/2131099751" ="fill_parent" ="0.5dip" ="12.0dip" />
+        </LinearLayout>
+        <include android:id="@id/2131436904" layout="@layout/2131627090" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/2131449649" ="fill_parent" ="fill_parent" 2130969901="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

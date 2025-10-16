@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat ="vertical" ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" ="end" android:id="@id/2131437778" ="@drawable/2131235989" ="12.0dip" ="gone" ="fill_parent" ="wrap_content" ="10.0dip" ="4.0dip" android:text="@string/lite_plz_switch_to_pro_hint" ="2" ="@color/2131099744" style="@style/2132149359" />
+    <androidx.constraintlayout.widget.ConstraintLayout ="fill_parent" ="64.0dip">
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/tvYourBalance" ="wrap_content" ="wrap_content" android:text="@string/ocbs_buy_payment_cash_balance_label" 2130969912="@id/tvYourBalanceValue" 2130969937="2131438103" 2130969941="2131438103" 2130969943="2131438085" style="@style/2132149394" />
+        <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="bottom" android:id="@id/tvYourBalanceValue" ="0.0dip" ="wrap_content" android:text="0.0" 2130969911="2131438103" 2130969918="@id/2131428769" 2130969937="2131438103" 2130969940="@id/tvYourBalance" style="@style/2132149447" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428915" ="gone" ="0.0dip" ="wrap_content" 2130969911="2131438103" 2130969918="@id/2131428769" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132148697" />
+        <com.major.android.uikit2.button.KitButton android:id="@id/2131428769" ="0.0dip" ="wrap_content" ="12.0dip" 2130969911="2131438103" 2130969917="2131438103" 2130969936="@id/2131428915" 2130969941="2131438103" 2130969961="@dimen/2131166153" style="@style/2132148692" />
+        <androidx.constraintlayout.widget.Group android:id="@id/2131432621" ="gone" ="wrap_content" ="wrap_content" 2130969125="tvYourBalance,tvYourBalanceValue" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/2131431283" ="fill_parent" ="50.0dip" style="@style/2132148625" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099762" ="center" ="end" android:id="@id/2131442930" ="wrap_content" ="50.0dip" ="10.0dip" style="@style/2132149446" />
+    <TextView ="@color/2131099863" android:id="@id/2131442949" ="gone" ="wrap_content" ="wrap_content" ="41.0dip" style="@style/2132149384" />
+    <View android:id="@id/2131449388" ="gone" ="fill_parent" ="50.0dip" />
+</merge>

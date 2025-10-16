@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout ="15.0dip" ="15.0dip" ="fill_parent" ="wrap_content" ="@color/2131099685" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442939" ="wrap_content" ="30.0dip" ="8.0dip" android:text="@string/futures_history_position_avg_cost" 2130969937="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442941" ="wrap_content" ="30.0dip" ="8.0dip" ="120.0dip" ="1" 2130969917="2131438103" 2130969941="2131438103" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099778" android:id="@id/2131442369" ="wrap_content" ="30.0dip" android:text="@string/futures_break_even_price" 2130969937="@id/2131442939" 2130969940="@id/2131442939" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" ="end" android:id="@id/2131442370" ="wrap_content" ="30.0dip" ="120.0dip" ="1" 2130969917="@id/2131442941" 2130969940="@id/2131442941" style="@style/2132149446" />
+    <androidx.appcompat.widget.AppCompatTextView ="@color/2131099764" android:id="@id/2131442368" ="0.0dip" ="wrap_content" ="16.0dip" android:text="@string/futures_break_even_price_desc" 2130969917="@id/2131442941" 2130969937="@id/2131442369" 2130969940="@id/2131442369" style="@style/2132149350" />
+    <com.major.android.uikit2.button.KitButton ="@color/2131099789" ="center" android:id="@id/2131443898" ="0.0dip" ="40.0dip" ="16.0dip" android:text="@string/OK" 2130969917="@id/2131442368" 2130969937="@id/2131442368" 2130969940="@id/2131442368" style="@style/2132148692" />
+    <android.widget.Space ="0.0dip" ="15.0dip" 2130969917="2131438103" 2130969937="2131438103" 2130969940="@id/2131443898" />
+</androidx.constraintlayout.widget.ConstraintLayout>
